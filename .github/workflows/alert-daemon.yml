@@ -2,7 +2,7 @@ name: Alert Feed Daemon Release
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - 'services/alert-feed-daemon/**'
       - '!services/alert-feed-daemon/**/*.md'
