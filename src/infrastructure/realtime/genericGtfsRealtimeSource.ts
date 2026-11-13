@@ -40,6 +40,7 @@ import { resolveNetworkDocumentFeed } from "~/domain/realtimeFeedRouting";
 import { logger } from "~/infrastructure/logging/logger";
 
 export interface GenericGtfsRealtimeSourceOptions {
+  readonly stopLocations?: import("./scheduledPredictions").PredictionIdentityOptions["stopLocations"];
   readonly vehicleOnlyRouteIds?: ReadonlySet<string>;
   readonly getScheduledStopTimes?: import("~/domain/surface/scheduledStopTimes").ScheduledStopLookup;
   readonly getSourceAgencyScope?: import("~/domain/surface/boarding").SourceAgencyScopeLookup;
@@ -255,6 +256,8 @@ export function createGenericGtfsRealtimeSource(
         Effect.flatMap((tripRoutes) =>
           prepareScheduledPredictions(bytes, {
             ...feed,
+            stopLocations: opts.stopLocations,
+            routeInterpretation: opts.routeInterpretation,
             tripRoutes,
             getScheduledStopTimes: opts.getScheduledStopTimes,
             getSourceAgencyScope: opts.getSourceAgencyScope,
@@ -264,6 +267,7 @@ export function createGenericGtfsRealtimeSource(
             Effect.flatMap((predictionOptions) =>
               decodeGtfsRealtimeFeed(bytes, {
                 ...predictionOptions,
+                vehicleTripSource: feed.vehicleTripSource,
                 tripRoutes,
                 idNamespace: feed.idNamespace,
                 routeInterpretation: opts.routeInterpretation,

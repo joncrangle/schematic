@@ -40,6 +40,7 @@ export function isTerminatingPrediction(
   prediction: ArrivalPrediction,
   terminal: TripTerminal | undefined,
 ): boolean {
+  if (prediction.isTerminalCall !== undefined) return prediction.isTerminalCall;
   if (prediction.departureConfirmed === true) return false;
   if (!terminal || terminal.stopId !== prediction.stopId) return false;
   // A loop may call at its terminal before its final lap. Feeds without

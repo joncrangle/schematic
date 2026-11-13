@@ -667,6 +667,14 @@ export function createGenericStationsSource(opts: GenericStationsSourceOptions):
                   Effect.flatMap((tripRoutes) =>
                     prepareScheduledPredictions(bytes, {
                       ...tripFeed,
+                      stopLocations: tripFeed.completeTripUpdates
+                        ? new Map(
+                            opts.stations.flatMap((station) =>
+                              station.platformIds.map((id) => [id, station] as const),
+                            ),
+                          )
+                        : undefined,
+                      routeInterpretation: opts.routeInterpretation,
                       tripRoutes,
                       getScheduledStopTimes: opts.getScheduledStopTimes,
                       getSourceAgencyScope: opts.getSourceAgencyScope,
@@ -1435,6 +1443,7 @@ export function createGenericStationsSource(opts: GenericStationsSourceOptions):
         // presence would disable this handling agency-wide and re-render a
         // terminating arrival as a departure to its own terminal.
         prediction.directionAuthoritative !== true &&
+        prediction.isTerminalCall === undefined &&
         terminal === undefined &&
         joinedDirection === undefined &&
         terminus &&
@@ -1459,6 +1468,7 @@ export function createGenericStationsSource(opts: GenericStationsSourceOptions):
         // presence would disable this handling agency-wide and re-render a
         // terminating arrival as a departure to its own terminal.
         prediction.directionAuthoritative !== true &&
+        prediction.isTerminalCall === undefined &&
         terminal === undefined &&
         joinedDirection === undefined &&
         terminus &&

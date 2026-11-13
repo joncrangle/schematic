@@ -1,0 +1,1972 @@
+{
+  "viewBoxWidth": 3500,
+  "viewBoxHeight": 2550,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Hudson",
+      "color": "#009B3A",
+      "points": [
+        {
+          "x": 612,
+          "y": 2360
+        },
+        {
+          "x": 612,
+          "y": 2312
+        },
+        {
+          "x": 600,
+          "y": 2300
+        },
+        {
+          "x": 600,
+          "y": 2160
+        },
+        {
+          "x": 470,
+          "y": 2030
+        },
+        {
+          "x": 300,
+          "y": 1860
+        },
+        {
+          "x": 300,
+          "y": 1750
+        },
+        {
+          "x": 250,
+          "y": 1700
+        },
+        {
+          "x": 250,
+          "y": 1420
+        },
+        {
+          "x": 250,
+          "y": 1160
+        },
+        {
+          "x": 250,
+          "y": 1000
+        },
+        {
+          "x": 250,
+          "y": 820
+        },
+        {
+          "x": 250,
+          "y": 520
+        },
+        {
+          "x": 250,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Harlem",
+      "color": "#0039A6",
+      "points": [
+        {
+          "x": 612,
+          "y": 2360
+        },
+        {
+          "x": 612,
+          "y": 2312
+        },
+        {
+          "x": 612,
+          "y": 2300
+        },
+        {
+          "x": 612,
+          "y": 2160
+        },
+        {
+          "x": 640,
+          "y": 2160
+        },
+        {
+          "x": 900,
+          "y": 1900
+        },
+        {
+          "x": 1040,
+          "y": 1760
+        },
+        {
+          "x": 1040,
+          "y": 1540
+        },
+        {
+          "x": 1100,
+          "y": 1480
+        },
+        {
+          "x": 1100,
+          "y": 1300
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 600
+        },
+        {
+          "x": 1100,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "New Haven",
+      "color": "#EE0034",
+      "points": [
+        {
+          "x": 612,
+          "y": 2360
+        },
+        {
+          "x": 612,
+          "y": 2312
+        },
+        {
+          "x": 624,
+          "y": 2300
+        },
+        {
+          "x": 624,
+          "y": 2160
+        },
+        {
+          "x": 652,
+          "y": 2160
+        },
+        {
+          "x": 912,
+          "y": 1900
+        },
+        {
+          "x": 1200,
+          "y": 1900
+        },
+        {
+          "x": 1320,
+          "y": 1780
+        },
+        {
+          "x": 1500,
+          "y": 1780
+        },
+        {
+          "x": 1640,
+          "y": 1780
+        },
+        {
+          "x": 1800,
+          "y": 1620
+        },
+        {
+          "x": 1980,
+          "y": 1620
+        },
+        {
+          "x": 2200,
+          "y": 1400
+        },
+        {
+          "x": 2400,
+          "y": 1400
+        },
+        {
+          "x": 2600,
+          "y": 1200
+        },
+        {
+          "x": 2670,
+          "y": 1200
+        },
+        {
+          "x": 2750,
+          "y": 1120
+        },
+        {
+          "x": 2980,
+          "y": 1120
+        },
+        {
+          "x": 3100,
+          "y": 1000
+        },
+        {
+          "x": 3120,
+          "y": 1000
+        },
+        {
+          "x": 3240,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "New Canaan",
+      "color": "#EE0034",
+      "points": [
+        {
+          "x": 1800,
+          "y": 1620
+        },
+        {
+          "x": 1800,
+          "y": 1400
+        },
+        {
+          "x": 1800,
+          "y": 1220
+        },
+        {
+          "x": 1800,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Danbury",
+      "color": "#EE0034",
+      "points": [
+        {
+          "x": 2200,
+          "y": 1400
+        },
+        {
+          "x": 2200,
+          "y": 1100
+        },
+        {
+          "x": 2200,
+          "y": 780
+        },
+        {
+          "x": 2200,
+          "y": 660
+        },
+        {
+          "x": 2160,
+          "y": 620
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Waterbury",
+      "color": "#EE0034",
+      "points": [
+        {
+          "x": 2600,
+          "y": 1200
+        },
+        {
+          "x": 2670,
+          "y": 1200
+        },
+        {
+          "x": 2750,
+          "y": 1120
+        },
+        {
+          "x": 2750,
+          "y": 900
+        },
+        {
+          "x": 2750,
+          "y": 620
+        },
+        {
+          "x": 2750,
+          "y": 300
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "grand-central-terminal",
+      "name": "Grand Central Terminal",
+      "x": 612,
+      "y": 2360,
+      "lines": ["1", "2", "3"],
+      "label": {
+        "x": 612,
+        "y": 2400,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true,
+      "accessible": true
+    },
+    {
+      "id": "harlem-125-st",
+      "name": "Harlem-125 St",
+      "x": 612,
+      "y": 2160,
+      "lines": ["1", "2", "3"],
+      "label": {
+        "x": 580,
+        "y": 2160,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "yankees-e-153-st",
+      "name": "Yankees-E 153 St",
+      "x": 470,
+      "y": 2030,
+      "lines": ["1"],
+      "label": {
+        "x": 438,
+        "y": 2030,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "marble-hill",
+      "name": "Marble Hill",
+      "x": 300,
+      "y": 1860,
+      "lines": ["1"],
+      "label": {
+        "x": 268,
+        "y": 1860,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "yonkers",
+      "name": "Yonkers",
+      "x": 250,
+      "y": 1700,
+      "lines": ["1"],
+      "label": {
+        "x": 218,
+        "y": 1700,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "tarrytown",
+      "name": "Tarrytown",
+      "x": 250,
+      "y": 1420,
+      "lines": ["1"],
+      "label": {
+        "x": 218,
+        "y": 1420,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "ossining",
+      "name": "Ossining",
+      "x": 250,
+      "y": 1160,
+      "lines": ["1"],
+      "label": {
+        "x": 218,
+        "y": 1160,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "croton-harmon",
+      "name": "Croton-Harmon",
+      "x": 250,
+      "y": 1000,
+      "lines": ["1"],
+      "label": {
+        "x": 218,
+        "y": 1000,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "peekskill",
+      "name": "Peekskill",
+      "x": 250,
+      "y": 820,
+      "lines": ["1"],
+      "label": {
+        "x": 218,
+        "y": 820,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "beacon",
+      "name": "Beacon",
+      "x": 250,
+      "y": 520,
+      "lines": ["1"],
+      "label": {
+        "x": 218,
+        "y": 520,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "poughkeepsie",
+      "name": "Poughkeepsie",
+      "x": 250,
+      "y": 220,
+      "lines": ["1"],
+      "label": {
+        "x": 218,
+        "y": 220,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "fordham",
+      "name": "Fordham",
+      "x": 906,
+      "y": 1900,
+      "lines": ["2", "3"],
+      "label": {
+        "x": 878,
+        "y": 1900,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "mount-vernon-west",
+      "name": "Mount Vernon West",
+      "x": 1040,
+      "y": 1760,
+      "lines": ["2"],
+      "label": {
+        "x": 1068,
+        "y": 1760,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "white-plains",
+      "name": "White Plains",
+      "x": 1100,
+      "y": 1480,
+      "lines": ["2"],
+      "label": {
+        "x": 1128,
+        "y": 1480,
+        "anchor": "start",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "north-white-plains",
+      "name": "North White Plains",
+      "x": 1100,
+      "y": 1300,
+      "lines": ["2"],
+      "label": {
+        "x": 1128,
+        "y": 1300,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "mount-kisco",
+      "name": "Mount Kisco",
+      "x": 1100,
+      "y": 1000,
+      "lines": ["2"],
+      "label": {
+        "x": 1128,
+        "y": 1000,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "southeast",
+      "name": "Southeast",
+      "x": 1100,
+      "y": 600,
+      "lines": ["2"],
+      "label": {
+        "x": 1128,
+        "y": 600,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "wassaic",
+      "name": "Wassaic",
+      "x": 1100,
+      "y": 200,
+      "lines": ["2"],
+      "label": {
+        "x": 1128,
+        "y": 200,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "mount-vernon-east",
+      "name": "Mount Vernon East",
+      "x": 1320,
+      "y": 1780,
+      "lines": ["3"],
+      "label": {
+        "x": 1292,
+        "y": 1780,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "new-rochelle",
+      "name": "New Rochelle",
+      "x": 1500,
+      "y": 1780,
+      "lines": ["3"],
+      "label": {
+        "x": 1500,
+        "y": 1745,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "stamford",
+      "name": "Stamford",
+      "x": 1800,
+      "y": 1620,
+      "lines": ["3", "4"],
+      "label": {
+        "x": 1772,
+        "y": 1620,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "south-norwalk",
+      "name": "South Norwalk",
+      "x": 2200,
+      "y": 1400,
+      "lines": ["3", "5"],
+      "label": {
+        "x": 2172,
+        "y": 1400,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bridgeport",
+      "name": "Bridgeport",
+      "x": 2600,
+      "y": 1200,
+      "lines": ["3", "6"],
+      "label": {
+        "x": 2572,
+        "y": 1200,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "stratford",
+      "name": "Stratford",
+      "x": 2750,
+      "y": 1120,
+      "lines": ["3", "6"],
+      "label": {
+        "x": 2722,
+        "y": 1120,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "new-haven-union-station",
+      "name": "New Haven Union Station",
+      "x": 3100,
+      "y": 1000,
+      "lines": ["3"],
+      "label": {
+        "x": 3072,
+        "y": 1000,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "new-haven-state-st",
+      "name": "New Haven-State St",
+      "x": 3240,
+      "y": 880,
+      "lines": ["3"],
+      "label": {
+        "x": 3268,
+        "y": 880,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "glenbrook",
+      "name": "Glenbrook",
+      "x": 1800,
+      "y": 1400,
+      "lines": ["4"],
+      "label": {
+        "x": 1828,
+        "y": 1400,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "springdale",
+      "name": "Springdale",
+      "x": 1800,
+      "y": 1220,
+      "lines": ["4"],
+      "label": {
+        "x": 1828,
+        "y": 1220,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "new-canaan",
+      "name": "New Canaan",
+      "x": 1800,
+      "y": 1000,
+      "lines": ["4"],
+      "label": {
+        "x": 1828,
+        "y": 1000,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "wilton",
+      "name": "Wilton",
+      "x": 2200,
+      "y": 1100,
+      "lines": ["5"],
+      "label": {
+        "x": 2228,
+        "y": 1100,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel",
+      "x": 2200,
+      "y": 780,
+      "lines": ["5"],
+      "label": {
+        "x": 2228,
+        "y": 780,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "danbury",
+      "name": "Danbury",
+      "x": 2160,
+      "y": 620,
+      "lines": ["5"],
+      "label": {
+        "x": 2188,
+        "y": 620,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "derby-shelton",
+      "name": "Derby-Shelton",
+      "x": 2750,
+      "y": 900,
+      "lines": ["6"],
+      "label": {
+        "x": 2778,
+        "y": 900,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "naugatuck",
+      "name": "Naugatuck",
+      "x": 2750,
+      "y": 620,
+      "lines": ["6"],
+      "label": {
+        "x": 2778,
+        "y": 620,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "waterbury",
+      "name": "Waterbury",
+      "x": 2750,
+      "y": 300,
+      "lines": ["6"],
+      "label": {
+        "x": 2778,
+        "y": 300,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "HUD",
+      "x": 216,
+      "y": 660,
+      "color": "#009B3A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "HAR",
+      "x": 1066,
+      "y": 800,
+      "color": "#0039A6",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "NH",
+      "x": 2080,
+      "y": 1472,
+      "color": "#EE0034",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "NC",
+      "x": 1766,
+      "y": 1320,
+      "color": "#EE0034",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "5",
+      "num": "DAN",
+      "x": 2234,
+      "y": 940,
+      "color": "#EE0034",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6",
+      "num": "WAT",
+      "x": 2784,
+      "y": 460,
+      "color": "#EE0034",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 80,
+      "maxX": 3410,
+      "minY": 80,
+      "maxY": 2470
+    },
+    "minZoom": 0.25,
+    "maxZoom": 40
+  },
+  "geoProjection": {
+    "refLonWest": -74,
+    "refLonEast": -72.9,
+    "refXWest": 250,
+    "refXEast": 3240,
+    "refLatNorth": 41.85,
+    "refLatSouth": 40.75,
+    "refYNorth": 200,
+    "refYSouth": 2360
+  },
+  "sequences": {
+    "1": [
+      "poughkeepsie",
+      "beacon",
+      "peekskill",
+      "croton-harmon",
+      "ossining",
+      "tarrytown",
+      "yonkers",
+      "marble-hill",
+      "yankees-e-153-st",
+      "harlem-125-st",
+      "grand-central-terminal"
+    ],
+    "2": [
+      "wassaic",
+      "southeast",
+      "mount-kisco",
+      "north-white-plains",
+      "white-plains",
+      "mount-vernon-west",
+      "fordham",
+      "harlem-125-st",
+      "grand-central-terminal"
+    ],
+    "3": [
+      "new-haven-state-st",
+      "new-haven-union-station",
+      "stratford",
+      "bridgeport",
+      "south-norwalk",
+      "stamford",
+      "new-rochelle",
+      "mount-vernon-east",
+      "fordham",
+      "harlem-125-st",
+      "grand-central-terminal"
+    ],
+    "4": ["new-canaan", "springdale", "glenbrook", "stamford"],
+    "5": ["danbury", "bethel", "wilton", "south-norwalk"],
+    "6": ["waterbury", "naugatuck", "derby-shelton", "stratford", "bridgeport"]
+  },
+  "stationAliases": {
+    "id:1": "grand-central-terminal",
+    "id:4": "harlem-125-st",
+    "id:622": "yankees-e-153-st",
+    "id:11": "marble-hill",
+    "id:18": "yonkers",
+    "id:27": "tarrytown",
+    "id:31": "ossining",
+    "id:33": "croton-harmon",
+    "id:39": "peekskill",
+    "id:46": "beacon",
+    "id:51": "poughkeepsie",
+    "id:56": "fordham",
+    "id:62": "mount-vernon-west",
+    "id:74": "white-plains",
+    "id:76": "north-white-plains",
+    "id:84": "mount-kisco",
+    "id:94": "southeast",
+    "id:177": "wassaic",
+    "id:105": "mount-vernon-east",
+    "id:108": "new-rochelle",
+    "id:124": "stamford",
+    "id:131": "south-norwalk",
+    "id:140": "bridgeport",
+    "id:143": "stratford",
+    "id:149": "new-haven-union-station",
+    "id:151": "new-haven-state-st",
+    "id:153": "glenbrook",
+    "id:154": "springdale",
+    "id:157": "new-canaan",
+    "id:160": "wilton",
+    "id:164": "bethel",
+    "id:165": "danbury",
+    "id:167": "derby-shelton",
+    "id:171": "naugatuck",
+    "id:172": "waterbury"
+  },
+  "stationIndex": [
+    {
+      "id": "46",
+      "schematicId": "beacon",
+      "name": "Beacon",
+      "lat": 41.504007,
+      "lon": -73.984528,
+      "lines": ["1"],
+      "platformIds": ["46"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "164",
+      "schematicId": "bethel",
+      "name": "Bethel",
+      "lat": 41.376225,
+      "lon": -73.418171,
+      "lines": ["5"],
+      "platformIds": ["164"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "140",
+      "schematicId": "bridgeport",
+      "name": "Bridgeport",
+      "lat": 41.178677,
+      "lon": -73.187076,
+      "lines": ["3", "6"],
+      "platformIds": ["140"],
+      "departureRouteIds": ["3", "6"]
+    },
+    {
+      "id": "33",
+      "schematicId": "croton-harmon",
+      "name": "Croton-Harmon",
+      "lat": 41.189903,
+      "lon": -73.882394,
+      "lines": ["1"],
+      "platformIds": ["33"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "165",
+      "schematicId": "danbury",
+      "name": "Danbury",
+      "lat": 41.396146,
+      "lon": -73.44879,
+      "lines": ["5"],
+      "platformIds": ["165"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "167",
+      "schematicId": "derby-shelton",
+      "name": "Derby-Shelton",
+      "lat": 41.319718,
+      "lon": -73.083548,
+      "lines": ["6"],
+      "platformIds": ["167"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "56",
+      "schematicId": "fordham",
+      "name": "Fordham",
+      "lat": 40.8615,
+      "lon": -73.89058,
+      "lines": ["2", "3"],
+      "platformIds": ["56"],
+      "departureRouteIds": ["2", "3", "4"]
+    },
+    {
+      "id": "153",
+      "schematicId": "glenbrook",
+      "name": "Glenbrook",
+      "lat": 41.070547,
+      "lon": -73.520021,
+      "lines": ["4"],
+      "platformIds": ["153"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "1",
+      "schematicId": "grand-central-terminal",
+      "name": "Grand Central Terminal",
+      "lat": 40.752998,
+      "lon": -73.977056,
+      "lines": ["1", "2", "3"],
+      "platformIds": ["1"],
+      "departureRouteIds": ["1", "2", "3", "4", "5"]
+    },
+    {
+      "id": "4",
+      "schematicId": "harlem-125-st",
+      "name": "Harlem-125 St",
+      "lat": 40.805157,
+      "lon": -73.939149,
+      "lines": ["1", "2", "3"],
+      "platformIds": ["4"],
+      "departureRouteIds": ["1", "2", "3", "4", "5"]
+    },
+    {
+      "id": "11",
+      "schematicId": "marble-hill",
+      "name": "Marble Hill",
+      "lat": 40.874333,
+      "lon": -73.910941,
+      "lines": ["1"],
+      "platformIds": ["11"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "84",
+      "schematicId": "mount-kisco",
+      "name": "Mount Kisco",
+      "lat": 41.208242,
+      "lon": -73.729778,
+      "lines": ["2"],
+      "platformIds": ["84"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "105",
+      "schematicId": "mount-vernon-east",
+      "name": "Mount Vernon East",
+      "lat": 40.912161,
+      "lon": -73.832185,
+      "lines": ["3"],
+      "platformIds": ["105"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "62",
+      "schematicId": "mount-vernon-west",
+      "name": "Mount Vernon West",
+      "lat": 40.912142,
+      "lon": -73.851129,
+      "lines": ["2"],
+      "platformIds": ["62"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "171",
+      "schematicId": "naugatuck",
+      "name": "Naugatuck",
+      "lat": 41.494204,
+      "lon": -73.052655,
+      "lines": ["6"],
+      "platformIds": ["171"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "157",
+      "schematicId": "new-canaan",
+      "name": "New Canaan",
+      "lat": 41.146305,
+      "lon": -73.495626,
+      "lines": ["4"],
+      "platformIds": ["157"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "149",
+      "schematicId": "new-haven-union-station",
+      "name": "New Haven Union Station",
+      "lat": 41.296501,
+      "lon": -72.92829,
+      "lines": ["3"],
+      "platformIds": ["149"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "151",
+      "schematicId": "new-haven-state-st",
+      "name": "New Haven-State St",
+      "lat": 41.304979,
+      "lon": -72.921747,
+      "lines": ["3"],
+      "platformIds": ["151"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "108",
+      "schematicId": "new-rochelle",
+      "name": "New Rochelle",
+      "lat": 40.911605,
+      "lon": -73.783807,
+      "lines": ["3"],
+      "platformIds": ["108"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "76",
+      "schematicId": "north-white-plains",
+      "name": "North White Plains",
+      "lat": 41.049806,
+      "lon": -73.773142,
+      "lines": ["2"],
+      "platformIds": ["76"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "31",
+      "schematicId": "ossining",
+      "name": "Ossining",
+      "lat": 41.157663,
+      "lon": -73.869281,
+      "lines": ["1"],
+      "platformIds": ["31"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "39",
+      "schematicId": "peekskill",
+      "name": "Peekskill",
+      "lat": 41.285962,
+      "lon": -73.93042,
+      "lines": ["1"],
+      "platformIds": ["39"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "51",
+      "schematicId": "poughkeepsie",
+      "name": "Poughkeepsie",
+      "lat": 41.705839,
+      "lon": -73.937946,
+      "lines": ["1"],
+      "platformIds": ["51"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "131",
+      "schematicId": "south-norwalk",
+      "name": "South Norwalk",
+      "lat": 41.09673,
+      "lon": -73.421132,
+      "lines": ["3", "5"],
+      "platformIds": ["131"],
+      "departureRouteIds": ["3", "5"]
+    },
+    {
+      "id": "94",
+      "schematicId": "southeast",
+      "name": "Southeast",
+      "lat": 41.413203,
+      "lon": -73.623787,
+      "lines": ["2"],
+      "platformIds": ["94"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "154",
+      "schematicId": "springdale",
+      "name": "Springdale",
+      "lat": 41.08876,
+      "lon": -73.517828,
+      "lines": ["4"],
+      "platformIds": ["154"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "124",
+      "schematicId": "stamford",
+      "name": "Stamford",
+      "lat": 41.046611,
+      "lon": -73.542846,
+      "lines": ["3", "4"],
+      "platformIds": ["124"],
+      "departureRouteIds": ["3", "4", "5"]
+    },
+    {
+      "id": "143",
+      "schematicId": "stratford",
+      "name": "Stratford",
+      "lat": 41.194255,
+      "lon": -73.131532,
+      "lines": ["3", "6"],
+      "platformIds": ["143"],
+      "departureRouteIds": ["3", "6"]
+    },
+    {
+      "id": "27",
+      "schematicId": "tarrytown",
+      "name": "Tarrytown",
+      "lat": 41.076473,
+      "lon": -73.864563,
+      "lines": ["1"],
+      "platformIds": ["27"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "177",
+      "schematicId": "wassaic",
+      "name": "Wassaic",
+      "lat": 41.814722,
+      "lon": -73.562197,
+      "lines": ["2"],
+      "platformIds": ["177"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "172",
+      "schematicId": "waterbury",
+      "name": "Waterbury",
+      "lat": 41.552728,
+      "lon": -73.046126,
+      "lines": ["6"],
+      "platformIds": ["172"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "74",
+      "schematicId": "white-plains",
+      "name": "White Plains",
+      "lat": 41.032589,
+      "lon": -73.775208,
+      "lines": ["2"],
+      "platformIds": ["74"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "160",
+      "schematicId": "wilton",
+      "name": "Wilton",
+      "lat": 41.196202,
+      "lon": -73.432434,
+      "lines": ["5"],
+      "platformIds": ["160"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "622",
+      "schematicId": "yankees-e-153-st",
+      "name": "Yankees-E 153 St",
+      "lat": 40.8253,
+      "lon": -73.9299,
+      "lines": ["1"],
+      "platformIds": ["622"],
+      "departureRouteIds": ["1", "2", "3"]
+    },
+    {
+      "id": "18",
+      "schematicId": "yonkers",
+      "name": "Yonkers",
+      "lat": 40.935795,
+      "lon": -73.902668,
+      "lines": ["1"],
+      "platformIds": ["18"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "184",
+      "name": "Highbridge Yard",
+      "lat": 40.8359,
+      "lon": -73.9315,
+      "lines": ["1"],
+      "platformIds": ["184"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "9",
+      "name": "Morris Heights",
+      "lat": 40.854252,
+      "lon": -73.919583,
+      "lines": ["1"],
+      "platformIds": ["9"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "10",
+      "name": "University Heights",
+      "lat": 40.862248,
+      "lon": -73.91312,
+      "lines": ["1"],
+      "platformIds": ["10"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "14",
+      "name": "Spuyten Duyvil",
+      "lat": 40.878245,
+      "lon": -73.921455,
+      "lines": ["1"],
+      "platformIds": ["14"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "16",
+      "name": "Riverdale",
+      "lat": 40.903981,
+      "lon": -73.914126,
+      "lines": ["1"],
+      "platformIds": ["16"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "17",
+      "name": "Ludlow",
+      "lat": 40.924972,
+      "lon": -73.904612,
+      "lines": ["1"],
+      "platformIds": ["17"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "19",
+      "name": "Glenwood",
+      "lat": 40.950496,
+      "lon": -73.899062,
+      "lines": ["1"],
+      "platformIds": ["19"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "20",
+      "name": "Greystone",
+      "lat": 40.972705,
+      "lon": -73.889069,
+      "lines": ["1"],
+      "platformIds": ["20"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "22",
+      "name": "Hastings-on-Hudson",
+      "lat": 40.994109,
+      "lon": -73.884512,
+      "lines": ["1"],
+      "platformIds": ["22"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "23",
+      "name": "Dobbs Ferry",
+      "lat": 41.012459,
+      "lon": -73.87949,
+      "lines": ["1"],
+      "platformIds": ["23"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "24",
+      "name": "Ardsley-on-Hudson",
+      "lat": 41.026198,
+      "lon": -73.876543,
+      "lines": ["1"],
+      "platformIds": ["24"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "25",
+      "name": "Irvington",
+      "lat": 41.039993,
+      "lon": -73.873083,
+      "lines": ["1"],
+      "platformIds": ["25"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "29",
+      "name": "Philipse Manor",
+      "lat": 41.09492,
+      "lon": -73.869755,
+      "lines": ["1"],
+      "platformIds": ["29"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "30",
+      "name": "Scarborough",
+      "lat": 41.135763,
+      "lon": -73.866163,
+      "lines": ["1"],
+      "platformIds": ["30"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "37",
+      "name": "Cortlandt",
+      "lat": 41.246259,
+      "lon": -73.921884,
+      "lines": ["1"],
+      "platformIds": ["37"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "40",
+      "name": "Manitou",
+      "lat": 41.332601,
+      "lon": -73.970426,
+      "lines": ["1"],
+      "platformIds": ["40"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "42",
+      "name": "Garrison",
+      "lat": 41.38178,
+      "lon": -73.947202,
+      "lines": ["1"],
+      "platformIds": ["42"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "43",
+      "name": "Cold Spring",
+      "lat": 41.415283,
+      "lon": -73.95809,
+      "lines": ["1"],
+      "platformIds": ["43"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "49",
+      "name": "New Hamburg",
+      "lat": 41.587448,
+      "lon": -73.947226,
+      "lines": ["1"],
+      "platformIds": ["49"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "54",
+      "name": "Melrose",
+      "lat": 40.825761,
+      "lon": -73.915231,
+      "lines": ["2"],
+      "platformIds": ["54"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "55",
+      "name": "Tremont",
+      "lat": 40.847301,
+      "lon": -73.89955,
+      "lines": ["2"],
+      "platformIds": ["55"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "57",
+      "name": "Botanical Garden",
+      "lat": 40.866555,
+      "lon": -73.883109,
+      "lines": ["2"],
+      "platformIds": ["57"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "58",
+      "name": "Williams Bridge",
+      "lat": 40.878569,
+      "lon": -73.871064,
+      "lines": ["2"],
+      "platformIds": ["58"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "59",
+      "name": "Woodlawn",
+      "lat": 40.895361,
+      "lon": -73.862916,
+      "lines": ["2"],
+      "platformIds": ["59"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "61",
+      "name": "Wakefield",
+      "lat": 40.905936,
+      "lon": -73.85568,
+      "lines": ["2"],
+      "platformIds": ["61"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "64",
+      "name": "Fleetwood",
+      "lat": 40.92699,
+      "lon": -73.83948,
+      "lines": ["2"],
+      "platformIds": ["64"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "65",
+      "name": "Bronxville",
+      "lat": 40.93978,
+      "lon": -73.835208,
+      "lines": ["2"],
+      "platformIds": ["65"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "66",
+      "name": "Tuckahoe",
+      "lat": 40.949393,
+      "lon": -73.830166,
+      "lines": ["2"],
+      "platformIds": ["66"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "68",
+      "name": "Crestwood",
+      "lat": 40.958997,
+      "lon": -73.820564,
+      "lines": ["2"],
+      "platformIds": ["68"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "71",
+      "name": "Scarsdale",
+      "lat": 40.989168,
+      "lon": -73.808634,
+      "lines": ["2"],
+      "platformIds": ["71"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "72",
+      "name": "Hartsdale",
+      "lat": 41.010333,
+      "lon": -73.796407,
+      "lines": ["2"],
+      "platformIds": ["72"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "78",
+      "name": "Valhalla",
+      "lat": 41.072819,
+      "lon": -73.772599,
+      "lines": ["2"],
+      "platformIds": ["78"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "79",
+      "name": "Mt Pleasant",
+      "lat": 41.095877,
+      "lon": -73.793822,
+      "lines": ["2"],
+      "platformIds": ["79"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "80",
+      "name": "Hawthorne",
+      "lat": 41.108581,
+      "lon": -73.79625,
+      "lines": ["2"],
+      "platformIds": ["80"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "81",
+      "name": "Pleasantville",
+      "lat": 41.135222,
+      "lon": -73.792661,
+      "lines": ["2"],
+      "platformIds": ["81"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "83",
+      "name": "Chappaqua",
+      "lat": 41.158015,
+      "lon": -73.774885,
+      "lines": ["2"],
+      "platformIds": ["83"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "85",
+      "name": "Bedford Hills",
+      "lat": 41.237316,
+      "lon": -73.699936,
+      "lines": ["2"],
+      "platformIds": ["85"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "86",
+      "name": "Katonah",
+      "lat": 41.259552,
+      "lon": -73.684155,
+      "lines": ["2"],
+      "platformIds": ["86"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "88",
+      "name": "Goldens Bridge",
+      "lat": 41.294338,
+      "lon": -73.677655,
+      "lines": ["2"],
+      "platformIds": ["88"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "89",
+      "name": "Purdy's",
+      "lat": 41.325775,
+      "lon": -73.659061,
+      "lines": ["2"],
+      "platformIds": ["89"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "90",
+      "name": "Croton Falls",
+      "lat": 41.347722,
+      "lon": -73.662269,
+      "lines": ["2"],
+      "platformIds": ["90"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "91",
+      "name": "Brewster",
+      "lat": 41.39447,
+      "lon": -73.619802,
+      "lines": ["2"],
+      "platformIds": ["91"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "97",
+      "name": "Patterson",
+      "lat": 41.511827,
+      "lon": -73.604584,
+      "lines": ["2"],
+      "platformIds": ["97"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "98",
+      "name": "Pawling",
+      "lat": 41.564205,
+      "lon": -73.600524,
+      "lines": ["2"],
+      "platformIds": ["98"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "99",
+      "name": "Appalachian Trail",
+      "lat": 41.592871,
+      "lon": -73.588032,
+      "lines": ["2"],
+      "platformIds": ["99"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "100",
+      "name": "Harlem Valley-Wingdale",
+      "lat": 41.637525,
+      "lon": -73.57145,
+      "lines": ["2"],
+      "platformIds": ["100"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "101",
+      "name": "Dover Plains",
+      "lat": 41.740401,
+      "lon": -73.576502,
+      "lines": ["2"],
+      "platformIds": ["101"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "176",
+      "name": "Tenmile River",
+      "lat": 41.779938,
+      "lon": -73.558204,
+      "lines": ["2"],
+      "platformIds": ["176"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "106",
+      "name": "Pelham",
+      "lat": 40.910321,
+      "lon": -73.810242,
+      "lines": ["3", "4"],
+      "platformIds": ["106"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "110",
+      "name": "Larchmont",
+      "lat": 40.933394,
+      "lon": -73.759792,
+      "lines": ["3", "4"],
+      "platformIds": ["110"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "111",
+      "name": "Mamaroneck",
+      "lat": 40.954061,
+      "lon": -73.736125,
+      "lines": ["3", "4"],
+      "platformIds": ["111"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "112",
+      "name": "Harrison",
+      "lat": 40.969432,
+      "lon": -73.712964,
+      "lines": ["3", "4"],
+      "platformIds": ["112"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "114",
+      "name": "Rye",
+      "lat": 40.985922,
+      "lon": -73.682553,
+      "lines": ["3", "4"],
+      "platformIds": ["114"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "115",
+      "name": "Port Chester",
+      "lat": 41.000732,
+      "lon": -73.6647,
+      "lines": ["3", "4"],
+      "platformIds": ["115"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "116",
+      "name": "Greenwich",
+      "lat": 41.021277,
+      "lon": -73.624621,
+      "lines": ["3", "4", "5"],
+      "platformIds": ["116"],
+      "departureRouteIds": ["3", "4", "5"]
+    },
+    {
+      "id": "118",
+      "name": "Cos Cob",
+      "lat": 41.030171,
+      "lon": -73.598306,
+      "lines": ["3", "4"],
+      "platformIds": ["118"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "120",
+      "name": "Riverside",
+      "lat": 41.031682,
+      "lon": -73.588173,
+      "lines": ["3", "4"],
+      "platformIds": ["120"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "121",
+      "name": "Old Greenwich",
+      "lat": 41.033817,
+      "lon": -73.565859,
+      "lines": ["3", "4"],
+      "platformIds": ["121"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "651",
+      "name": "Springdale MW Facility",
+      "lat": 41.082147,
+      "lon": -73.519675,
+      "lines": ["4"],
+      "platformIds": ["651"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "155",
+      "name": "Talmadge Hill",
+      "lat": 41.116012,
+      "lon": -73.498149,
+      "lines": ["4"],
+      "platformIds": ["155"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "127",
+      "name": "Noroton Heights",
+      "lat": 41.069041,
+      "lon": -73.49788,
+      "lines": ["3", "5"],
+      "platformIds": ["127"],
+      "departureRouteIds": ["3", "5"]
+    },
+    {
+      "id": "128",
+      "name": "Darien",
+      "lat": 41.076913,
+      "lon": -73.472966,
+      "lines": ["3", "5"],
+      "platformIds": ["128"],
+      "departureRouteIds": ["3", "5"]
+    },
+    {
+      "id": "129",
+      "name": "Rowayton",
+      "lat": 41.077456,
+      "lon": -73.445527,
+      "lines": ["3", "5"],
+      "platformIds": ["129"],
+      "departureRouteIds": ["3", "5"]
+    },
+    {
+      "id": "158",
+      "name": "Merritt 7",
+      "lat": 41.146618,
+      "lon": -73.427859,
+      "lines": ["5"],
+      "platformIds": ["158"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "161",
+      "name": "Cannondale",
+      "lat": 41.21662,
+      "lon": -73.426703,
+      "lines": ["5"],
+      "platformIds": ["161"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "162",
+      "name": "Branchville",
+      "lat": 41.26763,
+      "lon": -73.441421,
+      "lines": ["5"],
+      "platformIds": ["162"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "163",
+      "name": "Redding",
+      "lat": 41.325684,
+      "lon": -73.4338,
+      "lines": ["5"],
+      "platformIds": ["163"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "133",
+      "name": "East Norwalk",
+      "lat": 41.103996,
+      "lon": -73.404588,
+      "lines": ["3"],
+      "platformIds": ["133"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "134",
+      "name": "Westport",
+      "lat": 41.118928,
+      "lon": -73.371413,
+      "lines": ["3"],
+      "platformIds": ["134"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "136",
+      "name": "Green's Farms",
+      "lat": 41.122265,
+      "lon": -73.315408,
+      "lines": ["3"],
+      "platformIds": ["136"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "137",
+      "name": "Southport",
+      "lat": 41.134844,
+      "lon": -73.28897,
+      "lines": ["3"],
+      "platformIds": ["137"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "138",
+      "name": "Fairfield",
+      "lat": 41.143077,
+      "lon": -73.257742,
+      "lines": ["3"],
+      "platformIds": ["138"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "188",
+      "name": "Fairfield-Black Rock",
+      "lat": 41.161,
+      "lon": -73.234336,
+      "lines": ["3"],
+      "platformIds": ["188"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "168",
+      "name": "Ansonia",
+      "lat": 41.344156,
+      "lon": -73.079892,
+      "lines": ["6"],
+      "platformIds": ["168"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "169",
+      "name": "Seymour",
+      "lat": 41.395139,
+      "lon": -73.072499,
+      "lines": ["6"],
+      "platformIds": ["169"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "170",
+      "name": "Beacon Falls",
+      "lat": 41.441752,
+      "lon": -73.06359,
+      "lines": ["6"],
+      "platformIds": ["170"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "145",
+      "name": "Milford",
+      "lat": 41.223231,
+      "lon": -73.057647,
+      "lines": ["3"],
+      "platformIds": ["145"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "190",
+      "name": "West Haven",
+      "lat": 41.27142,
+      "lon": -72.963488,
+      "lines": ["3"],
+      "platformIds": ["190"],
+      "departureRouteIds": ["3"]
+    }
+  ]
+}

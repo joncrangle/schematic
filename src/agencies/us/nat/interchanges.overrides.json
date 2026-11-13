@@ -43,6 +43,41 @@
           "layout": "vertical"
         }
       }
+    },
+    {
+      "id": "amtrak-metro-north-newhavenunion",
+      "endpoints": [
+        {
+          "agencyId": "amtrak",
+          "stationId": "new-haven",
+          "stationName": "New Haven Union Station"
+        },
+        {
+          "agencyId": "metro-north",
+          "stationId": "new-haven-union-station",
+          "stationName": "New Haven Union Station"
+        },
+        {
+          "agencyId": "flixbus-us",
+          "stationName": "New Haven Bus Stop",
+          "feedStopIds": ["1b3a311b-3f9a-47da-900e-ea41472736d4"]
+        }
+      ]
+    },
+    {
+      "id": "flixbus-us-metro-north-unionavenue",
+      "endpoints": [
+        {
+          "agencyId": "metro-north",
+          "stationId": "new-haven-union-station",
+          "stationName": "New Haven Union Station"
+        },
+        {
+          "agencyId": "flixbus-us",
+          "stationName": "New Haven",
+          "feedStopIds": ["9b6aaed4-3ecb-11ea-8017-02437075395e"]
+        }
+      ]
     }
   ],
   "exclusions": [

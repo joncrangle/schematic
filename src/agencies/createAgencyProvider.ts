@@ -190,6 +190,15 @@ export function createAgencyProvider(config: CreateAgencyProviderConfig): Agency
           ({ createGenericGtfsRealtimeSource }) =>
             createGenericGtfsRealtimeSource({
               agencyId: manifest.id,
+              stopLocations: realtimeFeeds.some(
+                (feed) => "completeTripUpdates" in feed && feed.completeTripUpdates,
+              )
+                ? new Map(
+                    (schematic?.stationIndex ?? []).flatMap((station) =>
+                      station.platformIds.map((id) => [id, station] as const),
+                    ),
+                  )
+                : undefined,
               vehicleOnlyRouteIds: new Set(
                 staticTopology.vehicleOnlyRoutes?.map((route) => route.id),
               ),

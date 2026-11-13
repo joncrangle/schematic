@@ -712,6 +712,8 @@ export const TripDirectionExtensionSchema = Schema.Struct({
 export type TripDirectionExtension = Schema.Schema.Type<typeof TripDirectionExtensionSchema>;
 
 const gtfsRtFeedFields = {
+  completeTripUpdates: Schema.optional(Schema.Literal(true)),
+  vehicleTripSource: Schema.optional(Schema.Literal("entity-trip-update")),
   tripDirectionExtension: Schema.optional(TripDirectionExtensionSchema),
   emptyTripUpdates: Schema.optional(Schema.Literal("error")),
   predictionTimeSource: Schema.optional(Schema.Literal("static-with-delay")),
@@ -1914,6 +1916,7 @@ export type Schematic = Schema.Schema.Type<typeof SchematicSchema>;
 
 /** Normalized realtime arrival produced by Core's feed adapters. */
 export const GenericArrivalPredictionSchema = Schema.Struct({
+  isTerminalCall: Schema.optional(Schema.Boolean),
   tripId: NonBlankStringSchema,
   routeId: NonBlankStringSchema,
   directionId: FiniteNumberSchema,
