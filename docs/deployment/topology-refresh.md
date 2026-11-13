@@ -22,6 +22,20 @@ bun run start
 
 Repeat the targeted seed for each agency you intend to populate. Give the application user write access to `DATA_DIR`. In a container, mount that directory as a persistent volume. The runtime maps `DB_TRANSIT` to `DATA_DIR/transit.db`, alongside `DATA_DIR/push-notifications.db` for notifications. The seed script defaults to `./data` when `DATA_DIR` is absent, but the self-hosted runtime requires `DATA_DIR`; set it explicitly.
 
+Container images contain application code and committed lookup assets, with no pre-seeded GTFS
+databases. Initialize your selected agencies once in the persistent volume before starting the app:
+
+```sh
+docker compose run --rm schematic init --agency=ttc,go
+docker compose up -d schematic
+```
+
+Choose your agency IDs, `--agency=all`, or a region such as `--scope=ca/on`. The initializer
+downloads feeds and reconciles SQLite without changing source manifests or generated assets.
+It returns a nonzero status when any selected agency is skipped; successful agencies remain
+initialized. Existing volumes work across image upgrades. Repeat initialization when adding an
+agency or repairing its topology, rather than on every restart.
+
 `bun run start` calls the compiled server's `initSchedulers()` before serving requests. A custom Node launcher must use Node 22.13+ with `node:sqlite` available and call `initSchedulers()` once before serving requests. The repository's start command is Bun-specific, not a Node HTTP launcher. The optional Forgejo workflow's Node 24 container is not an application requirement.
 
 The topology timer is independent of alert scheduling. It arms the next 04:00 UTC opportunity and allows one cycle in flight. Keep the application running. Importing the server alone starts no timers, startup does not refresh every agency, and restarts do not catch up missed runs. No separate CI or cron job is needed for this local SQLite path. The remote CLI below targets Cloudflare D1, not local SQLite.

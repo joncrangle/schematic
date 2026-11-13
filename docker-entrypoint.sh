@@ -6,18 +6,10 @@ DATA_DIRECTORY="${DATA_DIR:-/app/data}"
 # Create persistent data directory if missing
 mkdir -p "$DATA_DIRECTORY"
 
-# Cold start: copy pre-generated hierarchical database templates if volume
-# databases are missing.
-find /app/templates -type f -name '*.db' -print | while IFS= read -r template; do
-  relative_path=${template#/app/templates/}
-  target="$DATA_DIRECTORY/$relative_path"
-  if [ ! -f "$target" ]; then
-    mkdir -p "$(dirname "$target")"
-    echo "Cold start: Initializing $target from pre-built template..."
-    cp "$template" "$target"
-    echo "Database initialized successfully at $target"
-  fi
-done
+if [ "${1:-}" = "init" ]; then
+  shift
+  exec bun dist/scripts/seed.js --database-only --db=sqlite "$@"
+fi
 
 # If arguments are passed, execute them
 if [ "$#" -gt 0 ]; then

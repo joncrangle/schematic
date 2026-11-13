@@ -94,6 +94,7 @@ export interface ParsedSeedArgs {
   zipArg?: string;
   scope?: string;
   interchangesOnly?: boolean;
+  databaseOnly?: boolean;
   isHelp?: boolean;
 }
 
@@ -103,6 +104,11 @@ export function parseCliArgs(args: readonly string[]): ParsedSeedArgs {
   for (const arg of args) {
     if (arg === "-h" || arg === "--help") {
       result.isHelp = true;
+      continue;
+    }
+
+    if (arg === "--database-only") {
+      result.databaseOnly = true;
       continue;
     }
 
@@ -168,6 +174,8 @@ export function parseCliArgs(args: readonly string[]): ParsedSeedArgs {
   }
   if (result.zipArg && result.agencies.length > 1)
     throw new Error("--zip can only be used with one agency.");
+  if (result.databaseOnly && result.interchangesOnly)
+    throw new Error("--database-only cannot regenerate interchange artifacts.");
   return result;
 }
 
@@ -184,7 +192,8 @@ ${"\x1B[1m"}Usage:${"\x1B[0m"}
 ${"\x1B[1m"}Options:${"\x1B[0m"}
   --agency=<${seedable || "id"}|all>   Target agency or comma-separated list (default: prompt if TTY)
   --scope=<path|regional|national|international>  Limit discovery to an agency scope
-  --db=<sqlite|d1|both|remote>   Database target (default: both)
+  --db=<sqlite|d1|both|remote>   Database target (default: both; database-only: sqlite)
+  --database-only         Initialize SQLite without rewriting source or generated assets
   --zip=<path|url>        Override GTFS zip file/URL (for single agency run)
   --interchange-only      Regenerate static interchanges from existing SQLite databases without prompting
   -h, --help              Show this help message
@@ -219,6 +228,7 @@ function formatAgencyScope(agencies: readonly string[]): string {
 export async function runSeeder(options: {
   agencies: string[];
   dbTarget: DbTarget;
+  databaseOnly?: boolean;
   zipArg?: string;
   /** Injected in tests; defaults to the real downloader. */
   fetchArchives?: typeof fetchAllAgencyArchives;
@@ -228,12 +238,25 @@ export async function runSeeder(options: {
   compileInterchangesStep?: typeof compileStaticInterchanges;
 }): Promise<SeedRunResult> {
   const startTime = Date.now();
-  const { agencies, dbTarget, zipArg, fetchArchives, seedAgency, compileInterchangesStep } =
-    options;
+  const {
+    agencies,
+    dbTarget,
+    databaseOnly,
+    zipArg,
+    fetchArchives,
+    seedAgency,
+    compileInterchangesStep,
+  } = options;
   if (zipArg && agencies.length > 1) throw new Error("--zip can only be used with one agency.");
+  if (databaseOnly && dbTarget !== "sqlite")
+    throw new Error("Database-only initialization requires --db=sqlite.");
   const fetchAll = fetchArchives ?? fetchAllAgencyArchives;
   const seed =
-    seedAgency ?? ((config, zipBuffers) => seedAgencyTargets(config, zipBuffers, dbTarget));
+    seedAgency ??
+    ((config, zipBuffers) =>
+      databaseOnly
+        ? seedAgencySqlite(config, zipBuffers)
+        : seedAgencyTargets(config, zipBuffers, dbTarget));
   const seededDbPaths = new Map<string, string>();
   const seededAgencyIds: string[] = [];
   const skippedAgencyIds: string[] = [];
@@ -298,7 +321,8 @@ export async function runSeeder(options: {
   // subset run: `compileStaticInterchanges` falls back to each skipped agency's
   // previously seeded database on disk, so the artifact still compiles from real
   // data instead of freezing because one operator had a bad afternoon.
-  (compileInterchangesStep ?? compileStaticInterchanges)(seededDbPaths, agencies, seededAgencyIds);
+  if (!databaseOnly)
+    (compileInterchangesStep ?? compileStaticInterchanges)(seededDbPaths, agencies, seededAgencyIds);
 
   const result: SeedRunResult = {
     requestedAgencyIds: [...agencies],
@@ -1052,7 +1076,9 @@ export async function runSeedCli() {
   }
 
   let agencies = parsed.agencies;
-  let dbTarget = parsed.dbTarget;
+  let dbTarget = parsed.dbTarget ?? (parsed.databaseOnly ? "sqlite" : undefined);
+  if (parsed.databaseOnly && agencies.length === 0 && !process.stdin.isTTY)
+    throw new Error("Select at least one agency using --agency or --scope for database-only initialization.");
   const seedable = getAllAgencySeedConfigs();
 
   // Interactive Mini-TUI prompts if flags weren't specified and running in a TTY
@@ -1095,16 +1121,17 @@ export async function runSeedCli() {
     agencies,
     dbTarget,
     zipArg: parsed.zipArg,
+    databaseOnly: parsed.databaseOnly,
   });
 
-  // An agency outage is not a global failure, so partial success exits 0.
-  // Seeding nothing at all is worth failing CI over.
+  // Source-generation runs permit partial success; seeding no agencies always fails.
   if (result.seededAgencyIds.length === 0 && result.requestedAgencyIds.length > 0) {
     console.error(
       `\n\x1B[31m❌ GTFS Seeding failed:\x1B[0m no requested agency could be seeded — every GTFS feed was unavailable.\n`,
     );
     process.exitCode = 1;
   }
+  if (parsed.databaseOnly && result.skippedAgencyIds.length > 0) process.exitCode = 1;
 }
 
 function formatScopeLabel(scope: string): string {

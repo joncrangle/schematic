@@ -2,7 +2,7 @@
 
 ARG ASSETS=source
 
-# Build and seed natively on the host CPU for both target architectures.
+# Build assets natively on the host CPU for both target architectures.
 FROM --platform=$BUILDPLATFORM oven/bun:1-slim AS build-base
 
 WORKDIR /app
@@ -30,9 +30,6 @@ FROM assets-${ASSETS} AS builder
 # worker. Never allow credentials to cross into the production image.
 RUN rm -f dist/worker/.dev.vars*
 
-# Pre-generate SQLite datasets from GTFS
-RUN bun run seed --agency=all --db=sqlite
-
 # Stage 2: Production runner environment
 FROM oven/bun:1-slim AS runner
 
@@ -44,7 +41,7 @@ ENV HOST=0.0.0.0
 ENV DATA_DIR=/app/data
 
 # Create persistent storage directory for SQLite and set permissions
-RUN mkdir -p /app/data /app/templates /app/scripts/lib && chown -R bun:bun /app
+RUN mkdir -p /app/data /app/scripts/lib && chown -R bun:bun /app
 
 # Copy application artifacts
 COPY --from=builder --chown=bun:bun /app/package.json /app/bun.lock ./
@@ -53,9 +50,6 @@ COPY --from=builder --chown=bun:bun /app/scripts/start-server.ts ./scripts/start
 COPY --from=builder --chown=bun:bun /app/scripts/lib/server-bootstrap.ts ./scripts/lib/server-bootstrap.ts
 COPY --from=builder --chown=bun:bun /app/public ./public
 COPY --from=builder --chown=bun:bun /app/node_modules ./node_modules
-
-# Copy pre-generated database templates from builder (ADR-0009: transit.db + push-notifications.db)
-COPY --from=builder --chown=bun:bun /app/data/*.db /app/templates/
 
 # Copy entrypoint script
 COPY --chown=bun:bun docker-entrypoint.sh /app/

@@ -11,6 +11,40 @@ if (process.env.CI && !bunAvailable) {
 }
 
 describe.skipIf(!bunAvailable)("manual Bun SQLite seeder", () => {
+  it("initializes SQLite without a source checkout or generated artifact writes", async () => {
+    const dir = await mkdtemp(join(tmpdir(), "runtime-init-"));
+    try {
+      const { stdout } = await promisify(execFile)("bun", ["-e", `
+        import { mock } from "bun:test";
+        import { Database } from "bun:sqlite";
+        import { readdirSync } from "node:fs";
+        import { join } from "node:path";
+        import assert from "node:assert/strict";
+        import { testAgencyCatalog } from "./tests/helpers/agency-fixtures.ts";
+        import { topologyArchive } from "./tests/helpers/gtfsArchive.ts";
+        mock.module("./src/agencies/agencyCatalog.ts", () => ({ agencyCatalog: testAgencyCatalog }));
+        const { runSeeder } = await import("./scripts/seed.ts");
+        globalThis.fetch = async () => { throw new Error("network leak"); };
+        const root = process.env.RUNTIME_INIT_TEST_ROOT;
+        process.chdir(root);
+        process.env.DATA_DIR = join(root, "data");
+        const result = await runSeeder({
+          agencies: ["sample"], dbTarget: "sqlite", databaseOnly: true,
+          fetchArchives: async () => ({ buffers: [Buffer.from(topologyArchive())], failures: [] }),
+        });
+        assert.deepEqual(result.seededAgencyIds, ["sample"]);
+        const db = new Database(join(root, "data/transit.db"), { readonly: true });
+        assert.equal(db.query("SELECT count(*) AS n FROM routes WHERE agency_id = 'sample'").get().n, 1);
+        db.close();
+        assert.deepEqual(readdirSync(root), ["data"]);
+        console.log("RUNTIME_INIT_OK");
+      `], { env: { ...process.env, RUNTIME_INIT_TEST_ROOT: dir } });
+      expect(stdout).toContain("RUNTIME_INIT_OK");
+    } finally {
+      await rm(dir, { recursive: true, force: true });
+    }
+  });
+
   it("is incremental, agency-isolated, and preserves existing feed_metadata", async () => {
     const dir = await mkdtemp(join(tmpdir(), "seed-sqlite-"));
     try {

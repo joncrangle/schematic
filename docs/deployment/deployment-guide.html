@@ -806,8 +806,9 @@
         <pre><code>podman build -t ghcr.io/joncrangle/schematic:latest .</code></pre>
       </div>
       <p>
-        The container installs locked deps, builds assets, pre-seeds all agencies' SQLite data, and
-        produces a slim runner running as the non-root <code>bun</code> user on port 3000.
+        The container installs locked dependencies and builds application assets and the initialization
+        CLI. Image builds do not download GTFS feeds or seed databases. The runner uses the non-root
+        <code>bun</code> user on port 3000.
       </p>
 
       <h3>3.2 Run</h3>
@@ -822,12 +823,28 @@
           <pre><code>grep $USER /etc/subuid /etc/subgid</code></pre>
         </div>
       </div>
-      <p class="rt-docker">No host setup needed on Docker — start the container directly:</p>
-      <p class="rt-podman">Then start the container:</p>
+      <p>Create a persistent data directory, then initialize the agencies you want to serve:</p>
       <div class="cmd">
         <div class="cmd-label">Run:</div>
         <pre><code>mkdir -p ./data</code></pre>
       </div>
+      <div class="cmd rt-docker">
+        <div class="cmd-label">Run once for a new data volume:</div>
+        <pre><code>docker run --rm -v ./data:/app/data ghcr.io/joncrangle/schematic:latest init --agency=ttc,go</code></pre>
+      </div>
+      <div class="cmd rt-podman">
+        <div class="cmd-label">Run once for a new data volume:</div>
+        <pre><code>podman run --rm -v ./data:/app/data --userns=keep-id ghcr.io/joncrangle/schematic:latest init --agency=ttc,go</code></pre>
+      </div>
+      <p>
+        Replace <code>ttc,go</code> with your agency IDs. Use <code>--agency=all</code> for every
+        registered seed agency, or <code>--scope=ca/on</code> for a region. Initialization writes
+        only SQLite and feed caches under <code>DATA_DIR</code>; it does not rewrite source manifests,
+        station indexes, interchanges, or deployed lookup assets. If any selected agency is unavailable,
+        initialization exits nonzero and reports it; successfully initialized agencies remain usable.
+        Retry the affected agencies when their feeds recover.
+      </p>
+      <p>Start the application after initialization:</p>
       <div class="cmd rt-docker">
         <div class="cmd-label">Run:</div>
         <pre><code>docker run -d --name schematic -p 3000:3000 -v ./data:/app/data ghcr.io/joncrangle/schematic:latest</code></pre>
@@ -841,11 +858,11 @@
         <pre><code>curl -fsS http://localhost:3000 &gt;/dev/null &amp;&amp; echo OK</code></pre>
       </div>
       <p class="rt-docker">
-        If the container can't write to the mounted <code>./data</code> (UID mismatch on the
+        If initialization or the server can't write to the mounted <code>./data</code> (UID mismatch on the
         non-root <code>bun</code> user), re-run with <code>--user $(id -u):$(id -g)</code>.
       </p>
       <p class="rt-podman">
-        If the container can't write to the mounted <code>./data</code>, make sure you passed
+        If initialization or the server can't write to the mounted <code>./data</code>, make sure you passed
         <code>--userns=keep-id</code> as above.
       </p>
       <p>
@@ -857,13 +874,20 @@
         ships <code>docker compose</code> built in.
       </p>
       <div class="cmd rt-docker">
-        <div class="cmd-label">Run:</div>
-        <pre><code>HOST_PORT=3000 docker compose -f compose.yaml up -d</code></pre>
+        <div class="cmd-label">Initialize once, then start:</div>
+        <pre><code>docker compose -f compose.yaml run --rm schematic init --agency=ttc,go
+HOST_PORT=3000 docker compose -f compose.yaml up -d</code></pre>
       </div>
       <div class="cmd rt-podman">
-        <div class="cmd-label">Run:</div>
-        <pre><code>HOST_PORT=3000 podman compose -f compose.yaml up -d</code></pre>
+        <div class="cmd-label">Initialize once, then start:</div>
+        <pre><code>podman compose -f compose.yaml run --rm schematic init --agency=ttc,go
+HOST_PORT=3000 podman compose -f compose.yaml up -d</code></pre>
       </div>
+      <p>
+        Keep the same data volume across upgrades. Restarts reuse existing databases and perform no
+        first-run downloads. Run <code>init</code> again when adding an agency or repairing its stored
+        topology. Scheduled refresh maintains agencies that have already been initialized.
+      </p>
       <div class="cmd rt-docker">
         <div class="cmd-label">Run — follow logs:</div>
         <pre><code>docker compose -f compose.yaml logs -f</code></pre>

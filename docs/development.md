@@ -139,6 +139,11 @@ The application ingests static transit topology and schedules (routes, stops, ca
 
 Adding `--db=d1` or `--db=both` mirrors the GTFS static data into the local Miniflare D1 database so surface routes appear under `vite dev`. D1 uses two databases: `DB_TRANSIT` for all agency topology data (partitioned by `agency_id`) and `DB_NOTIFICATIONS` for push subscriptions.
 
+For an installed application's SQLite data, add `--database-only --db=sqlite`. This mode
+requires an agency or scope selection in noninteractive runs and skips all source and
+generated-asset writes. Container images bundle this CLI as the `init` command; see
+[first-run container setup](deployment/deployment-guide.html#container).
+
 ### Simulating alerts
 
 `bun run alerts:spoof` fabricates a transit alert and runs it through the real dispatch pipeline: severe filter, commute-window gate, line/station/route matching against your saved favourites, delivery dedup, and VAPID push. Only the realtime feed fetch is skipped. It reads subscriptions from the same local miniflare D1 database `vite dev` uses and VAPID keys from `.env`, so it works standalone or alongside a running dev server.

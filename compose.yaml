@@ -1,4 +1,5 @@
 services:
+  # First run: docker compose run --rm schematic init --agency=ttc,go
   schematic:
     image: ghcr.io/joncrangle/schematic:latest
     build:
