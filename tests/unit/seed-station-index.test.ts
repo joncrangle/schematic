@@ -166,3 +166,61 @@ describe("station-index seed steps", () => {
     );
   });
 });
+
+it("keeps undrawn rail stations in the geographic index with their own boarding stops", async () => {
+  const config = getAgencySeedConfig("regional")!;
+  const provider = allProviders().find((p) => p.manifest.id === "regional")!;
+  const archive = gtfsZip(
+    {
+      "routes.txt":
+        "route_id,route_short_name,route_long_name,route_type\n1,1,Main,2\n3,3,Harbour,2\n",
+      "trips.txt":
+        "route_id,service_id,trip_id,direction_id\n1,weekday,main-trip,0\n3,weekday,harbour-trip,0\n",
+      "stop_times.txt":
+        "trip_id,arrival_time,departure_time,stop_id,stop_sequence\nmain-trip,08:00:00,08:00:00,hub-platform,1\nmain-trip,08:10:00,08:10:00,depot,2\nharbour-trip,08:00:00,08:00:00,harbour-north,1\nharbour-trip,08:10:00,08:10:00,harbour-south,2\n",
+      "stops.txt":
+        "stop_id,stop_name,stop_lat,stop_lon,location_type,parent_station\nhub-parent,Hub,43.65,-79.38,1,\nhub-platform,Hub Platform,43.651,-79.381,0,hub-parent\nharbour-parent,Harbour,43.66,-79.39,1,\nharbour-north,Harbour North,43.661,-79.391,0,harbour-parent\nharbour-south,Harbour South,43.662,-79.392,0,harbour-parent\ndepot,Depot,43.67,-79.40,0,\n",
+    },
+    true,
+  );
+  const actualTopology = await vi.importActual<typeof staticTopology>(
+    "~/infrastructure/gtfs/staticTopology",
+  );
+  const topology = await actualTopology.projectGtfsTopology([archive], config);
+  const tempRoot = mkdtempSync(join(tmpdir(), "rail-index-fixture-"));
+  vi.stubGlobal("Bun", { spawnSync: vi.fn(() => ({ exitCode: 0 })) });
+  try {
+    const schematicPath = join(tempRoot, "schematic.json");
+    writeFileSync(schematicPath, JSON.stringify(provider.schematic));
+    await compileStaticStationIndex({ ...config, routeIdField: "id" }, [Buffer.from(archive)], {
+      topology,
+      schematicPath,
+    });
+    const result = JSON.parse(readFileSync(schematicPath, "utf8"));
+    expect(result.stationIndex).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ schematicId: "hub", name: "Hub", platformIds: ["hub-platform"] }),
+        {
+          id: "harbour-parent",
+          name: "Harbour",
+          lat: 43.66,
+          lon: -79.39,
+          lines: [],
+          platformIds: ["harbour-north", "harbour-south"],
+          departureRouteIds: ["3"],
+        },
+        {
+          id: "depot",
+          name: "Depot",
+          lat: 43.67,
+          lon: -79.4,
+          lines: ["1"],
+          platformIds: ["depot"],
+          departureRouteIds: ["1"],
+        },
+      ]),
+    );
+  } finally {
+    rmSync(tempRoot, { recursive: true, force: true });
+  }
+});

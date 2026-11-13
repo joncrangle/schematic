@@ -4,6 +4,675 @@
 
 [
   {
+    "id": "lirr-mta-bus-auburndale",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Auburndale",
+        "feedStopIds": [
+          "2"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "CROCHERON AV/192 ST",
+        "feedStopIds": [
+          "501728",
+          "501761"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-bayside",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Bayside",
+        "stationId": "bayside"
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "BELL BLVD/41 AV",
+        "feedStopIds": [
+          "501058"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-broadway",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Broadway",
+        "feedStopIds": [
+          "11"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "NORTHERN BLVD/STATION RD",
+        "feedStopIds": [
+          "501076"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-farrockaway",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Far Rockaway",
+        "feedStopIds": [
+          "65"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "NAMEOKE ST/REDFERN AV",
+        "feedStopIds": [
+          "505499",
+          "701042"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-grandcentral",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Grand Central Madison",
+        "stationId": "grand-central-madison"
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Grand Central-42 St",
+        "stationId": "grand-central",
+        "walkingMarkers": {
+          "lirr": {
+            "dx": -50,
+            "dy": 60,
+            "label": "Grand Central-42 St"
+          }
+        }
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "MADISON AV/E 47 ST",
+        "feedStopIds": [
+          "450180"
+        ]
+      }
+    ],
+    "badgeOffsets": {
+      "mta-subway": {
+        "dx": -55.5,
+        "dy": -28
+      },
+      "lirr": {
+        "dx": -128.6,
+        "dy": 60
+      }
+    }
+  },
+  {
+    "id": "lirr-mta-bus-hollis",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Hollis",
+        "feedStopIds": [
+          "89"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "HOLLIS AV/99 AV",
+        "feedStopIds": [
+          "500143"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-inwood",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Inwood",
+        "feedStopIds": [
+          "101"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "BAYVIEW AV /DOUGHTY BLVD",
+        "feedStopIds": [
+          "552456",
+          "552457"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-kewgardens",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Kew Gardens",
+        "feedStopIds": [
+          "107"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "AUSTIN ST /MOWBRAY DR",
+        "feedStopIds": [
+          "550352"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-laurelton",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Laurelton",
+        "feedStopIds": [
+          "122"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "NORTH CONDUIT AV/225 ST",
+        "feedStopIds": [
+          "500685"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-lawrence",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Lawrence",
+        "feedStopIds": [
+          "114"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "MOTT AV /LAWRENCE AV",
+        "feedStopIds": [
+          "552463",
+          "552464"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-littleneck",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Little Neck",
+        "feedStopIds": [
+          "120"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "40 AV/LITTLE NECK PKWY",
+        "feedStopIds": [
+          "500963",
+          "503214"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-locustmanor",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Locust Manor",
+        "feedStopIds": [
+          "119"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "BEDELL ST/134 RD",
+        "feedStopIds": [
+          "500640",
+          "500670"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-longislandcity",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Long Island City",
+        "feedStopIds": [
+          "118"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "BORDEN AV/5 ST",
+        "feedStopIds": [
+          "505507",
+          "505513"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-mta-subway-atlantic",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Atlantic Terminal",
+        "stationId": "atlantic-terminal"
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "FULTON ST/SOUTH PORTLAND AV",
+        "feedStopIds": [
+          "302369"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Atlantic Av-Barclays Ctr",
+        "stationId": "atlantic-barclays",
+        "feedStopIds": [
+          "235N",
+          "235S",
+          "D24N",
+          "D24S",
+          "R31N",
+          "R31S"
+        ]
+      }
+    ],
+    "badgeOffsets": {
+      "mta-subway": {
+        "dx": -53.5,
+        "dy": -28
+      },
+      "lirr": {
+        "dx": 0,
+        "dy": -28
+      }
+    }
+  },
+  {
+    "id": "lirr-mta-bus-mta-subway-eastnewyork",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "East New York",
+        "stationId": "east-new-york"
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "VAN SINDEREN AV/FULTON ST",
+        "feedStopIds": [
+          "307897",
+          "801063",
+          "801064"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Broadway Junction",
+        "stationId": "broadway-junction",
+        "feedStopIds": [
+          "A51N",
+          "A51S",
+          "J27N",
+          "J27S",
+          "L22N",
+          "L22S"
+        ]
+      }
+    ],
+    "badgeOffsets": {
+      "mta-subway": {
+        "dx": 55.5,
+        "dy": -28
+      },
+      "lirr": {
+        "dx": 0,
+        "dy": 28
+      }
+    }
+  },
+  {
+    "id": "lirr-mta-bus-mta-subway-flushingmainstreet",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Flushing Main Street",
+        "stationId": "flushing-main-street"
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "MAIN ST/ROOSEVELT AV",
+        "feedStopIds": [
+          "501367",
+          "551051",
+          "553281",
+          "553460"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Flushing-Main St",
+        "stationId": "flushing"
+      }
+    ],
+    "badgeOffsets": {
+      "lirr": {
+        "dx": 76.6,
+        "dy": 28
+      },
+      "mta-subway": {
+        "dx": 0,
+        "dy": -28
+      }
+    }
+  },
+  {
+    "id": "lirr-mta-bus-mta-subway-foresthills",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Forest Hills",
+        "stationId": "forest-hills"
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "QUEENS BLVD/108 ST",
+        "feedStopIds": [
+          "551694"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Forest Hills-71 Av",
+        "feedStopIds": [
+          "G08N",
+          "G08S"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-mta-subway-hunterspointavenue",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Hunterspoint Avenue",
+        "feedStopIds": [
+          "90"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "49 AV/21 ST",
+        "feedStopIds": [
+          "551928",
+          "551929"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Hunters Point Av",
+        "feedStopIds": [
+          "720N",
+          "720S"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-mta-subway-jamaica",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Jamaica",
+        "stationId": "jamaica"
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "ARCHER AV/SUTPHIN BLVD",
+        "feedStopIds": [
+          "504480",
+          "504481",
+          "504559",
+          "504980",
+          "904095"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Sutphin Blvd-Archer Av-JFK Airport",
+        "feedStopIds": [
+          "G06N",
+          "G06S"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-mta-subway-metswilletspoint",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Mets-Willets Point",
+        "feedStopIds": [
+          "199"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "SEAVER WAY/ROOSEVELT AV",
+        "feedStopIds": [
+          "505444",
+          "700942"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Mets-Willets Point",
+        "feedStopIds": [
+          "702N",
+          "702S"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-mta-subway-nostrandavenue",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Nostrand Avenue",
+        "stationId": "nostrand-avenue"
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Nostrand Av",
+        "feedStopIds": [
+          "A46N",
+          "A46S"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "NOSTRAND AV/FULTON ST",
+        "feedStopIds": [
+          "308435"
+        ]
+      }
+    ],
+    "badgeOffsets": {
+      "lirr": {
+        "dx": 0,
+        "dy": 28
+      },
+      "mta-bus": {
+        "dx": -53.5,
+        "dy": 0
+      }
+    }
+  },
+  {
+    "id": "lirr-mta-bus-mta-subway-woodside",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Woodside",
+        "stationId": "woodside"
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "Roosevelt Av / 61 St",
+        "stationId": "q53-sbs-roosevelt-av-61-st",
+        "feedStopIds": [
+          "503324",
+          "505335",
+          "553332"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "61 St-Woodside",
+        "feedStopIds": [
+          "712N",
+          "712S"
+        ]
+      }
+    ],
+    "badgeOffsets": {
+      "lirr": {
+        "dx": 56,
+        "dy": 36,
+        "layout": "vertical"
+      },
+      "mta-bus": {
+        "dx": -55.5,
+        "dy": -28
+      }
+    }
+  },
+  {
+    "id": "lirr-mta-bus-murrayhill",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Murray Hill",
+        "feedStopIds": [
+          "130"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "41 AV/150 ST",
+        "feedStopIds": [
+          "503927"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-queensvillage",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Queens Village",
+        "feedStopIds": [
+          "175"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "AMBOY LN/JAMAICA AV",
+        "feedStopIds": [
+          "500298"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-rosedale",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Rosedale",
+        "feedStopIds": [
+          "180"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "SUNRISE HWY/FRANCIS LEWIS BLVD",
+        "feedStopIds": [
+          "503954",
+          "505322"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-bus-stalbans",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "St. Albans",
+        "feedStopIds": [
+          "184"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "LINDEN BLVD/NEWBURG ST",
+        "feedStopIds": [
+          "500380",
+          "500419"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lirr-mta-subway-atlanticavenue",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "East New York",
+        "stationId": "east-new-york"
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Atlantic Av",
+        "feedStopIds": [
+          "L24N",
+          "L24S"
+        ]
+      }
+    ]
+  },
+  {
     "id": "mta-bus-mta-subway-103st-2b853960e7ad",
     "endpoints": [
       {
@@ -1245,26 +1914,6 @@
         "feedStopIds": [
           "207N",
           "207S"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mta-bus-mta-subway-21st",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "JACKSON AV/47 AV",
-        "feedStopIds": [
-          "504416"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "21 St",
-        "feedStopIds": [
-          "G24N",
-          "G24S"
         ]
       }
     ]
@@ -3022,79 +3671,6 @@
     ]
   },
   {
-    "id": "mta-bus-mta-subway-atlanticav",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "EAST NEW YORK AV/JUNIUS ST",
-        "feedStopIds": [
-          "301343"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Atlantic Av",
-        "feedStopIds": [
-          "L24N",
-          "L24S"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mta-bus-mta-subway-atlanticavbarclaysctr-80e2e8c91a2c",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "FLATBUSH AV/ATLANTIC AV",
-        "feedStopIds": [
-          "303254",
-          "303295"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Atlantic Av-Barclays Ctr",
-        "stationId": "atlantic-barclays"
-      }
-    ]
-  },
-  {
-    "id": "mta-bus-mta-subway-atlanticavbarclaysctr-b520319d6ee7",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "ATLANTIC AV/FLATBUSH AV",
-        "feedStopIds": [
-          "303526"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Atlantic Av-Barclays Ctr",
-        "stationId": "atlantic-barclays"
-      }
-    ]
-  },
-  {
-    "id": "mta-bus-mta-subway-atlanticavbarclaysctr-f3325054eef7",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "4 AV/DEAN ST",
-        "feedStopIds": [
-          "308570",
-          "801172"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Atlantic Av-Barclays Ctr",
-        "stationId": "atlantic-barclays"
-      }
-    ]
-  },
-  {
     "id": "mta-bus-mta-subway-avenueaeasthoustonst",
     "endpoints": [
       {
@@ -3486,29 +4062,6 @@
     ]
   },
   {
-    "id": "mta-bus-mta-subway-bedfordavfultonst",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "Bedford Av / Fulton St",
-        "stationId": "b44-sbs-bedford-av-fulton-st",
-        "feedStopIds": [
-          "303411"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Franklin Av",
-        "feedStopIds": [
-          "A45N",
-          "A45S",
-          "S01N",
-          "S01S"
-        ]
-      }
-    ]
-  },
-  {
     "id": "mta-bus-mta-subway-bedfordnostrandavs",
     "endpoints": [
       {
@@ -3565,27 +4118,6 @@
         "feedStopIds": [
           "405N",
           "405S"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mta-bus-mta-subway-bergenst",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "FLATBUSH AV/BERGEN ST",
-        "feedStopIds": [
-          "303253",
-          "303297"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Bergen St",
-        "feedStopIds": [
-          "236N",
-          "236S"
         ]
       }
     ]
@@ -3897,25 +4429,6 @@
         "feedStopIds": [
           "301976",
           "308763"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Broadway Junction",
-        "stationId": "broadway-junction"
-      }
-    ]
-  },
-  {
-    "id": "mta-bus-mta-subway-broadwayjunction-846f6a42417c",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "VAN SINDEREN AV/FULTON ST",
-        "feedStopIds": [
-          "307897",
-          "801063",
-          "801064"
         ]
       },
       {
@@ -5359,26 +5872,6 @@
     ]
   },
   {
-    "id": "mta-bus-mta-subway-flushingmainst",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "MAIN ST/ROOSEVELT AV",
-        "feedStopIds": [
-          "501367",
-          "551051",
-          "553281",
-          "553460"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Flushing-Main St",
-        "stationId": "flushing"
-      }
-    ]
-  },
-  {
     "id": "mta-bus-mta-subway-fordhamrd",
     "endpoints": [
       {
@@ -5414,26 +5907,6 @@
         "feedStopIds": [
           "M05N",
           "M05S"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mta-bus-mta-subway-foresthills71av",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "QUEENS BLVD/108 ST",
-        "feedStopIds": [
-          "551694"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Forest Hills-71 Av",
-        "feedStopIds": [
-          "G08N",
-          "G08S"
         ]
       }
     ]
@@ -6158,27 +6631,6 @@
     ]
   },
   {
-    "id": "mta-bus-mta-subway-hunterspointav",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "49 AV/21 ST",
-        "feedStopIds": [
-          "551928",
-          "551929"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Hunters Point Av",
-        "feedStopIds": [
-          "720N",
-          "720S"
-        ]
-      }
-    ]
-  },
-  {
     "id": "mta-bus-mta-subway-huntspointav",
     "endpoints": [
       {
@@ -6615,26 +7067,6 @@
     ]
   },
   {
-    "id": "mta-bus-mta-subway-lafayetteav",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "FULTON ST/SOUTH PORTLAND AV",
-        "feedStopIds": [
-          "302369"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Lafayette Av",
-        "feedStopIds": [
-          "A43N",
-          "A43S"
-        ]
-      }
-    ]
-  },
-  {
     "id": "mta-bus-mta-subway-lexingtonav53st",
     "endpoints": [
       {
@@ -6836,27 +7268,6 @@
           "G29S",
           "L10N",
           "L10S"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mta-bus-mta-subway-metswilletspoint",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "SEAVER WAY/ROOSEVELT AV",
-        "feedStopIds": [
-          "505444",
-          "700942"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Mets-Willets Point",
-        "feedStopIds": [
-          "702N",
-          "702S"
         ]
       }
     ]
@@ -8041,29 +8452,6 @@
     ]
   },
   {
-    "id": "mta-bus-mta-subway-rooseveltav61st",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "Roosevelt Av / 61 St",
-        "stationId": "q53-sbs-roosevelt-av-61-st",
-        "feedStopIds": [
-          "503324",
-          "505335",
-          "553332"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "61 St-Woodside",
-        "feedStopIds": [
-          "712N",
-          "712S"
-        ]
-      }
-    ]
-  },
-  {
     "id": "mta-bus-mta-subway-rooseveltisland",
     "endpoints": [
       {
@@ -8421,30 +8809,6 @@
         "feedStopIds": [
           "F04N",
           "F04S"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mta-bus-mta-subway-sutphinblvdarcheravjfkairport",
-    "endpoints": [
-      {
-        "agencyId": "mta-bus",
-        "stationName": "ARCHER AV/SUTPHIN BLVD",
-        "feedStopIds": [
-          "504480",
-          "504481",
-          "504559",
-          "504980",
-          "904095"
-        ]
-      },
-      {
-        "agencyId": "mta-subway",
-        "stationName": "Sutphin Blvd-Archer Av-JFK Airport",
-        "feedStopIds": [
-          "G06N",
-          "G06S"
         ]
       }
     ]

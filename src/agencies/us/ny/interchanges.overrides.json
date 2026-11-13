@@ -1,5 +1,75 @@
 {
-  "hubs": [],
+  "hubs": [
+    {
+      "id": "lirr-mta-bus-grandcentral",
+      "endpoints": [
+        {
+          "agencyId": "lirr",
+          "stationId": "grand-central-madison",
+          "stationName": "Grand Central Madison"
+        },
+        {
+          "agencyId": "mta-subway",
+          "stationId": "grand-central",
+          "stationName": "Grand Central-42 St",
+          "walkingMarkers": {
+            "lirr": {
+              "dx": -50,
+              "dy": 60,
+              "label": "Grand Central-42 St"
+            }
+          }
+        },
+        {
+          "agencyId": "mta-bus",
+          "stationName": "MADISON AV/E 47 ST",
+          "feedStopIds": ["450180"]
+        }
+      ]
+    },
+    {
+      "id": "lirr-mta-bus-mta-subway-nostrandavenue",
+      "endpoints": [
+        {
+          "agencyId": "lirr",
+          "stationId": "nostrand-avenue",
+          "stationName": "Nostrand Avenue"
+        },
+        {
+          "agencyId": "mta-subway",
+          "stationName": "Nostrand Av",
+          "feedStopIds": ["A46N", "A46S"]
+        },
+        {
+          "agencyId": "mta-bus",
+          "stationName": "NOSTRAND AV/FULTON ST",
+          "feedStopIds": ["308435"]
+        }
+      ]
+    },
+    {
+      "id": "lirr-mta-subway-atlanticavenue",
+      "endpoints": [
+        {
+          "agencyId": "lirr",
+          "stationId": "east-new-york",
+          "stationName": "East New York"
+        },
+        {
+          "agencyId": "mta-subway",
+          "stationName": "Atlantic Av",
+          "feedStopIds": ["L24N", "L24S"]
+        }
+      ]
+    }
+  ],
   "exclusions": [],
-  "boardingIdentityAgencyIds": ["mta-bus", "mta-subway"]
+  "boardingIdentityAgencyIds": ["mta-bus", "mta-subway", "lirr"],
+  "isolated": [
+    {
+      "agencyId": "lirr",
+      "stationName": "Hillside Facility",
+      "feedStopIds": ["86"]
+    }
+  ]
 }

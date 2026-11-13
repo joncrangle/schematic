@@ -1,0 +1,511 @@
+{
+  "id": "lirr",
+  "name": "Long Island Rail Road",
+  "shortName": "LIRR",
+  "serviceArea": "New York City, Nassau and Suffolk counties",
+  "brandColor": "#0039A6",
+  "locale": "en-US",
+  "timezone": "America/New_York",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "us",
+    "region": "ny"
+  },
+  "bounds": [
+    {
+      "minLat": 40.59,
+      "maxLat": 40.83,
+      "minLon": -74.02,
+      "maxLon": -73.7
+    },
+    {
+      "minLat": 40.584182,
+      "maxLat": 40.640721,
+      "minLon": -73.670818,
+      "maxLon": -73.648666
+    },
+    {
+      "minLat": 40.662372,
+      "maxLat": 40.674372,
+      "minLon": -73.687209,
+      "maxLon": -73.675209
+    },
+    {
+      "minLat": 40.636211,
+      "maxLat": 40.719297,
+      "minLon": -73.682071,
+      "maxLon": -73.576324
+    },
+    {
+      "minLat": 40.6578,
+      "maxLat": 40.683859,
+      "minLon": -73.556621,
+      "maxLon": -73.448737
+    },
+    {
+      "minLat": 40.674249,
+      "maxLat": 40.706689,
+      "minLon": -73.426312,
+      "maxLon": -73.318056
+    },
+    {
+      "minLat": 40.717028,
+      "maxLat": 40.802724,
+      "minLon": -73.7,
+      "maxLon": -73.674959
+    },
+    {
+      "minLat": 40.715457,
+      "maxLat": 40.796478,
+      "minLon": -73.668698,
+      "maxLon": -73.579866
+    },
+    {
+      "minLat": 40.729915,
+      "maxLat": 40.773175,
+      "minLon": -73.534533,
+      "maxLon": -73.435239
+    },
+    {
+      "minLat": 40.739359,
+      "maxLat": 40.760801,
+      "minLon": -73.405601,
+      "maxLon": -73.352066
+    },
+    {
+      "minLat": 40.718433,
+      "maxLat": 40.786835,
+      "minLon": -73.299565,
+      "maxLon": -73.203321
+    },
+    {
+      "minLat": 40.734354,
+      "maxLat": 40.797853,
+      "minLon": -73.200861,
+      "maxLon": -73.080455
+    },
+    {
+      "minLat": 40.755879,
+      "maxLat": 40.767879,
+      "minLon": -73.021745,
+      "maxLon": -73.009745
+    },
+    {
+      "minLat": 40.767739,
+      "maxLat": 40.804988,
+      "minLon": -72.949966,
+      "maxLon": -72.858423
+    },
+    {
+      "minLat": 40.804699,
+      "maxLat": 40.835035,
+      "minLon": -73.7,
+      "maxLon": -73.681401
+    },
+    {
+      "minLat": 40.809716,
+      "maxLat": 40.880467,
+      "minLon": -73.632872,
+      "maxLon": -73.592303
+    },
+    {
+      "minLat": 40.818857,
+      "maxLat": 40.881338,
+      "minLon": -73.540034,
+      "maxLon": -73.445086
+    },
+    {
+      "minLat": 40.84701,
+      "maxLat": 40.874665,
+      "minLon": -73.415526,
+      "maxLon": -73.35685
+    },
+    {
+      "minLat": 40.802086,
+      "maxLat": 40.862548,
+      "minLon": -73.204032,
+      "maxLon": -73.09994
+    },
+    {
+      "minLat": 40.811397,
+      "maxLat": 40.823397,
+      "minLon": -73.004909,
+      "maxLon": -72.992909
+    },
+    {
+      "minLat": 40.84327,
+      "maxLat": 40.85527,
+      "minLon": -72.870466,
+      "maxLon": -72.858466
+    },
+    {
+      "minLat": 40.815315,
+      "maxLat": 40.836305,
+      "minLon": -72.711262,
+      "maxLon": -72.644325
+    },
+    {
+      "minLat": 40.870609,
+      "maxLat": 40.882609,
+      "minLon": -72.529949,
+      "maxLon": -72.517949
+    },
+    {
+      "minLat": 40.87465,
+      "maxLat": 40.88665,
+      "minLon": -73.334485,
+      "maxLon": -73.322485
+    },
+    {
+      "minLat": 40.877667,
+      "maxLat": 40.889667,
+      "minLon": -73.262248,
+      "maxLon": -73.250248
+    },
+    {
+      "minLat": 40.876169,
+      "maxLat": 40.926323,
+      "minLon": -73.165507,
+      "maxLon": -73.122549
+    },
+    {
+      "minLat": 40.928553,
+      "maxLat": 40.940553,
+      "minLon": -73.058502,
+      "maxLon": -73.046502
+    },
+    {
+      "minLat": 40.913839,
+      "maxLat": 40.925839,
+      "minLon": -72.672911,
+      "maxLon": -72.660911
+    },
+    {
+      "minLat": 40.888719,
+      "maxLat": 40.900719,
+      "minLon": -72.396124,
+      "maxLon": -72.384124
+    },
+    {
+      "minLat": 40.932984,
+      "maxLat": 40.944984,
+      "minLon": -72.316046,
+      "maxLon": -72.304046
+    },
+    {
+      "minLat": 40.985794,
+      "maxLat": 40.997794,
+      "minLon": -72.542062,
+      "maxLon": -72.530062
+    },
+    {
+      "minLat": 40.959086,
+      "maxLat": 40.98604,
+      "minLon": -72.199242,
+      "maxLon": -72.126334
+    },
+    {
+      "minLat": 41.060321,
+      "maxLat": 41.10571,
+      "minLon": -72.43388,
+      "maxLon": -72.357104
+    },
+    {
+      "minLat": 41.041109,
+      "maxLat": 41.053109,
+      "minLon": -71.959881,
+      "maxLon": -71.947881
+    }
+  ],
+  "focus": {
+    "lat": 40.7,
+    "lon": -73.8
+  },
+  "modes": ["rail"],
+  "stationService": {
+    "routeType": "rail"
+  },
+  "attribution": {
+    "name": "Metropolitan Transportation Authority",
+    "url": "https://www.mta.info/developers",
+    "license": "MTA Developer Data Terms and Conditions",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Long Island Rail Road",
+        "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfslirr.zip",
+        "cacheFileName": "lirr-gtfs.zip"
+      }
+    ]
+  },
+  "routeShortNames": {
+    "1": "Babylon",
+    "2": "Hempstead",
+    "3": "Oyster Bay",
+    "4": "Ronkonkoma",
+    "5": "Montauk",
+    "6": "Long Beach",
+    "7": "Far Rockaway",
+    "8": "West Hempstead",
+    "9": "Port Washington",
+    "10": "Port Jefferson",
+    "11": "Belmont Park",
+    "12": "City Terminal Zone",
+    "13": "Greenport Service"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/lirr%2Fgtfs-lirr",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/lirr%2Fgtfs-lirr",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionSource": "static"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Flirr-alerts.json",
+      "format": "json"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "4", "5", "6", "9", "10", "12"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Delays"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Expect Delays"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Part Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Part Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Reduced Service"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Boarding Change"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Express to Local"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Local to Express"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Stops Skipped"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Stops Skipped"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Reroute"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Extra Transfer"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Detour"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Detour"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Cancellations"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Substitute Buses"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "cityPresets": [
+    {
+      "name": "Penn Station",
+      "lat": 40.75058844,
+      "lon": -73.99358408
+    },
+    {
+      "name": "Grand Central Madison",
+      "lat": 40.755162,
+      "lon": -73.975455
+    },
+    {
+      "name": "Jamaica",
+      "lat": 40.69960817,
+      "lon": -73.80852987
+    },
+    {
+      "name": "Atlantic Terminal",
+      "lat": 40.68359596,
+      "lon": -73.97567112
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "4", "5", "6", "9", "10", "12"]
+}

@@ -16,6 +16,7 @@ import { readSeedFeedHash } from "./lib/gtfs-seeder-core";
  *   bun scripts/seed.ts --agency=go --zip=foo.zip  # Custom feed archive override
  */
 
+import { normalizeStationServices } from "../src/agencies/types";
 import { stationMembershipSequences } from "../src/domain/map/stationSequence";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
@@ -984,6 +985,48 @@ export async function compileStaticStationIndex(
         departureRouteIds: routes,
       };
     });
+  }
+  if (
+    !networkFeed &&
+    normalizeStationServices(provider.manifest.stationService).every(
+      (service) => service.routeType === "rail",
+    )
+  ) {
+    // The small drawing does not limit rail departure or advisory identities.
+    // Keep undrawn stations geographic, without inventing map navigation targets.
+    const drawnPlatforms = new Set(generatedStations.flatMap((station) => station.platformIds));
+    const drawnLineIds = new Set(schematic.lines.map((line) => line.id));
+    const children = new Map<string, GtfsStopRow[]>();
+    for (const row of selectedRows) {
+      if (!row.parentStation || row.locationType !== 0) continue;
+      const siblings = children.get(row.parentStation) ?? [];
+      siblings.push(row);
+      children.set(row.parentStation, siblings);
+    }
+    for (const row of selectedRows) {
+      if (row.parentStation || (row.locationType !== 0 && row.locationType !== 1)) continue;
+      const platformIds = [row, ...(children.get(row.stopId) ?? [])]
+        .map((platform) => platform.stopId)
+        .filter((id) => (routesByStop.get(id)?.length ?? 0) > 0)
+        .sort();
+      if (platformIds.length === 0 || platformIds.some((id) => drawnPlatforms.has(id))) continue;
+      const routes = [...new Set(platformIds.flatMap((id) => routesByStop.get(id) ?? []))].sort();
+      generatedStations.push({
+        id: row.stopId,
+        name: row.stopName,
+        lat: row.stopLat,
+        lon: row.stopLon,
+        lines: [
+          ...new Set(
+            routes.map((id) => provider.manifest.alertInterpretation?.routeLineMap?.[id] ?? id),
+          ),
+        ]
+          .filter((id) => drawnLineIds.has(id))
+          .sort(),
+        platformIds,
+        departureRouteIds: routes,
+      });
+    }
   }
   const ferryFeed = provider.realtime?.feeds.find((feed) => feed.kind === "ferry_sailing_boards");
   if (ferryFeed?.kind === "ferry_sailing_boards") {

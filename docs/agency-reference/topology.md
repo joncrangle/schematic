@@ -52,6 +52,11 @@ repository, so never copy GTFS parent or platform IDs into them.
   display text and may stand alone on a mapless or feed-only endpoint;
   actionable map endpoints need `stationId`.
 
+Rail-only agencies retain undrawn served stations in the generated geographic
+index, with their own feed platform IDs and boarding routes. These entries
+resolve departure destinations and advisory station names but have no
+`schematicId`, so they do not become map navigation targets.
+
 When drawing from a PDF, review every ID by hand, especially punctuation,
 directional suffixes, parentheses, ampersands, and duplicate names.
 
