@@ -1,0 +1,1747 @@
+{
+  "viewBoxWidth": 2600,
+  "viewBoxHeight": 2320,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 train",
+      "color": "#EE352E",
+      "points": [
+        {
+          "x": 780,
+          "y": 120
+        },
+        {
+          "x": 780,
+          "y": 350
+        },
+        {
+          "x": 780,
+          "y": 530
+        },
+        {
+          "x": 780,
+          "y": 690
+        },
+        {
+          "x": 780,
+          "y": 880
+        },
+        {
+          "x": 780,
+          "y": 1020
+        },
+        {
+          "x": 780,
+          "y": 1320
+        },
+        {
+          "x": 780,
+          "y": 1530
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 train",
+      "color": "#00933C",
+      "points": [
+        {
+          "x": 1140,
+          "y": 120
+        },
+        {
+          "x": 1140,
+          "y": 350
+        },
+        {
+          "x": 1140,
+          "y": 530
+        },
+        {
+          "x": 1140,
+          "y": 880
+        },
+        {
+          "x": 1140,
+          "y": 1160
+        },
+        {
+          "x": 1140,
+          "y": 1350
+        },
+        {
+          "x": 1050,
+          "y": 1350
+        },
+        {
+          "x": 960,
+          "y": 1440
+        },
+        {
+          "x": 1680,
+          "y": 1440
+        },
+        {
+          "x": 1680,
+          "y": 1730
+        },
+        {
+          "x": 1600,
+          "y": 1810
+        },
+        {
+          "x": 1840,
+          "y": 1810
+        },
+        {
+          "x": 2130,
+          "y": 1810
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "7 train",
+      "color": "#B933AD",
+      "points": [
+        {
+          "x": 2230,
+          "y": 650
+        },
+        {
+          "x": 2010,
+          "y": 650
+        },
+        {
+          "x": 1900,
+          "y": 760
+        },
+        {
+          "x": 1530,
+          "y": 760
+        },
+        {
+          "x": 1530,
+          "y": 810
+        },
+        {
+          "x": 1460,
+          "y": 880
+        },
+        {
+          "x": 1140,
+          "y": 880
+        },
+        {
+          "x": 780,
+          "y": 880
+        },
+        {
+          "x": 590,
+          "y": 880
+        },
+        {
+          "x": 450,
+          "y": 1020
+        }
+      ]
+    },
+    {
+      "id": "A",
+      "name": "A train",
+      "color": "#0039A6",
+      "points": [
+        {
+          "x": 550,
+          "y": 180
+        },
+        {
+          "x": 610,
+          "y": 180
+        },
+        {
+          "x": 780,
+          "y": 350
+        },
+        {
+          "x": 600,
+          "y": 530
+        },
+        {
+          "x": 600,
+          "y": 690
+        },
+        {
+          "x": 780,
+          "y": 690
+        },
+        {
+          "x": 600,
+          "y": 870
+        },
+        {
+          "x": 600,
+          "y": 1020
+        },
+        {
+          "x": 600,
+          "y": 1160
+        },
+        {
+          "x": 680,
+          "y": 1160
+        },
+        {
+          "x": 960,
+          "y": 1440
+        },
+        {
+          "x": 1260,
+          "y": 1440
+        },
+        {
+          "x": 1380,
+          "y": 1560
+        },
+        {
+          "x": 1380,
+          "y": 1570
+        },
+        {
+          "x": 1460,
+          "y": 1650
+        },
+        {
+          "x": 1990,
+          "y": 1650
+        },
+        {
+          "x": 2230,
+          "y": 1650
+        },
+        {
+          "x": 2410,
+          "y": 1830
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "name": "F train",
+      "color": "#FF6319",
+      "points": [
+        {
+          "x": 2320,
+          "y": 890
+        },
+        {
+          "x": 2030,
+          "y": 890
+        },
+        {
+          "x": 1900,
+          "y": 760
+        },
+        {
+          "x": 1580,
+          "y": 760
+        },
+        {
+          "x": 1460,
+          "y": 880
+        },
+        {
+          "x": 1380,
+          "y": 880
+        },
+        {
+          "x": 1300,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 1020
+        },
+        {
+          "x": 1000,
+          "y": 1070
+        },
+        {
+          "x": 1300,
+          "y": 1370
+        },
+        {
+          "x": 1300,
+          "y": 1480
+        },
+        {
+          "x": 1380,
+          "y": 1560
+        },
+        {
+          "x": 1380,
+          "y": 1790
+        },
+        {
+          "x": 1400,
+          "y": 1810
+        },
+        {
+          "x": 1400,
+          "y": 1920
+        },
+        {
+          "x": 1510,
+          "y": 2030
+        },
+        {
+          "x": 1510,
+          "y": 2210
+        }
+      ]
+    },
+    {
+      "id": "L",
+      "name": "L train",
+      "color": "#A7A9AC",
+      "points": [
+        {
+          "x": 600,
+          "y": 1160
+        },
+        {
+          "x": 1140,
+          "y": 1160
+        },
+        {
+          "x": 1630,
+          "y": 1160
+        },
+        {
+          "x": 1740,
+          "y": 1270
+        },
+        {
+          "x": 1860,
+          "y": 1270
+        },
+        {
+          "x": 1990,
+          "y": 1400
+        },
+        {
+          "x": 1990,
+          "y": 1650
+        },
+        {
+          "x": 2200,
+          "y": 1860
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "name": "G train",
+      "color": "#6CBE45",
+      "points": [
+        {
+          "x": 1460,
+          "y": 880
+        },
+        {
+          "x": 1460,
+          "y": 990
+        },
+        {
+          "x": 1740,
+          "y": 1270
+        },
+        {
+          "x": 1740,
+          "y": 1370
+        },
+        {
+          "x": 1460,
+          "y": 1650
+        },
+        {
+          "x": 1460,
+          "y": 1750
+        },
+        {
+          "x": 1400,
+          "y": 1810
+        },
+        {
+          "x": 1400,
+          "y": 1920
+        },
+        {
+          "x": 1510,
+          "y": 2030
+        }
+      ]
+    },
+    {
+      "id": "SI",
+      "name": "Staten Island Railway",
+      "color": "#0039A6",
+      "points": [
+        {
+          "x": 300,
+          "y": 1700
+        },
+        {
+          "x": 300,
+          "y": 1860
+        },
+        {
+          "x": 300,
+          "y": 2020
+        },
+        {
+          "x": 300,
+          "y": 2210
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "van-cortlandt",
+      "name": "Van Cortlandt Park-242 St",
+      "x": 780,
+      "y": 120,
+      "lines": ["1"],
+      "label": {
+        "x": 808,
+        "y": 120,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "inwood",
+      "name": "Inwood-207 St",
+      "x": 550,
+      "y": 180,
+      "lines": ["A"],
+      "label": {
+        "x": 522,
+        "y": 180,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "washington-heights",
+      "name": "168 St / Washington Heights",
+      "x": 780,
+      "y": 350,
+      "lines": ["1", "A"],
+      "label": {
+        "x": 808,
+        "y": 350,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "broadway-96",
+      "name": "96 St / Broadway",
+      "x": 780,
+      "y": 530,
+      "lines": ["1"],
+      "label": {
+        "x": 752,
+        "y": 530,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "columbus-circle",
+      "name": "59 St-Columbus Circle",
+      "x": 780,
+      "y": 690,
+      "lines": ["1", "A"],
+      "label": {
+        "x": 808,
+        "y": 690,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "times-square",
+      "name": "Times Sq-42 St",
+      "x": 780,
+      "y": 880,
+      "lines": ["1", "7"],
+      "label": {
+        "x": 752,
+        "y": 845,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "penn-seventh",
+      "name": "34 St-Penn / 7 Av",
+      "x": 780,
+      "y": 1020,
+      "lines": ["1"],
+      "label": {
+        "x": 808,
+        "y": 1020,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "penn-eighth",
+      "name": "34 St-Penn / 8 Av",
+      "x": 600,
+      "y": 1020,
+      "lines": ["A"],
+      "label": {
+        "x": 628,
+        "y": 1020,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "chambers-broadway",
+      "name": "Chambers St / West Broadway",
+      "x": 780,
+      "y": 1320,
+      "lines": ["1"],
+      "label": {
+        "x": 752,
+        "y": 1320,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "south-ferry",
+      "name": "South Ferry",
+      "x": 780,
+      "y": 1530,
+      "lines": ["1"],
+      "label": {
+        "x": 808,
+        "y": 1530,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "woodlawn",
+      "name": "Woodlawn",
+      "x": 1140,
+      "y": 120,
+      "lines": ["4"],
+      "label": {
+        "x": 1168,
+        "y": 120,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "yankee-stadium",
+      "name": "161 St-Yankee Stadium",
+      "x": 1140,
+      "y": 350,
+      "lines": ["4"],
+      "label": {
+        "x": 1168,
+        "y": 350,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "lexington-125",
+      "name": "125 St / Lexington Av",
+      "x": 1140,
+      "y": 530,
+      "lines": ["4"],
+      "label": {
+        "x": 1168,
+        "y": 530,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "grand-central",
+      "name": "Grand Central-42 St",
+      "x": 1140,
+      "y": 880,
+      "lines": ["4", "7"],
+      "label": {
+        "x": 1168,
+        "y": 845,
+        "anchor": "start",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "union-square",
+      "name": "14 St-Union Sq",
+      "x": 1140,
+      "y": 1160,
+      "lines": ["4", "L"],
+      "label": {
+        "x": 1168,
+        "y": 1125,
+        "anchor": "start",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "brooklyn-bridge",
+      "name": "Brooklyn Bridge-City Hall",
+      "x": 1140,
+      "y": 1350,
+      "lines": ["4"],
+      "label": {
+        "x": 1140,
+        "y": 1385,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "fulton-center",
+      "name": "Fulton St",
+      "x": 960,
+      "y": 1440,
+      "lines": ["4", "A"],
+      "label": {
+        "x": 932,
+        "y": 1440,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "hoyt-schermerhorn",
+      "name": "Hoyt-Schermerhorn Sts",
+      "x": 1460,
+      "y": 1650,
+      "lines": ["A", "G"],
+      "label": {
+        "x": 1488,
+        "y": 1685,
+        "anchor": "start",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "atlantic-barclays",
+      "name": "Atlantic Av-Barclays Ctr",
+      "x": 1600,
+      "y": 1810,
+      "lines": ["4"],
+      "label": {
+        "x": 1600,
+        "y": 1845,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "franklin-evers",
+      "name": "Franklin Av-Medgar Evers College",
+      "x": 1840,
+      "y": 1810,
+      "lines": ["4"],
+      "label": {
+        "x": 1840,
+        "y": 1775,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "utica-eastern",
+      "name": "Crown Hts-Utica Av",
+      "x": 2130,
+      "y": 1810,
+      "lines": ["4"],
+      "label": {
+        "x": 2158,
+        "y": 1775,
+        "anchor": "start",
+        "rot": 0,
+        "leader": true
+      },
+      "terminal": true
+    },
+    {
+      "id": "broadway-junction",
+      "name": "Broadway Junction",
+      "x": 1990,
+      "y": 1650,
+      "lines": ["A", "L"],
+      "label": {
+        "x": 1962,
+        "y": 1615,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "rockaway-boulevard",
+      "name": "Rockaway Blvd",
+      "x": 2230,
+      "y": 1650,
+      "lines": ["A"],
+      "label": {
+        "x": 2258,
+        "y": 1650,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "far-rockaway",
+      "name": "Far Rockaway-Mott Av",
+      "x": 2410,
+      "y": 1830,
+      "lines": ["A"],
+      "label": {
+        "x": 2438,
+        "y": 1830,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "flushing",
+      "name": "Flushing-Main St",
+      "x": 2230,
+      "y": 650,
+      "lines": ["7"],
+      "label": {
+        "x": 2258,
+        "y": 650,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "jackson-heights",
+      "name": "Jackson Hts-Roosevelt Av",
+      "x": 1900,
+      "y": 760,
+      "lines": ["7", "F"],
+      "label": {
+        "x": 1928,
+        "y": 760,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "queensboro-plaza",
+      "name": "Queensboro Plaza",
+      "x": 1530,
+      "y": 760,
+      "lines": ["7"],
+      "label": {
+        "x": 1502,
+        "y": 760,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "court-square",
+      "name": "Court Sq",
+      "x": 1460,
+      "y": 880,
+      "lines": ["7", "G", "F"],
+      "label": {
+        "x": 1488,
+        "y": 880,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "hudson-yards",
+      "name": "34 St-Hudson Yards",
+      "x": 450,
+      "y": 1020,
+      "lines": ["7"],
+      "label": {
+        "x": 422,
+        "y": 1020,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "jamaica-179",
+      "name": "Jamaica-179 St",
+      "x": 2320,
+      "y": 890,
+      "lines": ["F"],
+      "label": {
+        "x": 2348,
+        "y": 890,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "lexington-53",
+      "name": "Lexington Av/53 St",
+      "x": 1300,
+      "y": 800,
+      "lines": ["F"],
+      "label": {
+        "x": 1328,
+        "y": 800,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "herald-square",
+      "name": "34 St-Herald Sq",
+      "x": 1000,
+      "y": 1020,
+      "lines": ["F"],
+      "label": {
+        "x": 972,
+        "y": 985,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "delancey-essex",
+      "name": "Delancey St-Essex St",
+      "x": 1300,
+      "y": 1370,
+      "lines": ["F"],
+      "label": {
+        "x": 1328,
+        "y": 1370,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "jay-metrotech",
+      "name": "Jay St-MetroTech",
+      "x": 1380,
+      "y": 1560,
+      "lines": ["A", "F"],
+      "label": {
+        "x": 1408,
+        "y": 1560,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bergen-carroll",
+      "name": "Bergen St / Smith St",
+      "x": 1400,
+      "y": 1810,
+      "lines": ["F", "G"],
+      "label": {
+        "x": 1428,
+        "y": 1810,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "church-mcdonald",
+      "name": "Church Av / McDonald Av",
+      "x": 1510,
+      "y": 2030,
+      "lines": ["F", "G"],
+      "label": {
+        "x": 1538,
+        "y": 2030,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "coney-island",
+      "name": "Coney Island-Stillwell Av",
+      "x": 1510,
+      "y": 2210,
+      "lines": ["F"],
+      "label": {
+        "x": 1538,
+        "y": 2210,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "eighth-14",
+      "name": "8 Av / 14 St",
+      "x": 600,
+      "y": 1160,
+      "lines": ["A", "L"],
+      "label": {
+        "x": 572,
+        "y": 1160,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "bedford",
+      "name": "Bedford Av",
+      "x": 1630,
+      "y": 1160,
+      "lines": ["L"],
+      "label": {
+        "x": 1658,
+        "y": 1160,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "metropolitan-lorimer",
+      "name": "Metropolitan Av-Lorimer St",
+      "x": 1740,
+      "y": 1270,
+      "lines": ["L", "G"],
+      "label": {
+        "x": 1712,
+        "y": 1270,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "myrtle-wyckoff",
+      "name": "Myrtle-Wyckoff Avs",
+      "x": 1990,
+      "y": 1400,
+      "lines": ["L"],
+      "label": {
+        "x": 2018,
+        "y": 1400,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "canarsie",
+      "name": "Canarsie-Rockaway Pkwy",
+      "x": 2200,
+      "y": 1860,
+      "lines": ["L"],
+      "label": {
+        "x": 2228,
+        "y": 1860,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "st-george",
+      "name": "St George",
+      "x": 300,
+      "y": 1700,
+      "lines": ["SI"],
+      "label": {
+        "x": 272,
+        "y": 1700,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "new-dorp",
+      "name": "New Dorp",
+      "x": 300,
+      "y": 1860,
+      "lines": ["SI"],
+      "label": {
+        "x": 272,
+        "y": 1860,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "eltingville",
+      "name": "Eltingville",
+      "x": 300,
+      "y": 2020,
+      "lines": ["SI"],
+      "label": {
+        "x": 272,
+        "y": 2020,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "tottenville",
+      "name": "Tottenville",
+      "x": 300,
+      "y": 2210,
+      "lines": ["SI"],
+      "label": {
+        "x": 272,
+        "y": 2210,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 812,
+      "y": 185,
+      "color": "#EE352E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1172,
+      "y": 185,
+      "color": "#00933C",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "7",
+      "num": "7",
+      "x": 2262,
+      "y": 715,
+      "color": "#B933AD",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "A",
+      "num": "A",
+      "x": 582,
+      "y": 245,
+      "color": "#0039A6",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "F",
+      "num": "F",
+      "x": 2352,
+      "y": 955,
+      "color": "#FF6319",
+      "textColor": "#000000"
+    },
+    {
+      "line": "L",
+      "num": "L",
+      "x": 632,
+      "y": 1225,
+      "color": "#A7A9AC",
+      "textColor": "#000000"
+    },
+    {
+      "line": "G",
+      "num": "G",
+      "x": 1492,
+      "y": 945,
+      "color": "#6CBE45",
+      "textColor": "#000000"
+    },
+    {
+      "line": "SI",
+      "num": "SIR",
+      "x": 332,
+      "y": 1765,
+      "color": "#0039A6",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 100,
+      "maxX": 2540,
+      "minY": 20,
+      "maxY": 2300
+    },
+    "minZoom": 0.3,
+    "maxZoom": 20
+  },
+  "geoProjection": {
+    "refLonWest": -74.25,
+    "refLonEast": -73.75,
+    "refXWest": 100,
+    "refXEast": 2500,
+    "refLatNorth": 40.9,
+    "refLatSouth": 40.5,
+    "refYNorth": 100,
+    "refYSouth": 2220
+  },
+  "sequences": {
+    "1": [
+      "van-cortlandt",
+      "washington-heights",
+      "broadway-96",
+      "columbus-circle",
+      "times-square",
+      "penn-seventh",
+      "chambers-broadway",
+      "south-ferry"
+    ],
+    "4": [
+      "woodlawn",
+      "yankee-stadium",
+      "lexington-125",
+      "grand-central",
+      "union-square",
+      "brooklyn-bridge",
+      "fulton-center",
+      "atlantic-barclays",
+      "franklin-evers",
+      "utica-eastern"
+    ],
+    "7": [
+      "flushing",
+      "jackson-heights",
+      "queensboro-plaza",
+      "court-square",
+      "grand-central",
+      "times-square",
+      "hudson-yards"
+    ],
+    "A": [
+      "inwood",
+      "washington-heights",
+      "columbus-circle",
+      "penn-eighth",
+      "eighth-14",
+      "fulton-center",
+      "jay-metrotech",
+      "hoyt-schermerhorn",
+      "broadway-junction",
+      "rockaway-boulevard",
+      "far-rockaway"
+    ],
+    "F": [
+      "jamaica-179",
+      "jackson-heights",
+      "court-square",
+      "lexington-53",
+      "herald-square",
+      "delancey-essex",
+      "jay-metrotech",
+      "bergen-carroll",
+      "church-mcdonald",
+      "coney-island"
+    ],
+    "L": [
+      "eighth-14",
+      "union-square",
+      "bedford",
+      "metropolitan-lorimer",
+      "myrtle-wyckoff",
+      "broadway-junction",
+      "canarsie"
+    ],
+    "G": [
+      "court-square",
+      "metropolitan-lorimer",
+      "hoyt-schermerhorn",
+      "bergen-carroll",
+      "church-mcdonald"
+    ],
+    "SI": ["st-george", "new-dorp", "eltingville", "tottenville"]
+  },
+  "stationAliases": {
+    "id:101": "van-cortlandt",
+    "id:A02": "inwood",
+    "id:112": "washington-heights",
+    "id:A09": "washington-heights",
+    "id:120": "broadway-96",
+    "id:125": "columbus-circle",
+    "id:A24": "columbus-circle",
+    "id:127": "times-square",
+    "id:725": "times-square",
+    "id:902": "times-square",
+    "id:R16": "times-square",
+    "id:128": "penn-seventh",
+    "id:A28": "penn-eighth",
+    "id:137": "chambers-broadway",
+    "id:142": "south-ferry",
+    "id:R27": "south-ferry",
+    "id:401": "woodlawn",
+    "id:414": "yankee-stadium",
+    "id:D11": "yankee-stadium",
+    "id:621": "lexington-125",
+    "id:631": "grand-central",
+    "id:723": "grand-central",
+    "id:901": "grand-central",
+    "id:635": "union-square",
+    "id:L03": "union-square",
+    "id:R20": "union-square",
+    "id:640": "brooklyn-bridge",
+    "id:229": "fulton-center",
+    "id:418": "fulton-center",
+    "id:A38": "fulton-center",
+    "id:M22": "fulton-center",
+    "id:A42": "hoyt-schermerhorn",
+    "id:235": "atlantic-barclays",
+    "id:D24": "atlantic-barclays",
+    "id:R31": "atlantic-barclays",
+    "id:239": "franklin-evers",
+    "id:250": "utica-eastern",
+    "id:A51": "broadway-junction",
+    "id:J27": "broadway-junction",
+    "id:L22": "broadway-junction",
+    "id:A61": "rockaway-boulevard",
+    "id:H11": "far-rockaway",
+    "id:701": "flushing",
+    "id:G14": "jackson-heights",
+    "id:710": "jackson-heights",
+    "id:718": "queensboro-plaza",
+    "id:R09": "queensboro-plaza",
+    "id:719": "court-square",
+    "id:G22": "court-square",
+    "id:F09": "court-square",
+    "id:726": "hudson-yards",
+    "id:F01": "jamaica-179",
+    "id:D17": "herald-square",
+    "id:R17": "herald-square",
+    "id:F15": "delancey-essex",
+    "id:M18": "delancey-essex",
+    "id:A41": "jay-metrotech",
+    "id:R29": "jay-metrotech",
+    "id:F20": "bergen-carroll",
+    "id:F27": "church-mcdonald",
+    "id:D43": "coney-island",
+    "id:L01": "eighth-14",
+    "id:A31": "eighth-14",
+    "id:L08": "bedford",
+    "id:G29": "metropolitan-lorimer",
+    "id:L10": "metropolitan-lorimer",
+    "id:L17": "myrtle-wyckoff",
+    "id:M08": "myrtle-wyckoff",
+    "id:L29": "canarsie",
+    "id:S31": "st-george",
+    "id:S22": "new-dorp",
+    "id:S18": "eltingville",
+    "id:S09": "tottenville",
+    "id:F11": "lexington-53"
+  },
+  "stationIndex": [
+    {
+      "id": "621",
+      "schematicId": "lexington-125",
+      "name": "125 St / Lexington Av",
+      "lat": 40.804138,
+      "lon": -73.937594,
+      "lines": ["4"],
+      "platformIds": ["621N", "621S"],
+      "departureRouteIds": ["4", "5", "6", "6X"]
+    },
+    {
+      "id": "union-square",
+      "schematicId": "union-square",
+      "name": "14 St-Union Sq",
+      "lat": 40.734673,
+      "lon": -73.989951,
+      "lines": ["4", "L"],
+      "platformIds": ["635N", "635S", "L03N", "L03S", "R20N", "R20S"],
+      "departureRouteIds": ["4", "5", "6", "6X", "L", "N", "Q", "R", "W"]
+    },
+    {
+      "id": "yankee-stadium",
+      "schematicId": "yankee-stadium",
+      "name": "161 St-Yankee Stadium",
+      "lat": 40.827994,
+      "lon": -73.925831,
+      "lines": ["4"],
+      "platformIds": ["414N", "414S", "D11N", "D11S"],
+      "departureRouteIds": ["4", "B", "D"]
+    },
+    {
+      "id": "washington-heights",
+      "schematicId": "washington-heights",
+      "name": "168 St / Washington Heights",
+      "lat": 40.840556,
+      "lon": -73.940133,
+      "lines": ["1", "A"],
+      "platformIds": ["112N", "112S", "A09N", "A09S"],
+      "departureRouteIds": ["1", "A", "C"]
+    },
+    {
+      "id": "herald-square",
+      "schematicId": "herald-square",
+      "name": "34 St-Herald Sq",
+      "lat": 40.749719,
+      "lon": -73.987823,
+      "lines": ["F"],
+      "platformIds": ["D17N", "D17S", "R17N", "R17S"],
+      "departureRouteIds": ["B", "D", "F", "FX", "M", "N", "Q", "R", "W"]
+    },
+    {
+      "id": "726",
+      "schematicId": "hudson-yards",
+      "name": "34 St-Hudson Yards",
+      "lat": 40.755882,
+      "lon": -74.00191,
+      "lines": ["7"],
+      "platformIds": ["726N", "726S"],
+      "departureRouteIds": ["7", "7X"]
+    },
+    {
+      "id": "128",
+      "schematicId": "penn-seventh",
+      "name": "34 St-Penn / 7 Av",
+      "lat": 40.750373,
+      "lon": -73.991057,
+      "lines": ["1"],
+      "platformIds": ["128N", "128S"],
+      "departureRouteIds": ["1", "2", "3"]
+    },
+    {
+      "id": "A28",
+      "schematicId": "penn-eighth",
+      "name": "34 St-Penn / 8 Av",
+      "lat": 40.752287,
+      "lon": -73.993391,
+      "lines": ["A"],
+      "platformIds": ["A28N", "A28S"],
+      "departureRouteIds": ["A", "C", "E"]
+    },
+    {
+      "id": "columbus-circle",
+      "schematicId": "columbus-circle",
+      "name": "59 St-Columbus Circle",
+      "lat": 40.768247,
+      "lon": -73.981929,
+      "lines": ["1", "A"],
+      "platformIds": ["125N", "125S", "A24N", "A24S"],
+      "departureRouteIds": ["1", "2", "A", "B", "C", "D"]
+    },
+    {
+      "id": "eighth-14",
+      "schematicId": "eighth-14",
+      "name": "8 Av / 14 St",
+      "lat": 40.740893,
+      "lon": -74.00169,
+      "lines": ["A", "L"],
+      "platformIds": ["A31N", "A31S", "L01N", "L01S"],
+      "departureRouteIds": ["A", "C", "E", "L"]
+    },
+    {
+      "id": "120",
+      "schematicId": "broadway-96",
+      "name": "96 St / Broadway",
+      "lat": 40.793919,
+      "lon": -73.972323,
+      "lines": ["1"],
+      "platformIds": ["120N", "120S"],
+      "departureRouteIds": ["1", "2", "3"]
+    },
+    {
+      "id": "atlantic-barclays",
+      "schematicId": "atlantic-barclays",
+      "name": "Atlantic Av-Barclays Ctr",
+      "lat": 40.684359,
+      "lon": -73.977666,
+      "lines": ["4"],
+      "platformIds": ["235N", "235S", "D24N", "D24S", "R31N", "R31S"],
+      "departureRouteIds": ["2", "3", "4", "5", "B", "D", "N", "Q", "R", "W"]
+    },
+    {
+      "id": "L08",
+      "schematicId": "bedford",
+      "name": "Bedford Av",
+      "lat": 40.717304,
+      "lon": -73.956872,
+      "lines": ["L"],
+      "platformIds": ["L08N", "L08S"],
+      "departureRouteIds": ["L"]
+    },
+    {
+      "id": "F20",
+      "schematicId": "bergen-carroll",
+      "name": "Bergen St / Smith St",
+      "lat": 40.686145,
+      "lon": -73.990862,
+      "lines": ["F", "G"],
+      "platformIds": ["F20N", "F20S"],
+      "departureRouteIds": ["F", "G"]
+    },
+    {
+      "id": "broadway-junction",
+      "schematicId": "broadway-junction",
+      "name": "Broadway Junction",
+      "lat": 40.678334,
+      "lon": -73.905316,
+      "lines": ["A", "L"],
+      "platformIds": ["A51N", "A51S", "J27N", "J27S", "L22N", "L22S"],
+      "departureRouteIds": ["A", "C", "J", "L", "Z"]
+    },
+    {
+      "id": "640",
+      "schematicId": "brooklyn-bridge",
+      "name": "Brooklyn Bridge-City Hall",
+      "lat": 40.713065,
+      "lon": -74.004131,
+      "lines": ["4"],
+      "platformIds": ["640N", "640S"],
+      "departureRouteIds": ["4", "5", "6", "6X"]
+    },
+    {
+      "id": "L29",
+      "schematicId": "canarsie",
+      "name": "Canarsie-Rockaway Pkwy",
+      "lat": 40.646654,
+      "lon": -73.90185,
+      "lines": ["L"],
+      "platformIds": ["L29N", "L29S"],
+      "departureRouteIds": ["L"]
+    },
+    {
+      "id": "137",
+      "schematicId": "chambers-broadway",
+      "name": "Chambers St / West Broadway",
+      "lat": 40.715478,
+      "lon": -74.009266,
+      "lines": ["1"],
+      "platformIds": ["137N", "137S"],
+      "departureRouteIds": ["1", "2", "3"]
+    },
+    {
+      "id": "F27",
+      "schematicId": "church-mcdonald",
+      "name": "Church Av / McDonald Av",
+      "lat": 40.644041,
+      "lon": -73.979678,
+      "lines": ["F", "G"],
+      "platformIds": ["F27N", "F27S"],
+      "departureRouteIds": ["F", "FX", "G"]
+    },
+    {
+      "id": "D43",
+      "schematicId": "coney-island",
+      "name": "Coney Island-Stillwell Av",
+      "lat": 40.577422,
+      "lon": -73.981233,
+      "lines": ["F"],
+      "platformIds": ["D43N", "D43S"],
+      "departureRouteIds": ["D", "F", "FX", "N", "Q"]
+    },
+    {
+      "id": "court-square",
+      "schematicId": "court-square",
+      "name": "Court Sq",
+      "lat": 40.747023,
+      "lon": -73.945264,
+      "lines": ["7", "F", "G"],
+      "platformIds": ["719N", "719S", "F09N", "F09S", "G22N", "G22S"],
+      "departureRouteIds": ["7", "7X", "E", "F", "FX", "G"]
+    },
+    {
+      "id": "250",
+      "schematicId": "utica-eastern",
+      "name": "Crown Hts-Utica Av",
+      "lat": 40.668897,
+      "lon": -73.932942,
+      "lines": ["4"],
+      "platformIds": ["250N", "250S"],
+      "departureRouteIds": ["2", "3", "4", "5"]
+    },
+    {
+      "id": "delancey-essex",
+      "schematicId": "delancey-essex",
+      "name": "Delancey St-Essex St",
+      "lat": 40.718611,
+      "lon": -73.988114,
+      "lines": ["F"],
+      "platformIds": ["F15N", "F15S", "M18N", "M18S"],
+      "departureRouteIds": ["F", "FX", "J", "M", "Z"]
+    },
+    {
+      "id": "S18",
+      "schematicId": "eltingville",
+      "name": "Eltingville",
+      "lat": 40.544601,
+      "lon": -74.16457,
+      "lines": ["SI"],
+      "platformIds": ["S18N", "S18S"],
+      "departureRouteIds": ["SI"]
+    },
+    {
+      "id": "H11",
+      "schematicId": "far-rockaway",
+      "name": "Far Rockaway-Mott Av",
+      "lat": 40.603995,
+      "lon": -73.755405,
+      "lines": ["A"],
+      "platformIds": ["H11N", "H11S"],
+      "departureRouteIds": ["A"]
+    },
+    {
+      "id": "701",
+      "schematicId": "flushing",
+      "name": "Flushing-Main St",
+      "lat": 40.7596,
+      "lon": -73.83003,
+      "lines": ["7"],
+      "platformIds": ["701N", "701S"],
+      "departureRouteIds": ["7", "7X"]
+    },
+    {
+      "id": "239",
+      "schematicId": "franklin-evers",
+      "name": "Franklin Av-Medgar Evers College",
+      "lat": 40.670682,
+      "lon": -73.958131,
+      "lines": ["4"],
+      "platformIds": ["239N", "239S"],
+      "departureRouteIds": ["2", "3", "4", "5"]
+    },
+    {
+      "id": "fulton-center",
+      "schematicId": "fulton-center",
+      "name": "Fulton St",
+      "lat": 40.709416,
+      "lon": -74.006571,
+      "lines": ["4", "A"],
+      "platformIds": [
+        "229N",
+        "229S",
+        "418N",
+        "418S",
+        "A38N",
+        "A38S",
+        "G36N",
+        "G36S",
+        "M22N",
+        "M22S"
+      ],
+      "departureRouteIds": ["2", "3", "4", "5", "A", "C", "G", "J", "Z"]
+    },
+    {
+      "id": "grand-central",
+      "schematicId": "grand-central",
+      "name": "Grand Central-42 St",
+      "lat": 40.751776,
+      "lon": -73.976848,
+      "lines": ["4", "7"],
+      "platformIds": ["631N", "631S", "723N", "723S", "901N", "901S"],
+      "departureRouteIds": ["4", "5", "6", "6X", "7", "7X", "GS"]
+    },
+    {
+      "id": "A42",
+      "schematicId": "hoyt-schermerhorn",
+      "name": "Hoyt-Schermerhorn Sts",
+      "lat": 40.688484,
+      "lon": -73.985001,
+      "lines": ["A", "G"],
+      "platformIds": ["A42N", "A42S"],
+      "departureRouteIds": ["A", "C", "G"]
+    },
+    {
+      "id": "A02",
+      "schematicId": "inwood",
+      "name": "Inwood-207 St",
+      "lat": 40.868072,
+      "lon": -73.919899,
+      "lines": ["A"],
+      "platformIds": ["A02N", "A02S"],
+      "departureRouteIds": ["A"]
+    },
+    {
+      "id": "jackson-heights",
+      "schematicId": "jackson-heights",
+      "name": "Jackson Hts-Roosevelt Av",
+      "lat": 40.746848,
+      "lon": -73.891394,
+      "lines": ["7", "F"],
+      "platformIds": ["710N", "710S", "G14N", "G14S"],
+      "departureRouteIds": ["7", "7X", "E", "F", "FX", "M", "R"]
+    },
+    {
+      "id": "F01",
+      "schematicId": "jamaica-179",
+      "name": "Jamaica-179 St",
+      "lat": 40.712646,
+      "lon": -73.783817,
+      "lines": ["F"],
+      "platformIds": ["F01N", "F01S"],
+      "departureRouteIds": ["E", "F", "FX"]
+    },
+    {
+      "id": "jay-metrotech",
+      "schematicId": "jay-metrotech",
+      "name": "Jay St-MetroTech",
+      "lat": 40.692338,
+      "lon": -73.987342,
+      "lines": ["A", "F"],
+      "platformIds": ["A41N", "A41S", "R29N", "R29S"],
+      "departureRouteIds": ["A", "C", "F", "FX", "N", "R", "W"]
+    },
+    {
+      "id": "F11",
+      "schematicId": "lexington-53",
+      "name": "Lexington Av/53 St",
+      "lat": 40.757552,
+      "lon": -73.969055,
+      "lines": ["F"],
+      "platformIds": ["F11N", "F11S"],
+      "departureRouteIds": ["E", "F", "FX"]
+    },
+    {
+      "id": "metropolitan-lorimer",
+      "schematicId": "metropolitan-lorimer",
+      "name": "Metropolitan Av-Lorimer St",
+      "lat": 40.712792,
+      "lon": -73.951418,
+      "lines": ["G", "L"],
+      "platformIds": ["G29N", "G29S", "L10N", "L10S"],
+      "departureRouteIds": ["G", "L"]
+    },
+    {
+      "id": "myrtle-wyckoff",
+      "schematicId": "myrtle-wyckoff",
+      "name": "Myrtle-Wyckoff Avs",
+      "lat": 40.699814,
+      "lon": -73.911586,
+      "lines": ["L"],
+      "platformIds": ["L17N", "L17S", "M08N", "M08S"],
+      "departureRouteIds": ["L", "M"]
+    },
+    {
+      "id": "S22",
+      "schematicId": "new-dorp",
+      "name": "New Dorp",
+      "lat": 40.57348,
+      "lon": -74.11721,
+      "lines": ["SI"],
+      "platformIds": ["S22N", "S22S"],
+      "departureRouteIds": ["SI"]
+    },
+    {
+      "id": "queensboro-plaza",
+      "schematicId": "queensboro-plaza",
+      "name": "Queensboro Plaza",
+      "lat": 40.750582,
+      "lon": -73.940202,
+      "lines": ["7"],
+      "platformIds": ["718N", "718S", "R09N", "R09S"],
+      "departureRouteIds": ["7", "7X", "N", "W"]
+    },
+    {
+      "id": "A61",
+      "schematicId": "rockaway-boulevard",
+      "name": "Rockaway Blvd",
+      "lat": 40.680429,
+      "lon": -73.843853,
+      "lines": ["A"],
+      "platformIds": ["A61N", "A61S"],
+      "departureRouteIds": ["A"]
+    },
+    {
+      "id": "south-ferry",
+      "schematicId": "south-ferry",
+      "name": "South Ferry",
+      "lat": 40.702068,
+      "lon": -74.013664,
+      "lines": ["1"],
+      "platformIds": ["142N", "142S", "R27N", "R27S"],
+      "departureRouteIds": ["1", "N", "R", "W"]
+    },
+    {
+      "id": "S31",
+      "schematicId": "st-george",
+      "name": "St George",
+      "lat": 40.643748,
+      "lon": -74.073643,
+      "lines": ["SI"],
+      "platformIds": ["S31N", "S31S"],
+      "departureRouteIds": ["SI"]
+    },
+    {
+      "id": "times-square",
+      "schematicId": "times-square",
+      "name": "Times Sq-42 St",
+      "lat": 40.75529,
+      "lon": -73.987495,
+      "lines": ["1", "7"],
+      "platformIds": ["127N", "127S", "725N", "725S", "902N", "902S", "R16N", "R16S"],
+      "departureRouteIds": ["1", "2", "3", "7", "7X", "GS", "N", "Q", "R", "W"]
+    },
+    {
+      "id": "S09",
+      "schematicId": "tottenville",
+      "name": "Tottenville",
+      "lat": 40.512764,
+      "lon": -74.251961,
+      "lines": ["SI"],
+      "platformIds": ["S09N", "S09S"],
+      "departureRouteIds": ["SI"]
+    },
+    {
+      "id": "101",
+      "schematicId": "van-cortlandt",
+      "name": "Van Cortlandt Park-242 St",
+      "lat": 40.889248,
+      "lon": -73.898583,
+      "lines": ["1"],
+      "platformIds": ["101N", "101S"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "401",
+      "schematicId": "woodlawn",
+      "name": "Woodlawn",
+      "lat": 40.886037,
+      "lon": -73.878751,
+      "lines": ["4"],
+      "platformIds": ["401N", "401S"],
+      "departureRouteIds": ["4"]
+    }
+  ]
+}

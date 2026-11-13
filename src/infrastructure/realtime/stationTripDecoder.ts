@@ -89,7 +89,12 @@ function decodeTripUpdate(
     if (!tag) break;
     const [fieldNum, wireType] = tag;
     if (fieldNum === 1 && wireType === 2) {
-      const value = decodeTripDescriptor(reader.readSubReader(), tripRoutes, options.idNamespace);
+      const value = decodeTripDescriptor(
+        reader.readSubReader(),
+        tripRoutes,
+        options.idNamespace,
+        options.tripDirectionExtension,
+      );
       descriptor = value;
       tripId = value.tripId ?? tripId;
       routeId = value.routeId ?? routeId;

@@ -315,6 +315,7 @@ function decodeTripUpdate(
         reader.readSubReader(),
         options.tripRoutes,
         options.idNamespace,
+        options.tripDirectionExtension,
       );
       tripDescriptor = descriptor;
       tripId = descriptor.tripId ?? tripId;
@@ -416,6 +417,7 @@ function decodeVehiclePosition(
         reader.readSubReader(),
         options.tripRoutes,
         options.idNamespace,
+        options.tripDirectionExtension,
       );
       tripId = descriptor.tripId;
       routeId = descriptor.routeId ?? routeId;

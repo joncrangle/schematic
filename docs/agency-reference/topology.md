@@ -134,7 +134,10 @@ shapes, and scopes writes by `agency_id`.
 
 The seeder groups feed stops onto `sequences` stations. When a feed name doesn't
 match a schematic name, add a `stationAliases` entry (`"feed name" → station id`),
-or `"code:<stop_code>" → station id` for same-named stations. The same feed and
+or `"code:<stop_code>" → station id` for same-named stations. When a feed
+omits public stop codes, `"id:<stop_id>" → station id` selects the exact feed
+parent or top-level stop before code and name aliases. Its child platforms
+keep that parent identity. The same feed and
 manifest always produce the same `stationIndex`. Follow the
 [generated-data standards](../../CODING_STANDARDS.md#generated-station-data) for
 field ownership.

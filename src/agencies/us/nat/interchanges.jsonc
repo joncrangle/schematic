@@ -762,6 +762,65 @@
     ]
   },
   {
+    "id": "amtrak-mta-bus-mta-subway-via-newyork",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "New York",
+        "stationId": "new-york"
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "34 St-Penn / 8 Av",
+        "stationId": "penn-eighth",
+        "feedStopIds": [
+          "A28N",
+          "A28S"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "34 St-Penn / 7 Av",
+        "stationId": "penn-seventh"
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "W 34 St / 7 Av",
+        "stationId": "m34-sbs-w-34-st-7-av",
+        "feedStopIds": [
+          "401847",
+          "404280"
+        ]
+      },
+      {
+        "agencyId": "via",
+        "stationName": "New York",
+        "stationId": "new-york"
+      }
+    ],
+    "badgeOffsets": {
+      "mta-bus": {
+        "dx": 80,
+        "dy": -60,
+        "layout": "vertical"
+      },
+      "amtrak": {
+        "dx": -83,
+        "dy": -28,
+        "layout": "vertical"
+      },
+      "mta-subway": {
+        "dx": -61,
+        "dy": 28,
+        "layout": "vertical"
+      },
+      "via": {
+        "dx": 0,
+        "dy": 28
+      }
+    }
+  },
+  {
     "id": "amtrak-via-amsterdamamtrak",
     "endpoints": [
       {
@@ -853,31 +912,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "amtrak-via-newyork",
-    "endpoints": [
-      {
-        "agencyId": "amtrak",
-        "stationName": "New York",
-        "stationId": "new-york"
-      },
-      {
-        "agencyId": "via",
-        "stationName": "New York",
-        "stationId": "new-york"
-      }
-    ],
-    "badgeOffsets": {
-      "amtrak": {
-        "dx": -55.65,
-        "dy": -28
-      },
-      "via": {
-        "dx": 0,
-        "dy": 28
-      }
-    }
   },
   {
     "id": "amtrak-via-niagarafallsny",
@@ -1043,5 +1077,80 @@
         ]
       }
     ]
+  },
+  {
+    "id": "flixbus-us-mta-bus-mta-subway-175st",
+    "endpoints": [
+      {
+        "agencyId": "flixbus-us",
+        "stationName": "New York (GW Bridge)",
+        "feedStopIds": [
+          "74b8f0dc-56a2-4d1b-b0a4-abe9df30a007"
+        ]
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "FORT WASHINGTON AV/W 177 ST",
+        "feedStopIds": [
+          "400629",
+          "400646"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "175 St",
+        "feedStopIds": [
+          "A07N",
+          "A07S"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flixbus-us-mta-bus-mta-subway-newyork",
+    "endpoints": [
+      {
+        "agencyId": "flixbus-us",
+        "stationName": "New York",
+        "stationId": "new-york"
+      },
+      {
+        "agencyId": "mta-bus",
+        "stationName": "9 Av / W 42 St",
+        "stationId": "m34a-sbs-9-av-w-42-st",
+        "feedStopIds": [
+          "401497"
+        ]
+      },
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Times Sq-42 St",
+        "stationId": "times-square",
+        "feedStopIds": [
+          "127N",
+          "127S",
+          "725N",
+          "725S",
+          "902N",
+          "902S",
+          "R16N",
+          "R16S"
+        ]
+      }
+    ],
+    "badgeOffsets": {
+      "flixbus-us": {
+        "dx": -119.07,
+        "dy": -28
+      },
+      "mta-subway": {
+        "dx": 104.05,
+        "dy": 28
+      },
+      "mta-bus": {
+        "dx": 28,
+        "dy": -28
+      }
+    }
   }
 ]

@@ -112,6 +112,8 @@ export type InterchangeHubOverride = Schema.Schema.Type<typeof InterchangeHubOve
 export const InterchangeOverridesSchema = Schema.Struct({
   hubs: Schema.Array(InterchangeHubOverrideSchema),
   exclusions: Schema.Array(InterchangeExclusionSchema),
+  /** Agencies whose canonical boarding identities must not absorb neighbouring kerbs. */
+  boardingIdentityAgencyIds: Schema.optional(Schema.Array(Schema.NonEmptyString)),
   /** Stations kept out of discovery entirely, when no nearby stop is a documented transfer. */
   isolated: Schema.optional(Schema.Array(InterchangeEndpointSchema)),
 });

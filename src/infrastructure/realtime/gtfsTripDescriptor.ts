@@ -1,3 +1,4 @@
+import type { TripDirectionExtension } from "~/agencies/types";
 import { namespaceFeedId } from "../gtfs/feedIdentity";
 import * as Data from "effect/Data";
 import * as Effect from "effect/Effect";
@@ -10,11 +11,13 @@ export function decodeTripDescriptor(
   reader: ProtobufReader,
   tripRoutes?: ReadonlyMap<string, TripRoute>,
   idNamespace?: string,
+  directionExtension?: TripDirectionExtension,
 ) {
   let tripId: string | undefined;
   let affectedTripId: string | undefined;
   let routeId: string | undefined;
   let directionId: number | undefined;
+  let extensionDirection: 0 | 1 | undefined;
   let canceled = false;
   let startDate: string | undefined, startTime: string | undefined;
   while (reader.hasMore()) {
@@ -27,7 +30,16 @@ export function decodeTripDescriptor(
     else if (field === 5 && wire === 2) routeId = reader.readString().trim() || undefined;
     else if (field === 6 && wire === 0) directionId = reader.readVarint();
     else if (field === 4 && wire === 0) canceled = reader.readVarint() === 3;
-    else if (field === 7 && wire === 2) {
+    else if (field === directionExtension?.fieldNumber && wire === 2) {
+      const extension = reader.readSubReader();
+      while (extension.hasMore()) {
+        const nested = extension.readTag();
+        if (!nested) break;
+        if (nested[0] === directionExtension.directionFieldNumber && nested[1] === 0)
+          extensionDirection = directionExtension.values[String(extension.readVarint())];
+        else extension.skip(nested[1]);
+      }
+    } else if (field === 7 && wire === 2) {
       const selector = reader.readSubReader();
       while (selector.hasMore()) {
         const nested = selector.readTag();
@@ -46,7 +58,7 @@ export function decodeTripDescriptor(
   return {
     tripId,
     routeId: routeId ?? joined?.routeId,
-    directionId: joined?.directionId ?? directionId,
+    directionId: joined?.directionId ?? directionId ?? extensionDirection,
     canceled,
     affectedTripId,
     startDate,

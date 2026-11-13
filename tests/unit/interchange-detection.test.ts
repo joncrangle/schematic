@@ -1553,3 +1553,85 @@ it("discovers a connection between feed-only light rail stations", () => {
     ),
   ).toMatchObject([{ endpoints: [{ agencyId: "alpha" }, { agencyId: "beta" }] }]);
 });
+
+it("strict facility matching: keeps a named roadside endpoint separate from other nearby kerbs", () => {
+  const hubs = discoverInterchanges(
+    [
+      { agencyId: "rail", id: "one", schematicId: "one", name: "One", lat: 44, lon: -76 },
+      { agencyId: "rail", id: "two", schematicId: "two", name: "Two", lat: 44.005, lon: -76 },
+      {
+        agencyId: "bus",
+        id: "east",
+        name: "East forecourt",
+        feedStopIds: ["east"],
+        roadside: true,
+        lat: 44.0001,
+        lon: -76,
+      },
+      {
+        agencyId: "bus",
+        id: "west",
+        name: "West forecourt",
+        feedStopIds: ["west"],
+        roadside: true,
+        lat: 44.0002,
+        lon: -76,
+      },
+      {
+        agencyId: "bus",
+        id: "road",
+        name: "Between stations",
+        feedStopIds: ["road"],
+        roadside: true,
+        lat: 44.0024,
+        lon: -76,
+      },
+    ],
+    350,
+    [],
+    [],
+    ["bus"],
+  );
+  expect(hubs).toHaveLength(1);
+  expect(hubs[0]?.endpoints.find((e) => e.agencyId === "bus")?.feedStopIds).toEqual(["east"]);
+  expect(hubs[0]?.endpoints.find((e) => e.agencyId === "rail")?.stationId).toBe("one");
+});
+
+it("strict facility matching: keeps canonical boarding platforms without relabelling a nearby roadside stop", () => {
+  const stations = stationsFromSeededTables(
+    "fixture-bus",
+    [
+      { table: "routes", rows: [{ id: "bus", route_type: 3 }] },
+      {
+        table: "stops",
+        rows: [
+          { id: "north", name: "Central Station", lat: 44, lon: -76, routes_json: '["bus"]' },
+          { id: "south", name: "Central Station", lat: 44.004, lon: -76, routes_json: '["bus"]' },
+          { id: "forecourt", name: "Forecourt", lat: 44.0001, lon: -76, routes_json: '["bus"]' },
+        ],
+      },
+    ],
+    [{ id: "central", name: "Central", lat: 44, lon: -76, platformIds: ["north", "south"] }],
+  );
+  const hubs = discoverInterchanges(
+    [
+      ...stations,
+      {
+        agencyId: "fixture-rail",
+        id: "central",
+        schematicId: "central",
+        name: "Central",
+        lat: 44,
+        lon: -76,
+      },
+    ],
+    350,
+    [],
+    [],
+    ["fixture-bus"],
+  );
+  expect(hubs[0]?.endpoints.find((e) => e.agencyId === "fixture-bus")?.feedStopIds).toEqual([
+    "north",
+    "south",
+  ]);
+});

@@ -1,0 +1,2928 @@
+{
+  "viewBoxWidth": 8160,
+  "viewBoxHeight": 8610,
+  "lines": [
+    {
+      "id": "B44+",
+      "name": "B44-SBS Sheepshead Bay - Williamsburg",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 5410,
+          "y": 7570
+        },
+        {
+          "x": 5410,
+          "y": 6970
+        },
+        {
+          "x": 5230,
+          "y": 6790
+        },
+        {
+          "x": 5230,
+          "y": 5770
+        },
+        {
+          "x": 5110,
+          "y": 5650
+        },
+        {
+          "x": 5110,
+          "y": 5170
+        },
+        {
+          "x": 4990,
+          "y": 5050
+        }
+      ]
+    },
+    {
+      "id": "B46+",
+      "name": "B46-SBS Kings Plaza - Williamsburg",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 5410,
+          "y": 5410
+        },
+        {
+          "x": 5410,
+          "y": 5890
+        },
+        {
+          "x": 5410,
+          "y": 6550
+        },
+        {
+          "x": 5470,
+          "y": 6610
+        },
+        {
+          "x": 5470,
+          "y": 7030
+        },
+        {
+          "x": 5530,
+          "y": 7090
+        }
+      ]
+    },
+    {
+      "id": "B82+",
+      "name": "B82-SBS Coney Island -spring Creek Towers",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 6130,
+          "y": 6370
+        },
+        {
+          "x": 5890,
+          "y": 6370
+        },
+        {
+          "x": 5710,
+          "y": 6550
+        },
+        {
+          "x": 5590,
+          "y": 6550
+        },
+        {
+          "x": 5050,
+          "y": 7090
+        },
+        {
+          "x": 4810,
+          "y": 7090
+        },
+        {
+          "x": 4510,
+          "y": 7390
+        }
+      ]
+    },
+    {
+      "id": "BX12+",
+      "name": "Bx12-SBS Bay Plaza - Inwood",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 6850,
+          "y": 1930
+        },
+        {
+          "x": 6850,
+          "y": 1990
+        },
+        {
+          "x": 6730,
+          "y": 2110
+        },
+        {
+          "x": 6010,
+          "y": 2110
+        },
+        {
+          "x": 5890,
+          "y": 1990
+        },
+        {
+          "x": 5710,
+          "y": 1990
+        },
+        {
+          "x": 5590,
+          "y": 1870
+        }
+      ]
+    },
+    {
+      "id": "BX41+",
+      "name": "Bx41-SBS Williamsbridge - The Hub",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 5590,
+          "y": 2950
+        },
+        {
+          "x": 5590,
+          "y": 2590
+        },
+        {
+          "x": 5770,
+          "y": 2410
+        },
+        {
+          "x": 5770,
+          "y": 2230
+        },
+        {
+          "x": 6070,
+          "y": 1930
+        },
+        {
+          "x": 6310,
+          "y": 1690
+        }
+      ]
+    },
+    {
+      "id": "BX6+",
+      "name": "Bx6-SBS Hunts Point - Riverside Dr",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 5170,
+          "y": 2530
+        },
+        {
+          "x": 5530,
+          "y": 2530
+        },
+        {
+          "x": 5830,
+          "y": 2830
+        },
+        {
+          "x": 5890,
+          "y": 2830
+        },
+        {
+          "x": 6130,
+          "y": 3070
+        },
+        {
+          "x": 6190,
+          "y": 3070
+        }
+      ]
+    },
+    {
+      "id": "M14A+",
+      "name": "M14A-SBS Lower East Side - Abingdon Sq",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 4750,
+          "y": 4990
+        },
+        {
+          "x": 4750,
+          "y": 4930
+        },
+        {
+          "x": 4630,
+          "y": 4810
+        },
+        {
+          "x": 4630,
+          "y": 4630
+        },
+        {
+          "x": 4570,
+          "y": 4570
+        },
+        {
+          "x": 4450,
+          "y": 4570
+        },
+        {
+          "x": 4390,
+          "y": 4510
+        }
+      ]
+    },
+    {
+      "id": "M14D+",
+      "name": "M14D-SBS Lower East Side - Chelsea Piers",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 4330,
+          "y": 4330
+        },
+        {
+          "x": 4330,
+          "y": 4390
+        },
+        {
+          "x": 4570,
+          "y": 4630
+        },
+        {
+          "x": 4690,
+          "y": 4630
+        },
+        {
+          "x": 4750,
+          "y": 4690
+        },
+        {
+          "x": 4750,
+          "y": 4930
+        }
+      ]
+    },
+    {
+      "id": "M15+",
+      "name": "M15-SBS East Harlem - South Ferry",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 4270,
+          "y": 5230
+        },
+        {
+          "x": 4270,
+          "y": 4990
+        },
+        {
+          "x": 4750,
+          "y": 4510
+        },
+        {
+          "x": 4750,
+          "y": 4150
+        },
+        {
+          "x": 5110,
+          "y": 3790
+        },
+        {
+          "x": 5110,
+          "y": 3490
+        },
+        {
+          "x": 5410,
+          "y": 3190
+        }
+      ]
+    },
+    {
+      "id": "M23+",
+      "name": "M23-SBS Chelsea Piers - East Side",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 4810,
+          "y": 4570
+        },
+        {
+          "x": 4690,
+          "y": 4450
+        },
+        {
+          "x": 4570,
+          "y": 4450
+        },
+        {
+          "x": 4450,
+          "y": 4330
+        },
+        {
+          "x": 4390,
+          "y": 4330
+        },
+        {
+          "x": 4330,
+          "y": 4270
+        }
+      ]
+    },
+    {
+      "id": "M34+",
+      "name": "M34-SBS East Side - Javits Center",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 4390,
+          "y": 4150
+        },
+        {
+          "x": 4510,
+          "y": 4150
+        },
+        {
+          "x": 4570,
+          "y": 4210
+        },
+        {
+          "x": 4630,
+          "y": 4270
+        },
+        {
+          "x": 4750,
+          "y": 4270
+        },
+        {
+          "x": 4810,
+          "y": 4330
+        },
+        {
+          "x": 4810,
+          "y": 4510
+        }
+      ]
+    },
+    {
+      "id": "M34A+",
+      "name": "M34A-SBS Waterside - Port Authority Terminal",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 4570,
+          "y": 4090
+        },
+        {
+          "x": 4570,
+          "y": 4210
+        },
+        {
+          "x": 4630,
+          "y": 4270
+        },
+        {
+          "x": 4630,
+          "y": 4330
+        },
+        {
+          "x": 4750,
+          "y": 4450
+        },
+        {
+          "x": 4810,
+          "y": 4510
+        }
+      ]
+    },
+    {
+      "id": "M60+",
+      "name": "M60-SBS West Side - LaGuardia Airport",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 4930,
+          "y": 3190
+        },
+        {
+          "x": 5110,
+          "y": 3190
+        },
+        {
+          "x": 5230,
+          "y": 3070
+        },
+        {
+          "x": 5230,
+          "y": 3190
+        },
+        {
+          "x": 5950,
+          "y": 3910
+        },
+        {
+          "x": 6130,
+          "y": 3910
+        },
+        {
+          "x": 6250,
+          "y": 3790
+        }
+      ]
+    },
+    {
+      "id": "M79+",
+      "name": "M79-SBS Yorkville - West Side",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 5170,
+          "y": 3850
+        },
+        {
+          "x": 5050,
+          "y": 3730
+        },
+        {
+          "x": 4990,
+          "y": 3730
+        },
+        {
+          "x": 4870,
+          "y": 3610
+        },
+        {
+          "x": 4750,
+          "y": 3610
+        },
+        {
+          "x": 4690,
+          "y": 3550
+        }
+      ]
+    },
+    {
+      "id": "M86+",
+      "name": "M86-SBS Yorkville - West Side",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 4750,
+          "y": 3490
+        },
+        {
+          "x": 4810,
+          "y": 3490
+        },
+        {
+          "x": 4930,
+          "y": 3610
+        },
+        {
+          "x": 5050,
+          "y": 3610
+        },
+        {
+          "x": 5110,
+          "y": 3670
+        },
+        {
+          "x": 5170,
+          "y": 3670
+        }
+      ]
+    },
+    {
+      "id": "Q44+",
+      "name": "Q44-SBS Bronx Zoo - Jamaica",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 6130,
+          "y": 2410
+        },
+        {
+          "x": 6130,
+          "y": 2830
+        },
+        {
+          "x": 6910,
+          "y": 3610
+        },
+        {
+          "x": 6910,
+          "y": 4630
+        },
+        {
+          "x": 6910,
+          "y": 4750
+        },
+        {
+          "x": 7330,
+          "y": 5170
+        }
+      ]
+    },
+    {
+      "id": "Q52+",
+      "name": "Q52-SBS Elmhurst - Arverne Sbs Vis Woodhaven/Cross Bay",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 7510,
+          "y": 7330
+        },
+        {
+          "x": 7090,
+          "y": 7330
+        },
+        {
+          "x": 6970,
+          "y": 7210
+        },
+        {
+          "x": 6970,
+          "y": 5950
+        },
+        {
+          "x": 6610,
+          "y": 5590
+        },
+        {
+          "x": 6610,
+          "y": 4930
+        },
+        {
+          "x": 6250,
+          "y": 4570
+        }
+      ]
+    },
+    {
+      "id": "Q53+",
+      "name": "Q53-SBS Woodside - Rockaway Park",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 5830,
+          "y": 4330
+        },
+        {
+          "x": 5830,
+          "y": 4390
+        },
+        {
+          "x": 6430,
+          "y": 4990
+        },
+        {
+          "x": 6430,
+          "y": 5890
+        },
+        {
+          "x": 6730,
+          "y": 6190
+        },
+        {
+          "x": 6730,
+          "y": 7630
+        }
+      ]
+    },
+    {
+      "id": "Q70+",
+      "name": "Q70-SBS LaGuardia Link",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 5830,
+          "y": 4330
+        },
+        {
+          "x": 5830,
+          "y": 4150
+        },
+        {
+          "x": 6190,
+          "y": 3790
+        },
+        {
+          "x": 6250,
+          "y": 3850
+        },
+        {
+          "x": 6250,
+          "y": 3970
+        },
+        {
+          "x": 5830,
+          "y": 4390
+        }
+      ]
+    },
+    {
+      "id": "S79+",
+      "name": "S79-SBS Staten Island Mall - Bay Ridge",
+      "color": "#006CB7",
+      "points": [
+        {
+          "x": 2170,
+          "y": 7570
+        },
+        {
+          "x": 2170,
+          "y": 8170
+        },
+        {
+          "x": 2410,
+          "y": 8410
+        },
+        {
+          "x": 2410,
+          "y": 8230
+        },
+        {
+          "x": 3130,
+          "y": 7510
+        },
+        {
+          "x": 3310,
+          "y": 7510
+        },
+        {
+          "x": 4030,
+          "y": 6790
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "b44-sbs-knapp-st-shore-pkwy",
+      "name": "Knapp St / Shore Pkwy",
+      "x": 5410,
+      "y": 7570,
+      "lines": ["B44+"],
+      "label": {
+        "x": 5438,
+        "y": 7570,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "b44-sbs-nostrand-av-avenue-l",
+      "name": "Nostrand Av / Avenue L",
+      "x": 5230,
+      "y": 6790,
+      "lines": ["B44+"],
+      "label": {
+        "x": 5202,
+        "y": 6790,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "b44-sbs-bedford-av-fulton-st",
+      "name": "Bedford Av / Fulton St",
+      "x": 5110,
+      "y": 5650,
+      "lines": ["B44+"],
+      "label": {
+        "x": 5138,
+        "y": 5650,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "b44-sbs-williamsburg-bridge-plaza-lane-4",
+      "name": "Williamsburg Bridge Plaza / Lane 4",
+      "x": 4990,
+      "y": 5050,
+      "lines": ["B44+"],
+      "label": {
+        "x": 5018,
+        "y": 5050,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "b46-sbs-malcolm-x-blvd-de-kalb-av",
+      "name": "Malcolm X Blvd / De Kalb Av",
+      "x": 5410,
+      "y": 5410,
+      "lines": ["B46+"],
+      "label": {
+        "x": 5438,
+        "y": 5410,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "b46-sbs-utica-av-eastern-pkwy",
+      "name": "Utica Av / Eastern Pkwy",
+      "x": 5410,
+      "y": 5890,
+      "lines": ["B46+"],
+      "label": {
+        "x": 5438,
+        "y": 5890,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "b46-sbs-utica-av-avenue-h",
+      "name": "Utica Av / Avenue H",
+      "x": 5470,
+      "y": 6610,
+      "lines": ["B46+"],
+      "label": {
+        "x": 5442,
+        "y": 6610,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "b46-sbs-kings-plaza",
+      "name": "Kings Plaza",
+      "x": 5530,
+      "y": 7090,
+      "lines": ["B46+"],
+      "label": {
+        "x": 5558,
+        "y": 7090,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "b82-sbs-seaview-av-pennsylvania-av",
+      "name": "Seaview Av  /  Pennsylvania Av",
+      "x": 6130,
+      "y": 6370,
+      "lines": ["B82+"],
+      "label": {
+        "x": 6158,
+        "y": 6370,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "b82-sbs-flatlands-av-e-82-st",
+      "name": "Flatlands Av / E 82 St",
+      "x": 5710,
+      "y": 6550,
+      "lines": ["B82+"],
+      "label": {
+        "x": 5738,
+        "y": 6550,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "b82-sbs-kings-hwy-e-16-st",
+      "name": "Kings Hwy / E 16 St",
+      "x": 5050,
+      "y": 7090,
+      "lines": ["B82+"],
+      "label": {
+        "x": 5078,
+        "y": 7090,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "b82-sbs-cropsey-av-24-av",
+      "name": "Cropsey Av / 24 Av",
+      "x": 4510,
+      "y": 7390,
+      "lines": ["B82+"],
+      "label": {
+        "x": 4538,
+        "y": 7390,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "bx12-sbs-bay-plaza-blvd-j-c-penny",
+      "name": "Bay Plaza Blvd / J C Penny",
+      "x": 6850,
+      "y": 1930,
+      "lines": ["BX12+"],
+      "label": {
+        "x": 6878,
+        "y": 1930,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "bx12-sbs-pelham-pkwy-stillwell-av",
+      "name": "Pelham Pkwy / Stillwell Av",
+      "x": 6730,
+      "y": 2110,
+      "lines": ["BX12+"],
+      "label": {
+        "x": 6758,
+        "y": 2110,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bx12-sbs-east-fordham-rd-valentine-av",
+      "name": "East Fordham Rd / Valentine Av",
+      "x": 5890,
+      "y": 1990,
+      "lines": ["BX12+"],
+      "label": {
+        "x": 5890,
+        "y": 1955,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bx12-sbs-broadway-w-207-st",
+      "name": "Broadway / W 207 St",
+      "x": 5590,
+      "y": 1870,
+      "lines": ["BX12+"],
+      "label": {
+        "x": 5618,
+        "y": 1870,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "bx41-sbs-3-av-148-st",
+      "name": "3 Av / 148 St",
+      "x": 5590,
+      "y": 2950,
+      "lines": ["BX41+"],
+      "label": {
+        "x": 5618,
+        "y": 2950,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "bx41-sbs-webster-av-claremont-pkwy",
+      "name": "Webster Av / Claremont Pkwy",
+      "x": 5770,
+      "y": 2410,
+      "lines": ["BX41+"],
+      "label": {
+        "x": 5798,
+        "y": 2410,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bx41-sbs-webster-av-bedford-park-blvd",
+      "name": "Webster Av / Bedford Park Blvd",
+      "x": 6070,
+      "y": 1930,
+      "lines": ["BX41+"],
+      "label": {
+        "x": 6098,
+        "y": 1930,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bx41-sbs-white-plains-rd-east-gun-hill-rd",
+      "name": "White Plains Rd / East Gun Hill Rd",
+      "x": 6310,
+      "y": 1690,
+      "lines": ["BX41+"],
+      "label": {
+        "x": 6338,
+        "y": 1690,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "bx6-sbs-riverside-dr-west-157-10-riverside-dr",
+      "name": "Riverside Dr West / 157-10 Riverside Dr",
+      "x": 5170,
+      "y": 2530,
+      "lines": ["BX6+"],
+      "label": {
+        "x": 5142,
+        "y": 2530,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "bx6-sbs-e-163-st-prospect-av",
+      "name": "E 163 St / Prospect Av",
+      "x": 5830,
+      "y": 2830,
+      "lines": ["BX6+"],
+      "label": {
+        "x": 5802,
+        "y": 2830,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bx6-sbs-halleck-st-viele-av",
+      "name": "Halleck St / Viele Av",
+      "x": 6130,
+      "y": 3070,
+      "lines": ["BX6+"],
+      "label": {
+        "x": 6102,
+        "y": 3070,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bx6-sbs-food-center-dr-terminal",
+      "name": "Food Center Dr / Terminal",
+      "x": 6190,
+      "y": 3070,
+      "lines": ["BX6+"],
+      "label": {
+        "x": 6190,
+        "y": 3105,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m14a-sbs-grand-st-fdr-dr",
+      "name": "Grand St / Fdr Dr",
+      "x": 4750,
+      "y": 4990,
+      "lines": ["M14A+"],
+      "label": {
+        "x": 4778,
+        "y": 4990,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m14a-sbs-avenue-a-east-houston-st",
+      "name": "Avenue A / East Houston St",
+      "x": 4630,
+      "y": 4810,
+      "lines": ["M14A+"],
+      "label": {
+        "x": 4602,
+        "y": 4870,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "m14a-sbs-e-14-st-irving-pl",
+      "name": "E 14 St / Irving Pl",
+      "x": 4570,
+      "y": 4570,
+      "lines": ["M14A+"],
+      "label": {
+        "x": 4525,
+        "y": 4615,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "m14a-sbs-hudson-st-w-12-st",
+      "name": "Hudson St / W 12 St",
+      "x": 4390,
+      "y": 4510,
+      "lines": ["M14A+"],
+      "label": {
+        "x": 4362,
+        "y": 4510,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m14d-sbs-w-18-st-11-av",
+      "name": "W 18 St / 11 Av",
+      "x": 4330,
+      "y": 4330,
+      "lines": ["M14D+"],
+      "label": {
+        "x": 4302,
+        "y": 4330,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m14d-sbs-e-14-st-university-pl",
+      "name": "E 14 St / University Pl",
+      "x": 4570,
+      "y": 4630,
+      "lines": ["M14D+"],
+      "label": {
+        "x": 4542,
+        "y": 4630,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m14d-sbs-avenue-c-e-12-st",
+      "name": "Avenue C / E 12 St",
+      "x": 4750,
+      "y": 4690,
+      "lines": ["M14D+"],
+      "label": {
+        "x": 4778,
+        "y": 4690,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m14d-sbs-delancey-st-columbia-st",
+      "name": "Delancey St / Columbia St",
+      "x": 4750,
+      "y": 4930,
+      "lines": ["M14D+"],
+      "label": {
+        "x": 4778,
+        "y": 4930,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m15-sbs-south-ferry-term-south-ferry-term",
+      "name": "South Ferry Term / South Ferry Term",
+      "x": 4270,
+      "y": 5230,
+      "lines": ["M15+"],
+      "label": {
+        "x": 4298,
+        "y": 5230,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m15-sbs-1-av-25-st",
+      "name": "1 Av / 25 St",
+      "x": 4750,
+      "y": 4510,
+      "lines": ["M15+"],
+      "label": {
+        "x": 4722,
+        "y": 4510,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m15-sbs-1-av-e-80-st",
+      "name": "1 Av / E 80 St",
+      "x": 5110,
+      "y": 3790,
+      "lines": ["M15+"],
+      "label": {
+        "x": 5082,
+        "y": 3790,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m15-sbs-e-126-st-2-av",
+      "name": "E 126 St / 2 Av",
+      "x": 5410,
+      "y": 3190,
+      "lines": ["M15+"],
+      "label": {
+        "x": 5438,
+        "y": 3190,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m23-sbs-avenue-c-e-20-st",
+      "name": "Avenue C / E 20 St",
+      "x": 4810,
+      "y": 4570,
+      "lines": ["M23+"],
+      "label": {
+        "x": 4838,
+        "y": 4570,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m23-sbs-e-23-st-3-av",
+      "name": "E 23 St  /  3 Av",
+      "x": 4690,
+      "y": 4450,
+      "lines": ["M23+"],
+      "label": {
+        "x": 4662,
+        "y": 4485,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "m23-sbs-w-23-st-8-av",
+      "name": "W 23 St / 8 Av",
+      "x": 4450,
+      "y": 4330,
+      "lines": ["M23+"],
+      "label": {
+        "x": 4478,
+        "y": 4330,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m23-sbs-12-av-w-23-st",
+      "name": "12 Av / W 23 St",
+      "x": 4330,
+      "y": 4270,
+      "lines": ["M23+"],
+      "label": {
+        "x": 4358,
+        "y": 4270,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m34-sbs-w-34-st-12-av",
+      "name": "W 34 St / 12 Av",
+      "x": 4390,
+      "y": 4150,
+      "lines": ["M34+"],
+      "label": {
+        "x": 4362,
+        "y": 4150,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m34-sbs-w-34-st-7-av",
+      "name": "W 34 St / 7 Av",
+      "x": 4570,
+      "y": 4210,
+      "lines": ["M34+", "M34A+"],
+      "label": {
+        "x": 4542,
+        "y": 4210,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m34-sbs-e-34-st-2-av",
+      "name": "E 34 St  / 2 Av",
+      "x": 4810,
+      "y": 4330,
+      "lines": ["M34+"],
+      "label": {
+        "x": 4838,
+        "y": 4330,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m34-sbs-waterside-waterside",
+      "name": "Waterside / Waterside",
+      "x": 4810,
+      "y": 4510,
+      "lines": ["M34+", "M34A+"],
+      "label": {
+        "x": 4838,
+        "y": 4510,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m34a-sbs-9-av-w-42-st",
+      "name": "9 Av / W 42 St",
+      "x": 4570,
+      "y": 4090,
+      "lines": ["M34A+"],
+      "label": {
+        "x": 4598,
+        "y": 4090,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m34a-sbs-w-34-st-broadway",
+      "name": "W 34 St / Broadway",
+      "x": 4630,
+      "y": 4270,
+      "lines": ["M34A+", "M34+"],
+      "label": {
+        "x": 4602,
+        "y": 4270,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m34a-sbs-2-av-e-28-st",
+      "name": "2 Av / E 28 St",
+      "x": 4750,
+      "y": 4450,
+      "lines": ["M34A+"],
+      "label": {
+        "x": 4690,
+        "y": 4422,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "m60-sbs-broadway-w-106-st",
+      "name": "Broadway / W 106 St",
+      "x": 4930,
+      "y": 3190,
+      "lines": ["M60+"],
+      "label": {
+        "x": 4902,
+        "y": 3190,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m60-sbs-w-125-st-malcolm-x-blvd",
+      "name": "W 125 St / Malcolm X  Blvd",
+      "x": 5230,
+      "y": 3070,
+      "lines": ["M60+"],
+      "label": {
+        "x": 5258,
+        "y": 3070,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m60-sbs-astoria-blvd-77-st",
+      "name": "Astoria Blvd / 77 St",
+      "x": 5950,
+      "y": 3910,
+      "lines": ["M60+"],
+      "label": {
+        "x": 5922,
+        "y": 3910,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m60-sbs-lga-terminal-b",
+      "name": "Lga / Terminal B",
+      "x": 6250,
+      "y": 3790,
+      "lines": ["M60+"],
+      "label": {
+        "x": 6250,
+        "y": 3755,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m79-sbs-e-79-st-east-end-av",
+      "name": "E 79 St / East End Av",
+      "x": 5170,
+      "y": 3850,
+      "lines": ["M79+"],
+      "label": {
+        "x": 5198,
+        "y": 3850,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m79-sbs-e-79-st-3-av",
+      "name": "E 79 St / 3 Av",
+      "x": 5050,
+      "y": 3730,
+      "lines": ["M79+"],
+      "label": {
+        "x": 5022,
+        "y": 3765,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "m79-sbs-w-81-st-central-park-west",
+      "name": "W 81 St / Central Park West",
+      "x": 4870,
+      "y": 3610,
+      "lines": ["M79+"],
+      "label": {
+        "x": 4842,
+        "y": 3645,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "m79-sbs-w-79-st-riverside-dr",
+      "name": "W 79 St / Riverside Dr",
+      "x": 4690,
+      "y": 3550,
+      "lines": ["M79+"],
+      "label": {
+        "x": 4662,
+        "y": 3550,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m86-sbs-w-86-st-west-end-av",
+      "name": "W 86 St / West End Av",
+      "x": 4750,
+      "y": 3490,
+      "lines": ["M86+"],
+      "label": {
+        "x": 4722,
+        "y": 3490,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "m86-sbs-86-st-transverse-central-park",
+      "name": "86 St Transverse  / Central Park",
+      "x": 4930,
+      "y": 3610,
+      "lines": ["M86+"],
+      "label": {
+        "x": 4902,
+        "y": 3670,
+        "anchor": "end",
+        "rot": 0,
+        "leader": true
+      }
+    },
+    {
+      "id": "m86-sbs-e-86-st-2-av",
+      "name": "E 86 St / 2 Av",
+      "x": 5110,
+      "y": 3670,
+      "lines": ["M86+"],
+      "label": {
+        "x": 5082,
+        "y": 3670,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "m86-sbs-1-av-e-91-st",
+      "name": "1 Av / E 91 St",
+      "x": 5170,
+      "y": 3670,
+      "lines": ["M86+"],
+      "label": {
+        "x": 5198,
+        "y": 3670,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "q44-sbs-boston-rd-e-180-st",
+      "name": "Boston Rd / E 180 St",
+      "x": 6130,
+      "y": 2410,
+      "lines": ["Q44+"],
+      "label": {
+        "x": 6158,
+        "y": 2410,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "q44-sbs-parsons-blvd-20-av",
+      "name": "Parsons Blvd / 20 Av",
+      "x": 6910,
+      "y": 3610,
+      "lines": ["Q44+"],
+      "label": {
+        "x": 6938,
+        "y": 3610,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "q44-sbs-main-st-jewel-av",
+      "name": "Main St / Jewel Av",
+      "x": 6910,
+      "y": 4630,
+      "lines": ["Q44+"],
+      "label": {
+        "x": 6938,
+        "y": 4630,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "q44-sbs-merrick-blvd-archer-av",
+      "name": "Merrick Blvd / Archer Av",
+      "x": 7330,
+      "y": 5170,
+      "lines": ["Q44+"],
+      "label": {
+        "x": 7358,
+        "y": 5170,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "q52-sbs-beach-channel-dr-beach-51-st",
+      "name": "Beach Channel Dr / Beach 51 St",
+      "x": 7510,
+      "y": 7330,
+      "lines": ["Q52+"],
+      "label": {
+        "x": 7538,
+        "y": 7330,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "q52-sbs-cross-bay-blvd-e-16-rd",
+      "name": "Cross Bay Blvd / E 16 Rd",
+      "x": 6970,
+      "y": 7210,
+      "lines": ["Q52+"],
+      "label": {
+        "x": 6998,
+        "y": 7210,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "q52-sbs-woodhaven-blvd-101-av",
+      "name": "Woodhaven Blvd / 101 Av",
+      "x": 6610,
+      "y": 5590,
+      "lines": ["Q52+"],
+      "label": {
+        "x": 6638,
+        "y": 5590,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "q52-sbs-hoffman-dr-woodhaven-blvd",
+      "name": "Hoffman Dr  / Woodhaven Blvd",
+      "x": 6250,
+      "y": 4570,
+      "lines": ["Q52+"],
+      "label": {
+        "x": 6278,
+        "y": 4570,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "q53-sbs-roosevelt-av-61-st",
+      "name": "Roosevelt Av / 61 St",
+      "x": 5830,
+      "y": 4330,
+      "lines": ["Q53+", "Q70+"],
+      "label": {
+        "x": 5802,
+        "y": 4330,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "q53-sbs-woodhaven-blvd-metropolitan-av",
+      "name": "Woodhaven Blvd / Metropolitan Av",
+      "x": 6430,
+      "y": 4990,
+      "lines": ["Q53+"],
+      "label": {
+        "x": 6402,
+        "y": 4990,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "q53-sbs-cross-bay-blvd-163-av",
+      "name": "Cross Bay Blvd / 163 Av",
+      "x": 6730,
+      "y": 6190,
+      "lines": ["Q53+"],
+      "label": {
+        "x": 6758,
+        "y": 6190,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "q53-sbs-beach-116-st-rockaway-beach-blvd",
+      "name": "Beach 116 St / Rockaway Beach Blvd",
+      "x": 6730,
+      "y": 7630,
+      "lines": ["Q53+"],
+      "label": {
+        "x": 6758,
+        "y": 7630,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "q70-sbs-laguardia-rd-94-st",
+      "name": "Laguardia Rd / 94 St",
+      "x": 6190,
+      "y": 3790,
+      "lines": ["Q70+"],
+      "label": {
+        "x": 6162,
+        "y": 3790,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "q70-sbs-laguardia-terminal-b",
+      "name": "Laguardia / Terminal B",
+      "x": 6250,
+      "y": 3850,
+      "lines": ["Q70+"],
+      "label": {
+        "x": 6278,
+        "y": 3850,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "q70-sbs-woodside-av-61-st",
+      "name": "Woodside Av / 61 St",
+      "x": 5830,
+      "y": 4390,
+      "lines": ["Q70+"],
+      "label": {
+        "x": 5858,
+        "y": 4390,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "s79-sbs-marsh-av-ring-rd",
+      "name": "Marsh Av / Ring Rd",
+      "x": 2170,
+      "y": 7570,
+      "lines": ["S79+"],
+      "label": {
+        "x": 2198,
+        "y": 7570,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "s79-sbs-hylan-blvd-nelson-av",
+      "name": "Hylan Blvd / Nelson Av",
+      "x": 2410,
+      "y": 8410,
+      "lines": ["S79+"],
+      "label": {
+        "x": 2438,
+        "y": 8410,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "s79-sbs-hylan-blvd-liberty-av",
+      "name": "Hylan Blvd / Liberty Av",
+      "x": 3130,
+      "y": 7510,
+      "lines": ["S79+"],
+      "label": {
+        "x": 3102,
+        "y": 7510,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "s79-sbs-4-av-86-st",
+      "name": "4 Av / 86 St",
+      "x": 4030,
+      "y": 6790,
+      "lines": ["S79+"],
+      "label": {
+        "x": 4058,
+        "y": 6790,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "B44+",
+      "num": "B44",
+      "x": 5444,
+      "y": 7270,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "B46+",
+      "num": "B46",
+      "x": 5376,
+      "y": 5650,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "B82+",
+      "num": "B82",
+      "x": 6010,
+      "y": 6336,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "BX12+",
+      "num": "Bx12",
+      "x": 6816,
+      "y": 1960,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "BX41+",
+      "num": "Bx41",
+      "x": 5624,
+      "y": 2770,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "BX6+",
+      "num": "Bx6",
+      "x": 5350,
+      "y": 2564,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "M14A+",
+      "num": "M14A",
+      "x": 4784,
+      "y": 4960,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "M14D+",
+      "num": "M14D",
+      "x": 4296,
+      "y": 4360,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "M15+",
+      "num": "M15",
+      "x": 4304,
+      "y": 5110,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "M23+",
+      "num": "M23",
+      "x": 4774,
+      "y": 4486,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "M34+",
+      "num": "M34",
+      "x": 4425,
+      "y": 4184,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "M34A+",
+      "num": "M34A",
+      "x": 4536,
+      "y": 4150,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "M60+",
+      "num": "M60",
+      "x": 5020,
+      "y": 3224,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "M79+",
+      "num": "M79",
+      "x": 5134,
+      "y": 3766,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "M86+",
+      "num": "M86",
+      "x": 4780,
+      "y": 3524,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "Q44+",
+      "num": "Q44",
+      "x": 6096,
+      "y": 2620,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "Q52+",
+      "num": "Q52",
+      "x": 7300,
+      "y": 7296,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "Q53+",
+      "num": "Q53",
+      "x": 5796,
+      "y": 4360,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "Q70+",
+      "num": "Q70",
+      "x": 5864,
+      "y": 4240,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "S79+",
+      "num": "S79",
+      "x": 2136,
+      "y": 7870,
+      "color": "#006CB7",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 1820,
+      "maxX": 8110,
+      "minY": 1590,
+      "maxY": 8580
+    },
+    "minZoom": 0.3,
+    "maxZoom": 20
+  },
+  "geoProjection": {
+    "refLonWest": -74.3,
+    "refLonEast": -73.6,
+    "refXWest": 250,
+    "refXEast": 10050,
+    "refLatNorth": 40.95,
+    "refLatSouth": 40.5,
+    "refYNorth": 250,
+    "refYSouth": 9250
+  },
+  "sequences": {
+    "B44+": [
+      "b44-sbs-knapp-st-shore-pkwy",
+      "b44-sbs-nostrand-av-avenue-l",
+      "b44-sbs-bedford-av-fulton-st",
+      "b44-sbs-williamsburg-bridge-plaza-lane-4"
+    ],
+    "B46+": [
+      "b46-sbs-malcolm-x-blvd-de-kalb-av",
+      "b46-sbs-utica-av-eastern-pkwy",
+      "b46-sbs-utica-av-avenue-h",
+      "b46-sbs-kings-plaza"
+    ],
+    "B82+": [
+      "b82-sbs-seaview-av-pennsylvania-av",
+      "b82-sbs-flatlands-av-e-82-st",
+      "b82-sbs-kings-hwy-e-16-st",
+      "b82-sbs-cropsey-av-24-av"
+    ],
+    "BX12+": [
+      "bx12-sbs-bay-plaza-blvd-j-c-penny",
+      "bx12-sbs-pelham-pkwy-stillwell-av",
+      "bx12-sbs-east-fordham-rd-valentine-av",
+      "bx12-sbs-broadway-w-207-st"
+    ],
+    "BX41+": [
+      "bx41-sbs-3-av-148-st",
+      "bx41-sbs-webster-av-claremont-pkwy",
+      "bx41-sbs-webster-av-bedford-park-blvd",
+      "bx41-sbs-white-plains-rd-east-gun-hill-rd"
+    ],
+    "BX6+": [
+      "bx6-sbs-riverside-dr-west-157-10-riverside-dr",
+      "bx6-sbs-e-163-st-prospect-av",
+      "bx6-sbs-halleck-st-viele-av",
+      "bx6-sbs-food-center-dr-terminal"
+    ],
+    "M14A+": [
+      "m14a-sbs-grand-st-fdr-dr",
+      "m14a-sbs-avenue-a-east-houston-st",
+      "m14a-sbs-e-14-st-irving-pl",
+      "m14a-sbs-hudson-st-w-12-st"
+    ],
+    "M14D+": [
+      "m14d-sbs-w-18-st-11-av",
+      "m14d-sbs-e-14-st-university-pl",
+      "m14d-sbs-avenue-c-e-12-st",
+      "m14d-sbs-delancey-st-columbia-st"
+    ],
+    "M15+": [
+      "m15-sbs-south-ferry-term-south-ferry-term",
+      "m15-sbs-1-av-25-st",
+      "m15-sbs-1-av-e-80-st",
+      "m15-sbs-e-126-st-2-av"
+    ],
+    "M23+": [
+      "m23-sbs-avenue-c-e-20-st",
+      "m23-sbs-e-23-st-3-av",
+      "m23-sbs-w-23-st-8-av",
+      "m23-sbs-12-av-w-23-st"
+    ],
+    "M34+": [
+      "m34-sbs-w-34-st-12-av",
+      "m34-sbs-w-34-st-7-av",
+      "m34a-sbs-w-34-st-broadway",
+      "m34-sbs-e-34-st-2-av",
+      "m34-sbs-waterside-waterside"
+    ],
+    "M34A+": [
+      "m34a-sbs-9-av-w-42-st",
+      "m34-sbs-w-34-st-7-av",
+      "m34a-sbs-w-34-st-broadway",
+      "m34a-sbs-2-av-e-28-st",
+      "m34-sbs-waterside-waterside"
+    ],
+    "M60+": [
+      "m60-sbs-broadway-w-106-st",
+      "m60-sbs-w-125-st-malcolm-x-blvd",
+      "m60-sbs-astoria-blvd-77-st",
+      "m60-sbs-lga-terminal-b"
+    ],
+    "M79+": [
+      "m79-sbs-e-79-st-east-end-av",
+      "m79-sbs-e-79-st-3-av",
+      "m79-sbs-w-81-st-central-park-west",
+      "m79-sbs-w-79-st-riverside-dr"
+    ],
+    "M86+": [
+      "m86-sbs-w-86-st-west-end-av",
+      "m86-sbs-86-st-transverse-central-park",
+      "m86-sbs-e-86-st-2-av",
+      "m86-sbs-1-av-e-91-st"
+    ],
+    "Q44+": [
+      "q44-sbs-boston-rd-e-180-st",
+      "q44-sbs-parsons-blvd-20-av",
+      "q44-sbs-main-st-jewel-av",
+      "q44-sbs-merrick-blvd-archer-av"
+    ],
+    "Q52+": [
+      "q52-sbs-beach-channel-dr-beach-51-st",
+      "q52-sbs-cross-bay-blvd-e-16-rd",
+      "q52-sbs-woodhaven-blvd-101-av",
+      "q52-sbs-hoffman-dr-woodhaven-blvd"
+    ],
+    "Q53+": [
+      "q53-sbs-roosevelt-av-61-st",
+      "q53-sbs-woodhaven-blvd-metropolitan-av",
+      "q53-sbs-cross-bay-blvd-163-av",
+      "q53-sbs-beach-116-st-rockaway-beach-blvd"
+    ],
+    "Q70+": [
+      "q53-sbs-roosevelt-av-61-st",
+      "q70-sbs-laguardia-rd-94-st",
+      "q70-sbs-laguardia-terminal-b",
+      "q70-sbs-woodside-av-61-st"
+    ],
+    "S79+": [
+      "s79-sbs-marsh-av-ring-rd",
+      "s79-sbs-hylan-blvd-nelson-av",
+      "s79-sbs-hylan-blvd-liberty-av",
+      "s79-sbs-4-av-86-st"
+    ]
+  },
+  "stationAliases": {
+    "id:300351": "b44-sbs-knapp-st-shore-pkwy",
+    "id:303376": "b44-sbs-nostrand-av-avenue-l",
+    "id:303411": "b44-sbs-bedford-av-fulton-st",
+    "id:901010": "b44-sbs-williamsburg-bridge-plaza-lane-4",
+    "id:303663": "b46-sbs-malcolm-x-blvd-de-kalb-av",
+    "id:307026": "b46-sbs-utica-av-eastern-pkwy",
+    "id:303696": "b46-sbs-utica-av-avenue-h",
+    "id:901093": "b46-sbs-kings-plaza",
+    "id:304083": "b82-sbs-seaview-av-pennsylvania-av",
+    "id:300614": "b82-sbs-flatlands-av-e-82-st",
+    "id:300472": "b82-sbs-kings-hwy-e-16-st",
+    "id:300497": "b82-sbs-cropsey-av-24-av",
+    "id:802025": "bx12-sbs-bay-plaza-blvd-j-c-penny",
+    "id:103028": "bx12-sbs-pelham-pkwy-stillwell-av",
+    "id:100849": "bx12-sbs-east-fordham-rd-valentine-av",
+    "id:404144": "bx12-sbs-broadway-w-207-st",
+    "id:103980": "bx41-sbs-3-av-148-st",
+    "id:104554": "bx41-sbs-webster-av-claremont-pkwy",
+    "id:102750": "bx41-sbs-webster-av-bedford-park-blvd",
+    "id:102942": "bx41-sbs-white-plains-rd-east-gun-hill-rd",
+    "id:403728": "bx6-sbs-riverside-dr-west-157-10-riverside-dr",
+    "id:100374": "bx6-sbs-e-163-st-prospect-av",
+    "id:104504": "bx6-sbs-halleck-st-viele-av",
+    "id:902100": "bx6-sbs-food-center-dr-terminal",
+    "id:402100": "m14a-sbs-grand-st-fdr-dr",
+    "id:403320": "m14a-sbs-avenue-a-east-houston-st",
+    "id:403906": "m14a-sbs-e-14-st-irving-pl",
+    "id:401388": "m14a-sbs-hudson-st-w-12-st",
+    "id:404329": "m14d-sbs-w-18-st-11-av",
+    "id:404271": "m14d-sbs-e-14-st-university-pl",
+    "id:401589": "m14d-sbs-avenue-c-e-12-st",
+    "id:903088": "m14d-sbs-delancey-st-columbia-st",
+    "id:405382": "m15-sbs-south-ferry-term-south-ferry-term",
+    "id:405323": "m15-sbs-1-av-25-st",
+    "id:405329": "m15-sbs-1-av-e-80-st",
+    "id:803054": "m15-sbs-e-126-st-2-av",
+    "id:402054": "m23-sbs-avenue-c-e-20-st",
+    "id:402145": "m23-sbs-e-23-st-3-av",
+    "id:402154": "m23-sbs-w-23-st-8-av",
+    "id:404085": "m23-sbs-12-av-w-23-st",
+    "id:405286": "m34-sbs-w-34-st-12-av",
+    "id:404280": "m34-sbs-w-34-st-7-av",
+    "id:401827": "m34-sbs-e-34-st-2-av",
+    "id:903027": "m34-sbs-waterside-waterside",
+    "id:401497": "m34a-sbs-9-av-w-42-st",
+    "id:401821": "m34a-sbs-w-34-st-broadway",
+    "id:405336": "m34a-sbs-2-av-e-28-st",
+    "id:403117": "m60-sbs-broadway-w-106-st",
+    "id:405417": "m60-sbs-w-125-st-malcolm-x-blvd",
+    "id:504423": "m60-sbs-astoria-blvd-77-st",
+    "id:904418": "m60-sbs-lga-terminal-b",
+    "id:401880": "m79-sbs-e-79-st-east-end-av",
+    "id:401884": "m79-sbs-e-79-st-3-av",
+    "id:401890": "m79-sbs-w-81-st-central-park-west",
+    "id:903286": "m79-sbs-w-79-st-riverside-dr",
+    "id:403560": "m86-sbs-w-86-st-west-end-av",
+    "id:401900": "m86-sbs-86-st-transverse-central-park",
+    "id:404681": "m86-sbs-e-86-st-2-av",
+    "id:403383": "m86-sbs-1-av-e-91-st",
+    "id:100646": "q44-sbs-boston-rd-e-180-st",
+    "id:505037": "q44-sbs-parsons-blvd-20-av",
+    "id:502274": "q44-sbs-main-st-jewel-av",
+    "id:804061": "q44-sbs-merrick-blvd-archer-av",
+    "id:552997": "q52-sbs-beach-channel-dr-beach-51-st",
+    "id:553027": "q52-sbs-cross-bay-blvd-e-16-rd",
+    "id:553346": "q52-sbs-woodhaven-blvd-101-av",
+    "id:982113": "q52-sbs-hoffman-dr-woodhaven-blvd",
+    "id:553332": "q53-sbs-roosevelt-av-61-st",
+    "id:553141": "q53-sbs-woodhaven-blvd-metropolitan-av",
+    "id:550417": "q53-sbs-cross-bay-blvd-163-av",
+    "id:551609": "q53-sbs-beach-116-st-rockaway-beach-blvd",
+    "id:904246": "q70-sbs-laguardia-rd-94-st",
+    "id:904242": "q70-sbs-laguardia-terminal-b",
+    "id:982205": "q70-sbs-woodside-av-61-st",
+    "id:805189": "s79-sbs-marsh-av-ring-rd",
+    "id:201003": "s79-sbs-hylan-blvd-nelson-av",
+    "id:203698": "s79-sbs-hylan-blvd-liberty-av",
+    "id:901225": "s79-sbs-4-av-86-st"
+  },
+  "stationIndex": [
+    {
+      "id": "405323",
+      "schematicId": "m15-sbs-1-av-25-st",
+      "name": "1 Av / 25 St",
+      "lat": 40.737991,
+      "lon": -73.977607,
+      "lines": ["M15+"],
+      "platformIds": ["405323"],
+      "departureRouteIds": ["M15", "M15+"]
+    },
+    {
+      "id": "405329",
+      "schematicId": "m15-sbs-1-av-e-80-st",
+      "name": "1 Av / E 80 St",
+      "lat": 40.77268,
+      "lon": -73.952359,
+      "lines": ["M15+"],
+      "platformIds": ["405329"],
+      "departureRouteIds": ["M15+"]
+    },
+    {
+      "id": "403383",
+      "schematicId": "m86-sbs-1-av-e-91-st",
+      "name": "1 Av / E 91 St",
+      "lat": 40.780248,
+      "lon": -73.946809,
+      "lines": ["M86+"],
+      "platformIds": ["403383"],
+      "departureRouteIds": ["M31", "M86+"]
+    },
+    {
+      "id": "m23-sbs-12-av-w-23-st",
+      "schematicId": "m23-sbs-12-av-w-23-st",
+      "name": "12 Av / W 23 St",
+      "lat": 40.748873,
+      "lon": -74.008035,
+      "lines": ["M23+"],
+      "platformIds": ["404085", "404137"],
+      "departureRouteIds": ["M23+"]
+    },
+    {
+      "id": "m34a-sbs-2-av-e-28-st",
+      "schematicId": "m34a-sbs-2-av-e-28-st",
+      "name": "2 Av / E 28 St",
+      "lat": 40.74081,
+      "lon": -73.978848,
+      "lines": ["M34A+"],
+      "platformIds": ["403525", "405336"],
+      "departureRouteIds": ["M15", "M15+", "M34+", "M34A+", "M9"]
+    },
+    {
+      "id": "103980",
+      "schematicId": "bx41-sbs-3-av-148-st",
+      "name": "3 Av / 148 St",
+      "lat": 40.81561,
+      "lon": -73.918311,
+      "lines": ["BX41+"],
+      "platformIds": ["103980"],
+      "departureRouteIds": ["BX41+"]
+    },
+    {
+      "id": "s79-sbs-4-av-86-st",
+      "schematicId": "s79-sbs-4-av-86-st",
+      "name": "4 Av / 86 St",
+      "lat": 40.622647,
+      "lon": -74.028537,
+      "lines": ["S79+"],
+      "platformIds": ["801069", "901225", "901226", "905059"],
+      "departureRouteIds": ["S53", "S79+"]
+    },
+    {
+      "id": "m86-sbs-86-st-transverse-central-park",
+      "schematicId": "m86-sbs-86-st-transverse-central-park",
+      "name": "86 St Transverse  / Central Park",
+      "lat": 40.78323,
+      "lon": -73.963993,
+      "lines": ["M86+"],
+      "platformIds": ["401900", "401926"],
+      "departureRouteIds": ["M86+"]
+    },
+    {
+      "id": "401497",
+      "schematicId": "m34a-sbs-9-av-w-42-st",
+      "name": "9 Av / W 42 St",
+      "lat": 40.758584,
+      "lon": -73.992665,
+      "lines": ["M34A+"],
+      "platformIds": ["401497"],
+      "departureRouteIds": ["M11", "M34A+"]
+    },
+    {
+      "id": "m60-sbs-astoria-blvd-77-st",
+      "schematicId": "m60-sbs-astoria-blvd-77-st",
+      "name": "Astoria Blvd / 77 St",
+      "lat": 40.765585,
+      "lon": -73.891447,
+      "lines": ["M60+"],
+      "platformIds": ["504423", "504517"],
+      "departureRouteIds": ["M60+", "Q19", "Q47"]
+    },
+    {
+      "id": "m14a-sbs-avenue-a-east-houston-st",
+      "schematicId": "m14a-sbs-avenue-a-east-houston-st",
+      "name": "Avenue A / East Houston St",
+      "lat": 40.722573,
+      "lon": -73.985955,
+      "lines": ["M14A+"],
+      "platformIds": ["403320", "405577"],
+      "departureRouteIds": ["M14A+"]
+    },
+    {
+      "id": "m14d-sbs-avenue-c-e-12-st",
+      "schematicId": "m14d-sbs-avenue-c-e-12-st",
+      "name": "Avenue C / E 12 St",
+      "lat": 40.726979,
+      "lon": -73.976815,
+      "lines": ["M14D+"],
+      "platformIds": ["401589", "401630"],
+      "departureRouteIds": ["M14D+", "M9"]
+    },
+    {
+      "id": "m23-sbs-avenue-c-e-20-st",
+      "schematicId": "m23-sbs-avenue-c-e-20-st",
+      "name": "Avenue C / E 20 St",
+      "lat": 40.732795,
+      "lon": -73.974542,
+      "lines": ["M23+"],
+      "platformIds": ["402054", "903002"],
+      "departureRouteIds": ["M23+", "M9"]
+    },
+    {
+      "id": "802025",
+      "schematicId": "bx12-sbs-bay-plaza-blvd-j-c-penny",
+      "name": "Bay Plaza Blvd / J C Penny",
+      "lat": 40.865989,
+      "lon": -73.827298,
+      "lines": ["BX12+"],
+      "platformIds": ["802025"],
+      "departureRouteIds": ["BX12", "BX12+"]
+    },
+    {
+      "id": "551609",
+      "schematicId": "q53-sbs-beach-116-st-rockaway-beach-blvd",
+      "name": "Beach 116 St / Rockaway Beach Blvd",
+      "lat": 40.580343,
+      "lon": -73.837347,
+      "lines": ["Q53+"],
+      "platformIds": ["551609"],
+      "departureRouteIds": ["Q53+"]
+    },
+    {
+      "id": "q52-sbs-beach-channel-dr-beach-51-st",
+      "schematicId": "q52-sbs-beach-channel-dr-beach-51-st",
+      "name": "Beach Channel Dr / Beach 51 St",
+      "lat": 40.595217,
+      "lon": -73.781675,
+      "lines": ["Q52+"],
+      "platformIds": ["550798", "552997"],
+      "departureRouteIds": ["Q22", "Q52+"]
+    },
+    {
+      "id": "303411",
+      "schematicId": "b44-sbs-bedford-av-fulton-st",
+      "name": "Bedford Av / Fulton St",
+      "lat": 40.681039,
+      "lon": -73.953342,
+      "lines": ["B44+"],
+      "platformIds": ["303411"],
+      "departureRouteIds": ["B44", "B44+"]
+    },
+    {
+      "id": "100646",
+      "schematicId": "q44-sbs-boston-rd-e-180-st",
+      "name": "Boston Rd / E 180 St",
+      "lat": 40.842561,
+      "lon": -73.878332,
+      "lines": ["Q44+"],
+      "platformIds": ["100646"],
+      "departureRouteIds": ["BX9", "Q44+"]
+    },
+    {
+      "id": "m60-sbs-broadway-w-106-st",
+      "schematicId": "m60-sbs-broadway-w-106-st",
+      "name": "Broadway / W 106 St",
+      "lat": 40.801818,
+      "lon": -73.967642,
+      "lines": ["M60+"],
+      "platformIds": ["403117", "403152"],
+      "departureRouteIds": ["M104", "M60+"]
+    },
+    {
+      "id": "bx12-sbs-broadway-w-207-st",
+      "schematicId": "bx12-sbs-broadway-w-207-st",
+      "name": "Broadway / W 207 St",
+      "lat": 40.867837,
+      "lon": -73.920569,
+      "lines": ["BX12+"],
+      "platformIds": ["404144", "404249", "404250"],
+      "departureRouteIds": ["BX12", "BX12+", "BX20", "BX7", "BXM1"]
+    },
+    {
+      "id": "300497",
+      "schematicId": "b82-sbs-cropsey-av-24-av",
+      "name": "Cropsey Av / 24 Av",
+      "lat": 40.593924,
+      "lon": -73.994851,
+      "lines": ["B82+"],
+      "platformIds": ["300497"],
+      "departureRouteIds": ["B82", "B82+"]
+    },
+    {
+      "id": "q53-sbs-cross-bay-blvd-163-av",
+      "schematicId": "q53-sbs-cross-bay-blvd-163-av",
+      "name": "Cross Bay Blvd / 163 Av",
+      "lat": 40.652666,
+      "lon": -73.838067,
+      "lines": ["Q53+"],
+      "platformIds": ["550416", "550417", "982137"],
+      "departureRouteIds": ["Q11", "Q41", "Q52+", "Q53+", "QM15", "QM16", "QM17"]
+    },
+    {
+      "id": "553027",
+      "schematicId": "q52-sbs-cross-bay-blvd-e-16-rd",
+      "name": "Cross Bay Blvd / E 16 Rd",
+      "lat": 40.601521,
+      "lon": -73.820088,
+      "lines": ["Q52+"],
+      "platformIds": ["553027"],
+      "departureRouteIds": ["Q11", "Q52+", "Q53+", "QM15", "QM16", "QM17"]
+    },
+    {
+      "id": "m14d-sbs-delancey-st-columbia-st",
+      "schematicId": "m14d-sbs-delancey-st-columbia-st",
+      "name": "Delancey St / Columbia St",
+      "lat": 40.71645,
+      "lon": -73.980468,
+      "lines": ["M14D+"],
+      "platformIds": ["403380", "903088"],
+      "departureRouteIds": ["M14D+", "M21"]
+    },
+    {
+      "id": "m15-sbs-e-126-st-2-av",
+      "schematicId": "m15-sbs-e-126-st-2-av",
+      "name": "E 126 St / 2 Av",
+      "lat": 40.80323,
+      "lon": -73.932451,
+      "lines": ["M15+"],
+      "platformIds": ["401732", "402498", "405471", "803054", "803153", "803154"],
+      "departureRouteIds": ["M103", "M15", "M15+", "M35"]
+    },
+    {
+      "id": "m14a-sbs-e-14-st-irving-pl",
+      "schematicId": "m14a-sbs-e-14-st-irving-pl",
+      "name": "E 14 St / Irving Pl",
+      "lat": 40.733947,
+      "lon": -73.988902,
+      "lines": ["M14A+"],
+      "platformIds": ["403556", "403906"],
+      "departureRouteIds": ["M14A+", "M14D+"]
+    },
+    {
+      "id": "404271",
+      "schematicId": "m14d-sbs-e-14-st-university-pl",
+      "name": "E 14 St / University Pl",
+      "lat": 40.735177,
+      "lon": -73.991881,
+      "lines": ["M14D+"],
+      "platformIds": ["404271"],
+      "departureRouteIds": ["M14A+", "M14D+"]
+    },
+    {
+      "id": "bx6-sbs-e-163-st-prospect-av",
+      "schematicId": "bx6-sbs-e-163-st-prospect-av",
+      "name": "E 163 St / Prospect Av",
+      "lat": 40.821893,
+      "lon": -73.900189,
+      "lines": ["BX6+"],
+      "platformIds": ["100374", "100425"],
+      "departureRouteIds": ["BX6", "BX6+"]
+    },
+    {
+      "id": "m23-sbs-e-23-st-3-av",
+      "schematicId": "m23-sbs-e-23-st-3-av",
+      "name": "E 23 St  /  3 Av",
+      "lat": 40.738589,
+      "lon": -73.982755,
+      "lines": ["M23+"],
+      "platformIds": ["402134", "402145"],
+      "departureRouteIds": [
+        "BM1",
+        "BM2",
+        "BM3",
+        "BM4",
+        "M23+",
+        "SIM10",
+        "SIM11",
+        "SIM3",
+        "SIM31",
+        "SIM6",
+        "X37",
+        "X38"
+      ]
+    },
+    {
+      "id": "m34-sbs-e-34-st-2-av",
+      "schematicId": "m34-sbs-e-34-st-2-av",
+      "name": "E 34 St  / 2 Av",
+      "lat": 40.744771,
+      "lon": -73.976091,
+      "lines": ["M34+"],
+      "platformIds": ["401827", "403216"],
+      "departureRouteIds": ["BM5", "M34+", "M34A+"]
+    },
+    {
+      "id": "m79-sbs-e-79-st-3-av",
+      "schematicId": "m79-sbs-e-79-st-3-av",
+      "name": "E 79 St / 3 Av",
+      "lat": 40.774286,
+      "lon": -73.957524,
+      "lines": ["M79+"],
+      "platformIds": ["401874", "401884"],
+      "departureRouteIds": ["M79+"]
+    },
+    {
+      "id": "401880",
+      "schematicId": "m79-sbs-e-79-st-east-end-av",
+      "name": "E 79 St / East End Av",
+      "lat": 40.77074,
+      "lon": -73.948716,
+      "lines": ["M79+"],
+      "platformIds": ["401880"],
+      "departureRouteIds": ["M79+"]
+    },
+    {
+      "id": "m86-sbs-e-86-st-2-av",
+      "schematicId": "m86-sbs-e-86-st-2-av",
+      "name": "E 86 St / 2 Av",
+      "lat": 40.778128,
+      "lon": -73.952115,
+      "lines": ["M86+"],
+      "platformIds": ["401920", "404681"],
+      "departureRouteIds": ["M86+"]
+    },
+    {
+      "id": "bx12-sbs-east-fordham-rd-valentine-av",
+      "schematicId": "bx12-sbs-east-fordham-rd-valentine-av",
+      "name": "East Fordham Rd / Valentine Av",
+      "lat": 40.862236,
+      "lon": -73.89601,
+      "lines": ["BX12+"],
+      "platformIds": ["100799", "100849", "104235", "902239"],
+      "departureRouteIds": ["BX12", "BX12+", "BX22"]
+    },
+    {
+      "id": "b82-sbs-flatlands-av-e-82-st",
+      "schematicId": "b82-sbs-flatlands-av-e-82-st",
+      "name": "Flatlands Av / E 82 St",
+      "lat": 40.636307,
+      "lon": -73.911845,
+      "lines": ["B82+"],
+      "platformIds": ["300564", "300614"],
+      "departureRouteIds": ["B6", "B82", "B82+"]
+    },
+    {
+      "id": "bx6-sbs-food-center-dr-terminal",
+      "schematicId": "bx6-sbs-food-center-dr-terminal",
+      "name": "Food Center Dr / Terminal",
+      "lat": 40.809978,
+      "lon": -73.876657,
+      "lines": ["BX6+"],
+      "platformIds": ["104503", "902100"],
+      "departureRouteIds": ["BX46", "BX6", "BX6+"]
+    },
+    {
+      "id": "m14a-sbs-grand-st-fdr-dr",
+      "schematicId": "m14a-sbs-grand-st-fdr-dr",
+      "name": "Grand St / Fdr Dr",
+      "lat": 40.713264,
+      "lon": -73.977982,
+      "lines": ["M14A+"],
+      "platformIds": ["402100", "803115", "903025"],
+      "departureRouteIds": ["M14A+", "M21", "M22"]
+    },
+    {
+      "id": "104504",
+      "schematicId": "bx6-sbs-halleck-st-viele-av",
+      "name": "Halleck St / Viele Av",
+      "lat": 40.807666,
+      "lon": -73.879994,
+      "lines": ["BX6+"],
+      "platformIds": ["104504"],
+      "departureRouteIds": ["BX46", "BX6", "BX6+"]
+    },
+    {
+      "id": "q52-sbs-hoffman-dr-woodhaven-blvd",
+      "schematicId": "q52-sbs-hoffman-dr-woodhaven-blvd",
+      "name": "Hoffman Dr  / Woodhaven Blvd",
+      "lat": 40.733152,
+      "lon": -73.871078,
+      "lines": ["Q52+"],
+      "platformIds": ["552993", "553196", "553448", "982113"],
+      "departureRouteIds": ["Q11", "Q14", "Q52+", "Q53+"]
+    },
+    {
+      "id": "401388",
+      "schematicId": "m14a-sbs-hudson-st-w-12-st",
+      "name": "Hudson St / W 12 St",
+      "lat": 40.73767,
+      "lon": -74.005766,
+      "lines": ["M14A+"],
+      "platformIds": ["401388"],
+      "departureRouteIds": ["M14A+"]
+    },
+    {
+      "id": "203698",
+      "schematicId": "s79-sbs-hylan-blvd-liberty-av",
+      "name": "Hylan Blvd / Liberty Av",
+      "lat": 40.586116,
+      "lon": -74.092279,
+      "lines": ["S79+"],
+      "platformIds": ["203698"],
+      "departureRouteIds": ["S78", "S79+"]
+    },
+    {
+      "id": "s79-sbs-hylan-blvd-nelson-av",
+      "schematicId": "s79-sbs-hylan-blvd-nelson-av",
+      "name": "Hylan Blvd / Nelson Av",
+      "lat": 40.542586,
+      "lon": -74.145566,
+      "lines": ["S79+"],
+      "platformIds": ["201003", "201141"],
+      "departureRouteIds": [
+        "S54",
+        "S78",
+        "S79+",
+        "SIM1",
+        "SIM10",
+        "SIM1C",
+        "SIM5",
+        "SIM6",
+        "SIM7",
+        "SIM9"
+      ]
+    },
+    {
+      "id": "b82-sbs-kings-hwy-e-16-st",
+      "schematicId": "b82-sbs-kings-hwy-e-16-st",
+      "name": "Kings Hwy / E 16 St",
+      "lat": 40.608965,
+      "lon": -73.95758,
+      "lines": ["B82+"],
+      "platformIds": ["300447", "300472", "307742"],
+      "departureRouteIds": ["B7", "B82", "B82+"]
+    },
+    {
+      "id": "901093",
+      "schematicId": "b46-sbs-kings-plaza",
+      "name": "Kings Plaza",
+      "lat": 40.60914,
+      "lon": -73.921443,
+      "lines": ["B46+"],
+      "platformIds": ["901093"],
+      "departureRouteIds": ["B46", "B46+"]
+    },
+    {
+      "id": "b44-sbs-knapp-st-shore-pkwy",
+      "schematicId": "b44-sbs-knapp-st-shore-pkwy",
+      "name": "Knapp St / Shore Pkwy",
+      "lat": 40.585035,
+      "lon": -73.931329,
+      "lines": ["B44+"],
+      "platformIds": ["300351", "308699", "901011"],
+      "departureRouteIds": ["B4", "B44", "B44+"]
+    },
+    {
+      "id": "904242",
+      "schematicId": "q70-sbs-laguardia-terminal-b",
+      "name": "Laguardia / Terminal B",
+      "lat": 40.772845,
+      "lon": -73.872477,
+      "lines": ["Q70+"],
+      "platformIds": ["904242"],
+      "departureRouteIds": ["Q70+", "Q72"]
+    },
+    {
+      "id": "904246",
+      "schematicId": "q70-sbs-laguardia-rd-94-st",
+      "name": "Laguardia Rd / 94 St",
+      "lat": 40.772064,
+      "lon": -73.875852,
+      "lines": ["Q70+"],
+      "platformIds": ["904246"],
+      "departureRouteIds": ["M60+", "Q70+", "Q72"]
+    },
+    {
+      "id": "904418",
+      "schematicId": "m60-sbs-lga-terminal-b",
+      "name": "Lga / Terminal B",
+      "lat": 40.772977,
+      "lon": -73.87232,
+      "lines": ["M60+"],
+      "platformIds": ["904418"],
+      "departureRouteIds": ["M60+", "Q90"]
+    },
+    {
+      "id": "q44-sbs-main-st-jewel-av",
+      "schematicId": "q44-sbs-main-st-jewel-av",
+      "name": "Main St / Jewel Av",
+      "lat": 40.729937,
+      "lon": -73.823284,
+      "lines": ["Q44+"],
+      "platformIds": ["502166", "502274"],
+      "departureRouteIds": ["Q20", "Q44+"]
+    },
+    {
+      "id": "b46-sbs-malcolm-x-blvd-de-kalb-av",
+      "schematicId": "b46-sbs-malcolm-x-blvd-de-kalb-av",
+      "name": "Malcolm X Blvd / De Kalb Av",
+      "lat": 40.693612,
+      "lon": -73.931092,
+      "lines": ["B46+"],
+      "platformIds": ["303630", "303663", "308794"],
+      "departureRouteIds": ["B46", "B46+"]
+    },
+    {
+      "id": "s79-sbs-marsh-av-ring-rd",
+      "schematicId": "s79-sbs-marsh-av-ring-rd",
+      "name": "Marsh Av / Ring Rd",
+      "lat": 40.583368,
+      "lon": -74.161747,
+      "lines": ["S79+"],
+      "platformIds": ["203478", "805189", "805190", "905161", "905162", "905167"],
+      "departureRouteIds": [
+        "S44",
+        "S55",
+        "S56",
+        "S59",
+        "S61",
+        "S79+",
+        "S89",
+        "S91",
+        "SIM31",
+        "SIM4",
+        "SIM4C",
+        "SIM8"
+      ]
+    },
+    {
+      "id": "q44-sbs-merrick-blvd-archer-av",
+      "schematicId": "q44-sbs-merrick-blvd-archer-av",
+      "name": "Merrick Blvd / Archer Av",
+      "lat": 40.704907,
+      "lon": -73.793306,
+      "lines": ["Q44+"],
+      "platformIds": ["503964", "504529", "804061"],
+      "departureRouteIds": ["Q20", "Q44+"]
+    },
+    {
+      "id": "b44-sbs-nostrand-av-avenue-l",
+      "schematicId": "b44-sbs-nostrand-av-avenue-l",
+      "name": "Nostrand Av / Avenue L",
+      "lat": 40.62188,
+      "lon": -73.945851,
+      "lines": ["B44+"],
+      "platformIds": ["303376", "308057"],
+      "departureRouteIds": ["B44", "B44+", "BM4"]
+    },
+    {
+      "id": "q44-sbs-parsons-blvd-20-av",
+      "schematicId": "q44-sbs-parsons-blvd-20-av",
+      "name": "Parsons Blvd / 20 Av",
+      "lat": 40.782022,
+      "lon": -73.8219,
+      "lines": ["Q44+"],
+      "platformIds": ["503551", "505037"],
+      "departureRouteIds": ["Q44+", "QM2"]
+    },
+    {
+      "id": "bx12-sbs-pelham-pkwy-stillwell-av",
+      "schematicId": "bx12-sbs-pelham-pkwy-stillwell-av",
+      "name": "Pelham Pkwy / Stillwell Av",
+      "lat": 40.856475,
+      "lon": -73.838814,
+      "lines": ["BX12+"],
+      "platformIds": ["100318", "103028"],
+      "departureRouteIds": ["BX12", "BX12+"]
+    },
+    {
+      "id": "bx6-sbs-riverside-dr-west-157-10-riverside-dr",
+      "schematicId": "bx6-sbs-riverside-dr-west-157-10-riverside-dr",
+      "name": "Riverside Dr West / 157-10 Riverside Dr",
+      "lat": 40.836311,
+      "lon": -73.948435,
+      "lines": ["BX6+"],
+      "platformIds": ["403728", "803062"],
+      "departureRouteIds": ["BX6", "BX6+"]
+    },
+    {
+      "id": "q53-sbs-roosevelt-av-61-st",
+      "schematicId": "q53-sbs-roosevelt-av-61-st",
+      "name": "Roosevelt Av / 61 St",
+      "lat": 40.7457,
+      "lon": -73.90329,
+      "lines": ["Q53+", "Q70+"],
+      "platformIds": ["503324", "505335", "553332"],
+      "departureRouteIds": ["Q32", "Q53+", "Q70+"]
+    },
+    {
+      "id": "b82-sbs-seaview-av-pennsylvania-av",
+      "schematicId": "b82-sbs-seaview-av-pennsylvania-av",
+      "name": "Seaview Av  /  Pennsylvania Av",
+      "lat": 40.643021,
+      "lon": -73.878132,
+      "lines": ["B82+"],
+      "platformIds": ["304083", "901080", "983015"],
+      "departureRouteIds": ["B82", "B82+", "B83", "BM2", "BM5"]
+    },
+    {
+      "id": "405382",
+      "schematicId": "m15-sbs-south-ferry-term-south-ferry-term",
+      "name": "South Ferry Term / South Ferry Term",
+      "lat": 40.702001,
+      "lon": -74.013524,
+      "lines": ["M15+"],
+      "platformIds": ["405382"],
+      "departureRouteIds": ["M15+"]
+    },
+    {
+      "id": "b46-sbs-utica-av-avenue-h",
+      "schematicId": "b46-sbs-utica-av-avenue-h",
+      "name": "Utica Av / Avenue H",
+      "lat": 40.632523,
+      "lon": -73.928456,
+      "lines": ["B46+"],
+      "platformIds": ["303696", "308809", "801094"],
+      "departureRouteIds": ["B46", "B46+"]
+    },
+    {
+      "id": "b46-sbs-utica-av-eastern-pkwy",
+      "schematicId": "b46-sbs-utica-av-eastern-pkwy",
+      "name": "Utica Av / Eastern Pkwy",
+      "lat": 40.667945,
+      "lon": -73.931297,
+      "lines": ["B46+"],
+      "platformIds": ["307026", "307668"],
+      "departureRouteIds": ["B46", "B46+"]
+    },
+    {
+      "id": "m60-sbs-w-125-st-malcolm-x-blvd",
+      "schematicId": "m60-sbs-w-125-st-malcolm-x-blvd",
+      "name": "W 125 St / Malcolm X  Blvd",
+      "lat": 40.808026,
+      "lon": -73.945964,
+      "lines": ["M60+"],
+      "platformIds": ["402507", "402659", "405415", "405417"],
+      "departureRouteIds": ["M101", "M125", "M60+"]
+    },
+    {
+      "id": "404329",
+      "schematicId": "m14d-sbs-w-18-st-11-av",
+      "name": "W 18 St / 11 Av",
+      "lat": 40.745102,
+      "lon": -74.007583,
+      "lines": ["M14D+"],
+      "platformIds": ["404329"],
+      "departureRouteIds": ["M14D+"]
+    },
+    {
+      "id": "m23-sbs-w-23-st-8-av",
+      "schematicId": "m23-sbs-w-23-st-8-av",
+      "name": "W 23 St / 8 Av",
+      "lat": 40.745059,
+      "lon": -73.998141,
+      "lines": ["M23+"],
+      "platformIds": ["402126", "402154"],
+      "departureRouteIds": ["M23+"]
+    },
+    {
+      "id": "m34-sbs-w-34-st-12-av",
+      "schematicId": "m34-sbs-w-34-st-12-av",
+      "name": "W 34 St / 12 Av",
+      "lat": 40.756419,
+      "lon": -74.003657,
+      "lines": ["M34+"],
+      "platformIds": ["405286", "803131"],
+      "departureRouteIds": ["M34+"]
+    },
+    {
+      "id": "m34-sbs-w-34-st-7-av",
+      "schematicId": "m34-sbs-w-34-st-7-av",
+      "name": "W 34 St / 7 Av",
+      "lat": 40.75125,
+      "lon": -73.991027,
+      "lines": ["M34+", "M34A+"],
+      "platformIds": ["401847", "404280"],
+      "departureRouteIds": ["M34+", "M34A+", "SIM23", "SIM24"]
+    },
+    {
+      "id": "m34a-sbs-w-34-st-broadway",
+      "schematicId": "m34a-sbs-w-34-st-broadway",
+      "name": "W 34 St / Broadway",
+      "lat": 40.749982,
+      "lon": -73.98805,
+      "lines": ["M34+", "M34A+"],
+      "platformIds": ["400716", "401821"],
+      "departureRouteIds": ["M34+", "M34A+", "SIM23", "SIM24"]
+    },
+    {
+      "id": "m79-sbs-w-79-st-riverside-dr",
+      "schematicId": "m79-sbs-w-79-st-riverside-dr",
+      "name": "W 79 St / Riverside Dr",
+      "lat": 40.784786,
+      "lon": -73.982315,
+      "lines": ["M79+"],
+      "platformIds": ["403522", "903286"],
+      "departureRouteIds": ["M79+"]
+    },
+    {
+      "id": "401890",
+      "schematicId": "m79-sbs-w-81-st-central-park-west",
+      "name": "W 81 St / Central Park West",
+      "lat": 40.782268,
+      "lon": -73.972066,
+      "lines": ["M79+"],
+      "platformIds": ["401890"],
+      "departureRouteIds": ["BXM2", "M79+"]
+    },
+    {
+      "id": "403560",
+      "schematicId": "m86-sbs-w-86-st-west-end-av",
+      "name": "W 86 St / West End Av",
+      "lat": 40.788621,
+      "lon": -73.977342,
+      "lines": ["M86+"],
+      "platformIds": ["403560"],
+      "departureRouteIds": ["M86+"]
+    },
+    {
+      "id": "903027",
+      "schematicId": "m34-sbs-waterside-waterside",
+      "name": "Waterside / Waterside",
+      "lat": 40.737552,
+      "lon": -73.973846,
+      "lines": ["M34+", "M34A+"],
+      "platformIds": ["903027"],
+      "departureRouteIds": ["M34+", "M34A+"]
+    },
+    {
+      "id": "bx41-sbs-webster-av-bedford-park-blvd",
+      "schematicId": "bx41-sbs-webster-av-bedford-park-blvd",
+      "name": "Webster Av / Bedford Park Blvd",
+      "lat": 40.86711,
+      "lon": -73.883742,
+      "lines": ["BX41+"],
+      "platformIds": ["102750", "102946"],
+      "departureRouteIds": ["BX41", "BX41+"]
+    },
+    {
+      "id": "bx41-sbs-webster-av-claremont-pkwy",
+      "schematicId": "bx41-sbs-webster-av-claremont-pkwy",
+      "name": "Webster Av / Claremont Pkwy",
+      "lat": 40.839897,
+      "lon": -73.905382,
+      "lines": ["BX41+"],
+      "platformIds": ["102819", "104286", "104554", "902118"],
+      "departureRouteIds": ["BX41", "BX41+"]
+    },
+    {
+      "id": "bx41-sbs-white-plains-rd-east-gun-hill-rd",
+      "schematicId": "bx41-sbs-white-plains-rd-east-gun-hill-rd",
+      "name": "White Plains Rd / East Gun Hill Rd",
+      "lat": 40.877829,
+      "lon": -73.866304,
+      "lines": ["BX41+"],
+      "platformIds": ["102793", "102942", "103408", "802131"],
+      "departureRouteIds": ["BX39", "BX41", "BX41+", "BXM11"]
+    },
+    {
+      "id": "b44-sbs-williamsburg-bridge-plaza-lane-4",
+      "schematicId": "b44-sbs-williamsburg-bridge-plaza-lane-4",
+      "name": "Williamsburg Bridge Plaza / Lane 4",
+      "lat": 40.709278,
+      "lon": -73.959521,
+      "lines": ["B44+"],
+      "platformIds": ["307915", "307919", "901010", "901086"],
+      "departureRouteIds": ["B44", "B44+", "B46"]
+    },
+    {
+      "id": "q52-sbs-woodhaven-blvd-101-av",
+      "schematicId": "q52-sbs-woodhaven-blvd-101-av",
+      "name": "Woodhaven Blvd / 101 Av",
+      "lat": 40.684019,
+      "lon": -73.846252,
+      "lines": ["Q52+"],
+      "platformIds": ["553160", "553346", "553359"],
+      "departureRouteIds": ["Q11", "Q52+", "Q53+", "QM15"]
+    },
+    {
+      "id": "q53-sbs-woodhaven-blvd-metropolitan-av",
+      "schematicId": "q53-sbs-woodhaven-blvd-metropolitan-av",
+      "name": "Woodhaven Blvd / Metropolitan Av",
+      "lat": 40.71208,
+      "lon": -73.859508,
+      "lines": ["Q53+"],
+      "platformIds": ["550454", "553141"],
+      "departureRouteIds": ["BM5", "Q11", "Q52+", "Q53+", "QM15"]
+    },
+    {
+      "id": "q70-sbs-woodside-av-61-st",
+      "schematicId": "q70-sbs-woodside-av-61-st",
+      "name": "Woodside Av / 61 St",
+      "lat": 40.745114,
+      "lon": -73.904027,
+      "lines": ["Q70+"],
+      "platformIds": ["550592", "982205"],
+      "departureRouteIds": ["Q18", "Q70+"]
+    }
+  ]
+}

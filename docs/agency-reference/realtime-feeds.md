@@ -67,6 +67,13 @@ feed can't be read, predictions show unfiltered and the failure is logged. Only
 an alert in force now cancels. A trip's own `schedule_relationship: CANCELED`
 always applies without this option.
 
+**`tripDirectionExtension`** reads an operator-published protobuf direction enum
+when the standard `direction_id` is absent. Declare `fieldNumber`,
+`directionFieldNumber`, and `values` mapping wire enums to GTFS directions 0/1.
+Standard directions take precedence; an unknown enum stays inferred. The bulk
+and station departure decoders share the mapping. The daemon forwards these
+GTFS bytes unchanged, including unknown extension fields.
+
 **Modified trips.** Core accepts `modified_trip.affected_trip_id` when the
 ordinary `trip_id` is absent, and fills a missing `route_id` from seeded trip
 membership. Keep static topology current, since unknown trips can't be assigned

@@ -317,7 +317,12 @@ export function buildSubwayStationIndex(
   >();
   const aliasesByKey = new Map<string, SchematicStationId>();
   const aliasesByCode = new Map<string, SchematicStationId>();
+  const aliasesById = new Map<string, SchematicStationId>();
   for (const [alias, id] of Object.entries(stationAliases)) {
+    if (alias.startsWith("id:")) {
+      aliasesById.set(alias.slice(3), id);
+      continue;
+    }
     if (alias.startsWith("code:")) {
       aliasesByCode.set(alias.slice(5), id);
       continue;
@@ -351,8 +356,10 @@ export function buildSubwayStationIndex(
   const resolveMatches = (
     upstreamName: string,
     stopCode?: string,
+    stopId?: string,
   ): readonly { lineId: string; id: SchematicStationId; name: string }[] => {
     const aliasId =
+      (stopId ? aliasesById.get(stopId) : undefined) ??
       (stopCode ? aliasesByCode.get(stopCode) : undefined) ??
       aliasesByKey.get(alertStationKey(upstreamName));
     const matches = aliasId
@@ -410,9 +417,10 @@ export function buildSubwayStationIndex(
       isTopLevelStation &&
       hasStandardParentStations &&
       !aliasesByKey.has(alertStationKey(row.stopName)) &&
-      !aliasesByCode.has(row.stopCode ?? "")
+      !aliasesByCode.has(row.stopCode ?? "") &&
+      !aliasesById.has(row.stopId)
     ) {
-      const direct = resolveMatches(row.stopName, row.stopCode);
+      const direct = resolveMatches(row.stopName, row.stopCode, row.stopId);
       if (direct.length > 0) {
         const schematicId = direct[0]!.id;
         if (
@@ -429,7 +437,7 @@ export function buildSubwayStationIndex(
       }
       continue;
     }
-    const matches = resolveMatches(row.stopName, row.stopCode);
+    const matches = resolveMatches(row.stopName, row.stopCode, row.stopId);
     if (matches.length === 0) continue;
 
     canonicalParents.set(row.stopId, { row, matches });

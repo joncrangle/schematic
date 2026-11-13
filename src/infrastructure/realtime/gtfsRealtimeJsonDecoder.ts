@@ -42,7 +42,14 @@ const ActivePeriodSchema = Schema.Struct({
 
 const ImpactPeriodSchema = ActivePeriodSchema;
 
+const TripSelectorSchema = Schema.Struct({
+  trip_id: Schema.optional(Schema.NullOr(Schema.String)),
+  route_id: Schema.optional(Schema.NullOr(Schema.String)),
+  direction_id: Schema.optional(Schema.Int.check(Schema.isGreaterThanOrEqualTo(0))),
+});
+
 const EntitySelectorSchema = Schema.Struct({
+  trip: Schema.optional(Schema.NullOr(TripSelectorSchema)),
   direction_text: Schema.optional(Schema.String),
   direction_id: Schema.optional(Schema.Int.check(Schema.isGreaterThanOrEqualTo(0))),
   route_id: Schema.optional(Schema.NullOr(Schema.String)),
@@ -110,10 +117,11 @@ export function decodeGtfsRealtimeJsonAlertFeed(
         Effect.mapError(
           (cause) => new JsonDecodeError({ message: "Invalid GTFS-RT JSON feed", cause }),
         ),
+        Effect.map((feed) => ({ feed, payload })),
       ),
     ),
-    Effect.map((feed) =>
-      decodeValidatedGtfsRealtimeJsonAlerts(
+    Effect.map(({ feed, payload }) => {
+      const decoded = decodeValidatedGtfsRealtimeJsonAlerts(
         feed,
         now,
         descriptionField,
@@ -121,8 +129,17 @@ export function decodeGtfsRealtimeJsonAlertFeed(
         agencyLocale,
         sourceLanguage,
         sourceScope,
-      ),
-    ),
+      );
+      const raw = payload as { entity?: { is_deleted?: boolean; alert?: unknown }[] };
+      const entities = (raw.entity ?? []).filter((entity) => !entity.is_deleted && entity.alert);
+      return {
+        ...decoded,
+        alerts: decoded.alerts.map((alert, index) => ({
+          ...alert,
+          sourceFields: extensionSourceFields(entities[index]?.alert),
+        })),
+      };
+    }),
     Effect.flatMap((feed) =>
       Effect.try({
         try: () => validateDecodedFeed(feed),
@@ -200,25 +217,30 @@ function toGenericAlert(
   });
   const timing = summarizeAlertPeriods(selectedPeriods, feedTimestamp);
   const routeIds = uniqueNonBlank(
-    (alert.informed_entity ?? []).map((selector) => selector.route_id),
+    (alert.informed_entity ?? []).map(
+      (selector) => selector.route_id?.trim() || selector.trip?.route_id,
+    ),
   );
   const affectedStations = uniqueNonBlank(
     (alert.informed_entity ?? []).map((selector) => selector.stop_id),
   );
   const targets = (alert.informed_entity ?? []).flatMap((selector) => {
-    const routeId = selector.route_id?.trim() || undefined;
+    const routeId = selector.route_id?.trim() || selector.trip?.route_id?.trim() || undefined;
     const stopId = selector.stop_id?.trim() || undefined;
     return routeId || stopId
       ? [
           {
             routeId,
             stopId,
-            directionId: selector.direction_id,
+            directionId: selector.direction_id ?? selector.trip?.direction_id,
             directionText: selector.direction_text,
           },
         ]
       : [];
   });
+  const tripIds = uniqueNonBlank(
+    (alert.informed_entity ?? []).map((selector) => selector.trip?.trip_id),
+  );
   const normalizedId = String(rawId ?? "").trim();
   const id =
     normalizedId ||
@@ -264,6 +286,12 @@ function toGenericAlert(
     sourceTranslations: sourceTranslations.length > 0 ? sourceTranslations : undefined,
     routeIds: routeIds.length > 0 ? routeIds : undefined,
     targets: targets.length > 0 ? targets : undefined,
+    tripIds: tripIds.length > 0 ? tripIds : undefined,
+    tripScoped:
+      alert.informed_entity?.length &&
+      alert.informed_entity.every((selector) => Boolean(selector.trip?.trip_id?.trim()))
+        ? true
+        : undefined,
     affectedStations: affectedStations.length > 0 ? affectedStations : undefined,
     sourceFields: undefined,
     effect: alert.effect === null ? undefined : alert.effect,
@@ -321,4 +349,28 @@ function uniqueNonBlank(values: readonly (string | null | undefined)[]): string[
     result.push(normalized);
   }
   return result;
+}
+
+/** Fully qualified protobuf extension names keep vendor evidence out of Core policy. */
+function extensionSourceFields(value: unknown): GenericAlert["sourceFields"] {
+  if (!value || typeof value !== "object") return undefined;
+  const fields: Record<string, string | number | boolean> = {};
+  for (const [namespace, extension] of Object.entries(value)) {
+    if (
+      !namespace.includes(".") ||
+      !extension ||
+      typeof extension !== "object" ||
+      Array.isArray(extension)
+    )
+      continue;
+    for (const [name, field] of Object.entries(extension)) {
+      if (
+        typeof field === "string" ||
+        typeof field === "boolean" ||
+        (typeof field === "number" && Number.isFinite(field))
+      )
+        fields[`${namespace}.${name}`] = field;
+    }
+  }
+  return Object.keys(fields).length ? fields : undefined;
 }

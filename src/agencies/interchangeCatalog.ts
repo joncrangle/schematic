@@ -1,3 +1,4 @@
+import newYork from "./us/ny/interchanges.jsonc";
 import manitoba from "./ca/mb/interchanges.jsonc";
 import "../types/jsonc.d.ts";
 import newBrunswick from "./ca/nb/interchanges.jsonc";
@@ -23,4 +24,5 @@ export const interchangeCatalog: readonly {
   { regionPath: "ca/nb", hubs: newBrunswick },
   { regionPath: "ca/mb", hubs: manitoba },
   { regionPath: "us/nat", hubs: unitedStatesNational },
+  { regionPath: "us/ny", hubs: newYork },
 ];

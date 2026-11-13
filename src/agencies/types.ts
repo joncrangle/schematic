@@ -698,7 +698,21 @@ const IdPrefixPatternSchema = NonBlankStringSchema.check(
   }),
 );
 
+export const TripDirectionExtensionSchema = Schema.Struct({
+  fieldNumber: Schema.Int.check(
+    Schema.isGreaterThanOrEqualTo(1000),
+    Schema.isLessThanOrEqualTo(536870911),
+  ),
+  directionFieldNumber: Schema.Int.check(
+    Schema.isGreaterThanOrEqualTo(1),
+    Schema.isLessThanOrEqualTo(536870911),
+  ),
+  values: Schema.Record(NonBlankStringSchema, Schema.Union([Schema.Literal(0), Schema.Literal(1)])),
+});
+export type TripDirectionExtension = Schema.Schema.Type<typeof TripDirectionExtensionSchema>;
+
 const gtfsRtFeedFields = {
+  tripDirectionExtension: Schema.optional(TripDirectionExtensionSchema),
   emptyTripUpdates: Schema.optional(Schema.Literal("error")),
   predictionTimeSource: Schema.optional(Schema.Literal("static-with-delay")),
   stopIdAliases: Schema.optional(Schema.Literal("static-code")),

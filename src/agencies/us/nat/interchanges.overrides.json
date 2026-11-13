@@ -1,5 +1,45 @@
 {
-  "hubs": [],
+  "hubs": [
+    {
+      "id": "amtrak-mta-bus-mta-subway-via-newyork",
+      "endpoints": [
+        {
+          "agencyId": "amtrak",
+          "stationId": "new-york",
+          "stationName": "New York"
+        },
+        {
+          "agencyId": "mta-subway",
+          "stationId": "penn-eighth",
+          "stationName": "34 St-Penn / 8 Av",
+          "feedStopIds": ["A28N", "A28S"]
+        },
+        {
+          "agencyId": "mta-subway",
+          "stationId": "penn-seventh",
+          "stationName": "34 St-Penn / 7 Av"
+        },
+        {
+          "agencyId": "mta-bus",
+          "stationId": "m34-sbs-w-34-st-7-av",
+          "stationName": "W 34 St / 7 Av",
+          "feedStopIds": ["401847", "404280"]
+        },
+        {
+          "agencyId": "via",
+          "stationId": "new-york",
+          "stationName": "New York"
+        }
+      ],
+      "badgeOffsets": {
+        "mta-bus": {
+          "dx": 80,
+          "dy": -60,
+          "layout": "vertical"
+        }
+      }
+    }
+  ],
   "exclusions": [
     {
       "left": {
@@ -301,6 +341,71 @@
     {
       "agencyId": "flixbus-us",
       "stationName": "New Haven"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Brooklyn (3 Av/38th St)",
+      "feedStopIds": ["52cc257e-2eb8-46d5-969c-7f2ba87072d1"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Queens (Jamaica)",
+      "feedStopIds": ["9b6ac0d1-3ecb-11ea-8017-02437075395e"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Queens Jamaica - 144th Pl/Archer Ave",
+      "feedStopIds": ["fc6f6006-2488-4468-87ae-34f2eecd2d08"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "New York City Chinatown (28 Allen St)",
+      "feedStopIds": ["84c0077c-ed3a-48af-9f30-1aad7c8b3fa2"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "NYC Downtown (Canal St / Lucky Star)",
+      "feedStopIds": ["31219358-9f98-450c-bf2e-cd3133dbf825"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Queens Village (7-11)",
+      "feedStopIds": ["d946e8cc-36c3-4b11-a12f-85a0d003fdca"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "New York Midtown West",
+      "feedStopIds": ["88a7af55-1ff7-4ae0-997f-b277d16625e1"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "New York (Hudson Yards Trailways)",
+      "feedStopIds": ["b62b73cc-e43d-4e4e-b096-1809ab33ec5a"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "New York (Hudson Yards)",
+      "feedStopIds": ["cd63ad2d-c640-4c79-8bf2-d3f42cf2547d"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Queens Flushing (Kissena Blvd/Main St)",
+      "feedStopIds": ["9b6c1e26-3ecb-11ea-8017-02437075395e"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Xb Union City",
+      "feedStopIds": ["ed204658-878f-4725-8112-597ba2ed0799"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Union City, NJ (733 32nd St - La Cubana)",
+      "feedStopIds": ["12a4404f-02c5-4e0a-b37b-875593e6bf01"]
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "NYC Upper Manhattan (4149 Broadway - La Cubana)",
+      "feedStopIds": ["a80a186e-e0a5-4b4a-8590-c8683db6eb01"]
     }
   ]
 }

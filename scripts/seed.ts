@@ -495,6 +495,7 @@ export function interchangeAgencyIds(
 ): readonly string[] {
   const agencyIds = new Set([
     ...dataset.flatMap((hub) => hub.endpoints.map((endpoint) => endpoint.agencyId)),
+    ...(overrides.boardingIdentityAgencyIds ?? []),
     ...overrides.hubs.flatMap((hub) => hub.endpoints?.map((endpoint) => endpoint.agencyId) ?? []),
     ...overrides.exclusions.flatMap((exclusion) => [
       exclusion.left.agencyId,
@@ -619,6 +620,9 @@ function compileStaticInterchanges(
   );
   const overrides: InterchangeOverrides = {
     hubs: completeRegions.flatMap((region) => region.overrides.hubs),
+    boardingIdentityAgencyIds: [
+      ...new Set(regions.flatMap((region) => region.overrides.boardingIdentityAgencyIds ?? [])),
+    ],
     // Keep cross-border exclusions when both sides have station data.
     exclusions: regions.flatMap((region) => region.overrides.exclusions).filter(
       ({ left, right }) => tablesByAgency.has(left.agencyId) && tablesByAgency.has(right.agencyId),

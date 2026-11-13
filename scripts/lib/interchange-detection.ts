@@ -237,6 +237,7 @@ export function discoverInterchanges(
   maxDistanceMeters = 350,
   exclusions: readonly InterchangeExclusion[] = [],
   isolated: readonly InterchangeEndpoint[] = [],
+  boardingIdentityAgencyIds: readonly string[] = [],
 ): readonly InterchangeHub[] {
   const stations = candidates.filter(
     (station) => !isolated.some((endpoint) => stationMatchesEndpoint(station, endpoint)),
@@ -316,8 +317,17 @@ export function discoverInterchanges(
               }
             }
           }
-          const boarding = candidates.filter(
-            (candidate) => distance(candidate, bestStation) <= maxDistanceMeters,
+          // Proximity discovers a transfer, but does not make every nearby
+          // kerb a boarding platform of the selected facility.
+          const strictBoardingIdentity = boardingIdentityAgencyIds.includes(agencyId);
+          const boarding = candidates.filter((candidate) =>
+            !strictBoardingIdentity
+              ? distance(candidate, bestStation) <= maxDistanceMeters
+              : bestStation.schematicId
+                ? candidate.schematicId === bestStation.schematicId
+                : normalizeInterchangeName(candidate.name) ===
+                    normalizeInterchangeName(bestStation.name) &&
+                  distance(candidate, bestStation) <= maxDistanceMeters,
           );
           const stopIds = [
             ...new Set(
@@ -326,7 +336,7 @@ export function discoverInterchanges(
               ),
             ),
           ].sort();
-          return stopIds.length > 0 && boarding.length > 1
+          return stopIds.length > 0 && (strictBoardingIdentity || boarding.length > 1)
             ? { ...bestStation, feedStopIds: stopIds }
             : bestStation;
         })
@@ -347,10 +357,13 @@ export function discoverInterchanges(
 function mergeSameStationHubs(hubs: InterchangeHub[], hub: InterchangeHub): InterchangeHub[] {
   const drawnStationPairKey = (candidate: InterchangeHub) =>
     candidate.endpoints.every((endpoint) => endpoint.stationId)
-      ? candidate.endpoints.map((endpoint) => `${endpoint.agencyId}:${endpoint.stationId}`).join("|")
+      ? candidate.endpoints
+          .map((endpoint) => `${endpoint.agencyId}:${endpoint.stationId}`)
+          .join("|")
       : undefined;
   const key = drawnStationPairKey(hub);
-  const index = key === undefined ? -1 : hubs.findIndex((existing) => drawnStationPairKey(existing) === key);
+  const index =
+    key === undefined ? -1 : hubs.findIndex((existing) => drawnStationPairKey(existing) === key);
   if (index === -1) return [...hubs, hub];
   const existing = hubs[index]!;
   const merged = {
@@ -689,6 +702,7 @@ export function compileInterchanges(
       350,
       resolvedOverrides.exclusions,
       resolvedOverrides.isolated,
+      resolvedOverrides.boardingIdentityAgencyIds,
     ),
     overrides,
     stations,
@@ -927,6 +941,7 @@ function resolveOverrideIdentities(
       right: resolveEndpoint(exclusion.right),
     })),
     isolated: overrides.isolated?.map(resolveEndpoint),
+    boardingIdentityAgencyIds: overrides.boardingIdentityAgencyIds,
   };
 }
 

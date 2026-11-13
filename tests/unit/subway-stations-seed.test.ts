@@ -657,3 +657,24 @@ it("uses explicit stop-code aliases to distinguish stations with identical names
   expect(artifact.stations).toMatchObject([{ schematicId: "river-ca", platformIds: ["ca"] }]);
   expect(artifact.stations).toHaveLength(1);
 });
+
+it("keeps identically named facilities separate using explicit feed-stop aliases", () => {
+  const rows = parseGtfsStopRows(`stop_id,stop_name,stop_lat,stop_lon,location_type,parent_station
+west,Central,40,-74,1,
+east,Central,40,-73.99,1,
+west-platform,Central,40,-74,0,west
+east-platform,Central,40,-73.99,0,east
+`);
+  const result = buildSubwayStationIndex(
+    rows,
+    { R: ["central-west", "central-east"] },
+    ["R"],
+    { "id:west": "central-west", "id:east": "central-east" },
+    new Map([["central-west", "Central West"], ["central-east", "Central East"]]),
+  );
+  expect(result.stations.map(({ schematicId, platformIds }) => ({ schematicId, platformIds })).sort((a, b) => a.schematicId!.localeCompare(b.schematicId!)))
+    .toEqual([
+      { schematicId: "central-east", platformIds: ["east-platform"] },
+      { schematicId: "central-west", platformIds: ["west-platform"] },
+    ]);
+});

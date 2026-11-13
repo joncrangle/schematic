@@ -1,3 +1,7 @@
+import mtaSubwayManifestRaw from "./us/ny/mta-subway/manifest.json";
+import mtaSubwaySchematicRaw from "./us/ny/mta-subway/schematic.json";
+import mtaBusManifestRaw from "./us/ny/mta-bus/manifest.json";
+import mtaBusSchematicRaw from "./us/ny/mta-bus/schematic.json";
 import kasperManifestRaw from "./ca/nat/kasper/manifest.json";
 import kasperSchematicRaw from "./ca/nat/kasper/schematic.json";
 import hautSaintLaurentSchematicRaw from "./ca/qc/haut-saint-laurent/schematic.json";
@@ -673,4 +677,9 @@ export const agencyCatalog: readonly AgencyDefinition[] = [
     manifest: decodeManifest(flixbusUsManifestRaw),
     schematic: decodeSchematic(flixbusUsSchematicRaw),
   },
+  {
+    manifest: decodeManifest(mtaSubwayManifestRaw),
+    schematic: decodeSchematic(mtaSubwaySchematicRaw),
+  },
+  { manifest: decodeManifest(mtaBusManifestRaw), schematic: decodeSchematic(mtaBusSchematicRaw) },
 ];

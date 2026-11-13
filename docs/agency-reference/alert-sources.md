@@ -50,6 +50,11 @@ current notices first; a fully read source covering them should omit the flag.
   `description_text` holds CMS markup. It falls back to the ordinary description
   when TTS text is absent. Works for protobuf and JSON.
 
+The standard JSON decoder also retains scalar fields from fully qualified
+protobuf extension objects as `sourceFields`, keyed `extension.name.field`.
+Use those source fields for published categories instead of reclassifying
+structured notices from prose. The daemon preserves the original JSON.
+
 **Trip scope.** An alert whose every informed entity names a trip gets
 `scope: "trip"`. A stop in the same entity limits the affected part of that
 trip; it doesn't widen the notice to the whole stop. Core resolves each trip's
