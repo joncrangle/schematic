@@ -1,3 +1,5 @@
+import lirrManifestRaw from "./us/ny/lirr/manifest.json";
+import lirrSchematicRaw from "./us/ny/lirr/schematic.json";
 import mtaSubwayManifestRaw from "./us/ny/mta-subway/manifest.json";
 import mtaSubwaySchematicRaw from "./us/ny/mta-subway/schematic.json";
 import mtaBusManifestRaw from "./us/ny/mta-bus/manifest.json";
@@ -307,6 +309,7 @@ function decodeSchematic(raw: unknown): Schematic | undefined {
 }
 
 export const agencyCatalog: readonly AgencyDefinition[] = [
+  { manifest: decodeManifest(lirrManifestRaw), schematic: decodeSchematic(lirrSchematicRaw) },
   { manifest: decodeManifest(kasperManifestRaw), schematic: decodeSchematic(kasperSchematicRaw) },
   {
     manifest: decodeManifest(sherbrookeManifestRaw),

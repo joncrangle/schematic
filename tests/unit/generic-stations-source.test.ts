@@ -3129,3 +3129,56 @@ it("names an unlabelled row by its trip's terminal station, then its scheduled h
     ["", 2],
   ]);
 });
+
+it("uses each rail trip's scheduled destination ahead of the schematic endpoint", async () => {
+  const main = {
+    id: "main",
+    schematicId: "main",
+    name: "Main",
+    lat: 44,
+    lon: -76,
+    lines: ["R"],
+    platformIds: ["main-platform"],
+  };
+  const end = {
+    ...main,
+    id: "end",
+    schematicId: "end",
+    name: "Drawn End",
+    platformIds: ["end-platform"],
+  };
+  const bytes = encodeFeed(
+    1_700_000_000,
+    ["through", "short"].map((tripId, index) =>
+      encodeSubwayTripUpdateEntity({
+        entityId: tripId,
+        tripId,
+        routeId: "R",
+        stopId: "main-platform",
+        stopSequence: 2,
+        arrivalTimeSec: 1_700_000_300 + index * 120,
+      }),
+    ),
+  );
+  const source = createGenericStationsSource({
+    agencyId: "regional",
+    routeType: "rail",
+    stations: [main, end],
+    lineSequences: { R: ["main", "end"] },
+    feeds: [{ kind: "trip_updates", url: "https://example.test/regional", format: "protobuf" }],
+    fetch: vi.fn(async () => new Response(new Uint8Array(bytes))) as typeof fetch,
+    now: () => 1_700_000_000_000,
+    getTripTerminals: () =>
+      Effect.succeed(
+        new Map([
+          ["through", { stopId: "off-map", stopSequence: 9, headsign: "Harbour Terminal" }],
+          ["short", { stopId: "end-platform", stopSequence: 5 }],
+        ]),
+      ),
+  });
+  const [card] = await Effect.runPromise(source.fetchByIds({ stationIds: ["main"] }));
+  expect(card?.arrivals.map((row) => [row.label, row.times.length])).toEqual([
+    ["→ Harbour Terminal", 1],
+    ["→ Drawn End", 1],
+  ]);
+});

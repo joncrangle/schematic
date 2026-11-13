@@ -796,17 +796,22 @@
         "agencyId": "via",
         "stationName": "New York",
         "stationId": "new-york"
+      },
+      {
+        "agencyId": "lirr",
+        "stationName": "Penn Station",
+        "stationId": "penn-station"
       }
     ],
     "badgeOffsets": {
       "mta-bus": {
         "dx": 80,
-        "dy": -60,
+        "dy": -40,
         "layout": "vertical"
       },
       "amtrak": {
-        "dx": -83,
-        "dy": -28,
+        "dx": 83,
+        "dy": 88,
         "layout": "vertical"
       },
       "mta-subway": {
@@ -817,6 +822,11 @@
       "via": {
         "dx": 0,
         "dy": 28
+      },
+      "lirr": {
+        "dx": 0,
+        "dy": 80,
+        "layout": "vertical"
       }
     }
   },

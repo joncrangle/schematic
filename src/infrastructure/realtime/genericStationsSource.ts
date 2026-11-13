@@ -1488,9 +1488,11 @@ export function createGenericStationsSource(opts: GenericStationsSourceOptions):
       // headsign so they never merge; labels stay plain unless buckets
       // actually collide.
       const headsign = prediction.headsign;
-      // An unlabelled row would show times alone; the trip's scheduled end names it.
+      // A rail trip can end beyond the simplified drawing or turn short.
       const scheduledDestination =
-        headsign || label ? undefined : scheduledDestinationFor(terminal, station, targetRouteId);
+        headsign || (label && opts.routeType !== "rail")
+          ? undefined
+          : scheduledDestinationFor(terminal, station, targetRouteId);
       const key = `${predLineId ?? ""}:${directionId}:${label}:${headsign ?? scheduledDestination ?? ""}`;
       const group = grouped.get(key) ?? {
         directionId,
@@ -1600,7 +1602,7 @@ export function createGenericStationsSource(opts: GenericStationsSourceOptions):
             ? group.headsign
             : undefined;
         const destination =
-          liveDestination ?? terminal ?? group.scheduledDestination ?? railDestination;
+          liveDestination ?? group.scheduledDestination ?? terminal ?? railDestination;
         const isTerminalDeparture =
           getTerminusConfigForRoute(group.lineId)?.departingDirectionId === group.directionId;
         return {

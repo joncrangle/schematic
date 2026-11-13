@@ -29,12 +29,17 @@
           "agencyId": "via",
           "stationId": "new-york",
           "stationName": "New York"
+        },
+        {
+          "agencyId": "lirr",
+          "stationId": "penn-station",
+          "stationName": "Penn Station"
         }
       ],
       "badgeOffsets": {
         "mta-bus": {
           "dx": 80,
-          "dy": -60,
+          "dy": -40,
           "layout": "vertical"
         }
       }
@@ -110,6 +115,16 @@
       "right": {
         "agencyId": "ttc",
         "stationName": "Bay St at King St West"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "lirr",
+        "stationName": "Hempstead"
+      },
+      "right": {
+        "agencyId": "flixbus-us",
+        "stationName": "Hempstead"
       }
     }
   ],
