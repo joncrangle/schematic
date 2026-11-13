@@ -1,0 +1,1005 @@
+{
+  "viewBoxWidth": 1620,
+  "viewBoxHeight": 820,
+  "lines": [
+    {
+      "id": "900",
+      "name": "PULSE 900",
+      "color": "#CC6600",
+      "points": [
+        {
+          "x": 200,
+          "y": 660
+        },
+        {
+          "x": 300,
+          "y": 560
+        },
+        {
+          "x": 400,
+          "y": 560
+        },
+        {
+          "x": 415,
+          "y": 545
+        },
+        {
+          "x": 440,
+          "y": 545
+        },
+        {
+          "x": 534,
+          "y": 451
+        },
+        {
+          "x": 544,
+          "y": 441
+        },
+        {
+          "x": 703,
+          "y": 441
+        },
+        {
+          "x": 749,
+          "y": 395
+        },
+        {
+          "x": 820,
+          "y": 395
+        },
+        {
+          "x": 850,
+          "y": 365
+        },
+        {
+          "x": 875,
+          "y": 340
+        },
+        {
+          "x": 1007,
+          "y": 340
+        }
+      ]
+    },
+    {
+      "id": "901",
+      "name": "PULSE 901",
+      "color": "#CC6600",
+      "points": [
+        {
+          "x": 952,
+          "y": 375
+        },
+        {
+          "x": 972,
+          "y": 355
+        },
+        {
+          "x": 972,
+          "y": 246
+        },
+        {
+          "x": 949,
+          "y": 246
+        },
+        {
+          "x": 934,
+          "y": 231
+        },
+        {
+          "x": 919,
+          "y": 216
+        },
+        {
+          "x": 909,
+          "y": 216
+        }
+      ]
+    },
+    {
+      "id": "915",
+      "name": "PULSE 915",
+      "color": "#CC6600",
+      "points": [
+        {
+          "x": 560,
+          "y": 492
+        },
+        {
+          "x": 560,
+          "y": 364
+        },
+        {
+          "x": 589,
+          "y": 335
+        },
+        {
+          "x": 700,
+          "y": 335
+        },
+        {
+          "x": 789,
+          "y": 246
+        },
+        {
+          "x": 1040,
+          "y": 246
+        },
+        {
+          "x": 1015,
+          "y": 221
+        },
+        {
+          "x": 1015,
+          "y": 188
+        },
+        {
+          "x": 1001,
+          "y": 188
+        }
+      ]
+    },
+    {
+      "id": "916",
+      "name": "PULSE 916",
+      "color": "#CC6600",
+      "points": [
+        {
+          "x": 440,
+          "y": 545
+        },
+        {
+          "x": 465,
+          "y": 520
+        },
+        {
+          "x": 479,
+          "y": 506
+        },
+        {
+          "x": 479,
+          "y": 491
+        },
+        {
+          "x": 625,
+          "y": 345
+        },
+        {
+          "x": 848,
+          "y": 345
+        },
+        {
+          "x": 897,
+          "y": 296
+        },
+        {
+          "x": 1034,
+          "y": 296
+        },
+        {
+          "x": 1001,
+          "y": 263
+        },
+        {
+          "x": 1001,
+          "y": 188
+        }
+      ]
+    },
+    {
+      "id": "902",
+      "name": "902 Oshawa Station-Simpson",
+      "color": "#006633",
+      "points": [
+        {
+          "x": 920,
+          "y": 437
+        },
+        {
+          "x": 940,
+          "y": 417
+        },
+        {
+          "x": 940,
+          "y": 387
+        },
+        {
+          "x": 952,
+          "y": 375
+        },
+        {
+          "x": 972,
+          "y": 355
+        },
+        {
+          "x": 1012,
+          "y": 315
+        },
+        {
+          "x": 1438,
+          "y": 315
+        }
+      ]
+    },
+    {
+      "id": "905",
+      "name": "905 Whitby Station-Windfields Farm",
+      "color": "#006633",
+      "points": [
+        {
+          "x": 807,
+          "y": 442
+        },
+        {
+          "x": 870,
+          "y": 379
+        },
+        {
+          "x": 870,
+          "y": 240
+        },
+        {
+          "x": 949,
+          "y": 240
+        },
+        {
+          "x": 940,
+          "y": 231
+        },
+        {
+          "x": 925,
+          "y": 216
+        },
+        {
+          "x": 905,
+          "y": 196
+        },
+        {
+          "x": 895,
+          "y": 186
+        },
+        {
+          "x": 911,
+          "y": 170
+        },
+        {
+          "x": 911,
+          "y": 164
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "centennial-circle",
+      "name": "Centennial Circle",
+      "x": 200,
+      "y": 660,
+      "lines": ["900"],
+      "terminal": true,
+      "label": {
+        "x": 192,
+        "y": 684,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "pickering-parkway",
+      "name": "Pickering Parkway Terminal",
+      "x": 440,
+      "y": 545,
+      "lines": ["900", "916"],
+      "terminal": true,
+      "label": {
+        "x": 448,
+        "y": 569,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kingston-at-westney",
+      "name": "Kingston at Westney",
+      "x": 534,
+      "y": 451,
+      "lines": ["900"],
+      "accessible": false,
+      "label": {
+        "x": 506,
+        "y": 451,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dundas-at-halls",
+      "name": "Dundas at Halls",
+      "x": 703,
+      "y": 441,
+      "lines": ["900"],
+      "accessible": false,
+      "label": {
+        "x": 690,
+        "y": 416,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ritson-at-richmond",
+      "name": "Ritson at Richmond",
+      "x": 1007,
+      "y": 340,
+      "lines": ["900"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 1021,
+        "y": 340,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "oshawa-go",
+      "name": "Oshawa GO",
+      "x": 920,
+      "y": 437,
+      "lines": ["902"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 895,
+        "y": 487,
+        "rot": -30,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "oshawa-centre",
+      "name": "Oshawa Centre Terminal",
+      "x": 952,
+      "y": 375,
+      "lines": ["901", "902"],
+      "label": {
+        "x": 967,
+        "y": 375,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "highway-2-at-darlington",
+      "name": "Highway 2 at Darlington Boulevard",
+      "x": 1120,
+      "y": 315,
+      "lines": ["902"],
+      "accessible": false,
+      "label": {
+        "x": 1128,
+        "y": 291,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "highway-2-at-rundle",
+      "name": "Highway 2 at Rundle",
+      "x": 1268,
+      "y": 315,
+      "lines": ["902"],
+      "accessible": false,
+      "label": {
+        "x": 1268,
+        "y": 339,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "simpson-at-king",
+      "name": "Simpson at King",
+      "x": 1438,
+      "y": 315,
+      "lines": ["902"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 1438,
+        "y": 291,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "simcoe-at-taunton",
+      "name": "Simcoe at Taunton",
+      "x": 949,
+      "y": 246,
+      "lines": ["901", "905"],
+      "accessible": false,
+      "label": {
+        "x": 949,
+        "y": 272,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "ontario-tech-north-campus",
+      "name": "Ontario Tech / Durham College North Campus",
+      "x": 909,
+      "y": 216,
+      "lines": ["901"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 899,
+        "y": 216,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "whitby-go",
+      "name": "Whitby GO",
+      "x": 807,
+      "y": 442,
+      "lines": ["905"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 799,
+        "y": 470,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dryden-at-waller",
+      "name": "Dryden at Waller",
+      "x": 870,
+      "y": 300,
+      "lines": ["905"],
+      "accessible": false,
+      "label": {
+        "x": 856,
+        "y": 300,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "windfields-farm",
+      "name": "Windfields Farm",
+      "x": 911,
+      "y": 164,
+      "lines": ["905"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 911,
+        "y": 140,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "ajax-go",
+      "name": "Ajax GO",
+      "x": 560,
+      "y": 492,
+      "lines": ["915"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 566,
+        "y": 520,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "westney-at-taunton",
+      "name": "Westney at Taunton",
+      "x": 560,
+      "y": 364,
+      "lines": ["915"],
+      "accessible": false,
+      "label": {
+        "x": 546,
+        "y": 364,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "taunton-at-cochrane",
+      "name": "Taunton at Cochrane",
+      "x": 726,
+      "y": 309,
+      "lines": ["915"],
+      "accessible": false,
+      "label": {
+        "x": 718,
+        "y": 285,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "harmony-at-conlin",
+      "name": "Harmony at Conlin",
+      "x": 1001,
+      "y": 188,
+      "lines": ["915", "916"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 1001,
+        "y": 160,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "kingston-at-brock-road",
+      "name": "Kingston at Brock Road",
+      "x": 479,
+      "y": 491,
+      "lines": ["916"],
+      "accessible": false,
+      "label": {
+        "x": 465,
+        "y": 491,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rossland-at-thickson",
+      "name": "Rossland at Thickson",
+      "x": 848,
+      "y": 345,
+      "lines": ["916"],
+      "accessible": false,
+      "label": {
+        "x": 838,
+        "y": 359,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rossland-at-ritson",
+      "name": "Rossland at Ritson",
+      "x": 1034,
+      "y": 296,
+      "lines": ["916"],
+      "accessible": false,
+      "label": {
+        "x": 1050,
+        "y": 268,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "900",
+      "num": "900",
+      "x": 212.37,
+      "y": 602.37,
+      "color": "#CC6600",
+      "textColor": "#000000"
+    },
+    {
+      "line": "901",
+      "num": "901",
+      "x": 958.2,
+      "y": 206,
+      "color": "#CC6600",
+      "textColor": "#000000"
+    },
+    {
+      "line": "915",
+      "num": "915",
+      "x": 530,
+      "y": 390,
+      "color": "#CC6600",
+      "textColor": "#000000"
+    },
+    {
+      "line": "916",
+      "num": "916",
+      "x": 645,
+      "y": 377,
+      "color": "#CC6600",
+      "textColor": "#000000"
+    },
+    {
+      "line": "902",
+      "num": "902",
+      "x": 978,
+      "y": 405,
+      "color": "#006633",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "905",
+      "num": "905",
+      "x": 877.13,
+      "y": 417.13,
+      "color": "#006633",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 120,
+      "maxX": 1530,
+      "minY": 110,
+      "maxY": 720
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.27,
+    "refLonEast": -78.57,
+    "refXWest": 5.3,
+    "refXEast": 1697.8,
+    "refLatNorth": 44.0,
+    "refLatSouth": 43.775,
+    "refYNorth": 63.1,
+    "refYSouth": 699.3
+  },
+  "sequences": {
+    "900": [
+      "centennial-circle",
+      "pickering-parkway",
+      "kingston-at-westney",
+      "dundas-at-halls",
+      "ritson-at-richmond"
+    ],
+    "901": ["oshawa-centre", "simcoe-at-taunton", "ontario-tech-north-campus"],
+    "915": ["ajax-go", "westney-at-taunton", "taunton-at-cochrane", "harmony-at-conlin"],
+    "916": [
+      "pickering-parkway",
+      "kingston-at-brock-road",
+      "rossland-at-thickson",
+      "rossland-at-ritson",
+      "harmony-at-conlin"
+    ],
+    "902": [
+      "oshawa-go",
+      "oshawa-centre",
+      "highway-2-at-darlington",
+      "highway-2-at-rundle",
+      "simpson-at-king"
+    ],
+    "905": ["whitby-go", "dryden-at-waller", "simcoe-at-taunton", "windfields-farm"]
+  },
+  "stationAliases": {
+    "Oshawa Station": "oshawa-go",
+    "Pickering Parkway Terminal Platform B12": "pickering-parkway",
+    "Pickering Parkway Terminal Platform B13": "pickering-parkway",
+    "Ajax Station": "ajax-go",
+    "Whitby Station": "whitby-go",
+    "Ritson Northbound @ Richmond": "ritson-at-richmond",
+    "Kingston Eastbound @ Westney": "kingston-at-westney",
+    "Dundas Eastbound @ Halls": "dundas-at-halls",
+    "Highway 2 Eastbound @ Darlington Boulevard": "highway-2-at-darlington",
+    "Durham Highway 2 Eastbound @ Rundle": "highway-2-at-rundle",
+    "Simpson Northbound @ King": "simpson-at-king",
+    "Simcoe Northbound @ Taunton (North side stop)": "simcoe-at-taunton",
+    "Simcoe Northbound @ Taunton (South Side Stop)": "simcoe-at-taunton",
+    "Westney Northbound @ Taunton": "westney-at-taunton",
+    "Taunton Eastbound @ Cochrane": "taunton-at-cochrane",
+    "Harmony Northbound @ Conlin": "harmony-at-conlin",
+    "Harmony Southbound @ Conlin": "harmony-at-conlin",
+    "Kingston Westbound @ Brock Road": "kingston-at-brock-road",
+    "Rossland Eastbound @ Thickson": "rossland-at-thickson",
+    "Rossland Eastbound @ Ritson": "rossland-at-ritson",
+    "Dryden Eastbound @ Waller": "dryden-at-waller",
+    "Windfields Farm Eastbound @ Bridle": "windfields-farm"
+  },
+  "stationIndex": [
+    {
+      "id": "2569",
+      "schematicId": "ajax-go",
+      "name": "Ajax GO",
+      "lat": 43.847679,
+      "lon": -79.041346,
+      "lines": ["915"],
+      "platformIds": ["2569"],
+      "departureRouteIds": ["211", "216", "224", "227", "915", "917"],
+      "directionTermini": {
+        "eastbound": "Harmony at Conlin"
+      }
+    },
+    {
+      "id": "3589",
+      "schematicId": "centennial-circle",
+      "name": "Centennial Circle",
+      "lat": 43.787494,
+      "lon": -79.190831,
+      "lines": ["900"],
+      "platformIds": ["3589"],
+      "departureRouteIds": ["900", "N1"],
+      "directionTermini": {
+        "eastbound": "Ritson at Richmond"
+      }
+    },
+    {
+      "id": "93739",
+      "schematicId": "dryden-at-waller",
+      "name": "Dryden at Waller",
+      "lat": 43.91477900000001,
+      "lon": -78.921612,
+      "lines": ["905"],
+      "platformIds": ["93739"],
+      "departureRouteIds": ["905"],
+      "directionTermini": {
+        "northbound": "Windfields Farm",
+        "southbound": "Whitby GO"
+      }
+    },
+    {
+      "id": "413",
+      "schematicId": "dundas-at-halls",
+      "name": "Dundas at Halls",
+      "lat": 43.87107000000001,
+      "lon": -78.98135,
+      "lines": ["900"],
+      "platformIds": ["413"],
+      "departureRouteIds": ["900", "N1"],
+      "directionTermini": {
+        "eastbound": "Ritson at Richmond",
+        "westbound": "Centennial Circle"
+      }
+    },
+    {
+      "id": "harmony-at-conlin",
+      "schematicId": "harmony-at-conlin",
+      "name": "Harmony at Conlin",
+      "lat": 43.9565,
+      "lon": -78.856854,
+      "lines": ["915", "916"],
+      "platformIds": ["94249", "94250"],
+      "departureRouteIds": ["407", "419", "423", "915", "916"]
+    },
+    {
+      "id": "1224",
+      "schematicId": "highway-2-at-darlington",
+      "name": "Highway 2 at Darlington Boulevard",
+      "lat": 43.906907,
+      "lon": -78.808273,
+      "lines": ["902"],
+      "platformIds": ["1224"],
+      "departureRouteIds": ["902"],
+      "directionTermini": {
+        "eastbound": "Simpson at King",
+        "westbound": "Oshawa GO"
+      }
+    },
+    {
+      "id": "93727",
+      "schematicId": "highway-2-at-rundle",
+      "name": "Highway 2 at Rundle",
+      "lat": 43.9136054,
+      "lon": -78.745863,
+      "lines": ["902"],
+      "platformIds": ["93727"],
+      "departureRouteIds": ["902"],
+      "directionTermini": {
+        "eastbound": "Simpson at King",
+        "westbound": "Oshawa GO"
+      }
+    },
+    {
+      "id": "1604",
+      "schematicId": "kingston-at-brock-road",
+      "name": "Kingston at Brock Road",
+      "lat": 43.84772,
+      "lon": -79.07452499999998,
+      "lines": ["916"],
+      "platformIds": ["1604"],
+      "departureRouteIds": ["900", "916", "920", "921", "N1"],
+      "directionTermini": {
+        "eastbound": "Harmony at Conlin",
+        "westbound": "Pickering Parkway Terminal"
+      }
+    },
+    {
+      "id": "2236",
+      "schematicId": "kingston-at-westney",
+      "name": "Kingston at Westney",
+      "lat": 43.8576991,
+      "lon": -79.0409645,
+      "lines": ["900"],
+      "platformIds": ["2236"],
+      "departureRouteIds": ["900", "920", "N1"],
+      "directionTermini": {
+        "eastbound": "Ritson at Richmond",
+        "westbound": "Centennial Circle"
+      }
+    },
+    {
+      "id": "698",
+      "schematicId": "ontario-tech-north-campus",
+      "name": "Ontario Tech / Durham College North Campus",
+      "lat": 43.943641,
+      "lon": -78.895505,
+      "lines": ["901"],
+      "platformIds": ["698"],
+      "departureRouteIds": ["302", "407", "901", "920", "921", "N2"],
+      "directionTermini": {
+        "southbound": "Oshawa Centre Terminal"
+      }
+    },
+    {
+      "id": "2595",
+      "schematicId": "oshawa-centre",
+      "name": "Oshawa Centre Terminal",
+      "lat": 43.88916900000001,
+      "lon": -78.877279,
+      "lines": ["901", "902"],
+      "platformIds": ["2595"],
+      "departureRouteIds": ["403", "405", "409", "410", "421", "423", "901", "902", "917"],
+      "directionTermini": {
+        "northbound": "Ontario Tech",
+        "eastbound": "Simpson at King",
+        "southbound": "Oshawa GO",
+        "westbound": "Oshawa GO"
+      }
+    },
+    {
+      "id": "2585",
+      "schematicId": "oshawa-go",
+      "name": "Oshawa GO",
+      "lat": 43.87066200000001,
+      "lon": -78.886365,
+      "lines": ["902"],
+      "platformIds": ["2585"],
+      "departureRouteIds": ["403", "421", "902"],
+      "directionTermini": {
+        "eastbound": "Simpson at King"
+      }
+    },
+    {
+      "id": "pickering-parkway",
+      "schematicId": "pickering-parkway",
+      "name": "Pickering Parkway Terminal",
+      "lat": 43.832968,
+      "lon": -79.0851,
+      "lines": ["900", "916"],
+      "platformIds": ["93112", "94125"],
+      "departureRouteIds": ["112", "118", "121", "211", "900", "916", "917", "920"],
+      "directionTermini": {
+        "eastbound": "Harmony Terminal",
+        "westbound": "Centennial Circle"
+      }
+    },
+    {
+      "id": "3118",
+      "schematicId": "ritson-at-richmond",
+      "name": "Ritson at Richmond",
+      "lat": 43.901499,
+      "lon": -78.854417,
+      "lines": ["900"],
+      "platformIds": ["3118"],
+      "departureRouteIds": ["407", "900"],
+      "directionTermini": {
+        "westbound": "Centennial Circle"
+      }
+    },
+    {
+      "id": "576",
+      "schematicId": "rossland-at-ritson",
+      "name": "Rossland at Ritson",
+      "lat": 43.917332,
+      "lon": -78.86071099999998,
+      "lines": ["916"],
+      "platformIds": ["576"],
+      "departureRouteIds": ["916"],
+      "directionTermini": {
+        "eastbound": "Harmony at Conlin",
+        "westbound": "Pickering Parkway Terminal"
+      }
+    },
+    {
+      "id": "484",
+      "schematicId": "rossland-at-thickson",
+      "name": "Rossland at Thickson",
+      "lat": 43.9039,
+      "lon": -78.92099,
+      "lines": ["916"],
+      "platformIds": ["484"],
+      "departureRouteIds": ["916"],
+      "directionTermini": {
+        "eastbound": "Harmony at Conlin",
+        "westbound": "Pickering Parkway Terminal"
+      }
+    },
+    {
+      "id": "simcoe-at-taunton",
+      "schematicId": "simcoe-at-taunton",
+      "name": "Simcoe at Taunton",
+      "lat": 43.934262382,
+      "lon": -78.87935137,
+      "lines": ["901", "905"],
+      "platformIds": ["691", "94188"],
+      "departureRouteIds": ["618", "901", "905", "N2"]
+    },
+    {
+      "id": "1498",
+      "schematicId": "simpson-at-king",
+      "name": "Simpson at King",
+      "lat": 43.911329,
+      "lon": -78.675014,
+      "lines": ["902"],
+      "platformIds": ["1498"],
+      "departureRouteIds": ["502", "505", "507", "902"],
+      "directionTermini": {
+        "westbound": "Oshawa GO"
+      }
+    },
+    {
+      "id": "125",
+      "schematicId": "taunton-at-cochrane",
+      "name": "Taunton at Cochrane",
+      "lat": 43.912852,
+      "lon": -78.96736199999998,
+      "lines": ["915"],
+      "platformIds": ["125"],
+      "departureRouteIds": ["301", "915"],
+      "directionTermini": {
+        "eastbound": "Harmony at Conlin",
+        "westbound": "Ajax GO"
+      }
+    },
+    {
+      "id": "93056",
+      "schematicId": "westney-at-taunton",
+      "name": "Westney at Taunton",
+      "lat": 43.89317982,
+      "lon": -79.05035663,
+      "lines": ["915"],
+      "platformIds": ["93056"],
+      "departureRouteIds": ["915"],
+      "directionTermini": {
+        "eastbound": "Harmony at Conlin",
+        "westbound": "Ajax GO"
+      }
+    },
+    {
+      "id": "2576",
+      "schematicId": "whitby-go",
+      "name": "Whitby GO",
+      "lat": 43.865496,
+      "lon": -78.93794,
+      "lines": ["905"],
+      "platformIds": ["2576"],
+      "departureRouteIds": ["301", "302", "306", "315", "319", "392", "905", "917"],
+      "directionTermini": {
+        "northbound": "Windfields Farm"
+      }
+    },
+    {
+      "id": "94277",
+      "schematicId": "windfields-farm",
+      "name": "Windfields Farm",
+      "lat": 43.96528150752407,
+      "lon": -78.89408279340002,
+      "lines": ["905"],
+      "platformIds": ["94277"],
+      "departureRouteIds": ["905"],
+      "directionTermini": {
+        "southbound": "Whitby GO"
+      }
+    }
+  ]
+}

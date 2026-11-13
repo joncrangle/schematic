@@ -1,0 +1,314 @@
+{
+  "id": "halifax",
+  "name": "Halifax Transit",
+  "serviceArea": "Halifax Regional Municipality",
+  "shortName": "Halifax",
+  "locale": "en-CA",
+  "timezone": "America/Halifax",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ns"
+  },
+  "bounds": [
+    {
+      "minLat": 44.56,
+      "maxLat": 44.8,
+      "minLon": -63.75,
+      "maxLon": -63.43
+    },
+    {
+      "minLat": 44.72,
+      "maxLat": 44.9,
+      "minLon": -63.71,
+      "maxLon": -63.49
+    },
+    {
+      "minLat": 44.64,
+      "maxLat": 44.75,
+      "minLon": -63.87,
+      "maxLon": -63.74
+    },
+    {
+      "minLat": 44.64,
+      "maxLat": 44.8,
+      "minLon": -63.44,
+      "maxLon": -63.28
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Halifax Transit / Halifax Regional Municipality",
+    "url": "https://data-hrm.hub.arcgis.com/pages/open-data-licence",
+    "license": "Contains information licensed under the Open Government Licence - Halifax.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Mumford Terminal",
+      "lat": 44.648293,
+      "lon": -63.621181
+    },
+    {
+      "name": "Bridge Terminal",
+      "lat": 44.670435,
+      "lon": -63.574645
+    },
+    {
+      "name": "Lacewood Terminal",
+      "lat": 44.660789,
+      "lon": -63.663207
+    },
+    {
+      "name": "Sackville Terminal",
+      "lat": 44.768002,
+      "lon": -63.69881
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "5", "8", "10A", "10B", "10C", "320", "29"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Halifax Transit",
+        "url": "https://gtfs.halifax.ca/static/google_transit.zip",
+        "cacheFileName": "halifax-gtfs.zip"
+      }
+    ],
+    "excludedRouteIds": ["FerD", "FerW"],
+    "defaultColor": "#00558A",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://gtfs.halifax.ca/realtime/Vehicle/VehiclePositions.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://gtfs.halifax.ca/realtime/TripUpdate/TripUpdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb",
+      "language": "en",
+      "accept": "*/*"
+    },
+    {
+      "type": "web",
+      "parser": "heading-service-notices",
+      "url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "language": "en",
+      "routeNames": {
+        "1": ["1"],
+        "10A": ["10A", "10A/B/C"],
+        "10B": ["10B", "10A/B/C", "10B/C"],
+        "10C": ["10C", "10A/B/C", "10B/C"],
+        "123": ["123"],
+        "127": ["127"],
+        "135": ["135"],
+        "136": ["136"],
+        "137": ["137"],
+        "138": ["138"],
+        "158": ["158"],
+        "159": ["159"],
+        "161": ["161"],
+        "165": ["165"],
+        "168A": ["168A"],
+        "168B": ["168B"],
+        "182": ["182"],
+        "183": ["183"],
+        "185": ["185"],
+        "186": ["186"],
+        "192": ["192"],
+        "194": ["194"],
+        "196": ["196"],
+        "2": ["2"],
+        "21": ["21"],
+        "22": ["22"],
+        "24": ["24"],
+        "25": ["25"],
+        "26": ["26"],
+        "28": ["28"],
+        "29": ["29"],
+        "3": ["3"],
+        "30A": ["30A"],
+        "30B": ["30B"],
+        "320": ["320"],
+        "330A": ["330A", "330A/B"],
+        "330B": ["330B", "330A/B"],
+        "370": ["370"],
+        "39": ["39"],
+        "4": ["4"],
+        "401": ["401"],
+        "415": ["415"],
+        "433": ["433"],
+        "5": ["5"],
+        "50": ["50"],
+        "51A": ["51A", "51A/B"],
+        "51B": ["51B", "51A/B"],
+        "53": ["53"],
+        "54": ["54"],
+        "55": ["55"],
+        "56": ["56"],
+        "58": ["58"],
+        "59": ["59"],
+        "61": ["61"],
+        "62": ["62"],
+        "63": ["63"],
+        "64": ["64"],
+        "65": ["65"],
+        "67": ["67"],
+        "68": ["68"],
+        "6A": ["6A", "6A/B/C"],
+        "6B": ["6B", "6A/B/C"],
+        "6C": ["6C", "6A/B/C"],
+        "72": ["72"],
+        "7A": ["7A"],
+        "7B": ["7B"],
+        "8": ["8"],
+        "82": ["82"],
+        "83": ["83"],
+        "84": ["84"],
+        "85": ["85"],
+        "86": ["86"],
+        "87": ["87"],
+        "88": ["88"],
+        "90": ["90"],
+        "91": ["91"],
+        "93": ["93"],
+        "9A": ["9A", "9A/B"],
+        "9B": ["9B", "9A/B"]
+      }
+    },
+    {
+      "type": "web",
+      "parser": "heading-service-notices",
+      "url": "https://www.halifax.ca/transportation/halifax-transit/real-time-alerts",
+      "language": "en",
+      "routeNames": {
+        "1": ["1"],
+        "10A": ["10A", "10A/B/C"],
+        "10B": ["10B", "10A/B/C", "10B/C"],
+        "10C": ["10C", "10A/B/C", "10B/C"],
+        "123": ["123"],
+        "127": ["127"],
+        "135": ["135"],
+        "136": ["136"],
+        "137": ["137"],
+        "138": ["138"],
+        "158": ["158"],
+        "159": ["159"],
+        "161": ["161"],
+        "165": ["165"],
+        "168A": ["168A"],
+        "168B": ["168B"],
+        "182": ["182"],
+        "183": ["183"],
+        "185": ["185"],
+        "186": ["186"],
+        "192": ["192"],
+        "194": ["194"],
+        "196": ["196"],
+        "2": ["2"],
+        "21": ["21"],
+        "22": ["22"],
+        "24": ["24"],
+        "25": ["25"],
+        "26": ["26"],
+        "28": ["28"],
+        "29": ["29"],
+        "3": ["3"],
+        "30A": ["30A"],
+        "30B": ["30B"],
+        "320": ["320"],
+        "330A": ["330A", "330A/B"],
+        "330B": ["330B", "330A/B"],
+        "370": ["370"],
+        "39": ["39"],
+        "4": ["4"],
+        "401": ["401"],
+        "415": ["415"],
+        "433": ["433"],
+        "5": ["5"],
+        "50": ["50"],
+        "51A": ["51A", "51A/B"],
+        "51B": ["51B", "51A/B"],
+        "53": ["53"],
+        "54": ["54"],
+        "55": ["55"],
+        "56": ["56"],
+        "58": ["58"],
+        "59": ["59"],
+        "61": ["61"],
+        "62": ["62"],
+        "63": ["63"],
+        "64": ["64"],
+        "65": ["65"],
+        "67": ["67"],
+        "68": ["68"],
+        "6A": ["6A", "6A/B/C"],
+        "6B": ["6B", "6A/B/C"],
+        "6C": ["6C", "6A/B/C"],
+        "72": ["72"],
+        "7A": ["7A"],
+        "7B": ["7B"],
+        "8": ["8"],
+        "82": ["82"],
+        "83": ["83"],
+        "84": ["84"],
+        "85": ["85"],
+        "86": ["86"],
+        "87": ["87"],
+        "88": ["88"],
+        "90": ["90"],
+        "91": ["91"],
+        "93": ["93"],
+        "9A": ["9A", "9A/B"],
+        "9B": ["9B", "9A/B"]
+      }
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "5", "8", "29"],
+    "stopIdPattern": "\\((\\d+)\\) Stop Closure(?=\\n|$)",
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "titleIncludes": ["Stop Closure", "Stop closure"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "openEndedEndTimestamp": 32503694400000
+  }
+}

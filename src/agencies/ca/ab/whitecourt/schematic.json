@@ -1,0 +1,372 @@
+{
+  "viewBoxWidth": 1320,
+  "viewBoxHeight": 1160,
+  "lines": [
+    {
+      "id": "TL-10",
+      "name": "Hourly",
+      "color": "#D4203B",
+      "points": [
+        {
+          "x": 680,
+          "y": 780
+        },
+        {
+          "x": 500,
+          "y": 780
+        },
+        {
+          "x": 300,
+          "y": 580
+        },
+        {
+          "x": 300,
+          "y": 500
+        },
+        {
+          "x": 300,
+          "y": 240
+        },
+        {
+          "x": 440,
+          "y": 100
+        },
+        {
+          "x": 700,
+          "y": 100
+        },
+        {
+          "x": 840,
+          "y": 240
+        },
+        {
+          "x": 840,
+          "y": 480
+        },
+        {
+          "x": 1060,
+          "y": 700
+        },
+        {
+          "x": 1060,
+          "y": 860
+        },
+        {
+          "x": 1000,
+          "y": 920
+        },
+        {
+          "x": 900,
+          "y": 920
+        },
+        {
+          "x": 680,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 820
+        },
+        {
+          "x": 600,
+          "y": 920
+        },
+        {
+          "x": 700,
+          "y": 1020
+        },
+        {
+          "x": 780,
+          "y": 1020
+        },
+        {
+          "x": 860,
+          "y": 940
+        },
+        {
+          "x": 860,
+          "y": 900
+        },
+        {
+          "x": 740,
+          "y": 780
+        },
+        {
+          "x": 680,
+          "y": 780
+        }
+      ]
+    },
+    {
+      "id": "TL-11",
+      "name": "Express",
+      "color": "#42AB00",
+      "points": [
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 300,
+          "y": 500
+        },
+        {
+          "x": 300,
+          "y": 240
+        },
+        {
+          "x": 440,
+          "y": 100
+        },
+        {
+          "x": 700,
+          "y": 100
+        },
+        {
+          "x": 840,
+          "y": 240
+        },
+        {
+          "x": 840,
+          "y": 480
+        },
+        {
+          "x": 880,
+          "y": 520
+        },
+        {
+          "x": 880,
+          "y": 700
+        },
+        {
+          "x": 680,
+          "y": 700
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "millar-centre",
+      "name": "Allan & Jean Millar Centre",
+      "x": 500,
+      "y": 700,
+      "lines": ["TL-10", "TL-11"],
+      "label": {
+        "x": 472,
+        "y": 700,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "jda-place",
+      "name": "JDA Place",
+      "x": 680,
+      "y": 700,
+      "lines": ["TL-10", "TL-11"],
+      "label": {
+        "x": 680,
+        "y": 668,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "midtown-mall",
+      "name": "Midtown Mall",
+      "x": 300,
+      "y": 500,
+      "lines": ["TL-10", "TL-11"],
+      "label": {
+        "x": 272,
+        "y": 500,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "percy-baxter",
+      "name": "Percy Baxter School",
+      "x": 440,
+      "y": 100,
+      "lines": ["TL-10", "TL-11"],
+      "label": {
+        "x": 440,
+        "y": 68,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 840,
+      "y": 480,
+      "lines": ["TL-10"],
+      "label": {
+        "x": 868,
+        "y": 480,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "evergreen",
+      "name": "Evergreen Mobile Estates",
+      "x": 1060,
+      "y": 860,
+      "lines": ["TL-10"],
+      "label": {
+        "x": 1088,
+        "y": 860,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "park-drive-north",
+      "name": "Park Drive North",
+      "x": 700,
+      "y": 1020,
+      "lines": ["TL-10"],
+      "label": {
+        "x": 700,
+        "y": 1055,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "TL-10": [
+      "midtown-mall",
+      "percy-baxter",
+      "walmart",
+      "evergreen",
+      "jda-place",
+      "millar-centre",
+      "park-drive-north"
+    ],
+    "TL-11": ["millar-centre", "midtown-mall", "percy-baxter", "jda-place"]
+  },
+  "stationAliases": {
+    "Allan & Jean Millar Centre": "millar-centre",
+    "JDA Place": "jda-place",
+    "Midtown Mall": "midtown-mall",
+    "Mink Creek Rd / Percy Baxter School": "percy-baxter",
+    "Whitecourt Walmart Shopping Centre": "walmart",
+    "Evergreen Mobile Estates": "evergreen",
+    "Caxton St / Park Dr North": "park-drive-north",
+    "41": "park-drive-north"
+  },
+  "stationIndex": [
+    {
+      "id": "millar-centre",
+      "schematicId": "millar-centre",
+      "name": "Allan & Jean Millar Centre",
+      "lat": 54.129171,
+      "lon": -115.670574,
+      "lines": ["TL-10", "TL-11"],
+      "platformIds": ["TL-157", "TL-288", "TL-331"],
+      "departureRouteIds": ["TL-10", "TL-11"]
+    },
+    {
+      "id": "evergreen",
+      "schematicId": "evergreen",
+      "name": "Evergreen Mobile Estates",
+      "lat": 54.130341,
+      "lon": -115.659151,
+      "lines": ["TL-10"],
+      "platformIds": ["TL-150", "TL-281"],
+      "departureRouteIds": ["TL-10"]
+    },
+    {
+      "id": "jda-place",
+      "schematicId": "jda-place",
+      "name": "JDA Place",
+      "lat": 54.127728,
+      "lon": -115.668012,
+      "lines": ["TL-10", "TL-11"],
+      "platformIds": ["TL-287", "TL-330"],
+      "departureRouteIds": ["TL-10", "TL-11"]
+    },
+    {
+      "id": "midtown-mall",
+      "schematicId": "midtown-mall",
+      "name": "Midtown Mall",
+      "lat": 54.142331,
+      "lon": -115.681225,
+      "lines": ["TL-10", "TL-11"],
+      "platformIds": ["TL-128", "TL-259", "TL-302"],
+      "departureRouteIds": ["TL-10", "TL-11"]
+    },
+    {
+      "id": "park-drive-north",
+      "schematicId": "park-drive-north",
+      "name": "Park Drive North",
+      "lat": 54.123505,
+      "lon": -115.66022,
+      "lines": ["TL-10"],
+      "platformIds": ["TL-162", "TL-293"],
+      "departureRouteIds": ["TL-10"]
+    },
+    {
+      "id": "percy-baxter",
+      "schematicId": "percy-baxter",
+      "name": "Percy Baxter School",
+      "lat": 54.149075,
+      "lon": -115.658392,
+      "lines": ["TL-10", "TL-11"],
+      "platformIds": ["TL-135", "TL-266", "TL-309"],
+      "departureRouteIds": ["TL-10", "TL-11"]
+    },
+    {
+      "id": "walmart",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 54.141517,
+      "lon": -115.66745,
+      "lines": ["TL-10"],
+      "platformIds": ["TL-142", "TL-273"],
+      "departureRouteIds": ["TL-10"]
+    }
+  ],
+  "badges": [
+    {
+      "line": "TL-10",
+      "num": "H",
+      "x": 1092,
+      "y": 780,
+      "color": "#D4203B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "TL-11",
+      "num": "E",
+      "x": 912,
+      "y": 610,
+      "color": "#42AB00",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 1260,
+      "minY": 35,
+      "maxY": 1100
+    },
+    "minZoom": 0.6,
+    "maxZoom": 5
+  },
+  "geoProjection": {
+    "refLonWest": -115.713967,
+    "refLonEast": -115.641033,
+    "refXWest": 300,
+    "refXEast": 1060,
+    "refLatNorth": 54.149683,
+    "refLatSouth": 54.122893,
+    "refYNorth": 100,
+    "refYSouth": 1020
+  }
+}

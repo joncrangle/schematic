@@ -1,0 +1,105 @@
+{
+  "defaults": {
+    "pollIntervalSecs": 180,
+    "maxStalenessSecs": 3600
+  },
+  "feeds": [
+    {
+      "id": "yrt",
+      "parser": "ghd-news-service-advisories",
+      "upstreamUrl": "https://www.yrt.ca/Modules/News/en/serviceadvisories",
+      "routeParser": "yrt",
+      "timeZone": "America/Toronto",
+      "maxAgeMinutes": null
+    },
+    {
+      "id": "drt",
+      "parser": "ghd-news-service-advisories",
+      "upstreamUrl": "https://www.durhamregiontransit.com/news/service-alerts-and-detours/",
+      "routeParser": "standard",
+      "timeZone": "America/Toronto",
+      "maxAgeMinutes": 20160
+    },
+    {
+      "id": "milton",
+      "parser": "ghd-news-service-advisories",
+      "upstreamUrl": "https://www.milton.ca/news/rider-alerts/",
+      "routeParser": "standard",
+      "timeZone": "America/Toronto",
+      "maxAgeMinutes": 10080
+    },
+    {
+      "id": "grt",
+      "parser": "ghd-news-service-advisories",
+      "upstreamUrl": "https://www.grt.ca/alerts-and-detours/",
+      "routeParser": "standard",
+      "timeZone": "America/Toronto",
+      "maxAgeMinutes": 20160
+    },
+    {
+      "id": "thunder-bay",
+      "parser": "ghd-news-service-advisories",
+      "upstreamUrl": "https://www.thunderbay.ca/city-services/transit/service-alerts/",
+      "routeParser": "standard",
+      "timeZone": "America/Toronto"
+    },
+    {
+      "id": "oc-transpo",
+      "parser": "rss",
+      "upstreamUrl": "https://www.octranspo.com/en/feeds/updates-en/"
+    },
+    {
+      "id": "oc-transpo-fr",
+      "parser": "rss",
+      "upstreamUrl": "https://www.octranspo.com/fr/feeds/updates-fr/"
+    },
+    {
+      "id": "red-deer",
+      "parser": "stop-closure-table",
+      "upstreamUrl": "https://www.reddeer.ca/city-services/transit/transit-disruptions-and-notices/",
+      "timeZone": "America/Edmonton",
+      "routeNames": {
+        "111": ["111"],
+        "R1": ["1", "R1"],
+        "R10": ["10", "R10"],
+        "R11": ["11", "R11"],
+        "R112": ["112", "R112"],
+        "R113": ["113", "R113"],
+        "R12": ["12", "R12"],
+        "R120": ["120", "R120"],
+        "R121": ["121", "R121"],
+        "R122": ["122", "R122"],
+        "R123": ["123", "R123"],
+        "R13": ["13", "R13"],
+        "R130": ["130", "R130"],
+        "R131": ["131", "R131"],
+        "R132": ["132", "R132"],
+        "R133": ["133", "R133"],
+        "R134": ["134", "R134"],
+        "R135": ["135", "R135"],
+        "R136": ["136", "R136"],
+        "R137": ["137", "R137"],
+        "R138": ["138", "R138"],
+        "R139": ["139", "R139"],
+        "R140": ["140", "R140"],
+        "R141": ["141", "R141"],
+        "R142": ["142", "R142"],
+        "R143": ["143", "R143"],
+        "R144": ["144", "R144"],
+        "R15": ["15", "R15"],
+        "R150": ["150", "R150"],
+        "R151": ["151", "R151"],
+        "R152": ["152", "R152"],
+        "R153": ["153", "R153"],
+        "R154": ["154", "R154"],
+        "R16": ["16", "R16"],
+        "R160": ["160", "R160"],
+        "R18": ["18", "R18"],
+        "R19": ["19", "R19"],
+        "R2": ["2", "R2"],
+        "R3": ["3", "R3"],
+        "R4": ["4", "R4"]
+      }
+    }
+  ]
+}

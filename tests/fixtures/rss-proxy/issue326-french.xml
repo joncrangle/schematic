@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Annonces de transport</title>
+    <item>
+      <guid>french-1042</guid>
+      <title>Circuit 42 suspendu près de la station Centrale</title>
+      <link>https://transit.example.test/fr/articles/1042</link>
+      <description>Le service est suspendu pendant l’intervention des équipes.</description>
+      <pubDate>Sat, 10 Oct 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

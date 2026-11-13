@@ -1,0 +1,965 @@
+{
+  "viewBoxWidth": 2900,
+  "viewBoxHeight": 1180,
+  "lines": [
+    {
+      "id": "66-CFV",
+      "name": "Fraser Valley Express",
+      "color": "#18468B",
+      "points": [
+        {
+          "x": 160,
+          "y": 520
+        },
+        {
+          "x": 460,
+          "y": 820
+        },
+        {
+          "x": 1820,
+          "y": 820
+        },
+        {
+          "x": 1980,
+          "y": 660
+        }
+      ]
+    },
+    {
+      "id": "1-CFV",
+      "name": "Highstreet/UFV",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 640,
+          "y": 820
+        },
+        {
+          "x": 792,
+          "y": 668
+        },
+        {
+          "x": 1300,
+          "y": 668
+        },
+        {
+          "x": 1300,
+          "y": 940
+        }
+      ]
+    },
+    {
+      "id": "2-CFV",
+      "name": "Highstreet/McMillan",
+      "color": "#8177B7",
+      "points": [
+        {
+          "x": 640,
+          "y": 820
+        },
+        {
+          "x": 640,
+          "y": 620
+        },
+        {
+          "x": 720,
+          "y": 540
+        },
+        {
+          "x": 800,
+          "y": 540
+        },
+        {
+          "x": 940,
+          "y": 680
+        },
+        {
+          "x": 1460,
+          "y": 680
+        }
+      ]
+    },
+    {
+      "id": "3-CFV",
+      "name": "Clearbrook/Huntingdon",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 860,
+          "y": 772
+        },
+        {
+          "x": 940,
+          "y": 692
+        },
+        {
+          "x": 1300,
+          "y": 692
+        },
+        {
+          "x": 1380,
+          "y": 772
+        },
+        {
+          "x": 1380,
+          "y": 1060
+        }
+      ]
+    },
+    {
+      "id": "31-CFV",
+      "name": "Valley Connector",
+      "color": "#BF83B9",
+      "points": [
+        {
+          "x": 1100,
+          "y": 680
+        },
+        {
+          "x": 1100,
+          "y": 340
+        }
+      ]
+    },
+    {
+      "id": "51-CFV",
+      "name": "Vedder",
+      "color": "#E31937",
+      "points": [
+        {
+          "x": 1980,
+          "y": 660
+        },
+        {
+          "x": 1820,
+          "y": 820
+        },
+        {
+          "x": 1820,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "71-CFV",
+      "name": "Agassiz-Harrison",
+      "color": "#FCAF17",
+      "points": [
+        {
+          "x": 1980,
+          "y": 660
+        },
+        {
+          "x": 2220,
+          "y": 660
+        },
+        {
+          "x": 2300,
+          "y": 580
+        },
+        {
+          "x": 2300,
+          "y": 320
+        }
+      ]
+    },
+    {
+      "id": "72-CFV",
+      "name": "Hope",
+      "color": "#00AA4F",
+      "points": [
+        {
+          "x": 2300,
+          "y": 460
+        },
+        {
+          "x": 2660,
+          "y": 460
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "lougheed",
+      "name": "Lougheed Station",
+      "x": 160,
+      "y": 520,
+      "lines": ["66-CFV"],
+      "label": {
+        "x": 135,
+        "y": 520,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "carvolth",
+      "name": "Carvolth Exchange",
+      "x": 340,
+      "y": 700,
+      "lines": ["66-CFV"],
+      "label": {
+        "x": 365,
+        "y": 700,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "highstreet",
+      "name": "Highstreet Exchange",
+      "x": 640,
+      "y": 820,
+      "lines": ["66-CFV", "1-CFV", "2-CFV"],
+      "label": {
+        "x": 640,
+        "y": 852,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "blueridge",
+      "name": "Blueridge Dr at Clearbrook Rd",
+      "x": 760,
+      "y": 540,
+      "lines": ["2-CFV"],
+      "label": {
+        "x": 760,
+        "y": 510,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "peardonville",
+      "name": "Peardonville Rd at Grant St",
+      "x": 860,
+      "y": 772,
+      "lines": ["3-CFV"],
+      "label": {
+        "x": 885,
+        "y": 772,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "clearbrook",
+      "name": "Clearbrook Centre",
+      "x": 940,
+      "y": 680,
+      "lines": ["1-CFV", "2-CFV", "3-CFV"],
+      "label": {
+        "x": 960,
+        "y": 724,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bourquin",
+      "name": "Bourquin Exchange",
+      "x": 1100,
+      "y": 680,
+      "lines": ["1-CFV", "2-CFV", "3-CFV", "31-CFV"],
+      "label": {
+        "x": 1125,
+        "y": 650,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "montrose",
+      "name": "Montrose Exchange",
+      "x": 1300,
+      "y": 680,
+      "lines": ["1-CFV", "2-CFV", "3-CFV"],
+      "label": {
+        "x": 1275,
+        "y": 724,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rec-centre",
+      "name": "Abbotsford Rec Centre",
+      "x": 1460,
+      "y": 680,
+      "lines": ["2-CFV"],
+      "label": {
+        "x": 1485,
+        "y": 680,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "mccallum",
+      "name": "McCallum P&R",
+      "x": 1300,
+      "y": 820,
+      "lines": ["66-CFV", "1-CFV"],
+      "label": {
+        "x": 1275,
+        "y": 852,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ufv-abbotsford",
+      "name": "UFV Abbotsford",
+      "x": 1300,
+      "y": 940,
+      "lines": ["1-CFV"],
+      "label": {
+        "x": 1275,
+        "y": 940,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "sumas",
+      "name": "1200 Blk Sumas Way",
+      "x": 1380,
+      "y": 940,
+      "lines": ["3-CFV"],
+      "label": {
+        "x": 1405,
+        "y": 940,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "b-st",
+      "name": "B St at 6 Ave",
+      "x": 1380,
+      "y": 1060,
+      "lines": ["3-CFV"],
+      "label": {
+        "x": 1380,
+        "y": 1092,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "junction",
+      "name": "Junction Mall",
+      "x": 1100,
+      "y": 460,
+      "lines": ["31-CFV"],
+      "label": {
+        "x": 1125,
+        "y": 460,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mission",
+      "name": "Mission City Station",
+      "x": 1100,
+      "y": 340,
+      "lines": ["31-CFV"],
+      "label": {
+        "x": 1100,
+        "y": 310,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lickman",
+      "name": "Lickman P&R",
+      "x": 1700,
+      "y": 820,
+      "lines": ["66-CFV"],
+      "label": {
+        "x": 1700,
+        "y": 790,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "vedder-luckakuck",
+      "name": "Vedder Rd at Luckakuck Way",
+      "x": 1820,
+      "y": 820,
+      "lines": ["66-CFV", "51-CFV"],
+      "label": {
+        "x": 1795,
+        "y": 852,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ufv-chilliwack",
+      "name": "UFV Chilliwack Campus",
+      "x": 1820,
+      "y": 1000,
+      "lines": ["51-CFV"],
+      "label": {
+        "x": 1820,
+        "y": 1032,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "downtown-chilliwack",
+      "name": "Downtown Chilliwack",
+      "x": 1980,
+      "y": 660,
+      "lines": ["66-CFV", "51-CFV", "71-CFV"],
+      "label": {
+        "x": 1980,
+        "y": 630,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "mcgrath",
+      "name": "Yale Rd at McGrath Rd",
+      "x": 2080,
+      "y": 660,
+      "lines": ["71-CFV"],
+      "label": {
+        "x": 2080,
+        "y": 692,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hwy9",
+      "name": "Yale Rd at Hwy 9",
+      "x": 2220,
+      "y": 660,
+      "lines": ["71-CFV"],
+      "label": {
+        "x": 2220,
+        "y": 692,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "agassiz",
+      "name": "Pioneer Ave at Evergreen Dr",
+      "x": 2300,
+      "y": 460,
+      "lines": ["71-CFV", "72-CFV"],
+      "label": {
+        "x": 2275,
+        "y": 460,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "harrison",
+      "name": "St Alice St at Esplanade Ave",
+      "x": 2300,
+      "y": 320,
+      "lines": ["71-CFV"],
+      "label": {
+        "x": 2300,
+        "y": 290,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "seabird",
+      "name": "Seabird Island First Nations",
+      "x": 2420,
+      "y": 460,
+      "lines": ["72-CFV"],
+      "label": {
+        "x": 2420,
+        "y": 492,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "chawathil",
+      "name": "Chawathil Rd at Lougheed Hwy",
+      "x": 2540,
+      "y": 460,
+      "lines": ["72-CFV"],
+      "label": {
+        "x": 2540,
+        "y": 430,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hope",
+      "name": "Park St at 3rd Ave",
+      "x": 2660,
+      "y": 460,
+      "lines": ["72-CFV"],
+      "label": {
+        "x": 2685,
+        "y": 460,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "sequences": {
+    "66-CFV": [
+      "lougheed",
+      "carvolth",
+      "highstreet",
+      "mccallum",
+      "lickman",
+      "vedder-luckakuck",
+      "downtown-chilliwack"
+    ],
+    "1-CFV": ["highstreet", "clearbrook", "bourquin", "montrose", "mccallum", "ufv-abbotsford"],
+    "2-CFV": ["highstreet", "blueridge", "clearbrook", "bourquin", "montrose", "rec-centre"],
+    "3-CFV": ["peardonville", "clearbrook", "bourquin", "montrose", "sumas", "b-st"],
+    "31-CFV": ["bourquin", "junction", "mission"],
+    "51-CFV": ["downtown-chilliwack", "vedder-luckakuck", "ufv-chilliwack"],
+    "71-CFV": ["downtown-chilliwack", "mcgrath", "hwy9", "agassiz", "harrison"],
+    "72-CFV": ["agassiz", "seabird", "chawathil", "hope"]
+  },
+  "stationAliases": {
+    "Lougheed Stn Bay 5": "lougheed",
+    "Gatineau Pl at Lougheed Stn": "lougheed",
+    "Carvolth Exch Bay 1": "carvolth",
+    "Carvolth Exch Bay 13": "carvolth",
+    "Highstreet Exch Bay B": "highstreet",
+    "Highstreet Exch Bay C": "highstreet",
+    "Highstreet Exch Bay D": "highstreet",
+    "Highstreet Exch Bay E": "highstreet",
+    "Highstreet Exch Bay F": "highstreet",
+    "McCallum Rd at McCallum P&R": "mccallum",
+    "Downtown Chilliwack Bay A": "downtown-chilliwack",
+    "Downtown Chilliwack Bay B": "downtown-chilliwack",
+    "Downtown Chilliwack Bay C": "downtown-chilliwack",
+    "Downtown Chilliwack Bay D": "downtown-chilliwack",
+    "South Fraser Way at Clearbrook Rd": "clearbrook",
+    "Clearbrook Rd at Old Yale Rd": "clearbrook",
+    "Bourquin Exch Bay A": "bourquin",
+    "Bourquin Exch Bay B": "bourquin",
+    "Bourquin Exch Bay C": "bourquin",
+    "Bourquin Exch Bay D": "bourquin",
+    "Bourquin Exch Bay E": "bourquin",
+    "Montrose Exch Bay A": "montrose",
+    "Montrose Exch Bay B": "montrose",
+    "Montrose Exch Bay C": "montrose",
+    "Montrose Exch Bay D": "montrose",
+    "Montrose Exch Bay E": "montrose",
+    "Montrose Exch Bay F": "montrose",
+    "Montrose Exch Bay G": "montrose",
+    "Montrose Exch Bay H": "montrose",
+    "Mission City Stn Bay 1": "mission",
+    "Mission City Stn Bay 2": "mission"
+  },
+  "badges": [
+    {
+      "line": "66-CFV",
+      "num": "66",
+      "x": 540,
+      "y": 788,
+      "color": "#18468B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "1-CFV",
+      "num": "1",
+      "x": 1332,
+      "y": 880,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2-CFV",
+      "num": "2",
+      "x": 608,
+      "y": 720,
+      "color": "#8177B7",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-CFV",
+      "num": "3",
+      "x": 1412,
+      "y": 1000,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "31-CFV",
+      "num": "31",
+      "x": 1132,
+      "y": 560,
+      "color": "#BF83B9",
+      "textColor": "#000000"
+    },
+    {
+      "line": "51-CFV",
+      "num": "51",
+      "x": 1852,
+      "y": 920,
+      "color": "#E31937",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "71-CFV",
+      "num": "71",
+      "x": 2332,
+      "y": 520,
+      "color": "#FCAF17",
+      "textColor": "#000000"
+    },
+    {
+      "line": "72-CFV",
+      "num": "72",
+      "x": 2360,
+      "y": 428,
+      "color": "#00AA4F",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 2880,
+      "minY": 260,
+      "maxY": 1130
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -122.89454,
+    "refLonEast": -121.44266,
+    "refXWest": 160,
+    "refXEast": 2660,
+    "refLatNorth": 49.30354,
+    "refLatSouth": 49.00748,
+    "refYNorth": 320,
+    "refYSouth": 1060
+  },
+  "stationIndex": [
+    {
+      "id": "107146",
+      "schematicId": "sumas",
+      "name": "1200 Blk Sumas Way",
+      "lat": 49.02576,
+      "lon": -122.26551,
+      "lines": ["3-CFV"],
+      "platformIds": ["107146"],
+      "departureRouteIds": ["3-CFV"]
+    },
+    {
+      "id": "120043",
+      "schematicId": "rec-centre",
+      "name": "Abbotsford Rec Centre",
+      "lat": 49.0487,
+      "lon": -122.26256,
+      "lines": ["2-CFV"],
+      "platformIds": ["120043"],
+      "departureRouteIds": ["2-CFV"]
+    },
+    {
+      "id": "107143",
+      "schematicId": "b-st",
+      "name": "B St at 6 Ave",
+      "lat": 49.00748,
+      "lon": -122.26306,
+      "lines": ["3-CFV"],
+      "platformIds": ["107143"],
+      "departureRouteIds": ["3-CFV"]
+    },
+    {
+      "id": "107006",
+      "schematicId": "blueridge",
+      "name": "Blueridge Dr at Clearbrook Rd",
+      "lat": 49.06452,
+      "lon": -122.33885,
+      "lines": ["2-CFV"],
+      "platformIds": ["107006"],
+      "departureRouteIds": ["2-CFV"]
+    },
+    {
+      "id": "bourquin",
+      "schematicId": "bourquin",
+      "name": "Bourquin Exchange",
+      "lat": 49.04835,
+      "lon": -122.30876,
+      "lines": ["1-CFV", "2-CFV", "3-CFV", "31-CFV"],
+      "platformIds": ["107020", "107499", "107500", "107501", "108262"],
+      "departureRouteIds": [
+        "1-CFV",
+        "12-CFV",
+        "17-CFV",
+        "2-CFV",
+        "21-CFV",
+        "21A-CFV",
+        "22-CFV",
+        "24-CFV",
+        "26-CFV",
+        "3-CFV",
+        "31-CFV",
+        "31A-CFV",
+        "31X-CFV",
+        "5-CFV",
+        "6-CFV",
+        "7-CFV",
+        "7A-CFV",
+        "9-CFV"
+      ]
+    },
+    {
+      "id": "carvolth",
+      "schematicId": "carvolth",
+      "name": "Carvolth Exchange",
+      "lat": 49.16084,
+      "lon": -122.66025,
+      "lines": ["66-CFV"],
+      "platformIds": ["120000", "120054"],
+      "departureRouteIds": ["66-CFV"]
+    },
+    {
+      "id": "124064",
+      "schematicId": "chawathil",
+      "name": "Chawathil Rd at Lougheed Hwy",
+      "lat": 49.36912,
+      "lon": -121.55136,
+      "lines": ["72-CFV"],
+      "platformIds": ["124064"],
+      "departureRouteIds": ["72-CFV"]
+    },
+    {
+      "id": "clearbrook",
+      "schematicId": "clearbrook",
+      "name": "Clearbrook Centre",
+      "lat": 49.04979,
+      "lon": -122.3368,
+      "lines": ["1-CFV", "2-CFV", "3-CFV"],
+      "platformIds": ["107012", "107211", "107273", "120023"],
+      "departureRouteIds": [
+        "1-CFV",
+        "17-CFV",
+        "2-CFV",
+        "21-CFV",
+        "21A-CFV",
+        "24-CFV",
+        "3-CFV",
+        "6-CFV"
+      ]
+    },
+    {
+      "id": "downtown-chilliwack",
+      "schematicId": "downtown-chilliwack",
+      "name": "Downtown Chilliwack",
+      "lat": 49.16883,
+      "lon": -121.95635,
+      "lines": ["51-CFV", "66-CFV", "71-CFV"],
+      "platformIds": ["124094", "124095", "124096", "124097", "124098"],
+      "departureRouteIds": ["51-CFV", "52-CFV", "53-CFV", "57-CFV", "59-CFV", "66-CFV", "71-CFV"]
+    },
+    {
+      "id": "highstreet",
+      "schematicId": "highstreet",
+      "name": "Highstreet Exchange",
+      "lat": 49.05909,
+      "lon": -122.37924,
+      "lines": ["1-CFV", "2-CFV", "66-CFV"],
+      "platformIds": ["120114", "120115", "120116", "120117", "120118"],
+      "departureRouteIds": ["1-CFV", "2-CFV", "21-CFV", "21A-CFV", "66-CFV"]
+    },
+    {
+      "id": "junction",
+      "schematicId": "junction",
+      "name": "Junction Mall",
+      "lat": 49.13018,
+      "lon": -122.31908,
+      "lines": ["31-CFV"],
+      "platformIds": ["107754", "120062"],
+      "departureRouteIds": ["31-CFV", "31A-CFV", "39-CFV"]
+    },
+    {
+      "id": "lickman",
+      "schematicId": "lickman",
+      "name": "Lickman P&R",
+      "lat": 49.14496,
+      "lon": -122.00529,
+      "lines": ["66-CFV"],
+      "platformIds": ["120004", "120005"],
+      "departureRouteIds": ["59-CFV", "66-CFV"]
+    },
+    {
+      "id": "lougheed",
+      "schematicId": "lougheed",
+      "name": "Lougheed Station",
+      "lat": 49.24802,
+      "lon": -122.89487,
+      "lines": ["66-CFV"],
+      "platformIds": ["120076", "120110"],
+      "departureRouteIds": ["66-CFV"]
+    },
+    {
+      "id": "mccallum",
+      "schematicId": "mccallum",
+      "name": "McCallum P&R",
+      "lat": 49.0327,
+      "lon": -122.29314,
+      "lines": ["1-CFV", "66-CFV"],
+      "platformIds": ["107186", "120003", "120024"],
+      "departureRouteIds": ["1-CFV", "12-CFV", "66-CFV"]
+    },
+    {
+      "id": "mission",
+      "schematicId": "mission",
+      "name": "Mission City Station",
+      "lat": 49.13386,
+      "lon": -122.30416,
+      "lines": ["31-CFV"],
+      "platformIds": ["107756", "120092"],
+      "departureRouteIds": [
+        "31-CFV",
+        "31A-CFV",
+        "31X-CFV",
+        "32-CFV",
+        "33-CFV",
+        "34-CFV",
+        "35-CFV",
+        "39-CFV"
+      ]
+    },
+    {
+      "id": "montrose",
+      "schematicId": "montrose",
+      "name": "Montrose Exchange",
+      "lat": 49.04595,
+      "lon": -122.29033,
+      "lines": ["1-CFV", "2-CFV", "3-CFV"],
+      "platformIds": [
+        "120083",
+        "120084",
+        "120085",
+        "120086",
+        "120087",
+        "120088",
+        "120089",
+        "120090"
+      ],
+      "departureRouteIds": [
+        "1-CFV",
+        "15-CFV",
+        "16-CFV",
+        "2-CFV",
+        "26-CFV",
+        "3-CFV",
+        "4-CFV",
+        "7-CFV",
+        "7A-CFV",
+        "9-CFV"
+      ]
+    },
+    {
+      "id": "124020",
+      "schematicId": "hope",
+      "name": "Park St at 3rd Ave",
+      "lat": 49.3811,
+      "lon": -121.44266,
+      "lines": ["72-CFV"],
+      "platformIds": ["124020"],
+      "departureRouteIds": ["72-CFV"]
+    },
+    {
+      "id": "peardonville",
+      "schematicId": "peardonville",
+      "name": "Peardonville Rd at Grant St",
+      "lat": 49.04593,
+      "lon": -122.34334,
+      "lines": ["3-CFV"],
+      "platformIds": ["107214", "107277"],
+      "departureRouteIds": ["24-CFV", "3-CFV", "5-CFV", "6-CFV"]
+    },
+    {
+      "id": "agassiz",
+      "schematicId": "agassiz",
+      "name": "Pioneer Ave at Evergreen Dr",
+      "lat": 49.23901,
+      "lon": -121.76519,
+      "lines": ["71-CFV", "72-CFV"],
+      "platformIds": ["132002", "132011"],
+      "departureRouteIds": ["71-CFV", "72-CFV"]
+    },
+    {
+      "id": "seabird",
+      "schematicId": "seabird",
+      "name": "Seabird Island First Nations",
+      "lat": 49.25421,
+      "lon": -121.72986,
+      "lines": ["72-CFV"],
+      "platformIds": ["124019", "126012"],
+      "departureRouteIds": ["72-CFV"]
+    },
+    {
+      "id": "132006",
+      "schematicId": "harrison",
+      "name": "St Alice St at Esplanade Ave",
+      "lat": 49.30354,
+      "lon": -121.78791,
+      "lines": ["71-CFV"],
+      "platformIds": ["132006"],
+      "departureRouteIds": ["71-CFV"]
+    },
+    {
+      "id": "107190",
+      "schematicId": "ufv-abbotsford",
+      "name": "UFV Abbotsford",
+      "lat": 49.02881,
+      "lon": -122.28292,
+      "lines": ["1-CFV"],
+      "platformIds": ["107190"],
+      "departureRouteIds": ["1-CFV", "12-CFV"]
+    },
+    {
+      "id": "108263",
+      "schematicId": "ufv-chilliwack",
+      "name": "UFV Chilliwack Campus",
+      "lat": 49.10134,
+      "lon": -121.97337,
+      "lines": ["51-CFV"],
+      "platformIds": ["108263"],
+      "departureRouteIds": ["51-CFV", "55-CFV"]
+    },
+    {
+      "id": "vedder-luckakuck",
+      "schematicId": "vedder-luckakuck",
+      "name": "Vedder Rd at Luckakuck Way",
+      "lat": 49.1418,
+      "lon": -121.96068,
+      "lines": ["51-CFV", "66-CFV"],
+      "platformIds": ["108078", "124000"],
+      "departureRouteIds": ["51-CFV", "66-CFV"]
+    },
+    {
+      "id": "hwy9",
+      "schematicId": "hwy9",
+      "name": "Yale Rd at Hwy 9",
+      "lat": 49.18502,
+      "lon": -121.76652,
+      "lines": ["71-CFV"],
+      "platformIds": ["132026", "132027"],
+      "departureRouteIds": ["71-CFV"]
+    },
+    {
+      "id": "mcgrath",
+      "schematicId": "mcgrath",
+      "name": "Yale Rd at McGrath Rd",
+      "lat": 49.18215,
+      "lon": -121.80547,
+      "lines": ["71-CFV"],
+      "platformIds": ["108250", "108251"],
+      "departureRouteIds": ["71-CFV"]
+    }
+  ]
+}

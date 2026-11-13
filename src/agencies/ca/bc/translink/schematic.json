@@ -1,0 +1,2761 @@
+{
+  "viewBoxWidth": 4600,
+  "viewBoxHeight": 2820,
+  "lines": [
+    {
+      "id": "30053",
+      "name": "Expo Line",
+      "color": "#0033A0",
+      "points": [
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 590,
+          "y": 290
+        },
+        {
+          "x": 530,
+          "y": 350
+        },
+        {
+          "x": 470,
+          "y": 410
+        },
+        {
+          "x": 590,
+          "y": 530
+        },
+        {
+          "x": 710,
+          "y": 650
+        },
+        {
+          "x": 830,
+          "y": 770
+        },
+        {
+          "x": 950,
+          "y": 890
+        },
+        {
+          "x": 1070,
+          "y": 1010
+        },
+        {
+          "x": 1190,
+          "y": 1130
+        },
+        {
+          "x": 1310,
+          "y": 1250
+        },
+        {
+          "x": 1430,
+          "y": 1370
+        },
+        {
+          "x": 1550,
+          "y": 1490
+        },
+        {
+          "x": 1670,
+          "y": 1610
+        },
+        {
+          "x": 1850,
+          "y": 1610
+        },
+        {
+          "x": 2030,
+          "y": 1610
+        },
+        {
+          "x": 2150,
+          "y": 1490
+        },
+        {
+          "x": 2270,
+          "y": 1370
+        },
+        {
+          "x": 2570,
+          "y": 1370
+        },
+        {
+          "x": 2690,
+          "y": 1490
+        },
+        {
+          "x": 2690,
+          "y": 1610
+        },
+        {
+          "x": 2690,
+          "y": 1730
+        },
+        {
+          "x": 2690,
+          "y": 1850
+        },
+        {
+          "x": 2690,
+          "y": 1490
+        },
+        {
+          "x": 2570,
+          "y": 1370
+        },
+        {
+          "x": 2270,
+          "y": 1370
+        },
+        {
+          "x": 2390,
+          "y": 1250
+        },
+        {
+          "x": 2510,
+          "y": 1130
+        },
+        {
+          "x": 2630,
+          "y": 1010
+        },
+        {
+          "x": 2570,
+          "y": 950
+        },
+        {
+          "x": 2510,
+          "y": 890
+        }
+      ]
+    },
+    {
+      "id": "30052",
+      "name": "Millennium Line",
+      "color": "#FFCD00",
+      "points": [
+        {
+          "x": 830,
+          "y": 890
+        },
+        {
+          "x": 950,
+          "y": 890
+        },
+        {
+          "x": 1190,
+          "y": 890
+        },
+        {
+          "x": 1370,
+          "y": 890
+        },
+        {
+          "x": 1550,
+          "y": 890
+        },
+        {
+          "x": 1730,
+          "y": 890
+        },
+        {
+          "x": 1910,
+          "y": 890
+        },
+        {
+          "x": 2090,
+          "y": 890
+        },
+        {
+          "x": 2270,
+          "y": 890
+        },
+        {
+          "x": 2510,
+          "y": 890
+        },
+        {
+          "x": 2570,
+          "y": 890
+        },
+        {
+          "x": 2630,
+          "y": 950
+        },
+        {
+          "x": 2630,
+          "y": 1010
+        },
+        {
+          "x": 2690,
+          "y": 950
+        },
+        {
+          "x": 2690,
+          "y": 710
+        },
+        {
+          "x": 2810,
+          "y": 590
+        },
+        {
+          "x": 2990,
+          "y": 590
+        },
+        {
+          "x": 3170,
+          "y": 590
+        },
+        {
+          "x": 3230,
+          "y": 530
+        },
+        {
+          "x": 3230,
+          "y": 410
+        },
+        {
+          "x": 3230,
+          "y": 290
+        }
+      ]
+    },
+    {
+      "id": "13686",
+      "name": "Canada Line",
+      "color": "#007C9F",
+      "points": [
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 470,
+          "y": 530
+        },
+        {
+          "x": 470,
+          "y": 710
+        },
+        {
+          "x": 590,
+          "y": 830
+        },
+        {
+          "x": 590,
+          "y": 1010
+        },
+        {
+          "x": 590,
+          "y": 1190
+        },
+        {
+          "x": 590,
+          "y": 1370
+        },
+        {
+          "x": 590,
+          "y": 1550
+        },
+        {
+          "x": 590,
+          "y": 1730
+        },
+        {
+          "x": 590,
+          "y": 1910
+        },
+        {
+          "x": 590,
+          "y": 2090
+        },
+        {
+          "x": 590,
+          "y": 2270
+        },
+        {
+          "x": 590,
+          "y": 2450
+        },
+        {
+          "x": 590,
+          "y": 2630
+        },
+        {
+          "x": 590,
+          "y": 1910
+        },
+        {
+          "x": 530,
+          "y": 1970
+        },
+        {
+          "x": 410,
+          "y": 1970
+        },
+        {
+          "x": 290,
+          "y": 1970
+        },
+        {
+          "x": 170,
+          "y": 1970
+        }
+      ]
+    },
+    {
+      "id": "WCE",
+      "name": "West Coast Express",
+      "color": "#87189D",
+      "points": [
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 770,
+          "y": 230
+        },
+        {
+          "x": 2450,
+          "y": 230
+        },
+        {
+          "x": 2810,
+          "y": 590
+        },
+        {
+          "x": 2930,
+          "y": 470
+        },
+        {
+          "x": 3050,
+          "y": 470
+        },
+        {
+          "x": 3170,
+          "y": 590
+        },
+        {
+          "x": 3290,
+          "y": 710
+        },
+        {
+          "x": 3350,
+          "y": 710
+        },
+        {
+          "x": 3590,
+          "y": 710
+        },
+        {
+          "x": 3830,
+          "y": 710
+        },
+        {
+          "x": 4070,
+          "y": 710
+        },
+        {
+          "x": 4310,
+          "y": 710
+        }
+      ]
+    },
+    {
+      "id": "6771",
+      "name": "SeaBus",
+      "color": "#746661",
+      "points": [
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 650,
+          "y": 110
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "waterfront",
+      "name": "Waterfront",
+      "x": 650,
+      "y": 350,
+      "lines": ["30053", "13686", "WCE", "6771"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 685,
+        "y": 350,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "burrard",
+      "name": "Burrard",
+      "x": 530,
+      "y": 350,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 500,
+        "y": 350,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "granville",
+      "name": "Granville",
+      "x": 590,
+      "y": 530,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 615,
+        "y": 505,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "stadium-chinatown",
+      "name": "Stadium-Chinatown",
+      "x": 710,
+      "y": 650,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 735,
+        "y": 625,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "main-street-science-world",
+      "name": "Main Street-Science World",
+      "x": 830,
+      "y": 770,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 800,
+        "y": 798,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "commercial-broadway",
+      "name": "Commercial-Broadway",
+      "x": 950,
+      "y": 890,
+      "lines": ["30053", "30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 920,
+        "y": 925,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "nanaimo",
+      "name": "Nanaimo",
+      "x": 1070,
+      "y": 1010,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1095,
+        "y": 985,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "29th-avenue",
+      "name": "29th Avenue",
+      "x": 1190,
+      "y": 1130,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1215,
+        "y": 1105,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "joyce-collingwood",
+      "name": "Joyce-Collingwood",
+      "x": 1310,
+      "y": 1250,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1335,
+        "y": 1225,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "patterson",
+      "name": "Patterson",
+      "x": 1430,
+      "y": 1370,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1455,
+        "y": 1345,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "metrotown",
+      "name": "Metrotown",
+      "x": 1550,
+      "y": 1490,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1575,
+        "y": 1465,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "royal-oak",
+      "name": "Royal Oak",
+      "x": 1670,
+      "y": 1610,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1670,
+        "y": 1640,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "edmonds",
+      "name": "Edmonds",
+      "x": 1850,
+      "y": 1610,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1850,
+        "y": 1640,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "22nd-street",
+      "name": "22nd Street",
+      "x": 2030,
+      "y": 1610,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2030,
+        "y": 1640,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "new-westminster",
+      "name": "New Westminster",
+      "x": 2150,
+      "y": 1490,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2175,
+        "y": 1515,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "columbia",
+      "name": "Columbia",
+      "x": 2270,
+      "y": 1370,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2295,
+        "y": 1395,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sapperton",
+      "name": "Sapperton",
+      "x": 2390,
+      "y": 1250,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2415,
+        "y": 1275,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "braid",
+      "name": "Braid",
+      "x": 2510,
+      "y": 1130,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2535,
+        "y": 1155,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lougheed-town-centre",
+      "name": "Lougheed Town Centre",
+      "x": 2630,
+      "y": 1010,
+      "lines": ["30053", "30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2660,
+        "y": 1010,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "production-way-university",
+      "name": "Production Way-University",
+      "x": 2510,
+      "y": 890,
+      "lines": ["30053", "30052"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 2510,
+        "y": 850,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "scott-road",
+      "name": "Scott Road",
+      "x": 2690,
+      "y": 1490,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2720,
+        "y": 1490,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "gateway",
+      "name": "Gateway",
+      "x": 2690,
+      "y": 1610,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2720,
+        "y": 1610,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "surrey-central",
+      "name": "Surrey Central",
+      "x": 2690,
+      "y": 1730,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2720,
+        "y": 1730,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "king-george",
+      "name": "King George",
+      "x": 2690,
+      "y": 1850,
+      "lines": ["30053"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 2720,
+        "y": 1850,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "vcc-clark",
+      "name": "VCC-Clark",
+      "x": 830,
+      "y": 890,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 805,
+        "y": 905,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "renfrew",
+      "name": "Renfrew",
+      "x": 1190,
+      "y": 890,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1190,
+        "y": 860,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "rupert",
+      "name": "Rupert",
+      "x": 1370,
+      "y": 890,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1370,
+        "y": 920,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "gilmore",
+      "name": "Gilmore",
+      "x": 1550,
+      "y": 890,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1550,
+        "y": 860,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "brentwood-town-centre",
+      "name": "Brentwood Town Centre",
+      "x": 1730,
+      "y": 890,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1730,
+        "y": 920,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "holdom",
+      "name": "Holdom",
+      "x": 1910,
+      "y": 890,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1910,
+        "y": 860,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sperling-burnaby-lake",
+      "name": "Sperling-Burnaby Lake",
+      "x": 2090,
+      "y": 890,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2090,
+        "y": 920,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lake-city-way",
+      "name": "Lake City Way",
+      "x": 2270,
+      "y": 890,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2270,
+        "y": 860,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "burquitlam",
+      "name": "Burquitlam",
+      "x": 2690,
+      "y": 710,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2720,
+        "y": 710,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "moody-centre",
+      "name": "Moody Centre",
+      "x": 2810,
+      "y": 590,
+      "lines": ["30052", "WCE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2840,
+        "y": 625,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "inlet-centre",
+      "name": "Inlet Centre",
+      "x": 2990,
+      "y": 590,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2990,
+        "y": 620,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "coquitlam-central",
+      "name": "Coquitlam Central",
+      "x": 3170,
+      "y": 590,
+      "lines": ["30052", "WCE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 3200,
+        "y": 590,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lincoln",
+      "name": "Lincoln",
+      "x": 3230,
+      "y": 410,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 3260,
+        "y": 410,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lafarge-lake-douglas",
+      "name": "Lafarge Lake-Douglas",
+      "x": 3230,
+      "y": 290,
+      "lines": ["30052"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 3260,
+        "y": 290,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "vancouver-city-centre",
+      "name": "Vancouver City Centre",
+      "x": 470,
+      "y": 530,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 440,
+        "y": 530,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "yaletown-roundhouse",
+      "name": "Yaletown-Roundhouse",
+      "x": 470,
+      "y": 710,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 440,
+        "y": 710,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "olympic-village",
+      "name": "Olympic Village",
+      "x": 590,
+      "y": 830,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 830,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "broadway-city-hall",
+      "name": "Broadway-City Hall",
+      "x": 590,
+      "y": 1010,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 1010,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "king-edward",
+      "name": "King Edward",
+      "x": 590,
+      "y": 1190,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 1190,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "oakridge-41st-avenue",
+      "name": "Oakridge-41st Avenue",
+      "x": 590,
+      "y": 1370,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 1370,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "langara-49th-avenue",
+      "name": "Langara-49th Avenue",
+      "x": 590,
+      "y": 1550,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 1550,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "marine-drive",
+      "name": "Marine Drive",
+      "x": 590,
+      "y": 1730,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 1730,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bridgeport",
+      "name": "Bridgeport",
+      "x": 590,
+      "y": 1910,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 1910,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "capstan",
+      "name": "Capstan",
+      "x": 590,
+      "y": 2090,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 2090,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "aberdeen",
+      "name": "Aberdeen",
+      "x": 590,
+      "y": 2270,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 2270,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lansdowne",
+      "name": "Lansdowne",
+      "x": 590,
+      "y": 2450,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 560,
+        "y": 2450,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "richmond-brighouse",
+      "name": "Richmond-Brighouse",
+      "x": 590,
+      "y": 2630,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 560,
+        "y": 2630,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "templeton",
+      "name": "Templeton",
+      "x": 410,
+      "y": 1970,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 410,
+        "y": 2000,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sea-island-centre",
+      "name": "Sea Island Centre",
+      "x": 290,
+      "y": 1970,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 290,
+        "y": 2000,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "yvr-airport",
+      "name": "YVR-Airport",
+      "x": 170,
+      "y": 1970,
+      "lines": ["13686"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 170,
+        "y": 2000,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lonsdale-quay",
+      "name": "Lonsdale Quay",
+      "x": 650,
+      "y": 110,
+      "lines": ["6771"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 680,
+        "y": 110,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "port-coquitlam",
+      "name": "Port Coquitlam",
+      "x": 3350,
+      "y": 710,
+      "lines": ["WCE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 3350,
+        "y": 740,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "pitt-meadows",
+      "name": "Pitt Meadows",
+      "x": 3590,
+      "y": 710,
+      "lines": ["WCE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 3590,
+        "y": 740,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "maple-meadows",
+      "name": "Maple Meadows",
+      "x": 3830,
+      "y": 710,
+      "lines": ["WCE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 3830,
+        "y": 740,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "port-haney",
+      "name": "Port Haney",
+      "x": 4070,
+      "y": 710,
+      "lines": ["WCE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 4070,
+        "y": 740,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "mission-city",
+      "name": "Mission City",
+      "x": 4310,
+      "y": 710,
+      "lines": ["WCE"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 4340,
+        "y": 710,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "30053",
+      "num": "EX",
+      "x": 1370,
+      "y": 1265,
+      "color": "#0033A0",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "30052",
+      "num": "ML",
+      "x": 1850,
+      "y": 858,
+      "color": "#FFCD00",
+      "textColor": "#000000"
+    },
+    {
+      "line": "13686",
+      "num": "CL",
+      "x": 622,
+      "y": 2340,
+      "color": "#007C9F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "WCE",
+      "num": "WCE",
+      "x": 1800,
+      "y": 198,
+      "color": "#87189D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6771",
+      "num": "SB",
+      "x": 682,
+      "y": 200,
+      "color": "#746661",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 4600,
+      "minY": 0,
+      "maxY": 2820
+    },
+    "minZoom": 0.5,
+    "maxZoom": 14
+  },
+  "geoProjection": {
+    "refLonWest": -123.1114,
+    "refLonEast": -122.3052,
+    "refXWest": 650,
+    "refXEast": 4310,
+    "refLatNorth": 49.3102,
+    "refLatSouth": 49.1681,
+    "refYNorth": 110,
+    "refYSouth": 2630
+  },
+  "sequences": {
+    "30053": [
+      "waterfront",
+      "burrard",
+      "granville",
+      "stadium-chinatown",
+      "main-street-science-world",
+      "commercial-broadway",
+      "nanaimo",
+      "29th-avenue",
+      "joyce-collingwood",
+      "patterson",
+      "metrotown",
+      "royal-oak",
+      "edmonds",
+      "22nd-street",
+      "new-westminster",
+      "columbia",
+      "scott-road",
+      "gateway",
+      "surrey-central",
+      "king-george"
+    ],
+    "30052": [
+      "vcc-clark",
+      "commercial-broadway",
+      "renfrew",
+      "rupert",
+      "gilmore",
+      "brentwood-town-centre",
+      "holdom",
+      "sperling-burnaby-lake",
+      "lake-city-way",
+      "production-way-university",
+      "lougheed-town-centre",
+      "burquitlam",
+      "moody-centre",
+      "inlet-centre",
+      "coquitlam-central",
+      "lincoln",
+      "lafarge-lake-douglas"
+    ],
+    "13686": [
+      "waterfront",
+      "vancouver-city-centre",
+      "yaletown-roundhouse",
+      "olympic-village",
+      "broadway-city-hall",
+      "king-edward",
+      "oakridge-41st-avenue",
+      "langara-49th-avenue",
+      "marine-drive",
+      "bridgeport",
+      "capstan",
+      "aberdeen",
+      "lansdowne",
+      "richmond-brighouse"
+    ],
+    "6771": ["waterfront", "lonsdale-quay"],
+    "WCE": [
+      "waterfront",
+      "moody-centre",
+      "coquitlam-central",
+      "port-coquitlam",
+      "pitt-meadows",
+      "maple-meadows",
+      "port-haney",
+      "mission-city"
+    ]
+  },
+  "stationAliases": {
+    "Waterfront Station": "waterfront",
+    "Burrard Station": "burrard",
+    "Granville Station": "granville",
+    "Stadium-Chinatown Station": "stadium-chinatown",
+    "Main Street-Science World Station": "main-street-science-world",
+    "Commercial-Broadway Station": "commercial-broadway",
+    "Nanaimo Station": "nanaimo",
+    "29th Avenue Station": "29th-avenue",
+    "Joyce-Collingwood Station": "joyce-collingwood",
+    "Patterson Station": "patterson",
+    "Metrotown Station": "metrotown",
+    "Royal Oak Station": "royal-oak",
+    "Edmonds Station": "edmonds",
+    "22nd Street Station": "22nd-street",
+    "New Westminster Station": "new-westminster",
+    "Columbia Station": "columbia",
+    "Sapperton Station": "sapperton",
+    "Braid Station": "braid",
+    "Lougheed Town Centre Station": "lougheed-town-centre",
+    "Production Way-University Station": "production-way-university",
+    "Scott Road Station": "scott-road",
+    "Gateway Station": "gateway",
+    "Surrey Central Station": "surrey-central",
+    "King George Station": "king-george",
+    "VCC-Clark Station": "vcc-clark",
+    "Renfrew Station": "renfrew",
+    "Rupert Station": "rupert",
+    "Gilmore Station": "gilmore",
+    "Brentwood Town Centre Station": "brentwood-town-centre",
+    "Holdom Station": "holdom",
+    "Sperling-Burnaby Lake Station": "sperling-burnaby-lake",
+    "Lake City Way Station": "lake-city-way",
+    "Burquitlam Station": "burquitlam",
+    "Moody Centre Station": "moody-centre",
+    "Inlet Centre Station": "inlet-centre",
+    "Coquitlam Central Station": "coquitlam-central",
+    "Lincoln Station": "lincoln",
+    "Lafarge Lake-Douglas Station": "lafarge-lake-douglas",
+    "Vancouver City Centre Station": "vancouver-city-centre",
+    "Yaletown-Roundhouse Station": "yaletown-roundhouse",
+    "Olympic Village Station": "olympic-village",
+    "Broadway-City Hall Station": "broadway-city-hall",
+    "King Edward Station": "king-edward",
+    "Oakridge-41st Avenue Station": "oakridge-41st-avenue",
+    "Langara-49th Avenue Station": "langara-49th-avenue",
+    "Marine Drive Station": "marine-drive",
+    "Bridgeport Station": "bridgeport",
+    "Capstan Station": "capstan",
+    "Aberdeen Station": "aberdeen",
+    "Lansdowne Station": "lansdowne",
+    "Richmond-Brighouse Station": "richmond-brighouse",
+    "Templeton Station": "templeton",
+    "Sea Island Centre Station": "sea-island-centre",
+    "YVR-Airport Station": "yvr-airport",
+    "Lonsdale Quay Station": "lonsdale-quay",
+    "Port Coquitlam Station": "port-coquitlam",
+    "Pitt Meadows Station": "pitt-meadows",
+    "Maple Meadows Station": "maple-meadows",
+    "Port Haney Station": "port-haney",
+    "Mission City Station": "mission-city",
+    "code:53309": "holdom",
+    "code:53302": "holdom",
+    "code:53308": "lake-city-way",
+    "code:59767": "vcc-clark",
+    "code:61039": "olympic-village",
+    "code:60825": "vcc-clark",
+    "code:60824": "vcc-clark",
+    "code:59868": "edmonds",
+    "code:50016": "yaletown-roundhouse",
+    "code:58084": "braid",
+    "code:51056": "29th-avenue",
+    "code:50475": "king-edward",
+    "code:58945": "moody-centre",
+    "code:61035": "surrey-central",
+    "code:61036": "surrey-central",
+    "code:58124": "gateway",
+    "code:51082": "renfrew",
+    "code:58150": "scott-road",
+    "code:59803": "vcc-clark",
+    "code:58322": "22nd-street",
+    "code:53104": "scott-road",
+    "code:58501": "broadway-city-hall",
+    "code:58129": "rupert",
+    "code:61306": "coquitlam-central",
+    "code:61334": "richmond-brighouse",
+    "code:61326": "bridgeport",
+    "code:61332": "richmond-brighouse",
+    "code:61324": "bridgeport",
+    "code:61323": "bridgeport",
+    "code:61337": "marine-drive",
+    "code:61338": "marine-drive",
+    "code:61329": "bridgeport",
+    "code:61325": "bridgeport",
+    "code:61254": "olympic-village",
+    "code:61040": "olympic-village",
+    "code:61327": "bridgeport",
+    "code:61328": "bridgeport",
+    "code:61330": "bridgeport",
+    "code:61331": "bridgeport",
+    "code:61321": "bridgeport",
+    "code:61363": "vancouver-city-centre",
+    "code:61364": "vancouver-city-centre",
+    "code:61365": "yaletown-roundhouse",
+    "code:61366": "yaletown-roundhouse",
+    "code:61367": "olympic-village",
+    "code:61368": "olympic-village",
+    "code:61369": "broadway-city-hall",
+    "code:61370": "broadway-city-hall",
+    "code:61371": "king-edward",
+    "code:61372": "king-edward",
+    "code:61373": "oakridge-41st-avenue",
+    "code:61374": "oakridge-41st-avenue",
+    "code:61375": "langara-49th-avenue",
+    "code:61376": "langara-49th-avenue",
+    "code:61377": "marine-drive",
+    "code:61378": "marine-drive",
+    "code:61379": "bridgeport",
+    "code:61380": "bridgeport",
+    "code:61381": "aberdeen",
+    "code:61382": "aberdeen",
+    "code:61383": "lansdowne",
+    "code:61384": "lansdowne",
+    "code:61385": "richmond-brighouse",
+    "code:61386": "richmond-brighouse",
+    "code:61387": "templeton",
+    "code:61388": "templeton",
+    "code:61389": "sea-island-centre",
+    "code:61390": "sea-island-centre",
+    "code:61391": "yvr-airport",
+    "code:61392": "yvr-airport",
+    "code:61393": "waterfront",
+    "code:61394": "waterfront",
+    "code:50023": "yaletown-roundhouse",
+    "code:61215": "yaletown-roundhouse",
+    "code:50085": "yaletown-roundhouse",
+    "code:58196": "lansdowne",
+    "code:59796": "pitt-meadows",
+    "code:52102": "commercial-broadway",
+    "code:52094": "commercial-broadway",
+    "code:50913": "commercial-broadway",
+    "code:58624": "richmond-brighouse",
+    "code:61648": "new-westminster",
+    "code:61656": "new-westminster",
+    "code:61650": "new-westminster",
+    "code:61649": "new-westminster",
+    "code:61651": "new-westminster",
+    "code:61652": "new-westminster",
+    "code:61654": "new-westminster",
+    "code:61655": "new-westminster",
+    "code:51164": "metrotown",
+    "code:61616": "29th-avenue",
+    "code:61677": "surrey-central",
+    "code:61678": "new-westminster",
+    "code:61693": "bridgeport",
+    "code:61787": "surrey-central",
+    "code:61892": "moody-centre",
+    "code:61891": "moody-centre",
+    "code:61890": "moody-centre",
+    "code:61889": "moody-centre",
+    "code:61912": "moody-centre",
+    "code:61911": "moody-centre",
+    "code:61925": "waterfront",
+    "code:61978": "lansdowne",
+    "code:59546": "metrotown",
+    "code:57893": "waterfront",
+    "code:59339": "king-george",
+    "code:59935": "lincoln",
+    "code:59565": "lafarge-lake-douglas",
+    "code:59554": "burquitlam",
+    "code:59557": "burquitlam",
+    "code:59561": "burquitlam",
+    "code:53122": "burquitlam",
+    "code:60084": "lougheed-town-centre",
+    "code:60085": "burquitlam",
+    "code:60086": "burquitlam",
+    "code:60087": "moody-centre",
+    "code:60088": "moody-centre",
+    "code:60089": "inlet-centre",
+    "code:60090": "inlet-centre",
+    "code:60091": "coquitlam-central",
+    "code:60092": "coquitlam-central",
+    "code:60093": "lincoln",
+    "code:60094": "lincoln",
+    "code:60095": "lafarge-lake-douglas",
+    "code:60096": "lafarge-lake-douglas",
+    "code:59569": "inlet-centre",
+    "code:53267": "inlet-centre",
+    "code:61988": "inlet-centre",
+    "code:59890": "lincoln",
+    "code:58327": "commercial-broadway",
+    "code:60105": "moody-centre",
+    "code:60106": "moody-centre",
+    "code:60107": "coquitlam-central",
+    "code:60108": "coquitlam-central",
+    "code:61922": "moody-centre",
+    "code:58099": "burrard",
+    "code:60208": "29th-avenue",
+    "code:60211": "metrotown",
+    "code:60195": "metrotown",
+    "code:60212": "metrotown",
+    "code:60213": "metrotown",
+    "code:60214": "metrotown",
+    "code:60233": "maple-meadows",
+    "code:60307": "broadway-city-hall",
+    "code:60314": "nanaimo",
+    "code:59709": "port-haney",
+    "code:60390": "coquitlam-central",
+    "code:53312": "burrard",
+    "code:60480": "king-george",
+    "code:60483": "richmond-brighouse",
+    "code:60482": "richmond-brighouse",
+    "code:60537": "capstan",
+    "code:60654": "king-george",
+    "code:60674": "capstan",
+    "code:60675": "capstan",
+    "code:60676": "broadway-city-hall",
+    "code:51513": "king-edward",
+    "code:51560": "nanaimo",
+    "code:51574": "king-edward",
+    "code:50181": "main-street-science-world",
+    "code:51818": "29th-avenue",
+    "code:51843": "burrard",
+    "code:51999": "metrotown",
+    "code:52183": "22nd-street",
+    "code:52230": "22nd-street",
+    "code:52317": "columbia",
+    "code:50233": "main-street-science-world",
+    "code:52331": "columbia",
+    "code:52373": "22nd-street",
+    "code:52390": "metrotown",
+    "code:52453": "edmonds",
+    "code:52499": "metrotown",
+    "code:52515": "patterson",
+    "code:52605": "edmonds",
+    "code:52646": "metrotown",
+    "code:52667": "edmonds",
+    "code:52692": "metrotown",
+    "code:52736": "metrotown",
+    "code:52771": "edmonds",
+    "code:52804": "metrotown",
+    "code:52992": "edmonds",
+    "code:53021": "coquitlam-central",
+    "code:53035": "coquitlam-central",
+    "code:50031": "burrard",
+    "code:59531": "burquitlam",
+    "code:53161": "coquitlam-central",
+    "code:53170": "coquitlam-central",
+    "code:53208": "burquitlam",
+    "code:53299": "coquitlam-central",
+    "code:53348": "port-coquitlam",
+    "code:53357": "coquitlam-central",
+    "code:53440": "port-coquitlam",
+    "code:50035": "waterfront",
+    "code:53495": "coquitlam-central",
+    "code:53497": "22nd-street",
+    "code:53730": "coquitlam-central",
+    "code:53743": "lafarge-lake-douglas",
+    "code:53767": "port-coquitlam",
+    "code:53777": "port-coquitlam",
+    "code:53783": "port-coquitlam",
+    "code:53864": "coquitlam-central",
+    "code:53866": "coquitlam-central",
+    "code:53868": "lafarge-lake-douglas",
+    "code:53887": "coquitlam-central",
+    "code:50040": "waterfront",
+    "code:50405": "burrard",
+    "code:50419": "king-edward",
+    "code:54990": "king-george",
+    "code:54993": "surrey-central",
+    "code:55070": "surrey-central",
+    "code:55096": "scott-road",
+    "code:55200": "scott-road",
+    "code:55210": "surrey-central",
+    "code:55441": "surrey-central",
+    "code:55612": "surrey-central",
+    "code:55713": "surrey-central",
+    "code:55714": "surrey-central",
+    "code:55738": "surrey-central",
+    "code:55789": "gateway",
+    "code:55807": "gateway",
+    "code:55835": "scott-road",
+    "code:55836": "surrey-central",
+    "code:55933": "22nd-street",
+    "code:56395": "surrey-central",
+    "code:56406": "surrey-central",
+    "code:58164": "king-george",
+    "code:59771": "lansdowne",
+    "code:56689": "richmond-brighouse",
+    "code:50688": "nanaimo",
+    "code:56919": "22nd-street",
+    "code:57566": "scott-road",
+    "code:57570": "coquitlam-central",
+    "code:57577": "pitt-meadows",
+    "code:57585": "maple-meadows",
+    "code:57654": "maple-meadows",
+    "code:57663": "pitt-meadows",
+    "code:57670": "maple-meadows",
+    "code:57695": "port-haney",
+    "code:57703": "port-haney",
+    "code:57753": "maple-meadows",
+    "code:57944": "waterfront",
+    "code:57945": "moody-centre",
+    "code:57946": "coquitlam-central",
+    "code:57947": "port-coquitlam",
+    "code:57948": "pitt-meadows",
+    "code:57949": "maple-meadows",
+    "code:57950": "port-haney",
+    "code:57951": "mission-city",
+    "code:57952": "mission-city",
+    "code:57953": "port-haney",
+    "code:57954": "maple-meadows",
+    "code:57955": "pitt-meadows",
+    "code:57956": "port-coquitlam",
+    "code:57957": "coquitlam-central",
+    "code:57958": "moody-centre",
+    "code:57959": "waterfront",
+    "code:57960": "waterfront",
+    "code:57963": "waterfront",
+    "code:57964": "waterfront",
+    "code:60826": "burrard",
+    "code:57966": "granville",
+    "code:57967": "stadium-chinatown",
+    "code:57968": "main-street-science-world",
+    "code:57969": "commercial-broadway",
+    "code:57970": "nanaimo",
+    "code:57971": "29th-avenue",
+    "code:57972": "joyce-collingwood",
+    "code:57973": "patterson",
+    "code:57974": "metrotown",
+    "code:57975": "royal-oak",
+    "code:57976": "edmonds",
+    "code:57977": "22nd-street",
+    "code:57978": "new-westminster",
+    "code:57979": "columbia",
+    "code:57980": "scott-road",
+    "code:57981": "gateway",
+    "code:57982": "surrey-central",
+    "code:57983": "king-george",
+    "code:57984": "king-george",
+    "code:57985": "surrey-central",
+    "code:57986": "gateway",
+    "code:57987": "scott-road",
+    "code:57988": "columbia",
+    "code:57989": "new-westminster",
+    "code:57990": "22nd-street",
+    "code:57991": "edmonds",
+    "code:57992": "royal-oak",
+    "code:57993": "metrotown",
+    "code:57994": "patterson",
+    "code:57995": "joyce-collingwood",
+    "code:57996": "29th-avenue",
+    "code:57997": "nanaimo",
+    "code:57998": "commercial-broadway",
+    "code:57999": "main-street-science-world",
+    "code:58000": "stadium-chinatown",
+    "code:58001": "granville",
+    "code:58002": "burrard",
+    "code:58003": "waterfront",
+    "code:58113": "capstan",
+    "code:58097": "capstan",
+    "code:58114": "capstan",
+    "code:52586": "patterson",
+    "code:50043": "burrard",
+    "code:58082": "braid",
+    "code:58083": "braid",
+    "code:58079": "braid",
+    "code:58085": "braid",
+    "code:58086": "braid",
+    "code:60802": "braid",
+    "code:60803": "braid",
+    "code:60800": "sapperton",
+    "code:60801": "sapperton",
+    "code:58198": "aberdeen",
+    "code:58344": "gilmore",
+    "code:58345": "gilmore",
+    "code:58342": "holdom",
+    "code:58343": "holdom",
+    "code:60804": "lougheed-town-centre",
+    "code:60806": "production-way-university",
+    "code:60810": "sperling-burnaby-lake",
+    "code:60812": "holdom",
+    "code:60814": "brentwood-town-centre",
+    "code:60816": "gilmore",
+    "code:60818": "rupert",
+    "code:60820": "renfrew",
+    "code:60822": "commercial-broadway",
+    "code:60805": "lougheed-town-centre",
+    "code:60807": "production-way-university",
+    "code:60811": "sperling-burnaby-lake",
+    "code:60813": "holdom",
+    "code:60815": "brentwood-town-centre",
+    "code:60817": "gilmore",
+    "code:60819": "rupert",
+    "code:60821": "renfrew",
+    "code:60823": "commercial-broadway",
+    "code:56564": "aberdeen",
+    "code:58130": "rupert",
+    "code:58401": "renfrew",
+    "code:52431": "columbia",
+    "code:58202": "waterfront",
+    "code:58346": "gilmore",
+    "code:60808": "lake-city-way",
+    "code:60809": "lake-city-way",
+    "code:50963": "commercial-broadway",
+    "code:60979": "mission-city",
+    "code:58724": "lonsdale-quay",
+    "code:58725": "lonsdale-quay",
+    "code:54134": "lonsdale-quay",
+    "code:60473": "lonsdale-quay",
+    "code:54196": "lonsdale-quay",
+    "code:54410": "lonsdale-quay",
+    "code:54421": "lonsdale-quay",
+    "code:54516": "lonsdale-quay",
+    "code:50980": "lonsdale-quay",
+    "code:59664": "joyce-collingwood",
+    "code:59314": "production-way-university",
+    "code:59315": "production-way-university",
+    "code:61609": "joyce-collingwood",
+    "code:52751": "brentwood-town-centre",
+    "code:61802": "brentwood-town-centre",
+    "code:61804": "brentwood-town-centre",
+    "code:61806": "brentwood-town-centre",
+    "code:60101": "lougheed-town-centre",
+    "code:60329": "brentwood-town-centre",
+    "code:60690": "brentwood-town-centre",
+    "code:51389": "brentwood-town-centre",
+    "code:51671": "joyce-collingwood",
+    "code:51722": "joyce-collingwood",
+    "code:51787": "joyce-collingwood",
+    "code:58249": "joyce-collingwood",
+    "code:58435": "lougheed-town-centre",
+    "code:58441": "sperling-burnaby-lake",
+    "code:58432": "lougheed-town-centre",
+    "code:58433": "lougheed-town-centre",
+    "code:58442": "sperling-burnaby-lake",
+    "code:58440": "sperling-burnaby-lake",
+    "code:58436": "lougheed-town-centre",
+    "code:58434": "lougheed-town-centre",
+    "code:58431": "lougheed-town-centre",
+    "code:58438": "lougheed-town-centre",
+    "code:58437": "lougheed-town-centre",
+    "code:58430": "lougheed-town-centre",
+    "code:51967": "langara-49th-avenue",
+    "code:50999": "langara-49th-avenue",
+    "code:61218": "langara-49th-avenue",
+    "code:50985": "langara-49th-avenue",
+    "code:53305": "lake-city-way",
+    "code:58349": "production-way-university",
+    "code:61281": "oakridge-41st-avenue",
+    "code:60349": "oakridge-41st-avenue",
+    "code:50160": "oakridge-41st-avenue",
+    "code:56397": "scott-road",
+    "code:59316": "production-way-university"
+  },
+  "stationIndex": [
+    {
+      "id": "22nd-street",
+      "schematicId": "22nd-street",
+      "name": "22nd Street",
+      "lat": 49.199857,
+      "lon": -122.949711,
+      "lines": ["30053"],
+      "platformIds": ["10929", "2203", "2252", "2397", "3535", "5989", "6984", "8052", "8065"],
+      "departureRouteIds": ["100", "101", "104", "128", "155", "30053", "340", "388", "410", "418"]
+    },
+    {
+      "id": "29th-avenue",
+      "schematicId": "29th-avenue",
+      "name": "29th Avenue",
+      "lat": 49.244134,
+      "lon": -123.044757,
+      "lines": ["30053"],
+      "platformIds": ["1065", "11762", "12393", "1832", "8046", "8071"],
+      "departureRouteIds": ["016", "026", "029", "033", "30053"]
+    },
+    {
+      "id": "aberdeen",
+      "schematicId": "aberdeen",
+      "name": "Aberdeen",
+      "lat": 49.183912,
+      "lon": -123.136477,
+      "lines": ["13686"],
+      "platformIds": ["11290", "11291", "8604", "8800"],
+      "departureRouteIds": ["13686", "403", "410", "N10"]
+    },
+    {
+      "id": "braid",
+      "schematicId": "braid",
+      "name": "Braid",
+      "lat": 49.233381,
+      "lon": -122.882642,
+      "lines": ["30053"],
+      "platformIds": ["10564", "8552", "8561", "8573", "8574", "8575", "8577", "8578"],
+      "departureRouteIds": ["128", "153", "155", "156", "159", "169", "30053", "791"]
+    },
+    {
+      "id": "99921",
+      "schematicId": "brentwood-town-centre",
+      "name": "Brentwood Town Centre",
+      "lat": 49.266048,
+      "lon": -122.996995,
+      "lines": ["30052"],
+      "platformIds": ["11697", "11874", "11876", "11878", "12567", "12963", "1401", "8750", "8759"],
+      "departureRouteIds": ["025", "123", "130", "134", "136", "30052", "N9", "R2"]
+    },
+    {
+      "id": "bridgeport",
+      "schematicId": "bridgeport",
+      "name": "Bridgeport",
+      "lat": 49.195053,
+      "lon": -123.127304,
+      "lines": ["13686"],
+      "platformIds": [
+        "11246",
+        "11248",
+        "11250",
+        "11253",
+        "11256",
+        "11266",
+        "11267",
+        "11268",
+        "11269",
+        "11270",
+        "11288",
+        "11289",
+        "11788"
+      ],
+      "departureRouteIds": [
+        "13686",
+        "311",
+        "351",
+        "352",
+        "354",
+        "403",
+        "407",
+        "412",
+        "430",
+        "601",
+        "602",
+        "603",
+        "604",
+        "620",
+        "N10"
+      ]
+    },
+    {
+      "id": "broadway-city-hall",
+      "schematicId": "broadway-city-hall",
+      "name": "Broadway-City Hall",
+      "lat": 49.263351,
+      "lon": -123.11645,
+      "lines": ["13686"],
+      "platformIds": ["11088", "11278", "11279", "12548", "12960"],
+      "departureRouteIds": ["015", "017", "099", "13686", "N15", "N9"]
+    },
+    {
+      "id": "burquitlam",
+      "schematicId": "burquitlam",
+      "name": "Burquitlam",
+      "lat": 49.261403,
+      "lon": -122.889518,
+      "lines": ["30052"],
+      "platformIds": ["12209", "12210", "12211", "12212", "12228", "12229", "3155", "3242"],
+      "departureRouteIds": ["143", "151", "156", "157", "180", "30052", "N9"]
+    },
+    {
+      "id": "burrard",
+      "schematicId": "burrard",
+      "name": "Burrard",
+      "lat": 49.285787,
+      "lon": -123.119282,
+      "lines": ["30053"],
+      "platformIds": ["12375", "12681", "1857", "31", "409", "8040", "8077", "8535"],
+      "departureRouteIds": [
+        "002",
+        "005",
+        "022",
+        "044",
+        "209",
+        "210",
+        "211",
+        "214",
+        "30053",
+        "N22",
+        "R5"
+      ]
+    },
+    {
+      "id": "capstan",
+      "schematicId": "capstan",
+      "name": "Capstan",
+      "lat": 49.190376,
+      "lon": -123.131138,
+      "lines": ["13686"],
+      "platformIds": ["12766", "12946", "12947", "8366", "8367", "8412"],
+      "departureRouteIds": ["13686", "403", "407", "N10"]
+    },
+    {
+      "id": "columbia",
+      "schematicId": "columbia",
+      "name": "Columbia",
+      "lat": 49.204662,
+      "lon": -122.904917,
+      "lines": ["30053"],
+      "platformIds": ["2339", "2354", "8054", "8063", "8978"],
+      "departureRouteIds": ["102", "105", "109", "30053", "321", "N19"]
+    },
+    {
+      "id": "commercial-broadway",
+      "schematicId": "commercial-broadway",
+      "name": "Commercial-Broadway",
+      "lat": 49.262213,
+      "lon": -123.068963,
+      "lines": ["30052", "30053"],
+      "platformIds": ["11588", "11589", "11606", "1231", "8044", "8073", "8754", "8763", "972"],
+      "departureRouteIds": ["009", "020", "099", "30052", "30053", "N20", "N9"]
+    },
+    {
+      "id": "coquitlam-central",
+      "schematicId": "coquitlam-central",
+      "name": "Coquitlam Central",
+      "lat": 49.274886,
+      "lon": -122.79928,
+      "lines": ["30052", "WCE"],
+      "platformIds": [
+        "11229",
+        "12234",
+        "12235",
+        "12321",
+        "12322",
+        "12647",
+        "3053",
+        "3067",
+        "3195",
+        "3204",
+        "3334",
+        "3394",
+        "3533",
+        "3769",
+        "3904",
+        "3906",
+        "3927",
+        "7643",
+        "8021",
+        "8032"
+      ],
+      "departureRouteIds": [
+        "151",
+        "152",
+        "153",
+        "159",
+        "160",
+        "169",
+        "171",
+        "172",
+        "173",
+        "174",
+        "175",
+        "183",
+        "185",
+        "186",
+        "187",
+        "188",
+        "189",
+        "191",
+        "30052",
+        "701",
+        "N9",
+        "R3",
+        "WCE"
+      ]
+    },
+    {
+      "id": "edmonds",
+      "schematicId": "edmonds",
+      "name": "Edmonds",
+      "lat": 49.212044,
+      "lon": -122.958701,
+      "lines": ["30053"],
+      "platformIds": ["10429", "2477", "2630", "2692", "2799", "3023", "8051", "8066"],
+      "departureRouteIds": ["101", "106", "112", "116", "119", "133", "147", "148", "30053"]
+    },
+    {
+      "id": "gateway",
+      "schematicId": "gateway",
+      "name": "Gateway",
+      "lat": 49.199,
+      "lon": -122.849243,
+      "lines": ["30053"],
+      "platformIds": ["10884", "5844", "5862", "8056", "8061"],
+      "departureRouteIds": ["30053", "335", "371", "373"]
+    },
+    {
+      "id": "gilmore",
+      "schematicId": "gilmore",
+      "name": "Gilmore",
+      "lat": 49.264851,
+      "lon": -123.014187,
+      "lines": ["30052"],
+      "platformIds": ["8673", "8674", "8751", "8760", "9505"],
+      "departureRouteIds": ["028", "129", "30052", "N9"]
+    },
+    {
+      "id": "99934",
+      "schematicId": "granville",
+      "name": "Granville",
+      "lat": 49.283173,
+      "lon": -123.115721,
+      "lines": ["30053"],
+      "platformIds": ["8041", "8076"],
+      "departureRouteIds": ["30053"]
+    },
+    {
+      "id": "holdom",
+      "schematicId": "holdom",
+      "name": "Holdom",
+      "lat": 49.265095,
+      "lon": -122.982086,
+      "lines": ["30052"],
+      "platformIds": ["10017", "10018", "8683", "8697", "8749", "8758"],
+      "departureRouteIds": ["129", "133", "136", "30052", "N9"]
+    },
+    {
+      "id": "inlet-centre",
+      "schematicId": "inlet-centre",
+      "name": "Inlet Centre",
+      "lat": 49.277099,
+      "lon": -122.826771,
+      "lines": ["30052"],
+      "platformIds": ["12232", "12233", "12240", "12241", "12242"],
+      "departureRouteIds": ["160", "183", "184", "30052", "N9"]
+    },
+    {
+      "id": "99939",
+      "schematicId": "joyce-collingwood",
+      "name": "Joyce-Collingwood",
+      "lat": 49.238723,
+      "lon": -123.031266,
+      "lines": ["30053"],
+      "platformIds": ["10921", "11674", "1685", "1736", "1801", "8047", "8070", "8563"],
+      "departureRouteIds": ["026", "027", "028", "041", "30053", "R4"]
+    },
+    {
+      "id": "king-edward",
+      "schematicId": "king-edward",
+      "name": "King Edward",
+      "lat": 49.249415,
+      "lon": -123.115245,
+      "lines": ["13686"],
+      "platformIds": ["10799", "11280", "11281", "1525", "1586", "423"],
+      "departureRouteIds": ["015", "025", "033", "13686", "N15"]
+    },
+    {
+      "id": "king-george",
+      "schematicId": "king-george",
+      "name": "King George",
+      "lat": 49.182677,
+      "lon": -122.845166,
+      "lines": ["30053"],
+      "platformIds": ["12155", "12695", "12916", "5042", "6468", "8058", "8059"],
+      "departureRouteIds": [
+        "30053",
+        "314",
+        "321",
+        "326",
+        "329",
+        "345",
+        "394",
+        "395",
+        "502",
+        "503",
+        "R1"
+      ]
+    },
+    {
+      "id": "lafarge-lake-douglas",
+      "schematicId": "lafarge-lake-douglas",
+      "name": "Lafarge Lake-Douglas",
+      "lat": 49.285967,
+      "lon": -122.79157,
+      "lines": ["30052"],
+      "platformIds": ["12208", "12238", "12239", "3782", "3908"],
+      "departureRouteIds": ["160", "183", "186", "188", "191", "30052", "N9"]
+    },
+    {
+      "id": "lake-city-way",
+      "schematicId": "lake-city-way",
+      "name": "Lake City Way",
+      "lat": 49.25443,
+      "lon": -122.938606,
+      "lines": ["30052"],
+      "platformIds": ["10028", "10029", "9510", "9511"],
+      "departureRouteIds": ["30052", "N9"]
+    },
+    {
+      "id": "99909",
+      "schematicId": "langara-49th-avenue",
+      "name": "Langara-49th Avenue",
+      "lat": 49.226003,
+      "lon": -123.11584,
+      "lines": ["13686"],
+      "platformIds": ["10745", "11284", "11285", "11349", "2051", "994"],
+      "departureRouteIds": ["015", "049", "13686", "N15"]
+    },
+    {
+      "id": "lansdowne",
+      "schematicId": "lansdowne",
+      "name": "Lansdowne",
+      "lat": 49.174387,
+      "lon": -123.136617,
+      "lines": ["13686"],
+      "platformIds": ["11292", "11293", "11388", "12080", "6630"],
+      "departureRouteIds": ["13686", "403", "405", "410", "416", "N10"]
+    },
+    {
+      "id": "lincoln",
+      "schematicId": "lincoln",
+      "name": "Lincoln",
+      "lat": 49.280122,
+      "lon": -122.793523,
+      "lines": ["30052"],
+      "platformIds": ["12182", "12236", "12237", "12280"],
+      "departureRouteIds": ["160", "183", "186", "188", "30052", "N9"]
+    },
+    {
+      "id": "99958",
+      "schematicId": "lonsdale-quay",
+      "name": "Lonsdale Quay",
+      "lat": 49.310917,
+      "lon": -123.08258,
+      "lines": ["6771"],
+      "platformIds": [
+        "10865",
+        "10866",
+        "10867",
+        "12693",
+        "4242",
+        "4459",
+        "4471",
+        "4568",
+        "8036",
+        "8037",
+        "989"
+      ],
+      "departureRouteIds": ["228", "229", "230", "231", "236", "249", "6771", "N24", "R2"]
+    },
+    {
+      "id": "99926",
+      "schematicId": "lougheed-town-centre",
+      "name": "Lougheed Town Centre",
+      "lat": 49.247995,
+      "lon": -122.894807,
+      "lines": ["30052", "30053"],
+      "platformIds": [
+        "12147",
+        "12227",
+        "8656",
+        "8672",
+        "8676",
+        "8685",
+        "8687",
+        "8688",
+        "8689",
+        "8690",
+        "8691",
+        "8746",
+        "8755"
+      ],
+      "departureRouteIds": [
+        "101",
+        "109",
+        "110",
+        "136",
+        "152",
+        "156",
+        "157",
+        "180",
+        "30052",
+        "30053",
+        "555",
+        "N9"
+      ]
+    },
+    {
+      "id": "main-street-science-world",
+      "schematicId": "main-street-science-world",
+      "name": "Main Street-Science World",
+      "lat": 49.273395,
+      "lon": -123.099831,
+      "lines": ["30053"],
+      "platformIds": ["181", "235", "8043", "8074"],
+      "departureRouteIds": ["003", "008", "019", "022", "30053", "N19", "N8"]
+    },
+    {
+      "id": "maple-meadows",
+      "schematicId": "maple-meadows",
+      "name": "Maple Meadows",
+      "lat": 49.217223,
+      "lon": -122.66742,
+      "lines": ["WCE"],
+      "platformIds": ["12498", "7658", "7727", "7743", "7827", "8024", "8029"],
+      "departureRouteIds": ["595", "701", "719", "743", "744", "791", "WCE"]
+    },
+    {
+      "id": "marine-drive",
+      "schematicId": "marine-drive",
+      "name": "Marine Drive",
+      "lat": 49.209087,
+      "lon": -123.116823,
+      "lines": ["13686"],
+      "platformIds": ["11251", "11252", "11286", "11287"],
+      "departureRouteIds": ["003", "010", "015", "017", "080", "100", "13686", "N15", "N20", "N8"]
+    },
+    {
+      "id": "metrotown",
+      "schematicId": "metrotown",
+      "name": "Metrotown",
+      "lat": 49.226085,
+      "lon": -123.002888,
+      "lines": ["30053"],
+      "platformIds": [
+        "1173",
+        "12109",
+        "12405",
+        "12406",
+        "12409",
+        "12410",
+        "12411",
+        "2016",
+        "2414",
+        "2523",
+        "2671",
+        "2717",
+        "2761",
+        "2833",
+        "8049",
+        "8068"
+      ],
+      "departureRouteIds": [
+        "019",
+        "031",
+        "049",
+        "110",
+        "116",
+        "119",
+        "129",
+        "130",
+        "144",
+        "146",
+        "147",
+        "30053",
+        "430",
+        "R2"
+      ]
+    },
+    {
+      "id": "mission-city",
+      "schematicId": "mission-city",
+      "name": "Mission City",
+      "lat": 49.133882,
+      "lon": -122.305153,
+      "lines": ["WCE"],
+      "platformIds": ["8026", "8027", "9956"],
+      "departureRouteIds": ["701", "WCE"]
+    },
+    {
+      "id": "moody-centre",
+      "schematicId": "moody-centre",
+      "name": "Moody Centre",
+      "lat": 49.277676,
+      "lon": -122.84529,
+      "lines": ["30052", "WCE"],
+      "platformIds": [
+        "10860",
+        "11940",
+        "11941",
+        "11942",
+        "11943",
+        "12020",
+        "12022",
+        "12230",
+        "12231",
+        "12319",
+        "12320",
+        "12332",
+        "8020",
+        "8033"
+      ],
+      "departureRouteIds": ["160", "180", "181", "182", "183", "184", "30052", "WCE"]
+    },
+    {
+      "id": "nanaimo",
+      "schematicId": "nanaimo",
+      "name": "Nanaimo",
+      "lat": 49.248336,
+      "lon": -123.056509,
+      "lines": ["30053"],
+      "platformIds": ["12556", "1572", "695", "8045", "8072"],
+      "departureRouteIds": ["007", "025", "30053"]
+    },
+    {
+      "id": "new-westminster",
+      "schematicId": "new-westminster",
+      "name": "New Westminster",
+      "lat": 49.201348,
+      "lon": -122.911869,
+      "lines": ["30053"],
+      "platformIds": [
+        "11711",
+        "11712",
+        "11713",
+        "11714",
+        "11715",
+        "11716",
+        "11718",
+        "11719",
+        "11765",
+        "8053",
+        "8064"
+      ],
+      "departureRouteIds": ["102", "103", "105", "106", "109", "112", "123", "30053", "321", "N19"]
+    },
+    {
+      "id": "99910",
+      "schematicId": "oakridge-41st-avenue",
+      "name": "Oakridge-41st Avenue",
+      "lat": 49.233712,
+      "lon": -123.117599,
+      "lines": ["13686"],
+      "platformIds": ["11282", "11283", "11354", "12586", "160"],
+      "departureRouteIds": ["041", "13686", "R4"]
+    },
+    {
+      "id": "olympic-village",
+      "schematicId": "olympic-village",
+      "name": "Olympic Village",
+      "lat": 49.266425,
+      "lon": -123.114936,
+      "lines": ["13686"],
+      "platformIds": ["10360", "11258", "11260", "11276", "11277"],
+      "departureRouteIds": ["015", "050", "084", "13686"]
+    },
+    {
+      "id": "patterson",
+      "schematicId": "patterson",
+      "name": "Patterson",
+      "lat": 49.229426,
+      "lon": -123.012448,
+      "lines": ["30053"],
+      "platformIds": ["2539", "8048", "8069", "8443"],
+      "departureRouteIds": ["110", "129", "30053"]
+    },
+    {
+      "id": "pitt-meadows",
+      "schematicId": "pitt-meadows",
+      "name": "Pitt Meadows",
+      "lat": 49.225691,
+      "lon": -122.688711,
+      "lines": ["WCE"],
+      "platformIds": ["11559", "7650", "7736", "8023", "8030"],
+      "departureRouteIds": ["701", "722", "791", "WCE"]
+    },
+    {
+      "id": "port-coquitlam",
+      "schematicId": "port-coquitlam",
+      "name": "Port Coquitlam",
+      "lat": 49.261013,
+      "lon": -122.774138,
+      "lines": ["WCE"],
+      "platformIds": ["3385", "3478", "3806", "3816", "3822", "8022", "8031"],
+      "departureRouteIds": ["159", "160", "170", "173", "174", "175", "188", "WCE"]
+    },
+    {
+      "id": "port-haney",
+      "schematicId": "port-haney",
+      "name": "Port Haney",
+      "lat": 49.212575,
+      "lon": -122.606432,
+      "lines": ["WCE"],
+      "platformIds": ["12580", "7768", "7777", "8025", "8028"],
+      "departureRouteIds": ["733", "741", "743", "745", "746", "748", "WCE"]
+    },
+    {
+      "id": "99925",
+      "schematicId": "production-way-university",
+      "name": "Production Way-University",
+      "lat": 49.253225,
+      "lon": -122.917557,
+      "lines": ["30052", "30053"],
+      "platformIds": ["10034", "10971", "10972", "8747", "8756", "9952"],
+      "departureRouteIds": ["110", "136", "145", "30052", "30053", "N9"]
+    },
+    {
+      "id": "renfrew",
+      "schematicId": "renfrew",
+      "name": "Renfrew",
+      "lat": 49.259567,
+      "lon": -123.044122,
+      "lines": ["30052"],
+      "platformIds": ["1091", "8753", "8762", "8907"],
+      "departureRouteIds": ["016", "30052"]
+    },
+    {
+      "id": "richmond-brighouse",
+      "schematicId": "richmond-brighouse",
+      "name": "Richmond-Brighouse",
+      "lat": 49.168512,
+      "lon": -123.136367,
+      "lines": ["13686"],
+      "platformIds": ["11243", "11247", "11294", "11295", "11707", "12716", "12717", "6753"],
+      "departureRouteIds": [
+        "13686",
+        "301",
+        "401",
+        "402",
+        "403",
+        "404",
+        "405",
+        "406",
+        "408",
+        "410",
+        "414",
+        "416",
+        "430",
+        "N10"
+      ]
+    },
+    {
+      "id": "99942",
+      "schematicId": "royal-oak",
+      "name": "Royal Oak",
+      "lat": 49.220068,
+      "lon": -122.98848,
+      "lines": ["30053"],
+      "platformIds": ["8050", "8067"],
+      "departureRouteIds": ["30053"]
+    },
+    {
+      "id": "rupert",
+      "schematicId": "rupert",
+      "name": "Rupert",
+      "lat": 49.26049,
+      "lon": -123.033896,
+      "lines": ["30052"],
+      "platformIds": ["11095", "8752", "8761", "8860"],
+      "departureRouteIds": ["027", "30052"]
+    },
+    {
+      "id": "99947",
+      "schematicId": "sapperton",
+      "name": "Sapperton",
+      "lat": 49.224662,
+      "lon": -122.889393,
+      "lines": ["30053"],
+      "platformIds": ["8579", "8580"],
+      "departureRouteIds": ["30053"]
+    },
+    {
+      "id": "scott-road",
+      "schematicId": "scott-road",
+      "name": "Scott Road",
+      "lat": 49.204438,
+      "lon": -122.874861,
+      "lines": ["30053"],
+      "platformIds": ["10914", "10948", "5148", "5252", "5890", "6458", "7639", "8055", "8062"],
+      "departureRouteIds": ["30053", "312", "319", "321", "371", "391", "640", "N19", "R6"]
+    },
+    {
+      "id": "99902",
+      "schematicId": "sea-island-centre",
+      "name": "Sea Island Centre",
+      "lat": 49.192986,
+      "lon": -123.157887,
+      "lines": ["13686"],
+      "platformIds": ["11298", "11299"],
+      "departureRouteIds": ["13686"]
+    },
+    {
+      "id": "99923",
+      "schematicId": "sperling-burnaby-lake",
+      "name": "Sperling-Burnaby Lake",
+      "lat": 49.258603,
+      "lon": -122.963986,
+      "lines": ["30052"],
+      "platformIds": ["8659", "8679", "8680", "8748", "8757"],
+      "departureRouteIds": ["110", "134", "144", "30052"]
+    },
+    {
+      "id": "99935",
+      "schematicId": "stadium-chinatown",
+      "name": "Stadium-Chinatown",
+      "lat": 49.279223,
+      "lon": -123.109181,
+      "lines": ["30053"],
+      "platformIds": ["8042", "8075"],
+      "departureRouteIds": ["30053"]
+    },
+    {
+      "id": "surrey-central",
+      "schematicId": "surrey-central",
+      "name": "Surrey Central",
+      "lat": 49.189699,
+      "lon": -122.847774,
+      "lines": ["30053"],
+      "platformIds": [
+        "10880",
+        "10881",
+        "11764",
+        "11882",
+        "5045",
+        "5122",
+        "5262",
+        "5494",
+        "5667",
+        "5768",
+        "5769",
+        "5793",
+        "5891",
+        "6456",
+        "6467",
+        "8057",
+        "8060"
+      ],
+      "departureRouteIds": [
+        "30053",
+        "314",
+        "316",
+        "320",
+        "321",
+        "323",
+        "324",
+        "325",
+        "326",
+        "329",
+        "335",
+        "337",
+        "371",
+        "373",
+        "393",
+        "501",
+        "502",
+        "503",
+        "509",
+        "N19",
+        "R1"
+      ]
+    },
+    {
+      "id": "99903",
+      "schematicId": "templeton",
+      "name": "Templeton",
+      "lat": 49.196688,
+      "lon": -123.146337,
+      "lines": ["13686"],
+      "platformIds": ["11296", "11297"],
+      "departureRouteIds": ["13686"]
+    },
+    {
+      "id": "99915",
+      "schematicId": "vancouver-city-centre",
+      "name": "Vancouver City Centre",
+      "lat": 49.282415,
+      "lon": -123.118227,
+      "lines": ["13686"],
+      "platformIds": ["11272", "11273"],
+      "departureRouteIds": ["13686"]
+    },
+    {
+      "id": "vcc-clark",
+      "schematicId": "vcc-clark",
+      "name": "VCC-Clark",
+      "lat": 49.265986,
+      "lon": -123.079816,
+      "lines": ["30052"],
+      "platformIds": ["10196", "10374", "10375", "10926"],
+      "departureRouteIds": ["084", "30052"]
+    },
+    {
+      "id": "waterfront",
+      "schematicId": "waterfront",
+      "name": "Waterfront",
+      "lat": 49.285687,
+      "lon": -123.111773,
+      "lines": ["13686", "30053", "6771", "WCE"],
+      "platformIds": [
+        "11302",
+        "11303",
+        "12138",
+        "35",
+        "40",
+        "8019",
+        "8034",
+        "8035",
+        "8038",
+        "8039",
+        "8078",
+        "9069"
+      ],
+      "departureRouteIds": [
+        "003",
+        "004",
+        "007",
+        "008",
+        "010",
+        "044",
+        "050",
+        "13686",
+        "30053",
+        "6771",
+        "N8",
+        "R5",
+        "WCE"
+      ]
+    },
+    {
+      "id": "yaletown-roundhouse",
+      "schematicId": "yaletown-roundhouse",
+      "name": "Yaletown-Roundhouse",
+      "lat": 49.274071,
+      "lon": -123.12074,
+      "lines": ["13686"],
+      "platformIds": ["10468", "11274", "11275", "11310", "11311", "11337"],
+      "departureRouteIds": ["006", "023", "13686"]
+    },
+    {
+      "id": "99901",
+      "schematicId": "yvr-airport",
+      "name": "YVR-Airport",
+      "lat": 49.194174,
+      "lon": -123.178269,
+      "lines": ["13686"],
+      "platformIds": ["11300", "11301"],
+      "departureRouteIds": ["13686"]
+    }
+  ],
+  "branchSequences": {
+    "30053": [
+      ["columbia", "sapperton", "braid", "lougheed-town-centre", "production-way-university"]
+    ],
+    "13686": [["bridgeport", "templeton", "sea-island-centre", "yvr-airport"]]
+  }
+}

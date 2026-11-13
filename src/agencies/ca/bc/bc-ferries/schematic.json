@@ -1,0 +1,1120 @@
+{
+  "viewBoxWidth": 1840,
+  "viewBoxHeight": 2160,
+  "lines": [
+    {
+      "id": "12443",
+      "name": "Route 1 · Tsawwassen – Swartz Bay",
+      "color": "#00467F",
+      "points": [
+        {
+          "x": 1640,
+          "y": 1220
+        },
+        {
+          "x": 1220,
+          "y": 1640
+        },
+        {
+          "x": 1080,
+          "y": 1640
+        }
+      ]
+    },
+    {
+      "id": "12444",
+      "name": "Route 2 · Horseshoe Bay – Departure Bay",
+      "color": "#D2492A",
+      "points": [
+        {
+          "x": 1500,
+          "y": 380
+        },
+        {
+          "x": 520,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "id": "12394",
+      "name": "Route 3 · Horseshoe Bay – Langdale",
+      "color": "#2E8540",
+      "points": [
+        {
+          "x": 1500,
+          "y": 380
+        },
+        {
+          "x": 1360,
+          "y": 240
+        }
+      ]
+    },
+    {
+      "id": "12427",
+      "name": "Route 4 · Swartz Bay – Fulford Harbour",
+      "color": "#7A4FA0",
+      "points": [
+        {
+          "x": 1080,
+          "y": 1640
+        },
+        {
+          "x": 800,
+          "y": 1640
+        }
+      ]
+    },
+    {
+      "id": "12422",
+      "name": "Routes 5 and 9 · Southern Gulf Islands",
+      "color": "#C8102E",
+      "points": [
+        {
+          "x": 1640,
+          "y": 1220
+        },
+        {
+          "x": 1360,
+          "y": 1220
+        },
+        {
+          "x": 1220,
+          "y": 1220
+        },
+        {
+          "x": 940,
+          "y": 1220
+        },
+        {
+          "x": 940,
+          "y": 1360
+        },
+        {
+          "x": 1080,
+          "y": 1500
+        },
+        {
+          "x": 1220,
+          "y": 1500
+        },
+        {
+          "x": 1080,
+          "y": 1640
+        }
+      ]
+    },
+    {
+      "id": "12426",
+      "name": "Route 6 · Crofton – Vesuvius Bay",
+      "color": "#0089A8",
+      "points": [
+        {
+          "x": 520,
+          "y": 1360
+        },
+        {
+          "x": 660,
+          "y": 1220
+        }
+      ]
+    },
+    {
+      "id": "12400",
+      "name": "Route 8 · Horseshoe Bay – Snug Cove",
+      "color": "#B8860B",
+      "points": [
+        {
+          "x": 1500,
+          "y": 380
+        },
+        {
+          "x": 1360,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "12402",
+      "name": "Route 12 · Brentwood Bay – Mill Bay",
+      "color": "#5B6770",
+      "points": [
+        {
+          "x": 940,
+          "y": 1920
+        },
+        {
+          "x": 660,
+          "y": 1920
+        }
+      ]
+    },
+    {
+      "id": "12425",
+      "name": "Route 19 · Nanaimo Harbour – Descanso Bay",
+      "color": "#E07A10",
+      "points": [
+        {
+          "x": 380,
+          "y": 660
+        },
+        {
+          "x": 660,
+          "y": 660
+        }
+      ]
+    },
+    {
+      "id": "12405",
+      "name": "Route 20 · Chemainus – Thetis – Penelakut",
+      "color": "#1F7A8C",
+      "points": [
+        {
+          "x": 380,
+          "y": 1080
+        },
+        {
+          "x": 520,
+          "y": 1080
+        },
+        {
+          "x": 520,
+          "y": 940
+        }
+      ]
+    },
+    {
+      "id": "12393",
+      "name": "Route 30 · Tsawwassen – Duke Point",
+      "color": "#8E3B5F",
+      "points": [
+        {
+          "x": 1640,
+          "y": 1220
+        },
+        {
+          "x": 1360,
+          "y": 940
+        },
+        {
+          "x": 660,
+          "y": 940
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "langdale",
+      "name": "Langdale",
+      "x": 1360,
+      "y": 240,
+      "lines": ["12394"],
+      "label": {
+        "x": 1360,
+        "y": 210,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "horseshoe-bay",
+      "name": "Horseshoe Bay",
+      "x": 1500,
+      "y": 380,
+      "lines": ["12444", "12394", "12400"],
+      "label": {
+        "x": 1528,
+        "y": 386,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "snug-cove",
+      "name": "Bowen Island (Snug Cove)",
+      "x": 1360,
+      "y": 520,
+      "lines": ["12400"],
+      "label": {
+        "x": 1360,
+        "y": 562,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "departure-bay",
+      "name": "Departure Bay (Nanaimo)",
+      "x": 520,
+      "y": 380,
+      "lines": ["12444"],
+      "label": {
+        "x": 492,
+        "y": 386,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "nanaimo-harbour",
+      "name": "Nanaimo Harbour",
+      "x": 380,
+      "y": 660,
+      "lines": ["12425"],
+      "label": {
+        "x": 352,
+        "y": 666,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "descanso-bay",
+      "name": "Gabriola Island (Descanso Bay)",
+      "x": 660,
+      "y": 660,
+      "lines": ["12425"],
+      "label": {
+        "x": 688,
+        "y": 666,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "duke-point",
+      "name": "Duke Point",
+      "x": 660,
+      "y": 940,
+      "lines": ["12393"],
+      "label": {
+        "x": 660,
+        "y": 910,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "thetis-island",
+      "name": "Thetis Island",
+      "x": 520,
+      "y": 940,
+      "lines": ["12405"],
+      "label": {
+        "x": 492,
+        "y": 946,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "penelakut-island",
+      "name": "Penelakut Island",
+      "x": 520,
+      "y": 1080,
+      "lines": ["12405"],
+      "label": {
+        "x": 520,
+        "y": 1122,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "chemainus",
+      "name": "Chemainus",
+      "x": 380,
+      "y": 1080,
+      "lines": ["12405"],
+      "label": {
+        "x": 352,
+        "y": 1086,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "vesuvius-bay",
+      "name": "Vesuvius Bay",
+      "x": 660,
+      "y": 1220,
+      "lines": ["12426"],
+      "label": {
+        "x": 688,
+        "y": 1226,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "crofton",
+      "name": "Crofton",
+      "x": 520,
+      "y": 1360,
+      "lines": ["12426"],
+      "label": {
+        "x": 492,
+        "y": 1366,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tsawwassen",
+      "name": "Tsawwassen",
+      "x": 1640,
+      "y": 1220,
+      "lines": ["12443", "12422", "12393"],
+      "label": {
+        "x": 1668,
+        "y": 1226,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "sturdies-bay",
+      "name": "Galiano Island (Sturdies Bay)",
+      "x": 1360,
+      "y": 1220,
+      "lines": ["12422"],
+      "label": {
+        "x": 1360,
+        "y": 1190,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "village-bay",
+      "name": "Mayne Island (Village Bay)",
+      "x": 1220,
+      "y": 1220,
+      "lines": ["12422"],
+      "label": {
+        "x": 1220,
+        "y": 1262,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "long-harbour",
+      "name": "Salt Spring Island (Long Harbour)",
+      "x": 940,
+      "y": 1220,
+      "lines": ["12422"],
+      "label": {
+        "x": 940,
+        "y": 1190,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "otter-bay",
+      "name": "Pender Island (Otter Bay)",
+      "x": 1080,
+      "y": 1500,
+      "lines": ["12422"],
+      "label": {
+        "x": 1052,
+        "y": 1506,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lyall-harbour",
+      "name": "Saturna Island (Lyall Harbour)",
+      "x": 1220,
+      "y": 1500,
+      "lines": ["12422"],
+      "label": {
+        "x": 1220,
+        "y": 1470,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "swartz-bay",
+      "name": "Swartz Bay (Victoria)",
+      "x": 1080,
+      "y": 1640,
+      "lines": ["12443", "12427", "12422"],
+      "label": {
+        "x": 1080,
+        "y": 1682,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "fulford-harbour",
+      "name": "Fulford Harbour",
+      "x": 800,
+      "y": 1640,
+      "lines": ["12427"],
+      "label": {
+        "x": 772,
+        "y": 1646,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "brentwood-bay",
+      "name": "Brentwood Bay",
+      "x": 940,
+      "y": 1920,
+      "lines": ["12402"],
+      "label": {
+        "x": 968,
+        "y": 1926,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "mill-bay",
+      "name": "Mill Bay",
+      "x": 660,
+      "y": 1920,
+      "lines": ["12402"],
+      "label": {
+        "x": 632,
+        "y": 1926,
+        "anchor": "end"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "12443",
+      "num": "1",
+      "x": 1452.63,
+      "y": 1452.63,
+      "color": "#00467F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12444",
+      "num": "2",
+      "x": 1010,
+      "y": 348,
+      "color": "#D2492A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12394",
+      "num": "3",
+      "x": 1452.63,
+      "y": 287.37,
+      "color": "#2E8540",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12427",
+      "num": "4",
+      "x": 940,
+      "y": 1608,
+      "color": "#7A4FA0",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12422",
+      "num": "5/9",
+      "x": 1500,
+      "y": 1188,
+      "color": "#C8102E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12426",
+      "num": "6",
+      "x": 612.63,
+      "y": 1312.63,
+      "color": "#0089A8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12400",
+      "num": "8",
+      "x": 1452.63,
+      "y": 472.63,
+      "color": "#B8860B",
+      "textColor": "#000000"
+    },
+    {
+      "line": "12402",
+      "num": "12",
+      "x": 800,
+      "y": 1888,
+      "color": "#5B6770",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12425",
+      "num": "19",
+      "x": 520,
+      "y": 628,
+      "color": "#E07A10",
+      "textColor": "#000000"
+    },
+    {
+      "line": "12405",
+      "num": "20",
+      "x": 450,
+      "y": 1048,
+      "color": "#1F7A8C",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12393",
+      "num": "30",
+      "x": 1522.63,
+      "y": 1057.37,
+      "color": "#8E3B5F",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "12443": ["tsawwassen", "swartz-bay"],
+    "12444": ["horseshoe-bay", "departure-bay"],
+    "12394": ["horseshoe-bay", "langdale"],
+    "12427": ["swartz-bay", "fulford-harbour"],
+    "12422": [
+      "tsawwassen",
+      "sturdies-bay",
+      "village-bay",
+      "long-harbour",
+      "otter-bay",
+      "lyall-harbour",
+      "swartz-bay"
+    ],
+    "12426": ["crofton", "vesuvius-bay"],
+    "12400": ["horseshoe-bay", "snug-cove"],
+    "12402": ["brentwood-bay", "mill-bay"],
+    "12425": ["nanaimo-harbour", "descanso-bay"],
+    "12405": ["chemainus", "penelakut-island", "thetis-island"],
+    "12393": ["tsawwassen", "duke-point"]
+  },
+  "stationAliases": {
+    "Langdale (Gibsons) Ferry Terminal": "langdale",
+    "Langdale (Sunshine Coast)": "langdale",
+    "Horseshoe Bay (Vancouver) Ferry Terminal": "horseshoe-bay",
+    "Horseshoe Bay (Vancouver)": "horseshoe-bay",
+    "Bowen Island (Snug Cove) Ferry Terminal": "snug-cove",
+    "Bowen Island (Snug Cove)": "snug-cove",
+    "Departure Bay (Nanaimo) Ferry Terminal": "departure-bay",
+    "Departure Bay (Nanaimo)": "departure-bay",
+    "Nanaimo Harbour Ferry Terminal": "nanaimo-harbour",
+    "Nanaimo Harbour": "nanaimo-harbour",
+    "Gabriola Island Ferry Terminal": "descanso-bay",
+    "Gabriola Island": "descanso-bay",
+    "Duke Point Ferry Terminal": "duke-point",
+    "Duke Point (Nanaimo)": "duke-point",
+    "Thetis Island Ferry Terminal": "thetis-island",
+    "Thetis Island": "thetis-island",
+    "Penelakut Island Ferry Terminal": "penelakut-island",
+    "Penelakut Island": "penelakut-island",
+    "Chemainus Ferry Terminal": "chemainus",
+    "Chemainus": "chemainus",
+    "Vesuvius Bay (Salt Spring Island) Terminal": "vesuvius-bay",
+    "Vesuvius Bay (Salt Spring Island)": "vesuvius-bay",
+    "Crofton (Osborne Bay) Ferry Terminal": "crofton",
+    "Crofton (Osborne Bay)": "crofton",
+    "Vancouver (Tsawwassen) Ferry Terminal": "tsawwassen",
+    "Vancouver (Tsawwassen)": "tsawwassen",
+    "Vancouver (Tsawwassen Berth 2)": "tsawwassen",
+    "Sturdies Bay (Galiano Island) Ferry Terminal": "sturdies-bay",
+    "Sturdies Bay (Galiano Island)": "sturdies-bay",
+    "Village Bay (Mayne Island) Ferry Terminal": "village-bay",
+    "Village Bay (Mayne Island)": "village-bay",
+    "Salt Spring Island (Long Harbour) Ferry Terminal": "long-harbour",
+    "Salt Spring Island (Long Harbour)": "long-harbour",
+    "Otter Bay (Pender Island) Ferry Terminal": "otter-bay",
+    "Otter Bay (Pender Island)": "otter-bay",
+    "Lyall Harbour (Saturna Island) Ferry Terminal": "lyall-harbour",
+    "Lyall Harbour (Saturna Island)": "lyall-harbour",
+    "Victoria (Swartz Bay) Ferry Terminal": "swartz-bay",
+    "Victoria (Swartz Bay) Berth 1": "swartz-bay",
+    "Victoria (Swartz Bay) Berth 2": "swartz-bay",
+    "Fulford Harbour (Salt Spring Island) Ferry Terminal": "fulford-harbour",
+    "Fulford Harbour (Salt Spring Island)": "fulford-harbour",
+    "Brentwood Ferry Terminal": "brentwood-bay",
+    "Brentwood Bay": "brentwood-bay",
+    "Mill Bay": "mill-bay"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1820,
+      "minY": 60,
+      "maxY": 2080
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -123.954,
+    "refLonEast": -123.13,
+    "refXWest": 520,
+    "refXEast": 1640,
+    "refLatNorth": 49.433,
+    "refLatSouth": 48.577,
+    "refYNorth": 240,
+    "refYSouth": 1920
+  },
+  "stationIndex": [
+    {
+      "id": "2505920",
+      "name": "Alliford Bay (Moresby Island)",
+      "lat": 53.211813,
+      "lon": -131.988196,
+      "lines": [],
+      "platformIds": ["2505920"],
+      "departureRouteIds": ["12442"]
+    },
+    {
+      "id": "2505814",
+      "name": "Alert Bay",
+      "lat": 50.587805,
+      "lon": -126.930769,
+      "lines": [],
+      "platformIds": ["2505814", "2505815"],
+      "departureRouteIds": ["12432"]
+    },
+    {
+      "id": "2505921",
+      "name": "Bella Coola",
+      "lat": 52.374917,
+      "lon": -126.795123,
+      "lines": [],
+      "platformIds": ["2505921", "2505922"],
+      "departureRouteIds": ["12434"]
+    },
+    {
+      "id": "2505802",
+      "name": "Buckley Bay (Vancouver Island)",
+      "lat": 49.5253916524769,
+      "lon": -124.848645503194,
+      "lines": [],
+      "platformIds": ["2505802", "2505803"],
+      "departureRouteIds": ["12428"]
+    },
+    {
+      "id": "2505796",
+      "schematicId": "snug-cove",
+      "name": "Bowen Island (Snug Cove)",
+      "lat": 49.379636,
+      "lon": -123.3321,
+      "lines": ["12400"],
+      "platformIds": ["2505796", "2505797"],
+      "departureRouteIds": ["12400"]
+    },
+    {
+      "id": "2505859",
+      "schematicId": "brentwood-bay",
+      "name": "Brentwood Bay",
+      "lat": 48.577387,
+      "lon": -123.466773,
+      "lines": ["12402"],
+      "platformIds": ["2505859", "2505861"],
+      "departureRouteIds": ["12402"]
+    },
+    {
+      "id": "2505804",
+      "name": "Campbell River (Vancouver Island)",
+      "lat": 50.027129,
+      "lon": -125.241726,
+      "lines": [],
+      "platformIds": ["2505804", "2505805"],
+      "departureRouteIds": ["12430"]
+    },
+    {
+      "id": "2505866",
+      "schematicId": "crofton",
+      "name": "Crofton",
+      "lat": 48.865494,
+      "lon": -123.640176,
+      "lines": ["12426"],
+      "platformIds": ["2505866", "2505867"],
+      "departureRouteIds": ["12426"]
+    },
+    {
+      "id": "2505864",
+      "schematicId": "chemainus",
+      "name": "Chemainus",
+      "lat": 48.925349,
+      "lon": -123.715136,
+      "lines": ["12405"],
+      "platformIds": ["2505864", "2505865"],
+      "departureRouteIds": ["12405"]
+    },
+    {
+      "id": "2505800",
+      "name": "Comox (Little River)",
+      "lat": 49.7403384227911,
+      "lon": -124.925652918368,
+      "lines": [],
+      "platformIds": ["2505800", "2505801"],
+      "departureRouteIds": ["12396"]
+    },
+    {
+      "id": "2505843",
+      "name": "Cortes Island (Whaletown)",
+      "lat": 50.1102714624005,
+      "lon": -125.053626302433,
+      "lines": [],
+      "platformIds": ["2505843", "2505844"],
+      "departureRouteIds": ["12431"]
+    },
+    {
+      "id": "2505838",
+      "name": "Denman Island East (Gravelly Bay)",
+      "lat": 49.493875,
+      "lon": -124.708732,
+      "lines": [],
+      "platformIds": ["2505838", "2505839"],
+      "departureRouteIds": ["12429"]
+    },
+    {
+      "id": "2505835",
+      "name": "Denman Island (West)",
+      "lat": 49.53470245439735,
+      "lon": -124.82318957353797,
+      "lines": [],
+      "platformIds": ["2505835", "2505836"],
+      "departureRouteIds": ["12428"]
+    },
+    {
+      "id": "2505784",
+      "schematicId": "duke-point",
+      "name": "Duke Point",
+      "lat": 49.1620968903058,
+      "lon": -123.892226294319,
+      "lines": ["12393"],
+      "platformIds": ["2505782", "2505784"],
+      "departureRouteIds": ["12393"]
+    },
+    {
+      "id": "2505793",
+      "name": "Earls Cove",
+      "lat": 49.75284,
+      "lon": -124.009412,
+      "lines": [],
+      "platformIds": ["2505793", "2505794"],
+      "departureRouteIds": ["12395"]
+    },
+    {
+      "id": "2505845",
+      "schematicId": "fulford-harbour",
+      "name": "Fulford Harbour",
+      "lat": 48.769249,
+      "lon": -123.450676,
+      "lines": ["12427"],
+      "platformIds": ["2505845", "2505846"],
+      "departureRouteIds": ["12427"]
+    },
+    {
+      "id": "2505851",
+      "schematicId": "descanso-bay",
+      "name": "Gabriola Island (Descanso Bay)",
+      "lat": 49.17771,
+      "lon": -123.858331,
+      "lines": ["12425"],
+      "platformIds": ["2505851", "2505852"],
+      "departureRouteIds": ["12425"]
+    },
+    {
+      "id": "2505808",
+      "name": "Quadra Island (Heriot Bay)",
+      "lat": 50.103208,
+      "lon": -125.209343,
+      "lines": [],
+      "platformIds": ["2505808", "2505809"],
+      "departureRouteIds": ["12431"]
+    },
+    {
+      "id": "2505840",
+      "name": "Hornby Island (Shingle Spit)",
+      "lat": 49.5120608101141,
+      "lon": -124.704721939002,
+      "lines": [],
+      "platformIds": ["2505840", "2505841"],
+      "departureRouteIds": ["12429"]
+    },
+    {
+      "id": "2505785",
+      "schematicId": "horseshoe-bay",
+      "name": "Horseshoe Bay",
+      "lat": 49.374007,
+      "lon": -123.272515,
+      "lines": ["12394", "12400", "12444"],
+      "platformIds": ["2505785", "2505786"],
+      "departureRouteIds": ["12394", "12400", "12444"]
+    },
+    {
+      "id": "2505923",
+      "name": "Klemtu",
+      "lat": 52.592493562780646,
+      "lon": -128.52190672596203,
+      "lines": [],
+      "platformIds": ["2505923"],
+      "departureRouteIds": ["12434"]
+    },
+    {
+      "id": "2505914",
+      "schematicId": "penelakut-island",
+      "name": "Penelakut Island",
+      "lat": 48.971109,
+      "lon": -123.66107,
+      "lines": ["12405"],
+      "platformIds": ["2505914", "2505915"],
+      "departureRouteIds": ["12405"]
+    },
+    {
+      "id": "2505791",
+      "schematicId": "langdale",
+      "name": "Langdale",
+      "lat": 49.433098,
+      "lon": -123.47212,
+      "lines": ["12394"],
+      "platformIds": ["2505791", "2505792"],
+      "departureRouteIds": ["12394", "12401"]
+    },
+    {
+      "id": "2505810",
+      "name": "Port McNeill",
+      "lat": 50.591369,
+      "lon": -127.085885,
+      "lines": [],
+      "platformIds": ["2505810", "2505811"],
+      "departureRouteIds": ["12432"]
+    },
+    {
+      "id": "2505868",
+      "schematicId": "mill-bay",
+      "name": "Mill Bay",
+      "lat": 48.614,
+      "lon": -123.51783,
+      "lines": ["12402"],
+      "platformIds": ["2505868"],
+      "departureRouteIds": ["12402"]
+    },
+    {
+      "id": "2505849",
+      "schematicId": "nanaimo-harbour",
+      "name": "Nanaimo Harbour",
+      "lat": 49.166064,
+      "lon": -123.930677,
+      "lines": ["12425"],
+      "platformIds": ["2505849", "2505850"],
+      "departureRouteIds": ["12425"]
+    },
+    {
+      "id": "2505783",
+      "schematicId": "departure-bay",
+      "name": "Departure Bay (Nanaimo)",
+      "lat": 49.1918979532128,
+      "lon": -123.953664799673,
+      "lines": ["12393", "12444"],
+      "platformIds": ["2505781", "2505783"],
+      "departureRouteIds": ["12393", "12444"]
+    },
+    {
+      "id": "2505924",
+      "name": "McLoughlin Bay (Bella Bella)",
+      "lat": 52.139012,
+      "lon": -128.144386,
+      "lines": [],
+      "platformIds": ["2505924", "2505925"],
+      "departureRouteIds": ["12434"]
+    },
+    {
+      "id": "2505847",
+      "schematicId": "long-harbour",
+      "name": "Salt Spring Island (Long Harbour)",
+      "lat": 48.851616,
+      "lon": -123.445807,
+      "lines": ["12422"],
+      "platformIds": ["2505847", "2505848"],
+      "departureRouteIds": ["12422"]
+    },
+    {
+      "id": "2505853",
+      "schematicId": "otter-bay",
+      "name": "Pender Island (Otter Bay)",
+      "lat": 48.80096,
+      "lon": -123.315518,
+      "lines": ["12422"],
+      "platformIds": ["2505853", "2505854"],
+      "departureRouteIds": ["12422"]
+    },
+    {
+      "id": "2505926",
+      "name": "Ocean Falls",
+      "lat": 52.352532,
+      "lon": -127.692627,
+      "lines": [],
+      "platformIds": ["2505926", "2505927"],
+      "departureRouteIds": ["12434"]
+    },
+    {
+      "id": "2505928",
+      "name": "Port Hardy (Bear Cove)",
+      "lat": 50.72556,
+      "lon": -127.45564,
+      "lines": [],
+      "platformIds": ["2505928", "2505929"],
+      "departureRouteIds": ["12434"]
+    },
+    {
+      "id": "2505930",
+      "name": "Prince Rupert",
+      "lat": 54.29594,
+      "lon": -130.35168,
+      "lines": [],
+      "platformIds": ["2505930", "2505931"],
+      "departureRouteIds": ["12434", "12441"]
+    },
+    {
+      "id": "2505857",
+      "schematicId": "sturdies-bay",
+      "name": "Galiano Island (Sturdies Bay)",
+      "lat": 48.87852,
+      "lon": -123.317261,
+      "lines": ["12422"],
+      "platformIds": ["2505857", "2505858"],
+      "departureRouteIds": ["12422"]
+    },
+    {
+      "id": "2505934",
+      "name": "Skidegate (Graham Island)",
+      "lat": 53.247003,
+      "lon": -132.009792,
+      "lines": [],
+      "platformIds": ["2505934", "2505935"],
+      "departureRouteIds": ["12441", "12442"]
+    },
+    {
+      "id": "2505855",
+      "schematicId": "lyall-harbour",
+      "name": "Saturna Island (Lyall Harbour)",
+      "lat": 48.797973,
+      "lon": -123.201157,
+      "lines": ["12422"],
+      "platformIds": ["2505855", "2505856"],
+      "departureRouteIds": ["12422"]
+    },
+    {
+      "id": "2505918",
+      "schematicId": "village-bay",
+      "name": "Mayne Island (Village Bay)",
+      "lat": 48.844332,
+      "lon": -123.323981,
+      "lines": ["12422"],
+      "platformIds": ["2505918", "2505919"],
+      "departureRouteIds": ["12422"]
+    },
+    {
+      "id": "2505812",
+      "name": "Powell River (Westview)",
+      "lat": 49.837097,
+      "lon": -124.528855,
+      "lines": [],
+      "platformIds": ["2505812", "2505813"],
+      "departureRouteIds": ["12396", "12397"]
+    },
+    {
+      "id": "2505806",
+      "name": "Quadra Island (Quathiaski Cove)",
+      "lat": 50.0423489549844,
+      "lon": -125.215469745838,
+      "lines": [],
+      "platformIds": ["2505806", "2505807"],
+      "departureRouteIds": ["12430"]
+    },
+    {
+      "id": "2505932",
+      "name": "Shearwater",
+      "lat": 52.151435,
+      "lon": -128.093841,
+      "lines": [],
+      "platformIds": ["2505932", "2505933"],
+      "departureRouteIds": ["12434"]
+    },
+    {
+      "id": "2505936",
+      "name": "Saltery Bay",
+      "lat": 49.783006,
+      "lon": -124.178703,
+      "lines": [],
+      "platformIds": ["2505936", "2505937"],
+      "departureRouteIds": ["12395"]
+    },
+    {
+      "id": "2505833",
+      "name": "Sointula",
+      "lat": 50.62679262281259,
+      "lon": -127.0178890974654,
+      "lines": [],
+      "platformIds": ["2505833"],
+      "departureRouteIds": ["12432"]
+    },
+    {
+      "id": "2505787",
+      "schematicId": "swartz-bay",
+      "name": "Swartz Bay (Victoria)",
+      "lat": 48.688614,
+      "lon": -123.411361,
+      "lines": ["12422", "12427", "12443"],
+      "platformIds": ["2505787", "2505788", "2506537"],
+      "departureRouteIds": ["12422", "12427", "12443"]
+    },
+    {
+      "id": "2505834",
+      "name": "Texada Island (Blubber Bay)",
+      "lat": 49.794839,
+      "lon": -124.620402,
+      "lines": [],
+      "platformIds": ["2505834"],
+      "departureRouteIds": ["12397"]
+    },
+    {
+      "id": "2505869",
+      "schematicId": "thetis-island",
+      "name": "Thetis Island",
+      "lat": 48.981012,
+      "lon": -123.67824,
+      "lines": ["12405"],
+      "platformIds": ["2505869", "2505870"],
+      "departureRouteIds": ["12405"]
+    },
+    {
+      "id": "2505789",
+      "schematicId": "tsawwassen",
+      "name": "Tsawwassen",
+      "lat": 49.006885,
+      "lon": -123.130334,
+      "lines": ["12393", "12422", "12443"],
+      "platformIds": ["2505789", "2505790", "2506403"],
+      "departureRouteIds": ["12393", "12422", "12443"]
+    },
+    {
+      "id": "2505916",
+      "schematicId": "vesuvius-bay",
+      "name": "Vesuvius Bay",
+      "lat": 48.881879,
+      "lon": -123.572542,
+      "lines": ["12426"],
+      "platformIds": ["2505916", "2505917"],
+      "departureRouteIds": ["12426"]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "viewBoxWidth": 980,
+  "viewBoxHeight": 820,
+  "lines": [
+    {
+      "id": "08",
+      "name": "8th Street / City Centre",
+      "color": "#FF8040",
+      "points": [
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 540,
+          "y": 440
+        },
+        {
+          "x": 540,
+          "y": 520
+        },
+        {
+          "x": 800,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Centre Mall / University",
+      "color": "#000080",
+      "points": [
+        {
+          "x": 660,
+          "y": 400
+        },
+        {
+          "x": 740,
+          "y": 400
+        },
+        {
+          "x": 800,
+          "y": 460
+        },
+        {
+          "x": 800,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "City Centre / Centre Mall",
+      "color": "#000080",
+      "points": [
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Silverspring / University",
+      "color": "#000080",
+      "points": [
+        {
+          "x": 660,
+          "y": 400
+        },
+        {
+          "x": 860,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Lawson Heights / City Centre",
+      "color": "#000080",
+      "points": [
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 500,
+          "y": 240
+        },
+        {
+          "x": 580,
+          "y": 160
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "City Centre / Confederation",
+      "color": "#000080",
+      "points": [
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 200,
+          "y": 400
+        },
+        {
+          "x": 160,
+          "y": 360
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "city-centre",
+      "name": "City Centre",
+      "x": 500,
+      "y": 400,
+      "lines": ["08", "19", "30", "60"],
+      "label": {
+        "x": 474.0,
+        "y": 368.0,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "place-riel",
+      "name": "Place Riel",
+      "x": 660,
+      "y": 400,
+      "lines": ["10", "27"],
+      "label": {
+        "x": 636.0,
+        "y": 370.0,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lawson",
+      "name": "Lawson Heights",
+      "x": 580,
+      "y": 160,
+      "lines": ["30"],
+      "label": {
+        "x": 605.0,
+        "y": 160,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "confederation",
+      "name": "Confederation",
+      "x": 260,
+      "y": 400,
+      "lines": ["60"],
+      "label": {
+        "x": 260,
+        "y": 430.0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "diefenbaker-steeves",
+      "name": "Diefenbaker / Steeves",
+      "x": 160,
+      "y": 360,
+      "lines": ["60"],
+      "label": {
+        "x": 160,
+        "y": 330.0,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "market-mall",
+      "name": "Market Mall",
+      "x": 560,
+      "y": 560,
+      "lines": ["19"],
+      "label": {
+        "x": 535.0,
+        "y": 560,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "centre-mall",
+      "name": "Centre Mall",
+      "x": 800,
+      "y": 520,
+      "lines": ["08", "10", "19"],
+      "label": {
+        "x": 831.0,
+        "y": 520,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "silverspring",
+      "name": "Silverspring",
+      "x": 860,
+      "y": 200,
+      "lines": ["27"],
+      "label": {
+        "x": 860,
+        "y": 170.0,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "30",
+      "num": "30",
+      "x": 468,
+      "y": 320,
+      "color": "#000080",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "60",
+      "num": "60",
+      "x": 330,
+      "y": 368,
+      "color": "#000080",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "08",
+      "num": "8",
+      "x": 660,
+      "y": 488,
+      "color": "#FF8040",
+      "textColor": "#000000"
+    },
+    {
+      "line": "19",
+      "num": "19",
+      "x": 720,
+      "y": 632,
+      "color": "#000080",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "10",
+      "num": "10",
+      "x": 700,
+      "y": 432,
+      "color": "#000080",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "27",
+      "num": "27",
+      "x": 781,
+      "y": 321,
+      "color": "#000080",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 970,
+      "minY": 120,
+      "maxY": 700
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -106.748774,
+    "refLonEast": -106.597697,
+    "refXWest": 160,
+    "refXEast": 800,
+    "refLatNorth": 52.169362,
+    "refLatSouth": 52.100338,
+    "refYNorth": 200,
+    "refYSouth": 560
+  },
+  "sequences": {
+    "08": ["city-centre", "centre-mall"],
+    "10": ["place-riel", "centre-mall"],
+    "19": ["city-centre", "market-mall", "centre-mall"],
+    "27": ["place-riel", "silverspring"],
+    "30": ["city-centre", "lawson"],
+    "60": ["city-centre", "confederation", "diefenbaker-steeves"]
+  },
+  "stationAliases": {
+    "City Centre Hub": "city-centre",
+    "University-Place Riel Hub": "place-riel",
+    "Lawson Hub": "lawson",
+    "Confederation Hub": "confederation",
+    "Market Mall Hub": "market-mall",
+    "Wildwood-Centre Mall Hub": "centre-mall",
+    "Konihowski / Bourgonje": "silverspring",
+    "Diefenbaker / Steeves": "diefenbaker-steeves"
+  },
+  "stationIndex": [
+    {
+      "id": "Wildwood-Centre Mall",
+      "schematicId": "centre-mall",
+      "name": "Centre Mall",
+      "lat": 52.11223,
+      "lon": -106.598778,
+      "lines": ["08", "10", "19"],
+      "platformIds": ["5909", "5910"],
+      "departureRouteIds": ["08", "10", "1225", "18", "19", "336", "352", "83", "84", "86", "87"]
+    },
+    {
+      "id": "City Centre",
+      "schematicId": "city-centre",
+      "name": "City Centre",
+      "lat": 52.13003,
+      "lon": -106.6618,
+      "lines": ["08", "19", "30", "60"],
+      "platformIds": [
+        "3164",
+        "5412",
+        "5413",
+        "5414",
+        "5415",
+        "5897",
+        "5898",
+        "5899",
+        "5900",
+        "5901",
+        "5902"
+      ],
+      "departureRouteIds": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "11",
+        "12",
+        "1225",
+        "14",
+        "15",
+        "16",
+        "19",
+        "22",
+        "30",
+        "305",
+        "325",
+        "333",
+        "35",
+        "358",
+        "43",
+        "44",
+        "45",
+        "46",
+        "514",
+        "543",
+        "60",
+        "65"
+      ]
+    },
+    {
+      "id": "Confederation",
+      "schematicId": "confederation",
+      "name": "Confederation",
+      "lat": 52.1339,
+      "lon": -106.7215,
+      "lines": ["60"],
+      "platformIds": ["5911", "5912"],
+      "departureRouteIds": [
+        "02",
+        "05",
+        "07",
+        "09",
+        "1225",
+        "22",
+        "315",
+        "60",
+        "61",
+        "63",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "id": "4208",
+      "schematicId": "diefenbaker-steeves",
+      "name": "Diefenbaker / Steeves",
+      "lat": 52.136822,
+      "lon": -106.748774,
+      "lines": ["60"],
+      "platformIds": ["4208"],
+      "departureRouteIds": ["60", "65"]
+    },
+    {
+      "id": "Lawson",
+      "schematicId": "lawson",
+      "name": "Lawson Heights",
+      "lat": 52.168402,
+      "lon": -106.638461,
+      "lines": ["30"],
+      "platformIds": ["5907", "5908"],
+      "departureRouteIds": ["12", "1225", "17", "30", "35", "514"]
+    },
+    {
+      "id": "Market Mall",
+      "schematicId": "market-mall",
+      "name": "Market Mall",
+      "lat": 52.100329,
+      "lon": -106.621176,
+      "lines": ["19"],
+      "platformIds": ["5905", "5906"],
+      "departureRouteIds": ["06", "1225", "16", "19", "83"]
+    },
+    {
+      "id": "University-Place Riel",
+      "schematicId": "place-riel",
+      "name": "Place Riel",
+      "lat": 52.13059,
+      "lon": -106.6368,
+      "lines": ["10", "27"],
+      "platformIds": ["5903", "5904"],
+      "departureRouteIds": ["10", "17", "18", "26", "27", "29", "50", "55"]
+    },
+    {
+      "id": "silverspring",
+      "schematicId": "silverspring",
+      "name": "Silverspring",
+      "lat": 52.169362,
+      "lon": -106.586725,
+      "lines": ["27"],
+      "platformIds": ["4195", "4254"],
+      "departureRouteIds": ["27"]
+    }
+  ]
+}

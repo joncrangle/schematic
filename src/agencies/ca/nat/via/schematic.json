@@ -1,0 +1,4512 @@
+{
+  "viewBoxWidth": 4000,
+  "viewBoxHeight": 1700,
+  "lines": [
+    {
+      "id": "QW",
+      "name": "Québec City–Windsor Corridor",
+      "color": "#FFCB06",
+      "points": [
+        {
+          "x": 1360,
+          "y": 1460
+        },
+        {
+          "x": 1480,
+          "y": 1340
+        },
+        {
+          "x": 1960,
+          "y": 1340
+        },
+        {
+          "x": 2080,
+          "y": 1220
+        },
+        {
+          "x": 2200,
+          "y": 1100
+        },
+        {
+          "x": 2360,
+          "y": 1100
+        },
+        {
+          "x": 2520,
+          "y": 1100
+        },
+        {
+          "x": 2680,
+          "y": 1100
+        },
+        {
+          "x": 2840,
+          "y": 1100
+        },
+        {
+          "x": 3000,
+          "y": 1100
+        },
+        {
+          "x": 3160,
+          "y": 1100
+        },
+        {
+          "x": 3320,
+          "y": 1100
+        },
+        {
+          "x": 3440,
+          "y": 980
+        }
+      ]
+    },
+    {
+      "id": "OT",
+      "name": "Ottawa",
+      "color": "#1F5FAD",
+      "points": [
+        {
+          "x": 2200,
+          "y": 1100
+        },
+        {
+          "x": 2360,
+          "y": 1100
+        },
+        {
+          "x": 2520,
+          "y": 1100
+        },
+        {
+          "x": 2680,
+          "y": 1100
+        },
+        {
+          "x": 2840,
+          "y": 1100
+        },
+        {
+          "x": 3000,
+          "y": 940
+        },
+        {
+          "x": 3160,
+          "y": 1100
+        },
+        {
+          "x": 3320,
+          "y": 1100
+        },
+        {
+          "x": 3440,
+          "y": 980
+        }
+      ]
+    },
+    {
+      "id": "TS",
+      "name": "Toronto–Sarnia",
+      "color": "#2E7D32",
+      "points": [
+        {
+          "x": 2200,
+          "y": 1100
+        },
+        {
+          "x": 2040,
+          "y": 1100
+        },
+        {
+          "x": 1880,
+          "y": 1100
+        },
+        {
+          "x": 1720,
+          "y": 1100
+        },
+        {
+          "x": 1480,
+          "y": 1340
+        },
+        {
+          "x": 1320,
+          "y": 1340
+        }
+      ]
+    },
+    {
+      "id": "ML",
+      "name": "Maple Leaf",
+      "color": "#C62828",
+      "points": [
+        {
+          "x": 2200,
+          "y": 1100
+        },
+        {
+          "x": 2080,
+          "y": 1220
+        },
+        {
+          "x": 1960,
+          "y": 1340
+        },
+        {
+          "x": 2080,
+          "y": 1460
+        },
+        {
+          "x": 2200,
+          "y": 1580
+        }
+      ]
+    },
+    {
+      "id": "CA",
+      "name": "The Canadian",
+      "color": "#00838F",
+      "points": [
+        {
+          "x": 2200,
+          "y": 1100
+        },
+        {
+          "x": 2200,
+          "y": 960
+        },
+        {
+          "x": 2080,
+          "y": 840
+        },
+        {
+          "x": 1500,
+          "y": 840
+        },
+        {
+          "x": 1340,
+          "y": 680
+        },
+        {
+          "x": 1180,
+          "y": 520
+        },
+        {
+          "x": 1000,
+          "y": 520
+        },
+        {
+          "x": 760,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "OC",
+      "name": "The Ocean",
+      "color": "#3949AB",
+      "points": [
+        {
+          "x": 3320,
+          "y": 1100
+        },
+        {
+          "x": 3500,
+          "y": 1100
+        },
+        {
+          "x": 3620,
+          "y": 980
+        },
+        {
+          "x": 3740,
+          "y": 1100
+        },
+        {
+          "x": 3860,
+          "y": 1220
+        }
+      ]
+    },
+    {
+      "id": "MS",
+      "name": "Montréal–Senneterre",
+      "color": "#7B3F9E",
+      "points": [
+        {
+          "x": 3320,
+          "y": 1100
+        },
+        {
+          "x": 3320,
+          "y": 860
+        },
+        {
+          "x": 3080,
+          "y": 620
+        }
+      ]
+    },
+    {
+      "id": "MJ",
+      "name": "Montréal–Jonquière",
+      "color": "#AD1457",
+      "points": [
+        {
+          "x": 3320,
+          "y": 1100
+        },
+        {
+          "x": 3320,
+          "y": 860
+        },
+        {
+          "x": 3440,
+          "y": 740
+        },
+        {
+          "x": 3560,
+          "y": 620
+        }
+      ]
+    },
+    {
+      "id": "WC",
+      "name": "Winnipeg–Churchill",
+      "color": "#6D4C41",
+      "points": [
+        {
+          "x": 1500,
+          "y": 840
+        },
+        {
+          "x": 1500,
+          "y": 680
+        },
+        {
+          "x": 1500,
+          "y": 540
+        },
+        {
+          "x": 1500,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "SK",
+      "name": "Jasper–Prince Rupert",
+      "color": "#EF6C00",
+      "points": [
+        {
+          "x": 1000,
+          "y": 520
+        },
+        {
+          "x": 700,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "SW",
+      "name": "Sudbury–White River",
+      "color": "#546E7A",
+      "points": [
+        {
+          "x": 1960,
+          "y": 920
+        },
+        {
+          "x": 1660,
+          "y": 920
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "prince-rupert",
+      "name": "Prince Rupert",
+      "x": 700,
+      "y": 520,
+      "lines": ["SK"],
+      "label": {
+        "x": 675,
+        "y": 520,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver",
+      "x": 760,
+      "y": 760,
+      "lines": ["CA"],
+      "label": {
+        "x": 735,
+        "y": 760,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "x": 1000,
+      "y": 520,
+      "lines": ["CA", "SK"],
+      "label": {
+        "x": 1000,
+        "y": 490,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    },
+    {
+      "id": "edmonton",
+      "name": "Edmonton",
+      "x": 1180,
+      "y": 520,
+      "lines": ["CA"],
+      "label": {
+        "x": 1180,
+        "y": 490,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "saskatoon",
+      "name": "Saskatoon",
+      "x": 1340,
+      "y": 680,
+      "lines": ["CA"],
+      "label": {
+        "x": 1365,
+        "y": 680,
+        "anchor": "start",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "the-pas",
+      "name": "The Pas",
+      "x": 1500,
+      "y": 680,
+      "lines": ["WC"],
+      "label": {
+        "x": 1525,
+        "y": 680,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "thompson",
+      "name": "Thompson",
+      "x": 1500,
+      "y": 540,
+      "lines": ["WC"],
+      "label": {
+        "x": 1525,
+        "y": 540,
+        "anchor": "start",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "winnipeg",
+      "name": "Winnipeg",
+      "x": 1500,
+      "y": 840,
+      "lines": ["CA", "WC"],
+      "label": {
+        "x": 1500,
+        "y": 875,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    },
+    {
+      "id": "churchill",
+      "name": "Churchill",
+      "x": 1500,
+      "y": 400,
+      "lines": ["WC"],
+      "label": {
+        "x": 1525,
+        "y": 400,
+        "anchor": "start",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    },
+    {
+      "id": "white-river",
+      "name": "White River",
+      "x": 1660,
+      "y": 920,
+      "lines": ["SW"],
+      "label": {
+        "x": 1635,
+        "y": 920,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "windsor",
+      "name": "Windsor",
+      "x": 1360,
+      "y": 1460,
+      "lines": ["QW"],
+      "label": {
+        "x": 1335,
+        "y": 1460,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    },
+    {
+      "id": "sarnia",
+      "name": "Sarnia",
+      "x": 1320,
+      "y": 1340,
+      "lines": ["TS"],
+      "label": {
+        "x": 1295,
+        "y": 1340,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "x": 1480,
+      "y": 1340,
+      "lines": ["QW", "TS"],
+      "label": {
+        "x": 1462,
+        "y": 1316,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "sudbury",
+      "name": "Sudbury",
+      "x": 1960,
+      "y": 920,
+      "lines": ["SW"],
+      "label": {
+        "x": 1985,
+        "y": 920,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "sudbury-jct",
+      "name": "Sudbury Jct",
+      "x": 2080,
+      "y": 840,
+      "lines": ["CA"],
+      "label": {
+        "x": 2080,
+        "y": 810,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "kitchener",
+      "name": "Kitchener",
+      "x": 1720,
+      "y": 1100,
+      "lines": ["TS"],
+      "label": {
+        "x": 1720,
+        "y": 1070,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "guelph",
+      "name": "Guelph",
+      "x": 1880,
+      "y": 1100,
+      "lines": ["TS"],
+      "label": {
+        "x": 1880,
+        "y": 1135,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "aldershot",
+      "name": "Aldershot",
+      "x": 1960,
+      "y": 1340,
+      "lines": ["QW", "ML"],
+      "label": {
+        "x": 1935,
+        "y": 1318,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "brampton",
+      "name": "Brampton",
+      "x": 2040,
+      "y": 1100,
+      "lines": ["TS"],
+      "label": {
+        "x": 2040,
+        "y": 1070,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "oakville",
+      "name": "Oakville",
+      "x": 2080,
+      "y": 1220,
+      "lines": ["QW", "ML"],
+      "label": {
+        "x": 2105,
+        "y": 1220,
+        "anchor": "start",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "toronto",
+      "name": "Toronto",
+      "x": 2200,
+      "y": 1100,
+      "lines": ["QW", "OT", "TS", "ML", "CA"],
+      "label": {
+        "x": 2222,
+        "y": 1130,
+        "anchor": "start",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    },
+    {
+      "id": "washago",
+      "name": "Washago",
+      "x": 2200,
+      "y": 960,
+      "lines": ["CA"],
+      "label": {
+        "x": 2225,
+        "y": 960,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "guildwood",
+      "name": "Guildwood",
+      "x": 2360,
+      "y": 1100,
+      "lines": ["QW", "OT"],
+      "label": {
+        "x": 2360,
+        "y": 1135,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "niagara-falls",
+      "name": "Niagara Falls, ON",
+      "x": 2080,
+      "y": 1460,
+      "lines": ["ML"],
+      "label": {
+        "x": 2105,
+        "y": 1460,
+        "anchor": "start",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "oshawa",
+      "name": "Oshawa",
+      "x": 2520,
+      "y": 1100,
+      "lines": ["QW", "OT"],
+      "label": {
+        "x": 2520,
+        "y": 1070,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "cobourg",
+      "name": "Cobourg",
+      "x": 2680,
+      "y": 1100,
+      "lines": ["QW", "OT"],
+      "label": {
+        "x": 2680,
+        "y": 1135,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "senneterre",
+      "name": "Senneterre",
+      "x": 3080,
+      "y": 620,
+      "lines": ["MS"],
+      "label": {
+        "x": 3055,
+        "y": 620,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "kingston",
+      "name": "Kingston",
+      "x": 2840,
+      "y": 1100,
+      "lines": ["QW", "OT"],
+      "label": {
+        "x": 2840,
+        "y": 1135,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "ottawa",
+      "name": "Ottawa",
+      "x": 3000,
+      "y": 940,
+      "lines": ["OT"],
+      "label": {
+        "x": 3000,
+        "y": 910,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "cornwall",
+      "name": "Cornwall",
+      "x": 3000,
+      "y": 1100,
+      "lines": ["QW"],
+      "label": {
+        "x": 3000,
+        "y": 1070,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "x": 2200,
+      "y": 1580,
+      "lines": ["ML"],
+      "label": {
+        "x": 2225,
+        "y": 1580,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "dorval",
+      "name": "Dorval",
+      "x": 3160,
+      "y": 1100,
+      "lines": ["QW", "OT"],
+      "label": {
+        "x": 3160,
+        "y": 1135,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "montreal",
+      "name": "Montréal",
+      "x": 3320,
+      "y": 1100,
+      "lines": ["QW", "OT", "OC", "MS", "MJ"],
+      "label": {
+        "x": 3320,
+        "y": 1135,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    },
+    {
+      "id": "chambord",
+      "name": "Chambord",
+      "x": 3440,
+      "y": 740,
+      "lines": ["MJ"],
+      "label": {
+        "x": 3465,
+        "y": 740,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "jonquiere",
+      "name": "Jonquière",
+      "x": 3560,
+      "y": 620,
+      "lines": ["MJ"],
+      "label": {
+        "x": 3585,
+        "y": 620,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "quebec",
+      "name": "Québec",
+      "x": 3440,
+      "y": 980,
+      "lines": ["QW", "OT"],
+      "label": {
+        "x": 3465,
+        "y": 980,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "mont-joli",
+      "name": "Mont-Joli",
+      "x": 3620,
+      "y": 980,
+      "lines": ["OC"],
+      "label": {
+        "x": 3620,
+        "y": 950,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "accessible": false
+    },
+    {
+      "id": "moncton",
+      "name": "Moncton",
+      "x": 3740,
+      "y": 1100,
+      "lines": ["OC"],
+      "label": {
+        "x": 3765,
+        "y": 1100,
+        "anchor": "start",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "halifax",
+      "name": "Halifax",
+      "x": 3860,
+      "y": 1220,
+      "lines": ["OC"],
+      "label": {
+        "x": 3885,
+        "y": 1220,
+        "anchor": "start",
+        "rot": 0
+      },
+      "accessible": true,
+      "terminal": true
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 1260,
+      "maxX": 3560,
+      "minY": 860,
+      "maxY": 1640
+    },
+    "minZoom": 0.2,
+    "maxZoom": 40
+  },
+  "geoProjection": {
+    "refLonWest": -130.352241,
+    "refLonEast": -63.567692,
+    "refXWest": 102.24,
+    "refXEast": 3180.48,
+    "refLatNorth": 58.767686,
+    "refLatSouth": 40.75023,
+    "refYNorth": 234.37,
+    "refYSouth": 1361.89
+  },
+  "sequences": {
+    "QW": [
+      "windsor",
+      "london",
+      "aldershot",
+      "oakville",
+      "toronto",
+      "guildwood",
+      "oshawa",
+      "cobourg",
+      "kingston",
+      "cornwall",
+      "dorval",
+      "montreal",
+      "quebec"
+    ],
+    "OT": [
+      "toronto",
+      "guildwood",
+      "oshawa",
+      "cobourg",
+      "kingston",
+      "ottawa",
+      "dorval",
+      "montreal",
+      "quebec"
+    ],
+    "TS": ["toronto", "brampton", "guelph", "kitchener", "london", "sarnia"],
+    "ML": ["toronto", "oakville", "aldershot", "niagara-falls", "new-york"],
+    "CA": [
+      "toronto",
+      "washago",
+      "sudbury-jct",
+      "winnipeg",
+      "saskatoon",
+      "edmonton",
+      "jasper",
+      "vancouver"
+    ],
+    "OC": ["montreal", "mont-joli", "moncton", "halifax"],
+    "MS": ["montreal", "senneterre"],
+    "MJ": ["montreal", "chambord", "jonquiere"],
+    "WC": ["winnipeg", "the-pas", "thompson", "churchill"],
+    "SK": ["jasper", "prince-rupert"],
+    "SW": ["sudbury", "white-river"]
+  },
+  "stationAliases": {
+    "Prince Rupert": "prince-rupert",
+    "Toronto": "toronto",
+    "Ottawa": "ottawa",
+    "Québec": "quebec",
+    "Brampton": "brampton",
+    "Kingston": "kingston",
+    "Senneterre": "senneterre",
+    "Windsor": "windsor",
+    "Guelph": "guelph",
+    "Mont-Joli": "mont-joli",
+    "Sudbury": "sudbury",
+    "Sudbury Jct": "sudbury-jct",
+    "The Pas": "the-pas",
+    "Saskatoon": "saskatoon",
+    "London": "london",
+    "White River": "white-river",
+    "Winnipeg": "winnipeg",
+    "Montréal": "montreal",
+    "Churchill": "churchill",
+    "Dorval": "dorval",
+    "Washago": "washago",
+    "Cornwall": "cornwall",
+    "Guildwood": "guildwood",
+    "Cobourg": "cobourg",
+    "Chambord": "chambord",
+    "Vancouver": "vancouver",
+    "Aldershot": "aldershot",
+    "New York": "new-york",
+    "Sarnia": "sarnia",
+    "Jasper": "jasper",
+    "Kitchener": "kitchener",
+    "Oakville": "oakville",
+    "Halifax": "halifax",
+    "Jonquière": "jonquiere",
+    "Edmonton": "edmonton",
+    "Oshawa": "oshawa",
+    "Moncton": "moncton",
+    "Thompson": "thompson",
+    "code:NIAG": "niagara-falls"
+  },
+  "stationIndex": [
+    {
+      "id": "BENN",
+      "name": "Benny",
+      "lat": 46.781815,
+      "lon": -81.630163,
+      "lines": ["SW"],
+      "platformIds": ["199"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "ALEX",
+      "name": "Alexandria",
+      "lat": 45.31805,
+      "lon": -74.639672,
+      "lines": ["OT"],
+      "platformIds": ["344"],
+      "departureRouteIds": ["617-226", "617-628", "628-576"]
+    },
+    {
+      "id": "YONK",
+      "name": "Yonkers",
+      "lat": 40.9355734276,
+      "lon": -73.9025018097,
+      "lines": ["ML"],
+      "platformIds": ["345"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "NIAG",
+      "schematicId": "niagara-falls",
+      "name": "Niagara Falls, ON",
+      "lat": 43.1089370258,
+      "lon": -79.0633386904,
+      "lines": ["ML"],
+      "platformIds": ["346"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "OCHR",
+      "name": "Ochre River",
+      "lat": 51.0613988567,
+      "lon": -99.7818673939,
+      "lines": ["WC"],
+      "platformIds": ["347"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "WVHO",
+      "name": "Wivenhoe",
+      "lat": 56.176547,
+      "lon": -95.213765,
+      "lines": ["WC"],
+      "platformIds": ["340"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "SARN",
+      "schematicId": "sarnia",
+      "name": "Sarnia",
+      "lat": 42.95709,
+      "lon": -82.38892,
+      "lines": ["TS"],
+      "platformIds": ["341"],
+      "departureRouteIds": ["119-341"]
+    },
+    {
+      "id": "MJLI",
+      "schematicId": "mont-joli",
+      "name": "Mont-Joli",
+      "lat": 48.589238,
+      "lon": -68.188993,
+      "lines": ["OC"],
+      "platformIds": ["342"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "SLAM",
+      "name": "Saint-Lambert",
+      "lat": 45.4990791825,
+      "lon": -73.5074597921,
+      "lines": ["OC", "OT", "QW"],
+      "platformIds": ["343"],
+      "departureRouteIds": ["226-620", "617-628", "628-226", "628-576"]
+    },
+    {
+      "id": "OROK",
+      "name": "Orok",
+      "lat": 53.960613,
+      "lon": -101.049668,
+      "lines": ["WC"],
+      "platformIds": ["348"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "MSNH",
+      "name": "Mission Harbour",
+      "lat": 49.1284044691,
+      "lon": -122.303479458,
+      "lines": ["CA"],
+      "platformIds": ["298"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "WNDG",
+      "name": "Windigo",
+      "lat": 47.77122,
+      "lon": -73.334097,
+      "lines": ["MS"],
+      "platformIds": ["299"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "AGAS",
+      "name": "Agassiz",
+      "lat": 49.239552,
+      "lon": -121.764238,
+      "lines": ["CA"],
+      "platformIds": ["296"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "THIB",
+      "name": "Thibaudeau",
+      "lat": 57.082879,
+      "lon": -94.146446,
+      "lines": ["WC"],
+      "platformIds": ["297"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "TELK",
+      "name": "Telkwa",
+      "lat": 54.6914023016,
+      "lon": -127.050533767,
+      "lines": ["SK"],
+      "platformIds": ["294"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "SMRB",
+      "name": "Saint-Maurice Rivière Boom",
+      "lat": 47.898494,
+      "lon": -73.749198,
+      "lines": ["MS"],
+      "platformIds": ["295"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "TIMB",
+      "name": "Timbrell",
+      "lat": 47.968028,
+      "lon": -74.764449,
+      "lines": ["MS"],
+      "platformIds": ["292"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "OBRI",
+      "name": "O'Brien",
+      "lat": 48.517478,
+      "lon": -85.139115,
+      "lines": ["SW"],
+      "platformIds": ["293"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "SIPI",
+      "name": "Sipiwesk",
+      "lat": 55.462715,
+      "lon": -97.388531,
+      "lines": ["WC"],
+      "platformIds": ["290"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "CEDA",
+      "name": "Cedarvale",
+      "lat": 55.020764,
+      "lon": -128.323192,
+      "lines": ["SK"],
+      "platformIds": ["195"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "HERC",
+      "name": "Herchmer",
+      "lat": 57.371107,
+      "lon": -94.187052,
+      "lines": ["WC"],
+      "platformIds": ["197"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "ROCH",
+      "name": "Rochester",
+      "lat": 43.1637003133,
+      "lon": -77.6083768896,
+      "lines": ["ML"],
+      "platformIds": ["191"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "BDNC",
+      "name": "Club Beaudin",
+      "lat": 48.211017,
+      "lon": -75.896548,
+      "lines": ["MS"],
+      "platformIds": ["190"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "BRMT",
+      "name": "Bourmont",
+      "lat": 48.200523,
+      "lon": -75.831881,
+      "lines": ["MS"],
+      "platformIds": ["193"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "LEVA",
+      "name": "Levack",
+      "lat": 46.616805,
+      "lon": -81.434048,
+      "lines": ["SW"],
+      "platformIds": ["192"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "USKX",
+      "name": "Usk",
+      "lat": 54.636477,
+      "lon": -128.416014,
+      "lines": ["SK"],
+      "platformIds": ["270"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "BBAR",
+      "name": "Boston Bar",
+      "lat": 49.86938,
+      "lon": -121.444652,
+      "lines": ["CA"],
+      "platformIds": ["273"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "HOPE",
+      "name": "Hope",
+      "lat": 49.3789211444,
+      "lon": -121.436475571,
+      "lines": ["CA"],
+      "platformIds": ["274"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "OSKR",
+      "name": "Rivière Oskélanéo",
+      "lat": 48.10816,
+      "lon": -75.204927,
+      "lines": ["MS"],
+      "platformIds": ["276"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "CHIL",
+      "name": "Chilliwack",
+      "lat": 49.1639564067,
+      "lon": -121.951861453,
+      "lines": ["CA"],
+      "platformIds": ["277"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "AMRY",
+      "name": "Amery",
+      "lat": 56.559037,
+      "lon": -94.071896,
+      "lines": ["WC"],
+      "platformIds": ["278"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "EDMO",
+      "schematicId": "edmonton",
+      "name": "Edmonton",
+      "lat": 53.5788568398,
+      "lon": -113.530943532,
+      "lines": ["CA"],
+      "platformIds": ["449"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "GRNG",
+      "name": "Greening",
+      "lat": 48.117385,
+      "lon": -74.968387,
+      "lines": ["MS"],
+      "platformIds": ["448"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "HUTT",
+      "name": "Hutton",
+      "lat": 53.988689,
+      "lon": -121.621631,
+      "lines": ["SK"],
+      "platformIds": ["442"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "FITZ",
+      "name": "Fitzpatrick",
+      "lat": 47.484804,
+      "lon": -72.773522,
+      "lines": ["MS"],
+      "platformIds": ["441"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "FING",
+      "name": "Finger",
+      "lat": 54.006944,
+      "lon": -100.873889,
+      "lines": ["WC"],
+      "platformIds": ["440"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "DYCE",
+      "name": "Dyce",
+      "lat": 54.368489,
+      "lon": -100.159274,
+      "lines": ["WC"],
+      "platformIds": ["446"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "TOGO",
+      "name": "Togo",
+      "lat": 51.405047,
+      "lon": -101.589712,
+      "lines": ["WC"],
+      "platformIds": ["445"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "JONQ",
+      "schematicId": "jonquiere",
+      "name": "Jonquière",
+      "lat": 48.41189,
+      "lon": -71.2544,
+      "lines": ["MJ"],
+      "platformIds": ["444"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "SAVL",
+      "name": "Savant Lake",
+      "lat": 50.2385299654,
+      "lon": -90.7064802526,
+      "lines": ["CA"],
+      "platformIds": ["108"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "ALWB",
+      "name": "Allanwater Bridge",
+      "lat": 50.2406653823,
+      "lon": -90.1668862897,
+      "lines": ["CA"],
+      "platformIds": ["109"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "AUDN",
+      "name": "Auden",
+      "lat": 50.2291662511,
+      "lon": -87.8898751779,
+      "lines": ["CA"],
+      "platformIds": ["102"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "FERL",
+      "name": "Ferland",
+      "lat": 50.3144192767,
+      "lon": -88.4259900919,
+      "lines": ["CA"],
+      "platformIds": ["103"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "KAMS",
+      "name": "Kamsack",
+      "lat": 51.5617751686,
+      "lon": -101.903632907,
+      "lines": ["WC"],
+      "platformIds": ["100"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "MUDR",
+      "name": "Mud River",
+      "lat": 50.3185245402,
+      "lon": -88.5166489767,
+      "lines": ["CA"],
+      "platformIds": ["101"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "ARMG",
+      "name": "Armstrong",
+      "lat": 50.301424,
+      "lon": -89.037603,
+      "lines": ["CA"],
+      "platformIds": ["106"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "FLTL",
+      "name": "Flindt Landing",
+      "lat": 50.242603,
+      "lon": -90.477618,
+      "lines": ["CA"],
+      "platformIds": ["107"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "GSTO",
+      "name": "Gladstone",
+      "lat": 50.225207,
+      "lon": -98.947926,
+      "lines": ["WC"],
+      "platformIds": ["104"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "COLL",
+      "name": "Collins",
+      "lat": 50.295803,
+      "lon": -89.448909,
+      "lines": ["CA"],
+      "platformIds": ["105"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "SANF",
+      "name": "Sanford",
+      "lat": 47.48238,
+      "lon": -72.219226,
+      "lines": ["MJ"],
+      "platformIds": ["39"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "STIT",
+      "name": "Saint-Tite",
+      "lat": 46.7231164199,
+      "lon": -72.5641569534,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["38"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "BIMA",
+      "name": "Bima",
+      "lat": 47.379861,
+      "lon": -72.220718,
+      "lines": ["MJ"],
+      "platformIds": ["33"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "SSCC",
+      "name": "Club Sisco",
+      "lat": 47.879104,
+      "lon": -74.374236,
+      "lines": ["MS"],
+      "platformIds": ["32"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "TRRC",
+      "name": "Terrace",
+      "lat": 54.514492,
+      "lon": -128.586584,
+      "lines": ["SK"],
+      "platformIds": ["31"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "PBDT",
+      "name": "Pont Beaudet",
+      "lat": 47.355582,
+      "lon": -72.199959,
+      "lines": ["MJ"],
+      "platformIds": ["37"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "VDRH",
+      "name": "Vanderhoof",
+      "lat": 54.014597,
+      "lon": -124.012017,
+      "lines": ["SK"],
+      "platformIds": ["36"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "BRKV",
+      "name": "Brockville",
+      "lat": 44.592113,
+      "lon": -75.692713,
+      "lines": ["OT", "QW"],
+      "platformIds": ["35"],
+      "departureRouteIds": ["226-119", "617-119"]
+    },
+    {
+      "id": "DNST",
+      "name": "Dunster",
+      "lat": 53.123413,
+      "lon": -119.837813,
+      "lines": ["SK"],
+      "platformIds": ["438"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "CHBD",
+      "schematicId": "chambord",
+      "name": "Chambord",
+      "lat": 48.421329,
+      "lon": -72.058875,
+      "lines": ["MJ"],
+      "platformIds": ["439"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "OAKV",
+      "schematicId": "oakville",
+      "name": "Oakville",
+      "lat": 43.454895,
+      "lon": -79.682462,
+      "lines": ["ML", "QW"],
+      "platformIds": ["436"],
+      "departureRouteIds": ["119-120", "119-618"]
+    },
+    {
+      "id": "HERV",
+      "name": "Hervey",
+      "lat": 46.8536315533,
+      "lon": -72.4678583938,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["437"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "CHUR",
+      "schematicId": "churchill",
+      "name": "Churchill",
+      "lat": 58.767685933,
+      "lon": -94.1747663006,
+      "lines": ["WC"],
+      "platformIds": ["435"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "FFRA",
+      "name": "Fort Fraser",
+      "lat": 54.058416,
+      "lon": -124.554224,
+      "lines": ["SK"],
+      "platformIds": ["432"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "LTUQ",
+      "name": "La Tuque",
+      "lat": 47.439397,
+      "lon": -72.782394,
+      "lines": ["MS"],
+      "platformIds": ["433"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "VDRY",
+      "name": "Vandry",
+      "lat": 47.859472,
+      "lon": -73.558316,
+      "lines": ["MS"],
+      "platformIds": ["339"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "BRNL",
+      "name": "Burns Lake",
+      "lat": 54.228971,
+      "lon": -125.764128,
+      "lines": ["SK"],
+      "platformIds": ["338"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "WEIR",
+      "name": "Weir River",
+      "lat": 56.817819,
+      "lon": -94.0932948135,
+      "lines": ["WC"],
+      "platformIds": ["335"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "PENN",
+      "name": "Penny",
+      "lat": 53.842544,
+      "lon": -121.28936,
+      "lines": ["SK"],
+      "platformIds": ["333"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "DORV",
+      "schematicId": "dorval",
+      "name": "Dorval",
+      "lat": 45.44892,
+      "lon": -73.74128,
+      "lines": ["OT", "QW"],
+      "platformIds": ["332"],
+      "departureRouteIds": ["226-119", "617-226", "617-628", "628-576"]
+    },
+    {
+      "id": "GEOR",
+      "name": "Georgetown",
+      "lat": 43.65551,
+      "lon": -79.91912,
+      "lines": ["TS"],
+      "platformIds": ["6"],
+      "departureRouteIds": ["119-341"]
+    },
+    {
+      "id": "NAKI",
+      "name": "Nakina",
+      "lat": 50.17773,
+      "lon": -86.71351,
+      "lines": ["CA"],
+      "platformIds": ["99"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "CARA",
+      "name": "Caramat",
+      "lat": 49.617783,
+      "lon": -86.13815,
+      "lines": ["CA"],
+      "platformIds": ["98"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "HLSP",
+      "name": "Hillsport",
+      "lat": 49.451026,
+      "lon": -85.54803,
+      "lines": ["CA"],
+      "platformIds": ["91"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "BIRD",
+      "name": "Bird",
+      "lat": 56.504995,
+      "lon": -94.205134,
+      "lines": ["WC"],
+      "platformIds": ["90"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "LNDN",
+      "schematicId": "london",
+      "name": "London",
+      "lat": 42.98099,
+      "lon": -81.246734,
+      "lines": ["QW", "TS"],
+      "platformIds": ["93"],
+      "departureRouteIds": ["119-341", "119-618", "119-93"]
+    },
+    {
+      "id": "OBAX",
+      "name": "Oba",
+      "lat": 49.059565,
+      "lon": -84.105718,
+      "lines": ["CA"],
+      "platformIds": ["92"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "LLAC",
+      "name": "Longlac",
+      "lat": 49.771858,
+      "lon": -86.534975,
+      "lines": ["CA"],
+      "platformIds": ["95"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "SHPN",
+      "name": "Saint-Hilaire de Portneuf",
+      "lat": 47.366521,
+      "lon": -72.211128,
+      "lines": ["MJ"],
+      "platformIds": ["94"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "HBAY",
+      "name": "Hudson Bay",
+      "lat": 52.86315,
+      "lon": -102.39676,
+      "lines": ["WC"],
+      "platformIds": ["96"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "OTTM",
+      "name": "Ottermere",
+      "lat": 49.924212,
+      "lon": -94.935315,
+      "lines": ["CA"],
+      "platformIds": ["153"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "ATKL",
+      "name": "Atikameg Lake",
+      "lat": 53.9870453704,
+      "lon": -100.934528881,
+      "lines": ["WC"],
+      "platformIds": ["238"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "MUNK",
+      "name": "Munk",
+      "lat": 55.9794052344,
+      "lon": -95.9905678598,
+      "lines": ["WC"],
+      "platformIds": ["235"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "WAIN",
+      "name": "Wainwright",
+      "lat": 52.832862,
+      "lon": -110.864573,
+      "lines": ["CA"],
+      "platformIds": ["236"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "NONS",
+      "name": "Nonsuch",
+      "lat": 56.1263284539,
+      "lon": -95.3773252651,
+      "lines": ["WC"],
+      "platformIds": ["237"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "NEME",
+      "name": "Nemegos",
+      "lat": 47.72532,
+      "lon": -83.202617,
+      "lines": ["SW"],
+      "platformIds": ["230"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "UNIT",
+      "name": "Unity",
+      "lat": 52.441105,
+      "lon": -109.160175,
+      "lines": ["CA"],
+      "platformIds": ["231"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "BUTT",
+      "name": "Button",
+      "lat": 54.680961,
+      "lon": -98.986416,
+      "lines": ["WC"],
+      "platformIds": ["232"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "GRIM",
+      "name": "Grimsby",
+      "lat": 43.1960227197,
+      "lon": -79.5581788527,
+      "lines": ["ML"],
+      "platformIds": ["1"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "SYRA",
+      "name": "Syracuse",
+      "lat": 43.0770800858,
+      "lon": -76.1699729593,
+      "lines": ["ML"],
+      "platformIds": ["614"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "TREM",
+      "name": "Tremaudan",
+      "lat": 53.9090264608,
+      "lon": -101.171698404,
+      "lines": ["WC"],
+      "platformIds": ["155"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "CRSM",
+      "name": "Cressman",
+      "lat": 47.620346,
+      "lon": -72.917838,
+      "lines": ["MS"],
+      "platformIds": ["147"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "RDDT",
+      "name": "Redditt",
+      "lat": 49.978668,
+      "lon": -94.393284,
+      "lines": ["CA"],
+      "platformIds": ["144"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "MNKI",
+      "name": "Minaki",
+      "lat": 49.9849728409,
+      "lon": -94.6701567655,
+      "lines": ["CA"],
+      "platformIds": ["142"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "FARL",
+      "name": "Farlane",
+      "lat": 50.007073,
+      "lon": -94.200478,
+      "lines": ["CA"],
+      "platformIds": ["140"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "GLNA",
+      "name": "Glenella",
+      "lat": 50.554178,
+      "lon": -99.192923,
+      "lines": ["WC"],
+      "platformIds": ["141"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "RVRS",
+      "name": "Rivers",
+      "lat": 50.029121,
+      "lon": -100.240722,
+      "lines": ["CA"],
+      "platformIds": ["616"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "OTTW",
+      "schematicId": "ottawa",
+      "name": "Ottawa",
+      "lat": 45.41599,
+      "lon": -75.65151,
+      "lines": ["OT"],
+      "platformIds": ["617"],
+      "departureRouteIds": ["617-119", "617-226", "617-628", "628-576"]
+    },
+    {
+      "id": "HOUS",
+      "name": "Houston",
+      "lat": 54.400327,
+      "lon": -126.650353,
+      "lines": ["SK"],
+      "platformIds": ["148"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "TPAS",
+      "schematicId": "the-pas",
+      "name": "The Pas",
+      "lat": 53.823964,
+      "lon": -101.247540962,
+      "lines": ["WC"],
+      "platformIds": ["149"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "GMRE",
+      "name": "Grand-Mère",
+      "lat": 46.605875,
+      "lon": -72.686678,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["132"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "CNYK",
+      "name": "Canyon",
+      "lat": 49.9800724031,
+      "lon": -93.744402,
+      "lines": ["CA"],
+      "platformIds": ["131"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "SPAU",
+      "name": "Saint-Paulin",
+      "lat": 46.401095452,
+      "lon": -73.015965145,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["130"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "HRDL",
+      "name": "Hirondelle",
+      "lat": 47.536637,
+      "lon": -72.243315,
+      "lines": ["MJ"],
+      "platformIds": ["134"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "CHNY",
+      "name": "Charny",
+      "lat": 46.7135459681,
+      "lon": -71.2706122454,
+      "lines": ["OT"],
+      "platformIds": ["492"],
+      "departureRouteIds": ["617-628", "628-576"]
+    },
+    {
+      "id": "STGS",
+      "name": "Sturgis",
+      "lat": 51.939831,
+      "lon": -102.545684,
+      "lines": ["WC"],
+      "platformIds": ["24"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "SCHE",
+      "name": "Schenectady",
+      "lat": 42.814502313,
+      "lon": -73.9426206429,
+      "lines": ["ML"],
+      "platformIds": ["25"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "MIQK",
+      "name": "Miquick",
+      "lat": 47.219874,
+      "lon": -72.251321,
+      "lines": ["MJ"],
+      "platformIds": ["26"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "FALR",
+      "name": "Falrie",
+      "lat": 47.337513,
+      "lon": -72.202275,
+      "lines": ["MJ"],
+      "platformIds": ["27"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "JASP",
+      "schematicId": "jasper",
+      "name": "Jasper",
+      "lat": 52.8757287911,
+      "lon": -118.079386435,
+      "lines": ["CA", "SK"],
+      "platformIds": ["21"],
+      "departureRouteIds": ["21-458", "8-119"]
+    },
+    {
+      "id": "AMHS",
+      "name": "Amherst",
+      "lat": 45.8299867039,
+      "lon": -64.2123841706,
+      "lines": ["OC"],
+      "platformIds": ["22"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "ROUS",
+      "name": "Rousseau",
+      "lat": 46.9338,
+      "lon": -72.286532,
+      "lines": ["MJ"],
+      "platformIds": ["28"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "EARC",
+      "name": "Earchman",
+      "lat": 55.158420071,
+      "lon": -98.1051992301,
+      "lines": ["WC"],
+      "platformIds": ["29"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "DESS",
+      "name": "Dessane",
+      "lat": 47.885659,
+      "lon": -73.640014,
+      "lines": ["MS"],
+      "platformIds": ["407"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "TURN",
+      "name": "Turnbull",
+      "lat": 54.565673,
+      "lon": -99.480695,
+      "lines": ["WC"],
+      "platformIds": ["406"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "DRLL",
+      "name": "Da-Rou-Lac Lodge",
+      "lat": 48.229595,
+      "lon": -75.998533,
+      "lines": ["MS"],
+      "platformIds": ["405"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "LBOU",
+      "name": "Lac Bouchette",
+      "lat": 48.269402,
+      "lon": -72.173124,
+      "lines": ["MJ"],
+      "platformIds": ["404"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "NFNY",
+      "name": "Niagara Falls, NY",
+      "lat": 43.1097327626,
+      "lon": -79.0548694985,
+      "lines": ["ML"],
+      "platformIds": ["403"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "CORM",
+      "name": "Cormorant",
+      "lat": 54.2234529106,
+      "lon": -100.602586644,
+      "lines": ["WC"],
+      "platformIds": ["401"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "SFOY",
+      "name": "Sainte-Foy",
+      "lat": 46.7542382955,
+      "lon": -71.2975749888,
+      "lines": ["OC", "OT", "QW"],
+      "platformIds": ["629"],
+      "departureRouteIds": ["226-620", "617-628", "628-226", "628-576"]
+    },
+    {
+      "id": "DEVN",
+      "name": "Devon",
+      "lat": 47.759732,
+      "lon": -83.36704,
+      "lines": ["SW"],
+      "platformIds": ["409"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "LRIE",
+      "name": "Laurier",
+      "lat": 50.889893,
+      "lon": -99.562029,
+      "lines": ["WC"],
+      "platformIds": ["408"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "QBEC",
+      "schematicId": "quebec",
+      "name": "Québec",
+      "lat": 46.8185710392,
+      "lon": -71.2146142824,
+      "lines": ["OT", "QW"],
+      "platformIds": ["628"],
+      "departureRouteIds": ["617-628", "628-226", "628-576"]
+    },
+    {
+      "id": "MCGR",
+      "name": "McGregor",
+      "lat": 54.076925,
+      "lon": -121.843477,
+      "lines": ["SK"],
+      "platformIds": ["379"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "LWTH",
+      "name": "Longworth",
+      "lat": 53.922269,
+      "lon": -121.463494,
+      "lines": ["SK"],
+      "platformIds": ["378"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "LYDD",
+      "name": "Lyddal",
+      "lat": 55.029422,
+      "lon": -98.414532,
+      "lines": ["WC"],
+      "platformIds": ["371"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "MIKA",
+      "name": "Mikado",
+      "lat": 51.609176,
+      "lon": -102.2657,
+      "lines": ["WC"],
+      "platformIds": ["370"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "PIKW",
+      "name": "Pikwitonei",
+      "lat": 55.58565,
+      "lon": -97.154066,
+      "lines": ["WC"],
+      "platformIds": ["373"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "MCLI",
+      "name": "M'Clintock",
+      "lat": 57.801091,
+      "lon": -94.214341,
+      "lines": ["WC"],
+      "platformIds": ["375"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "SMTF",
+      "name": "Smiths Falls",
+      "lat": 44.912455,
+      "lon": -76.024023,
+      "lines": ["OT"],
+      "platformIds": ["377"],
+      "departureRouteIds": ["617-119"]
+    },
+    {
+      "id": "MSBI",
+      "name": "Missanabie",
+      "lat": 48.311259,
+      "lon": -84.084871,
+      "lines": ["SW"],
+      "platformIds": ["376"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "WDON",
+      "schematicId": "windsor",
+      "name": "Windsor",
+      "lat": 42.324933,
+      "lon": -83.007134,
+      "lines": ["QW"],
+      "platformIds": ["618"],
+      "departureRouteIds": ["119-618"]
+    },
+    {
+      "id": "CBAT",
+      "name": "Consolidated Bathurst",
+      "lat": 48.194328,
+      "lon": -75.747552,
+      "lines": ["MS"],
+      "platformIds": ["392"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "ELSA",
+      "name": "Elsas",
+      "lat": 48.521081,
+      "lon": -82.9031,
+      "lines": ["CA"],
+      "platformIds": ["88"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "CLOV",
+      "name": "Clova",
+      "lat": 48.109629,
+      "lon": -75.359707,
+      "lines": ["MS"],
+      "platformIds": ["390"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "BLGC",
+      "name": "Club Bélanger",
+      "lat": 47.923895,
+      "lon": -73.932947,
+      "lines": ["MS"],
+      "platformIds": ["397"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "MUSK",
+      "name": "Musk",
+      "lat": 47.949026,
+      "lon": -83.707179,
+      "lines": ["SW"],
+      "platformIds": ["395"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "LNGL",
+      "name": "Langlade",
+      "lat": 48.230335,
+      "lon": -75.987016,
+      "lines": ["MS"],
+      "platformIds": ["394"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "CLWT",
+      "name": "Clearwater",
+      "lat": 51.63789,
+      "lon": -120.033379,
+      "lines": ["CA"],
+      "platformIds": ["80"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "CAUS",
+      "name": "Causapscal",
+      "lat": 48.3496066382,
+      "lon": -67.2272006184,
+      "lines": ["OC"],
+      "platformIds": ["87"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "CHLO",
+      "name": "Charlo",
+      "lat": 47.99419,
+      "lon": -66.304574,
+      "lines": ["OC"],
+      "platformIds": ["84"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "STRF",
+      "name": "Stratford",
+      "lat": 43.3643734351,
+      "lon": -80.9757413887,
+      "lines": ["TS"],
+      "platformIds": ["7"],
+      "departureRouteIds": ["119-341"]
+    },
+    {
+      "id": "TPIS",
+      "name": "Trois Pistoles",
+      "lat": 48.1270018367,
+      "lon": -69.1732956785,
+      "lines": ["OC"],
+      "platformIds": ["170"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "BRQU",
+      "name": "Brooks",
+      "lat": 47.854125,
+      "lon": -72.155817,
+      "lines": ["MJ"],
+      "platformIds": ["245"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "ALZL",
+      "name": "Aleza Lake",
+      "lat": 54.114831,
+      "lon": -122.055129,
+      "lines": ["SK"],
+      "platformIds": ["244"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "VBRU",
+      "name": "Van Bruyssels",
+      "lat": 47.935897,
+      "lon": -72.149757,
+      "lines": ["MJ"],
+      "platformIds": ["247"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "RAWE",
+      "name": "Rawebb",
+      "lat": 54.3032891765,
+      "lon": -100.339589693,
+      "lines": ["WC"],
+      "platformIds": ["246"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "EVAN",
+      "name": "Evansburg",
+      "lat": 53.594514,
+      "lon": -115.008595,
+      "lines": ["CA"],
+      "platformIds": ["241"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "POUG",
+      "name": "Poughkeepsie",
+      "lat": 41.7068465713,
+      "lon": -73.9379163864,
+      "lines": ["ML"],
+      "platformIds": ["240"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "BIGG",
+      "name": "Biggar",
+      "lat": 52.053720315,
+      "lon": -107.988277025,
+      "lines": ["CA"],
+      "platformIds": ["615"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "PITS",
+      "name": "Pit Siding",
+      "lat": 55.908894,
+      "lon": -96.317753,
+      "lines": ["WC"],
+      "platformIds": ["249"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "POGA",
+      "name": "Pogamasing",
+      "lat": 46.908917,
+      "lon": -81.773197,
+      "lines": ["SW"],
+      "platformIds": ["248"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "PRUP",
+      "schematicId": "prince-rupert",
+      "name": "Prince Rupert",
+      "lat": 54.2956651137,
+      "lon": -130.352241212,
+      "lines": ["SK"],
+      "platformIds": ["458"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "SHWN",
+      "name": "Shawinigan",
+      "lat": 46.5498220906,
+      "lon": -72.7452636283,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["459"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "SUDB",
+      "schematicId": "sudbury",
+      "name": "Sudbury",
+      "lat": 46.487372123,
+      "lon": -80.992218679,
+      "lines": ["SW"],
+      "platformIds": ["621"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "HLFX",
+      "schematicId": "halifax",
+      "name": "Halifax",
+      "lat": 44.6392,
+      "lon": -63.567692,
+      "lines": ["OC"],
+      "platformIds": ["620"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "GUIL",
+      "schematicId": "guildwood",
+      "name": "Guildwood",
+      "lat": 43.754823679,
+      "lon": -79.1982632662,
+      "lines": ["OT", "QW"],
+      "platformIds": ["450"],
+      "departureRouteIds": ["226-119", "617-119"]
+    },
+    {
+      "id": "HEBV",
+      "name": "Hebertville",
+      "lat": 48.443477,
+      "lon": -71.662407,
+      "lines": ["MJ"],
+      "platformIds": ["453"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "PGEO",
+      "name": "Prince George",
+      "lat": 53.919317,
+      "lon": -122.744185,
+      "lines": ["SK"],
+      "platformIds": ["454"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "VKNG",
+      "name": "Viking",
+      "lat": 53.092586,
+      "lon": -111.778133,
+      "lines": ["CA"],
+      "platformIds": ["455"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "OPHR",
+      "name": "Ophir",
+      "lat": 49.870822,
+      "lon": -95.260035,
+      "lines": ["CA"],
+      "platformIds": ["456"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "JOLI",
+      "name": "Joliette",
+      "lat": 46.0294709671,
+      "lon": -73.4440191263,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["457"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "LPRS",
+      "name": "La Perouse",
+      "lat": 55.226031,
+      "lon": -97.967938,
+      "lines": ["WC"],
+      "platformIds": ["179"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "CBRG",
+      "schematicId": "cobourg",
+      "name": "Cobourg",
+      "lat": 43.96778,
+      "lon": -78.17151,
+      "lines": ["OT", "QW"],
+      "platformIds": ["178"],
+      "departureRouteIds": ["226-119", "617-119"]
+    },
+    {
+      "id": "KOND",
+      "name": "Kondiaronk",
+      "lat": 48.017363,
+      "lon": -72.181081,
+      "lines": ["MJ"],
+      "platformIds": ["177"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "KWIN",
+      "name": "Kwinitsa",
+      "lat": 54.225714,
+      "lon": -129.555598,
+      "lines": ["SK"],
+      "platformIds": ["176"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "AMST",
+      "name": "Amsterdam",
+      "lat": 42.9534782067,
+      "lon": -74.219523085,
+      "lines": ["ML"],
+      "platformIds": ["173"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "DORR",
+      "name": "Dorreen",
+      "lat": 54.840788,
+      "lon": -128.343892,
+      "lines": ["SK"],
+      "platformIds": ["172"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "MCTC",
+      "name": "McTavish",
+      "lat": 47.761601,
+      "lon": -73.32004,
+      "lines": ["MS"],
+      "platformIds": ["171"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "RCLK",
+      "name": "Rice Lake",
+      "lat": 49.890343,
+      "lon": -95.130523,
+      "lines": ["CA"],
+      "platformIds": ["198"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "LEDW",
+      "name": "Lac Édouard",
+      "lat": 47.666458,
+      "lon": -72.269451,
+      "lines": ["MJ"],
+      "platformIds": ["183"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "MWWC",
+      "name": "Club Maniwawa",
+      "lat": 48.067995,
+      "lon": -74.895755,
+      "lines": ["MS"],
+      "platformIds": ["182"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "COQU",
+      "name": "Coquar",
+      "lat": 48.11871,
+      "lon": -75.478574,
+      "lines": ["MS"],
+      "platformIds": ["180"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "CHEL",
+      "name": "Chelmsford",
+      "lat": 46.585767,
+      "lon": -81.196787,
+      "lines": ["SW"],
+      "platformIds": ["2"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "COPE",
+      "name": "Copelands Landing",
+      "lat": 49.9174948374,
+      "lon": -95.0013445827,
+      "lines": ["CA"],
+      "platformIds": ["187"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "LARC",
+      "name": "Larchwood",
+      "lat": 46.57262,
+      "lon": -81.286303,
+      "lines": ["SW"],
+      "platformIds": ["184"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "SCAT",
+      "name": "St. Catharines",
+      "lat": 43.1476643217,
+      "lon": -79.2563772794,
+      "lines": ["ML"],
+      "platformIds": ["185"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "ALBY",
+      "name": "Albany",
+      "lat": 42.6415231775,
+      "lon": -73.7414282013,
+      "lines": ["ML"],
+      "platformIds": ["189"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "SMYS",
+      "name": "St. Marys",
+      "lat": 43.2604007201,
+      "lon": -81.1363901685,
+      "lines": ["TS"],
+      "platformIds": ["11"],
+      "departureRouteIds": ["119-341"]
+    },
+    {
+      "id": "TRUR",
+      "name": "Truro",
+      "lat": 45.3624136652,
+      "lon": -63.2759008362,
+      "lines": ["OC"],
+      "platformIds": ["10"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "MCTN",
+      "schematicId": "moncton",
+      "name": "Moncton",
+      "lat": 46.0832528225,
+      "lon": -64.7859600592,
+      "lines": ["OC"],
+      "platformIds": ["12"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "BISC",
+      "name": "Biscotasing",
+      "lat": 47.299983,
+      "lon": -82.102955,
+      "lines": ["SW"],
+      "platformIds": ["15"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "STRR",
+      "name": "Strathroy",
+      "lat": 42.9546822147,
+      "lon": -81.6229195337,
+      "lines": ["TS"],
+      "platformIds": ["14"],
+      "departureRouteIds": ["119-341"]
+    },
+    {
+      "id": "RGRV",
+      "name": "Rogersville",
+      "lat": 46.7295010582,
+      "lon": -65.4255170966,
+      "lines": ["OC"],
+      "platformIds": ["19"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "JACR",
+      "name": "Jacquet River",
+      "lat": 47.92025,
+      "lon": -66.000188,
+      "lines": ["OC"],
+      "platformIds": ["18"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "BRMP",
+      "schematicId": "brampton",
+      "name": "Brampton",
+      "lat": 43.68685,
+      "lon": -79.76448,
+      "lines": ["TS"],
+      "platformIds": ["322"],
+      "departureRouteIds": ["119-341"]
+    },
+    {
+      "id": "INGR",
+      "name": "Ingersoll",
+      "lat": 43.04063,
+      "lon": -80.887906,
+      "lines": ["QW"],
+      "platformIds": ["323"],
+      "departureRouteIds": ["119-618"]
+    },
+    {
+      "id": "RAPB",
+      "name": "Rapide Blanc",
+      "lat": 47.671688,
+      "lon": -73.003801,
+      "lines": ["MS"],
+      "platformIds": ["320"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "CANN",
+      "name": "Cann",
+      "lat": 47.902677,
+      "lon": -73.881907,
+      "lines": ["MS"],
+      "platformIds": ["321"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "BUDD",
+      "name": "Budd",
+      "lat": 54.048793,
+      "lon": -100.805075,
+      "lines": ["WC"],
+      "platformIds": ["326"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "RDLX",
+      "name": "Rivière-du-Loup",
+      "lat": 47.8252985049,
+      "lon": -69.5276737387,
+      "lines": ["OC"],
+      "platformIds": ["327"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "BOLK",
+      "name": "Bolkow",
+      "lat": 48.108349,
+      "lon": -83.909323,
+      "lines": ["SW"],
+      "platformIds": ["324"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "RMSK",
+      "name": "Rimouski",
+      "lat": 48.4500986913,
+      "lon": -68.5212130944,
+      "lines": ["OC"],
+      "platformIds": ["328"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "STRL",
+      "name": "Stralak",
+      "lat": 46.804797,
+      "lon": -81.680016,
+      "lines": ["SW"],
+      "platformIds": ["329"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "BUFX",
+      "name": "Buffalo (Exchange)",
+      "lat": 42.878288586,
+      "lon": -78.8738233135,
+      "lines": ["ML"],
+      "platformIds": ["201"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "GANA",
+      "name": "Gananoque",
+      "lat": 44.36881,
+      "lon": -76.15373,
+      "lines": ["OT"],
+      "platformIds": ["200"],
+      "departureRouteIds": ["617-119"]
+    },
+    {
+      "id": "LDAR",
+      "name": "Lac Darey",
+      "lat": 47.670897,
+      "lon": -73.140477,
+      "lines": ["MS"],
+      "platformIds": ["203"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "SACK",
+      "name": "Sackville",
+      "lat": 45.8901622082,
+      "lon": -64.3672682037,
+      "lines": ["OC"],
+      "platformIds": ["202"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "CHAP",
+      "name": "Chapleau",
+      "lat": 47.841444,
+      "lon": -83.40313,
+      "lines": ["SW"],
+      "platformIds": ["205"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "BRTL",
+      "name": "Brereton Lake",
+      "lat": 49.88043558,
+      "lon": -95.5306380583,
+      "lines": ["CA"],
+      "platformIds": ["204"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "MCBR",
+      "name": "McBride",
+      "lat": 53.300555,
+      "lon": -120.1703,
+      "lines": ["SK"],
+      "platformIds": ["207"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "ELMA",
+      "name": "Elma",
+      "lat": 49.874105,
+      "lon": -95.910047,
+      "lines": ["CA"],
+      "platformIds": ["206"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "JACC",
+      "name": "Club Jacques-Cartier",
+      "lat": 47.318543,
+      "lon": -72.212538,
+      "lines": ["MJ"],
+      "platformIds": ["209"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "WEKU",
+      "name": "Wekusko",
+      "lat": 54.502384,
+      "lon": -99.755678,
+      "lines": ["WC"],
+      "platformIds": ["208"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "WSTR",
+      "name": "Westree",
+      "lat": 47.418601,
+      "lon": -81.547963,
+      "lines": ["CA"],
+      "platformIds": ["76"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "GOGA",
+      "name": "Gogama",
+      "lat": 47.6761105078,
+      "lon": -81.7237168982,
+      "lines": ["CA"],
+      "platformIds": ["74"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "PROC",
+      "name": "Petit Rocher",
+      "lat": 47.778731944,
+      "lon": -65.7298964835,
+      "lines": ["OC"],
+      "platformIds": ["73"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "FELX",
+      "name": "Felix",
+      "lat": 47.20425,
+      "lon": -81.407763,
+      "lines": ["CA"],
+      "platformIds": ["72"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "RUEL",
+      "name": "Ruel",
+      "lat": 47.2592165926,
+      "lon": -81.467846,
+      "lines": ["CA"],
+      "platformIds": ["71"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "GUEL",
+      "schematicId": "guelph",
+      "name": "Guelph",
+      "lat": 43.545251,
+      "lon": -80.245602,
+      "lines": ["TS"],
+      "platformIds": ["70"],
+      "departureRouteIds": ["119-341"]
+    },
+    {
+      "id": "FOLE",
+      "name": "Foleyet",
+      "lat": 48.246841,
+      "lon": -82.440259,
+      "lines": ["CA"],
+      "platformIds": ["79"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "GLNC",
+      "name": "Glencoe",
+      "lat": 42.745843,
+      "lon": -81.71155,
+      "lines": ["QW"],
+      "platformIds": ["78"],
+      "departureRouteIds": ["119-618"]
+    },
+    {
+      "id": "VCVR",
+      "schematicId": "vancouver",
+      "name": "Vancouver",
+      "lat": 49.273644006,
+      "lon": -123.096634292,
+      "lines": ["CA"],
+      "platformIds": ["8"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "NEWY",
+      "schematicId": "new-york",
+      "name": "New York",
+      "lat": 40.7502300443,
+      "lon": -73.9927942963,
+      "lines": ["ML"],
+      "platformIds": ["120"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "SMMC",
+      "name": "Club Sommet",
+      "lat": 47.783394,
+      "lon": -72.186737,
+      "lines": ["MJ"],
+      "platformIds": ["121"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "SIGN",
+      "name": "Signai",
+      "lat": 48.295900396,
+      "lon": -76.8296501815,
+      "lines": ["MS"],
+      "platformIds": ["125"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "GARN",
+      "name": "Garneau",
+      "lat": 46.640001,
+      "lon": -72.638243,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["126"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "FRNZ",
+      "name": "Franz",
+      "lat": 48.465157,
+      "lon": -84.412073,
+      "lines": ["SW"],
+      "platformIds": ["127"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "WOMR",
+      "name": "Woman River",
+      "lat": 47.511624,
+      "lon": -82.628067,
+      "lines": ["SW"],
+      "platformIds": ["128"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "FORS",
+      "name": "Forsythe",
+      "lat": 48.235417,
+      "lon": -76.428337,
+      "lines": ["MS"],
+      "platformIds": ["129"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "DOMC",
+      "name": "Dome Creek",
+      "lat": 53.748105,
+      "lon": -121.029926,
+      "lines": ["SK"],
+      "platformIds": ["414"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "BLVL",
+      "name": "Belleville",
+      "lat": 44.17961,
+      "lon": -77.37455,
+      "lines": ["OT", "QW"],
+      "platformIds": ["415"],
+      "departureRouteIds": ["226-119", "617-119"]
+    },
+    {
+      "id": "HIBB",
+      "name": "Hibbard",
+      "lat": 47.86724,
+      "lon": -74.043022,
+      "lines": ["MS"],
+      "platformIds": ["417"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "DALT",
+      "name": "Dalton",
+      "lat": 48.158228,
+      "lon": -84.034513,
+      "lines": ["SW"],
+      "platformIds": ["410"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "VMLC",
+      "name": "Club Vermillon",
+      "lat": 47.661959,
+      "lon": -72.983141,
+      "lines": ["MS"],
+      "platformIds": ["411"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "DERI",
+      "name": "Dering",
+      "lat": 54.254202,
+      "lon": -100.533648,
+      "lines": ["WC"],
+      "platformIds": ["412"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "TRNJ",
+      "name": "Trenton Junction",
+      "lat": 44.1152523097,
+      "lon": -77.5988055795,
+      "lines": ["OT"],
+      "platformIds": ["413"],
+      "departureRouteIds": ["617-119"]
+    },
+    {
+      "id": "DUNL",
+      "name": "Dunlop",
+      "lat": 54.7416865648,
+      "lon": -98.8642319321,
+      "lines": ["WC"],
+      "platformIds": ["418"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "CSLM",
+      "name": "Casselman",
+      "lat": 45.3122868987,
+      "lon": -75.0871973889,
+      "lines": ["OT"],
+      "platformIds": ["419"],
+      "departureRouteIds": ["617-226", "617-628", "628-576"]
+    },
+    {
+      "id": "GOAT",
+      "name": "Goat River",
+      "lat": 53.537695,
+      "lon": -120.592519,
+      "lines": ["SK"],
+      "platformIds": ["136"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "IRQC",
+      "name": "Club Iroquois",
+      "lat": 47.419572,
+      "lon": -72.232099,
+      "lines": ["MJ"],
+      "platformIds": ["319"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "BOYD",
+      "name": "Boyd",
+      "lat": 55.88281,
+      "lon": -96.456753,
+      "lines": ["WC"],
+      "platformIds": ["318"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "THKP",
+      "name": "Thicket Portage",
+      "lat": 55.319002,
+      "lon": -97.688068,
+      "lines": ["WC"],
+      "platformIds": ["313"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "CART",
+      "name": "Cartier",
+      "lat": 46.706104,
+      "lon": -81.557264,
+      "lines": ["SW"],
+      "platformIds": ["312"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "BTRS",
+      "name": "Bathurst",
+      "lat": 47.618787,
+      "lon": -65.670923,
+      "lines": ["OC"],
+      "platformIds": ["310"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "PLUM",
+      "name": "Plumas",
+      "lat": 50.38787,
+      "lon": -99.089403,
+      "lines": ["WC"],
+      "platformIds": ["317"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "RBRT",
+      "name": "Roberts",
+      "lat": 47.330224,
+      "lon": -82.199461,
+      "lines": ["SW"],
+      "platformIds": ["315"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "PIPN",
+      "name": "Pipun",
+      "lat": 54.800531,
+      "lon": -98.797784,
+      "lines": ["WC"],
+      "platformIds": ["314"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "GILL",
+      "name": "Gillam",
+      "lat": 56.347184109,
+      "lon": -94.6995585251,
+      "lines": ["WC"],
+      "platformIds": ["139"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "LPOC",
+      "name": "La Pocatière",
+      "lat": 47.3611439876,
+      "lon": -70.0252708213,
+      "lines": ["OC"],
+      "platformIds": ["138"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "BGQU",
+      "name": "Bolger",
+      "lat": 48.252289,
+      "lon": -76.320778,
+      "lines": ["MS"],
+      "platformIds": ["369"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "UTIC",
+      "name": "Utica",
+      "lat": 43.1047345969,
+      "lon": -75.2229334999,
+      "lines": ["ML"],
+      "platformIds": ["366"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "OSHA",
+      "schematicId": "oshawa",
+      "name": "Oshawa",
+      "lat": 43.8708276005,
+      "lon": -78.884625828,
+      "lines": ["OT", "QW"],
+      "platformIds": ["367"],
+      "departureRouteIds": ["226-119", "617-119"]
+    },
+    {
+      "id": "NICH",
+      "name": "Nicholson",
+      "lat": 47.957417,
+      "lon": -83.765483,
+      "lines": ["SW"],
+      "platformIds": ["360"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "BEND",
+      "name": "Bend",
+      "lat": 53.767341,
+      "lon": -121.065261,
+      "lines": ["SK"],
+      "platformIds": ["361"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "MCCR",
+      "name": "McCreary",
+      "lat": 50.771945,
+      "lon": -99.488626,
+      "lines": ["WC"],
+      "platformIds": ["380"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "MEGI",
+      "name": "Megiscane",
+      "lat": 48.332994,
+      "lon": -77.084163,
+      "lines": ["MS"],
+      "platformIds": ["381"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "LUKE",
+      "name": "Luke",
+      "lat": 56.291103,
+      "lon": -94.865351,
+      "lines": ["WC"],
+      "platformIds": ["383"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "RTAC",
+      "name": "Club Rita",
+      "lat": 48.006695,
+      "lon": -74.848222,
+      "lines": ["MS"],
+      "platformIds": ["384"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "LOOS",
+      "name": "Loos",
+      "lat": 53.607823,
+      "lon": -120.723372,
+      "lines": ["SK"],
+      "platformIds": ["386"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "WBDN",
+      "name": "Wabowden",
+      "lat": 54.909127,
+      "lon": -98.630582,
+      "lines": ["WC"],
+      "platformIds": ["387"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "WNPG",
+      "schematicId": "winnipeg",
+      "name": "Winnipeg",
+      "lat": 49.8893855363,
+      "lon": -97.1335833128,
+      "lines": ["CA", "WC"],
+      "platformIds": ["388"],
+      "departureRouteIds": ["388-435", "8-119"]
+    },
+    {
+      "id": "FALL",
+      "name": "Fallowfield",
+      "lat": 45.299303,
+      "lon": -75.736708,
+      "lines": ["OT"],
+      "platformIds": ["576"],
+      "departureRouteIds": ["617-119"]
+    },
+    {
+      "id": "SPAR",
+      "name": "South Parry",
+      "lat": 45.3459099307,
+      "lon": -80.0378863644,
+      "lines": ["CA"],
+      "platformIds": ["60"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "KITW",
+      "name": "Kitwanga",
+      "lat": 55.099343,
+      "lon": -128.051963,
+      "lines": ["SK"],
+      "platformIds": ["61"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "HNPN",
+      "name": "Hornepayne",
+      "lat": 49.217193,
+      "lon": -84.773569,
+      "lines": ["CA"],
+      "platformIds": ["63"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "HRVY",
+      "name": "Harvey",
+      "lat": 52.9583306205,
+      "lon": -119.446827647,
+      "lines": ["SK"],
+      "platformIds": ["64"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "LAFO",
+      "name": "Laforest",
+      "lat": 47.0346825884,
+      "lon": -81.2142134206,
+      "lines": ["CA"],
+      "platformIds": ["65"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "ILFO",
+      "name": "Ilford",
+      "lat": 56.0652428777,
+      "lon": -95.6050550086,
+      "lines": ["WC"],
+      "platformIds": ["67"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "PATE",
+      "name": "Paterson",
+      "lat": 54.426349,
+      "lon": -99.996659,
+      "lines": ["WC"],
+      "platformIds": ["252"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "MNET",
+      "name": "Monet",
+      "lat": 48.169482,
+      "lon": -75.643856,
+      "lines": ["MS"],
+      "platformIds": ["253"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "CARI",
+      "name": "Caribou",
+      "lat": 47.733048,
+      "lon": -72.215804,
+      "lines": ["MJ"],
+      "platformIds": ["250"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "PACI",
+      "name": "Pacific",
+      "lat": 54.770815,
+      "lon": -128.272199,
+      "lines": ["SK"],
+      "platformIds": ["256"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "VLMT",
+      "name": "Valemount",
+      "lat": 52.8348571623,
+      "lon": -119.26169207,
+      "lines": ["CA"],
+      "platformIds": ["257"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "EDSN",
+      "name": "Edson",
+      "lat": 53.579558,
+      "lon": -116.430566,
+      "lines": ["CA"],
+      "platformIds": ["254"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "PRLL",
+      "name": "Lac-aux-Perles",
+      "lat": 47.532284,
+      "lon": -72.234964,
+      "lines": ["MJ"],
+      "platformIds": ["255"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "MELV",
+      "name": "Melville",
+      "lat": 50.9258992573,
+      "lon": -102.807582667,
+      "lines": ["CA"],
+      "platformIds": ["506"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "THOM",
+      "schematicId": "thompson",
+      "name": "Thompson",
+      "lat": 55.740715,
+      "lon": -97.830098,
+      "lines": ["WC"],
+      "platformIds": ["503"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "DRMV",
+      "name": "Drummondville",
+      "lat": 45.882431,
+      "lon": -72.487905,
+      "lines": ["OC", "OT", "QW"],
+      "platformIds": ["630"],
+      "departureRouteIds": ["226-620", "617-628", "628-226", "628-576"]
+    },
+    {
+      "id": "SHYA",
+      "name": "Saint-Hyacinthe",
+      "lat": 45.6277076183,
+      "lon": -72.9489314282,
+      "lines": ["OC", "OT", "QW"],
+      "platformIds": ["631"],
+      "departureRouteIds": ["226-620", "617-628", "628-226", "628-576"]
+    },
+    {
+      "id": "CASS",
+      "name": "Cassiar Cannery",
+      "lat": 54.1780216868,
+      "lon": -130.17639658,
+      "lines": ["SK"],
+      "platformIds": ["632"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "ANJO",
+      "name": "Anjou (EXO)",
+      "lat": 45.617795995,
+      "lon": -73.5968018318,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["633"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "AMYO",
+      "name": "Amyot",
+      "lat": 48.4828773018,
+      "lon": -84.9541217733,
+      "lines": ["SW"],
+      "platformIds": ["636"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "SWAN",
+      "name": "Swanson",
+      "lat": 48.4828214782,
+      "lon": -84.5348451295,
+      "lines": ["SW"],
+      "platformIds": ["637"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "WILD",
+      "name": "Wilde",
+      "lat": 55.7255854196,
+      "lon": -96.8154763023,
+      "lines": ["WC"],
+      "platformIds": ["461"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "SENN",
+      "schematicId": "senneterre",
+      "name": "Senneterre",
+      "lat": 48.392294,
+      "lon": -77.244388,
+      "lines": ["MS"],
+      "platformIds": ["460"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "WGWC",
+      "name": "Wigwam",
+      "lat": 47.853405,
+      "lon": -73.468078,
+      "lines": ["MS"],
+      "platformIds": ["168"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "GVIE",
+      "name": "Grandview",
+      "lat": 51.172866,
+      "lon": -100.700644,
+      "lines": ["WC"],
+      "platformIds": ["169"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "KORM",
+      "name": "Kormak",
+      "lat": 47.631224,
+      "lon": -82.972526,
+      "lines": ["SW"],
+      "platformIds": ["164"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "LEVN",
+      "name": "Leven",
+      "lat": 55.381287,
+      "lon": -97.541302,
+      "lines": ["WC"],
+      "platformIds": ["165"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "STAD",
+      "name": "Stadacona",
+      "lat": 47.441409,
+      "lon": -72.249148,
+      "lines": ["MJ"],
+      "platformIds": ["166"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "MLCH",
+      "name": "Malachi",
+      "lat": 49.929327,
+      "lon": -94.9908758981,
+      "lines": ["CA"],
+      "platformIds": ["167"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "KPTC",
+      "name": "Club Kapitachuan",
+      "lat": 48.19652,
+      "lon": -75.808768,
+      "lines": ["MS"],
+      "platformIds": ["160"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "KISK",
+      "name": "Kiskisink",
+      "lat": 47.931659,
+      "lon": -72.146402,
+      "lines": ["MJ"],
+      "platformIds": ["161"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "BRTF",
+      "name": "Brantford",
+      "lat": 43.146686,
+      "lon": -80.265709,
+      "lines": ["QW"],
+      "platformIds": ["162"],
+      "departureRouteIds": ["119-618", "119-93"]
+    },
+    {
+      "id": "GAGN",
+      "name": "Gagnon",
+      "lat": 48.249485,
+      "lon": -76.113722,
+      "lines": ["MS"],
+      "platformIds": ["163"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "ALDR",
+      "schematicId": "aldershot",
+      "name": "Aldershot",
+      "lat": 43.312886,
+      "lon": -79.855009,
+      "lines": ["ML", "QW"],
+      "platformIds": ["600"],
+      "departureRouteIds": ["119-120", "119-618", "119-93"]
+    },
+    {
+      "id": "PHOP",
+      "name": "Port Hope",
+      "lat": 43.943592,
+      "lon": -78.299017,
+      "lines": ["OT"],
+      "platformIds": ["9"],
+      "departureRouteIds": ["617-119"]
+    },
+    {
+      "id": "BUFF",
+      "name": "Buffalo (Depew)",
+      "lat": 42.9073418085,
+      "lon": -78.7265882913,
+      "lines": ["ML"],
+      "platformIds": ["357"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "ARNO",
+      "name": "Arnot",
+      "lat": 55.7664675457,
+      "lon": -96.6879191931,
+      "lines": ["WC"],
+      "platformIds": ["356"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "CBTN",
+      "name": "Campbellton",
+      "lat": 48.004856,
+      "lon": -66.67838,
+      "lines": ["OC"],
+      "platformIds": ["355"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "ODHI",
+      "name": "Odhill",
+      "lat": 55.108691,
+      "lon": -98.223475,
+      "lines": ["WC"],
+      "platformIds": ["353"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "ODAY",
+      "name": "O'Day",
+      "lat": 57.5975850033,
+      "lon": -94.210193254,
+      "lines": ["WC"],
+      "platformIds": ["352"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "COTO",
+      "name": "Coteau",
+      "lat": 45.27488,
+      "lon": -74.23292,
+      "lines": ["OT"],
+      "platformIds": ["351"],
+      "departureRouteIds": ["617-628", "628-576"]
+    },
+    {
+      "id": "RAPX",
+      "name": "Rivière-à-Pierre",
+      "lat": 46.989034,
+      "lon": -72.17939,
+      "lines": ["MJ"],
+      "platformIds": ["350"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "CASY",
+      "name": "Casey",
+      "lat": 47.887858,
+      "lon": -74.181031,
+      "lines": ["MS"],
+      "platformIds": ["216"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "TRTC",
+      "name": "Club Triton",
+      "lat": 47.61346,
+      "lon": -72.244177,
+      "lines": ["MJ"],
+      "platformIds": ["217"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "GIRD",
+      "name": "Girdwood",
+      "lat": 48.457978,
+      "lon": -84.771044,
+      "lines": ["SW"],
+      "platformIds": ["214"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "MJBG",
+      "name": "Manjobagues",
+      "lat": 47.872818,
+      "lon": -74.471608,
+      "lines": ["MS"],
+      "platformIds": ["215"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "MCCA",
+      "name": "McCarthy",
+      "lat": 47.860133,
+      "lon": -74.348003,
+      "lines": ["MS"],
+      "platformIds": ["212"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "CROT",
+      "name": "Croton-Harmon",
+      "lat": 41.1896724814,
+      "lon": -73.8825691997,
+      "lines": ["ML"],
+      "platformIds": ["210"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "MTGM",
+      "name": "Metagama",
+      "lat": 47.092646,
+      "lon": -81.94363,
+      "lines": ["SW"],
+      "platformIds": ["218"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "DAUP",
+      "name": "Dauphin",
+      "lat": 51.150241,
+      "lon": -100.052322,
+      "lines": ["WC"],
+      "platformIds": ["289"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "NBND",
+      "name": "North Bend",
+      "lat": 49.876867,
+      "lon": -121.449673,
+      "lines": ["CA"],
+      "platformIds": ["288"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "SUDJ",
+      "schematicId": "sudbury-jct",
+      "name": "Sudbury Jct",
+      "lat": 46.5246102838,
+      "lon": -80.9020861775,
+      "lines": ["CA"],
+      "platformIds": ["4"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "SINM",
+      "name": "Sinclair Mills",
+      "lat": 54.019372,
+      "lon": -121.678516,
+      "lines": ["SK"],
+      "platformIds": ["281"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "WYOM",
+      "name": "Wyoming",
+      "lat": 42.94796,
+      "lon": -82.12226,
+      "lines": ["TS"],
+      "platformIds": ["280"],
+      "departureRouteIds": ["119-341"]
+    },
+    {
+      "id": "WDST",
+      "name": "Woodstock",
+      "lat": 43.126528,
+      "lon": -80.752123,
+      "lines": ["QW"],
+      "platformIds": ["282"],
+      "departureRouteIds": ["119-618", "119-93"]
+    },
+    {
+      "id": "KATZ",
+      "name": "Katz",
+      "lat": 49.3686134626,
+      "lon": -121.551229101,
+      "lines": ["CA"],
+      "platformIds": ["285"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "TIDL",
+      "name": "Tidal",
+      "lat": 58.6600071977,
+      "lon": -94.120781119,
+      "lines": ["WC"],
+      "platformIds": ["284"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "SHEA",
+      "name": "Sheahan",
+      "lat": 46.940241,
+      "lon": -81.797855,
+      "lines": ["SW"],
+      "platformIds": ["287"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "STRN",
+      "name": "Strachan",
+      "lat": 48.030046,
+      "lon": -74.865886,
+      "lines": ["MS"],
+      "platformIds": ["286"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "HINT",
+      "name": "Hinton",
+      "lat": 53.4005,
+      "lon": -117.590048,
+      "lines": ["CA"],
+      "platformIds": ["263"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "PNTN",
+      "name": "Ponton",
+      "lat": 54.652294,
+      "lon": -99.12437,
+      "lines": ["WC"],
+      "platformIds": ["262"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "RSRV",
+      "name": "Reserve",
+      "lat": 52.4708878674,
+      "lon": -102.647308093,
+      "lines": ["WC"],
+      "platformIds": ["261"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "HUDS",
+      "name": "Hudson",
+      "lat": 42.25401,
+      "lon": -73.798032,
+      "lines": ["ML"],
+      "platformIds": ["260"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "MIRA",
+      "name": "Miramichi",
+      "lat": 47.0047630786,
+      "lon": -65.5735509888,
+      "lines": ["OC"],
+      "platformIds": ["267"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "SULT",
+      "name": "Sultan",
+      "lat": 47.594677,
+      "lon": -82.772959,
+      "lines": ["SW"],
+      "platformIds": ["266"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "RAMS",
+      "name": "Ramsey",
+      "lat": 47.446379,
+      "lon": -82.338701,
+      "lines": ["SW"],
+      "platformIds": ["265"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "WNTB",
+      "name": "Winnitoba",
+      "lat": 49.8835958588,
+      "lon": -95.1946000933,
+      "lines": ["CA"],
+      "platformIds": ["264"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "ASHN",
+      "name": "Ashcroft",
+      "lat": 50.730397,
+      "lon": -121.26929,
+      "lines": ["CA"],
+      "platformIds": ["269"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "BLUE",
+      "name": "Blue River",
+      "lat": 52.105382,
+      "lon": -119.300439,
+      "lines": ["CA"],
+      "platformIds": ["268"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "WSHG",
+      "schematicId": "washago",
+      "name": "Washago",
+      "lat": 44.748362,
+      "lon": -79.334872,
+      "lines": ["CA"],
+      "platformIds": ["59"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "KGON",
+      "schematicId": "kingston",
+      "name": "Kingston",
+      "lat": 44.257016447,
+      "lon": -76.5366231779,
+      "lines": ["OT", "QW"],
+      "platformIds": ["58"],
+      "departureRouteIds": ["226-119", "617-119"]
+    },
+    {
+      "id": "PRSS",
+      "name": "Press",
+      "lat": 48.242405,
+      "lon": -76.73338,
+      "lines": ["MS"],
+      "platformIds": ["55"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "MMGY",
+      "name": "Montmagny",
+      "lat": 46.9732660745,
+      "lon": -70.5596334041,
+      "lines": ["OC"],
+      "platformIds": ["54"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "LDES",
+      "name": "Lac des Roches",
+      "lat": 47.999726,
+      "lon": -72.18357,
+      "lines": ["MJ"],
+      "platformIds": ["51"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "RBLN",
+      "name": "Roblin",
+      "lat": 51.2303140387,
+      "lon": -101.352570991,
+      "lines": ["WC"],
+      "platformIds": ["50"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "LIZO",
+      "name": "Club Lizotte",
+      "lat": 48.100262,
+      "lon": -72.17883,
+      "lines": ["MJ"],
+      "platformIds": ["52"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "ROME",
+      "name": "Rome",
+      "lat": 43.1998550947,
+      "lon": -75.4498869629,
+      "lines": ["ML"],
+      "platformIds": ["259"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "RCHN",
+      "name": "Richan",
+      "lat": 49.9948359438,
+      "lon": -92.82826471,
+      "lines": ["CA"],
+      "platformIds": ["115"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "MCKC",
+      "name": "McKee's Camp",
+      "lat": 47.1064600218,
+      "lon": -81.2590280552,
+      "lines": ["CA"],
+      "platformIds": ["68"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "KAMN",
+      "name": "Kamloops North",
+      "lat": 50.718257,
+      "lon": -120.3484611,
+      "lines": ["CA"],
+      "platformIds": ["117"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "WHTR",
+      "schematicId": "white-river",
+      "name": "White River",
+      "lat": 48.589888,
+      "lon": -85.282991,
+      "lines": ["SW"],
+      "platformIds": ["116"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "RLRX",
+      "name": "Red Lake Road",
+      "lat": 49.973263,
+      "lon": -93.357647,
+      "lines": ["CA"],
+      "platformIds": ["111"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "MTPD",
+      "name": "Matapédia",
+      "lat": 47.9747533063,
+      "lon": -66.9392200995,
+      "lines": ["OC"],
+      "platformIds": ["110"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "CAPR",
+      "name": "Capreol",
+      "lat": 46.711226,
+      "lon": -80.929777,
+      "lines": ["CA"],
+      "platformIds": ["113"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "PARS",
+      "name": "Parry Sound",
+      "lat": 45.3507602837,
+      "lon": -80.037136248,
+      "lines": ["CA"],
+      "platformIds": ["69"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "TRTO",
+      "schematicId": "toronto",
+      "name": "Toronto",
+      "lat": 43.64481,
+      "lon": -79.38032,
+      "lines": ["CA", "ML", "OT", "QW", "TS"],
+      "platformIds": ["119"],
+      "departureRouteIds": [
+        "119-120",
+        "119-341",
+        "119-618",
+        "119-93",
+        "226-119",
+        "617-119",
+        "8-119"
+      ]
+    },
+    {
+      "id": "SASK",
+      "schematicId": "saskatoon",
+      "name": "Saskatoon",
+      "lat": 52.1045419038,
+      "lon": -106.738216939,
+      "lines": ["CA"],
+      "platformIds": ["118"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "ESHR",
+      "name": "Esher",
+      "lat": 47.852356,
+      "lon": -83.563047,
+      "lines": ["SW"],
+      "platformIds": ["429"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "KINO",
+      "name": "Kinogama",
+      "lat": 47.644993,
+      "lon": -83.012966,
+      "lines": ["SW"],
+      "platformIds": ["420"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "DIXX",
+      "name": "Dix",
+      "lat": 48.253429,
+      "lon": -76.147166,
+      "lines": ["MS"],
+      "platformIds": ["423"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "DUPL",
+      "name": "Duplessis",
+      "lat": 47.700376,
+      "lon": -73.208067,
+      "lines": ["MS"],
+      "platformIds": ["425"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "ENDA",
+      "name": "Endako",
+      "lat": 54.085253,
+      "lon": -125.021369,
+      "lines": ["SK"],
+      "platformIds": ["424"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "GLBP",
+      "name": "Gilbert Plains",
+      "lat": 51.1478,
+      "lon": -100.48908,
+      "lines": ["WC"],
+      "platformIds": ["427"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "PARE",
+      "name": "Parent",
+      "lat": 47.91958,
+      "lon": -74.614225,
+      "lines": ["MS"],
+      "platformIds": ["426"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "WILR",
+      "name": "Willow River",
+      "lat": 54.073935,
+      "lon": -122.477345,
+      "lines": ["SK"],
+      "platformIds": ["308"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "NAPN",
+      "name": "Napanee",
+      "lat": 44.25365,
+      "lon": -76.954262,
+      "lines": ["OT"],
+      "platformIds": ["309"],
+      "departureRouteIds": ["617-119"]
+    },
+    {
+      "id": "VERE",
+      "name": "Veregin",
+      "lat": 51.581365,
+      "lon": -102.076856,
+      "lines": ["WC"],
+      "platformIds": ["301"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "OSKL",
+      "name": "Oskelaneo Lodge",
+      "lat": 48.111198,
+      "lon": -75.056591,
+      "lines": ["MS"],
+      "platformIds": ["303"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "UFRZ",
+      "name": "Upper Fraser",
+      "lat": 54.120005,
+      "lon": -121.946648,
+      "lines": ["SK"],
+      "platformIds": ["305"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "SANM",
+      "name": "Sanmaur",
+      "lat": 47.893778,
+      "lon": -73.795987,
+      "lines": ["MS"],
+      "platformIds": ["306"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "SMTR",
+      "name": "Smithers",
+      "lat": 54.777708,
+      "lon": -127.176219,
+      "lines": ["SK"],
+      "platformIds": ["307"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "ABBO",
+      "name": "Abbotsford",
+      "lat": 49.116845,
+      "lon": -122.277756,
+      "lines": ["CA"],
+      "platformIds": ["145"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "CHES",
+      "name": "Chesnaye",
+      "lat": 58.1602,
+      "lon": -94.144847,
+      "lines": ["WC"],
+      "platformIds": ["229"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "WATR",
+      "name": "Watrous",
+      "lat": 51.670986,
+      "lon": -105.468425,
+      "lines": ["CA"],
+      "platformIds": ["228"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "NHAZ",
+      "name": "New Hazelton",
+      "lat": 55.25068,
+      "lon": -127.578331,
+      "lines": ["SK"],
+      "platformIds": ["227"],
+      "departureRouteIds": ["21-458"]
+    },
+    {
+      "id": "MTRL",
+      "schematicId": "montreal",
+      "name": "Montréal",
+      "lat": 45.4999195215,
+      "lon": -73.5661785423,
+      "lines": ["MJ", "MS", "OC", "OT", "QW"],
+      "platformIds": ["226"],
+      "departureRouteIds": [
+        "226-119",
+        "226-444",
+        "226-460",
+        "226-620",
+        "617-226",
+        "617-628",
+        "628-226",
+        "628-576"
+      ]
+    },
+    {
+      "id": "PLPX",
+      "name": "Portage la Prairie",
+      "lat": 49.977384,
+      "lon": -98.288261,
+      "lines": ["CA", "WC"],
+      "platformIds": ["224"],
+      "departureRouteIds": ["388-435", "8-119"]
+    },
+    {
+      "id": "RHIN",
+      "name": "Rhinecliff",
+      "lat": 41.9213333473,
+      "lon": -73.9517720688,
+      "lines": ["ML"],
+      "platformIds": ["222"],
+      "departureRouteIds": ["119-120"]
+    },
+    {
+      "id": "AMQU",
+      "name": "Amqui",
+      "lat": 48.46626,
+      "lon": -67.436172,
+      "lines": ["OC"],
+      "platformIds": ["221"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "AZIL",
+      "name": "Azilda",
+      "lat": 46.564107,
+      "lon": -81.138044,
+      "lines": ["SW"],
+      "platformIds": ["220"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "KITC",
+      "schematicId": "kitchener",
+      "name": "Kitchener",
+      "lat": 43.4557410329,
+      "lon": -80.4932068748,
+      "lines": ["TS"],
+      "platformIds": ["114"],
+      "departureRouteIds": ["119-341"]
+    },
+    {
+      "id": "LOCH",
+      "name": "Lochalsh",
+      "lat": 48.351378,
+      "lon": -84.264006,
+      "lines": ["SW"],
+      "platformIds": ["391"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "CANO",
+      "name": "Canora",
+      "lat": 51.637535,
+      "lon": -102.435783,
+      "lines": ["WC"],
+      "platformIds": ["89"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "HALC",
+      "name": "Halcrow",
+      "lat": 54.169555,
+      "lon": -100.649012,
+      "lines": ["WC"],
+      "platformIds": ["151"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "CHAT",
+      "name": "Chatham",
+      "lat": 42.397264,
+      "lon": -82.179615,
+      "lines": ["QW"],
+      "platformIds": ["601"],
+      "departureRouteIds": ["119-618"]
+    },
+    {
+      "id": "BRGR",
+      "name": "Bridgar",
+      "lat": 55.636842,
+      "lon": -97.06135,
+      "lines": ["WC"],
+      "platformIds": ["157"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "CWLL",
+      "schematicId": "cornwall",
+      "name": "Cornwall",
+      "lat": 45.0422284762,
+      "lon": -74.7434632201,
+      "lines": ["QW"],
+      "platformIds": ["602"],
+      "departureRouteIds": ["226-119"]
+    },
+    {
+      "id": "ENDV",
+      "name": "Endeavour",
+      "lat": 52.158309,
+      "lon": -102.652447,
+      "lines": ["WC"],
+      "platformIds": ["159"],
+      "departureRouteIds": ["388-435"]
+    },
+    {
+      "id": "HOCK",
+      "name": "Hockin",
+      "lat": 55.275929,
+      "lon": -97.832626,
+      "lines": ["WC"],
+      "platformIds": ["158"],
+      "departureRouteIds": ["149-435", "388-435"]
+    },
+    {
+      "id": "FERG",
+      "name": "Ferguson",
+      "lat": 47.812961,
+      "lon": -73.41743,
+      "lines": ["MS"],
+      "platformIds": ["83"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "SAUV",
+      "name": "Sauvé (EXO)",
+      "lat": 45.5494849036,
+      "lon": -73.6543026048,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["634"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "NCLC",
+      "name": "Club Nicol",
+      "lat": 47.575221,
+      "lon": -72.24106,
+      "lines": ["MJ"],
+      "platformIds": ["399"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "GRGC",
+      "name": "Club Grégoire",
+      "lat": 47.769223,
+      "lon": -72.182779,
+      "lines": ["MJ"],
+      "platformIds": ["48"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "WYMT",
+      "name": "Weymont",
+      "lat": 47.897887,
+      "lon": -73.775387,
+      "lines": ["MS"],
+      "platformIds": ["49"],
+      "departureRouteIds": ["226-460"]
+    },
+    {
+      "id": "LMAL",
+      "name": "Lac Malouin",
+      "lat": 47.394387,
+      "lon": -72.224329,
+      "lines": ["MJ"],
+      "platformIds": ["46"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "SMQU",
+      "name": "Summit",
+      "lat": 47.788379,
+      "lon": -72.185186,
+      "lines": ["MJ"],
+      "platformIds": ["47"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "SLKT",
+      "name": "Sioux Lookout",
+      "lat": 50.0973851762,
+      "lon": -91.916294717,
+      "lines": ["CA"],
+      "platformIds": ["44"],
+      "departureRouteIds": ["8-119"]
+    },
+    {
+      "id": "CHER",
+      "name": "Cherokee",
+      "lat": 47.724138,
+      "lon": -72.229872,
+      "lines": ["MJ"],
+      "platformIds": ["45"],
+      "departureRouteIds": ["226-444"]
+    },
+    {
+      "id": "SAYA",
+      "name": "Sayabec",
+      "lat": 48.558674,
+      "lon": -67.689528,
+      "lines": ["OC"],
+      "platformIds": ["42"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "SJUS",
+      "name": "Saint-Justin",
+      "lat": 46.2731454565,
+      "lon": -73.1095859975,
+      "lines": ["MJ", "MS"],
+      "platformIds": ["43"],
+      "departureRouteIds": ["226-444", "226-460"]
+    },
+    {
+      "id": "SPRJ",
+      "name": "Springhill Jct.",
+      "lat": 45.6917841473,
+      "lon": -64.1112508945,
+      "lines": ["OC"],
+      "platformIds": ["41"],
+      "departureRouteIds": ["226-620"]
+    },
+    {
+      "id": "SNKR",
+      "name": "Sinker",
+      "lat": 47.1484632902,
+      "lon": -81.960571119,
+      "lines": ["SW"],
+      "platformIds": ["638"],
+      "departureRouteIds": ["621-116"]
+    },
+    {
+      "id": "FRKS",
+      "name": "Forks",
+      "lat": 47.0487819486,
+      "lon": -81.8637623524,
+      "lines": ["SW"],
+      "platformIds": ["639"],
+      "departureRouteIds": ["621-116"]
+    }
+  ]
+}

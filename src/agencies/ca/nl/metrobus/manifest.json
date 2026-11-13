@@ -1,0 +1,146 @@
+{
+  "id": "metrobus",
+  "name": "Metrobus Transit",
+  "shortName": "Metrobus Transit",
+  "serviceArea": "St. John's, Mount Pearl and Paradise",
+  "locale": "en-CA",
+  "timezone": "America/St_Johns",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "nl"
+  },
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Metrobus Transit / St. John's Transportation Commission",
+    "url": "https://www.metrobus.com/gtfs.asp",
+    "license": "Data used in this product or service is provided by Metrobus Transit, however Metrobus Transit assumes no responsibility for the accuracy or currency of the Data used in this product or service. The Data Terms of Use & EULA reserve additional terms or fees for commercial users who charge riders.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "url": "https://www.metrobustransit.ca/google/google_transit.zip",
+        "cacheFileName": "metrobus-gtfs.zip"
+      }
+    ]
+  },
+  "bounds": [
+    {
+      "minLat": 47.434,
+      "maxLat": 47.622,
+      "minLon": -52.875,
+      "maxLon": -52.676
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "10", "11"],
+  "cityPresets": [
+    {
+      "name": "Village Shopping Centre",
+      "lat": 47.533785,
+      "lon": -52.750122
+    },
+    {
+      "name": "Avalon Mall",
+      "lat": 47.55998,
+      "lon": -52.757503
+    },
+    {
+      "name": "MUN Centre",
+      "lat": 47.57337,
+      "lon": -52.735682
+    }
+  ],
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "station_departures",
+        "format": "json",
+        "url": "https://www.metrobus.com/nextbus/v2/fleetview.asp?type=departures&stopid={stopId}",
+        "headers": {
+          "Referer": "https://www.metrobus.com/nextbus/v2/my-stop.html"
+        },
+        "pollIntervalSeconds": 30,
+        "responseMapping": {
+          "routesPath": "$",
+          "routeIdField": "routeId",
+          "departuresField": "$",
+          "timeField": "secondsToDeparture",
+          "timeFormat": "countdown-seconds",
+          "updatedAtField": "updatedAt",
+          "timeZone": "America/St_Johns",
+          "maxAgeSeconds": 120,
+          "realtimeField": "isRealtime",
+          "realtimeOnly": true,
+          "directionField": "directionId",
+          "headsignField": "direction",
+          "tripIdField": "tripId",
+          "stopSequenceField": "stopSequence",
+          "delaySecondsField": "delaySeconds"
+        }
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "web",
+      "parser": "heading-service-notices",
+      "url": "https://www.metrobus.com/bulletins/",
+      "routeNames": {
+        "1": ["1", "1-1", "1-2"],
+        "2": ["2", "2-1", "2-2"],
+        "3": ["3", "3-1", "3-2"],
+        "6": ["6", "6-1", "6-2"],
+        "9": ["9", "9-1", "9-2"],
+        "10": ["10", "10-1", "10-2"],
+        "11": ["11", "11-1", "11-2"],
+        "12": ["12", "12-1", "12-2"],
+        "13": ["13", "13-1", "13-2"],
+        "14": ["14", "14-1", "14-2"],
+        "15": ["15", "15-1", "15-2"],
+        "16": ["16", "16-1", "16-2"],
+        "18": ["18", "18-1", "18-2"],
+        "19": ["19", "19-1", "19-2"],
+        "20": ["20", "20-1", "20-2"],
+        "21": ["21", "21-1", "21-2"],
+        "22": ["22", "22-1", "22-2"],
+        "23": ["23", "23-1", "23-2"],
+        "24": ["24", "24-1", "24-2"],
+        "26": ["26", "26-1", "26-2"],
+        "29": ["29", "29-1", "29-2"],
+        "30": ["30", "30-1", "30-2"],
+        "33": ["33", "33-1", "33-2"]
+      }
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "10", "11"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": ["service suspended", "all service cancelled"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["detour", "unable to service", "service reductions"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  }
+}

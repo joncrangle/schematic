@@ -1,0 +1,111 @@
+{
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "id": "cornwall",
+  "name": "Cornwall Transit",
+  "serviceArea": "Cornwall",
+  "shortName": "Cornwall",
+  "bounds": [
+    {
+      "minLat": 45.0,
+      "maxLat": 45.073,
+      "minLon": -74.782,
+      "maxLon": -74.66
+    }
+  ],
+  "attribution": {
+    "name": "Cornwall Transit / City of Cornwall",
+    "url": "https://www.cornwall.ca/en/government-council/opendata/",
+    "license": "Contains information licensed under the Open Government Licence – City of Cornwall.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "short_name",
+    "feeds": [
+      {
+        "name": "Cornwall Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-cornwall.zip",
+        "cacheFileName": "cornwall-gtfs.zip"
+      }
+    ],
+    "excludedRouteIds": [
+      "BUSINESS PARK 8",
+      "BUSINESS PARK 9",
+      "BUSINESS PARK 10",
+      "CS-EAST",
+      "CS-WEST"
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://cornwall.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "1000",
+        "profile": {
+          "data": "metrolinx_cornwall",
+          "display": "cornwall"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "5", "6", "7"],
+    "routeLineMap": {
+      "PITT": "1",
+      "SUNRISE": "2",
+      "BROOKDALE": "3",
+      "RIVERDALE": "4",
+      "MCCONNELL": "5",
+      "CUMBERLAND": "6",
+      "MONTREAL": "7"
+    }
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://metrolinx.tmix.se/gtfs-realtime-cornwall/alerts.pb"
+    }
+  ],
+  "cityPresets": [
+    {
+      "name": "Pitt & Second",
+      "lat": 45.018219,
+      "lon": -74.728895
+    },
+    {
+      "name": "Eastcourt Mall",
+      "lat": 45.026733,
+      "lon": -74.703934
+    },
+    {
+      "name": "Cornwall Community Hospital",
+      "lat": 45.02855,
+      "lon": -74.718142
+    },
+    {
+      "name": "Brookdale Centre",
+      "lat": 45.023604,
+      "lon": -74.750111
+    },
+    {
+      "name": "Saint Lawrence College",
+      "lat": 45.017267,
+      "lon": -74.70267
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "5", "6", "7"]
+}

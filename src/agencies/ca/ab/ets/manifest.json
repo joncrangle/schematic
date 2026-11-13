@@ -1,0 +1,234 @@
+{
+  "id": "ets",
+  "name": "Edmonton Transit Service",
+  "serviceArea": "Edmonton",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "bounds": [
+    {
+      "minLat": 53.397257,
+      "maxLat": 53.642736,
+      "minLon": -113.708,
+      "maxLon": -113.342698
+    },
+    {
+      "minLat": 53.302669,
+      "maxLat": 53.45767,
+      "minLon": -113.583628,
+      "maxLon": -113.515992
+    }
+  ],
+  "modes": ["rail", "bus"],
+  "attribution": {
+    "name": "Edmonton Transit Service / City of Edmonton",
+    "url": "https://data.edmonton.ca/Transit/ETS-GTFS-Feed-Trip-Schedule/4fvt-p2se",
+    "license": "City of Edmonton Open Data Terms of Use v2.1: https://www.edmonton.ca/transportation/Web-version2.1-OpenDataAgreement.pdf"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "stationService": [
+    {
+      "routeType": "rail",
+      "splitByLine": true
+    },
+    {
+      "routeType": "bus"
+    }
+  ],
+  "cityPresets": [
+    {
+      "name": "Century Park",
+      "lat": 53.457805,
+      "lon": -113.516303
+    },
+    {
+      "name": "Clareview",
+      "lat": 53.60182,
+      "lon": -113.41125
+    },
+    {
+      "name": "NAIT/Blatchford Market",
+      "lat": 53.567242,
+      "lon": -113.509451
+    },
+    {
+      "name": "Mill Woods",
+      "lat": 53.458447,
+      "lon": -113.429725
+    },
+    {
+      "name": "102 Street",
+      "lat": 53.54316,
+      "lon": -113.494138
+    }
+  ],
+  "popularSurfaceRoutes": ["004", "008", "009", "747"],
+  "staticTopology": {
+    "source": "seed",
+    "sourceAgencyIds": ["1"],
+    "feeds": [
+      {
+        "name": "Edmonton regional GTFS, ETS operator",
+        "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/GTFS/GTFS.zip",
+        "cacheFileName": "ets-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#005A9C",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Alert/Alerts.pb",
+      "language": "en",
+      "accept": "*/*"
+    },
+    {
+      "type": "web",
+      "url": "https://www.edmonton.ca/ets/general-service-alerts",
+      "parser": "heading-service-notices",
+      "language": "en",
+      "routeNames": {
+        "021R": ["Capital Line"],
+        "022R": ["Metro Line"],
+        "023R": ["Valley Line"],
+        "002": ["Route 2 - Glenora"],
+        "051": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "103": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "106": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "618": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "718": ["Routes 718 and 729"],
+        "729": ["Routes 718 and 729"],
+        "610": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "612": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "613": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "614": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "624": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "625": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "626": ["Routes 51, 103, 106 and 618 - 132 Avenue Renewal"],
+        "500X": ["Routes 500X, 511 and 523"],
+        "511": ["Routes 500X, 511 and 523"],
+        "523": ["Routes 500X, 511 and 523"],
+        "008": ["Route 8"]
+      },
+      "stopNames": {
+        "clareview": ["Clareview"],
+        "belvedere": ["Belvedere"],
+        "coliseum": ["Coliseum"],
+        "stadium": ["Stadium"],
+        "churchill": ["Churchill", "Churchill LRT"],
+        "central": ["Central"],
+        "bay-enterprise-square": ["Bay/Enterprise Square"],
+        "corona": ["Corona"],
+        "government-centre": ["Government Centre"],
+        "university": ["University"],
+        "health-sciences-jubilee": ["Health Sciences/Jubilee"],
+        "mckernan-belgravia": ["McKernan/Belgravia"],
+        "south-campus": ["South Campus/Fort Edmonton Park"],
+        "southgate": ["Southgate"],
+        "century-park": ["Century Park"],
+        "102-street": ["102 Street"],
+        "quarters": ["Quarters"],
+        "muttart": ["Muttart"],
+        "strathearn": ["Strathearn"],
+        "holyrood": ["Holyrood"],
+        "bonnie-doon": ["Bonnie Doon"],
+        "avonmore": ["Avonmore"],
+        "davies": ["Davies"],
+        "millbourne-woodvale": ["Millbourne/Woodvale"],
+        "grey-nuns": ["Grey Nuns"],
+        "mill-woods": ["Mill Woods"]
+      }
+    },
+    {
+      "type": "json",
+      "url": "https://data.edmonton.ca/resource/snws-u3zx.json?%24select=device_id+as+id%2C+lrt_station_name+%7C%7C+%27+%27+%7C%7C+device_type+%7C%7C+%27+outage%27+as+title%2C+device_op_status+%7C%7C+%27%3A+%27+%7C%7C+lrt_device_location+as+description%2C+since_time_stamp+as+start_time%2C+%27accessibility%27+as+category%2C+lrt_station_name+as+stopName&%24limit=5000",
+      "parser": "generic-alert-feed",
+      "timestampMode": "agency-local-wall-clock",
+      "language": "en"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["capital", "metro", "valley"],
+    "routeLineMap": {
+      "021R": "capital",
+      "022R": "metro",
+      "023R": "valley"
+    },
+    "titleDateTimezone": "America/Edmonton",
+    "preserveFeedPeriods": true,
+    "rules": [
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": ["elevator", "escalator"]
+        },
+        "result": {
+          "kind": "accessibility",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["detour", "detoured"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ],
+    "routeNames": {
+      "001A": ["Route 1A"],
+      "001B": ["Route 1B"],
+      "002": ["Route 2"],
+      "003": ["Route 3"],
+      "004": ["Route 4"],
+      "005": ["Route 5"],
+      "006": ["Route 6"],
+      "007": ["Route 7"],
+      "008": ["Route 8"],
+      "009": ["Route 9"],
+      "031": ["Route 31"],
+      "051": ["Route 51"],
+      "052": ["Route 52"],
+      "053": ["Route 53"],
+      "054": ["Route 54"],
+      "055": ["Route 55"],
+      "056": ["Route 56"],
+      "124": ["Route 124"]
+    }
+  },
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeIds": ["021R", "022R", "023R"],
+        "routeType": "rail"
+      }
+    ]
+  }
+}

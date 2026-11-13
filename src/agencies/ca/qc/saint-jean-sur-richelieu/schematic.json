@@ -1,0 +1,875 @@
+{
+  "viewBoxWidth": 1400,
+  "viewBoxHeight": 1250,
+  "lines": [
+    {
+      "id": "10",
+      "name": "Ligne bleue",
+      "color": "#0077B7",
+      "points": [
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 400,
+          "y": 800
+        },
+        {
+          "x": 500,
+          "y": 900
+        },
+        {
+          "x": 700,
+          "y": 1100
+        },
+        {
+          "x": 800,
+          "y": 1100
+        },
+        {
+          "x": 900,
+          "y": 1000
+        },
+        {
+          "x": 1000,
+          "y": 1100
+        },
+        {
+          "x": 1200,
+          "y": 1100
+        },
+        {
+          "x": 1200,
+          "y": 900
+        },
+        {
+          "x": 1100,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Ligne jaune",
+      "color": "#E4BB1A",
+      "points": [
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 700
+        },
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 1100,
+          "y": 800
+        },
+        {
+          "x": 1200,
+          "y": 900
+        },
+        {
+          "x": 1200,
+          "y": 1100
+        },
+        {
+          "x": 1000,
+          "y": 1100
+        },
+        {
+          "x": 900,
+          "y": 1000
+        },
+        {
+          "x": 800,
+          "y": 1100
+        },
+        {
+          "x": 700,
+          "y": 1100
+        },
+        {
+          "x": 500,
+          "y": 900
+        },
+        {
+          "x": 400,
+          "y": 800
+        },
+        {
+          "x": 500,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Ligne orange",
+      "color": "#ED782F",
+      "points": [
+        {
+          "x": 650,
+          "y": 300
+        },
+        {
+          "x": 650,
+          "y": 500
+        },
+        {
+          "x": 650,
+          "y": 550
+        },
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 700,
+          "y": 900
+        },
+        {
+          "x": 800,
+          "y": 900
+        },
+        {
+          "x": 800,
+          "y": 1100
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Ligne rouge",
+      "color": "#C73632",
+      "points": [
+        {
+          "x": 400,
+          "y": 300
+        },
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 900
+        },
+        {
+          "x": 800,
+          "y": 1100
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Ligne verte",
+      "color": "#3A9E43",
+      "points": [
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 900,
+          "y": 1000
+        },
+        {
+          "x": 800,
+          "y": 1100
+        }
+      ]
+    },
+    {
+      "id": "96A",
+      "name": "96 A",
+      "color": "#6B6863",
+      "points": [
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 500
+        },
+        {
+          "x": 550,
+          "y": 400
+        },
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 400,
+          "y": 300
+        },
+        {
+          "x": 200,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "96E",
+      "name": "96 Express et Super Express",
+      "color": "#6B6863",
+      "points": [
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 500
+        },
+        {
+          "x": 550,
+          "y": 400
+        },
+        {
+          "x": 550,
+          "y": 300
+        },
+        {
+          "x": 400,
+          "y": 150
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "terminus",
+      "name": "Terminus SJSR",
+      "x": 500,
+      "y": 700,
+      "lines": ["10", "20", "30", "40", "50", "96A", "96E"],
+      "label": {
+        "x": 472,
+        "y": 700,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "carrefour-richelieu",
+      "name": "Carrefour Richelieu",
+      "x": 650,
+      "y": 700,
+      "lines": ["10", "20", "40", "50", "96A", "96E"],
+      "label": {
+        "x": 650,
+        "y": 734,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hopital",
+      "name": "Hôpital du Haut-Richelieu",
+      "x": 800,
+      "y": 700,
+      "lines": ["10", "20", "40", "50", "96A", "96E"],
+      "label": {
+        "x": 824,
+        "y": 674,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "villeneuve",
+      "name": "Villeneuve",
+      "x": 650,
+      "y": 500,
+      "lines": ["30", "96A", "96E"],
+      "label": {
+        "x": 678,
+        "y": 500,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "avenue-du-parc",
+      "name": "Avenue du Parc",
+      "x": 650,
+      "y": 300,
+      "lines": ["30"],
+      "label": {
+        "x": 650,
+        "y": 268,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "saint-luc",
+      "name": "Saint-Luc",
+      "x": 500,
+      "y": 400,
+      "lines": ["40", "96A"],
+      "label": {
+        "x": 472,
+        "y": 400,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "des-legendes",
+      "name": "Des Légendes",
+      "x": 400,
+      "y": 300,
+      "lines": ["40", "96A"],
+      "label": {
+        "x": 428,
+        "y": 300,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "panama",
+      "name": "Terminus Panama",
+      "x": 200,
+      "y": 100,
+      "lines": ["96A"],
+      "label": {
+        "x": 172,
+        "y": 100,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "brossard",
+      "name": "Terminus Brossard",
+      "x": 400,
+      "y": 150,
+      "lines": ["96E"],
+      "label": {
+        "x": 400,
+        "y": 118,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "singer",
+      "name": "Singer",
+      "x": 800,
+      "y": 900,
+      "lines": ["30", "40"],
+      "label": {
+        "x": 828,
+        "y": 900,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cegep",
+      "name": "Cégep",
+      "x": 800,
+      "y": 1100,
+      "lines": ["10", "20", "30", "40", "50"],
+      "label": {
+        "x": 800,
+        "y": 1134,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "des-metiers",
+      "name": "Des Métiers",
+      "x": 900,
+      "y": 1000,
+      "lines": ["10", "20", "50"],
+      "label": {
+        "x": 928,
+        "y": 1000,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "deland",
+      "name": "Deland",
+      "x": 400,
+      "y": 800,
+      "lines": ["10", "20"],
+      "label": {
+        "x": 372,
+        "y": 800,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "industriel",
+      "name": "Industriel",
+      "x": 500,
+      "y": 900,
+      "lines": ["10", "20"],
+      "label": {
+        "x": 472,
+        "y": 900,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "marcel-landry",
+      "name": "Marcel-Landry",
+      "x": 1200,
+      "y": 1100,
+      "lines": ["10", "20"],
+      "label": {
+        "x": 1228,
+        "y": 1100,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "8e-avenue",
+      "name": "8e Avenue",
+      "x": 1200,
+      "y": 900,
+      "lines": ["10", "20"],
+      "label": {
+        "x": 1228,
+        "y": 900,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "conrad-gosselin",
+      "name": "Conrad-Gosselin",
+      "x": 1000,
+      "y": 800,
+      "lines": ["10", "20"],
+      "label": {
+        "x": 1000,
+        "y": 834,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "10",
+      "num": "10",
+      "x": 1233,
+      "y": 1000,
+      "color": "#0077B7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "20",
+      "num": "20",
+      "x": 1167,
+      "y": 1000,
+      "color": "#E4BB1A",
+      "textColor": "#000000"
+    },
+    {
+      "line": "30",
+      "num": "30",
+      "x": 683,
+      "y": 400,
+      "color": "#ED782F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "40",
+      "num": "40",
+      "x": 467,
+      "y": 560,
+      "color": "#C73632",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "50",
+      "num": "50",
+      "x": 933,
+      "y": 950,
+      "color": "#3A9E43",
+      "textColor": "#000000"
+    },
+    {
+      "line": "96A",
+      "num": "96A",
+      "x": 277,
+      "y": 223,
+      "color": "#6B6863",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "96E",
+      "num": "96E",
+      "x": 498,
+      "y": 202,
+      "color": "#6B6863",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "10": [
+      "terminus",
+      "deland",
+      "industriel",
+      "cegep",
+      "des-metiers",
+      "marcel-landry",
+      "8e-avenue",
+      "conrad-gosselin",
+      "hopital",
+      "carrefour-richelieu"
+    ],
+    "20": [
+      "terminus",
+      "carrefour-richelieu",
+      "hopital",
+      "conrad-gosselin",
+      "8e-avenue",
+      "marcel-landry",
+      "des-metiers",
+      "cegep",
+      "industriel",
+      "deland"
+    ],
+    "30": ["avenue-du-parc", "villeneuve", "terminus", "singer", "cegep"],
+    "40": [
+      "des-legendes",
+      "saint-luc",
+      "terminus",
+      "carrefour-richelieu",
+      "hopital",
+      "singer",
+      "cegep"
+    ],
+    "50": ["terminus", "carrefour-richelieu", "hopital", "des-metiers", "cegep"],
+    "96A": [
+      "terminus",
+      "carrefour-richelieu",
+      "hopital",
+      "villeneuve",
+      "saint-luc",
+      "des-legendes",
+      "panama"
+    ],
+    "96E": ["terminus", "carrefour-richelieu", "hopital", "villeneuve", "brossard"]
+  },
+  "stationAliases": {
+    "code:264": "terminus",
+    "code:289": "carrefour-richelieu",
+    "code:212": "hopital",
+    "code:284": "hopital",
+    "code:309": "villeneuve",
+    "code:220": "avenue-du-parc",
+    "code:339": "saint-luc",
+    "code:258": "des-legendes",
+    "code:285": "panama",
+    "code:6005": "brossard",
+    "code:274": "singer",
+    "code:334": "cegep",
+    "code:257": "des-metiers",
+    "code:209": "deland",
+    "code:292": "industriel",
+    "code:316": "marcel-landry",
+    "code:200": "8e-avenue",
+    "code:283": "conrad-gosselin"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 80,
+      "maxX": 1360,
+      "minY": 40,
+      "maxY": 1200
+    },
+    "minZoom": 0.5,
+    "maxZoom": 6
+  },
+  "geoProjection": {
+    "refLonWest": -73.2914,
+    "refLonEast": -73.2318,
+    "refXWest": 500,
+    "refXEast": 1200,
+    "refLatNorth": 45.3619,
+    "refLatSouth": 45.2972,
+    "refYNorth": 300,
+    "refYSouth": 1100
+  },
+  "stationIndex": [
+    {
+      "id": "zenbus:StopArea:SA:319430021:LOC",
+      "schematicId": "8e-avenue",
+      "name": "8e Avenue",
+      "lat": 45.310931,
+      "lon": -73.230153,
+      "lines": ["10", "20"],
+      "platformIds": ["zenbus:StopPoint:SP:299570027:LOC", "zenbus:StopPoint:SP:303660030:LOC"],
+      "departureRouteIds": ["10", "20"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:303700023:LOC",
+      "schematicId": "avenue-du-parc",
+      "name": "Avenue du Parc",
+      "lat": 45.359617,
+      "lon": -73.286113,
+      "lines": ["30"],
+      "platformIds": ["zenbus:StopPoint:SP:305570022:LOC", "zenbus:StopPoint:SP:317340024:LOC"],
+      "departureRouteIds": ["30"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:309440020:LOC",
+      "schematicId": "carrefour-richelieu",
+      "name": "Carrefour Richelieu",
+      "lat": 45.331754,
+      "lon": -73.281611,
+      "lines": ["10", "20", "40", "50", "96A", "96E"],
+      "platformIds": ["zenbus:StopPoint:SP:293630022:LOC", "zenbus:StopPoint:SP:329080020:LOC"],
+      "departureRouteIds": ["10", "20", "40", "50", "96A", "96E"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:317340018:LOC",
+      "schematicId": "cegep",
+      "name": "Cégep",
+      "lat": 45.297437,
+      "lon": -73.266616,
+      "lines": ["10", "20", "30", "40", "50"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:307440023:LOC",
+        "zenbus:StopPoint:SP:313350026:LOC",
+        "zenbus:StopPoint:SP:313350027:LOC",
+        "zenbus:StopPoint:SP:327100038:LOC",
+        "zenbus:StopPoint:SP:329060033:LOC"
+      ],
+      "departureRouteIds": ["10", "20", "30", "40", "50"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:317350020:LOC",
+      "schematicId": "conrad-gosselin",
+      "name": "Conrad-Gosselin",
+      "lat": 45.324506,
+      "lon": -73.253591,
+      "lines": ["10", "20"],
+      "platformIds": ["zenbus:StopPoint:SP:303700028:LOC", "zenbus:StopPoint:SP:331080033:LOC"],
+      "departureRouteIds": ["10", "20"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:313400023:LOC",
+      "schematicId": "deland",
+      "name": "Deland",
+      "lat": 45.319028,
+      "lon": -73.295405,
+      "lines": ["10", "20"],
+      "platformIds": ["zenbus:StopPoint:SP:305580028:LOC", "zenbus:StopPoint:SP:319430025:LOC"],
+      "departureRouteIds": ["10", "20"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:303660028:LOC",
+      "schematicId": "des-legendes",
+      "name": "Des Légendes",
+      "lat": 45.362115,
+      "lon": -73.307026,
+      "lines": ["40", "96A"],
+      "platformIds": ["zenbus:StopPoint:SP:327100040:LOC", "zenbus:StopPoint:SP:329060036:LOC"],
+      "departureRouteIds": ["40", "96A"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:327100028:LOC",
+      "schematicId": "des-metiers",
+      "name": "Des Métiers",
+      "lat": 45.302745,
+      "lon": -73.257774,
+      "lines": ["10", "20", "50"],
+      "platformIds": ["zenbus:StopPoint:SP:303700029:LOC", "zenbus:StopPoint:SP:303720023:LOC"],
+      "departureRouteIds": ["10", "20", "50"]
+    },
+    {
+      "id": "hopital",
+      "schematicId": "hopital",
+      "name": "Hôpital du Haut-Richelieu",
+      "lat": 45.332432,
+      "lon": -73.267731,
+      "lines": ["10", "20", "40", "50", "96A", "96E"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:299650031:LOC",
+        "zenbus:StopPoint:SP:313400028:LOC",
+        "zenbus:StopPoint:SP:327010034:LOC",
+        "zenbus:StopPoint:SP:327100034:LOC"
+      ],
+      "departureRouteIds": ["10", "20", "40", "50", "96A", "96E"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:325250015:LOC",
+      "schematicId": "industriel",
+      "name": "Industriel",
+      "lat": 45.306211,
+      "lon": -73.284234,
+      "lines": ["10", "20"],
+      "platformIds": ["zenbus:StopPoint:SP:303700026:LOC", "zenbus:StopPoint:SP:317350023:LOC"],
+      "departureRouteIds": ["10", "20"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:299570024:LOC",
+      "schematicId": "marcel-landry",
+      "name": "Marcel-Landry",
+      "lat": 45.293859,
+      "lon": -73.231785,
+      "lines": ["10", "20"],
+      "platformIds": ["zenbus:StopPoint:SP:297730026:LOC", "zenbus:StopPoint:SP:307430029:LOC"],
+      "departureRouteIds": ["10", "20"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:303720021:LOC",
+      "schematicId": "saint-luc",
+      "name": "Saint-Luc",
+      "lat": 45.359266,
+      "lon": -73.301061,
+      "lines": ["40", "96A"],
+      "platformIds": ["zenbus:StopPoint:SP:319430028:LOC", "zenbus:StopPoint:SP:331070029:LOC"],
+      "departureRouteIds": ["40", "96A"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:319400024:LOC",
+      "schematicId": "singer",
+      "name": "Singer",
+      "lat": 45.311015,
+      "lon": -73.265146,
+      "lines": ["30", "40"],
+      "platformIds": ["zenbus:StopPoint:SP:307440022:LOC", "zenbus:StopPoint:SP:331070028:LOC"],
+      "departureRouteIds": ["30", "40"]
+    },
+    {
+      "id": "zenbus:StopPoint:SP:4851042301771776:LOC",
+      "schematicId": "brossard",
+      "name": "Terminus Brossard",
+      "lat": 45.437334,
+      "lon": -73.431862,
+      "lines": ["96E"],
+      "platformIds": ["zenbus:StopPoint:SP:4851042301771776:LOC"],
+      "departureRouteIds": ["96E", "96S"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:480610001:LOC",
+      "schematicId": "panama",
+      "name": "Terminus Panama",
+      "lat": 45.466361,
+      "lon": -73.468017,
+      "lines": ["96A"],
+      "platformIds": ["zenbus:StopPoint:SP:838160010:LOC", "zenbus:StopPoint:SP:840050001:LOC"],
+      "departureRouteIds": ["96A"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:319400021:LOC",
+      "schematicId": "terminus",
+      "name": "Terminus SJSR",
+      "lat": 45.325981,
+      "lon": -73.291221,
+      "lines": ["10", "20", "30", "40", "50", "96A", "96E"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:293640025:LOC",
+        "zenbus:StopPoint:SP:303660034:LOC",
+        "zenbus:StopPoint:SP:305570024:LOC",
+        "zenbus:StopPoint:SP:309430020:LOC",
+        "zenbus:StopPoint:SP:319410024:LOC",
+        "zenbus:StopPoint:SP:327010028:LOC",
+        "zenbus:StopPoint:SP:327010035:LOC"
+      ],
+      "departureRouteIds": ["10", "20", "30", "40", "50", "96A", "96E", "96S"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:530940001:LOC",
+      "schematicId": "villeneuve",
+      "name": "Villeneuve",
+      "lat": 45.340817,
+      "lon": -73.280156,
+      "lines": ["30", "96A", "96E"],
+      "platformIds": ["zenbus:StopPoint:SP:16050082:LOC", "zenbus:StopPoint:SP:16060080:LOC"],
+      "departureRouteIds": ["30", "96A", "96E"]
+    }
+  ]
+}

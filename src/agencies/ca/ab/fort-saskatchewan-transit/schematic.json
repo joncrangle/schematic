@@ -1,0 +1,307 @@
+{
+  "viewBoxWidth": 960,
+  "viewBoxHeight": 860,
+  "lines": [
+    {
+      "id": "F600",
+      "name": "Fort Saskatchewan - Bethel",
+      "color": "#002D56",
+      "points": [
+        {
+          "x": 500,
+          "y": 620
+        },
+        {
+          "x": 500,
+          "y": 780
+        }
+      ]
+    },
+    {
+      "id": "F610",
+      "name": "Westpark",
+      "color": "#002D56",
+      "points": [
+        {
+          "x": 500.0,
+          "y": 615.0
+        },
+        {
+          "x": 655.0,
+          "y": 615.0
+        },
+        {
+          "x": 655.0,
+          "y": 305.0
+        },
+        {
+          "x": 265.0,
+          "y": 305.0
+        },
+        {
+          "x": 265.0,
+          "y": 615.0
+        },
+        {
+          "x": 500.0,
+          "y": 615.0
+        }
+      ]
+    },
+    {
+      "id": "F611",
+      "name": "Downtown",
+      "color": "#D33039",
+      "points": [
+        {
+          "x": 500.0,
+          "y": 625.0
+        },
+        {
+          "x": 255.0,
+          "y": 625.0
+        },
+        {
+          "x": 255.0,
+          "y": 295.0
+        },
+        {
+          "x": 657.93,
+          "y": 295.0
+        },
+        {
+          "x": 785.0,
+          "y": 167.93
+        },
+        {
+          "x": 785.0,
+          "y": 625.0
+        },
+        {
+          "x": 500.0,
+          "y": 625.0
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "dow-centennial",
+      "name": "Dow Centennial Centre",
+      "x": 500,
+      "y": 620,
+      "lines": ["F600", "F610", "F611"],
+      "label": {
+        "x": 500,
+        "y": 584.0,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "westpark",
+      "name": "Westpark Boulevard",
+      "x": 380,
+      "y": 620,
+      "lines": ["F610", "F611"],
+      "label": {
+        "x": 380,
+        "y": 650.0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "southfort",
+      "name": "Southfort Drive",
+      "x": 580,
+      "y": 620,
+      "lines": ["F610", "F611"],
+      "label": {
+        "x": 580,
+        "y": 650.0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "highway-15",
+      "name": "99 Avenue & Highway 15",
+      "x": 460,
+      "y": 300,
+      "lines": ["F610", "F611"],
+      "label": {
+        "x": 460,
+        "y": 270.0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown",
+      "x": 785.0,
+      "y": 240.0,
+      "lines": ["F611"],
+      "label": {
+        "x": 810.0,
+        "y": 240.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 785.0,
+      "y": 460.0,
+      "lines": ["F611"],
+      "label": {
+        "x": 810.0,
+        "y": 460.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel Transit Terminal",
+      "x": 500,
+      "y": 780,
+      "lines": ["F600"],
+      "label": {
+        "x": 525.0,
+        "y": 780,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "F610",
+      "num": "610",
+      "x": 297,
+      "y": 460,
+      "color": "#002D56",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "F611",
+      "num": "611",
+      "x": 817,
+      "y": 540,
+      "color": "#D33039",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "F600",
+      "num": "600",
+      "x": 532,
+      "y": 720,
+      "color": "#002D56",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 120,
+      "maxX": 960,
+      "minY": 120,
+      "maxY": 840
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -113.246713,
+    "refLonEast": -113.209007,
+    "refXWest": 380,
+    "refXEast": 780,
+    "refLatNorth": 53.712148,
+    "refLatSouth": 53.682679,
+    "refYNorth": 240,
+    "refYSouth": 620
+  },
+  "sequences": {
+    "F600": ["dow-centennial", "bethel"],
+    "F610": ["dow-centennial", "southfort", "highway-15", "westpark"],
+    "F611": ["dow-centennial", "westpark", "highway-15", "downtown", "walmart", "southfort"]
+  },
+  "stationAliases": {
+    "Dow Centennial Centre Park & Ride": "dow-centennial",
+    "Southfort Drive and Allard Way": "southfort",
+    "99 Avenue and Highway 15": "highway-15",
+    "100 Avenue and 102 Street": "downtown",
+    "86 Avenue at Walmart": "walmart",
+    "Bethel Transit Terminal": "bethel",
+    "Westpark Boulevard": "westpark"
+  },
+  "stationIndex": [
+    {
+      "id": "highway-15",
+      "schematicId": "highway-15",
+      "name": "99 Avenue & Highway 15",
+      "lat": 53.702932,
+      "lon": -113.225425,
+      "lines": ["F610", "F611"],
+      "platformIds": ["F3001", "F3002"],
+      "departureRouteIds": ["F610", "F611"]
+    },
+    {
+      "id": "S8209",
+      "schematicId": "bethel",
+      "name": "Bethel Transit Terminal",
+      "lat": 53.542929,
+      "lon": -113.307639,
+      "lines": ["F600"],
+      "platformIds": ["S8209"],
+      "departureRouteIds": ["F600"]
+    },
+    {
+      "id": "F6000",
+      "schematicId": "dow-centennial",
+      "name": "Dow Centennial Centre",
+      "lat": 53.682679,
+      "lon": -113.237788,
+      "lines": ["F600", "F610", "F611"],
+      "platformIds": ["F6000"],
+      "departureRouteIds": ["F600", "F610", "F611"]
+    },
+    {
+      "id": "F3011",
+      "schematicId": "downtown",
+      "name": "Downtown",
+      "lat": 53.712148,
+      "lon": -113.213762,
+      "lines": ["F611"],
+      "platformIds": ["F3011"],
+      "departureRouteIds": ["F611"]
+    },
+    {
+      "id": "southfort",
+      "schematicId": "southfort",
+      "name": "Southfort Drive",
+      "lat": 53.691975,
+      "lon": -113.217778,
+      "lines": ["F610", "F611"],
+      "platformIds": ["F5011", "F5012"],
+      "departureRouteIds": ["F610", "F611"]
+    },
+    {
+      "id": "F4004",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 53.695386,
+      "lon": -113.209007,
+      "lines": ["F611"],
+      "platformIds": ["F4004"],
+      "departureRouteIds": ["F611"]
+    },
+    {
+      "id": "westpark",
+      "schematicId": "westpark",
+      "name": "Westpark Boulevard",
+      "lat": 53.682438,
+      "lon": -113.24662,
+      "lines": ["F610", "F611"],
+      "platformIds": ["F1001", "F1002"],
+      "departureRouteIds": ["F610", "F611"]
+    }
+  ]
+}

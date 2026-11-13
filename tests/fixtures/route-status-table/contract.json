@@ -1,0 +1,123 @@
+{
+  "cases": [
+    {
+      "name": "clears routes with normal-service wording, including a misspelling",
+      "html": "<main><h2>Commuter routes</h2><table><tbody><tr><td><p><strong>Route</strong></p></td><td><p><strong>Disruptions</strong></p></td></tr><tr><td><p>10</p></td><td><p>No anticipated disruptions</p></td></tr><tr><td><p>10S</p></td><td><p>No antisipated disruptions.</p></td></tr><tr><td><p>On-demand Transit</p></td><td><p><strong>All stops are currently open</strong><br><br></p></td></tr></tbody></table></main>",
+      "routeNames": {
+        "10": [
+          "10"
+        ],
+        "10S": [
+          "10S"
+        ]
+      },
+      "notices": []
+    },
+    {
+      "name": "keeps a route notice and a systemwide notice as published",
+      "html": "<main><table><tbody><tr><td><p><strong>Route</strong></p></td><td><p><strong>Disruptions</strong></p></td></tr><tr><td><p>All routes</p></td><td><p>Construction may slow any route.</p></td></tr><tr><td><p>10</p></td><td><p>Detour on Elm Street.<br>Use stop 1234.</p></td></tr><tr><td><p>12</p></td><td><p>No anticipated disruptions</p></td></tr></tbody></table></main>",
+      "routeNames": {
+        "10": [
+          "10"
+        ],
+        "12": [
+          "12"
+        ]
+      },
+      "notices": [
+        {
+          "id": "https://example.test/status#All routes",
+          "title": "All routes",
+          "description": "Construction may slow any route.",
+          "routeIds": []
+        },
+        {
+          "id": "https://example.test/status#10",
+          "title": "Route 10",
+          "description": "Detour on Elm Street. Use stop 1234.",
+          "routeIds": [
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "maps a label to every route sharing that alias",
+      "html": "<table><tbody><tr><td><p><strong>Route</strong></p></td><td><p><strong>Disruptions</strong></p></td></tr><tr><td><p>20</p></td><td><p>Stop 55 is closed.</p></td></tr></tbody></table>",
+      "routeNames": {
+        "20A": [
+          "20"
+        ],
+        "20B": [
+          "20"
+        ]
+      },
+      "notices": [
+        {
+          "id": "https://example.test/status#20",
+          "title": "Route 20",
+          "description": "Stop 55 is closed.",
+          "routeIds": [
+            "20A",
+            "20B"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "withholds an unmapped route notice and reports the read partial",
+      "html": "<table><tbody><tr><td><p><strong>Route</strong></p></td><td><p><strong>Disruptions</strong></p></td></tr><tr><td><p>99</p></td><td><p>Detour on Oak Avenue.</p></td></tr><tr><td><p>10</p></td><td><p>No anticipated disruptions</p></td></tr></tbody></table>",
+      "routeNames": {
+        "10": [
+          "10"
+        ]
+      },
+      "partial": true,
+      "notices": []
+    },
+    {
+      "name": "merges repeated rows for one route",
+      "html": "<table><tbody><tr><td><p><strong>Routes</strong></p></td><td><p><strong>Disruptions</strong></p></td></tr><tr><td><p>10</p></td><td><p>Detour on Elm Street.</p></td></tr></tbody></table><table><tbody><tr><td><p><strong>Route</strong></p></td><td><p><strong>Disruptions</strong></p></td></tr><tr><td><p>10</p></td><td><p>Stop 77 is closed.</p></td></tr></tbody></table>",
+      "routeNames": {
+        "10": [
+          "10"
+        ]
+      },
+      "notices": [
+        {
+          "id": "https://example.test/status#10",
+          "title": "Routes 10",
+          "description": "Detour on Elm Street.\nStop 77 is closed.",
+          "routeIds": [
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ignores tables without a route column",
+      "html": "<table><tbody><tr><td><p><strong>Fare</strong></p></td><td><p><strong>Price</strong></p></td></tr><tr><td><p>Adult</p></td><td><p>$3.00</p></td></tr></tbody></table><table><tbody><tr><td><p><strong>Route</strong></p></td><td><p><strong>Disruptions</strong></p></td></tr><tr><td><p>10</p></td><td><p>No disruptions</p></td></tr></tbody></table>",
+      "routeNames": {
+        "10": [
+          "10"
+        ]
+      },
+      "notices": []
+    },
+    {
+      "name": "fails a page without a route status table",
+      "html": "<main><p>No anticipated disruptions</p></main>",
+      "error": true
+    },
+    {
+      "name": "fails a row with a route and no status",
+      "html": "<table><tbody><tr><td><p><strong>Route</strong></p></td><td><p><strong>Disruptions</strong></p></td></tr><tr><td><p>10</p></td><td><p></p></td></tr></tbody></table>",
+      "routeNames": {
+        "10": [
+          "10"
+        ]
+      },
+      "error": true
+    }
+  ]
+}

@@ -1,0 +1,743 @@
+{
+  "id": "stm",
+  "name": "Société de transport de Montréal",
+  "serviceArea": "Montréal",
+  "shortName": "STM",
+  "locale": "fr-CA",
+  "timezone": "America/Montreal",
+  "bounds": [
+    {
+      "minLat": 45.402658,
+      "maxLat": 45.701126,
+      "minLon": -73.966108,
+      "maxLon": -73.480571
+    },
+    {
+      "minLat": 45.521967,
+      "maxLat": 45.524967,
+      "minLon": -73.625211,
+      "maxLon": -73.621211
+    },
+    {
+      "minLat": 45.444897,
+      "maxLat": 45.447897,
+      "minLon": -73.605293,
+      "maxLon": -73.601293
+    },
+    {
+      "minLat": 45.567667,
+      "maxLat": 45.570667,
+      "minLon": -73.548845,
+      "maxLon": -73.544845
+    },
+    {
+      "minLat": 45.488538,
+      "maxLat": 45.491538,
+      "minLon": -73.587731,
+      "maxLon": -73.583731
+    },
+    {
+      "minLat": 45.533736,
+      "maxLat": 45.536736,
+      "minLon": -73.6064,
+      "maxLon": -73.6024
+    },
+    {
+      "minLat": 45.517471,
+      "maxLat": 45.520471,
+      "minLon": -73.55791,
+      "maxLon": -73.55391
+    },
+    {
+      "minLat": 45.513352,
+      "maxLat": 45.516352,
+      "minLon": -73.562106,
+      "maxLon": -73.558106
+    },
+    {
+      "minLat": 45.496553,
+      "maxLat": 45.499553,
+      "minLon": -73.569129,
+      "maxLon": -73.565129
+    },
+    {
+      "minLat": 45.575359,
+      "maxLat": 45.578359,
+      "minLon": -73.54869,
+      "maxLon": -73.54469
+    },
+    {
+      "minLat": 45.558898,
+      "maxLat": 45.561898,
+      "minLon": -73.683719,
+      "maxLon": -73.679719
+    },
+    {
+      "minLat": 45.508531,
+      "maxLat": 45.511531,
+      "minLon": -73.558462,
+      "maxLon": -73.554462
+    },
+    {
+      "minLat": 45.476967,
+      "maxLat": 45.479967,
+      "minLon": -73.571366,
+      "maxLon": -73.567366
+    },
+    {
+      "minLat": 45.495308,
+      "maxLat": 45.498308,
+      "minLon": -73.62539,
+      "maxLon": -73.62139
+    },
+    {
+      "minLat": 45.49086,
+      "maxLat": 45.49386,
+      "minLon": -73.635146,
+      "maxLon": -73.631146
+    },
+    {
+      "minLat": 45.512744,
+      "maxLat": 45.515744,
+      "minLon": -73.684766,
+      "maxLon": -73.680766
+    },
+    {
+      "minLat": 45.544472,
+      "maxLat": 45.547472,
+      "minLon": -73.64087,
+      "maxLon": -73.63687
+    },
+    {
+      "minLat": 45.552112,
+      "maxLat": 45.555112,
+      "minLon": -73.604038,
+      "maxLon": -73.600038
+    },
+    {
+      "minLat": 45.533983,
+      "maxLat": 45.536983,
+      "minLon": -73.621871,
+      "maxLon": -73.617871
+    },
+    {
+      "minLat": 45.460411,
+      "maxLat": 45.463411,
+      "minLon": -73.569107,
+      "maxLon": -73.565107
+    },
+    {
+      "minLat": 45.559044,
+      "maxLat": 45.562044,
+      "minLon": -73.711337,
+      "maxLon": -73.707337
+    },
+    {
+      "minLat": 45.49883,
+      "maxLat": 45.50183,
+      "minLon": -73.663537,
+      "maxLon": -73.659537
+    },
+    {
+      "minLat": 45.506856,
+      "maxLat": 45.509856,
+      "minLon": -73.675282,
+      "maxLon": -73.671282
+    },
+    {
+      "minLat": 45.50872,
+      "maxLat": 45.51172,
+      "minLon": -73.614344,
+      "maxLon": -73.610344
+    },
+    {
+      "minLat": 45.546421,
+      "maxLat": 45.549421,
+      "minLon": -73.609055,
+      "maxLon": -73.605055
+    },
+    {
+      "minLat": 45.531633,
+      "maxLat": 45.534633,
+      "minLon": -73.554158,
+      "maxLon": -73.550158
+    },
+    {
+      "minLat": 45.487462,
+      "maxLat": 45.490462,
+      "minLon": -73.578435,
+      "maxLon": -73.574435
+    },
+    {
+      "minLat": 45.494192,
+      "maxLat": 45.497192,
+      "minLon": -73.58125,
+      "maxLon": -73.57725
+    },
+    {
+      "minLat": 45.55372,
+      "maxLat": 45.55672,
+      "minLon": -73.670199,
+      "maxLon": -73.666199
+    },
+    {
+      "minLat": 45.594995,
+      "maxLat": 45.597995,
+      "minLon": -73.537053,
+      "maxLon": -73.533053
+    },
+    {
+      "minLat": 45.541938,
+      "maxLat": 45.544938,
+      "minLon": -73.630674,
+      "maxLon": -73.626674
+    },
+    {
+      "minLat": 45.510835,
+      "maxLat": 45.513835,
+      "minLon": -73.534703,
+      "maxLon": -73.530703
+    },
+    {
+      "minLat": 45.537574,
+      "maxLat": 45.540574,
+      "minLon": -73.615814,
+      "maxLon": -73.611814
+    },
+    {
+      "minLat": 45.455283,
+      "maxLat": 45.458283,
+      "minLon": -73.583991,
+      "maxLon": -73.579991
+    },
+    {
+      "minLat": 45.545319,
+      "maxLat": 45.548319,
+      "minLon": -73.553427,
+      "maxLon": -73.549427
+    },
+    {
+      "minLat": 45.581284,
+      "maxLat": 45.584284,
+      "minLon": -73.545101,
+      "maxLon": -73.541101
+    },
+    {
+      "minLat": 45.469131,
+      "maxLat": 45.472131,
+      "minLon": -73.568281,
+      "maxLon": -73.564281
+    },
+    {
+      "minLat": 45.525888,
+      "maxLat": 45.528888,
+      "minLon": -73.588858,
+      "maxLon": -73.584858
+    },
+    {
+      "minLat": 45.481318,
+      "maxLat": 45.484318,
+      "minLon": -73.581721,
+      "maxLon": -73.577721
+    },
+    {
+      "minLat": 45.523074,
+      "maxLat": 45.526074,
+      "minLon": -73.524036,
+      "maxLon": -73.520036
+    },
+    {
+      "minLat": 45.493314,
+      "maxLat": 45.496314,
+      "minLon": -73.573215,
+      "maxLon": -73.569215
+    },
+    {
+      "minLat": 45.502637,
+      "maxLat": 45.505637,
+      "minLon": -73.573793,
+      "maxLon": -73.569793
+    },
+    {
+      "minLat": 45.449666,
+      "maxLat": 45.452666,
+      "minLon": -73.595265,
+      "maxLon": -73.591265
+    },
+    {
+      "minLat": 45.523216,
+      "maxLat": 45.526216,
+      "minLon": -73.584234,
+      "maxLon": -73.580234
+    },
+    {
+      "minLat": 45.556934,
+      "maxLat": 45.559934,
+      "minLon": -73.724423,
+      "maxLon": -73.720423
+    },
+    {
+      "minLat": 45.493137,
+      "maxLat": 45.496137,
+      "minLon": -73.654755,
+      "maxLon": -73.650755
+    },
+    {
+      "minLat": 45.518863,
+      "maxLat": 45.521863,
+      "minLon": -73.617012,
+      "maxLon": -73.613012
+    },
+    {
+      "minLat": 45.522217,
+      "maxLat": 45.525217,
+      "minLon": -73.554073,
+      "maxLon": -73.550073
+    },
+    {
+      "minLat": 45.528697,
+      "maxLat": 45.531697,
+      "minLon": -73.626583,
+      "maxLon": -73.622583
+    },
+    {
+      "minLat": 45.499395,
+      "maxLat": 45.502395,
+      "minLon": -73.57671,
+      "maxLon": -73.57271
+    },
+    {
+      "minLat": 45.552158,
+      "maxLat": 45.555158,
+      "minLon": -73.553696,
+      "maxLon": -73.549696
+    },
+    {
+      "minLat": 45.504777,
+      "maxLat": 45.507777,
+      "minLon": -73.561505,
+      "maxLon": -73.557505
+    },
+    {
+      "minLat": 45.506673,
+      "maxLat": 45.509673,
+      "minLon": -73.570313,
+      "maxLon": -73.566313
+    },
+    {
+      "minLat": 45.475863,
+      "maxLat": 45.478863,
+      "minLon": -73.588418,
+      "maxLon": -73.584418
+    },
+    {
+      "minLat": 45.493109,
+      "maxLat": 45.496109,
+      "minLon": -73.640166,
+      "maxLon": -73.636166
+    },
+    {
+      "minLat": 45.54027,
+      "maxLat": 45.54327,
+      "minLon": -73.556543,
+      "maxLon": -73.552543
+    },
+    {
+      "minLat": 45.588114,
+      "maxLat": 45.591114,
+      "minLon": -73.541753,
+      "maxLon": -73.537753
+    },
+    {
+      "minLat": 45.529523,
+      "maxLat": 45.532523,
+      "minLon": -73.600493,
+      "maxLon": -73.596493
+    },
+    {
+      "minLat": 45.50909,
+      "maxLat": 45.51209,
+      "minLon": -73.56734,
+      "maxLon": -73.56334
+    },
+    {
+      "minLat": 45.558208,
+      "maxLat": 45.561208,
+      "minLon": -73.602167,
+      "maxLon": -73.598167
+    },
+    {
+      "minLat": 45.549319,
+      "maxLat": 45.552319,
+      "minLon": -73.65793,
+      "maxLon": -73.65393
+    },
+    {
+      "minLat": 45.516907,
+      "maxLat": 45.519907,
+      "minLon": -73.570263,
+      "maxLon": -73.566263
+    },
+    {
+      "minLat": 45.483744,
+      "maxLat": 45.486744,
+      "minLon": -73.629806,
+      "maxLon": -73.625806
+    },
+    {
+      "minLat": 45.500374,
+      "maxLat": 45.503374,
+      "minLon": -73.565188,
+      "maxLon": -73.561188
+    },
+    {
+      "minLat": 45.502171,
+      "maxLat": 45.505171,
+      "minLon": -73.620478,
+      "maxLon": -73.616478
+    },
+    {
+      "minLat": 45.472361,
+      "maxLat": 45.475361,
+      "minLon": -73.605865,
+      "maxLon": -73.601865
+    },
+    {
+      "minLat": 45.457932,
+      "maxLat": 45.460932,
+      "minLon": -73.573654,
+      "maxLon": -73.569654
+    },
+    {
+      "minLat": 45.559476,
+      "maxLat": 45.562476,
+      "minLon": -73.54903,
+      "maxLon": -73.54503
+    },
+    {
+      "minLat": 45.478059,
+      "maxLat": 45.481059,
+      "minLon": -73.62179,
+      "maxLon": -73.61779
+    }
+  ],
+  "modes": ["subway", "bus"],
+  "attribution": {
+    "name": "Société de transport de Montréal (STM)",
+    "url": "https://www.stm.info/fr/a-propos/donnees-ouvertes",
+    "license": "CC BY 4.0. Les horaires métro sont indicatifs et ne peuvent servir à développer une application sur les horaires de métro.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "stationService": {
+    "routeType": "bus"
+  },
+  "cityPresets": [
+    {
+      "name": "Bonaventure / Gare Centrale",
+      "lat": 45.498053,
+      "lon": -73.567129
+    },
+    {
+      "name": "McGill",
+      "lat": 45.504137,
+      "lon": -73.571793
+    },
+    {
+      "name": "Berri-UQAM",
+      "lat": 45.514852,
+      "lon": -73.560106
+    },
+    {
+      "name": "Côte-Vertu",
+      "lat": 45.514244,
+      "lon": -73.682766
+    },
+    {
+      "name": "Henri-Bourassa",
+      "lat": 45.55522,
+      "lon": -73.668199
+    },
+    {
+      "name": "Radisson",
+      "lat": 45.589614,
+      "lon": -73.539753
+    },
+    {
+      "name": "Longueuil–Université-de-Sherbrooke",
+      "lat": 45.524574,
+      "lon": -73.522036
+    },
+    {
+      "name": "Montmorency",
+      "lat": 45.558434,
+      "lon": -73.722423
+    },
+    {
+      "name": "Vendôme",
+      "lat": 45.473861,
+      "lon": -73.603865
+    },
+    {
+      "name": "Parc",
+      "lat": 45.530197,
+      "lon": -73.624583
+    },
+    {
+      "name": "Sauvé",
+      "lat": 45.550819,
+      "lon": -73.65593
+    },
+    {
+      "name": "Édouard-Montpetit",
+      "lat": 45.51022,
+      "lon": -73.612344
+    }
+  ],
+  "popularSurfaceRoutes": ["747", "777", "439", "165", "51", "141", "105", "67", "18", "106"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "STM GTFS",
+        "url": "https://www.stm.info/getContentAsset/38dcb679-4237-4c02-b6f4-5f8434665e5c/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/GTFS_STM.zip?language=fr",
+        "cacheFileName": "stm-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://api.stm.info/pub/od/gtfs-rt/ic/v2/vehiclePositions",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "apiKey",
+          "secretName": "FEED_STM_API_KEY"
+        },
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api.stm.info/pub/od/gtfs-rt/ic/v2/tripUpdates",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "apiKey",
+          "secretName": "FEED_STM_API_KEY"
+        },
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "url": "https://api.stm.info/pub/od/i3/v2/messages/etatservice",
+      "parser": "i3-service-status",
+      "maxHeaderAgeMinutes": 25,
+      "excludedDescriptionPrefixes": [
+        "This stop is moved",
+        "This stop is relocated",
+        "Cet arrêt est déplacé",
+        "Cet arrêt est relocalisé"
+      ],
+      "redundantSummaryPrefixes": [
+        "Some stops are cancelled, moved or relocated.",
+        "Certains arrêts sont annulés, déplacés ou relocalisés."
+      ],
+      "auth": {
+        "type": "header",
+        "headerName": "apiKey",
+        "secretName": "FEED_STM_API_KEY"
+      }
+    },
+    {
+      "type": "web",
+      "url": "https://www.stm.info/en/service-status",
+      "parser": "heading-service-notices",
+      "language": "en",
+      "languageGroup": "service-status",
+      "routeNames": {
+        "1": ["Line 1", "Ligne 1"],
+        "2": ["Line 2", "Ligne 2"],
+        "4": ["Line 4", "Ligne 4"],
+        "5": ["Line 5", "Ligne 5"]
+      },
+      "stopNames": {
+        "lasalle": ["LaSalle"],
+        "place-darmes": ["Place-d’Armes"],
+        "charlevoix": ["Charlevoix"],
+        "champ-de-mars": ["Champ-de-Mars"],
+        "lionel-groulx": ["Lionel-Groulx"],
+        "atwater": ["Atwater"],
+        "sherbrooke": ["Sherbrooke"],
+        "guy-concordia": ["Guy-Concordia"],
+        "mont-royal": ["Mont-Royal"],
+        "peel": ["Peel"],
+        "laurier": ["Laurier"],
+        "mcgill": ["McGill"],
+        "rosemont": ["Rosemont"],
+        "place-des-arts": ["Place-des-Arts"],
+        "beaubien": ["Beaubien"],
+        "saint-laurent": ["Saint-Laurent"],
+        "jean-talon": ["Jean-Talon"],
+        "berri-uqam": ["Berri-UQAM"],
+        "jarry": ["Jarry"],
+        "beaudry": ["Beaudry"],
+        "cremazie": ["Crémazie"],
+        "papineau": ["Papineau"],
+        "sauve": ["Sauvé"],
+        "frontenac": ["Frontenac"],
+        "henri-bourassa": ["Henri-Bourassa"],
+        "prefontaine": ["Préfontaine"],
+        "cartier": ["Cartier"],
+        "joliette": ["Joliette"],
+        "cote-des-neiges": ["Côte-des-Neiges"],
+        "pie-ix": ["Pie-IX"],
+        "de-la-concorde": ["De la Concorde"],
+        "viau": ["Viau"],
+        "montmorency": ["Montmorency"],
+        "assomption": ["Assomption"],
+        "edouard-montpetit": ["Édouard-Montpetit"],
+        "cadillac": ["Cadillac"],
+        "outremont": ["Outremont"],
+        "langelier": ["Langelier"],
+        "acadie": ["Acadie"],
+        "radisson": ["Radisson"],
+        "parc": ["Parc"],
+        "honore-beaugrand": ["Honoré-Beaugrand"],
+        "de-castelnau": ["De Castelnau"],
+        "fabre": ["Fabre"],
+        "diberville": ["D’Iberville"],
+        "universite-de-montreal": ["Université-de-Montréal"],
+        "saint-michel": ["Saint-Michel"],
+        "jean-drapeau": ["Jean-Drapeau"],
+        "longueuiluniversite-de-sherbrooke": ["Longueuil–Université-de-Sherbrooke"],
+        "cote-vertu": ["Côte-Vertu"],
+        "du-college": ["Du Collège"],
+        "georges-vanier": ["Georges-Vanier"],
+        "de-la-savane": ["De la Savane"],
+        "namur": ["Namur"],
+        "plamondon": ["Plamondon"],
+        "cote-sainte-catherine": ["Côte-Sainte-Catherine"],
+        "lucien-lallier": ["Lucien-L’Allier"],
+        "snowdon": ["Snowdon"],
+        "villa-maria": ["Villa-Maria"],
+        "vendome": ["Vendôme"],
+        "place-saint-henri": ["Place-Saint-Henri"],
+        "bonaventure": ["Bonaventure"],
+        "angrignon": ["Angrignon"],
+        "square-victoriaoaci": ["Square-Victoria–OACI"],
+        "monk": ["Monk"],
+        "jolicoeur": ["Jolicoeur"],
+        "verdun": ["Verdun"],
+        "de-leglise": ["De l’Église"]
+      }
+    },
+    {
+      "type": "web",
+      "url": "https://www.stm.info/etat-du-service",
+      "parser": "heading-service-notices",
+      "language": "fr",
+      "languageGroup": "service-status",
+      "routeNames": {
+        "1": ["Line 1", "Ligne 1"],
+        "2": ["Line 2", "Ligne 2"],
+        "4": ["Line 4", "Ligne 4"],
+        "5": ["Line 5", "Ligne 5"]
+      },
+      "stopNames": {
+        "lasalle": ["LaSalle"],
+        "place-darmes": ["Place-d’Armes"],
+        "charlevoix": ["Charlevoix"],
+        "champ-de-mars": ["Champ-de-Mars"],
+        "lionel-groulx": ["Lionel-Groulx"],
+        "atwater": ["Atwater"],
+        "sherbrooke": ["Sherbrooke"],
+        "guy-concordia": ["Guy-Concordia"],
+        "mont-royal": ["Mont-Royal"],
+        "peel": ["Peel"],
+        "laurier": ["Laurier"],
+        "mcgill": ["McGill"],
+        "rosemont": ["Rosemont"],
+        "place-des-arts": ["Place-des-Arts"],
+        "beaubien": ["Beaubien"],
+        "saint-laurent": ["Saint-Laurent"],
+        "jean-talon": ["Jean-Talon"],
+        "berri-uqam": ["Berri-UQAM"],
+        "jarry": ["Jarry"],
+        "beaudry": ["Beaudry"],
+        "cremazie": ["Crémazie"],
+        "papineau": ["Papineau"],
+        "sauve": ["Sauvé"],
+        "frontenac": ["Frontenac"],
+        "henri-bourassa": ["Henri-Bourassa"],
+        "prefontaine": ["Préfontaine"],
+        "cartier": ["Cartier"],
+        "joliette": ["Joliette"],
+        "cote-des-neiges": ["Côte-des-Neiges"],
+        "pie-ix": ["Pie-IX"],
+        "de-la-concorde": ["De la Concorde"],
+        "viau": ["Viau"],
+        "montmorency": ["Montmorency"],
+        "assomption": ["Assomption"],
+        "edouard-montpetit": ["Édouard-Montpetit"],
+        "cadillac": ["Cadillac"],
+        "outremont": ["Outremont"],
+        "langelier": ["Langelier"],
+        "acadie": ["Acadie"],
+        "radisson": ["Radisson"],
+        "parc": ["Parc"],
+        "honore-beaugrand": ["Honoré-Beaugrand"],
+        "de-castelnau": ["De Castelnau"],
+        "fabre": ["Fabre"],
+        "diberville": ["D’Iberville"],
+        "universite-de-montreal": ["Université-de-Montréal"],
+        "saint-michel": ["Saint-Michel"],
+        "jean-drapeau": ["Jean-Drapeau"],
+        "longueuiluniversite-de-sherbrooke": ["Longueuil–Université-de-Sherbrooke"],
+        "cote-vertu": ["Côte-Vertu"],
+        "du-college": ["Du Collège"],
+        "georges-vanier": ["Georges-Vanier"],
+        "de-la-savane": ["De la Savane"],
+        "namur": ["Namur"],
+        "plamondon": ["Plamondon"],
+        "cote-sainte-catherine": ["Côte-Sainte-Catherine"],
+        "lucien-lallier": ["Lucien-L’Allier"],
+        "snowdon": ["Snowdon"],
+        "villa-maria": ["Villa-Maria"],
+        "vendome": ["Vendôme"],
+        "place-saint-henri": ["Place-Saint-Henri"],
+        "bonaventure": ["Bonaventure"],
+        "angrignon": ["Angrignon"],
+        "square-victoriaoaci": ["Square-Victoria–OACI"],
+        "monk": ["Monk"],
+        "jolicoeur": ["Jolicoeur"],
+        "verdun": ["Verdun"],
+        "de-leglise": ["De l’Église"]
+      }
+    }
+  ],
+  "lineIds": ["1", "2", "4", "5"],
+  "alertInterpretation": {
+    "rules": [
+      {
+        "priority": 10,
+        "match": {
+          "effects": ["UNKNOWN_EFFECT"]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      }
+    ]
+  }
+}

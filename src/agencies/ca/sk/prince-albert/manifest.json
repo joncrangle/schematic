@@ -1,0 +1,121 @@
+{
+  "id": "prince-albert",
+  "name": "Prince Albert Transit",
+  "serviceArea": "Prince Albert",
+  "shortName": "Prince Albert",
+  "locale": "en-CA",
+  "timezone": "America/Regina",
+  "bounds": [
+    {
+      "minLat": 53.175,
+      "maxLat": 53.215,
+      "minLon": -105.81,
+      "maxLon": -105.695
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "City of Prince Albert / TransitLive",
+    "url": "https://www.citypa.ca/parking-streets-and-transportation/transit/routes-schedules/",
+    "license": "Prince Albert publishes GTFS for profit and non-profit applications. No explicit terms were found for the live TransitLive data.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "sk"
+  },
+  "cityPresets": [
+    {
+      "name": "Downtown Transfer Station",
+      "lat": 53.2,
+      "lon": -105.75325
+    },
+    {
+      "name": "Victoria Hospital",
+      "lat": 53.19119,
+      "lon": -105.7842
+    }
+  ],
+  "popularSurfaceRoutes": ["2", "3", "4", "5", "6", "1", "8"],
+  "alertInterpretation": {
+    "lineIds": ["2", "3", "4", "5", "6"],
+    "routeNames": {
+      "1": ["Rush Hour"],
+      "2": ["All Day Express"],
+      "3": ["West Hill"],
+      "4": ["East Hill"],
+      "5": ["East Flat"],
+      "6": ["West Flat"],
+      "8": ["Core Express"]
+    },
+    "titleDateTimezone": "America/Regina",
+    "rules": [
+      {
+        "priority": 150,
+        "match": {
+          "textIncludes": ["operating hourly"]
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": ["no transit"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://transitlivepa.com/gtfs-rt/vehicle_positions.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://transitlivepa.com/gtfs-rt/trip_updates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Prince Albert Transit GTFS",
+        "url": "https://media-002-ca.cdn.govstack.com/citypa-015-ca/media/gnsfaref/2025-01-20-google-transit-gtfs.zip",
+        "cacheFileName": "prince-albert-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#037859",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://transitlivepa.com/gtfs-rt/alerts.pb",
+      "format": "protobuf"
+    },
+    {
+      "type": "web",
+      "url": "https://www.citypa.ca/parking-streets-and-transportation/transit/",
+      "parser": "ghd-news-service-advisories"
+    }
+  ]
+}

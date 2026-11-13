@@ -1,0 +1,138 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+          {
+            "name": "solid-js",
+            "importNames": ["createEffect"],
+            "message": "Do not use createEffect. Use derived signals (createMemo), event handlers, or explicit lifecycle primitives instead."
+          }
+        ]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["src/domain/**/*.ts", "src/domain/**/*.tsx"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "paths": [
+              {
+                "name": "solid-js",
+                "importNames": ["createEffect"],
+                "message": "Do not use createEffect. Use derived signals (createMemo), event handlers, or explicit lifecycle primitives instead."
+              }
+            ],
+            "patterns": [
+              {
+                "group": ["~/components", "~/components/**", "**/components/**"],
+                "message": "Domain modules may not import the component layer (ADR-0007 dependency rule). Route dependencies through domain-owned seams."
+              },
+              {
+                "regex": "(^|[~/])agencies/[^/]+/.+",
+                "message": "Core modules may not deep-import agency modules (ADR-0007 dependency rule); resolve providers through agencies/index.ts."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["src/lib/**/*.ts"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "paths": [
+              {
+                "name": "solid-js",
+                "importNames": ["createEffect"],
+                "message": "Do not use createEffect. Use derived signals (createMemo), event handlers, or explicit lifecycle primitives instead."
+              }
+            ],
+            "patterns": [
+              {
+                "group": ["~/components", "~/components/**", "**/components/**"],
+                "message": "Core (src/lib) modules may not import the component layer (ADR-0007 dependency rule)."
+              },
+              {
+                "regex": "(^|[~/])agencies/[^/]+/.+",
+                "message": "Core (src/lib) modules may not deep-import agency modules (ADR-0007 dependency rule); resolve providers through agencies/index.ts."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["src/services/**/*.{ts,tsx}"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "paths": [
+              {
+                "name": "solid-js",
+                "importNames": ["createEffect"],
+                "message": "Do not use createEffect. Use derived signals (createMemo), event handlers, or explicit lifecycle primitives instead."
+              }
+            ],
+            "patterns": [
+              {
+                "regex": "(^|[~/])agencies/[^/]+/.+",
+                "message": "Core (src/services) modules may not deep-import agency modules (ADR-0007 dependency rule); resolve providers through agencies/index.ts."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["src/infrastructure/**/*.ts"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "paths": [
+              {
+                "name": "solid-js",
+                "importNames": ["createEffect"],
+                "message": "Do not use createEffect. Use derived signals (createMemo), event handlers, or explicit lifecycle primitives instead."
+              }
+            ],
+            "patterns": [
+              {
+                "regex": "(^|[~/])agencies/[^/]+/.+",
+                "message": "Core (src/infrastructure) modules may not deep-import agency modules (ADR-0007 dependency rule); resolve providers through agencies/index.ts."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["src/agencies/*.ts"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "regex": "(^|[~/])agencies/[^/]+/.+",
+                "message": "The agency seam may not deep-import an agency module (ADR-0007); providers are built from a module's manifest and schematic. The companion guard in tests/unit/agency-module-shape.test.ts asserts that module directories hold no TypeScript at all, so either half failing should fail loudly."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

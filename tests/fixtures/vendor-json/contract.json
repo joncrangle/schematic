@@ -1,0 +1,2365 @@
+{
+  "valid": [
+    {
+      "name": "zero ID detour",
+      "parser": "mapstrat-broadcast",
+      "payload": [
+        {
+          "id": 0,
+          "message": "Detour",
+          "routeNum": 41,
+          "stopNum": 0,
+          "isForDetour": true,
+          "type": "Alert"
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "title": "Detour",
+            "route": "41",
+            "effect": "DETOUR",
+            "category": "Alert"
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "empty broadcasts are a quiet board",
+      "parser": "mapstrat-broadcast",
+      "payload": [],
+      "expected": {
+        "alerts": [],
+        "partial": false
+      }
+    },
+    {
+      "name": "network broadcast",
+      "parser": "mapstrat-broadcast",
+      "payload": [
+        {
+          "id": 0,
+          "message": "Detour",
+          "routeNum": 0,
+          "stopNum": 0,
+          "isForDetour": false,
+          "type": "Alert"
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "title": "Detour",
+            "category": "Alert"
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "stop scope",
+      "parser": "mapstrat-broadcast",
+      "payload": [
+        {
+          "id": 0,
+          "message": "Detour",
+          "routeNum": 41,
+          "stopNum": 81,
+          "isForDetour": true,
+          "type": "Alert"
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "title": "Detour",
+            "route": "41",
+            "closed_stops": [
+              {
+                "id": "81"
+              }
+            ],
+            "effect": "DETOUR",
+            "category": "Alert"
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "dated CMS notice",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "Monday, October 12, 2026",
+              "Approx_x002e_EndDate": "End of October 2026"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "Monday, October 12, 2026\nEnd of October 2026\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "start": "2026-10-12T00:00:00.000Z",
+              "end": "2026-11-01T00:00:00.000Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "truncated search",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 2,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "Monday, October 12, 2026",
+              "Approx_x002e_EndDate": "End of October 2026"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "Monday, October 12, 2026\nEnd of October 2026\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "start": "2026-10-12T00:00:00.000Z",
+              "end": "2026-11-01T00:00:00.000Z"
+            }
+          }
+        ],
+        "partial": true
+      }
+    },
+    {
+      "name": "empty complete search",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 0,
+        "value": []
+      },
+      "expected": {
+        "alerts": [],
+        "partial": false
+      }
+    },
+    {
+      "name": "unknown expiry remains incomplete",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "Monday, October 12, 2026",
+              "Approx_x002e_EndDate": "Until further notice"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "Monday, October 12, 2026\nUntil further notice\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "start": "2026-10-12T00:00:00.000Z"
+            }
+          }
+        ],
+        "partial": true
+      }
+    },
+    {
+      "name": "clock deadline",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "Sunday, October 18, 2026, Start of Service",
+              "Approx_x002e_EndDate": "Sunday, October 18, 2026, 11:00 AM"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "Sunday, October 18, 2026, Start of Service\nSunday, October 18, 2026, 11:00 AM\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "start": "2026-10-18T00:00:00.000Z",
+              "end": "2026-10-18T11:00:00.000Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "invalid date stays incomplete",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "February 31, 2026",
+              "Approx_x002e_EndDate": "End of 2026"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "February 31, 2026\nEnd of 2026\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "end": "2027-01-01T00:00:00.000Z"
+            }
+          }
+        ],
+        "partial": true
+      }
+    },
+    {
+      "name": "clock without a space",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "Sunday, October 18, 2026, Start of Service",
+              "Approx_x002e_EndDate": "Sunday, October 18, 2026, 11:00AM"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "Sunday, October 18, 2026, Start of Service\nSunday, October 18, 2026, 11:00AM\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "start": "2026-10-18T00:00:00.000Z",
+              "end": "2026-10-18T11:00:00.000Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "day without a comma stays incomplete",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "October 12 2026",
+              "Approx_x002e_EndDate": "End of October 2026"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "October 12 2026\nEnd of October 2026\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "end": "2026-11-01T00:00:00.000Z"
+            }
+          }
+        ],
+        "partial": true
+      }
+    },
+    {
+      "name": "out-of-range minute stays incomplete",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "Monday, October 12, 2026",
+              "Approx_x002e_EndDate": "Sunday, October 18, 2026, 11:60 AM"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "Monday, October 12, 2026\nSunday, October 18, 2026, 11:60 AM\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "start": "2026-10-12T00:00:00.000Z"
+            }
+          }
+        ],
+        "partial": true
+      }
+    },
+    {
+      "name": "month names match whole words",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "Mayor's Walk, Saturday, October 3, 2026",
+              "Approx_x002e_EndDate": "End of October 2026, Mayor's Walk"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "Mayor's Walk, Saturday, October 3, 2026\nEnd of October 2026, Mayor's Walk\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "start": "2026-10-03T00:00:00.000Z",
+              "end": "2026-11-01T00:00:00.000Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "a colon before the clock",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "Trunk A",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "Monday, October 12, 2026",
+              "Approx_x002e_EndDate": "Note: Sunday, October 18, 2026, 9:30 PM"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "/works.pdf",
+            "title": "Trunk A: Roadworks",
+            "description": "Monday, October 12, 2026\nNote: Sunday, October 18, 2026, 9:30 PM\n/works.pdf",
+            "route": "Trunk A",
+            "effect": "DETOUR",
+            "activePeriod": {
+              "start": "2026-10-12T00:00:00.000Z",
+              "end": "2026-10-18T21:30:00.000Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "rendered stop closure with epoch sentinel",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "alerts": [
+            {
+              "uniqueId": "event-a",
+              "gtfsentityId": "entity-a",
+              "subject": null,
+              "alertDescriptions": [
+                {
+                  "text": null
+                }
+              ],
+              "alertHeaders": null,
+              "alertEntityAffecteds": [
+                {
+                  "routeId": "R1",
+                  "stopId": "S1",
+                  "tripId": null
+                }
+              ],
+              "alertPeriods": [
+                {
+                  "startDateTime": "2026-10-23T15:09:00",
+                  "endDateTime": "1970-01-01T00:00:00"
+                }
+              ],
+              "renderedAlert": {
+                "message": {
+                  "header": "",
+                  "description": "<p>Closed Stop: Main (S1)</p>"
+                },
+                "effect": {
+                  "token": "NO_SERVICE",
+                  "displayText": "Stop Closure"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "entity-a",
+            "title": "Stop Closure",
+            "description": "<p>Closed Stop: Main (S1)</p>",
+            "routes": ["R1"],
+            "targets": [
+              {
+                "routeId": "R1",
+                "stopId": "S1"
+              }
+            ],
+            "tripIds": [],
+            "tripScoped": false,
+            "effect": "NO_SERVICE",
+            "activePeriod": {
+              "start": "2026-10-23T15:09:00Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "rendered generic effect keeps the placeholder headline",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "alerts": [
+            {
+              "uniqueId": "event-b",
+              "gtfsentityId": "entity-b",
+              "subject": "Sample - Route 1 Main",
+              "alertDescriptions": [
+                {
+                  "text": "This trip will be missed."
+                }
+              ],
+              "alertHeaders": [
+                {
+                  "text": null
+                }
+              ],
+              "alertEntityAffecteds": [
+                {
+                  "routeId": "R1",
+                  "stopId": null,
+                  "tripId": null
+                }
+              ],
+              "alertPeriods": [
+                {
+                  "startDateTime": "2026-10-23T15:09:00",
+                  "endDateTime": "2026-10-23T16:09:00"
+                }
+              ],
+              "renderedAlert": {
+                "message": {
+                  "header": "",
+                  "description": "<p>This trip will be missed.</p>"
+                },
+                "effect": {
+                  "token": "OTHER_EFFECT",
+                  "displayText": "Other Effect"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "entity-b",
+            "title": "Transit Alert",
+            "description": "<p>This trip will be missed.</p>",
+            "routes": ["R1"],
+            "targets": [
+              {
+                "routeId": "R1"
+              }
+            ],
+            "tripIds": [],
+            "tripScoped": false,
+            "effect": "OTHER_EFFECT",
+            "activePeriod": {
+              "start": "2026-10-23T15:09:00Z",
+              "end": "2026-10-23T16:09:00Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "rendered unknown effect keeps the placeholder headline",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "alerts": [
+            {
+              "uniqueId": "event-c",
+              "gtfsentityId": "entity-c",
+              "subject": "Sample - Route 1 Main",
+              "alertDescriptions": [
+                {
+                  "text": "This trip will be missed."
+                }
+              ],
+              "alertHeaders": [
+                {
+                  "text": null
+                }
+              ],
+              "alertEntityAffecteds": [
+                {
+                  "routeId": "R1",
+                  "stopId": null,
+                  "tripId": null
+                }
+              ],
+              "alertPeriods": [
+                {
+                  "startDateTime": "2026-10-23T15:09:00",
+                  "endDateTime": "2026-10-23T16:09:00"
+                }
+              ],
+              "renderedAlert": {
+                "message": {
+                  "header": "",
+                  "description": "<p>This trip will be missed.</p>"
+                },
+                "effect": {
+                  "token": "UNKNOWN_EFFECT",
+                  "displayText": "Unknown Effect"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "entity-c",
+            "title": "Transit Alert",
+            "description": "<p>This trip will be missed.</p>",
+            "routes": ["R1"],
+            "targets": [
+              {
+                "routeId": "R1"
+              }
+            ],
+            "tripIds": [],
+            "tripScoped": false,
+            "effect": "UNKNOWN_EFFECT",
+            "activePeriod": {
+              "start": "2026-10-23T15:09:00Z",
+              "end": "2026-10-23T16:09:00Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "explicit empty advisory board",
+      "parser": "rendered-advisory-board",
+      "payload": [],
+      "expected": {
+        "alerts": [],
+        "partial": false
+      }
+    },
+    {
+      "name": "rendered trip cancellation retains trip scope",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "alerts": [
+            {
+              "uniqueId": "event-a",
+              "gtfsentityId": "entity-trip",
+              "subject": null,
+              "alertDescriptions": [
+                {
+                  "text": null
+                }
+              ],
+              "alertHeaders": null,
+              "alertEntityAffecteds": [
+                {
+                  "routeId": "R1",
+                  "tripId": "T1"
+                }
+              ],
+              "alertPeriods": [
+                {
+                  "startDateTime": "2026-10-23T15:09:00",
+                  "endDateTime": "1970-01-01T00:00:00"
+                }
+              ],
+              "renderedAlert": {
+                "message": {
+                  "header": "",
+                  "description": "Trip Departure @2:16 PM"
+                },
+                "effect": {
+                  "token": "NO_SERVICE",
+                  "displayText": "Stop Closure"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "entity-trip",
+            "title": "Stop Closure",
+            "description": "Trip Departure @2:16 PM",
+            "routes": ["R1"],
+            "targets": [
+              {
+                "routeId": "R1"
+              }
+            ],
+            "tripIds": ["T1"],
+            "tripScoped": true,
+            "effect": "NO_SERVICE",
+            "activePeriod": {
+              "start": "2026-10-23T15:09:00Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "manual information advisory",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "uniqueId": "event-a",
+          "gtfsentityId": null,
+          "subject": null,
+          "alertDescriptions": [
+            {
+              "text": "<p>Overtime ban may cause trip cancellations.</p>"
+            }
+          ],
+          "alertHeaders": null,
+          "alertEntityAffecteds": [],
+          "alertPeriods": [
+            {
+              "startDateTime": "2026-10-03T00:13:00",
+              "endDateTime": null
+            }
+          ],
+          "effectText": "ReducedService"
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "event-a",
+            "title": "Transit advisory",
+            "description": "<p>Overtime ban may cause trip cancellations.</p>",
+            "routes": [],
+            "targets": [],
+            "tripIds": [],
+            "tripScoped": false,
+            "category": "ReducedService",
+            "activePeriod": {
+              "start": "2026-10-03T00:13:00Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "rendered trip cut-in remains trip scoped",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "alerts": [
+            {
+              "uniqueId": "event-a",
+              "gtfsentityId": "entity-trip",
+              "subject": null,
+              "alertDescriptions": [
+                {
+                  "text": null
+                }
+              ],
+              "alertHeaders": null,
+              "alertEntityAffecteds": [
+                {
+                  "routeId": "R1",
+                  "tripId": "T1",
+                  "stopId": "S1"
+                }
+              ],
+              "alertPeriods": [
+                {
+                  "startDateTime": "2026-10-23T15:09:00",
+                  "endDateTime": "1970-01-01T00:00:00"
+                }
+              ],
+              "renderedAlert": {
+                "message": {
+                  "header": "",
+                  "description": "Trip Departure @2:16 PM"
+                },
+                "effect": {
+                  "token": "NO_SERVICE",
+                  "displayText": "Stop Closure"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "entity-trip",
+            "title": "Stop Closure",
+            "description": "Trip Departure @2:16 PM",
+            "routes": ["R1"],
+            "targets": [
+              {
+                "routeId": "R1",
+                "stopId": "S1"
+              }
+            ],
+            "tripIds": ["T1"],
+            "tripScoped": true,
+            "effect": "NO_SERVICE",
+            "activePeriod": {
+              "start": "2026-10-23T15:09:00Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "dated attribute advisory preserves inclusive end date and unknown scope",
+      "parser": "attribute-advisories",
+      "payload": {
+        "data": [
+          {
+            "id": 17,
+            "attributes": {
+              "title": "Road works",
+              "description": "Stop temporarily closed",
+              "startDate": "01-09-2026",
+              "endDate": "18-12-2026"
+            }
+          }
+        ],
+        "meta": {
+          "pagination": {
+            "total": 1
+          }
+        }
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": 17,
+            "title": "Road works",
+            "description": "Stop temporarily closed",
+            "effect": "UNKNOWN_EFFECT",
+            "activePeriod": {
+              "start": "2026-09-01T00:00:00.000Z",
+              "end": "2026-12-19T00:00:00.000Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "incomplete attribute pagination stays partial",
+      "parser": "attribute-advisories",
+      "payload": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 3
+          }
+        }
+      },
+      "expected": {
+        "alerts": [],
+        "partial": true
+      }
+    },
+    {
+      "name": "verified empty attribute board",
+      "parser": "attribute-advisories",
+      "payload": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0
+          }
+        }
+      },
+      "expected": {
+        "alerts": [],
+        "partial": false
+      }
+    },
+    {
+      "name": "empty active TransLoc announcements board",
+      "parser": "transloc-messages",
+      "payload": [],
+      "expected": {
+        "alerts": [],
+        "partial": false
+      }
+    },
+    {
+      "name": "TransLoc dated message",
+      "parser": "transloc-messages",
+      "payload": [
+        {
+          "id": 7,
+          "text": "Service information",
+          "created_at": "Wed Oct 28 08:00 -0700 2026",
+          "end_date": "Wed Oct 28 18:00 -0700 2026"
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "7",
+            "title": "Service information",
+            "effect": "UNKNOWN_EFFECT",
+            "activePeriod": {
+              "start": "2026-10-28T15:00:00.000Z",
+              "end": "2026-10-29T01:00:00.000Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "keyed advisories preserve explicit routes and stops",
+      "parser": "keyed-service-notices",
+      "payload": {
+        "queryTime": "2026-10-28T16:00:00",
+        "serviceAdvisories": [
+          {
+            "key": 7,
+            "title": "Road detour",
+            "body": "Route A1 is diverted.\n* 901 - Eastbound Oak at Main",
+            "category": "Transit",
+            "updatedAt": "2026-10-28T15:00:00"
+          }
+        ]
+      },
+      "expected": {
+        "partial": false,
+        "alerts": [
+          {
+            "id": "advisory-7",
+            "title": "Road detour",
+            "description": "Route A1 is diverted.\n* 901 - Eastbound Oak at Main",
+            "category": "Transit",
+            "posted_at": "2026-10-28T15:00:00Z",
+            "routes": ["A1"],
+            "stops": ["901"],
+            "targets": [
+              {
+                "stopId": "901"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "recognized empty system board",
+      "parser": "keyed-service-notices",
+      "payload": {
+        "queryTime": "2026-10-28T16:00:00",
+        "systemMessages": []
+      },
+      "expected": {
+        "partial": false,
+        "alerts": []
+      }
+    },
+    {
+      "name": "system message retains type without invented impact period",
+      "parser": "keyed-service-notices",
+      "payload": {
+        "queryTime": "2026-10-28T16:00:00",
+        "systemMessages": [
+          {
+            "key": 8,
+            "type": "Warning",
+            "message": "Service interrupted"
+          }
+        ]
+      },
+      "expected": {
+        "partial": false,
+        "alerts": [
+          {
+            "id": "message-8",
+            "title": "Warning",
+            "description": "Service interrupted",
+            "category": "Warning",
+            "routes": [],
+            "stops": [],
+            "targets": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "keyed notice ECMAScript token boundaries and numeric identity",
+      "parser": "keyed-service-notices",
+      "payload": {
+        "queryTime": "2026-10-28T16:00:00",
+        "serviceAdvisories": [
+          {
+            "key": 7.0,
+            "title": "Scope",
+            "body": "Route A1é and Route B2.\n* ١٢ - Arabic digits\n* 902 - Stop\n* 903- No whitespace\n* 904﻿- Stop"
+          }
+        ]
+      },
+      "expected": {
+        "partial": false,
+        "alerts": [
+          {
+            "id": "advisory-7",
+            "title": "Scope",
+            "description": "Route A1é and Route B2.\n* ١٢ - Arabic digits\n* 902 - Stop\n* 903- No whitespace\n* 904﻿- Stop",
+            "routes": ["A1", "B2"],
+            "stops": ["902", "904"],
+            "targets": [
+              {
+                "stopId": "902"
+              },
+              {
+                "stopId": "904"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "textless scoped cancellation retains the published effect and future period",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "uniqueId": "holiday-a",
+          "gtfsentityId": "entity-holiday-a",
+          "subject": "Regional bus",
+          "alertDescriptions": [
+            {
+              "text": null
+            }
+          ],
+          "alertHeaders": [
+            {
+              "text": null
+            }
+          ],
+          "alertEntityAffecteds": [
+            {
+              "routeId": "R7",
+              "stopId": null,
+              "tripId": null
+            }
+          ],
+          "alertPeriods": [
+            {
+              "startDateTime": "2026-11-11T12:45:00",
+              "endDateTime": "2026-11-11T22:24:00"
+            }
+          ],
+          "renderedAlert": {
+            "message": {
+              "header": "",
+              "description": ""
+            },
+            "effect": {
+              "token": "NO_SERVICE",
+              "displayText": "No Service"
+            }
+          }
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "entity-holiday-a",
+            "title": "No Service",
+            "description": "No Service",
+            "routes": ["R7"],
+            "targets": [
+              {
+                "routeId": "R7"
+              }
+            ],
+            "tripIds": [],
+            "tripScoped": false,
+            "effect": "NO_SERVICE",
+            "activePeriod": {
+              "start": "2026-11-11T12:45:00Z",
+              "end": "2026-11-11T22:24:00Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "TransLoc seconds and colonized timezone offset",
+      "parser": "transloc-messages",
+      "payload": [
+        {
+          "id": 8,
+          "text": "Stop closure information",
+          "created_at": "Fri Nov 06 16:21:42 -00:00 2026",
+          "end_date": "Thu Nov 12 04:00:01 -00:00 2026"
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "8",
+            "title": "Stop closure information",
+            "effect": "UNKNOWN_EFFECT",
+            "activePeriod": {
+              "start": "2026-11-06T16:21:42.000Z",
+              "end": "2026-11-12T04:00:01.000Z"
+            }
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "bucketed stop closure keeps its point scope and overnight window",
+      "parser": "bucketed-transit-alerts",
+      "payload": {
+        "cancelled_stops": [
+          {
+            "id": "closure",
+            "headline": "Stop closed",
+            "description": "Use next stop",
+            "effect": "NO_SERVICE",
+            "entities": [
+              {
+                "route_id": "A",
+                "stop_id": "s1"
+              }
+            ],
+            "periods": [
+              {
+                "start": "2026-11-11 20:00:00",
+                "end": "2026-11-11 02:00:00"
+              }
+            ]
+          }
+        ],
+        "cancelled_trips": [],
+        "significant_delays": [],
+        "other": []
+      },
+      "expected": {
+        "partial": false,
+        "alerts": [
+          {
+            "id": "closure:0",
+            "title": "Stop closed",
+            "description": "Use next stop",
+            "effect": "NO_SERVICE",
+            "routes": ["A"],
+            "stops": ["s1"],
+            "targets": [
+              {
+                "routeId": "A",
+                "stopId": "s1"
+              }
+            ],
+            "stopScoped": true,
+            "activePeriod": {
+              "start": "2026-11-11T20:00:00Z",
+              "end": "2026-11-12T02:00:00Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "JSON API resolves route direction and stop scope",
+      "parser": "jsonapi-transit-notices",
+      "payload": {
+        "data": [
+          {
+            "type": "notices_v2",
+            "id": "notice",
+            "attributes": {
+              "title": "Stop relocated",
+              "subtitle": "Temporary",
+              "general": false,
+              "date_notice_start": "2026-11-11T08:00:00-05:00",
+              "date_notice_end": null,
+              "body": null
+            },
+            "relationships": {
+              "parcours": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_parcours",
+                    "id": "p"
+                  }
+                ]
+              },
+              "all_stops": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "included": [
+          {
+            "type": "paragraph--avis_parcours",
+            "id": "p",
+            "relationships": {
+              "routes": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsRoutes",
+                    "id": "r"
+                  }
+                ]
+              },
+              "arrets": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_arrets",
+                    "id": "closed-p"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "taxonomyTermsRoutes",
+            "id": "r",
+            "attributes": {
+              "name": "A",
+              "code_direction": "1"
+            }
+          },
+          {
+            "type": "taxonomyTermsNoticeStop",
+            "id": "s",
+            "attributes": {
+              "name": "23"
+            }
+          },
+          {
+            "type": "paragraph--avis_arrets",
+            "id": "closed-p",
+            "relationships": {
+              "arrets_non_desservis": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s"
+                  }
+                ]
+              },
+              "arrets_suggeres": {
+                "data": []
+              }
+            }
+          }
+        ],
+        "meta": {
+          "count": 1
+        }
+      },
+      "expected": {
+        "partial": false,
+        "alerts": [
+          {
+            "id": "notice",
+            "title": "Stop relocated",
+            "description": "Temporary",
+            "routes": ["A"],
+            "stops": ["23"],
+            "targets": [
+              {
+                "routeId": "A",
+                "directionId": 1,
+                "stopCode": "23",
+                "stopId": "23"
+              }
+            ],
+            "stopScoped": true,
+            "affectsAllRoutes": false,
+            "activePeriod": {
+              "start": "2026-11-11T08:00:00-05:00"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "empty complete JSON API board",
+      "parser": "jsonapi-transit-notices",
+      "payload": {
+        "data": [],
+        "meta": {
+          "count": 0
+        }
+      },
+      "expected": {
+        "alerts": [],
+        "partial": false
+      }
+    },
+    {
+      "name": "cancelled trips keep trip identities",
+      "parser": "bucketed-transit-alerts",
+      "payload": {
+        "cancelled_stops": [],
+        "cancelled_trips": [
+          {
+            "id": "cancel",
+            "headline": "Departures cancelled",
+            "description": "Two departures cancelled",
+            "effect": "NO_SERVICE",
+            "entities": [
+              {
+                "route_id": "A",
+                "trip_id": "t1"
+              },
+              {
+                "route_id": "A",
+                "trip_id": "t2"
+              }
+            ],
+            "periods": [
+              {
+                "start": "2026-11-11 08:00:00",
+                "end": null
+              }
+            ]
+          }
+        ],
+        "significant_delays": [],
+        "other": []
+      },
+      "expected": {
+        "partial": false,
+        "alerts": [
+          {
+            "id": "cancel:0",
+            "title": "Departures cancelled",
+            "description": "Two departures cancelled",
+            "effect": "NO_SERVICE",
+            "routes": ["A"],
+            "stops": [],
+            "targets": [
+              {
+                "routeId": "A"
+              },
+              {
+                "routeId": "A"
+              }
+            ],
+            "stopScoped": false,
+            "tripScoped": true,
+            "tripIds": ["t1", "t2"],
+            "activePeriod": {
+              "start": "2026-11-11T08:00:00Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "paginated JSON API board is partial",
+      "parser": "jsonapi-transit-notices",
+      "payload": {
+        "data": [],
+        "included": [],
+        "meta": {
+          "count": 2
+        },
+        "links": {
+          "next": {
+            "href": "https://example.test/next"
+          }
+        }
+      },
+      "expected": {
+        "alerts": [],
+        "partial": true
+      }
+    },
+    {
+      "name": "JSON API keeps direction-specific closures separate from replacements",
+      "parser": "jsonapi-transit-notices",
+      "payload": {
+        "data": [
+          {
+            "type": "notices_v2",
+            "id": "notice",
+            "attributes": {
+              "title": "Stop relocated",
+              "subtitle": "Temporary",
+              "general": false,
+              "date_notice_start": "2026-11-11T08:00:00-05:00",
+              "date_notice_end": null,
+              "body": null
+            },
+            "relationships": {
+              "parcours": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_parcours",
+                    "id": "p"
+                  },
+                  {
+                    "type": "paragraph--avis_parcours",
+                    "id": "p2"
+                  }
+                ]
+              },
+              "all_stops": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "included": [
+          {
+            "type": "paragraph--avis_parcours",
+            "id": "p",
+            "relationships": {
+              "routes": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsRoutes",
+                    "id": "r"
+                  }
+                ]
+              },
+              "arrets": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_arrets",
+                    "id": "closed-p"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "taxonomyTermsRoutes",
+            "id": "r",
+            "attributes": {
+              "name": "A",
+              "code_direction": "1"
+            }
+          },
+          {
+            "type": "taxonomyTermsNoticeStop",
+            "id": "s",
+            "attributes": {
+              "name": "23"
+            }
+          },
+          {
+            "type": "paragraph--avis_arrets",
+            "id": "closed-p",
+            "relationships": {
+              "arrets_non_desservis": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s"
+                  }
+                ]
+              },
+              "arrets_suggeres": {
+                "data": []
+              }
+            }
+          },
+          {
+            "type": "paragraph--avis_parcours",
+            "id": "p2",
+            "relationships": {
+              "routes": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsRoutes",
+                    "id": "r2"
+                  }
+                ]
+              },
+              "arrets": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_arrets",
+                    "id": "b2"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "taxonomyTermsRoutes",
+            "id": "r2",
+            "attributes": {
+              "name": "B",
+              "code_direction": "0"
+            }
+          },
+          {
+            "type": "paragraph--avis_arrets",
+            "id": "b2",
+            "relationships": {
+              "arrets_non_desservis": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s2"
+                  }
+                ]
+              },
+              "arrets_suggeres": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "alt"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "taxonomyTermsNoticeStop",
+            "id": "s2",
+            "attributes": {
+              "name": "42",
+              "name_stop": "West / 42"
+            }
+          },
+          {
+            "type": "taxonomyTermsNoticeStop",
+            "id": "alt",
+            "attributes": {
+              "name": "43",
+              "name_stop": "West / 43"
+            }
+          }
+        ],
+        "meta": {
+          "count": 1
+        }
+      },
+      "expected": {
+        "partial": false,
+        "alerts": [
+          {
+            "id": "notice",
+            "title": "Stop relocated",
+            "description": "Temporary",
+            "routes": ["A", "B"],
+            "stops": ["23", "West / 42"],
+            "targets": [
+              {
+                "routeId": "A",
+                "directionId": 1,
+                "stopCode": "23",
+                "stopId": "23"
+              },
+              {
+                "routeId": "B",
+                "directionId": 0,
+                "stopCode": "42",
+                "stopId": "West / 42"
+              }
+            ],
+            "stopScoped": true,
+            "affectsAllRoutes": false,
+            "activePeriod": {
+              "start": "2026-11-11T08:00:00-05:00"
+            },
+            "alternate_stops": [
+              {
+                "id": "43",
+                "name": "West / 43"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "trip-only cancellation has no route target",
+      "parser": "bucketed-transit-alerts",
+      "payload": {
+        "cancelled_stops": [],
+        "cancelled_trips": [
+          {
+            "id": "cancel",
+            "headline": "Departures cancelled",
+            "description": "Two departures cancelled",
+            "effect": "NO_SERVICE",
+            "entities": [
+              {
+                "trip_id": "t1"
+              }
+            ],
+            "periods": [
+              {
+                "start": "2026-11-11 08:00:00",
+                "end": null
+              }
+            ]
+          }
+        ],
+        "significant_delays": [],
+        "other": []
+      },
+      "expected": {
+        "partial": false,
+        "alerts": [
+          {
+            "id": "cancel:0",
+            "title": "Departures cancelled",
+            "description": "Two departures cancelled",
+            "effect": "NO_SERVICE",
+            "routes": [],
+            "stops": [],
+            "targets": [],
+            "stopScoped": false,
+            "tripScoped": true,
+            "tripIds": ["t1"],
+            "activePeriod": {
+              "start": "2026-11-11T08:00:00Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "empty enabled Hubup board",
+      "parser": "hubup-service-alerts",
+      "payload": [],
+      "expected": {
+        "alerts": [],
+        "partial": false
+      }
+    },
+    {
+      "name": "Hubup stop selectors and separate periods",
+      "parser": "hubup-service-alerts",
+      "payload": [
+        {
+          "id": 9,
+          "effect": "NO_SERVICE",
+          "contents": [
+            {
+              "lang": "fr",
+              "header": "Arrêt déplacé",
+              "description": "Utilisez le quai voisin."
+            }
+          ],
+          "periods": [
+            {
+              "is_active": true,
+              "start": "2026-11-12T09:00:00",
+              "end": "2026-11-12T18:00:00"
+            }
+          ],
+          "targets": [
+            {
+              "route": {
+                "real_route_id": "A"
+              },
+              "stops": [
+                {
+                  "real_stop_id": "s"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "9:0",
+            "title": "Arrêt déplacé",
+            "description": "Utilisez le quai voisin.",
+            "effect": "NO_SERVICE",
+            "targets": [
+              {
+                "routeId": "A",
+                "stopId": "s"
+              }
+            ],
+            "activePeriod": {
+              "start": "2026-11-12T09:00:00",
+              "end": "2026-11-12T18:00:00"
+            }
+          }
+        ],
+        "partial": false
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "name": "malformed broadcast",
+      "parser": "mapstrat-broadcast",
+      "payload": [
+        {
+          "message": "bad"
+        }
+      ]
+    },
+    {
+      "name": "empty message",
+      "parser": "mapstrat-broadcast",
+      "payload": [
+        {
+          "id": 0,
+          "message": " ",
+          "routeNum": 41,
+          "stopNum": 0,
+          "isForDetour": true,
+          "type": "Alert"
+        }
+      ]
+    },
+    {
+      "name": "empty object broadcast",
+      "parser": "mapstrat-broadcast",
+      "payload": {}
+    },
+    {
+      "name": "null broadcast",
+      "parser": "mapstrat-broadcast",
+      "payload": null
+    },
+    {
+      "name": "non-array broadcast object",
+      "parser": "mapstrat-broadcast",
+      "payload": {
+        "id": 0,
+        "message": "Detour",
+        "routeNum": 41,
+        "stopNum": 0,
+        "isForDetour": true,
+        "type": "Alert"
+      }
+    },
+    {
+      "name": "null broadcast record",
+      "parser": "mapstrat-broadcast",
+      "payload": [null]
+    },
+    {
+      "name": "bad search envelope",
+      "parser": "eum-search-advisories",
+      "payload": {}
+    },
+    {
+      "name": "missing route scope",
+      "parser": "eum-search-advisories",
+      "payload": {
+        "totalCount": 1,
+        "value": [
+          {
+            "document": {
+              "Title": "Trunk A",
+              "RouteTitle": "",
+              "Detour": "Roadworks",
+              "RoutesAffected": "/works.pdf",
+              "Approx_x002e_StartDate": "Monday, October 12, 2026",
+              "Approx_x002e_EndDate": "End of October 2026"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "missing board",
+      "parser": "rendered-advisory-board",
+      "payload": {}
+    },
+    {
+      "name": "unreadable notice",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "uniqueId": "x"
+        }
+      ]
+    },
+    {
+      "name": "empty group",
+      "parser": "rendered-advisory-board",
+      "payload": [{}]
+    },
+    {
+      "name": "markup only",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "uniqueId": "event-a",
+          "gtfsentityId": null,
+          "subject": null,
+          "alertDescriptions": [
+            {
+              "text": "<p><br></p>"
+            }
+          ],
+          "alertHeaders": null,
+          "alertEntityAffecteds": [],
+          "alertPeriods": [
+            {
+              "startDateTime": "2026-10-03T00:13:00",
+              "endDateTime": null
+            }
+          ],
+          "effectText": "ReducedService"
+        }
+      ]
+    },
+    {
+      "name": "invalid period",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "uniqueId": "event-a",
+          "gtfsentityId": null,
+          "subject": null,
+          "alertDescriptions": [
+            {
+              "text": "<p>Overtime ban may cause trip cancellations.</p>"
+            }
+          ],
+          "alertHeaders": null,
+          "alertEntityAffecteds": [],
+          "alertPeriods": [
+            {
+              "startDateTime": "not a date",
+              "endDateTime": null
+            }
+          ],
+          "effectText": "ReducedService"
+        }
+      ]
+    },
+    {
+      "name": "missing attribute envelope",
+      "parser": "attribute-advisories",
+      "payload": {}
+    },
+    {
+      "name": "invalid attribute date",
+      "parser": "attribute-advisories",
+      "payload": {
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "title": "Notice",
+              "description": "Details",
+              "startDate": "31-02-2026",
+              "endDate": "18-12-2026"
+            }
+          }
+        ],
+        "meta": {
+          "pagination": {
+            "total": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "blank attribute title",
+      "parser": "attribute-advisories",
+      "payload": {
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "title": " ",
+              "description": "Details",
+              "startDate": "01-09-2026",
+              "endDate": "18-12-2026"
+            }
+          }
+        ],
+        "meta": {
+          "pagination": {
+            "total": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "broken TransLoc message date",
+      "parser": "transloc-messages",
+      "payload": [
+        {
+          "id": 7,
+          "text": "Service information",
+          "created_at": "invalid"
+        }
+      ]
+    },
+    {
+      "name": "timezone-less TransLoc date",
+      "parser": "transloc-messages",
+      "payload": [
+        {
+          "id": 7,
+          "text": "Service information",
+          "created_at": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "name": "rolled TransLoc calendar date",
+      "parser": "transloc-messages",
+      "payload": [
+        {
+          "id": 7,
+          "text": "Service information",
+          "created_at": "Mon Feb 30 08:00 -0700 2026"
+        }
+      ]
+    },
+    {
+      "name": "keyed notice envelope missing",
+      "parser": "keyed-service-notices",
+      "payload": {
+        "queryTime": "2026-10-28T16:00:00"
+      }
+    },
+    {
+      "name": "keyed notice unreadable content",
+      "parser": "keyed-service-notices",
+      "payload": {
+        "queryTime": "2026-10-28T16:00:00",
+        "serviceAdvisories": [
+          {
+            "key": 1,
+            "title": "Notice",
+            "body": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "keyed notice empty update time",
+      "parser": "keyed-service-notices",
+      "payload": {
+        "queryTime": "2026-10-28T16:00:00",
+        "serviceAdvisories": [
+          {
+            "key": 8,
+            "title": "Notice",
+            "body": "Notice",
+            "updatedAt": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "textless cancellation with no entity scope",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "uniqueId": "holiday-a",
+          "gtfsentityId": "entity-holiday-a",
+          "subject": "Regional bus",
+          "alertDescriptions": [
+            {
+              "text": null
+            }
+          ],
+          "alertHeaders": [
+            {
+              "text": null
+            }
+          ],
+          "alertEntityAffecteds": [],
+          "alertPeriods": [
+            {
+              "startDateTime": "2026-11-11T12:45:00",
+              "endDateTime": "2026-11-11T22:24:00"
+            }
+          ],
+          "renderedAlert": {
+            "message": {
+              "header": "",
+              "description": ""
+            },
+            "effect": {
+              "token": "NO_SERVICE",
+              "displayText": "No Service"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "textless generic notice",
+      "parser": "rendered-advisory-board",
+      "payload": [
+        {
+          "uniqueId": "holiday-a",
+          "gtfsentityId": "entity-holiday-a",
+          "subject": "Regional bus",
+          "alertDescriptions": [
+            {
+              "text": null
+            }
+          ],
+          "alertHeaders": [
+            {
+              "text": null
+            }
+          ],
+          "alertEntityAffecteds": [
+            {
+              "routeId": "R7",
+              "stopId": null,
+              "tripId": null
+            }
+          ],
+          "alertPeriods": [
+            {
+              "startDateTime": "2026-11-11T12:45:00",
+              "endDateTime": "2026-11-11T22:24:00"
+            }
+          ],
+          "renderedAlert": {
+            "message": {
+              "header": "",
+              "description": ""
+            },
+            "effect": {
+              "token": "OTHER_EFFECT",
+              "displayText": "No Service"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "missing transit buckets",
+      "parser": "bucketed-transit-alerts",
+      "payload": {}
+    },
+    {
+      "name": "unreadable transit entities",
+      "parser": "bucketed-transit-alerts",
+      "payload": {
+        "cancelled_stops": [
+          {
+            "id": "closure",
+            "headline": "Stop closed",
+            "description": "Use next stop",
+            "effect": "NO_SERVICE",
+            "entities": [
+              {
+                "route_id": "A",
+                "stop_id": "s1"
+              }
+            ],
+            "periods": [
+              {
+                "start": "2026-11-11 20:00:00",
+                "end": "2026-11-11 02:00:00"
+              }
+            ]
+          }
+        ],
+        "cancelled_trips": [],
+        "significant_delays": [],
+        "other": [
+          {
+            "id": "bad"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JSON API missing included route",
+      "parser": "jsonapi-transit-notices",
+      "payload": {
+        "data": [
+          {
+            "type": "notices_v2",
+            "id": "notice",
+            "attributes": {
+              "title": "Stop relocated",
+              "subtitle": "Temporary",
+              "general": false,
+              "date_notice_start": "2026-11-11T08:00:00-05:00",
+              "date_notice_end": null,
+              "body": null
+            },
+            "relationships": {
+              "parcours": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_parcours",
+                    "id": "p"
+                  }
+                ]
+              },
+              "all_stops": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "included": [],
+        "meta": {
+          "count": 1
+        }
+      }
+    },
+    {
+      "name": "invalid calendar date",
+      "parser": "jsonapi-transit-notices",
+      "payload": {
+        "data": [
+          {
+            "type": "notices_v2",
+            "id": "notice",
+            "attributes": {
+              "title": "Stop relocated",
+              "subtitle": "Temporary",
+              "general": false,
+              "date_notice_start": "2026-02-30T08:00:00Z",
+              "date_notice_end": null,
+              "body": null
+            },
+            "relationships": {
+              "parcours": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_parcours",
+                    "id": "p"
+                  }
+                ]
+              },
+              "all_stops": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "included": [
+          {
+            "type": "paragraph--avis_parcours",
+            "id": "p",
+            "relationships": {
+              "routes": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsRoutes",
+                    "id": "r"
+                  }
+                ]
+              },
+              "arrets": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_arrets",
+                    "id": "closed-p"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "taxonomyTermsRoutes",
+            "id": "r",
+            "attributes": {
+              "name": "A",
+              "code_direction": "1"
+            }
+          },
+          {
+            "type": "taxonomyTermsNoticeStop",
+            "id": "s",
+            "attributes": {
+              "name": "23"
+            }
+          },
+          {
+            "type": "paragraph--avis_arrets",
+            "id": "closed-p",
+            "relationships": {
+              "arrets_non_desservis": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s"
+                  }
+                ]
+              },
+              "arrets_suggeres": {
+                "data": []
+              }
+            }
+          }
+        ],
+        "meta": {
+          "count": 1
+        }
+      }
+    },
+    {
+      "name": "offset-free publication date",
+      "parser": "jsonapi-transit-notices",
+      "payload": {
+        "data": [
+          {
+            "type": "notices_v2",
+            "id": "notice",
+            "attributes": {
+              "title": "Stop relocated",
+              "subtitle": "Temporary",
+              "general": false,
+              "date_notice_start": "2026-11-11T08:00:00",
+              "date_notice_end": null,
+              "body": null
+            },
+            "relationships": {
+              "parcours": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_parcours",
+                    "id": "p"
+                  }
+                ]
+              },
+              "all_stops": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "included": [
+          {
+            "type": "paragraph--avis_parcours",
+            "id": "p",
+            "relationships": {
+              "routes": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsRoutes",
+                    "id": "r"
+                  }
+                ]
+              },
+              "arrets": {
+                "data": [
+                  {
+                    "type": "paragraph--avis_arrets",
+                    "id": "closed-p"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "taxonomyTermsRoutes",
+            "id": "r",
+            "attributes": {
+              "name": "A",
+              "code_direction": "1"
+            }
+          },
+          {
+            "type": "taxonomyTermsNoticeStop",
+            "id": "s",
+            "attributes": {
+              "name": "23"
+            }
+          },
+          {
+            "type": "paragraph--avis_arrets",
+            "id": "closed-p",
+            "relationships": {
+              "arrets_non_desservis": {
+                "data": [
+                  {
+                    "type": "taxonomyTermsNoticeStop",
+                    "id": "s"
+                  }
+                ]
+              },
+              "arrets_suggeres": {
+                "data": []
+              }
+            }
+          }
+        ],
+        "meta": {
+          "count": 1
+        }
+      }
+    },
+    {
+      "name": "unrecognized Hubup record cannot clear a board",
+      "parser": "hubup-service-alerts",
+      "payload": [
+        {
+          "id": 1
+        }
+      ]
+    }
+  ]
+}

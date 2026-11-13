@@ -1,0 +1,193 @@
+{
+  "id": "nrt",
+  "name": "Niagara Region Transit",
+  "serviceArea": "Niagara Region",
+  "serviceAreaTranslations": { "fr": "Région de Niagara" },
+  "shortName": "NRT",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 42.884,
+      "maxLat": 43.224,
+      "minLon": -79.288,
+      "maxLon": -78.908
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Niagara Region Transit / Niagara Region open data",
+    "url": "https://niagaraopendata.ca/pages/open-government-license-2-0-niagara-region",
+    "license": "Contains information licensed under the Open Government Licence - Niagara Region",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Downtown Terminal",
+      "lat": 43.160076,
+      "lon": -79.243553
+    },
+    {
+      "name": "Brock University",
+      "lat": 43.11893,
+      "lon": -79.249002
+    },
+    {
+      "name": "Niagara College NOTL",
+      "lat": 43.152453,
+      "lon": -79.166464
+    },
+    {
+      "name": "Morrison-Dorchester",
+      "lat": 43.10359,
+      "lon": -79.115696
+    },
+    {
+      "name": "Niagara Falls GO / VIA / Bus",
+      "lat": 43.107799,
+      "lon": -79.063556
+    },
+    {
+      "name": "Welland Terminal",
+      "lat": 42.992875,
+      "lon": -79.246246
+    },
+    {
+      "name": "Port Colborne City Hall",
+      "lat": 42.885061,
+      "lon": -79.252035
+    },
+    {
+      "name": "Fort Erie Town Hall",
+      "lat": 42.902152,
+      "lon": -78.973011
+    }
+  ],
+  "popularSurfaceRoutes": [
+    "40",
+    "45",
+    "70",
+    "75",
+    "60",
+    "65",
+    "50",
+    "55",
+    "22",
+    "25",
+    "34",
+    "303",
+    "438",
+    "104",
+    "103",
+    "603",
+    "301",
+    "316",
+    "337",
+    "751"
+  ],
+  "alertInterpretation": {
+    "lineIds": [
+      "40-45",
+      "50-55",
+      "70-75",
+      "60-65",
+      "34",
+      "22",
+      "25",
+      "303",
+      "438",
+      "103",
+      "104-204",
+      "603"
+    ],
+    "routeLineMap": {
+      "40": "40-45",
+      "45": "40-45",
+      "50": "50-55",
+      "55": "50-55",
+      "70": "70-75",
+      "75": "70-75",
+      "60": "60-65",
+      "65": "60-65",
+      "104": "104-204",
+      "204": "104-204"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "titleIncludes": ["service suspended", "service suspension", "no service"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "sourceField": "category",
+          "sourceValue": "detour"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 80,
+        "match": {
+          "sourceField": "category",
+          "sourceValue": "stop_closure"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Niagara Region Transit GTFS",
+        "url": "http://68.71.24.110/gtfs/GTFSExport.zip",
+        "cacheFileName": "nrt-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "http://68.71.24.110/gtfsrt/vehicles",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "http://68.71.24.110/gtfsrt/trips",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "url": "https://niagaratransit.ca/wp-json/nt-alerts/v1/alerts/active",
+      "parser": "generic-alert-feed"
+    }
+  ]
+}

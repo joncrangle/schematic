@@ -1,0 +1,146 @@
+{
+  "isStopCancelled": false,
+  "calls": [
+    {
+      "id": "l:9000007",
+      "calls": [
+        {
+          "id": "1240916201",
+          "key": "0",
+          "lineId": 9000007,
+          "routeId": 1003430,
+          "journeyId": 1319404,
+          "stopPointId": 9000106,
+          "sequenceNumber": 4,
+          "line": "6",
+          "lineAppearance": {
+            "background": "#9370DB",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "900",
+          "destination": "Lakehead",
+          "subdestination": "",
+          "arrival": null,
+          "departure": {
+            "vehicleType": null,
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-10-15T09:23:03-04:00",
+            "plannedTime": "2026-10-15T09:21:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": "",
+            "occupancyPercent": null
+          },
+          "createdTime": "2026-10-15T13:19:37.0882684+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:9000001",
+      "calls": [
+        {
+          "id": "1240911008",
+          "key": "0",
+          "lineId": 9000001,
+          "routeId": 1000689,
+          "journeyId": 1314306,
+          "stopPointId": 9000011,
+          "sequenceNumber": 4,
+          "line": "1",
+          "lineAppearance": {
+            "background": "#FF7733",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "915",
+          "destination": "Penetanguishene via Elmvale",
+          "subdestination": "",
+          "arrival": null,
+          "departure": {
+            "vehicleType": null,
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-10-15T09:33:08-04:00",
+            "plannedTime": "2026-10-15T09:34:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": "",
+            "occupancyPercent": null
+          },
+          "createdTime": "2026-10-15T13:19:14.508386+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:9000004",
+      "calls": [
+        {
+          "id": "1240910990",
+          "key": "0",
+          "lineId": 9000004,
+          "routeId": 1003438,
+          "journeyId": 1314237,
+          "stopPointId": 9000061,
+          "sequenceNumber": 5,
+          "line": "4",
+          "lineAppearance": {
+            "background": "#CC33FF",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "930",
+          "destination": "Collingwood Downtown Terminal",
+          "subdestination": "",
+          "arrival": null,
+          "departure": {
+            "vehicleType": null,
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-10-15T09:37:00-04:00",
+            "plannedTime": "2026-10-15T09:37:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": "",
+            "occupancyPercent": null
+          },
+          "createdTime": "2026-10-15T13:19:25.9098301+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:9000004",
+      "calls": [
+        {
+          "id": "1240911079",
+          "key": "0",
+          "lineId": 9000004,
+          "routeId": 1001761,
+          "journeyId": 1314347,
+          "stopPointId": 9000027,
+          "sequenceNumber": 18,
+          "line": "4",
+          "lineAppearance": {
+            "background": "#CC33FF",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "900",
+          "destination": "Wasaga Beach 45th Street",
+          "subdestination": "",
+          "arrival": null,
+          "departure": {
+            "vehicleType": null,
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-10-15T09:21:13-04:00",
+            "plannedTime": "2026-10-15T09:20:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": "",
+            "occupancyPercent": null
+          },
+          "createdTime": "2026-10-15T13:19:17.9022649+00:00"
+        }
+      ]
+    }
+  ],
+  "messages": []
+}

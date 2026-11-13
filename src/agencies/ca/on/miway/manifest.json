@@ -1,0 +1,130 @@
+{
+  "id": "miway",
+  "name": "MiWay",
+  "serviceArea": "Mississauga",
+  "shortName": "MiWay",
+  "brandColor": "#006892",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.58,
+      "maxLat": 43.61,
+      "minLon": -79.66,
+      "maxLon": -79.63
+    },
+    {
+      "minLat": 43.57,
+      "maxLat": 43.61,
+      "minLon": -79.81,
+      "maxLon": -79.74
+    },
+    {
+      "minLat": 43.47,
+      "maxLat": 43.65,
+      "minLon": -79.81,
+      "maxLon": -79.51
+    },
+    {
+      "minLat": 43.64,
+      "maxLat": 43.74,
+      "minLon": -79.66,
+      "maxLon": -79.51
+    },
+    {
+      "minLat": 43.64,
+      "maxLat": 43.685,
+      "minLon": -79.71,
+      "maxLon": -79.66
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "City of Mississauga / MiWay",
+    "url": "https://www.mississauga.ca/miway-transit/developer-download/",
+    "license": "Use subject to the City of Mississauga Terms of Use (credit requested): http://www5.mississauga.ca/research_catalogue/CityofMississauga_TermsofUse.pdf",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "directionLiterals": {
+    "north": "Northbound",
+    "south": "Southbound",
+    "east": "Eastbound",
+    "west": "Westbound"
+  },
+  "cityPresets": [
+    {
+      "name": "City Centre Transit Terminal",
+      "lat": 43.593731,
+      "lon": -79.647476
+    },
+    {
+      "name": "University of Toronto Mississauga",
+      "lat": 43.547872,
+      "lon": -79.663841
+    },
+    {
+      "name": "Port Credit GO Station",
+      "lat": 43.555362,
+      "lon": -79.587672
+    },
+    {
+      "name": "Meadowvale Town Centre",
+      "lat": 43.583174,
+      "lon": -79.75896
+    },
+    {
+      "name": "Erin Mills Station",
+      "lat": 43.552598,
+      "lon": -79.699557
+    },
+    {
+      "name": "Westwood Square Transit Terminal",
+      "lat": 43.721713,
+      "lon": -79.640641
+    }
+  ],
+  "popularSurfaceRoutes": ["2", "101", "103", "107", "109", "110"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "MiWay GTFS",
+        "url": "https://www.miapp.ca/GTFS/google_transit.zip",
+        "cacheFileName": "miway-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://www.miapp.ca/GTFS_RT/Vehicle/VehiclePositions.pb",
+        "format": "protobuf",
+        "accept": "application/protocol-buffer"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://www.miapp.ca/GTFS_RT/TripUpdate/TripUpdates.pb",
+        "format": "protobuf",
+        "accept": "application/protocol-buffer"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://www.miapp.ca/gtfs_rt/Alerts/Alerts.pb",
+      "format": "protobuf",
+      "accept": "application/protocol-buffer"
+    }
+  ],
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  }
+}

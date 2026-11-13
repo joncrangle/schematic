@@ -1,0 +1,100 @@
+{
+  "id": "whitehorse",
+  "name": "Whitehorse Transit",
+  "serviceArea": "Whitehorse, Yukon",
+  "locale": "en-CA",
+  "timezone": "America/Whitehorse",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "yt"
+  },
+  "status": "experimental",
+  "bounds": [
+    {
+      "minLat": 60.68,
+      "maxLat": 60.8,
+      "minLon": -135.18,
+      "maxLon": -135.01
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Whitehorse Transit / City of Whitehorse / TransLoc",
+    "url": "https://www.whitehorse.ca/transit-apps/",
+    "license": "No explicit reuse terms were found for the published GTFS and TransLoc feeds."
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "url": "https://whitehorse.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
+      }
+    ],
+    "excludedRouteIds": ["TL-54", "TL-58", "TL-61"],
+    "defaultColor": "#00660F",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "transloc",
+        "format": "json",
+        "url": "https://whitehorse.transloc.com/Services/JSONPRelay.svc",
+        "routeIds": ["46", "47", "48", "63", "50", "53", "51", "64"],
+        "idPrefix": "TL-",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "routeShortNames": {
+    "TL-46": "101",
+    "TL-47": "102",
+    "TL-48": "201",
+    "TL-63": "202",
+    "TL-50": "301",
+    "TL-53": "302",
+    "TL-51": "401",
+    "TL-64": "402"
+  },
+  "popularSurfaceRoutes": ["TL-46", "TL-47", "TL-48", "TL-63", "TL-50", "TL-53", "TL-51", "TL-64"],
+  "cityPresets": [
+    {
+      "name": "City Hall",
+      "lat": 60.720794,
+      "lon": -135.052995
+    },
+    {
+      "name": "Yukon University",
+      "lat": 60.7500441,
+      "lon": -135.0971768
+    },
+    {
+      "name": "Canada Games Centre",
+      "lat": 60.7290177,
+      "lon": -135.0984493
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["101", "102", "201", "302", "401"],
+    "routeLineMap": {
+      "TL-46": "101",
+      "TL-47": "102",
+      "TL-48": "201",
+      "TL-53": "302",
+      "TL-51": "401"
+    }
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "transloc-messages",
+      "url": "https://whitehorse.transloc.com/Services/JSONPRelay.svc/GetTwitterJSON",
+      "language": "en",
+      "pollIntervalSeconds": 600
+    }
+  ]
+}

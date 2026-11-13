@@ -1,0 +1,174 @@
+{
+  "id": "kingston",
+  "name": "Kingston Transit",
+  "serviceArea": "Kingston",
+  "shortName": "KT",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 44.17,
+      "maxLat": 44.3,
+      "minLon": -76.8,
+      "maxLon": -76.43
+    }
+  ],
+  "modes": ["bus"],
+  "proximity": {
+    "radiusMeters": 1500,
+    "bucketMeters": 75
+  },
+  "attribution": {
+    "name": "City of Kingston Open Data",
+    "url": "https://www.cityofkingston.ca/open-data",
+    "license": "Open Government Licence – Ontario"
+  },
+  "status": "experimental",
+  "stationService": {
+    "routeType": "bus"
+  },
+  "alertInterpretation": {
+    "rules": [
+      {
+        "priority": 200,
+        "match": { "textIncludes": ["route cancelled"] },
+        "result": { "kind": "suspension", "severity": "severe" }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": [
+            "detour",
+            "detoured",
+            "detouring",
+            "divert",
+            "diverted",
+            "reroute",
+            "rerouted",
+            "rerouting",
+            "redirect"
+          ]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 50,
+        "match": { "textIncludes": ["traffic delay", "service disruption"] },
+        "result": { "kind": "delay", "severity": "degraded" }
+      }
+    ],
+    "routeLineMap": {
+      "502": "501",
+      "602": "601",
+      "702": "701",
+      "802": "801"
+    }
+  },
+  "cityPresets": [
+    {
+      "name": "Kingston City Hall (Downtown)",
+      "lat": 44.2307,
+      "lon": -76.481
+    },
+    {
+      "name": "Queen's University",
+      "lat": 44.2253,
+      "lon": -76.4951
+    },
+    {
+      "name": "Kingston General Hospital",
+      "lat": 44.225,
+      "lon": -76.488
+    },
+    {
+      "name": "INVISTA Centre Park & Ride",
+      "lat": 44.27602,
+      "lon": -76.56837
+    },
+    {
+      "name": "Cataraqui Centre",
+      "lat": 44.25508,
+      "lon": -76.57215
+    },
+    {
+      "name": "Kingston Station (VIA)",
+      "lat": 44.25773,
+      "lon": -76.53782
+    },
+    {
+      "name": "St. Lawrence College",
+      "lat": 44.22372,
+      "lon": -76.52642
+    },
+    {
+      "name": "Kingston Centre",
+      "lat": 44.242,
+      "lon": -76.5168
+    },
+    {
+      "name": "Royal Military College (RMC)",
+      "lat": 44.23647,
+      "lon": -76.46707
+    },
+    {
+      "name": "CFB Kingston",
+      "lat": 44.245,
+      "lon": -76.435
+    },
+    {
+      "name": "Innovation Dr. Park & Ride",
+      "lat": 44.2722,
+      "lon": -76.44609
+    }
+  ],
+  "directionLiterals": {
+    "north": "Northbound",
+    "south": "Southbound",
+    "east": "Eastbound",
+    "west": "Westbound"
+  },
+  "popularSurfaceRoutes": ["1", "2", "4", "501", "601", "701", "801"],
+  "staticTopology": {
+    "feeds": [
+      {
+        "name": "Kingston Transit",
+        "url": "https://api.cityofkingston.ca/gtfs/gtfs.zip",
+        "cacheFileName": "kingston-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#0072BC",
+    "defaultTextColor": "#FFFFFF",
+    "source": "seed"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://api.cityofkingston.ca/gtfs-realtime/vehicleupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api.cityofkingston.ca/gtfs-realtime/tripupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://api.cityofkingston.ca/gtfs-realtime/alerts.pb"
+    }
+  ],
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  }
+}

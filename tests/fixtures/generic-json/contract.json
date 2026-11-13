@@ -1,0 +1,980 @@
+[
+  {
+    "name": "flat news",
+    "valid": true,
+    "payload": [
+      {
+        "newsId": 7,
+        "summary": "<p>Notice</p>",
+        "routes": [
+          "R7"
+        ],
+        "publishDateUtc": "2026-10-14T08:00:00-04:00"
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "7",
+          "title": "Transit advisory",
+          "description": "Notice",
+          "startsAt": 1791979200000,
+          "routeIds": [
+            "R7"
+          ],
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "route and accessibility boards",
+    "valid": true,
+    "payload": {
+      "routes": [
+        {
+          "id": "R1",
+          "activePeriod": {
+            "start": "2026-10-14T08:00:00Z"
+          }
+        }
+      ],
+      "accessibility": [
+        {
+          "id": "A1",
+          "accessibility": "elevator"
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "R1",
+          "title": "Transit advisory",
+          "startsAt": 1791964800000,
+          "updatedAt": 1791993600000
+        },
+        {
+          "id": "A1",
+          "title": "Transit advisory",
+          "startsAt": 1791993600000,
+          "category": "elevator",
+          "sourceFields": {
+            "accessibility": "elevator"
+          },
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "bucketed advisories",
+    "valid": true,
+    "payload": {
+      "updated_at": "2026-10-14T10:00:00-04:00",
+      "alerts": {
+        "short_term": [
+          {
+            "id": 17,
+            "title": "Bridge &amp; detour",
+            "description": "Closed to through traffic.<br>\n<br>\nUse the <strong>alternate</strong>&nbsp;stop.<p><br></p>",
+            "category": "detour",
+            "severity": "warning",
+            "reason": "construction",
+            "routes": [
+              "R7",
+              8
+            ],
+            "posted_at": "2026-10-13T08:00:00-04:00",
+            "start_time": "2026-10-14T09:00:00-04:00",
+            "expires_at": "2026-10-14T23:59:00-04:00",
+            "closed_stops": [
+              {
+                "id": " S1 ",
+                "name": "Closed stop",
+                "code": "101"
+              }
+            ],
+            "alternate_stops": [
+              {
+                "id": "S2",
+                "name": "Alternate stop",
+                "code": "102"
+              }
+            ]
+          }
+        ],
+        "long_term": [
+          {
+            "id": 18,
+            "title": "Standing notice",
+            "routes": [],
+            "posted_at": "2026-10-12T08:00:00-04:00",
+            "expires_at": "",
+            "closed_stops": [],
+            "alternate_stops": []
+          }
+        ]
+      }
+    },
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "17",
+          "title": "Bridge & detour",
+          "description": "Closed to through traffic.\nUse the alternate stop.\n\nClosed stops: Closed stop (101).\n\nAlternate stops: Alternate stop (102).",
+          "startsAt": 1791982800000,
+          "endsAt": 1792036740000,
+          "routeIds": [
+            "R7",
+            "8"
+          ],
+          "targets": [
+            {
+              "stopId": "S1"
+            }
+          ],
+          "affectedStations": [
+            "Closed stop"
+          ],
+          "category": "detour",
+          "sourceFields": {
+            "category": "detour",
+            "severity": "warning",
+            "reason": "construction"
+          },
+          "updatedAt": 1791993600000
+        },
+        {
+          "id": "18",
+          "title": "Standing notice",
+          "startsAt": 1791806400000,
+          "routeIds": [],
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "empty buckets",
+    "valid": true,
+    "payload": {
+      "alerts": {
+        "short_term": [],
+        "long_term": []
+      }
+    },
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": []
+    }
+  },
+  {
+    "name": "single short_term bucket",
+    "valid": true,
+    "payload": {
+      "alerts": {
+        "short_term": [
+          {
+            "id": "solo",
+            "title": "Single bucket advisory"
+          }
+        ]
+      }
+    },
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "solo",
+          "title": "Single bucket advisory",
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "single long_term bucket",
+    "valid": true,
+    "payload": {
+      "alerts": {
+        "long_term": [
+          {
+            "id": "solo",
+            "title": "Single bucket advisory"
+          }
+        ]
+      }
+    },
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "solo",
+          "title": "Single bucket advisory",
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "wrong bucket type",
+    "valid": false,
+    "payload": {
+      "alerts": {
+        "short_term": {},
+        "long_term": []
+      }
+    }
+  },
+  {
+    "name": "bad stop id",
+    "valid": false,
+    "payload": {
+      "alerts": {
+        "short_term": [],
+        "long_term": [
+          {
+            "closed_stops": [
+              {
+                "id": {}
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "unknown buckets",
+    "valid": false,
+    "payload": {
+      "alerts": {
+        "unexpected": []
+      }
+    }
+  },
+  {
+    "name": "invalid period",
+    "valid": false,
+    "payload": {
+      "alerts": {
+        "short_term": [
+          {
+            "activePeriod": {
+              "end": 5
+            }
+          }
+        ],
+        "long_term": []
+      }
+    }
+  },
+  {
+    "name": "null route board",
+    "valid": false,
+    "payload": {
+      "routes": null
+    }
+  },
+  {
+    "name": "point closures with replacement guidance",
+    "valid": true,
+    "payload": {
+      "alerts": {
+        "short_term": [
+          {
+            "id": "closure",
+            "title": "Stop closure",
+            "category": "stop_closure",
+            "routes": [
+              "R1"
+            ],
+            "closed_stops": [
+              {
+                "id": "feed-north",
+                "name": "North"
+              },
+              {
+                "id": "feed-south",
+                "name": "South"
+              }
+            ],
+            "alternate_stops": [
+              {
+                "id": "feed-middle",
+                "name": "Middle"
+              }
+            ]
+          }
+        ],
+        "long_term": []
+      }
+    },
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "closure",
+          "title": "Stop closure",
+          "description": "Closed stops: North; South.\n\nAlternate stops: Middle.",
+          "startsAt": 1791993600000,
+          "routeIds": [
+            "R1"
+          ],
+          "targets": [
+            {
+              "stopId": "feed-north"
+            },
+            {
+              "stopId": "feed-south"
+            }
+          ],
+          "affectedStations": [
+            "North",
+            "South"
+          ],
+          "category": "stop_closure",
+          "sourceFields": {
+            "category": "stop_closure"
+          },
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "malformed stop name",
+    "valid": false,
+    "payload": {
+      "alerts": {
+        "short_term": [
+          {
+            "closed_stops": [
+              {
+                "id": "S1",
+                "name": 42
+              }
+            ]
+          }
+        ],
+        "long_term": []
+      }
+    }
+  },
+  {
+    "name": "ISO date-only periods",
+    "valid": true,
+    "payload": {
+      "alerts": {
+        "short_term": [
+          {
+            "id": "past",
+            "title": "Expired advisory",
+            "posted_at": "2026-10-12",
+            "expires_at": "2026-10-13"
+          }
+        ],
+        "long_term": []
+      }
+    },
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "past",
+          "title": "Expired advisory",
+          "startsAt": 1791763200000,
+          "endsAt": 1791849600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "expired end without an explicit start",
+    "valid": true,
+    "payload": [
+      {
+        "title": "Expired advisory",
+        "expires_at": "2020-01-01T00:00:00Z"
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "json-alert-25b6f896c19c999d",
+          "title": "Expired advisory",
+          "startsAt": 1577836800000,
+          "endsAt": 1577836800000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "numeric identifiers and codes",
+    "valid": true,
+    "payload": {
+      "alerts": {
+        "short_term": [
+          {
+            "id": 7.0,
+            "routes": [
+              8,
+              1e-07,
+              1e+21
+            ],
+            "closed_stops": [
+              {
+                "id": 9.0,
+                "name": "Closed",
+                "code": 10.0
+              }
+            ],
+            "alternate_stops": [
+              {
+                "id": 11.0,
+                "code": 12.0
+              }
+            ]
+          }
+        ],
+        "long_term": []
+      }
+    },
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "7",
+          "title": "Transit advisory",
+          "description": "Closed stops: Closed (10).\n\nAlternate stops: 11 (12).",
+          "startsAt": 1791993600000,
+          "routeIds": [
+            "8",
+            "1e-7",
+            "1e+21"
+          ],
+          "targets": [
+            {
+              "stopId": "9"
+            }
+          ],
+          "affectedStations": [
+            "Closed"
+          ],
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "fallback identity ignores unrelated source metadata",
+    "valid": true,
+    "payload": [
+      {
+        "title": "Stable closure",
+        "routes": [
+          "R7"
+        ],
+        "operator_revision": 7
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "json-alert-8a8c9edbdbd67b1c",
+          "title": "Stable closure",
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000,
+          "routeIds": [
+            "R7"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "expired end before an inferred publication start",
+    "valid": true,
+    "payload": [
+      {
+        "title": "Expired advisory",
+        "posted_at": "2026-10-14T12:00:00Z",
+        "expires_at": "2020-01-01T00:00:00Z"
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "json-alert-155b170849dbbbfd",
+          "title": "Expired advisory",
+          "startsAt": 1577836800000,
+          "endsAt": 1577836800000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "drops an end before an explicit start",
+    "valid": true,
+    "payload": [
+      {
+        "id": "explicit-reversed",
+        "title": "Expired advisory",
+        "start_time": "2026-10-14T12:00:00Z",
+        "expires_at": "2020-01-01T00:00:00Z"
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "explicit-reversed",
+          "title": "Expired advisory",
+          "startsAt": 1791979200000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "equal explicit generic JSON bounds stay expired",
+    "valid": true,
+    "payload": [
+      {
+        "id": "empty-explicit-window",
+        "title": "Completed advisory",
+        "start_time": "2020-01-01T00:00:00Z",
+        "expires_at": "2020-01-01T00:00:00Z"
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "empty-explicit-window",
+          "title": "Completed advisory",
+          "startsAt": 1577836800000,
+          "endsAt": 1577836800000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "HTML header keeps station attribution",
+    "valid": true,
+    "payload": {
+      "routes": [
+        {
+          "id": "html-header",
+          "headerText": "<strong>Fictional Junction &amp; Loop</strong>: elevator status",
+          "accessibility": "elevator"
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "html-header",
+          "title": "Fictional Junction & Loop: elevator status",
+          "startsAt": 1791993600000,
+          "fromStationId": "Fictional Junction & Loop",
+          "toStationId": "Fictional Junction & Loop",
+          "category": "elevator",
+          "sourceFields": {
+            "accessibility": "elevator"
+          },
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "plain angle bracket text survives HTML recovery",
+    "valid": true,
+    "payload": [
+      {
+        "id": "fare-text",
+        "title": "Fare < $2 \u2026 > 3",
+        "description": "Fare stays below < $2 and above > 1; use <strong>the marked stop</strong>."
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "fare-text",
+          "title": "Fare < $2 \u2026 > 3",
+          "description": "Fare stays below < $2 and above > 1; use the marked stop.",
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "double-encoded entities decode once",
+    "valid": true,
+    "payload": [
+      {
+        "id": "entity-text",
+        "title": "<strong>&amp;lt; Fictional Loop</strong>",
+        "description": "<strong>&amp;lt; Fictional Loop</strong> is <em>open</em>."
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "entity-text",
+          "title": "&lt; Fictional Loop",
+          "description": "&lt; Fictional Loop is open.",
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "numeric surrogate references become replacement characters",
+    "valid": true,
+    "payload": [
+      {
+        "id": "surrogate-text",
+        "title": "Service &#xD800; update",
+        "description": "Unit &#55296; is on time."
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "surrogate-text",
+          "title": "Service \ufffd update",
+          "description": "Unit \ufffd is on time.",
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "independent station points stay out of segment inference",
+    "valid": true,
+    "payload": [
+      {
+        "id": "points",
+        "title": "Station hours",
+        "stops": [
+          "East",
+          "West"
+        ],
+        "targets": [
+          {
+            "stopId": "East"
+          },
+          {
+            "stopId": "West"
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "points",
+          "title": "Station hours",
+          "affectedStations": [
+            "East",
+            "West"
+          ],
+          "targets": [
+            {
+              "stopId": "East"
+            },
+            {
+              "stopId": "West"
+            }
+          ],
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "single named equipment facility remains station scoped",
+    "valid": true,
+    "payload": [
+      {
+        "id": "device-1",
+        "title": "East elevator outage",
+        "description": "Out of service at the entrance.",
+        "stopName": "East",
+        "category": "accessibility"
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "device-1",
+          "title": "East elevator outage",
+          "description": "Out of service at the entrance.",
+          "affectedStations": [
+            "East"
+          ],
+          "category": "accessibility",
+          "sourceFields": {
+            "category": "accessibility"
+          },
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "trip restricted to affected stops",
+    "valid": true,
+    "payload": [
+      {
+        "id": "cut-in",
+        "title": "Trip starts late",
+        "tripIds": [
+          "T1"
+        ],
+        "tripScoped": true,
+        "targets": [
+          {
+            "routeId": "R1",
+            "stopId": "S1"
+          }
+        ],
+        "effect": "NO_SERVICE"
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "cut-in",
+          "title": "Trip starts late",
+          "tripIds": [
+            "T1"
+          ],
+          "tripScoped": true,
+          "targets": [
+            {
+              "routeId": "R1",
+              "stopId": "S1"
+            }
+          ],
+          "effect": "NO_SERVICE",
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "invalid tripIds",
+    "valid": false,
+    "payload": [
+      {
+        "id": "bad",
+        "tripIds": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "name": "invalid tripScoped",
+    "valid": false,
+    "payload": [
+      {
+        "id": "bad",
+        "tripScoped": "yes"
+      }
+    ]
+  },
+  {
+    "name": "zero-padded fallback identity",
+    "valid": true,
+    "payload": [
+      {
+        "title": "Notice 18"
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "json-alert-0f3ba53ff616c274",
+          "title": "Notice 18",
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  },
+  {
+    "name": "keeps an unresolved published stop restriction",
+    "valid": true,
+    "payload": [
+      {
+        "id": "closure",
+        "title": "Stop closure",
+        "stopScoped": true,
+        "routes": [
+          "R"
+        ]
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "json",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "closure",
+          "title": "Stop closure",
+          "stopScoped": true,
+          "routeIds": [
+            "R"
+          ],
+          "startsAt": 1791993600000,
+          "updatedAt": 1791993600000
+        }
+      ]
+    }
+  }
+]

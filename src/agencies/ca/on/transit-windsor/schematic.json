@@ -1,0 +1,599 @@
+{
+  "viewBoxWidth": 1630,
+  "viewBoxHeight": 1000,
+  "lines": [
+    {
+      "id": "16",
+      "name": "1A Transway",
+      "color": "#1799D3",
+      "points": [
+        {
+          "x": 500,
+          "y": 120
+        },
+        {
+          "x": 500,
+          "y": 410
+        },
+        {
+          "x": 500,
+          "y": 480
+        },
+        {
+          "x": 700,
+          "y": 680
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "1C Transway",
+      "color": "#1799D3",
+      "points": [
+        {
+          "x": 180,
+          "y": 500
+        },
+        {
+          "x": 100,
+          "y": 420
+        },
+        {
+          "x": 100,
+          "y": 300
+        },
+        {
+          "x": 180,
+          "y": 220
+        },
+        {
+          "x": 280,
+          "y": 120
+        },
+        {
+          "x": 500,
+          "y": 120
+        },
+        {
+          "x": 530,
+          "y": 150
+        },
+        {
+          "x": 530,
+          "y": 380
+        },
+        {
+          "x": 500,
+          "y": 410
+        },
+        {
+          "x": 1160,
+          "y": 410
+        },
+        {
+          "x": 1350,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "2 Crosstown",
+      "color": "#1799D3",
+      "points": [
+        {
+          "x": 180,
+          "y": 500
+        },
+        {
+          "x": 260,
+          "y": 420
+        },
+        {
+          "x": 260,
+          "y": 280
+        },
+        {
+          "x": 360,
+          "y": 180
+        },
+        {
+          "x": 800,
+          "y": 180
+        },
+        {
+          "x": 930,
+          "y": 180
+        },
+        {
+          "x": 1160,
+          "y": 410
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "3 Central",
+      "color": "#8400A8",
+      "points": [
+        {
+          "x": 180,
+          "y": 500
+        },
+        {
+          "x": 300,
+          "y": 620
+        },
+        {
+          "x": 940,
+          "y": 620
+        },
+        {
+          "x": 1000,
+          "y": 680
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "4 Ottawa",
+      "color": "#8400A8",
+      "points": [
+        {
+          "x": 500,
+          "y": 120
+        },
+        {
+          "x": 660,
+          "y": 280
+        },
+        {
+          "x": 1030,
+          "y": 280
+        },
+        {
+          "x": 1160,
+          "y": 410
+        },
+        {
+          "x": 1240,
+          "y": 490
+        },
+        {
+          "x": 1240,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "id": "4001",
+      "name": "518X Express",
+      "color": "#FF8000",
+      "points": [
+        {
+          "x": 1160,
+          "y": 410
+        },
+        {
+          "x": 1160,
+          "y": 500
+        },
+        {
+          "x": 980,
+          "y": 680
+        },
+        {
+          "x": 700,
+          "y": 680
+        },
+        {
+          "x": 620,
+          "y": 680
+        },
+        {
+          "x": 420,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "5522",
+      "name": "418X Express",
+      "color": "#FF8000",
+      "points": [
+        {
+          "x": 180,
+          "y": 500
+        },
+        {
+          "x": 260,
+          "y": 500
+        },
+        {
+          "x": 350,
+          "y": 410
+        },
+        {
+          "x": 500,
+          "y": 410
+        },
+        {
+          "x": 570,
+          "y": 480
+        },
+        {
+          "x": 1090,
+          "y": 480
+        },
+        {
+          "x": 1160,
+          "y": 410
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "windsor-transit-terminal",
+      "name": "Windsor Transit Terminal",
+      "x": 500,
+      "y": 120,
+      "lines": ["16", "17", "20"],
+      "label": {
+        "x": 500,
+        "y": 65,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "university-of-windsor",
+      "name": "University of Windsor",
+      "x": 180,
+      "y": 220,
+      "lines": ["17"],
+      "label": {
+        "x": 145,
+        "y": 195,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hotel-dieu-grace-healthcare",
+      "name": "H\u00f4tel-Dieu Grace Healthcare",
+      "x": 180,
+      "y": 500,
+      "lines": ["17", "18", "19", "5522"],
+      "terminal": true,
+      "label": {
+        "x": 160,
+        "y": 500,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "wyandotte-walker",
+      "name": "Wyandotte at Walker",
+      "x": 800,
+      "y": 180,
+      "lines": ["18"],
+      "label": {
+        "x": 825,
+        "y": 160,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "tecumseh-ouellette",
+      "name": "Tecumseh at Ouellette",
+      "x": 500,
+      "y": 410,
+      "lines": ["16", "17", "5522"],
+      "label": {
+        "x": 480,
+        "y": 385,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "devonshire-mall",
+      "name": "Devonshire Mall",
+      "x": 700,
+      "y": 680,
+      "lines": ["16", "4001"],
+      "terminal": true,
+      "label": {
+        "x": 700,
+        "y": 735,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "st-clair-college",
+      "name": "St. Clair College",
+      "x": 420,
+      "y": 880,
+      "lines": ["4001"],
+      "terminal": true,
+      "label": {
+        "x": 420,
+        "y": 915,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "east-end-terminal",
+      "name": "East End Terminal",
+      "x": 1160,
+      "y": 410,
+      "lines": ["17", "18", "20", "4001", "5522"],
+      "terminal": true,
+      "label": {
+        "x": 1185,
+        "y": 385,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "forest-glade",
+      "name": "Forest Glade at Mulberry",
+      "x": 1350,
+      "y": 600,
+      "lines": ["17"],
+      "terminal": true,
+      "label": {
+        "x": 1385,
+        "y": 610,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "transit-centre",
+      "name": "Transit Centre",
+      "x": 1000,
+      "y": 680,
+      "lines": ["19"],
+      "terminal": true,
+      "label": {
+        "x": 1000,
+        "y": 715,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "essex-meadowbrook",
+      "name": "Essex Way at Meadowbrook",
+      "x": 1240,
+      "y": 720,
+      "lines": ["20"],
+      "terminal": true,
+      "label": {
+        "x": 1240,
+        "y": 755,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "16": ["windsor-transit-terminal", "tecumseh-ouellette", "devonshire-mall"],
+    "17": [
+      "hotel-dieu-grace-healthcare",
+      "university-of-windsor",
+      "windsor-transit-terminal",
+      "tecumseh-ouellette",
+      "east-end-terminal",
+      "forest-glade"
+    ],
+    "18": ["hotel-dieu-grace-healthcare", "wyandotte-walker", "east-end-terminal"],
+    "19": ["hotel-dieu-grace-healthcare", "transit-centre"],
+    "20": ["windsor-transit-terminal", "east-end-terminal", "essex-meadowbrook"],
+    "4001": ["east-end-terminal", "devonshire-mall", "st-clair-college"],
+    "5522": ["hotel-dieu-grace-healthcare", "tecumseh-ouellette", "east-end-terminal"]
+  },
+  "stationAliases": {
+    "Windsor Transit Terminal": "windsor-transit-terminal",
+    "Transit Windsor Terminal": "windsor-transit-terminal",
+    "Transit Terminal at Chatham": "windsor-transit-terminal",
+    "Transit Terminal Church at Pitt": "windsor-transit-terminal",
+    "University at Patricia": "university-of-windsor",
+    "Hotel Dieu Grace Healthcare": "hotel-dieu-grace-healthcare",
+    "Tecumseh E at Ouellette": "tecumseh-ouellette",
+    "Ouellette at Tecumseh E": "tecumseh-ouellette",
+    "Devonshire Mall at Cineplex": "devonshire-mall",
+    "St Clair College Front Entrance": "st-clair-college",
+    "East End Terminal": "east-end-terminal",
+    "Forest Glade at Mulberry": "forest-glade",
+    "Transit Centre Front Entrance": "transit-centre",
+    "Essex Way at Meadowbrook": "essex-meadowbrook",
+    "Wyandotte at Walker": "wyandotte-walker"
+  },
+  "badges": [
+    {
+      "line": "16",
+      "num": "1A",
+      "x": 491.51,
+      "y": 516.77,
+      "color": "#1799D3",
+      "textColor": "#000000"
+    },
+    {
+      "line": "17",
+      "num": "1C",
+      "x": 1337.63,
+      "y": 542.37,
+      "color": "#1799D3",
+      "textColor": "#000000"
+    },
+    {
+      "line": "18",
+      "num": "2",
+      "x": 820,
+      "y": 212,
+      "color": "#1799D3",
+      "textColor": "#000000"
+    },
+    {
+      "line": "19",
+      "num": "3",
+      "x": 790,
+      "y": 588,
+      "color": "#8400A8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "20",
+      "num": "4",
+      "x": 965,
+      "y": 312,
+      "color": "#8400A8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4001",
+      "num": "518X",
+      "x": 527.63,
+      "y": 817.63,
+      "color": "#FF8000",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5522",
+      "num": "418X",
+      "x": 850,
+      "y": 512,
+      "color": "#FF8000",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "minY": 20,
+      "maxX": 1580,
+      "maxY": 960
+    },
+    "minZoom": 0.6,
+    "maxZoom": 4
+  },
+  "geoProjection": {
+    "refLonWest": -83.068392,
+    "refLonEast": -82.939337772127,
+    "refXWest": 180,
+    "refXEast": 1160,
+    "refLatNorth": 42.317486,
+    "refLatSouth": 42.246094,
+    "refYNorth": 120,
+    "refYSouth": 880
+  },
+  "stationIndex": [
+    {
+      "id": "devonshire-mall",
+      "schematicId": "devonshire-mall",
+      "name": "Devonshire Mall",
+      "lat": 42.273538,
+      "lon": -82.99953,
+      "lines": ["16", "4001"],
+      "platformIds": ["107092", "107518", "1512"],
+      "departureRouteIds": ["16", "4001", "7214", "7215", "7225"]
+    },
+    {
+      "id": "east-end-terminal",
+      "schematicId": "east-end-terminal",
+      "name": "East End Terminal",
+      "lat": 42.3144384775337,
+      "lon": -82.9395940333992,
+      "lines": ["17", "18", "20", "4001", "5522"],
+      "platformIds": ["229966", "229967", "229968", "229969", "229970", "229971"],
+      "departureRouteIds": ["17", "18", "20", "28", "4001", "5522", "7225"]
+    },
+    {
+      "id": "1873",
+      "schematicId": "essex-meadowbrook",
+      "name": "Essex Way at Meadowbrook",
+      "lat": 42.301644,
+      "lon": -82.930054,
+      "lines": ["20"],
+      "platformIds": ["1873"],
+      "departureRouteIds": ["20"]
+    },
+    {
+      "id": "1917",
+      "schematicId": "forest-glade",
+      "name": "Forest Glade at Mulberry",
+      "lat": 42.30475919,
+      "lon": -82.91291373,
+      "lines": ["17"],
+      "platformIds": ["1917"],
+      "departureRouteIds": ["17"]
+    },
+    {
+      "id": "hotel-dieu-grace-healthcare",
+      "schematicId": "hotel-dieu-grace-healthcare",
+      "name": "Hôtel-Dieu Grace Healthcare",
+      "lat": 42.28655818,
+      "lon": -83.06443954,
+      "lines": ["17", "18", "19", "5522"],
+      "platformIds": ["226331", "2376", "73435"],
+      "departureRouteIds": ["17", "18", "19", "4636", "5522", "6477", "7215"]
+    },
+    {
+      "id": "107093",
+      "schematicId": "st-clair-college",
+      "name": "St. Clair College",
+      "lat": 42.246094,
+      "lon": -83.017841,
+      "lines": ["4001"],
+      "platformIds": ["107093"],
+      "departureRouteIds": ["4001", "6435", "6477", "701", "7212", "7215"]
+    },
+    {
+      "id": "tecumseh-ouellette",
+      "schematicId": "tecumseh-ouellette",
+      "name": "Tecumseh at Ouellette",
+      "lat": 42.29655312,
+      "lon": -83.02405541,
+      "lines": ["16", "17", "5522"],
+      "platformIds": ["1963", "2205"],
+      "departureRouteIds": ["16", "17", "5522"]
+    },
+    {
+      "id": "2178",
+      "schematicId": "transit-centre",
+      "name": "Transit Centre",
+      "lat": 42.286005,
+      "lon": -82.96724,
+      "lines": ["19"],
+      "platformIds": ["2178"],
+      "departureRouteIds": ["19", "7225"]
+    },
+    {
+      "id": "university-of-windsor",
+      "schematicId": "university-of-windsor",
+      "name": "University of Windsor",
+      "lat": 42.30864786,
+      "lon": -83.06892851,
+      "lines": ["17"],
+      "platformIds": ["1996", "2234"],
+      "departureRouteIds": ["17"]
+    },
+    {
+      "id": "windsor-transit-terminal",
+      "schematicId": "windsor-transit-terminal",
+      "name": "Windsor Transit Terminal",
+      "lat": 42.317486,
+      "lon": -83.043368,
+      "lines": ["16", "17", "20"],
+      "platformIds": ["2299", "2300", "2301", "2302", "2304", "2305", "2306", "2307"],
+      "departureRouteIds": ["16", "17", "20", "6435", "7212", "7213", "7214"]
+    },
+    {
+      "id": "wyandotte-walker",
+      "schematicId": "wyandotte-walker",
+      "name": "Wyandotte at Walker",
+      "lat": 42.323262,
+      "lon": -83.007133,
+      "lines": ["18"],
+      "platformIds": ["2260", "226321"],
+      "departureRouteIds": ["18"]
+    }
+  ]
+}

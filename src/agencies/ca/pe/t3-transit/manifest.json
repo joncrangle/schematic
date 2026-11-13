@@ -1,0 +1,430 @@
+{
+  "id": "t3-transit",
+  "name": "T3 Transit",
+  "shortName": "T3",
+  "serviceArea": "Prince Edward Island",
+  "locale": "en-CA",
+  "timezone": "America/Moncton",
+  "bounds": [
+    {
+      "minLat": 46.195,
+      "maxLat": 46.285,
+      "minLon": -63.235,
+      "maxLon": -63.075
+    },
+    {
+      "minLat": 46.28,
+      "maxLat": 46.325,
+      "minLon": -63.205,
+      "maxLon": -63.115
+    },
+    {
+      "minLat": 46.28,
+      "maxLat": 46.295,
+      "minLon": -63.12,
+      "maxLon": -63.09
+    },
+    {
+      "minLat": 46.125,
+      "maxLat": 46.2,
+      "minLon": -63.45,
+      "maxLon": -63.3
+    },
+    {
+      "minLat": 46.125,
+      "maxLat": 46.2,
+      "minLon": -63.0,
+      "maxLon": -62.85
+    },
+    {
+      "minLat": 46.125,
+      "maxLat": 46.2,
+      "minLon": -62.85,
+      "maxLon": -62.7
+    },
+    {
+      "minLat": 46.125,
+      "maxLat": 46.2,
+      "minLon": -62.7,
+      "maxLon": -62.55
+    },
+    {
+      "minLat": 46.125,
+      "maxLat": 46.2,
+      "minLon": -62.55,
+      "maxLon": -62.4
+    },
+    {
+      "minLat": 46.2,
+      "maxLat": 46.275,
+      "minLon": -63.75,
+      "maxLon": -63.6
+    },
+    {
+      "minLat": 46.2,
+      "maxLat": 46.275,
+      "minLon": -63.6,
+      "maxLon": -63.45
+    },
+    {
+      "minLat": 46.2,
+      "maxLat": 46.275,
+      "minLon": -63.45,
+      "maxLon": -63.3
+    },
+    {
+      "minLat": 46.2,
+      "maxLat": 46.275,
+      "minLon": -63.3,
+      "maxLon": -63.15
+    },
+    {
+      "minLat": 46.2,
+      "maxLat": 46.275,
+      "minLon": -63.15,
+      "maxLon": -63.0
+    },
+    {
+      "minLat": 46.2,
+      "maxLat": 46.275,
+      "minLon": -63.0,
+      "maxLon": -62.85
+    },
+    {
+      "minLat": 46.2,
+      "maxLat": 46.275,
+      "minLon": -62.85,
+      "maxLon": -62.7
+    },
+    {
+      "minLat": 46.2,
+      "maxLat": 46.275,
+      "minLon": -62.7,
+      "maxLon": -62.55
+    },
+    {
+      "minLat": 46.275,
+      "maxLat": 46.35,
+      "minLon": -63.75,
+      "maxLon": -63.6
+    },
+    {
+      "minLat": 46.275,
+      "maxLat": 46.35,
+      "minLon": -63.45,
+      "maxLon": -63.3
+    },
+    {
+      "minLat": 46.275,
+      "maxLat": 46.35,
+      "minLon": -63.3,
+      "maxLon": -63.15
+    },
+    {
+      "minLat": 46.275,
+      "maxLat": 46.35,
+      "minLon": -63.15,
+      "maxLon": -63.0
+    },
+    {
+      "minLat": 46.275,
+      "maxLat": 46.35,
+      "minLon": -63.0,
+      "maxLon": -62.85
+    },
+    {
+      "minLat": 46.275,
+      "maxLat": 46.35,
+      "minLon": -62.7,
+      "maxLon": -62.55
+    },
+    {
+      "minLat": 46.275,
+      "maxLat": 46.35,
+      "minLon": -62.55,
+      "maxLon": -62.4
+    },
+    {
+      "minLat": 46.275,
+      "maxLat": 46.35,
+      "minLon": -62.25,
+      "maxLon": -62.1
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -63.9,
+      "maxLon": -63.75
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -63.75,
+      "maxLon": -63.6
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -63.6,
+      "maxLon": -63.45
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -63.45,
+      "maxLon": -63.3
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -63.3,
+      "maxLon": -63.15
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -63.0,
+      "maxLon": -62.85
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -62.85,
+      "maxLon": -62.7
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -62.7,
+      "maxLon": -62.55
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -62.55,
+      "maxLon": -62.4
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -62.4,
+      "maxLon": -62.25
+    },
+    {
+      "minLat": 46.35,
+      "maxLat": 46.425,
+      "minLon": -62.25,
+      "maxLon": -62.1
+    },
+    {
+      "minLat": 46.425,
+      "maxLat": 46.5,
+      "minLon": -64.2,
+      "maxLon": -64.05
+    },
+    {
+      "minLat": 46.425,
+      "maxLat": 46.5,
+      "minLon": -64.05,
+      "maxLon": -63.9
+    },
+    {
+      "minLat": 46.425,
+      "maxLat": 46.5,
+      "minLon": -63.9,
+      "maxLon": -63.75
+    },
+    {
+      "minLat": 46.425,
+      "maxLat": 46.5,
+      "minLon": -63.75,
+      "maxLon": -63.6
+    },
+    {
+      "minLat": 46.425,
+      "maxLat": 46.5,
+      "minLon": -63.6,
+      "maxLon": -63.45
+    },
+    {
+      "minLat": 46.425,
+      "maxLat": 46.5,
+      "minLon": -63.45,
+      "maxLon": -63.3
+    },
+    {
+      "minLat": 46.5,
+      "maxLat": 46.575,
+      "minLon": -64.05,
+      "maxLon": -63.9
+    },
+    {
+      "minLat": 46.575,
+      "maxLat": 46.65,
+      "minLon": -64.05,
+      "maxLon": -63.9
+    },
+    {
+      "minLat": 46.65,
+      "maxLat": 46.725,
+      "minLon": -64.35,
+      "maxLon": -64.2
+    },
+    {
+      "minLat": 46.65,
+      "maxLat": 46.725,
+      "minLon": -64.2,
+      "maxLon": -64.05
+    },
+    {
+      "minLat": 46.65,
+      "maxLat": 46.725,
+      "minLon": -64.05,
+      "maxLon": -63.9
+    },
+    {
+      "minLat": 46.725,
+      "maxLat": 46.8,
+      "minLon": -64.2,
+      "maxLon": -64.05
+    },
+    {
+      "minLat": 46.8,
+      "maxLat": 46.875,
+      "minLon": -64.2,
+      "maxLon": -64.05
+    },
+    {
+      "minLat": 46.875,
+      "maxLat": 46.95,
+      "minLon": -64.2,
+      "maxLon": -64.05
+    },
+    {
+      "minLat": 46.875,
+      "maxLat": 46.95,
+      "minLon": -64.05,
+      "maxLon": -63.9
+    },
+    {
+      "minLat": 46.95,
+      "maxLat": 47.025,
+      "minLon": -64.05,
+      "maxLon": -63.9
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "T3 Transit / Coach Atlantic Group; Trillium Solutions, Inc.; Swiftly; Fleet Integrations; Government of Prince Edward Island",
+    "url": "https://www.t3transit.ca/",
+    "license": "No explicit terms were found for the T3 Transit GTFS feed. City realtime data is provided by Swiftly; rural vehicle tracking is provided by Fleet Integrations.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "pe"
+  },
+  "cityPresets": [
+    {
+      "name": "Royalty Crossing Mall Shelter Transfer Hub",
+      "lat": 46.26510654293284,
+      "lon": -63.1460005276726
+    },
+    {
+      "name": "Grafton St & Confederation Centre Bus Shelter",
+      "lat": 46.234829,
+      "lon": -63.127284
+    }
+  ],
+  "popularSurfaceRoutes": ["74361", "76459", "76460", "76424", "74354", "76461", "C1", "E1", "W1"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "T3 Transit",
+        "url": "https://data.trilliumtransit.com/gtfs/coachatlantic-pe-ca/coachatlantic-pe-ca.zip"
+      }
+    ],
+    "vehicleOnlyRoutes": [
+      {
+        "id": "B1",
+        "shortName": "B1",
+        "longName": "Transit PEI rural buses"
+      },
+      {
+        "id": "C1",
+        "shortName": "C1",
+        "longName": "Transit PEI rural buses"
+      },
+      {
+        "id": "C2",
+        "shortName": "C2",
+        "longName": "Transit PEI rural buses"
+      },
+      {
+        "id": "C3",
+        "shortName": "C3",
+        "longName": "Transit PEI rural buses"
+      },
+      {
+        "id": "E1",
+        "shortName": "E1",
+        "longName": "Transit PEI rural buses"
+      },
+      {
+        "id": "E2",
+        "shortName": "E2",
+        "longName": "Transit PEI rural buses"
+      },
+      {
+        "id": "W1",
+        "shortName": "W1",
+        "longName": "Transit PEI rural buses"
+      },
+      {
+        "id": "W2",
+        "shortName": "W2",
+        "longName": "Transit PEI rural buses"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "swiftly",
+        "url": "https://api.goswift.ly/real-time/ca-t3-transit",
+        "format": "json",
+        "pollIntervalSeconds": 10,
+        "auth": {
+          "type": "header",
+          "headerName": "Authorization",
+          "secretName": "FEED_T3_SWIFTLY_TOKEN"
+        }
+      },
+      {
+        "kind": "fleet_integrations",
+        "url": "https://api.fleet-integrations.com/tbn/vehicle/track/fleet?tenant=coachatlantic-tbn-33ae7b34a02c&mode=contractName&value=Transit%20PEI",
+        "format": "json",
+        "pollIntervalSeconds": 10,
+        "routeIds": ["B1", "C1", "C2", "C3", "E1", "E2", "W1", "W2"]
+      }
+    ]
+  },
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "9", "11", "12"],
+    "routeLineMap": {
+      "74361": "1",
+      "76459": "2",
+      "76460": "3",
+      "74358": "4",
+      "74354": "9",
+      "77844": "11",
+      "74353": "12"
+    }
+  }
+}

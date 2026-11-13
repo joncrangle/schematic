@@ -1,0 +1,347 @@
+{
+  "id": "linx",
+  "name": "Simcoe County LINX",
+  "serviceArea": "Simcoe County",
+  "serviceAreaTranslations": { "fr": "Comté de Simcoe" },
+  "shortName": "LINX",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 44.34,
+      "maxLat": 44.46,
+      "minLon": -79.76,
+      "maxLon": -79.61
+    },
+    {
+      "minLat": 44.43,
+      "maxLat": 44.5,
+      "minLon": -79.8,
+      "maxLon": -79.7
+    },
+    {
+      "minLat": 44.48,
+      "maxLat": 44.55,
+      "minLon": -79.86,
+      "maxLon": -79.78
+    },
+    {
+      "minLat": 44.54,
+      "maxLat": 44.62,
+      "minLon": -79.9,
+      "maxLon": -79.8
+    },
+    {
+      "minLat": 44.62,
+      "maxLat": 44.72,
+      "minLon": -79.9,
+      "maxLon": -79.78
+    },
+    {
+      "minLat": 44.7,
+      "maxLat": 44.79,
+      "minLon": -79.96,
+      "maxLon": -79.88
+    },
+    {
+      "minLat": 44.31,
+      "maxLat": 44.4,
+      "minLon": -79.96,
+      "maxLon": -79.76
+    },
+    {
+      "minLat": 44.34,
+      "maxLat": 44.43,
+      "minLon": -80.11,
+      "maxLon": -79.93
+    },
+    {
+      "minLat": 44.4,
+      "maxLat": 44.49,
+      "minLon": -80.11,
+      "maxLon": -80.04
+    },
+    {
+      "minLat": 44.43,
+      "maxLat": 44.51,
+      "minLon": -79.66,
+      "maxLon": -79.52
+    },
+    {
+      "minLat": 44.49,
+      "maxLat": 44.58,
+      "minLon": -79.56,
+      "maxLon": -79.43
+    },
+    {
+      "minLat": 44.55,
+      "maxLat": 44.62,
+      "minLon": -79.49,
+      "maxLon": -79.4
+    },
+    {
+      "minLat": 44.45,
+      "maxLat": 44.5,
+      "minLon": -80.12,
+      "maxLon": -80.06
+    },
+    {
+      "minLat": 44.45,
+      "maxLat": 44.5,
+      "minLon": -80.19,
+      "maxLon": -80.1
+    },
+    {
+      "minLat": 44.47,
+      "maxLat": 44.53,
+      "minLon": -80.24,
+      "maxLon": -80.18
+    },
+    {
+      "minLat": 44.11,
+      "maxLat": 44.18,
+      "minLon": -79.91,
+      "maxLon": -79.82
+    },
+    {
+      "minLat": 44.05,
+      "maxLat": 44.13,
+      "minLon": -79.85,
+      "maxLon": -79.74
+    },
+    {
+      "minLat": 44.06,
+      "maxLat": 44.12,
+      "minLon": -79.75,
+      "maxLon": -79.62
+    },
+    {
+      "minLat": 44.09,
+      "maxLat": 44.14,
+      "minLon": -79.62,
+      "maxLon": -79.53
+    },
+    {
+      "minLat": 44.7,
+      "maxLat": 44.79,
+      "minLon": -79.92,
+      "maxLon": -79.74
+    },
+    {
+      "minLat": 44.69,
+      "maxLat": 44.78,
+      "minLon": -79.75,
+      "maxLon": -79.62
+    },
+    {
+      "minLat": 44.6,
+      "maxLat": 44.72,
+      "minLon": -79.67,
+      "maxLon": -79.52
+    },
+    {
+      "minLat": 44.57,
+      "maxLat": 44.64,
+      "minLon": -79.56,
+      "maxLon": -79.42
+    },
+    {
+      "minLat": 44.724,
+      "maxLat": 44.732,
+      "minLon": -79.877,
+      "maxLon": -79.867
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "County of Simcoe \u2013 LINX Transit",
+    "url": "https://simcoe.ca/residents/linx-transit/",
+    "license": "No explicit terms were found for the LINX GTFS or AnyRide data. The nearest published terms are the Simcoe County Open Government Licence (https://maps.simcoe.ca/openlicense.html): \"Contains information licensed under the Open Government Licence \u2013 Simcoe County\".",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Barrie Allandale Station",
+      "lat": 44.373913,
+      "lon": -79.689146
+    },
+    {
+      "name": "RVH Barrie",
+      "lat": 44.415478,
+      "lon": -79.660687
+    },
+    {
+      "name": "Georgian College Barrie",
+      "lat": 44.412052,
+      "lon": -79.669214
+    },
+    {
+      "name": "Wasaga Beach 45th Street",
+      "lat": 44.473691,
+      "lon": -80.073313
+    },
+    {
+      "name": "Collingwood Terminal",
+      "lat": 44.50028,
+      "lon": -80.21843
+    },
+    {
+      "name": "Penetanguishene Arena",
+      "lat": 44.764573,
+      "lon": -79.927508
+    },
+    {
+      "name": "Midland Georgian College",
+      "lat": 44.72658,
+      "lon": -79.87194
+    },
+    {
+      "name": "Lakehead University",
+      "lat": 44.592199,
+      "lon": -79.459507
+    },
+    {
+      "name": "New Tecumseth Rec Centre",
+      "lat": 44.138432,
+      "lon": -79.869131
+    },
+    {
+      "name": "Bradford GO Station",
+      "lat": 44.116502,
+      "lon": -79.555401
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "5", "6"],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "5", "6"],
+    "rules": [
+      {
+        "priority": 400,
+        "match": {
+          "textIncludes": ["cancelled", "canceled", "no service", "not operating", "suspended"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 300,
+        "match": {
+          "sourceField": "isDisturbance",
+          "sourceValue": true
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": ["detour", "detoured"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://nextlinx.simcoe.ca/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "9000",
+        "profile": {
+          "data": "metrolinx_simcoe",
+          "display": "simcoe"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Simcoe County LINX GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-simcoe.zip",
+        "cacheFileName": "linx-gtfs.zip"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "anyride-messages",
+      "url": "https://nextlinx.simcoe.ca/Tmix.Cap.Ti.Process.AnyRide/api",
+      "operatorPrefix": "9000",
+      "profile": {
+        "data": "metrolinx_simcoe",
+        "display": "simcoe"
+      },
+      "stops": [
+        {
+          "stopId": "SCSTOP128",
+          "routeIds": ["1"]
+        },
+        {
+          "stopId": "SCSTOP190",
+          "routeIds": ["1"]
+        },
+        {
+          "stopId": "SCSTOP210",
+          "routeIds": ["2"]
+        },
+        {
+          "stopId": "SCSTOP280",
+          "routeIds": ["2"]
+        },
+        {
+          "stopId": "SCSTOP310",
+          "routeIds": ["3"]
+        },
+        {
+          "stopId": "SCSTOP370",
+          "routeIds": ["3"]
+        },
+        {
+          "stopId": "SCSTOP436",
+          "routeIds": ["4"]
+        },
+        {
+          "stopId": "SCSTOP480",
+          "routeIds": ["4"]
+        },
+        {
+          "stopId": "SCSTOP500",
+          "routeIds": ["5"]
+        },
+        {
+          "stopId": "SCSTOP560",
+          "routeIds": ["5"]
+        },
+        {
+          "stopId": "SCSTOP600",
+          "routeIds": ["6"]
+        },
+        {
+          "stopId": "SCSTOP670",
+          "routeIds": ["6"]
+        }
+      ]
+    }
+  ]
+}

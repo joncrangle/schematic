@@ -1,0 +1,274 @@
+{
+  "isStopCancelled": false,
+  "calls": [
+    {
+      "id": "l:6000006/dest1:6000051",
+      "calls": [
+        {
+          "id": "2027026726",
+          "key": "0",
+          "lineId": 6000006,
+          "routeId": 1004654,
+          "journeyId": 1494044,
+          "stopPointId": 6000663,
+          "sequenceNumber": 0,
+          "line": "5",
+          "lineAppearance": {
+            "background": "#41827C",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "622",
+          "destination": "YATES - MILTON GO",
+          "subdestination": "",
+          "departure": {
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-09-28T11:32:00-04:00",
+            "plannedTime": "2026-09-28T11:32:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": ""
+          },
+          "createdTime": "2026-09-28T15:10:42.823213+00:00"
+        },
+        {
+          "id": "2027026749",
+          "key": "1",
+          "lineId": 6000006,
+          "routeId": 1004654,
+          "journeyId": 1494067,
+          "stopPointId": 6000663,
+          "sequenceNumber": 0,
+          "line": "5",
+          "lineAppearance": {
+            "background": "#41827C",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "623",
+          "destination": "YATES - MILTON GO",
+          "subdestination": "",
+          "departure": {
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-09-28T12:02:00-04:00",
+            "plannedTime": "2026-09-28T12:02:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": ""
+          },
+          "createdTime": "2026-09-28T15:10:42.823213+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:6000007/dest1:6000081",
+      "calls": [
+        {
+          "id": "2027026849",
+          "key": "2",
+          "lineId": 6000007,
+          "routeId": 1004657,
+          "journeyId": 1494167,
+          "stopPointId": 6000663,
+          "sequenceNumber": 0,
+          "line": "8",
+          "lineAppearance": {
+            "background": "#0071BC",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "632",
+          "destination": "WILLMOTT - MILTON GO",
+          "subdestination": "",
+          "departure": {
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-09-28T11:32:00-04:00",
+            "plannedTime": "2026-09-28T11:32:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": ""
+          },
+          "createdTime": "2026-09-28T15:10:42.823213+00:00"
+        },
+        {
+          "id": "2027026826",
+          "key": "3",
+          "lineId": 6000007,
+          "routeId": 1004657,
+          "journeyId": 1494144,
+          "stopPointId": 6000663,
+          "sequenceNumber": 0,
+          "line": "8",
+          "lineAppearance": {
+            "background": "#0071BC",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "633",
+          "destination": "WILLMOTT - MILTON GO",
+          "subdestination": "",
+          "departure": {
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-09-28T12:02:00-04:00",
+            "plannedTime": "2026-09-28T12:02:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": ""
+          },
+          "createdTime": "2026-09-28T15:10:42.823213+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:6000023/dest1:6000021",
+      "calls": [
+        {
+          "id": "2027026521",
+          "key": "4",
+          "lineId": 6000023,
+          "routeId": 1004665,
+          "journeyId": 1493822,
+          "stopPointId": 6000663,
+          "sequenceNumber": 17,
+          "line": "2",
+          "lineAppearance": {
+            "background": "#942976",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "81",
+          "destination": "MAIN - MILTON HOSPITAL",
+          "subdestination": "",
+          "departure": {
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-09-28T11:32:00-04:00",
+            "plannedTime": "2026-09-28T11:32:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": ""
+          },
+          "createdTime": "2026-09-28T15:10:42.823213+00:00"
+        },
+        {
+          "id": "2027026529",
+          "key": "5",
+          "lineId": 6000023,
+          "routeId": 1004665,
+          "journeyId": 1493830,
+          "stopPointId": 6000663,
+          "sequenceNumber": 17,
+          "line": "2",
+          "lineAppearance": {
+            "background": "#942976",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "90",
+          "destination": "MAIN - MILTON HOSPITAL",
+          "subdestination": "",
+          "departure": {
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-09-28T12:02:00-04:00",
+            "plannedTime": "2026-09-28T12:02:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": ""
+          },
+          "createdTime": "2026-09-28T15:10:42.823213+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:6000023/dest1:6000023",
+      "calls": [
+        {
+          "id": "2027026543",
+          "key": "6",
+          "lineId": 6000023,
+          "routeId": 1004667,
+          "journeyId": 1493837,
+          "stopPointId": 6000663,
+          "sequenceNumber": 24,
+          "line": "2",
+          "lineAppearance": {
+            "background": "#942976",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "98",
+          "destination": "MAIN - CROSSROADS CENTRE",
+          "subdestination": "",
+          "departure": {
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-09-28T11:32:00-04:00",
+            "plannedTime": "2026-09-28T11:32:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": ""
+          },
+          "createdTime": "2026-09-28T15:10:42.823213+00:00"
+        },
+        {
+          "id": "2027026520",
+          "key": "7",
+          "lineId": 6000023,
+          "routeId": 1004667,
+          "journeyId": 1493814,
+          "stopPointId": 6000663,
+          "sequenceNumber": 24,
+          "line": "2",
+          "lineAppearance": {
+            "background": "#942976",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "73",
+          "destination": "MAIN - CROSSROADS CENTRE",
+          "subdestination": "",
+          "departure": {
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-09-28T12:02:00-04:00",
+            "plannedTime": "2026-09-28T12:02:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": ""
+          },
+          "createdTime": "2026-09-28T15:10:42.823213+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:6000078/dest1:6000211",
+      "calls": [
+        {
+          "id": "2027026657",
+          "key": "8",
+          "lineId": 6000078,
+          "routeId": 1003181,
+          "journeyId": 1493975,
+          "stopPointId": 6000663,
+          "sequenceNumber": 0,
+          "line": "21",
+          "lineAppearance": {
+            "background": "#000000",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "32",
+          "destination": "STEELES - LISGAR GO",
+          "subdestination": "",
+          "departure": {
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-09-28T11:42:00-04:00",
+            "plannedTime": "2026-09-28T11:42:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": ""
+          },
+          "createdTime": "2026-09-28T15:10:42.823213+00:00"
+        }
+      ]
+    }
+  ],
+  "messages": []
+}

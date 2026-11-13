@@ -1,0 +1,813 @@
+{
+  "hubs": [
+    {
+      "id": "stm-via-dorval",
+      "endpoints": [
+        {
+          "agencyId": "stm",
+          "stationName": "Terminus Dorval",
+          "feedStopIds": [
+            "57365",
+            "57467",
+            "57504",
+            "57506",
+            "57507",
+            "57536",
+            "57537",
+            "57538",
+            "57539",
+            "57540",
+            "57568",
+            "61317",
+            "62022",
+            "62024"
+          ]
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Dorval",
+          "stationId": "dorval"
+        }
+      ]
+    },
+    {
+      "id": "stm-via-squarevictoriaoaci",
+      "endpoints": [
+        {
+          "agencyId": "stm",
+          "stationName": "Bonaventure",
+          "stationId": "bonaventure",
+          "feedStopIds": [
+            "15",
+            "52482",
+            "52483",
+            "52529",
+            "52530",
+            "52617",
+            "52732",
+            "54004",
+            "54356",
+            "60714",
+            "61809",
+            "62077",
+            "62148",
+            "62338",
+            "62354"
+          ]
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Montréal",
+          "stationId": "montreal"
+        }
+      ],
+      "badgeOffsets": {
+        "exo": {
+          "dx": 50,
+          "dy": -44,
+          "layout": "vertical"
+        },
+        "stm": {
+          "dx": 58,
+          "dy": 36,
+          "layout": "vertical"
+        },
+        "via": {
+          "dx": 0,
+          "dy": 84,
+          "layout": "vertical"
+        }
+      }
+    },
+    {
+      "id": "exo-stm-lucienlallier",
+      "endpoints": [
+        {
+          "agencyId": "exo",
+          "stationId": "lucien-l-allier",
+          "stationName": "Lucien-L'Allier"
+        },
+        {
+          "agencyId": "stm",
+          "stationId": "lucien-lallier",
+          "stationName": "Lucien-L’Allier"
+        }
+      ],
+      "badgeOffsets": {
+        "stm": {
+          "dx": -49.65,
+          "dy": -28
+        },
+        "exo": {
+          "dx": 51.65,
+          "dy": 0
+        }
+      }
+    },
+    {
+      "id": "exo-stm-via-dorval"
+    },
+    {
+      "id": "exo-rtl-stc-pierre-de-saurel-stm-longueuil",
+      "badgeOffsets": {
+        "rtl": {
+          "dx": 0,
+          "dy": -44
+        },
+        "stm": {
+          "dx": 0,
+          "dy": -28
+        },
+        "stc-pierre-de-saurel": {
+          "dx": 0,
+          "dy": 40
+        }
+      }
+    },
+    {
+      "id": "saguenay-via-terminusjonquiere",
+      "endpoints": [
+        {
+          "agencyId": "saguenay",
+          "stationId": "jonquiere",
+          "stationName": "Terminus Jonquière",
+          "feedStopIds": ["1291"]
+        },
+        {
+          "agencyId": "via",
+          "stationId": "jonquiere",
+          "stationName": "Jonquière",
+          "feedStopIds": ["444"]
+        }
+      ]
+    },
+    {
+      "id": "sto-oc-transpo-lyon",
+      "endpoints": [
+        {
+          "agencyId": "sto",
+          "stationName": "Lyon",
+          "stationId": "lyon",
+          "feedStopIds": ["5112", "5113", "5116", "5117"]
+        },
+        {
+          "agencyId": "oc-transpo",
+          "stationName": "Lyon",
+          "stationId": "lyon",
+          "feedStopIds": ["9928", "9929"]
+        }
+      ]
+    },
+    {
+      "id": "sto-oc-transpo-mackenzie-king",
+      "endpoints": [
+        {
+          "agencyId": "sto",
+          "stationName": "Centre Rideau / Mackenzie King",
+          "stationId": "centre-rideau",
+          "feedStopIds": ["5136", "5138"]
+        },
+        {
+          "agencyId": "oc-transpo",
+          "stationName": "MACKENZIE KING B",
+          "feedStopIds": ["3585", "9449"]
+        }
+      ]
+    },
+    {
+      "id": "sto-oc-transpo-tunneys-pasture",
+      "endpoints": [
+        {
+          "agencyId": "sto",
+          "stationName": "TUNNEY'S PASTURE/YARROW",
+          "feedStopIds": ["5080", "5082", "5090"]
+        },
+        {
+          "agencyId": "oc-transpo",
+          "stationName": "Tunney's Pasture",
+          "stationId": "tunneys-pasture"
+        }
+      ]
+    },
+    {
+      "id": "sto-flixbus-ca-de-la-cite",
+      "endpoints": [
+        {
+          "agencyId": "sto",
+          "stationName": "De la Cité",
+          "stationId": "de-la-cite",
+          "feedStopIds": ["8080", "8081", "8083"]
+        },
+        {
+          "agencyId": "flixbus-ca",
+          "stationName": "Gatineau",
+          "stationId": "gatineau"
+        }
+      ]
+    },
+    {
+      "id": "exo-saint-jean-sur-richelieu-hopital",
+      "endpoints": [
+        {
+          "agencyId": "exo",
+          "stationName": "du Séminaire Nord / face à l'Hôpital",
+          "feedStopIds": ["citcrc:74002", "citcrc:74005"]
+        },
+        {
+          "agencyId": "saint-jean-sur-richelieu",
+          "stationName": "Hôpital du Haut-Richelieu",
+          "stationId": "hopital"
+        }
+      ]
+    },
+    {
+      "id": "plumobile-rtc-via-garepalais",
+      "endpoints": [
+        {
+          "agencyId": "plumobile",
+          "stationName": "2558 - Gare-du-Palais - Boul. J.-Lesage / rue de la Gare-du-Palais",
+          "feedStopIds": [
+            "zenbus:StopPoint:SP:567980009:LOC",
+            "zenbus:StopPoint:SP:579200004:LOC",
+            "zenbus:StopPoint:SP:5920425690267648:LOC",
+            "zenbus:StopPoint:SP:6010077596090368:LOC",
+            "zenbus:StopPoint:SP:6025058702065664:LOC"
+          ]
+        },
+        {
+          "agencyId": "rtc",
+          "stationName": "Terminus Gare-du-Palais",
+          "stationId": "gare-palais",
+          "feedStopIds": ["1-5601", "1-5806", "1-5807", "1-5808"]
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Québec",
+          "stationId": "quebec"
+        }
+      ]
+    },
+    {
+      "id": "plumobile-rtc-youville",
+      "endpoints": [
+        {
+          "agencyId": "plumobile",
+          "stationId": "youville",
+          "stationName": "Station d'Youville"
+        },
+        {
+          "agencyId": "rtc",
+          "stationId": "youville",
+          "stationName": "D’Youville",
+          "feedStopIds": ["1-1190", "1-2664", "1-2441", "1-5882"]
+        }
+      ]
+    },
+    {
+      "id": "plumobile-rtc-terminusdelachutemontmorency",
+      "endpoints": [
+        {
+          "agencyId": "plumobile",
+          "stationId": "chute-montmorency",
+          "stationName": "Terminus de la chute Montmorency"
+        },
+        {
+          "agencyId": "rtc",
+          "stationId": "montmorency",
+          "stationName": "Chute-Montmorency"
+        }
+      ],
+      "badgeOffsets": {
+        "plumobile": {
+          "dx": 52,
+          "dy": 21
+        }
+      }
+    },
+    {
+      "id": "exo-via-sainthyacinthe",
+      "endpoints": [
+        {
+          "agencyId": "exo",
+          "stationName": "Dessaulles / Laframboise",
+          "feedStopIds": ["citvr:73629", "citvr:73630", "citvr:73631", "citvr:73632"]
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Saint-Hyacinthe",
+          "feedStopIds": ["631"]
+        },
+        {
+          "agencyId": "saint-hyacinthe",
+          "stationName": "Hôtel-Dieu / Gare VIA",
+          "stationId": "hotel-dieu",
+          "feedStopIds": ["6311026855247872", "5101409848524800"]
+        }
+      ],
+      "badgeOffsets": {
+        "saint-hyacinthe": {
+          "dx": 35,
+          "dy": -30
+        }
+      }
+    },
+    {
+      "id": "exo-haut-saint-laurent-saintemartinedescopains",
+      "endpoints": [
+        {
+          "agencyId": "haut-saint-laurent",
+          "stationId": "sainte-martine",
+          "stationName": "Sainte-Martine, des Copains",
+          "feedStopIds": ["20", "99"]
+        },
+        {
+          "agencyId": "exo",
+          "stationName": "Saint-Joseph / des Copains",
+          "feedStopIds": ["citso:79056", "citso:79113"]
+        }
+      ]
+    },
+    {
+      "id": "exo-haut-saint-laurent-valleyfield",
+      "endpoints": [
+        {
+          "agencyId": "haut-saint-laurent",
+          "stationId": "valleyfield",
+          "stationName": "Salaberry-de-Valleyfield",
+          "feedStopIds": ["380"]
+        },
+        {
+          "agencyId": "exo",
+          "stationName": "Saint-Thomas / Collège de Valleyfield",
+          "feedStopIds": ["citso:78662"]
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Henri-Bourassa / Colbert",
+        "feedStopIds": ["53738"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Anjou (EXO)",
+        "feedStopIds": ["633"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Henri-Bourassa / Nicolas-Josselin",
+        "feedStopIds": ["53739"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Anjou (EXO)",
+        "feedStopIds": ["633"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Henri-Bourassa / Renaude-Lapointe",
+        "feedStopIds": ["60389"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Anjou (EXO)",
+        "feedStopIds": ["633"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Henri-Bourassa / 6e Avenue",
+        "feedStopIds": ["61529", "61530"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Anjou (EXO)",
+        "feedStopIds": ["633"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Station Sauvé",
+        "feedStopIds": ["2", "62407"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Saint-Laurent / Sauvé",
+        "feedStopIds": ["50390"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Sauvé / Grande Allée",
+        "feedStopIds": ["50393"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Sauvé / Laverdure",
+        "feedStopIds": ["50403", "50404"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Saint-Laurent / de Port-Royal",
+        "feedStopIds": ["50422", "50423"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Station Sauvé (Édicule Nord)",
+        "feedStopIds": ["50437", "50439"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Station Sauvé (Édicule Sud)",
+        "feedStopIds": ["50438", "50440", "54088"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Sauvé / Lajeunesse",
+        "feedStopIds": ["50443"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Sauvé / Millen",
+        "feedStopIds": ["50446", "50447"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Saint-Laurent / de Louvain",
+        "feedStopIds": ["50455"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Saint-Laurent / Louvain",
+        "feedStopIds": ["50457"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Lajeunesse / de Louvain",
+        "feedStopIds": ["53760"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Lajeunesse / Chabanel",
+        "feedStopIds": ["61967"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Berri / Chabanel",
+        "feedStopIds": ["61968"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Berri / de Louvain",
+        "feedStopIds": ["61969"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Lajeunesse / Sauvé",
+        "feedStopIds": ["61970"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Station Sauvé (Berri / Sauvé)",
+        "feedStopIds": ["61971"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Berri / Sauriol",
+        "feedStopIds": ["61973"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "De Port-Royal / Parc d'Auteuil",
+        "feedStopIds": ["62405"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "exo",
+        "stationName": "Anjou",
+        "stationId": "anjou",
+        "feedStopIds": ["trains:MTL55A", "trains:MTL55C"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Anjou (EXO)",
+        "feedStopIds": ["633"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Henri-Bourassa / 6e Avenue",
+        "feedStopIds": ["53738", "61529", "61530"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Anjou (EXO)",
+        "feedStopIds": ["633"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "exo",
+        "stationName": "Sauvé",
+        "stationId": "sauve",
+        "feedStopIds": ["trains:MTL58A", "trains:MTL58C"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "stm",
+        "stationName": "Sauvé",
+        "stationId": "sauve",
+        "feedStopIds": [
+          "2",
+          "50437",
+          "50438",
+          "50439",
+          "50440",
+          "50443",
+          "54088",
+          "61970",
+          "61971",
+          "62405"
+        ]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sauvé (EXO)",
+        "feedStopIds": ["634"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "exo",
+        "stationName": "de la Plaza / des Érables",
+        "feedStopIds": ["citsv:70618", "citsv:70619"]
+      },
+      "right": {
+        "agencyId": "stc-pierre-de-saurel",
+        "stationId": "plaza-tracy",
+        "stationName": "Plaza Tracy"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "exo",
+        "stationName": "autoroute 30 / de Ramezay",
+        "feedStopIds": ["citsv:70674", "citsv:70675"]
+      },
+      "right": {
+        "agencyId": "stc-pierre-de-saurel",
+        "stationId": "promenades",
+        "stationName": "Terminus des Promenades"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "exo",
+        "stationName": "des Érables / de la Plaza",
+        "feedStopIds": ["citsv:70619"]
+      },
+      "right": {
+        "agencyId": "stc-pierre-de-saurel",
+        "stationId": "plaza-tracy",
+        "stationName": "Plaza Tracy"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "plumobile",
+        "stationName": "Cégep Garneau",
+        "stationId": "cegep-garneau"
+      },
+      "right": {
+        "agencyId": "rtc",
+        "stationName": "de l'Entente",
+        "feedStopIds": ["1-1480", "1-2253", "1-6639"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "plumobile",
+        "stationName": "Fleur-de-Lys",
+        "stationId": "fleur-de-lys"
+      },
+      "right": {
+        "agencyId": "rtc",
+        "stationName": "CFP de Québec",
+        "feedStopIds": ["1-1728", "1-1744", "1-2057", "1-2059"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "rtc",
+        "stationName": "Sainte-Foy / Wolfe",
+        "stationId": "wolfe"
+      },
+      "right": {
+        "agencyId": "stlevis",
+        "stationName": "Institut de cardiologie et de pneumologie",
+        "feedStopIds": ["990108", "990111"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "plumobile",
+        "stationName": "Station d'Youville",
+        "stationId": "youville",
+        "feedStopIds": [
+          "zenbus:StopPoint:SP:4884285902290944:LOC",
+          "zenbus:StopPoint:SP:5375217911201792:LOC",
+          "zenbus:StopPoint:SP:554560009:LOC",
+          "zenbus:StopPoint:SP:5970159096299520:LOC",
+          "zenbus:StopPoint:SP:6005878359588864:LOC"
+        ]
+      },
+      "right": {
+        "agencyId": "rtc",
+        "stationName": "Colline Parlementaire",
+        "stationId": "parlement",
+        "feedStopIds": [
+          "1-1011",
+          "1-1190",
+          "1-1517",
+          "1-1560",
+          "1-2051",
+          "1-2087",
+          "1-2094",
+          "1-2441",
+          "1-2664",
+          "1-2878",
+          "1-5883",
+          "1-6707",
+          "1-7016",
+          "1-8115",
+          "1-8116",
+          "1-8117"
+        ]
+      }
+    }
+  ],
+  "isolated": [
+    {
+      "agencyId": "oc-transpo",
+      "stationName": "Parliament",
+      "stationId": "parliament"
+    },
+    {
+      "agencyId": "sto",
+      "stationName": "Centre Rideau / Mackenzie King",
+      "stationId": "centre-rideau"
+    },
+    {
+      "agencyId": "haut-saint-laurent",
+      "stationId": "sainte-martine",
+      "stationName": "Sainte-Martine, des Copains"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "spruce-grove-transit",
+  "name": "Spruce Grove Transit",
+  "shortName": "Spruce Grove",
+  "serviceArea": "Spruce Grove and Edmonton",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "bounds": [
+    {
+      "minLat": 53.538,
+      "maxLat": 53.571,
+      "minLon": -113.94,
+      "maxLon": -113.872
+    },
+    {
+      "minLat": 53.396,
+      "maxLat": 53.644,
+      "minLon": -113.71,
+      "maxLon": -113.341
+    }
+  ],
+  "focus": {
+    "lat": 53.567373,
+    "lon": -113.877471
+  },
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Spruce Grove Transit / City of Edmonton open data",
+    "url": "https://data.edmonton.ca/Transit/ETS-GTFS-Feed-Trip-Schedule/4fvt-p2se",
+    "license": "City of Edmonton Open Data Terms of Use v2.1: https://www.edmonton.ca/transportation/Web-version2.1-OpenDataAgreement.pdf"
+  },
+  "cityPresets": [
+    {
+      "name": "Spruce Grove Transit Centre",
+      "lat": 53.567373,
+      "lon": -113.877471
+    }
+  ],
+  "popularSurfaceRoutes": ["560"],
+  "staticTopology": {
+    "source": "seed",
+    "sourceAgencyIds": ["5"],
+    "feeds": [
+      {
+        "name": "Edmonton regional GTFS, Spruce Grove Transit operator",
+        "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/GTFS/GTFS.zip",
+        "cacheFileName": "edmonton-regional-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#139FE6",
+    "defaultTextColor": "#000000"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Alert/Alerts.pb",
+      "language": "en",
+      "accept": "*/*"
+    },
+    {
+      "type": "web",
+      "url": "https://www.sprucegrove.org/services/spruce-grove-transit/transit-detours/",
+      "parser": "heading-service-notices",
+      "language": "en",
+      "routeNames": {
+        "560": ["Route 560"]
+      }
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["560"],
+    "titleDateTimezone": "America/Edmonton",
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["detour", "detoured"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  }
+}

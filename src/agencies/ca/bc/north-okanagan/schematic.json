@@ -1,0 +1,438 @@
+{
+  "viewBoxWidth": 1600,
+  "viewBoxHeight": 1900,
+  "lines": [
+    {
+      "id": "1-VER",
+      "name": "Coldstream / Downtown",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 1150,
+          "y": 1500
+        },
+        {
+          "x": 1050,
+          "y": 1500
+        },
+        {
+          "x": 800,
+          "y": 1250
+        }
+      ]
+    },
+    {
+      "id": "3-VER",
+      "name": "North End / Downtown",
+      "color": "#F58220",
+      "points": [
+        {
+          "x": 800,
+          "y": 1250
+        },
+        {
+          "x": 600,
+          "y": 1050
+        },
+        {
+          "x": 600,
+          "y": 950
+        },
+        {
+          "x": 800,
+          "y": 950
+        },
+        {
+          "x": 900,
+          "y": 950
+        },
+        {
+          "x": 1100,
+          "y": 750
+        }
+      ]
+    },
+    {
+      "id": "6-VER",
+      "name": "College / Downtown",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 650,
+          "y": 1500
+        },
+        {
+          "x": 650,
+          "y": 1400
+        },
+        {
+          "x": 800,
+          "y": 1250
+        }
+      ]
+    },
+    {
+      "id": "9-VER",
+      "name": "North End / Downtown",
+      "color": "#EF75C3",
+      "points": [
+        {
+          "x": 1100,
+          "y": 750
+        },
+        {
+          "x": 1000,
+          "y": 750
+        },
+        {
+          "x": 800,
+          "y": 950
+        },
+        {
+          "x": 800,
+          "y": 1250
+        }
+      ]
+    },
+    {
+      "id": "90-VER",
+      "name": "UBCO / Vernon",
+      "color": "#B34926",
+      "points": [
+        {
+          "x": 800,
+          "y": 1250
+        },
+        {
+          "x": 650,
+          "y": 1400
+        },
+        {
+          "x": 650,
+          "y": 1500
+        },
+        {
+          "x": 450,
+          "y": 1700
+        },
+        {
+          "x": 450,
+          "y": 1750
+        }
+      ]
+    },
+    {
+      "id": "60-VER",
+      "name": "Enderby / Vernon",
+      "color": "#A723A6",
+      "points": [
+        {
+          "x": 950,
+          "y": 350
+        },
+        {
+          "x": 950,
+          "y": 800
+        },
+        {
+          "x": 800,
+          "y": 950
+        },
+        {
+          "x": 800,
+          "y": 1250
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "enderby",
+      "name": "Enderby Exchange",
+      "x": 950,
+      "y": 350,
+      "lines": ["60-VER"],
+      "label": {
+        "x": 980,
+        "y": 350,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "armstrong",
+      "name": "Wood / Adair",
+      "x": 950,
+      "y": 550,
+      "lines": ["60-VER"],
+      "label": {
+        "x": 920,
+        "y": 550,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "north-end",
+      "name": "58 Avenue / 20 Street",
+      "x": 1100,
+      "y": 750,
+      "lines": ["3-VER", "9-VER"],
+      "label": {
+        "x": 1130,
+        "y": 750,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "village-green",
+      "name": "Village Green Exchange",
+      "x": 800,
+      "y": 950,
+      "lines": ["3-VER", "9-VER", "60-VER"],
+      "label": {
+        "x": 830,
+        "y": 980,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown Exchange",
+      "x": 800,
+      "y": 1250,
+      "lines": ["1-VER", "3-VER", "6-VER", "9-VER", "90-VER", "60-VER"],
+      "label": {
+        "x": 770,
+        "y": 1250,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "college",
+      "name": "Okanagan College",
+      "x": 650,
+      "y": 1500,
+      "lines": ["6-VER", "90-VER"],
+      "label": {
+        "x": 620,
+        "y": 1500,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "kal-lake",
+      "name": "Kal Lake / Kalamalka",
+      "x": 1150,
+      "y": 1500,
+      "lines": ["1-VER"],
+      "label": {
+        "x": 1180,
+        "y": 1500,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "ubco",
+      "name": "UBCO Exchange",
+      "x": 450,
+      "y": 1750,
+      "lines": ["90-VER"],
+      "label": {
+        "x": 420,
+        "y": 1750,
+        "anchor": "end"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-VER",
+      "num": "1",
+      "x": 1010,
+      "y": 1412,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3-VER",
+      "num": "3",
+      "x": 566,
+      "y": 1030,
+      "color": "#F58220",
+      "textColor": "#000000"
+    },
+    {
+      "line": "6-VER",
+      "num": "6",
+      "x": 616,
+      "y": 1430,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "9-VER",
+      "num": "9",
+      "x": 834,
+      "y": 1120,
+      "color": "#EF75C3",
+      "textColor": "#000000"
+    },
+    {
+      "line": "90-VER",
+      "num": "90",
+      "x": 526,
+      "y": 1576,
+      "color": "#B34926",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "60-VER",
+      "num": "60",
+      "x": 984,
+      "y": 680,
+      "color": "#A723A6",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "1-VER": ["kal-lake", "downtown"],
+    "3-VER": ["downtown", "village-green", "north-end"],
+    "6-VER": ["college", "downtown"],
+    "9-VER": ["north-end", "village-green", "downtown"],
+    "90-VER": ["downtown", "college", "ubco"],
+    "60-VER": ["enderby", "armstrong", "village-green", "downtown"]
+  },
+  "stationAliases": {
+    "Enderby: Mill & George": "enderby",
+    "Wood & Adair": "armstrong",
+    "58 Ave NS 20 St": "north-end",
+    "Village Green Centre": "village-green",
+    "48th & 29th": "village-green",
+    "29 St & 48 Ave": "village-green",
+    "Downtown Exchange": "downtown",
+    "Okanagan College": "college",
+    "Kal Lake at Kalamalka": "kal-lake",
+    "UBCO Exchange": "ubco"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 1550,
+      "minY": 40,
+      "maxY": 1860
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -119.48817,
+    "refLonEast": -118.96294,
+    "refXWest": 150,
+    "refXEast": 1450,
+    "refLatNorth": 50.93248,
+    "refLatSouth": 49.93997,
+    "refYNorth": 150,
+    "refYSouth": 1750
+  },
+  "stationIndex": [
+    {
+      "id": "144094",
+      "schematicId": "north-end",
+      "name": "58 Avenue / 20 Street",
+      "lat": 50.28904,
+      "lon": -119.25961,
+      "lines": ["3-VER", "9-VER"],
+      "platformIds": ["144094"],
+      "departureRouteIds": ["3-VER", "9-VER"]
+    },
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "Downtown Exchange",
+      "lat": 50.26461,
+      "lon": -119.27204,
+      "lines": ["1-VER", "3-VER", "6-VER", "60-VER", "9-VER", "90-VER"],
+      "platformIds": ["144000", "144037", "144038", "144274", "144275", "144276", "144277"],
+      "departureRouteIds": [
+        "1-VER",
+        "2-VER",
+        "3-VER",
+        "4-VER",
+        "5-VER",
+        "6-VER",
+        "60-VER",
+        "61-VER",
+        "7-VER",
+        "8-VER",
+        "9-VER",
+        "90-VER"
+      ]
+    },
+    {
+      "id": "159106",
+      "schematicId": "enderby",
+      "name": "Enderby Exchange",
+      "lat": 50.55117,
+      "lon": -119.14064,
+      "lines": ["60-VER"],
+      "platformIds": ["159106"],
+      "departureRouteIds": ["41-VER", "60-VER"]
+    },
+    {
+      "id": "kal-lake",
+      "schematicId": "kal-lake",
+      "name": "Kal Lake / Kalamalka",
+      "lat": 50.23733,
+      "lon": -119.26661,
+      "lines": ["1-VER"],
+      "platformIds": ["144029", "144030"],
+      "departureRouteIds": ["1-VER"]
+    },
+    {
+      "id": "144170",
+      "schematicId": "college",
+      "name": "Okanagan College",
+      "lat": 50.23534,
+      "lon": -119.28146,
+      "lines": ["6-VER", "90-VER"],
+      "platformIds": ["144170"],
+      "departureRouteIds": ["6-VER", "90-VER"]
+    },
+    {
+      "id": "140104",
+      "schematicId": "ubco",
+      "name": "UBCO Exchange",
+      "lat": 49.93997,
+      "lon": -119.39438,
+      "lines": ["90-VER"],
+      "platformIds": ["140104"],
+      "departureRouteIds": ["90-VER"]
+    },
+    {
+      "id": "village-green",
+      "schematicId": "village-green",
+      "name": "Village Green Exchange",
+      "lat": 50.28148,
+      "lon": -119.26996,
+      "lines": ["3-VER", "60-VER", "9-VER"],
+      "platformIds": ["144087", "144297", "144309", "144318", "144319", "144320"],
+      "departureRouteIds": ["3-VER", "60-VER", "9-VER"]
+    },
+    {
+      "id": "armstrong",
+      "schematicId": "armstrong",
+      "name": "Wood / Adair",
+      "lat": 50.44875,
+      "lon": -119.2042,
+      "lines": ["60-VER"],
+      "platformIds": ["144270", "144337"],
+      "departureRouteIds": ["60-VER"]
+    }
+  ]
+}

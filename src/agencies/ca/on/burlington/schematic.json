@@ -1,0 +1,462 @@
+{
+  "viewBoxWidth": 1200,
+  "viewBoxHeight": 840,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 Plains-Fairview",
+      "color": "#890A07",
+      "points": [
+        { "x": 80, "y": 700 },
+        { "x": 340, "y": 440 },
+        { "x": 1040, "y": 440 }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Brant",
+      "color": "#890A07",
+      "points": [
+        { "x": 460, "y": 160 },
+        { "x": 460, "y": 620 }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Guelph",
+      "color": "#EB3131",
+      "points": [
+        { "x": 460, "y": 160 },
+        { "x": 620, "y": 160 },
+        { "x": 620, "y": 620 },
+        { "x": 460, "y": 620 }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Central",
+      "color": "#00447C",
+      "points": [
+        { "x": 200, "y": 620 },
+        { "x": 940, "y": 620 },
+        { "x": 940, "y": 440 },
+        { "x": 1040, "y": 440 }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "10 New-Maple",
+      "color": "#EB3131",
+      "points": [
+        { "x": 460, "y": 440 },
+        { "x": 460, "y": 620 },
+        { "x": 940, "y": 620 },
+        { "x": 940, "y": 440 },
+        { "x": 1040, "y": 440 }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "11 Sutton-Alton",
+      "color": "#EB3131",
+      "points": [
+        { "x": 1040, "y": 440 },
+        { "x": 940, "y": 440 },
+        { "x": 940, "y": 160 },
+        { "x": 460, "y": 160 }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "25 Walkers",
+      "color": "#EB3131",
+      "points": [
+        { "x": 460, "y": 160 },
+        { "x": 780, "y": 160 },
+        { "x": 780, "y": 620 },
+        { "x": 940, "y": 620 },
+        { "x": 940, "y": 440 },
+        { "x": 1040, "y": 440 }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "appleby-go",
+      "name": "Appleby GO",
+      "x": 1040,
+      "y": 440,
+      "lines": ["1", "4", "10", "11", "25"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 1065, "y": 440, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "fairview-appleby",
+      "name": "Fairview at Appleby",
+      "x": 940,
+      "y": 440,
+      "lines": ["1", "11", "25"],
+      "accessible": true,
+      "label": { "x": 925, "y": 420, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "fairview-walkers",
+      "name": "Fairview at Walkers",
+      "x": 780,
+      "y": 440,
+      "lines": ["1", "25"],
+      "accessible": true,
+      "label": { "x": 765, "y": 420, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "walkers-new",
+      "name": "Walkers at New",
+      "x": 780,
+      "y": 620,
+      "lines": ["4", "10", "25"],
+      "accessible": true,
+      "label": { "x": 780, "y": 650, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "dundas-407-park-ride",
+      "name": "Dundas / Highway 407 Park & Ride",
+      "x": 460,
+      "y": 160,
+      "lines": ["2", "3", "11", "25"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 425, "y": 160, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "sutton-dundas",
+      "name": "Sutton at Dundas",
+      "x": 840,
+      "y": 160,
+      "lines": ["11"],
+      "accessible": false,
+      "label": { "x": 840, "y": 130, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "tim-dobbie-at-alton-community-centre",
+      "name": "Tim Dobbie at Alton Community Centre",
+      "x": 680,
+      "y": 160,
+      "lines": ["11"],
+      "accessible": true,
+      "label": { "x": 680, "y": 130, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "brant-plains",
+      "name": "Brant at Plains",
+      "x": 460,
+      "y": 320,
+      "lines": ["2"],
+      "accessible": true,
+      "label": { "x": 445, "y": 320, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "guelph-prospect",
+      "name": "Guelph at Prospect",
+      "x": 620,
+      "y": 340,
+      "lines": ["3"],
+      "accessible": true,
+      "label": { "x": 635, "y": 340, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "burlington-go",
+      "name": "Burlington GO",
+      "x": 460,
+      "y": 440,
+      "lines": ["1", "2", "10"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 475, "y": 420, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "fairview-maple",
+      "name": "Fairview at Maple",
+      "x": 360,
+      "y": 440,
+      "lines": ["1"],
+      "accessible": true,
+      "label": {
+        "x": 335,
+        "y": 410,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "downtown-john-st",
+      "name": "Downtown, John St",
+      "x": 460,
+      "y": 620,
+      "lines": ["2", "3", "4", "10"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 460, "y": 650, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "plains-waterdown",
+      "name": "Plains at Waterdown",
+      "x": 220,
+      "y": 560,
+      "lines": ["1"],
+      "accessible": true,
+      "label": { "x": 205, "y": 550, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "aldershot-go",
+      "name": "Aldershot GO",
+      "x": 200,
+      "y": 620,
+      "lines": ["4"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 200, "y": 650, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "hamilton-king-james",
+      "name": "Hamilton, King at James",
+      "x": 80,
+      "y": 700,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 105,
+        "y": 695,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    { "line": "1", "num": "1", "x": 45, "y": 700, "color": "#890A07", "textColor": "#FFFFFF" },
+    { "line": "2", "num": "2", "x": 492, "y": 245, "color": "#890A07", "textColor": "#FFFFFF" },
+    { "line": "3", "num": "3", "x": 652, "y": 240, "color": "#EB3131", "textColor": "#FFFFFF" },
+    { "line": "4", "num": "4", "x": 265, "y": 588, "color": "#00447C", "textColor": "#FFFFFF" },
+    { "line": "10", "num": "10", "x": 492, "y": 530, "color": "#EB3131", "textColor": "#FFFFFF" },
+    { "line": "11", "num": "11", "x": 972, "y": 240, "color": "#EB3131", "textColor": "#FFFFFF" },
+    { "line": "25", "num": "25", "x": 812, "y": 240, "color": "#EB3131", "textColor": "#FFFFFF" }
+  ],
+  "viewport": {
+    "bounds": { "minX": 40, "maxX": 1160, "minY": 90, "maxY": 780 },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.88,
+    "refLonEast": -79.72,
+    "refXWest": 80,
+    "refXEast": 1040,
+    "refLatNorth": 43.42,
+    "refLatSouth": 43.25,
+    "refYNorth": 160,
+    "refYSouth": 700
+  },
+  "sequences": {
+    "1": [
+      "hamilton-king-james",
+      "plains-waterdown",
+      "fairview-maple",
+      "burlington-go",
+      "fairview-walkers",
+      "fairview-appleby",
+      "appleby-go"
+    ],
+    "2": ["dundas-407-park-ride", "brant-plains", "burlington-go", "downtown-john-st"],
+    "3": ["dundas-407-park-ride", "guelph-prospect", "downtown-john-st"],
+    "4": ["aldershot-go", "downtown-john-st", "walkers-new", "appleby-go"],
+    "10": ["burlington-go", "downtown-john-st", "walkers-new", "appleby-go"],
+    "11": [
+      "appleby-go",
+      "fairview-appleby",
+      "sutton-dundas",
+      "tim-dobbie-at-alton-community-centre",
+      "dundas-407-park-ride"
+    ],
+    "25": [
+      "dundas-407-park-ride",
+      "fairview-walkers",
+      "walkers-new",
+      "fairview-appleby",
+      "appleby-go"
+    ]
+  },
+  "stationAliases": {
+    "ALDERSHOT GO STATION": "aldershot-go",
+    "APPLEBY GO STATION": "appleby-go",
+    "BURLINGTON GO STATION": "burlington-go",
+    "FAIRVIEW AT APPLEBY": "fairview-appleby",
+    "APPLEBY AT FAIRVIEW": "fairview-appleby",
+    "FAIRVIEW AT BURLINGTON GO": "burlington-go",
+    "FAIRVIEW AT MAPLE": "fairview-maple",
+    "FAIRVIEW AT WALKERS": "fairview-walkers",
+    "NEW AT WALKERS": "walkers-new",
+    "WALKERS AT NEW": "walkers-new",
+    "WALKERS AT FAIRVIEW": "fairview-walkers",
+    "BRANT AT PLAINS": "brant-plains",
+    "GUELPH AT PROSPECT": "guelph-prospect",
+    "DUNDAS/HIGHWAY 407 PARK & RIDE": "dundas-407-park-ride",
+    "SUTTON AT DUNDAS": "sutton-dundas",
+    "TIM DOBBIE AT ALTON COMMUNITY CENTRE": "tim-dobbie-at-alton-community-centre",
+    "DOWNTOWN BURLINGTON, JOHN ST": "downtown-john-st",
+    "PLAINS AT WATERDOWN": "plains-waterdown",
+    "KING AT JAMES": "hamilton-king-james"
+  },
+  "stationIndex": [
+    {
+      "id": "729",
+      "schematicId": "aldershot-go",
+      "name": "Aldershot GO",
+      "lat": 43.313152,
+      "lon": -79.856402,
+      "lines": ["4"],
+      "platformIds": ["729"],
+      "departureRouteIds": ["4", "87"]
+    },
+    {
+      "id": "535",
+      "schematicId": "appleby-go",
+      "name": "Appleby GO",
+      "lat": 43.379496,
+      "lon": -79.760622,
+      "lines": ["1", "10", "11", "25", "4"],
+      "platformIds": ["535"],
+      "departureRouteIds": ["1", "10", "11", "25", "4", "80", "81"]
+    },
+    {
+      "id": "brant-plains",
+      "schematicId": "brant-plains",
+      "name": "Brant at Plains",
+      "lat": 43.338227,
+      "lon": -79.816624,
+      "lines": ["2"],
+      "platformIds": ["65", "959"],
+      "departureRouteIds": ["12", "2", "87"]
+    },
+    {
+      "id": "burlington-go",
+      "schematicId": "burlington-go",
+      "name": "Burlington GO",
+      "lat": 43.339287,
+      "lon": -79.809072,
+      "lines": ["1", "10", "2"],
+      "platformIds": ["1012", "1013", "85"],
+      "departureRouteIds": ["1", "10", "12", "2", "50", "51", "52", "6", "80", "81", "87"]
+    },
+    {
+      "id": "downtown-john-st",
+      "schematicId": "downtown-john-st",
+      "name": "Downtown, John St",
+      "lat": 43.325782,
+      "lon": -79.796914,
+      "lines": ["10", "2", "3", "4"],
+      "platformIds": ["795", "796"],
+      "departureRouteIds": ["10", "2", "3", "4", "50", "52"]
+    },
+    {
+      "id": "615",
+      "schematicId": "dundas-407-park-ride",
+      "name": "Dundas / Highway 407 Park & Ride",
+      "lat": 43.388457,
+      "lon": -79.829579,
+      "lines": ["11", "2", "25", "3"],
+      "platformIds": ["615"],
+      "departureRouteIds": ["11", "2", "25", "3", "52", "6"]
+    },
+    {
+      "id": "fairview-appleby",
+      "schematicId": "fairview-appleby",
+      "name": "Fairview at Appleby",
+      "lat": 43.372714,
+      "lon": -79.761198,
+      "lines": ["1", "11", "25"],
+      "platformIds": ["451", "453", "457", "473"],
+      "departureRouteIds": ["1", "10", "11", "25", "4", "50", "80", "81"]
+    },
+    {
+      "id": "fairview-maple",
+      "schematicId": "fairview-maple",
+      "name": "Fairview at Maple",
+      "lat": 43.329154,
+      "lon": -79.821089,
+      "lines": ["1"],
+      "platformIds": ["18", "991"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "fairview-walkers",
+      "schematicId": "fairview-walkers",
+      "name": "Fairview at Walkers",
+      "lat": 43.359417,
+      "lon": -79.778721,
+      "lines": ["1", "25"],
+      "platformIds": ["1082", "1083", "256", "266"],
+      "departureRouteIds": ["1", "25"]
+    },
+    {
+      "id": "guelph-prospect",
+      "schematicId": "guelph-prospect",
+      "name": "Guelph at Prospect",
+      "lat": 43.344725,
+      "lon": -79.794254,
+      "lines": ["3"],
+      "platformIds": ["113", "114"],
+      "departureRouteIds": ["3", "52"]
+    },
+    {
+      "id": "679",
+      "schematicId": "hamilton-king-james",
+      "name": "Hamilton, King at James",
+      "lat": 43.256679,
+      "lon": -79.868895,
+      "lines": ["1"],
+      "platformIds": ["679"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "plains-waterdown",
+      "schematicId": "plains-waterdown",
+      "name": "Plains at Waterdown",
+      "lat": 43.306937,
+      "lon": -79.852637,
+      "lines": ["1"],
+      "platformIds": ["1073", "722"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "sutton-dundas",
+      "schematicId": "sutton-dundas",
+      "name": "Sutton at Dundas",
+      "lat": 43.411717,
+      "lon": -79.801342,
+      "lines": ["11"],
+      "platformIds": ["858", "872"],
+      "departureRouteIds": ["11", "51"]
+    },
+    {
+      "id": "tim-dobbie-at-alton-community-centre",
+      "schematicId": "tim-dobbie-at-alton-community-centre",
+      "name": "Tim Dobbie at Alton Community Centre",
+      "lat": 43.398705,
+      "lon": -79.818889,
+      "lines": ["11"],
+      "platformIds": ["914", "997"],
+      "departureRouteIds": ["11", "48", "51", "6"]
+    },
+    {
+      "id": "walkers-new",
+      "schematicId": "walkers-new",
+      "name": "Walkers at New",
+      "lat": 43.353255,
+      "lon": -79.769286,
+      "lines": ["10", "25", "4"],
+      "platformIds": ["184", "185", "190", "193"],
+      "departureRouteIds": ["10", "25", "4", "50"]
+    }
+  ]
+}

@@ -1,0 +1,1055 @@
+{
+  "viewBoxWidth": 1150,
+  "viewBoxHeight": 900,
+  "lines": [
+    {
+      "id": "blue",
+      "name": "Viva Blue",
+      "color": "#005596",
+      "points": [
+        {
+          "x": 522,
+          "y": 758
+        },
+        {
+          "x": 530,
+          "y": 730
+        },
+        {
+          "x": 550,
+          "y": 700
+        },
+        {
+          "x": 585,
+          "y": 660
+        },
+        {
+          "x": 595,
+          "y": 590
+        },
+        {
+          "x": 595,
+          "y": 530
+        },
+        {
+          "x": 580,
+          "y": 470
+        },
+        {
+          "x": 520,
+          "y": 410
+        },
+        {
+          "x": 460,
+          "y": 360
+        },
+        {
+          "x": 445,
+          "y": 310
+        }
+      ]
+    },
+    {
+      "id": "purple",
+      "name": "Viva Purple",
+      "color": "#68246D",
+      "points": [
+        {
+          "x": 585,
+          "y": 660
+        },
+        {
+          "x": 620,
+          "y": 660
+        },
+        {
+          "x": 660,
+          "y": 640
+        },
+        {
+          "x": 700,
+          "y": 640
+        },
+        {
+          "x": 730,
+          "y": 640
+        },
+        {
+          "x": 750,
+          "y": 640
+        },
+        {
+          "x": 780,
+          "y": 640
+        },
+        {
+          "x": 800,
+          "y": 640
+        },
+        {
+          "x": 830,
+          "y": 640
+        },
+        {
+          "x": 860,
+          "y": 625
+        },
+        {
+          "x": 950,
+          "y": 620
+        }
+      ]
+    },
+    {
+      "id": "orange",
+      "name": "Viva Orange",
+      "color": "#F37024",
+      "points": [
+        {
+          "x": 306,
+          "y": 736
+        },
+        {
+          "x": 330,
+          "y": 730
+        },
+        {
+          "x": 355,
+          "y": 730
+        },
+        {
+          "x": 400,
+          "y": 700
+        },
+        {
+          "x": 440,
+          "y": 680
+        },
+        {
+          "x": 500,
+          "y": 670
+        },
+        {
+          "x": 585,
+          "y": 660
+        }
+      ]
+    },
+    {
+      "id": "yellow",
+      "name": "Viva Yellow",
+      "color": "#FFC20E",
+      "points": [
+        {
+          "x": 445,
+          "y": 310
+        },
+        {
+          "x": 460,
+          "y": 360
+        },
+        {
+          "x": 650,
+          "y": 360
+        },
+        {
+          "x": 850,
+          "y": 360
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "finch",
+      "name": "Finch",
+      "x": 522,
+      "y": 758,
+      "lines": ["blue"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 522,
+        "y": 772,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "steeles",
+      "name": "Steeles",
+      "x": 530,
+      "y": 730,
+      "lines": ["blue"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 542,
+        "y": 730,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "clark",
+      "name": "Clark",
+      "x": 550,
+      "y": 700,
+      "lines": ["blue"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 562,
+        "y": 700,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "richmond-hill-centre",
+      "name": "Richmond Hill Centre",
+      "x": 585,
+      "y": 660,
+      "lines": ["blue", "purple", "orange"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 575,
+        "y": 646,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bernard",
+      "name": "Bernard",
+      "x": 595,
+      "y": 590,
+      "lines": ["blue"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 607,
+        "y": 590,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "elgin-mills",
+      "name": "Elgin Mills",
+      "x": 595,
+      "y": 530,
+      "lines": ["blue"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 607,
+        "y": 530,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "wellington",
+      "name": "Wellington",
+      "x": 580,
+      "y": 470,
+      "lines": ["blue"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 592,
+        "y": 470,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mulock",
+      "name": "Mulock",
+      "x": 520,
+      "y": 410,
+      "lines": ["blue"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 508,
+        "y": 410,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "newmarket",
+      "name": "Newmarket",
+      "x": 460,
+      "y": 360,
+      "lines": ["blue", "yellow"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 448,
+        "y": 360,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "newmarket-terminal",
+      "name": "Newmarket Terminal",
+      "x": 445,
+      "y": 310,
+      "lines": ["blue", "yellow"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 445,
+        "y": 286,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "vaughan-metropolitan-centre",
+      "name": "Vaughan Metropolitan Centre",
+      "x": 306,
+      "y": 736,
+      "lines": ["orange"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 306,
+        "y": 750,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "highway-407",
+      "name": "Highway 407",
+      "x": 330,
+      "y": 730,
+      "lines": ["orange"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 330,
+        "y": 744,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pioneer-village",
+      "name": "Pioneer Village",
+      "x": 355,
+      "y": 730,
+      "lines": ["orange"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 355,
+        "y": 744,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "keele",
+      "name": "Keele",
+      "x": 400,
+      "y": 700,
+      "lines": ["orange"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 400,
+        "y": 714,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "dufferin",
+      "name": "Dufferin",
+      "x": 440,
+      "y": 680,
+      "lines": ["orange"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 440,
+        "y": 694,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bathurst",
+      "name": "Bathurst",
+      "x": 500,
+      "y": 670,
+      "lines": ["orange"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 500,
+        "y": 684,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bayview",
+      "name": "Bayview",
+      "x": 620,
+      "y": 660,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 620,
+        "y": 674,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cedarland",
+      "name": "Cedarland",
+      "x": 660,
+      "y": 640,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 660,
+        "y": 654,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "town-centre",
+      "name": "Town Centre",
+      "x": 700,
+      "y": 640,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 700,
+        "y": 654,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "warden",
+      "name": "Warden",
+      "x": 730,
+      "y": 640,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 730,
+        "y": 654,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "unionville",
+      "name": "Unionville",
+      "x": 750,
+      "y": 640,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 750,
+        "y": 654,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "x": 780,
+      "y": 640,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 780,
+        "y": 654,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mccowan",
+      "name": "McCowan",
+      "x": 800,
+      "y": 640,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 800,
+        "y": 654,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "don-mills",
+      "name": "Don Mills",
+      "x": 830,
+      "y": 640,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 830,
+        "y": 626,
+        "rot": 45,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "markham",
+      "name": "Markham",
+      "x": 860,
+      "y": 628,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 860,
+        "y": 614,
+        "rot": 45,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cornell",
+      "name": "Cornell",
+      "x": 950,
+      "y": 620,
+      "lines": ["purple"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 950,
+        "y": 606,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "leslie",
+      "name": "Leslie",
+      "x": 650,
+      "y": 360,
+      "lines": ["yellow"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 650,
+        "y": 346,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "highway-404",
+      "name": "Highway 404",
+      "x": 850,
+      "y": 360,
+      "lines": ["yellow"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 850,
+        "y": 374,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "blue",
+      "num": "B",
+      "x": 540,
+      "y": 470,
+      "color": "#005596",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "purple",
+      "num": "P",
+      "x": 684,
+      "y": 608,
+      "color": "#68246D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "orange",
+      "num": "O",
+      "x": 420,
+      "y": 655,
+      "color": "#F37024",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "yellow",
+      "num": "Y",
+      "x": 555,
+      "y": 328,
+      "color": "#FFC20E",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 225,
+      "maxX": 984,
+      "minY": 278,
+      "maxY": 885
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.7,
+    "refLonEast": -79.1,
+    "refXWest": 0,
+    "refXEast": 1100,
+    "refLatNorth": 44.4,
+    "refLatSouth": 43.7,
+    "refYNorth": 0,
+    "refYSouth": 850
+  },
+  "sequences": {
+    "blue": [
+      "finch",
+      "steeles",
+      "clark",
+      "richmond-hill-centre",
+      "bernard",
+      "elgin-mills",
+      "wellington",
+      "mulock",
+      "newmarket",
+      "newmarket-terminal"
+    ],
+    "purple": [
+      "richmond-hill-centre",
+      "bayview",
+      "cedarland",
+      "town-centre",
+      "warden",
+      "unionville",
+      "enterprise",
+      "mccowan",
+      "don-mills",
+      "markham",
+      "cornell"
+    ],
+    "orange": [
+      "vaughan-metropolitan-centre",
+      "highway-407",
+      "pioneer-village",
+      "keele",
+      "dufferin",
+      "bathurst",
+      "richmond-hill-centre"
+    ],
+    "yellow": ["newmarket-terminal", "newmarket", "leslie", "highway-404"]
+  },
+  "stationAliases": {
+    "bathurst / atkinson": "bathurst",
+    "bathurst / highway 7": "bathurst",
+    "bernard terminal": "bernard",
+    "cedarland dr / warden av": "cedarland",
+    "centre / dufferin": "dufferin",
+    "cornell bus terminal": "cornell",
+    "davis dr / highway 404 park & ride": "highway-404",
+    "davis dr / leslie st": "leslie",
+    "don mills station": "don-mills",
+    "enterprise blvd / andre de grasse st": "enterprise",
+    "enterprise blvd / warden av": "warden",
+    "finch go bus terminal": "finch",
+    "highway 407 terminal platform 4": "highway-407",
+    "highway 7 / keele st": "keele",
+    "highway 7 / town centre": "town-centre",
+    "highway 7 / warden av": "warden",
+    "hwy 7 / bayview": "bayview",
+    "hwy 7 / leslie": "leslie",
+    "hwy 7 / main markham": "markham",
+    "hwy 7 / mccowan": "mccowan",
+    "hwy 7 / wootten": "markham",
+    "major mackenzie / hwy 404 carpool lot": "highway-404",
+    "major mackenzie / hwy 404 park & ri": "highway-404",
+    "newmarket terminal platform 10": "newmarket-terminal",
+    "smartvmc bus terminal": "vaughan-metropolitan-centre",
+    "vaughan metropolitan centre eastbound": "vaughan-metropolitan-centre",
+    "vaughan metropolitan centre westbound": "vaughan-metropolitan-centre",
+    "yonge / bernard": "bernard",
+    "yonge / clark": "clark",
+    "yonge / davis northbound": "newmarket",
+    "yonge / davis southbound": "newmarket",
+    "yonge / elgin mills": "elgin-mills",
+    "yonge / mulock": "mulock",
+    "yonge / steeles": "steeles",
+    "yonge / wellington": "wellington"
+  },
+  "stationIndex": [
+    {
+      "id": "bathurst",
+      "schematicId": "bathurst",
+      "name": "Bathurst",
+      "lat": 43.81788,
+      "lon": -79.451702,
+      "lines": ["orange"],
+      "platformIds": ["9721", "9722", "9872", "9873"],
+      "departureRouteIds": ["605"]
+    },
+    {
+      "id": "bayview",
+      "schematicId": "bayview",
+      "name": "Bayview",
+      "lat": 43.840071,
+      "lon": -79.405542,
+      "lines": ["purple"],
+      "platformIds": ["9724", "9725"],
+      "departureRouteIds": ["1", "603", "60301"]
+    },
+    {
+      "id": "bernard",
+      "schematicId": "bernard",
+      "name": "Bernard Terminal",
+      "lat": 43.894363,
+      "lon": -79.442077,
+      "lines": ["blue"],
+      "platformIds": ["4195", "4197", "4198", "9789", "9790", "9791"],
+      "departureRouteIds": ["445", "601", "60102", "86", "98", "99"]
+    },
+    {
+      "id": "cedarland",
+      "schematicId": "cedarland",
+      "name": "Cedarland",
+      "lat": 43.851983,
+      "lon": -79.334487,
+      "lines": ["purple"],
+      "platformIds": ["9841", "9842"],
+      "departureRouteIds": ["60301"]
+    },
+    {
+      "id": "clark",
+      "schematicId": "clark",
+      "name": "Clark",
+      "lat": 43.807001,
+      "lon": -79.422192,
+      "lines": ["blue"],
+      "platformIds": ["9771", "9772"],
+      "departureRouteIds": ["360", "601", "60102", "77", "9899", "99"]
+    },
+    {
+      "id": "cornell",
+      "schematicId": "cornell",
+      "name": "Cornell Terminal",
+      "lat": 43.880877,
+      "lon": -79.231556,
+      "lines": ["purple"],
+      "platformIds": ["7335", "7336", "7337", "7338", "7341", "7342", "7343", "9886"],
+      "departureRouteIds": ["1", "14", "16", "18", "2", "25", "522", "603", "60301", "9"]
+    },
+    {
+      "id": "don-mills",
+      "schematicId": "don-mills",
+      "name": "Don Mills",
+      "lat": 43.775808,
+      "lon": -79.346338,
+      "lines": ["purple"],
+      "platformIds": ["7405"],
+      "departureRouteIds": ["24", "90", "9002"]
+    },
+    {
+      "id": "dufferin",
+      "schematicId": "dufferin",
+      "name": "Dufferin",
+      "lat": 43.805848,
+      "lon": -79.473646,
+      "lines": ["orange"],
+      "platformIds": ["9718", "9719"],
+      "departureRouteIds": ["605"]
+    },
+    {
+      "id": "elgin-mills",
+      "schematicId": "elgin-mills",
+      "name": "Elgin Mills",
+      "lat": 43.890312,
+      "lon": -79.441653,
+      "lines": ["blue"],
+      "platformIds": ["9787", "9788"],
+      "departureRouteIds": ["601", "60102"]
+    },
+    {
+      "id": "enterprise",
+      "schematicId": "enterprise",
+      "name": "Enterprise",
+      "lat": 43.85003,
+      "lon": -79.322128,
+      "lines": ["purple"],
+      "platformIds": ["9863", "9864"],
+      "departureRouteIds": ["304", "60301"]
+    },
+    {
+      "id": "finch",
+      "schematicId": "finch",
+      "name": "Finch Terminal",
+      "lat": 43.78234,
+      "lon": -79.415299,
+      "lines": ["blue"],
+      "platformIds": ["2328", "2330", "2331", "2332", "2333", "2334", "2335", "6235", "9769"],
+      "departureRouteIds": [
+        "2",
+        "23",
+        "300",
+        "301",
+        "302",
+        "303",
+        "304",
+        "305",
+        "360",
+        "391",
+        "5",
+        "601",
+        "60102",
+        "77",
+        "88",
+        "91",
+        "9899",
+        "99"
+      ]
+    },
+    {
+      "id": "highway-404",
+      "schematicId": "highway-404",
+      "name": "Highway 404",
+      "lat": 43.882109,
+      "lon": -79.380348,
+      "lines": ["yellow"],
+      "platformIds": ["6983", "6984", "7243", "9856"],
+      "departureRouteIds": ["25", "33", "55", "607"]
+    },
+    {
+      "id": "highway-407",
+      "schematicId": "highway-407",
+      "name": "Highway 407",
+      "lat": 43.782744,
+      "lon": -79.523259,
+      "lines": ["orange"],
+      "platformIds": ["7200", "7201", "7354"],
+      "departureRouteIds": ["20", "320", "361"]
+    },
+    {
+      "id": "keele",
+      "schematicId": "keele",
+      "name": "Keele",
+      "lat": 43.800579,
+      "lon": -79.499136,
+      "lines": ["orange"],
+      "platformIds": ["4130", "4155", "9853", "9854"],
+      "departureRouteIds": ["605", "77"]
+    },
+    {
+      "id": "leslie",
+      "schematicId": "leslie",
+      "name": "Leslie",
+      "lat": 44.066012,
+      "lon": -79.431627,
+      "lines": ["yellow"],
+      "platformIds": ["2002", "9730", "9731", "9851", "9852"],
+      "departureRouteIds": ["33", "50", "55", "56", "603", "60301", "607"]
+    },
+    {
+      "id": "markham",
+      "schematicId": "markham",
+      "name": "Markham",
+      "lat": 43.873945,
+      "lon": -79.259326,
+      "lines": ["purple"],
+      "platformIds": ["9753", "9754", "9755", "9756"],
+      "departureRouteIds": ["1", "522", "603", "60301"]
+    },
+    {
+      "id": "mccowan",
+      "schematicId": "mccowan",
+      "name": "McCowan",
+      "lat": 43.867217,
+      "lon": -79.283868,
+      "lines": ["purple"],
+      "platformIds": ["9751", "9752"],
+      "departureRouteIds": ["1", "603", "60301"]
+    },
+    {
+      "id": "mulock",
+      "schematicId": "mulock",
+      "name": "Mulock",
+      "lat": 44.03693,
+      "lon": -79.476055,
+      "lines": ["blue"],
+      "platformIds": ["9806", "9807"],
+      "departureRouteIds": ["601"]
+    },
+    {
+      "id": "newmarket",
+      "schematicId": "newmarket",
+      "name": "Newmarket",
+      "lat": 44.054427,
+      "lon": -79.480251,
+      "lines": ["blue", "yellow"],
+      "platformIds": ["9882", "9883"],
+      "departureRouteIds": ["601"]
+    },
+    {
+      "id": "newmarket-terminal",
+      "schematicId": "newmarket-terminal",
+      "name": "Newmarket Terminal",
+      "lat": 44.052538,
+      "lon": -79.486222,
+      "lines": ["blue", "yellow"],
+      "platformIds": [
+        "4184",
+        "4186",
+        "4187",
+        "4189",
+        "4192",
+        "4691",
+        "7313",
+        "7314",
+        "9809",
+        "9887"
+      ],
+      "departureRouteIds": [
+        "420",
+        "430",
+        "44",
+        "50",
+        "52",
+        "55",
+        "56",
+        "57",
+        "601",
+        "607",
+        "96",
+        "98",
+        "9899"
+      ]
+    },
+    {
+      "id": "pioneer-village",
+      "schematicId": "pioneer-village",
+      "name": "Pioneer Village",
+      "lat": 43.77902,
+      "lon": -79.512542,
+      "lines": ["orange"],
+      "platformIds": ["7195", "7196", "7197", "7198", "7199"],
+      "departureRouteIds": ["107", "10702", "165", "20", "3", "96"]
+    },
+    {
+      "id": "richmond-hill-centre",
+      "schematicId": "richmond-hill-centre",
+      "name": "Richmond Hill Centre",
+      "lat": 43.840199,
+      "lon": -79.425598,
+      "lines": ["blue", "orange", "purple"],
+      "platformIds": ["4453", "4454", "4461", "4468", "9723", "9819", "9820", "9821"],
+      "departureRouteIds": [
+        "1",
+        "360",
+        "408",
+        "443",
+        "444",
+        "601",
+        "60102",
+        "603",
+        "60301",
+        "605",
+        "83",
+        "86",
+        "87",
+        "9102",
+        "9899",
+        "99"
+      ]
+    },
+    {
+      "id": "steeles",
+      "schematicId": "steeles",
+      "name": "Steeles",
+      "lat": 43.798695,
+      "lon": -79.42011,
+      "lines": ["blue"],
+      "platformIds": ["9770", "9817"],
+      "departureRouteIds": ["2", "360", "5", "601", "60102", "77", "9899", "99"]
+    },
+    {
+      "id": "town-centre",
+      "schematicId": "town-centre",
+      "name": "Town Centre",
+      "lat": 43.853934,
+      "lon": -79.339783,
+      "lines": ["purple"],
+      "platformIds": ["9740", "9741"],
+      "departureRouteIds": ["603", "60301"]
+    },
+    {
+      "id": "unionville",
+      "schematicId": "unionville",
+      "name": "Unionville",
+      "lat": 43.852154,
+      "lon": -79.313954,
+      "lines": ["purple"],
+      "platformIds": ["4171", "4172"],
+      "departureRouteIds": ["8"]
+    },
+    {
+      "id": "vaughan-metropolitan-centre",
+      "schematicId": "vaughan-metropolitan-centre",
+      "name": "Vaughan Metropolitan Centre",
+      "lat": 43.796736,
+      "lon": -79.528383,
+      "lines": ["orange"],
+      "platformIds": ["7203", "7204", "7206", "7207", "9859", "9860"],
+      "departureRouteIds": ["10", "20", "26", "320", "605"]
+    },
+    {
+      "id": "warden",
+      "schematicId": "warden",
+      "name": "Warden",
+      "lat": 43.848886,
+      "lon": -79.331141,
+      "lines": ["purple"],
+      "platformIds": ["9742", "9743", "9865", "9866"],
+      "departureRouteIds": ["1", "603", "60301"]
+    },
+    {
+      "id": "wellington",
+      "schematicId": "wellington",
+      "name": "Wellington",
+      "lat": 43.999943,
+      "lon": -79.467575,
+      "lines": ["blue"],
+      "platformIds": ["9802", "9803"],
+      "departureRouteIds": ["601", "96", "98", "9899"]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "brandon",
+  "name": "Brandon Transit",
+  "serviceArea": "Brandon",
+  "shortName": "Brandon",
+  "locale": "en-CA",
+  "timezone": "America/Winnipeg",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "mb"
+  },
+  "bounds": [
+    {
+      "minLat": 49.8110983002841,
+      "maxLat": 49.8892452907112,
+      "minLon": -100.003960230885,
+      "maxLon": -99.850763
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Brandon Transit / City of Brandon",
+    "url": "https://www.brandon.ca/roads-parking-transportation/brandon-transit/",
+    "license": "Official City transit data and TripSpark MyRide. No explicit reuse licence was found for the live API; attribution is provided on a best-effort basis.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Brandon Transit GTFS",
+        "url": "https://opendata.brandon.ca/Transit/google_transit.zip",
+        "cacheFileName": "brandon-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tripspark",
+        "format": "json",
+        "url": "https://myride.brandontransit.ca",
+        "dateTimezone": "America/Winnipeg",
+        "vehicleTimeZone": "Etc/GMT+5",
+        "pollIntervalSeconds": 60
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["3", "7", "8", "14", "15", "17", "22", "23"],
+  "cityPresets": [
+    {
+      "name": "Downtown Terminal (Return)",
+      "lat": 49.8490251510754,
+      "lon": -99.948708113951
+    },
+    {
+      "name": "Walmart Stop",
+      "lat": 49.8675952114166,
+      "lon": -99.9617864195499
+    },
+    {
+      "name": "Shoppers Mall",
+      "lat": 49.8258012429357,
+      "lon": -99.9620574690138
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["3", "7", "8", "14", "15", "17", "22", "23"],
+    "titleDateTimezone": "America/Winnipeg",
+    "routeNames": {
+      "1008": ["1008", "Industrial I"],
+      "1001": ["1001", "Industrial A"],
+      "14": ["14", "Victoria West"],
+      "1009": ["1009", "Industrial J"],
+      "23": ["23", "1st Street South"],
+      "15": ["15", "East Hospital-ACC"],
+      "1003": ["1003", "Industrial C"],
+      "17": ["17", "South Central"],
+      "8": ["8", "Maryland West"],
+      "22": ["22", "Riverheights West"],
+      "7": ["7", "Corral/Hwy Hub"],
+      "3": ["3", "North Hill Connector"],
+      "1004": ["1004", "Industrial D"]
+    }
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "tripspark-advisories",
+      "url": "https://myride.brandontransit.ca",
+      "pollIntervalSeconds": 180
+    }
+  ]
+}

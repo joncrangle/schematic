@@ -1,0 +1,995 @@
+{
+  "viewBoxWidth": 1440,
+  "viewBoxHeight": 1100,
+  "lines": [
+    {
+      "id": "1N",
+      "name": "1N Main Line New Sudbury",
+      "color": "#E11D48",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 740,
+          "y": 450
+        },
+        {
+          "x": 740,
+          "y": 228
+        },
+        {
+          "x": 960,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "id": "1S",
+      "name": "1S Main Line South End",
+      "color": "#F97316",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 644,
+          "y": 546
+        },
+        {
+          "x": 644,
+          "y": 910
+        },
+        {
+          "x": 620,
+          "y": 934
+        },
+        {
+          "x": 620,
+          "y": 1010
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Barry Downe - Cambrian",
+      "color": "#16A34A",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 692,
+          "y": 498
+        },
+        {
+          "x": 770,
+          "y": 498
+        },
+        {
+          "x": 824,
+          "y": 444
+        },
+        {
+          "x": 1000,
+          "y": 444
+        },
+        {
+          "x": 1040,
+          "y": 404
+        },
+        {
+          "x": 1040,
+          "y": 280
+        },
+        {
+          "x": 1135,
+          "y": 185
+        },
+        {
+          "x": 1135,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "11 Donovan - College Boreal",
+      "color": "#84CC16",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 752,
+          "y": 438
+        },
+        {
+          "x": 752,
+          "y": 240
+        },
+        {
+          "x": 1110,
+          "y": 240
+        },
+        {
+          "x": 1147,
+          "y": 203
+        },
+        {
+          "x": 1147,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Laurentian via Regent",
+      "color": "#2563EB",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 680,
+          "y": 534
+        },
+        {
+          "x": 590,
+          "y": 624
+        },
+        {
+          "x": 590,
+          "y": 666
+        },
+        {
+          "x": 698,
+          "y": 774
+        },
+        {
+          "x": 795,
+          "y": 774
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Laurentian via Paris",
+      "color": "#38BDF8",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 668,
+          "y": 510
+        },
+        {
+          "x": 632,
+          "y": 546
+        },
+        {
+          "x": 632,
+          "y": 720
+        },
+        {
+          "x": 672,
+          "y": 760
+        },
+        {
+          "x": 795,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "10 Minnow Lake",
+      "color": "#9333EA",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 740,
+          "y": 570
+        },
+        {
+          "x": 870,
+          "y": 570
+        },
+        {
+          "x": 912,
+          "y": 528
+        },
+        {
+          "x": 1200,
+          "y": 528
+        },
+        {
+          "x": 1248,
+          "y": 576
+        },
+        {
+          "x": 1306,
+          "y": 576
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "12 Second Ave.",
+      "color": "#EC4899",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 770,
+          "y": 510
+        },
+        {
+          "x": 836,
+          "y": 444
+        },
+        {
+          "x": 908,
+          "y": 516
+        },
+        {
+          "x": 1060,
+          "y": 516
+        },
+        {
+          "x": 1060,
+          "y": 328
+        },
+        {
+          "x": 960,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "14 Four Corners",
+      "color": "#EAB308",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 560,
+          "y": 630
+        },
+        {
+          "x": 472,
+          "y": 718
+        },
+        {
+          "x": 472,
+          "y": 820
+        },
+        {
+          "x": 560,
+          "y": 820
+        },
+        {
+          "x": 596,
+          "y": 856
+        },
+        {
+          "x": 596,
+          "y": 1010
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "13 Copper Cliff",
+      "color": "#14B8A6",
+      "points": [
+        {
+          "x": 680,
+          "y": 510
+        },
+        {
+          "x": 580,
+          "y": 510
+        },
+        {
+          "x": 500,
+          "y": 590
+        },
+        {
+          "x": 300,
+          "y": 590
+        },
+        {
+          "x": 118,
+          "y": 772
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "20 Graywood - Madison Local",
+      "color": "#A8A29E",
+      "points": [
+        {
+          "x": 960,
+          "y": 228
+        },
+        {
+          "x": 1200,
+          "y": 228
+        },
+        {
+          "x": 1240,
+          "y": 188
+        },
+        {
+          "x": 1240,
+          "y": 60
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "downtown-hub",
+      "name": "Downtown Transit Hub",
+      "x": 680,
+      "y": 510,
+      "lines": ["1N", "1S", "2", "11", "3", "4", "10", "12", "14", "13"],
+      "label": {
+        "x": 664,
+        "y": 486,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "notre-dame-square",
+      "name": "Notre Dame Square",
+      "x": 740,
+      "y": 372,
+      "lines": ["1N"],
+      "label": {
+        "x": 722,
+        "y": 376,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lasalle-notre-dame",
+      "name": "Lasalle / Notre Dame",
+      "x": 810,
+      "y": 234,
+      "lines": ["1N", "11"],
+      "label": {
+        "x": 810,
+        "y": 200,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "new-sudbury-hub",
+      "name": "New Sudbury Transit Hub",
+      "x": 960,
+      "y": 234,
+      "lines": ["1N", "11", "12", "20"],
+      "terminal": true,
+      "label": {
+        "x": 930,
+        "y": 196,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "college-boreal",
+      "name": "College Boreal",
+      "x": 752,
+      "y": 330,
+      "lines": ["11"],
+      "label": {
+        "x": 772,
+        "y": 334,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cambrian-college",
+      "name": "Cambrian College",
+      "x": 1141,
+      "y": 100,
+      "lines": ["2", "11"],
+      "terminal": true,
+      "label": {
+        "x": 1141,
+        "y": 62,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "kingsway-bancroft",
+      "name": "Kingsway & Bancroft",
+      "x": 830,
+      "y": 444,
+      "lines": ["2", "12"],
+      "label": {
+        "x": 830,
+        "y": 408,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "silver-city",
+      "name": "Silver City",
+      "x": 980,
+      "y": 444,
+      "lines": ["2"],
+      "label": {
+        "x": 980,
+        "y": 480,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "second-bancroft",
+      "name": "2nd & Bancroft",
+      "x": 1060,
+      "y": 522,
+      "lines": ["10", "12"],
+      "label": {
+        "x": 1060,
+        "y": 568,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "bellevue-howey",
+      "name": "Bellevue & Howey",
+      "x": 800,
+      "y": 570,
+      "lines": ["10"],
+      "label": {
+        "x": 800,
+        "y": 606,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "moonlight-bancroft",
+      "name": "Moonlight & Bancroft",
+      "x": 1306,
+      "y": 576,
+      "lines": ["10"],
+      "terminal": true,
+      "label": {
+        "x": 1330,
+        "y": 576,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "graywood",
+      "name": "Graywood",
+      "x": 1240,
+      "y": 60,
+      "lines": ["20"],
+      "terminal": true,
+      "label": {
+        "x": 1262,
+        "y": 64,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "hospital-south-tower",
+      "name": "Hospital South Tower",
+      "x": 638,
+      "y": 720,
+      "lines": ["1S", "3", "4"],
+      "label": {
+        "x": 668,
+        "y": 712,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "plaza-69",
+      "name": "Plaza 69",
+      "x": 644,
+      "y": 850,
+      "lines": ["1S"],
+      "label": {
+        "x": 664,
+        "y": 854,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "south-end-hub",
+      "name": "South End Transit Hub",
+      "x": 608,
+      "y": 1010,
+      "lines": ["1S", "14"],
+      "terminal": true,
+      "label": {
+        "x": 630,
+        "y": 1014,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "laurentian-university",
+      "name": "Laurentian University",
+      "x": 795,
+      "y": 767,
+      "lines": ["3", "4"],
+      "terminal": true,
+      "label": {
+        "x": 817,
+        "y": 771,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "health-sciences-north",
+      "name": "Health Sciences North",
+      "x": 590,
+      "y": 645,
+      "lines": ["3"],
+      "label": {
+        "x": 555,
+        "y": 610,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "isles-of-innisfree",
+      "name": "Isles of Innisfree",
+      "x": 472,
+      "y": 770,
+      "lines": ["14"],
+      "label": {
+        "x": 450,
+        "y": 774,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "long-lake",
+      "name": "Long Lake",
+      "x": 596,
+      "y": 940,
+      "lines": ["14"],
+      "label": {
+        "x": 574,
+        "y": 944,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lorne-regent",
+      "name": "Lorne & Regent",
+      "x": 540,
+      "y": 550,
+      "lines": ["13"],
+      "label": {
+        "x": 548,
+        "y": 524,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "mary-dean",
+      "name": "Mary & Dean",
+      "x": 400,
+      "y": 590,
+      "lines": ["13"],
+      "label": {
+        "x": 400,
+        "y": 626,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "dow",
+      "name": "99 Dow",
+      "x": 118,
+      "y": 772,
+      "lines": ["13"],
+      "terminal": true,
+      "label": {
+        "x": 140,
+        "y": 776,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1N",
+      "num": "1N",
+      "x": 708,
+      "y": 262,
+      "color": "#E11D48",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "1S",
+      "num": "1S",
+      "x": 652,
+      "y": 960,
+      "color": "#F97316",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 960,
+      "y": 412,
+      "color": "#16A34A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "11",
+      "num": "11",
+      "x": 900,
+      "y": 272,
+      "color": "#84CC16",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 740,
+      "y": 806,
+      "color": "#2563EB",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 672,
+      "y": 664,
+      "color": "#38BDF8",
+      "textColor": "#000000"
+    },
+    {
+      "line": "10",
+      "num": "10",
+      "x": 1236.77,
+      "y": 519.51,
+      "color": "#9333EA",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12",
+      "num": "12",
+      "x": 1092,
+      "y": 420,
+      "color": "#EC4899",
+      "textColor": "#000000"
+    },
+    {
+      "line": "14",
+      "num": "14",
+      "x": 564,
+      "y": 900,
+      "color": "#EAB308",
+      "textColor": "#000000"
+    },
+    {
+      "line": "13",
+      "num": "13",
+      "x": 400,
+      "y": 558,
+      "color": "#14B8A6",
+      "textColor": "#000000"
+    },
+    {
+      "line": "20",
+      "num": "20",
+      "x": 1272,
+      "y": 124,
+      "color": "#A8A29E",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 1380,
+      "minY": 20,
+      "maxY": 1060
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -81.07,
+    "refLonEast": -80.9,
+    "refXWest": 130,
+    "refXEast": 1320,
+    "refLatNorth": 46.54,
+    "refLatSouth": 46.44,
+    "refYNorth": 60,
+    "refYSouth": 1010
+  },
+  "sequences": {
+    "2": ["downtown-hub", "kingsway-bancroft", "silver-city", "cambrian-college"],
+    "3": ["downtown-hub", "health-sciences-north", "hospital-south-tower", "laurentian-university"],
+    "4": ["downtown-hub", "hospital-south-tower", "laurentian-university"],
+    "10": ["downtown-hub", "bellevue-howey", "second-bancroft", "moonlight-bancroft"],
+    "11": [
+      "downtown-hub",
+      "college-boreal",
+      "lasalle-notre-dame",
+      "new-sudbury-hub",
+      "cambrian-college"
+    ],
+    "12": ["downtown-hub", "kingsway-bancroft", "second-bancroft", "new-sudbury-hub"],
+    "13": ["downtown-hub", "lorne-regent", "mary-dean", "dow"],
+    "14": ["downtown-hub", "isles-of-innisfree", "long-lake", "south-end-hub"],
+    "20": ["new-sudbury-hub", "graywood"],
+    "1N": ["downtown-hub", "notre-dame-square", "lasalle-notre-dame", "new-sudbury-hub"],
+    "1S": ["downtown-hub", "hospital-south-tower", "plaza-69", "south-end-hub"]
+  },
+  "stationAliases": {
+    "University": "laurentian-university"
+  },
+  "stationIndex": [
+    {
+      "id": "second-bancroft",
+      "schematicId": "second-bancroft",
+      "name": "2nd & Bancroft",
+      "lat": 46.49067,
+      "lon": -80.93703,
+      "lines": ["10", "12"],
+      "platformIds": ["4310", "4315"],
+      "departureRouteIds": ["10", "12"]
+    },
+    {
+      "id": "2185",
+      "schematicId": "dow",
+      "name": "99 Dow",
+      "lat": 46.46697,
+      "lon": -81.07169,
+      "lines": ["13"],
+      "platformIds": ["2185"],
+      "departureRouteIds": ["13"]
+    },
+    {
+      "id": "bellevue-howey",
+      "schematicId": "bellevue-howey",
+      "name": "Bellevue & Howey",
+      "lat": 46.48888,
+      "lon": -80.95838,
+      "lines": ["10"],
+      "platformIds": ["4130", "4135"],
+      "departureRouteIds": ["10"]
+    },
+    {
+      "id": "7110",
+      "schematicId": "cambrian-college",
+      "name": "Cambrian College",
+      "lat": 46.52955,
+      "lon": -80.94,
+      "lines": ["11", "2"],
+      "platformIds": ["7110"],
+      "departureRouteIds": ["11", "2"]
+    },
+    {
+      "id": "1900",
+      "schematicId": "college-boreal",
+      "name": "College Boreal",
+      "lat": 46.51791,
+      "lon": -80.99308,
+      "lines": ["11"],
+      "platformIds": ["1900"],
+      "departureRouteIds": ["11"]
+    },
+    {
+      "id": "1000",
+      "schematicId": "downtown-hub",
+      "name": "Downtown Transit Hub",
+      "lat": 46.49257,
+      "lon": -80.99162,
+      "lines": ["10", "11", "12", "13", "14", "1N", "1S", "2", "3", "4"],
+      "platformIds": ["1000"],
+      "departureRouteIds": [
+        "10",
+        "101",
+        "104",
+        "105",
+        "106",
+        "11",
+        "12",
+        "13",
+        "14",
+        "1N",
+        "1S",
+        "2",
+        "24",
+        "25",
+        "26",
+        "27",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "7180",
+      "schematicId": "graywood",
+      "name": "Graywood",
+      "lat": 46.53592,
+      "lon": -80.92981,
+      "lines": ["20"],
+      "platformIds": ["7180"],
+      "departureRouteIds": ["20"]
+    },
+    {
+      "id": "5015",
+      "schematicId": "health-sciences-north",
+      "name": "Health Sciences North",
+      "lat": 46.47371,
+      "lon": -81.00776,
+      "lines": ["3"],
+      "platformIds": ["5015"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "hospital-south-tower",
+      "schematicId": "hospital-south-tower",
+      "name": "Hospital South Tower",
+      "lat": 46.46618,
+      "lon": -80.99669,
+      "lines": ["1S", "3", "4"],
+      "platformIds": ["5515", "5520"],
+      "departureRouteIds": ["1S", "3", "4"]
+    },
+    {
+      "id": "5230",
+      "schematicId": "isles-of-innisfree",
+      "name": "Isles of Innisfree",
+      "lat": 46.46598,
+      "lon": -81.02621,
+      "lines": ["14"],
+      "platformIds": ["5230"],
+      "departureRouteIds": ["14"]
+    },
+    {
+      "id": "4190",
+      "schematicId": "kingsway-bancroft",
+      "name": "Kingsway & Bancroft",
+      "lat": 46.49958,
+      "lon": -80.96696,
+      "lines": ["12", "2"],
+      "platformIds": ["4190"],
+      "departureRouteIds": ["12", "2"]
+    },
+    {
+      "id": "lasalle-notre-dame",
+      "schematicId": "lasalle-notre-dame",
+      "name": "Lasalle / Notre Dame",
+      "lat": 46.52214,
+      "lon": -80.98506,
+      "lines": ["11", "1N"],
+      "platformIds": ["1910", "2625", "6210", "6215"],
+      "departureRouteIds": ["105", "106", "11", "1N"]
+    },
+    {
+      "id": "laurentian-university",
+      "schematicId": "laurentian-university",
+      "name": "Laurentian University",
+      "lat": 46.46627,
+      "lon": -80.97504,
+      "lines": ["3", "4"],
+      "platformIds": ["5565", "5570"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "5812",
+      "schematicId": "long-lake",
+      "name": "Long Lake",
+      "lat": 46.44782,
+      "lon": -81.00469,
+      "lines": ["14"],
+      "platformIds": ["5812"],
+      "departureRouteIds": ["14", "1S", "29"]
+    },
+    {
+      "id": "1930",
+      "schematicId": "lorne-regent",
+      "name": "Lorne & Regent",
+      "lat": 46.48237,
+      "lon": -81.00765,
+      "lines": ["13"],
+      "platformIds": ["1930"],
+      "departureRouteIds": ["101", "13"]
+    },
+    {
+      "id": "mary-dean",
+      "schematicId": "mary-dean",
+      "name": "Mary & Dean",
+      "lat": 46.47744,
+      "lon": -81.02966,
+      "lines": ["13"],
+      "platformIds": ["2045", "2050"],
+      "departureRouteIds": ["13"]
+    },
+    {
+      "id": "4635",
+      "schematicId": "moonlight-bancroft",
+      "name": "Moonlight & Bancroft",
+      "lat": 46.48522,
+      "lon": -80.90284,
+      "lines": ["10"],
+      "platformIds": ["4635"],
+      "departureRouteIds": ["10", "103"]
+    },
+    {
+      "id": "new-sudbury-hub",
+      "schematicId": "new-sudbury-hub",
+      "name": "New Sudbury Transit Hub",
+      "lat": 46.52071,
+      "lon": -80.94659,
+      "lines": ["11", "12", "1N", "20"],
+      "platformIds": ["6935", "6940"],
+      "departureRouteIds": ["102", "103", "12", "1N", "20", "22", "23"]
+    },
+    {
+      "id": "notre-dame-square",
+      "schematicId": "notre-dame-square",
+      "name": "Notre Dame Square",
+      "lat": 46.51067,
+      "lon": -80.98663,
+      "lines": ["1N"],
+      "platformIds": ["1755", "1760"],
+      "departureRouteIds": ["105", "106", "1N", "24"]
+    },
+    {
+      "id": "plaza-69",
+      "schematicId": "plaza-69",
+      "name": "Plaza 69",
+      "lat": 46.45333,
+      "lon": -81.00244,
+      "lines": ["1S"],
+      "platformIds": ["5770", "5775"],
+      "departureRouteIds": ["1S", "29"]
+    },
+    {
+      "id": "silver-city",
+      "schematicId": "silver-city",
+      "name": "Silver City",
+      "lat": 46.50175,
+      "lon": -80.94548,
+      "lines": ["2"],
+      "platformIds": ["4371", "4373"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "5830",
+      "schematicId": "south-end-hub",
+      "name": "South End Transit Hub",
+      "lat": 46.44031,
+      "lon": -81.00423,
+      "lines": ["14", "1S"],
+      "platformIds": ["5830"],
+      "departureRouteIds": ["14", "1S", "28", "29"]
+    }
+  ]
+}

@@ -1,0 +1,834 @@
+{
+  "viewBoxWidth": 2000,
+  "viewBoxHeight": 1500,
+  "lines": [
+    {
+      "id": "51-PRR",
+      "name": "Seal Cove",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 1100,
+          "y": 500
+        },
+        {
+          "x": 1700,
+          "y": 500
+        },
+        {
+          "x": 1850,
+          "y": 500
+        },
+        {
+          "x": 1700,
+          "y": 500
+        },
+        {
+          "x": 1250,
+          "y": 500
+        },
+        {
+          "x": 1250,
+          "y": 300
+        },
+        {
+          "x": 1100,
+          "y": 300
+        },
+        {
+          "x": 1000,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "52-PRR",
+      "name": "Summit",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 350,
+          "y": 600
+        },
+        {
+          "x": 300,
+          "y": 550
+        },
+        {
+          "x": 300,
+          "y": 500
+        },
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 1000,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "53-PRR",
+      "name": "Crestview",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 1200,
+          "y": 900
+        },
+        {
+          "x": 1450,
+          "y": 900
+        },
+        {
+          "x": 1550,
+          "y": 800
+        },
+        {
+          "x": 1550,
+          "y": 700
+        },
+        {
+          "x": 1500,
+          "y": 650
+        },
+        {
+          "x": 1050,
+          "y": 650
+        },
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 1000,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "54-PRR",
+      "name": "Westview",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 900,
+          "y": 300
+        },
+        {
+          "x": 400,
+          "y": 300
+        },
+        {
+          "x": 300,
+          "y": 200
+        },
+        {
+          "x": 200,
+          "y": 200
+        },
+        {
+          "x": 150,
+          "y": 250
+        },
+        {
+          "x": 150,
+          "y": 350
+        },
+        {
+          "x": 200,
+          "y": 400
+        },
+        {
+          "x": 1000,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "57-PRR",
+      "name": "Park",
+      "color": "#611D8A",
+      "points": [
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 900,
+          "y": 300
+        },
+        {
+          "x": 500,
+          "y": 300
+        },
+        {
+          "x": 450,
+          "y": 350
+        },
+        {
+          "x": 450,
+          "y": 500
+        },
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 1000,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "60-PRR",
+      "name": "Port Edward",
+      "color": "#00A84F",
+      "points": [
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 1200,
+          "y": 900
+        },
+        {
+          "x": 1200,
+          "y": 1350
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "downtown",
+      "name": "Downtown",
+      "x": 1000,
+      "y": 400,
+      "lines": ["51-PRR", "52-PRR", "53-PRR", "54-PRR", "57-PRR", "60-PRR"],
+      "label": {
+        "x": 1028,
+        "y": 400,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "hays-cove",
+      "name": "6th Ave E at Hays Cove Ave",
+      "x": 1250,
+      "y": 500,
+      "lines": ["51-PRR"],
+      "label": {
+        "x": 1250,
+        "y": 532,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "immanuel-6th",
+      "name": "Immanuel at 6th Ave E",
+      "x": 1550,
+      "y": 500,
+      "lines": ["51-PRR"],
+      "label": {
+        "x": 1550,
+        "y": 532,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "seal-cove",
+      "name": "Seal Cove Sea Plane Terminal",
+      "x": 1850,
+      "y": 500,
+      "lines": ["51-PRR"],
+      "label": {
+        "x": 1850,
+        "y": 468,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cow-bay",
+      "name": "George Hills Way at Cow Bay Rd",
+      "x": 1250,
+      "y": 300,
+      "lines": ["51-PRR"],
+      "label": {
+        "x": 1250,
+        "y": 268,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "fulton",
+      "name": "Fulton at 3rd Ave W",
+      "x": 800,
+      "y": 500,
+      "lines": ["52-PRR"],
+      "label": {
+        "x": 800,
+        "y": 466,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sloan-mckay",
+      "name": "Sloan at McKay",
+      "x": 600,
+      "y": 600,
+      "lines": ["52-PRR"],
+      "label": {
+        "x": 600,
+        "y": 632,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "pillsbury",
+      "name": "Pillsbury at Kootenay",
+      "x": 400,
+      "y": 600,
+      "lines": ["52-PRR"],
+      "label": {
+        "x": 400,
+        "y": 632,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "mckay-kootenay",
+      "name": "McKay at Kootenay",
+      "x": 450,
+      "y": 500,
+      "lines": ["52-PRR", "57-PRR"],
+      "label": {
+        "x": 450,
+        "y": 534,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Summit at Hospital Entrance",
+      "x": 650,
+      "y": 500,
+      "lines": ["52-PRR", "57-PRR"],
+      "label": {
+        "x": 650,
+        "y": 532,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "civic-centre",
+      "name": "Civic Centre Complex",
+      "x": 1000,
+      "y": 700,
+      "lines": ["53-PRR", "60-PRR"],
+      "label": {
+        "x": 972,
+        "y": 700,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "portage",
+      "name": "Pr Rupert Blvd at Portage Rd",
+      "x": 1100,
+      "y": 800,
+      "lines": ["53-PRR", "60-PRR"],
+      "label": {
+        "x": 1075,
+        "y": 825,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "crestview",
+      "name": "Crestview Dr at Applewhaite Dr",
+      "x": 1350,
+      "y": 900,
+      "lines": ["53-PRR"],
+      "label": {
+        "x": 1350,
+        "y": 932,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "immanuel-11th",
+      "name": "Immanuel at 11th Ave E",
+      "x": 1550,
+      "y": 750,
+      "lines": ["53-PRR"],
+      "label": {
+        "x": 1578,
+        "y": 750,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "alfred",
+      "name": "Alfred at Hays Cove",
+      "x": 1300,
+      "y": 650,
+      "lines": ["53-PRR"],
+      "label": {
+        "x": 1300,
+        "y": 616,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "evergreen",
+      "name": "Evergreen at Skeena",
+      "x": 1200,
+      "y": 1150,
+      "lines": ["60-PRR"],
+      "label": {
+        "x": 1228,
+        "y": 1150,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "hillcrest",
+      "name": "Oceanview at Hillcrest",
+      "x": 1200,
+      "y": 1350,
+      "lines": ["60-PRR"],
+      "label": {
+        "x": 1200,
+        "y": 1382,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "2nd-8th",
+      "name": "2nd Ave at 8th",
+      "x": 750,
+      "y": 300,
+      "lines": ["54-PRR", "57-PRR"],
+      "label": {
+        "x": 750,
+        "y": 268,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "graham-17th",
+      "name": "Graham at 17th",
+      "x": 250,
+      "y": 200,
+      "lines": ["54-PRR"],
+      "label": {
+        "x": 250,
+        "y": 168,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "atlin-17th",
+      "name": "Atlin at 17th",
+      "x": 150,
+      "y": 300,
+      "lines": ["54-PRR"],
+      "label": {
+        "x": 122,
+        "y": 300,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "7th-3rd",
+      "name": "7th St at 3rd Ave",
+      "x": 700,
+      "y": 400,
+      "lines": ["54-PRR"],
+      "label": {
+        "x": 700,
+        "y": 366,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "11th-park",
+      "name": "11th St at Park Ave",
+      "x": 450,
+      "y": 440,
+      "lines": ["57-PRR"],
+      "label": {
+        "x": 422,
+        "y": 440,
+        "anchor": "end"
+      }
+    }
+  ],
+  "sequences": {
+    "51-PRR": ["downtown", "hays-cove", "immanuel-6th", "seal-cove", "cow-bay"],
+    "52-PRR": ["downtown", "fulton", "sloan-mckay", "pillsbury", "mckay-kootenay", "hospital"],
+    "53-PRR": ["downtown", "civic-centre", "portage", "crestview", "immanuel-11th", "alfred"],
+    "54-PRR": ["downtown", "2nd-8th", "graham-17th", "atlin-17th", "7th-3rd"],
+    "57-PRR": ["downtown", "2nd-8th", "11th-park", "mckay-kootenay", "hospital"],
+    "60-PRR": ["downtown", "civic-centre", "portage", "evergreen", "hillcrest"]
+  },
+  "stationAliases": {
+    "2nd Ave W at 3rd St": "downtown"
+  },
+  "badges": [
+    {
+      "line": "51-PRR",
+      "num": "51",
+      "x": 1400,
+      "y": 532,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "52-PRR",
+      "num": "52",
+      "x": 520,
+      "y": 632,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "53-PRR",
+      "num": "53",
+      "x": 1290,
+      "y": 868,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "54-PRR",
+      "num": "54",
+      "x": 325,
+      "y": 368,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "57-PRR",
+      "num": "57",
+      "x": 482,
+      "y": 360,
+      "color": "#611D8A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "60-PRR",
+      "num": "60",
+      "x": 1168,
+      "y": 1050,
+      "color": "#00A84F",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1960,
+      "minY": 40,
+      "maxY": 1460
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -130.34982,
+    "refLonEast": -130.28121,
+    "refXWest": 274,
+    "refXEast": 1653,
+    "refLatNorth": 54.33,
+    "refLatSouth": 54.21791,
+    "refYNorth": 409,
+    "refYSouth": 1166
+  },
+  "cornerInsertions": [
+    {
+      "lineId": "51-PRR",
+      "stationId": "seal-cove",
+      "before": {
+        "x": 1700,
+        "y": 500
+      },
+      "after": {
+        "x": 1700,
+        "y": 500
+      }
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "11th-park",
+      "schematicId": "11th-park",
+      "name": "11th St at Park Ave",
+      "lat": 54.30547,
+      "lon": -130.33614,
+      "lines": ["57-PRR"],
+      "platformIds": ["190087", "190090"],
+      "departureRouteIds": ["52-PRR", "55-PRR", "57-PRR", "99-PRR"]
+    },
+    {
+      "id": "190071",
+      "schematicId": "2nd-8th",
+      "name": "2nd Ave at 8th",
+      "lat": 54.31016,
+      "lon": -130.3312,
+      "lines": ["54-PRR", "57-PRR"],
+      "platformIds": ["190071"],
+      "departureRouteIds": ["54-PRR", "55-PRR", "57-PRR"]
+    },
+    {
+      "id": "190000",
+      "schematicId": "hays-cove",
+      "name": "6th Ave E at Hays Cove Ave",
+      "lat": 54.32061,
+      "lon": -130.30542,
+      "lines": ["51-PRR"],
+      "platformIds": ["190000"],
+      "departureRouteIds": ["51-PRR", "99-PRR"]
+    },
+    {
+      "id": "190106",
+      "schematicId": "7th-3rd",
+      "name": "7th St at 3rd Ave",
+      "lat": 54.31042,
+      "lon": -130.32908,
+      "lines": ["54-PRR"],
+      "platformIds": ["190106"],
+      "departureRouteIds": ["52-PRR", "54-PRR", "55-PRR"]
+    },
+    {
+      "id": "190064",
+      "schematicId": "alfred",
+      "name": "Alfred at Hays Cove",
+      "lat": 54.31985,
+      "lon": -130.30518,
+      "lines": ["53-PRR"],
+      "platformIds": ["190064"],
+      "departureRouteIds": ["53-PRR"]
+    },
+    {
+      "id": "190081",
+      "schematicId": "atlin-17th",
+      "name": "Atlin at 17th",
+      "lat": 54.30079,
+      "lon": -130.3481,
+      "lines": ["54-PRR"],
+      "platformIds": ["190081"],
+      "departureRouteIds": ["52-PRR", "54-PRR", "99-PRR"]
+    },
+    {
+      "id": "190049",
+      "schematicId": "civic-centre",
+      "name": "Civic Centre Complex",
+      "lat": 54.30999,
+      "lon": -130.31233,
+      "lines": ["53-PRR", "60-PRR"],
+      "platformIds": ["190049"],
+      "departureRouteIds": ["53-PRR", "60-PRR", "99-PRR"]
+    },
+    {
+      "id": "190109",
+      "schematicId": "crestview",
+      "name": "Crestview Dr at Applewhaite Dr",
+      "lat": 54.31985,
+      "lon": -130.29157,
+      "lines": ["53-PRR"],
+      "platformIds": ["190109"],
+      "departureRouteIds": ["53-PRR"]
+    },
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "Downtown",
+      "lat": 54.31317,
+      "lon": -130.32637,
+      "lines": ["51-PRR", "52-PRR", "53-PRR", "54-PRR", "57-PRR", "60-PRR"],
+      "platformIds": ["190019", "190042"],
+      "departureRouteIds": [
+        "51-PRR",
+        "52-PRR",
+        "53-PRR",
+        "54-PRR",
+        "55-PRR",
+        "57-PRR",
+        "60-PRR",
+        "99-PRR"
+      ]
+    },
+    {
+      "id": "191000",
+      "schematicId": "evergreen",
+      "name": "Evergreen at Skeena",
+      "lat": 54.22798,
+      "lon": -130.29176,
+      "lines": ["60-PRR"],
+      "platformIds": ["191000"],
+      "departureRouteIds": ["60-PRR"]
+    },
+    {
+      "id": "190020",
+      "schematicId": "fulton",
+      "name": "Fulton at 3rd Ave W",
+      "lat": 54.31192,
+      "lon": -130.32536,
+      "lines": ["52-PRR"],
+      "platformIds": ["190020"],
+      "departureRouteIds": ["52-PRR"]
+    },
+    {
+      "id": "190098",
+      "schematicId": "cow-bay",
+      "name": "George Hills Way at Cow Bay Rd",
+      "lat": 54.3193,
+      "lon": -130.31695,
+      "lines": ["51-PRR"],
+      "platformIds": ["190098"],
+      "departureRouteIds": ["51-PRR"]
+    },
+    {
+      "id": "190077",
+      "schematicId": "graham-17th",
+      "name": "Graham at 17th",
+      "lat": 54.30108,
+      "lon": -130.34982,
+      "lines": ["54-PRR"],
+      "platformIds": ["190077"],
+      "departureRouteIds": ["52-PRR", "54-PRR", "99-PRR"]
+    },
+    {
+      "id": "190059",
+      "schematicId": "immanuel-11th",
+      "name": "Immanuel at 11th Ave E",
+      "lat": 54.32493,
+      "lon": -130.28834,
+      "lines": ["53-PRR"],
+      "platformIds": ["190059"],
+      "departureRouteIds": ["53-PRR", "99-PRR"]
+    },
+    {
+      "id": "immanuel-6th",
+      "schematicId": "immanuel-6th",
+      "name": "Immanuel at 6th Ave E",
+      "lat": 54.32754,
+      "lon": -130.29336,
+      "lines": ["51-PRR"],
+      "platformIds": ["190005", "190012"],
+      "departureRouteIds": ["51-PRR", "99-PRR"]
+    },
+    {
+      "id": "190030",
+      "schematicId": "mckay-kootenay",
+      "name": "McKay at Kootenay",
+      "lat": 54.30322,
+      "lon": -130.33465,
+      "lines": ["52-PRR", "57-PRR"],
+      "platformIds": ["190030"],
+      "departureRouteIds": ["52-PRR", "55-PRR", "57-PRR", "99-PRR"]
+    },
+    {
+      "id": "191004",
+      "schematicId": "hillcrest",
+      "name": "Oceanview at Hillcrest",
+      "lat": 54.21791,
+      "lon": -130.28833,
+      "lines": ["60-PRR"],
+      "platformIds": ["191004"],
+      "departureRouteIds": ["60-PRR"]
+    },
+    {
+      "id": "190035",
+      "schematicId": "pillsbury",
+      "name": "Pillsbury at Kootenay",
+      "lat": 54.2949,
+      "lon": -130.34168,
+      "lines": ["52-PRR"],
+      "platformIds": ["190035"],
+      "departureRouteIds": ["52-PRR", "99-PRR"]
+    },
+    {
+      "id": "190053",
+      "schematicId": "portage",
+      "name": "Pr Rupert Blvd at Portage Rd",
+      "lat": 54.31357,
+      "lon": -130.29954,
+      "lines": ["53-PRR", "60-PRR"],
+      "platformIds": ["190053"],
+      "departureRouteIds": ["53-PRR", "60-PRR", "99-PRR"]
+    },
+    {
+      "id": "190008",
+      "schematicId": "seal-cove",
+      "name": "Seal Cove Sea Plane Terminal",
+      "lat": 54.33,
+      "lon": -130.28121,
+      "lines": ["51-PRR"],
+      "platformIds": ["190008"],
+      "departureRouteIds": ["51-PRR", "99-PRR"]
+    },
+    {
+      "id": "190029",
+      "schematicId": "sloan-mckay",
+      "name": "Sloan at McKay",
+      "lat": 54.30252,
+      "lon": -130.33244,
+      "lines": ["52-PRR"],
+      "platformIds": ["190029"],
+      "departureRouteIds": ["52-PRR", "99-PRR"]
+    },
+    {
+      "id": "190025",
+      "schematicId": "hospital",
+      "name": "Summit at Hospital Entrance",
+      "lat": 54.30521,
+      "lon": -130.33211,
+      "lines": ["52-PRR", "57-PRR"],
+      "platformIds": ["190025"],
+      "departureRouteIds": ["52-PRR", "55-PRR", "57-PRR", "99-PRR"]
+    }
+  ]
+}

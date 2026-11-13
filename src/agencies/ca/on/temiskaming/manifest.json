@@ -1,0 +1,121 @@
+{
+  "id": "temiskaming",
+  "name": "Temiskaming Transit",
+  "serviceArea": "Temiskaming Shores & Cobalt",
+  "serviceAreaTranslations": { "fr": "Temiskaming Shores et Cobalt" },
+  "shortName": "Temiskaming",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 47.49,
+      "maxLat": 47.545,
+      "minLon": -79.701,
+      "maxLon": -79.665
+    },
+    {
+      "minLat": 47.39,
+      "maxLat": 47.41,
+      "minLon": -79.695,
+      "maxLon": -79.656
+    },
+    {
+      "minLat": 47.406,
+      "maxLat": 47.435,
+      "minLon": -79.665,
+      "maxLon": -79.635
+    },
+    {
+      "minLat": 47.43,
+      "maxLat": 47.465,
+      "minLon": -79.647,
+      "maxLon": -79.627
+    },
+    {
+      "minLat": 47.46,
+      "maxLat": 47.495,
+      "minLon": -79.684,
+      "maxLon": -79.635
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "attribution": {
+    "name": "Temiskaming Transit / City of Temiskaming Shores and Town of Cobalt",
+    "url": "https://www.temiskamingshores.ca/living-here/transit/",
+    "license": "No explicit reuse terms were found for the Temiskaming Transit GTFS or AnyRide data. Attribution is provided to the municipalities operating the shared service.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Cobalt Public Library",
+      "lat": 47.397884,
+      "lon": -79.682535
+    },
+    {
+      "name": "Northern College",
+      "lat": 47.451317,
+      "lon": -79.639994
+    },
+    {
+      "name": "Market Street",
+      "lat": 47.505086,
+      "lon": -79.676451
+    },
+    {
+      "name": "Temiskaming Hospital",
+      "lat": 47.495021,
+      "lon": -79.69388
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2"],
+  "alertInterpretation": {
+    "lineIds": ["transit"],
+    "routeLineMap": {
+      "1": "transit",
+      "2": "transit",
+      "Route 1 - Northbound": "1",
+      "Route 2 - Southbound": "2"
+    }
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://temiskamingshores.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "3000",
+        "profile": {
+          "data": "metrolinx_temsho",
+          "display": "temsho"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Temiskaming Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-temiskaming.zip",
+        "cacheFileName": "temiskaming-gtfs.zip"
+      }
+    ],
+    "routeShortNames": {
+      "1": "1",
+      "2": "2"
+    },
+    "ignoreFeedRouteColors": true,
+    "defaultColor": "#F28C00",
+    "defaultTextColor": "#000000"
+  }
+}

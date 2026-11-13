@@ -1,0 +1,101 @@
+{
+  "id": "lethbridge",
+  "name": "Lethbridge Transit",
+  "serviceArea": "Lethbridge",
+  "shortName": "Lethbridge",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "bounds": [
+    {
+      "minLat": 49.6495019030274,
+      "maxLat": 49.7405541816666,
+      "minLon": -112.916215781046,
+      "maxLon": -112.778255112961
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Lethbridge Transit / City of Lethbridge",
+    "url": "https://www.lethbridge.ca/roads-parking-transit/transit/",
+    "license": "Official City transit data and TripSpark MyRide. No explicit reuse licence was found for the live API; attribution is provided on a best-effort basis.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Lethbridge Transit GTFS",
+        "url": "https://gis.lethbridge.ca/OpenData/DataSets/GTFS_Transit_Data.zip",
+        "cacheFileName": "lethbridge-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tripspark",
+        "format": "json",
+        "url": "https://myride.lethbridge.ca",
+        "dateTimezone": "America/Edmonton",
+        "vehicleTimeZone": "America/Regina",
+        "pollIntervalSeconds": 60,
+        "sessionTokenArgument": 3
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "62"],
+  "cityPresets": [
+    {
+      "name": "City Centre",
+      "lat": 49.6931284483152,
+      "lon": -112.835990955591
+    },
+    {
+      "name": "University of Lethbridge",
+      "lat": 49.6768608496702,
+      "lon": -112.862501911074
+    },
+    {
+      "name": "Sherring Station",
+      "lat": 49.728969468413,
+      "lon": -112.793255316809
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "62"],
+    "titleDateTimezone": "America/Edmonton",
+    "routeNames": {
+      "61A": ["61A", "5 Avenue North"],
+      "1": ["1", "cityLINK Gold"],
+      "60B": ["60B", "Stafford Dr."],
+      "53": ["53", "McGill Blvd."],
+      "62": ["62", "13 Street South"],
+      "61B": ["61B", "5 Avenue North"],
+      "60C": ["60C", "Stafford Dr."],
+      "51": ["51", "Red Crow Blvd."],
+      "2": ["2", "cityLINK Blue"],
+      "3": ["3", "cityLINK Green"],
+      "60A": ["60A", "Stafford Dr."],
+      "4": ["4", "cityLINK Orange"],
+      "52": ["52", "Columbia Blvd."]
+    }
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "tripspark-advisories",
+      "url": "https://myride.lethbridge.ca",
+      "pollIntervalSeconds": 180,
+      "sessionTokenArgument": 3
+    }
+  ]
+}

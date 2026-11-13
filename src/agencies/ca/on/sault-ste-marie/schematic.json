@@ -1,0 +1,499 @@
+{
+  "viewBoxWidth": 1500,
+  "viewBoxHeight": 1450,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 Hillside",
+      "color": "#FF8000",
+      "points": [
+        {
+          "x": 600,
+          "y": 1100
+        },
+        {
+          "x": 800,
+          "y": 1100
+        },
+        {
+          "x": 1000,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 500
+        },
+        {
+          "x": 900,
+          "y": 400
+        },
+        {
+          "x": 780,
+          "y": 400
+        },
+        {
+          "x": 680,
+          "y": 500
+        },
+        {
+          "x": 680,
+          "y": 820
+        },
+        {
+          "x": 600,
+          "y": 900
+        },
+        {
+          "x": 600,
+          "y": 1100
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Citywide",
+      "color": "#8000FF",
+      "points": [
+        {
+          "x": 600,
+          "y": 1100
+        },
+        {
+          "x": 340,
+          "y": 840
+        },
+        {
+          "x": 340,
+          "y": 500
+        },
+        {
+          "x": 340,
+          "y": 160
+        },
+        {
+          "x": 420,
+          "y": 80
+        },
+        {
+          "x": 860,
+          "y": 80
+        },
+        {
+          "x": 940,
+          "y": 160
+        },
+        {
+          "x": 940,
+          "y": 220
+        },
+        {
+          "x": 1080,
+          "y": 360
+        },
+        {
+          "x": 1080,
+          "y": 820
+        },
+        {
+          "x": 1240,
+          "y": 980
+        },
+        {
+          "x": 1240,
+          "y": 1100
+        },
+        {
+          "x": 600,
+          "y": 1100
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Westside",
+      "color": "#00B83F",
+      "points": [
+        {
+          "x": 600,
+          "y": 1100
+        },
+        {
+          "x": 440,
+          "y": 1100
+        },
+        {
+          "x": 120,
+          "y": 780
+        },
+        {
+          "x": 120,
+          "y": 620
+        },
+        {
+          "x": 200,
+          "y": 540
+        },
+        {
+          "x": 480,
+          "y": 540
+        },
+        {
+          "x": 600,
+          "y": 420
+        },
+        {
+          "x": 600,
+          "y": 220
+        },
+        {
+          "x": 940,
+          "y": 220
+        },
+        {
+          "x": 940,
+          "y": 240
+        },
+        {
+          "x": 780,
+          "y": 400
+        },
+        {
+          "x": 780,
+          "y": 800
+        },
+        {
+          "x": 600,
+          "y": 980
+        },
+        {
+          "x": 600,
+          "y": 1100
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Eastside",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 600,
+          "y": 1100
+        },
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 700,
+          "y": 820
+        },
+        {
+          "x": 860,
+          "y": 660
+        },
+        {
+          "x": 980,
+          "y": 660
+        },
+        {
+          "x": 1320,
+          "y": 1000
+        },
+        {
+          "x": 1320,
+          "y": 1160
+        },
+        {
+          "x": 660,
+          "y": 1160
+        },
+        {
+          "x": 600,
+          "y": 1100
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "8 Central Community Bus",
+      "color": "#7B247B",
+      "points": [
+        {
+          "x": 600,
+          "y": 1100
+        },
+        {
+          "x": 540,
+          "y": 1160
+        },
+        {
+          "x": 700,
+          "y": 1320
+        },
+        {
+          "x": 1140,
+          "y": 1320
+        },
+        {
+          "x": 1140,
+          "y": 680
+        },
+        {
+          "x": 860,
+          "y": 400
+        },
+        {
+          "x": 780,
+          "y": 400
+        },
+        {
+          "x": 540,
+          "y": 640
+        },
+        {
+          "x": 540,
+          "y": 760
+        },
+        {
+          "x": 860,
+          "y": 760
+        },
+        {
+          "x": 860,
+          "y": 860
+        },
+        {
+          "x": 700,
+          "y": 1020
+        },
+        {
+          "x": 620,
+          "y": 1020
+        },
+        {
+          "x": 620,
+          "y": 1080
+        },
+        {
+          "x": 600,
+          "y": 1100
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "x": 600,
+      "y": 1100,
+      "lines": ["1", "2", "3", "4", "8"],
+      "label": {
+        "x": 560,
+        "y": 1120,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "market-mall",
+      "name": "Market Mall",
+      "x": 340,
+      "y": 500,
+      "lines": ["2"],
+      "label": {
+        "x": 315,
+        "y": 485,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "sault-area-hospital",
+      "name": "Sault Area Hospital",
+      "x": 940,
+      "y": 220,
+      "lines": ["2", "3"],
+      "label": {
+        "x": 970,
+        "y": 200,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 780,
+      "y": 400,
+      "lines": ["1", "3", "8"],
+      "label": {
+        "x": 780,
+        "y": 345,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sault-college",
+      "name": "Sault College",
+      "x": 860,
+      "y": 660,
+      "lines": ["4"],
+      "label": {
+        "x": 860,
+        "y": 630,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cambrian-mall",
+      "name": "Romes",
+      "x": 860,
+      "y": 860,
+      "lines": ["8"],
+      "label": {
+        "x": 900,
+        "y": 865,
+        "anchor": "start"
+      }
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1480,
+      "minY": 20,
+      "maxY": 1410
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -84.4,
+    "refLonEast": -84.29,
+    "refXWest": 120,
+    "refXEast": 1320,
+    "refLatNorth": 46.56,
+    "refLatSouth": 46.51,
+    "refYNorth": 80,
+    "refYSouth": 1160
+  },
+  "sequences": {
+    "1": ["terminal", "walmart"],
+    "2": ["terminal", "market-mall", "sault-area-hospital"],
+    "3": ["terminal", "sault-area-hospital", "walmart"],
+    "4": ["terminal", "sault-college"],
+    "8": ["terminal", "walmart", "cambrian-mall"]
+  },
+  "stationAliases": {
+    "code:001": "terminal",
+    "code:097": "terminal",
+    "MARKET MALL": "market-mall",
+    "SAULT AREA HOSPITAL MAIN ENTRANCE": "sault-area-hospital",
+    "WALMART": "walmart",
+    "SAULT COLLEGE": "sault-college",
+    "ROMES CAMBRIAN MALL": "cambrian-mall"
+  },
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 1032,
+      "y": 620,
+      "color": "#FF8000",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 600,
+      "y": 112,
+      "color": "#8000FF",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 152,
+      "y": 720,
+      "color": "#00B83F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1352,
+      "y": 1080,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "x": 1172,
+      "y": 1240,
+      "color": "#7B247B",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "659",
+      "schematicId": "cambrian-mall",
+      "name": "Cambrian Mall / Romes",
+      "lat": 46.52599,
+      "lon": -84.317,
+      "lines": ["8"],
+      "platformIds": ["659"],
+      "departureRouteIds": ["8"]
+    },
+    {
+      "id": "market-mall",
+      "schematicId": "market-mall",
+      "name": "Market Mall",
+      "lat": 46.53735,
+      "lon": -84.36387,
+      "lines": ["2"],
+      "platformIds": ["075", "132"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "112",
+      "schematicId": "sault-area-hospital",
+      "name": "Sault Area Hospital",
+      "lat": 46.54887,
+      "lon": -84.31201,
+      "lines": ["2", "3"],
+      "platformIds": ["112"],
+      "departureRouteIds": ["2", "3"]
+    },
+    {
+      "id": "274",
+      "schematicId": "sault-college",
+      "name": "Sault College",
+      "lat": 46.53385,
+      "lon": -84.3153,
+      "lines": ["4"],
+      "platformIds": ["274"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "terminal",
+      "schematicId": "terminal",
+      "name": "Terminal",
+      "lat": 46.51529,
+      "lon": -84.33769,
+      "lines": ["1", "2", "3", "4", "8"],
+      "platformIds": ["001", "097"],
+      "departureRouteIds": ["1", "10", "2", "3", "4", "8"]
+    },
+    {
+      "id": "walmart",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 46.54041,
+      "lon": -84.31616,
+      "lines": ["1", "3", "8"],
+      "platformIds": ["099", "667"],
+      "departureRouteIds": ["1", "3", "8"]
+    }
+  ]
+}

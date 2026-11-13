@@ -1,0 +1,120 @@
+{
+  "id": "whitecourt",
+  "name": "Whitecourt Transit",
+  "serviceArea": "Whitecourt",
+  "shortName": "Whitecourt",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "bounds": [
+    {
+      "minLat": 54.118,
+      "maxLat": 54.152,
+      "minLon": -115.717,
+      "maxLon": -115.638
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Town of Whitecourt / Whitecourt Transit / TransLoc",
+    "url": "https://www.whitecourt.ca/live/town-services/whitecourt-transit",
+    "license": "No explicit reuse terms were found for the operator-published GTFS and TransLoc feeds.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Whitecourt Transit GTFS",
+        "url": "https://whitecourttransit.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx",
+        "cacheFileName": "whitecourt-gtfs.zip"
+      }
+    ],
+    "excludedRouteIds": ["TL-7"],
+    "defaultColor": "#D4203B",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "transloc",
+        "format": "json",
+        "url": "https://whitecourttransit.transloc.com/Services/JSONPRelay.svc",
+        "routeIds": ["10", "11"],
+        "idPrefix": "TL-",
+        "stopIdField": "RouteStopId",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "routeShortNames": {
+    "TL-10": "Hourly",
+    "TL-11": "Express"
+  },
+  "popularSurfaceRoutes": ["TL-10", "TL-11"],
+  "cityPresets": [
+    {
+      "name": "Allan & Jean Millar Centre",
+      "lat": 54.129171,
+      "lon": -115.670574
+    },
+    {
+      "name": "JDA Place",
+      "lat": 54.127728,
+      "lon": -115.668012
+    },
+    {
+      "name": "Whitecourt Walmart Shopping Centre",
+      "lat": 54.141517,
+      "lon": -115.66745
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["TL-10", "TL-11"],
+    "routeNames": {
+      "TL-10": ["Hourly"],
+      "TL-11": ["Express"]
+    },
+    "stopIdPattern": "Stop\\s*#(\\d+)\\s*at\\b",
+    "titleDateTimezone": "America/Edmonton",
+    "rules": [
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": ["no transit"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "titleIncludes": ["BUS STOP CLOSURE"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "transloc-messages",
+      "url": "https://whitecourttransit.transloc.com/Services/JSONPRelay.svc/GetTwitterJSON",
+      "language": "en",
+      "pollIntervalSeconds": 120
+    }
+  ]
+}

@@ -1,0 +1,3879 @@
+{
+  "viewBoxWidth": 2400,
+  "viewBoxHeight": 1680,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Line 1 Yonge-University",
+      "color": "#ffcb05",
+      "points": [
+        {
+          "x": 1066.28,
+          "y": 526.89
+        },
+        {
+          "x": 1066.28,
+          "y": 568.89
+        },
+        {
+          "x": 1108.28,
+          "y": 610.89
+        },
+        {
+          "x": 1150.28,
+          "y": 652.89
+        },
+        {
+          "x": 1192.24,
+          "y": 694.89
+        },
+        {
+          "x": 1234.28,
+          "y": 736.89
+        },
+        {
+          "x": 1276.28,
+          "y": 778.89
+        },
+        {
+          "x": 1276.28,
+          "y": 802.89
+        },
+        {
+          "x": 1276.28,
+          "y": 834.89
+        },
+        {
+          "x": 1276.28,
+          "y": 866.89
+        },
+        {
+          "x": 1276.28,
+          "y": 898.89
+        },
+        {
+          "x": 1276.28,
+          "y": 952.89
+        },
+        {
+          "x": 1378.28,
+          "y": 1018.89
+        },
+        {
+          "x": 1378.28,
+          "y": 1054.89
+        },
+        {
+          "x": 1378.28,
+          "y": 1123.89
+        },
+        {
+          "x": 1423.28,
+          "y": 1123.89
+        },
+        {
+          "x": 1423.28,
+          "y": 1182.89
+        },
+        {
+          "x": 1423.28,
+          "y": 1241.89
+        },
+        {
+          "x": 1423.28,
+          "y": 1300.89
+        },
+        {
+          "x": 1423.28,
+          "y": 1359.89
+        },
+        {
+          "x": 1423.28,
+          "y": 1418.89
+        },
+        {
+          "x": 1423.28,
+          "y": 1477.89
+        },
+        {
+          "x": 1468.28,
+          "y": 1477.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1477.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1418.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1359.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1300.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1241.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1182.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1123.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1084.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1051.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1018.89
+        },
+        {
+          "x": 1513.28,
+          "y": 985.89
+        },
+        {
+          "x": 1513.28,
+          "y": 952.89
+        },
+        {
+          "x": 1513.28,
+          "y": 886.89
+        },
+        {
+          "x": 1513.28,
+          "y": 820.89
+        },
+        {
+          "x": 1513.28,
+          "y": 778.86
+        },
+        {
+          "x": 1513.28,
+          "y": 720
+        },
+        {
+          "x": 1513.28,
+          "y": 694.89
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Line 2 Bloor-Danforth",
+      "color": "#00a651",
+      "points": [
+        {
+          "x": 882.2,
+          "y": 1123.89
+        },
+        {
+          "x": 916.2,
+          "y": 1123.89
+        },
+        {
+          "x": 950.2,
+          "y": 1123.89
+        },
+        {
+          "x": 984.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1018.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1052.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1086.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1120.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1154.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1188.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1222.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1256.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1290.23,
+          "y": 1123.89
+        },
+        {
+          "x": 1324.2,
+          "y": 1123.89
+        },
+        {
+          "x": 1378.28,
+          "y": 1123.89
+        },
+        {
+          "x": 1423.28,
+          "y": 1123.89
+        },
+        {
+          "x": 1468.28,
+          "y": 1123.89
+        },
+        {
+          "x": 1513.28,
+          "y": 1123.89
+        },
+        {
+          "x": 1567.28,
+          "y": 1123.89
+        },
+        {
+          "x": 1601.28,
+          "y": 1123.89
+        },
+        {
+          "x": 1635.25,
+          "y": 1123.89
+        },
+        {
+          "x": 1669.21,
+          "y": 1123.89
+        },
+        {
+          "x": 1703.05,
+          "y": 1123.89
+        },
+        {
+          "x": 1737.14,
+          "y": 1123.89
+        },
+        {
+          "x": 1771.14,
+          "y": 1123.89
+        },
+        {
+          "x": 1805.07,
+          "y": 1123.89
+        },
+        {
+          "x": 1839.03,
+          "y": 1123.89
+        },
+        {
+          "x": 1872.99,
+          "y": 1123.89
+        },
+        {
+          "x": 1930,
+          "y": 1066.89
+        },
+        {
+          "x": 1987.04,
+          "y": 1009.89
+        },
+        {
+          "x": 2044.01,
+          "y": 952.89
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Line 4 Sheppard",
+      "color": "#b30075",
+      "points": [
+        {
+          "x": 1513.28,
+          "y": 778.86
+        },
+        {
+          "x": 1573.01,
+          "y": 778.86
+        },
+        {
+          "x": 1633.22,
+          "y": 778.86
+        },
+        {
+          "x": 1693.43,
+          "y": 778.86
+        },
+        {
+          "x": 1753.64,
+          "y": 778.86
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Line 5 Eglinton",
+      "color": "#f58220",
+      "points": [
+        {
+          "x": 1063.53,
+          "y": 952.89
+        },
+        {
+          "x": 1103.2,
+          "y": 952.89
+        },
+        {
+          "x": 1142.87,
+          "y": 952.89
+        },
+        {
+          "x": 1182.53,
+          "y": 952.89
+        },
+        {
+          "x": 1222.2,
+          "y": 952.89
+        },
+        {
+          "x": 1276.28,
+          "y": 952.89
+        },
+        {
+          "x": 1339.28,
+          "y": 952.89
+        },
+        {
+          "x": 1394.8,
+          "y": 952.89
+        },
+        {
+          "x": 1450.33,
+          "y": 952.89
+        },
+        {
+          "x": 1513.28,
+          "y": 952.89
+        },
+        {
+          "x": 1567.28,
+          "y": 952.89
+        },
+        {
+          "x": 1601.34,
+          "y": 952.89
+        },
+        {
+          "x": 1635.39,
+          "y": 952.89
+        },
+        {
+          "x": 1669.44,
+          "y": 952.89
+        },
+        {
+          "x": 1703.05,
+          "y": 952.89
+        },
+        {
+          "x": 1737.54,
+          "y": 952.89
+        },
+        {
+          "x": 1771.6,
+          "y": 952.89
+        },
+        {
+          "x": 1805.65,
+          "y": 952.89
+        },
+        {
+          "x": 1839.7,
+          "y": 952.89
+        },
+        {
+          "x": 1873.75,
+          "y": 952.89
+        },
+        {
+          "x": 1907.8,
+          "y": 952.89
+        },
+        {
+          "x": 1941.86,
+          "y": 952.89
+        },
+        {
+          "x": 1975.91,
+          "y": 952.89
+        },
+        {
+          "x": 2009.96,
+          "y": 952.89
+        },
+        {
+          "x": 2044.01,
+          "y": 952.89
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Line 6 Finch West",
+      "color": "#939598",
+      "points": [
+        {
+          "x": 795.26,
+          "y": 724.89
+        },
+        {
+          "x": 818.2,
+          "y": 694.89
+        },
+        {
+          "x": 841.14,
+          "y": 694.89
+        },
+        {
+          "x": 864.09,
+          "y": 694.89
+        },
+        {
+          "x": 887.03,
+          "y": 694.89
+        },
+        {
+          "x": 909.97,
+          "y": 694.89
+        },
+        {
+          "x": 932.91,
+          "y": 694.89
+        },
+        {
+          "x": 955.85,
+          "y": 694.89
+        },
+        {
+          "x": 978.79,
+          "y": 694.89
+        },
+        {
+          "x": 1001.73,
+          "y": 694.89
+        },
+        {
+          "x": 1024.67,
+          "y": 694.89
+        },
+        {
+          "x": 1047.61,
+          "y": 694.89
+        },
+        {
+          "x": 1070.55,
+          "y": 694.89
+        },
+        {
+          "x": 1093.5,
+          "y": 694.89
+        },
+        {
+          "x": 1116.44,
+          "y": 694.89
+        },
+        {
+          "x": 1139.38,
+          "y": 694.89
+        },
+        {
+          "x": 1162.32,
+          "y": 694.89
+        },
+        {
+          "x": 1192.24,
+          "y": 694.89
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "aga-khan-park-and-museum",
+      "name": "Aga Khan Park & Museum",
+      "x": 1737.54,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1737.54,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "albion",
+      "name": "Albion",
+      "x": 864.09,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 864.03,
+        "y": 683.07,
+        "rot": -45
+      }
+    },
+    {
+      "id": "avenue",
+      "name": "Avenue",
+      "x": 1450.33,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1450.33,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bathurst",
+      "name": "Bathurst",
+      "x": 1324.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1324.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bay",
+      "name": "Bay",
+      "x": 1468.28,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1468.28,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bayview",
+      "name": "Bayview",
+      "x": 1573.01,
+      "y": 778.86,
+      "lines": ["4"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1572,
+        "y": 767,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bessarion",
+      "name": "Bessarion",
+      "x": 1633.22,
+      "y": 778.86,
+      "lines": ["4"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1632,
+        "y": 767,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "birchmount",
+      "name": "Birchmount",
+      "x": 1975.91,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1975.91,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bloor-yonge",
+      "name": "Bloor-Yonge",
+      "x": 1513.28,
+      "y": 1123.89,
+      "lines": ["1", "2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1498,
+        "y": 1136,
+        "rot": -45,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "broadview",
+      "name": "Broadview",
+      "x": 1635.25,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1635.25,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "caledonia",
+      "name": "Caledonia",
+      "x": 1142.87,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1142.87,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "castle-frank",
+      "name": "Castle Frank",
+      "x": 1601.28,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1601.28,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cedarvale",
+      "name": "Cedarvale",
+      "x": 1276.28,
+      "y": 952.89,
+      "lines": ["1", "5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1264,
+        "y": 968,
+        "rot": -45,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "chaplin",
+      "name": "Chaplin",
+      "x": 1394.8,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1394.8,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "chester",
+      "name": "Chester",
+      "x": 1669.21,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1669.21,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "christie",
+      "name": "Christie",
+      "x": 1290.23,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1290.23,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "college",
+      "name": "College",
+      "x": 1513.28,
+      "y": 1241.89,
+      "lines": ["1"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 1241.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "coxwell",
+      "name": "Coxwell",
+      "x": 1805.07,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1805.07,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "davisville",
+      "name": "Davisville",
+      "x": 1513.28,
+      "y": 985.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 985.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "don-mills",
+      "name": "Don Mills",
+      "x": 1753.64,
+      "y": 778.86,
+      "lines": ["4"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1765,
+        "y": 778.86,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "don-valley",
+      "name": "Don Valley",
+      "x": 1703.05,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1703.05,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "donlands",
+      "name": "Donlands",
+      "x": 1737.14,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1737.14,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "downsview-park",
+      "name": "Downsview Park",
+      "x": 1234.28,
+      "y": 736.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1243.11,
+        "y": 730.89,
+        "rot": 0
+      }
+    },
+    {
+      "id": "driftwood",
+      "name": "Driftwood",
+      "x": 1116.44,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1078.89,
+        "y": 741.07,
+        "rot": -45
+      }
+    },
+    {
+      "id": "dufferin",
+      "name": "Dufferin",
+      "x": 1222.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1222.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "duncanwoods",
+      "name": "Duncanwoods",
+      "x": 978.79,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 978.79,
+        "y": 680.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "dundas-west",
+      "name": "Dundas West",
+      "x": 1154.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1154.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "dupont",
+      "name": "Dupont",
+      "x": 1378.28,
+      "y": 1054.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1364,
+        "y": 1054.89,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "eglinton",
+      "name": "Eglinton",
+      "x": 1513.28,
+      "y": 952.89,
+      "lines": ["1", "5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1524,
+        "y": 940,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "emery",
+      "name": "Emery",
+      "x": 1024.67,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1024.6,
+        "y": 683.07,
+        "rot": -45
+      }
+    },
+    {
+      "id": "fairbank",
+      "name": "Fairbank",
+      "x": 1182.53,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1182.53,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "finch",
+      "name": "Finch",
+      "x": 1513.28,
+      "y": 694.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1513.28,
+        "y": 672,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "finch-west",
+      "name": "Finch West",
+      "x": 1192.24,
+      "y": 694.89,
+      "lines": ["1", "6"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1212,
+        "y": 694.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "forest-hill",
+      "name": "Forest Hill",
+      "x": 1339.28,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1339.28,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "glencairn",
+      "name": "Glencairn",
+      "x": 1276.28,
+      "y": 898.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1288,
+        "y": 898.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "golden-mile",
+      "name": "Golden Mile",
+      "x": 1941.86,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1941.86,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "greenwood",
+      "name": "Greenwood",
+      "x": 1771.14,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1771.14,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "hakimi-lebovic",
+      "name": "Hakimi Lebovic",
+      "x": 1907.8,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1907.8,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "high-park",
+      "name": "High Park",
+      "x": 1086.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1086.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "highway-407",
+      "name": "Highway 407",
+      "x": 1066.28,
+      "y": 568.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1081.1,
+        "y": 566.56,
+        "rot": 0
+      }
+    },
+    {
+      "id": "humber-college",
+      "name": "Humber College",
+      "x": 795.26,
+      "y": 724.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 809.08,
+        "y": 729.92,
+        "rot": 0
+      }
+    },
+    {
+      "id": "ionview",
+      "name": "Ionview",
+      "x": 2009.96,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 2009.96,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "islington",
+      "name": "Islington",
+      "x": 916.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 916.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "jane",
+      "name": "Jane",
+      "x": 1018.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1018.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "jane-and-finch",
+      "name": "Jane and Finch",
+      "x": 1093.5,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1034.61,
+        "y": 760.97,
+        "rot": -45
+      }
+    },
+    {
+      "id": "keele",
+      "name": "Keele",
+      "x": 1120.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1120.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "keelesdale",
+      "name": "Keelesdale",
+      "x": 1103.2,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1103.2,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kennedy",
+      "name": "Kennedy",
+      "x": 2044.01,
+      "y": 952.89,
+      "lines": ["2", "5"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 2066,
+        "y": 952.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "king",
+      "name": "King",
+      "x": 1513.28,
+      "y": 1418.89,
+      "lines": ["1"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 1418.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kipling",
+      "name": "Kipling",
+      "x": 882.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 860,
+        "y": 1123.89,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "laird",
+      "name": "Laird",
+      "x": 1635.39,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1635.39,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lansdowne",
+      "name": "Lansdowne",
+      "x": 1188.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1188.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lawrence",
+      "name": "Lawrence",
+      "x": 1513.28,
+      "y": 886.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 886.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lawrence-west",
+      "name": "Lawrence West",
+      "x": 1276.28,
+      "y": 866.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1288,
+        "y": 866.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "leaside",
+      "name": "Leaside",
+      "x": 1601.34,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1601.34,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "leslie",
+      "name": "Leslie",
+      "x": 1693.43,
+      "y": 778.86,
+      "lines": ["4"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1692,
+        "y": 767,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "main-street",
+      "name": "Main Street",
+      "x": 1872.99,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1885,
+        "y": 1123.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "martin-grove",
+      "name": "Martin Grove",
+      "x": 841.14,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 841.04,
+        "y": 683.07,
+        "rot": -45
+      }
+    },
+    {
+      "id": "milvan-rumike",
+      "name": "Milvan Rumike",
+      "x": 1001.73,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1001.63,
+        "y": 683.06,
+        "rot": -45
+      }
+    },
+    {
+      "id": "mount-dennis",
+      "name": "Mount Dennis",
+      "x": 1063.53,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1052,
+        "y": 952.89,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "mount-olive",
+      "name": "Mount Olive",
+      "x": 909.97,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 909.86,
+        "y": 683.24,
+        "rot": -45
+      }
+    },
+    {
+      "id": "mount-pleasant",
+      "name": "Mount Pleasant",
+      "x": 1567.28,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1567.28,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "museum",
+      "name": "Museum",
+      "x": 1423.28,
+      "y": 1182.89,
+      "lines": ["1"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 1410,
+        "y": 1182.89,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "norfinch-oakdale",
+      "name": "Norfinch Oakdale",
+      "x": 1070.55,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1003.44,
+        "y": 769.08,
+        "rot": -45
+      }
+    },
+    {
+      "id": "north-york-centre",
+      "name": "North York Centre",
+      "x": 1513.28,
+      "y": 720,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 720,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "o-connor",
+      "name": "O'Connor",
+      "x": 1839.7,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1839.7,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "oakwood",
+      "name": "Oakwood",
+      "x": 1222.2,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1222.2,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "old-mill",
+      "name": "Old Mill",
+      "x": 984.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 984.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "osgoode",
+      "name": "Osgoode",
+      "x": 1423.28,
+      "y": 1359.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1410,
+        "y": 1359.89,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ossington",
+      "name": "Ossington",
+      "x": 1256.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1256.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pape",
+      "name": "Pape",
+      "x": 1703.05,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1703.05,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pearldale",
+      "name": "Pearldale",
+      "x": 955.85,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 955.78,
+        "y": 683.04,
+        "rot": -45
+      }
+    },
+    {
+      "id": "pharmacy",
+      "name": "Pharmacy",
+      "x": 1873.75,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1873.75,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pioneer-village",
+      "name": "Pioneer Village",
+      "x": 1108.28,
+      "y": 610.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1117.13,
+        "y": 604.9,
+        "rot": 0
+      }
+    },
+    {
+      "id": "queen",
+      "name": "Queen",
+      "x": 1513.28,
+      "y": 1359.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 1359.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "queen-s-park",
+      "name": "Queen's Park",
+      "x": 1423.28,
+      "y": 1241.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1410,
+        "y": 1241.89,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rosedale",
+      "name": "Rosedale",
+      "x": 1513.28,
+      "y": 1084.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 1084.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "rowntree-mills",
+      "name": "Rowntree Mills",
+      "x": 932.91,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 932.81,
+        "y": 683.22,
+        "rot": -45
+      }
+    },
+    {
+      "id": "royal-york",
+      "name": "Royal York",
+      "x": 950.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 950.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "runnymede",
+      "name": "Runnymede",
+      "x": 1052.2,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1052.2,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel",
+      "x": 1162.32,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1131.21,
+        "y": 734.77,
+        "rot": -45
+      }
+    },
+    {
+      "id": "sheppard-west",
+      "name": "Sheppard West",
+      "x": 1276.28,
+      "y": 778.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1288,
+        "y": 778.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sheppard-yonge",
+      "name": "Sheppard-Yonge",
+      "x": 1513.28,
+      "y": 778.86,
+      "lines": ["1", "4"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1498,
+        "y": 778.86,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "sherbourne",
+      "name": "Sherbourne",
+      "x": 1567.28,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1567.28,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "signet-arrow",
+      "name": "Signet Arrow",
+      "x": 1047.61,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1047.53,
+        "y": 683.05,
+        "rot": -45
+      }
+    },
+    {
+      "id": "sloane",
+      "name": "Sloane",
+      "x": 1805.65,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1805.65,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "spadina",
+      "name": "Spadina",
+      "x": 1378.28,
+      "y": 1123.89,
+      "lines": ["1", "2"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 1388,
+        "y": 1110,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "st-andrew",
+      "name": "St. Andrew",
+      "x": 1423.28,
+      "y": 1418.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1410,
+        "y": 1418.89,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "st-clair",
+      "name": "St. Clair",
+      "x": 1513.28,
+      "y": 1018.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 1018.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "st-clair-west",
+      "name": "St. Clair West",
+      "x": 1378.28,
+      "y": 1018.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1364,
+        "y": 1018.89,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "st-george",
+      "name": "St. George",
+      "x": 1423.28,
+      "y": 1123.89,
+      "lines": ["1", "2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1432,
+        "y": 1110,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "st-patrick",
+      "name": "St. Patrick",
+      "x": 1423.28,
+      "y": 1300.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1410,
+        "y": 1300.89,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "stevenson",
+      "name": "Stevenson",
+      "x": 887.03,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 886.95,
+        "y": 683.07,
+        "rot": -45
+      }
+    },
+    {
+      "id": "summerhill",
+      "name": "Summerhill",
+      "x": 1513.28,
+      "y": 1051.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 1051.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sunnybrook-park",
+      "name": "Sunnybrook Park",
+      "x": 1669.44,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1669.44,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "tmu",
+      "name": "TMU",
+      "x": 1513.28,
+      "y": 1300.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 1300.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "tobermory",
+      "name": "Tobermory",
+      "x": 1139.38,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1098.01,
+        "y": 744.91,
+        "rot": -45
+      }
+    },
+    {
+      "id": "union",
+      "name": "Union",
+      "x": 1468.28,
+      "y": 1477.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1468.28,
+        "y": 1498,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "vaughan-metropolitan-centre",
+      "name": "Vaughan Metropolitan Centre",
+      "x": 1066.28,
+      "y": 526.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1066.28,
+        "y": 506,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "victoria-park",
+      "name": "Victoria Park",
+      "x": 1930,
+      "y": 1066.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1942,
+        "y": 1066.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "warden",
+      "name": "Warden",
+      "x": 1987.04,
+      "y": 1009.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1999,
+        "y": 1009.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "wellesley",
+      "name": "Wellesley",
+      "x": 1513.28,
+      "y": 1182.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 1182.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "westmore",
+      "name": "Westmore",
+      "x": 818.2,
+      "y": 694.89,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 818.24,
+        "y": 682.9,
+        "rot": -45
+      }
+    },
+    {
+      "id": "wilson",
+      "name": "Wilson",
+      "x": 1276.28,
+      "y": 802.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1288,
+        "y": 802.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "woodbine",
+      "name": "Woodbine",
+      "x": 1839.03,
+      "y": 1123.89,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1839.03,
+        "y": 1107.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "wynford",
+      "name": "Wynford",
+      "x": 1771.6,
+      "y": 952.89,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1771.6,
+        "y": 940.89,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "york-mills",
+      "name": "York Mills",
+      "x": 1513.28,
+      "y": 820.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1526,
+        "y": 820.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "york-university",
+      "name": "York University",
+      "x": 1150.28,
+      "y": 652.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1158.91,
+        "y": 646.9,
+        "rot": 0
+      }
+    },
+    {
+      "id": "yorkdale",
+      "name": "Yorkdale",
+      "x": 1276.28,
+      "y": 834.89,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 1288,
+        "y": 834.89,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 1085,
+      "y": 473.66,
+      "color": "#ffcb05",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1",
+      "num": "1",
+      "x": 1513,
+      "y": 650,
+      "color": "#ffcb05",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 845,
+      "y": 1090,
+      "color": "#00a651",
+      "textColor": "#ffffff"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 2110,
+      "y": 925,
+      "color": "#00a651",
+      "textColor": "#ffffff"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1450,
+      "y": 750,
+      "color": "#b30075",
+      "textColor": "#ffffff"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1780,
+      "y": 750,
+      "color": "#b30075",
+      "textColor": "#ffffff"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 1020,
+      "y": 925,
+      "color": "#f58220",
+      "textColor": "#ffffff"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 2075,
+      "y": 925,
+      "color": "#f58220",
+      "textColor": "#ffffff"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 779.02,
+      "y": 693.45,
+      "color": "#939598",
+      "textColor": "#ffffff"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 1240,
+      "y": 670,
+      "color": "#939598",
+      "textColor": "#ffffff"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 780,
+      "maxX": 2060,
+      "minY": 400,
+      "maxY": 1630
+    },
+    "minZoom": 0.5,
+    "maxZoom": 16
+  },
+  "geoProjection": {
+    "refLonWest": -79.5356,
+    "refLonEast": -79.2637,
+    "refXWest": 809.28,
+    "refXEast": 2026.28,
+    "refLatNorth": 43.7806,
+    "refLatSouth": 43.6453,
+    "refYNorth": 556.89,
+    "refYSouth": 1477.89
+  },
+  "sequences": {
+    "1": [
+      "vaughan-metropolitan-centre",
+      "highway-407",
+      "pioneer-village",
+      "york-university",
+      "finch-west",
+      "downsview-park",
+      "sheppard-west",
+      "wilson",
+      "yorkdale",
+      "lawrence-west",
+      "glencairn",
+      "cedarvale",
+      "st-clair-west",
+      "dupont",
+      "spadina",
+      "st-george",
+      "museum",
+      "queen-s-park",
+      "st-patrick",
+      "osgoode",
+      "st-andrew",
+      "union",
+      "king",
+      "queen",
+      "tmu",
+      "college",
+      "wellesley",
+      "bloor-yonge",
+      "rosedale",
+      "summerhill",
+      "st-clair",
+      "davisville",
+      "eglinton",
+      "lawrence",
+      "york-mills",
+      "sheppard-yonge",
+      "north-york-centre",
+      "finch"
+    ],
+    "2": [
+      "kipling",
+      "islington",
+      "royal-york",
+      "old-mill",
+      "jane",
+      "runnymede",
+      "high-park",
+      "keele",
+      "dundas-west",
+      "lansdowne",
+      "dufferin",
+      "ossington",
+      "christie",
+      "bathurst",
+      "spadina",
+      "st-george",
+      "bay",
+      "bloor-yonge",
+      "sherbourne",
+      "castle-frank",
+      "broadview",
+      "chester",
+      "pape",
+      "donlands",
+      "greenwood",
+      "coxwell",
+      "woodbine",
+      "main-street",
+      "victoria-park",
+      "warden",
+      "kennedy"
+    ],
+    "4": ["sheppard-yonge", "bayview", "bessarion", "leslie", "don-mills"],
+    "5": [
+      "mount-dennis",
+      "keelesdale",
+      "caledonia",
+      "fairbank",
+      "oakwood",
+      "cedarvale",
+      "forest-hill",
+      "chaplin",
+      "avenue",
+      "eglinton",
+      "mount-pleasant",
+      "leaside",
+      "laird",
+      "sunnybrook-park",
+      "don-valley",
+      "aga-khan-park-and-museum",
+      "wynford",
+      "sloane",
+      "o-connor",
+      "pharmacy",
+      "hakimi-lebovic",
+      "golden-mile",
+      "birchmount",
+      "ionview",
+      "kennedy"
+    ],
+    "6": [
+      "humber-college",
+      "westmore",
+      "martin-grove",
+      "albion",
+      "stevenson",
+      "mount-olive",
+      "rowntree-mills",
+      "pearldale",
+      "duncanwoods",
+      "milvan-rumike",
+      "emery",
+      "signet-arrow",
+      "norfinch-oakdale",
+      "jane-and-finch",
+      "driftwood",
+      "tobermory",
+      "sentinel",
+      "finch-west"
+    ]
+  },
+  "stationAliases": {
+    "dundas": "tmu",
+    "ryerson": "tmu",
+    "eglinton west": "cedarvale",
+    "downsview": "sheppard-west",
+    "bloor": "bloor-yonge",
+    "yonge": "bloor-yonge",
+    "main": "main-street"
+  },
+  "cornerInsertions": [
+    {
+      "lineId": "1",
+      "stationId": "union",
+      "before": {
+        "x": 1423.28,
+        "y": 1477.89
+      },
+      "after": {
+        "x": 1513.28,
+        "y": 1477.89
+      }
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "16781",
+      "schematicId": "aga-khan-park-and-museum",
+      "name": "Aga Khan Park & Museum",
+      "lat": 43.722553,
+      "lon": -79.332397,
+      "lines": ["5"],
+      "platformIds": ["16218", "16219"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "16814",
+      "schematicId": "albion",
+      "name": "Albion",
+      "lat": 43.741295,
+      "lon": -79.58934,
+      "lines": ["6"],
+      "platformIds": ["16295", "16296"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "16776",
+      "schematicId": "avenue",
+      "name": "Avenue",
+      "lat": 43.704742,
+      "lon": -79.408844,
+      "lines": ["5"],
+      "platformIds": ["16071", "16072"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "43286",
+      "schematicId": "bathurst",
+      "name": "Bathurst",
+      "lat": 43.666447,
+      "lon": -79.411186,
+      "lines": ["2"],
+      "platformIds": ["13759", "13760", "14617", "14618", "14619", "14856", "14857", "14858"],
+      "departureRouteIds": ["2", "307", "511", "7"]
+    },
+    {
+      "id": "14579",
+      "schematicId": "bay",
+      "name": "Bay",
+      "lat": 43.670238,
+      "lon": -79.389793,
+      "lines": ["2"],
+      "platformIds": ["13757", "13758"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "14577",
+      "schematicId": "bayview",
+      "name": "Bayview",
+      "lat": 43.766872,
+      "lon": -79.386703,
+      "lines": ["4"],
+      "platformIds": ["13843", "13844"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "14578",
+      "schematicId": "bessarion",
+      "name": "Bessarion",
+      "lat": 43.769199,
+      "lon": -79.376312,
+      "lines": ["4"],
+      "platformIds": ["13845", "13846"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "16788",
+      "schematicId": "birchmount",
+      "name": "Birchmount",
+      "lat": 43.730167,
+      "lon": -79.277191,
+      "lines": ["5"],
+      "platformIds": ["16228", "16229"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "14572",
+      "schematicId": "bloor-yonge",
+      "name": "Bloor-Yonge",
+      "lat": 43.670994,
+      "lon": -79.385956,
+      "lines": ["1", "2"],
+      "platformIds": ["13755", "13756", "13863", "13864"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "43288",
+      "schematicId": "broadview",
+      "name": "Broadview",
+      "lat": 43.676949,
+      "lon": -79.358391,
+      "lines": ["2"],
+      "platformIds": [
+        "13749",
+        "13750",
+        "14634",
+        "14635",
+        "14636",
+        "14637",
+        "14638",
+        "14639",
+        "14640"
+      ],
+      "departureRouteIds": ["2", "25", "305", "504", "505", "62", "8", "87", "925"]
+    },
+    {
+      "id": "16764",
+      "schematicId": "caledonia",
+      "name": "Caledonia",
+      "lat": 43.692307,
+      "lon": -79.465767,
+      "lines": ["5"],
+      "platformIds": ["16083", "16084", "16599", "16600"],
+      "departureRouteIds": ["18", "47", "5"]
+    },
+    {
+      "id": "43287",
+      "schematicId": "castle-frank",
+      "name": "Castle Frank",
+      "lat": 43.673748,
+      "lon": -79.368988,
+      "lines": ["2"],
+      "platformIds": ["13751", "13752", "14641", "14642", "16350"],
+      "departureRouteIds": ["2", "300", "65", "94"]
+    },
+    {
+      "id": "43298",
+      "schematicId": "cedarvale",
+      "name": "Cedarvale",
+      "lat": 43.699146,
+      "lon": -79.436089,
+      "lines": ["1", "5"],
+      "platformIds": [
+        "13831",
+        "13832",
+        "14676",
+        "14677",
+        "14678",
+        "14679",
+        "14680",
+        "14681",
+        "14682",
+        "15288",
+        "16069",
+        "16070"
+      ],
+      "departureRouteIds": ["1", "109", "164", "334", "34", "363", "5", "63", "90"]
+    },
+    {
+      "id": "16775",
+      "schematicId": "chaplin",
+      "name": "Chaplin",
+      "lat": 43.702927,
+      "lon": -79.417473,
+      "lines": ["5"],
+      "platformIds": ["16210", "16211"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "14573",
+      "schematicId": "chester",
+      "name": "Chester",
+      "lat": 43.678238,
+      "lon": -79.352493,
+      "lines": ["2"],
+      "platformIds": ["13747", "13748"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "14595",
+      "schematicId": "christie",
+      "name": "Christie",
+      "lat": 43.664063,
+      "lon": -79.418411,
+      "lines": ["2"],
+      "platformIds": ["13761", "13762"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "14589",
+      "schematicId": "college",
+      "name": "College",
+      "lat": 43.660789,
+      "lon": -79.383102,
+      "lines": ["1"],
+      "platformIds": ["13807", "13808"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "43291",
+      "schematicId": "coxwell",
+      "name": "Coxwell",
+      "lat": 43.684147,
+      "lon": -79.322784,
+      "lines": ["2"],
+      "platformIds": ["13739", "13740", "14643", "14644", "14859", "15283"],
+      "departureRouteIds": ["2", "22", "404", "70"]
+    },
+    {
+      "id": "43273",
+      "schematicId": "davisville",
+      "name": "Davisville",
+      "lat": 43.697746,
+      "lon": -79.396988,
+      "lines": ["1"],
+      "platformIds": ["13797", "13798", "14645", "14646", "14647", "14648", "15284"],
+      "departureRouteIds": ["1", "11", "14", "28"]
+    },
+    {
+      "id": "13682",
+      "schematicId": "don-mills",
+      "name": "Don Mills",
+      "lat": 43.775547,
+      "lon": -79.346588,
+      "lines": ["4"],
+      "platformIds": [
+        "14109",
+        "14623",
+        "14624",
+        "14625",
+        "14626",
+        "14627",
+        "14628",
+        "14629",
+        "14630",
+        "14631",
+        "14632",
+        "14633",
+        "14949",
+        "15327",
+        "15328",
+        "15329",
+        "15330"
+      ],
+      "departureRouteIds": [
+        "10",
+        "167",
+        "169",
+        "185",
+        "24",
+        "25",
+        "325",
+        "4",
+        "85",
+        "904",
+        "925",
+        "985"
+      ]
+    },
+    {
+      "id": "16763",
+      "schematicId": "don-valley",
+      "name": "Don Valley",
+      "lat": 43.721645,
+      "lon": -79.337929,
+      "lines": ["5"],
+      "platformIds": [
+        "16077",
+        "16078",
+        "16601",
+        "16602",
+        "16603",
+        "16604",
+        "16605",
+        "16608",
+        "16733",
+        "16734",
+        "16735",
+        "16736"
+      ],
+      "departureRouteIds": ["100", "162", "191", "354", "5", "54", "72", "954"]
+    },
+    {
+      "id": "43290",
+      "schematicId": "donlands",
+      "name": "Donlands",
+      "lat": 43.681049,
+      "lon": -79.337784,
+      "lines": ["2"],
+      "platformIds": ["13743", "13744", "14649", "14650", "14917"],
+      "departureRouteIds": ["2", "51", "83"]
+    },
+    {
+      "id": "15204",
+      "schematicId": "downsview-park",
+      "name": "Downsview Park",
+      "lat": 43.753349,
+      "lon": -79.479698,
+      "lines": ["1"],
+      "platformIds": ["15664", "15665"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "16825",
+      "schematicId": "driftwood",
+      "name": "Driftwood",
+      "lat": 43.758083,
+      "lon": -79.51339,
+      "lines": ["6"],
+      "platformIds": ["16317", "16318"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "14594",
+      "schematicId": "dufferin",
+      "name": "Dufferin",
+      "lat": 43.660198,
+      "lon": -79.435478,
+      "lines": ["2"],
+      "platformIds": ["13765", "13766"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "16819",
+      "schematicId": "duncanwoods",
+      "name": "Duncanwoods",
+      "lat": 43.748909,
+      "lon": -79.557648,
+      "lines": ["6"],
+      "platformIds": ["16305", "16306"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "3529",
+      "schematicId": "dundas-west",
+      "name": "Dundas West",
+      "lat": 43.656849,
+      "lon": -79.453392,
+      "lines": ["2"],
+      "platformIds": ["13769", "13770", "14662", "14663", "14664", "14665", "14666", "15287"],
+      "departureRouteIds": ["168", "2", "305", "340", "40", "402", "504", "505"]
+    },
+    {
+      "id": "14581",
+      "schematicId": "dupont",
+      "name": "Dupont",
+      "lat": 43.674301,
+      "lon": -79.40712,
+      "lines": ["1"],
+      "platformIds": ["13827", "13828"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "43274",
+      "schematicId": "eglinton",
+      "name": "Eglinton",
+      "lat": 43.70525,
+      "lon": -79.398392,
+      "lines": ["1", "5"],
+      "platformIds": [
+        "13795",
+        "13796",
+        "14667",
+        "14668",
+        "14669",
+        "14670",
+        "14671",
+        "14672",
+        "14673",
+        "14674",
+        "14675",
+        "14954",
+        "16073",
+        "16074"
+      ],
+      "departureRouteIds": ["1", "103", "13", "320", "334", "34", "354", "5", "61", "74", "97"]
+    },
+    {
+      "id": "16821",
+      "schematicId": "emery",
+      "name": "Emery",
+      "lat": 43.752182,
+      "lon": -79.542244,
+      "lines": ["6"],
+      "platformIds": ["16309", "16310"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "16772",
+      "schematicId": "fairbank",
+      "name": "Fairbank",
+      "lat": 43.69558,
+      "lon": -79.449921,
+      "lines": ["5"],
+      "platformIds": ["16204", "16205"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "43277",
+      "schematicId": "finch",
+      "name": "Finch",
+      "lat": 43.780846,
+      "lon": -79.415291,
+      "lines": ["1"],
+      "platformIds": [
+        "14111",
+        "14683",
+        "14684",
+        "14685",
+        "14686",
+        "14687",
+        "14688",
+        "14689",
+        "14690",
+        "14691",
+        "14692",
+        "14693",
+        "14944",
+        "14955",
+        "14956"
+      ],
+      "departureRouteIds": [
+        "1",
+        "125",
+        "320",
+        "336",
+        "36",
+        "39",
+        "42",
+        "53",
+        "60",
+        "939",
+        "953",
+        "960",
+        "97"
+      ]
+    },
+    {
+      "id": "15205",
+      "schematicId": "finch-west",
+      "name": "Finch West",
+      "lat": 43.76535,
+      "lon": -79.490807,
+      "lines": ["1", "6"],
+      "platformIds": [
+        "15564",
+        "15565",
+        "15566",
+        "15567",
+        "15568",
+        "15569",
+        "15658",
+        "15659",
+        "16323",
+        "16324"
+      ],
+      "departureRouteIds": ["1", "101", "107", "336", "36", "6", "939"]
+    },
+    {
+      "id": "16774",
+      "schematicId": "forest-hill",
+      "name": "Forest Hill",
+      "lat": 43.700775,
+      "lon": -79.425774,
+      "lines": ["5"],
+      "platformIds": ["16208", "16209"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "14593",
+      "schematicId": "glencairn",
+      "name": "Glencairn",
+      "lat": 43.708584,
+      "lon": -79.440796,
+      "lines": ["1"],
+      "platformIds": ["13833", "13834"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "16787",
+      "schematicId": "golden-mile",
+      "name": "Golden Mile",
+      "lat": 43.727882,
+      "lon": -79.287666,
+      "lines": ["5"],
+      "platformIds": ["16085", "16086"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "3667",
+      "schematicId": "greenwood",
+      "name": "Greenwood",
+      "lat": 43.682648,
+      "lon": -79.330284,
+      "lines": ["2"],
+      "platformIds": ["13741", "13742", "14694", "15289"],
+      "departureRouteIds": ["2", "31"]
+    },
+    {
+      "id": "16786",
+      "schematicId": "hakimi-lebovic",
+      "name": "Hakimi Lebovic",
+      "lat": 43.726974,
+      "lon": -79.291664,
+      "lines": ["5"],
+      "platformIds": ["16226", "16227"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "43283",
+      "schematicId": "high-park",
+      "name": "High Park",
+      "lat": 43.653999,
+      "lon": -79.466751,
+      "lines": ["2"],
+      "platformIds": ["13773", "13774", "14695", "14696", "15856"],
+      "departureRouteIds": ["189", "2", "203", "30"]
+    },
+    {
+      "id": "15208",
+      "schematicId": "highway-407",
+      "name": "Highway 407",
+      "lat": 43.78344,
+      "lon": -79.523232,
+      "lines": ["1"],
+      "platformIds": ["15660", "15661"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "16811",
+      "schematicId": "humber-college",
+      "name": "Humber College",
+      "lat": 43.72963,
+      "lon": -79.60141,
+      "lines": ["6"],
+      "platformIds": ["16289", "16290"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "16789",
+      "schematicId": "ionview",
+      "name": "Ionview",
+      "lat": 43.731373,
+      "lon": -79.271988,
+      "lines": ["5"],
+      "platformIds": ["16230", "16231"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "43278",
+      "schematicId": "islington",
+      "name": "Islington",
+      "lat": 43.645149,
+      "lon": -79.524193,
+      "lines": ["2"],
+      "platformIds": [
+        "13783",
+        "13784",
+        "14697",
+        "14698",
+        "14699",
+        "15738",
+        "15739",
+        "15740",
+        "15741",
+        "15781",
+        "16045",
+        "16046",
+        "16047"
+      ],
+      "departureRouteIds": ["110", "2", "37", "50", "937"]
+    },
+    {
+      "id": "43281",
+      "schematicId": "jane",
+      "name": "Jane",
+      "lat": 43.650146,
+      "lon": -79.483894,
+      "lines": ["2"],
+      "platformIds": ["13777", "13778", "14700", "14701", "14702", "14703", "15009"],
+      "departureRouteIds": ["149", "2", "26", "27", "335", "55", "935"]
+    },
+    {
+      "id": "16824",
+      "schematicId": "jane-and-finch",
+      "name": "Jane and Finch",
+      "lat": 43.757278,
+      "lon": -79.5177,
+      "lines": ["6"],
+      "platformIds": ["16315", "16316"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "43284",
+      "schematicId": "keele",
+      "name": "Keele",
+      "lat": 43.655247,
+      "lon": -79.459892,
+      "lines": ["2"],
+      "platformIds": ["13771", "13772", "14704", "14705", "14706", "15192", "15290"],
+      "departureRouteIds": ["2", "300", "341", "41", "80", "89", "941", "989"]
+    },
+    {
+      "id": "16762",
+      "schematicId": "keelesdale",
+      "name": "Keelesdale",
+      "lat": 43.690781,
+      "lon": -79.474747,
+      "lines": ["5"],
+      "platformIds": ["16202", "16203", "16579", "16580", "16581", "16582", "16583"],
+      "departureRouteIds": ["158", "164", "41", "5", "941"]
+    },
+    {
+      "id": "43295",
+      "schematicId": "kennedy",
+      "name": "Kennedy",
+      "lat": 43.732246,
+      "lon": -79.263885,
+      "lines": ["2", "5"],
+      "platformIds": [
+        "13865",
+        "14707",
+        "14708",
+        "14709",
+        "14710",
+        "14711",
+        "14712",
+        "14713",
+        "14714",
+        "14715",
+        "14946",
+        "14947",
+        "16082",
+        "16381",
+        "16390",
+        "16391",
+        "16392",
+        "16393",
+        "16394",
+        "16395",
+        "16396",
+        "16453"
+      ],
+      "departureRouteIds": [
+        "113",
+        "116",
+        "12",
+        "129",
+        "131",
+        "133",
+        "154",
+        "2",
+        "20",
+        "201",
+        "21",
+        "300",
+        "334",
+        "34",
+        "343",
+        "38",
+        "386",
+        "43",
+        "5",
+        "57",
+        "86",
+        "903",
+        "904",
+        "905",
+        "938",
+        "939",
+        "986"
+      ]
+    },
+    {
+      "id": "14586",
+      "schematicId": "king",
+      "name": "King",
+      "lat": 43.649059,
+      "lon": -79.378113,
+      "lines": ["1"],
+      "platformIds": ["13813", "13814"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "7906",
+      "schematicId": "kipling",
+      "name": "Kipling",
+      "lat": 43.63715,
+      "lon": -79.535995,
+      "lines": ["2"],
+      "platformIds": [
+        "13785",
+        "14716",
+        "14717",
+        "14718",
+        "14719",
+        "14720",
+        "14721",
+        "14722",
+        "14723",
+        "14724",
+        "14948",
+        "15052"
+      ],
+      "departureRouteIds": [
+        "111",
+        "112",
+        "123",
+        "145",
+        "149",
+        "2",
+        "300",
+        "40",
+        "44",
+        "45",
+        "46",
+        "49",
+        "900",
+        "927",
+        "944",
+        "945"
+      ]
+    },
+    {
+      "id": "16779",
+      "schematicId": "laird",
+      "name": "Laird",
+      "lat": 43.713413,
+      "lon": -79.364891,
+      "lines": ["5"],
+      "platformIds": ["16075", "16076"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "14575",
+      "schematicId": "lansdowne",
+      "name": "Lansdowne",
+      "lat": 43.659245,
+      "lon": -79.442467,
+      "lines": ["2"],
+      "platformIds": ["13767", "13768"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "43275",
+      "schematicId": "lawrence",
+      "name": "Lawrence",
+      "lat": 43.725948,
+      "lon": -79.402687,
+      "lines": ["1"],
+      "platformIds": ["13793", "13794", "14725", "14726", "14727", "15184", "15215"],
+      "departureRouteIds": ["1", "124", "162", "52", "952"]
+    },
+    {
+      "id": "43266",
+      "schematicId": "lawrence-west",
+      "name": "Lawrence West",
+      "lat": 43.716347,
+      "lon": -79.444191,
+      "lines": ["1"],
+      "platformIds": ["13835", "13836", "14731", "14732", "14733", "14734", "14735"],
+      "departureRouteIds": ["1", "109", "400", "52", "59", "952"]
+    },
+    {
+      "id": "16778",
+      "schematicId": "leaside",
+      "name": "Leaside",
+      "lat": 43.710941,
+      "lon": -79.376732,
+      "lines": ["5"],
+      "platformIds": ["16214", "16215"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "13689",
+      "schematicId": "leslie",
+      "name": "Leslie",
+      "lat": 43.770847,
+      "lon": -79.36779,
+      "lines": ["4"],
+      "platformIds": ["13847", "13848", "14620", "14621", "14622", "15293", "15294"],
+      "departureRouteIds": ["151", "4", "51"]
+    },
+    {
+      "id": "43292",
+      "schematicId": "main-street",
+      "name": "Main Street",
+      "lat": 43.68895,
+      "lon": -79.301582,
+      "lines": ["2"],
+      "platformIds": [
+        "13735",
+        "13736",
+        "14736",
+        "14737",
+        "14738",
+        "14739",
+        "14740",
+        "14741",
+        "15295"
+      ],
+      "departureRouteIds": ["113", "135", "2", "20", "23", "306", "506", "62", "64", "87"]
+    },
+    {
+      "id": "16813",
+      "schematicId": "martin-grove",
+      "name": "Martin Grove",
+      "lat": 43.736759,
+      "lon": -79.592323,
+      "lines": ["6"],
+      "platformIds": ["16293", "16294"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "16820",
+      "schematicId": "milvan-rumike",
+      "name": "Milvan Rumike",
+      "lat": 43.750027,
+      "lon": -79.552345,
+      "lines": ["6"],
+      "platformIds": ["16307", "16308"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "16761",
+      "schematicId": "mount-dennis",
+      "name": "Mount Dennis",
+      "lat": 43.688465,
+      "lon": -79.48716,
+      "lines": ["5"],
+      "platformIds": [
+        "16067",
+        "16068",
+        "16584",
+        "16585",
+        "16586",
+        "16587",
+        "16588",
+        "16589",
+        "16590",
+        "16591",
+        "16592",
+        "16593",
+        "16594",
+        "16595",
+        "16596",
+        "16597",
+        "16598"
+      ],
+      "departureRouteIds": [
+        "161",
+        "164",
+        "168",
+        "171",
+        "27",
+        "32",
+        "334",
+        "34",
+        "35",
+        "5",
+        "71",
+        "73",
+        "89",
+        "989"
+      ]
+    },
+    {
+      "id": "16816",
+      "schematicId": "mount-olive",
+      "name": "Mount Olive",
+      "lat": 43.74342,
+      "lon": -79.582024,
+      "lines": ["6"],
+      "platformIds": ["16299", "16300"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "16777",
+      "schematicId": "mount-pleasant",
+      "name": "Mount Pleasant",
+      "lat": 43.708473,
+      "lon": -79.390381,
+      "lines": ["5"],
+      "platformIds": ["16212", "16213"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "14582",
+      "schematicId": "museum",
+      "name": "Museum",
+      "lat": 43.666622,
+      "lon": -79.393471,
+      "lines": ["1"],
+      "platformIds": ["13825", "13826"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "16823",
+      "schematicId": "norfinch-oakdale",
+      "name": "Norfinch Oakdale",
+      "lat": 43.755978,
+      "lon": -79.524216,
+      "lines": ["6"],
+      "platformIds": ["16313", "16314"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "14591",
+      "schematicId": "north-york-centre",
+      "name": "North York Centre",
+      "lat": 43.767868,
+      "lon": -79.412758,
+      "lines": ["1"],
+      "platformIds": ["13789", "13790"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "16784",
+      "schematicId": "o-connor",
+      "name": "O'Connor",
+      "lat": 43.724808,
+      "lon": -79.302086,
+      "lines": ["5"],
+      "platformIds": ["16222", "16223"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "16773",
+      "schematicId": "oakwood",
+      "name": "Oakwood",
+      "lat": 43.697453,
+      "lon": -79.442909,
+      "lines": ["5"],
+      "platformIds": ["16206", "16207"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "43280",
+      "schematicId": "old-mill",
+      "name": "Old Mill",
+      "lat": 43.650146,
+      "lon": -79.495094,
+      "lines": ["2"],
+      "platformIds": ["13779", "13780", "14742", "15296", "15297"],
+      "departureRouteIds": ["2", "66"]
+    },
+    {
+      "id": "14584",
+      "schematicId": "osgoode",
+      "name": "Osgoode",
+      "lat": 43.651123,
+      "lon": -79.386955,
+      "lines": ["1"],
+      "platformIds": ["13819", "13820"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "43285",
+      "schematicId": "ossington",
+      "name": "Ossington",
+      "lat": 43.662449,
+      "lon": -79.426292,
+      "lines": ["2"],
+      "platformIds": ["13763", "13764", "14743", "14744", "14745", "14746", "15298", "15299"],
+      "departureRouteIds": ["161", "2", "63", "94"]
+    },
+    {
+      "id": "43289",
+      "schematicId": "pape",
+      "name": "Pape",
+      "lat": 43.680149,
+      "lon": -79.344788,
+      "lines": ["2"],
+      "platformIds": ["13745", "13746", "14747", "14748", "15150", "16483"],
+      "departureRouteIds": ["2", "72"]
+    },
+    {
+      "id": "16818",
+      "schematicId": "pearldale",
+      "name": "Pearldale",
+      "lat": 43.747868,
+      "lon": -79.562416,
+      "lines": ["6"],
+      "platformIds": ["16303", "16304"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "16785",
+      "schematicId": "pharmacy",
+      "name": "Pharmacy",
+      "lat": 43.725819,
+      "lon": -79.296951,
+      "lines": ["5"],
+      "platformIds": ["16224", "16225"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "15207",
+      "schematicId": "pioneer-village",
+      "name": "Pioneer Village",
+      "lat": 43.777027,
+      "lon": -79.509743,
+      "lines": ["1"],
+      "platformIds": [
+        "15570",
+        "15571",
+        "15572",
+        "15573",
+        "15574",
+        "15575",
+        "15576",
+        "15577",
+        "15578",
+        "15579",
+        "15580",
+        "15581",
+        "15656",
+        "15657"
+      ],
+      "departureRouteIds": [
+        "1",
+        "106",
+        "108",
+        "166",
+        "335",
+        "35",
+        "353",
+        "41",
+        "60",
+        "84",
+        "935",
+        "960"
+      ]
+    },
+    {
+      "id": "14587",
+      "schematicId": "queen",
+      "name": "Queen",
+      "lat": 43.652737,
+      "lon": -79.379616,
+      "lines": ["1"],
+      "platformIds": ["13811", "13812"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "14583",
+      "schematicId": "queen-s-park",
+      "name": "Queen's Park",
+      "lat": 43.659836,
+      "lon": -79.390694,
+      "lines": ["1"],
+      "platformIds": ["13823", "13824"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "43271",
+      "schematicId": "rosedale",
+      "name": "Rosedale",
+      "lat": 43.676746,
+      "lon": -79.388786,
+      "lines": ["1"],
+      "platformIds": ["13803", "13804", "14750", "15300"],
+      "departureRouteIds": ["1", "82"]
+    },
+    {
+      "id": "16817",
+      "schematicId": "rowntree-mills",
+      "name": "Rowntree Mills",
+      "lat": 43.746349,
+      "lon": -79.568748,
+      "lines": ["6"],
+      "platformIds": ["16301", "16302"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "43279",
+      "schematicId": "royal-york",
+      "name": "Royal York",
+      "lat": 43.64835,
+      "lon": -79.510994,
+      "lines": ["2"],
+      "platformIds": ["13781", "13782", "14751", "14752", "14753"],
+      "departureRouteIds": ["15", "2", "315", "373", "48", "73", "76"]
+    },
+    {
+      "id": "43282",
+      "schematicId": "runnymede",
+      "name": "Runnymede",
+      "lat": 43.652046,
+      "lon": -79.47599,
+      "lines": ["2"],
+      "platformIds": ["13775", "13776", "14754", "14755", "14756", "15092"],
+      "departureRouteIds": ["2", "71", "77", "79"]
+    },
+    {
+      "id": "16827",
+      "schematicId": "sentinel",
+      "name": "Sentinel",
+      "lat": 43.761028,
+      "lon": -79.500031,
+      "lines": ["6"],
+      "platformIds": ["16321", "16322"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "11860",
+      "schematicId": "sheppard-west",
+      "name": "Sheppard West",
+      "lat": 43.750046,
+      "lon": -79.462593,
+      "lines": ["1"],
+      "platformIds": [
+        "14110",
+        "14651",
+        "14652",
+        "14653",
+        "14654",
+        "14655",
+        "14656",
+        "14657",
+        "14658",
+        "14659",
+        "14660",
+        "14661",
+        "14945",
+        "15285",
+        "15286",
+        "15858",
+        "15859",
+        "15860",
+        "15861"
+      ],
+      "departureRouteIds": ["1", "104", "105", "106", "107", "108", "329", "84", "984"]
+    },
+    {
+      "id": "7129",
+      "schematicId": "sheppard-yonge",
+      "name": "Sheppard-Yonge",
+      "lat": 43.761646,
+      "lon": -79.41169,
+      "lines": ["1", "4"],
+      "platformIds": [
+        "13859",
+        "13860",
+        "13861",
+        "13862",
+        "14770",
+        "14771",
+        "14772",
+        "14773",
+        "14774",
+        "14775",
+        "15302",
+        "15303"
+      ],
+      "departureRouteIds": ["1", "185", "384", "385", "4", "84", "98", "984"]
+    },
+    {
+      "id": "14574",
+      "schematicId": "sherbourne",
+      "name": "Sherbourne",
+      "lat": 43.672104,
+      "lon": -79.37616,
+      "lines": ["2"],
+      "platformIds": ["13753", "13754"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "16822",
+      "schematicId": "signet-arrow",
+      "name": "Signet Arrow",
+      "lat": 43.753338,
+      "lon": -79.536224,
+      "lines": ["6"],
+      "platformIds": ["16311", "16312"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "16783",
+      "schematicId": "sloane",
+      "name": "Sloane",
+      "lat": 43.725925,
+      "lon": -79.312653,
+      "lines": ["5"],
+      "platformIds": ["16079", "16080"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "43268",
+      "schematicId": "spadina",
+      "name": "Spadina",
+      "lat": 43.667149,
+      "lon": -79.403786,
+      "lines": ["1", "2"],
+      "platformIds": ["13851", "13852", "14776", "14777", "14816", "15079", "15080"],
+      "departureRouteIds": ["127", "2", "306", "310", "506", "510"]
+    },
+    {
+      "id": "14585",
+      "schematicId": "st-andrew",
+      "name": "St. Andrew",
+      "lat": 43.647606,
+      "lon": -79.385002,
+      "lines": ["1"],
+      "platformIds": ["13817", "13818"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "43272",
+      "schematicId": "st-clair",
+      "name": "St. Clair",
+      "lat": 43.687748,
+      "lon": -79.392586,
+      "lines": ["1"],
+      "platformIds": [
+        "13799",
+        "13800",
+        "14778",
+        "14818",
+        "14819",
+        "15054",
+        "15304",
+        "15305",
+        "15306"
+      ],
+      "departureRouteIds": ["1", "312", "512", "74", "88", "97"]
+    },
+    {
+      "id": "43267",
+      "schematicId": "st-clair-west",
+      "name": "St. Clair West",
+      "lat": 43.684048,
+      "lon": -79.415894,
+      "lines": ["1"],
+      "platformIds": [
+        "13829",
+        "13830",
+        "14779",
+        "14780",
+        "14782",
+        "14783",
+        "14942",
+        "15307",
+        "15308",
+        "15309"
+      ],
+      "departureRouteIds": ["1", "126", "33", "512", "90"]
+    },
+    {
+      "id": "43269",
+      "schematicId": "st-george",
+      "name": "St. George",
+      "lat": 43.668846,
+      "lon": -79.398087,
+      "lines": ["1", "2"],
+      "platformIds": ["13855", "13856", "13857", "13858", "14784", "15310"],
+      "departureRouteIds": ["1", "2", "26"]
+    },
+    {
+      "id": "14571",
+      "schematicId": "st-patrick",
+      "name": "St. Patrick",
+      "lat": 43.654617,
+      "lon": -79.388222,
+      "lines": ["1"],
+      "platformIds": ["13821", "13822"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "16815",
+      "schematicId": "stevenson",
+      "name": "Stevenson",
+      "lat": 43.743263,
+      "lon": -79.587036,
+      "lines": ["6"],
+      "platformIds": ["16297", "16298"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "14590",
+      "schematicId": "summerhill",
+      "name": "Summerhill",
+      "lat": 43.682632,
+      "lon": -79.391174,
+      "lines": ["1"],
+      "platformIds": ["13801", "13802"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "16780",
+      "schematicId": "sunnybrook-park",
+      "name": "Sunnybrook Park",
+      "lat": 43.717335,
+      "lon": -79.349075,
+      "lines": ["5"],
+      "platformIds": ["16216", "16217"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "14588",
+      "schematicId": "tmu",
+      "name": "TMU",
+      "lat": 43.656517,
+      "lon": -79.381226,
+      "lines": ["1"],
+      "platformIds": ["13809", "13810"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "16826",
+      "schematicId": "tobermory",
+      "name": "Tobermory",
+      "lat": 43.759342,
+      "lon": -79.508034,
+      "lines": ["6"],
+      "platformIds": ["16319", "16320"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "15772",
+      "schematicId": "union",
+      "name": "Union",
+      "lat": 43.645523,
+      "lon": -79.379723,
+      "lines": ["1"],
+      "platformIds": ["10935", "13815", "13816"],
+      "departureRouteIds": ["1", "310", "509", "510"],
+      "directionTermini": {
+        "northbound": "Vaughan Metropolitan Centre",
+        "southbound": "Finch"
+      }
+    },
+    {
+      "id": "15209",
+      "schematicId": "vaughan-metropolitan-centre",
+      "name": "Vaughan Metropolitan Centre",
+      "lat": 43.794239,
+      "lon": -79.527489,
+      "lines": ["1"],
+      "platformIds": ["15662", "15663"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "43293",
+      "schematicId": "victoria-park",
+      "name": "Victoria Park",
+      "lat": 43.694447,
+      "lon": -79.288986,
+      "lines": ["2"],
+      "platformIds": ["13733", "13734", "14785", "14786", "14787", "14788", "14975", "14976"],
+      "departureRouteIds": ["117", "12", "2", "24", "300", "404", "67", "924"]
+    },
+    {
+      "id": "43294",
+      "schematicId": "warden",
+      "name": "Warden",
+      "lat": 43.711647,
+      "lon": -79.279587,
+      "lines": ["2"],
+      "platformIds": [
+        "13731",
+        "13732",
+        "14789",
+        "14790",
+        "14791",
+        "14792",
+        "14793",
+        "14794",
+        "14795",
+        "14796",
+        "15311"
+      ],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "43270",
+      "schematicId": "wellesley",
+      "name": "Wellesley",
+      "lat": 43.665348,
+      "lon": -79.383385,
+      "lines": ["1"],
+      "platformIds": ["13805", "13806", "14797", "14798"],
+      "departureRouteIds": ["1", "94"]
+    },
+    {
+      "id": "16812",
+      "schematicId": "westmore",
+      "name": "Westmore",
+      "lat": 43.734779,
+      "lon": -79.600624,
+      "lines": ["6"],
+      "platformIds": ["16291", "16292"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "43265",
+      "schematicId": "wilson",
+      "name": "Wilson",
+      "lat": 43.734547,
+      "lon": -79.45079,
+      "lines": ["1"],
+      "platformIds": [
+        "13839",
+        "13840",
+        "14799",
+        "14800",
+        "14801",
+        "14802",
+        "14803",
+        "14817",
+        "14820",
+        "14855",
+        "15055",
+        "15317",
+        "15318",
+        "15463",
+        "15464",
+        "15465",
+        "15466",
+        "15467"
+      ],
+      "departureRouteIds": [
+        "1",
+        "101",
+        "104",
+        "118",
+        "119",
+        "120",
+        "160",
+        "165",
+        "184",
+        "29",
+        "329",
+        "929",
+        "96",
+        "996"
+      ]
+    },
+    {
+      "id": "3194",
+      "schematicId": "woodbine",
+      "name": "Woodbine",
+      "lat": 43.686546,
+      "lon": -79.312683,
+      "lines": ["2"],
+      "platformIds": ["13737", "13738", "14804", "14805", "15319"],
+      "departureRouteIds": ["2", "91", "92", "93"]
+    },
+    {
+      "id": "16782",
+      "schematicId": "wynford",
+      "name": "Wynford",
+      "lat": 43.724072,
+      "lon": -79.326645,
+      "lines": ["5"],
+      "platformIds": ["16220", "16221"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "43276",
+      "schematicId": "york-mills",
+      "name": "York Mills",
+      "lat": 43.744846,
+      "lon": -79.406487,
+      "lines": ["1"],
+      "platformIds": [
+        "13791",
+        "13792",
+        "14806",
+        "14807",
+        "14808",
+        "14809",
+        "14810",
+        "14811",
+        "14812",
+        "14813",
+        "14814"
+      ],
+      "departureRouteIds": ["1", "115", "122", "165", "320", "396", "78", "95", "96", "995", "996"]
+    },
+    {
+      "id": "15206",
+      "schematicId": "york-university",
+      "name": "York University",
+      "lat": 43.774097,
+      "lon": -79.499886,
+      "lines": ["1"],
+      "platformIds": ["15666", "15667"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "14580",
+      "schematicId": "yorkdale",
+      "name": "Yorkdale",
+      "lat": 43.724594,
+      "lon": -79.447693,
+      "lines": ["1"],
+      "platformIds": ["13837", "13838"],
+      "departureRouteIds": ["1"]
+    }
+  ]
+}

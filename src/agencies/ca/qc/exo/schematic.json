@@ -1,0 +1,1729 @@
+{
+  "viewBoxWidth": 1566.667,
+  "viewBoxHeight": 1066.667,
+  "lines": [
+    {
+      "id": "VH",
+      "name": "11 - Vaudreuil/Hudson",
+      "color": "#F16179",
+      "points": [
+        {
+          "x": 83.333,
+          "y": 633.333
+        },
+        {
+          "x": 133.333,
+          "y": 633.333
+        },
+        {
+          "x": 183.333,
+          "y": 633.333
+        },
+        {
+          "x": 233.333,
+          "y": 633.333
+        },
+        {
+          "x": 283.333,
+          "y": 633.333
+        },
+        {
+          "x": 333.333,
+          "y": 633.333
+        },
+        {
+          "x": 383.333,
+          "y": 633.333
+        },
+        {
+          "x": 433.333,
+          "y": 633.333
+        },
+        {
+          "x": 483.333,
+          "y": 633.333
+        },
+        {
+          "x": 533.333,
+          "y": 633.333
+        },
+        {
+          "x": 583.333,
+          "y": 633.333
+        },
+        {
+          "x": 633.333,
+          "y": 633.333
+        },
+        {
+          "x": 683.333,
+          "y": 633.333
+        },
+        {
+          "x": 733.333,
+          "y": 633.333
+        },
+        {
+          "x": 783.333,
+          "y": 633.333
+        },
+        {
+          "x": 833.333,
+          "y": 633.333
+        },
+        {
+          "x": 836.667,
+          "y": 630.0
+        },
+        {
+          "x": 880.0,
+          "y": 630.0
+        },
+        {
+          "x": 883.333,
+          "y": 633.333
+        },
+        {
+          "x": 886.667,
+          "y": 630.0
+        },
+        {
+          "x": 930.0,
+          "y": 630.0
+        },
+        {
+          "x": 933.333,
+          "y": 633.333
+        }
+      ]
+    },
+    {
+      "id": "SJ",
+      "name": "12 - Saint-Jérôme",
+      "color": "#FDD26E",
+      "points": [
+        {
+          "x": 933.333,
+          "y": 83.333
+        },
+        {
+          "x": 933.333,
+          "y": 126.667
+        },
+        {
+          "x": 933.333,
+          "y": 170.0
+        },
+        {
+          "x": 933.333,
+          "y": 213.333
+        },
+        {
+          "x": 933.333,
+          "y": 256.667
+        },
+        {
+          "x": 933.333,
+          "y": 300.0
+        },
+        {
+          "x": 933.333,
+          "y": 343.333
+        },
+        {
+          "x": 933.333,
+          "y": 386.667
+        },
+        {
+          "x": 933.333,
+          "y": 430.0
+        },
+        {
+          "x": 933.333,
+          "y": 473.333
+        },
+        {
+          "x": 933.333,
+          "y": 516.667
+        },
+        {
+          "x": 833.333,
+          "y": 616.667
+        },
+        {
+          "x": 833.333,
+          "y": 633.333
+        },
+        {
+          "x": 833.333,
+          "y": 633.333
+        },
+        {
+          "x": 883.333,
+          "y": 633.333
+        },
+        {
+          "x": 883.333,
+          "y": 633.333
+        },
+        {
+          "x": 883.333,
+          "y": 633.333
+        },
+        {
+          "x": 933.333,
+          "y": 633.333
+        },
+        {
+          "x": 933.333,
+          "y": 633.333
+        }
+      ]
+    },
+    {
+      "id": "CA",
+      "name": "14 - Candiac",
+      "color": "#5AB6B2",
+      "points": [
+        {
+          "x": 733.333,
+          "y": 933.333
+        },
+        {
+          "x": 766.667,
+          "y": 900.0
+        },
+        {
+          "x": 800.0,
+          "y": 866.667
+        },
+        {
+          "x": 833.333,
+          "y": 833.333
+        },
+        {
+          "x": 866.667,
+          "y": 800.0
+        },
+        {
+          "x": 900.0,
+          "y": 766.667
+        },
+        {
+          "x": 833.333,
+          "y": 700.0
+        },
+        {
+          "x": 833.333,
+          "y": 633.333
+        },
+        {
+          "x": 836.667,
+          "y": 636.667
+        },
+        {
+          "x": 880.0,
+          "y": 636.667
+        },
+        {
+          "x": 883.333,
+          "y": 633.333
+        },
+        {
+          "x": 886.667,
+          "y": 636.667
+        },
+        {
+          "x": 930.0,
+          "y": 636.667
+        },
+        {
+          "x": 933.333,
+          "y": 633.333
+        }
+      ]
+    },
+    {
+      "id": "SH",
+      "name": "13 - Mont-Saint-Hilaire",
+      "color": "#999AC6",
+      "points": [
+        {
+          "x": 1100.0,
+          "y": 633.333
+        },
+        {
+          "x": 1136.667,
+          "y": 670.0
+        },
+        {
+          "x": 1173.333,
+          "y": 706.667
+        },
+        {
+          "x": 1210.0,
+          "y": 743.333
+        },
+        {
+          "x": 1246.667,
+          "y": 780.0
+        },
+        {
+          "x": 1283.333,
+          "y": 816.667
+        },
+        {
+          "x": 1320.0,
+          "y": 853.333
+        }
+      ]
+    },
+    {
+      "id": "MA",
+      "name": "15 - Mascouche",
+      "color": "#CA5898",
+      "points": [
+        {
+          "x": 1383.333,
+          "y": 150.0
+        },
+        {
+          "x": 1343.333,
+          "y": 190.0
+        },
+        {
+          "x": 1303.333,
+          "y": 230.0
+        },
+        {
+          "x": 1263.333,
+          "y": 270.0
+        },
+        {
+          "x": 1223.333,
+          "y": 310.0
+        },
+        {
+          "x": 1183.333,
+          "y": 350.0
+        },
+        {
+          "x": 1143.333,
+          "y": 390.0
+        },
+        {
+          "x": 1103.333,
+          "y": 430.0
+        },
+        {
+          "x": 1063.333,
+          "y": 470.0
+        },
+        {
+          "x": 1045.0,
+          "y": 451.667
+        },
+        {
+          "x": 1023.333,
+          "y": 451.667
+        },
+        {
+          "x": 766.667,
+          "y": 451.667
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "hudson",
+      "name": "Hudson",
+      "x": 83.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "terminal": true,
+      "label": {
+        "x": 83.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "vaudreuil",
+      "name": "Vaudreuil",
+      "x": 133.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 133.333,
+        "y": 665.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "dorion",
+      "name": "Dorion",
+      "x": 183.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 183.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "pincourt",
+      "name": "Pincourt",
+      "x": 233.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 233.333,
+        "y": 665.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "ile-perrot",
+      "name": "Île-Perrot",
+      "x": 283.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 283.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sainte-anne-de-bellevue",
+      "name": "Sainte-Anne-de-Bellevue",
+      "x": 333.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 333.333,
+        "y": 665.333,
+        "rot": -40,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "baie-d-urfe",
+      "name": "Baie-d'Urfé",
+      "x": 383.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 383.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "beaurepaire",
+      "name": "Beaurepaire",
+      "x": 433.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 433.333,
+        "y": 665.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "beaconsfield",
+      "name": "Beaconsfield",
+      "x": 483.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 483.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cedar-park",
+      "name": "Cedar Park",
+      "x": 533.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 533.333,
+        "y": 665.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "pointe-claire",
+      "name": "Pointe-Claire",
+      "x": 583.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 583.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "valois",
+      "name": "Valois",
+      "x": 633.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 633.333,
+        "y": 665.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "pine-beach",
+      "name": "Pine Beach",
+      "x": 683.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 683.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "dorval",
+      "name": "Dorval",
+      "x": 733.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 733.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lachine",
+      "name": "Lachine",
+      "x": 783.333,
+      "y": 633.333,
+      "lines": ["VH"],
+      "label": {
+        "x": 783.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "montreal-ouest",
+      "name": "Montréal-Ouest",
+      "x": 833.333,
+      "y": 633.333,
+      "lines": ["VH", "SJ", "CA"],
+      "label": {
+        "x": 813.333,
+        "y": 673.333,
+        "anchor": "end",
+        "leader": true,
+        "rot": -15
+      }
+    },
+    {
+      "id": "vendome",
+      "name": "Vendôme",
+      "x": 883.333,
+      "y": 633.333,
+      "lines": ["VH", "SJ", "CA"],
+      "label": {
+        "x": 883.333,
+        "y": 601.333,
+        "rot": -40,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lucien-l-allier",
+      "name": "Lucien-L'Allier",
+      "x": 933.333,
+      "y": 633.333,
+      "lines": ["VH", "SJ", "CA"],
+      "terminal": true,
+      "label": {
+        "x": 945.333,
+        "y": 605.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-jerome",
+      "name": "Saint-Jérôme",
+      "x": 933.333,
+      "y": 83.333,
+      "lines": ["SJ"],
+      "terminal": true,
+      "label": {
+        "x": 961.333,
+        "y": 71.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mirabel",
+      "name": "Mirabel",
+      "x": 933.333,
+      "y": 126.667,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 114.667,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "blainville",
+      "name": "Blainville",
+      "x": 933.333,
+      "y": 170.0,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 158.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sainte-therese",
+      "name": "Sainte-Thérèse",
+      "x": 933.333,
+      "y": 213.333,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 201.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "rosemere",
+      "name": "Rosemère",
+      "x": 933.333,
+      "y": 256.667,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 244.66699999999997,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sainte-rose",
+      "name": "Sainte-Rose",
+      "x": 933.333,
+      "y": 300.0,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 288.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "vimont",
+      "name": "Vimont",
+      "x": 933.333,
+      "y": 343.333,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 331.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "de-la-concorde",
+      "name": "De la Concorde",
+      "x": 933.333,
+      "y": 386.667,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 374.667,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bois-de-boulogne",
+      "name": "Bois-de-Boulogne",
+      "x": 933.333,
+      "y": 430.0,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 418.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "chabanel",
+      "name": "Chabanel",
+      "x": 933.333,
+      "y": 473.333,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 461.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "parc",
+      "name": "Parc",
+      "x": 933.333,
+      "y": 516.667,
+      "lines": ["SJ"],
+      "label": {
+        "x": 961.333,
+        "y": 504.66700000000003,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "candiac",
+      "name": "Candiac",
+      "x": 733.333,
+      "y": 933.333,
+      "lines": ["CA"],
+      "terminal": true,
+      "label": {
+        "x": 761.333,
+        "y": 921.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "delson",
+      "name": "Delson",
+      "x": 766.667,
+      "y": 900.0,
+      "lines": ["CA"],
+      "label": {
+        "x": 794.667,
+        "y": 888.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-constant",
+      "name": "Saint-Constant",
+      "x": 800.0,
+      "y": 866.667,
+      "lines": ["CA"],
+      "label": {
+        "x": 828.0,
+        "y": 854.667,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sainte-catherine",
+      "name": "Sainte-Catherine",
+      "x": 833.333,
+      "y": 833.333,
+      "lines": ["CA"],
+      "label": {
+        "x": 861.333,
+        "y": 821.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lasalle",
+      "name": "LaSalle",
+      "x": 866.667,
+      "y": 800.0,
+      "lines": ["CA"],
+      "label": {
+        "x": 894.667,
+        "y": 788.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "du-canal",
+      "name": "Du Canal",
+      "x": 900.0,
+      "y": 766.667,
+      "lines": ["CA"],
+      "label": {
+        "x": 928.0,
+        "y": 754.667,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "centrale",
+      "name": "Centrale",
+      "x": 1100.0,
+      "y": 633.333,
+      "lines": ["SH"],
+      "terminal": true,
+      "label": {
+        "x": 1080,
+        "y": 665,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "saint-lambert",
+      "name": "Saint-Lambert",
+      "x": 1136.667,
+      "y": 670.0,
+      "lines": ["SH"],
+      "label": {
+        "x": 1164.667,
+        "y": 658.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "longueuil-saint-hubert",
+      "name": "Longueuil-Saint-Hubert",
+      "x": 1173.333,
+      "y": 706.667,
+      "lines": ["SH"],
+      "label": {
+        "x": 1201.333,
+        "y": 694.667,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-bruno",
+      "name": "Saint-Bruno",
+      "x": 1210.0,
+      "y": 743.333,
+      "lines": ["SH"],
+      "label": {
+        "x": 1238.0,
+        "y": 731.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-basile-le-grand",
+      "name": "Saint-Basile-le-Grand",
+      "x": 1246.667,
+      "y": 780.0,
+      "lines": ["SH"],
+      "label": {
+        "x": 1274.667,
+        "y": 768.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mcmasterville",
+      "name": "McMasterville",
+      "x": 1283.333,
+      "y": 816.667,
+      "lines": ["SH"],
+      "label": {
+        "x": 1311.333,
+        "y": 804.667,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mont-saint-hilaire",
+      "name": "Mont-Saint-Hilaire",
+      "x": 1320.0,
+      "y": 853.333,
+      "lines": ["SH"],
+      "terminal": true,
+      "label": {
+        "x": 1348.0,
+        "y": 841.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mascouche",
+      "name": "Mascouche",
+      "x": 1383.333,
+      "y": 150.0,
+      "lines": ["MA"],
+      "terminal": true,
+      "label": {
+        "x": 1411.333,
+        "y": 138.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "terrebonne",
+      "name": "Terrebonne",
+      "x": 1343.333,
+      "y": 190.0,
+      "lines": ["MA"],
+      "label": {
+        "x": 1371.333,
+        "y": 178.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "repentigny",
+      "name": "Repentigny",
+      "x": 1303.333,
+      "y": 230.0,
+      "lines": ["MA"],
+      "label": {
+        "x": 1331.333,
+        "y": 218.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pointe-aux-trembles",
+      "name": "Pointe-aux-Trembles",
+      "x": 1263.333,
+      "y": 270.0,
+      "lines": ["MA"],
+      "label": {
+        "x": 1291.333,
+        "y": 258.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "riviere-des-prairies",
+      "name": "Rivière-des-Prairies",
+      "x": 1223.333,
+      "y": 310.0,
+      "lines": ["MA"],
+      "label": {
+        "x": 1251.333,
+        "y": 298.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "anjou",
+      "name": "Anjou",
+      "x": 1183.333,
+      "y": 350.0,
+      "lines": ["MA"],
+      "label": {
+        "x": 1211.333,
+        "y": 338.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-leonard-montreal-nord",
+      "name": "Saint-Léonard-Montréal-Nord",
+      "x": 1143.333,
+      "y": 390.0,
+      "lines": ["MA"],
+      "label": {
+        "x": 1171.333,
+        "y": 378.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-michel-montreal-nord",
+      "name": "Saint-Michel-Montréal-Nord",
+      "x": 1103.333,
+      "y": 430.0,
+      "lines": ["MA"],
+      "label": {
+        "x": 1131.333,
+        "y": 418.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sauve",
+      "name": "Sauvé",
+      "x": 1063.333,
+      "y": 470.0,
+      "lines": ["MA"],
+      "label": {
+        "x": 1091.333,
+        "y": 458.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ahuntsic",
+      "name": "Ahuntsic",
+      "x": 1023.333,
+      "y": 451.667,
+      "lines": ["MA"],
+      "label": {
+        "x": 1000,
+        "y": 430,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cote-de-liesse",
+      "name": "Côte-de-Liesse",
+      "x": 766.667,
+      "y": 451.667,
+      "lines": ["MA"],
+      "terminal": true,
+      "label": {
+        "x": 794.667,
+        "y": 439.667,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "VH",
+      "num": "VH",
+      "x": 58,
+      "y": 657,
+      "color": "#F16179",
+      "textColor": "#000000"
+    },
+    {
+      "line": "SJ",
+      "num": "SJ",
+      "x": 896.56,
+      "y": 508.18,
+      "color": "#FDD26E",
+      "textColor": "#000000"
+    },
+    {
+      "line": "CA",
+      "num": "CA",
+      "x": 724.85,
+      "y": 896.56,
+      "color": "#5AB6B2",
+      "textColor": "#000000"
+    },
+    {
+      "line": "SH",
+      "num": "SH",
+      "x": 1242.4,
+      "y": 821,
+      "color": "#999AC6",
+      "textColor": "#000000"
+    },
+    {
+      "line": "MA",
+      "num": "MA",
+      "x": 1346.56,
+      "y": 141.51,
+      "color": "#CA5898",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "VH": [
+      "hudson",
+      "vaudreuil",
+      "dorion",
+      "pincourt",
+      "ile-perrot",
+      "sainte-anne-de-bellevue",
+      "baie-d-urfe",
+      "beaurepaire",
+      "beaconsfield",
+      "cedar-park",
+      "pointe-claire",
+      "valois",
+      "pine-beach",
+      "dorval",
+      "lachine",
+      "montreal-ouest",
+      "vendome",
+      "lucien-l-allier"
+    ],
+    "SJ": [
+      "saint-jerome",
+      "mirabel",
+      "blainville",
+      "sainte-therese",
+      "rosemere",
+      "sainte-rose",
+      "vimont",
+      "de-la-concorde",
+      "bois-de-boulogne",
+      "chabanel",
+      "parc",
+      "montreal-ouest",
+      "vendome",
+      "lucien-l-allier"
+    ],
+    "CA": [
+      "candiac",
+      "delson",
+      "saint-constant",
+      "sainte-catherine",
+      "lasalle",
+      "du-canal",
+      "montreal-ouest",
+      "vendome",
+      "lucien-l-allier"
+    ],
+    "SH": [
+      "centrale",
+      "saint-lambert",
+      "longueuil-saint-hubert",
+      "saint-bruno",
+      "saint-basile-le-grand",
+      "mcmasterville",
+      "mont-saint-hilaire"
+    ],
+    "MA": [
+      "mascouche",
+      "terrebonne",
+      "repentigny",
+      "pointe-aux-trembles",
+      "riviere-des-prairies",
+      "anjou",
+      "saint-leonard-montreal-nord",
+      "saint-michel-montreal-nord",
+      "sauve",
+      "ahuntsic",
+      "cote-de-liesse"
+    ]
+  },
+  "stationAliases": {
+    "Gare Lucien-L'Allier": "lucien-l-allier",
+    "Gare Vendôme": "vendome",
+    "Gare Montréal-Ouest": "montreal-ouest",
+    "Gare Lachine": "lachine",
+    "Gare Dorval": "dorval",
+    "Gare Pine Beach": "pine-beach",
+    "Gare Valois": "valois",
+    "Gare Pointe-Claire": "pointe-claire",
+    "Gare Cedar Park": "cedar-park",
+    "Gare Beaconsfield": "beaconsfield",
+    "Gare Beaurepaire": "beaurepaire",
+    "Gare Baie-d'Urfé": "baie-d-urfe",
+    "Gare Sainte-Anne-de-Bellevue": "sainte-anne-de-bellevue",
+    "Gare Île-Perrot": "ile-perrot",
+    "Gare Pincourt": "pincourt",
+    "Gare Dorion": "dorion",
+    "Gare Vaudreuil": "vaudreuil",
+    "Gare Hudson": "hudson",
+    "Gare Parc": "parc",
+    "Gare Chabanel": "chabanel",
+    "Gare Bois-de-Boulogne": "bois-de-boulogne",
+    "Gare De la Concorde": "de-la-concorde",
+    "Gare Vimont": "vimont",
+    "Gare Sainte-Rose": "sainte-rose",
+    "Gare Rosemère": "rosemere",
+    "Gare Sainte-Thérèse": "sainte-therese",
+    "Gare Blainville": "blainville",
+    "Gare Mirabel": "mirabel",
+    "Gare Saint-Jérôme": "saint-jerome",
+    "Gare Du Canal": "du-canal",
+    "Gare LaSalle": "lasalle",
+    "Gare Sainte-Catherine": "sainte-catherine",
+    "Gare Saint-Constant": "saint-constant",
+    "Gare Delson": "delson",
+    "Gare Candiac": "candiac",
+    "Gare Centrale": "centrale",
+    "Gare Saint-Lambert": "saint-lambert",
+    "Gare Longueuil-Saint-Hubert": "longueuil-saint-hubert",
+    "Gare Saint-Bruno": "saint-bruno",
+    "Gare Saint-Basile-le-Grand": "saint-basile-le-grand",
+    "Gare McMasterville": "mcmasterville",
+    "Gare Mont-Saint-Hilaire": "mont-saint-hilaire",
+    "Gare Ahuntsic": "ahuntsic",
+    "Gare Côte-de-Liesse": "cote-de-liesse",
+    "Gare Sauvé": "sauve",
+    "Gare Saint-Michel-Montréal-Nord": "saint-michel-montreal-nord",
+    "Gare Saint-Léonard-Montréal-Nord": "saint-leonard-montreal-nord",
+    "Gare Anjou": "anjou",
+    "Gare Rivière-des-Prairies": "riviere-des-prairies",
+    "Gare Pointe-aux-Trembles": "pointe-aux-trembles",
+    "Gare Repentigny": "repentigny",
+    "Gare Terrebonne": "terrebonne",
+    "Gare Mascouche": "mascouche"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 33.333,
+      "maxX": 1533.333,
+      "minY": 33.333,
+      "maxY": 1033.333
+    },
+    "minZoom": 0.3,
+    "maxZoom": 15
+  },
+  "geoProjection": {
+    "refLonWest": -74.3,
+    "refLonEast": -73.1,
+    "refXWest": 66.667,
+    "refXEast": 1400.0,
+    "refLatNorth": 45.85,
+    "refLatSouth": 45.25,
+    "refYNorth": 66.667,
+    "refYSouth": 1000.0
+  },
+  "stationIndex": [
+    {
+      "id": "ahuntsic",
+      "schematicId": "ahuntsic",
+      "name": "Ahuntsic",
+      "lat": 45.535014,
+      "lon": -73.662625,
+      "lines": ["MA"],
+      "platformIds": ["trains:MTL59A", "trains:MTL59C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "anjou",
+      "schematicId": "anjou",
+      "name": "Anjou",
+      "lat": 45.617888,
+      "lon": -73.596678,
+      "lines": ["MA"],
+      "platformIds": ["trains:MTL55A", "trains:MTL55C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "baie-d-urfe",
+      "schematicId": "baie-d-urfe",
+      "name": "Baie-d'Urfé",
+      "lat": 45.419929,
+      "lon": -73.915578,
+      "lines": ["VH"],
+      "platformIds": ["trains:BUR1B", "trains:BUR1D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "beaconsfield",
+      "schematicId": "beaconsfield",
+      "name": "Beaconsfield",
+      "lat": 45.435017,
+      "lon": -73.847419,
+      "lines": ["VH"],
+      "platformIds": ["trains:BEA2B", "trains:BEA2D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "beaurepaire",
+      "schematicId": "beaurepaire",
+      "name": "Beaurepaire",
+      "lat": 45.427412,
+      "lon": -73.887263,
+      "lines": ["VH"],
+      "platformIds": ["trains:BEA1B", "trains:BEA1D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "blainville",
+      "schematicId": "blainville",
+      "name": "Blainville",
+      "lat": 45.67242,
+      "lon": -73.866176,
+      "lines": ["SJ"],
+      "platformIds": ["trains:BLA1A", "trains:BLA1C"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "bois-de-boulogne",
+      "schematicId": "bois-de-boulogne",
+      "name": "Bois-de-Boulogne",
+      "lat": 45.540273,
+      "lon": -73.676887,
+      "lines": ["SJ"],
+      "platformIds": ["trains:MTL7B", "trains:MTL7D"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "candiac",
+      "schematicId": "candiac",
+      "name": "Candiac",
+      "lat": 45.360823,
+      "lon": -73.514487,
+      "lines": ["CA"],
+      "platformIds": ["lrrs:75257", "trains:CAN1A", "trains:CAN1C"],
+      "departureRouteIds": ["lrrs:135", "lrrs:146", "lrrs:147", "trains:5"]
+    },
+    {
+      "id": "cedar-park",
+      "schematicId": "cedar-park",
+      "name": "Cedar Park",
+      "lat": 45.442446,
+      "lon": -73.819892,
+      "lines": ["VH"],
+      "platformIds": ["trains:PCL1B", "trains:PCL1D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "centrale",
+      "schematicId": "centrale",
+      "name": "Centrale",
+      "lat": 45.499971,
+      "lon": -73.566717,
+      "lines": ["SH"],
+      "platformIds": ["trains:MTL5B", "trains:MTL5D"],
+      "departureRouteIds": ["trains:3"]
+    },
+    {
+      "id": "chabanel",
+      "schematicId": "chabanel",
+      "name": "Chabanel",
+      "lat": 45.537058,
+      "lon": -73.658031,
+      "lines": ["SJ"],
+      "platformIds": ["trains:MTL37A", "trains:MTL37C"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "cote-de-liesse",
+      "schematicId": "cote-de-liesse",
+      "name": "Côte-de-Liesse",
+      "lat": 45.522252,
+      "lon": -73.662824,
+      "lines": ["MA"],
+      "platformIds": ["trains:MTL60A", "trains:MTL60C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "de-la-concorde",
+      "schematicId": "de-la-concorde",
+      "name": "De la Concorde",
+      "lat": 45.560323,
+      "lon": -73.709867,
+      "lines": ["SJ"],
+      "platformIds": ["trains:LVL24A", "trains:LVL24C"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "delson",
+      "schematicId": "delson",
+      "name": "Delson",
+      "lat": 45.366859,
+      "lon": -73.540793,
+      "lines": ["CA"],
+      "platformIds": ["trains:DEL1A", "trains:DEL1C"],
+      "departureRouteIds": ["trains:5"]
+    },
+    {
+      "id": "dorion",
+      "schematicId": "dorion",
+      "name": "Dorion",
+      "lat": 45.386612,
+      "lon": -74.008329,
+      "lines": ["VH"],
+      "platformIds": ["citpi:72946", "trains:VAU1B", "trains:VAU1D"],
+      "departureRouteIds": [
+        "citpi:190",
+        "citpi:191",
+        "citpi:200",
+        "citpi:591",
+        "citpi:793",
+        "trains:1"
+      ]
+    },
+    {
+      "id": "dorval",
+      "schematicId": "dorval",
+      "name": "Dorval",
+      "lat": 45.449216,
+      "lon": -73.743113,
+      "lines": ["VH"],
+      "platformIds": ["trains:DVL2B", "trains:DVL2D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "du-canal",
+      "schematicId": "du-canal",
+      "name": "Du Canal",
+      "lat": 45.437597,
+      "lon": -73.655928,
+      "lines": ["CA"],
+      "platformIds": ["trains:LCH4A", "trains:LCH4C"],
+      "departureRouteIds": ["trains:5"]
+    },
+    {
+      "id": "hudson",
+      "schematicId": "hudson",
+      "name": "Hudson",
+      "lat": 45.459662,
+      "lon": -74.140908,
+      "lines": ["VH"],
+      "platformIds": ["trains:HUD1B", "trains:HUD1D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "ile-perrot",
+      "schematicId": "ile-perrot",
+      "name": "Île-Perrot",
+      "lat": 45.395939,
+      "lon": -73.965434,
+      "lines": ["VH"],
+      "platformIds": ["trains:LIP1B", "trains:LIP1D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "lachine",
+      "schematicId": "lachine",
+      "name": "Lachine",
+      "lat": 45.448705,
+      "lon": -73.711335,
+      "lines": ["VH"],
+      "platformIds": ["trains:LCH1B", "trains:LCH1D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "lasalle",
+      "schematicId": "lasalle",
+      "name": "LaSalle",
+      "lat": 45.425312,
+      "lon": -73.656941,
+      "lines": ["CA"],
+      "platformIds": ["trains:LSL1A", "trains:LSL1C"],
+      "departureRouteIds": ["trains:5"]
+    },
+    {
+      "id": "longueuil-saint-hubert",
+      "schematicId": "longueuil-saint-hubert",
+      "name": "Longueuil-Saint-Hubert",
+      "lat": 45.508118,
+      "lon": -73.433824,
+      "lines": ["SH"],
+      "platformIds": ["trains:STH3B", "trains:STH3D"],
+      "departureRouteIds": ["trains:3"]
+    },
+    {
+      "id": "lucien-l-allier",
+      "schematicId": "lucien-l-allier",
+      "name": "Lucien-L'Allier",
+      "lat": 45.494751,
+      "lon": -73.570775,
+      "lines": ["CA", "SJ", "VH"],
+      "platformIds": ["trains:MTL3A", "trains:MTL3C"],
+      "departureRouteIds": ["trains:1", "trains:4", "trains:5"]
+    },
+    {
+      "id": "mascouche",
+      "schematicId": "mascouche",
+      "name": "Mascouche",
+      "lat": 45.729139,
+      "lon": -73.599402,
+      "lines": ["MA"],
+      "platformIds": ["mrclm:84700", "trains:MAS1A", "trains:MAS1C"],
+      "departureRouteIds": ["mrclm:T417", "trains:6"]
+    },
+    {
+      "id": "mcmasterville",
+      "schematicId": "mcmasterville",
+      "name": "McMasterville",
+      "lat": 45.546059,
+      "lon": -73.229784,
+      "lines": ["SH"],
+      "platformIds": ["trains:MMS1B", "trains:MMS1D"],
+      "departureRouteIds": ["trains:3"]
+    },
+    {
+      "id": "mirabel",
+      "schematicId": "mirabel",
+      "name": "Mirabel",
+      "lat": 45.711707,
+      "lon": -73.918555,
+      "lines": ["SJ"],
+      "platformIds": ["trains:MIR1A", "trains:MIR1C"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "mont-saint-hilaire",
+      "schematicId": "mont-saint-hilaire",
+      "name": "Mont-Saint-Hilaire",
+      "lat": 45.577189,
+      "lon": -73.178489,
+      "lines": ["SH"],
+      "platformIds": ["trains:MSH1A", "trains:MSH1C"],
+      "departureRouteIds": ["trains:3"]
+    },
+    {
+      "id": "montreal-ouest",
+      "schematicId": "montreal-ouest",
+      "name": "Montréal-Ouest",
+      "lat": 45.453666,
+      "lon": -73.641718,
+      "lines": ["CA", "SJ", "VH"],
+      "platformIds": ["trains:MTL1A", "trains:MTL1C"],
+      "departureRouteIds": ["trains:1", "trains:4", "trains:5"]
+    },
+    {
+      "id": "parc",
+      "schematicId": "parc",
+      "name": "Parc",
+      "lat": 45.53152,
+      "lon": -73.623773,
+      "lines": ["SJ"],
+      "platformIds": ["trains:MTL8B", "trains:MTL8D"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "pincourt",
+      "schematicId": "pincourt",
+      "name": "Pincourt",
+      "lat": 45.38721,
+      "lon": -73.992275,
+      "lines": ["VH"],
+      "platformIds": ["trains:TVA1B", "trains:TVA1D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "pine-beach",
+      "schematicId": "pine-beach",
+      "name": "Pine Beach",
+      "lat": 45.449631,
+      "lon": -73.764252,
+      "lines": ["VH"],
+      "platformIds": ["trains:DVL1B", "trains:DVL1D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "pointe-aux-trembles",
+      "schematicId": "pointe-aux-trembles",
+      "name": "Pointe-aux-Trembles",
+      "lat": 45.674894,
+      "lon": -73.50535,
+      "lines": ["MA"],
+      "platformIds": ["trains:MTL53A", "trains:MTL53C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "pointe-claire",
+      "schematicId": "pointe-claire",
+      "name": "Pointe-Claire",
+      "lat": 45.447257,
+      "lon": -73.803443,
+      "lines": ["VH"],
+      "platformIds": ["trains:PCL2B", "trains:PCL2D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "repentigny",
+      "schematicId": "repentigny",
+      "name": "Repentigny",
+      "lat": 45.734595,
+      "lon": -73.486192,
+      "lines": ["MA"],
+      "platformIds": ["trains:LEG1A", "trains:LEG1C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "riviere-des-prairies",
+      "schematicId": "riviere-des-prairies",
+      "name": "Rivière-des-Prairies",
+      "lat": 45.660656,
+      "lon": -73.539183,
+      "lines": ["MA"],
+      "platformIds": ["trains:MTL54A", "trains:MTL54C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "rosemere",
+      "schematicId": "rosemere",
+      "name": "Rosemère",
+      "lat": 45.634501,
+      "lon": -73.795742,
+      "lines": ["SJ"],
+      "platformIds": ["trains:ROS2A", "trains:ROS2C"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "saint-basile-le-grand",
+      "schematicId": "saint-basile-le-grand",
+      "name": "Saint-Basile-le-Grand",
+      "lat": 45.523294,
+      "lon": -73.305916,
+      "lines": ["SH"],
+      "platformIds": ["trains:SBA2B", "trains:SBA2D"],
+      "departureRouteIds": ["trains:3"]
+    },
+    {
+      "id": "saint-bruno",
+      "schematicId": "saint-bruno",
+      "name": "Saint-Bruno",
+      "lat": 45.512029,
+      "lon": -73.374408,
+      "lines": ["SH"],
+      "platformIds": ["trains:STB2B", "trains:STB2D"],
+      "departureRouteIds": ["trains:3"]
+    },
+    {
+      "id": "saint-constant",
+      "schematicId": "saint-constant",
+      "name": "Saint-Constant",
+      "lat": 45.37415,
+      "lon": -73.570744,
+      "lines": ["CA"],
+      "platformIds": ["lrrs:76401", "trains:SCS1A", "trains:SCS1C"],
+      "departureRouteIds": ["lrrs:153", "trains:5"]
+    },
+    {
+      "id": "saint-jerome",
+      "schematicId": "saint-jerome",
+      "name": "Saint-Jérôme",
+      "lat": 45.773171,
+      "lon": -73.999138,
+      "lines": ["SJ"],
+      "platformIds": ["trains:SJM1A", "trains:SJM1C"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "saint-lambert",
+      "schematicId": "saint-lambert",
+      "name": "Saint-Lambert",
+      "lat": 45.49963,
+      "lon": -73.505821,
+      "lines": ["SH"],
+      "platformIds": ["trains:STL1B", "trains:STL1D"],
+      "departureRouteIds": ["trains:3"]
+    },
+    {
+      "id": "saint-leonard-montreal-nord",
+      "schematicId": "saint-leonard-montreal-nord",
+      "name": "Saint-Léonard-Montréal-Nord",
+      "lat": 45.600339,
+      "lon": -73.615779,
+      "lines": ["MA"],
+      "platformIds": ["trains:MTL56A", "trains:MTL56C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "saint-michel-montreal-nord",
+      "schematicId": "saint-michel-montreal-nord",
+      "name": "Saint-Michel-Montréal-Nord",
+      "lat": 45.583,
+      "lon": -73.630277,
+      "lines": ["MA"],
+      "platformIds": ["trains:MTL57A", "trains:MTL57C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "sainte-anne-de-bellevue",
+      "schematicId": "sainte-anne-de-bellevue",
+      "name": "Sainte-Anne-de-Bellevue",
+      "lat": 45.407645,
+      "lon": -73.951234,
+      "lines": ["VH"],
+      "platformIds": ["trains:SAB1B", "trains:SAB1D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "sainte-catherine",
+      "schematicId": "sainte-catherine",
+      "name": "Sainte-Catherine",
+      "lat": 45.382097,
+      "lon": -73.600065,
+      "lines": ["CA"],
+      "platformIds": ["lrrs:76085", "trains:SCS2A", "trains:SCS2C"],
+      "departureRouteIds": ["lrrs:150", "lrrs:155", "lrrs:156", "lrrs:552", "trains:5"]
+    },
+    {
+      "id": "sainte-rose",
+      "schematicId": "sainte-rose",
+      "name": "Sainte-Rose",
+      "lat": 45.625444,
+      "lon": -73.764734,
+      "lines": ["SJ"],
+      "platformIds": ["trains:LVL4A", "trains:LVL4C"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "sainte-therese",
+      "schematicId": "sainte-therese",
+      "name": "Sainte-Thérèse",
+      "lat": 45.636023,
+      "lon": -73.833547,
+      "lines": ["SJ"],
+      "platformIds": ["trains:STR4B", "trains:STR4D"],
+      "departureRouteIds": ["trains:4"]
+    },
+    {
+      "id": "sauve",
+      "schematicId": "sauve",
+      "name": "Sauvé",
+      "lat": 45.549408,
+      "lon": -73.654339,
+      "lines": ["MA"],
+      "platformIds": ["trains:MTL58A", "trains:MTL58C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "terrebonne",
+      "schematicId": "terrebonne",
+      "name": "Terrebonne",
+      "lat": 45.728479,
+      "lon": -73.521169,
+      "lines": ["MA"],
+      "platformIds": ["trains:LCN1A", "trains:LCN1C"],
+      "departureRouteIds": ["trains:6"]
+    },
+    {
+      "id": "valois",
+      "schematicId": "valois",
+      "name": "Valois",
+      "lat": 45.449754,
+      "lon": -73.790874,
+      "lines": ["VH"],
+      "platformIds": ["trains:PCL3B", "trains:PCL3D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "vaudreuil",
+      "schematicId": "vaudreuil",
+      "name": "Vaudreuil",
+      "lat": 45.399007,
+      "lon": -74.050556,
+      "lines": ["VH"],
+      "platformIds": ["trains:VAU8B", "trains:VAU8D"],
+      "departureRouteIds": ["trains:1"]
+    },
+    {
+      "id": "vendome",
+      "schematicId": "vendome",
+      "name": "Vendôme",
+      "lat": 45.473759,
+      "lon": -73.603091,
+      "lines": ["CA", "SJ", "VH"],
+      "platformIds": ["trains:MTL2A", "trains:MTL2C"],
+      "departureRouteIds": ["trains:1", "trains:4", "trains:5"]
+    },
+    {
+      "id": "vimont",
+      "schematicId": "vimont",
+      "name": "Vimont",
+      "lat": 45.603774,
+      "lon": -73.742629,
+      "lines": ["SJ"],
+      "platformIds": ["trains:LVL22A", "trains:LVL22C"],
+      "departureRouteIds": ["trains:4"]
+    }
+  ]
+}

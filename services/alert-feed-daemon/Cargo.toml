@@ -1,0 +1,32 @@
+[package]
+name = "alert-feed-daemon"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+
+[dependencies]
+arc-swap = "1.9.4"
+axum = "0.8.9"
+bytes = "1.12.1"
+base64 = "0.22.1"
+chrono = "0.4.45"
+chrono-tz = "0.10.4"
+jiff = { version = "0.2.39", default-features = false, features = ["std"] }
+jiff-tzdb = "0.1.9"
+prost = "0.14.4"
+reqwest = { version = "0.13.5", default-features = false, features = ["rustls"] }
+scraper = "0.29.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+percent-encoding = "2.3"
+tokio = { version = "1.54.1", features = ["full"] }
+roxmltree = "0.21.2"
+regex = "1.13.1"
+prost-reflect = { version = "0.16.5", features = ["serde"] }
+
+[dev-dependencies]
+tower = { version = "0.5.3", features = ["util"] }
+http-body-util = "0.1.5"
+
+[build-dependencies]
+prost-build = "0.14.4"

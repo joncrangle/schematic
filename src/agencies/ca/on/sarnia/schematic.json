@@ -1,0 +1,971 @@
+{
+  "viewBoxWidth": 1700,
+  "viewBoxHeight": 1200,
+  "lines": [
+    {
+      "id": "45",
+      "name": "66 London Road Express",
+      "color": "#332199",
+      "points": [
+        {
+          "x": 240,
+          "y": 660
+        },
+        {
+          "x": 280,
+          "y": 620
+        },
+        {
+          "x": 600,
+          "y": 620
+        },
+        {
+          "x": 620,
+          "y": 600
+        },
+        {
+          "x": 660,
+          "y": 600
+        },
+        {
+          "x": 790,
+          "y": 470
+        },
+        {
+          "x": 980,
+          "y": 470
+        },
+        {
+          "x": 940,
+          "y": 510
+        },
+        {
+          "x": 750,
+          "y": 510
+        },
+        {
+          "x": 660,
+          "y": 600
+        },
+        {
+          "x": 620,
+          "y": 560
+        },
+        {
+          "x": 340,
+          "y": 560
+        },
+        {
+          "x": 240,
+          "y": 660
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "68 North End Express",
+      "color": "#005EA8",
+      "points": [
+        {
+          "x": 660,
+          "y": 900
+        },
+        {
+          "x": 620,
+          "y": 860
+        },
+        {
+          "x": 620,
+          "y": 640
+        },
+        {
+          "x": 660,
+          "y": 600
+        },
+        {
+          "x": 660,
+          "y": 560
+        },
+        {
+          "x": 480,
+          "y": 380
+        },
+        {
+          "x": 440,
+          "y": 380
+        },
+        {
+          "x": 360,
+          "y": 300
+        },
+        {
+          "x": 360,
+          "y": 220
+        },
+        {
+          "x": 500,
+          "y": 80
+        },
+        {
+          "x": 790,
+          "y": 80
+        },
+        {
+          "x": 1040,
+          "y": 330
+        },
+        {
+          "x": 940,
+          "y": 330
+        },
+        {
+          "x": 860,
+          "y": 410
+        },
+        {
+          "x": 470,
+          "y": 410
+        },
+        {
+          "x": 440,
+          "y": 380
+        },
+        {
+          "x": 440,
+          "y": 420
+        },
+        {
+          "x": 620,
+          "y": 600
+        },
+        {
+          "x": 660,
+          "y": 600
+        },
+        {
+          "x": 680,
+          "y": 620
+        },
+        {
+          "x": 680,
+          "y": 960
+        },
+        {
+          "x": 600,
+          "y": 1040
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "1 Confederation",
+      "color": "#A32232",
+      "points": [
+        {
+          "x": 840,
+          "y": 800
+        },
+        {
+          "x": 800,
+          "y": 840
+        },
+        {
+          "x": 800,
+          "y": 940
+        },
+        {
+          "x": 700,
+          "y": 1040
+        },
+        {
+          "x": 600,
+          "y": 1040
+        },
+        {
+          "x": 500,
+          "y": 1040
+        },
+        {
+          "x": 240,
+          "y": 780
+        },
+        {
+          "x": 240,
+          "y": 660
+        },
+        {
+          "x": 240,
+          "y": 700
+        },
+        {
+          "x": 440,
+          "y": 900
+        },
+        {
+          "x": 660,
+          "y": 900
+        },
+        {
+          "x": 760,
+          "y": 800
+        },
+        {
+          "x": 840,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "2 Devine",
+      "color": "#00755E",
+      "points": [
+        {
+          "x": 240,
+          "y": 660
+        },
+        {
+          "x": 380,
+          "y": 800
+        },
+        {
+          "x": 840,
+          "y": 800
+        },
+        {
+          "x": 800,
+          "y": 760
+        },
+        {
+          "x": 340,
+          "y": 760
+        },
+        {
+          "x": 240,
+          "y": 660
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "4 Maxwell",
+      "color": "#7040AA",
+      "points": [
+        {
+          "x": 840,
+          "y": 800
+        },
+        {
+          "x": 740,
+          "y": 700
+        },
+        {
+          "x": 280,
+          "y": 700
+        },
+        {
+          "x": 240,
+          "y": 660
+        },
+        {
+          "x": 240,
+          "y": 520
+        },
+        {
+          "x": 320,
+          "y": 440
+        },
+        {
+          "x": 500,
+          "y": 440
+        },
+        {
+          "x": 660,
+          "y": 600
+        },
+        {
+          "x": 720,
+          "y": 660
+        },
+        {
+          "x": 780,
+          "y": 660
+        },
+        {
+          "x": 840,
+          "y": 720
+        },
+        {
+          "x": 840,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "15 Bright's Grove",
+      "color": "#A05A00",
+      "points": [
+        {
+          "x": 840,
+          "y": 800
+        },
+        {
+          "x": 880,
+          "y": 760
+        },
+        {
+          "x": 880,
+          "y": 530
+        },
+        {
+          "x": 940,
+          "y": 470
+        },
+        {
+          "x": 980,
+          "y": 470
+        },
+        {
+          "x": 1060,
+          "y": 390
+        },
+        {
+          "x": 1240,
+          "y": 390
+        },
+        {
+          "x": 1250,
+          "y": 390
+        },
+        {
+          "x": 1500,
+          "y": 140
+        },
+        {
+          "x": 1500,
+          "y": 260
+        },
+        {
+          "x": 1290,
+          "y": 470
+        },
+        {
+          "x": 980,
+          "y": 470
+        },
+        {
+          "x": 1000,
+          "y": 490
+        },
+        {
+          "x": 1000,
+          "y": 660
+        },
+        {
+          "x": 860,
+          "y": 800
+        },
+        {
+          "x": 840,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "9 Exmouth",
+      "color": "#595B62",
+      "points": [
+        {
+          "x": 840,
+          "y": 800
+        },
+        {
+          "x": 840,
+          "y": 780
+        },
+        {
+          "x": 660,
+          "y": 600
+        },
+        {
+          "x": 440,
+          "y": 380
+        },
+        {
+          "x": 440,
+          "y": 460
+        },
+        {
+          "x": 240,
+          "y": 660
+        },
+        {
+          "x": 240,
+          "y": 620
+        },
+        {
+          "x": 440,
+          "y": 420
+        },
+        {
+          "x": 440,
+          "y": 380
+        },
+        {
+          "x": 440,
+          "y": 400
+        },
+        {
+          "x": 840,
+          "y": 800
+        },
+        {
+          "x": 840,
+          "y": 780
+        },
+        {
+          "x": 660,
+          "y": 600
+        },
+        {
+          "x": 880,
+          "y": 380
+        },
+        {
+          "x": 1120,
+          "y": 380
+        },
+        {
+          "x": 1030,
+          "y": 470
+        },
+        {
+          "x": 980,
+          "y": 470
+        },
+        {
+          "x": 980,
+          "y": 550
+        },
+        {
+          "x": 1080,
+          "y": 650
+        },
+        {
+          "x": 930,
+          "y": 800
+        },
+        {
+          "x": 840,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "20 Michigan / Rapids Pkwy",
+      "color": "#536B00",
+      "points": [
+        {
+          "x": 840,
+          "y": 800
+        },
+        {
+          "x": 840,
+          "y": 610
+        },
+        {
+          "x": 980,
+          "y": 470
+        },
+        {
+          "x": 980,
+          "y": 440
+        },
+        {
+          "x": 660,
+          "y": 120
+        },
+        {
+          "x": 770,
+          "y": 230
+        },
+        {
+          "x": 940,
+          "y": 230
+        },
+        {
+          "x": 1020,
+          "y": 310
+        },
+        {
+          "x": 1020,
+          "y": 430
+        },
+        {
+          "x": 980,
+          "y": 470
+        },
+        {
+          "x": 980,
+          "y": 660
+        },
+        {
+          "x": 840,
+          "y": 800
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "downtown-terminal",
+      "name": "Downtown Terminal",
+      "x": 240,
+      "y": 660,
+      "lines": ["45", "39", "24", "26", "60"],
+      "label": {
+        "x": 335,
+        "y": 660,
+        "anchor": "middle",
+        "leader": true
+      }
+    },
+    {
+      "id": "northgate-terminal",
+      "name": "Northgate Terminal",
+      "x": 440,
+      "y": 380,
+      "lines": ["64", "60"],
+      "label": {
+        "x": 510,
+        "y": 340,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "clearwater-terminal",
+      "name": "Clearwater Terminal",
+      "x": 840,
+      "y": 800,
+      "lines": ["39", "24", "26", "38", "60", "63"],
+      "label": {
+        "x": 890,
+        "y": 850,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "loblaws-super-store",
+      "name": "Loblaws Super Store",
+      "x": 660,
+      "y": 600,
+      "lines": ["45", "64", "26", "60"],
+      "label": {
+        "x": 675,
+        "y": 550,
+        "anchor": "start",
+        "leader": true,
+        "rot": -45
+      }
+    },
+    {
+      "id": "lambton-mall",
+      "name": "Lambton Mall",
+      "x": 980,
+      "y": 470,
+      "lines": ["45", "38", "60", "63"],
+      "label": {
+        "x": 1055,
+        "y": 500,
+        "anchor": "middle",
+        "leader": true
+      }
+    },
+    {
+      "id": "confederation-plaza",
+      "name": "Confederation Plaza",
+      "x": 600,
+      "y": 1040,
+      "lines": ["39", "64"],
+      "label": {
+        "x": 600,
+        "y": 1090,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "green-haven",
+      "name": "Green Haven",
+      "x": 1240,
+      "y": 390,
+      "lines": ["38"],
+      "label": {
+        "x": 1240,
+        "y": 430,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "walmart-parking-lot",
+      "name": "Walmart Parking Lot",
+      "x": 1120,
+      "y": 380,
+      "lines": ["60"],
+      "label": {
+        "x": 1130,
+        "y": 340,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lambton-college",
+      "name": "Lambton College",
+      "x": 1080,
+      "y": 650,
+      "lines": ["60"],
+      "label": {
+        "x": 1160,
+        "y": 650,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "errol-road-east",
+      "name": "Errol Road East",
+      "x": 660,
+      "y": 120,
+      "lines": ["63"],
+      "label": {
+        "x": 580,
+        "y": 120,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "rapids-plaza",
+      "name": "Rapids Plaza",
+      "x": 940,
+      "y": 230,
+      "lines": ["63"],
+      "label": {
+        "x": 970,
+        "y": 195,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "great-lakes-secondary",
+      "name": "Great Lakes Secondary",
+      "x": 660,
+      "y": 900,
+      "lines": ["39", "64"],
+      "label": {
+        "x": 580,
+        "y": 940,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "st-pats-high-school",
+      "name": "St Pats High School",
+      "lines": ["64"],
+      "x": 940,
+      "y": 330,
+      "label": {
+        "x": 915,
+        "y": 285,
+        "anchor": "middle",
+        "leader": true,
+        "rot": 15
+      }
+    },
+    {
+      "id": "brights-grove-mandaumin",
+      "name": "Bright's Grove / Mandaumin",
+      "lines": ["38"],
+      "x": 1500,
+      "y": 140,
+      "label": {
+        "x": 1500,
+        "y": 100,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "45",
+      "num": "66",
+      "x": 727.63,
+      "y": 577.63,
+      "color": "#332199",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "64",
+      "num": "68",
+      "x": 328,
+      "y": 260,
+      "color": "#005EA8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "39",
+      "num": "1",
+      "x": 208,
+      "y": 720,
+      "color": "#A32232",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "24",
+      "num": "2",
+      "x": 564,
+      "y": 832,
+      "color": "#00755E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "26",
+      "num": "4",
+      "x": 208,
+      "y": 590,
+      "color": "#7040AA",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "38",
+      "num": "15",
+      "x": 1532,
+      "y": 200,
+      "color": "#A05A00",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "60",
+      "num": "9",
+      "x": 1027.63,
+      "y": 747.63,
+      "color": "#595B62",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "63",
+      "num": "20",
+      "x": 692.37,
+      "y": 197.63,
+      "color": "#536B00",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 100,
+      "maxX": 1640,
+      "minY": 20,
+      "maxY": 1150
+    },
+    "minZoom": 0.7,
+    "maxZoom": 5
+  },
+  "geoProjection": {
+    "refLonWest": -82.404892,
+    "refLonEast": -82.35633,
+    "refXWest": 240,
+    "refXEast": 840,
+    "refLatNorth": 42.986278,
+    "refLatSouth": 42.97059,
+    "refYNorth": 380,
+    "refYSouth": 800
+  },
+  "sequences": {
+    "45": ["downtown-terminal", "loblaws-super-store", "lambton-mall"],
+    "64": [
+      "great-lakes-secondary",
+      "loblaws-super-store",
+      "northgate-terminal",
+      "st-pats-high-school",
+      "confederation-plaza"
+    ],
+    "39": [
+      "clearwater-terminal",
+      "confederation-plaza",
+      "downtown-terminal",
+      "great-lakes-secondary"
+    ],
+    "24": ["downtown-terminal", "clearwater-terminal"],
+    "26": ["clearwater-terminal", "downtown-terminal", "loblaws-super-store"],
+    "38": ["clearwater-terminal", "lambton-mall", "green-haven", "brights-grove-mandaumin"],
+    "60": [
+      "clearwater-terminal",
+      "loblaws-super-store",
+      "northgate-terminal",
+      "downtown-terminal",
+      "walmart-parking-lot",
+      "lambton-mall",
+      "lambton-college"
+    ],
+    "63": ["clearwater-terminal", "lambton-mall", "errol-road-east", "rapids-plaza"]
+  },
+  "stationAliases": {
+    "Downtown Terminal": "downtown-terminal",
+    "Northgate Terminal": "northgate-terminal",
+    "Clearwater Terminal": "clearwater-terminal",
+    "Loblaws Super Store": "loblaws-super-store",
+    "Lambton Mall": "lambton-mall",
+    "Confederation Plaza": "confederation-plaza",
+    "Green Haven": "green-haven",
+    "Walmart Parking Lot": "walmart-parking-lot",
+    "Lambton College": "lambton-college",
+    "Errol Road East": "errol-road-east",
+    "Rapids Plaza": "rapids-plaza",
+    "Great Lakes Secondary": "great-lakes-secondary",
+    "St Pats High School": "st-pats-high-school",
+    "Mandaumin Road": "brights-grove-mandaumin"
+  },
+  "stationIndex": [
+    {
+      "id": "9999",
+      "schematicId": "clearwater-terminal",
+      "name": "Clearwater Terminal",
+      "lat": 42.97059,
+      "lon": -82.35633,
+      "lines": ["24", "26", "38", "39", "60", "63"],
+      "platformIds": ["9999"],
+      "departureRouteIds": ["24", "25", "26", "37", "38", "39", "57", "60", "61", "62", "63"]
+    },
+    {
+      "id": "confederation-plaza",
+      "schematicId": "confederation-plaza",
+      "name": "Confederation Plaza",
+      "lat": 42.96058,
+      "lon": -82.36952,
+      "lines": ["39", "64"],
+      "platformIds": ["1145", "13332"],
+      "departureRouteIds": ["25", "39", "64"]
+    },
+    {
+      "id": "2100",
+      "schematicId": "downtown-terminal",
+      "name": "Downtown Terminal",
+      "lat": 42.974234,
+      "lon": -82.404892,
+      "lines": ["24", "26", "39", "45", "60"],
+      "platformIds": ["2100"],
+      "departureRouteIds": ["24", "25", "26", "34", "39", "45", "52", "60", "61"]
+    },
+    {
+      "id": "7130",
+      "schematicId": "errol-road-east",
+      "name": "Errol Road East",
+      "lat": 43.006266,
+      "lon": -82.366571,
+      "lines": ["63"],
+      "platformIds": ["7130"],
+      "departureRouteIds": ["63"]
+    },
+    {
+      "id": "1137",
+      "schematicId": "great-lakes-secondary",
+      "name": "Great Lakes Secondary",
+      "lat": 42.96736,
+      "lon": -82.36691,
+      "lines": ["39", "64"],
+      "platformIds": ["1137"],
+      "departureRouteIds": ["25", "39", "60", "61", "62", "64"]
+    },
+    {
+      "id": "15125",
+      "schematicId": "green-haven",
+      "name": "Green Haven",
+      "lat": 42.986198,
+      "lon": -82.310016,
+      "lines": ["38"],
+      "platformIds": ["15125"],
+      "departureRouteIds": ["38"]
+    },
+    {
+      "id": "9326",
+      "schematicId": "lambton-college",
+      "name": "Lambton College",
+      "lat": 42.97586,
+      "lon": -82.34638,
+      "lines": ["60"],
+      "platformIds": ["9326"],
+      "departureRouteIds": ["38", "60", "61", "62"]
+    },
+    {
+      "id": "lambton-mall",
+      "schematicId": "lambton-mall",
+      "name": "Lambton Mall",
+      "lat": 42.982436,
+      "lon": -82.353732,
+      "lines": ["38", "45", "60", "63"],
+      "platformIds": ["14212", "15107"],
+      "departureRouteIds": ["38", "45", "52", "57", "60", "61", "63"]
+    },
+    {
+      "id": "1200",
+      "schematicId": "loblaws-super-store",
+      "name": "Loblaws Super Store",
+      "lat": 42.976964,
+      "lon": -82.366517,
+      "lines": ["26", "45", "60", "64"],
+      "platformIds": ["1200"],
+      "departureRouteIds": ["26", "38", "45", "49", "52", "57", "60", "61", "62", "64"]
+    },
+    {
+      "id": "5200",
+      "schematicId": "northgate-terminal",
+      "name": "Northgate Terminal",
+      "lat": 42.986278,
+      "lon": -82.386572,
+      "lines": ["60", "64"],
+      "platformIds": ["5200"],
+      "departureRouteIds": ["31", "36", "49", "60", "61", "62", "64"]
+    },
+    {
+      "id": "5115",
+      "schematicId": "rapids-plaza",
+      "name": "Rapids Plaza",
+      "lat": 43.00054,
+      "lon": -82.35023,
+      "lines": ["63"],
+      "platformIds": ["5115"],
+      "departureRouteIds": ["63"]
+    },
+    {
+      "id": "14209",
+      "schematicId": "walmart-parking-lot",
+      "name": "Walmart Parking Lot",
+      "lat": 42.986945,
+      "lon": -82.348099,
+      "lines": ["60"],
+      "platformIds": ["14209"],
+      "departureRouteIds": ["57", "60", "61"]
+    },
+    {
+      "id": "15161",
+      "schematicId": "brights-grove-mandaumin",
+      "name": "Bright's Grove / Mandaumin",
+      "lat": 43.03522,
+      "lon": -82.231176,
+      "lines": ["38"],
+      "platformIds": ["15161"],
+      "departureRouteIds": ["38"]
+    },
+    {
+      "id": "6803",
+      "schematicId": "st-pats-high-school",
+      "name": "St Pats High School",
+      "lat": 42.99661,
+      "lon": -82.35048,
+      "lines": ["64"],
+      "platformIds": ["6803"],
+      "departureRouteIds": ["64"]
+    }
+  ]
+}

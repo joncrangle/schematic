@@ -1,0 +1,233 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  /* ── Status palette ──
+     One bare token per meaning; `-300` is the brighten step for hover/emphasis.
+     Dimming happens with opacity modifiers (bg-warning/10), not extra shades. */
+  /* Warning/caution: delays & advisories. Anchor #f59e0b (GLOSSARY.md General Delay). */
+  --color-warning: oklch(76.9% 0.188 70.08);
+  --color-warning-300: oklch(87.9% 0.169 91.605);
+  --color-warning-400: oklch(82.8% 0.189 84.429);
+  /* Destructive: severe disruptions (#ef4444 — see --destructive below). */
+  --color-destructive-300: oklch(80.8% 0.114 19.571);
+  /* Live: realtime vehicles, freshness, Normal Service green (GLOSSARY.md anchor #22c55e). */
+  --color-live: #22c55e;
+  --color-live-400: #4ade80;
+  /* Info: app-wide interactive/info accent (links, focus rings, nearest-station).
+     Anchor #38bdf8 — the sky tone the UI already uses everywhere. */
+  --color-info: #38bdf8;
+  /* Brand: TTC accessibility blue (#0072CE). All accessibility
+     affordances — station dots, wheelchair chips, labels — share this one color. */
+  --color-accessible: #0072ce;
+}
+
+html {
+  /*
+   * The app renders a permanently dark UI (see body below). Declare it so
+   * browsers render native chrome — scrollbars, form controls, autofill —
+   * in dark scheme too. Without this, Chromium draws light-scheme grey
+   * scrollbars while Firefox happened to follow its own dark browser theme.
+   */
+  color-scheme: dark;
+  /* Thin, zinc-700 thumb on a transparent track — deterministic across
+     engines (standard properties; Chromium 121+, Firefox long-standing). */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-zinc-700) transparent;
+}
+
+body {
+  @apply m-0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Animate one inherited value per alert kind; each segment applies it to its
+   own group so overlapping strokes retain independent SVG compositing. */
+@property --status-segment-pulse-opacity {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 1;
+}
+
+@keyframes pulse-severe {
+  0%,
+  100% {
+    --status-segment-pulse-opacity: 1;
+  }
+  50% {
+    --status-segment-pulse-opacity: 0.65;
+  }
+}
+
+@keyframes pulse-delay {
+  0%,
+  100% {
+    --status-segment-pulse-opacity: 0.95;
+  }
+  50% {
+    --status-segment-pulse-opacity: 0.55;
+  }
+}
+
+.animate-pulse-severe {
+  animation: pulse-severe 1.6s ease-in-out infinite;
+}
+
+.animate-pulse-delay {
+  animation: pulse-delay 2.8s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-delay 2.8s ease-in-out infinite;
+}
+
+:root[data-reduced-motion="true"] .animate-pulse-severe,
+:root[data-reduced-motion="true"] .animate-pulse-delay,
+:root[data-reduced-motion="true"] .animate-pulse-slow,
+:root[data-reduced-motion="true"] .animate-ping,
+:root[data-reduced-motion="true"] .animate-pulse,
+:root[data-reduced-motion="true"] .pulse-aura {
+  animation: none !important;
+}
+
+:root[data-reduced-motion="true"] .status-halo-aura {
+  display: none !important;
+}
+
+/* Global catch-all: eliminate ALL transitions and animations for OS preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Global catch-all: eliminate ALL transitions and animations for user override */
+:root[data-reduced-motion="true"] *,
+:root[data-reduced-motion="true"] *::before,
+:root[data-reduced-motion="true"] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+:root {
+  --background: #0f1014;
+  --foreground: #e8eaed;
+  --card: #16181d;
+  --card-foreground: #e8eaed;
+  --popover: #16181d;
+  --popover-foreground: #e8eaed;
+  --primary: oklch(0.21 0.006 285.885);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.967 0.001 286.375);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
+  /* App renders permanently dark; neutrals are mode-independent (see AGENTS context). */
+  --muted: #1c1f26;
+  --muted-foreground: #9aa0a6;
+  --accent: #20232b;
+  --accent-foreground: #e8eaed;
+  /* Anchored to severe red #ef4444 (GLOSSARY.md); mode-independent so legacy red-500 swaps stay byte-identical. */
+  --destructive: oklch(63.7% 0.237 25.331);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: #2a2e36;
+  --input: #2a2e36;
+  --ring: #3a3f4d;
+  --radius: 0.625rem;
+}
+
+.dark {
+  /* Neutrals above are identical to :root by design — the app is permanently dark
+     (mode-independent). --primary/--secondary/--destructive-foreground retain the
+     stock shadcn dark defaults and have no consumers; do not "fix" the neutrals here. */
+  --background: #0f1014;
+  --foreground: #e8eaed;
+  --card: #16181d;
+  --card-foreground: #e8eaed;
+  --popover: #16181d;
+  --popover-foreground: #e8eaed;
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.21 0.006 285.885);
+  --secondary: oklch(0.274 0.006 286.033);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: #1c1f26;
+  --muted-foreground: #9aa0a6;
+  --accent: #20232b;
+  --accent-foreground: #e8eaed;
+  /* Anchored to severe red #ef4444 (GLOSSARY.md); mode-independent so legacy red-500 swaps stay byte-identical. */
+  --destructive: oklch(63.7% 0.237 25.331);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: #2a2e36;
+  --input: #2a2e36;
+  --ring: #3a3f4d;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
+
+@utility bg-drafting-grid {
+  background-color: var(--background);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1.25px, transparent 0),
+    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/*
+ * backdrop-filter re-samples and blurs everything behind it on every frame the
+ * map pans or zooms. Touch devices and riders who asked for less transparency
+ * get the already near-opaque card backgrounds without the blur pass.
+ */
+@media (pointer: coarse), (prefers-reduced-transparency: reduce) {
+  .backdrop-blur-sm,
+  .backdrop-blur-md {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+}

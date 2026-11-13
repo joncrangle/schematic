@@ -1,0 +1,150 @@
+{
+  "id": "stlevis",
+  "name": "Société de transport de Lévis",
+  "shortName": "STLévis",
+  "serviceArea": "Lévis et liaisons vers Sainte-Foy",
+  "locale": "fr-CA",
+  "timezone": "America/Toronto",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "bounds": [
+    {
+      "minLat": 46.55,
+      "maxLat": 46.7133,
+      "minLon": -71.411,
+      "maxLon": -71.097
+    },
+    {
+      "minLat": 46.7138,
+      "maxLat": 46.742,
+      "minLon": -71.411,
+      "maxLon": -71.097
+    },
+    {
+      "minLat": 46.7133,
+      "maxLat": 46.7138,
+      "minLon": -71.411,
+      "maxLon": -71.2709
+    },
+    {
+      "minLat": 46.7133,
+      "maxLat": 46.7138,
+      "minLon": -71.2703,
+      "maxLon": -71.097
+    },
+    {
+      "minLat": 46.742,
+      "maxLat": 46.777,
+      "minLon": -71.28,
+      "maxLon": -71.097
+    },
+    {
+      "minLat": 46.777,
+      "maxLat": 46.81,
+      "minLon": -71.21,
+      "maxLon": -71.097
+    },
+    {
+      "minLat": 46.81,
+      "maxLat": 46.829,
+      "minLon": -71.19,
+      "maxLon": -71.097
+    },
+    {
+      "minLat": 46.766,
+      "maxLat": 46.792,
+      "minLon": -71.315,
+      "maxLon": -71.26
+    }
+  ],
+  "attribution": {
+    "name": "Société de transport de Lévis",
+    "url": "https://www.stlevis.ca/stlevis/donnees-ouvertes",
+    "license": "CC BY 4.0 selon la page de données ouvertes. Les conditions GTFS restreignent toutefois l’utilisation commerciale sans autorisation écrite préalable. Aucune licence explicite pour les données en temps réel du site n’a été trouvée.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "STLévis",
+        "url": "https://www.stlevis.ca/sites/default/files/public/assets/gtfs/transit/gtfs_stlevis.zip",
+        "cacheFileName": "stlevis-gtfs.zip"
+      }
+    ],
+    "routeIdField": "short_name"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "station_departures",
+        "format": "json",
+        "url": "https://www.stlevis.ca/xhr/gtfs/realtime/times?quantity=3&stop_id={stopId}",
+        "pollIntervalSeconds": 60,
+        "requestsPerMinute": 48,
+        "responseMapping": {
+          "routesPath": "$",
+          "departuresField": "$",
+          "routeIdField": "route_short_name",
+          "timeField": "updated_departure_time",
+          "scheduledTimeField": "original_departure_time",
+          "timeFormat": "local-time",
+          "timeZone": "America/Toronto",
+          "directionField": "direction_id",
+          "headsignField": "trip_headsign",
+          "tripIdField": "trip_id",
+          "stopSequenceField": "stop_sequence",
+          "delaySecondsField": "delay",
+          "realtimeField": "realtime_available",
+          "realtimeOnly": true,
+          "terminalField": "pickup_type"
+        }
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "url": "https://www.stlevis.ca/xhr/gtfs/realtime/alerts",
+      "parser": "bucketed-transit-alerts",
+      "timestampMode": "agency-local-wall-clock",
+      "language": "fr"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["L1", "L2", "L3", "22", "23", "L4"],
+    "rules": [
+      {
+        "priority": 50,
+        "match": {
+          "titleIncludes": ["Travaux", "Fermeture", "Détour", "dévié", "déplacé", "instable"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["L1", "L2", "L3", "L4", "11", "22", "23"],
+  "cityPresets": [
+    {
+      "name": "Terminus de la Traverse",
+      "lat": 46.810215,
+      "lon": -71.187747
+    },
+    {
+      "name": "Station de la Concorde",
+      "lat": 46.731366,
+      "lon": -71.276111
+    }
+  ]
+}

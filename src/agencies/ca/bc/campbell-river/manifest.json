@@ -1,0 +1,187 @@
+{
+  "id": "campbell-river",
+  "name": "BC Transit Campbell River",
+  "serviceArea": "Campbell River, Willow Point and Oyster River",
+  "shortName": "Campbell River",
+  "locale": "en-CA",
+  "timezone": "America/Vancouver",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "bc"
+  },
+  "bounds": [
+    {
+      "minLat": 49.86791,
+      "maxLat": 49.87538,
+      "minLon": -125.13314,
+      "maxLon": -125.12704
+    },
+    {
+      "minLat": 49.8904,
+      "maxLat": 49.89462,
+      "minLon": -125.13925,
+      "maxLon": -125.13492
+    },
+    {
+      "minLat": 49.90827,
+      "maxLat": 49.92596,
+      "minLon": -125.18749,
+      "maxLon": -125.17738
+    },
+    {
+      "minLat": 49.92881,
+      "maxLat": 49.94206,
+      "minLon": -125.18956,
+      "maxLon": -125.18308
+    },
+    {
+      "minLat": 49.94834,
+      "maxLat": 49.97665,
+      "minLon": -125.2491,
+      "maxLon": -125.19759
+    },
+    {
+      "minLat": 49.97381,
+      "maxLat": 50.00168,
+      "minLon": -125.25053,
+      "maxLon": -125.2184
+    },
+    {
+      "minLat": 49.99802,
+      "maxLat": 50.02688,
+      "minLon": -125.28748,
+      "maxLon": -125.22894
+    },
+    {
+      "minLat": 50.02333,
+      "maxLat": 50.05014,
+      "minLon": -125.28839,
+      "maxLon": -125.2439
+    },
+    {
+      "minLat": 50.05506,
+      "maxLat": 50.06586,
+      "minLon": -125.27587,
+      "maxLon": -125.26665
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "BC Transit Campbell River",
+    "url": "https://www.bctransit.com/campbell-river/",
+    "license": "BC Transit Open Data Terms of Use"
+  },
+  "cityPresets": [
+    {
+      "name": "Oyster River",
+      "lat": 49.86991,
+      "lon": -125.12904
+    },
+    {
+      "name": "Erickson Exchange",
+      "lat": 49.96647,
+      "lon": -125.20982
+    },
+    {
+      "name": "North Island College",
+      "lat": 49.97846,
+      "lon": -125.24596
+    }
+  ],
+  "popularSurfaceRoutes": ["1-CAM", "2-CAM", "3-CAM", "6-CAM", "8-CAM"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "BC Transit Campbell River",
+        "url": "https://bct.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/?operatorIds=12",
+        "cacheFileName": "campbell-river-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#004B8D",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=12",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bct.tmix.se/gtfs-realtime/tripupdates.pb?operatorIds=12",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://bct.tmix.se/gtfs-realtime/alerts.pb?operatorIds=12",
+      "entityOnly": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=4&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=4&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1-CAM", "2-CAM", "3-CAM", "6-CAM", "8-CAM"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "category",
+          "sourceValue": "ReducedService"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "effects": ["OTHER_EFFECT"],
+          "textIncludes": ["cancelled", "canceled"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  }
+}

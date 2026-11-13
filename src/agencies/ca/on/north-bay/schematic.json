@@ -1,0 +1,1346 @@
+{
+  "viewBoxWidth": 1260,
+  "viewBoxHeight": 1000,
+  "lines": [
+    {
+      "id": "1a",
+      "name": "1a College-University",
+      "color": "#FF33CC",
+      "points": [
+        {
+          "x": 550,
+          "y": 480
+        },
+        {
+          "x": 550,
+          "y": 300
+        },
+        {
+          "x": 490,
+          "y": 240
+        },
+        {
+          "x": 370,
+          "y": 240
+        },
+        {
+          "x": 370,
+          "y": 180
+        },
+        {
+          "x": 340,
+          "y": 150
+        },
+        {
+          "x": 250,
+          "y": 150
+        },
+        {
+          "x": 250,
+          "y": 240
+        },
+        {
+          "x": 250,
+          "y": 300
+        },
+        {
+          "x": 310,
+          "y": 360
+        },
+        {
+          "x": 370,
+          "y": 360
+        },
+        {
+          "x": 490,
+          "y": 480
+        },
+        {
+          "x": 550,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "1b",
+      "name": "1b Campus Special",
+      "color": "#9932CC",
+      "points": [
+        {
+          "x": 550,
+          "y": 480
+        },
+        {
+          "x": 490,
+          "y": 480
+        },
+        {
+          "x": 370,
+          "y": 360
+        },
+        {
+          "x": 160,
+          "y": 360
+        },
+        {
+          "x": 160,
+          "y": 300
+        },
+        {
+          "x": 250,
+          "y": 300
+        },
+        {
+          "x": 250,
+          "y": 240
+        },
+        {
+          "x": 250,
+          "y": 150
+        },
+        {
+          "x": 340,
+          "y": 150
+        },
+        {
+          "x": 370,
+          "y": 180
+        },
+        {
+          "x": 370,
+          "y": 240
+        },
+        {
+          "x": 490,
+          "y": 240
+        },
+        {
+          "x": 550,
+          "y": 300
+        },
+        {
+          "x": 550,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Marshall Park",
+      "color": "#FD0E35",
+      "points": [
+        {
+          "x": 550,
+          "y": 480
+        },
+        {
+          "x": 610,
+          "y": 540
+        },
+        {
+          "x": 670,
+          "y": 600
+        },
+        {
+          "x": 670,
+          "y": 750
+        },
+        {
+          "x": 700,
+          "y": 780
+        },
+        {
+          "x": 760,
+          "y": 780
+        },
+        {
+          "x": 790,
+          "y": 750
+        },
+        {
+          "x": 790,
+          "y": 690
+        },
+        {
+          "x": 760,
+          "y": 660
+        },
+        {
+          "x": 760,
+          "y": 510
+        },
+        {
+          "x": 730,
+          "y": 480
+        },
+        {
+          "x": 700,
+          "y": 450
+        },
+        {
+          "x": 670,
+          "y": 420
+        },
+        {
+          "x": 580,
+          "y": 420
+        },
+        {
+          "x": 550,
+          "y": 450
+        },
+        {
+          "x": 550,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Ski Club-Pinewood",
+      "color": "#00AB66",
+      "points": [
+        {
+          "x": 550,
+          "y": 480
+        },
+        {
+          "x": 580,
+          "y": 510
+        },
+        {
+          "x": 640,
+          "y": 510
+        },
+        {
+          "x": 670,
+          "y": 480
+        },
+        {
+          "x": 700,
+          "y": 450
+        },
+        {
+          "x": 700,
+          "y": 300
+        },
+        {
+          "x": 670,
+          "y": 270
+        },
+        {
+          "x": 580,
+          "y": 270
+        },
+        {
+          "x": 550,
+          "y": 300
+        },
+        {
+          "x": 550,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Junction",
+      "color": "#0072BB",
+      "points": [
+        {
+          "x": 550,
+          "y": 480
+        },
+        {
+          "x": 610,
+          "y": 540
+        },
+        {
+          "x": 670,
+          "y": 600
+        },
+        {
+          "x": 670,
+          "y": 930
+        },
+        {
+          "x": 700,
+          "y": 930
+        },
+        {
+          "x": 700,
+          "y": 870
+        },
+        {
+          "x": 730,
+          "y": 840
+        },
+        {
+          "x": 1120,
+          "y": 840
+        },
+        {
+          "x": 1120,
+          "y": 870
+        },
+        {
+          "x": 700,
+          "y": 870
+        },
+        {
+          "x": 670,
+          "y": 840
+        },
+        {
+          "x": 670,
+          "y": 600
+        },
+        {
+          "x": 610,
+          "y": 540
+        },
+        {
+          "x": 550,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "5 Graniteville",
+      "color": "#998200",
+      "points": [
+        {
+          "x": 550,
+          "y": 480
+        },
+        {
+          "x": 550,
+          "y": 420
+        },
+        {
+          "x": 580,
+          "y": 390
+        },
+        {
+          "x": 730,
+          "y": 390
+        },
+        {
+          "x": 790,
+          "y": 330
+        },
+        {
+          "x": 820,
+          "y": 300
+        },
+        {
+          "x": 910,
+          "y": 300
+        },
+        {
+          "x": 940,
+          "y": 330
+        },
+        {
+          "x": 940,
+          "y": 390
+        },
+        {
+          "x": 910,
+          "y": 420
+        },
+        {
+          "x": 880,
+          "y": 450
+        },
+        {
+          "x": 850,
+          "y": 450
+        },
+        {
+          "x": 700,
+          "y": 450
+        },
+        {
+          "x": 670,
+          "y": 480
+        },
+        {
+          "x": 640,
+          "y": 510
+        },
+        {
+          "x": 580,
+          "y": 510
+        },
+        {
+          "x": 550,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "6 Hornell-CFB",
+      "color": "#00B3B3",
+      "points": [
+        {
+          "x": 550,
+          "y": 480
+        },
+        {
+          "x": 550,
+          "y": 300
+        },
+        {
+          "x": 640,
+          "y": 210
+        },
+        {
+          "x": 850,
+          "y": 210
+        },
+        {
+          "x": 910,
+          "y": 150
+        },
+        {
+          "x": 910,
+          "y": 90
+        },
+        {
+          "x": 880,
+          "y": 120
+        },
+        {
+          "x": 460,
+          "y": 120
+        },
+        {
+          "x": 430,
+          "y": 150
+        },
+        {
+          "x": 340,
+          "y": 150
+        },
+        {
+          "x": 370,
+          "y": 180
+        },
+        {
+          "x": 370,
+          "y": 240
+        },
+        {
+          "x": 490,
+          "y": 240
+        },
+        {
+          "x": 550,
+          "y": 300
+        },
+        {
+          "x": 550,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "7 Birchaven-Trout Lake",
+      "color": "#FE6600",
+      "points": [
+        {
+          "x": 550,
+          "y": 480
+        },
+        {
+          "x": 580,
+          "y": 510
+        },
+        {
+          "x": 640,
+          "y": 510
+        },
+        {
+          "x": 670,
+          "y": 480
+        },
+        {
+          "x": 700,
+          "y": 450
+        },
+        {
+          "x": 940,
+          "y": 450
+        },
+        {
+          "x": 1000,
+          "y": 390
+        },
+        {
+          "x": 1000,
+          "y": 330
+        },
+        {
+          "x": 970,
+          "y": 300
+        },
+        {
+          "x": 760,
+          "y": 300
+        },
+        {
+          "x": 730,
+          "y": 330
+        },
+        {
+          "x": 730,
+          "y": 360
+        },
+        {
+          "x": 700,
+          "y": 390
+        },
+        {
+          "x": 580,
+          "y": 390
+        },
+        {
+          "x": 550,
+          "y": 420
+        },
+        {
+          "x": 550,
+          "y": 480
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "transit-terminal",
+      "name": "Transit Terminal",
+      "x": 550,
+      "y": 480,
+      "lines": ["1a", "1b", "2", "3", "4", "5", "6", "7"],
+      "label": {
+        "x": 520,
+        "y": 514,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "northgate-shopping-centre",
+      "name": "Northgate Shopping Centre",
+      "x": 700,
+      "y": 450,
+      "lines": ["2", "3", "5", "7"],
+      "label": {
+        "x": 730,
+        "y": 415,
+        "rot": 0,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "algonquin-sherriff",
+      "name": "Algonquin at Sherriff",
+      "x": 550,
+      "y": 300,
+      "lines": ["1a", "6"],
+      "label": {
+        "x": 520,
+        "y": 300,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "canada-place",
+      "name": "Canada Place",
+      "x": 550,
+      "y": 390,
+      "lines": ["3"],
+      "label": {
+        "x": 520,
+        "y": 390,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "founders-house",
+      "name": "Founders House",
+      "x": 370,
+      "y": 240,
+      "lines": ["1a", "1b", "6"],
+      "label": {
+        "x": 384,
+        "y": 268,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "education-centre",
+      "name": "Education Centre",
+      "x": 340,
+      "y": 150,
+      "lines": ["1a", "1b", "6"],
+      "label": {
+        "x": 340,
+        "y": 124,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "regional-health-centre",
+      "name": "Regional Health Centre",
+      "x": 250,
+      "y": 240,
+      "lines": ["1a", "1b"],
+      "label": {
+        "x": 220,
+        "y": 240,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "gormanville-main-st",
+      "name": "Main St W at Gormanville Rd",
+      "x": 370,
+      "y": 360,
+      "lines": ["1a", "1b"],
+      "label": {
+        "x": 370,
+        "y": 330,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "couchie-memorial-dr",
+      "name": "Couchie Memorial Dr",
+      "x": 160,
+      "y": 360,
+      "lines": ["1b"],
+      "label": {
+        "x": 160,
+        "y": 395,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "main-gate-plaza",
+      "name": "Main Gate Plaza",
+      "x": 610,
+      "y": 540,
+      "lines": ["2", "4"],
+      "label": {
+        "x": 585,
+        "y": 565,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "north-bay-mall",
+      "name": "North Bay Mall",
+      "x": 670,
+      "y": 690,
+      "lines": ["2", "4"],
+      "label": {
+        "x": 640,
+        "y": 690,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "nipissing-plaza",
+      "name": "Nipissing Plaza",
+      "x": 670,
+      "y": 810,
+      "lines": ["4"],
+      "label": {
+        "x": 640,
+        "y": 810,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "marshall-park-lcbo",
+      "name": "Marshall Park Dr at LCBO",
+      "x": 730,
+      "y": 780,
+      "lines": ["2"],
+      "label": {
+        "x": 770,
+        "y": 820,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "west-ferris-ss",
+      "name": "West Ferris S.S.",
+      "x": 790,
+      "y": 720,
+      "lines": ["2"],
+      "label": {
+        "x": 820,
+        "y": 720,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "west-ferris-arena",
+      "name": "West Ferris Arena",
+      "x": 760,
+      "y": 600,
+      "lines": ["2"],
+      "label": {
+        "x": 790,
+        "y": 600,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "champlain-park",
+      "name": "Champlain Park",
+      "x": 670,
+      "y": 930,
+      "lines": ["4"],
+      "label": {
+        "x": 640,
+        "y": 930,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "omischl-park",
+      "name": "Omischl Park",
+      "x": 880,
+      "y": 840,
+      "lines": ["4"],
+      "label": {
+        "x": 880,
+        "y": 805,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "ramada-inn",
+      "name": "Ramada Inn",
+      "x": 1000,
+      "y": 840,
+      "lines": ["4"],
+      "label": {
+        "x": 1000,
+        "y": 805,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cascades-casino",
+      "name": "Cascades Casino",
+      "x": 1120,
+      "y": 840,
+      "lines": ["4"],
+      "label": {
+        "x": 1120,
+        "y": 805,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "widdifield-ss",
+      "name": "Widdifield S.S.",
+      "x": 670,
+      "y": 270,
+      "lines": ["3"],
+      "label": {
+        "x": 670,
+        "y": 244,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "gloria-gardens",
+      "name": "Gloria Gardens",
+      "x": 790,
+      "y": 330,
+      "lines": ["5"],
+      "label": {
+        "x": 804,
+        "y": 358,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "laurentian-ski-hill",
+      "name": "Laurentian Ski Hill",
+      "x": 820,
+      "y": 300,
+      "lines": ["5"],
+      "label": {
+        "x": 820,
+        "y": 278,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "pete-palangio-arena",
+      "name": "Pete Palangio Arena",
+      "x": 940,
+      "y": 390,
+      "lines": ["5"],
+      "label": {
+        "x": 914,
+        "y": 396,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "canadore-college",
+      "name": "Canadore Commerce Campus",
+      "x": 850,
+      "y": 450,
+      "lines": ["5", "7"],
+      "label": {
+        "x": 850,
+        "y": 485,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "birchaven-cove",
+      "name": "Birchaven Cove",
+      "x": 1000,
+      "y": 360,
+      "lines": ["7"],
+      "label": {
+        "x": 1030,
+        "y": 360,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "armstrong-park",
+      "name": "Armstrong Park",
+      "x": 970,
+      "y": 300,
+      "lines": ["7"],
+      "label": {
+        "x": 1000,
+        "y": 300,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ski-hill-upper",
+      "name": "Ski Hill (Upper)",
+      "x": 730,
+      "y": 210,
+      "lines": ["6"],
+      "label": {
+        "x": 730,
+        "y": 184,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "aerospace-centre",
+      "name": "Aerospace Centre",
+      "x": 910,
+      "y": 90,
+      "lines": ["6"],
+      "label": {
+        "x": 940,
+        "y": 90,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1a",
+      "num": "1a",
+      "x": 310.13,
+      "y": 314.87,
+      "color": "#FF33CC",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "1b",
+      "num": "1b",
+      "x": 190,
+      "y": 330,
+      "color": "#9932CC",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 730,
+      "y": 540,
+      "color": "#FD0E35",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 668,
+      "y": 330,
+      "color": "#00AB66",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 790,
+      "y": 902,
+      "color": "#0072BB",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 589,
+      "y": 450,
+      "color": "#998200",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 640,
+      "y": 90,
+      "color": "#00B3B3",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "7",
+      "num": "7",
+      "x": 1008.49,
+      "y": 426.77,
+      "color": "#FE6600",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1260,
+      "minY": 0,
+      "maxY": 1000
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.506,
+    "refLonEast": -79.3834,
+    "refXWest": 200,
+    "refXEast": 1120,
+    "refLatNorth": 46.361,
+    "refLatSouth": 46.2444,
+    "refYNorth": 70,
+    "refYSouth": 930
+  },
+  "sequences": {
+    "2": [
+      "transit-terminal",
+      "main-gate-plaza",
+      "north-bay-mall",
+      "marshall-park-lcbo",
+      "west-ferris-ss",
+      "west-ferris-arena",
+      "northgate-shopping-centre"
+    ],
+    "3": ["transit-terminal", "northgate-shopping-centre", "widdifield-ss", "canada-place"],
+    "4": [
+      "transit-terminal",
+      "main-gate-plaza",
+      "north-bay-mall",
+      "nipissing-plaza",
+      "champlain-park",
+      "omischl-park",
+      "ramada-inn",
+      "cascades-casino"
+    ],
+    "5": [
+      "transit-terminal",
+      "gloria-gardens",
+      "laurentian-ski-hill",
+      "pete-palangio-arena",
+      "canadore-college",
+      "northgate-shopping-centre"
+    ],
+    "6": [
+      "transit-terminal",
+      "algonquin-sherriff",
+      "ski-hill-upper",
+      "aerospace-centre",
+      "education-centre",
+      "founders-house"
+    ],
+    "7": [
+      "transit-terminal",
+      "northgate-shopping-centre",
+      "canadore-college",
+      "birchaven-cove",
+      "armstrong-park"
+    ],
+    "1a": [
+      "transit-terminal",
+      "algonquin-sherriff",
+      "founders-house",
+      "education-centre",
+      "regional-health-centre",
+      "gormanville-main-st"
+    ],
+    "1b": [
+      "transit-terminal",
+      "gormanville-main-st",
+      "couchie-memorial-dr",
+      "regional-health-centre",
+      "education-centre",
+      "founders-house"
+    ]
+  },
+  "stationAliases": {
+    "Transit Terminal - Platform 2": "transit-terminal",
+    "Transit Terminal - Platform 3": "transit-terminal",
+    "Transit Terminal - Platform 4": "transit-terminal",
+    "Transit Terminal - Platform 5": "transit-terminal",
+    "Transit Terminal - Platform 6": "transit-terminal",
+    "Transit Terminal - Platform 7": "transit-terminal",
+    "Algonquin Ave at Sherriff Ave (N)": "algonquin-sherriff",
+    "Founders House (W)": "founders-house",
+    "Founders House (E)": "founders-house",
+    "North Bay Regional Health Centre (Emergency)": "regional-health-centre",
+    "Main St W at Gormanville Rd (E)": "gormanville-main-st",
+    "Main St W at Gormanville Rd (W)": "gormanville-main-st",
+    "North Bay Mall (S)": "north-bay-mall",
+    "North Bay Mall (N)": "north-bay-mall",
+    "Nipissing Plaza (N)": "nipissing-plaza",
+    "Champlain Park (N)": "champlain-park",
+    "Omischl Park (E)": "omischl-park",
+    "Omischl Park (W)": "omischl-park",
+    "Laurentian Ski Hill (Lower)": "laurentian-ski-hill",
+    "Gloria Gardens (E)": "gloria-gardens",
+    "Pete Palangio Arena (S)": "pete-palangio-arena",
+    "Canadore College Commerce Campus (W)": "canadore-college",
+    "Canadore College Commerce Campus (E)": "canadore-college",
+    "Start OD": "transit-terminal",
+    "End OD": "transit-terminal"
+  },
+  "stationIndex": [
+    {
+      "id": "STOP1192",
+      "schematicId": "aerospace-centre",
+      "name": "Aerospace Centre",
+      "lat": 46.360754,
+      "lon": -79.417591,
+      "lines": ["6"],
+      "platformIds": ["STOP1192"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "STOP1010",
+      "schematicId": "algonquin-sherriff",
+      "name": "Algonquin at Sherriff",
+      "lat": 46.332765,
+      "lon": -79.4658,
+      "lines": ["1a", "6"],
+      "platformIds": ["STOP1010"],
+      "departureRouteIds": ["1a", "1c", "6", "8"]
+    },
+    {
+      "id": "STOP1142",
+      "schematicId": "armstrong-park",
+      "name": "Armstrong Park",
+      "lat": 46.326142,
+      "lon": -79.414308,
+      "lines": ["7"],
+      "platformIds": ["STOP1142"],
+      "departureRouteIds": ["7"]
+    },
+    {
+      "id": "STOP1243",
+      "schematicId": "birchaven-cove",
+      "name": "Birchaven Cove",
+      "lat": 46.321157,
+      "lon": -79.407578,
+      "lines": ["7"],
+      "platformIds": ["STOP1243"],
+      "departureRouteIds": ["7"]
+    },
+    {
+      "id": "STOP1280",
+      "schematicId": "canada-place",
+      "name": "Canada Place",
+      "lat": 46.331869,
+      "lon": -79.465111,
+      "lines": ["3"],
+      "platformIds": ["STOP1280"],
+      "departureRouteIds": ["1c", "3"]
+    },
+    {
+      "id": "canadore-college",
+      "schematicId": "canadore-college",
+      "name": "Canadore Commerce Campus",
+      "lat": 46.314616,
+      "lon": -79.427542,
+      "lines": ["5", "7"],
+      "platformIds": ["STOP1042", "STOP1043"],
+      "departureRouteIds": ["5", "55", "7", "77", "8"]
+    },
+    {
+      "id": "STOP1301",
+      "schematicId": "cascades-casino",
+      "name": "Cascades Casino",
+      "lat": 46.255923,
+      "lon": -79.383432,
+      "lines": ["4"],
+      "platformIds": ["STOP1301"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "STOP1083",
+      "schematicId": "champlain-park",
+      "name": "Champlain Park",
+      "lat": 46.244363,
+      "lon": -79.422134,
+      "lines": ["4"],
+      "platformIds": ["STOP1083"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "STOP1239",
+      "schematicId": "couchie-memorial-dr",
+      "name": "Couchie Memorial Dr",
+      "lat": 46.329438,
+      "lon": -79.506029,
+      "lines": ["1b"],
+      "platformIds": ["STOP1239"],
+      "departureRouteIds": ["1b"]
+    },
+    {
+      "id": "STOP1135",
+      "schematicId": "education-centre",
+      "name": "Education Centre",
+      "lat": 46.343917,
+      "lon": -79.491508,
+      "lines": ["1a", "1b", "6"],
+      "platformIds": ["STOP1135"],
+      "departureRouteIds": ["1a", "1b", "1c", "6"]
+    },
+    {
+      "id": "founders-house",
+      "schematicId": "founders-house",
+      "name": "Founders House",
+      "lat": 46.334234,
+      "lon": -79.4882,
+      "lines": ["1a", "1b", "6"],
+      "platformIds": ["STOP1131", "STOP1132"],
+      "departureRouteIds": ["1a", "1b", "1c", "6"]
+    },
+    {
+      "id": "STOP1025",
+      "schematicId": "gloria-gardens",
+      "name": "Gloria Gardens",
+      "lat": 46.322888,
+      "lon": -79.434417,
+      "lines": ["5"],
+      "platformIds": ["STOP1025"],
+      "departureRouteIds": ["5", "8"]
+    },
+    {
+      "id": "STOP1030",
+      "schematicId": "laurentian-ski-hill",
+      "name": "Laurentian Ski Hill",
+      "lat": 46.332687,
+      "lon": -79.430922,
+      "lines": ["5"],
+      "platformIds": ["STOP1030"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "STOP1063",
+      "schematicId": "main-gate-plaza",
+      "name": "Main Gate Plaza",
+      "lat": 46.301928,
+      "lon": -79.456725,
+      "lines": ["2", "4"],
+      "platformIds": ["STOP1063"],
+      "departureRouteIds": ["2", "4"]
+    },
+    {
+      "id": "gormanville-main-st",
+      "schematicId": "gormanville-main-st",
+      "name": "Main St W at Gormanville Rd",
+      "lat": 46.322968,
+      "lon": -79.486442,
+      "lines": ["1a", "1b"],
+      "platformIds": ["STOP1222", "STOP1258"],
+      "departureRouteIds": ["1a", "1b"]
+    },
+    {
+      "id": "STOP1112",
+      "schematicId": "marshall-park-lcbo",
+      "name": "Marshall Park Dr at LCBO",
+      "lat": 46.272794,
+      "lon": -79.443033,
+      "lines": ["2"],
+      "platformIds": ["STOP1112"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STOP1091",
+      "schematicId": "nipissing-plaza",
+      "name": "Nipissing Plaza",
+      "lat": 46.278473,
+      "lon": -79.44589,
+      "lines": ["4"],
+      "platformIds": ["STOP1091"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "north-bay-mall",
+      "schematicId": "north-bay-mall",
+      "name": "North Bay Mall",
+      "lat": 46.281949,
+      "lon": -79.448286,
+      "lines": ["2", "4"],
+      "platformIds": ["STOP1071", "STOP1122"],
+      "departureRouteIds": ["2", "4"]
+    },
+    {
+      "id": "STOP1054",
+      "schematicId": "northgate-shopping-centre",
+      "name": "Northgate Shopping Centre",
+      "lat": 46.313583,
+      "lon": -79.441169,
+      "lines": ["2", "3", "5", "7"],
+      "platformIds": ["STOP1054"],
+      "departureRouteIds": ["2", "3", "5", "55", "7", "77", "8"]
+    },
+    {
+      "id": "omischl-park",
+      "schematicId": "omischl-park",
+      "name": "Omischl Park",
+      "lat": 46.258461,
+      "lon": -79.412468,
+      "lines": ["4"],
+      "platformIds": ["STOP1202", "STOP1254"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "STOP1039",
+      "schematicId": "pete-palangio-arena",
+      "name": "Pete Palangio Arena",
+      "lat": 46.317724,
+      "lon": -79.424078,
+      "lines": ["5"],
+      "platformIds": ["STOP1039"],
+      "departureRouteIds": ["5", "8"]
+    },
+    {
+      "id": "STOP1207",
+      "schematicId": "ramada-inn",
+      "name": "Ramada Inn",
+      "lat": 46.258004,
+      "lon": -79.38745,
+      "lines": ["4"],
+      "platformIds": ["STOP1207"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "STOP1228",
+      "schematicId": "regional-health-centre",
+      "name": "Regional Health Centre",
+      "lat": 46.33555,
+      "lon": -79.49741,
+      "lines": ["1a", "1b"],
+      "platformIds": ["STOP1228"],
+      "departureRouteIds": ["1a", "1b"]
+    },
+    {
+      "id": "STOP1181",
+      "schematicId": "ski-hill-upper",
+      "name": "Ski Hill (Upper)",
+      "lat": 46.339925,
+      "lon": -79.435406,
+      "lines": ["6"],
+      "platformIds": ["STOP1181"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "transit-terminal",
+      "schematicId": "transit-terminal",
+      "name": "Transit Terminal",
+      "lat": 46.3091789,
+      "lon": -79.4652872,
+      "lines": ["1a", "1b", "2", "3", "4", "5", "6", "7"],
+      "platformIds": [
+        "OD0001",
+        "OD0002",
+        "STOP1501",
+        "STOP1502",
+        "STOP1503",
+        "STOP1505",
+        "STOP1506",
+        "STOP1507"
+      ],
+      "departureRouteIds": ["1a", "1b", "2", "3", "4", "5", "55", "6", "7", "77", "8", "9"]
+    },
+    {
+      "id": "STOP1120",
+      "schematicId": "west-ferris-arena",
+      "name": "West Ferris Arena",
+      "lat": 46.288966,
+      "lon": -79.448381,
+      "lines": ["2"],
+      "platformIds": ["STOP1120"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STOP1114",
+      "schematicId": "west-ferris-ss",
+      "name": "West Ferris S.S.",
+      "lat": 46.277088,
+      "lon": -79.435723,
+      "lines": ["2"],
+      "platformIds": ["STOP1114"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STOP1176",
+      "schematicId": "widdifield-ss",
+      "name": "Widdifield S.S.",
+      "lat": 46.334464,
+      "lon": -79.450763,
+      "lines": ["3"],
+      "platformIds": ["STOP1176"],
+      "departureRouteIds": ["3"]
+    }
+  ]
+}

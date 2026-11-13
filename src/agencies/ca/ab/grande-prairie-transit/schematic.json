@@ -1,0 +1,624 @@
+{
+  "viewBoxWidth": 1300,
+  "viewBoxHeight": 1260,
+  "lines": [
+    {
+      "id": "1636",
+      "name": "Route 1",
+      "color": "#1F77B4",
+      "points": [
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 850
+        },
+        {
+          "x": 750,
+          "y": 1000
+        },
+        {
+          "x": 550,
+          "y": 1000
+        },
+        {
+          "x": 350,
+          "y": 1000
+        },
+        {
+          "x": 250,
+          "y": 900
+        },
+        {
+          "x": 250,
+          "y": 500
+        },
+        {
+          "x": 350,
+          "y": 400
+        },
+        {
+          "x": 450,
+          "y": 400
+        },
+        {
+          "x": 450,
+          "y": 600
+        },
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "1637",
+      "name": "Route 2",
+      "color": "#D62728",
+      "points": [
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 800
+        },
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 550,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "1638",
+      "name": "Route 3",
+      "color": "#2CA02C",
+      "points": [
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 450,
+          "y": 600
+        },
+        {
+          "x": 200,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "1639",
+      "name": "Route 4",
+      "color": "#9467BD",
+      "points": [
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 450,
+          "y": 600
+        },
+        {
+          "x": 450,
+          "y": 400
+        },
+        {
+          "x": 550,
+          "y": 300
+        },
+        {
+          "x": 800,
+          "y": 300
+        },
+        {
+          "x": 800,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "1640",
+      "name": "Route 5",
+      "color": "#FF7F0E",
+      "points": [
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 1100
+        },
+        {
+          "x": 650,
+          "y": 1100
+        },
+        {
+          "x": 550,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "1641",
+      "name": "Route 6",
+      "color": "#17BECF",
+      "points": [
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 300
+        },
+        {
+          "x": 950,
+          "y": 150
+        },
+        {
+          "x": 950,
+          "y": 450
+        },
+        {
+          "x": 800,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "1642",
+      "name": "Route 7",
+      "color": "#E377C2",
+      "points": [
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 1100,
+          "y": 600
+        },
+        {
+          "x": 1100,
+          "y": 400
+        },
+        {
+          "x": 1000,
+          "y": 300
+        },
+        {
+          "x": 800,
+          "y": 300
+        },
+        {
+          "x": 800,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "1643",
+      "name": "Route 8",
+      "color": "#8C564B",
+      "points": [
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "1764",
+      "name": "Route 9 Shoppers Shuttle",
+      "color": "#BCBD22",
+      "points": [
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 1150
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "towne-centre-mall",
+      "name": "Towne Centre Mall",
+      "x": 800,
+      "y": 600,
+      "lines": ["1636", "1637", "1638", "1639", "1640", "1641", "1642", "1643", "1764"],
+      "label": {
+        "x": 780,
+        "y": 572,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "industrial-training-centre",
+      "name": "Industrial Training Centre",
+      "x": 600,
+      "y": 600,
+      "lines": ["1636", "1638", "1639"],
+      "label": {
+        "x": 600,
+        "y": 634,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "nw-polytechnic",
+      "name": "NW Polytechnic",
+      "x": 450,
+      "y": 600,
+      "lines": ["1636", "1638", "1639"],
+      "label": {
+        "x": 428,
+        "y": 630,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "regional-hospital",
+      "name": "Regional Hospital",
+      "x": 450,
+      "y": 400,
+      "lines": ["1636", "1639"],
+      "label": {
+        "x": 430,
+        "y": 372,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "120-st-99-ave",
+      "name": "120 St & 99 Ave",
+      "x": 200,
+      "y": 600,
+      "lines": ["1638"],
+      "label": {
+        "x": 172,
+        "y": 600,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "prairie-mall",
+      "name": "Prairie Mall",
+      "x": 800,
+      "y": 300,
+      "lines": ["1639", "1641", "1642", "1643"],
+      "label": {
+        "x": 780,
+        "y": 272,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lakeland-dr-124-ave",
+      "name": "Lakeland Dr & 124 Ave",
+      "x": 950,
+      "y": 150,
+      "lines": ["1641"],
+      "label": {
+        "x": 978,
+        "y": 150,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "111-ave-92-st",
+      "name": "111 Ave & 92 St",
+      "x": 1100,
+      "y": 400,
+      "lines": ["1642"],
+      "label": {
+        "x": 1128,
+        "y": 400,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "eastlink-centre",
+      "name": "Eastlink Centre",
+      "x": 550,
+      "y": 1000,
+      "lines": ["1636", "1637", "1640"],
+      "label": {
+        "x": 550,
+        "y": 968,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "62-ave-90-st",
+      "name": "62 Ave & 90 St",
+      "x": 1000,
+      "y": 1150,
+      "lines": ["1764"],
+      "label": {
+        "x": 1000,
+        "y": 1184,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1636",
+      "num": "1",
+      "x": 217,
+      "y": 750,
+      "color": "#1F77B4",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "1637",
+      "num": "2",
+      "x": 723,
+      "y": 923,
+      "color": "#D62728",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "1638",
+      "num": "3",
+      "x": 350,
+      "y": 567,
+      "color": "#2CA02C",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1639",
+      "num": "4",
+      "x": 650,
+      "y": 333,
+      "color": "#9467BD",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1640",
+      "num": "5",
+      "x": 833,
+      "y": 1040,
+      "color": "#FF7F0E",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1641",
+      "num": "6",
+      "x": 983,
+      "y": 225,
+      "color": "#17BECF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1642",
+      "num": "7",
+      "x": 1133,
+      "y": 500,
+      "color": "#E377C2",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1643",
+      "num": "8",
+      "x": 767,
+      "y": 450,
+      "color": "#8C564B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "1764",
+      "num": "9",
+      "x": 1033,
+      "y": 1000,
+      "color": "#BCBD22",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1636": [
+      "towne-centre-mall",
+      "eastlink-centre",
+      "regional-hospital",
+      "nw-polytechnic",
+      "industrial-training-centre"
+    ],
+    "1637": ["towne-centre-mall", "eastlink-centre"],
+    "1638": ["towne-centre-mall", "industrial-training-centre", "nw-polytechnic", "120-st-99-ave"],
+    "1639": [
+      "towne-centre-mall",
+      "industrial-training-centre",
+      "nw-polytechnic",
+      "regional-hospital",
+      "prairie-mall"
+    ],
+    "1640": ["towne-centre-mall", "eastlink-centre"],
+    "1641": ["towne-centre-mall", "prairie-mall", "lakeland-dr-124-ave"],
+    "1642": ["towne-centre-mall", "111-ave-92-st", "prairie-mall"],
+    "1643": ["towne-centre-mall", "prairie-mall"],
+    "1764": ["towne-centre-mall", "62-ave-90-st"]
+  },
+  "stationAliases": {
+    "code:1000": "towne-centre-mall",
+    "code:2000": "eastlink-centre",
+    "code:3000": "nw-polytechnic",
+    "code:4000": "prairie-mall",
+    "code:160": "regional-hospital",
+    "code:414": "regional-hospital",
+    "code:308": "industrial-training-centre",
+    "code:408": "industrial-training-centre",
+    "code:328": "120-st-99-ave",
+    "code:616": "lakeland-dr-124-ave",
+    "code:738": "111-ave-92-st",
+    "code:954": "62-ave-90-st"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1280,
+      "minY": 90,
+      "maxY": 1230
+    },
+    "minZoom": 0.5,
+    "maxZoom": 6
+  },
+  "geoProjection": {
+    "refLonWest": -118.8592612,
+    "refLonEast": -118.7609432,
+    "refXWest": 200,
+    "refXEast": 1000,
+    "refLatNorth": 55.1928137,
+    "refLatSouth": 55.1365123,
+    "refYNorth": 150,
+    "refYSouth": 1150
+  },
+  "stationIndex": [
+    {
+      "id": "41453",
+      "schematicId": "111-ave-92-st",
+      "name": "111 Ave & 92 St",
+      "lat": 55.1807672,
+      "lon": -118.7687492,
+      "lines": ["1642"],
+      "platformIds": ["41453"],
+      "departureRouteIds": ["1642"]
+    },
+    {
+      "id": "41354",
+      "schematicId": "120-st-99-ave",
+      "name": "120 St & 99 Ave",
+      "lat": 55.1689274,
+      "lon": -118.8592612,
+      "lines": ["1638"],
+      "platformIds": ["41354"],
+      "departureRouteIds": ["1638"]
+    },
+    {
+      "id": "44337",
+      "schematicId": "62-ave-90-st",
+      "name": "62 Ave & 90 St",
+      "lat": 55.1365123,
+      "lon": -118.7609432,
+      "lines": ["1764"],
+      "platformIds": ["44337"],
+      "departureRouteIds": ["1764"]
+    },
+    {
+      "id": "41287",
+      "schematicId": "eastlink-centre",
+      "name": "Eastlink Centre",
+      "lat": 55.1447016,
+      "lon": -118.8142448,
+      "lines": ["1636", "1637", "1640"],
+      "platformIds": ["41287"],
+      "departureRouteIds": ["1636", "1637", "1640"]
+    },
+    {
+      "id": "industrial-training-centre",
+      "schematicId": "industrial-training-centre",
+      "name": "Industrial Training Centre",
+      "lat": 55.17243,
+      "lon": -118.81707,
+      "lines": ["1636", "1638", "1639"],
+      "platformIds": ["41308", "41345", "41370"],
+      "departureRouteIds": ["1636", "1638", "1639"]
+    },
+    {
+      "id": "41418",
+      "schematicId": "lakeland-dr-124-ave",
+      "name": "Lakeland Dr & 124 Ave",
+      "lat": 55.1928137,
+      "lon": -118.774956,
+      "lines": ["1641"],
+      "platformIds": ["41418"],
+      "departureRouteIds": ["1641"]
+    },
+    {
+      "id": "41307",
+      "schematicId": "nw-polytechnic",
+      "name": "NW Polytechnic",
+      "lat": 55.1754517,
+      "lon": -118.819468,
+      "lines": ["1636", "1638", "1639"],
+      "platformIds": ["41307"],
+      "departureRouteIds": ["1636", "1638", "1639"]
+    },
+    {
+      "id": "41380",
+      "schematicId": "prairie-mall",
+      "name": "Prairie Mall",
+      "lat": 55.1872631,
+      "lon": -118.7898515,
+      "lines": ["1639", "1641", "1642", "1643"],
+      "platformIds": ["41380"],
+      "departureRouteIds": ["1639", "1641", "1642", "1643"]
+    },
+    {
+      "id": "regional-hospital",
+      "schematicId": "regional-hospital",
+      "name": "Regional Hospital",
+      "lat": 55.18081,
+      "lon": -118.82571,
+      "lines": ["1636", "1639"],
+      "platformIds": ["41306", "41372"],
+      "departureRouteIds": ["1636", "1639"]
+    },
+    {
+      "id": "41276",
+      "schematicId": "towne-centre-mall",
+      "name": "Towne Centre Mall",
+      "lat": 55.16966565,
+      "lon": -118.7914868,
+      "lines": ["1636", "1637", "1638", "1639", "1640", "1641", "1642", "1643", "1764"],
+      "platformIds": ["41276"],
+      "departureRouteIds": ["1636", "1637", "1638", "1639", "1640", "1641", "1642", "1643", "1764"]
+    }
+  ]
+}

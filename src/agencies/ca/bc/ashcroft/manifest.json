@@ -1,0 +1,152 @@
+{
+  "id": "ashcroft",
+  "name": "BC Transit Ashcroft\u2013Cache Creek\u2013Clinton",
+  "serviceArea": "Ashcroft, Cache Creek & Clinton",
+  "shortName": "Ashcroft",
+  "locale": "en-CA",
+  "timezone": "America/Vancouver",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "bc"
+  },
+  "bounds": [
+    {
+      "minLat": 50.7,
+      "maxLat": 50.74,
+      "minLon": -121.3,
+      "maxLon": -121.26
+    },
+    {
+      "minLat": 50.79,
+      "maxLat": 50.83,
+      "minLon": -121.34,
+      "maxLon": -121.3
+    },
+    {
+      "minLat": 51.08,
+      "maxLat": 51.11,
+      "minLon": -121.61,
+      "maxLon": -121.56
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "BC Transit Ashcroft\u2013Cache Creek\u2013Clinton / Consat Telematics AB",
+    "url": "https://www.bctransit.com/open-data/terms-of-use/",
+    "license": "BC Transit Open Data Terms of Use"
+  },
+  "cityPresets": [
+    {
+      "name": "Ashcroft",
+      "lat": 50.72513,
+      "lon": -121.27939
+    },
+    {
+      "name": "Cache Creek",
+      "lat": 50.81107,
+      "lon": -121.32438
+    },
+    {
+      "name": "Clinton",
+      "lat": 51.09333,
+      "lon": -121.58412
+    }
+  ],
+  "popularSurfaceRoutes": ["1-ASH"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "BC Transit Ashcroft\u2013Cache Creek\u2013Clinton",
+        "url": "https://bct.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/?operatorIds=38",
+        "cacheFileName": "ashcroft-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#1C4587",
+    "defaultTextColor": "#FFFFFF",
+    "ignoreFeedRouteColors": true
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=38",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bct.tmix.se/gtfs-realtime/tripupdates.pb?operatorIds=38",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://bct.tmix.se/gtfs-realtime/alerts.pb?operatorIds=38",
+      "entityOnly": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=2",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=2",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=2&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=2&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=2&alertTypeId=1",
+      "language": "en",
+      "requiredForCompleteness": true
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1-ASH"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  },
+  "focus": {
+    "lat": 50.81107,
+    "lon": -121.32438
+  }
+}

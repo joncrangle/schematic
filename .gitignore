@@ -1,0 +1,45 @@
+# Dependencies & System
+node_modules
+.DS_Store
+*.local
+.env
+.dev.vars
+wrangler.jsonc
+
+# Build Outputs & Framework Caches
+dist
+dist-ssr
+.nitro
+.tanstack
+.wrangler
+.output
+.vinxi
+__unconfig*
+coverage
+/public/sw.js
+
+# Rust build artifacts
+target/
+**/target/
+services/**/target/
+**/*.rs.bk
+
+# Runtime Databases & Local Data Directories
+/data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.zip
+completegtfs.zip
+.gtfs-cache-meta.json
+
+# Explicitly keep static source data fixtures
+!src/data/
+!src/data/**
+
+# Scratch & State
+inspiration/
+.state/

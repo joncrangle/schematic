@@ -1,0 +1,306 @@
+{
+  "hubs": [],
+  "exclusions": [
+    {
+      "left": {
+        "agencyId": "amtrak",
+        "stationName": "Niagara Falls Amtrak Station"
+      },
+      "right": {
+        "agencyId": "nrt",
+        "stationName": "BRIDGE ST + RIVER RD"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "amtrak",
+        "stationName": "Canadian Border"
+      },
+      "right": {
+        "agencyId": "nrt",
+        "stationName": "BRIDGE ST + RIVER RD"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "amtrak",
+        "stationName": "Canadian Border"
+      },
+      "right": {
+        "agencyId": "nrt",
+        "stationName": "WHITE WATER WALK - NORTH"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "amtrak",
+        "stationName": "Canadian Border"
+      },
+      "right": {
+        "agencyId": "nrt",
+        "stationName": "WHITE WATER WALK - SOUTH"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "amtrak",
+        "stationName": "Canadian Border"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Niagara Falls Station"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "via",
+        "stationName": "Niagara Falls Station"
+      },
+      "right": {
+        "agencyId": "nrt",
+        "stationName": "BRIDGE ST + RIVER RD"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "amtrak",
+        "stationName": "Toronto",
+        "stationId": "toronto"
+      },
+      "right": {
+        "agencyId": "ttc",
+        "stationName": "Bay St at King St West"
+      }
+    }
+  ],
+  "isolated": [
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Harrisburg",
+      "stationId": "harrisburg"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Indianapolis",
+      "stationId": "indianapolis"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Kalamazoo",
+      "stationId": "kalamazoo"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Pittsburgh",
+      "stationId": "pittsburgh"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Portland",
+      "stationId": "portland"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "St. Louis",
+      "stationId": "st-louis"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Syracuse",
+      "stationId": "syracuse"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Toledo",
+      "stationId": "toledo"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Albuquerque"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Altoona Bus Station"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Ann Arbor"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Battle Creek Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Bellingham Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Bellows Falls Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Benson Visitors Center"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Bloomington-Normal"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Bridgeport Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Chico Bus Station"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Durham"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Everett Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Fayetteville Bus Station"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Ft Worth Bus Station"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Glendale Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Greensboro Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Greensburg Westmoreland Transit Ctr"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Johnstown Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Lafayette Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Lynchburg Transit Center"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Mount Vernon Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Newark (NJ)"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Newark (University of Delaware)"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "New Brunswick (Downtown)"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Hyattsville New Carrollton Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "New Haven Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Oxnard Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Pasco Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Providence (Canal St & Smith St)"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Redding Bus Station"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Sandusky Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Santa Ana Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Santa Barbara Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "St. Albans Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Stamford Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Tacoma (G St & Puyallup Ave)"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Tyrone Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "New York Midtown (31st St & 8th Ave)"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Rochester (Cumberland)"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Utica Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Victorville Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "West Palm Beach Bus Station"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Williamsburg Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Wilmington"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Woodbridge Bus Stop"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "Newark (Raymond Plaza W)"
+    },
+    {
+      "agencyId": "flixbus-us",
+      "stationName": "New Haven"
+    }
+  ]
+}

@@ -1,0 +1,1187 @@
+{
+  "viewBoxWidth": 1600,
+  "viewBoxHeight": 1450,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 Trafalgar",
+      "color": "#FF0000",
+      "points": [
+        {
+          "x": 798.82,
+          "y": 126.03
+        },
+        {
+          "x": 1307.94,
+          "y": 635.15
+        },
+        {
+          "x": 1251.37,
+          "y": 691.72
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Third Line",
+      "color": "#660099",
+      "points": [
+        {
+          "x": 416.98,
+          "y": 649.29
+        },
+        {
+          "x": 770.54,
+          "y": 1002.84
+        },
+        {
+          "x": 713.97,
+          "y": 1059.41
+        },
+        {
+          "x": 742.25,
+          "y": 1087.7
+        },
+        {
+          "x": 855.39,
+          "y": 1087.7
+        },
+        {
+          "x": 968.53,
+          "y": 974.56
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Speers-Cornwall",
+      "color": "#663300",
+      "points": [
+        {
+          "x": 713.97,
+          "y": 1059.41
+        },
+        {
+          "x": 1392.79,
+          "y": 380.59
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "5 Dundas",
+      "color": "#FF9900",
+      "points": [
+        {
+          "x": 317.99,
+          "y": 748.28
+        },
+        {
+          "x": 1010.95,
+          "y": 55.32
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "6 Upper Middle",
+      "color": "#FF6699",
+      "points": [
+        {
+          "x": 713.97,
+          "y": 1059.41
+        },
+        {
+          "x": 643.26,
+          "y": 988.7
+        },
+        {
+          "x": 643.26,
+          "y": 875.56
+        },
+        {
+          "x": 1095.81,
+          "y": 423.02
+        },
+        {
+          "x": 1152.38,
+          "y": 479.58
+        },
+        {
+          "x": 1152.38,
+          "y": 423.02
+        },
+        {
+          "x": 1152.38,
+          "y": 366.45
+        },
+        {
+          "x": 1237.23,
+          "y": 281.59
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "13 Westoak Trails",
+      "color": "#009900",
+      "points": [
+        {
+          "x": 713.97,
+          "y": 1059.41
+        },
+        {
+          "x": 643.26,
+          "y": 988.7
+        },
+        {
+          "x": 643.26,
+          "y": 875.56
+        },
+        {
+          "x": 530.12,
+          "y": 762.43
+        },
+        {
+          "x": 756.4,
+          "y": 536.15
+        },
+        {
+          "x": 869.53,
+          "y": 649.29
+        },
+        {
+          "x": 982.67,
+          "y": 649.29
+        },
+        {
+          "x": 1067.52,
+          "y": 564.44
+        },
+        {
+          "x": 1124.09,
+          "y": 564.44
+        },
+        {
+          "x": 1208.94,
+          "y": 564.44
+        },
+        {
+          "x": 1223.09,
+          "y": 550.29
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "14 Lakeshore West",
+      "color": "#0099FF",
+      "points": [
+        {
+          "x": 623.97,
+          "y": 1229.12
+        },
+        {
+          "x": 713.97,
+          "y": 1229.12
+        },
+        {
+          "x": 1251.37,
+          "y": 691.72
+        },
+        {
+          "x": 1138.23,
+          "y": 691.72
+        },
+        {
+          "x": 1109.95,
+          "y": 663.43
+        },
+        {
+          "x": 1223.09,
+          "y": 550.29
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "19 River Oaks",
+      "color": "#990099",
+      "points": [
+        {
+          "x": 869.53,
+          "y": 196.74
+        },
+        {
+          "x": 869.53,
+          "y": 309.88
+        },
+        {
+          "x": 812.96,
+          "y": 366.45
+        },
+        {
+          "x": 996.81,
+          "y": 550.29
+        },
+        {
+          "x": 1138.23,
+          "y": 550.29
+        },
+        {
+          "x": 1223.09,
+          "y": 550.29
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "trafalgar-407",
+      "name": "Trafalgar / 407 Park & Ride",
+      "x": 798.82,
+      "y": 126.03,
+      "lines": ["1"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 778.82,
+        "y": 126.03,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "trafalgar-threshing-mills",
+      "name": "Trafalgar at Threshing Mills",
+      "x": 834.18,
+      "y": 161.39,
+      "lines": ["1"],
+      "accessible": true,
+      "label": {
+        "x": 814.18,
+        "y": 161.39,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dundas-407",
+      "name": "Dundas / 407 Park & Ride",
+      "x": 317.99,
+      "y": 748.28,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 297.99,
+        "y": 748.28,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "otmh",
+      "name": "Oakville Trafalgar Hospital",
+      "x": 416.98,
+      "y": 649.29,
+      "lines": ["3", "5"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 396.98,
+        "y": 649.29,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dundas-third",
+      "name": "Dundas at Third Line",
+      "x": 459.41,
+      "y": 691.72,
+      "lines": ["3"],
+      "accessible": true,
+      "label": {
+        "x": 439.41,
+        "y": 691.72,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dundas-neyagawa",
+      "name": "Dundas at Neyagawa",
+      "x": 643.26,
+      "y": 423.02,
+      "lines": ["5"],
+      "accessible": true,
+      "label": {
+        "x": 623.26,
+        "y": 423.02,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "uptown-core",
+      "name": "Uptown Core",
+      "x": 869.53,
+      "y": 196.74,
+      "lines": ["1", "5", "19"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 849.53,
+        "y": 196.74,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dundas-winston-churchill",
+      "name": "Dundas at Winston Churchill",
+      "x": 1010.95,
+      "y": 55.32,
+      "lines": ["5"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 990.95,
+        "y": 55.32,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "westoak-third",
+      "name": "Westoak Trails at Third Line",
+      "x": 530.12,
+      "y": 762.43,
+      "lines": ["3", "13"],
+      "accessible": true,
+      "label": {
+        "x": 510.12,
+        "y": 762.43,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "river-oaks-sixth",
+      "name": "River Oaks at Sixth Line",
+      "x": 897.82,
+      "y": 451.3,
+      "lines": ["19"],
+      "accessible": true,
+      "label": {
+        "x": 877.82,
+        "y": 451.3,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "upper-middle-third",
+      "name": "Upper Middle at Third Line",
+      "x": 643.26,
+      "y": 875.56,
+      "lines": ["3", "6"],
+      "accessible": true,
+      "label": {
+        "x": 623.26,
+        "y": 875.56,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "upper-middle-neyagawa",
+      "name": "Upper Middle at Neyagawa",
+      "x": 869.53,
+      "y": 649.29,
+      "lines": ["6", "13"],
+      "accessible": true,
+      "label": {
+        "x": 849.53,
+        "y": 649.29,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "trafalgar-upper-middle",
+      "name": "Trafalgar at Upper Middle",
+      "x": 1095.81,
+      "y": 423.02,
+      "lines": ["1", "6"],
+      "accessible": true,
+      "label": {
+        "x": 1075.81,
+        "y": 423.02,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "upper-middle-ford",
+      "name": "Upper Middle at Ford",
+      "x": 1180.66,
+      "y": 338.16,
+      "lines": ["6"],
+      "accessible": true,
+      "label": {
+        "x": 1160.66,
+        "y": 338.16,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "laird-winston-churchill",
+      "name": "Laird at Winston Churchill",
+      "x": 1237.23,
+      "y": 281.59,
+      "lines": ["6"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1217.23,
+        "y": 281.59,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "halton-region-centre",
+      "name": "Halton Region Centre",
+      "x": 643.26,
+      "y": 988.7,
+      "lines": ["6", "13"],
+      "accessible": true,
+      "label": {
+        "x": 623.26,
+        "y": 988.7,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "sheridan-college",
+      "name": "Sheridan College",
+      "x": 1152.38,
+      "y": 479.58,
+      "lines": ["1", "6"],
+      "accessible": true,
+      "label": {
+        "x": 1177.38,
+        "y": 454.58,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "oakville-place",
+      "name": "Oakville Place",
+      "x": 1124.09,
+      "y": 564.44,
+      "lines": ["13"],
+      "accessible": true,
+      "label": {
+        "x": 1124.09,
+        "y": 589.44,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "trafalgar-mccraney",
+      "name": "Trafalgar at McCraney",
+      "x": 1138.23,
+      "y": 550.29,
+      "lines": ["19"],
+      "accessible": true,
+      "label": {
+        "x": 1138.23,
+        "y": 525.29,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "bronte-go",
+      "name": "Bronte GO",
+      "x": 713.97,
+      "y": 1059.41,
+      "lines": ["3", "4", "6", "13"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 693.97,
+        "y": 1059.41,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "speers-third",
+      "name": "Speers at Third Line",
+      "x": 770.54,
+      "y": 1002.84,
+      "lines": ["3", "4"],
+      "accessible": true,
+      "label": {
+        "x": 790.54,
+        "y": 1002.84,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "speers-kerr",
+      "name": "Speers at Kerr",
+      "x": 1109.95,
+      "y": 663.43,
+      "lines": ["4", "14"],
+      "accessible": true,
+      "label": {
+        "x": 1089.95,
+        "y": 663.43,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "oakville-go",
+      "name": "Oakville GO",
+      "x": 1223.09,
+      "y": 550.29,
+      "lines": ["1", "4", "13", "14", "19"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1243.09,
+        "y": 550.29,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cornwall-maple-grove",
+      "name": "Cornwall at Maple Grove",
+      "x": 1307.94,
+      "y": 465.44,
+      "lines": ["4"],
+      "accessible": true,
+      "label": {
+        "x": 1327.94,
+        "y": 465.44,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "clarkson-go",
+      "name": "Clarkson GO",
+      "x": 1392.79,
+      "y": 380.59,
+      "lines": ["4"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1372.79,
+        "y": 380.59,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "appleby-go",
+      "name": "Appleby GO",
+      "x": 623.97,
+      "y": 1229.12,
+      "lines": ["14"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 623.97,
+        "y": 1254.12,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lakeshore-burloak",
+      "name": "Lakeshore at Burloak",
+      "x": 784.68,
+      "y": 1158.41,
+      "lines": ["14"],
+      "accessible": true,
+      "label": {
+        "x": 764.68,
+        "y": 1158.41,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bronte-village",
+      "name": "Bronte Village",
+      "x": 855.39,
+      "y": 1087.7,
+      "lines": ["3", "14"],
+      "accessible": true,
+      "label": {
+        "x": 835.39,
+        "y": 1087.7,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "south-oakville-centre",
+      "name": "South Oakville Centre",
+      "x": 968.53,
+      "y": 974.56,
+      "lines": ["3", "14"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 948.53,
+        "y": 974.56,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "downtown-oakville",
+      "name": "Downtown Oakville",
+      "x": 1251.37,
+      "y": 691.72,
+      "lines": ["1", "14"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1251.37,
+        "y": 716.72,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 774.07,
+      "y": 101.28,
+      "color": "#FF0000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 496.18,
+      "y": 683.23,
+      "color": "#660099",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1314.06,
+      "y": 414.06,
+      "color": "#663300",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 289.71,
+      "y": 776.57,
+      "color": "#FF9900",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 1261.98,
+      "y": 256.85,
+      "color": "#FF6699",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "13",
+      "num": "13",
+      "x": 676.15,
+      "y": 571.15,
+      "color": "#009900",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "14",
+      "num": "14",
+      "x": 829.17,
+      "y": 1159.17,
+      "color": "#0099FF",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "19",
+      "num": "19",
+      "x": 791.75,
+      "y": 345.23,
+      "color": "#990099",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1560,
+      "minY": 30,
+      "maxY": 1400
+    },
+    "minZoom": 0.5,
+    "maxZoom": 6
+  },
+  "geoProjection": {
+    "refLonWest": -79.829729,
+    "refLonEast": -79.6327,
+    "refXWest": 132.18,
+    "refXEast": 1440.75,
+    "refLatNorth": 43.525209,
+    "refLatSouth": 43.3725,
+    "refYNorth": 127.81,
+    "refYSouth": 1187.17
+  },
+  "sequences": {
+    "1": [
+      "trafalgar-407",
+      "trafalgar-threshing-mills",
+      "uptown-core",
+      "trafalgar-upper-middle",
+      "sheridan-college",
+      "oakville-go",
+      "downtown-oakville"
+    ],
+    "3": [
+      "otmh",
+      "dundas-third",
+      "westoak-third",
+      "upper-middle-third",
+      "speers-third",
+      "bronte-go",
+      "bronte-village",
+      "south-oakville-centre"
+    ],
+    "4": [
+      "bronte-go",
+      "speers-third",
+      "speers-kerr",
+      "oakville-go",
+      "cornwall-maple-grove",
+      "clarkson-go"
+    ],
+    "5": ["dundas-407", "otmh", "dundas-neyagawa", "uptown-core", "dundas-winston-churchill"],
+    "6": [
+      "bronte-go",
+      "halton-region-centre",
+      "upper-middle-third",
+      "upper-middle-neyagawa",
+      "trafalgar-upper-middle",
+      "sheridan-college",
+      "upper-middle-ford",
+      "laird-winston-churchill"
+    ],
+    "13": [
+      "bronte-go",
+      "halton-region-centre",
+      "westoak-third",
+      "upper-middle-neyagawa",
+      "oakville-place",
+      "oakville-go"
+    ],
+    "14": [
+      "appleby-go",
+      "lakeshore-burloak",
+      "bronte-village",
+      "south-oakville-centre",
+      "downtown-oakville",
+      "speers-kerr",
+      "oakville-go"
+    ],
+    "19": ["uptown-core", "river-oaks-sixth", "trafalgar-mccraney", "oakville-go"]
+  },
+  "stationAliases": {
+    "OAKVILLE GO STATION": "oakville-go",
+    "BRONTE GO STATION": "bronte-go",
+    "APPLEBY GO STATION": "appleby-go",
+    "CLARKSON GO STATION": "clarkson-go",
+    "UPTOWN CORE TERMINAL": "uptown-core",
+    "SOUTH OAKVILLE CENTRE": "south-oakville-centre",
+    "OTMH WEST ENTRANCE": "otmh",
+    "OTMH NORTH ENTRANCE": "otmh",
+    "OTMH EAST ENTRANCE": "otmh",
+    "SHERIDAN COLLEGE": "sheridan-college",
+    "OAKVILLE PLACE": "oakville-place",
+    "HALTON REGION CENTRE": "halton-region-centre",
+    "CHURCH ST. + DUNN ST. (EB)": "downtown-oakville",
+    "CHURCH ST + DUNN ST": "downtown-oakville",
+    "TRAFALGAR RD + HIGHWAY 407 GO CARPOOL": "trafalgar-407",
+    "DUNDAS ST + HIGHWAY 407 GO CARPOOL": "dundas-407",
+    "TRAFALGAR RD + THRESHING MILLS BLVD": "trafalgar-threshing-mills",
+    "LAIRD RD AT WINSTON CHURCHILL BLVD": "laird-winston-churchill",
+    "LAIRD + RIDGEWAY": "dundas-winston-churchill",
+    "VEGA + LAIRD": "dundas-winston-churchill",
+    "TRAFALGAR RD + UPPER MIDDLE RD EAST": "trafalgar-upper-middle",
+    "TRAFALGAR RD + UPPER MIDDLE RD E": "trafalgar-upper-middle",
+    "UPPER MIDDLE RD EAST + TRAFALGAR RD": "trafalgar-upper-middle",
+    "THIRD LINE + UPPER MIDDLE RD WEST": "upper-middle-third",
+    "UPPER MIDDLE RD WEST + 3RD LINE": "upper-middle-third",
+    "THIRD LINE + SPEERS RD": "speers-third",
+    "SPEERS RD + 3RD LINE": "speers-third",
+    "SPEERS RD + THIRD LINE": "speers-third",
+    "DUNDAS ST WEST + THIRD LINE": "dundas-third",
+    "THIRD AND DUNDAS": "dundas-third",
+    "LAKESHORE RD WEST + BRONTE RD": "bronte-village",
+    "BRONTE HARBOUR": "bronte-village",
+    "UPPER MIDDLE RD + NEYAGAWA BLVD": "upper-middle-neyagawa",
+    "UPPER MIDDLE RD WEST + NEYAGAWA BLVD": "upper-middle-neyagawa",
+    "THIRD LINE + WESTOAK TRAILS BLVD": "westoak-third",
+    "WESTOAK TRAILS BLVD + THIRD LINE": "westoak-third",
+    "SPEERS RD EAST OF KERR ST": "speers-kerr",
+    "SPEERS RD + KERR ST": "speers-kerr",
+    "KERR ST + SPEERS RD": "speers-kerr",
+    "CORNWALL RD AT MAPLE GROVE VILLAGE PLAZA": "cornwall-maple-grove",
+    "CORNWALL RD + MAPLE GROVE DR": "cornwall-maple-grove",
+    "DUNDAS + NEYAGAWA": "dundas-neyagawa",
+    "UPPER MIDDLE RD EAST + FORD DR": "upper-middle-ford",
+    "RIVER OAKS BLVD + SIXTH LINE": "river-oaks-sixth",
+    "SIXTH LINE SOUTH OF MUNN'S AVE": "river-oaks-sixth",
+    "TRAFALGAR RD AND MCCRANEY ST": "trafalgar-mccraney",
+    "MCCRANEY ST EAST + TRAFALGAR RD": "trafalgar-mccraney",
+    "BURLOAK DR + LAKESHORE RD WEST": "lakeshore-burloak",
+    "BURLOAK DR + LAKESHORE RD": "lakeshore-burloak"
+  },
+  "stationIndex": [
+    {
+      "id": "1543",
+      "schematicId": "appleby-go",
+      "name": "Appleby GO",
+      "lat": 43.379161,
+      "lon": -79.75999,
+      "lines": ["14"],
+      "platformIds": ["1543"],
+      "departureRouteIds": ["14", "14A"]
+    },
+    {
+      "id": "645",
+      "schematicId": "bronte-go",
+      "name": "Bronte GO",
+      "lat": 43.416332,
+      "lon": -79.724001,
+      "lines": ["13", "3", "4", "6"],
+      "platformIds": ["645"],
+      "departureRouteIds": ["10", "13", "18", "28", "3", "34", "4", "6"]
+    },
+    {
+      "id": "bronte-village",
+      "schematicId": "bronte-village",
+      "name": "Bronte Village",
+      "lat": 43.394576,
+      "lon": -79.711695,
+      "lines": ["14", "3"],
+      "platformIds": ["488", "531", "723"],
+      "departureRouteIds": ["14", "14A"]
+    },
+    {
+      "id": "358",
+      "schematicId": "clarkson-go",
+      "name": "Clarkson GO",
+      "lat": 43.5125,
+      "lon": -79.6327,
+      "lines": ["4"],
+      "platformIds": ["358"],
+      "departureRouteIds": ["11", "12", "4"]
+    },
+    {
+      "id": "cornwall-maple-grove",
+      "schematicId": "cornwall-maple-grove",
+      "name": "Cornwall at Maple Grove",
+      "lat": 43.4813,
+      "lon": -79.6565,
+      "lines": ["4"],
+      "platformIds": ["158", "305", "361", "934"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "downtown-oakville",
+      "schematicId": "downtown-oakville",
+      "name": "Downtown Oakville",
+      "lat": 43.447221,
+      "lon": -79.667866,
+      "lines": ["1", "14"],
+      "platformIds": ["1253", "518"],
+      "departureRouteIds": ["1", "14", "14A", "83"]
+    },
+    {
+      "id": "1575",
+      "schematicId": "dundas-407",
+      "name": "Dundas / 407 Park & Ride",
+      "lat": 43.388579,
+      "lon": -79.829729,
+      "lines": ["5"],
+      "platformIds": ["1575"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "918",
+      "schematicId": "dundas-neyagawa",
+      "name": "Dundas at Neyagawa",
+      "lat": 43.465334,
+      "lon": -79.744797,
+      "lines": ["5"],
+      "platformIds": ["918"],
+      "departureRouteIds": ["37", "37A", "5"]
+    },
+    {
+      "id": "dundas-third",
+      "schematicId": "dundas-third",
+      "name": "Dundas at Third Line",
+      "lat": 43.450541,
+      "lon": -79.760327,
+      "lines": ["3"],
+      "platformIds": ["1078", "569", "588"],
+      "departureRouteIds": ["3", "5"]
+    },
+    {
+      "id": "dundas-winston-churchill",
+      "schematicId": "dundas-winston-churchill",
+      "name": "Dundas at Winston Churchill",
+      "lat": 43.516758,
+      "lon": -79.691072,
+      "lines": ["5"],
+      "platformIds": ["1549", "1550"],
+      "departureRouteIds": ["12", "120", "5", "6"]
+    },
+    {
+      "id": "424",
+      "schematicId": "halton-region-centre",
+      "name": "Halton Region Centre",
+      "lat": 43.4132,
+      "lon": -79.7449,
+      "lines": ["13", "6"],
+      "platformIds": ["424"],
+      "departureRouteIds": ["13", "34", "6"]
+    },
+    {
+      "id": "1789",
+      "schematicId": "laird-winston-churchill",
+      "name": "Laird at Winston Churchill",
+      "lat": 43.525209,
+      "lon": -79.685445,
+      "lines": ["6"],
+      "platformIds": ["1789"],
+      "departureRouteIds": ["5", "6"]
+    },
+    {
+      "id": "lakeshore-burloak",
+      "schematicId": "lakeshore-burloak",
+      "name": "Lakeshore at Burloak",
+      "lat": 43.3725,
+      "lon": -79.7256,
+      "lines": ["14"],
+      "platformIds": ["1111", "874"],
+      "departureRouteIds": ["14A"]
+    },
+    {
+      "id": "1212",
+      "schematicId": "oakville-go",
+      "name": "Oakville GO",
+      "lat": 43.4558,
+      "lon": -79.6824,
+      "lines": ["1", "13", "14", "19", "4"],
+      "platformIds": ["1212"],
+      "departureRouteIds": [
+        "1",
+        "10",
+        "11",
+        "120",
+        "13",
+        "14",
+        "14A",
+        "15",
+        "18",
+        "19",
+        "190",
+        "20",
+        "26",
+        "28",
+        "4",
+        "80",
+        "83"
+      ]
+    },
+    {
+      "id": "1050",
+      "schematicId": "oakville-place",
+      "name": "Oakville Place",
+      "lat": 43.462,
+      "lon": -79.6889,
+      "lines": ["13"],
+      "platformIds": ["1050"],
+      "departureRouteIds": ["13", "71", "86"]
+    },
+    {
+      "id": "otmh",
+      "schematicId": "otmh",
+      "name": "Oakville Trafalgar Hospital",
+      "lat": 43.45054,
+      "lon": -79.76471,
+      "lines": ["3", "5"],
+      "platformIds": ["1397", "1398", "1399"],
+      "departureRouteIds": ["3", "5"]
+    },
+    {
+      "id": "river-oaks-sixth",
+      "schematicId": "river-oaks-sixth",
+      "name": "River Oaks at Sixth Line",
+      "lat": 43.468533,
+      "lon": -79.716966,
+      "lines": ["19"],
+      "platformIds": ["167", "634", "669"],
+      "departureRouteIds": ["19", "190", "71", "80"]
+    },
+    {
+      "id": "905",
+      "schematicId": "sheridan-college",
+      "name": "Sheridan College",
+      "lat": 43.4696,
+      "lon": -79.6974,
+      "lines": ["1", "6"],
+      "platformIds": ["905"],
+      "departureRouteIds": ["1", "6"]
+    },
+    {
+      "id": "877",
+      "schematicId": "south-oakville-centre",
+      "name": "South Oakville Centre",
+      "lat": 43.412078,
+      "lon": -79.705097,
+      "lines": ["14", "3"],
+      "platformIds": ["877"],
+      "departureRouteIds": ["14", "14A", "15", "3", "83"]
+    },
+    {
+      "id": "speers-kerr",
+      "schematicId": "speers-kerr",
+      "name": "Speers at Kerr",
+      "lat": 43.4465,
+      "lon": -79.6869,
+      "lines": ["14", "4"],
+      "platformIds": ["1246", "400", "550", "845"],
+      "departureRouteIds": ["1", "10", "14", "14A", "15", "18", "28", "4", "83"]
+    },
+    {
+      "id": "speers-third",
+      "schematicId": "speers-third",
+      "name": "Speers at Third Line",
+      "lat": 43.4191,
+      "lon": -79.7172,
+      "lines": ["3", "4"],
+      "platformIds": ["1003", "40", "546"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "1665",
+      "schematicId": "trafalgar-407",
+      "name": "Trafalgar / 407 Park & Ride",
+      "lat": 43.506475,
+      "lon": -79.745817,
+      "lines": ["1"],
+      "platformIds": ["1665"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "trafalgar-mccraney",
+      "schematicId": "trafalgar-mccraney",
+      "name": "Trafalgar at McCraney",
+      "lat": 43.466266,
+      "lon": -79.69103,
+      "lines": ["19"],
+      "platformIds": ["1183", "764", "775"],
+      "departureRouteIds": ["1", "19", "71", "80"]
+    },
+    {
+      "id": "trafalgar-threshing-mills",
+      "schematicId": "trafalgar-threshing-mills",
+      "name": "Trafalgar at Threshing Mills",
+      "lat": 43.492639,
+      "lon": -79.725721,
+      "lines": ["1"],
+      "platformIds": ["1795_merged_2779021", "1795_merged_2779026"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "trafalgar-upper-middle",
+      "schematicId": "trafalgar-upper-middle",
+      "name": "Trafalgar at Upper Middle",
+      "lat": 43.475326,
+      "lon": -79.702123,
+      "lines": ["1", "6"],
+      "platformIds": ["1054", "1067", "1090", "1517"],
+      "departureRouteIds": ["1", "6", "80"]
+    },
+    {
+      "id": "1240",
+      "schematicId": "upper-middle-ford",
+      "name": "Upper Middle at Ford",
+      "lat": 43.495622,
+      "lon": -79.678904,
+      "lines": ["6"],
+      "platformIds": ["1240"],
+      "departureRouteIds": ["120", "6"]
+    },
+    {
+      "id": "upper-middle-neyagawa",
+      "schematicId": "upper-middle-neyagawa",
+      "name": "Upper Middle at Neyagawa",
+      "lat": 43.460754,
+      "lon": -79.719838,
+      "lines": ["13", "6"],
+      "platformIds": ["146", "503"],
+      "departureRouteIds": ["13", "6", "71", "86"]
+    },
+    {
+      "id": "upper-middle-third",
+      "schematicId": "upper-middle-third",
+      "name": "Upper Middle at Third Line",
+      "lat": 43.4374,
+      "lon": -79.7426,
+      "lines": ["3", "6"],
+      "platformIds": ["1137", "483", "69", "981"],
+      "departureRouteIds": ["3", "6", "81A", "81B"]
+    },
+    {
+      "id": "1293",
+      "schematicId": "uptown-core",
+      "name": "Uptown Core",
+      "lat": 43.485887,
+      "lon": -79.719198,
+      "lines": ["1", "19", "5"],
+      "platformIds": ["1293"],
+      "departureRouteIds": ["1", "19", "20", "37", "37A", "5", "71"]
+    },
+    {
+      "id": "westoak-third",
+      "schematicId": "westoak-third",
+      "name": "Westoak Trails at Third Line",
+      "lat": 43.441,
+      "lon": -79.749016,
+      "lines": ["13", "3"],
+      "platformIds": ["1121", "1150", "635", "861"],
+      "departureRouteIds": ["13", "3", "34", "71", "81A", "81B", "86"]
+    }
+  ]
+}

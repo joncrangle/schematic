@@ -1,0 +1,223 @@
+{
+  "id": "prince-george",
+  "name": "BC Transit Prince George",
+  "serviceArea": "Prince George, with regional service to Vanderhoof and Burns Lake",
+  "shortName": "Prince George",
+  "locale": "en-CA",
+  "timezone": "America/Vancouver",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "bc"
+  },
+  "bounds": [
+    {
+      "minLat": 53.81,
+      "maxLat": 54.015,
+      "minLon": -122.845,
+      "maxLon": -122.73
+    },
+    {
+      "minLat": 53.812,
+      "maxLat": 53.821,
+      "minLon": -122.919,
+      "maxLon": -122.907
+    },
+    {
+      "minLat": 53.904,
+      "maxLat": 53.913,
+      "minLon": -123.591,
+      "maxLon": -123.58
+    },
+    {
+      "minLat": 54.01,
+      "maxLat": 54.033,
+      "minLon": -124.015,
+      "maxLon": -124.003
+    },
+    {
+      "minLat": 54.055,
+      "maxLat": 54.085,
+      "minLon": -124.607,
+      "maxLon": -124.545
+    },
+    {
+      "minLat": 54.05,
+      "maxLat": 54.09,
+      "minLon": -125.027,
+      "maxLon": -124.84
+    },
+    {
+      "minLat": 54.218,
+      "maxLat": 54.242,
+      "minLon": -125.768,
+      "maxLon": -125.747
+    },
+    {
+      "minLat": 54.288,
+      "maxLat": 54.333,
+      "minLon": -125.889,
+      "maxLon": -125.828
+    },
+    {
+      "minLat": 54.202,
+      "maxLat": 54.209,
+      "minLon": -125.61,
+      "maxLon": -125.6
+    }
+  ],
+  "focus": {
+    "lat": 53.91313,
+    "lon": -122.74733
+  },
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "BC Transit Prince George",
+    "url": "https://www.bctransit.com/prince-george/",
+    "license": "BC Transit Open Data Terms of Use"
+  },
+  "cityPresets": [
+    {
+      "name": "Downtown Exchange",
+      "lat": 53.91313,
+      "lon": -122.74733
+    },
+    {
+      "name": "Pine Centre Exchange",
+      "lat": 53.89848,
+      "lon": -122.77958
+    },
+    {
+      "name": "Spruceland Exchange",
+      "lat": 53.91828,
+      "lon": -122.78228
+    },
+    {
+      "name": "UNBC Exchange",
+      "lat": 53.89128,
+      "lon": -122.81364
+    }
+  ],
+  "popularSurfaceRoutes": ["15-PRG", "5-PRG", "10-PRG", "88-PRG"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "BC Transit Prince George",
+        "url": "https://bct.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/?operatorIds=22",
+        "cacheFileName": "prince-george-gtfs.zip"
+      }
+    ],
+    "excludedRouteIds": ["162-PRG"],
+    "defaultColor": "#004B8D",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=22",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bct.tmix.se/gtfs-realtime/tripupdates.pb?operatorIds=22",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://bct.tmix.se/gtfs-realtime/alerts.pb?operatorIds=22",
+      "entityOnly": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=33",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=33",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=33&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=33&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=3&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=3&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["5-PRG", "10-PRG", "15-PRG", "88-PRG", "89-PRG", "161-PRG"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "category",
+          "sourceValue": "ReducedService"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "effects": ["OTHER_EFFECT"],
+          "textIncludes": ["cancelled", "canceled"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "titleDateTimezone": "America/Vancouver"
+  }
+}

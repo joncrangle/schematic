@@ -1,0 +1,149 @@
+{
+  "id": "winnipeg",
+  "name": "Winnipeg Transit",
+  "shortName": "WT",
+  "serviceArea": "Winnipeg",
+  "locale": "en-CA",
+  "timezone": "America/Winnipeg",
+  "bounds": [
+    {
+      "minLat": 49.763,
+      "maxLat": 49.971,
+      "minLon": -97.322,
+      "maxLon": -96.961
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Winnipeg Transit",
+    "url": "https://winnipegtransit.com",
+    "license": "Open Data Commons Public Domain Dedication and Licence (PDDL) v1.0. API access requires a key and permits 100 requests per IP address per minute.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "mb"
+  },
+  "cityPresets": [
+    {
+      "name": "Main at Broadway (Union Station)",
+      "lat": 49.88925684269111,
+      "lon": -97.13485860670143
+    },
+    {
+      "name": "Garden City Hub",
+      "lat": 49.9520604554581,
+      "lon": -97.14553768817233
+    },
+    {
+      "name": "Polo Park",
+      "lat": 49.88039580167746,
+      "lon": -97.19956675475741
+    },
+    {
+      "name": "University of Manitoba",
+      "lat": 49.808585055588495,
+      "lon": -97.13071971917849
+    }
+  ],
+  "popularSurfaceRoutes": ["BLUE", "FX2", "FX3", "FX4", "F5", "F6", "F7", "F8", "F9"],
+  "alertInterpretation": {
+    "lineIds": ["BLUE", "FX2", "FX3", "FX4", "F8"],
+    "rules": [
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["detour", "reroute"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": ["all service suspended", "all transit service suspended"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Winnipeg Transit GTFS",
+        "url": "https://gtfs.winnipegtransit.com/google_transit.zip",
+        "cacheFileName": "winnipeg-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "station_departures",
+        "url": "https://api.winnipegtransit.com/v4/stops/{stopId}/schedule.json?json-camel-case=true",
+        "format": "json",
+        "pollIntervalSeconds": 60,
+        "requestsPerMinute": 90,
+        "auth": {
+          "type": "query_param",
+          "parameterName": "api-key",
+          "secretName": "FEED_WINNIPEG_TRANSIT_API_KEY"
+        },
+        "responseMapping": {
+          "routesPath": "stopSchedule.routeSchedules",
+          "routeIdField": "route.key",
+          "departuresField": "scheduledStops",
+          "timeField": "times.departure.estimated",
+          "scheduledTimeField": "times.departure.scheduled",
+          "timeZone": "America/Winnipeg",
+          "headsignField": "variant.name",
+          "tripIdField": "tripKey",
+          "cancelledField": "cancelled",
+          "realtimePresenceField": "bus.key",
+          "directionField": "variant.key",
+          "directionPattern": "^[^-]+-([01])-"
+        }
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "url": "https://api.winnipegtransit.com/v4/service-advisories.json?json-camel-case=true",
+      "parser": "keyed-service-notices",
+      "timestampMode": "agency-local-wall-clock",
+      "language": "en",
+      "auth": {
+        "type": "query_param",
+        "parameterName": "api-key",
+        "secretName": "FEED_WINNIPEG_TRANSIT_API_KEY"
+      },
+      "pollIntervalSeconds": 60
+    },
+    {
+      "type": "json",
+      "url": "https://api.winnipegtransit.com/v4/system-messages.json?json-camel-case=true",
+      "parser": "keyed-service-notices",
+      "timestampMode": "agency-local-wall-clock",
+      "language": "en",
+      "auth": {
+        "type": "query_param",
+        "parameterName": "api-key",
+        "secretName": "FEED_WINNIPEG_TRANSIT_API_KEY"
+      },
+      "pollIntervalSeconds": 60
+    }
+  ]
+}

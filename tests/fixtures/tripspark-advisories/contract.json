@@ -1,0 +1,335 @@
+{
+  "cases": [
+    {
+      "name": "retains machine periods and only closed stop subjects",
+      "base": {
+        "routes": [
+          {
+            "shortName": "7",
+            "directionList": [
+              {
+                "direction": {
+                  "name": "Outbound"
+                },
+                "serviceInterruptionKeys": [
+                  "A"
+                ],
+                "upcomingServiceInterruptionKeys": []
+              }
+            ]
+          }
+        ],
+        "serviceInterruptions": [
+          {
+            "key": "A",
+            "name": "Road works",
+            "description": "<div>The following bus stops will be closed:<ul><li>Oak (ID: P0042)</li></ul></div>",
+            "startDateUtc": "2027-01-10T12:00:00Z",
+            "endDateUtc": "2027-01-12T12:00:00Z",
+            "dailyStartTime": "00:00:00",
+            "dailyEndTime": "23:59:59"
+          }
+        ],
+        "upcomingServiceInterruptions": []
+      },
+      "news": [
+        {
+          "newsId": 8,
+          "title": "Route 7 stop closure",
+          "friendlyUrl": "stop-closure",
+          "publishDateUtc": "2027-01-10T12:00:00Z",
+          "routes": [
+            "7"
+          ],
+          "affectsAllRoutes": false
+        }
+      ],
+      "details": {
+        "8": "<div class=\"form-title\">Route 7 stop closure</div><div class=\"note-editable\"><p>Stop #1042 is closed. Catch bus at stop #1043.</p></div>"
+      },
+      "expected": [
+        {
+          "id": "interruption:A",
+          "title": "Road works",
+          "description": "The following bus stops will be closed:\nOak (ID: P0042)",
+          "start_time": "2027-01-10T12:00:00Z",
+          "expires_at": "2027-01-12T12:00:00Z",
+          "routes": [
+            "7"
+          ],
+          "stops": [
+            "Stop P0042"
+          ],
+          "targets": [
+            {
+              "routeId": "7",
+              "directionText": "Outbound",
+              "stopId": "Stop P0042",
+              "stopCode": "P0042"
+            }
+          ],
+          "stopScoped": true,
+          "effect": "NO_SERVICE"
+        },
+        {
+          "id": "news:8",
+          "title": "Route 7 stop closure",
+          "description": "Stop #1042 is closed. Catch bus at stop #1043.",
+          "publishDateUtc": "2027-01-10T12:00:00Z",
+          "routes": [
+            "7"
+          ],
+          "affectsAllRoutes": false,
+          "targets": [
+            {
+              "routeId": "7",
+              "stopId": "Stop 1042",
+              "stopCode": "1042"
+            }
+          ],
+          "stops": [
+            "Stop 1042"
+          ],
+          "stopScoped": true,
+          "effect": "NO_SERVICE"
+        }
+      ]
+    },
+    {
+      "name": "rejects a missing story body",
+      "base": {
+        "routes": [
+          {
+            "shortName": "7",
+            "directionList": [
+              {
+                "direction": {
+                  "name": "Outbound"
+                },
+                "serviceInterruptionKeys": [
+                  "A"
+                ],
+                "upcomingServiceInterruptionKeys": []
+              }
+            ]
+          }
+        ],
+        "serviceInterruptions": [
+          {
+            "key": "A",
+            "name": "Road works",
+            "description": "<div>The following bus stops will be closed:<ul><li>Oak (ID: P0042)</li></ul></div>",
+            "startDateUtc": "2027-01-10T12:00:00Z",
+            "endDateUtc": "2027-01-12T12:00:00Z",
+            "dailyStartTime": "00:00:00",
+            "dailyEndTime": "23:59:59"
+          }
+        ],
+        "upcomingServiceInterruptions": []
+      },
+      "news": [
+        {
+          "newsId": 8,
+          "title": "Route 7 stop closure",
+          "friendlyUrl": "stop-closure",
+          "publishDateUtc": "2027-01-10T12:00:00Z",
+          "routes": [
+            "7"
+          ],
+          "affectsAllRoutes": false
+        }
+      ],
+      "details": {
+        "8": "<h1>Unavailable</h1>"
+      },
+      "error": true
+    },
+    {
+      "name": "rejects a missing interruption referenced by a route",
+      "base": {
+        "routes": [
+          {
+            "shortName": "7",
+            "directionList": [
+              {
+                "direction": {
+                  "name": "Outbound"
+                },
+                "serviceInterruptionKeys": [
+                  "A"
+                ],
+                "upcomingServiceInterruptionKeys": []
+              }
+            ]
+          }
+        ],
+        "serviceInterruptions": [],
+        "upcomingServiceInterruptions": []
+      },
+      "news": [],
+      "details": {},
+      "error": true
+    },
+    {
+      "name": "preserves French closed stops and direction-specific detours",
+      "base": {
+        "routes": [
+          {
+            "shortName": "7",
+            "directionList": [
+              {
+                "direction": {
+                  "name": "Outbound"
+                },
+                "serviceInterruptionKeys": [
+                  "A"
+                ],
+                "upcomingServiceInterruptionKeys": []
+              }
+            ]
+          }
+        ],
+        "serviceInterruptions": [
+          {
+            "key": "A",
+            "name": "Road works",
+            "description": "<p>Les arrêts d’autobus suivants seront hors service pendant la durée de l’interruption:</p><ul><li>Oak (ID: P0042)</li></ul>",
+            "startDateUtc": "2027-01-10T12:00:00Z",
+            "endDateUtc": "2027-01-12T12:00:00Z",
+            "dailyStartTime": "00:00:00",
+            "dailyEndTime": "23:59:59"
+          }
+        ],
+        "upcomingServiceInterruptions": []
+      },
+      "news": [],
+      "details": {},
+      "expected": [
+        {
+          "id": "interruption:A",
+          "title": "Road works",
+          "description": "Les arrêts d’autobus suivants seront hors service pendant la durée de l’interruption:\nOak (ID: P0042)",
+          "start_time": "2027-01-10T12:00:00Z",
+          "expires_at": "2027-01-12T12:00:00Z",
+          "routes": [
+            "7"
+          ],
+          "stops": [
+            "Stop P0042"
+          ],
+          "targets": [
+            {
+              "routeId": "7",
+              "directionText": "Outbound",
+              "stopId": "Stop P0042",
+              "stopCode": "P0042"
+            }
+          ],
+          "stopScoped": true,
+          "effect": "NO_SERVICE"
+        }
+      ]
+    },
+    {
+      "name": "keeps a detour on its published direction",
+      "base": {
+        "routes": [
+          {
+            "shortName": "7",
+            "directionList": [
+              {
+                "direction": {
+                  "name": "Outbound"
+                },
+                "serviceInterruptionKeys": [
+                  "A"
+                ],
+                "upcomingServiceInterruptionKeys": []
+              }
+            ]
+          }
+        ],
+        "serviceInterruptions": [
+          {
+            "key": "A",
+            "name": "Road works",
+            "description": "<p>Use the diversion.</p>",
+            "startDateUtc": "2027-01-10T12:00:00Z",
+            "endDateUtc": "2027-01-12T12:00:00Z",
+            "dailyStartTime": "00:00:00",
+            "dailyEndTime": "23:59:59"
+          }
+        ],
+        "upcomingServiceInterruptions": []
+      },
+      "news": [],
+      "details": {},
+      "expected": [
+        {
+          "id": "interruption:A",
+          "title": "Road works",
+          "description": "Use the diversion.",
+          "start_time": "2027-01-10T12:00:00Z",
+          "expires_at": "2027-01-12T12:00:00Z",
+          "routes": [
+            "7"
+          ],
+          "targets": [
+            {
+              "routeId": "7",
+              "directionText": "Outbound"
+            }
+          ],
+          "effect": "DETOUR"
+        }
+      ]
+    },
+    {
+      "name": "decodes French stop closure subjects without replacement stops",
+      "base": {
+        "routes": [],
+        "serviceInterruptions": [],
+        "upcomingServiceInterruptions": []
+      },
+      "news": [
+        {
+          "newsId": 8,
+          "title": "Fermeture des arrêts",
+          "friendlyUrl": "stop-closure",
+          "publishDateUtc": "2027-01-10T12:00:00Z",
+          "routes": [
+            "7"
+          ],
+          "affectsAllRoutes": false
+        }
+      ],
+      "details": {
+        "8": "<div class=\"form-title\">Fermeture des arrêts</div><div class=\"note-editable\"><p>Arrêt #1042 fermé. Utilisez l’arrêt #1043.</p></div>"
+      },
+      "expected": [
+        {
+          "id": "news:8",
+          "title": "Fermeture des arrêts",
+          "description": "Arrêt #1042 fermé. Utilisez l’arrêt #1043.",
+          "publishDateUtc": "2027-01-10T12:00:00Z",
+          "routes": [
+            "7"
+          ],
+          "affectsAllRoutes": false,
+          "targets": [
+            {
+              "routeId": "7",
+              "stopId": "Stop 1042",
+              "stopCode": "1042"
+            }
+          ],
+          "stops": [
+            "Stop 1042"
+          ],
+          "stopScoped": true,
+          "effect": "NO_SERVICE"
+        }
+      ]
+    }
+  ]
+}

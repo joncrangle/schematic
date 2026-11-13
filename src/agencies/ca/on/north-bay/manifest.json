@@ -1,0 +1,105 @@
+{
+  "id": "north-bay",
+  "name": "North Bay Transit",
+  "serviceArea": "North Bay",
+  "shortName": "NBT",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 46.23,
+      "maxLat": 46.37,
+      "minLon": -79.52,
+      "maxLon": -79.37
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "North Bay Transit / City of North Bay",
+    "url": "https://northbay.ca/services-payments/north-bay-transit/",
+    "license": "No explicit data licence terms were found for the North Bay Transit GTFS and GTFS Realtime feeds. Attribution is best effort.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Transit Terminal",
+      "lat": 46.3090328,
+      "lon": -79.4642838
+    },
+    {
+      "name": "Northgate Shopping Centre",
+      "lat": 46.313583,
+      "lon": -79.441169
+    },
+    {
+      "name": "North Bay Mall",
+      "lat": 46.281949,
+      "lon": -79.448286
+    },
+    {
+      "name": "Education Centre",
+      "lat": 46.343917,
+      "lon": -79.491508
+    },
+    {
+      "name": "Regional Health Centre",
+      "lat": 46.33555,
+      "lon": -79.49741
+    }
+  ],
+  "popularSurfaceRoutes": ["2", "3", "4", "5", "6", "7", "1a", "1b"],
+  "alertInterpretation": {
+    "lineIds": ["1a", "1b", "2", "3", "4", "5", "6", "7"],
+    "routeLineMap": {
+      "1aCollegeUniversity": "1a",
+      "1bCampusSpecial": "1b",
+      "1cMcKeownCorridor": "1c",
+      "2MarshallPark": "2",
+      "3SkiClubPinewood": "3",
+      "4Junction": "4",
+      "5Graniteville": "5",
+      "55GranitevilleOL": "55",
+      "6HornellCFB": "6",
+      "7BirchavenTL": "7",
+      "77BirchavenOL": "77",
+      "8EastviewAlgonquin": "8",
+      "9DynamicDispatching": "9"
+    }
+  },
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "short_name",
+    "feeds": [
+      {
+        "name": "North Bay Transit GTFS",
+        "url": "https://northbay.tmix.se/gtfs/gtfs.zip",
+        "cacheFileName": "north-bay-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://northbay.tmix.se/gtfs-realtime/vehicleupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://northbay.tmix.se/gtfs-realtime/tripupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "plumobile",
+  "name": "PLUmobile",
+  "serviceArea": "Boischatel, L'Ange-Gardien, Côte-de-Beaupré et Île d'Orléans",
+  "shortName": "PLUmobile",
+  "locale": "fr-CA",
+  "timezone": "America/Montreal",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "bounds": [
+    {
+      "minLat": 46.889,
+      "maxLat": 46.926,
+      "minLon": -71.171,
+      "maxLon": -71.076
+    },
+    {
+      "minLat": 46.926,
+      "maxLat": 46.966,
+      "minLon": -71.076,
+      "maxLon": -71.03
+    },
+    {
+      "minLat": 46.964,
+      "maxLat": 47.018,
+      "minLon": -71.03,
+      "maxLon": -70.948
+    },
+    {
+      "minLat": 47.015,
+      "maxLat": 47.087,
+      "minLon": -70.948,
+      "maxLon": -70.888
+    },
+    {
+      "minLat": 47.046,
+      "maxLat": 47.12,
+      "minLon": -70.89,
+      "maxLon": -70.857
+    },
+    {
+      "minLat": 46.85,
+      "maxLat": 47.005,
+      "minLon": -71.14,
+      "maxLon": -70.81
+    },
+    {
+      "minLat": 46.779,
+      "maxLat": 46.873,
+      "minLon": -71.285,
+      "maxLon": -71.2
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "PLUmobile / Zenbus",
+    "url": "https://plumobile.ca/tous-les-horaires/",
+    "license": "Aucune licence explicite de réutilisation des données n'a été trouvée. Les horaires et les données en temps réel sont attribués à PLUmobile et à son fournisseur de données.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "excludedRouteIds": ["zenbus:Line:4915628080103424:LOC"],
+    "feeds": [
+      {
+        "name": "PLUmobile Boischatel et L'Ange-Gardien",
+        "url": "https://zenbus.net/gtfs/static/download.zip?dataset=boischatel",
+        "cacheFileName": "plumobile-boischatel-gtfs.zip"
+      },
+      {
+        "name": "PLUmobile Côte-de-Beaupré et Île d'Orléans",
+        "url": "https://zenbus.net/gtfs/static/download.zip?dataset=cote-de-beaupre",
+        "cacheFileName": "plumobile-cote-de-beaupre-gtfs.zip"
+      }
+    ],
+    "routeIdField": "short_name"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=boischatel",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=boischatel",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=cote-de-beaupre",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=cote-de-beaupre",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=boischatel",
+      "language": "fr"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=cote-de-beaupre",
+      "language": "fr"
+    }
+  ],
+  "alertInterpretation": {
+    "routeIdNormalization": {
+      "aliases": {
+        "zenbus:Line:473140001:LOC": "1",
+        "zenbus:Line:476910001:LOC": "2",
+        "zenbus:Line:463790001:LOC": "3",
+        "zenbus:Line:460140001:LOC": "4",
+        "zenbus:Line:6017867930664960:LOC": "360",
+        "zenbus:Line:575700006:LOC": "DESJ",
+        "zenbus:Line:577230006:LOC": "FOY",
+        "zenbus:Line:624350001:LOC": "ILE"
+      }
+    },
+    "routeLineMap": {
+      "zenbus:Line:473140001:LOC": "1",
+      "zenbus:Line:476910001:LOC": "2",
+      "zenbus:Line:463790001:LOC": "3",
+      "zenbus:Line:460140001:LOC": "4",
+      "zenbus:Line:6017867930664960:LOC": "360",
+      "zenbus:Line:575700006:LOC": "DESJ",
+      "zenbus:Line:577230006:LOC": "FOY",
+      "zenbus:Line:624350001:LOC": "ILE"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": ["détour", "arrêt fermé", "arrêts fermés", "non desservi"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ],
+    "lineIds": ["1", "2", "3", "4", "360", "DESJ", "FOY"]
+  },
+  "cityPresets": [
+    {
+      "name": "Terminus de la chute Montmorency",
+      "lat": 46.891479,
+      "lon": -71.149276
+    },
+    {
+      "name": "Beaupré (rue Beauregard / rue du Chanoine-Boucher)",
+      "lat": 47.042709,
+      "lon": -70.895942
+    }
+  ],
+  "popularSurfaceRoutes": ["360", "1", "2", "3", "4", "DESJ", "FOY", "ILE"]
+}

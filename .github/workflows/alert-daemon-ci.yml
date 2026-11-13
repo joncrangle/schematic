@@ -1,0 +1,44 @@
+name: Alert Feed Daemon CI
+
+on:
+  workflow_call:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      # Core and Rust share GHD parsing and RSS validation contracts.
+      - 'src/infrastructure/realtime/ghdNewsServiceAdvisoriesParser.ts'
+      - 'src/infrastructure/realtime/alertFeedAdapters.ts'
+      - 'src/infrastructure/realtime/rssAlertDecoder.ts'
+      - 'tests/fixtures/rss-proxy/**'
+      - '!tests/fixtures/rss-proxy/**/*.md'
+      - 'tests/fixtures/ghd-news/**'
+      - '!tests/fixtures/ghd-news/**/*.md'
+      - 'services/alert-feed-daemon/**'
+      - '!services/alert-feed-daemon/**/*.md'
+      - 'proto/**'
+      - 'Cargo.*'
+      - '.github/workflows/alert-daemon*.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Test & Lint
+    if: github.event.pull_request.draft != true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # The Cargo workspace is rooted at the repository, so the default
+      # `. -> target` mapping is the one that holds the compiled dependencies.
+      - uses: Swatinem/rust-cache@v2
+      - name: Install Protoc
+        run: sudo apt-get update && sudo apt-get install -y protobuf-compiler
+      - name: Check Rust formatting
+        run: cargo fmt --check
+      - name: Run Tests
+        run: cargo test -p alert-feed-daemon
+      - name: Run Clippy
+        run: cargo clippy -p alert-feed-daemon --all-targets -- -D warnings

@@ -1,0 +1,175 @@
+{
+  "id": "ltc",
+  "name": "London Transit Commission",
+  "serviceArea": "London",
+  "shortName": "LTC",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 42.905,
+      "maxLat": 43.052,
+      "minLon": -81.364,
+      "maxLon": -81.18
+    },
+    {
+      "minLat": 42.93,
+      "maxLat": 43.033,
+      "minLon": -81.18,
+      "maxLon": -81.131
+    }
+  ],
+  "focus": {
+    "lat": 42.98437,
+    "lon": -81.24483
+  },
+  "modes": ["bus", "express"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "London Transit Commission open data, adapted into this application",
+    "url": "https://www.londontransit.ca/open-data/ltcs-open-data-terms-of-use/",
+    "license": "LTC Open Data Terms of Use"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Masonville Place",
+      "lat": 43.025446,
+      "lon": -81.281591
+    },
+    {
+      "name": "Natural Science",
+      "lat": 43.010172,
+      "lon": -81.273174
+    },
+    {
+      "name": "Fanshawe College",
+      "lat": 43.011645,
+      "lon": -81.199162
+    },
+    {
+      "name": "Argyle Mall",
+      "lat": 43.00273,
+      "lon": -81.17363
+    },
+    {
+      "name": "London Airport",
+      "lat": 43.027719,
+      "lon": -81.148702
+    },
+    {
+      "name": "King at Wellington",
+      "lat": 42.983595,
+      "lon": -81.244957
+    },
+    {
+      "name": "Victoria Hospital, Zone A",
+      "lat": 42.959493,
+      "lon": -81.226954
+    },
+    {
+      "name": "White Oaks Mall",
+      "lat": 42.93208,
+      "lon": -81.22315
+    },
+    {
+      "name": "Byron Baseline at Griffith",
+      "lat": 42.952315,
+      "lon": -81.339778
+    }
+  ],
+  "popularSurfaceRoutes": [
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "17",
+    "36",
+    "02",
+    "04",
+    "10",
+    "13",
+    "16",
+    "102",
+    "106"
+  ],
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeType": "express",
+        "routeIds": ["90", "91", "92", "94", "95"]
+      }
+    ]
+  },
+  "alertInterpretation": {
+    "lineIds": ["90", "91", "92", "93", "94", "95", "17", "36"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "titleIncludes": ["STOP CLOSURE"]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "titleIncludes": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "London Transit GTFS",
+        "url": "https://www.londontransit.ca/gtfsfeed/google_transit.zip",
+        "cacheFileName": "ltc-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "http://gtfs.ltconline.ca/Vehicle/VehiclePositions.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "http://gtfs.ltconline.ca/TripUpdate/TripUpdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 60,
+        "accept": "*/*"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "http://gtfs.ltconline.ca/Alert/Alerts.pb",
+      "format": "protobuf",
+      "accept": "*/*"
+    }
+  ]
+}

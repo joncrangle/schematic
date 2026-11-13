@@ -1,0 +1,658 @@
+{
+  "viewBoxWidth": 2150,
+  "viewBoxHeight": 2250,
+  "lines": [
+    {
+      "id": "10-WKT",
+      "name": "North Shore",
+      "color": "#FFC20E",
+      "points": [
+        {
+          "x": 1300,
+          "y": 900
+        },
+        {
+          "x": 1700,
+          "y": 500
+        },
+        {
+          "x": 1900,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "20-WKT",
+      "name": "Slocan Valley",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 1300,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 900
+        },
+        {
+          "x": 800,
+          "y": 1100
+        },
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 700,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "43-WKT",
+      "name": "Glenmerry / Fruitvale",
+      "color": "#DC7122",
+      "points": [
+        {
+          "x": 650,
+          "y": 2000
+        },
+        {
+          "x": 1000,
+          "y": 2000
+        },
+        {
+          "x": 1100,
+          "y": 1900
+        },
+        {
+          "x": 1250,
+          "y": 1900
+        }
+      ]
+    },
+    {
+      "id": "46-WKT",
+      "name": "Rossland",
+      "color": "#BF83B9",
+      "points": [
+        {
+          "x": 650,
+          "y": 2000
+        },
+        {
+          "x": 500,
+          "y": 2000
+        },
+        {
+          "x": 400,
+          "y": 2100
+        },
+        {
+          "x": 300,
+          "y": 2100
+        }
+      ]
+    },
+    {
+      "id": "98-WKT",
+      "name": "Columbia Connector",
+      "color": "#4D4D4F",
+      "points": [
+        {
+          "x": 650,
+          "y": 1500
+        },
+        {
+          "x": 650,
+          "y": 2000
+        }
+      ]
+    },
+    {
+      "id": "99-WKT",
+      "name": "Kootenay Connector",
+      "color": "#5D87A1",
+      "points": [
+        {
+          "x": 1300,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 900
+        },
+        {
+          "x": 800,
+          "y": 1100
+        },
+        {
+          "x": 800,
+          "y": 1350
+        },
+        {
+          "x": 650,
+          "y": 1500
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "nelson",
+      "name": "Nelson Exchange",
+      "x": 1300,
+      "y": 900,
+      "lines": ["10-WKT", "20-WKT", "99-WKT"],
+      "label": {
+        "x": 1328,
+        "y": 900,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "chahko-mika",
+      "name": "Chahko Mika Mall",
+      "x": 1400,
+      "y": 800,
+      "lines": ["10-WKT"],
+      "label": {
+        "x": 1428,
+        "y": 800,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "six-mile",
+      "name": "Lower 6 Mile Rd at Hwy 3A",
+      "x": 1550,
+      "y": 650,
+      "lines": ["10-WKT"],
+      "label": {
+        "x": 1578,
+        "y": 650,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "harrop",
+      "name": "Harrop Ferry Terminal",
+      "x": 1750,
+      "y": 500,
+      "lines": ["10-WKT"],
+      "label": {
+        "x": 1750,
+        "y": 468,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "balfour",
+      "name": "Balfour Ferry Terminal",
+      "x": 1900,
+      "y": 500,
+      "lines": ["10-WKT"],
+      "label": {
+        "x": 1928,
+        "y": 500,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "taghum",
+      "name": "Hwy 3A/6 at Taghum Frontage Rd",
+      "x": 1150,
+      "y": 900,
+      "lines": ["20-WKT", "99-WKT"],
+      "label": {
+        "x": 1150,
+        "y": 868,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "playmor",
+      "name": "Playmor Junction P&R",
+      "x": 800,
+      "y": 1100,
+      "lines": ["20-WKT", "99-WKT"],
+      "label": {
+        "x": 828,
+        "y": 1100,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "slocan-park",
+      "name": "Hwy 6 at Slocan Park Community Hall",
+      "x": 700,
+      "y": 850,
+      "lines": ["20-WKT"],
+      "label": {
+        "x": 728,
+        "y": 850,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "winlaw",
+      "name": "Winlaw Bridge Rd at Winlaw Elementary",
+      "x": 700,
+      "y": 600,
+      "lines": ["20-WKT"],
+      "label": {
+        "x": 728,
+        "y": 600,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "slocan",
+      "name": "Slocan St at Giffin Ave",
+      "x": 700,
+      "y": 300,
+      "lines": ["20-WKT"],
+      "label": {
+        "x": 700,
+        "y": 268,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "thrums",
+      "name": "Hwy 3A at Thrums Rd",
+      "x": 800,
+      "y": 1250,
+      "lines": ["99-WKT"],
+      "label": {
+        "x": 828,
+        "y": 1250,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "selkirk",
+      "name": "Selkirk College",
+      "x": 650,
+      "y": 1500,
+      "lines": ["98-WKT", "99-WKT"],
+      "label": {
+        "x": 622,
+        "y": 1500,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "castlegar-cc",
+      "name": "Castlegar Community Complex",
+      "x": 650,
+      "y": 1650,
+      "lines": ["98-WKT"],
+      "label": {
+        "x": 622,
+        "y": 1650,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rivervale",
+      "name": "Rivervale",
+      "x": 650,
+      "y": 1850,
+      "lines": ["98-WKT"],
+      "label": {
+        "x": 622,
+        "y": 1850,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "trail",
+      "name": "Cedar Ave at Spokane St",
+      "x": 650,
+      "y": 2000,
+      "lines": ["43-WKT", "46-WKT", "98-WKT"],
+      "label": {
+        "x": 650,
+        "y": 2032,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "waneta",
+      "name": "Waneta Plaza",
+      "x": 900,
+      "y": 2000,
+      "lines": ["43-WKT"],
+      "label": {
+        "x": 900,
+        "y": 2032,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "fruitvale",
+      "name": "Main St at Columbia Gardens Rd",
+      "x": 1250,
+      "y": 1900,
+      "lines": ["43-WKT"],
+      "label": {
+        "x": 1278,
+        "y": 1900,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "rossland",
+      "name": "Columbia Ave at Spokane St",
+      "x": 300,
+      "y": 2100,
+      "lines": ["46-WKT"],
+      "label": {
+        "x": 300,
+        "y": 2132,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "sequences": {
+    "10-WKT": ["nelson", "chahko-mika", "six-mile", "harrop", "balfour"],
+    "20-WKT": ["nelson", "taghum", "playmor", "slocan-park", "winlaw", "slocan"],
+    "43-WKT": ["trail", "waneta", "fruitvale"],
+    "46-WKT": ["trail", "rossland"],
+    "98-WKT": ["selkirk", "castlegar-cc", "rivervale", "trail"],
+    "99-WKT": ["nelson", "taghum", "playmor", "thrums", "selkirk"]
+  },
+  "stationAliases": {
+    "Nelson Exchange Bay A": "nelson",
+    "Nelson Exchange Bay B": "nelson",
+    "Selkirk College Bay A": "selkirk",
+    "Selkirk College Bay B": "selkirk",
+    "Hwy 3A at Thrums Rd E": "thrums",
+    "Waneta Plaza Bay A": "waneta",
+    "Waneta Plaza Bay B": "waneta"
+  },
+  "badges": [
+    {
+      "line": "10-WKT",
+      "num": "10",
+      "x": 1498,
+      "y": 748,
+      "color": "#FFC20E",
+      "textColor": "#000000"
+    },
+    {
+      "line": "20-WKT",
+      "num": "20",
+      "x": 668,
+      "y": 725,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "43-WKT",
+      "num": "43",
+      "x": 780,
+      "y": 1968,
+      "color": "#DC7122",
+      "textColor": "#000000"
+    },
+    {
+      "line": "46-WKT",
+      "num": "46",
+      "x": 560,
+      "y": 1968,
+      "color": "#BF83B9",
+      "textColor": "#000000"
+    },
+    {
+      "line": "98-WKT",
+      "num": "98",
+      "x": 682,
+      "y": 1750,
+      "color": "#4D4D4F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "99-WKT",
+      "num": "99",
+      "x": 768,
+      "y": 1180,
+      "color": "#5D87A1",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 2110,
+      "minY": 40,
+      "maxY": 2210
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -117.80165,
+    "refLonEast": -116.95973,
+    "refXWest": 423,
+    "refXEast": 1925,
+    "refLatNorth": 49.7633,
+    "refLatSouth": 49.07697,
+    "refYNorth": 174,
+    "refYSouth": 2057
+  },
+  "stationIndex": [
+    {
+      "id": "balfour",
+      "schematicId": "balfour",
+      "name": "Balfour Ferry Terminal",
+      "lat": 49.62435,
+      "lon": -116.95973,
+      "lines": ["10-WKT"],
+      "platformIds": ["160413", "160595"],
+      "departureRouteIds": ["10-WKT", "10X-WKT", "76-WKT"]
+    },
+    {
+      "id": "160247",
+      "schematicId": "castlegar-cc",
+      "name": "Castlegar Community Complex",
+      "lat": 49.29446,
+      "lon": -117.65103,
+      "lines": ["98-WKT"],
+      "platformIds": ["160247"],
+      "departureRouteIds": ["31-WKT", "32-WKT", "33-WKT", "34-WKT", "36-WKT", "38-WKT", "98-WKT"]
+    },
+    {
+      "id": "trail",
+      "schematicId": "trail",
+      "name": "Cedar Ave at Spokane St",
+      "lat": 49.09478,
+      "lon": -117.70785,
+      "lines": ["43-WKT", "46-WKT", "98-WKT"],
+      "platformIds": ["160087", "160578"],
+      "departureRouteIds": [
+        "41-WKT",
+        "42-WKT",
+        "43-WKT",
+        "43X-WKT",
+        "44-WKT",
+        "45-WKT",
+        "46-WKT",
+        "98-WKT"
+      ]
+    },
+    {
+      "id": "chahko-mika",
+      "schematicId": "chahko-mika",
+      "name": "Chahko Mika Mall",
+      "lat": 49.50018,
+      "lon": -117.28718,
+      "lines": ["10-WKT"],
+      "platformIds": ["160378", "160579"],
+      "departureRouteIds": ["10-WKT", "10X-WKT", "2-WKT", "72-WKT", "74-WKT", "76-WKT"]
+    },
+    {
+      "id": "rossland",
+      "schematicId": "rossland",
+      "name": "Columbia Ave at Spokane St",
+      "lat": 49.07697,
+      "lon": -117.80165,
+      "lines": ["46-WKT"],
+      "platformIds": ["160057", "160058"],
+      "departureRouteIds": ["45-WKT", "46-WKT"]
+    },
+    {
+      "id": "160407",
+      "schematicId": "harrop",
+      "name": "Harrop Ferry Terminal",
+      "lat": 49.6123,
+      "lon": -117.05423,
+      "lines": ["10-WKT"],
+      "platformIds": ["160407"],
+      "departureRouteIds": ["10-WKT", "10X-WKT"]
+    },
+    {
+      "id": "thrums",
+      "schematicId": "thrums",
+      "name": "Hwy 3A at Thrums Rd",
+      "lat": 49.36661,
+      "lon": -117.56904,
+      "lines": ["99-WKT"],
+      "platformIds": ["160480", "160488"],
+      "departureRouteIds": ["38-WKT", "99-WKT"]
+    },
+    {
+      "id": "taghum",
+      "schematicId": "taghum",
+      "name": "Hwy 3A/6 at Taghum Frontage Rd",
+      "lat": 49.49134,
+      "lon": -117.40555,
+      "lines": ["20-WKT", "99-WKT"],
+      "platformIds": ["160503", "560039"],
+      "departureRouteIds": ["20-WKT", "74-WKT", "99-WKT"]
+    },
+    {
+      "id": "slocan-park",
+      "schematicId": "slocan-park",
+      "name": "Hwy 6 at Slocan Park Community Hall",
+      "lat": 49.51545,
+      "lon": -117.62079,
+      "lines": ["20-WKT"],
+      "platformIds": ["160522", "160557"],
+      "departureRouteIds": ["20-WKT", "74-WKT"]
+    },
+    {
+      "id": "160398",
+      "schematicId": "six-mile",
+      "name": "Lower 6 Mile Rd at Hwy 3A",
+      "lat": 49.57185,
+      "lon": -117.22824,
+      "lines": ["10-WKT"],
+      "platformIds": ["160398"],
+      "departureRouteIds": ["10-WKT", "10X-WKT"]
+    },
+    {
+      "id": "160157",
+      "schematicId": "fruitvale",
+      "name": "Main St at Columbia Gardens Rd",
+      "lat": 49.11589,
+      "lon": -117.54263,
+      "lines": ["43-WKT"],
+      "platformIds": ["160157"],
+      "departureRouteIds": ["43-WKT", "43X-WKT"]
+    },
+    {
+      "id": "nelson",
+      "schematicId": "nelson",
+      "name": "Nelson Exchange",
+      "lat": 49.49047,
+      "lon": -117.29541,
+      "lines": ["10-WKT", "20-WKT", "99-WKT"],
+      "platformIds": ["160374", "160375"],
+      "departureRouteIds": [
+        "1-WKT",
+        "10-WKT",
+        "10X-WKT",
+        "14-WKT",
+        "15-WKT",
+        "2-WKT",
+        "20-WKT",
+        "2R-WKT",
+        "3-WKT",
+        "4-WKT",
+        "72-WKT",
+        "74-WKT",
+        "76-WKT",
+        "99-WKT"
+      ]
+    },
+    {
+      "id": "playmor",
+      "schematicId": "playmor",
+      "name": "Playmor Junction P&R",
+      "lat": 49.44165,
+      "lon": -117.53892,
+      "lines": ["20-WKT", "99-WKT"],
+      "platformIds": ["160468", "160596"],
+      "departureRouteIds": ["20-WKT", "38-WKT", "74-WKT", "99-WKT"]
+    },
+    {
+      "id": "160383",
+      "schematicId": "rivervale",
+      "name": "Rivervale",
+      "lat": 49.1256,
+      "lon": -117.74128,
+      "lines": ["98-WKT"],
+      "platformIds": ["160383"],
+      "departureRouteIds": ["98-WKT"]
+    },
+    {
+      "id": "selkirk",
+      "schematicId": "selkirk",
+      "name": "Selkirk College",
+      "lat": 49.31102,
+      "lon": -117.65239,
+      "lines": ["98-WKT", "99-WKT"],
+      "platformIds": ["160002", "160594"],
+      "departureRouteIds": ["33-WKT", "36-WKT", "98-WKT", "99-WKT"]
+    },
+    {
+      "id": "slocan",
+      "schematicId": "slocan",
+      "name": "Slocan St at Giffin Ave",
+      "lat": 49.7633,
+      "lon": -117.46573,
+      "lines": ["20-WKT"],
+      "platformIds": ["160210", "160508"],
+      "departureRouteIds": ["20-WKT"]
+    },
+    {
+      "id": "waneta",
+      "schematicId": "waneta",
+      "name": "Waneta Plaza",
+      "lat": 49.09056,
+      "lon": -117.63378,
+      "lines": ["43-WKT"],
+      "platformIds": ["160023", "160382"],
+      "departureRouteIds": ["43-WKT", "43X-WKT"]
+    },
+    {
+      "id": "winlaw",
+      "schematicId": "winlaw",
+      "name": "Winlaw Bridge Rd at Winlaw Elementary",
+      "lat": 49.61383,
+      "lon": -117.56675,
+      "lines": ["20-WKT"],
+      "platformIds": ["160563", "160571"],
+      "departureRouteIds": ["20-WKT"]
+    }
+  ]
+}

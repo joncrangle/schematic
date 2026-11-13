@@ -1,0 +1,52 @@
+{
+  "isStopCancelled": false,
+  "calls": [
+    {
+      "id": "l:9000004/j:1314237/jinstance:/seq:10",
+      "calls": [
+        {
+          "id": "1240910990",
+          "key": "0",
+          "lineId": 9000004,
+          "routeId": 1003438,
+          "journeyId": 1314237,
+          "stopPointId": 9000056,
+          "sequenceNumber": 10,
+          "line": "4",
+          "lineAppearance": {
+            "background": "#CC33FF",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "930",
+          "destination": "Collingwood Downtown Terminal",
+          "subdestination": "",
+          "arrival": null,
+          "departure": {
+            "vehicleType": null,
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-10-15T09:41:00-04:00",
+            "plannedTime": "2026-10-15T09:41:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": "",
+            "occupancyPercent": null
+          },
+          "createdTime": "2026-10-15T13:19:24.9034563+00:00"
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "TX1027190",
+      "text": "Route 4 detour for CCI Eastbound trip due to construction.",
+      "priority": 100,
+      "isDisturbance": false,
+      "isInfo": true,
+      "affectedCalls": [
+        "0"
+      ]
+    }
+  ]
+}

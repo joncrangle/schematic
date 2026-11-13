@@ -1,0 +1,178 @@
+{
+  "id": "orangeville",
+  "name": "Orangeville Transit",
+  "serviceArea": "Orangeville",
+  "shortName": "Orangeville",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.89,
+      "maxLat": 43.94,
+      "minLon": -80.15,
+      "maxLon": -80.093
+    },
+    {
+      "minLat": 43.89,
+      "maxLat": 43.9134,
+      "minLon": -80.093,
+      "maxLon": -80.06
+    },
+    {
+      "minLat": 43.9134,
+      "maxLat": 43.9137,
+      "minLon": -80.0905,
+      "maxLon": -80.06
+    },
+    {
+      "minLat": 43.9137,
+      "maxLat": 43.9201,
+      "minLon": -80.093,
+      "maxLon": -80.06
+    },
+    {
+      "minLat": 43.9201,
+      "maxLat": 43.9204,
+      "minLon": -80.0919,
+      "maxLon": -80.06
+    },
+    {
+      "minLat": 43.9204,
+      "maxLat": 43.94,
+      "minLon": -80.093,
+      "maxLon": -80.06
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "attribution": {
+    "name": "Orangeville Transit / Town of Orangeville",
+    "url": "https://www.orangeville.ca/en/living-here/transit.aspx",
+    "license": "No explicit terms were found for the Orangeville Transit GTFS or AnyRide data. The nearest published terms are the Open Government Licence - Orangeville (https://orangeville.maps.arcgis.com/sharing/rest/content/items/34a5906b55564294b59f737eb875a7bb/data): \"Contains information licenced under the Open Government Licence – Orangeville.\"",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Transit Hub (Center St)",
+      "lat": 43.91609,
+      "lon": -80.103975
+    },
+    {
+      "name": "Headwaters Health Centre",
+      "lat": 43.9199,
+      "lon": -80.073316
+    },
+    {
+      "name": "Alder Street Arena",
+      "lat": 43.904537,
+      "lon": -80.126045
+    },
+    {
+      "name": "Orangeville Mall",
+      "lat": 43.930321,
+      "lon": -80.102256
+    }
+  ],
+  "popularSurfaceRoutes": ["Blue", "Orange"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Orangeville Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-orangeville.zip",
+        "cacheFileName": "orangeville-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "format": "json",
+        "url": "https://orangeville.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "operatorPrefix": "8000",
+        "profile": {
+          "data": "metrolinx_orangeville",
+          "display": "orangeville"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "anyride-messages",
+      "url": "https://orangeville.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+      "operatorPrefix": "8000",
+      "profile": {
+        "data": "metrolinx_orangeville",
+        "display": "orangeville"
+      },
+      "stops": [
+        {
+          "stopId": "100",
+          "routeIds": ["Blue", "Orange"]
+        },
+        {
+          "stopId": "8",
+          "routeIds": ["Blue"]
+        },
+        {
+          "stopId": "46",
+          "routeIds": ["Orange"]
+        }
+      ]
+    },
+    {
+      "type": "web",
+      "url": "https://www.orangeville.ca/en/living-here/schedules-and-map.aspx",
+      "parser": "heading-service-notices",
+      "routeNames": {
+        "Blue": ["Blue route"],
+        "Orange": ["Orange route"]
+      },
+      "requiredForCompleteness": true
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["Blue", "Orange"],
+    "rules": [
+      {
+        "priority": 400,
+        "match": {
+          "textIncludes": [
+            "cancelled",
+            "canceled",
+            "no service",
+            "not operating",
+            "suspended",
+            "suspension"
+          ]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 300,
+        "match": {
+          "sourceField": "isDisturbance",
+          "sourceValue": true
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  }
+}

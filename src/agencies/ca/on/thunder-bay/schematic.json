@@ -1,0 +1,472 @@
+{
+  "viewBoxWidth": 1200.0,
+  "viewBoxHeight": 1000.0,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 Mainline",
+      "color": "#EF4135",
+      "points": [
+        {
+          "x": 880.0,
+          "y": 360.0
+        },
+        {
+          "x": 692.0,
+          "y": 548.0
+        },
+        {
+          "x": 692.0,
+          "y": 848.0
+        },
+        {
+          "x": 680.0,
+          "y": 860.0
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Crosstown",
+      "color": "#13B5EA",
+      "points": [
+        {
+          "x": 880.0,
+          "y": 360.0
+        },
+        {
+          "x": 840.0,
+          "y": 400.0
+        },
+        {
+          "x": 480.0,
+          "y": 400.0
+        },
+        {
+          "x": 480.0,
+          "y": 540.0
+        },
+        {
+          "x": 420.0,
+          "y": 600.0
+        },
+        {
+          "x": 420.0,
+          "y": 680.0
+        }
+      ]
+    },
+    {
+      "id": "3m",
+      "name": "3M Memorial",
+      "color": "#E58E1A",
+      "points": [
+        {
+          "x": 880.0,
+          "y": 360.0
+        },
+        {
+          "x": 856.0,
+          "y": 360.0
+        },
+        {
+          "x": 668.0,
+          "y": 548.0
+        },
+        {
+          "x": 668.0,
+          "y": 848.0
+        },
+        {
+          "x": 680.0,
+          "y": 860.0
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "8 James",
+      "color": "#00B259",
+      "points": [
+        {
+          "x": 680.0,
+          "y": 860.0
+        },
+        {
+          "x": 640.0,
+          "y": 900.0
+        },
+        {
+          "x": 420.0,
+          "y": 900.0
+        },
+        {
+          "x": 420.0,
+          "y": 680.0
+        },
+        {
+          "x": 460.0,
+          "y": 640.0
+        },
+        {
+          "x": 680.0,
+          "y": 640.0
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "9 Junot",
+      "color": "#0067AC",
+      "points": [
+        {
+          "x": 880.0,
+          "y": 360.0
+        },
+        {
+          "x": 840.0,
+          "y": 320.0
+        },
+        {
+          "x": 520.0,
+          "y": 320.0
+        },
+        {
+          "x": 480.0,
+          "y": 360.0
+        },
+        {
+          "x": 480.0,
+          "y": 400.0
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "10 Northwood",
+      "color": "#6A2C91",
+      "points": [
+        {
+          "x": 680.0,
+          "y": 860.0
+        },
+        {
+          "x": 630.0,
+          "y": 810.0
+        },
+        {
+          "x": 550.0,
+          "y": 810.0
+        },
+        {
+          "x": 420.0,
+          "y": 680.0
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "15 Beverly",
+      "color": "#5A5FD6",
+      "points": [
+        {
+          "x": 680.0,
+          "y": 640.0
+        },
+        {
+          "x": 600.0,
+          "y": 560.0
+        },
+        {
+          "x": 600.0,
+          "y": 416.0
+        },
+        {
+          "x": 480.0,
+          "y": 416.0
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "17 Current River",
+      "color": "#BF4F9D",
+      "points": [
+        {
+          "x": 880.0,
+          "y": 360.0
+        },
+        {
+          "x": 930.0,
+          "y": 310.0
+        },
+        {
+          "x": 930.0,
+          "y": 100.0
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "waterfront-terminal",
+      "name": "Waterfront Terminal",
+      "x": 880.0,
+      "y": 360.0,
+      "lines": ["1", "2", "3m", "9", "17"],
+      "label": {
+        "x": 904,
+        "y": 388,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "cowan-hodder",
+      "name": "Cowan & Hodder",
+      "x": 930.0,
+      "y": 100.0,
+      "lines": ["17"],
+      "label": {
+        "x": 950,
+        "y": 104,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lakehead-university",
+      "name": "Lakehead University",
+      "x": 480.0,
+      "y": 408.0,
+      "lines": ["2", "9", "15"],
+      "label": {
+        "x": 460,
+        "y": 412,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "oliver-balmoral",
+      "name": "Oliver & Balmoral",
+      "x": 600.0,
+      "y": 408.0,
+      "lines": ["2", "15"],
+      "label": {
+        "x": 600,
+        "y": 376,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "intercity-shopping-centre",
+      "name": "Intercity Shopping Centre",
+      "x": 680.0,
+      "y": 640.0,
+      "lines": ["1", "3m", "8", "15"],
+      "label": {
+        "x": 716,
+        "y": 650,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "confederation-college",
+      "name": "Confederation College",
+      "x": 420.0,
+      "y": 680.0,
+      "lines": ["2", "8", "10"],
+      "label": {
+        "x": 396,
+        "y": 684,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "city-hall-terminal",
+      "name": "City Hall Terminal",
+      "x": 680.0,
+      "y": 860.0,
+      "lines": ["1", "3m", "8", "10"],
+      "label": {
+        "x": 704,
+        "y": 886,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 847.63,
+      "y": 437.63,
+      "color": "#EF4135",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 720.0,
+      "y": 362.0,
+      "color": "#13B5EA",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3m",
+      "num": "3M",
+      "x": 630.0,
+      "y": 730.0,
+      "color": "#E58E1A",
+      "textColor": "#000000"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "x": 388,
+      "y": 800.0,
+      "color": "#00B259",
+      "textColor": "#000000"
+    },
+    {
+      "line": "9",
+      "num": "9",
+      "x": 700.0,
+      "y": 288,
+      "color": "#0067AC",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "10",
+      "num": "10",
+      "x": 542.63,
+      "y": 757.37,
+      "color": "#6A2C91",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "15",
+      "num": "15",
+      "x": 632,
+      "y": 490.0,
+      "color": "#5A5FD6",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "17",
+      "num": "17",
+      "x": 962,
+      "y": 200.0,
+      "color": "#BF4F9D",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 240.0,
+      "maxX": 1100.0,
+      "minY": 40.0,
+      "maxY": 960.0
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -89.2697,
+    "refLonEast": -89.1825,
+    "refXWest": 420.0,
+    "refXEast": 930.0,
+    "refLatNorth": 48.4787,
+    "refLatSouth": 48.38247,
+    "refYNorth": 100.0,
+    "refYSouth": 860.0
+  },
+  "sequences": {
+    "1": ["waterfront-terminal", "intercity-shopping-centre", "city-hall-terminal"],
+    "2": ["waterfront-terminal", "oliver-balmoral", "lakehead-university", "confederation-college"],
+    "3m": ["waterfront-terminal", "intercity-shopping-centre", "city-hall-terminal"],
+    "8": ["city-hall-terminal", "confederation-college", "intercity-shopping-centre"],
+    "9": ["waterfront-terminal", "lakehead-university"],
+    "10": ["city-hall-terminal", "confederation-college"],
+    "15": ["intercity-shopping-centre", "oliver-balmoral", "lakehead-university"],
+    "17": ["waterfront-terminal", "cowan-hodder"]
+  },
+  "stationAliases": {
+    "code:1006": "intercity-shopping-centre",
+    "code:1103": "intercity-shopping-centre"
+  },
+  "stationIndex": [
+    {
+      "id": "1019",
+      "schematicId": "city-hall-terminal",
+      "name": "City Hall Terminal",
+      "lat": 48.38247,
+      "lon": -89.24602,
+      "lines": ["1", "10", "3m", "8"],
+      "platformIds": ["1019"],
+      "departureRouteIds": ["1", "10", "12", "14", "16", "18", "3M", "4", "8"]
+    },
+    {
+      "id": "1231",
+      "schematicId": "confederation-college",
+      "name": "Confederation College",
+      "lat": 48.40297,
+      "lon": -89.26967,
+      "lines": ["10", "2", "8"],
+      "platformIds": ["1231"],
+      "departureRouteIds": ["10", "16", "2", "5", "8"]
+    },
+    {
+      "id": "1150",
+      "schematicId": "cowan-hodder",
+      "name": "Cowan & Hodder",
+      "lat": 48.47868,
+      "lon": -89.18251,
+      "lines": ["17"],
+      "platformIds": ["1150"],
+      "departureRouteIds": ["17"]
+    },
+    {
+      "id": "intercity-shopping-centre",
+      "schematicId": "intercity-shopping-centre",
+      "name": "Intercity Shopping Centre",
+      "lat": 48.40349,
+      "lon": -89.2433,
+      "lines": ["1", "15", "3m", "8"],
+      "platformIds": ["1006", "1103"],
+      "departureRouteIds": ["1", "12", "15", "3M", "8"]
+    },
+    {
+      "id": "1222",
+      "schematicId": "lakehead-university",
+      "name": "Lakehead University",
+      "lat": 48.42144,
+      "lon": -89.26211,
+      "lines": ["15", "2", "9"],
+      "platformIds": ["1222"],
+      "departureRouteIds": ["15", "2", "9"]
+    },
+    {
+      "id": "1220",
+      "schematicId": "oliver-balmoral",
+      "name": "Oliver & Balmoral",
+      "lat": 48.42592,
+      "lon": -89.25401,
+      "lines": ["15", "2"],
+      "platformIds": ["1220"],
+      "departureRouteIds": ["15", "2"]
+    },
+    {
+      "id": "1121",
+      "schematicId": "waterfront-terminal",
+      "name": "Waterfront Terminal",
+      "lat": 48.43568,
+      "lon": -89.21703,
+      "lines": ["1", "17", "2", "3m", "9"],
+      "platformIds": ["1121"],
+      "departureRouteIds": ["1", "11", "13", "17", "2", "3C", "3J", "3M", "7", "9"]
+    }
+  ]
+}

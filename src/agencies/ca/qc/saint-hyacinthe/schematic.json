@@ -1,0 +1,631 @@
+{
+  "viewBoxWidth": 1750,
+  "viewBoxHeight": 1450,
+  "lines": [
+    {
+      "id": "50",
+      "name": "Express Centre-ville / Galeries",
+      "color": "#03BACF",
+      "points": [
+        {
+          "x": 900,
+          "y": 850
+        },
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 650,
+          "y": 450
+        },
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 750
+        },
+        {
+          "x": 900,
+          "y": 850
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Saint-Joseph",
+      "color": "#7F377E",
+      "points": [
+        {
+          "x": 900,
+          "y": 850
+        },
+        {
+          "x": 950,
+          "y": 850
+        },
+        {
+          "x": 1250,
+          "y": 1150
+        },
+        {
+          "x": 1350,
+          "y": 1150
+        },
+        {
+          "x": 1350,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 850
+        },
+        {
+          "x": 900,
+          "y": 850
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Douville",
+      "color": "#009FD1",
+      "points": [
+        {
+          "x": 900,
+          "y": 850
+        },
+        {
+          "x": 450,
+          "y": 850
+        },
+        {
+          "x": 350,
+          "y": 950
+        },
+        {
+          "x": 150,
+          "y": 1150
+        },
+        {
+          "x": 150,
+          "y": 1250
+        },
+        {
+          "x": 650,
+          "y": 1250
+        },
+        {
+          "x": 900,
+          "y": 1000
+        },
+        {
+          "x": 900,
+          "y": 850
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "L'Assomption / Sainte-Rosalie",
+      "color": "#795E4C",
+      "points": [
+        {
+          "x": 900,
+          "y": 850
+        },
+        {
+          "x": 1300,
+          "y": 850
+        },
+        {
+          "x": 1500,
+          "y": 650
+        },
+        {
+          "x": 1600,
+          "y": 650
+        },
+        {
+          "x": 1600,
+          "y": 950
+        },
+        {
+          "x": 1500,
+          "y": 1050
+        },
+        {
+          "x": 1100,
+          "y": 1050
+        },
+        {
+          "x": 900,
+          "y": 850
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Saint-Thomas-d'Aquin",
+      "color": "#F171AB",
+      "points": [
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 450,
+          "y": 350
+        },
+        {
+          "x": 200,
+          "y": 100
+        },
+        {
+          "x": 100,
+          "y": 100
+        },
+        {
+          "x": 100,
+          "y": 200
+        },
+        {
+          "x": 450,
+          "y": 550
+        },
+        {
+          "x": 650,
+          "y": 550
+        },
+        {
+          "x": 650,
+          "y": 350
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "La Providence",
+      "color": "#C9CB2D",
+      "points": [
+        {
+          "x": 900,
+          "y": 850
+        },
+        {
+          "x": 900,
+          "y": 1100
+        },
+        {
+          "x": 700,
+          "y": 1300
+        },
+        {
+          "x": 500,
+          "y": 1300
+        },
+        {
+          "x": 500,
+          "y": 1200
+        },
+        {
+          "x": 800,
+          "y": 900
+        },
+        {
+          "x": 850,
+          "y": 900
+        },
+        {
+          "x": 900,
+          "y": 850
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Sacré-Cœur",
+      "color": "#78C35C",
+      "points": [
+        {
+          "x": 900,
+          "y": 850
+        },
+        {
+          "x": 1100,
+          "y": 850
+        },
+        {
+          "x": 1100,
+          "y": 350
+        },
+        {
+          "x": 1000,
+          "y": 250
+        },
+        {
+          "x": 750,
+          "y": 250
+        },
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 750
+        },
+        {
+          "x": 900,
+          "y": 850
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Express Galeries / Cégep",
+      "color": "#6753A1",
+      "points": [
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 450,
+          "y": 550
+        },
+        {
+          "x": 450,
+          "y": 850
+        },
+        {
+          "x": 350,
+          "y": 950
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "terminus",
+      "name": "Terminus centre-ville",
+      "x": 900,
+      "y": 850,
+      "lines": ["50", "51", "52", "53", "56", "57"],
+      "label": {
+        "x": 930,
+        "y": 805,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "galeries",
+      "name": "Galeries Saint-Hyacinthe",
+      "x": 650,
+      "y": 350,
+      "lines": ["50", "55", "57", "60"],
+      "label": {
+        "x": 685,
+        "y": 325,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "hotel-dieu",
+      "name": "Hôtel-Dieu / Gare VIA",
+      "x": 900,
+      "y": 600,
+      "lines": ["50"],
+      "label": {
+        "x": 935,
+        "y": 600,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cegep",
+      "name": "Cégep",
+      "x": 350,
+      "y": 950,
+      "lines": ["52", "60"],
+      "label": {
+        "x": 315,
+        "y": 920,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "douville",
+      "name": "Douville",
+      "x": 150,
+      "y": 1150,
+      "lines": ["52"],
+      "label": {
+        "x": 115,
+        "y": 1150,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "saint-joseph",
+      "name": "Saint-Joseph",
+      "x": 1250,
+      "y": 1150,
+      "lines": ["51"],
+      "label": {
+        "x": 1250,
+        "y": 1185,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sainte-rosalie",
+      "name": "Sainte-Rosalie",
+      "x": 1500,
+      "y": 650,
+      "lines": ["53"],
+      "label": {
+        "x": 1500,
+        "y": 615,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "saint-thomas",
+      "name": "Saint-Thomas-d'Aquin",
+      "x": 200,
+      "y": 100,
+      "lines": ["55"],
+      "label": {
+        "x": 200,
+        "y": 65,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "providence",
+      "name": "La Providence",
+      "x": 700,
+      "y": 1300,
+      "lines": ["56"],
+      "label": {
+        "x": 700,
+        "y": 1335,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sacre-coeur",
+      "name": "Sacré-Cœur",
+      "x": 1100,
+      "y": 350,
+      "lines": ["57"],
+      "label": {
+        "x": 1135,
+        "y": 350,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "50",
+      "num": "50",
+      "x": 933,
+      "y": 710,
+      "color": "#03BACF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "51",
+      "num": "51",
+      "x": 1383,
+      "y": 1080,
+      "color": "#7F377E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "52",
+      "num": "52",
+      "x": 300,
+      "y": 1283,
+      "color": "#009FD1",
+      "textColor": "#000000"
+    },
+    {
+      "line": "53",
+      "num": "53",
+      "x": 1633,
+      "y": 810,
+      "color": "#795E4C",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "55",
+      "num": "55",
+      "x": 350,
+      "y": 317,
+      "color": "#F171AB",
+      "textColor": "#000000"
+    },
+    {
+      "line": "56",
+      "num": "56",
+      "x": 610,
+      "y": 1267,
+      "color": "#C9CB2D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "57",
+      "num": "57",
+      "x": 1133,
+      "y": 500,
+      "color": "#78C35C",
+      "textColor": "#000000"
+    },
+    {
+      "line": "60",
+      "num": "60",
+      "x": 417,
+      "y": 700,
+      "color": "#6753A1",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "50": ["terminus", "hotel-dieu", "galeries"],
+    "51": ["terminus", "saint-joseph"],
+    "52": ["terminus", "cegep", "douville"],
+    "53": ["terminus", "sainte-rosalie"],
+    "55": ["galeries", "saint-thomas"],
+    "56": ["terminus", "providence"],
+    "57": ["terminus", "sacre-coeur", "galeries"],
+    "60": ["galeries", "cegep"]
+  },
+  "stationAliases": {
+    "Terminus Saint-Hyacinthe": "terminus",
+    "Galeries Saint-Hyacinthe - porte #8": "galeries",
+    "Sainte-Anne / face à l'Hôtel-Dieu": "hotel-dieu",
+    "Cégep de Saint-Hyacinthe": "cegep",
+    "Duchesnay / Garnier": "douville",
+    "Perreault / de l'Union": "saint-joseph",
+    "Marquette / de l'Église": "sainte-rosalie",
+    "Léon (1) / Sansoucy": "saint-thomas",
+    "Bourdages Sud / Sainte-Madeleine": "providence",
+    "du Sacré-Coeur Est / des Grandes-Orgues": "sacre-coeur",
+    "Sicotte / Sainte-Anne": "hotel-dieu"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1730,
+      "minY": 20,
+      "maxY": 1430
+    },
+    "minZoom": 0.3,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -73.005,
+    "refLonEast": -72.89,
+    "refXWest": 150,
+    "refXEast": 1500,
+    "refLatNorth": 45.65,
+    "refLatSouth": 45.6,
+    "refYNorth": 100,
+    "refYSouth": 1300
+  },
+  "stationIndex": [
+    {
+      "id": "4850811878244352",
+      "schematicId": "cegep",
+      "name": "Cégep",
+      "lat": 45.617164611816406,
+      "lon": -72.97462463378906,
+      "lines": ["52", "60"],
+      "platformIds": ["4850811878244352"],
+      "departureRouteIds": ["52", "60"]
+    },
+    {
+      "id": "5102748200599552",
+      "schematicId": "douville",
+      "name": "Douville",
+      "lat": 45.59663772583008,
+      "lon": -72.97827911376953,
+      "lines": ["52"],
+      "platformIds": ["5102748200599552"],
+      "departureRouteIds": ["52"]
+    },
+    {
+      "id": "4906236202975232",
+      "schematicId": "galeries",
+      "name": "Galeries Saint-Hyacinthe",
+      "lat": 45.639549255371094,
+      "lon": -72.96472930908203,
+      "lines": ["50", "55", "57", "60"],
+      "platformIds": ["4906236202975232"],
+      "departureRouteIds": ["50", "54", "55", "57", "60", "70", "71"]
+    },
+    {
+      "id": "6311026855247872",
+      "schematicId": "hotel-dieu",
+      "name": "Hôtel-Dieu",
+      "lat": 45.62704849243164,
+      "lon": -72.94977569580078,
+      "lines": ["50"],
+      "platformIds": ["5101409848524800", "6311026855247872"],
+      "departureRouteIds": ["50", "54", "70"]
+    },
+    {
+      "id": "5105031663583232",
+      "schematicId": "providence",
+      "name": "La Providence",
+      "lat": 45.616798400878906,
+      "lon": -72.94344329833984,
+      "lines": ["56"],
+      "platformIds": ["5105031663583232"],
+      "departureRouteIds": ["56"]
+    },
+    {
+      "id": "sacre-coeur",
+      "schematicId": "sacre-coeur",
+      "name": "Sacré-Cœur",
+      "lat": 45.6422004699707,
+      "lon": -72.94380950927734,
+      "lines": ["57"],
+      "platformIds": ["5133100801589248", "6214312781676544"],
+      "departureRouteIds": ["57"]
+    },
+    {
+      "id": "5136497516740608",
+      "schematicId": "saint-joseph",
+      "name": "Saint-Joseph",
+      "lat": 45.615943908691406,
+      "lon": -72.91960906982422,
+      "lines": ["51"],
+      "platformIds": ["5136497516740608"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "5084761028558848",
+      "schematicId": "saint-thomas",
+      "name": "Saint-Thomas-d'Aquin",
+      "lat": 45.648468017578125,
+      "lon": -73.00623321533203,
+      "lines": ["55"],
+      "platformIds": ["5084761028558848"],
+      "departureRouteIds": ["55"]
+    },
+    {
+      "id": "5195661026787328",
+      "schematicId": "sainte-rosalie",
+      "name": "Sainte-Rosalie",
+      "lat": 45.64540100097656,
+      "lon": -72.89866638183594,
+      "lines": ["53"],
+      "platformIds": ["5195661026787328"],
+      "departureRouteIds": ["53"]
+    },
+    {
+      "id": "6231209803776000",
+      "schematicId": "terminus",
+      "name": "Terminus centre-ville",
+      "lat": 45.625640869140625,
+      "lon": -72.94548797607422,
+      "lines": ["50", "51", "52", "53", "56", "57"],
+      "platformIds": ["6231209803776000"],
+      "departureRouteIds": ["50", "51", "52", "53", "54", "56", "57", "70"]
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "viewBoxWidth": 1800,
+  "viewBoxHeight": 1250,
+  "lines": [
+    {
+      "id": "175",
+      "name": "Corridor d'Écomobilité Saguenay",
+      "color": "#FF00FF",
+      "points": [
+        {
+          "x": 250,
+          "y": 450
+        },
+        {
+          "x": 250,
+          "y": 300
+        },
+        {
+          "x": 370,
+          "y": 180
+        },
+        {
+          "x": 500,
+          "y": 180
+        },
+        {
+          "x": 650,
+          "y": 330
+        },
+        {
+          "x": 830,
+          "y": 330
+        },
+        {
+          "x": 950,
+          "y": 450
+        },
+        {
+          "x": 1100,
+          "y": 450
+        },
+        {
+          "x": 1250,
+          "y": 300
+        },
+        {
+          "x": 1250,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Chicoutimi / Jonquière via boul. Royaume",
+      "color": "#FF0000",
+      "points": [
+        {
+          "x": 950,
+          "y": 450
+        },
+        {
+          "x": 250,
+          "y": 450
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Chicoutimi / La Baie via boul. St-Jean-Baptiste",
+      "color": "#FF0000",
+      "points": [
+        {
+          "x": 1550,
+          "y": 1000
+        },
+        {
+          "x": 1550,
+          "y": 800
+        },
+        {
+          "x": 1400,
+          "y": 650
+        },
+        {
+          "x": 1000,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Chicoutimi / La Baie via Base de Bagotville",
+      "color": "#FF0000",
+      "points": [
+        {
+          "x": 1000,
+          "y": 650
+        },
+        {
+          "x": 900,
+          "y": 750
+        },
+        {
+          "x": 900,
+          "y": 800
+        },
+        {
+          "x": 1150,
+          "y": 1050
+        },
+        {
+          "x": 1500,
+          "y": 1050
+        },
+        {
+          "x": 1550,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Rivière du Moulin",
+      "color": "#FF0000",
+      "points": [
+        {
+          "x": 1250,
+          "y": 400
+        },
+        {
+          "x": 1100,
+          "y": 550
+        },
+        {
+          "x": 950,
+          "y": 550
+        },
+        {
+          "x": 950,
+          "y": 350
+        },
+        {
+          "x": 1150,
+          "y": 150
+        },
+        {
+          "x": 1250,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Quartiers Oiseaux / Plateau Saguenéens",
+      "color": "#808000",
+      "points": [
+        {
+          "x": 1050,
+          "y": 850
+        },
+        {
+          "x": 1450,
+          "y": 450
+        },
+        {
+          "x": 1450,
+          "y": 400
+        },
+        {
+          "x": 1250,
+          "y": 400
+        },
+        {
+          "x": 1250,
+          "y": 150
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "jonquiere",
+      "name": "Terminus Jonquière",
+      "x": 250,
+      "y": 450,
+      "lines": ["175", "2"],
+      "label": {
+        "x": 220,
+        "y": 450,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "fortier",
+      "name": "Résidence Fortier",
+      "x": 500,
+      "y": 180,
+      "lines": ["175"],
+      "label": {
+        "x": 500,
+        "y": 148,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "faubourg",
+      "name": "Faubourg Sagamie",
+      "x": 600,
+      "y": 450,
+      "lines": ["2"],
+      "label": {
+        "x": 600,
+        "y": 482,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "royaume",
+      "name": "Station du Royaume",
+      "x": 950,
+      "y": 450,
+      "lines": ["2", "175"],
+      "label": {
+        "x": 980,
+        "y": 480,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "place-royaume",
+      "name": "Place du Royaume",
+      "x": 1000,
+      "y": 650,
+      "lines": ["5", "6"],
+      "label": {
+        "x": 1000,
+        "y": 618,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "la-baie",
+      "name": "Terminus La Baie",
+      "x": 1550,
+      "y": 1000,
+      "lines": ["5", "6"],
+      "label": {
+        "x": 1580,
+        "y": 1000,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "bagotville",
+      "name": "BFC Bagotville",
+      "x": 1250,
+      "y": 1050,
+      "lines": ["6"],
+      "label": {
+        "x": 1250,
+        "y": 1082,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "uqac",
+      "name": "Station UQAC",
+      "x": 1250,
+      "y": 400,
+      "lines": ["12", "15"],
+      "label": {
+        "x": 1280,
+        "y": 425,
+        "anchor": "start",
+        "leader": true
+      },
+      "terminal": true
+    },
+    {
+      "id": "chicoutimi",
+      "name": "Terminus Chicoutimi",
+      "x": 1250,
+      "y": 150,
+      "lines": ["12", "15", "175"],
+      "label": {
+        "x": 1250,
+        "y": 118,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "roitelets",
+      "name": "Roitelets / Talbot",
+      "x": 1050,
+      "y": 850,
+      "lines": ["15"],
+      "label": {
+        "x": 1050,
+        "y": 882,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "175",
+      "num": "175",
+      "x": 284,
+      "y": 300,
+      "color": "#FF00FF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 760,
+      "y": 484,
+      "color": "#FF0000",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 1484,
+      "y": 800,
+      "color": "#FF0000",
+      "textColor": "#000000"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 1390,
+      "y": 1084,
+      "color": "#FF0000",
+      "textColor": "#000000"
+    },
+    {
+      "line": "12",
+      "num": "12",
+      "x": 984,
+      "y": 390,
+      "color": "#FF0000",
+      "textColor": "#000000"
+    },
+    {
+      "line": "15",
+      "num": "15",
+      "x": 1284,
+      "y": 230,
+      "color": "#808000",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "175": ["jonquiere", "fortier", "royaume", "chicoutimi"],
+    "2": ["royaume", "faubourg", "jonquiere"],
+    "5": ["la-baie", "place-royaume"],
+    "6": ["place-royaume", "bagotville", "la-baie"],
+    "12": ["uqac", "chicoutimi"],
+    "15": ["roitelets", "uqac", "chicoutimi"]
+  },
+  "stationAliases": {
+    "Terminus Jonquière": "jonquiere",
+    "Résidence Fortier": "fortier",
+    "Faubourg Sagamie": "faubourg",
+    "Station du Royaume": "royaume",
+    "Place du Royaume": "place-royaume",
+    "Terminus La Baie": "la-baie",
+    "BFC Bagotville": "bagotville",
+    "Station UQAC": "uqac",
+    "Terminus Chicoutimi": "chicoutimi",
+    "Terminus de Chicoutimi": "chicoutimi",
+    "Roitelets / Talbot": "roitelets"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 1750,
+      "minY": 40,
+      "maxY": 1210
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -71.32846,
+    "refLonEast": -70.83928,
+    "refXWest": 150,
+    "refXEast": 1650,
+    "refLatNorth": 48.60225,
+    "refLatSouth": 48.29974,
+    "refYNorth": 150,
+    "refYSouth": 1100
+  },
+  "stationIndex": [
+    {
+      "id": "bagotville",
+      "schematicId": "bagotville",
+      "name": "BFC Bagotville",
+      "lat": 48.33938,
+      "lon": -70.98798,
+      "lines": ["6"],
+      "platformIds": ["1965", "294"],
+      "departureRouteIds": ["106", "6"]
+    },
+    {
+      "id": "1129",
+      "schematicId": "faubourg",
+      "name": "Faubourg Sagamie",
+      "lat": 48.40307,
+      "lon": -71.16737,
+      "lines": ["2"],
+      "platformIds": ["1129"],
+      "departureRouteIds": ["2", "202S", "39", "8"]
+    },
+    {
+      "id": "place-royaume",
+      "schematicId": "place-royaume",
+      "name": "Place du Royaume",
+      "lat": 48.40235,
+      "lon": -71.05769,
+      "lines": ["5", "6"],
+      "platformIds": ["1294", "193", "2203", "572"],
+      "departureRouteIds": ["105", "106", "12", "15", "42S", "5", "6"]
+    },
+    {
+      "id": "850",
+      "schematicId": "fortier",
+      "name": "Résidence Fortier",
+      "lat": 48.42683,
+      "lon": -71.2309,
+      "lines": ["175"],
+      "platformIds": ["850"],
+      "departureRouteIds": ["175"]
+    },
+    {
+      "id": "roitelets",
+      "schematicId": "roitelets",
+      "name": "Roitelets / Talbot",
+      "lat": 48.3934,
+      "lon": -71.06902,
+      "lines": ["15"],
+      "platformIds": ["1513", "1543"],
+      "departureRouteIds": ["14", "15", "200S", "72S"]
+    },
+    {
+      "id": "1380",
+      "schematicId": "royaume",
+      "name": "Station du Royaume",
+      "lat": 48.38114,
+      "lon": -71.08253,
+      "lines": ["175", "2"],
+      "platformIds": ["1380"],
+      "departureRouteIds": ["175", "2", "208S", "60", "62", "64", "71S", "72S", "75S", "80S"]
+    },
+    {
+      "id": "uqac",
+      "schematicId": "uqac",
+      "name": "Station UQAC",
+      "lat": 48.4204,
+      "lon": -71.05353,
+      "lines": ["12", "15"],
+      "platformIds": ["1670", "1680", "2313", "2314"],
+      "departureRouteIds": [
+        "10",
+        "105",
+        "106",
+        "112S",
+        "12",
+        "13",
+        "15",
+        "15s",
+        "175",
+        "204S",
+        "216S",
+        "27",
+        "28",
+        "5",
+        "6",
+        "65",
+        "72S",
+        "8"
+      ]
+    },
+    {
+      "id": "chicoutimi",
+      "schematicId": "chicoutimi",
+      "name": "Terminus Chicoutimi",
+      "lat": 48.42874,
+      "lon": -71.06616,
+      "lines": ["12", "15", "175"],
+      "platformIds": ["1289", "12890"],
+      "departureRouteIds": [
+        "10",
+        "100S",
+        "103S",
+        "105",
+        "106",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "15s",
+        "16",
+        "175",
+        "20",
+        "203S",
+        "21",
+        "22",
+        "24",
+        "25",
+        "26",
+        "27",
+        "300S",
+        "40S",
+        "42S",
+        "65",
+        "72S",
+        "821",
+        "824"
+      ]
+    },
+    {
+      "id": "1291",
+      "schematicId": "jonquiere",
+      "name": "Terminus Jonquière",
+      "lat": 48.41199,
+      "lon": -71.25388,
+      "lines": ["175", "2"],
+      "platformIds": ["1291"],
+      "departureRouteIds": [
+        "103S",
+        "175",
+        "2",
+        "201S",
+        "210S",
+        "219S",
+        "30",
+        "33",
+        "35",
+        "36",
+        "67"
+      ]
+    },
+    {
+      "id": "1288",
+      "schematicId": "la-baie",
+      "name": "Terminus La Baie",
+      "lat": 48.33721,
+      "lon": -70.87957,
+      "lines": ["5", "6"],
+      "platformIds": ["1288"],
+      "departureRouteIds": ["105", "106", "5", "50", "51", "52", "6"]
+    }
+  ]
+}

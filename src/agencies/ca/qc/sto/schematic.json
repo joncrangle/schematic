@@ -1,0 +1,915 @@
+{
+  "viewBoxWidth": 2050,
+  "viewBoxHeight": 1500,
+  "lines": [
+    {
+      "id": "100",
+      "name": "Rapibus 100",
+      "color": "#E32636",
+      "points": [
+        {
+          "x": 1080,
+          "y": 920
+        },
+        {
+          "x": 980,
+          "y": 920
+        },
+        {
+          "x": 900,
+          "y": 1000
+        },
+        {
+          "x": 900,
+          "y": 800
+        },
+        {
+          "x": 1100,
+          "y": 600
+        },
+        {
+          "x": 1260,
+          "y": 600
+        },
+        {
+          "x": 1420,
+          "y": 600
+        },
+        {
+          "x": 1580,
+          "y": 600
+        },
+        {
+          "x": 1740,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "name": "Rapibus 200",
+      "color": "#E32636",
+      "points": [
+        {
+          "x": 1480,
+          "y": 1260
+        },
+        {
+          "x": 1160,
+          "y": 1260
+        },
+        {
+          "x": 1060,
+          "y": 1160
+        },
+        {
+          "x": 900,
+          "y": 1000
+        },
+        {
+          "x": 900,
+          "y": 800
+        },
+        {
+          "x": 1100,
+          "y": 600
+        },
+        {
+          "x": 1260,
+          "y": 600
+        },
+        {
+          "x": 1420,
+          "y": 600
+        },
+        {
+          "x": 1580,
+          "y": 600
+        },
+        {
+          "x": 1740,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "400",
+      "name": "Rapibus 400",
+      "color": "#E32636",
+      "points": [
+        {
+          "x": 1480,
+          "y": 1260
+        },
+        {
+          "x": 1160,
+          "y": 1260
+        },
+        {
+          "x": 1060,
+          "y": 1160
+        },
+        {
+          "x": 900,
+          "y": 1000
+        },
+        {
+          "x": 900,
+          "y": 800
+        },
+        {
+          "x": 1100,
+          "y": 600
+        },
+        {
+          "x": 1260,
+          "y": 600
+        },
+        {
+          "x": 1420,
+          "y": 600
+        },
+        {
+          "x": 1580,
+          "y": 600
+        },
+        {
+          "x": 1740,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "800",
+      "name": "Rapibus 800",
+      "color": "#E32636",
+      "points": [
+        {
+          "x": 200,
+          "y": 1100
+        },
+        {
+          "x": 500,
+          "y": 1100
+        },
+        {
+          "x": 720,
+          "y": 1100
+        },
+        {
+          "x": 800,
+          "y": 1100
+        },
+        {
+          "x": 900,
+          "y": 1000
+        },
+        {
+          "x": 900,
+          "y": 800
+        },
+        {
+          "x": 1100,
+          "y": 600
+        },
+        {
+          "x": 1260,
+          "y": 600
+        },
+        {
+          "x": 1420,
+          "y": 600
+        },
+        {
+          "x": 1580,
+          "y": 600
+        },
+        {
+          "x": 1740,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Freeman – Ottawa",
+      "color": "#0096AD",
+      "points": [
+        {
+          "x": 700,
+          "y": 400
+        },
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 1000
+        },
+        {
+          "x": 1060,
+          "y": 1160
+        },
+        {
+          "x": 1160,
+          "y": 1260
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Aylmer – Ottawa",
+      "color": "#0096AD",
+      "points": [
+        {
+          "x": 200,
+          "y": 1100
+        },
+        {
+          "x": 500,
+          "y": 1100
+        },
+        {
+          "x": 720,
+          "y": 1100
+        },
+        {
+          "x": 1000,
+          "y": 1100
+        },
+        {
+          "x": 1160,
+          "y": 1260
+        },
+        {
+          "x": 1480,
+          "y": 1260
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "saint-redempteur",
+      "name": "Allumettières / Saint-Rédempteur",
+      "x": 1080,
+      "y": 920,
+      "lines": ["100"],
+      "label": {
+        "x": 1112,
+        "y": 920,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "montcalm",
+      "name": "Montcalm",
+      "x": 900,
+      "y": 1000,
+      "lines": ["100", "200", "400", "800", "20"],
+      "label": {
+        "x": 868,
+        "y": 1000,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "casino",
+      "name": "Casino",
+      "x": 900,
+      "y": 800,
+      "lines": ["100", "200", "400", "800", "20"],
+      "label": {
+        "x": 868,
+        "y": 800,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "de-la-gappe",
+      "name": "De la Gappe",
+      "x": 1100,
+      "y": 600,
+      "lines": ["100", "200", "400", "800"],
+      "label": {
+        "x": 1100,
+        "y": 544,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "promenades",
+      "name": "Les Promenades",
+      "x": 1260,
+      "y": 600,
+      "lines": ["100", "200", "400", "800"],
+      "label": {
+        "x": 1260,
+        "y": 656,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "de-la-cite",
+      "name": "De la Cité",
+      "x": 1420,
+      "y": 600,
+      "lines": ["100", "200", "400", "800"],
+      "label": {
+        "x": 1420,
+        "y": 544,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "labrosse",
+      "name": "Labrosse",
+      "x": 1580,
+      "y": 600,
+      "lines": ["100", "200", "400", "800"],
+      "label": {
+        "x": 1580,
+        "y": 656,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lorrain",
+      "name": "Lorrain",
+      "x": 1740,
+      "y": 600,
+      "lines": ["100", "200", "400", "800"],
+      "label": {
+        "x": 1740,
+        "y": 544,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "centre-rideau",
+      "name": "Centre Rideau / Mackenzie King",
+      "x": 1480,
+      "y": 1260,
+      "lines": ["200", "400", "55"],
+      "label": {
+        "x": 1480,
+        "y": 1226,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lyon",
+      "name": "Lyon",
+      "x": 1160,
+      "y": 1260,
+      "lines": ["200", "400", "20", "55"],
+      "label": {
+        "x": 1160,
+        "y": 1316,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "allumettieres",
+      "name": "Parc-o-bus Allumettières",
+      "x": 200,
+      "y": 1100,
+      "lines": ["800", "55"],
+      "label": {
+        "x": 200,
+        "y": 1066,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "rivermead",
+      "name": "Rivermead",
+      "x": 500,
+      "y": 1100,
+      "lines": ["800", "55"],
+      "label": {
+        "x": 500,
+        "y": 1066,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "tache-uqo",
+      "name": "Taché / UQO",
+      "x": 720,
+      "y": 1100,
+      "lines": ["800", "55"],
+      "label": {
+        "x": 720,
+        "y": 1066,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "freeman",
+      "name": "Freeman",
+      "x": 700,
+      "y": 400,
+      "lines": ["20"],
+      "label": {
+        "x": 700,
+        "y": 366,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "sequences": {
+    "100": [
+      "saint-redempteur",
+      "montcalm",
+      "casino",
+      "de-la-gappe",
+      "promenades",
+      "de-la-cite",
+      "labrosse",
+      "lorrain"
+    ],
+    "200": [
+      "centre-rideau",
+      "lyon",
+      "montcalm",
+      "casino",
+      "de-la-gappe",
+      "promenades",
+      "de-la-cite",
+      "labrosse",
+      "lorrain"
+    ],
+    "400": [
+      "centre-rideau",
+      "lyon",
+      "montcalm",
+      "casino",
+      "de-la-gappe",
+      "promenades",
+      "de-la-cite",
+      "labrosse",
+      "lorrain"
+    ],
+    "800": [
+      "allumettieres",
+      "rivermead",
+      "tache-uqo",
+      "montcalm",
+      "casino",
+      "de-la-gappe",
+      "promenades",
+      "de-la-cite",
+      "labrosse",
+      "lorrain"
+    ],
+    "20": ["freeman", "casino", "montcalm", "lyon"],
+    "55": ["allumettieres", "rivermead", "tache-uqo", "lyon", "centre-rideau"]
+  },
+  "stationAliases": {
+    "code:2573": "montcalm",
+    "code:8020": "montcalm",
+    "code:8021": "montcalm",
+    "code:8022": "montcalm",
+    "code:8023": "montcalm",
+    "code:8040": "casino",
+    "code:8041": "casino",
+    "code:2584": "casino",
+    "code:2586": "casino",
+    "code:8060": "de-la-gappe",
+    "code:8061": "de-la-gappe",
+    "code:8063": "de-la-gappe",
+    "code:8070": "promenades",
+    "code:8071": "promenades",
+    "code:8072": "promenades",
+    "code:3333": "promenades",
+    "code:8080": "de-la-cite",
+    "code:8081": "de-la-cite",
+    "code:8083": "de-la-cite",
+    "code:8500": "labrosse",
+    "code:8501": "labrosse",
+    "code:8503": "labrosse",
+    "code:3990": "labrosse",
+    "code:4000": "lorrain",
+    "code:4001": "lorrain",
+    "code:4002": "lorrain",
+    "code:4004": "lorrain",
+    "code:5136": "centre-rideau",
+    "code:5138": "centre-rideau",
+    "code:5112": "lyon",
+    "code:5113": "lyon",
+    "code:5116": "lyon",
+    "code:5117": "lyon",
+    "code:1096": "allumettieres",
+    "code:1097": "allumettieres",
+    "code:1099": "allumettieres",
+    "code:1132": "allumettieres",
+    "code:1133": "allumettieres",
+    "code:1377": "rivermead",
+    "code:2051": "freeman",
+    "code:2053": "freeman",
+    "code:2151": "freeman",
+    "code:2153": "freeman",
+    "code:2155": "freeman",
+    "code:2702": "saint-redempteur",
+    "code:2703": "saint-redempteur",
+    "code:2704": "saint-redempteur",
+    "code:8010": "tache-uqo",
+    "code:8011": "tache-uqo"
+  },
+  "badges": [
+    {
+      "line": "100",
+      "num": "100",
+      "x": 1040,
+      "y": 888,
+      "color": "#E32636",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "200",
+      "num": "200",
+      "x": 1210,
+      "y": 568,
+      "color": "#E32636",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "400",
+      "num": "400",
+      "x": 1530,
+      "y": 568,
+      "color": "#E32636",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "800",
+      "num": "800",
+      "x": 380,
+      "y": 1068,
+      "color": "#E32636",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "20",
+      "num": "20",
+      "x": 768,
+      "y": 600,
+      "color": "#0096AD",
+      "textColor": "#000000"
+    },
+    {
+      "line": "55",
+      "num": "55",
+      "x": 900,
+      "y": 1132,
+      "color": "#0096AD",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 2050,
+      "minY": 0,
+      "maxY": 1500
+    },
+    "minZoom": 0.5,
+    "maxZoom": 6
+  },
+  "geoProjection": {
+    "refLonWest": -75.8662,
+    "refLonEast": -75.6081,
+    "refXWest": 200,
+    "refXEast": 1740,
+    "refLatNorth": 45.4952,
+    "refLatSouth": 45.41825,
+    "refYNorth": 600,
+    "refYSouth": 1260
+  },
+  "stationIndex": [
+    {
+      "id": "saint-redempteur",
+      "schematicId": "saint-redempteur",
+      "name": "Allumettières / Saint-Rédempteur",
+      "lat": 45.432191,
+      "lon": -75.721377,
+      "lines": ["100"],
+      "platformIds": ["2702", "2703", "2704"],
+      "departureRouteIds": ["100", "27", "33", "725", "733", "867", "93", "94", "95", "98"]
+    },
+    {
+      "id": "casino",
+      "schematicId": "casino",
+      "name": "Casino",
+      "lat": 45.445428,
+      "lon": -75.728092,
+      "lines": ["100", "20", "200", "400", "800"],
+      "platformIds": ["2584", "2586", "8040", "8041"],
+      "departureRouteIds": [
+        "100",
+        "18",
+        "20",
+        "200",
+        "27",
+        "39",
+        "400",
+        "569",
+        "576",
+        "800",
+        "827",
+        "93",
+        "95"
+      ]
+    },
+    {
+      "id": "centre-rideau",
+      "schematicId": "centre-rideau",
+      "name": "Centre Rideau / Mackenzie King",
+      "lat": 45.424168,
+      "lon": -75.689335,
+      "lines": ["200", "400", "55"],
+      "platformIds": ["5136", "5138"],
+      "departureRouteIds": [
+        "200",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "371",
+        "38",
+        "400",
+        "55",
+        "59",
+        "67",
+        "85",
+        "87"
+      ]
+    },
+    {
+      "id": "de-la-cite",
+      "schematicId": "de-la-cite",
+      "name": "De la Cité",
+      "lat": 45.481168,
+      "lon": -75.683272,
+      "lines": ["100", "200", "400", "800"],
+      "platformIds": ["8080", "8081", "8083"],
+      "departureRouteIds": ["100", "18", "200", "400", "576", "68", "800", "93", "95"]
+    },
+    {
+      "id": "de-la-gappe",
+      "schematicId": "de-la-gappe",
+      "name": "De la Gappe",
+      "lat": 45.469381,
+      "lon": -75.715971,
+      "lines": ["100", "200", "400", "800"],
+      "platformIds": ["8060", "8061", "8063", "9735"],
+      "departureRouteIds": [
+        "100",
+        "18",
+        "200",
+        "400",
+        "569",
+        "576",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "68",
+        "69",
+        "800",
+        "93",
+        "95"
+      ]
+    },
+    {
+      "id": "freeman",
+      "schematicId": "freeman",
+      "name": "Freeman",
+      "lat": 45.473557,
+      "lon": -75.740963,
+      "lines": ["20"],
+      "platformIds": ["2051", "2053", "2151", "2153", "2155"],
+      "departureRouteIds": ["20", "27", "33", "331", "38", "39", "433", "566", "64", "733"]
+    },
+    {
+      "id": "labrosse",
+      "schematicId": "labrosse",
+      "name": "Labrosse",
+      "lat": 45.490875,
+      "lon": -75.643286,
+      "lines": ["100", "200", "400", "800"],
+      "platformIds": ["3990", "8500", "8501", "8503"],
+      "departureRouteIds": [
+        "100",
+        "18",
+        "200",
+        "400",
+        "571",
+        "68",
+        "71",
+        "72",
+        "73",
+        "76",
+        "79",
+        "800",
+        "93",
+        "95",
+        "97"
+      ]
+    },
+    {
+      "id": "promenades",
+      "schematicId": "promenades",
+      "name": "Les Promenades",
+      "lat": 45.474248,
+      "lon": -75.697196,
+      "lines": ["100", "200", "400", "800"],
+      "platformIds": ["3101", "3105", "3333", "8070", "8071", "8072"],
+      "departureRouteIds": [
+        "100",
+        "18",
+        "200",
+        "400",
+        "576",
+        "63",
+        "66",
+        "67",
+        "68",
+        "800",
+        "87",
+        "93",
+        "95"
+      ]
+    },
+    {
+      "id": "lorrain",
+      "schematicId": "lorrain",
+      "name": "Lorrain",
+      "lat": 45.495365,
+      "lon": -75.608185,
+      "lines": ["100", "200", "400", "800"],
+      "platformIds": ["4000", "4001", "4002", "4004"],
+      "departureRouteIds": [
+        "100",
+        "18",
+        "200",
+        "400",
+        "576",
+        "68",
+        "72",
+        "74",
+        "75",
+        "77",
+        "78",
+        "79",
+        "800",
+        "93",
+        "95",
+        "97"
+      ]
+    },
+    {
+      "id": "lyon",
+      "schematicId": "lyon",
+      "name": "Lyon",
+      "lat": 45.419229,
+      "lon": -75.705214,
+      "lines": ["20", "200", "400", "55"],
+      "platformIds": ["5112", "5113", "5116", "5117"],
+      "departureRouteIds": [
+        "20",
+        "200",
+        "23",
+        "25",
+        "26",
+        "27",
+        "29",
+        "31",
+        "32",
+        "33",
+        "34",
+        "36",
+        "37",
+        "371",
+        "38",
+        "40",
+        "400",
+        "41",
+        "45",
+        "47",
+        "48",
+        "55",
+        "59",
+        "67",
+        "85",
+        "87",
+        "93",
+        "94",
+        "95",
+        "98"
+      ]
+    },
+    {
+      "id": "montcalm",
+      "schematicId": "montcalm",
+      "name": "Montcalm",
+      "lat": 45.430389,
+      "lon": -75.729269,
+      "lines": ["100", "20", "200", "400", "800"],
+      "platformIds": ["2573", "8020", "8021", "8022", "8023"],
+      "departureRouteIds": [
+        "100",
+        "18",
+        "20",
+        "200",
+        "23",
+        "25",
+        "35",
+        "38",
+        "400",
+        "725",
+        "800",
+        "93",
+        "95"
+      ]
+    },
+    {
+      "id": "allumettieres",
+      "schematicId": "allumettieres",
+      "name": "Parc-o-bus Allumettières",
+      "lat": 45.407121,
+      "lon": -75.865837,
+      "lines": ["55", "800"],
+      "platformIds": ["1096", "1097", "1099", "1132", "1133"],
+      "departureRouteIds": [
+        "34",
+        "41",
+        "49",
+        "50",
+        "52",
+        "55",
+        "550",
+        "58",
+        "59",
+        "640",
+        "740",
+        "800"
+      ]
+    },
+    {
+      "id": "1377",
+      "schematicId": "rivermead",
+      "name": "Rivermead",
+      "lat": 45.403798,
+      "lon": -75.793488,
+      "lines": ["55", "800"],
+      "platformIds": ["1377"],
+      "departureRouteIds": [
+        "42",
+        "449",
+        "52",
+        "54",
+        "55",
+        "554",
+        "56",
+        "58",
+        "59",
+        "645",
+        "647",
+        "655",
+        "740",
+        "752",
+        "800"
+      ]
+    },
+    {
+      "id": "tache-uqo",
+      "schematicId": "tache-uqo",
+      "name": "Taché / UQO",
+      "lat": 45.423984,
+      "lon": -75.731824,
+      "lines": ["55", "800"],
+      "platformIds": ["8010", "8011"],
+      "departureRouteIds": ["18", "800"]
+    }
+  ]
+}

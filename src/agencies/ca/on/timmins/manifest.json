@@ -1,0 +1,139 @@
+{
+  "id": "timmins",
+  "name": "Timmins Transit",
+  "serviceArea": "Timmins",
+  "shortName": "Timmins",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 48.44,
+      "maxLat": 48.51,
+      "minLon": -81.42,
+      "maxLon": -81.14
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Timmins Transit / City of Timmins; Consat Tmix",
+    "url": "https://www.timmins.ca/our_services/timmins_transit",
+    "license": "No explicit terms were found for the Timmins Transit GTFS or AnyRide data.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Timmins Transit Terminal",
+      "lat": 48.47424,
+      "lon": -81.32659
+    },
+    {
+      "name": "Northern College",
+      "lat": 48.48776,
+      "lon": -81.19996
+    },
+    {
+      "name": "Timmins and District Hospital",
+      "lat": 48.48707,
+      "lon": -81.31414
+    },
+    {
+      "name": "South Porcupine Transit Terminal",
+      "lat": 48.47885,
+      "lon": -81.21051
+    }
+  ],
+  "popularSurfaceRoutes": ["5", "9", "16", "31", "32", "37", "38", "222"],
+  "alertInterpretation": {
+    "lineIds": ["222", "5", "9", "16", "31", "32", "37", "38"],
+    "rules": [
+      {
+        "priority": 400,
+        "match": {
+          "textIncludes": [
+            "all stops on Brunette north of Second",
+            "Timmins Transit is not servicing stops on Falcon"
+          ]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 300,
+        "match": {
+          "textIncludes": [
+            "will not be serviced",
+            "all bus stops between Brunette",
+            "stops on Brunette",
+            "not servicing stops"
+          ]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": ["detour", "delays", "only be serviced going Westbound"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://tracker.timminstransit.ca/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "70000",
+        "profile": {
+          "data": "metrolinx_timmins",
+          "display": "timmins"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Timmins Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-timmins.zip",
+        "cacheFileName": "timmins-gtfs.zip"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://metrolinx.tmix.se/gtfs-realtime-timmins/alerts.pb",
+      "format": "protobuf"
+    },
+    {
+      "type": "web",
+      "url": "https://www.timmins.ca/our_services/timmins_transit",
+      "parser": "service-announcement-board",
+      "routeNames": {
+        "9": ["9"],
+        "16": ["16"]
+      }
+    }
+  ]
+}

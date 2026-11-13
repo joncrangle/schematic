@@ -1,0 +1,57 @@
+name: Refresh remote transit topology
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: remote-transit-topology
+  cancel-in-progress: false
+
+# Token scopes are managed by Forgejo instance settings, not GitHub permissions keys.
+enable-openid-connect: false
+
+jobs:
+  refresh:
+    runs-on: ${{ vars.TOPOLOGY_RUNNER_LABEL }}
+    container:
+      image: node:24-bookworm
+    timeout-minutes: 60
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out repository
+        # Forgejo checkout v6.1.0, resolved from the v6 ref.
+        uses: https://data.forgejo.org/actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Set up Bun
+        # Official setup-bun v2. Fetching this action does not run GitHub Actions.
+        uses: https://github.com/oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
+        with:
+          bun-version: "1.4.2"
+      - name: Install locked dependencies
+        run: bun install --frozen-lockfile
+      - name: Refresh assigned seed agencies
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          TOPOLOGY_WRANGLER_CONFIG: ${{ secrets.TOPOLOGY_WRANGLER_CONFIG }}
+          WRANGLER_SEND_METRICS: "false"
+          CI: "true"
+        run: |
+          set +x
+          set -euo pipefail
+          : "${CLOUDFLARE_API_TOKEN:?Missing CLOUDFLARE_API_TOKEN secret}"
+          : "${CLOUDFLARE_ACCOUNT_ID:?Missing CLOUDFLARE_ACCOUNT_ID secret}"
+          : "${TOPOLOGY_WRANGLER_CONFIG:?Missing TOPOLOGY_WRANGLER_CONFIG secret}"
+          : "${RUNNER_TEMP:?Runner must provide RUNNER_TEMP}"
+          umask 077
+          config_dir="$(mktemp -d "$RUNNER_TEMP/topology-refresh.XXXXXX")"
+          trap 'rm -rf "$config_dir"' EXIT
+          config="$config_dir/wrangler.json"
+          printf '%s' "$TOPOLOGY_WRANGLER_CONFIG" > "$config"
+          unset TOPOLOGY_WRANGLER_CONFIG
+          bun scripts/refresh-topology.ts --config="$config"

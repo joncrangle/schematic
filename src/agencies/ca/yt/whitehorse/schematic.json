@@ -1,0 +1,514 @@
+{
+  "viewBoxWidth": 1850,
+  "viewBoxHeight": 1800,
+  "lines": [
+    {
+      "id": "101",
+      "name": "101 City Central",
+      "color": "#00660F",
+      "points": [
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 700,
+          "y": 700
+        },
+        {
+          "x": 700,
+          "y": 500
+        },
+        {
+          "x": 600,
+          "y": 500
+        },
+        {
+          "x": 400,
+          "y": 700
+        },
+        {
+          "x": 400,
+          "y": 800
+        },
+        {
+          "x": 500,
+          "y": 900
+        },
+        {
+          "x": 900,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "102 Riverdale Loop",
+      "color": "#69D64D",
+      "points": [
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 900,
+          "y": 1500
+        },
+        {
+          "x": 1000,
+          "y": 1600
+        },
+        {
+          "x": 1200,
+          "y": 1600
+        },
+        {
+          "x": 1400,
+          "y": 1400
+        },
+        {
+          "x": 1400,
+          "y": 1200
+        },
+        {
+          "x": 1200,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 900
+        },
+        {
+          "x": 900,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "name": "201 Porter Creek East",
+      "color": "#450766",
+      "points": [
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 800,
+          "y": 200
+        },
+        {
+          "x": 600,
+          "y": 200
+        },
+        {
+          "x": 500,
+          "y": 300
+        },
+        {
+          "x": 500,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 900
+        },
+        {
+          "x": 900,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "302",
+      "name": "302 Copper Ridge South",
+      "color": "#DF933F",
+      "points": [
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 700,
+          "y": 1100
+        },
+        {
+          "x": 700,
+          "y": 1600
+        },
+        {
+          "x": 400,
+          "y": 1600
+        },
+        {
+          "x": 200,
+          "y": 1400
+        },
+        {
+          "x": 200,
+          "y": 1200
+        },
+        {
+          "x": 500,
+          "y": 900
+        },
+        {
+          "x": 730,
+          "y": 900
+        },
+        {
+          "x": 850,
+          "y": 1020
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "name": "401 Whistle Bend East",
+      "color": "#0E324F",
+      "points": [
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 1100,
+          "y": 700
+        },
+        {
+          "x": 1100,
+          "y": 300
+        },
+        {
+          "x": 1300,
+          "y": 100
+        },
+        {
+          "x": 1500,
+          "y": 100
+        },
+        {
+          "x": 1600,
+          "y": 200
+        },
+        {
+          "x": 1600,
+          "y": 600
+        },
+        {
+          "x": 1200,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 1100
+        },
+        {
+          "x": 1000,
+          "y": 1100
+        },
+        {
+          "x": 930,
+          "y": 1100
+        },
+        {
+          "x": 850,
+          "y": 1020
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "city-hall",
+      "name": "City Hall",
+      "x": 900,
+      "y": 900,
+      "lines": ["101", "102", "201", "302", "401"],
+      "label": {
+        "x": 935,
+        "y": 920,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "yukon-university",
+      "name": "Yukon University",
+      "x": 600,
+      "y": 500,
+      "lines": ["101"],
+      "label": {
+        "x": 600,
+        "y": 465,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "canada-games-centre",
+      "name": "Canada Games Centre",
+      "x": 400,
+      "y": 800,
+      "lines": ["101"],
+      "label": {
+        "x": 375,
+        "y": 800,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "porter-creek",
+      "name": "Porter Creek School",
+      "x": 800,
+      "y": 200,
+      "lines": ["201"],
+      "label": {
+        "x": 800,
+        "y": 165,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Whitehorse General Hospital",
+      "x": 1200,
+      "y": 1000,
+      "lines": ["102", "401"],
+      "label": {
+        "x": 1230,
+        "y": 1010,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "riverdale",
+      "name": "Christ the King School",
+      "x": 1400,
+      "y": 1400,
+      "lines": ["102"],
+      "label": {
+        "x": 1425,
+        "y": 1400,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lobird",
+      "name": "Lobird Estates",
+      "x": 400,
+      "y": 1600,
+      "lines": ["302"],
+      "label": {
+        "x": 400,
+        "y": 1635,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "whistle-bend",
+      "name": "Whistle Bend Care Facility",
+      "x": 1300,
+      "y": 100,
+      "lines": ["401"],
+      "label": {
+        "x": 1300,
+        "y": 65,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "visitor-centre",
+      "name": "Yukon Visitor Information Centre",
+      "x": 850,
+      "y": 1020,
+      "lines": ["302", "401"],
+      "terminal": true,
+      "label": {
+        "x": 840,
+        "y": 1060,
+        "anchor": "end",
+        "rot": -60
+      }
+    }
+  ],
+  "sequences": {
+    "101": ["city-hall", "yukon-university", "canada-games-centre"],
+    "102": ["city-hall", "riverdale", "hospital"],
+    "201": ["city-hall", "porter-creek"],
+    "302": ["city-hall", "lobird", "visitor-centre"],
+    "401": ["city-hall", "whistle-bend", "hospital", "visitor-centre"]
+  },
+  "stationAliases": {
+    "code:16": "city-hall",
+    "code:144": "yukon-university",
+    "code:91": "canada-games-centre",
+    "code:19": "hospital",
+    "code:69": "riverdale",
+    "Whistle Bend Care Facility  (2)": "whistle-bend",
+    "Lobird Estates": "lobird",
+    "Porter Creek School (SB)": "porter-creek",
+    "Yukon Visitor Information Centre": "visitor-centre"
+  },
+  "stationIndex": [
+    {
+      "id": "TL-239",
+      "schematicId": "canada-games-centre",
+      "name": "Canada Games Centre",
+      "lat": 60.7290177,
+      "lon": -135.0984493,
+      "lines": ["101"],
+      "platformIds": ["TL-239"],
+      "departureRouteIds": ["TL-46", "TL-50", "TL-63"]
+    },
+    {
+      "id": "TL-236",
+      "schematicId": "riverdale",
+      "name": "Christ the King School",
+      "lat": 60.705497,
+      "lon": -135.035389,
+      "lines": ["102"],
+      "platformIds": ["TL-236"],
+      "departureRouteIds": ["TL-47"]
+    },
+    {
+      "id": "TL-356",
+      "schematicId": "city-hall",
+      "name": "City Hall",
+      "lat": 60.720794,
+      "lon": -135.052995,
+      "lines": ["101", "102", "201", "302", "401"],
+      "platformIds": ["TL-356"],
+      "departureRouteIds": ["TL-46", "TL-47", "TL-48", "TL-50", "TL-51", "TL-53"]
+    },
+    {
+      "id": "TL-311",
+      "schematicId": "lobird",
+      "name": "Lobird Estates",
+      "lat": 60.683944,
+      "lon": -135.0781592,
+      "lines": ["302"],
+      "platformIds": ["TL-311"],
+      "departureRouteIds": ["TL-53"]
+    },
+    {
+      "id": "porter-creek",
+      "schematicId": "porter-creek",
+      "name": "Porter Creek School",
+      "lat": 60.768971,
+      "lon": -135.11949,
+      "lines": ["201"],
+      "platformIds": ["TL-219", "TL-393", "TL-50"],
+      "departureRouteIds": ["TL-48", "TL-51", "TL-63"]
+    },
+    {
+      "id": "TL-332",
+      "schematicId": "whistle-bend",
+      "name": "Whistle Bend Care Facility",
+      "lat": 60.775401,
+      "lon": -135.1032365,
+      "lines": ["401"],
+      "platformIds": ["TL-332"],
+      "departureRouteIds": ["TL-51", "TL-64"]
+    },
+    {
+      "id": "TL-185",
+      "schematicId": "hospital",
+      "name": "Whitehorse General Hospital",
+      "lat": 60.7186792,
+      "lon": -135.0440436,
+      "lines": ["102", "401"],
+      "platformIds": ["TL-185"],
+      "departureRouteIds": ["TL-47", "TL-50", "TL-51"]
+    },
+    {
+      "id": "TL-319",
+      "schematicId": "yukon-university",
+      "name": "Yukon University",
+      "lat": 60.7500441,
+      "lon": -135.0971768,
+      "lines": ["101"],
+      "platformIds": ["TL-319"],
+      "departureRouteIds": ["TL-46", "TL-63", "TL-64"]
+    },
+    {
+      "id": "TL-360",
+      "schematicId": "visitor-centre",
+      "name": "Yukon Visitor Information Centre",
+      "lat": 60.7178335,
+      "lon": -135.0506397,
+      "lines": ["302", "401"],
+      "platformIds": ["TL-360"],
+      "departureRouteIds": ["TL-46", "TL-47", "TL-48", "TL-50", "TL-51", "TL-53"]
+    }
+  ],
+  "badges": [
+    {
+      "line": "101",
+      "num": "101",
+      "x": 668,
+      "y": 650,
+      "color": "#00660F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "102",
+      "num": "102",
+      "x": 1432,
+      "y": 1260,
+      "color": "#69D64D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "201",
+      "num": "201",
+      "x": 902.37,
+      "y": 347.63,
+      "color": "#450766",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "302",
+      "num": "302",
+      "x": 668,
+      "y": 1350,
+      "color": "#DF933F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "401",
+      "num": "401",
+      "x": 1632,
+      "y": 430,
+      "color": "#0E324F",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1820,
+      "minY": 0,
+      "maxY": 1750
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -135.17,
+    "refLonEast": -135.02,
+    "refXWest": 200,
+    "refXEast": 1500,
+    "refLatNorth": 60.79,
+    "refLatSouth": 60.68,
+    "refYNorth": 100,
+    "refYSouth": 1600
+  }
+}

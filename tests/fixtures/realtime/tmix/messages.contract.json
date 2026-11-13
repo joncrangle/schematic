@@ -1,0 +1,744 @@
+[
+  {
+    "name": "one alert per id across stops, routes from the stops served when affectedCalls is empty",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      },
+      {
+        "stopId": "S2",
+        "routeIds": ["A", "B"]
+      }
+    ],
+    "polls": [
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": [
+            {
+              "id": "TX1",
+              "text": "Route A detour for the morning trip due to construction.",
+              "priority": 100,
+              "isDisturbance": false,
+              "isInfo": true,
+              "affectedCalls": []
+            }
+          ]
+        }
+      },
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": [
+            {
+              "id": "TX1",
+              "text": "Route A detour for the morning trip due to construction.",
+              "priority": 100,
+              "isDisturbance": false,
+              "isInfo": true,
+              "affectedCalls": []
+            }
+          ]
+        }
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "TX1",
+          "title": "Route A detour for the morning trip due to construction.",
+          "startsAt": 0,
+          "updatedAt": 1791993600000,
+          "routeIds": ["A", "B"],
+          "targets": [
+            {
+              "routeId": "A",
+              "stopId": "S1"
+            },
+            {
+              "routeId": "A",
+              "stopId": "S2"
+            },
+            {
+              "routeId": "B",
+              "stopId": "S2"
+            }
+          ],
+          "sourceFields": {
+            "isDisturbance": false,
+            "isInfo": true,
+            "priority": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "affectedCalls attributes the route from the calls it names",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A", "B"]
+      }
+    ],
+    "polls": [
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [
+            {
+              "id": "l:7000002",
+              "calls": [
+                {
+                  "id": "90000001",
+                  "key": "0",
+                  "lineId": 7000002,
+                  "routeId": 1009999,
+                  "journeyId": 5000001,
+                  "stopPointId": 7000999,
+                  "sequenceNumber": 0,
+                  "line": "B",
+                  "destination": "TERMINAL",
+                  "departure": {
+                    "forecastTime": "2026-10-14T08:10:00-04:00",
+                    "plannedTime": "2026-10-14T08:10:00-04:00",
+                    "quality": "realtime"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "l:7000001",
+              "calls": [
+                {
+                  "id": "90000002",
+                  "key": "1",
+                  "lineId": 7000001,
+                  "routeId": 1009999,
+                  "journeyId": 5000002,
+                  "stopPointId": 7000999,
+                  "sequenceNumber": 0,
+                  "line": "A",
+                  "destination": "TERMINAL",
+                  "departure": {
+                    "forecastTime": "2026-10-14T08:10:00-04:00",
+                    "plannedTime": "2026-10-14T08:10:00-04:00",
+                    "quality": "realtime"
+                  }
+                }
+              ]
+            }
+          ],
+          "messages": [
+            {
+              "id": "TX2",
+              "text": "Route A detour for the morning trip due to construction.",
+              "priority": 100,
+              "isDisturbance": false,
+              "isInfo": true,
+              "affectedCalls": ["0"]
+            }
+          ]
+        }
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "TX2",
+          "title": "Route A detour for the morning trip due to construction.",
+          "startsAt": 0,
+          "updatedAt": 1791993600000,
+          "routeIds": ["B"],
+          "targets": [
+            {
+              "routeId": "B",
+              "stopId": "S1"
+            }
+          ],
+          "sourceFields": {
+            "isDisturbance": false,
+            "isInfo": true,
+            "priority": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "numeric affectedCalls name the same calls and bare calls decode like grouped ones",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A", "B"]
+      }
+    ],
+    "polls": [
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [
+            {
+              "id": "90000001",
+              "key": "0",
+              "lineId": 7000002,
+              "routeId": 1009999,
+              "journeyId": 5000001,
+              "stopPointId": 7000999,
+              "sequenceNumber": 0,
+              "line": "B",
+              "destination": "TERMINAL",
+              "departure": {
+                "forecastTime": "2026-10-14T08:10:00-04:00",
+                "plannedTime": "2026-10-14T08:10:00-04:00",
+                "quality": "realtime"
+              }
+            }
+          ],
+          "messages": [
+            {
+              "id": "TX2",
+              "text": "Route A detour for the morning trip due to construction.",
+              "priority": 100,
+              "isDisturbance": false,
+              "isInfo": true,
+              "affectedCalls": [0]
+            }
+          ]
+        }
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "TX2",
+          "title": "Route A detour for the morning trip due to construction.",
+          "startsAt": 0,
+          "updatedAt": 1791993600000,
+          "routeIds": ["B"],
+          "targets": [
+            {
+              "routeId": "B",
+              "stopId": "S1"
+            }
+          ],
+          "sourceFields": {
+            "isDisturbance": false,
+            "isInfo": true,
+            "priority": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "a named call outside the operator scope falls back to the stop's served routes",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      }
+    ],
+    "polls": [
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [
+            {
+              "id": "90000001",
+              "key": "0",
+              "lineId": 8000001,
+              "routeId": 1009999,
+              "journeyId": 5000001,
+              "stopPointId": 7000999,
+              "sequenceNumber": 0,
+              "line": "X",
+              "destination": "TERMINAL",
+              "departure": {
+                "forecastTime": "2026-10-14T08:10:00-04:00",
+                "plannedTime": "2026-10-14T08:10:00-04:00",
+                "quality": "realtime"
+              }
+            }
+          ],
+          "messages": [
+            {
+              "id": "TX3",
+              "text": "Route A detour for the morning trip due to construction.",
+              "priority": 100,
+              "isDisturbance": false,
+              "isInfo": true,
+              "affectedCalls": ["0"]
+            }
+          ]
+        }
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "TX3",
+          "title": "Route A detour for the morning trip due to construction.",
+          "startsAt": 0,
+          "updatedAt": 1791993600000,
+          "routeIds": ["A"],
+          "targets": [
+            {
+              "routeId": "A",
+              "stopId": "S1"
+            }
+          ],
+          "sourceFields": {
+            "isDisturbance": false,
+            "isInfo": true,
+            "priority": 100
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "the first sighting keeps the text and any sighting can raise isDisturbance",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      },
+      {
+        "stopId": "S2",
+        "routeIds": ["A"]
+      }
+    ],
+    "polls": [
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": [
+            {
+              "id": "TX4",
+              "text": "First text.",
+              "priority": 50,
+              "isDisturbance": false,
+              "isInfo": true,
+              "affectedCalls": []
+            }
+          ]
+        }
+      },
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": [
+            {
+              "id": "TX4",
+              "text": "Second text.",
+              "priority": 900,
+              "isDisturbance": true,
+              "isInfo": false,
+              "affectedCalls": []
+            }
+          ]
+        }
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "TX4",
+          "title": "First text.",
+          "startsAt": 0,
+          "updatedAt": 1791993600000,
+          "routeIds": ["A"],
+          "targets": [
+            {
+              "routeId": "A",
+              "stopId": "S1"
+            },
+            {
+              "routeId": "A",
+              "stopId": "S2"
+            }
+          ],
+          "sourceFields": {
+            "isDisturbance": true,
+            "isInfo": true,
+            "priority": 50
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "text is kept verbatim and a message without a priority omits it",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      }
+    ],
+    "polls": [
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": [
+            {
+              "id": "TX5",
+              "text": "  Detour &amp; <b>stop</b> moved to “Main”.  ",
+              "isDisturbance": false,
+              "isInfo": false,
+              "affectedCalls": []
+            }
+          ]
+        }
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "TX5",
+          "title": "  Detour &amp; <b>stop</b> moved to “Main”.  ",
+          "startsAt": 0,
+          "updatedAt": 1791993600000,
+          "routeIds": ["A"],
+          "targets": [
+            {
+              "routeId": "A",
+              "stopId": "S1"
+            }
+          ],
+          "sourceFields": {
+            "isDisturbance": false,
+            "isInfo": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "an unreadable message record makes its stop unread",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      }
+    ],
+    "polls": [
+      {
+        "failed": true
+      }
+    ],
+    "expected": null
+  },
+  {
+    "name": "a failed stop makes the read partial and keeps the alerts that were read",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      },
+      {
+        "stopId": "S2",
+        "routeIds": ["B"]
+      }
+    ],
+    "polls": [
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": [
+            {
+              "id": "TX1",
+              "text": "Route A detour for the morning trip due to construction.",
+              "priority": 100,
+              "isDisturbance": false,
+              "isInfo": true,
+              "affectedCalls": []
+            }
+          ]
+        }
+      },
+      {
+        "failed": true
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "TX1",
+          "title": "Route A detour for the morning trip due to construction.",
+          "startsAt": 0,
+          "updatedAt": 1791993600000,
+          "routeIds": ["A"],
+          "targets": [
+            {
+              "routeId": "A",
+              "stopId": "S1"
+            }
+          ],
+          "sourceFields": {
+            "isDisturbance": false,
+            "isInfo": true,
+            "priority": 100
+          }
+        }
+      ],
+      "partial": true
+    }
+  },
+  {
+    "name": "a zero-byte answer observed nothing, so the read is partial",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      },
+      {
+        "stopId": "S2",
+        "routeIds": ["B"]
+      }
+    ],
+    "polls": [
+      {
+        "body": ""
+      },
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": []
+        }
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [],
+      "partial": true
+    }
+  },
+  {
+    "name": "stops left unpolled by the budget make the read partial",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      },
+      {
+        "stopId": "S2",
+        "routeIds": ["B"]
+      },
+      {
+        "stopId": "S3",
+        "routeIds": ["A"]
+      }
+    ],
+    "polls": [
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": [
+            {
+              "id": "TX1",
+              "text": "Route A detour for the morning trip due to construction.",
+              "priority": 100,
+              "isDisturbance": false,
+              "isInfo": true,
+              "affectedCalls": []
+            }
+          ]
+        }
+      },
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": []
+        }
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": [
+        {
+          "id": "TX1",
+          "title": "Route A detour for the morning trip due to construction.",
+          "startsAt": 0,
+          "updatedAt": 1791993600000,
+          "routeIds": ["A"],
+          "targets": [
+            {
+              "routeId": "A",
+              "stopId": "S1"
+            }
+          ],
+          "sourceFields": {
+            "isDisturbance": false,
+            "isInfo": true,
+            "priority": 100
+          }
+        }
+      ],
+      "partial": true
+    }
+  },
+  {
+    "name": "a complete read with no messages is an empty, complete feed",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      },
+      {
+        "stopId": "S2",
+        "routeIds": ["B"]
+      }
+    ],
+    "polls": [
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [
+            {
+              "id": "90000001",
+              "key": "0",
+              "lineId": 7000001,
+              "routeId": 1009999,
+              "journeyId": 5000001,
+              "stopPointId": 7000999,
+              "sequenceNumber": 0,
+              "line": "A",
+              "destination": "TERMINAL",
+              "departure": {
+                "forecastTime": "2026-10-14T08:10:00-04:00",
+                "plannedTime": "2026-10-14T08:10:00-04:00",
+                "quality": "realtime"
+              }
+            }
+          ],
+          "messages": []
+        }
+      },
+      {
+        "body": {
+          "isStopCancelled": false,
+          "calls": [],
+          "messages": []
+        }
+      }
+    ],
+    "expected": {
+      "header": {
+        "version": "anyride-messages",
+        "timestamp": 1791993600000
+      },
+      "tripUpdates": [],
+      "vehiclePositions": [],
+      "alerts": []
+    }
+  },
+  {
+    "name": "when no stop can be read there is no feed to serve",
+    "now": 1791993600000,
+    "operatorPrefix": "70",
+    "stops": [
+      {
+        "stopId": "S1",
+        "routeIds": ["A"]
+      },
+      {
+        "stopId": "S2",
+        "routeIds": ["B"]
+      }
+    ],
+    "polls": [
+      {
+        "failed": true
+      },
+      {
+        "body": ""
+      }
+    ],
+    "expected": null
+  }
+]

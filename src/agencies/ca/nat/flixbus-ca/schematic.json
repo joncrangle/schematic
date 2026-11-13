@@ -1,0 +1,2685 @@
+{
+  "viewBoxWidth": 4500,
+  "viewBoxHeight": 1350,
+  "lines": [
+    {
+      "id": "TO",
+      "name": "Toronto – Peterborough – Ottawa",
+      "color": "#73D700",
+      "points": [
+        {
+          "x": 3000,
+          "y": 900
+        },
+        {
+          "x": 3100,
+          "y": 900
+        },
+        {
+          "x": 3200,
+          "y": 900
+        },
+        {
+          "x": 3320,
+          "y": 780
+        },
+        {
+          "x": 3440,
+          "y": 780
+        },
+        {
+          "x": 3560,
+          "y": 780
+        },
+        {
+          "x": 3680,
+          "y": 780
+        },
+        {
+          "x": 3800,
+          "y": 780
+        },
+        {
+          "x": 3860,
+          "y": 780
+        },
+        {
+          "x": 3920,
+          "y": 840
+        }
+      ]
+    },
+    {
+      "id": "TK",
+      "name": "Toronto – Kingston – Ottawa",
+      "color": "#1F5FAD",
+      "points": [
+        {
+          "x": 3000,
+          "y": 900
+        },
+        {
+          "x": 3100,
+          "y": 900
+        },
+        {
+          "x": 3200,
+          "y": 900
+        },
+        {
+          "x": 3520,
+          "y": 900
+        },
+        {
+          "x": 3860,
+          "y": 900
+        },
+        {
+          "x": 3920,
+          "y": 840
+        }
+      ]
+    },
+    {
+      "id": "TW",
+      "name": "Toronto – London – Windsor",
+      "color": "#C62828",
+      "points": [
+        {
+          "x": 3000,
+          "y": 900
+        },
+        {
+          "x": 2880,
+          "y": 900
+        },
+        {
+          "x": 2660,
+          "y": 900
+        },
+        {
+          "x": 2440,
+          "y": 900
+        },
+        {
+          "x": 2300,
+          "y": 900
+        },
+        {
+          "x": 2160,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "TS",
+      "name": "Toronto – Sarnia",
+      "color": "#00838F",
+      "points": [
+        {
+          "x": 3000,
+          "y": 900
+        },
+        {
+          "x": 2880,
+          "y": 900
+        },
+        {
+          "x": 2660,
+          "y": 900
+        },
+        {
+          "x": 2440,
+          "y": 900
+        },
+        {
+          "x": 2300,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "TL",
+      "name": "Toronto – Guelph – London",
+      "color": "#7B3F9E",
+      "points": [
+        {
+          "x": 3000,
+          "y": 900
+        },
+        {
+          "x": 2880,
+          "y": 900
+        },
+        {
+          "x": 2760,
+          "y": 780
+        },
+        {
+          "x": 2660,
+          "y": 780
+        },
+        {
+          "x": 2560,
+          "y": 780
+        },
+        {
+          "x": 2440,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "NF",
+      "name": "Toronto – Niagara Falls – New York",
+      "color": "#EF6C00",
+      "points": [
+        {
+          "x": 3000,
+          "y": 900
+        },
+        {
+          "x": 3000,
+          "y": 940
+        },
+        {
+          "x": 3000,
+          "y": 1000
+        },
+        {
+          "x": 3000,
+          "y": 1100
+        },
+        {
+          "x": 3000,
+          "y": 1200
+        }
+      ]
+    },
+    {
+      "id": "NB",
+      "name": "Toronto – North Bay",
+      "color": "#AD1457",
+      "points": [
+        {
+          "x": 3000,
+          "y": 900
+        },
+        {
+          "x": 2880,
+          "y": 900
+        },
+        {
+          "x": 2880,
+          "y": 740
+        },
+        {
+          "x": 2980,
+          "y": 640
+        },
+        {
+          "x": 2980,
+          "y": 540
+        },
+        {
+          "x": 2980,
+          "y": 440
+        },
+        {
+          "x": 2980,
+          "y": 320
+        }
+      ]
+    },
+    {
+      "id": "SU",
+      "name": "Toronto – Sudbury",
+      "color": "#6D4C41",
+      "points": [
+        {
+          "x": 3000,
+          "y": 900
+        },
+        {
+          "x": 2880,
+          "y": 900
+        },
+        {
+          "x": 2880,
+          "y": 740
+        },
+        {
+          "x": 2880,
+          "y": 620
+        },
+        {
+          "x": 2880,
+          "y": 500
+        },
+        {
+          "x": 2760,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "id": "OS",
+      "name": "Toronto – Owen Sound",
+      "color": "#2E7D32",
+      "points": [
+        {
+          "x": 3000,
+          "y": 900
+        },
+        {
+          "x": 2880,
+          "y": 900
+        },
+        {
+          "x": 2880,
+          "y": 740
+        },
+        {
+          "x": 2800,
+          "y": 660
+        },
+        {
+          "x": 2680,
+          "y": 660
+        },
+        {
+          "x": 2560,
+          "y": 660
+        },
+        {
+          "x": 2440,
+          "y": 660
+        }
+      ]
+    },
+    {
+      "id": "OM",
+      "name": "Ottawa – Montréal",
+      "color": "#3949AB",
+      "points": [
+        {
+          "x": 3920,
+          "y": 840
+        },
+        {
+          "x": 4040,
+          "y": 840
+        },
+        {
+          "x": 4160,
+          "y": 840
+        },
+        {
+          "x": 4280,
+          "y": 840
+        }
+      ]
+    },
+    {
+      "id": "MU",
+      "name": "Montréal – New York / Boston",
+      "color": "#546E7A",
+      "points": [
+        {
+          "x": 4280,
+          "y": 840
+        },
+        {
+          "x": 4280,
+          "y": 960
+        }
+      ]
+    },
+    {
+      "id": "EC",
+      "name": "Edmonton – Calgary – Medicine Hat",
+      "color": "#1F5FAD",
+      "points": [
+        {
+          "x": 800,
+          "y": 240
+        },
+        {
+          "x": 800,
+          "y": 320
+        },
+        {
+          "x": 800,
+          "y": 440
+        },
+        {
+          "x": 800,
+          "y": 560
+        },
+        {
+          "x": 800,
+          "y": 660
+        },
+        {
+          "x": 910,
+          "y": 770
+        },
+        {
+          "x": 1020,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "CB",
+      "name": "Calgary – Banff – Lake Louise",
+      "color": "#2E7D32",
+      "points": [
+        {
+          "x": 800,
+          "y": 660
+        },
+        {
+          "x": 680,
+          "y": 660
+        },
+        {
+          "x": 560,
+          "y": 660
+        },
+        {
+          "x": 440,
+          "y": 660
+        }
+      ]
+    },
+    {
+      "id": "CR",
+      "name": "Calgary – Lethbridge – Regina",
+      "color": "#EF6C00",
+      "points": [
+        {
+          "x": 800,
+          "y": 660
+        },
+        {
+          "x": 800,
+          "y": 880
+        },
+        {
+          "x": 1020,
+          "y": 880
+        },
+        {
+          "x": 1140,
+          "y": 880
+        },
+        {
+          "x": 1260,
+          "y": 880
+        },
+        {
+          "x": 1380,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "ES",
+      "name": "Edmonton – Saskatoon – Regina",
+      "color": "#7B3F9E",
+      "points": [
+        {
+          "x": 800,
+          "y": 240
+        },
+        {
+          "x": 1000,
+          "y": 240
+        },
+        {
+          "x": 1160,
+          "y": 240
+        },
+        {
+          "x": 1380,
+          "y": 460
+        },
+        {
+          "x": 1380,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "RW",
+      "name": "Regina – Winnipeg",
+      "color": "#C62828",
+      "points": [
+        {
+          "x": 1380,
+          "y": 880
+        },
+        {
+          "x": 1560,
+          "y": 880
+        },
+        {
+          "x": 1740,
+          "y": 880
+        },
+        {
+          "x": 1920,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "VV",
+      "name": "Victoria – Vancouver – Seattle",
+      "color": "#00838F",
+      "points": [
+        {
+          "x": 200,
+          "y": 860
+        },
+        {
+          "x": 340,
+          "y": 860
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "victoria",
+      "name": "Victoria",
+      "x": 200,
+      "y": 860,
+      "lines": ["VV"],
+      "label": {
+        "x": 175,
+        "y": 860,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver",
+      "x": 340,
+      "y": 860,
+      "lines": ["VV"],
+      "label": {
+        "x": 365,
+        "y": 860,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "edmonton",
+      "name": "Edmonton",
+      "x": 800,
+      "y": 240,
+      "lines": ["EC", "ES"],
+      "label": {
+        "x": 775,
+        "y": 240,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "edmonton-southgate",
+      "name": "Edmonton Southgate",
+      "x": 800,
+      "y": 320,
+      "lines": ["EC"],
+      "label": {
+        "x": 775,
+        "y": 320,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "red-deer",
+      "name": "Red Deer",
+      "x": 800,
+      "y": 440,
+      "lines": ["EC"],
+      "label": {
+        "x": 775,
+        "y": 440,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "calgary-airport",
+      "name": "Calgary Airport",
+      "x": 800,
+      "y": 560,
+      "lines": ["EC"],
+      "label": {
+        "x": 775,
+        "y": 560,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "calgary",
+      "name": "Calgary",
+      "x": 800,
+      "y": 660,
+      "lines": ["EC", "CB", "CR"],
+      "label": {
+        "x": 822,
+        "y": 638,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "canmore",
+      "name": "Canmore",
+      "x": 680,
+      "y": 660,
+      "lines": ["CB"],
+      "label": {
+        "x": 680,
+        "y": 695,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "banff",
+      "name": "Banff",
+      "x": 560,
+      "y": 660,
+      "lines": ["CB"],
+      "label": {
+        "x": 560,
+        "y": 695,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "lake-louise",
+      "name": "Lake Louise",
+      "x": 440,
+      "y": 660,
+      "lines": ["CB"],
+      "label": {
+        "x": 440,
+        "y": 695,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "brooks",
+      "name": "Brooks",
+      "x": 910,
+      "y": 770,
+      "lines": ["EC"],
+      "label": {
+        "x": 935,
+        "y": 770,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "lethbridge",
+      "name": "Lethbridge",
+      "x": 800,
+      "y": 880,
+      "lines": ["CR"],
+      "label": {
+        "x": 775,
+        "y": 880,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "medicine-hat",
+      "name": "Medicine Hat",
+      "x": 1020,
+      "y": 880,
+      "lines": ["EC", "CR"],
+      "label": {
+        "x": 1020,
+        "y": 915,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "swift-current",
+      "name": "Swift Current",
+      "x": 1140,
+      "y": 880,
+      "lines": ["CR"],
+      "label": {
+        "x": 1140,
+        "y": 850,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "moose-jaw",
+      "name": "Moose Jaw",
+      "x": 1260,
+      "y": 880,
+      "lines": ["CR"],
+      "label": {
+        "x": 1260,
+        "y": 915,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "regina",
+      "name": "Regina",
+      "x": 1380,
+      "y": 880,
+      "lines": ["CR", "ES", "RW"],
+      "label": {
+        "x": 1402,
+        "y": 902,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "lloydminster",
+      "name": "Lloydminster",
+      "x": 1000,
+      "y": 240,
+      "lines": ["ES"],
+      "label": {
+        "x": 1000,
+        "y": 210,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "north-battleford",
+      "name": "North Battleford",
+      "x": 1160,
+      "y": 240,
+      "lines": ["ES"],
+      "label": {
+        "x": 1160,
+        "y": 210,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "saskatoon",
+      "name": "Saskatoon",
+      "x": 1380,
+      "y": 460,
+      "lines": ["ES"],
+      "label": {
+        "x": 1405,
+        "y": 460,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "brandon",
+      "name": "Brandon",
+      "x": 1560,
+      "y": 880,
+      "lines": ["RW"],
+      "label": {
+        "x": 1560,
+        "y": 850,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "portage",
+      "name": "Portage la Prairie",
+      "x": 1740,
+      "y": 880,
+      "lines": ["RW"],
+      "label": {
+        "x": 1740,
+        "y": 915,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "winnipeg",
+      "name": "Winnipeg",
+      "x": 1920,
+      "y": 880,
+      "lines": ["RW"],
+      "label": {
+        "x": 1945,
+        "y": 880,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "toronto",
+      "name": "Toronto Union",
+      "x": 3000,
+      "y": 900,
+      "lines": ["TO", "TK", "TW", "TS", "TL", "NF", "NB", "SU", "OS"],
+      "label": {
+        "x": 3022,
+        "y": 930,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "pearson",
+      "name": "Pearson Airport",
+      "x": 2880,
+      "y": 900,
+      "lines": ["TW", "TS", "TL", "NB", "SU", "OS"],
+      "label": {
+        "x": 2902,
+        "y": 930,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "kitchener-conestoga",
+      "name": "Kitchener Conestoga",
+      "x": 2660,
+      "y": 900,
+      "lines": ["TW", "TS"],
+      "label": {
+        "x": 2660,
+        "y": 935,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "x": 2440,
+      "y": 900,
+      "lines": ["TW", "TS", "TL"],
+      "label": {
+        "x": 2440,
+        "y": 935,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "chatham",
+      "name": "Chatham",
+      "x": 2300,
+      "y": 900,
+      "lines": ["TW"],
+      "label": {
+        "x": 2300,
+        "y": 870,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "windsor",
+      "name": "Windsor",
+      "x": 2160,
+      "y": 900,
+      "lines": ["TW"],
+      "label": {
+        "x": 2135,
+        "y": 900,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "sarnia",
+      "name": "Sarnia",
+      "x": 2300,
+      "y": 760,
+      "lines": ["TS"],
+      "label": {
+        "x": 2275,
+        "y": 760,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "guelph",
+      "name": "Guelph",
+      "x": 2760,
+      "y": 780,
+      "lines": ["TL"],
+      "label": {
+        "x": 2760,
+        "y": 750,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "kitchener",
+      "name": "Kitchener Downtown",
+      "x": 2660,
+      "y": 780,
+      "lines": ["TL"],
+      "label": {
+        "x": 2660,
+        "y": 750,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "stratford",
+      "name": "Stratford",
+      "x": 2560,
+      "y": 780,
+      "lines": ["TL"],
+      "label": {
+        "x": 2560,
+        "y": 750,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "mississauga",
+      "name": "Mississauga",
+      "x": 3000,
+      "y": 1000,
+      "lines": ["NF"],
+      "label": {
+        "x": 2975,
+        "y": 1000,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "st-catharines",
+      "name": "St Catharines",
+      "x": 3000,
+      "y": 1100,
+      "lines": ["NF"],
+      "label": {
+        "x": 2975,
+        "y": 1100,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "niagara-falls",
+      "name": "Niagara Falls",
+      "x": 3000,
+      "y": 1200,
+      "lines": ["NF"],
+      "label": {
+        "x": 3025,
+        "y": 1200,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "barrie",
+      "name": "Barrie",
+      "x": 2880,
+      "y": 740,
+      "lines": ["NB", "SU", "OS"],
+      "label": {
+        "x": 2858,
+        "y": 762,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "port-severn",
+      "name": "Port Severn",
+      "x": 2880,
+      "y": 620,
+      "lines": ["SU"],
+      "label": {
+        "x": 2905,
+        "y": 620,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "parry-sound",
+      "name": "Parry Sound",
+      "x": 2880,
+      "y": 500,
+      "lines": ["SU"],
+      "label": {
+        "x": 2905,
+        "y": 500,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "sudbury",
+      "name": "Sudbury",
+      "x": 2760,
+      "y": 380,
+      "lines": ["SU"],
+      "label": {
+        "x": 2735,
+        "y": 380,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "orillia",
+      "name": "Orillia",
+      "x": 2980,
+      "y": 640,
+      "lines": ["NB"],
+      "label": {
+        "x": 3005,
+        "y": 640,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "gravenhurst",
+      "name": "Gravenhurst",
+      "x": 2980,
+      "y": 540,
+      "lines": ["NB"],
+      "label": {
+        "x": 3005,
+        "y": 540,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "huntsville",
+      "name": "Huntsville",
+      "x": 2980,
+      "y": 440,
+      "lines": ["NB"],
+      "label": {
+        "x": 3005,
+        "y": 440,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "north-bay",
+      "name": "North Bay",
+      "x": 2980,
+      "y": 320,
+      "lines": ["NB"],
+      "label": {
+        "x": 3005,
+        "y": 320,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "wasaga-beach",
+      "name": "Wasaga Beach",
+      "x": 2800,
+      "y": 660,
+      "lines": ["OS"],
+      "label": {
+        "x": 2800,
+        "y": 630,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "collingwood",
+      "name": "Collingwood",
+      "x": 2680,
+      "y": 660,
+      "lines": ["OS"],
+      "label": {
+        "x": 2680,
+        "y": 630,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "thornbury",
+      "name": "Thornbury",
+      "x": 2560,
+      "y": 660,
+      "lines": ["OS"],
+      "label": {
+        "x": 2560,
+        "y": 630,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "owen-sound",
+      "name": "Owen Sound",
+      "x": 2440,
+      "y": 660,
+      "lines": ["OS"],
+      "label": {
+        "x": 2415,
+        "y": 660,
+        "anchor": "end",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "scarborough",
+      "name": "Scarborough",
+      "x": 3100,
+      "y": 900,
+      "lines": ["TO", "TK"],
+      "label": {
+        "x": 3100,
+        "y": 870,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "oshawa",
+      "name": "Whitby–Oshawa",
+      "x": 3200,
+      "y": 900,
+      "lines": ["TO", "TK"],
+      "label": {
+        "x": 3200,
+        "y": 935,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "peterborough",
+      "name": "Peterborough",
+      "x": 3320,
+      "y": 780,
+      "lines": ["TO"],
+      "label": {
+        "x": 3295,
+        "y": 780,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "madoc",
+      "name": "Madoc",
+      "x": 3440,
+      "y": 780,
+      "lines": ["TO"],
+      "label": {
+        "x": 3440,
+        "y": 750,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "perth",
+      "name": "Perth",
+      "x": 3560,
+      "y": 780,
+      "lines": ["TO"],
+      "label": {
+        "x": 3560,
+        "y": 750,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "carleton-place",
+      "name": "Carleton Place",
+      "x": 3680,
+      "y": 780,
+      "lines": ["TO"],
+      "label": {
+        "x": 3680,
+        "y": 750,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "kanata",
+      "name": "Kanata",
+      "x": 3800,
+      "y": 780,
+      "lines": ["TO"],
+      "label": {
+        "x": 3800,
+        "y": 750,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "kingston",
+      "name": "Kingston",
+      "x": 3520,
+      "y": 900,
+      "lines": ["TK"],
+      "label": {
+        "x": 3520,
+        "y": 935,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "ottawa",
+      "name": "Ottawa St. Laurent",
+      "x": 3920,
+      "y": 840,
+      "lines": ["TO", "TK", "OM"],
+      "label": {
+        "x": 3940,
+        "y": 872,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "gatineau",
+      "name": "Gatineau",
+      "x": 4040,
+      "y": 840,
+      "lines": ["OM"],
+      "label": {
+        "x": 4040,
+        "y": 780,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "laval",
+      "name": "Laval Cartier",
+      "x": 4160,
+      "y": 840,
+      "lines": ["OM"],
+      "label": {
+        "x": 4160,
+        "y": 810,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "montreal",
+      "name": "Montréal",
+      "x": 4280,
+      "y": 840,
+      "lines": ["OM", "MU"],
+      "label": {
+        "x": 4305,
+        "y": 840,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "longueuil",
+      "name": "Longueuil",
+      "x": 4280,
+      "y": 960,
+      "lines": ["MU"],
+      "label": {
+        "x": 4305,
+        "y": 960,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 2100,
+      "maxX": 4450,
+      "minY": 280,
+      "maxY": 1260
+    },
+    "minZoom": 0.2,
+    "maxZoom": 40
+  },
+  "geoProjection": {
+    "refLonWest": -123.366039,
+    "refLonEast": -73.52134,
+    "refXWest": 75.76,
+    "refXEast": 3464.55,
+    "refLatNorth": 53.540752,
+    "refLatSouth": 42.317964,
+    "refYNorth": 531.75,
+    "refYSouth": 872.92
+  },
+  "sequences": {
+    "TO": [
+      "toronto",
+      "scarborough",
+      "oshawa",
+      "peterborough",
+      "madoc",
+      "perth",
+      "carleton-place",
+      "kanata",
+      "ottawa"
+    ],
+    "TK": ["toronto", "scarborough", "oshawa", "kingston", "ottawa"],
+    "TW": ["toronto", "pearson", "kitchener-conestoga", "london", "chatham", "windsor"],
+    "TS": ["toronto", "pearson", "kitchener-conestoga", "london", "sarnia"],
+    "TL": ["toronto", "pearson", "guelph", "kitchener", "stratford", "london"],
+    "NF": ["toronto", "mississauga", "st-catharines", "niagara-falls"],
+    "NB": ["toronto", "pearson", "barrie", "orillia", "gravenhurst", "huntsville", "north-bay"],
+    "SU": ["toronto", "pearson", "barrie", "port-severn", "parry-sound", "sudbury"],
+    "OS": [
+      "toronto",
+      "pearson",
+      "barrie",
+      "wasaga-beach",
+      "collingwood",
+      "thornbury",
+      "owen-sound"
+    ],
+    "OM": ["ottawa", "gatineau", "laval", "montreal"],
+    "MU": ["montreal", "longueuil"],
+    "EC": [
+      "edmonton",
+      "edmonton-southgate",
+      "red-deer",
+      "calgary-airport",
+      "calgary",
+      "brooks",
+      "medicine-hat"
+    ],
+    "CB": ["calgary", "canmore", "banff", "lake-louise"],
+    "CR": ["calgary", "lethbridge", "medicine-hat", "swift-current", "moose-jaw", "regina"],
+    "ES": ["edmonton", "lloydminster", "north-battleford", "saskatoon", "regina"],
+    "RW": ["regina", "brandon", "portage", "winnipeg"],
+    "VV": ["victoria", "vancouver"]
+  },
+  "stationAliases": {
+    "code:VB7": "victoria",
+    "code:VAN6": "vancouver",
+    "code:7EO": "edmonton",
+    "code:7ED": "edmonton-southgate",
+    "code:7RD": "red-deer",
+    "code:7YYC": "calgary-airport",
+    "code:7CA": "calgary",
+    "code:7CN": "canmore",
+    "code:7FF": "banff",
+    "code:7LL": "lake-louise",
+    "code:7BO": "brooks",
+    "code:7LE": "lethbridge",
+    "code:7EH": "medicine-hat",
+    "code:7SW": "swift-current",
+    "code:7MOO": "moose-jaw",
+    "code:7RG": "regina",
+    "code:7LY": "lloydminster",
+    "code:7NB": "north-battleford",
+    "code:7SS": "saskatoon",
+    "code:BMB7": "brandon",
+    "code:7PLP": "portage",
+    "code:7WG": "winnipeg",
+    "code:TOR6": "toronto",
+    "code:7YYZ": "pearson",
+    "code:7KC": "kitchener-conestoga",
+    "code:7LN": "london",
+    "code:7CM": "chatham",
+    "code:7WI": "windsor",
+    "code:7SA": "sarnia",
+    "code:7UG": "guelph",
+    "code:7KI": "kitchener",
+    "code:7SF": "stratford",
+    "code:7MS": "mississauga",
+    "code:7SC": "st-catharines",
+    "code:7FA": "niagara-falls",
+    "code:7BA": "barrie",
+    "code:7PS": "port-severn",
+    "code:7PR": "parry-sound",
+    "code:7SU": "sudbury",
+    "code:7OR": "orillia",
+    "code:7GH": "gravenhurst",
+    "code:7HV": "huntsville",
+    "code:7NY": "north-bay",
+    "code:7WB": "wasaga-beach",
+    "code:7CO": "collingwood",
+    "code:7TB": "thornbury",
+    "code:7WS": "owen-sound",
+    "code:7TE": "scarborough",
+    "code:7OS": "oshawa",
+    "code:7PE": "peterborough",
+    "code:7MD": "madoc",
+    "code:7PER": "perth",
+    "code:7CPL": "carleton-place",
+    "code:7FX": "kanata",
+    "code:7KG": "kingston",
+    "code:7OL": "ottawa",
+    "code:7GC": "gatineau",
+    "code:7MC": "laval",
+    "code:MTL6": "montreal",
+    "code:XPQ6": "longueuil"
+  },
+  "stationIndex": [
+    {
+      "id": "7RD",
+      "schematicId": "red-deer",
+      "name": "Red Deer",
+      "lat": 52.28532239548636,
+      "lon": -113.81330584338993,
+      "lines": ["CB", "EC"],
+      "platformIds": ["0009f6b7-af3a-4efd-9f08-ea7c769a2f7f"],
+      "departureRouteIds": ["2720", "2725"]
+    },
+    {
+      "id": "7SA",
+      "schematicId": "sarnia",
+      "name": "Sarnia",
+      "lat": 42.97444,
+      "lon": -82.40567,
+      "lines": ["TL", "TS"],
+      "platformIds": ["04ceba4d-55bb-42c6-8f88-07ce99a9fd21"],
+      "departureRouteIds": ["2702", "2710"]
+    },
+    {
+      "id": "7KC",
+      "schematicId": "kitchener-conestoga",
+      "name": "Kitchener Conestoga",
+      "lat": 43.38888640340554,
+      "lon": -80.40661051350317,
+      "lines": ["TL", "TO", "TS", "TW"],
+      "platformIds": ["0886c1c7-c8f7-46b9-b760-1b1a138f3333"],
+      "departureRouteIds": ["2701", "2702", "2705", "2710"]
+    },
+    {
+      "id": "KNS6",
+      "name": "Kenaston",
+      "lat": 51.50288019564087,
+      "lon": -106.27723141008155,
+      "lines": ["ES"],
+      "platformIds": ["08f7c0a9-f5e0-4e0c-adcd-e625a0743a70"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "7OL",
+      "schematicId": "ottawa",
+      "name": "Ottawa St. Laurent",
+      "lat": 45.420482,
+      "lon": -75.63803,
+      "lines": ["OM", "TK", "TO", "TS", "TW"],
+      "platformIds": ["0a76f578-6518-44d8-9346-36189284e33b"],
+      "departureRouteIds": ["2700", "2701", "2710", "2730", "N2700", "N2710"]
+    },
+    {
+      "id": "7GU",
+      "name": "Guelph (University)",
+      "lat": 43.530191,
+      "lon": -80.225374,
+      "lines": ["TL"],
+      "platformIds": ["0c3ceb93-545d-4db4-bd2a-3b184b02cf23"],
+      "departureRouteIds": ["2702"]
+    },
+    {
+      "id": "7YYC",
+      "schematicId": "calgary-airport",
+      "name": "Calgary Airport",
+      "lat": 51.13083439248921,
+      "lon": -114.00685684178607,
+      "lines": ["CB", "CR", "EC"],
+      "platformIds": ["0d9d5504-d11d-4f49-bcde-e07afac85482"],
+      "departureRouteIds": ["2720", "2721", "2725", "2726"]
+    },
+    {
+      "id": "VAN6",
+      "schematicId": "vancouver",
+      "name": "Vancouver",
+      "lat": 49.273278,
+      "lon": -123.097889,
+      "lines": ["VV"],
+      "platformIds": ["0e880928-b37e-44ed-828b-039512e66259"],
+      "departureRouteIds": ["2114", "CUS3332", "US0501"]
+    },
+    {
+      "id": "7TH",
+      "name": "St Thomas",
+      "lat": 42.779021,
+      "lon": -81.180843,
+      "lines": ["TL"],
+      "platformIds": ["0eeefbfa-49a6-4ca4-9853-2025cde2657f"],
+      "departureRouteIds": ["2702"]
+    },
+    {
+      "id": "7LN",
+      "schematicId": "london",
+      "name": "London",
+      "lat": 42.980345099654656,
+      "lon": -81.25079805429746,
+      "lines": ["TL", "TO", "TS", "TW"],
+      "platformIds": ["131ffb41-a46e-4b1a-8eaf-c4ec332d692b"],
+      "departureRouteIds": ["2701", "2702", "2705", "2710", "N2706", "N2710"]
+    },
+    {
+      "id": "CHB6",
+      "name": "Chamberlain (Esso)",
+      "lat": 50.849529157625454,
+      "lon": -105.56409134506423,
+      "lines": ["ES"],
+      "platformIds": ["1502223d-b588-4652-8348-767bc899ff7d"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "7CU",
+      "name": "Calgary (Whitehorn)",
+      "lat": 51.086877,
+      "lon": -113.9830151,
+      "lines": ["CB", "EC"],
+      "platformIds": ["167cc97f-d104-409b-b417-382ef8f4b3dc"],
+      "departureRouteIds": ["2720", "2721"]
+    },
+    {
+      "id": "7LW",
+      "name": "London (White Oaks Mall)",
+      "lat": 42.93021455305732,
+      "lon": -81.22419037446713,
+      "lines": ["TL", "TS", "TW"],
+      "platformIds": ["16f7da9f-7328-4e07-8723-abf658c5b1e0"],
+      "departureRouteIds": ["2702", "2710", "N2706", "N2710"]
+    },
+    {
+      "id": "7HC",
+      "name": "Medicine Hat (Petro-Canada)",
+      "lat": 50.0307,
+      "lon": -110.706391,
+      "lines": ["CR", "EC"],
+      "platformIds": ["170d55da-8e7d-4bca-98a7-75564fefafd5"],
+      "departureRouteIds": ["2720", "2726"]
+    },
+    {
+      "id": "7CA",
+      "schematicId": "calgary",
+      "name": "Calgary",
+      "lat": 51.04171003187684,
+      "lon": -114.06158554153788,
+      "lines": ["CB", "CR", "EC"],
+      "platformIds": ["198e003c-1501-4f7e-b7da-8cc4f046d34d"],
+      "departureRouteIds": ["2720", "2721", "2725", "2726"]
+    },
+    {
+      "id": "7OI",
+      "name": "Moosomin (Tim Hortons)",
+      "lat": 50.1398295,
+      "lon": -101.6511421,
+      "lines": ["RW"],
+      "platformIds": ["19be6c90-78de-452f-a386-8799f7294237"],
+      "departureRouteIds": ["2723"]
+    },
+    {
+      "id": "7SW",
+      "schematicId": "swift-current",
+      "name": "Swift Current",
+      "lat": 50.3068038,
+      "lon": -107.7801127,
+      "lines": ["CR"],
+      "platformIds": ["1a359a0c-5c0e-4133-846c-0632a2e5eba7"],
+      "departureRouteIds": ["2726"]
+    },
+    {
+      "id": "7RE",
+      "name": "Calgary (Brentwood Station)",
+      "lat": 51.086783,
+      "lon": -114.132995,
+      "lines": ["CB", "EC"],
+      "platformIds": ["22d4bcab-1c3b-46a5-9fc7-fde232b2942b"],
+      "departureRouteIds": ["2720", "2721"]
+    },
+    {
+      "id": "7TB",
+      "schematicId": "thornbury",
+      "name": "Thornbury",
+      "lat": 44.564492697710705,
+      "lon": -80.45749016778407,
+      "lines": ["OS"],
+      "platformIds": ["22d67de2-09ef-43f6-99de-4d09451474d4"],
+      "departureRouteIds": ["2711"]
+    },
+    {
+      "id": "7EO",
+      "schematicId": "edmonton",
+      "name": "Edmonton",
+      "lat": 53.54075206205995,
+      "lon": -113.52050551145537,
+      "lines": ["CB", "EC", "ES"],
+      "platformIds": ["22ddf170-3b41-4d92-8642-36274aa1a925"],
+      "departureRouteIds": ["2720", "2722", "2725"]
+    },
+    {
+      "id": "7SI",
+      "name": "Stoney Nakoda Resort & Casino",
+      "lat": 51.1026869,
+      "lon": -115.015506,
+      "lines": ["CB"],
+      "platformIds": ["24bc327b-5220-4dd6-ae19-34f3d610abe7"],
+      "departureRouteIds": ["2721"]
+    },
+    {
+      "id": "7SS",
+      "schematicId": "saskatoon",
+      "name": "Saskatoon",
+      "lat": 52.1683763,
+      "lon": -106.6361039,
+      "lines": ["ES"],
+      "platformIds": ["25157bf7-dea0-4ae7-820a-f4e0d15d2670"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "7YYZ",
+      "schematicId": "pearson",
+      "name": "Pearson Airport",
+      "lat": 43.682065,
+      "lon": -79.612676,
+      "lines": ["NB", "NF", "OS", "SU", "TK", "TL", "TO", "TS", "TW"],
+      "platformIds": ["2ae92e46-5e22-4991-af03-51574f963ccd"],
+      "departureRouteIds": [
+        "2700",
+        "2701",
+        "2702",
+        "2704",
+        "2705",
+        "2707",
+        "2708",
+        "2710",
+        "2711",
+        "N2687",
+        "N2700",
+        "N2706",
+        "N2710"
+      ]
+    },
+    {
+      "id": "7WT",
+      "name": "Woodstock (Dundas/Young)",
+      "lat": 43.13118206885265,
+      "lon": -80.7493681943485,
+      "lines": ["TL", "TW"],
+      "platformIds": ["2f3ed65d-cfa7-43b0-b2df-7c718dac339e"],
+      "departureRouteIds": ["2702", "N2706", "N2710"]
+    },
+    {
+      "id": "7CM",
+      "schematicId": "chatham",
+      "name": "Chatham",
+      "lat": 42.34837,
+      "lon": -82.183085,
+      "lines": ["TW"],
+      "platformIds": ["378913b9-77b7-40b9-9d2b-ff79d1c2546b"],
+      "departureRouteIds": ["2701", "N2706", "N2710"]
+    },
+    {
+      "id": "7NC",
+      "name": "Niagara Falls, Canada (Mount Carmel Centre)",
+      "lat": 43.116933,
+      "lon": -79.123791,
+      "lines": ["NF", "TK"],
+      "platformIds": ["38de6116-0649-4af3-b224-e457994af740"],
+      "departureRouteIds": ["2704", "2709", "N2685"]
+    },
+    {
+      "id": "7BU",
+      "name": "St. Catharines (Brock University)",
+      "lat": 43.118089,
+      "lon": -79.249246,
+      "lines": ["NF"],
+      "platformIds": ["3b246504-3e1e-4abf-ab65-3a701ea48501"],
+      "departureRouteIds": ["2704"]
+    },
+    {
+      "id": "7NB",
+      "schematicId": "north-battleford",
+      "name": "North Battleford",
+      "lat": 52.76398527194265,
+      "lon": -108.28253326405463,
+      "lines": ["ES"],
+      "platformIds": ["3e73bb70-299d-40f9-b8f3-a898049071e4"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "7SM",
+      "name": "Calgary (Anderson)",
+      "lat": 50.9544472,
+      "lon": -114.0733175,
+      "lines": ["CR", "EC"],
+      "platformIds": ["401226c4-0a44-4317-a3c4-0605d99e219d"],
+      "departureRouteIds": ["2720", "2726"]
+    },
+    {
+      "id": "7UG",
+      "schematicId": "guelph",
+      "name": "Guelph",
+      "lat": 43.5446269,
+      "lon": -80.2470935,
+      "lines": ["TL"],
+      "platformIds": ["41c3757b-e6c5-4657-8be8-64b96fb260c2"],
+      "departureRouteIds": ["2702"]
+    },
+    {
+      "id": "7STR",
+      "name": "Strathroy",
+      "lat": 42.984743,
+      "lon": -81.630153,
+      "lines": ["TL", "TS"],
+      "platformIds": ["45054dbc-6553-4729-b5e4-1bb63aa8b926"],
+      "departureRouteIds": ["2702", "2710"]
+    },
+    {
+      "id": "7NY",
+      "schematicId": "north-bay",
+      "name": "North Bay",
+      "lat": 46.3078145,
+      "lon": -79.4386459,
+      "lines": ["NB"],
+      "platformIds": ["4534e83f-86e3-4ce5-afd6-b894d0b05cb4"],
+      "departureRouteIds": ["2707"]
+    },
+    {
+      "id": "7OT",
+      "name": "Ottawa (VIA Rail)",
+      "lat": 45.41683459964952,
+      "lon": -75.65100644881075,
+      "lines": ["TK", "TO", "TW"],
+      "platformIds": ["48cbf369-0bbb-4a35-a37c-bd66445823f3"],
+      "departureRouteIds": ["2700", "2705", "2709", "N2710"]
+    },
+    {
+      "id": "7MD",
+      "schematicId": "madoc",
+      "name": "Madoc",
+      "lat": 44.512563,
+      "lon": -77.478155,
+      "lines": ["TO", "TW"],
+      "platformIds": ["48f018f0-8e54-42e1-8dab-6eabb47bbffc"],
+      "departureRouteIds": ["2700", "2701", "2705", "N2710"]
+    },
+    {
+      "id": "7OS",
+      "schematicId": "oshawa",
+      "name": "Whitby–Oshawa",
+      "lat": 43.872162,
+      "lon": -78.907835,
+      "lines": ["TK", "TO", "TW"],
+      "platformIds": ["494dd236-e265-4f69-a2c1-0f5e50e15332"],
+      "departureRouteIds": ["2700", "2701", "2709", "N2700", "N2710"]
+    },
+    {
+      "id": "7PO",
+      "name": "Peterborough (Fisher at Casino)",
+      "lat": 44.27121411405315,
+      "lon": -78.34849546920238,
+      "lines": ["TO"],
+      "platformIds": ["4a873a51-4aab-4638-92dd-c885274ffa1f"],
+      "departureRouteIds": ["2700"]
+    },
+    {
+      "id": "7ME",
+      "name": "Meaford",
+      "lat": 44.6143893403052,
+      "lon": -80.59775516184668,
+      "lines": ["OS"],
+      "platformIds": ["4a9af60b-aedd-4f28-b8ce-5ff4a7ea1f9a"],
+      "departureRouteIds": ["2711"]
+    },
+    {
+      "id": "7TE",
+      "schematicId": "scarborough",
+      "name": "Scarborough",
+      "lat": 43.774231,
+      "lon": -79.254122,
+      "lines": ["NF", "TK", "TO", "TS", "TW"],
+      "platformIds": ["4d271c57-fbb6-44e9-b02b-0839c7c787e6"],
+      "departureRouteIds": [
+        "2685",
+        "2700",
+        "2701",
+        "2709",
+        "2710",
+        "N2687",
+        "N2700",
+        "N2706",
+        "N2710",
+        "N2768a"
+      ]
+    },
+    {
+      "id": "7BB",
+      "name": "Bracebridge (Tru by Hilton)",
+      "lat": 45.04919,
+      "lon": -79.297169,
+      "lines": ["NB"],
+      "platformIds": ["4d857f01-7e76-47e9-acb8-ec4e7265e95e"],
+      "departureRouteIds": ["2707"]
+    },
+    {
+      "id": "7PV",
+      "name": "Vaughan - Pioneer Village",
+      "lat": 43.77745108242855,
+      "lon": -79.50872719523217,
+      "lines": ["TO"],
+      "platformIds": ["4db097dd-5247-45f8-969e-6085b422adb3"],
+      "departureRouteIds": ["2705"]
+    },
+    {
+      "id": "7GC",
+      "schematicId": "gatineau",
+      "name": "Gatineau",
+      "lat": 45.48169,
+      "lon": -75.68366,
+      "lines": ["OM"],
+      "platformIds": ["4e0aec17-a7b9-4126-a709-ca2691ec2e0a"],
+      "departureRouteIds": ["2730"]
+    },
+    {
+      "id": "7CN",
+      "schematicId": "canmore",
+      "name": "Canmore",
+      "lat": 51.09644916162139,
+      "lon": -115.35645816107686,
+      "lines": ["CB"],
+      "platformIds": ["4e62f650-6938-423a-8276-687ed7757352"],
+      "departureRouteIds": ["2721", "2725"]
+    },
+    {
+      "id": "7CB",
+      "name": "Cobourg",
+      "lat": 43.978011414424884,
+      "lon": -78.19459050034632,
+      "lines": ["TO"],
+      "platformIds": ["5055aaa1-4d5f-4cb7-afc4-d980752247c0"],
+      "departureRouteIds": ["2700"]
+    },
+    {
+      "id": "7OR",
+      "schematicId": "orillia",
+      "name": "Orillia",
+      "lat": 44.60803,
+      "lon": -79.420206,
+      "lines": ["NB"],
+      "platformIds": ["5bb31021-c4d6-44f7-b891-3cac099f4850"],
+      "departureRouteIds": ["2707"]
+    },
+    {
+      "id": "7FX",
+      "schematicId": "kanata",
+      "name": "Kanata",
+      "lat": 45.30926,
+      "lon": -75.906623,
+      "lines": ["TO", "TW"],
+      "platformIds": ["5bd3783f-2554-45b6-8737-1ae2910b69d5"],
+      "departureRouteIds": ["2700", "2701", "2705", "N2710"]
+    },
+    {
+      "id": "7KI",
+      "schematicId": "kitchener",
+      "name": "Kitchener Downtown",
+      "lat": 43.454671390123444,
+      "lon": -80.49341989452732,
+      "lines": ["TL", "TW"],
+      "platformIds": ["5de297ea-da30-411b-98e2-cb7ae0fdb4c1"],
+      "departureRouteIds": ["2702", "N2710"]
+    },
+    {
+      "id": "NFO6",
+      "name": "Niagara Falls Transit Terminal",
+      "lat": 43.108246,
+      "lon": -79.063769,
+      "lines": ["NF"],
+      "platformIds": ["6a20302c-a631-4a97-8df5-d57ca0853ab8"],
+      "departureRouteIds": ["ADN806D", "ADN809D", "ADN813D", "ADN816D"]
+    },
+    {
+      "id": "VB7",
+      "schematicId": "victoria",
+      "name": "Victoria",
+      "lat": 48.420929335702844,
+      "lon": -123.3660392966367,
+      "lines": ["VV"],
+      "platformIds": ["6a638e84-b941-4cd8-a4fe-ed1ce667fdee"],
+      "departureRouteIds": ["CUS3332"]
+    },
+    {
+      "id": "7MO",
+      "name": "Strathmore",
+      "lat": 51.038623,
+      "lon": -113.401029,
+      "lines": ["EC"],
+      "platformIds": ["6c85b288-4218-4def-9ad5-3d493d001f23"],
+      "departureRouteIds": ["2720"]
+    },
+    {
+      "id": "7OB",
+      "name": "Ottawa (Bayshore)",
+      "lat": 45.346014,
+      "lon": -75.807562,
+      "lines": ["TK", "TO"],
+      "platformIds": ["6d116b0c-6f1b-4fe3-a016-b9ccf42ac79c"],
+      "departureRouteIds": ["2700", "2705", "2709", "N2700"]
+    },
+    {
+      "id": "7PE",
+      "schematicId": "peterborough",
+      "name": "Peterborough",
+      "lat": 44.281757314974605,
+      "lon": -78.34996272476776,
+      "lines": ["TO", "TW"],
+      "platformIds": ["7201d037-186e-41b6-a591-65bc1b8da5af"],
+      "departureRouteIds": ["2700", "2701", "2705", "N2710"]
+    },
+    {
+      "id": "LUM6",
+      "name": "Lumsden (Esso)",
+      "lat": 50.654047241696006,
+      "lon": -104.86535210556644,
+      "lines": ["ES"],
+      "platformIds": ["76979819-84d8-4541-8e43-b1840c792051"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "7LY",
+      "schematicId": "lloydminster",
+      "name": "Lloydminster",
+      "lat": 53.276780427972575,
+      "lon": -110.01012024909558,
+      "lines": ["ES"],
+      "platformIds": ["76b3da0e-84ca-449d-9a5b-52c5db090a02"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "7EM",
+      "name": "Edmonton (Belvedere Transit Centre)",
+      "lat": 53.58837435436616,
+      "lon": -113.43516070156349,
+      "lines": ["CB", "EC", "ES"],
+      "platformIds": ["7a436a41-094e-4faf-99ab-46e1790cc6a4"],
+      "departureRouteIds": ["2720", "2722", "2725"]
+    },
+    {
+      "id": "7PER",
+      "schematicId": "perth",
+      "name": "Perth",
+      "lat": 44.90686,
+      "lon": -76.2698,
+      "lines": ["TO", "TW"],
+      "platformIds": ["7b2e67f5-b666-4630-b6a1-508f7dcd8dd7"],
+      "departureRouteIds": ["2700", "2701", "2705", "N2710"]
+    },
+    {
+      "id": "7BS",
+      "name": "Bassano",
+      "lat": 50.79107397474362,
+      "lon": -112.44959566084118,
+      "lines": ["EC"],
+      "platformIds": ["7b601b97-6851-4303-8153-cea0ff694761"],
+      "departureRouteIds": ["2720"]
+    },
+    {
+      "id": "7RH",
+      "name": "Richmond Hill Centre",
+      "lat": 43.83990795787041,
+      "lon": -79.42573663872186,
+      "lines": ["TO"],
+      "platformIds": ["8034caa3-728f-4b45-ae26-20ab08bacd49"],
+      "departureRouteIds": ["2705"]
+    },
+    {
+      "id": "7VM",
+      "name": "Vermilion (7-Eleven)",
+      "lat": 53.3443,
+      "lon": -110.858,
+      "lines": ["ES"],
+      "platformIds": ["84b98064-3a0c-4c63-a439-eddb53678c5c"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "7PLP",
+      "schematicId": "portage",
+      "name": "Portage la Prairie",
+      "lat": 49.9735099,
+      "lon": -98.2980676,
+      "lines": ["RW"],
+      "platformIds": ["859f212d-4f12-4cfa-886c-ded716562d63"],
+      "departureRouteIds": ["2723"]
+    },
+    {
+      "id": "7HL",
+      "name": "Horseshoe Valley Resort",
+      "lat": 44.55111288954417,
+      "lon": -79.67443570475051,
+      "lines": ["SU"],
+      "platformIds": ["85bccde4-b25d-4ced-8528-62f8bce81b49"],
+      "departureRouteIds": ["2708"]
+    },
+    {
+      "id": "7KD",
+      "name": "Kingston (Division St)",
+      "lat": 44.265375,
+      "lon": -76.49764,
+      "lines": ["TK", "TO", "TS"],
+      "platformIds": ["881a98ec-e908-46a4-9b90-93e29f0aff39"],
+      "departureRouteIds": ["2700", "2709", "2710"]
+    },
+    {
+      "id": "7WB",
+      "schematicId": "wasaga-beach",
+      "name": "Wasaga Beach",
+      "lat": 44.47413000039424,
+      "lon": -80.07616629368846,
+      "lines": ["OS"],
+      "platformIds": ["88b5ceaf-1c10-4700-8bf1-9edf77be6798"],
+      "departureRouteIds": ["2711"]
+    },
+    {
+      "id": "7HT",
+      "name": "Hamilton (King at Dundurn)",
+      "lat": 43.2620981,
+      "lon": -79.887699,
+      "lines": ["TL"],
+      "platformIds": ["8e7207f8-42de-4ef5-8d26-3b9b6cf10af7"],
+      "departureRouteIds": ["2702"]
+    },
+    {
+      "id": "7SU",
+      "schematicId": "sudbury",
+      "name": "Sudbury",
+      "lat": 46.504785,
+      "lon": -80.938454,
+      "lines": ["SU"],
+      "platformIds": ["9518237b-bc19-4564-bb4c-c9a74be5b39c"],
+      "departureRouteIds": ["2708"]
+    },
+    {
+      "id": "7NL",
+      "name": "Niagara-on-the-Lake",
+      "lat": 43.252000928419356,
+      "lon": -79.06528885238899,
+      "lines": ["NF"],
+      "platformIds": ["9527660c-4bcd-4c39-ad3d-9c721852a82a"],
+      "departureRouteIds": ["2704"]
+    },
+    {
+      "id": "7OO",
+      "name": "Okotoks - Aldersyde",
+      "lat": 50.69329,
+      "lon": -113.88447,
+      "lines": ["CR", "EC"],
+      "platformIds": ["954e7e51-e123-45e1-aa8e-14821a8cf491"],
+      "departureRouteIds": ["2720", "2726"]
+    },
+    {
+      "id": "7LS",
+      "name": "Lake Louise Village (Shell)",
+      "lat": 51.42650327091822,
+      "lon": -116.17715941358574,
+      "lines": ["CB"],
+      "platformIds": ["97e3aa8b-b5af-492d-8944-b902a37847d2"],
+      "departureRouteIds": ["2721"]
+    },
+    {
+      "id": "7WI",
+      "schematicId": "windsor",
+      "name": "Windsor",
+      "lat": 42.31796405716727,
+      "lon": -83.04298174712363,
+      "lines": ["TW"],
+      "platformIds": ["985f5ded-077c-44f2-840a-09873a0bdf07"],
+      "departureRouteIds": ["2701", "N2706", "N2710"]
+    },
+    {
+      "id": "7NF",
+      "name": "Niagara Falls Canada (Table Rock)",
+      "lat": 43.07743359992042,
+      "lon": -79.07929735463513,
+      "lines": ["NF"],
+      "platformIds": ["98e129b3-b0b6-4f96-9ae6-65f2b00d7d3d"],
+      "departureRouteIds": ["N2685", "N2687", "N2768a"]
+    },
+    {
+      "id": "7FF",
+      "schematicId": "banff",
+      "name": "Banff",
+      "lat": 51.176395,
+      "lon": -115.569449,
+      "lines": ["CB"],
+      "platformIds": ["9b1181ac-f128-4788-b0c1-bb511a012cf3"],
+      "departureRouteIds": ["2721", "2725"]
+    },
+    {
+      "id": "7TO",
+      "name": "Toronto (Harbourfront)",
+      "lat": 43.640654,
+      "lon": -79.380659,
+      "lines": ["TL"],
+      "platformIds": ["9b6ad623-3ecb-11ea-8017-02437075395e"],
+      "departureRouteIds": ["2702"]
+    },
+    {
+      "id": "7OW",
+      "name": "Ottawa (Gloucester Centre)",
+      "lat": 45.43194894844893,
+      "lon": -75.61032931649467,
+      "lines": ["TK", "TW"],
+      "platformIds": ["9b6b07ab-3ecb-11ea-8017-02437075395e"],
+      "departureRouteIds": ["2701", "2709", "N2700"]
+    },
+    {
+      "id": "7WG",
+      "schematicId": "winnipeg",
+      "name": "Winnipeg",
+      "lat": 49.906509892098576,
+      "lon": -97.15403435719622,
+      "lines": ["RW"],
+      "platformIds": ["9b6b4ac2-3ecb-11ea-8017-02437075395e"],
+      "departureRouteIds": ["2723"]
+    },
+    {
+      "id": "7HA",
+      "name": "Hamilton (McMaster University)",
+      "lat": 43.258028,
+      "lon": -79.916694,
+      "lines": ["TL", "TW"],
+      "platformIds": ["9b6badf8-3ecb-11ea-8017-02437075395e"],
+      "departureRouteIds": ["2701", "2702", "N2706"]
+    },
+    {
+      "id": "7MS",
+      "schematicId": "mississauga",
+      "name": "Mississauga",
+      "lat": 43.590347,
+      "lon": -79.645219,
+      "lines": ["TK", "TO", "TW"],
+      "platformIds": ["9b6bae1e-3ecb-11ea-8017-02437075395e"],
+      "departureRouteIds": ["2700", "2709", "N2700", "N2706"]
+    },
+    {
+      "id": "7LO",
+      "name": "London (Western Univ.)",
+      "lat": 43.008578,
+      "lon": -81.265685,
+      "lines": ["TL", "TO", "TS", "TW"],
+      "platformIds": ["9b6bc31f-3ecb-11ea-8017-02437075395e"],
+      "departureRouteIds": ["2701", "2702", "2705", "2710", "N2710"]
+    },
+    {
+      "id": "7KG",
+      "schematicId": "kingston",
+      "name": "Kingston",
+      "lat": 44.233794,
+      "lon": -76.481629,
+      "lines": ["TK", "TO", "TS"],
+      "platformIds": ["9b6c09d7-3ecb-11ea-8017-02437075395e"],
+      "departureRouteIds": ["2700", "2709", "2710", "N2700"]
+    },
+    {
+      "id": "7SC",
+      "schematicId": "st-catharines",
+      "name": "St. Catharines",
+      "lat": 43.160278,
+      "lon": -79.244891,
+      "lines": ["NF", "TK"],
+      "platformIds": ["9be230ab-291c-43cd-a4c1-3955b8862965"],
+      "departureRouteIds": ["2704", "2709", "N2768a"]
+    },
+    {
+      "id": "7PS",
+      "schematicId": "port-severn",
+      "name": "Port Severn",
+      "lat": 44.80603873841833,
+      "lon": -79.73552860254681,
+      "lines": ["SU"],
+      "platformIds": ["9dc36fd2-add2-465c-b814-d4279bf02050"],
+      "departureRouteIds": ["2708"]
+    },
+    {
+      "id": "7TM",
+      "name": "Markham - Cornell Bus GO",
+      "lat": 43.880893565621356,
+      "lon": -79.23130541838191,
+      "lines": ["TO"],
+      "platformIds": ["a3d7705d-bcfd-48d8-a8c9-e35c16ec13a2"],
+      "departureRouteIds": ["2705"]
+    },
+    {
+      "id": "7BM",
+      "name": "Blue Mountain Village",
+      "lat": 44.50417066483659,
+      "lon": -80.31102633672158,
+      "lines": ["OS"],
+      "platformIds": ["a43ec6a2-1305-4940-a877-ed3b8691795a"],
+      "departureRouteIds": ["2711"]
+    },
+    {
+      "id": "7AN",
+      "name": "Nanton",
+      "lat": 50.348885,
+      "lon": -113.771126,
+      "lines": ["CR", "EC"],
+      "platformIds": ["a44f45a2-3f86-417e-9047-1797bc09ccad"],
+      "departureRouteIds": ["2720", "2726"]
+    },
+    {
+      "id": "7HV",
+      "schematicId": "huntsville",
+      "name": "Huntsville",
+      "lat": 45.342537,
+      "lon": -79.229099,
+      "lines": ["NB"],
+      "platformIds": ["aac2cb59-99ad-4036-bad3-9b098209c0ac"],
+      "departureRouteIds": ["2707"]
+    },
+    {
+      "id": "TOR6",
+      "schematicId": "toronto",
+      "name": "Toronto Union",
+      "lat": 43.644153,
+      "lon": -79.377473,
+      "lines": ["NB", "NF", "OS", "SU", "TK", "TL", "TO", "TS", "TW"],
+      "platformIds": ["aafae0fb-8d4d-4c26-bd2b-ad3963ee0045"],
+      "departureRouteIds": [
+        "2685",
+        "2700",
+        "2701",
+        "2702",
+        "2704",
+        "2707",
+        "2708",
+        "2709",
+        "2710",
+        "2711",
+        "ADN806D",
+        "ADN809D",
+        "ADN813D",
+        "ADN816D",
+        "N2685",
+        "N2687",
+        "N2700",
+        "N2706",
+        "N2710",
+        "N2768a",
+        "US0215"
+      ]
+    },
+    {
+      "id": "7BA",
+      "schematicId": "barrie",
+      "name": "Barrie",
+      "lat": 44.387542,
+      "lon": -79.689517,
+      "lines": ["NB", "OS", "SU"],
+      "platformIds": ["ad471d0d-a06e-43ac-8e1b-af49e412be4b"],
+      "departureRouteIds": ["2707", "2708", "2711"]
+    },
+    {
+      "id": "XPQ6",
+      "schematicId": "longueuil",
+      "name": "Longueuil",
+      "lat": 45.52352,
+      "lon": -73.52134,
+      "lines": ["MU"],
+      "platformIds": ["ae812ac8-2e42-4529-a12d-11c8dfb470dc"],
+      "departureRouteIds": ["ADA278D", "ADA287D", "ADA297D", "ADA508D"]
+    },
+    {
+      "id": "MSS6",
+      "name": "Mississauga (Winston Churchill)",
+      "lat": 43.542205,
+      "lon": -79.712092,
+      "lines": ["NF"],
+      "platformIds": ["afc86b32-445e-419e-a9cc-3610e3fd627b"],
+      "departureRouteIds": ["ADN806D", "ADN809D", "ADN816D"]
+    },
+    {
+      "id": "BMB7",
+      "schematicId": "brandon",
+      "name": "Brandon",
+      "lat": 49.8872807,
+      "lon": -99.9521378,
+      "lines": ["RW"],
+      "platformIds": ["b077b439-6c07-4668-94b1-5724f8293dfe"],
+      "departureRouteIds": ["2723"]
+    },
+    {
+      "id": "7ED",
+      "schematicId": "edmonton-southgate",
+      "name": "Edmonton Southgate",
+      "lat": 53.485917,
+      "lon": -113.517341,
+      "lines": ["CB", "EC", "ES"],
+      "platformIds": ["b4fb4f7a-ff5c-479d-a707-6db43a379b49"],
+      "departureRouteIds": ["2720", "2722", "2725"]
+    },
+    {
+      "id": "7CR",
+      "name": "Calgary (Crowfoot)",
+      "lat": 51.1259,
+      "lon": -114.206,
+      "lines": ["CB", "EC"],
+      "platformIds": ["b669d59e-13a5-40d5-b3fa-24175f2a66a8"],
+      "departureRouteIds": ["2720", "2721", "2725"]
+    },
+    {
+      "id": "7IG",
+      "name": "Ingersoll",
+      "lat": 43.01574293995098,
+      "lon": -80.87744314740506,
+      "lines": ["TL", "TW"],
+      "platformIds": ["b862122f-a501-4ab2-8533-2d0c4429dc48"],
+      "departureRouteIds": ["2702", "N2710"]
+    },
+    {
+      "id": "7BO",
+      "schematicId": "brooks",
+      "name": "Brooks",
+      "lat": 50.5830781,
+      "lon": -111.8985503,
+      "lines": ["EC"],
+      "platformIds": ["b90b7944-8a0f-48b7-b931-f17f3f00167a"],
+      "departureRouteIds": ["2720"]
+    },
+    {
+      "id": "7PI",
+      "name": "Pickering,ON",
+      "lat": 43.81937893764253,
+      "lon": -79.11542656085973,
+      "lines": ["TS"],
+      "platformIds": ["b9613a1c-e9e2-4170-b8c6-f2ac65dbcd35"],
+      "departureRouteIds": ["2710"]
+    },
+    {
+      "id": "7OE",
+      "name": "Ottawa (Waller St)",
+      "lat": 45.42441,
+      "lon": -75.68696,
+      "lines": ["OM", "TO", "TS", "TW"],
+      "platformIds": ["babbd4f3-b883-4a48-b2ad-fbcbd9d0af72"],
+      "departureRouteIds": ["2700", "2710", "2730", "N2710"]
+    },
+    {
+      "id": "CNK4",
+      "name": "Parry Sound Municipal Airport",
+      "lat": 45.252411,
+      "lon": -79.830944,
+      "lines": ["SU"],
+      "platformIds": ["bb0bcd92-ee29-43df-8d9e-6ddd800b3c05"],
+      "departureRouteIds": ["2708"]
+    },
+    {
+      "id": "7BE",
+      "name": "Belleville",
+      "lat": 44.184498928540755,
+      "lon": -77.39458256156456,
+      "lines": ["TO"],
+      "platformIds": ["bf28d7a1-60dd-4096-956d-aaad15b6dee3"],
+      "departureRouteIds": ["2700"]
+    },
+    {
+      "id": "7BG",
+      "name": "Brampton Bramalea GO (Steeles Avenue)",
+      "lat": 43.7045350543162,
+      "lon": -79.69118268519534,
+      "lines": ["TL", "TO", "TW"],
+      "platformIds": ["bfa00e6c-1a04-46a1-bea5-36522b9ffc9e"],
+      "departureRouteIds": ["2700", "2702", "2705", "N2710"]
+    },
+    {
+      "id": "7SF",
+      "schematicId": "stratford",
+      "name": "Stratford",
+      "lat": 43.36558174968239,
+      "lon": -80.97976313306225,
+      "lines": ["TL"],
+      "platformIds": ["c35e99e9-beda-4df6-97d7-8cff3bb652e8"],
+      "departureRouteIds": ["2702"]
+    },
+    {
+      "id": "7LE",
+      "schematicId": "lethbridge",
+      "name": "Lethbridge",
+      "lat": 49.69307250415685,
+      "lon": -112.83560619441505,
+      "lines": ["CR", "EC"],
+      "platformIds": ["c43d68d2-63ee-45ea-94a0-ad2c5ab6f5cf"],
+      "departureRouteIds": ["2720", "2726"]
+    },
+    {
+      "id": "7CPL",
+      "schematicId": "carleton-place",
+      "name": "Carleton Place",
+      "lat": 45.12939288435656,
+      "lon": -76.12398928391366,
+      "lines": ["TO", "TW"],
+      "platformIds": ["c6e7f9b7-438c-4e40-9bcb-2e80273fa43a"],
+      "departureRouteIds": ["2700", "2701", "2705", "N2710"]
+    },
+    {
+      "id": "7CCM",
+      "name": "South River (Crystal Cave Mineral Exhibit)",
+      "lat": 45.822558,
+      "lon": -79.368646,
+      "lines": ["NB"],
+      "platformIds": ["c6f88fdc-af40-4bee-8a37-b494e1b2ea7f"],
+      "departureRouteIds": ["2707"]
+    },
+    {
+      "id": "7WS",
+      "schematicId": "owen-sound",
+      "name": "Owen Sound",
+      "lat": 44.568466,
+      "lon": -80.941802,
+      "lines": ["OS"],
+      "platformIds": ["c79616b4-1af0-447e-9f89-d2b51b5b39ea"],
+      "departureRouteIds": ["2711"]
+    },
+    {
+      "id": "7KA",
+      "name": "Kingston (Cataraqui Centre)",
+      "lat": 44.25670691001399,
+      "lon": -76.56917716376186,
+      "lines": ["TO", "TW"],
+      "platformIds": ["c798d370-bc08-4ad0-b26a-255a4d228541"],
+      "departureRouteIds": ["2700", "2701"]
+    },
+    {
+      "id": "7MOO",
+      "schematicId": "moose-jaw",
+      "name": "Moose Jaw",
+      "lat": 50.403851551991025,
+      "lon": -105.53191287618348,
+      "lines": ["CR"],
+      "platformIds": ["cc8c3916-f6bf-483e-a1e0-1c557ff41209"],
+      "departureRouteIds": ["2726"]
+    },
+    {
+      "id": "7WN",
+      "name": "Waubaushene",
+      "lat": 44.74908429782386,
+      "lon": -79.7071269313033,
+      "lines": ["SU"],
+      "platformIds": ["cdca60c1-33f9-41a0-835c-359432152593"],
+      "departureRouteIds": ["2708"]
+    },
+    {
+      "id": "7MC",
+      "schematicId": "laval",
+      "name": "Laval Cartier",
+      "lat": 45.559715,
+      "lon": -73.682067,
+      "lines": ["OM"],
+      "platformIds": ["ce88249b-449b-4792-8bc0-a9258697ba57"],
+      "departureRouteIds": ["2730"]
+    },
+    {
+      "id": "7MI",
+      "name": "Maidstone (DOMO Gas)",
+      "lat": 53.0856,
+      "lon": -109.2911,
+      "lines": ["ES"],
+      "platformIds": ["d3887e40-5910-4d00-ac69-7401d084da1e"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "MTL6",
+      "schematicId": "montreal",
+      "name": "Montréal",
+      "lat": 45.516887,
+      "lon": -73.563385,
+      "lines": ["MU", "OM"],
+      "platformIds": ["d3acc9d6-cc18-4512-abe6-635e698c5281"],
+      "departureRouteIds": [
+        "2677",
+        "2679",
+        "2689",
+        "2730",
+        "ADA278D",
+        "ADA287D",
+        "ADA297D",
+        "ADA508D",
+        "N2679",
+        "US0200",
+        "US0260"
+      ]
+    },
+    {
+      "id": "7KQ",
+      "name": "Kingston (Queen´s University)",
+      "lat": 44.22788241417246,
+      "lon": -76.49677134381002,
+      "lines": ["TO"],
+      "platformIds": ["d7afaf8d-1998-489e-bd04-1a3b4d110020"],
+      "departureRouteIds": ["2700"]
+    },
+    {
+      "id": "7RG",
+      "schematicId": "regina",
+      "name": "Regina",
+      "lat": 50.445912,
+      "lon": -104.54953,
+      "lines": ["CR", "ES", "RW"],
+      "platformIds": ["d989f884-acc5-4be3-9298-8e7b9ae2e069"],
+      "departureRouteIds": ["2722", "2723", "2726"]
+    },
+    {
+      "id": "7BR",
+      "name": "Brantford",
+      "lat": 43.170223,
+      "lon": -80.215419,
+      "lines": ["TL"],
+      "platformIds": ["d9eada8c-22c4-425c-be5d-cc21a2132458"],
+      "departureRouteIds": ["2702"]
+    },
+    {
+      "id": "7PR",
+      "schematicId": "parry-sound",
+      "name": "Parry Sound",
+      "lat": 45.344812439065315,
+      "lon": -80.00878117139025,
+      "lines": ["SU"],
+      "platformIds": ["da027ae7-f5da-4f1d-9a39-9f663613ee96"],
+      "departureRouteIds": ["2708"]
+    },
+    {
+      "id": "7CS",
+      "name": "Claresholm",
+      "lat": 50.019605362082466,
+      "lon": -113.57813965867851,
+      "lines": ["CR", "EC"],
+      "platformIds": ["dfcd167d-1d2c-46df-b8b1-ce158b46c894"],
+      "departureRouteIds": ["2720", "2726"]
+    },
+    {
+      "id": "7EH",
+      "schematicId": "medicine-hat",
+      "name": "Medicine Hat",
+      "lat": 50.039382765425714,
+      "lon": -110.67455452386322,
+      "lines": ["EC"],
+      "platformIds": ["e2f12464-b155-454e-968c-cf5f79d31e53"],
+      "departureRouteIds": ["2720"]
+    },
+    {
+      "id": "7TJ",
+      "name": "Trenton Junction (VIA Rail)",
+      "lat": 44.115642,
+      "lon": -77.598637,
+      "lines": ["TW"],
+      "platformIds": ["e87fdfb2-d3cf-4261-9d75-6f38a17ccb32"],
+      "departureRouteIds": ["2701"]
+    },
+    {
+      "id": "7CO",
+      "schematicId": "collingwood",
+      "name": "Collingwood",
+      "lat": 44.50028933008657,
+      "lon": -80.2184604809685,
+      "lines": ["OS"],
+      "platformIds": ["e95af774-8d09-43e5-9e61-699174ec4ae3"],
+      "departureRouteIds": ["2711"]
+    },
+    {
+      "id": "7RA",
+      "name": "Radisson (Midway Hotel)",
+      "lat": 52.4588822,
+      "lon": -107.3858254357,
+      "lines": ["ES"],
+      "platformIds": ["eade6d6a-409c-42de-90a2-8d1fdc0ecc2a"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "7TY",
+      "name": "Yorkdale (TTC Passenger Pick-up)",
+      "lat": 43.7257,
+      "lon": -79.44779,
+      "lines": ["TO"],
+      "platformIds": ["ebf2f8e4-231f-423c-8bfb-5f130c100298"],
+      "departureRouteIds": ["2700"]
+    },
+    {
+      "id": "7OF",
+      "name": "Ottawa (Fallowfield)",
+      "lat": 45.298888,
+      "lon": -75.735889,
+      "lines": ["TO"],
+      "platformIds": ["ec5d7a48-c60e-4bca-a71c-ba7f9067473d"],
+      "departureRouteIds": ["2700"]
+    },
+    {
+      "id": "7FM",
+      "name": "Fort Macleod",
+      "lat": 49.72482567028936,
+      "lon": -113.39615297349826,
+      "lines": ["CR", "EC"],
+      "platformIds": ["eca4c3be-94b9-4915-b417-7031f3d61199"],
+      "departureRouteIds": ["2720", "2726"]
+    },
+    {
+      "id": "7GA",
+      "name": "Gananoque",
+      "lat": 44.32845205807721,
+      "lon": -76.1643270829628,
+      "lines": ["TO"],
+      "platformIds": ["f33db2cb-7850-48d4-9aff-d8140d63d998"],
+      "departureRouteIds": ["2700"]
+    },
+    {
+      "id": "7FA",
+      "schematicId": "niagara-falls",
+      "name": "Niagara Falls",
+      "lat": 43.068263,
+      "lon": -79.062687,
+      "lines": ["NF", "TK"],
+      "platformIds": ["f819acf5-668a-44a7-b86c-a7237f97c002"],
+      "departureRouteIds": ["2685", "2704", "2709", "N2685", "N2687"]
+    },
+    {
+      "id": "7STM",
+      "name": "St Marys",
+      "lat": 43.2572235,
+      "lon": -81.1428959,
+      "lines": ["TL"],
+      "platformIds": ["fc1c15ec-b5b9-4983-b9a8-1689fc864c2c"],
+      "departureRouteIds": ["2702"]
+    },
+    {
+      "id": "7VE",
+      "name": "Vegreville",
+      "lat": 53.5022916,
+      "lon": -112.0824215,
+      "lines": ["ES"],
+      "platformIds": ["fc3230ab-d834-4cb0-93a5-5bd06db9eeb6"],
+      "departureRouteIds": ["2722"]
+    },
+    {
+      "id": "7LL",
+      "schematicId": "lake-louise",
+      "name": "Lake Louise",
+      "lat": 51.41586,
+      "lon": -116.2143021,
+      "lines": ["CB"],
+      "platformIds": ["fc7f16c7-0dfa-4dfc-af45-281cd8ba732d"],
+      "departureRouteIds": ["2721"]
+    },
+    {
+      "id": "7PH",
+      "name": "Port Hope",
+      "lat": 43.96948524949529,
+      "lon": -78.28540273278351,
+      "lines": ["TO"],
+      "platformIds": ["fe2fe2bb-d5fe-4060-b7c6-7a8e11abba5e"],
+      "departureRouteIds": ["2700"]
+    },
+    {
+      "id": "7GH",
+      "schematicId": "gravenhurst",
+      "name": "Gravenhurst",
+      "lat": 44.906579,
+      "lon": -79.369481,
+      "lines": ["NB"],
+      "platformIds": ["fff471ec-0f83-4201-9116-6f7363c2441b"],
+      "departureRouteIds": ["2707"]
+    }
+  ]
+}

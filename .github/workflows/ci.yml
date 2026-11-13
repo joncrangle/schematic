@@ -1,0 +1,123 @@
+name: CI
+
+on:
+  workflow_call:
+    inputs:
+      upload-build:
+        description: Upload production assets for container packaging
+        type: boolean
+        default: false
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - "services/alert-feed-daemon/src/parsers/**"
+      - "services/alert-feed-daemon/src/util/**"
+      - "proto/**"
+      - "src/**"
+      - "public/**"
+      - "scripts/**"
+      - "tests/**"
+      - "package.json"
+      - "bun.lock"
+      - "tsconfig.json"
+      - "vite.config.ts"
+      - "vitest.config.ts"
+      - "vitest.integration.config.ts"
+      - "wrangler.jsonc"
+      - "wrangler.sample.jsonc"
+      - ".oxfmtrc.json"
+      - ".dockerignore"
+      - "Dockerfile"
+      - "docker-entrypoint.sh"
+      - "compose.yaml"
+      - ".github/workflows/ci.yml"
+      - ".github/workflows/schematic-docker.yml"
+      - "AGENTS.md"
+      - "CODING_STANDARDS.md"
+      - "CONTRIBUTING.md"
+      - "docs/development.md"
+      - "docs/add-an-agency.md"
+      - "docs/agency-reference/**"
+      - "docs/agents/**"
+      - "docs/data-attribution.md"
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  schematic:
+    name: Schematic (TypeScript)
+    if: github.event.pull_request.draft != true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dorny/paths-filter@v4
+        id: changes
+        if: github.event_name == 'pull_request'
+        with:
+          filters: |
+            schematic:
+              - "services/alert-feed-daemon/src/parsers/**"
+              - "services/alert-feed-daemon/src/util/**"
+              - "proto/**"
+              - "src/**"
+              - "public/**"
+              - "scripts/**"
+              - "tests/**"
+              - "package.json"
+              - "bun.lock"
+              - "tsconfig.json"
+              - "vite.config.ts"
+              - "vitest.config.ts"
+              - "vitest.integration.config.ts"
+              - "wrangler.jsonc"
+              - "wrangler.sample.jsonc"
+              - ".oxfmtrc.json"
+              - ".dockerignore"
+              - "Dockerfile"
+              - "docker-entrypoint.sh"
+              - "compose.yaml"
+              - ".github/workflows/ci.yml"
+              - ".github/workflows/schematic-docker.yml"
+      - uses: oven-sh/setup-bun@v2
+      - uses: actions/cache@v6
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: ${{ runner.os }}-bun-
+      - run: bun install --frozen-lockfile
+      - uses: actions/setup-node@v7
+        if: github.event_name != 'pull_request' || steps.changes.outputs.schematic == 'true'
+        with:
+          node-version: 24
+      - if: github.event_name != 'pull_request' || steps.changes.outputs.schematic == 'true'
+        run: bunx oxfmt --check src
+      - run: bun run docs:check
+      - run: bun run attribution:check
+      - if: github.event_name != 'pull_request' || steps.changes.outputs.schematic == 'true'
+        run: bun run coverage:geography:check
+      - if: github.event_name != 'pull_request' || steps.changes.outputs.schematic == 'true'
+        run: bun run test
+      - if: github.event_name != 'pull_request' || steps.changes.outputs.schematic == 'true'
+        run: bun run test:integration
+      - if: github.event_name != 'pull_request' || steps.changes.outputs.schematic == 'true'
+        run: bun run agency:check
+      - if: github.event_name != 'pull_request' || steps.changes.outputs.schematic == 'true'
+        run: bun run build
+      - name: Package production assets
+        if: inputs.upload-build == true
+        run: |
+          rm -f dist/worker/.dev.vars*
+          tar -czf schematic-build.tar.gz dist public/sw.js
+      - uses: actions/upload-artifact@v7
+        if: inputs.upload-build == true
+        with:
+          name: schematic-build
+          path: schematic-build.tar.gz
+          if-no-files-found: error
+          retention-days: 1

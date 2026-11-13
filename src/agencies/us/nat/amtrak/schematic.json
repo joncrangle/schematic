@@ -1,0 +1,6368 @@
+{
+  "viewBoxWidth": 3400,
+  "viewBoxHeight": 1900,
+  "lines": [
+    {
+      "id": "NE",
+      "name": "Northeast Regional",
+      "color": "#1F5FAD",
+      "points": [
+        {
+          "x": 3080,
+          "y": 580
+        },
+        {
+          "x": 3000,
+          "y": 660
+        },
+        {
+          "x": 2900,
+          "y": 760
+        },
+        {
+          "x": 2800,
+          "y": 860
+        },
+        {
+          "x": 2700,
+          "y": 960
+        },
+        {
+          "x": 2620,
+          "y": 1040
+        },
+        {
+          "x": 2540,
+          "y": 1120
+        },
+        {
+          "x": 2460,
+          "y": 1200
+        }
+      ]
+    },
+    {
+      "id": "ML",
+      "name": "Maple Leaf",
+      "color": "#C62828",
+      "points": [
+        {
+          "x": 2800,
+          "y": 860
+        },
+        {
+          "x": 2800,
+          "y": 620
+        },
+        {
+          "x": 2680,
+          "y": 620
+        },
+        {
+          "x": 2560,
+          "y": 620
+        },
+        {
+          "x": 2440,
+          "y": 620
+        },
+        {
+          "x": 2340,
+          "y": 620
+        },
+        {
+          "x": 2260,
+          "y": 540
+        },
+        {
+          "x": 2180,
+          "y": 460
+        }
+      ]
+    },
+    {
+      "id": "AD",
+      "name": "Adirondack",
+      "color": "#7B3F9E",
+      "points": [
+        {
+          "x": 2800,
+          "y": 860
+        },
+        {
+          "x": 2800,
+          "y": 620
+        },
+        {
+          "x": 2800,
+          "y": 520
+        },
+        {
+          "x": 2800,
+          "y": 400
+        },
+        {
+          "x": 2800,
+          "y": 300
+        },
+        {
+          "x": 2720,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "CA",
+      "name": "Amtrak Cascades",
+      "color": "#2E7D32",
+      "points": [
+        {
+          "x": 300,
+          "y": 100
+        },
+        {
+          "x": 300,
+          "y": 200
+        },
+        {
+          "x": 300,
+          "y": 300
+        },
+        {
+          "x": 300,
+          "y": 420
+        },
+        {
+          "x": 300,
+          "y": 520
+        },
+        {
+          "x": 300,
+          "y": 620
+        }
+      ]
+    },
+    {
+      "id": "CS",
+      "name": "Coast Starlight",
+      "color": "#00838F",
+      "points": [
+        {
+          "x": 300,
+          "y": 300
+        },
+        {
+          "x": 300,
+          "y": 420
+        },
+        {
+          "x": 300,
+          "y": 520
+        },
+        {
+          "x": 300,
+          "y": 620
+        },
+        {
+          "x": 300,
+          "y": 780
+        },
+        {
+          "x": 300,
+          "y": 880
+        },
+        {
+          "x": 300,
+          "y": 900
+        },
+        {
+          "x": 480,
+          "y": 1080
+        }
+      ]
+    },
+    {
+      "id": "EB",
+      "name": "Empire Builder",
+      "color": "#B26A00",
+      "points": [
+        {
+          "x": 1900,
+          "y": 700
+        },
+        {
+          "x": 1900,
+          "y": 590
+        },
+        {
+          "x": 1790,
+          "y": 480
+        },
+        {
+          "x": 1610,
+          "y": 300
+        },
+        {
+          "x": 1450,
+          "y": 300
+        },
+        {
+          "x": 560,
+          "y": 300
+        },
+        {
+          "x": 300,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "CZ",
+      "name": "California Zephyr",
+      "color": "#AD1457",
+      "points": [
+        {
+          "x": 1900,
+          "y": 700
+        },
+        {
+          "x": 1550,
+          "y": 700
+        },
+        {
+          "x": 1250,
+          "y": 700
+        },
+        {
+          "x": 950,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 380,
+          "y": 700
+        },
+        {
+          "x": 300,
+          "y": 780
+        },
+        {
+          "x": 300,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "SC",
+      "name": "Southwest Chief",
+      "color": "#6D4C41",
+      "points": [
+        {
+          "x": 1900,
+          "y": 700
+        },
+        {
+          "x": 1700,
+          "y": 900
+        },
+        {
+          "x": 1100,
+          "y": 900
+        },
+        {
+          "x": 800,
+          "y": 900
+        },
+        {
+          "x": 660,
+          "y": 900
+        },
+        {
+          "x": 480,
+          "y": 1080
+        }
+      ]
+    },
+    {
+      "id": "LS",
+      "name": "Lake Shore Limited",
+      "color": "#00897B",
+      "points": [
+        {
+          "x": 2800,
+          "y": 860
+        },
+        {
+          "x": 2800,
+          "y": 620
+        },
+        {
+          "x": 2680,
+          "y": 620
+        },
+        {
+          "x": 2560,
+          "y": 620
+        },
+        {
+          "x": 2440,
+          "y": 620
+        },
+        {
+          "x": 2360,
+          "y": 700
+        },
+        {
+          "x": 2260,
+          "y": 700
+        },
+        {
+          "x": 2120,
+          "y": 700
+        },
+        {
+          "x": 1900,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "CR",
+      "name": "Crescent",
+      "color": "#8D6E63",
+      "points": [
+        {
+          "x": 2800,
+          "y": 860
+        },
+        {
+          "x": 2700,
+          "y": 960
+        },
+        {
+          "x": 2620,
+          "y": 1040
+        },
+        {
+          "x": 2540,
+          "y": 1120
+        },
+        {
+          "x": 2460,
+          "y": 1200
+        },
+        {
+          "x": 2340,
+          "y": 1320
+        },
+        {
+          "x": 2220,
+          "y": 1440
+        },
+        {
+          "x": 2120,
+          "y": 1440
+        },
+        {
+          "x": 2020,
+          "y": 1440
+        }
+      ]
+    },
+    {
+      "id": "SM",
+      "name": "Silver Meteor",
+      "color": "#EF6C00",
+      "points": [
+        {
+          "x": 2800,
+          "y": 860
+        },
+        {
+          "x": 2700,
+          "y": 960
+        },
+        {
+          "x": 2620,
+          "y": 1040
+        },
+        {
+          "x": 2540,
+          "y": 1120
+        },
+        {
+          "x": 2460,
+          "y": 1200
+        },
+        {
+          "x": 2460,
+          "y": 1320
+        },
+        {
+          "x": 2460,
+          "y": 1460
+        },
+        {
+          "x": 2460,
+          "y": 1580
+        },
+        {
+          "x": 2460,
+          "y": 1680
+        },
+        {
+          "x": 2460,
+          "y": 1800
+        }
+      ]
+    },
+    {
+      "id": "CN",
+      "name": "City of New Orleans",
+      "color": "#3949AB",
+      "points": [
+        {
+          "x": 1900,
+          "y": 700
+        },
+        {
+          "x": 2020,
+          "y": 820
+        },
+        {
+          "x": 2020,
+          "y": 940
+        },
+        {
+          "x": 2020,
+          "y": 1060
+        },
+        {
+          "x": 2020,
+          "y": 1240
+        },
+        {
+          "x": 2020,
+          "y": 1440
+        }
+      ]
+    },
+    {
+      "id": "TE",
+      "name": "Texas Eagle",
+      "color": "#D84315",
+      "points": [
+        {
+          "x": 1900,
+          "y": 700
+        },
+        {
+          "x": 1900,
+          "y": 880
+        },
+        {
+          "x": 1780,
+          "y": 1000
+        },
+        {
+          "x": 1660,
+          "y": 1120
+        },
+        {
+          "x": 1560,
+          "y": 1120
+        },
+        {
+          "x": 1560,
+          "y": 1260
+        },
+        {
+          "x": 1560,
+          "y": 1440
+        }
+      ]
+    },
+    {
+      "id": "SL",
+      "name": "Sunset Limited",
+      "color": "#9E9D24",
+      "points": [
+        {
+          "x": 2020,
+          "y": 1440
+        },
+        {
+          "x": 1760,
+          "y": 1440
+        },
+        {
+          "x": 1560,
+          "y": 1440
+        },
+        {
+          "x": 1240,
+          "y": 1440
+        },
+        {
+          "x": 920,
+          "y": 1440
+        },
+        {
+          "x": 800,
+          "y": 1320
+        },
+        {
+          "x": 560,
+          "y": 1080
+        },
+        {
+          "x": 480,
+          "y": 1080
+        }
+      ]
+    },
+    {
+      "id": "PS",
+      "name": "Pacific Surfliner",
+      "color": "#E91E63",
+      "points": [
+        {
+          "x": 280,
+          "y": 1080
+        },
+        {
+          "x": 380,
+          "y": 1080
+        },
+        {
+          "x": 480,
+          "y": 1080
+        },
+        {
+          "x": 480,
+          "y": 1220
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "vancouver",
+      "name": "Vancouver, BC",
+      "x": 300,
+      "y": 100,
+      "lines": ["CA"],
+      "terminal": true,
+      "label": {
+        "x": 275,
+        "y": 100,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "bellingham",
+      "name": "Bellingham",
+      "x": 300,
+      "y": 200,
+      "lines": ["CA"],
+      "label": {
+        "x": 275,
+        "y": 200,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "x": 300,
+      "y": 300,
+      "lines": ["CA", "CS", "EB"],
+      "terminal": true,
+      "label": {
+        "x": 275,
+        "y": 300,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "spokane",
+      "name": "Spokane",
+      "x": 560,
+      "y": 300,
+      "lines": ["EB"],
+      "label": {
+        "x": 560,
+        "y": 270,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "fargo",
+      "name": "Fargo",
+      "x": 1450,
+      "y": 300,
+      "lines": ["EB"],
+      "label": {
+        "x": 1450,
+        "y": 270,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "st-paul-minneapolis",
+      "name": "St. Paul–Minneapolis",
+      "x": 1790,
+      "y": 480,
+      "lines": ["EB"],
+      "label": {
+        "x": 1815,
+        "y": 480,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "milwaukee",
+      "name": "Milwaukee",
+      "x": 1900,
+      "y": 590,
+      "lines": ["EB"],
+      "label": {
+        "x": 1925,
+        "y": 590,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "x": 1900,
+      "y": 700,
+      "lines": ["EB", "CZ", "SC", "LS", "CN", "TE"],
+      "terminal": true,
+      "label": {
+        "x": 1922,
+        "y": 678,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "portland",
+      "name": "Portland, OR",
+      "x": 300,
+      "y": 420,
+      "lines": ["CA", "CS"],
+      "label": {
+        "x": 275,
+        "y": 420,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "salem",
+      "name": "Salem",
+      "x": 300,
+      "y": 520,
+      "lines": ["CA", "CS"],
+      "label": {
+        "x": 275,
+        "y": 520,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "eugene",
+      "name": "Eugene",
+      "x": 300,
+      "y": 620,
+      "lines": ["CA", "CS"],
+      "terminal": true,
+      "label": {
+        "x": 275,
+        "y": 620,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "sacramento",
+      "name": "Sacramento",
+      "x": 300,
+      "y": 780,
+      "lines": ["CS", "CZ"],
+      "label": {
+        "x": 275,
+        "y": 780,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "emeryville",
+      "name": "Emeryville",
+      "x": 300,
+      "y": 880,
+      "lines": ["CS", "CZ"],
+      "terminal": true,
+      "label": {
+        "x": 275,
+        "y": 880,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "x": 480,
+      "y": 1080,
+      "lines": ["CS", "SC", "SL", "PS"],
+      "terminal": true,
+      "label": {
+        "x": 455,
+        "y": 1110,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "reno",
+      "name": "Reno",
+      "x": 650,
+      "y": 700,
+      "lines": ["CZ"],
+      "label": {
+        "x": 650,
+        "y": 670,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "salt-lake-city",
+      "name": "Salt Lake City",
+      "x": 950,
+      "y": 700,
+      "lines": ["CZ"],
+      "label": {
+        "x": 950,
+        "y": 670,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "x": 1250,
+      "y": 700,
+      "lines": ["CZ"],
+      "label": {
+        "x": 1250,
+        "y": 670,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "omaha",
+      "name": "Omaha",
+      "x": 1550,
+      "y": 700,
+      "lines": ["CZ"],
+      "label": {
+        "x": 1550,
+        "y": 670,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "kansas-city",
+      "name": "Kansas City",
+      "x": 1700,
+      "y": 900,
+      "lines": ["SC"],
+      "label": {
+        "x": 1700,
+        "y": 935,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "albuquerque",
+      "name": "Albuquerque",
+      "x": 1100,
+      "y": 900,
+      "lines": ["SC"],
+      "label": {
+        "x": 1100,
+        "y": 935,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "flagstaff",
+      "name": "Flagstaff",
+      "x": 800,
+      "y": 900,
+      "lines": ["SC"],
+      "label": {
+        "x": 800,
+        "y": 935,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "toronto",
+      "name": "Toronto",
+      "x": 2180,
+      "y": 460,
+      "lines": ["ML"],
+      "terminal": true,
+      "label": {
+        "x": 2155,
+        "y": 460,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "niagara-falls-on",
+      "name": "Niagara Falls, ON",
+      "x": 2260,
+      "y": 540,
+      "lines": ["ML"],
+      "label": {
+        "x": 2285,
+        "y": 540,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "niagara-falls-ny",
+      "name": "Niagara Falls, NY",
+      "x": 2340,
+      "y": 620,
+      "lines": ["ML"],
+      "label": {
+        "x": 2318,
+        "y": 648,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "buffalo-depew",
+      "name": "Buffalo–Depew",
+      "x": 2440,
+      "y": 620,
+      "lines": ["ML", "LS"],
+      "label": {
+        "x": 2440,
+        "y": 590,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "rochester",
+      "name": "Rochester",
+      "x": 2560,
+      "y": 620,
+      "lines": ["ML", "LS"],
+      "label": {
+        "x": 2560,
+        "y": 590,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "syracuse",
+      "name": "Syracuse",
+      "x": 2680,
+      "y": 620,
+      "lines": ["ML", "LS"],
+      "label": {
+        "x": 2680,
+        "y": 590,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "albany-rensselaer",
+      "name": "Albany–Rensselaer",
+      "x": 2800,
+      "y": 620,
+      "lines": ["ML", "AD", "LS"],
+      "label": {
+        "x": 2825,
+        "y": 620,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "saratoga-springs",
+      "name": "Saratoga Springs",
+      "x": 2800,
+      "y": 520,
+      "lines": ["AD"],
+      "label": {
+        "x": 2825,
+        "y": 520,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "plattsburgh",
+      "name": "Plattsburgh",
+      "x": 2800,
+      "y": 400,
+      "lines": ["AD"],
+      "label": {
+        "x": 2825,
+        "y": 400,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "saint-lambert",
+      "name": "Saint-Lambert",
+      "x": 2800,
+      "y": 300,
+      "lines": ["AD"],
+      "label": {
+        "x": 2825,
+        "y": 300,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "montreal",
+      "name": "Montréal",
+      "x": 2720,
+      "y": 220,
+      "lines": ["AD"],
+      "terminal": true,
+      "label": {
+        "x": 2695,
+        "y": 220,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "x": 2800,
+      "y": 860,
+      "lines": ["NE", "ML", "AD", "LS", "CR", "SM"],
+      "terminal": true,
+      "label": {
+        "x": 2828,
+        "y": 878,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "boston",
+      "name": "Boston South Station",
+      "x": 3080,
+      "y": 580,
+      "lines": ["NE"],
+      "terminal": true,
+      "label": {
+        "x": 3105,
+        "y": 580,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "providence",
+      "name": "Providence",
+      "x": 3000,
+      "y": 660,
+      "lines": ["NE"],
+      "label": {
+        "x": 3025,
+        "y": 660,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "new-haven",
+      "name": "New Haven Union Station",
+      "x": 2900,
+      "y": 760,
+      "lines": ["NE"],
+      "label": {
+        "x": 2925,
+        "y": 760,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "x": 2700,
+      "y": 960,
+      "lines": ["NE", "CR", "SM"],
+      "label": {
+        "x": 2725,
+        "y": 960,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "wilmington",
+      "name": "Wilmington",
+      "x": 2620,
+      "y": 1040,
+      "lines": ["NE", "CR", "SM"],
+      "label": {
+        "x": 2645,
+        "y": 1040,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "baltimore",
+      "name": "Baltimore",
+      "x": 2540,
+      "y": 1120,
+      "lines": ["NE", "CR", "SM"],
+      "label": {
+        "x": 2565,
+        "y": 1120,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "washington",
+      "name": "Washington",
+      "x": 2460,
+      "y": 1200,
+      "lines": ["NE", "CR", "SM"],
+      "terminal": true,
+      "label": {
+        "x": 2485,
+        "y": 1200,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "toledo",
+      "name": "Toledo",
+      "x": 2120,
+      "y": 700,
+      "lines": ["LS"],
+      "label": {
+        "x": 2120,
+        "y": 735,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "cleveland",
+      "name": "Cleveland",
+      "x": 2260,
+      "y": 700,
+      "lines": ["LS"],
+      "label": {
+        "x": 2260,
+        "y": 735,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "st-louis",
+      "name": "St. Louis",
+      "x": 1900,
+      "y": 880,
+      "lines": ["TE"],
+      "label": {
+        "x": 1925,
+        "y": 880,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "little-rock",
+      "name": "Little Rock",
+      "x": 1780,
+      "y": 1000,
+      "lines": ["TE"],
+      "label": {
+        "x": 1805,
+        "y": 1000,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "dallas",
+      "name": "Dallas",
+      "x": 1660,
+      "y": 1120,
+      "lines": ["TE"],
+      "label": {
+        "x": 1660,
+        "y": 1155,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "fort-worth",
+      "name": "Fort Worth",
+      "x": 1560,
+      "y": 1120,
+      "lines": ["TE"],
+      "label": {
+        "x": 1560,
+        "y": 1090,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "austin",
+      "name": "Austin",
+      "x": 1560,
+      "y": 1260,
+      "lines": ["TE"],
+      "label": {
+        "x": 1585,
+        "y": 1260,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "san-antonio",
+      "name": "San Antonio",
+      "x": 1560,
+      "y": 1440,
+      "lines": ["TE", "SL"],
+      "label": {
+        "x": 1560,
+        "y": 1475,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "champaign-urbana",
+      "name": "Champaign–Urbana",
+      "x": 2020,
+      "y": 820,
+      "lines": ["CN"],
+      "label": {
+        "x": 2045,
+        "y": 820,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "carbondale",
+      "name": "Carbondale",
+      "x": 2020,
+      "y": 940,
+      "lines": ["CN"],
+      "label": {
+        "x": 2045,
+        "y": 940,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "memphis",
+      "name": "Memphis",
+      "x": 2020,
+      "y": 1060,
+      "lines": ["CN"],
+      "label": {
+        "x": 2045,
+        "y": 1060,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "jackson-ms",
+      "name": "Jackson, MS",
+      "x": 2020,
+      "y": 1240,
+      "lines": ["CN"],
+      "label": {
+        "x": 2045,
+        "y": 1240,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "new-orleans",
+      "name": "New Orleans",
+      "x": 2020,
+      "y": 1440,
+      "lines": ["CR", "CN", "SL"],
+      "label": {
+        "x": 2020,
+        "y": 1475,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "houston",
+      "name": "Houston",
+      "x": 1760,
+      "y": 1440,
+      "lines": ["SL"],
+      "label": {
+        "x": 1760,
+        "y": 1410,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "el-paso",
+      "name": "El Paso",
+      "x": 1240,
+      "y": 1440,
+      "lines": ["SL"],
+      "label": {
+        "x": 1240,
+        "y": 1475,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "tucson",
+      "name": "Tucson",
+      "x": 800,
+      "y": 1320,
+      "lines": ["SL"],
+      "label": {
+        "x": 825,
+        "y": 1320,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "charlotte",
+      "name": "Charlotte",
+      "x": 2340,
+      "y": 1320,
+      "lines": ["CR"],
+      "label": {
+        "x": 2315,
+        "y": 1320,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "x": 2220,
+      "y": 1440,
+      "lines": ["CR"],
+      "label": {
+        "x": 2220,
+        "y": 1475,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "birmingham",
+      "name": "Birmingham",
+      "x": 2120,
+      "y": 1440,
+      "lines": ["CR"],
+      "label": {
+        "x": 2120,
+        "y": 1410,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "richmond",
+      "name": "Richmond, VA",
+      "x": 2460,
+      "y": 1320,
+      "lines": ["SM"],
+      "label": {
+        "x": 2485,
+        "y": 1320,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "charleston",
+      "name": "Charleston, SC",
+      "x": 2460,
+      "y": 1460,
+      "lines": ["SM"],
+      "label": {
+        "x": 2485,
+        "y": 1460,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "jacksonville",
+      "name": "Jacksonville",
+      "x": 2460,
+      "y": 1580,
+      "lines": ["SM"],
+      "label": {
+        "x": 2485,
+        "y": 1580,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "orlando",
+      "name": "Orlando",
+      "x": 2460,
+      "y": 1680,
+      "lines": ["SM"],
+      "label": {
+        "x": 2485,
+        "y": 1680,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "x": 2460,
+      "y": 1800,
+      "lines": ["SM"],
+      "label": {
+        "x": 2485,
+        "y": 1800,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Santa Barbara",
+      "x": 380,
+      "y": 1080,
+      "lines": ["PS"],
+      "label": {
+        "x": 380,
+        "y": 1050,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "san-luis-obispo",
+      "name": "San Luis Obispo",
+      "x": 280,
+      "y": 1080,
+      "lines": ["PS"],
+      "label": {
+        "x": 280,
+        "y": 1050,
+        "anchor": "middle",
+        "rot": 0
+      },
+      "terminal": true
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "x": 480,
+      "y": 1220,
+      "lines": ["PS"],
+      "label": {
+        "x": 505,
+        "y": 1220,
+        "anchor": "start",
+        "rot": 0
+      },
+      "terminal": true
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 2080,
+      "maxX": 3250,
+      "minY": 150,
+      "maxY": 1260
+    },
+    "minZoom": 0.2,
+    "maxZoom": 40
+  },
+  "geoProjection": {
+    "refLonWest": -123.098336,
+    "refLonEast": -71.055304,
+    "refXWest": 271.44,
+    "refXEast": 2879.31,
+    "refLatNorth": 49.273757,
+    "refLatSouth": 25.849554,
+    "refYNorth": 169.39,
+    "refYSouth": 1757.7
+  },
+  "sequences": {
+    "NE": [
+      "boston",
+      "providence",
+      "new-haven",
+      "new-york",
+      "philadelphia",
+      "wilmington",
+      "baltimore",
+      "washington"
+    ],
+    "ML": [
+      "new-york",
+      "albany-rensselaer",
+      "syracuse",
+      "rochester",
+      "buffalo-depew",
+      "niagara-falls-ny",
+      "niagara-falls-on",
+      "toronto"
+    ],
+    "AD": [
+      "new-york",
+      "albany-rensselaer",
+      "saratoga-springs",
+      "plattsburgh",
+      "saint-lambert",
+      "montreal"
+    ],
+    "CA": ["vancouver", "bellingham", "seattle", "portland", "salem", "eugene"],
+    "CS": ["seattle", "portland", "salem", "eugene", "sacramento", "emeryville", "los-angeles"],
+    "EB": ["chicago", "milwaukee", "st-paul-minneapolis", "fargo", "spokane", "seattle"],
+    "CZ": ["chicago", "omaha", "denver", "salt-lake-city", "reno", "sacramento", "emeryville"],
+    "SC": ["chicago", "kansas-city", "albuquerque", "flagstaff", "los-angeles"],
+    "LS": [
+      "new-york",
+      "albany-rensselaer",
+      "syracuse",
+      "rochester",
+      "buffalo-depew",
+      "cleveland",
+      "toledo",
+      "chicago"
+    ],
+    "CR": [
+      "new-york",
+      "philadelphia",
+      "wilmington",
+      "baltimore",
+      "washington",
+      "charlotte",
+      "atlanta",
+      "birmingham",
+      "new-orleans"
+    ],
+    "SM": [
+      "new-york",
+      "philadelphia",
+      "wilmington",
+      "baltimore",
+      "washington",
+      "richmond",
+      "charleston",
+      "jacksonville",
+      "orlando",
+      "miami"
+    ],
+    "CN": ["chicago", "champaign-urbana", "carbondale", "memphis", "jackson-ms", "new-orleans"],
+    "TE": ["chicago", "st-louis", "little-rock", "dallas", "fort-worth", "austin", "san-antonio"],
+    "SL": ["new-orleans", "houston", "san-antonio", "el-paso", "tucson", "los-angeles"],
+    "PS": ["san-luis-obispo", "santa-barbara", "los-angeles", "san-diego"]
+  },
+  "stationAliases": {
+    "code:VAC": "vancouver",
+    "code:BEL": "bellingham",
+    "code:SEA": "seattle",
+    "code:SPK": "spokane",
+    "code:FAR": "fargo",
+    "code:MSP": "st-paul-minneapolis",
+    "code:MKE": "milwaukee",
+    "code:CHI": "chicago",
+    "code:PDX": "portland",
+    "code:SLM": "salem",
+    "code:EUG": "eugene",
+    "code:SAC": "sacramento",
+    "code:EMY": "emeryville",
+    "code:LAX": "los-angeles",
+    "code:RNO": "reno",
+    "code:SLC": "salt-lake-city",
+    "code:DEN": "denver",
+    "code:OMA": "omaha",
+    "code:KCY": "kansas-city",
+    "code:ABQ": "albuquerque",
+    "code:FLG": "flagstaff",
+    "code:TWO": "toronto",
+    "code:NFS": "niagara-falls-on",
+    "code:NFL": "niagara-falls-ny",
+    "code:BUF": "buffalo-depew",
+    "code:ROC": "rochester",
+    "code:SYR": "syracuse",
+    "code:ALB": "albany-rensselaer",
+    "code:SAR": "saratoga-springs",
+    "code:PLB": "plattsburgh",
+    "code:SLQ": "saint-lambert",
+    "code:MTR": "montreal",
+    "code:NYP": "new-york",
+    "code:BOS": "boston",
+    "code:PVD": "providence",
+    "code:NHV": "new-haven",
+    "code:PHL": "philadelphia",
+    "code:WIL": "wilmington",
+    "code:BAL": "baltimore",
+    "code:WAS": "washington",
+    "code:TOL": "toledo",
+    "code:CLE": "cleveland",
+    "code:STL": "st-louis",
+    "code:LRK": "little-rock",
+    "code:DAL": "dallas",
+    "code:FTW": "fort-worth",
+    "code:AUS": "austin",
+    "code:SAS": "san-antonio",
+    "code:CHM": "champaign-urbana",
+    "code:CDL": "carbondale",
+    "code:MEM": "memphis",
+    "code:JAN": "jackson-ms",
+    "code:NOL": "new-orleans",
+    "code:HOS": "houston",
+    "code:ELP": "el-paso",
+    "code:TUS": "tucson",
+    "code:CLT": "charlotte",
+    "code:ATL": "atlanta",
+    "code:BHM": "birmingham",
+    "code:RVR": "richmond",
+    "code:CHS": "charleston",
+    "code:JAX": "jacksonville",
+    "code:ORL": "orlando",
+    "code:MIA": "miami",
+    "code:SBA": "santa-barbara",
+    "code:SLO": "san-luis-obispo",
+    "code:SAN": "san-diego"
+  },
+  "stationIndex": [
+    {
+      "id": "ABE",
+      "name": "Aberdeen Amtrak Station",
+      "lat": 39.508447,
+      "lon": -76.16326,
+      "lines": ["NE"],
+      "platformIds": ["ABE"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "ABQ",
+      "schematicId": "albuquerque",
+      "name": "Albuquerque",
+      "lat": 35.082061,
+      "lon": -106.647975,
+      "lines": ["SC"],
+      "platformIds": ["ABQ"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "ACD",
+      "name": "Arcadia Valley Station",
+      "lat": 37.592161,
+      "lon": -90.624403,
+      "lines": ["TE"],
+      "platformIds": ["ACD"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "ADM",
+      "name": "Ardmore Amtrak Station",
+      "lat": 34.172465,
+      "lon": -97.12551,
+      "lines": [],
+      "platformIds": ["ADM"],
+      "departureRouteIds": ["86"]
+    },
+    {
+      "id": "AKY",
+      "name": "Ashland Amtrak Station",
+      "lat": 38.480875,
+      "lon": -82.639603,
+      "lines": [],
+      "platformIds": ["AKY"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "ALB",
+      "schematicId": "albany-rensselaer",
+      "name": "Albany–Rensselaer",
+      "lat": 42.641029,
+      "lon": -73.741147,
+      "lines": ["AD", "LS", "ML"],
+      "platformIds": ["ALB"],
+      "departureRouteIds": ["36921", "36949", "68", "81", "95"]
+    },
+    {
+      "id": "ALC",
+      "name": "Alliance Amtrak",
+      "lat": 40.921275,
+      "lon": -81.092904,
+      "lines": [],
+      "platformIds": ["ALC"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "ALD",
+      "name": "Alderson Amtrak",
+      "lat": 37.724277,
+      "lon": -80.644856,
+      "lines": [],
+      "platformIds": ["ALD"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "ALI",
+      "name": "Albion",
+      "lat": 42.247196,
+      "lon": -84.755814,
+      "lines": [],
+      "platformIds": ["ALI"],
+      "departureRouteIds": ["80"]
+    },
+    {
+      "id": "ALN",
+      "name": "Alton Amtrak Station",
+      "lat": 38.921007,
+      "lon": -90.157298,
+      "lines": ["TE"],
+      "platformIds": ["ALN"],
+      "departureRouteIds": ["36926", "42951", "87"]
+    },
+    {
+      "id": "ALP",
+      "name": "Alpine Amtrak Station",
+      "lat": 30.357302,
+      "lon": -103.661513,
+      "lines": ["SL", "TE"],
+      "platformIds": ["ALP"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "ALT",
+      "name": "Altoona Amtrak Station",
+      "lat": 40.514475,
+      "lon": -78.40162,
+      "lines": [],
+      "platformIds": ["ALT"],
+      "departureRouteIds": ["64"]
+    },
+    {
+      "id": "ALX",
+      "name": "Alexandria",
+      "lat": 38.806503,
+      "lon": -77.06233,
+      "lines": ["CR", "NE", "SM"],
+      "platformIds": ["ALX"],
+      "departureRouteIds": ["36923", "42947", "42994", "58", "69", "85", "88"]
+    },
+    {
+      "id": "ALY",
+      "name": "Albany Amtrak Station",
+      "lat": 44.630464,
+      "lon": -123.102774,
+      "lines": ["CA", "CS"],
+      "platformIds": ["ALY"],
+      "departureRouteIds": ["36924", "60"]
+    },
+    {
+      "id": "AMS",
+      "name": "Amsterdam Amtrak Station",
+      "lat": 42.953719,
+      "lon": -74.2195,
+      "lines": ["ML"],
+      "platformIds": ["AMS"],
+      "departureRouteIds": ["36921", "68"]
+    },
+    {
+      "id": "ANA",
+      "name": "Anaheim",
+      "lat": 33.803803,
+      "lon": -117.877308,
+      "lines": ["PS"],
+      "platformIds": ["ANA"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "ARB",
+      "name": "Ann Arbor Amtrak Station",
+      "lat": 42.287692,
+      "lon": -83.743154,
+      "lines": [],
+      "platformIds": ["ARB"],
+      "departureRouteIds": ["80"]
+    },
+    {
+      "id": "ARD",
+      "name": "Ardmore Amtrak Station",
+      "lat": 40.008278,
+      "lon": -75.290399,
+      "lines": [],
+      "platformIds": ["ARD"],
+      "departureRouteIds": ["94"]
+    },
+    {
+      "id": "ARK",
+      "name": "Arkadelphia Amtrak Station",
+      "lat": 34.113919,
+      "lon": -93.053284,
+      "lines": ["TE"],
+      "platformIds": ["ARK"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "ARN",
+      "name": "Auburn Amtrak",
+      "lat": 38.903638,
+      "lon": -121.083187,
+      "lines": [],
+      "platformIds": ["ARN"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "ASD",
+      "name": "Ashland Amtrak",
+      "lat": 37.759596,
+      "lon": -77.481304,
+      "lines": ["NE"],
+      "platformIds": ["ASD"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "ATL",
+      "schematicId": "atlanta",
+      "name": "Atlanta",
+      "lat": 33.799445,
+      "lon": -84.392477,
+      "lines": ["CR"],
+      "platformIds": ["ATL"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "ATN",
+      "name": "Anniston Amtrak Station",
+      "lat": 33.649112,
+      "lon": -85.832145,
+      "lines": ["CR"],
+      "platformIds": ["ATN"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "AUS",
+      "schematicId": "austin",
+      "name": "Austin",
+      "lat": 30.269449,
+      "lon": -97.75694,
+      "lines": ["TE"],
+      "platformIds": ["AUS"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "BAL",
+      "schematicId": "baltimore",
+      "name": "Baltimore",
+      "lat": 39.307302,
+      "lon": -76.615688,
+      "lines": ["CR", "NE", "SM"],
+      "platformIds": ["BAL"],
+      "departureRouteIds": ["36923", "40751", "42947", "58", "69", "85", "88", "90"]
+    },
+    {
+      "id": "BAM",
+      "name": "Bangor Amtrak Station",
+      "lat": 42.314519,
+      "lon": -86.111646,
+      "lines": [],
+      "platformIds": ["BAM"],
+      "departureRouteIds": ["55"]
+    },
+    {
+      "id": "BAR",
+      "name": "Barstow",
+      "lat": 34.90482,
+      "lon": -117.025435,
+      "lines": ["SC"],
+      "platformIds": ["BAR"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "BBY",
+      "name": "Boston",
+      "lat": 42.347317,
+      "lon": -71.075828,
+      "lines": ["LS", "NE"],
+      "platformIds": ["BBY"],
+      "departureRouteIds": ["40751", "81", "88"]
+    },
+    {
+      "id": "BCV",
+      "name": "Burke Centre Amtrak",
+      "lat": 38.797271,
+      "lon": -77.29879,
+      "lines": ["NE"],
+      "platformIds": ["BCV"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "BEL",
+      "schematicId": "bellingham",
+      "name": "Bellingham",
+      "lat": 48.720263,
+      "lon": -122.511255,
+      "lines": ["CA"],
+      "platformIds": ["BEL"],
+      "departureRouteIds": ["60"]
+    },
+    {
+      "id": "BEN",
+      "name": "Benson Amtrak",
+      "lat": 31.968758,
+      "lon": -110.296904,
+      "lines": ["SL", "TE"],
+      "platformIds": ["BEN"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "BER",
+      "name": "Berlin Amtrak",
+      "lat": 41.635595,
+      "lon": -72.765274,
+      "lines": ["NE"],
+      "platformIds": ["BER"],
+      "departureRouteIds": ["41042", "41044", "88"]
+    },
+    {
+      "id": "BFX",
+      "name": "Buffalo",
+      "lat": 42.878449,
+      "lon": -78.873748,
+      "lines": ["ML"],
+      "platformIds": ["BFX"],
+      "departureRouteIds": ["36921", "68"]
+    },
+    {
+      "id": "BHM",
+      "schematicId": "birmingham",
+      "name": "Birmingham",
+      "lat": 33.512937,
+      "lon": -86.807023,
+      "lines": ["CR"],
+      "platformIds": ["BHM"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "BKY",
+      "name": "Berkeley Amtrak",
+      "lat": 37.867254,
+      "lon": -122.300707,
+      "lines": [],
+      "platformIds": ["BKY"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "BLF",
+      "name": "Bellows Falls Amtrak Station",
+      "lat": 43.13654,
+      "lon": -72.444597,
+      "lines": [],
+      "platformIds": ["BLF"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "BMT",
+      "name": "Beaumont Amtrak",
+      "lat": 30.076458,
+      "lon": -94.127367,
+      "lines": ["SL"],
+      "platformIds": ["BMT"],
+      "departureRouteIds": ["36930"]
+    },
+    {
+      "id": "BNC",
+      "name": "Burlington Amtrak Station",
+      "lat": 36.094225,
+      "lon": -79.434531,
+      "lines": [],
+      "platformIds": ["BNC"],
+      "departureRouteIds": ["79", "85"]
+    },
+    {
+      "id": "BNG",
+      "name": "Bingen-White Salmon Amtrak",
+      "lat": 45.71502,
+      "lon": -121.46873,
+      "lines": ["EB"],
+      "platformIds": ["BNG"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "BNL",
+      "name": "Bloomington-Normal",
+      "lat": 40.50901,
+      "lon": -88.984306,
+      "lines": ["TE"],
+      "platformIds": ["BNL"],
+      "departureRouteIds": ["36926", "42951", "87"]
+    },
+    {
+      "id": "BON",
+      "name": "Boston",
+      "lat": 42.366235,
+      "lon": -71.061122,
+      "lines": [],
+      "platformIds": ["BON"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "BOS",
+      "schematicId": "boston",
+      "name": "Boston South Station",
+      "lat": 42.352311,
+      "lon": -71.055304,
+      "lines": ["LS", "NE"],
+      "platformIds": ["BOS"],
+      "departureRouteIds": ["40751", "81", "88"]
+    },
+    {
+      "id": "BRA",
+      "name": "Brattleboro Amtrak Station",
+      "lat": 42.850849,
+      "lon": -72.556497,
+      "lines": [],
+      "platformIds": ["BRA"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "BRH",
+      "name": "Brookhaven Amtrak Station",
+      "lat": 31.582961,
+      "lon": -90.44107,
+      "lines": ["CN"],
+      "platformIds": ["BRH"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "BRK",
+      "name": "Brunswick Amtrak Station",
+      "lat": 43.911388,
+      "lon": -69.965541,
+      "lines": [],
+      "platformIds": ["BRK"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "BRL",
+      "name": "Burlington Amtrak Station",
+      "lat": 40.805788,
+      "lon": -91.101951,
+      "lines": ["CZ"],
+      "platformIds": ["BRL"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "BRO",
+      "name": "Browning Amtrak",
+      "lat": 48.534067,
+      "lon": -113.013151,
+      "lines": ["EB"],
+      "platformIds": ["BRO"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "BRP",
+      "name": "Bridgeport Amtrak Station",
+      "lat": 41.178006,
+      "lon": -73.187539,
+      "lines": ["NE"],
+      "platformIds": ["BRP"],
+      "departureRouteIds": ["88", "90"]
+    },
+    {
+      "id": "BTL",
+      "name": "Battle Creek",
+      "lat": 42.318453,
+      "lon": -85.187825,
+      "lines": [],
+      "platformIds": ["BTL"],
+      "departureRouteIds": ["42956", "80"]
+    },
+    {
+      "id": "BUF",
+      "schematicId": "buffalo-depew",
+      "name": "Buffalo–Depew",
+      "lat": 42.907017,
+      "lon": -78.726584,
+      "lines": ["LS", "ML"],
+      "platformIds": ["BUF"],
+      "departureRouteIds": ["36921", "68", "81"]
+    },
+    {
+      "id": "BUR",
+      "name": "Burbank Amtrak",
+      "lat": 34.193072,
+      "lon": -118.353767,
+      "lines": ["CS", "PS"],
+      "platformIds": ["BUR"],
+      "departureRouteIds": ["36924", "78"]
+    },
+    {
+      "id": "BWI",
+      "name": "Bwi Thurgood Marshall Airport Station",
+      "lat": 39.192362,
+      "lon": -76.6943,
+      "lines": ["CR", "NE"],
+      "platformIds": ["BWI"],
+      "departureRouteIds": ["36923", "40751", "69", "85", "88", "90"]
+    },
+    {
+      "id": "BYN",
+      "name": "Bryan Amtrak Station",
+      "lat": 41.480319,
+      "lon": -84.551799,
+      "lines": ["LS"],
+      "platformIds": ["BYN"],
+      "departureRouteIds": ["81"]
+    },
+    {
+      "id": "CAM",
+      "name": "Camden Amtrak Station",
+      "lat": 34.248157,
+      "lon": -80.62519,
+      "lines": [],
+      "platformIds": ["CAM"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "CBR",
+      "name": "Cleburne Amtrak Station",
+      "lat": 32.349743,
+      "lon": -97.382333,
+      "lines": ["TE"],
+      "platformIds": ["CBR"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "CBS",
+      "name": "Columbus Amtrak Station",
+      "lat": 43.340611,
+      "lon": -89.012609,
+      "lines": ["EB"],
+      "platformIds": ["CBS"],
+      "departureRouteIds": ["42991", "75"]
+    },
+    {
+      "id": "CDL",
+      "schematicId": "carbondale",
+      "name": "Carbondale",
+      "lat": 37.724235,
+      "lon": -89.216628,
+      "lines": ["CN"],
+      "platformIds": ["CDL"],
+      "departureRouteIds": ["42946", "56", "63"]
+    },
+    {
+      "id": "CEN",
+      "name": "Centralia Amtrak Station",
+      "lat": 38.527531,
+      "lon": -89.136118,
+      "lines": ["CN"],
+      "platformIds": ["CEN"],
+      "departureRouteIds": ["42946", "56", "63"]
+    },
+    {
+      "id": "CHI",
+      "schematicId": "chicago",
+      "name": "Chicago",
+      "lat": 41.878684,
+      "lon": -87.639443,
+      "lines": ["CN", "CZ", "EB", "LS", "SC", "TE"],
+      "platformIds": ["CHI"],
+      "departureRouteIds": [
+        "36926",
+        "42946",
+        "42951",
+        "42956",
+        "42957",
+        "42991",
+        "42994",
+        "51",
+        "54",
+        "55",
+        "56",
+        "58",
+        "63",
+        "72",
+        "75",
+        "80",
+        "81",
+        "87",
+        "96"
+      ]
+    },
+    {
+      "id": "CHM",
+      "schematicId": "champaign-urbana",
+      "name": "Champaign-Urbana",
+      "lat": 40.115843,
+      "lon": -88.241366,
+      "lines": ["CN"],
+      "platformIds": ["CHM"],
+      "departureRouteIds": ["42946", "56", "63"]
+    },
+    {
+      "id": "CHS",
+      "schematicId": "charleston",
+      "name": "Charleston Amtrak Station",
+      "lat": 32.875473,
+      "lon": -79.998048,
+      "lines": ["SM"],
+      "platformIds": ["CHS"],
+      "departureRouteIds": ["42947", "69"]
+    },
+    {
+      "id": "CHW",
+      "name": "Charleston",
+      "lat": 38.346368,
+      "lon": -81.638494,
+      "lines": [],
+      "platformIds": ["CHW"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "CIC",
+      "name": "Chico Amtrak",
+      "lat": 39.723259,
+      "lon": -121.845861,
+      "lines": ["CS"],
+      "platformIds": ["CIC"],
+      "departureRouteIds": ["36924"]
+    },
+    {
+      "id": "CIN",
+      "name": "Cincinnati Union Terminal",
+      "lat": 39.109927,
+      "lon": -84.537061,
+      "lines": [],
+      "platformIds": ["CIN"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "CLA",
+      "name": "Claremont Amtrak",
+      "lat": 43.36833,
+      "lon": -72.377644,
+      "lines": [],
+      "platformIds": ["CLA"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "CLB",
+      "name": "Columbia Amtrak Station",
+      "lat": 33.994297,
+      "lon": -81.04049,
+      "lines": [],
+      "platformIds": ["CLB"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "CLE",
+      "schematicId": "cleveland",
+      "name": "Cleveland",
+      "lat": 41.505787,
+      "lon": -81.696172,
+      "lines": ["LS"],
+      "platformIds": ["CLE"],
+      "departureRouteIds": ["42994", "81"]
+    },
+    {
+      "id": "CLF",
+      "name": "Clifton Forge Amtrak Station",
+      "lat": 37.814521,
+      "lon": -79.827363,
+      "lines": [],
+      "platformIds": ["CLF"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "CLP",
+      "name": "Culpeper Amtrak Station",
+      "lat": 38.47236,
+      "lon": -77.993421,
+      "lines": ["CR", "NE"],
+      "platformIds": ["CLP"],
+      "departureRouteIds": ["36923", "58", "88"]
+    },
+    {
+      "id": "CLT",
+      "schematicId": "charlotte",
+      "name": "Charlotte Amtrak Station",
+      "lat": 35.241403,
+      "lon": -80.822812,
+      "lines": ["CR"],
+      "platformIds": ["CLT"],
+      "departureRouteIds": ["36923", "79", "85"]
+    },
+    {
+      "id": "CML",
+      "name": "Camarillo Amtrak",
+      "lat": 34.215933,
+      "lon": -119.034114,
+      "lines": ["PS"],
+      "platformIds": ["CML"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "CMO",
+      "name": "Chemult",
+      "lat": 43.216784,
+      "lon": -121.781594,
+      "lines": ["CS"],
+      "platformIds": ["CMO"],
+      "departureRouteIds": ["36924"]
+    },
+    {
+      "id": "CNV",
+      "name": "Castleton Amtrak Station",
+      "lat": 43.613382,
+      "lon": -73.171337,
+      "lines": [],
+      "platformIds": ["CNV"],
+      "departureRouteIds": ["36949"]
+    },
+    {
+      "id": "COI",
+      "name": "Connersville Amtrak",
+      "lat": 39.645969,
+      "lon": -85.13338,
+      "lines": [],
+      "platformIds": ["COI"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "COT",
+      "name": "Coatesville Amtrak",
+      "lat": 39.985688,
+      "lon": -75.820929,
+      "lines": [],
+      "platformIds": ["COT"],
+      "departureRouteIds": ["94"]
+    },
+    {
+      "id": "COV",
+      "name": "Connellsville Amtrak",
+      "lat": 40.020282,
+      "lon": -79.592813,
+      "lines": [],
+      "platformIds": ["COV"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "COX",
+      "name": "Colfax Amtrak Station",
+      "lat": 39.099172,
+      "lon": -120.953075,
+      "lines": ["CZ"],
+      "platformIds": ["COX"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "CPN",
+      "name": "Carpinteria Amtrak",
+      "lat": 34.39678,
+      "lon": -119.522975,
+      "lines": ["PS"],
+      "platformIds": ["CPN"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "CRF",
+      "name": "Crawfordsville Amtrak",
+      "lat": 40.044705,
+      "lon": -86.899187,
+      "lines": [],
+      "platformIds": ["CRF"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "CRN",
+      "name": "Creston Amtrak",
+      "lat": 41.05692,
+      "lon": -94.361617,
+      "lines": ["CZ"],
+      "platformIds": ["CRN"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "CRT",
+      "name": "Croton-Harmon Amtrak Station",
+      "lat": 41.189903,
+      "lon": -73.882394,
+      "lines": ["AD", "LS", "ML"],
+      "platformIds": ["CRT"],
+      "departureRouteIds": ["36921", "36949", "68", "81", "95"]
+    },
+    {
+      "id": "CRV",
+      "name": "Carlinville Amtrak Station",
+      "lat": 39.279295,
+      "lon": -89.889276,
+      "lines": ["TE"],
+      "platformIds": ["CRV"],
+      "departureRouteIds": ["36926", "42951", "87"]
+    },
+    {
+      "id": "CSN",
+      "name": "Clemson Amtrak Station",
+      "lat": 34.691115,
+      "lon": -82.832501,
+      "lines": ["CR"],
+      "platformIds": ["CSN"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "CTL",
+      "name": "Centralia Amtrak Station",
+      "lat": 46.71747,
+      "lon": -122.953062,
+      "lines": ["CA", "CS"],
+      "platformIds": ["CTL"],
+      "departureRouteIds": ["36924", "60"]
+    },
+    {
+      "id": "CUM",
+      "name": "Cumberland Amtrak Station",
+      "lat": 39.650628,
+      "lon": -78.758,
+      "lines": [],
+      "platformIds": ["CUM"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "CUT",
+      "name": "Cut Bank Amtrak Station",
+      "lat": 48.638364,
+      "lon": -112.331584,
+      "lines": ["EB"],
+      "platformIds": ["CUT"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "CVS",
+      "name": "Charlottesville",
+      "lat": 38.031484,
+      "lon": -78.491684,
+      "lines": ["CR", "NE"],
+      "platformIds": ["CVS"],
+      "departureRouteIds": ["36923", "58", "88"]
+    },
+    {
+      "id": "CWH",
+      "name": "Cornwells Heights Amtrak",
+      "lat": 40.071663,
+      "lon": -74.952187,
+      "lines": [],
+      "platformIds": ["CWH"],
+      "departureRouteIds": ["94"]
+    },
+    {
+      "id": "CWT",
+      "name": "Chatsworth",
+      "lat": 34.253205,
+      "lon": -118.599417,
+      "lines": ["PS"],
+      "platformIds": ["CWT"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "CYN",
+      "name": "Cary",
+      "lat": 35.788294,
+      "lon": -78.782246,
+      "lines": [],
+      "platformIds": ["CYN"],
+      "departureRouteIds": ["42994", "79", "85"]
+    },
+    {
+      "id": "DAL",
+      "schematicId": "dallas",
+      "name": "Dallas",
+      "lat": 32.776094,
+      "lon": -96.807235,
+      "lines": ["TE"],
+      "platformIds": ["DAL"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "DAN",
+      "name": "Danville Amtrak Station",
+      "lat": 36.58409,
+      "lon": -79.383968,
+      "lines": ["CR"],
+      "platformIds": ["DAN"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "DAV",
+      "name": "Davis",
+      "lat": 38.543562,
+      "lon": -121.737707,
+      "lines": ["CS", "CZ"],
+      "platformIds": ["DAV"],
+      "departureRouteIds": ["36924", "84", "96"]
+    },
+    {
+      "id": "DDG",
+      "name": "Dodge City Amtrak Station",
+      "lat": 37.752306,
+      "lon": -100.016961,
+      "lines": ["SC"],
+      "platformIds": ["DDG"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "DEM",
+      "name": "Deming Amtrak",
+      "lat": 32.27177,
+      "lon": -107.754346,
+      "lines": ["SL", "TE"],
+      "platformIds": ["DEM"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "DEN",
+      "schematicId": "denver",
+      "name": "Denver",
+      "lat": 39.752959,
+      "lon": -104.999929,
+      "lines": ["CZ"],
+      "platformIds": ["DEN"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "DER",
+      "name": "Dearborn",
+      "lat": 42.307167,
+      "lon": -83.235311,
+      "lines": [],
+      "platformIds": ["DER"],
+      "departureRouteIds": ["80"]
+    },
+    {
+      "id": "DET",
+      "name": "Detroit",
+      "lat": 42.368097,
+      "lon": -83.072397,
+      "lines": [],
+      "platformIds": ["DET"],
+      "departureRouteIds": ["80"]
+    },
+    {
+      "id": "DFB",
+      "name": "Deerfield Beach Amtrak Station",
+      "lat": 26.317069,
+      "lon": -80.122147,
+      "lines": ["SM"],
+      "platformIds": ["DFB"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "DHM",
+      "name": "Durham",
+      "lat": 43.139328,
+      "lon": -70.936013,
+      "lines": [],
+      "platformIds": ["DHM"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "DIL",
+      "name": "Dillon Amtrak Station",
+      "lat": 34.417647,
+      "lon": -79.372301,
+      "lines": [],
+      "platformIds": ["DIL"],
+      "departureRouteIds": ["69"]
+    },
+    {
+      "id": "DLB",
+      "name": "Delray Beach Amtrak",
+      "lat": 26.454021,
+      "lon": -80.091154,
+      "lines": ["SM"],
+      "platformIds": ["DLB"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "DLD",
+      "name": "Deland",
+      "lat": 29.017849,
+      "lon": -81.352477,
+      "lines": ["SM"],
+      "platformIds": ["DLD"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "DLK",
+      "name": "Detroit Lakes Amtrak Station",
+      "lat": 46.819692,
+      "lon": -95.845998,
+      "lines": ["EB"],
+      "platformIds": ["DLK"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "DNC",
+      "name": "Durham Amtrak Station",
+      "lat": 35.997347,
+      "lon": -78.906299,
+      "lines": [],
+      "platformIds": ["DNC"],
+      "departureRouteIds": ["79", "85"]
+    },
+    {
+      "id": "DNK",
+      "name": "Denmark Amtrak Station",
+      "lat": 33.326184,
+      "lon": -81.143635,
+      "lines": [],
+      "platformIds": ["DNK"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "DOA",
+      "name": "Dowagiac Amtrak Station",
+      "lat": 41.980941,
+      "lon": -86.109041,
+      "lines": [],
+      "platformIds": ["DOA"],
+      "departureRouteIds": ["42956", "80"]
+    },
+    {
+      "id": "DOV",
+      "name": "Dover",
+      "lat": 43.197968,
+      "lon": -70.878361,
+      "lines": [],
+      "platformIds": ["DOV"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "DOW",
+      "name": "Downingtown Amtrak",
+      "lat": 40.002193,
+      "lon": -75.710775,
+      "lines": [],
+      "platformIds": ["DOW"],
+      "departureRouteIds": ["94"]
+    },
+    {
+      "id": "DQN",
+      "name": "Du Quoin Amtrak Station",
+      "lat": 38.012328,
+      "lon": -89.240254,
+      "lines": [],
+      "platformIds": ["DQN"],
+      "departureRouteIds": ["56", "63"]
+    },
+    {
+      "id": "DRD",
+      "name": "Durand Amtrak Station",
+      "lat": 42.909495,
+      "lon": -83.98232,
+      "lines": [],
+      "platformIds": ["DRD"],
+      "departureRouteIds": ["42956"]
+    },
+    {
+      "id": "DRT",
+      "name": "Del Rio Amtrak Station",
+      "lat": 29.362202,
+      "lon": -100.902662,
+      "lines": ["SL", "TE"],
+      "platformIds": ["DRT"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "DUN",
+      "name": "Dunsmuir Amtrak Station",
+      "lat": 41.211127,
+      "lon": -122.270587,
+      "lines": ["CS"],
+      "platformIds": ["DUN"],
+      "departureRouteIds": ["36924"]
+    },
+    {
+      "id": "DVL",
+      "name": "Devils Lake Amtrak Station",
+      "lat": 48.110468,
+      "lon": -98.861372,
+      "lines": ["EB"],
+      "platformIds": ["DVL"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "DWT",
+      "name": "Dwight Amtrak Station",
+      "lat": 41.089854,
+      "lon": -88.430707,
+      "lines": [],
+      "platformIds": ["DWT"],
+      "departureRouteIds": ["36926", "42951"]
+    },
+    {
+      "id": "DYE",
+      "name": "Dyer Amtrak",
+      "lat": 41.515413,
+      "lon": -87.518076,
+      "lines": [],
+      "platformIds": ["DYE"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "EDM",
+      "name": "Edmonds",
+      "lat": 47.811081,
+      "lon": -122.384141,
+      "lines": ["CA", "EB"],
+      "platformIds": ["EDM"],
+      "departureRouteIds": ["60", "75"]
+    },
+    {
+      "id": "EFG",
+      "name": "Effingham Amtrak Station",
+      "lat": 39.117059,
+      "lon": -88.54711,
+      "lines": ["CN"],
+      "platformIds": ["EFG"],
+      "departureRouteIds": ["42946", "56", "63"]
+    },
+    {
+      "id": "EKH",
+      "name": "Elkhart Amtrak Station",
+      "lat": 41.680748,
+      "lon": -85.971848,
+      "lines": ["LS"],
+      "platformIds": ["EKH"],
+      "departureRouteIds": ["42994", "81"]
+    },
+    {
+      "id": "ELK",
+      "name": "Elko Amtrak",
+      "lat": 40.836483,
+      "lon": -115.75053,
+      "lines": ["CZ"],
+      "platformIds": ["ELK"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "ELP",
+      "schematicId": "el-paso",
+      "name": "El Paso",
+      "lat": 31.757346,
+      "lon": -106.495644,
+      "lines": ["SL", "TE"],
+      "platformIds": ["ELP"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "ELT",
+      "name": "Elizabethtown Amtrak Station",
+      "lat": 40.147028,
+      "lon": -76.612234,
+      "lines": [],
+      "platformIds": ["ELT"],
+      "departureRouteIds": ["64", "94"]
+    },
+    {
+      "id": "ELY",
+      "name": "Elyria Amtrak",
+      "lat": 41.370033,
+      "lon": -82.096685,
+      "lines": ["LS"],
+      "platformIds": ["ELY"],
+      "departureRouteIds": ["42994", "81"]
+    },
+    {
+      "id": "EMY",
+      "schematicId": "emeryville",
+      "name": "Emeryville",
+      "lat": 37.840474,
+      "lon": -122.291615,
+      "lines": ["CS", "CZ"],
+      "platformIds": ["EMY"],
+      "departureRouteIds": ["36924", "84", "96"]
+    },
+    {
+      "id": "EPH",
+      "name": "Ephrata Amtrak",
+      "lat": 47.320948,
+      "lon": -119.549267,
+      "lines": ["EB"],
+      "platformIds": ["EPH"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "ERI",
+      "name": "Erie Amtrak Station",
+      "lat": 42.120847,
+      "lon": -80.082444,
+      "lines": ["LS"],
+      "platformIds": ["ERI"],
+      "departureRouteIds": ["81"]
+    },
+    {
+      "id": "ESM",
+      "name": "Essex Amtrak",
+      "lat": 48.275543,
+      "lon": -113.610942,
+      "lines": ["EB"],
+      "platformIds": ["ESM"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "ESX",
+      "name": "Essex Junction-Burlington Amtrak Station",
+      "lat": 44.492466,
+      "lon": -73.110277,
+      "lines": [],
+      "platformIds": ["ESX"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "EUG",
+      "schematicId": "eugene",
+      "name": "Eugene",
+      "lat": 44.055043,
+      "lon": -123.092361,
+      "lines": ["CA", "CS"],
+      "platformIds": ["EUG"],
+      "departureRouteIds": ["36924", "60"]
+    },
+    {
+      "id": "EVR",
+      "name": "Everett Amtrak Station",
+      "lat": 47.975401,
+      "lon": -122.197858,
+      "lines": ["CA", "EB"],
+      "platformIds": ["EVR"],
+      "departureRouteIds": ["60", "75"]
+    },
+    {
+      "id": "EWR",
+      "name": "Newark Liberty International Airport",
+      "lat": 40.696618,
+      "lon": -74.18229,
+      "lines": ["NE"],
+      "platformIds": ["EWR"],
+      "departureRouteIds": ["88", "94"]
+    },
+    {
+      "id": "EXR",
+      "name": "Exeter",
+      "lat": 42.98102,
+      "lon": -70.9587,
+      "lines": [],
+      "platformIds": ["EXR"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "EXT",
+      "name": "Exton Amtrak",
+      "lat": 40.019291,
+      "lon": -75.621713,
+      "lines": [],
+      "platformIds": ["EXT"],
+      "departureRouteIds": ["64", "94"]
+    },
+    {
+      "id": "FAR",
+      "schematicId": "fargo",
+      "name": "Fargo",
+      "lat": 46.880982,
+      "lon": -96.785372,
+      "lines": ["EB"],
+      "platformIds": ["FAR"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "FAY",
+      "name": "Fayetteville Amtrak Station",
+      "lat": 35.054993,
+      "lon": -78.884788,
+      "lines": ["SM"],
+      "platformIds": ["FAY"],
+      "departureRouteIds": ["42947", "69"]
+    },
+    {
+      "id": "FBG",
+      "name": "Fredericksburg Amtrak",
+      "lat": 38.298413,
+      "lon": -77.457203,
+      "lines": ["NE", "SM"],
+      "platformIds": ["FBG"],
+      "departureRouteIds": ["42947", "85", "88"]
+    },
+    {
+      "id": "FED",
+      "name": "Fort Edward Amtrak",
+      "lat": 43.269603,
+      "lon": -73.58055,
+      "lines": ["AD"],
+      "platformIds": ["FED"],
+      "departureRouteIds": ["36949", "95"]
+    },
+    {
+      "id": "FFV",
+      "name": "Fairfield-Vacaville Amtrak Station",
+      "lat": 38.285626,
+      "lon": -121.967926,
+      "lines": [],
+      "platformIds": ["FFV"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "FLG",
+      "schematicId": "flagstaff",
+      "name": "Flagstaff",
+      "lat": 35.197374,
+      "lon": -111.648871,
+      "lines": ["SC"],
+      "platformIds": ["FLG"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "FLN",
+      "name": "Flint Amtrak Station",
+      "lat": 43.015425,
+      "lon": -83.651728,
+      "lines": [],
+      "platformIds": ["FLN"],
+      "departureRouteIds": ["42956"]
+    },
+    {
+      "id": "FLO",
+      "name": "Florence Amtrak Station",
+      "lat": 34.199157,
+      "lon": -79.757056,
+      "lines": ["SM"],
+      "platformIds": ["FLO"],
+      "departureRouteIds": ["42947", "69"]
+    },
+    {
+      "id": "FMD",
+      "name": "Fort Madison",
+      "lat": 40.629558,
+      "lon": -91.313529,
+      "lines": ["SC"],
+      "platformIds": ["FMD"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "FMG",
+      "name": "Fort Morgan Amtrak Station",
+      "lat": 40.247169,
+      "lon": -103.802818,
+      "lines": ["CZ"],
+      "platformIds": ["FMG"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "FMT",
+      "name": "Fremont",
+      "lat": 37.559093,
+      "lon": -122.007496,
+      "lines": [],
+      "platformIds": ["FMT"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "FRA",
+      "name": "Framingham Amtrak",
+      "lat": 42.275993,
+      "lon": -71.420033,
+      "lines": ["LS"],
+      "platformIds": ["FRA"],
+      "departureRouteIds": ["81"]
+    },
+    {
+      "id": "FRE",
+      "name": "Freeport Amtrak Station",
+      "lat": 43.855035,
+      "lon": -70.102358,
+      "lines": [],
+      "platformIds": ["FRE"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "FTC",
+      "name": "Ticonderoga Amtrak",
+      "lat": 43.853788,
+      "lon": -73.389681,
+      "lines": ["AD"],
+      "platformIds": ["FTC"],
+      "departureRouteIds": ["95"]
+    },
+    {
+      "id": "FTL",
+      "name": "Fort Lauderdale Amtrak Station",
+      "lat": 26.119256,
+      "lon": -80.17,
+      "lines": ["SM"],
+      "platformIds": ["FTL"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "FTN",
+      "name": "Fulton Amtrak Station",
+      "lat": 36.525704,
+      "lon": -88.888772,
+      "lines": ["CN"],
+      "platformIds": ["FTN"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "FTW",
+      "schematicId": "fort-worth",
+      "name": "Fort Worth",
+      "lat": 32.7515305,
+      "lon": -97.3257888,
+      "lines": ["TE"],
+      "platformIds": ["FTW"],
+      "departureRouteIds": ["86", "87"]
+    },
+    {
+      "id": "FUL",
+      "name": "Fullerton Amtrak Station",
+      "lat": 33.868969,
+      "lon": -117.922849,
+      "lines": ["PS", "SC"],
+      "platformIds": ["FUL"],
+      "departureRouteIds": ["51", "78"]
+    },
+    {
+      "id": "GAC",
+      "name": "Santa Clara Great America Amtrak",
+      "lat": 37.406778,
+      "lon": -121.967003,
+      "lines": [],
+      "platformIds": ["GAC"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "GAS",
+      "name": "Gastonia Amtrak Station",
+      "lat": 35.269186,
+      "lon": -81.162366,
+      "lines": ["CR"],
+      "platformIds": ["GAS"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "GBB",
+      "name": "Galesburg Amtrak Station",
+      "lat": 40.944678,
+      "lon": -90.364106,
+      "lines": ["CZ", "SC"],
+      "platformIds": ["GBB"],
+      "departureRouteIds": ["42957", "51", "72", "96"]
+    },
+    {
+      "id": "GCK",
+      "name": "Garden City Amtrak Station",
+      "lat": 37.964365,
+      "lon": -100.873256,
+      "lines": ["SC"],
+      "platformIds": ["GCK"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "GDL",
+      "name": "Glendale Amtrak",
+      "lat": 34.123706,
+      "lon": -118.258868,
+      "lines": ["PS"],
+      "platformIds": ["GDL"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "GFD",
+      "name": "Greenfield Amtrak Station",
+      "lat": 42.585458,
+      "lon": -72.600765,
+      "lines": [],
+      "platformIds": ["GFD"],
+      "departureRouteIds": ["41044", "90"]
+    },
+    {
+      "id": "GFK",
+      "name": "Grand Forks Amtrak Station",
+      "lat": 47.917522,
+      "lon": -97.110835,
+      "lines": ["EB"],
+      "platformIds": ["GFK"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "GGW",
+      "name": "Glasgow Amtrak Station",
+      "lat": 48.194854,
+      "lon": -106.636188,
+      "lines": ["EB"],
+      "platformIds": ["GGW"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "GJT",
+      "name": "Grand Junction Amtrak Station",
+      "lat": 39.064375,
+      "lon": -108.569929,
+      "lines": ["CZ"],
+      "platformIds": ["GJT"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "GLE",
+      "name": "Gainesville Amtrak Station",
+      "lat": 33.625159,
+      "lon": -97.140896,
+      "lines": [],
+      "platformIds": ["GLE"],
+      "departureRouteIds": ["86"]
+    },
+    {
+      "id": "GLM",
+      "name": "Gilman Amtrak",
+      "lat": 40.752547,
+      "lon": -87.998055,
+      "lines": [],
+      "platformIds": ["GLM"],
+      "departureRouteIds": ["56", "63"]
+    },
+    {
+      "id": "GLN",
+      "name": "Glenview Amtrak Station",
+      "lat": 42.075038,
+      "lon": -87.805562,
+      "lines": ["EB"],
+      "platformIds": ["GLN"],
+      "departureRouteIds": ["42991", "54", "75"]
+    },
+    {
+      "id": "GLP",
+      "name": "Gallup Amtrak Station",
+      "lat": 35.529176,
+      "lon": -108.740548,
+      "lines": ["SC"],
+      "platformIds": ["GLP"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "GNB",
+      "name": "Greensburg Amtrak",
+      "lat": 40.304986,
+      "lon": -79.546893,
+      "lines": [],
+      "platformIds": ["GNB"],
+      "departureRouteIds": ["64"]
+    },
+    {
+      "id": "GNS",
+      "name": "Gainesville Amtrak Station",
+      "lat": 34.288897,
+      "lon": -83.819694,
+      "lines": ["CR"],
+      "platformIds": ["GNS"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "GPK",
+      "name": "East Glacier Park Amtrak Station",
+      "lat": 48.442333,
+      "lon": -113.219523,
+      "lines": ["EB"],
+      "platformIds": ["GPK"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "GRA",
+      "name": "Granby Amtrak Station",
+      "lat": 40.084188,
+      "lon": -105.935503,
+      "lines": ["CZ"],
+      "platformIds": ["GRA"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "GRI",
+      "name": "Green River Amtrak",
+      "lat": 38.992039,
+      "lon": -110.165228,
+      "lines": ["CZ"],
+      "platformIds": ["GRI"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "GRO",
+      "name": "Greensboro",
+      "lat": 36.069797,
+      "lon": -79.78708,
+      "lines": ["CR"],
+      "platformIds": ["GRO"],
+      "departureRouteIds": ["36923", "79", "85"]
+    },
+    {
+      "id": "GRR",
+      "name": "Grand Rapids Vernon J. Ehlers Station",
+      "lat": 42.955788,
+      "lon": -85.672447,
+      "lines": [],
+      "platformIds": ["GRR"],
+      "departureRouteIds": ["55"]
+    },
+    {
+      "id": "GRV",
+      "name": "Greenville Amtrak Station",
+      "lat": 34.858256,
+      "lon": -82.413486,
+      "lines": ["CR"],
+      "platformIds": ["GRV"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "GSC",
+      "name": "Glenwood Springs",
+      "lat": 39.547903,
+      "lon": -107.323218,
+      "lines": ["CZ"],
+      "platformIds": ["GSC"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "GTA",
+      "name": "Goleta Amtrak",
+      "lat": 34.437729,
+      "lon": -119.843092,
+      "lines": ["PS"],
+      "platformIds": ["GTA"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "GUA",
+      "name": "Guadalupe Amtrak Station",
+      "lat": 34.962927,
+      "lon": -120.57341,
+      "lines": ["PS"],
+      "platformIds": ["GUA"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "GVB",
+      "name": "Grover Beach Amtrak",
+      "lat": 35.12126,
+      "lon": -120.629266,
+      "lines": ["PS"],
+      "platformIds": ["GVB"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "GWD",
+      "name": "Greenwood Amtrak Station",
+      "lat": 33.517159,
+      "lon": -90.176454,
+      "lines": ["CN"],
+      "platformIds": ["GWD"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "HAM",
+      "name": "Hamlet Amtrak Station",
+      "lat": 34.883663,
+      "lon": -79.699218,
+      "lines": [],
+      "platformIds": ["HAM"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "HAR",
+      "name": "Harrisburg",
+      "lat": 40.26205,
+      "lon": -76.878256,
+      "lines": [],
+      "platformIds": ["HAR"],
+      "departureRouteIds": ["64", "94"]
+    },
+    {
+      "id": "HAS",
+      "name": "Hastings Amtrak Station",
+      "lat": 40.584276,
+      "lon": -98.387534,
+      "lines": ["CZ"],
+      "platformIds": ["HAS"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "HAV",
+      "name": "Havre Amtrak Station",
+      "lat": 48.554465,
+      "lon": -109.678352,
+      "lines": ["EB"],
+      "platformIds": ["HAV"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "HAY",
+      "name": "Hayward Amtrak",
+      "lat": 37.665997,
+      "lon": -122.099277,
+      "lines": [],
+      "platformIds": ["HAY"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "HAZ",
+      "name": "Hazlehurst Amtrak",
+      "lat": 31.86132,
+      "lon": -90.394347,
+      "lines": ["CN"],
+      "platformIds": ["HAZ"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "HBG",
+      "name": "Hattiesburg Amtrak Station",
+      "lat": 31.326921,
+      "lon": -89.286463,
+      "lines": ["CR"],
+      "platformIds": ["HBG"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "HEM",
+      "name": "Hermann",
+      "lat": 38.707283,
+      "lon": -91.432558,
+      "lines": [],
+      "platformIds": ["HEM"],
+      "departureRouteIds": ["36926", "36948"]
+    },
+    {
+      "id": "HER",
+      "name": "Helper Amtrak Station",
+      "lat": 39.684036,
+      "lon": -110.853894,
+      "lines": ["CZ"],
+      "platformIds": ["HER"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "HFD",
+      "name": "Hartford Amtrak Station",
+      "lat": 41.768761,
+      "lon": -72.681314,
+      "lines": ["NE"],
+      "platformIds": ["HFD"],
+      "departureRouteIds": ["41042", "41044", "88", "90"]
+    },
+    {
+      "id": "HFY",
+      "name": "Harpers Ferry Amtrak",
+      "lat": 39.324452,
+      "lon": -77.731078,
+      "lines": [],
+      "platformIds": ["HFY"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "HGD",
+      "name": "Huntingdon Amtrak Station",
+      "lat": 40.483665,
+      "lon": -78.01178,
+      "lines": [],
+      "platformIds": ["HGD"],
+      "departureRouteIds": ["64"]
+    },
+    {
+      "id": "HHL",
+      "name": "Haverhill Amtrak",
+      "lat": 42.773297,
+      "lon": -71.086375,
+      "lines": [],
+      "platformIds": ["HHL"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "HIN",
+      "name": "Hinton Amtrak Station",
+      "lat": 37.675037,
+      "lon": -80.892232,
+      "lines": [],
+      "platformIds": ["HIN"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "HLD",
+      "name": "Holdrege",
+      "lat": 40.436013,
+      "lon": -99.370077,
+      "lines": ["CZ"],
+      "platformIds": ["HLD"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "HLK",
+      "name": "Holyoke Amtrak",
+      "lat": 42.204156,
+      "lon": -72.602309,
+      "lines": [],
+      "platformIds": ["HLK"],
+      "departureRouteIds": ["41044", "90"]
+    },
+    {
+      "id": "HMD",
+      "name": "Hammond Amtrak Station",
+      "lat": 30.50718,
+      "lon": -90.462169,
+      "lines": ["CN"],
+      "platformIds": ["HMD"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "HMI",
+      "name": "Hammond-Whiting Amtrak Station",
+      "lat": 41.691155,
+      "lon": -87.506511,
+      "lines": [],
+      "platformIds": ["HMI"],
+      "departureRouteIds": ["80"]
+    },
+    {
+      "id": "HMW",
+      "name": "Homewood",
+      "lat": 41.562446,
+      "lon": -87.668685,
+      "lines": ["CN"],
+      "platformIds": ["HMW"],
+      "departureRouteIds": ["42946", "56", "63"]
+    },
+    {
+      "id": "HOL",
+      "name": "Hollywood Amtrak Station",
+      "lat": 26.011641,
+      "lon": -80.167884,
+      "lines": ["SM"],
+      "platformIds": ["HOL"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "HOM",
+      "name": "Holland Amtrak Station",
+      "lat": 42.791096,
+      "lon": -86.096553,
+      "lines": [],
+      "platformIds": ["HOM"],
+      "departureRouteIds": ["55"]
+    },
+    {
+      "id": "HOP",
+      "name": "Hope Amtrak Station",
+      "lat": 33.668913,
+      "lon": -93.592247,
+      "lines": ["TE"],
+      "platformIds": ["HOP"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "HOS",
+      "schematicId": "houston",
+      "name": "Houston",
+      "lat": 29.767245,
+      "lon": -95.367526,
+      "lines": ["SL"],
+      "platformIds": ["HOS"],
+      "departureRouteIds": ["36930"]
+    },
+    {
+      "id": "HPT",
+      "name": "High Point",
+      "lat": 35.957128,
+      "lon": -80.006097,
+      "lines": ["CR"],
+      "platformIds": ["HPT"],
+      "departureRouteIds": ["36923", "79", "85"]
+    },
+    {
+      "id": "HUD",
+      "name": "Hudson Amtrak Station",
+      "lat": 42.253891,
+      "lon": -73.797729,
+      "lines": ["AD", "ML"],
+      "platformIds": ["HUD"],
+      "departureRouteIds": ["36921", "36949", "68", "95"]
+    },
+    {
+      "id": "HUN",
+      "name": "Huntington Amtrak Station",
+      "lat": 38.41582,
+      "lon": -82.439735,
+      "lines": [],
+      "platformIds": ["HUN"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "HUT",
+      "name": "Hutchinson Amtrak Station",
+      "lat": 38.055712,
+      "lon": -97.931522,
+      "lines": ["SC"],
+      "platformIds": ["HUT"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "IDP",
+      "name": "Independence Amtrak Station",
+      "lat": 39.086917,
+      "lon": -94.429711,
+      "lines": [],
+      "platformIds": ["IDP"],
+      "departureRouteIds": ["36926", "36948"]
+    },
+    {
+      "id": "IND",
+      "name": "Indianapolis",
+      "lat": 39.761984,
+      "lon": -86.160423,
+      "lines": [],
+      "platformIds": ["IND"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "IRV",
+      "name": "Irvine",
+      "lat": 33.656771,
+      "lon": -117.733695,
+      "lines": ["PS"],
+      "platformIds": ["IRV"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "JAN",
+      "schematicId": "jackson-ms",
+      "name": "Jackson",
+      "lat": 32.300808,
+      "lon": -90.190936,
+      "lines": ["CN"],
+      "platformIds": ["JAN"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "JAX",
+      "schematicId": "jacksonville",
+      "name": "Jacksonville",
+      "lat": 30.365601,
+      "lon": -81.723893,
+      "lines": ["SM"],
+      "platformIds": ["JAX"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "JEF",
+      "name": "Jefferson City Amtrak Station",
+      "lat": 38.57887,
+      "lon": -92.169906,
+      "lines": [],
+      "platformIds": ["JEF"],
+      "departureRouteIds": ["36926", "36948"]
+    },
+    {
+      "id": "JOL",
+      "name": "Joliet Gateway Center",
+      "lat": 41.524647,
+      "lon": -88.078731,
+      "lines": ["TE"],
+      "platformIds": ["JOL"],
+      "departureRouteIds": ["36926", "42951", "87"]
+    },
+    {
+      "id": "JSP",
+      "name": "Jesup Amtrak Station",
+      "lat": 31.605589,
+      "lon": -81.882173,
+      "lines": ["SM"],
+      "platformIds": ["JSP"],
+      "departureRouteIds": ["42947"]
+    },
+    {
+      "id": "JST",
+      "name": "Johnstown Amtrak Station",
+      "lat": 40.329689,
+      "lon": -78.921996,
+      "lines": [],
+      "platformIds": ["JST"],
+      "departureRouteIds": ["64"]
+    },
+    {
+      "id": "JXN",
+      "name": "Jackson",
+      "lat": 42.248113,
+      "lon": -84.39967,
+      "lines": [],
+      "platformIds": ["JXN"],
+      "departureRouteIds": ["80"]
+    },
+    {
+      "id": "KAL",
+      "name": "Kalamazoo",
+      "lat": 42.295255,
+      "lon": -85.584018,
+      "lines": [],
+      "platformIds": ["KAL"],
+      "departureRouteIds": ["42956", "80"]
+    },
+    {
+      "id": "KAN",
+      "name": "Kannapolis",
+      "lat": 35.496172,
+      "lon": -80.624928,
+      "lines": [],
+      "platformIds": ["KAN"],
+      "departureRouteIds": ["79", "85"]
+    },
+    {
+      "id": "KCY",
+      "schematicId": "kansas-city",
+      "name": "Kansas City",
+      "lat": 39.084576,
+      "lon": -94.585129,
+      "lines": ["SC"],
+      "platformIds": ["KCY"],
+      "departureRouteIds": ["36926", "36948", "51"]
+    },
+    {
+      "id": "KEE",
+      "name": "Kewanee Amtrak Station",
+      "lat": 41.245765,
+      "lon": -89.927544,
+      "lines": [],
+      "platformIds": ["KEE"],
+      "departureRouteIds": ["42957", "72"]
+    },
+    {
+      "id": "KEL",
+      "name": "Kelso-Longview",
+      "lat": 46.142264,
+      "lon": -122.913016,
+      "lines": ["CA", "CS"],
+      "platformIds": ["KEL"],
+      "departureRouteIds": ["36924", "60"]
+    },
+    {
+      "id": "KFS",
+      "name": "Klamath Falls",
+      "lat": 42.225509,
+      "lon": -121.771952,
+      "lines": ["CS"],
+      "platformIds": ["KFS"],
+      "departureRouteIds": ["36924"]
+    },
+    {
+      "id": "KIN",
+      "name": "Kingston Amtrak Station",
+      "lat": 41.483959,
+      "lon": -71.560597,
+      "lines": ["NE"],
+      "platformIds": ["KIN"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "KIS",
+      "name": "Kissimmee Amtrak Station",
+      "lat": 28.293835,
+      "lon": -81.404234,
+      "lines": ["SM"],
+      "platformIds": ["KIS"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "KKI",
+      "name": "Kankakee",
+      "lat": 41.119259,
+      "lon": -87.86543,
+      "lines": ["CN"],
+      "platformIds": ["KKI"],
+      "departureRouteIds": ["42946", "56", "63"]
+    },
+    {
+      "id": "KNG",
+      "name": "Kingman",
+      "lat": 35.188279,
+      "lon": -114.052816,
+      "lines": ["SC"],
+      "platformIds": ["KNG"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "KTR",
+      "name": "Kingstree Amtrak Station",
+      "lat": 33.663882,
+      "lon": -79.829026,
+      "lines": ["SM"],
+      "platformIds": ["KTR"],
+      "departureRouteIds": ["42947", "69"]
+    },
+    {
+      "id": "KWD",
+      "name": "Kirkwood Amtrak Station",
+      "lat": 38.581067,
+      "lon": -90.406761,
+      "lines": [],
+      "platformIds": ["KWD"],
+      "departureRouteIds": ["36926", "36948"]
+    },
+    {
+      "id": "LAB",
+      "name": "Latrobe Amtrak",
+      "lat": 40.317405,
+      "lon": -79.385083,
+      "lines": [],
+      "platformIds": ["LAB"],
+      "departureRouteIds": ["64"]
+    },
+    {
+      "id": "LAF",
+      "name": "Lafayette Amtrak Station",
+      "lat": 40.419347,
+      "lon": -86.895901,
+      "lines": [],
+      "platformIds": ["LAF"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "LAG",
+      "name": "La Grange Amtrak",
+      "lat": 41.815634,
+      "lon": -87.871545,
+      "lines": [],
+      "platformIds": ["LAG"],
+      "departureRouteIds": ["42957", "72"]
+    },
+    {
+      "id": "LAJ",
+      "name": "La Junta Amtrak Station",
+      "lat": 37.988249,
+      "lon": -103.543576,
+      "lines": ["SC"],
+      "platformIds": ["LAJ"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "LAK",
+      "name": "Lakeland Amtrak Station",
+      "lat": 28.045603,
+      "lon": -81.951874,
+      "lines": [],
+      "platformIds": ["LAK"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "LAP",
+      "name": "La Plata Amtrak Station",
+      "lat": 40.02922,
+      "lon": -92.493384,
+      "lines": ["SC"],
+      "platformIds": ["LAP"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "LAU",
+      "name": "Laurel Amtrak Station",
+      "lat": 31.692168,
+      "lon": -89.127933,
+      "lines": ["CR"],
+      "platformIds": ["LAU"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "LAX",
+      "schematicId": "los-angeles",
+      "name": "Los Angeles",
+      "lat": 34.056177,
+      "lon": -118.236778,
+      "lines": ["CS", "PS", "SC", "SL", "TE"],
+      "platformIds": ["LAX"],
+      "departureRouteIds": ["36924", "36930", "51", "78", "87"]
+    },
+    {
+      "id": "LCH",
+      "name": "Lake Charles",
+      "lat": 30.238126,
+      "lon": -93.217037,
+      "lines": ["SL"],
+      "platformIds": ["LCH"],
+      "departureRouteIds": ["36930"]
+    },
+    {
+      "id": "LCN",
+      "name": "Lincoln Amtrak Station",
+      "lat": 40.148199,
+      "lon": -89.363051,
+      "lines": ["TE"],
+      "platformIds": ["LCN"],
+      "departureRouteIds": ["36926", "42951", "87"]
+    },
+    {
+      "id": "LDB",
+      "name": "Lordsburg Amtrak",
+      "lat": 32.35007,
+      "lon": -108.707025,
+      "lines": ["SL", "TE"],
+      "platformIds": ["LDB"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "LEE",
+      "name": "Lee'S Summit Amtrak",
+      "lat": 38.912623,
+      "lon": -94.377972,
+      "lines": [],
+      "platformIds": ["LEE"],
+      "departureRouteIds": ["36926", "36948"]
+    },
+    {
+      "id": "LEW",
+      "name": "Lewistown Amtrak Station",
+      "lat": 40.588309,
+      "lon": -77.580047,
+      "lines": [],
+      "platformIds": ["LEW"],
+      "departureRouteIds": ["64"]
+    },
+    {
+      "id": "LFT",
+      "name": "Lafayette Amtrak Station",
+      "lat": 30.226548,
+      "lon": -92.014519,
+      "lines": ["SL"],
+      "platformIds": ["LFT"],
+      "departureRouteIds": ["36930"]
+    },
+    {
+      "id": "LIB",
+      "name": "Libby Amtrak Station",
+      "lat": 48.394842,
+      "lon": -115.54889,
+      "lines": ["EB"],
+      "platformIds": ["LIB"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "LKL",
+      "name": "Lakeland",
+      "lat": 28.045603,
+      "lon": -81.951874,
+      "lines": [],
+      "platformIds": ["LKL"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "LMR",
+      "name": "Lamar Amtrak",
+      "lat": 38.089623,
+      "lon": -102.618574,
+      "lines": ["SC"],
+      "platformIds": ["LMR"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "LMY",
+      "name": "Lamy",
+      "lat": 35.480973,
+      "lon": -105.879968,
+      "lines": ["SC"],
+      "platformIds": ["LMY"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "LNC",
+      "name": "Lancaster",
+      "lat": 40.054181,
+      "lon": -76.307714,
+      "lines": [],
+      "platformIds": ["LNC"],
+      "departureRouteIds": ["64", "94"]
+    },
+    {
+      "id": "LNK",
+      "name": "Lincoln Amtrak Station",
+      "lat": 40.815871,
+      "lon": -96.71317,
+      "lines": ["CZ"],
+      "platformIds": ["LNK"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "LNS",
+      "name": "East Lansing Amtrak Station",
+      "lat": 42.718731,
+      "lon": -84.495962,
+      "lines": [],
+      "platformIds": ["LNS"],
+      "departureRouteIds": ["42956"]
+    },
+    {
+      "id": "LOR",
+      "name": "Lorton Amtrak Auto Train Station",
+      "lat": 38.708143,
+      "lon": -77.220942,
+      "lines": [],
+      "platformIds": ["LOR"],
+      "departureRouteIds": ["77"]
+    },
+    {
+      "id": "LPE",
+      "name": "Lapeer Amtrak Station",
+      "lat": 43.04952,
+      "lon": -83.306154,
+      "lines": [],
+      "platformIds": ["LPE"],
+      "departureRouteIds": ["42956"]
+    },
+    {
+      "id": "LPS",
+      "name": "Lompoc-Surf Amtrak",
+      "lat": 34.682704,
+      "lon": -120.605001,
+      "lines": ["PS"],
+      "platformIds": ["LPS"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "LRC",
+      "name": "Lawrence Amtrak Station",
+      "lat": 38.971166,
+      "lon": -95.230539,
+      "lines": ["SC"],
+      "platformIds": ["LRC"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "LRK",
+      "schematicId": "little-rock",
+      "name": "Little Rock Union Station",
+      "lat": 34.750298,
+      "lon": -92.286785,
+      "lines": ["TE"],
+      "platformIds": ["LRK"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "LSE",
+      "name": "La Crosse",
+      "lat": 43.833155,
+      "lon": -91.247298,
+      "lines": ["EB"],
+      "platformIds": ["LSE"],
+      "departureRouteIds": ["42991", "75"]
+    },
+    {
+      "id": "LSV",
+      "name": "Las Vegas Amtrak Station",
+      "lat": 35.593432,
+      "lon": -105.212779,
+      "lines": ["SC"],
+      "platformIds": ["LSV"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "LVW",
+      "name": "Longview",
+      "lat": 32.494032,
+      "lon": -94.728322,
+      "lines": ["TE"],
+      "platformIds": ["LVW"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "LWA",
+      "name": "Leavenworth Amtrak",
+      "lat": 47.606493,
+      "lon": -120.643965,
+      "lines": ["EB"],
+      "platformIds": ["LWA"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "LYH",
+      "name": "Lynchburg",
+      "lat": 37.406439,
+      "lon": -79.156934,
+      "lines": ["CR", "NE"],
+      "platformIds": ["LYH"],
+      "departureRouteIds": ["36923", "88"]
+    },
+    {
+      "id": "MAC",
+      "name": "Macomb Amtrak Station",
+      "lat": 40.461212,
+      "lon": -90.67094,
+      "lines": [],
+      "platformIds": ["MAC"],
+      "departureRouteIds": ["42957", "72"]
+    },
+    {
+      "id": "MAL",
+      "name": "Malta Amtrak Station",
+      "lat": 48.360477,
+      "lon": -107.872242,
+      "lines": ["EB"],
+      "platformIds": ["MAL"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "MAT",
+      "name": "Mattoon Amtrak Station",
+      "lat": 39.48273,
+      "lon": -88.376045,
+      "lines": ["CN"],
+      "platformIds": ["MAT"],
+      "departureRouteIds": ["42946", "56", "63"]
+    },
+    {
+      "id": "MAY",
+      "name": "Maysville Amtrak Station",
+      "lat": 38.652148,
+      "lon": -83.771074,
+      "lines": [],
+      "platformIds": ["MAY"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "MCB",
+      "name": "Mccomb",
+      "lat": 31.244467,
+      "lon": -90.451334,
+      "lines": ["CN"],
+      "platformIds": ["MCB"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "MCG",
+      "name": "Mcgregor Amtrak",
+      "lat": 31.443352,
+      "lon": -97.404756,
+      "lines": ["TE"],
+      "platformIds": ["MCG"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "MCK",
+      "name": "Mccook Amtrak Station",
+      "lat": 40.197634,
+      "lon": -100.625792,
+      "lines": ["CZ"],
+      "platformIds": ["MCK"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "MDN",
+      "name": "Meriden",
+      "lat": 41.539385,
+      "lon": -72.800678,
+      "lines": ["NE"],
+      "platformIds": ["MDN"],
+      "departureRouteIds": ["41042", "41044", "88", "90"]
+    },
+    {
+      "id": "MDT",
+      "name": "Mendota Amtrak Station",
+      "lat": 41.549584,
+      "lon": -89.11792,
+      "lines": ["SC"],
+      "platformIds": ["MDT"],
+      "departureRouteIds": ["42957", "51", "72"]
+    },
+    {
+      "id": "MEI",
+      "name": "Meridian Union Station",
+      "lat": 32.364166,
+      "lon": -88.696568,
+      "lines": ["CR"],
+      "platformIds": ["MEI"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "MEM",
+      "schematicId": "memphis",
+      "name": "Memphis",
+      "lat": 35.132458,
+      "lon": -90.059109,
+      "lines": ["CN"],
+      "platformIds": ["MEM"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "MET",
+      "name": "Metropark Amtrak Station",
+      "lat": 40.568056,
+      "lon": -74.329583,
+      "lines": ["CR", "NE"],
+      "platformIds": ["MET"],
+      "departureRouteIds": ["36923", "40751", "69", "85", "88", "90", "94"]
+    },
+    {
+      "id": "MHL",
+      "name": "Marshall Amtrak Station",
+      "lat": 32.551549,
+      "lon": -94.366995,
+      "lines": ["TE"],
+      "platformIds": ["MHL"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "MIA",
+      "schematicId": "miami",
+      "name": "Miami Amtrak Station",
+      "lat": 25.849554,
+      "lon": -80.257759,
+      "lines": ["SM"],
+      "platformIds": ["MIA"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "MID",
+      "name": "Middletown",
+      "lat": 40.195658,
+      "lon": -76.736482,
+      "lines": [],
+      "platformIds": ["MID"],
+      "departureRouteIds": ["94"]
+    },
+    {
+      "id": "MIN",
+      "name": "Mineola",
+      "lat": 32.662049,
+      "lon": -95.4891,
+      "lines": ["TE"],
+      "platformIds": ["MIN"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "MJY",
+      "name": "Mount Joy Amtrak",
+      "lat": 40.109165,
+      "lon": -76.503443,
+      "lines": [],
+      "platformIds": ["MJY"],
+      "departureRouteIds": ["94"]
+    },
+    {
+      "id": "MKA",
+      "name": "General Mitchell Intl. Airport Amtrak Station",
+      "lat": 42.940583,
+      "lon": -87.924359,
+      "lines": [],
+      "platformIds": ["MKA"],
+      "departureRouteIds": ["42991", "54"]
+    },
+    {
+      "id": "MKE",
+      "schematicId": "milwaukee",
+      "name": "Milwaukee",
+      "lat": 43.034518,
+      "lon": -87.917104,
+      "lines": ["EB"],
+      "platformIds": ["MKE"],
+      "departureRouteIds": ["42991", "54", "75"]
+    },
+    {
+      "id": "MKS",
+      "name": "Marks Amtrak",
+      "lat": 34.258227,
+      "lon": -90.272342,
+      "lines": ["CN"],
+      "platformIds": ["MKS"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "MNG",
+      "name": "Montgomery Amtrak",
+      "lat": 38.180743,
+      "lon": -81.32403,
+      "lines": [],
+      "platformIds": ["MNG"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "MOT",
+      "name": "Minot Amtrak Station",
+      "lat": 48.236083,
+      "lon": -101.298557,
+      "lines": ["EB"],
+      "platformIds": ["MOT"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "MPK",
+      "name": "Moorpark Amtrak",
+      "lat": 34.28476,
+      "lon": -118.878059,
+      "lines": ["PS"],
+      "platformIds": ["MPK"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "MPR",
+      "name": "Montpelier-Berlin Amtrak Station",
+      "lat": 44.255749,
+      "lon": -72.606394,
+      "lines": [],
+      "platformIds": ["MPR"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "MRB",
+      "name": "Martinsburg Amtrak Station",
+      "lat": 39.458661,
+      "lon": -77.961014,
+      "lines": [],
+      "platformIds": ["MRB"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "MRC",
+      "name": "Maricopa",
+      "lat": 33.056284,
+      "lon": -112.047137,
+      "lines": ["SL", "TE"],
+      "platformIds": ["MRC"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "MSP",
+      "schematicId": "st-paul-minneapolis",
+      "name": "St. Paul–Minneapolis",
+      "lat": 44.947661,
+      "lon": -93.085355,
+      "lines": ["EB"],
+      "platformIds": ["MSP"],
+      "departureRouteIds": ["42991", "75"]
+    },
+    {
+      "id": "MSS",
+      "name": "Manassas Amtrak Station",
+      "lat": 38.75027825,
+      "lon": -77.47278955,
+      "lines": ["CR", "NE"],
+      "platformIds": ["MSS"],
+      "departureRouteIds": ["36923", "58", "88"]
+    },
+    {
+      "id": "MTP",
+      "name": "Mt. Pleasant Amtrak Station",
+      "lat": 40.971179,
+      "lon": -91.550772,
+      "lines": ["CZ"],
+      "platformIds": ["MTP"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "MTR",
+      "schematicId": "montreal",
+      "name": "Montréal",
+      "lat": 45.500169,
+      "lon": -73.565767,
+      "lines": ["AD"],
+      "platformIds": ["MTR"],
+      "departureRouteIds": ["95"]
+    },
+    {
+      "id": "MTZ",
+      "name": "Martinez",
+      "lat": 38.018921,
+      "lon": -122.138784,
+      "lines": ["CS", "CZ"],
+      "platformIds": ["MTZ"],
+      "departureRouteIds": ["36924", "84", "96"]
+    },
+    {
+      "id": "MVN",
+      "name": "Malvern Amtrak",
+      "lat": 34.365484,
+      "lon": -92.814018,
+      "lines": ["TE"],
+      "platformIds": ["MVN"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "MVW",
+      "name": "Mount Vernon Amtrak Station",
+      "lat": 48.41847,
+      "lon": -122.334738,
+      "lines": ["CA"],
+      "platformIds": ["MVW"],
+      "departureRouteIds": ["60"]
+    },
+    {
+      "id": "MYS",
+      "name": "Mystic Amtrak",
+      "lat": 41.350934,
+      "lon": -71.963093,
+      "lines": ["NE"],
+      "platformIds": ["MYS"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "NBK",
+      "name": "New Brunswick Amtrak Station",
+      "lat": 40.496522,
+      "lon": -74.446265,
+      "lines": ["NE"],
+      "platformIds": ["NBK"],
+      "departureRouteIds": ["85", "88", "94"]
+    },
+    {
+      "id": "NBN",
+      "name": "Newbern-Dyersburg Amtrak Station",
+      "lat": 36.112711,
+      "lon": -89.262264,
+      "lines": ["CN"],
+      "platformIds": ["NBN"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "NBU",
+      "name": "New Buffalo Amtrak",
+      "lat": 41.796656,
+      "lon": -86.745782,
+      "lines": [],
+      "platformIds": ["NBU"],
+      "departureRouteIds": ["42956", "80"]
+    },
+    {
+      "id": "NCR",
+      "name": "New Carrollton Amtrak Station",
+      "lat": 38.948098,
+      "lon": -76.871494,
+      "lines": ["NE"],
+      "platformIds": ["NCR"],
+      "departureRouteIds": ["69", "88", "90"]
+    },
+    {
+      "id": "NDL",
+      "name": "Needles Amtrak",
+      "lat": 34.840616,
+      "lon": -114.606188,
+      "lines": ["SC"],
+      "platformIds": ["NDL"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "NEW",
+      "name": "Newton",
+      "lat": 38.046976,
+      "lon": -97.344886,
+      "lines": ["SC"],
+      "platformIds": ["NEW"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "NFK",
+      "name": "Norfolk",
+      "lat": 36.843509,
+      "lon": -76.276195,
+      "lines": ["NE"],
+      "platformIds": ["NFK"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "NFL",
+      "schematicId": "niagara-falls-ny",
+      "name": "Niagara Falls, NY",
+      "lat": 43.109908,
+      "lon": -79.055276,
+      "lines": ["ML"],
+      "platformIds": ["NFL"],
+      "departureRouteIds": ["36921", "68"]
+    },
+    {
+      "id": "NHT",
+      "name": "Northampton",
+      "lat": 42.318858,
+      "lon": -72.626379,
+      "lines": [],
+      "platformIds": ["NHT"],
+      "departureRouteIds": ["41044", "90"]
+    },
+    {
+      "id": "NHV",
+      "schematicId": "new-haven",
+      "name": "New Haven Union Station",
+      "lat": 41.297714,
+      "lon": -72.92667,
+      "lines": ["NE"],
+      "platformIds": ["NHV"],
+      "departureRouteIds": ["40751", "41042", "41044", "88", "90"]
+    },
+    {
+      "id": "NIB",
+      "name": "New Iberia Amtrak",
+      "lat": 30.008415,
+      "lon": -91.823809,
+      "lines": ["SL"],
+      "platformIds": ["NIB"],
+      "departureRouteIds": ["36930"]
+    },
+    {
+      "id": "NLC",
+      "name": "New London",
+      "lat": 41.354267,
+      "lon": -72.093225,
+      "lines": ["NE"],
+      "platformIds": ["NLC"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "NLS",
+      "name": "Niles Amtrak Station",
+      "lat": 41.837412,
+      "lon": -86.252372,
+      "lines": [],
+      "platformIds": ["NLS"],
+      "departureRouteIds": ["42956", "80"]
+    },
+    {
+      "id": "NOL",
+      "schematicId": "new-orleans",
+      "name": "New Orleans Union Passenger Terminal",
+      "lat": 29.946085,
+      "lon": -90.078291,
+      "lines": ["CN", "CR", "SL"],
+      "platformIds": ["NOL"],
+      "departureRouteIds": ["36923", "36930", "42946", "42996"]
+    },
+    {
+      "id": "NOR",
+      "name": "Norman Amtrak Station",
+      "lat": 35.219963,
+      "lon": -97.443013,
+      "lines": [],
+      "platformIds": ["NOR"],
+      "departureRouteIds": ["86"]
+    },
+    {
+      "id": "NPN",
+      "name": "Newport News",
+      "lat": 37.122325,
+      "lon": -76.517023,
+      "lines": ["NE"],
+      "platformIds": ["NPN"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "NPV",
+      "name": "Naperville Amtrak Station",
+      "lat": 41.779514,
+      "lon": -88.145497,
+      "lines": ["CZ", "SC"],
+      "platformIds": ["NPV"],
+      "departureRouteIds": ["42957", "51", "72", "96"]
+    },
+    {
+      "id": "NRK",
+      "name": "Newark Amtrak",
+      "lat": 39.669686,
+      "lon": -75.753513,
+      "lines": ["NE"],
+      "platformIds": ["NRK"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "NRO",
+      "name": "New Rochelle Amtrak Station",
+      "lat": 40.911451,
+      "lon": -73.784329,
+      "lines": ["NE"],
+      "platformIds": ["NRO"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "NWK",
+      "name": "Newark",
+      "lat": 40.734706,
+      "lon": -74.16475,
+      "lines": ["CR", "NE", "SM"],
+      "platformIds": ["NWK"],
+      "departureRouteIds": ["36923", "40751", "42947", "58", "64", "69", "85", "88", "90", "94"]
+    },
+    {
+      "id": "NYP",
+      "schematicId": "new-york",
+      "name": "New York",
+      "lat": 40.750327,
+      "lon": -73.994459,
+      "lines": ["AD", "CR", "LS", "ML", "NE", "SM"],
+      "platformIds": ["NYP"],
+      "departureRouteIds": [
+        "36921",
+        "36923",
+        "36949",
+        "40751",
+        "42947",
+        "58",
+        "64",
+        "68",
+        "69",
+        "81",
+        "85",
+        "88",
+        "90",
+        "94",
+        "95"
+      ]
+    },
+    {
+      "id": "OAC",
+      "name": "Oakland Coliseum/Airport Amtrak",
+      "lat": 37.752499,
+      "lon": -122.198147,
+      "lines": [],
+      "platformIds": ["OAC"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "OKC",
+      "name": "Oklahoma City",
+      "lat": 35.46549,
+      "lon": -97.512749,
+      "lines": [],
+      "platformIds": ["OKC"],
+      "departureRouteIds": ["86"]
+    },
+    {
+      "id": "OKE",
+      "name": "Okeechobee Amtrak",
+      "lat": 27.251867,
+      "lon": -80.830812,
+      "lines": [],
+      "platformIds": ["OKE"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "OKJ",
+      "name": "Oakland",
+      "lat": 37.793866,
+      "lon": -122.271667,
+      "lines": ["CS"],
+      "platformIds": ["OKJ"],
+      "departureRouteIds": ["36924", "84"]
+    },
+    {
+      "id": "OLT",
+      "name": "San Diego Old Town Transportation Center",
+      "lat": 32.755266,
+      "lon": -117.200073,
+      "lines": ["PS"],
+      "platformIds": ["OLT"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "OLW",
+      "name": "Olympia-Lacey Amtrak Station",
+      "lat": 46.991273,
+      "lon": -122.794059,
+      "lines": ["CA", "CS"],
+      "platformIds": ["OLW"],
+      "departureRouteIds": ["36924", "60"]
+    },
+    {
+      "id": "OMA",
+      "schematicId": "omaha",
+      "name": "Omaha",
+      "lat": 41.249697,
+      "lon": -95.927201,
+      "lines": ["CZ"],
+      "platformIds": ["OMA"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "ONA",
+      "name": "Ontario Amtrak",
+      "lat": 34.061672,
+      "lon": -117.649569,
+      "lines": ["SL", "TE"],
+      "platformIds": ["ONA"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "ORC",
+      "name": "Oregon City Amtrak",
+      "lat": 45.366146,
+      "lon": -122.595925,
+      "lines": ["CA"],
+      "platformIds": ["ORC"],
+      "departureRouteIds": ["60"]
+    },
+    {
+      "id": "ORL",
+      "schematicId": "orlando",
+      "name": "Orlando",
+      "lat": 28.525926,
+      "lon": -81.381516,
+      "lines": ["SM"],
+      "platformIds": ["ORL"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "OSB",
+      "name": "Old Saybrook Amtrak Station",
+      "lat": 41.30039,
+      "lon": -72.376818,
+      "lines": ["NE"],
+      "platformIds": ["OSB"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "OSC",
+      "name": "Osceola Amtrak Station",
+      "lat": 41.037116,
+      "lon": -93.764894,
+      "lines": ["CZ"],
+      "platformIds": ["OSC"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "OSD",
+      "name": "Oceanside",
+      "lat": 33.192515,
+      "lon": -117.37943,
+      "lines": ["PS"],
+      "platformIds": ["OSD"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "OTM",
+      "name": "Ottumwa Amtrak Station",
+      "lat": 41.018815,
+      "lon": -92.414929,
+      "lines": ["CZ"],
+      "platformIds": ["OTM"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "OXN",
+      "name": "Oxnard",
+      "lat": 34.199241,
+      "lon": -119.175978,
+      "lines": ["CS", "PS"],
+      "platformIds": ["OXN"],
+      "departureRouteIds": ["36924", "78"]
+    },
+    {
+      "id": "PAK",
+      "name": "Palatka Amtrak",
+      "lat": 29.649734,
+      "lon": -81.640471,
+      "lines": ["SM"],
+      "platformIds": ["PAK"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "PAO",
+      "name": "Paoli Amtrak Station",
+      "lat": 40.042754,
+      "lon": -75.48376,
+      "lines": [],
+      "platformIds": ["PAO"],
+      "departureRouteIds": ["64", "94"]
+    },
+    {
+      "id": "PAR",
+      "name": "Parkesburg Amtrak",
+      "lat": 39.95918,
+      "lon": -75.922123,
+      "lines": [],
+      "platformIds": ["PAR"],
+      "departureRouteIds": ["94"]
+    },
+    {
+      "id": "PBF",
+      "name": "Poplar Bluff Amtrak Station",
+      "lat": 36.753995,
+      "lon": -90.393341,
+      "lines": ["TE"],
+      "platformIds": ["PBF"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "PCT",
+      "name": "Princeton Amtrak Station",
+      "lat": 41.385191,
+      "lon": -89.466815,
+      "lines": ["CZ", "SC"],
+      "platformIds": ["PCT"],
+      "departureRouteIds": ["42957", "51", "72", "96"]
+    },
+    {
+      "id": "PDX",
+      "schematicId": "portland",
+      "name": "Portland, OR",
+      "lat": 45.528724,
+      "lon": -122.676806,
+      "lines": ["CA", "CS", "EB"],
+      "platformIds": ["PDX"],
+      "departureRouteIds": ["36924", "60", "75"]
+    },
+    {
+      "id": "PGH",
+      "name": "Pittsburgh Amtrak Station",
+      "lat": 40.444738,
+      "lon": -79.992307,
+      "lines": [],
+      "platformIds": ["PGH"],
+      "departureRouteIds": ["42994", "64"]
+    },
+    {
+      "id": "PHL",
+      "schematicId": "philadelphia",
+      "name": "Philadelphia",
+      "lat": 39.955615,
+      "lon": -75.181041,
+      "lines": ["CR", "NE", "SM"],
+      "platformIds": ["PHL"],
+      "departureRouteIds": ["36923", "40751", "42947", "58", "64", "69", "85", "88", "90", "94"]
+    },
+    {
+      "id": "PHN",
+      "name": "North Philadelphia Amtrak Station",
+      "lat": 39.99678,
+      "lon": -75.155114,
+      "lines": [],
+      "platformIds": ["PHN"],
+      "departureRouteIds": ["94"]
+    },
+    {
+      "id": "PIC",
+      "name": "Picayune Amtrak Station",
+      "lat": 30.524606,
+      "lon": -89.68026,
+      "lines": ["CR"],
+      "platformIds": ["PIC"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "PIT",
+      "name": "Pittsfield Amtrak Station",
+      "lat": 42.451558,
+      "lon": -73.2538,
+      "lines": ["LS"],
+      "platformIds": ["PIT"],
+      "departureRouteIds": ["81"]
+    },
+    {
+      "id": "PJC",
+      "name": "Princeton Junction Amtrak Station",
+      "lat": 40.31585,
+      "lon": -74.623976,
+      "lines": ["NE"],
+      "platformIds": ["PJC"],
+      "departureRouteIds": ["85", "88", "94"]
+    },
+    {
+      "id": "PLB",
+      "schematicId": "plattsburgh",
+      "name": "Plattsburgh",
+      "lat": 44.696728,
+      "lon": -73.446284,
+      "lines": ["AD"],
+      "platformIds": ["PLB"],
+      "departureRouteIds": ["95"]
+    },
+    {
+      "id": "PLO",
+      "name": "Plano Amtrak Station",
+      "lat": 41.662384,
+      "lon": -88.538272,
+      "lines": [],
+      "platformIds": ["PLO"],
+      "departureRouteIds": ["42957", "72"]
+    },
+    {
+      "id": "PNT",
+      "name": "Pontiac Amtrak Station",
+      "lat": 42.632771,
+      "lon": -83.292325,
+      "lines": [],
+      "platformIds": ["PNT"],
+      "departureRouteIds": ["80"]
+    },
+    {
+      "id": "POG",
+      "name": "Portage",
+      "lat": 43.547079,
+      "lon": -89.467627,
+      "lines": ["EB"],
+      "platformIds": ["POG"],
+      "departureRouteIds": ["42991", "75"]
+    },
+    {
+      "id": "POH",
+      "name": "Port Henry Amtrak Station",
+      "lat": 44.042297,
+      "lon": -73.458753,
+      "lines": ["AD"],
+      "platformIds": ["POH"],
+      "departureRouteIds": ["95"]
+    },
+    {
+      "id": "PON",
+      "name": "Pontiac Amtrak Station",
+      "lat": 40.878687,
+      "lon": -88.637198,
+      "lines": ["TE"],
+      "platformIds": ["PON"],
+      "departureRouteIds": ["36926", "42951", "87"]
+    },
+    {
+      "id": "POR",
+      "name": "Portland",
+      "lat": 43.654097,
+      "lon": -70.291258,
+      "lines": [],
+      "platformIds": ["POR"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "POS",
+      "name": "Pomona Amtrak",
+      "lat": 34.059224,
+      "lon": -117.750621,
+      "lines": ["SL", "TE"],
+      "platformIds": ["POS"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "POU",
+      "name": "Poughkeepsie Amtrak Station",
+      "lat": 41.707056,
+      "lon": -73.93749,
+      "lines": ["AD", "LS", "ML"],
+      "platformIds": ["POU"],
+      "departureRouteIds": ["36921", "36949", "68", "81", "95"]
+    },
+    {
+      "id": "PRB",
+      "name": "Paso Robles Amtrak Station",
+      "lat": 35.622683,
+      "lon": -120.68786,
+      "lines": ["CS"],
+      "platformIds": ["PRB"],
+      "departureRouteIds": ["36924"]
+    },
+    {
+      "id": "PRC",
+      "name": "Prince Amtrak Station",
+      "lat": 37.856594,
+      "lon": -81.060694,
+      "lines": [],
+      "platformIds": ["PRC"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "PRO",
+      "name": "Provo Amtrak",
+      "lat": 40.225957,
+      "lon": -111.664001,
+      "lines": ["CZ"],
+      "platformIds": ["PRO"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "PSC",
+      "name": "Pasco Amtrak Station",
+      "lat": 46.237012,
+      "lon": -119.087729,
+      "lines": ["EB"],
+      "platformIds": ["PSC"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "PSN",
+      "name": "Palm Springs Amtrak",
+      "lat": 33.897491,
+      "lon": -116.547913,
+      "lines": ["SL", "TE"],
+      "platformIds": ["PSN"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "PTB",
+      "name": "Petersburg Amtrak Station",
+      "lat": 37.241627,
+      "lon": -77.428794,
+      "lines": ["NE", "SM"],
+      "platformIds": ["PTB"],
+      "departureRouteIds": ["42947", "42994", "69", "85", "88"]
+    },
+    {
+      "id": "PTH",
+      "name": "Port Huron Amtrak Station",
+      "lat": 42.960419,
+      "lon": -82.443805,
+      "lines": [],
+      "platformIds": ["PTH"],
+      "departureRouteIds": ["42956"]
+    },
+    {
+      "id": "PUR",
+      "name": "Purcell Amtrak Station",
+      "lat": 35.012033,
+      "lon": -97.357416,
+      "lines": [],
+      "platformIds": ["PUR"],
+      "departureRouteIds": ["86"]
+    },
+    {
+      "id": "PVD",
+      "schematicId": "providence",
+      "name": "Providence",
+      "lat": 41.82949,
+      "lon": -71.413478,
+      "lines": ["NE"],
+      "platformIds": ["PVD"],
+      "departureRouteIds": ["40751", "88"]
+    },
+    {
+      "id": "PVL",
+      "name": "Pauls Valley Amtrak Station",
+      "lat": 34.741735,
+      "lon": -97.21846,
+      "lines": [],
+      "platformIds": ["PVL"],
+      "departureRouteIds": ["86"]
+    },
+    {
+      "id": "QAN",
+      "name": "Quantico Amtrak",
+      "lat": 38.521882,
+      "lon": -77.293027,
+      "lines": ["NE"],
+      "platformIds": ["QAN"],
+      "departureRouteIds": ["85", "88"]
+    },
+    {
+      "id": "QCY",
+      "name": "Quincy Amtrak Station",
+      "lat": 39.957063,
+      "lon": -91.368525,
+      "lines": [],
+      "platformIds": ["QCY"],
+      "departureRouteIds": ["42957", "72"]
+    },
+    {
+      "id": "RAT",
+      "name": "Raton",
+      "lat": 36.901072,
+      "lon": -104.437886,
+      "lines": ["SC"],
+      "platformIds": ["RAT"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "RDD",
+      "name": "Redding Amtrak",
+      "lat": 40.583595,
+      "lon": -122.39337,
+      "lines": ["CS"],
+      "platformIds": ["RDD"],
+      "departureRouteIds": ["36924"]
+    },
+    {
+      "id": "RDW",
+      "name": "Red Wing Amtrak Station",
+      "lat": 44.566214,
+      "lon": -92.537066,
+      "lines": ["EB"],
+      "platformIds": ["RDW"],
+      "departureRouteIds": ["42991", "75"]
+    },
+    {
+      "id": "REN",
+      "name": "Rensselaer Amtrak",
+      "lat": 40.943281,
+      "lon": -87.155121,
+      "lines": [],
+      "platformIds": ["REN"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "RGH",
+      "name": "Raleigh Union Station",
+      "lat": 35.777209,
+      "lon": -78.647784,
+      "lines": [],
+      "platformIds": ["RGH"],
+      "departureRouteIds": ["42994", "79", "85"]
+    },
+    {
+      "id": "RHI",
+      "name": "Rhinecliff Amtrak Station",
+      "lat": 41.921346,
+      "lon": -73.951278,
+      "lines": ["AD", "LS", "ML"],
+      "platformIds": ["RHI"],
+      "departureRouteIds": ["36921", "36949", "68", "81", "95"]
+    },
+    {
+      "id": "RIC",
+      "name": "Richmond",
+      "lat": 37.936752,
+      "lon": -122.35413,
+      "lines": ["CZ"],
+      "platformIds": ["RIC"],
+      "departureRouteIds": ["84", "96"]
+    },
+    {
+      "id": "RIV",
+      "name": "Riverside",
+      "lat": 33.97567,
+      "lon": -117.369988,
+      "lines": ["SC"],
+      "platformIds": ["RIV"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "RKV",
+      "name": "Rockville Amtrak",
+      "lat": 39.084547,
+      "lon": -77.145995,
+      "lines": [],
+      "platformIds": ["RKV"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "RLN",
+      "name": "Rocklin Amtrak Station",
+      "lat": 38.791006,
+      "lon": -121.237299,
+      "lines": [],
+      "platformIds": ["RLN"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "RMT",
+      "name": "Rocky Mount",
+      "lat": 35.938001,
+      "lon": -77.797855,
+      "lines": ["SM"],
+      "platformIds": ["RMT"],
+      "departureRouteIds": ["42947", "42994", "69", "85"]
+    },
+    {
+      "id": "RNK",
+      "name": "Roanoke",
+      "lat": 37.273185,
+      "lon": -79.941795,
+      "lines": ["NE"],
+      "platformIds": ["RNK"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "RNO",
+      "schematicId": "reno",
+      "name": "Reno",
+      "lat": 39.528521,
+      "lon": -119.812123,
+      "lines": ["CZ"],
+      "platformIds": ["RNO"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "ROC",
+      "schematicId": "rochester",
+      "name": "Rochester",
+      "lat": 43.163411,
+      "lon": -77.608057,
+      "lines": ["LS", "ML"],
+      "platformIds": ["ROC"],
+      "departureRouteIds": ["36921", "68", "81"]
+    },
+    {
+      "id": "ROM",
+      "name": "Rome Amtrak Station",
+      "lat": 43.199425,
+      "lon": -75.44996,
+      "lines": ["ML"],
+      "platformIds": ["ROM"],
+      "departureRouteIds": ["36921", "68"]
+    },
+    {
+      "id": "ROY",
+      "name": "Royal Oak Amtrak",
+      "lat": 42.488439,
+      "lon": -83.14701,
+      "lines": [],
+      "platformIds": ["ROY"],
+      "departureRouteIds": ["80"]
+    },
+    {
+      "id": "RPH",
+      "name": "Randolph Amtrak",
+      "lat": 43.922398,
+      "lon": -72.665459,
+      "lines": [],
+      "platformIds": ["RPH"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "RSP",
+      "name": "Rouses Point Amtrak",
+      "lat": 44.99487,
+      "lon": -73.371093,
+      "lines": ["AD"],
+      "platformIds": ["RSP"],
+      "departureRouteIds": ["95"]
+    },
+    {
+      "id": "RSV",
+      "name": "Roseville Amtrak",
+      "lat": 38.750016,
+      "lon": -121.286286,
+      "lines": ["CZ"],
+      "platformIds": ["RSV"],
+      "departureRouteIds": ["84", "96"]
+    },
+    {
+      "id": "RTE",
+      "name": "Route 128 Amtrak Station",
+      "lat": 42.210242,
+      "lon": -71.147894,
+      "lines": ["NE"],
+      "platformIds": ["RTE"],
+      "departureRouteIds": ["40751", "88"]
+    },
+    {
+      "id": "RTL",
+      "name": "Rantoul Amtrak",
+      "lat": 40.310905,
+      "lon": -88.159126,
+      "lines": [],
+      "platformIds": ["RTL"],
+      "departureRouteIds": ["56", "63"]
+    },
+    {
+      "id": "RUD",
+      "name": "Rutland",
+      "lat": 43.605756,
+      "lon": -72.981538,
+      "lines": [],
+      "platformIds": ["RUD"],
+      "departureRouteIds": ["36949"]
+    },
+    {
+      "id": "RUG",
+      "name": "Rugby Amtrak Station",
+      "lat": 48.369846,
+      "lon": -99.997556,
+      "lines": ["EB"],
+      "platformIds": ["RUG"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "RVM",
+      "name": "Richmond Main Street Amtrak Station",
+      "lat": 37.534209,
+      "lon": -77.429512,
+      "lines": ["NE"],
+      "platformIds": ["RVM"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "RVR",
+      "schematicId": "richmond",
+      "name": "Richmond Staples Mill Road Amtrak Station",
+      "lat": 37.617693,
+      "lon": -77.496943,
+      "lines": ["NE", "SM"],
+      "platformIds": ["RVR"],
+      "departureRouteIds": ["42947", "42994", "69", "85", "88"]
+    },
+    {
+      "id": "SAB",
+      "name": "St. Albans Amtrak Station",
+      "lat": 44.81236,
+      "lon": -73.086191,
+      "lines": [],
+      "platformIds": ["SAB"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "SAC",
+      "schematicId": "sacramento",
+      "name": "Sacramento",
+      "lat": 38.584004,
+      "lon": -121.500704,
+      "lines": ["CS", "CZ"],
+      "platformIds": ["SAC"],
+      "departureRouteIds": ["36924", "84", "96"]
+    },
+    {
+      "id": "SAL",
+      "name": "Salisbury",
+      "lat": 35.667496,
+      "lon": -80.466323,
+      "lines": ["CR"],
+      "platformIds": ["SAL"],
+      "departureRouteIds": ["36923", "79", "85"]
+    },
+    {
+      "id": "SAN",
+      "schematicId": "san-diego",
+      "name": "San Diego",
+      "lat": 32.716169,
+      "lon": -117.169576,
+      "lines": ["PS"],
+      "platformIds": ["SAN"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "SAO",
+      "name": "Saco Amtrak Station",
+      "lat": 43.496191,
+      "lon": -70.449139,
+      "lines": [],
+      "platformIds": ["SAO"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "SAR",
+      "schematicId": "saratoga-springs",
+      "name": "Saratoga Springs",
+      "lat": 43.08281,
+      "lon": -73.810027,
+      "lines": ["AD"],
+      "platformIds": ["SAR"],
+      "departureRouteIds": ["36949", "95"]
+    },
+    {
+      "id": "SAS",
+      "schematicId": "san-antonio",
+      "name": "San Antonio Amtrak Station",
+      "lat": 29.41935,
+      "lon": -98.478143,
+      "lines": ["SL", "TE"],
+      "platformIds": ["SAS"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "SAV",
+      "name": "Savannah",
+      "lat": 32.083412,
+      "lon": -81.148264,
+      "lines": ["SM"],
+      "platformIds": ["SAV"],
+      "departureRouteIds": ["42947", "42994", "69"]
+    },
+    {
+      "id": "SBA",
+      "schematicId": "santa-barbara",
+      "name": "Santa Barbara",
+      "lat": 34.413718,
+      "lon": -119.692785,
+      "lines": ["CS", "PS"],
+      "platformIds": ["SBA"],
+      "departureRouteIds": ["36924", "78"]
+    },
+    {
+      "id": "SBG",
+      "name": "Sebring Amtrak Station",
+      "lat": 27.496632,
+      "lon": -81.434202,
+      "lines": ["SM"],
+      "platformIds": ["SBG"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "SBY",
+      "name": "Shelby Amtrak Station",
+      "lat": 48.506748,
+      "lon": -111.856649,
+      "lines": ["EB"],
+      "platformIds": ["SBY"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "SCC",
+      "name": "Santa Clara Amtrak",
+      "lat": 37.353219,
+      "lon": -121.936576,
+      "lines": [],
+      "platformIds": ["SCC"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "SCD",
+      "name": "St. Cloud Amtrak Station",
+      "lat": 45.567748,
+      "lon": -94.149093,
+      "lines": ["EB"],
+      "platformIds": ["SCD"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "SCH",
+      "name": "Schriever Amtrak",
+      "lat": 29.746678,
+      "lon": -90.815246,
+      "lines": ["SL"],
+      "platformIds": ["SCH"],
+      "departureRouteIds": ["36930"]
+    },
+    {
+      "id": "SDL",
+      "name": "Slidell Amtrak Station",
+      "lat": 30.278372,
+      "lon": -89.782565,
+      "lines": ["CR"],
+      "platformIds": ["SDL"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "SDY",
+      "name": "Schenectady",
+      "lat": 42.814724,
+      "lon": -73.942892,
+      "lines": ["AD", "LS", "ML"],
+      "platformIds": ["SDY"],
+      "departureRouteIds": ["36921", "36949", "68", "81", "95"]
+    },
+    {
+      "id": "SEA",
+      "schematicId": "seattle",
+      "name": "Seattle",
+      "lat": 47.598445,
+      "lon": -122.330161,
+      "lines": ["CA", "CS", "EB"],
+      "platformIds": ["SEA"],
+      "departureRouteIds": ["36924", "60", "75"]
+    },
+    {
+      "id": "SED",
+      "name": "Sedalia Amtrak Station",
+      "lat": 38.711604,
+      "lon": -93.228706,
+      "lines": [],
+      "platformIds": ["SED"],
+      "departureRouteIds": ["36926", "36948"]
+    },
+    {
+      "id": "SFA",
+      "name": "Sanford Amtrak Auto Train Station",
+      "lat": 28.808544,
+      "lon": -81.291274,
+      "lines": [],
+      "platformIds": ["SFA"],
+      "departureRouteIds": ["77"]
+    },
+    {
+      "id": "SIM",
+      "name": "Simi Valley Amtrak",
+      "lat": 34.270204,
+      "lon": -118.695163,
+      "lines": ["CS", "PS"],
+      "platformIds": ["SIM"],
+      "departureRouteIds": ["36924", "78"]
+    },
+    {
+      "id": "SJC",
+      "name": "San Jose",
+      "lat": 37.329933,
+      "lon": -121.902388,
+      "lines": ["CS"],
+      "platformIds": ["SJC"],
+      "departureRouteIds": ["36924", "84"]
+    },
+    {
+      "id": "SJM",
+      "name": "St. Joseph-Benton Harbor Amtrak Station",
+      "lat": 42.10908,
+      "lon": -86.484484,
+      "lines": [],
+      "platformIds": ["SJM"],
+      "departureRouteIds": ["55"]
+    },
+    {
+      "id": "SKY",
+      "name": "Sandusky Amtrak Station",
+      "lat": 41.440671,
+      "lon": -82.717866,
+      "lines": ["LS"],
+      "platformIds": ["SKY"],
+      "departureRouteIds": ["42994", "81"]
+    },
+    {
+      "id": "SLC",
+      "schematicId": "salt-lake-city",
+      "name": "Salt Lake City",
+      "lat": 40.761661,
+      "lon": -111.908349,
+      "lines": ["CZ"],
+      "platformIds": ["SLC"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "SLM",
+      "schematicId": "salem",
+      "name": "Salem",
+      "lat": 44.932331,
+      "lon": -123.028331,
+      "lines": ["CA", "CS"],
+      "platformIds": ["SLM"],
+      "departureRouteIds": ["36924", "60"]
+    },
+    {
+      "id": "SLO",
+      "schematicId": "san-luis-obispo",
+      "name": "San Luis Obispo",
+      "lat": 35.276434,
+      "lon": -120.654701,
+      "lines": ["CS", "PS"],
+      "platformIds": ["SLO"],
+      "departureRouteIds": ["36924", "78"]
+    },
+    {
+      "id": "SLQ",
+      "schematicId": "saint-lambert",
+      "name": "Saint-Lambert",
+      "lat": 45.498896,
+      "lon": -73.507287,
+      "lines": ["AD"],
+      "platformIds": ["SLQ"],
+      "departureRouteIds": ["95"]
+    },
+    {
+      "id": "SMC",
+      "name": "San Marcos Amtrak",
+      "lat": 29.876571,
+      "lon": -97.941049,
+      "lines": ["TE"],
+      "platformIds": ["SMC"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "SMT",
+      "name": "Summit Amtrak",
+      "lat": 41.794912,
+      "lon": -87.809742,
+      "lines": [],
+      "platformIds": ["SMT"],
+      "departureRouteIds": ["36926", "42951"]
+    },
+    {
+      "id": "SNA",
+      "name": "Santa Ana",
+      "lat": 33.751629,
+      "lon": -117.856607,
+      "lines": ["PS"],
+      "platformIds": ["SNA"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "SNB",
+      "name": "San Bernardino",
+      "lat": 34.104112,
+      "lon": -117.310659,
+      "lines": ["SC"],
+      "platformIds": ["SNB"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "SNC",
+      "name": "San Juan Capistrano Amtrak Station",
+      "lat": 33.501318,
+      "lon": -117.663813,
+      "lines": ["PS"],
+      "platformIds": ["SNC"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "SND",
+      "name": "Sanderson Amtrak",
+      "lat": 30.139951,
+      "lon": -102.398746,
+      "lines": ["SL", "TE"],
+      "platformIds": ["SND"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "SNP",
+      "name": "San Clemente Pier Amtrak",
+      "lat": 33.419645,
+      "lon": -117.619733,
+      "lines": ["PS"],
+      "platformIds": ["SNP"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "SNS",
+      "name": "Salinas",
+      "lat": 36.679145,
+      "lon": -121.656745,
+      "lines": ["CS"],
+      "platformIds": ["SNS"],
+      "departureRouteIds": ["36924"]
+    },
+    {
+      "id": "SOB",
+      "name": "South Bend Amtrak Station",
+      "lat": 41.67836,
+      "lon": -86.287345,
+      "lines": ["LS"],
+      "platformIds": ["SOB"],
+      "departureRouteIds": ["42994", "81"]
+    },
+    {
+      "id": "SOL",
+      "name": "Solana Beach Amtrak Station",
+      "lat": 32.992937,
+      "lon": -117.271135,
+      "lines": ["PS"],
+      "platformIds": ["SOL"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "SOP",
+      "name": "Southern Pines Amtrak Station",
+      "lat": 35.175069,
+      "lon": -79.390303,
+      "lines": [],
+      "platformIds": ["SOP"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "SPB",
+      "name": "Spartanburg Amtrak Station",
+      "lat": 34.953736,
+      "lon": -81.936917,
+      "lines": ["CR"],
+      "platformIds": ["SPB"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "SPG",
+      "name": "Springfield",
+      "lat": 42.105987,
+      "lon": -72.592905,
+      "lines": ["LS", "NE"],
+      "platformIds": ["SPG"],
+      "departureRouteIds": ["41042", "41044", "81", "88", "90"]
+    },
+    {
+      "id": "SPI",
+      "name": "Springfield",
+      "lat": 39.802323,
+      "lon": -89.651384,
+      "lines": ["TE"],
+      "platformIds": ["SPI"],
+      "departureRouteIds": ["36926", "42951", "87"]
+    },
+    {
+      "id": "SPK",
+      "schematicId": "spokane",
+      "name": "Spokane",
+      "lat": 47.65672,
+      "lon": -117.415455,
+      "lines": ["EB"],
+      "platformIds": ["SPK"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "SPL",
+      "name": "Staples Amtrak Station",
+      "lat": 46.354601,
+      "lon": -94.795331,
+      "lines": ["EB"],
+      "platformIds": ["SPL"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "SPM",
+      "name": "South Portsmouth Amtrak",
+      "lat": 38.721281,
+      "lon": -82.963751,
+      "lines": [],
+      "platformIds": ["SPM"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "SPT",
+      "name": "Sandpoint Amtrak",
+      "lat": 48.276234,
+      "lon": -116.545583,
+      "lines": ["EB"],
+      "platformIds": ["SPT"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "SSM",
+      "name": "Selma",
+      "lat": 35.532786,
+      "lon": -78.280099,
+      "lines": [],
+      "platformIds": ["SSM"],
+      "departureRouteIds": ["69", "85"]
+    },
+    {
+      "id": "STA",
+      "name": "Staunton Amtrak Station",
+      "lat": 38.147639,
+      "lon": -79.071776,
+      "lines": [],
+      "platformIds": ["STA"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "STL",
+      "schematicId": "st-louis",
+      "name": "St. Louis",
+      "lat": 38.624195,
+      "lon": -90.203973,
+      "lines": ["TE"],
+      "platformIds": ["STL"],
+      "departureRouteIds": ["36926", "36948", "42951", "87"]
+    },
+    {
+      "id": "STM",
+      "name": "Stamford Amtrak Station",
+      "lat": 41.04713,
+      "lon": -73.54216,
+      "lines": ["NE"],
+      "platformIds": ["STM"],
+      "departureRouteIds": ["40751", "88", "90"]
+    },
+    {
+      "id": "STN",
+      "name": "Stanley Amtrak Station",
+      "lat": 48.319813,
+      "lon": -102.389379,
+      "lines": ["EB"],
+      "platformIds": ["STN"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "STS",
+      "name": "New Haven",
+      "lat": 41.305253,
+      "lon": -72.922086,
+      "lines": ["NE"],
+      "platformIds": ["STS"],
+      "departureRouteIds": ["41042", "41044", "88"]
+    },
+    {
+      "id": "STW",
+      "name": "Stanwood Amtrak",
+      "lat": 48.242638,
+      "lon": -122.349935,
+      "lines": ["CA"],
+      "platformIds": ["STW"],
+      "departureRouteIds": ["60"]
+    },
+    {
+      "id": "SUI",
+      "name": "Suisun-Fairfield",
+      "lat": 38.243401,
+      "lon": -122.041099,
+      "lines": [],
+      "platformIds": ["SUI"],
+      "departureRouteIds": ["84"]
+    },
+    {
+      "id": "SVT",
+      "name": "Sturtevant Amtrak Station",
+      "lat": 42.718292,
+      "lon": -87.9063,
+      "lines": [],
+      "platformIds": ["SVT"],
+      "departureRouteIds": ["42991", "54"]
+    },
+    {
+      "id": "SYR",
+      "schematicId": "syracuse",
+      "name": "Syracuse",
+      "lat": 43.076548,
+      "lon": -76.169244,
+      "lines": ["LS", "ML"],
+      "platformIds": ["SYR"],
+      "departureRouteIds": ["36921", "68", "81"]
+    },
+    {
+      "id": "TAC",
+      "name": "Tacoma",
+      "lat": 47.239803,
+      "lon": -122.428099,
+      "lines": ["CA", "CS"],
+      "platformIds": ["TAC"],
+      "departureRouteIds": ["36924", "60"]
+    },
+    {
+      "id": "TAY",
+      "name": "Taylor Amtrak",
+      "lat": 30.567667,
+      "lon": -97.407763,
+      "lines": ["TE"],
+      "platformIds": ["TAY"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "TCA",
+      "name": "Toccoa Amtrak Station",
+      "lat": 34.578456,
+      "lon": -83.331542,
+      "lines": ["CR"],
+      "platformIds": ["TCA"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "TCL",
+      "name": "Tuscaloosa Amtrak Station",
+      "lat": 33.193165,
+      "lon": -87.560228,
+      "lines": ["CR"],
+      "platformIds": ["TCL"],
+      "departureRouteIds": ["36923"]
+    },
+    {
+      "id": "THN",
+      "name": "Thurmond Amtrak",
+      "lat": 37.956986,
+      "lon": -81.078754,
+      "lines": [],
+      "platformIds": ["THN"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "TOH",
+      "name": "Tomah Amtrak Station",
+      "lat": 43.986007,
+      "lon": -90.505331,
+      "lines": ["EB"],
+      "platformIds": ["TOH"],
+      "departureRouteIds": ["42991", "75"]
+    },
+    {
+      "id": "TOL",
+      "schematicId": "toledo",
+      "name": "Toledo",
+      "lat": 41.638345,
+      "lon": -83.541721,
+      "lines": ["LS"],
+      "platformIds": ["TOL"],
+      "departureRouteIds": ["42994", "81"]
+    },
+    {
+      "id": "TOP",
+      "name": "Topeka Amtrak Station",
+      "lat": 39.051415,
+      "lon": -95.664916,
+      "lines": ["SC"],
+      "platformIds": ["TOP"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "TPA",
+      "name": "Tampa",
+      "lat": 27.952492,
+      "lon": -82.450777,
+      "lines": [],
+      "platformIds": ["TPA"],
+      "departureRouteIds": ["42994"]
+    },
+    {
+      "id": "TPL",
+      "name": "Temple",
+      "lat": 31.095883,
+      "lon": -97.345792,
+      "lines": ["TE"],
+      "platformIds": ["TPL"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "TRE",
+      "name": "Trenton",
+      "lat": 40.219011,
+      "lon": -74.75444,
+      "lines": ["CR", "NE", "SM"],
+      "platformIds": ["TRE"],
+      "departureRouteIds": ["36923", "42947", "58", "64", "69", "85", "88", "90", "94"]
+    },
+    {
+      "id": "TRI",
+      "name": "Trinidad Amtrak",
+      "lat": 37.172688,
+      "lon": -104.507981,
+      "lines": ["SC"],
+      "platformIds": ["TRI"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "TRM",
+      "name": "Troy Amtrak Station",
+      "lat": 42.542555,
+      "lon": -83.191026,
+      "lines": [],
+      "platformIds": ["TRM"],
+      "departureRouteIds": ["80"]
+    },
+    {
+      "id": "TRU",
+      "name": "Truckee Amtrak Station",
+      "lat": 39.327616,
+      "lon": -120.185387,
+      "lines": ["CZ"],
+      "platformIds": ["TRU"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "TUK",
+      "name": "Tukwila Amtrak",
+      "lat": 47.461081,
+      "lon": -122.240254,
+      "lines": ["CA"],
+      "platformIds": ["TUK"],
+      "departureRouteIds": ["60"]
+    },
+    {
+      "id": "TUS",
+      "schematicId": "tucson",
+      "name": "Tucson Amtrak Station",
+      "lat": 32.222977,
+      "lon": -110.96677,
+      "lines": ["SL", "TE"],
+      "platformIds": ["TUS"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "TXA",
+      "name": "Texarkana Amtrak Station",
+      "lat": 33.420067,
+      "lon": -94.043082,
+      "lines": ["TE"],
+      "platformIds": ["TXA"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "TYR",
+      "name": "Tyrone Amtrak",
+      "lat": 40.667705,
+      "lon": -78.24047,
+      "lines": [],
+      "platformIds": ["TYR"],
+      "departureRouteIds": ["64"]
+    },
+    {
+      "id": "UCA",
+      "name": "Utica Amtrak Station",
+      "lat": 43.103892,
+      "lon": -75.223434,
+      "lines": ["LS", "ML"],
+      "platformIds": ["UCA"],
+      "departureRouteIds": ["36921", "68", "81"]
+    },
+    {
+      "id": "VAC",
+      "schematicId": "vancouver",
+      "name": "Vancouver, BC",
+      "lat": 49.273757,
+      "lon": -123.098336,
+      "lines": ["CA"],
+      "platformIds": ["VAC"],
+      "departureRouteIds": ["60"]
+    },
+    {
+      "id": "VAN",
+      "name": "Vancouver",
+      "lat": 45.628901,
+      "lon": -122.686544,
+      "lines": ["CA", "CS", "EB"],
+      "platformIds": ["VAN"],
+      "departureRouteIds": ["36924", "60", "75"]
+    },
+    {
+      "id": "VEC",
+      "name": "Ventura Amtrak",
+      "lat": 34.276929,
+      "lon": -119.299918,
+      "lines": ["PS"],
+      "platformIds": ["VEC"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "VNC",
+      "name": "Van Nuys",
+      "lat": 34.211294,
+      "lon": -118.448206,
+      "lines": ["CS", "PS"],
+      "platformIds": ["VNC"],
+      "departureRouteIds": ["36924", "78"]
+    },
+    {
+      "id": "VRV",
+      "name": "Victorville Amtrak",
+      "lat": 34.5372,
+      "lon": -117.292956,
+      "lines": ["SC"],
+      "platformIds": ["VRV"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "WAB",
+      "name": "Waterbury-Stowe Amtrak Station",
+      "lat": 44.335011,
+      "lon": -72.751806,
+      "lines": [],
+      "platformIds": ["WAB"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "WAH",
+      "name": "Washington Amtrak Station",
+      "lat": 38.561466,
+      "lon": -91.012717,
+      "lines": [],
+      "platformIds": ["WAH"],
+      "departureRouteIds": ["36926", "36948"]
+    },
+    {
+      "id": "WAR",
+      "name": "Warrensburg Amtrak Station",
+      "lat": 38.76275,
+      "lon": -93.7409,
+      "lines": [],
+      "platformIds": ["WAR"],
+      "departureRouteIds": ["36926", "36948"]
+    },
+    {
+      "id": "WBG",
+      "name": "Williamsburg Amtrak Station",
+      "lat": 37.276414,
+      "lon": -76.708564,
+      "lines": ["NE"],
+      "platformIds": ["WBG"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "WDB",
+      "name": "Woodbridge Amtrak",
+      "lat": 38.658915,
+      "lon": -77.247852,
+      "lines": ["NE"],
+      "platformIds": ["WDB"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "WDL",
+      "name": "Wisconsin Dells Amtrak Station",
+      "lat": 43.626509,
+      "lon": -89.777451,
+      "lines": ["EB"],
+      "platformIds": ["WDL"],
+      "departureRouteIds": ["42991", "75"]
+    },
+    {
+      "id": "WEM",
+      "name": "Wells",
+      "lat": 43.320836,
+      "lon": -70.612192,
+      "lines": [],
+      "platformIds": ["WEM"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "WEN",
+      "name": "Wenatchee Amtrak",
+      "lat": 47.421556,
+      "lon": -120.306552,
+      "lines": ["EB"],
+      "platformIds": ["WEN"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "WFD",
+      "name": "Wallingford Amtrak",
+      "lat": 41.456969,
+      "lon": -72.825221,
+      "lines": ["NE"],
+      "platformIds": ["WFD"],
+      "departureRouteIds": ["41042", "41044", "88"]
+    },
+    {
+      "id": "WFH",
+      "name": "Whitefish Amtrak Station",
+      "lat": 48.413474,
+      "lon": -114.335575,
+      "lines": ["EB"],
+      "platformIds": ["WFH"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "WGL",
+      "name": "West Glacier Amtrak",
+      "lat": 48.496218,
+      "lon": -113.979164,
+      "lines": ["EB"],
+      "platformIds": ["WGL"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "WHL",
+      "name": "Whitehall Amtrak",
+      "lat": 43.554694,
+      "lon": -73.403207,
+      "lines": ["AD"],
+      "platformIds": ["WHL"],
+      "departureRouteIds": ["95"]
+    },
+    {
+      "id": "WIH",
+      "name": "Wishram Amtrak",
+      "lat": 45.657669,
+      "lon": -120.966142,
+      "lines": ["EB"],
+      "platformIds": ["WIH"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "WIL",
+      "schematicId": "wilmington",
+      "name": "Wilmington",
+      "lat": 39.737263,
+      "lon": -75.551095,
+      "lines": ["CR", "NE", "SM"],
+      "platformIds": ["WIL"],
+      "departureRouteIds": ["36923", "40751", "42947", "58", "69", "85", "88", "90"]
+    },
+    {
+      "id": "WIN",
+      "name": "Winona",
+      "lat": 44.044404,
+      "lon": -91.640073,
+      "lines": ["EB"],
+      "platformIds": ["WIN"],
+      "departureRouteIds": ["42991", "75"]
+    },
+    {
+      "id": "WIP",
+      "name": "Winter Park/Fraser",
+      "lat": 39.947566,
+      "lon": -105.817388,
+      "lines": ["CZ"],
+      "platformIds": ["WIP"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "WLN",
+      "name": "Wilson",
+      "lat": 35.723135,
+      "lon": -77.908029,
+      "lines": [],
+      "platformIds": ["WLN"],
+      "departureRouteIds": ["69", "85"]
+    },
+    {
+      "id": "WLO",
+      "name": "Winslow Amtrak",
+      "lat": 35.021666,
+      "lon": -110.694981,
+      "lines": ["SC"],
+      "platformIds": ["WLO"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "WLY",
+      "name": "Westerly Amtrak Station",
+      "lat": 41.381081,
+      "lon": -71.82978,
+      "lines": ["NE"],
+      "platformIds": ["WLY"],
+      "departureRouteIds": ["88"]
+    },
+    {
+      "id": "WND",
+      "name": "Windsor",
+      "lat": 41.852013,
+      "lon": -72.642253,
+      "lines": ["NE"],
+      "platformIds": ["WND"],
+      "departureRouteIds": ["41042", "41044", "88"]
+    },
+    {
+      "id": "WNL",
+      "name": "Windsor Locks",
+      "lat": 41.93336,
+      "lon": -72.62767,
+      "lines": ["NE"],
+      "platformIds": ["WNL"],
+      "departureRouteIds": ["41042", "41044", "88", "90"]
+    },
+    {
+      "id": "WNM",
+      "name": "Windsor-Mt. Ascutney Amtrak",
+      "lat": 43.479908,
+      "lon": -72.384985,
+      "lines": [],
+      "platformIds": ["WNM"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "WNN",
+      "name": "Winnemucca Amtrak",
+      "lat": 40.969044,
+      "lon": -117.73221,
+      "lines": ["CZ"],
+      "platformIds": ["WNN"],
+      "departureRouteIds": ["96"]
+    },
+    {
+      "id": "WNR",
+      "name": "Walnut Ridge Amtrak Station",
+      "lat": 36.06766,
+      "lon": -90.956766,
+      "lines": ["TE"],
+      "platformIds": ["WNR"],
+      "departureRouteIds": ["87"]
+    },
+    {
+      "id": "WOB",
+      "name": "Woburn Amtrak Station",
+      "lat": 42.517358,
+      "lon": -71.143823,
+      "lines": [],
+      "platformIds": ["WOB"],
+      "departureRouteIds": ["61"]
+    },
+    {
+      "id": "WOR",
+      "name": "Worcester Union Station",
+      "lat": 42.261478,
+      "lon": -71.794812,
+      "lines": ["LS"],
+      "platformIds": ["WOR"],
+      "departureRouteIds": ["81"]
+    },
+    {
+      "id": "WPB",
+      "name": "West Palm Beach Amtrak Station",
+      "lat": 26.712554,
+      "lon": -80.062184,
+      "lines": ["SM"],
+      "platformIds": ["WPB"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "WPK",
+      "name": "Winter Park Amtrak Station",
+      "lat": 28.597099,
+      "lon": -81.351993,
+      "lines": ["SM"],
+      "platformIds": ["WPK"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "WPT",
+      "name": "Wolf Point Amtrak Station",
+      "lat": 48.091672,
+      "lon": -105.642736,
+      "lines": ["EB"],
+      "platformIds": ["WPT"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "WRJ",
+      "name": "White River Junction Amtrak Station",
+      "lat": 43.647785,
+      "lon": -72.317272,
+      "lines": [],
+      "platformIds": ["WRJ"],
+      "departureRouteIds": ["90"]
+    },
+    {
+      "id": "WSP",
+      "name": "Westport",
+      "lat": 44.187288,
+      "lon": -73.451773,
+      "lines": ["AD"],
+      "platformIds": ["WSP"],
+      "departureRouteIds": ["95"]
+    },
+    {
+      "id": "WSS",
+      "name": "White Sulphur Springs Amtrak",
+      "lat": 37.786443,
+      "lon": -80.304004,
+      "lines": [],
+      "platformIds": ["WSS"],
+      "departureRouteIds": ["58"]
+    },
+    {
+      "id": "WTH",
+      "name": "Winter Haven",
+      "lat": 28.002146,
+      "lon": -81.734878,
+      "lines": ["SM"],
+      "platformIds": ["WTH"],
+      "departureRouteIds": ["42947", "42994"]
+    },
+    {
+      "id": "WTI",
+      "name": "Waterloo Amtrak Station",
+      "lat": 41.431816,
+      "lon": -85.024298,
+      "lines": ["LS"],
+      "platformIds": ["WTI"],
+      "departureRouteIds": ["42994", "81"]
+    },
+    {
+      "id": "WTN",
+      "name": "Williston Amtrak Station",
+      "lat": 48.143,
+      "lon": -103.620926,
+      "lines": ["EB"],
+      "platformIds": ["WTN"],
+      "departureRouteIds": ["75"]
+    },
+    {
+      "id": "YAZ",
+      "name": "Yazoo City Amtrak",
+      "lat": 32.848477,
+      "lon": -90.41523,
+      "lines": ["CN"],
+      "platformIds": ["YAZ"],
+      "departureRouteIds": ["42946"]
+    },
+    {
+      "id": "YEM",
+      "name": "Yemassee Amtrak",
+      "lat": 32.688286,
+      "lon": -80.846901,
+      "lines": ["SM"],
+      "platformIds": ["YEM"],
+      "departureRouteIds": ["42947", "69"]
+    },
+    {
+      "id": "YNY",
+      "name": "Yonkers Amtrak Station",
+      "lat": 40.935586,
+      "lon": -73.902263,
+      "lines": ["AD", "ML"],
+      "platformIds": ["YNY"],
+      "departureRouteIds": ["36921", "36949", "68", "95"]
+    },
+    {
+      "id": "YUM",
+      "name": "Yuma Amtrak",
+      "lat": 32.723139,
+      "lon": -114.615571,
+      "lines": ["SL", "TE"],
+      "platformIds": ["YUM"],
+      "departureRouteIds": ["36930", "87"]
+    },
+    {
+      "id": "MOE",
+      "name": "Mobile Amtrak Sta",
+      "lat": 30.690853,
+      "lon": -88.03829,
+      "lines": [],
+      "platformIds": ["MOE"],
+      "departureRouteIds": ["42996"]
+    },
+    {
+      "id": "PAG",
+      "name": "Pascagoula",
+      "lat": 30.367846,
+      "lon": -88.559546,
+      "lines": [],
+      "platformIds": ["PAG"],
+      "departureRouteIds": ["42996"]
+    },
+    {
+      "id": "BIX",
+      "name": "Biloxi Amtrak Sta",
+      "lat": 30.39905786,
+      "lon": -88.89164084,
+      "lines": [],
+      "platformIds": ["BIX"],
+      "departureRouteIds": ["42996"]
+    },
+    {
+      "id": "GUF",
+      "name": "Gulfport Amtrak Sta",
+      "lat": 30.369036,
+      "lon": -89.09478,
+      "lines": [],
+      "platformIds": ["GUF"],
+      "departureRouteIds": ["42996"]
+    },
+    {
+      "id": "BAS",
+      "name": "Bay St Louis",
+      "lat": 30.308734,
+      "lon": -89.334,
+      "lines": [],
+      "platformIds": ["BAS"],
+      "departureRouteIds": ["42996"]
+    },
+    {
+      "id": "NRG",
+      "name": "Northridge",
+      "lat": 34.230659,
+      "lon": -118.545417,
+      "lines": ["PS"],
+      "platformIds": ["NRG"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "BBK",
+      "name": "Burbank",
+      "lat": 34.178925,
+      "lon": -118.311829,
+      "lines": ["PS"],
+      "platformIds": ["BBK"],
+      "departureRouteIds": ["78"]
+    },
+    {
+      "id": "BTN",
+      "name": "Burlington",
+      "lat": 44.4757,
+      "lon": -73.21927,
+      "lines": [],
+      "platformIds": ["BTN"],
+      "departureRouteIds": ["36949"]
+    },
+    {
+      "id": "VRN",
+      "name": "Ferrisburgh",
+      "lat": 44.180921,
+      "lon": -73.248824,
+      "lines": [],
+      "platformIds": ["VRN"],
+      "departureRouteIds": ["36949"]
+    },
+    {
+      "id": "MBY",
+      "name": "Middlebury",
+      "lat": 44.017425,
+      "lon": -73.169775,
+      "lines": [],
+      "platformIds": ["MBY"],
+      "departureRouteIds": ["36949"]
+    },
+    {
+      "id": "CBN",
+      "name": "Canadian Border",
+      "lat": 43.109235,
+      "lon": -79.058357,
+      "lines": ["ML"],
+      "platformIds": ["CBN"],
+      "departureRouteIds": ["68"]
+    },
+    {
+      "id": "NFS",
+      "schematicId": "niagara-falls-on",
+      "name": "Niagara Falls, ON",
+      "lat": 43.108736,
+      "lon": -79.063291,
+      "lines": ["ML"],
+      "platformIds": ["NFS"],
+      "departureRouteIds": ["68"]
+    },
+    {
+      "id": "TWO",
+      "schematicId": "toronto",
+      "name": "Toronto",
+      "lat": 43.645427,
+      "lon": -79.380762,
+      "lines": ["ML"],
+      "platformIds": ["TWO"],
+      "departureRouteIds": ["68"]
+    },
+    {
+      "id": "WAS",
+      "schematicId": "washington",
+      "name": "Washington",
+      "lat": 38.896993,
+      "lon": -77.006422,
+      "lines": ["CR", "NE", "SM"],
+      "platformIds": ["WAS"],
+      "departureRouteIds": ["36923", "40751", "42947", "42994", "58", "69", "85", "88", "90"]
+    },
+    {
+      "id": "OSM",
+      "name": "Ocean Springs",
+      "lat": 30.415451,
+      "lon": -88.827776,
+      "lines": [],
+      "platformIds": ["OSM"],
+      "departureRouteIds": ["42996"]
+    }
+  ]
+}

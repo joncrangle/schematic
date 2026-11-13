@@ -1,0 +1,759 @@
+{
+  "viewBoxWidth": 1650,
+  "viewBoxHeight": 1400,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Parcours du Roi",
+      "color": "#F48C1F",
+      "points": [
+        {
+          "x": 550,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 550
+        },
+        {
+          "x": 850,
+          "y": 550
+        },
+        {
+          "x": 850,
+          "y": 650
+        },
+        {
+          "x": 550,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Parcours des Côtes",
+      "color": "#057AAA",
+      "points": [
+        {
+          "x": 550,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 550
+        },
+        {
+          "x": 650,
+          "y": 400
+        },
+        {
+          "x": 550,
+          "y": 400
+        },
+        {
+          "x": 550,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Parcours de la Forêt",
+      "color": "#489669",
+      "points": [
+        {
+          "x": 550,
+          "y": 650
+        },
+        {
+          "x": 550,
+          "y": 350
+        },
+        {
+          "x": 450,
+          "y": 250
+        },
+        {
+          "x": 350,
+          "y": 250
+        },
+        {
+          "x": 350,
+          "y": 450
+        },
+        {
+          "x": 550,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Parcours de la Rivière",
+      "color": "#CE3942",
+      "points": [
+        {
+          "x": 550,
+          "y": 650
+        },
+        {
+          "x": 450,
+          "y": 750
+        },
+        {
+          "x": 350,
+          "y": 750
+        },
+        {
+          "x": 250,
+          "y": 650
+        },
+        {
+          "x": 350,
+          "y": 550
+        },
+        {
+          "x": 450,
+          "y": 550
+        },
+        {
+          "x": 550,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "360",
+      "name": "BUS 360",
+      "color": "#0871A6",
+      "points": [
+        {
+          "x": 1250,
+          "y": 500
+        },
+        {
+          "x": 1400,
+          "y": 500
+        },
+        {
+          "x": 1400,
+          "y": 350
+        },
+        {
+          "x": 1550,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "DESJ",
+      "name": "Bus Québec Desjardins",
+      "color": "#959384",
+      "points": [
+        {
+          "x": 1550,
+          "y": 200
+        },
+        {
+          "x": 1400,
+          "y": 350
+        },
+        {
+          "x": 1400,
+          "y": 500
+        },
+        {
+          "x": 1250,
+          "y": 500
+        },
+        {
+          "x": 1050,
+          "y": 700
+        },
+        {
+          "x": 850,
+          "y": 900
+        },
+        {
+          "x": 650,
+          "y": 1100
+        },
+        {
+          "x": 550,
+          "y": 1200
+        },
+        {
+          "x": 450,
+          "y": 1300
+        }
+      ]
+    },
+    {
+      "id": "FOY",
+      "name": "Express Sainte-Foy Hydro-Québec",
+      "color": "#F7971D",
+      "points": [
+        {
+          "x": 1550,
+          "y": 200
+        },
+        {
+          "x": 1400,
+          "y": 350
+        },
+        {
+          "x": 1400,
+          "y": 500
+        },
+        {
+          "x": 1250,
+          "y": 500
+        },
+        {
+          "x": 1050,
+          "y": 700
+        },
+        {
+          "x": 850,
+          "y": 900
+        },
+        {
+          "x": 650,
+          "y": 1100
+        },
+        {
+          "x": 450,
+          "y": 1100
+        },
+        {
+          "x": 300,
+          "y": 1250
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "chute-montmorency",
+      "name": "Terminus de la chute Montmorency",
+      "x": 550,
+      "y": 650,
+      "lines": ["1", "2", "3", "4"],
+      "label": {
+        "x": 570,
+        "y": 692,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ange-gardien",
+      "name": "L'Ange-Gardien",
+      "x": 850,
+      "y": 550,
+      "lines": ["1"],
+      "label": {
+        "x": 878,
+        "y": 550,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "chemin-des-mas",
+      "name": "Chemin des Mas",
+      "x": 650,
+      "y": 400,
+      "lines": ["2"],
+      "label": {
+        "x": 678,
+        "y": 400,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "rue-des-diamants",
+      "name": "Rue des Diamants",
+      "x": 450,
+      "y": 250,
+      "lines": ["3"],
+      "label": {
+        "x": 450,
+        "y": 218,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "domaine-de-la-riviere",
+      "name": "Domaine de la rivière",
+      "x": 250,
+      "y": 650,
+      "lines": ["4"],
+      "label": {
+        "x": 222,
+        "y": 650,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "saint-ferreol",
+      "name": "Saint-Ferréol-les-Neiges",
+      "x": 1550,
+      "y": 200,
+      "lines": ["360", "DESJ", "FOY"],
+      "label": {
+        "x": 1550,
+        "y": 168,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "mont-sainte-anne",
+      "name": "Mont-Sainte-Anne",
+      "x": 1400,
+      "y": 350,
+      "lines": ["360", "DESJ", "FOY"],
+      "label": {
+        "x": 1372,
+        "y": 350,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "beaupre",
+      "name": "Beaupré",
+      "x": 1400,
+      "y": 500,
+      "lines": ["360", "DESJ", "FOY"],
+      "label": {
+        "x": 1400,
+        "y": 534,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sainte-anne-de-beaupre",
+      "name": "Sainte-Anne-de-Beaupré",
+      "x": 1250,
+      "y": 500,
+      "lines": ["360", "DESJ", "FOY"],
+      "label": {
+        "x": 1250,
+        "y": 468,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "chateau-richer",
+      "name": "Château-Richer",
+      "x": 1050,
+      "y": 700,
+      "lines": ["DESJ", "FOY"],
+      "label": {
+        "x": 1078,
+        "y": 700,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "boischatel",
+      "name": "Boischatel (rue Dugal)",
+      "x": 850,
+      "y": 900,
+      "lines": ["DESJ", "FOY"],
+      "label": {
+        "x": 878,
+        "y": 900,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "estimauville",
+      "name": "Avenue d'Estimauville",
+      "x": 650,
+      "y": 1100,
+      "lines": ["DESJ", "FOY"],
+      "label": {
+        "x": 678,
+        "y": 1100,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "youville",
+      "name": "Station d'Youville",
+      "x": 550,
+      "y": 1200,
+      "lines": ["DESJ"],
+      "label": {
+        "x": 578,
+        "y": 1200,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "grand-theatre",
+      "name": "Grand Théâtre",
+      "x": 450,
+      "y": 1300,
+      "lines": ["DESJ"],
+      "label": {
+        "x": 478,
+        "y": 1300,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "fleur-de-lys",
+      "name": "Fleur-de-Lys",
+      "x": 450,
+      "y": 1100,
+      "lines": ["FOY"],
+      "label": {
+        "x": 450,
+        "y": 1068,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cegep-garneau",
+      "name": "Cégep Garneau",
+      "x": 300,
+      "y": 1250,
+      "lines": ["FOY"],
+      "label": {
+        "x": 300,
+        "y": 1284,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 750,
+      "y": 517,
+      "color": "#F48C1F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 600,
+      "y": 367,
+      "color": "#057AAA",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 317,
+      "y": 350,
+      "color": "#489669",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 400,
+      "y": 783,
+      "color": "#CE3942",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "360",
+      "num": "360",
+      "x": 1433,
+      "y": 425,
+      "color": "#0871A6",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "DESJ",
+      "num": "DESJ",
+      "x": 477,
+      "y": 1227,
+      "color": "#959384",
+      "textColor": "#000000"
+    },
+    {
+      "line": "FOY",
+      "num": "FOY",
+      "x": 550,
+      "y": 1133,
+      "color": "#F7971D",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1": ["chute-montmorency", "ange-gardien"],
+    "2": ["chute-montmorency", "chemin-des-mas"],
+    "3": ["chute-montmorency", "rue-des-diamants"],
+    "4": ["chute-montmorency", "domaine-de-la-riviere"],
+    "360": ["sainte-anne-de-beaupre", "beaupre", "mont-sainte-anne", "saint-ferreol"],
+    "DESJ": [
+      "saint-ferreol",
+      "mont-sainte-anne",
+      "beaupre",
+      "sainte-anne-de-beaupre",
+      "chateau-richer",
+      "boischatel",
+      "estimauville",
+      "youville",
+      "grand-theatre"
+    ],
+    "FOY": [
+      "saint-ferreol",
+      "mont-sainte-anne",
+      "beaupre",
+      "sainte-anne-de-beaupre",
+      "chateau-richer",
+      "boischatel",
+      "estimauville",
+      "fleur-de-lys",
+      "cegep-garneau"
+    ]
+  },
+  "stationAliases": {
+    "Terminus de la chute Montmorency": "chute-montmorency",
+    "Avenue Royale / Rue de l’Église (AG)": "ange-gardien",
+    "Chemin des Mas / Avenue Charleville": "chemin-des-mas",
+    "Rue des Diamants / Rue des Gemmes": "rue-des-diamants",
+    "Domaine de la rivière (Rue des Grenats)": "domaine-de-la-riviere",
+    "1100 (P) - Stationnement caserne de pompiers - Rue des Lupins / rue des Marguerites": "saint-ferreol",
+    "1121 - Av. Royale / rue des Campanules": "saint-ferreol",
+    "1201 - Boul. Beau-Pré / Mont-Sainte-Anne": "mont-sainte-anne",
+    "1214 - Delta Mont-Sainte-Anne": "mont-sainte-anne",
+    "1205 - Rue Beauregard / rue du Chanoine-Boucher": "beaupre",
+    "1225 - Rue Beauregard / rue du Chanoine-Boucher": "beaupre",
+    "1304 - Av. Royale / rue du Sanctuaire": "sainte-anne-de-beaupre",
+    "1324 - Av. Royale / rue du Sanctuaire": "sainte-anne-de-beaupre",
+    "1405 - Av. Royale / rue Dick": "chateau-richer",
+    "1425 - Av. Royale / rue Dick": "chateau-richer",
+    "1406 (P) - Rue du Couvent / Église": "chateau-richer",
+    "1426 (P) - Rue du Couvent / Église": "chateau-richer",
+    "1603 - Rue Dugal / côte de l'Église": "boischatel",
+    "1623 - Rue Dugal / côte de l'Église": "boischatel",
+    "1362 - Av. d'Estimauville / boul. Sainte-Anne": "estimauville",
+    "1190 - Station d'Youville - Côte H.-Mercier / rue Saint-Joachim": "youville",
+    "2664 - Station d'Youville - Côte H.-Mercier / rue D'Aiguillon": "youville",
+    "8115 - Grand Théâtre - Rue J.-Parizeau / rue de Cl.-Fontaine": "grand-theatre",
+    "8116 - Grand Théâtre - 1075 rue de l'Amér.-Française": "grand-theatre",
+    "1747 - Fleur-de-Lys - Boul. W.-Hamel / rue Fleur-de-Lys": "fleur-de-lys",
+    "6639 - Cégep Garneau - 1530 boul. de l'Entente": "cegep-garneau",
+    "1574 - Cégep Garneau - Boul. de l'Entente / av. Marois": "cegep-garneau"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 1640,
+      "minY": 140,
+      "maxY": 1360
+    },
+    "minZoom": 0.45,
+    "maxZoom": 6
+  },
+  "geoProjection": {
+    "refLonWest": -71.149276,
+    "refLonEast": -70.861915,
+    "refXWest": 550,
+    "refXEast": 1550,
+    "refLatNorth": 47.117328,
+    "refLatSouth": 46.793682,
+    "refYNorth": 200,
+    "refYSouth": 1250
+  },
+  "stationIndex": [
+    {
+      "id": "estimauville",
+      "schematicId": "estimauville",
+      "name": "Avenue d'Estimauville",
+      "lat": 46.845231,
+      "lon": -71.214909,
+      "lines": ["DESJ", "FOY"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:4851626970972160:LOC",
+        "zenbus:StopPoint:SP:571850010:LOC",
+        "zenbus:StopPoint:SP:579200005:LOC"
+      ],
+      "departureRouteIds": ["DESJ", "FOY", "ILE"]
+    },
+    {
+      "id": "beaupre",
+      "schematicId": "beaupre",
+      "name": "Beaupré",
+      "lat": 47.042709,
+      "lon": -70.895942,
+      "lines": ["360", "DESJ", "FOY"],
+      "platformIds": ["zenbus:StopPoint:SP:765330001:LOC", "zenbus:StopPoint:SP:768890002:LOC"],
+      "departureRouteIds": ["360", "DESJ", "FOY"]
+    },
+    {
+      "id": "boischatel",
+      "schematicId": "boischatel",
+      "name": "Boischatel (rue Dugal)",
+      "lat": 46.893718,
+      "lon": -71.132119,
+      "lines": ["DESJ", "FOY"],
+      "platformIds": ["zenbus:StopPoint:SP:550580007:LOC", "zenbus:StopPoint:SP:561720010:LOC"],
+      "departureRouteIds": ["DESJ", "FOY"]
+    },
+    {
+      "id": "cegep-garneau",
+      "schematicId": "cegep-garneau",
+      "name": "Cégep Garneau",
+      "lat": 46.793682,
+      "lon": -71.261276,
+      "lines": ["FOY"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:5440910140637184:LOC",
+        "zenbus:StopPoint:SP:5924116677787648:LOC"
+      ],
+      "departureRouteIds": ["FOY"]
+    },
+    {
+      "id": "chateau-richer",
+      "schematicId": "chateau-richer",
+      "name": "Château-Richer",
+      "lat": 46.970466,
+      "lon": -71.018906,
+      "lines": ["DESJ", "FOY"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:552780005:LOC",
+        "zenbus:StopPoint:SP:573540008:LOC",
+        "zenbus:StopPoint:SP:584990008:LOC",
+        "zenbus:StopPoint:SP:584990010:LOC"
+      ],
+      "departureRouteIds": ["DESJ", "FOY"]
+    },
+    {
+      "id": "zenbus:StopPoint:SP:6041246377181184:LOC",
+      "schematicId": "chemin-des-mas",
+      "name": "Chemin des Mas",
+      "lat": 46.904476,
+      "lon": -71.129737,
+      "lines": ["2"],
+      "platformIds": ["zenbus:StopPoint:SP:6041246377181184:LOC"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "zenbus:StopPoint:SP:238530006:LOC",
+      "schematicId": "domaine-de-la-riviere",
+      "name": "Domaine de la rivière",
+      "lat": 46.905761,
+      "lon": -71.168838,
+      "lines": ["4"],
+      "platformIds": ["zenbus:StopPoint:SP:238530006:LOC"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "fleur-de-lys",
+      "schematicId": "fleur-de-lys",
+      "name": "Fleur-de-Lys",
+      "lat": 46.821155,
+      "lon": -71.253707,
+      "lines": ["FOY"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:4827843388243968:LOC",
+        "zenbus:StopPoint:SP:624300038:LOC",
+        "zenbus:StopPoint:SP:639540002:LOC"
+      ],
+      "departureRouteIds": ["FOY", "ILE"]
+    },
+    {
+      "id": "grand-theatre",
+      "schematicId": "grand-theatre",
+      "name": "Grand Théâtre",
+      "lat": 46.807159,
+      "lon": -71.219932,
+      "lines": ["DESJ"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:4859761563533312:LOC",
+        "zenbus:StopPoint:SP:5308186415333376:LOC"
+      ],
+      "departureRouteIds": ["DESJ"]
+    },
+    {
+      "id": "ange-gardien",
+      "schematicId": "ange-gardien",
+      "name": "L'Ange-Gardien",
+      "lat": 46.915878,
+      "lon": -71.093231,
+      "lines": ["1"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:222460005:LOC",
+        "zenbus:StopPoint:SP:4807732833026048:LOC"
+      ],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "mont-sainte-anne",
+      "schematicId": "mont-sainte-anne",
+      "name": "Mont-Sainte-Anne",
+      "lat": 47.073719,
+      "lon": -70.905632,
+      "lines": ["360", "DESJ", "FOY"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:4802096588128256:LOC",
+        "zenbus:StopPoint:SP:571840006:LOC"
+      ],
+      "departureRouteIds": ["360", "DESJ", "FOY"]
+    },
+    {
+      "id": "zenbus:StopPoint:SP:226590005:LOC",
+      "schematicId": "rue-des-diamants",
+      "name": "Rue des Diamants",
+      "lat": 46.919868,
+      "lon": -71.153793,
+      "lines": ["3"],
+      "platformIds": ["zenbus:StopPoint:SP:226590005:LOC"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "saint-ferreol",
+      "schematicId": "saint-ferreol",
+      "name": "Saint-Ferréol-les-Neiges",
+      "lat": 47.116123,
+      "lon": -70.860314,
+      "lines": ["360", "DESJ", "FOY"],
+      "platformIds": ["zenbus:StopPoint:SP:577230009:LOC", "zenbus:StopPoint:SP:756020006:LOC"],
+      "departureRouteIds": ["360", "DESJ", "FOY"]
+    },
+    {
+      "id": "sainte-anne-de-beaupre",
+      "schematicId": "sainte-anne-de-beaupre",
+      "name": "Sainte-Anne-de-Beaupré",
+      "lat": 47.024009,
+      "lon": -70.929902,
+      "lines": ["360", "DESJ", "FOY"],
+      "platformIds": ["zenbus:StopPoint:SP:732510001:LOC", "zenbus:StopPoint:SP:756030003:LOC"],
+      "departureRouteIds": ["360", "DESJ", "FOY"]
+    },
+    {
+      "id": "youville",
+      "schematicId": "youville",
+      "name": "Station d'Youville",
+      "lat": 46.812374,
+      "lon": -71.215691,
+      "lines": ["DESJ"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:4884285902290944:LOC",
+        "zenbus:StopPoint:SP:5970159096299520:LOC"
+      ],
+      "departureRouteIds": ["DESJ"]
+    },
+    {
+      "id": "chute-montmorency",
+      "schematicId": "chute-montmorency",
+      "name": "Terminus de la chute Montmorency",
+      "lat": 46.891479,
+      "lon": -71.149276,
+      "lines": ["1", "2", "3", "4"],
+      "platformIds": ["zenbus:StopPoint:SP:252830001:LOC", "zenbus:StopPoint:SP:265200003:LOC"],
+      "departureRouteIds": ["1", "2", "3", "4"]
+    }
+  ]
+}

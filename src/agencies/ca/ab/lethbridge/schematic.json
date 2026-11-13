@@ -1,0 +1,568 @@
+{
+  "viewBoxWidth": 1500,
+  "viewBoxHeight": 1620,
+  "lines": [
+    {
+      "id": "1",
+      "name": "cityLINK Gold",
+      "color": "#FFC56D",
+      "points": [
+        {
+          "x": 180,
+          "y": 660
+        },
+        {
+          "x": 380,
+          "y": 860
+        },
+        {
+          "x": 380,
+          "y": 940
+        },
+        {
+          "x": 520,
+          "y": 940
+        },
+        {
+          "x": 660,
+          "y": 800
+        },
+        {
+          "x": 660,
+          "y": 660
+        },
+        {
+          "x": 800,
+          "y": 660
+        },
+        {
+          "x": 800,
+          "y": 160
+        },
+        {
+          "x": 1100,
+          "y": 160
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "cityLINK Blue",
+      "color": "#00A5B5",
+      "points": [
+        {
+          "x": 380,
+          "y": 1460
+        },
+        {
+          "x": 380,
+          "y": 940
+        },
+        {
+          "x": 520,
+          "y": 940
+        },
+        {
+          "x": 660,
+          "y": 800
+        },
+        {
+          "x": 660,
+          "y": 660
+        },
+        {
+          "x": 800,
+          "y": 660
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 1220
+        },
+        {
+          "x": 1280,
+          "y": 1400
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "cityLINK Green",
+      "color": "#348F40",
+      "points": [
+        {
+          "x": 1100,
+          "y": 160
+        },
+        {
+          "x": 1300,
+          "y": 360
+        },
+        {
+          "x": 1300,
+          "y": 800
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1280,
+          "y": 1180
+        },
+        {
+          "x": 1280,
+          "y": 1400
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "cityLINK Orange",
+      "color": "#FF4713",
+      "points": [
+        {
+          "x": 100,
+          "y": 1100
+        },
+        {
+          "x": 220,
+          "y": 1100
+        },
+        {
+          "x": 660,
+          "y": 660
+        },
+        {
+          "x": 800,
+          "y": 660
+        },
+        {
+          "x": 1260,
+          "y": 660
+        },
+        {
+          "x": 1400,
+          "y": 800
+        },
+        {
+          "x": 1400,
+          "y": 1280
+        },
+        {
+          "x": 1280,
+          "y": 1400
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "13 Street South",
+      "color": "#64748B",
+      "points": [
+        {
+          "x": 800,
+          "y": 660
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 1220
+        },
+        {
+          "x": 1200,
+          "y": 1320
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "west-highlands",
+      "name": "West Highlands",
+      "x": 180,
+      "y": 660,
+      "lines": ["1"],
+      "label": {
+        "x": 180,
+        "y": 626,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "university",
+      "name": "University of Lethbridge",
+      "x": 380,
+      "y": 940,
+      "lines": ["1", "2"],
+      "label": {
+        "x": 348,
+        "y": 940,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "scenic",
+      "name": "Scenic Drive",
+      "x": 660,
+      "y": 660,
+      "lines": ["1", "2", "4"],
+      "label": {
+        "x": 660,
+        "y": 626,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "city-centre",
+      "name": "City Centre",
+      "x": 800,
+      "y": 660,
+      "lines": ["1", "2", "4", "62"],
+      "label": {
+        "x": 800,
+        "y": 626,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "north",
+      "name": "North Station",
+      "x": 800,
+      "y": 160,
+      "lines": ["1"],
+      "label": {
+        "x": 800,
+        "y": 126,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sherring",
+      "name": "Sherring Station",
+      "x": 1100,
+      "y": 160,
+      "lines": ["1", "3"],
+      "label": {
+        "x": 1100,
+        "y": 126,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "crossings",
+      "name": "Crossings",
+      "x": 100,
+      "y": 1100,
+      "lines": ["4"],
+      "label": {
+        "x": 100,
+        "y": 1066,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "sunridge",
+      "name": "Sunridge",
+      "x": 380,
+      "y": 1460,
+      "lines": ["2"],
+      "label": {
+        "x": 380,
+        "y": 1494,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "hospital",
+      "name": "Hospital",
+      "x": 1100,
+      "y": 1000,
+      "lines": ["2", "3", "62"],
+      "label": {
+        "x": 1132,
+        "y": 1000,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "college-drive",
+      "name": "College Drive",
+      "x": 1100,
+      "y": 1220,
+      "lines": ["2", "62"],
+      "label": {
+        "x": 1068,
+        "y": 1220,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "southgate",
+      "name": "Southgate",
+      "x": 1280,
+      "y": 1400,
+      "lines": ["2", "3", "4"],
+      "label": {
+        "x": 1280,
+        "y": 1434,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "polytechnic",
+      "name": "Lethbridge Polytechnic",
+      "x": 1200,
+      "y": 1320,
+      "lines": ["62"],
+      "label": {
+        "x": 1168,
+        "y": 1320,
+        "anchor": "end"
+      },
+      "terminal": true
+    }
+  ],
+  "sequences": {
+    "1": ["west-highlands", "university", "scenic", "city-centre", "north", "sherring"],
+    "2": [
+      "sunridge",
+      "university",
+      "scenic",
+      "city-centre",
+      "hospital",
+      "college-drive",
+      "southgate"
+    ],
+    "3": ["sherring", "hospital", "southgate"],
+    "4": ["crossings", "scenic", "city-centre", "southgate"],
+    "62": ["city-centre", "hospital", "college-drive", "polytechnic"]
+  },
+  "stationAliases": {
+    "code:13024": "west-highlands",
+    "code:13001": "university",
+    "code:13000": "university",
+    "code:14032": "scenic",
+    "code:14025": "scenic",
+    "code:14020": "scenic",
+    "code:14036": "scenic",
+    "code:14018": "scenic",
+    "code:14019": "scenic",
+    "code:14000": "city-centre",
+    "code:14001": "city-centre",
+    "code:14002": "city-centre",
+    "code:11051": "north",
+    "code:11000": "sherring",
+    "code:13307": "crossings",
+    "code:13509": "sunridge",
+    "code:12165": "hospital",
+    "code:12105": "college-drive",
+    "code:12107": "college-drive",
+    "code:12119": "southgate",
+    "code:12215": "polytechnic"
+  },
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 832,
+      "y": 420,
+      "color": "#FFC56D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 348,
+      "y": 1240,
+      "color": "#00A5B5",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 1332,
+      "y": 600,
+      "color": "#348F40",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1432,
+      "y": 1040,
+      "color": "#FF4713",
+      "textColor": "#000000"
+    },
+    {
+      "line": "62",
+      "num": "62",
+      "x": 1232,
+      "y": 1300,
+      "color": "#64748B",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1500,
+      "minY": 50,
+      "maxY": 1620
+    },
+    "minZoom": 0.6,
+    "maxZoom": 5
+  },
+  "geoProjection": {
+    "refLonWest": -112.912651176015,
+    "refLonEast": -112.788189964783,
+    "refXWest": 100,
+    "refXEast": 1280,
+    "refLatNorth": 49.728969468413,
+    "refLatSouth": 49.6532761843965,
+    "refYNorth": 160,
+    "refYSouth": 1460
+  },
+  "stationIndex": [
+    {
+      "id": "city-centre",
+      "schematicId": "city-centre",
+      "name": "City Centre",
+      "lat": 49.6929769034968,
+      "lon": -112.836349030516,
+      "lines": ["1", "2", "4", "62"],
+      "platformIds": ["14000", "14001", "14002"],
+      "departureRouteIds": ["1", "2", "4", "60A", "60B", "60C", "61A", "61B", "62"]
+    },
+    {
+      "id": "college-drive",
+      "schematicId": "college-drive",
+      "name": "College Drive",
+      "lat": 49.66699702543,
+      "lon": -112.808731663748,
+      "lines": ["2", "62"],
+      "platformIds": ["12105", "12107"],
+      "departureRouteIds": ["2", "62"]
+    },
+    {
+      "id": "13307",
+      "schematicId": "crossings",
+      "name": "Crossings",
+      "lat": 49.6730454071191,
+      "lon": -112.912651176015,
+      "lines": ["4"],
+      "platformIds": ["13307"],
+      "departureRouteIds": ["4", "53"]
+    },
+    {
+      "id": "12165",
+      "schematicId": "hospital",
+      "name": "Hospital",
+      "lat": 49.6837889959686,
+      "lon": -112.81639473536,
+      "lines": ["2", "3", "62"],
+      "platformIds": ["12165"],
+      "departureRouteIds": ["2", "3", "62"]
+    },
+    {
+      "id": "12215",
+      "schematicId": "polytechnic",
+      "name": "Lethbridge Polytechnic",
+      "lat": 49.6629965104458,
+      "lon": -112.808720934911,
+      "lines": ["62"],
+      "platformIds": ["12215"],
+      "departureRouteIds": ["62"]
+    },
+    {
+      "id": "11051",
+      "schematicId": "north",
+      "name": "North Station",
+      "lat": 49.7279810743321,
+      "lon": -112.824481596022,
+      "lines": ["1"],
+      "platformIds": ["11051"],
+      "departureRouteIds": ["1", "60A", "60C"]
+    },
+    {
+      "id": "scenic",
+      "schematicId": "scenic",
+      "name": "Scenic Drive",
+      "lat": 49.6926764960692,
+      "lon": -112.843151112983,
+      "lines": ["1", "2", "4"],
+      "platformIds": ["14018", "14019", "14020", "14025", "14032", "14036"],
+      "departureRouteIds": ["1", "2", "4", "60A", "60B", "60C"]
+    },
+    {
+      "id": "11000",
+      "schematicId": "sherring",
+      "name": "Sherring Station",
+      "lat": 49.728969468413,
+      "lon": -112.793255316809,
+      "lines": ["1", "3"],
+      "platformIds": ["11000"],
+      "departureRouteIds": ["1", "3", "60A", "60B", "60C", "61A", "61B"]
+    },
+    {
+      "id": "12119",
+      "schematicId": "southgate",
+      "name": "Southgate",
+      "lat": 49.6601775086032,
+      "lon": -112.788189964783,
+      "lines": ["2", "3", "4"],
+      "platformIds": ["12119"],
+      "departureRouteIds": ["2", "3", "4"]
+    },
+    {
+      "id": "13509",
+      "schematicId": "sunridge",
+      "name": "Sunridge",
+      "lat": 49.6532761843965,
+      "lon": -112.869530640217,
+      "lines": ["2"],
+      "platformIds": ["13509"],
+      "departureRouteIds": ["2", "52"]
+    },
+    {
+      "id": "university",
+      "schematicId": "university",
+      "name": "University of Lethbridge",
+      "lat": 49.6770217822207,
+      "lon": -112.863305232722,
+      "lines": ["1", "2"],
+      "platformIds": ["13000", "13001"],
+      "departureRouteIds": ["1", "2", "51", "52", "53"]
+    },
+    {
+      "id": "13024",
+      "schematicId": "west-highlands",
+      "name": "West Highlands",
+      "lat": 49.6936219748033,
+      "lon": -112.894457751182,
+      "lines": ["1"],
+      "platformIds": ["13024"],
+      "departureRouteIds": ["1", "51"]
+    }
+  ]
+}

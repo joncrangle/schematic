@@ -1,0 +1,1271 @@
+{
+  "viewBoxWidth": 1825.0,
+  "viewBoxHeight": 1300.0,
+  "lines": [
+    {
+      "id": "201",
+      "name": "Red Line",
+      "color": "#D71920",
+      "points": [
+        {
+          "x": 80.0,
+          "y": 80.0
+        },
+        {
+          "x": 535.0,
+          "y": 535.0
+        },
+        {
+          "x": 1210.0,
+          "y": 535.0
+        },
+        {
+          "x": 1250.0,
+          "y": 575.0
+        },
+        {
+          "x": 1250.0,
+          "y": 1190.0
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "name": "Blue Line",
+      "color": "#0077C8",
+      "points": [
+        {
+          "x": 60.0,
+          "y": 545.0
+        },
+        {
+          "x": 1510.0,
+          "y": 545.0
+        },
+        {
+          "x": 1580.0,
+          "y": 475.0
+        },
+        {
+          "x": 1580.0,
+          "y": 195.0
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "tuscany",
+      "name": "Tuscany",
+      "x": 80.0,
+      "y": 80.0,
+      "lines": ["201"],
+      "label": {
+        "x": 108.0,
+        "y": 74.0,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "crowfoot",
+      "name": "Crowfoot",
+      "x": 130.0,
+      "y": 130.0,
+      "lines": ["201"],
+      "label": {
+        "x": 158.0,
+        "y": 124.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "dalhousie",
+      "name": "Dalhousie",
+      "x": 180.0,
+      "y": 180.0,
+      "lines": ["201"],
+      "label": {
+        "x": 208.0,
+        "y": 174.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "brentwood",
+      "name": "Brentwood",
+      "x": 230.0,
+      "y": 230.0,
+      "lines": ["201"],
+      "label": {
+        "x": 258.0,
+        "y": 224.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "university",
+      "name": "University",
+      "x": 280.0,
+      "y": 280.0,
+      "lines": ["201"],
+      "label": {
+        "x": 308.0,
+        "y": 274.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "banff-trail",
+      "name": "Banff Trail",
+      "x": 330.0,
+      "y": 330.0,
+      "lines": ["201"],
+      "label": {
+        "x": 358.0,
+        "y": 324.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lions-park",
+      "name": "Lions Park",
+      "x": 380.0,
+      "y": 380.0,
+      "lines": ["201"],
+      "label": {
+        "x": 408.0,
+        "y": 374.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sait-auarts-jubilee",
+      "name": "SAIT / AUArts / Jubilee",
+      "x": 430.0,
+      "y": 430.0,
+      "lines": ["201"],
+      "label": {
+        "x": 458.0,
+        "y": 424.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sunnyside",
+      "name": "Sunnyside",
+      "x": 480.0,
+      "y": 480.0,
+      "lines": ["201"],
+      "label": {
+        "x": 508.0,
+        "y": 474.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "69-street",
+      "name": "69 Street",
+      "x": 60.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 55.0,
+        "y": 587.5,
+        "anchor": "end",
+        "rot": -40
+      },
+      "terminal": true
+    },
+    {
+      "id": "sirocco",
+      "name": "Sirocco",
+      "x": 120.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 115.0,
+        "y": 587.5,
+        "anchor": "end",
+        "rot": -40
+      }
+    },
+    {
+      "id": "45-street",
+      "name": "45 Street",
+      "x": 180.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 175.0,
+        "y": 587.5,
+        "anchor": "end",
+        "rot": -40
+      }
+    },
+    {
+      "id": "westbrook",
+      "name": "Westbrook",
+      "x": 240.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 235.0,
+        "y": 587.5,
+        "anchor": "end",
+        "rot": -40
+      }
+    },
+    {
+      "id": "shaganappi-point",
+      "name": "Shaganappi Point",
+      "x": 300.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 295.0,
+        "y": 587.5,
+        "anchor": "end",
+        "rot": -40
+      }
+    },
+    {
+      "id": "sunalta",
+      "name": "Sunalta",
+      "x": 360.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 355.0,
+        "y": 587.5,
+        "anchor": "end",
+        "rot": -40
+      }
+    },
+    {
+      "id": "downtown-west-kerby",
+      "name": "Downtown West-Kerby",
+      "x": 420.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 415.0,
+        "y": 587.5,
+        "anchor": "end",
+        "rot": -40
+      }
+    },
+    {
+      "id": "8-street",
+      "name": "8 Street",
+      "x": 560.0,
+      "y": 540.0,
+      "lines": ["201", "202"],
+      "label": {
+        "x": 560.0,
+        "y": 595.0,
+        "anchor": "middle",
+        "rot": 35
+      }
+    },
+    {
+      "id": "7-street",
+      "name": "7 Street",
+      "x": 650.0,
+      "y": 540.0,
+      "lines": ["201", "202"],
+      "label": {
+        "x": 650.0,
+        "y": 485.0,
+        "anchor": "middle",
+        "rot": -35
+      }
+    },
+    {
+      "id": "6-street",
+      "name": "6 Street",
+      "x": 740.0,
+      "y": 540.0,
+      "lines": ["201", "202"],
+      "label": {
+        "x": 740.0,
+        "y": 595.0,
+        "anchor": "middle",
+        "rot": 35
+      }
+    },
+    {
+      "id": "4-street",
+      "name": "4 Street",
+      "x": 830.0,
+      "y": 540.0,
+      "lines": ["201", "202"],
+      "label": {
+        "x": 830.0,
+        "y": 485.0,
+        "anchor": "middle",
+        "rot": -35
+      }
+    },
+    {
+      "id": "3-street",
+      "name": "3 Street",
+      "x": 920.0,
+      "y": 540.0,
+      "lines": ["201", "202"],
+      "label": {
+        "x": 920.0,
+        "y": 595.0,
+        "anchor": "middle",
+        "rot": 35
+      }
+    },
+    {
+      "id": "1-street",
+      "name": "1 Street",
+      "x": 1010.0,
+      "y": 540.0,
+      "lines": ["201", "202"],
+      "label": {
+        "x": 1010.0,
+        "y": 485.0,
+        "anchor": "middle",
+        "rot": -35
+      }
+    },
+    {
+      "id": "centre-street",
+      "name": "Centre Street",
+      "x": 1100.0,
+      "y": 540.0,
+      "lines": ["201", "202"],
+      "label": {
+        "x": 1100.0,
+        "y": 595.0,
+        "anchor": "middle",
+        "rot": 35
+      }
+    },
+    {
+      "id": "city-hall-bow-valley-college",
+      "name": "City Hall / Bow Valley College",
+      "x": 1190.0,
+      "y": 540.0,
+      "lines": ["201", "202"],
+      "label": {
+        "x": 1190,
+        "y": 500,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "victoria-park-stampede",
+      "name": "Victoria Park / Stampede",
+      "x": 1250.0,
+      "y": 640.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 644.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "erlton-stampede",
+      "name": "Erlton / Stampede",
+      "x": 1250.0,
+      "y": 695.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 699.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "39-avenue",
+      "name": "39 Avenue",
+      "x": 1250.0,
+      "y": 750.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 754.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "chinook",
+      "name": "Chinook",
+      "x": 1250.0,
+      "y": 805.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 809.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "heritage",
+      "name": "Heritage",
+      "x": 1250.0,
+      "y": 860.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 864.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "southland",
+      "name": "Southland",
+      "x": 1250.0,
+      "y": 915.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 919.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "anderson",
+      "name": "Anderson",
+      "x": 1250.0,
+      "y": 970.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 974.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "canyon-meadows",
+      "name": "Canyon Meadows",
+      "x": 1250.0,
+      "y": 1025.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 1029.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fish-creek-lacombe",
+      "name": "Fish Creek-Lacombe",
+      "x": 1250.0,
+      "y": 1080.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 1084.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "shawnessy",
+      "name": "Shawnessy",
+      "x": 1250.0,
+      "y": 1135.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 1139.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "somerset-bridlewood",
+      "name": "Somerset-Bridlewood",
+      "x": 1250.0,
+      "y": 1190.0,
+      "lines": ["201"],
+      "label": {
+        "x": 1280.0,
+        "y": 1194.0,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "bridgeland-memorial",
+      "name": "Bridgeland / Memorial",
+      "x": 1320.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1315.0,
+        "y": 520.0,
+        "anchor": "start",
+        "rot": -40
+      }
+    },
+    {
+      "id": "zoo",
+      "name": "Zoo",
+      "x": 1380.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1375.0,
+        "y": 520.0,
+        "anchor": "start",
+        "rot": -40
+      }
+    },
+    {
+      "id": "barlow-max-bell",
+      "name": "Barlow / Max Bell",
+      "x": 1440.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1435.0,
+        "y": 520.0,
+        "anchor": "start",
+        "rot": -40
+      }
+    },
+    {
+      "id": "franklin",
+      "name": "Franklin",
+      "x": 1500.0,
+      "y": 545.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1495.0,
+        "y": 520.0,
+        "anchor": "start",
+        "rot": -40
+      }
+    },
+    {
+      "id": "marlborough",
+      "name": "Marlborough",
+      "x": 1580.0,
+      "y": 470.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1610.0,
+        "y": 474.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "rundle",
+      "name": "Rundle",
+      "x": 1580.0,
+      "y": 415.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1610.0,
+        "y": 419.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "whitehorn",
+      "name": "Whitehorn",
+      "x": 1580.0,
+      "y": 360.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1610.0,
+        "y": 364.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mcknight-westwinds",
+      "name": "McKnight-Westwinds",
+      "x": 1580.0,
+      "y": 305.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1610.0,
+        "y": 309.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "martindale",
+      "name": "Martindale",
+      "x": 1580.0,
+      "y": 250.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1610.0,
+        "y": 254.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saddletowne",
+      "name": "Saddletowne",
+      "x": 1580.0,
+      "y": 195.0,
+      "lines": ["202"],
+      "label": {
+        "x": 1610.0,
+        "y": 199.0,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "sequences": {
+    "201": [
+      "tuscany",
+      "crowfoot",
+      "dalhousie",
+      "brentwood",
+      "university",
+      "banff-trail",
+      "lions-park",
+      "sait-auarts-jubilee",
+      "sunnyside",
+      "8-street",
+      "7-street",
+      "6-street",
+      "4-street",
+      "3-street",
+      "1-street",
+      "centre-street",
+      "city-hall-bow-valley-college",
+      "victoria-park-stampede",
+      "erlton-stampede",
+      "39-avenue",
+      "chinook",
+      "heritage",
+      "southland",
+      "anderson",
+      "canyon-meadows",
+      "fish-creek-lacombe",
+      "shawnessy",
+      "somerset-bridlewood"
+    ],
+    "202": [
+      "69-street",
+      "sirocco",
+      "45-street",
+      "westbrook",
+      "shaganappi-point",
+      "sunalta",
+      "downtown-west-kerby",
+      "8-street",
+      "7-street",
+      "6-street",
+      "4-street",
+      "3-street",
+      "1-street",
+      "centre-street",
+      "city-hall-bow-valley-college",
+      "bridgeland-memorial",
+      "zoo",
+      "barlow-max-bell",
+      "franklin",
+      "marlborough",
+      "rundle",
+      "whitehorn",
+      "mcknight-westwinds",
+      "martindale",
+      "saddletowne"
+    ]
+  },
+  "stationAliases": {
+    "WB 69 Street CTrain Station": "69-street",
+    "EB 69 Street CTrain Station": "69-street",
+    "WB Sirocco CTrain Station": "sirocco",
+    "EB Sirocco CTrain Station": "sirocco",
+    "WB 45 Street CTrain Station": "45-street",
+    "EB 45 Street CTrain Station": "45-street",
+    "WB Westbrook CTrain Station": "westbrook",
+    "EB Westbrook CTrain Station": "westbrook",
+    "WB Shaganappi Point CTrain Station": "shaganappi-point",
+    "EB Shaganappi Point CTrain Station": "shaganappi-point",
+    "WB Sunalta CTrain Station": "sunalta",
+    "EB Sunalta CTrain Station": "sunalta",
+    "WB Downtown-West Kerby Station (Free Fare Zone)": "downtown-west-kerby",
+    "EB Downtown West-Kerby Station (Free Fare Zone)": "downtown-west-kerby",
+    "NB Tuscany CTrain Station": "tuscany",
+    "SB Tuscany CTrain Station": "tuscany",
+    "NB Crowfoot CTrain Station": "crowfoot",
+    "SB Crowfoot CTrain Station": "crowfoot",
+    "SB Dalhousie CTrain Station": "dalhousie",
+    "NB Dalhousie CTrain Station": "dalhousie",
+    "NB Brentwood CTrain Station": "brentwood",
+    "SB Martindale CTrain Station": "martindale",
+    "NB Anderson CTrain Station": "anderson",
+    "NB Southland CTrain Station": "southland",
+    "NB Heritage CTrain Station": "heritage",
+    "NB Chinook CTrain Station": "chinook",
+    "NB 39 Avenue CTrain Station": "39-avenue",
+    "NB Erlton / Stampede CTrain Staion": "erlton-stampede",
+    "NB Victoria Park / Stampede CTrain Station": "victoria-park-stampede",
+    "SB Whitehorn CTrain Station": "whitehorn",
+    "NB Rundle CTrain Station": "rundle",
+    "NB Marlborough CTrain Station": "marlborough",
+    "NB Franklin CTrain Station": "franklin",
+    "EB Barlow - Max Bell CTrain Station": "barlow-max-bell",
+    "EB Zoo CTrain Station": "zoo",
+    "EB Bridgeland - Memorial CTrain Station": "bridgeland-memorial",
+    "SB Brentwood CTrain Station": "brentwood",
+    "NB University CTrain Station": "university",
+    "NB Banff Trail CTrain Station": "banff-trail",
+    "NB Lions Park CTrain Station": "lions-park",
+    "NB SAIT / AUArts / Jubilee CTrain Stn": "sait-auarts-jubilee",
+    "NB Sunnyside CTrain Station": "sunnyside",
+    "WB City Hall/Bow Valley College (Free Fare Zone)": "city-hall-bow-valley-college",
+    "WB 1 Street SW Station (Free Fare Zone)": "1-street",
+    "WB 4 Street SW Station (Free Fare Zone)": "4-street",
+    "WB 7 Street SW Station (Free Fare Zone)": "7-street",
+    "EB 8 Street SW Station (Free Fare Zone)": "8-street",
+    "EB 6 Street SW Station (Free Fare Zone)": "6-street",
+    "EB 3 Street SW Station (Free Fare Zone)": "3-street",
+    "EB Centre Street Station (Free Fare Zone)": "centre-street",
+    "EB City Hall/Bow Valley College (Free Fare Zone)": "city-hall-bow-valley-college",
+    "SB Victoria Park / Stampede CTrain Station": "victoria-park-stampede",
+    "SB Erlton / Stampede Station": "erlton-stampede",
+    "SB 39 Avenue CTrain Station": "39-avenue",
+    "SB Chinook CTrain Station": "chinook",
+    "SB Heritage CTrain Station": "heritage",
+    "SB Southland CTrain Station": "southland",
+    "SB Sunnyside CTrain Station": "sunnyside",
+    "SB SAIT / AUArts / Jubilee CTrain Stn": "sait-auarts-jubilee",
+    "SB Lions Park CTrain Station": "lions-park",
+    "SB Banff Trail CTrain Station": "banff-trail",
+    "SB University CTrain Station": "university",
+    "WB Bridgeland - Memorial CTrain Station": "bridgeland-memorial",
+    "WB Zoo CTrain Station": "zoo",
+    "WB Barlow - Max Bell CTrain Station": "barlow-max-bell",
+    "SB Franklin CTrain Station": "franklin",
+    "SB Marlborough CTrain Station": "marlborough",
+    "SB Rundle CTrain Station": "rundle",
+    "NB Fish Creek - Lacombe CTrain Station": "fish-creek-lacombe",
+    "NB Canyon Meadows CTrain Station": "canyon-meadows",
+    "SB Anderson CTrain Station": "anderson",
+    "SB Canyon Meadows CTrain Station": "canyon-meadows",
+    "NB Whitehorn CTrain Station": "whitehorn",
+    "SB Somerset - Bridlewood CTrain Station": "somerset-bridlewood",
+    "SB Fish Creek - Lacombe CTrain Station": "fish-creek-lacombe",
+    "NB Somerset - Bridlewood CTrain Station": "somerset-bridlewood",
+    "NB Shawnessy CTrain Station": "shawnessy",
+    "SB Shawnessy CTrain Station": "shawnessy",
+    "NB Martindale CTrain Station": "martindale",
+    "NB Saddletowne CTrain Station": "saddletowne",
+    "SB Saddletowne CTrain Station": "saddletowne",
+    "NB McKnight - Westwinds CTrain Station": "mcknight-westwinds",
+    "SB McKnight - Westwinds CTrain Station": "mcknight-westwinds"
+  },
+  "stationIndex": [
+    {
+      "id": "6823",
+      "schematicId": "1-street",
+      "name": "1 Street",
+      "lat": 51.046574,
+      "lon": -114.064383,
+      "lines": ["201", "202"],
+      "platformIds": ["6823"],
+      "departureRouteIds": ["201", "202"]
+    },
+    {
+      "id": "6829",
+      "schematicId": "3-street",
+      "name": "3 Street",
+      "lat": 51.046606,
+      "lon": -114.068904,
+      "lines": ["201", "202"],
+      "platformIds": ["6829"],
+      "departureRouteIds": ["201", "202"]
+    },
+    {
+      "id": "39-avenue",
+      "schematicId": "39-avenue",
+      "name": "39 Avenue",
+      "lat": 51.017819,
+      "lon": -114.061238,
+      "lines": ["201"],
+      "platformIds": ["6805", "8558"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "6824",
+      "schematicId": "4-street",
+      "name": "4 Street",
+      "lat": 51.046803,
+      "lon": -114.072416,
+      "lines": ["201", "202"],
+      "platformIds": ["6824"],
+      "departureRouteIds": ["201", "202"]
+    },
+    {
+      "id": "45-street",
+      "schematicId": "45-street",
+      "name": "45 Street",
+      "lat": 51.037942,
+      "lon": -114.153369,
+      "lines": ["202"],
+      "platformIds": ["3630", "3631"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "6828",
+      "schematicId": "6-street",
+      "name": "6 Street",
+      "lat": 51.046765,
+      "lon": -114.074858,
+      "lines": ["201", "202"],
+      "platformIds": ["6828"],
+      "departureRouteIds": ["201", "202"]
+    },
+    {
+      "id": "69-street",
+      "schematicId": "69-street",
+      "name": "69 Street",
+      "lat": 51.037605,
+      "lon": -114.188486,
+      "lines": ["202"],
+      "platformIds": ["3626", "3627"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "6825",
+      "schematicId": "7-street",
+      "name": "7 Street",
+      "lat": 51.046969,
+      "lon": -114.077971,
+      "lines": ["201", "202"],
+      "platformIds": ["6825"],
+      "departureRouteIds": ["201", "202"]
+    },
+    {
+      "id": "6827",
+      "schematicId": "8-street",
+      "name": "8 Street",
+      "lat": 51.046916,
+      "lon": -114.079953,
+      "lines": ["201", "202"],
+      "platformIds": ["6827"],
+      "departureRouteIds": ["201", "202"]
+    },
+    {
+      "id": "anderson",
+      "schematicId": "anderson",
+      "name": "Anderson",
+      "lat": 50.954258,
+      "lon": -114.074394,
+      "lines": ["201"],
+      "platformIds": ["6801", "9263"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "banff-trail",
+      "schematicId": "banff-trail",
+      "name": "Banff Trail",
+      "lat": 51.071148,
+      "lon": -114.115637,
+      "lines": ["201"],
+      "platformIds": ["6817", "8565"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "barlow-max-bell",
+      "schematicId": "barlow-max-bell",
+      "name": "Barlow / Max Bell",
+      "lat": 51.045409,
+      "lon": -114.006665,
+      "lines": ["202"],
+      "platformIds": ["6812", "8569"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "brentwood",
+      "schematicId": "brentwood",
+      "name": "Brentwood",
+      "lat": 51.086846,
+      "lon": -114.131247,
+      "lines": ["201"],
+      "platformIds": ["4934", "6815"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "bridgeland-memorial",
+      "schematicId": "bridgeland-memorial",
+      "name": "Bridgeland / Memorial",
+      "lat": 51.0489,
+      "lon": -114.039895,
+      "lines": ["202"],
+      "platformIds": ["6814", "8567"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "canyon-meadows",
+      "schematicId": "canyon-meadows",
+      "name": "Canyon Meadows",
+      "lat": 50.936411,
+      "lon": -114.069679,
+      "lines": ["201"],
+      "platformIds": ["9262", "9264"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "6830",
+      "schematicId": "centre-street",
+      "name": "Centre Street",
+      "lat": 51.046378,
+      "lon": -114.061241,
+      "lines": ["201", "202"],
+      "platformIds": ["6830"],
+      "departureRouteIds": ["201", "202"]
+    },
+    {
+      "id": "chinook",
+      "schematicId": "chinook",
+      "name": "Chinook",
+      "lat": 50.997465,
+      "lon": -114.065575,
+      "lines": ["201"],
+      "platformIds": ["6804", "8559"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "city-hall-bow-valley-college",
+      "schematicId": "city-hall-bow-valley-college",
+      "name": "City Hall / Bow Valley College",
+      "lat": 51.046354,
+      "lon": -114.05672,
+      "lines": ["201", "202"],
+      "platformIds": ["6822", "6831"],
+      "departureRouteIds": ["201", "202"]
+    },
+    {
+      "id": "crowfoot",
+      "schematicId": "crowfoot",
+      "name": "Crowfoot",
+      "lat": 51.122691,
+      "lon": -114.206871,
+      "lines": ["201"],
+      "platformIds": ["3816", "3817"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "dalhousie",
+      "schematicId": "dalhousie",
+      "name": "Dalhousie",
+      "lat": 51.103403,
+      "lon": -114.161068,
+      "lines": ["201"],
+      "platformIds": ["3960", "4155"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "downtown-west-kerby",
+      "schematicId": "downtown-west-kerby",
+      "name": "Downtown West-Kerby",
+      "lat": 51.04723,
+      "lon": -114.087697,
+      "lines": ["202"],
+      "platformIds": ["3638", "3639"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "erlton-stampede",
+      "schematicId": "erlton-stampede",
+      "name": "Erlton / Stampede",
+      "lat": 51.031925,
+      "lon": -114.058833,
+      "lines": ["201"],
+      "platformIds": ["6806", "8557"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "fish-creek-lacombe",
+      "schematicId": "fish-creek-lacombe",
+      "name": "Fish Creek-Lacombe",
+      "lat": 50.923698,
+      "lon": -114.073153,
+      "lines": ["201"],
+      "platformIds": ["9261", "9387"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "franklin",
+      "schematicId": "franklin",
+      "name": "Franklin",
+      "lat": 51.04703,
+      "lon": -113.994604,
+      "lines": ["202"],
+      "platformIds": ["6811", "8570"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "heritage",
+      "schematicId": "heritage",
+      "name": "Heritage",
+      "lat": 50.979308,
+      "lon": -114.073617,
+      "lines": ["201"],
+      "platformIds": ["6803", "8560"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "lions-park",
+      "schematicId": "lions-park",
+      "name": "Lions Park",
+      "lat": 51.065076,
+      "lon": -114.103653,
+      "lines": ["201"],
+      "platformIds": ["6818", "8564"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "marlborough",
+      "schematicId": "marlborough",
+      "name": "Marlborough",
+      "lat": 51.05899,
+      "lon": -113.981582,
+      "lines": ["202"],
+      "platformIds": ["6810", "8571"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "martindale",
+      "schematicId": "martindale",
+      "name": "Martindale",
+      "lat": 51.117778,
+      "lon": -113.967428,
+      "lines": ["202"],
+      "platformIds": ["6747", "9396"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "mcknight-westwinds",
+      "schematicId": "mcknight-westwinds",
+      "name": "McKnight-Westwinds",
+      "lat": 51.10953,
+      "lon": -113.97516,
+      "lines": ["202"],
+      "platformIds": ["9896", "9897"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "rundle",
+      "schematicId": "rundle",
+      "name": "Rundle",
+      "lat": 51.07519,
+      "lon": -113.981598,
+      "lines": ["202"],
+      "platformIds": ["6809", "8572"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "saddletowne",
+      "schematicId": "saddletowne",
+      "name": "Saddletowne",
+      "lat": 51.125542,
+      "lon": -113.948277,
+      "lines": ["202"],
+      "platformIds": ["9398", "9781"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "sait-auarts-jubilee",
+      "schematicId": "sait-auarts-jubilee",
+      "name": "SAIT / AUArts / Jubilee",
+      "lat": 51.063063,
+      "lon": -114.091046,
+      "lines": ["201"],
+      "platformIds": ["6819", "8563"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "shaganappi-point",
+      "schematicId": "shaganappi-point",
+      "name": "Shaganappi Point",
+      "lat": 51.041603,
+      "lon": -114.124256,
+      "lines": ["202"],
+      "platformIds": ["3634", "3635"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "shawnessy",
+      "schematicId": "shawnessy",
+      "name": "Shawnessy",
+      "lat": 50.910603,
+      "lon": -114.070042,
+      "lines": ["201"],
+      "platformIds": ["3488", "9391", "9392"],
+      "departureRouteIds": ["102", "201", "52"]
+    },
+    {
+      "id": "sirocco",
+      "schematicId": "sirocco",
+      "name": "Sirocco",
+      "lat": 51.038152,
+      "lon": -114.169585,
+      "lines": ["202"],
+      "platformIds": ["3628", "3629"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "somerset-bridlewood",
+      "schematicId": "somerset-bridlewood",
+      "name": "Somerset-Bridlewood",
+      "lat": 50.89873,
+      "lon": -114.068945,
+      "lines": ["201"],
+      "platformIds": ["9386", "9390"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "southland",
+      "schematicId": "southland",
+      "name": "Southland",
+      "lat": 50.964452,
+      "lon": -114.076631,
+      "lines": ["201"],
+      "platformIds": ["6802", "8561"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "sunalta",
+      "schematicId": "sunalta",
+      "name": "Sunalta",
+      "lat": 51.044856,
+      "lon": -114.100198,
+      "lines": ["202"],
+      "platformIds": ["3636", "3637"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "sunnyside",
+      "schematicId": "sunnyside",
+      "name": "Sunnyside",
+      "lat": 51.056393,
+      "lon": -114.084356,
+      "lines": ["201"],
+      "platformIds": ["6820", "8562"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "tuscany",
+      "schematicId": "tuscany",
+      "name": "Tuscany",
+      "lat": 51.13451,
+      "lon": -114.235512,
+      "lines": ["201"],
+      "platformIds": ["3640", "3641"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "university",
+      "schematicId": "university",
+      "name": "University",
+      "lat": 51.080252,
+      "lon": -114.122996,
+      "lines": ["201"],
+      "platformIds": ["6816", "8566"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "victoria-park-stampede",
+      "schematicId": "victoria-park-stampede",
+      "name": "Victoria Park / Stampede",
+      "lat": 51.038395,
+      "lon": -114.058209,
+      "lines": ["201"],
+      "platformIds": ["6807", "8556"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "westbrook",
+      "schematicId": "westbrook",
+      "name": "Westbrook",
+      "lat": 51.040547,
+      "lon": -114.136596,
+      "lines": ["202"],
+      "platformIds": ["3632", "3633"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "whitehorn",
+      "schematicId": "whitehorn",
+      "name": "Whitehorn",
+      "lat": 51.087007,
+      "lon": -113.981828,
+      "lines": ["202"],
+      "platformIds": ["6808", "9385"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "zoo",
+      "schematicId": "zoo",
+      "name": "Zoo",
+      "lat": 51.047263,
+      "lon": -114.025497,
+      "lines": ["202"],
+      "platformIds": ["6813", "8568"],
+      "departureRouteIds": ["202"]
+    }
+  ],
+  "badges": [
+    {
+      "line": "201",
+      "num": "R",
+      "x": 219.87,
+      "y": 265.13,
+      "color": "#D71920",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "201",
+      "num": "R",
+      "x": 1218,
+      "y": 1055.0,
+      "color": "#D71920",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "202",
+      "num": "B",
+      "x": 250.0,
+      "y": 513,
+      "color": "#0077C8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "202",
+      "num": "B",
+      "x": 1548,
+      "y": 280.0,
+      "color": "#0077C8",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0.0,
+      "maxX": 1825.0,
+      "minY": 0.0,
+      "maxY": 1275.0
+    },
+    "minZoom": 0.5,
+    "maxZoom": 10
+  },
+  "geoProjection": {
+    "refLonWest": -114.235512,
+    "refLonEast": -113.948277,
+    "refXWest": 80.0,
+    "refXEast": 1580.0,
+    "refLatNorth": 51.125542,
+    "refLatSouth": 50.89876,
+    "refYNorth": 140.0,
+    "refYSouth": 1190.0
+  }
+}

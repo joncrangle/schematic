@@ -1,0 +1,1276 @@
+{
+  "id": "kasper",
+  "name": "Kasper Transportation",
+  "serviceArea": "Northwestern Ontario and Manitoba",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "scope": "national",
+  "jurisdiction": {
+    "country": "ca"
+  },
+  "status": "experimental",
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Kasper Transportation (Kasper Bus Lines), live bus status board",
+    "url": "https://gokasper.com/",
+    "license": "Best-effort attribution; no explicit data reuse terms found. Times are estimates only. Kasper does not guarantee arrival/departure times."
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "url": "https://gokasper.com/api/proxy/stations?populate=*",
+        "name": "Kasper Transportation",
+        "samsaraStations": {
+          "timeZone": "America/Toronto",
+          "coordinateOverrides": {
+            "10052": {
+              "lat": 49.845521,
+              "lon": -99.96291
+            },
+            "10053": {
+              "lat": 49.832606,
+              "lon": -99.961202
+            }
+          },
+          "routeAliases": {
+            "Brandon": "Brandon - Winnipeg"
+          }
+        }
+      }
+    ],
+    "defaultColor": "#145F32",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "samsara_boards",
+        "format": "json",
+        "url": "https://gokasper.com/api/station-samsara",
+        "trackerOrigin": "https://cloud.samsara.com",
+        "orgId": "9003668",
+        "pollIntervalSeconds": 60,
+        "requestsPerMinute": 30,
+        "stations": {
+          "9054": {
+            "name": "Kenora - McDonald's",
+            "lat": 49.762572,
+            "lon": -94.477214,
+            "routeIds": [
+              "Sioux Lookout - Winnipeg",
+              "Winnipeg - Sioux Lookout",
+              "Winnipeg - Balmertown",
+              "Balmertown - Winnipeg"
+            ]
+          },
+          "9056": {
+            "name": "Red Lake - ESSO Gas Station",
+            "lat": 51.016176,
+            "lon": -93.820362,
+            "routeIds": ["Winnipeg - Balmertown", "Balmertown - Winnipeg"]
+          },
+          "9057": {
+            "name": "Ear Falls - 105 Bar and Grill",
+            "lat": 50.6395723,
+            "lon": -93.2365764,
+            "routeIds": ["Winnipeg - Balmertown", "Balmertown - Winnipeg"]
+          },
+          "9058": {
+            "name": "Vermilion Bay - Shell Gas Station",
+            "lat": 49.8597831,
+            "lon": -93.3887846,
+            "routeIds": [
+              "Sioux Lookout - Winnipeg",
+              "Winnipeg - Sioux Lookout",
+              "Winnipeg - Balmertown",
+              "Balmertown - Winnipeg"
+            ]
+          },
+          "9059": {
+            "name": "Jellicoe - General Store",
+            "lat": 49.68425,
+            "lon": -87.53279,
+            "routeIds": ["Longlac - Thunder Bay", "Thunder Bay - Longlac"]
+          },
+          "9061": {
+            "name": "Nipigon - BVD",
+            "lat": 49.021797,
+            "lon": -88.28957,
+            "routeIds": [
+              "Longlac - Thunder Bay",
+              "Thunder Bay - Longlac",
+              "Thunder Bay - White River",
+              "White River - Thunder Bay"
+            ]
+          },
+          "9062": {
+            "name": "Sioux Lookout - JMK1 Hostel",
+            "lat": 50.106185,
+            "lon": -91.927014,
+            "routeIds": [
+              "Sioux Lookout - Thunder Bay",
+              "Thunder Bay - Sioux Lookout",
+              "Sioux Lookout - Winnipeg",
+              "Winnipeg - Sioux Lookout"
+            ]
+          },
+          "9063": {
+            "name": "Winnipeg - 1040 Beaver Hill",
+            "lat": 49.85529,
+            "lon": -97.065946,
+            "routeIds": [
+              "Sioux Lookout - Winnipeg",
+              "Winnipeg - Sioux Lookout",
+              "Winnipeg - Balmertown",
+              "Balmertown - Winnipeg"
+            ]
+          },
+          "9064": {
+            "name": "Geraldton - ESSO Gas Station",
+            "lat": 49.716599,
+            "lon": -86.95108,
+            "routeIds": ["Longlac - Thunder Bay", "Thunder Bay - Longlac"]
+          },
+          "9065": {
+            "name": "Greenstone Mine Camp",
+            "lat": 49.693505,
+            "lon": -86.959529,
+            "routeIds": ["Longlac - Thunder Bay", "Thunder Bay - Longlac"]
+          },
+          "9066": {
+            "name": "Upsala - XTR Gas Station-Restaurant",
+            "lat": 49.04156,
+            "lon": -90.46912,
+            "routeIds": ["Thunder Bay - Sioux Lookout", "Sioux Lookout - Thunder Bay"]
+          },
+          "9067": {
+            "name": "Dryden - Tim Horton's",
+            "lat": 49.7864006,
+            "lon": -92.80981,
+            "routeIds": ["Sioux Lookout - Winnipeg", "Winnipeg - Sioux Lookout"]
+          },
+          "9068": {
+            "name": "Beardmore - Franz's Gas and Groceries",
+            "lat": 49.601272,
+            "lon": -87.959863,
+            "routeIds": ["Longlac - Thunder Bay", "Thunder Bay - Longlac"]
+          },
+          "9069": {
+            "name": "Prawda - Shell Gas Station [On Demand]",
+            "lat": 49.64982,
+            "lon": -95.79267,
+            "routeIds": [
+              "Sioux Lookout - Winnipeg",
+              "Winnipeg - Sioux Lookout",
+              "Winnipeg - Balmertown",
+              "Balmertown - Winnipeg"
+            ]
+          },
+          "9070": {
+            "name": "Thunder Bay - 947 Memorial Avenue",
+            "lat": 48.409357,
+            "lon": -89.244704,
+            "routeIds": [
+              "Thunder Bay - Sioux Lookout",
+              "Sioux Lookout - Thunder Bay",
+              "Longlac - Thunder Bay",
+              "Thunder Bay - Longlac",
+              "Thunder Bay - White River",
+              "White River - Thunder Bay"
+            ]
+          },
+          "9071": {
+            "name": "Pays Plat - Fertengiger's [On Demand]",
+            "lat": 48.88249,
+            "lon": -87.55605,
+            "routeIds": ["Thunder Bay - White River", "White River - Thunder Bay"]
+          },
+          "9073": {
+            "name": "Schreiber - XTR Pizza Hut Express",
+            "lat": 48.8145,
+            "lon": -87.26849,
+            "routeIds": ["Thunder Bay - White River", "White River - Thunder Bay"]
+          },
+          "9074": {
+            "name": "Long Lake 58 General Store",
+            "lat": 49.785717,
+            "lon": -86.572986,
+            "routeIds": ["Longlac - Thunder Bay", "Thunder Bay - Longlac"]
+          },
+          "9075": {
+            "name": "Ignace - ESSO Gas Station",
+            "lat": 49.41676,
+            "lon": -91.66383,
+            "routeIds": ["Sioux Lookout - Thunder Bay", "Thunder Bay - Sioux Lookout"]
+          },
+          "9076": {
+            "name": "Terrace Bay - Moe and Jo's",
+            "lat": 48.78469,
+            "lon": -87.09535,
+            "routeIds": ["Thunder Bay - White River", "White River - Thunder Bay"]
+          },
+          "9077": {
+            "name": "Marathon - Robins at Circle K",
+            "lat": 48.718419,
+            "lon": -86.377138,
+            "routeIds": ["Thunder Bay - White River", "White River - Thunder Bay"]
+          },
+          "9078": {
+            "name": "Kakabeka - ESSO Gas Station",
+            "lat": 48.40185,
+            "lon": -89.61532,
+            "routeIds": ["Thunder Bay - Sioux Lookout", "Sioux Lookout - Thunder Bay"]
+          },
+          "9079": {
+            "name": "Macdiarmid Hwy 11 Junction",
+            "lat": 49.43987,
+            "lon": -88.12291,
+            "routeIds": ["Longlac - Thunder Bay", "Thunder Bay - Longlac"]
+          },
+          "9080": {
+            "name": "Longlac - Robin's Donuts",
+            "lat": 49.78229,
+            "lon": -86.53401,
+            "routeIds": ["Longlac - Thunder Bay", "Thunder Bay - Longlac"]
+          },
+          "9081": {
+            "name": "Sioux Lookout - Tim Horton's",
+            "lat": 50.092686,
+            "lon": -91.919545,
+            "routeIds": [
+              "Thunder Bay - Sioux Lookout",
+              "Sioux Lookout - Thunder Bay",
+              "Sioux Lookout - Winnipeg",
+              "Winnipeg - Sioux Lookout"
+            ]
+          },
+          "9082": {
+            "name": "Winnipeg - Balmoral Transit Station",
+            "lat": 49.8911015,
+            "lon": -97.152289,
+            "routeIds": [
+              "Winnipeg - Balmertown",
+              "Balmertown - Winnipeg",
+              "Winnipeg - Sioux Lookout",
+              "Sioux Lookout - Winnipeg",
+              "The Pas - Winnipeg",
+              "Winnipeg - The Pas",
+              "Thompson - Winnipeg",
+              "Winnipeg - Thompson",
+              "Brandon - Winnipeg"
+            ]
+          },
+          "9083": {
+            "name": "Pic Mobert Hwy 17 Junction",
+            "lat": 48.714857,
+            "lon": -85.580044,
+            "routeIds": ["Thunder Bay - White River", "White River - Thunder Bay"]
+          },
+          "9084": {
+            "name": "Kenora - River Drive and Highway 17",
+            "lat": 49.75985,
+            "lon": -94.46653,
+            "routeIds": [
+              "Sioux Lookout - Winnipeg",
+              "Winnipeg - Sioux Lookout",
+              "Winnipeg - Balmertown",
+              "Balmertown - Winnipeg"
+            ]
+          },
+          "9085": {
+            "name": "White River - BVD",
+            "lat": 48.593753,
+            "lon": -85.2779108,
+            "routeIds": ["Thunder Bay - White River", "White River - Thunder Bay"]
+          },
+          "9086": {
+            "name": "Manitouwadge Hwy 17 Junction",
+            "lat": 48.70401,
+            "lon": -85.85837,
+            "routeIds": ["Thunder Bay - White River", "White River - Thunder Bay"]
+          },
+          "9087": {
+            "name": "Dinorwic - Postal Boxes",
+            "lat": 49.6919128,
+            "lon": -92.5022206,
+            "routeIds": [
+              "Sioux Lookout - Thunder Bay",
+              "Thunder Bay - Sioux Lookout",
+              "Sioux Lookout - Winnipeg",
+              "Winnipeg - Sioux Lookout"
+            ]
+          },
+          "9088": {
+            "name": "Balmer Motel",
+            "lat": 51.055956,
+            "lon": -93.744949,
+            "routeIds": ["Winnipeg - Balmertown", "Balmertown - Winnipeg"]
+          },
+          "9089": {
+            "name": "Balmertown - Gold Corp",
+            "lat": 51.047814,
+            "lon": -93.736379,
+            "routeIds": ["Winnipeg - Balmertown", "Balmertown - Winnipeg"]
+          },
+          "9090": {
+            "name": "Perrault Falls - Dutchie's General Store",
+            "lat": 50.342394,
+            "lon": -93.154629,
+            "routeIds": ["Winnipeg - Balmertown", "Balmertown - Winnipeg"]
+          },
+          "9906": {
+            "name": "Sioux Lookout - Airport",
+            "lat": 50.115237,
+            "lon": -91.903207,
+            "routeIds": [
+              "Thunder Bay - Sioux Lookout",
+              "Winnipeg - Sioux Lookout",
+              "Sioux Lookout - Winnipeg"
+            ]
+          },
+          "9907": {
+            "name": "Winnipeg - Airport [On Demand]",
+            "lat": 49.904905,
+            "lon": -97.22283,
+            "routeIds": [
+              "Sioux Lookout - Winnipeg",
+              "The Pas - Winnipeg",
+              "Winnipeg - The Pas",
+              "Thompson - Winnipeg",
+              "Winnipeg - Thompson",
+              "Brandon - Winnipeg",
+              "Winnipeg - Sioux Lookout"
+            ]
+          },
+          "9908": {
+            "name": "Thunder Bay - Airport [On Demand]",
+            "lat": 48.371938,
+            "lon": -89.312062,
+            "routeIds": [
+              "Sioux Lookout - Thunder Bay",
+              "White River - Thunder Bay",
+              "Longlac - Thunder Bay"
+            ]
+          },
+          "9985": {
+            "name": "Winnipeg - 1475 Dugald Rd",
+            "lat": 49.8862456,
+            "lon": -97.051778,
+            "routeIds": [
+              "The Pas - Winnipeg",
+              "Winnipeg - The Pas",
+              "Thompson - Winnipeg",
+              "Winnipeg - Thompson",
+              "Brandon - Winnipeg"
+            ]
+          },
+          "9987": {
+            "name": "Elie - Tim Hortons [On Demand]",
+            "lat": 49.907868,
+            "lon": -97.758528,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas", "Brandon - Winnipeg"]
+          },
+          "9989": {
+            "name": "Gladstone - Co op Gas Bar [On Demand]",
+            "lat": 50.212674,
+            "lon": -98.948915,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "9990": {
+            "name": "Gladstone - Co op Agro Centre [On Demand]",
+            "lat": 50.225227,
+            "lon": -99.042146,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "9991": {
+            "name": "Neepawa - Dairy Queen",
+            "lat": 50.226657,
+            "lon": -99.473306,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "9992": {
+            "name": "Riding Mountain - Number 5 Store [On Demand]",
+            "lat": 50.53144,
+            "lon": -99.468917,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "9993": {
+            "name": "Kelwood - The Barn [On Demand]",
+            "lat": 50.6238469,
+            "lon": -99.471657,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "9994": {
+            "name": "McCreary - Agassiz Hotel [On Demand]",
+            "lat": 50.767387,
+            "lon": -99.490489,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "9996": {
+            "name": "Ste Rose Du Lac - Variety Shop",
+            "lat": 51.0618839,
+            "lon": -99.5236624,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "9998": {
+            "name": "Ethelbert - Burdeniuks Gas Station [On Demand]",
+            "lat": 51.5247121,
+            "lon": -100.4134236,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "9999": {
+            "name": "Pine River - Highway 271 [On Demand]",
+            "lat": 51.783992,
+            "lon": -100.547508,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10000": {
+            "name": "Cowan - Kolisnyk's General Store [On Demand]",
+            "lat": 52.03322,
+            "lon": -100.649869,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10001": {
+            "name": "Minitonas - The Shop Minitonas [On Demand]",
+            "lat": 52.085444,
+            "lon": -101.036898,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10003": {
+            "name": "Bowsman - Bowsman Hotel [On Demand]",
+            "lat": 52.23845,
+            "lon": -101.207193,
+            "routeIds": ["Winnipeg - The Pas", "The Pas - Winnipeg"]
+          },
+          "10004": {
+            "name": "Indian Birch - Wuskwi Sipihk Gas Bar [On Demand]",
+            "lat": 52.483654,
+            "lon": -101.094299,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10005": {
+            "name": "Mafeking - TEMPO, Mafeking Gas",
+            "lat": 52.684066,
+            "lon": -101.11046,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10006": {
+            "name": "Overflowing River [On Demand]",
+            "lat": 53.143618,
+            "lon": -101.098309,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10013": {
+            "name": "Swan River - Tim Hortons",
+            "lat": 52.1123371,
+            "lon": -101.2502672,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10015": {
+            "name": "Dauphin - Dairy Queen",
+            "lat": 51.135151,
+            "lon": -100.062251,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10016": {
+            "name": "Portage La Prairie - Tim Hortons [On Demand]",
+            "lat": 49.975083,
+            "lon": -98.333055,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas", "Brandon - Winnipeg"]
+          },
+          "10017": {
+            "name": "Headingley - Husky (ESSO) [On Demand]",
+            "lat": 49.875783,
+            "lon": -97.391263,
+            "routeIds": ["Winnipeg - The Pas", "The Pas - Winnipeg", "Brandon - Winnipeg"]
+          },
+          "10018": {
+            "name": "The Pas - Wescana Inn",
+            "lat": 53.82088,
+            "lon": -101.249282,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10020": {
+            "name": "Ste Rose Du Lac - Willard Monson House (AFM)",
+            "lat": 51.058353,
+            "lon": -99.522436,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10027": {
+            "name": "Paint Lake - 391 Hwy JCT",
+            "lat": 55.5150306,
+            "lon": -98.095071,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10028": {
+            "name": "Wabowden - Dwyer's General Store",
+            "lat": 54.908837,
+            "lon": -98.630517,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10029": {
+            "name": "Ponton Yard - Hwy 6",
+            "lat": 54.672352,
+            "lon": -99.1587027,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10030": {
+            "name": "Grand Rapids - Pelican Landing",
+            "lat": 53.1520621,
+            "lon": -99.259433,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10031": {
+            "name": "Saint Martin - Family Food",
+            "lat": 51.7121847,
+            "lon": -98.7342167,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10032": {
+            "name": "Fairford - Pinaymootang Gas Bar",
+            "lat": 51.572865,
+            "lon": -98.681624,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10033": {
+            "name": "Hilbre - General Store",
+            "lat": 51.502966,
+            "lon": -98.593933,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10034": {
+            "name": "Moosehorn - Co op Food Store",
+            "lat": 51.2916009,
+            "lon": -98.422491,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10035": {
+            "name": "Ashern - Petro-Canada",
+            "lat": 51.180566,
+            "lon": -98.349676,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10036": {
+            "name": "Eriksdale - Havakeen Lunch - Esso",
+            "lat": 50.860765,
+            "lon": -98.111932,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10037": {
+            "name": "Lundar - Esso",
+            "lat": 50.695139,
+            "lon": -98.041277,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10038": {
+            "name": "Saint Laurent - Petro Canada",
+            "lat": 50.368961,
+            "lon": -97.8900902,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10039": {
+            "name": "Woodlands - Tempo Gas Station",
+            "lat": 50.209603,
+            "lon": -97.666936,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10040": {
+            "name": "Warren - Market 6",
+            "lat": 50.1242795,
+            "lon": -97.5432408,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10041": {
+            "name": "Winnipeg Hotel - Victoria Inn",
+            "lat": 49.9012217,
+            "lon": -97.2113157,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10042": {
+            "name": "Winnipeg Hotel - Hilton Winnipeg Airport Suites",
+            "lat": 49.9003877,
+            "lon": -97.2107283,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10043": {
+            "name": "Winnipeg Hotel - HSC Canad Inns Destination Centre",
+            "lat": 49.9050361,
+            "lon": -97.1601188,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10044": {
+            "name": "Winnipeg Hotel - The Quest Inn",
+            "lat": 49.8948907,
+            "lon": -97.14738,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10045": {
+            "name": "Winnipeg Hotel - The Marlborough",
+            "lat": 49.8949265,
+            "lon": -97.1423105,
+            "routeIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+          },
+          "10047": {
+            "name": "Metzger Amish Community [On Demand]",
+            "lat": 51.009102,
+            "lon": -99.664454,
+            "routeIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+          },
+          "10048": {
+            "name": "Falcon Lake - Shell Gas Station [On Demand]",
+            "lat": 49.687713,
+            "lon": -95.3264269,
+            "routeIds": ["Sioux Lookout - Winnipeg", "Winnipeg - Sioux Lookout"]
+          },
+          "10049": {
+            "name": "MacGregor - Co-op Gas Bar",
+            "lat": 49.973507,
+            "lon": -98.767262,
+            "routeIds": ["Brandon - Winnipeg"]
+          },
+          "10050": {
+            "name": "Austin - Homestead Co-op",
+            "lat": 49.94701,
+            "lon": -98.991701,
+            "routeIds": ["Brandon - Winnipeg"]
+          },
+          "10051": {
+            "name": "Carberry - Esso",
+            "lat": 49.90069,
+            "lon": -99.355632,
+            "routeIds": ["Brandon - Winnipeg"]
+          },
+          "10052": {
+            "name": "Brandon - Clark Hall",
+            "lat": 49.845521,
+            "lon": -99.96291,
+            "routeIds": ["Brandon - Winnipeg"]
+          },
+          "10053": {
+            "name": "Brandon - Canad Inns Destination Center",
+            "lat": 49.832606,
+            "lon": -99.961202,
+            "routeIds": ["Brandon - Winnipeg"]
+          },
+          "11181": {
+            "name": "Nipigon - Zechner's Food Market [On Demand]",
+            "lat": 49.014127,
+            "lon": -88.263685,
+            "routeIds": [
+              "Thunder Bay - White River",
+              "Thunder Bay - Longlac",
+              "Longlac - Thunder Bay",
+              "White River - Thunder Bay"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "popularSurfaceRoutes": [
+    "Thunder Bay - White River",
+    "Thunder Bay - Longlac",
+    "Thunder Bay - Sioux Lookout",
+    "Sioux Lookout - Winnipeg",
+    "Winnipeg - Balmertown",
+    "Winnipeg - The Pas",
+    "Winnipeg - Thompson",
+    "Brandon - Winnipeg"
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "5", "6", "7", "8"],
+    "routeLineMap": {
+      "Thunder Bay - White River": "1",
+      "White River - Thunder Bay": "1",
+      "Thunder Bay - Longlac": "2",
+      "Longlac - Thunder Bay": "2",
+      "Thunder Bay - Sioux Lookout": "3",
+      "Sioux Lookout - Thunder Bay": "3",
+      "Sioux Lookout - Winnipeg": "4",
+      "Winnipeg - Sioux Lookout": "4",
+      "Winnipeg - Balmertown": "5",
+      "Balmertown - Winnipeg": "5",
+      "Winnipeg - The Pas": "6",
+      "The Pas - Winnipeg": "6",
+      "Winnipeg - Thompson": "7",
+      "Thompson - Winnipeg": "7",
+      "Brandon - Winnipeg": "8"
+    }
+  },
+  "bounds": [
+    {
+      "minLat": 48.331938,
+      "maxLat": 48.44185,
+      "minLon": -89.66532,
+      "maxLon": -89.262062
+    },
+    {
+      "minLat": 48.331938,
+      "maxLat": 48.449357,
+      "minLon": -89.362062,
+      "maxLon": -89.194704
+    },
+    {
+      "minLat": 48.361850000000004,
+      "maxLat": 48.449357,
+      "minLon": -89.66532,
+      "maxLon": -89.194704
+    },
+    {
+      "minLat": 48.361850000000004,
+      "maxLat": 49.081559999999996,
+      "minLon": -90.51912,
+      "maxLon": -89.56532
+    },
+    {
+      "minLat": 48.369357,
+      "maxLat": 49.054127,
+      "minLon": -89.294704,
+      "maxLon": -88.213685
+    },
+    {
+      "minLat": 48.369357,
+      "maxLat": 49.061797,
+      "minLon": -89.294704,
+      "maxLon": -88.23957
+    },
+    {
+      "minLat": 48.553753,
+      "maxLat": 48.754857,
+      "minLon": -85.630044,
+      "maxLon": -85.2279108
+    },
+    {
+      "minLat": 48.66401,
+      "maxLat": 48.754857,
+      "minLon": -85.90836999999999,
+      "maxLon": -85.530044
+    },
+    {
+      "minLat": 48.66401,
+      "maxLat": 48.758418999999996,
+      "minLon": -86.427138,
+      "maxLon": -85.80837
+    },
+    {
+      "minLat": 48.678419,
+      "maxLat": 48.82469,
+      "minLon": -87.14535,
+      "maxLon": -86.327138
+    },
+    {
+      "minLat": 48.74469,
+      "maxLat": 48.8545,
+      "minLon": -87.31849,
+      "maxLon": -87.04535
+    },
+    {
+      "minLat": 48.7745,
+      "maxLat": 48.922489999999996,
+      "minLon": -87.60605,
+      "maxLon": -87.21849
+    },
+    {
+      "minLat": 48.84249,
+      "maxLat": 49.054127,
+      "minLon": -88.31368499999999,
+      "maxLon": -87.50605
+    },
+    {
+      "minLat": 48.84249,
+      "maxLat": 49.061797,
+      "minLon": -88.33957,
+      "maxLon": -87.50605
+    },
+    {
+      "minLat": 48.974127,
+      "maxLat": 49.061797,
+      "minLon": -88.33957,
+      "maxLon": -88.213685
+    },
+    {
+      "minLat": 48.974127,
+      "maxLat": 49.47987,
+      "minLon": -88.31368499999999,
+      "maxLon": -88.07291000000001
+    },
+    {
+      "minLat": 48.981797,
+      "maxLat": 49.47987,
+      "minLon": -88.33957,
+      "maxLon": -88.07291000000001
+    },
+    {
+      "minLat": 49.00156,
+      "maxLat": 49.456759999999996,
+      "minLon": -91.71383,
+      "maxLon": -90.41912
+    },
+    {
+      "minLat": 49.37676,
+      "maxLat": 49.731912799999996,
+      "minLon": -92.5522206,
+      "maxLon": -91.61383000000001
+    },
+    {
+      "minLat": 49.39987,
+      "maxLat": 49.641272,
+      "minLon": -88.17291,
+      "maxLon": -87.909863
+    },
+    {
+      "minLat": 49.561272,
+      "maxLat": 49.72425,
+      "minLon": -88.009863,
+      "maxLon": -87.48279000000001
+    },
+    {
+      "minLat": 49.60982,
+      "maxLat": 49.727713,
+      "minLon": -95.84267,
+      "maxLon": -95.2764269
+    },
+    {
+      "minLat": 49.60982,
+      "maxLat": 49.802572,
+      "minLon": -95.84267,
+      "maxLon": -94.427214
+    },
+    {
+      "minLat": 49.60982,
+      "maxLat": 49.895289999999996,
+      "minLon": -97.115946,
+      "maxLon": -95.74267
+    },
+    {
+      "minLat": 49.64425,
+      "maxLat": 49.733505,
+      "minLon": -87.58279,
+      "maxLon": -86.909529
+    },
+    {
+      "minLat": 49.647713,
+      "maxLat": 49.802572,
+      "minLon": -95.3764269,
+      "maxLon": -94.427214
+    },
+    {
+      "minLat": 49.6519128,
+      "maxLat": 49.8264006,
+      "minLon": -92.85981,
+      "maxLon": -92.4522206
+    },
+    {
+      "minLat": 49.6519128,
+      "maxLat": 50.132686,
+      "minLon": -92.5522206,
+      "maxLon": -91.869545
+    },
+    {
+      "minLat": 49.6519128,
+      "maxLat": 50.155237,
+      "minLon": -92.5522206,
+      "maxLon": -91.853207
+    },
+    {
+      "minLat": 49.653505,
+      "maxLat": 49.756599,
+      "minLon": -87.009529,
+      "maxLon": -86.90108000000001
+    },
+    {
+      "minLat": 49.676599,
+      "maxLat": 49.825717,
+      "minLon": -87.00108,
+      "maxLon": -86.522986
+    },
+    {
+      "minLat": 49.71985,
+      "maxLat": 49.802572,
+      "minLon": -94.527214,
+      "maxLon": -94.41653000000001
+    },
+    {
+      "minLat": 49.71985,
+      "maxLat": 49.8997831,
+      "minLon": -94.51653,
+      "maxLon": -93.3387846
+    },
+    {
+      "minLat": 49.742290000000004,
+      "maxLat": 49.825717,
+      "minLon": -86.622986,
+      "maxLon": -86.48401
+    },
+    {
+      "minLat": 49.7464006,
+      "maxLat": 49.8997831,
+      "minLon": -93.43878459999999,
+      "maxLon": -92.75981
+    },
+    {
+      "minLat": 49.81529,
+      "maxLat": 49.9311015,
+      "minLon": -97.202289,
+      "maxLon": -97.015946
+    },
+    {
+      "minLat": 49.8197831,
+      "maxLat": 50.382394,
+      "minLon": -93.43878459999999,
+      "maxLon": -93.104629
+    },
+    {
+      "minLat": 49.835783,
+      "maxLat": 49.944905,
+      "minLon": -97.44126299999999,
+      "maxLon": -97.17283
+    },
+    {
+      "minLat": 49.835783,
+      "maxLat": 49.947868,
+      "minLon": -97.808528,
+      "maxLon": -97.341263
+    },
+    {
+      "minLat": 49.8462456,
+      "maxLat": 49.9311015,
+      "minLon": -97.202289,
+      "maxLon": -97.001778
+    },
+    {
+      "minLat": 49.8462456,
+      "maxLat": 49.934926499999996,
+      "minLon": -97.19231049999999,
+      "maxLon": -97.001778
+    },
+    {
+      "minLat": 49.8511015,
+      "maxLat": 49.9348907,
+      "minLon": -97.202289,
+      "maxLon": -97.09738
+    },
+    {
+      "minLat": 49.8511015,
+      "maxLat": 49.944905,
+      "minLon": -97.27283,
+      "maxLon": -97.102289
+    },
+    {
+      "minLat": 49.8511015,
+      "maxLat": 49.945036099999996,
+      "minLon": -97.2101188,
+      "maxLon": -97.102289
+    },
+    {
+      "minLat": 49.8548907,
+      "maxLat": 49.934926499999996,
+      "minLon": -97.19738,
+      "maxLon": -97.0923105
+    },
+    {
+      "minLat": 49.860387700000004,
+      "maxLat": 49.9412217,
+      "minLon": -97.2613157,
+      "maxLon": -97.1607283
+    },
+    {
+      "minLat": 49.860387700000004,
+      "maxLat": 49.945036099999996,
+      "minLon": -97.2607283,
+      "maxLon": -97.11011880000001
+    },
+    {
+      "minLat": 49.86069,
+      "maxLat": 50.266657,
+      "minLon": -99.52330599999999,
+      "maxLon": -98.992146
+    },
+    {
+      "minLat": 49.8612217,
+      "maxLat": 49.944905,
+      "minLon": -97.27283,
+      "maxLon": -97.1613157
+    },
+    {
+      "minLat": 49.864905,
+      "maxLat": 50.1642795,
+      "minLon": -97.5932408,
+      "maxLon": -97.17283
+    },
+    {
+      "minLat": 49.867868,
+      "maxLat": 50.015083,
+      "minLon": -98.383055,
+      "maxLon": -97.708528
+    },
+    {
+      "minLat": 49.935083,
+      "maxLat": 50.252674,
+      "minLon": -98.998915,
+      "maxLon": -98.283055
+    },
+    {
+      "minLat": 50.052686,
+      "maxLat": 50.146185,
+      "minLon": -91.977014,
+      "maxLon": -91.869545
+    },
+    {
+      "minLat": 50.052686,
+      "maxLat": 50.155237,
+      "minLon": -91.969545,
+      "maxLon": -91.853207
+    },
+    {
+      "minLat": 50.066185000000004,
+      "maxLat": 50.155237,
+      "minLon": -91.977014,
+      "maxLon": -91.853207
+    },
+    {
+      "minLat": 50.0842795,
+      "maxLat": 50.249603,
+      "minLon": -97.716936,
+      "maxLon": -97.49324080000001
+    },
+    {
+      "minLat": 50.169603,
+      "maxLat": 50.408961,
+      "minLon": -97.9400902,
+      "maxLon": -97.61693600000001
+    },
+    {
+      "minLat": 50.172674,
+      "maxLat": 50.265226999999996,
+      "minLon": -99.092146,
+      "maxLon": -98.898915
+    },
+    {
+      "minLat": 50.185227,
+      "maxLat": 50.266657,
+      "minLon": -99.52330599999999,
+      "maxLon": -98.992146
+    },
+    {
+      "minLat": 50.186657000000004,
+      "maxLat": 50.57144,
+      "minLon": -99.52330599999999,
+      "maxLon": -99.41891700000001
+    },
+    {
+      "minLat": 50.302394,
+      "maxLat": 50.6795723,
+      "minLon": -93.2865764,
+      "maxLon": -93.104629
+    },
+    {
+      "minLat": 50.328961,
+      "maxLat": 50.735139,
+      "minLon": -98.09127699999999,
+      "maxLon": -97.8400902
+    },
+    {
+      "minLat": 50.491440000000004,
+      "maxLat": 50.663846899999996,
+      "minLon": -99.52165699999999,
+      "maxLon": -99.41891700000001
+    },
+    {
+      "minLat": 50.5838469,
+      "maxLat": 50.807387,
+      "minLon": -99.540489,
+      "maxLon": -99.421657
+    },
+    {
+      "minLat": 50.5995723,
+      "maxLat": 51.056176,
+      "minLon": -93.870362,
+      "maxLon": -93.1865764
+    },
+    {
+      "minLat": 50.655139,
+      "maxLat": 50.900765,
+      "minLon": -98.161932,
+      "maxLon": -97.991277
+    },
+    {
+      "minLat": 50.727387,
+      "maxLat": 51.098352999999996,
+      "minLon": -99.572436,
+      "maxLon": -99.440489
+    },
+    {
+      "minLat": 50.820765,
+      "maxLat": 51.220566,
+      "minLon": -98.399676,
+      "maxLon": -98.061932
+    },
+    {
+      "minLat": 50.969102,
+      "maxLat": 51.1018839,
+      "minLon": -99.714454,
+      "maxLon": -99.47366240000001
+    },
+    {
+      "minLat": 50.969102,
+      "maxLat": 51.175151,
+      "minLon": -100.112251,
+      "maxLon": -99.61445400000001
+    },
+    {
+      "minLat": 50.976176,
+      "maxLat": 51.087814,
+      "minLon": -93.870362,
+      "maxLon": -93.686379
+    },
+    {
+      "minLat": 51.007814,
+      "maxLat": 51.095956,
+      "minLon": -93.794949,
+      "maxLon": -93.686379
+    },
+    {
+      "minLat": 51.018353,
+      "maxLat": 51.1018839,
+      "minLon": -99.5736624,
+      "maxLon": -99.472436
+    },
+    {
+      "minLat": 51.095151,
+      "maxLat": 51.5647121,
+      "minLon": -100.4634236,
+      "maxLon": -100.012251
+    },
+    {
+      "minLat": 51.140566,
+      "maxLat": 51.3316009,
+      "minLon": -98.47249099999999,
+      "maxLon": -98.299676
+    },
+    {
+      "minLat": 51.2516009,
+      "maxLat": 51.542966,
+      "minLon": -98.643933,
+      "maxLon": -98.372491
+    },
+    {
+      "minLat": 51.462966,
+      "maxLat": 51.612865,
+      "minLon": -98.731624,
+      "maxLon": -98.54393300000001
+    },
+    {
+      "minLat": 51.4847121,
+      "maxLat": 51.823992,
+      "minLon": -100.59750799999999,
+      "maxLon": -100.3634236
+    },
+    {
+      "minLat": 51.532865,
+      "maxLat": 51.7521847,
+      "minLon": -98.7842167,
+      "maxLon": -98.631624
+    },
+    {
+      "minLat": 51.6721847,
+      "maxLat": 53.1920621,
+      "minLon": -99.309433,
+      "maxLon": -98.68421670000001
+    },
+    {
+      "minLat": 51.743992,
+      "maxLat": 52.07322,
+      "minLon": -100.69986899999999,
+      "maxLon": -100.497508
+    },
+    {
+      "minLat": 51.99322,
+      "maxLat": 52.125444,
+      "minLon": -101.08689799999999,
+      "maxLon": -100.599869
+    },
+    {
+      "minLat": 52.045444,
+      "maxLat": 52.1523371,
+      "minLon": -101.3002672,
+      "maxLon": -100.986898
+    },
+    {
+      "minLat": 52.0723371,
+      "maxLat": 52.27845,
+      "minLon": -101.3002672,
+      "maxLon": -101.157193
+    },
+    {
+      "minLat": 52.19845,
+      "maxLat": 52.523654,
+      "minLon": -101.257193,
+      "maxLon": -101.04429900000001
+    },
+    {
+      "minLat": 52.443654,
+      "maxLat": 52.724066,
+      "minLon": -101.16046,
+      "maxLon": -101.04429900000001
+    },
+    {
+      "minLat": 52.644066,
+      "maxLat": 53.183617999999996,
+      "minLon": -101.16046,
+      "maxLon": -101.048309
+    },
+    {
+      "minLat": 53.103618,
+      "maxLat": 53.86088,
+      "minLon": -101.29928199999999,
+      "maxLon": -101.048309
+    },
+    {
+      "minLat": 53.1120621,
+      "maxLat": 54.712351999999996,
+      "minLon": -99.309433,
+      "maxLon": -99.10870270000001
+    },
+    {
+      "minLat": 54.632352,
+      "maxLat": 54.948837,
+      "minLon": -99.2087027,
+      "maxLon": -98.580517
+    },
+    {
+      "minLat": 54.868837,
+      "maxLat": 55.5550306,
+      "minLon": -98.680517,
+      "maxLon": -98.04507100000001
+    },
+    {
+      "minLat": 49.79,
+      "maxLat": 49.94,
+      "minLon": -100.02,
+      "maxLon": -99.2
+    }
+  ],
+  "cityPresets": [
+    {
+      "name": "Thunder Bay",
+      "lat": 48.409357,
+      "lon": -89.244704
+    },
+    {
+      "name": "Winnipeg",
+      "lat": 49.8911015,
+      "lon": -97.152289
+    },
+    {
+      "name": "Sioux Lookout",
+      "lat": 50.092686,
+      "lon": -91.919545
+    }
+  ],
+  "shortName": "Kasper"
+}

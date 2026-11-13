@@ -1,0 +1,832 @@
+{
+  "viewBoxWidth": 1660,
+  "viewBoxHeight": 1200,
+  "lines": [
+    {
+      "id": "95-VIC",
+      "name": "Langford / Downtown Blink",
+      "color": "#F58220",
+      "points": [
+        {
+          "x": 140,
+          "y": 460
+        },
+        {
+          "x": 320,
+          "y": 460
+        },
+        {
+          "x": 700,
+          "y": 460
+        },
+        {
+          "x": 700,
+          "y": 1040
+        }
+      ]
+    },
+    {
+      "id": "14-VIC",
+      "name": "Vic General / UVic",
+      "color": "#00A5C9",
+      "points": [
+        {
+          "x": 380,
+          "y": 300
+        },
+        {
+          "x": 380,
+          "y": 480
+        },
+        {
+          "x": 780,
+          "y": 880
+        },
+        {
+          "x": 1100,
+          "y": 880
+        },
+        {
+          "x": 1340,
+          "y": 640
+        },
+        {
+          "x": 1340,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "4-VIC",
+      "name": "UVic / Downtown via Hillside",
+      "color": "#00A5C9",
+      "points": [
+        {
+          "x": 860,
+          "y": 1040
+        },
+        {
+          "x": 780,
+          "y": 960
+        },
+        {
+          "x": 780,
+          "y": 880
+        },
+        {
+          "x": 780,
+          "y": 780
+        },
+        {
+          "x": 940,
+          "y": 620
+        },
+        {
+          "x": 1100,
+          "y": 620
+        },
+        {
+          "x": 1340,
+          "y": 380
+        },
+        {
+          "x": 1340,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "15-VIC",
+      "name": "Esquimalt / UVic",
+      "color": "#F58220",
+      "points": [
+        {
+          "x": 380,
+          "y": 800
+        },
+        {
+          "x": 540,
+          "y": 960
+        },
+        {
+          "x": 1100,
+          "y": 960
+        },
+        {
+          "x": 1420,
+          "y": 640
+        },
+        {
+          "x": 1420,
+          "y": 380
+        },
+        {
+          "x": 1340,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "26-VIC",
+      "name": "UVic / Dockyard via McKenzie-Tillicum",
+      "color": "#00A5C9",
+      "points": [
+        {
+          "x": 380,
+          "y": 800
+        },
+        {
+          "x": 540,
+          "y": 640
+        },
+        {
+          "x": 540,
+          "y": 400
+        },
+        {
+          "x": 1240,
+          "y": 400
+        },
+        {
+          "x": 1340,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "6-VIC",
+      "name": "Royal Oak Exch / Downtown via Royal Oak Centre",
+      "color": "#00A5C9",
+      "points": [
+        {
+          "x": 660,
+          "y": 120
+        },
+        {
+          "x": 660,
+          "y": 760
+        },
+        {
+          "x": 780,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "27-VIC",
+      "name": "Gordon Head / Downtown",
+      "color": "#00A5C9",
+      "points": [
+        {
+          "x": 860,
+          "y": 1040
+        },
+        {
+          "x": 1020,
+          "y": 880
+        },
+        {
+          "x": 1020,
+          "y": 620
+        },
+        {
+          "x": 1420,
+          "y": 220
+        },
+        {
+          "x": 1420,
+          "y": 200
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "langford",
+      "name": "Langford Exchange",
+      "x": 140,
+      "y": 460,
+      "lines": ["95-VIC"],
+      "label": {
+        "x": 158,
+        "y": 440,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "colwood",
+      "name": "Colwood Exchange",
+      "x": 320,
+      "y": 460,
+      "lines": ["95-VIC"],
+      "label": {
+        "x": 320,
+        "y": 490,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "legislature",
+      "name": "Legislature Exchange",
+      "x": 700,
+      "y": 1040,
+      "lines": ["95-VIC"],
+      "label": {
+        "x": 680,
+        "y": 1040,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "uptown",
+      "name": "Uptown",
+      "x": 700,
+      "y": 460,
+      "lines": ["95-VIC"],
+      "label": {
+        "x": 718,
+        "y": 440,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "royal-oak",
+      "name": "Royal Oak Exchange",
+      "x": 660,
+      "y": 120,
+      "lines": ["6-VIC"],
+      "label": {
+        "x": 678,
+        "y": 100,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "douglas-view",
+      "name": "Downtown",
+      "x": 780,
+      "y": 880,
+      "lines": ["14-VIC", "4-VIC", "6-VIC"],
+      "label": {
+        "x": 798,
+        "y": 860,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "fairfield-blanshard",
+      "name": "Fairfield at Blanshard",
+      "x": 860,
+      "y": 1040,
+      "lines": ["4-VIC", "27-VIC"],
+      "label": {
+        "x": 880,
+        "y": 1060,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "uvic",
+      "name": "UVic Exchange",
+      "x": 1340,
+      "y": 300,
+      "lines": ["14-VIC", "4-VIC", "15-VIC", "26-VIC"],
+      "label": {
+        "x": 1320,
+        "y": 280,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "vic-general",
+      "name": "Victoria General Hospital",
+      "x": 380,
+      "y": 300,
+      "lines": ["14-VIC"],
+      "label": {
+        "x": 398,
+        "y": 280,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "dockyard",
+      "name": "HMC Dockyard Terminal",
+      "x": 380,
+      "y": 800,
+      "lines": ["15-VIC", "26-VIC"],
+      "label": {
+        "x": 360,
+        "y": 800,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tillicum",
+      "name": "Tillicum Centre",
+      "x": 540,
+      "y": 400,
+      "lines": ["26-VIC"],
+      "label": {
+        "x": 558,
+        "y": 380,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "hillside-shelbourne",
+      "name": "Hillside / Shelbourne",
+      "x": 1100,
+      "y": 620,
+      "lines": ["4-VIC"],
+      "label": {
+        "x": 1100,
+        "y": 650,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "gordon-head",
+      "name": "Tyndall at Ash",
+      "x": 1420,
+      "y": 200,
+      "lines": ["27-VIC"],
+      "label": {
+        "x": 1438,
+        "y": 180,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "95-VIC",
+      "num": "95",
+      "x": 210,
+      "y": 492,
+      "color": "#F58220",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "14-VIC",
+      "num": "14",
+      "x": 345,
+      "y": 340,
+      "color": "#00A5C9",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4-VIC",
+      "num": "4",
+      "x": 980,
+      "y": 588,
+      "color": "#00A5C9",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "15-VIC",
+      "num": "15",
+      "x": 850,
+      "y": 990,
+      "color": "#F58220",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "26-VIC",
+      "num": "26",
+      "x": 680,
+      "y": 370,
+      "color": "#00A5C9",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6-VIC",
+      "num": "6",
+      "x": 625,
+      "y": 260,
+      "color": "#00A5C9",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "27-VIC",
+      "num": "27",
+      "x": 1055,
+      "y": 740,
+      "color": "#00A5C9",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 1620,
+      "minY": 60,
+      "maxY": 1140
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -123.505,
+    "refLonEast": -123.309,
+    "refXWest": 140,
+    "refXEast": 1340,
+    "refLatNorth": 48.499,
+    "refLatSouth": 48.419,
+    "refYNorth": 160,
+    "refYSouth": 1040
+  },
+  "sequences": {
+    "95-VIC": ["langford", "colwood", "uptown", "legislature"],
+    "14-VIC": ["vic-general", "douglas-view", "uvic"],
+    "4-VIC": ["fairfield-blanshard", "douglas-view", "hillside-shelbourne", "uvic"],
+    "15-VIC": ["dockyard", "uvic"],
+    "26-VIC": ["dockyard", "tillicum", "uvic"],
+    "6-VIC": ["royal-oak", "douglas-view"],
+    "27-VIC": ["fairfield-blanshard", "gordon-head"]
+  },
+  "stationAliases": {
+    "code:101534": "langford",
+    "code:101542": "langford",
+    "code:101573": "langford",
+    "code:101625": "langford",
+    "code:101632": "langford",
+    "code:101232": "colwood",
+    "code:101241": "colwood",
+    "code:101245": "colwood",
+    "code:101469": "colwood",
+    "code:101237": "colwood",
+    "code:100002": "legislature",
+    "code:100003": "legislature",
+    "code:100004": "legislature",
+    "code:100006": "legislature",
+    "code:100029": "legislature",
+    "code:100355": "legislature",
+    "code:102211": "legislature",
+    "code:102467": "legislature",
+    "code:100554": "uptown",
+    "code:101401": "royal-oak",
+    "code:101407": "royal-oak",
+    "code:101416": "royal-oak",
+    "code:101448": "royal-oak",
+    "code:102482": "royal-oak",
+    "code:102489": "royal-oak",
+    "code:102490": "royal-oak",
+    "code:102495": "royal-oak",
+    "code:102510": "royal-oak",
+    "code:102511": "royal-oak",
+    "code:100042": "douglas-view",
+    "code:102719": "douglas-view",
+    "code:100024": "fairfield-blanshard",
+    "code:100025": "fairfield-blanshard",
+    "code:104111": "fairfield-blanshard",
+    "code:100405": "uvic",
+    "code:100507": "uvic",
+    "code:100741": "uvic",
+    "code:100858": "uvic",
+    "code:100871": "uvic",
+    "code:100878": "uvic",
+    "code:100904": "uvic",
+    "code:101076": "uvic",
+    "code:102416": "uvic",
+    "code:102417": "uvic",
+    "code:102420": "uvic",
+    "code:102426": "uvic",
+    "code:100000": "uvic",
+    "code:100705": "uvic",
+    "code:100889": "uvic",
+    "code:101119": "vic-general",
+    "code:102611": "vic-general",
+    "code:100698": "dockyard",
+    "code:100671": "tillicum",
+    "code:102444": "tillicum",
+    "code:100595": "hillside-shelbourne",
+    "code:101357": "gordon-head",
+    "code:100648": "tillicum",
+    "code:100551": "uptown",
+    "code:100566": "hillside-shelbourne",
+    "code:100628": "tillicum",
+    "code:100033": "douglas-view",
+    "code:100048": "douglas-view",
+    "code:100032": "douglas-view"
+  },
+  "stationIndex": [
+    {
+      "id": "colwood",
+      "schematicId": "colwood",
+      "name": "Colwood Exchange",
+      "lat": 48.44495,
+      "lon": -123.4662,
+      "lines": ["95-VIC"],
+      "platformIds": ["101232", "101237", "101241", "101245", "101469"],
+      "departureRouteIds": [
+        "38-VIC",
+        "43-VIC",
+        "46-VIC",
+        "48-VIC",
+        "51X-VIC",
+        "52-VIC",
+        "61-VIC",
+        "95-VIC"
+      ]
+    },
+    {
+      "id": "douglas-view",
+      "schematicId": "douglas-view",
+      "name": "Downtown",
+      "lat": 48.42437,
+      "lon": -123.36532,
+      "lines": ["14-VIC", "4-VIC", "6-VIC"],
+      "platformIds": ["100032", "100033", "100042", "100048", "102719"],
+      "departureRouteIds": [
+        "1-VIC",
+        "11-VIC",
+        "14-VIC",
+        "15-VIC",
+        "2-VIC",
+        "21-VIC",
+        "21N-VIC",
+        "22-VIC",
+        "22A-VIC",
+        "24-VIC",
+        "25-VIC",
+        "27-VIC",
+        "28-VIC",
+        "28X-VIC",
+        "3-VIC",
+        "30-VIC",
+        "31-VIC",
+        "32-VIC",
+        "4-VIC",
+        "47-VIC",
+        "48-VIC",
+        "5-VIC",
+        "53-VIC",
+        "6-VIC",
+        "61-VIC",
+        "65-VIC",
+        "6A-VIC",
+        "6B-VIC",
+        "7-VIC",
+        "70-VIC",
+        "71-VIC",
+        "72-VIC",
+        "72A-VIC",
+        "75-VIC",
+        "7N-VIC",
+        "95-VIC"
+      ]
+    },
+    {
+      "id": "fairfield-blanshard",
+      "schematicId": "fairfield-blanshard",
+      "name": "Fairfield at Blanshard",
+      "lat": 48.42124,
+      "lon": -123.36353,
+      "lines": ["27-VIC", "4-VIC"],
+      "platformIds": ["100024", "100025", "104111"],
+      "departureRouteIds": [
+        "1-VIC",
+        "21-VIC",
+        "21N-VIC",
+        "27-VIC",
+        "27X-VIC",
+        "28-VIC",
+        "28X-VIC",
+        "4-VIC",
+        "7-VIC",
+        "7N-VIC"
+      ]
+    },
+    {
+      "id": "100595",
+      "schematicId": "hillside-shelbourne",
+      "name": "Hillside / Shelbourne",
+      "lat": 48.44482,
+      "lon": -123.33521,
+      "lines": ["4-VIC"],
+      "platformIds": ["100566", "100595"],
+      "departureRouteIds": ["4-VIC", "9-VIC"]
+    },
+    {
+      "id": "100698",
+      "schematicId": "dockyard",
+      "name": "HMC Dockyard Terminal",
+      "lat": 48.42764,
+      "lon": -123.42815,
+      "lines": ["15-VIC", "26-VIC"],
+      "platformIds": ["100698"],
+      "departureRouteIds": ["15-VIC", "26-VIC", "40-VIC", "46-VIC"]
+    },
+    {
+      "id": "langford",
+      "schematicId": "langford",
+      "name": "Langford Exchange",
+      "lat": 48.44546,
+      "lon": -123.50503,
+      "lines": ["95-VIC"],
+      "platformIds": ["101534", "101542", "101573", "101625", "101632"],
+      "departureRouteIds": [
+        "38-VIC",
+        "46-VIC",
+        "48-VIC",
+        "49-VIC",
+        "51X-VIC",
+        "52-VIC",
+        "53-VIC",
+        "54-VIC",
+        "55-VIC",
+        "57-VIC",
+        "58-VIC",
+        "59-VIC",
+        "60-VIC",
+        "61-VIC",
+        "64-VIC",
+        "95-VIC"
+      ]
+    },
+    {
+      "id": "legislature",
+      "schematicId": "legislature",
+      "name": "Legislature Exchange",
+      "lat": 48.41974,
+      "lon": -123.36901,
+      "lines": ["95-VIC"],
+      "platformIds": [
+        "100002",
+        "100003",
+        "100004",
+        "100006",
+        "100029",
+        "100355",
+        "102211",
+        "102467"
+      ],
+      "departureRouteIds": [
+        "10-VIC",
+        "3-VIC",
+        "30-VIC",
+        "31-VIC",
+        "32-VIC",
+        "47-VIC",
+        "48-VIC",
+        "53-VIC",
+        "61-VIC",
+        "65-VIC",
+        "70-VIC",
+        "70X-VIC",
+        "71-VIC",
+        "72-VIC",
+        "72A-VIC",
+        "75-VIC",
+        "95-VIC"
+      ]
+    },
+    {
+      "id": "royal-oak",
+      "schematicId": "royal-oak",
+      "name": "Royal Oak Exchange",
+      "lat": 48.49863,
+      "lon": -123.38425,
+      "lines": ["6-VIC"],
+      "platformIds": [
+        "101401",
+        "101407",
+        "101416",
+        "101448",
+        "102482",
+        "102489",
+        "102490",
+        "102495",
+        "102510",
+        "102511"
+      ],
+      "departureRouteIds": [
+        "30-VIC",
+        "31-VIC",
+        "32-VIC",
+        "35-VIC",
+        "38-VIC",
+        "39-VIC",
+        "6-VIC",
+        "6A-VIC",
+        "6B-VIC",
+        "70-VIC",
+        "70X-VIC",
+        "71-VIC",
+        "72-VIC",
+        "72A-VIC",
+        "75-VIC",
+        "76-VIC",
+        "83-VIC",
+        "9-VIC"
+      ]
+    },
+    {
+      "id": "tillicum",
+      "schematicId": "tillicum",
+      "name": "Tillicum Centre",
+      "lat": 48.45223,
+      "lon": -123.39527,
+      "lines": ["26-VIC"],
+      "platformIds": ["100628", "100648", "100671", "102444"],
+      "departureRouteIds": ["11-VIC", "24-VIC", "25-VIC", "26-VIC", "8-VIC", "9-VIC"]
+    },
+    {
+      "id": "101357",
+      "schematicId": "gordon-head",
+      "name": "Tyndall at Ash",
+      "lat": 48.48881,
+      "lon": -123.31826,
+      "lines": ["27-VIC"],
+      "platformIds": ["101357"],
+      "departureRouteIds": ["27-VIC", "28X-VIC"]
+    },
+    {
+      "id": "100554",
+      "schematicId": "uptown",
+      "name": "Uptown",
+      "lat": 48.45316,
+      "lon": -123.37587,
+      "lines": ["95-VIC"],
+      "platformIds": ["100551", "100554"],
+      "departureRouteIds": [
+        "26A-VIC",
+        "30-VIC",
+        "31-VIC",
+        "32-VIC",
+        "47-VIC",
+        "48-VIC",
+        "53-VIC",
+        "61-VIC",
+        "65-VIC",
+        "70-VIC",
+        "71-VIC",
+        "72-VIC",
+        "72A-VIC",
+        "95-VIC"
+      ]
+    },
+    {
+      "id": "uvic",
+      "schematicId": "uvic",
+      "name": "UVic Exchange",
+      "lat": 48.46645,
+      "lon": -123.30886,
+      "lines": ["14-VIC", "15-VIC", "26-VIC", "4-VIC"],
+      "platformIds": [
+        "100000",
+        "100405",
+        "100507",
+        "100705",
+        "100741",
+        "100858",
+        "100871",
+        "100878",
+        "100889",
+        "100904",
+        "101076",
+        "102416",
+        "102417",
+        "102420",
+        "102426"
+      ],
+      "departureRouteIds": [
+        "11-VIC",
+        "12-VIC",
+        "14-VIC",
+        "15-VIC",
+        "17-VIC",
+        "26-VIC",
+        "26A-VIC",
+        "39-VIC",
+        "4-VIC",
+        "40-VIC",
+        "51X-VIC",
+        "7-VIC",
+        "76-VIC",
+        "7N-VIC",
+        "9-VIC"
+      ]
+    },
+    {
+      "id": "vic-general",
+      "schematicId": "vic-general",
+      "name": "Victoria General Hospital",
+      "lat": 48.46623,
+      "lon": -123.43502,
+      "lines": ["14-VIC"],
+      "platformIds": ["101119", "102611"],
+      "departureRouteIds": ["14-VIC", "22-VIC", "22A-VIC", "53-VIC"]
+    }
+  ]
+}

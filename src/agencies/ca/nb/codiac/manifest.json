@@ -1,0 +1,126 @@
+{
+  "id": "codiac",
+  "name": "Codiac Transpo",
+  "serviceArea": "Moncton, Dieppe and Riverview",
+  "shortName": "Codiac",
+  "locale": "en-CA",
+  "timezone": "America/Moncton",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "nb"
+  },
+  "bounds": [
+    {
+      "minLat": 46.0399242705062,
+      "maxLat": 46.167235000000005,
+      "minLon": -64.8940137946018,
+      "maxLon": -64.6798660277426
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Codiac Transpo / City of Moncton",
+    "url": "https://www.codiactranspo.ca/",
+    "license": "Official City transit data and TripSpark MyRide. No explicit reuse licence was found for the live API; attribution is provided on a best-effort basis.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Codiac Transpo GTFS",
+        "url": "https://app.codiactranspo.ca/gtfs/google_transit.zip",
+        "cacheFileName": "codiac-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tripspark",
+        "format": "json",
+        "url": "https://app.codiactranspo.ca",
+        "dateTimezone": "America/Moncton",
+        "vehicleTimeZone": "America/Moncton",
+        "pollIntervalSeconds": 60,
+        "sessionTokenArgument": 2
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["50", "51", "62", "64", "81", "93", "96"],
+  "cityPresets": [
+    {
+      "name": "Place Champlain Place",
+      "lat": 46.0967314490651,
+      "lon": -64.759525358452
+    },
+    {
+      "name": "North Plaza Nord",
+      "lat": 46.1133794908961,
+      "lon": -64.8290381709467
+    },
+    {
+      "name": "1110 Main",
+      "lat": 46.0862102261907,
+      "lon": -64.7851765027748
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["50", "51", "62", "64", "81", "93", "96"],
+    "titleDateTimezone": "America/Moncton",
+    "routeNames": {
+      "51": ["51", "Green Line - Ligne Verte"],
+      "94": ["94", "Centrale"],
+      "96": ["96", "Orange"],
+      "61": ["61", "Elmwood"],
+      "93": ["93", "Champlain"],
+      "94A": ["94A", "Centrale"],
+      "66": ["66", "Caledonia"],
+      "68": ["68", "Ch Salisbury Rd"],
+      "98": ["98", "Chartersville"],
+      "96A": ["96A", "Orange"],
+      "63": ["63", "Lewisville"],
+      "16": ["16", "Hennessey"],
+      "50": ["50", "Red Line - Ligne Rouge"],
+      "86": ["86", "Pinewood"],
+      "82": ["82", "Place Riverview Place"],
+      "64": ["64", "Hospitals - H\u00f4pitaux"],
+      "85": ["85", "Riverview Connector"],
+      "62": ["62", "Hildegard"],
+      "81": ["81", "Riverview"],
+      "67": ["67", "Edinburgh"],
+      "65": ["65", "Killam"],
+      "60": ["60", "Bessborough"]
+    },
+    "routeLineMap": {
+      "96A": "96"
+    }
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "tripspark-advisories",
+      "url": "https://app.codiactranspo.ca",
+      "pollIntervalSeconds": 180,
+      "sessionTokenArgument": 2,
+      "excludedNewsIds": ["416"],
+      "language": "en-CA",
+      "languageGroup": "codiac-advisories"
+    },
+    {
+      "type": "json",
+      "parser": "tripspark-advisories",
+      "url": "https://app.codiactranspo.ca",
+      "pollIntervalSeconds": 180,
+      "sessionTokenArgument": 2,
+      "excludedNewsIds": ["416"],
+      "language": "fr-CA",
+      "languageGroup": "codiac-advisories"
+    }
+  ]
+}

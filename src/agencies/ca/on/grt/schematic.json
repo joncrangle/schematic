@@ -1,0 +1,1074 @@
+{
+  "viewBoxWidth": 1217,
+  "viewBoxHeight": 1650,
+  "lines": [
+    {
+      "id": "ion-bus",
+      "name": "302 ION bus",
+      "color": "#0083C9",
+      "points": [
+        {
+          "x": 546,
+          "y": 1219
+        },
+        {
+          "x": 726,
+          "y": 1219
+        },
+        {
+          "x": 846,
+          "y": 1339
+        },
+        {
+          "x": 846,
+          "y": 1539
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "8 Weber",
+      "color": "#419152",
+      "points": [
+        {
+          "x": 546,
+          "y": 1219
+        },
+        {
+          "x": 834,
+          "y": 931
+        },
+        {
+          "x": 546,
+          "y": 643
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "name": "202 iXpress University",
+      "color": "#97C055",
+      "points": [
+        {
+          "x": 286,
+          "y": 615
+        },
+        {
+          "x": 546,
+          "y": 355
+        },
+        {
+          "x": 690,
+          "y": 211
+        },
+        {
+          "x": 546,
+          "y": 67
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "name": "201 iXpress Fischer-Hallman",
+      "color": "#3F7526",
+      "points": [
+        {
+          "x": 546,
+          "y": 67
+        },
+        {
+          "x": 546,
+          "y": 259
+        },
+        {
+          "x": 166,
+          "y": 639
+        },
+        {
+          "x": 166,
+          "y": 1169
+        },
+        {
+          "x": 426,
+          "y": 1429
+        }
+      ]
+    },
+    {
+      "id": "ion",
+      "name": "ION light rail",
+      "color": "#006BB7",
+      "points": [
+        {
+          "x": 546,
+          "y": 67
+        },
+        {
+          "x": 546,
+          "y": 1219
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "51 Hespeler",
+      "color": "#A63A22",
+      "points": [
+        {
+          "x": 846,
+          "y": 1539
+        },
+        {
+          "x": 846,
+          "y": 1339
+        },
+        {
+          "x": 946,
+          "y": 1239
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "conestoga",
+      "name": "Conestoga Station",
+      "x": 546,
+      "y": 67,
+      "lines": ["201", "202", "ion"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 546,
+        "y": 32,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "northfield",
+      "name": "Northfield Station",
+      "x": 546,
+      "y": 131,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 532,
+        "y": 131,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "research-technology",
+      "name": "Research and Technology Station",
+      "x": 546,
+      "y": 195,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 532,
+        "y": 195,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "university-waterloo",
+      "name": "University of Waterloo Station",
+      "x": 546,
+      "y": 259,
+      "lines": ["201", "ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 259,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "laurier-waterloo-park",
+      "name": "Laurier-Waterloo Park Station",
+      "x": 546,
+      "y": 323,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 521,
+        "y": 338,
+        "rot": -45,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "waterloo-public-square",
+      "name": "Waterloo Public Square Station",
+      "x": 546,
+      "y": 387,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 562,
+        "y": 387,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "willis-way",
+      "name": "Willis Way Station",
+      "x": 546,
+      "y": 451,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 562,
+        "y": 451,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "allen",
+      "name": "Allen Station",
+      "x": 546,
+      "y": 515,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 562,
+        "y": 515,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "grand-river-hospital",
+      "name": "Grand River Hospital Station",
+      "x": 546,
+      "y": 579,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 562,
+        "y": 579,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "central",
+      "name": "Central Station",
+      "x": 546,
+      "y": 643,
+      "lines": ["8", "ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 643,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "kitchener-city-hall",
+      "name": "Kitchener City Hall Station",
+      "x": 546,
+      "y": 707,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 532,
+        "y": 707,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "victoria-park",
+      "name": "Victoria Park Station",
+      "x": 546,
+      "y": 771,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 521,
+        "y": 771,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "frederick",
+      "name": "Frederick Station",
+      "x": 546,
+      "y": 835,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 562,
+        "y": 835,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "queen",
+      "name": "Queen Station",
+      "x": 546,
+      "y": 899,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 562,
+        "y": 899,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kitchener-market",
+      "name": "Kitchener Market Station",
+      "x": 546,
+      "y": 963,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 536,
+        "y": 963,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "borden",
+      "name": "Borden Station",
+      "x": 546,
+      "y": 1027,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 536,
+        "y": 1027,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "mill",
+      "name": "Mill Station",
+      "x": 546,
+      "y": 1091,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 536,
+        "y": 1091,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "block-line",
+      "name": "Block Line Station",
+      "x": 546,
+      "y": 1155,
+      "lines": ["ion"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 536,
+        "y": 1155,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "fairway",
+      "name": "Fairway Station",
+      "x": 546,
+      "y": 1219,
+      "lines": ["8", "ion", "ion-bus"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 546,
+        "y": 1252,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "king-university",
+      "name": "King/University",
+      "x": 546,
+      "y": 355,
+      "lines": ["202"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 575,
+        "y": 355,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "eastwood",
+      "name": "Eastwood CI",
+      "x": 834,
+      "y": 931,
+      "lines": ["8"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 850,
+        "y": 931,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fischer-hallman-queens",
+      "name": "Fischer-Hallman/Queens",
+      "x": 166,
+      "y": 639,
+      "lines": ["201"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 148,
+        "y": 639,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "conestoga-college",
+      "name": "Conestoga College Doon",
+      "x": 426,
+      "y": 1429,
+      "lines": ["201"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 426,
+        "y": 1453,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "university-college",
+      "name": "University/Conestoga College",
+      "x": 690,
+      "y": 211,
+      "lines": ["202"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 718,
+        "y": 211,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "boardwalk",
+      "name": "The Boardwalk Station",
+      "x": 286,
+      "y": 615,
+      "lines": ["202"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 306,
+        "y": 615,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sportsworld",
+      "name": "Sportsworld Station",
+      "x": 726,
+      "y": 1219,
+      "lines": ["ion-bus"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 726,
+        "y": 1184,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "pinebush",
+      "name": "Pinebush Station",
+      "x": 846,
+      "y": 1339,
+      "lines": ["51", "ion-bus"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 832,
+        "y": 1339,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cambridge-centre",
+      "name": "Cambridge Centre Station",
+      "x": 846,
+      "y": 1439,
+      "lines": ["51", "ion-bus"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 866,
+        "y": 1439,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ainslie-terminal",
+      "name": "Ainslie Terminal",
+      "x": 846,
+      "y": 1539,
+      "lines": ["51", "ion-bus"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 846,
+        "y": 1574,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "jamieson-cooper",
+      "name": "Jamieson/Cooper",
+      "x": 946,
+      "y": 1239,
+      "lines": ["51"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 966,
+        "y": 1239,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "ion",
+      "num": "ION",
+      "x": 510,
+      "y": 92,
+      "color": "#006BB7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "ion-bus",
+      "num": "302",
+      "x": 636,
+      "y": 1249,
+      "color": "#0083C9",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "202",
+      "num": "202",
+      "x": 380.13,
+      "y": 566.13,
+      "color": "#97C055",
+      "textColor": "#000000"
+    },
+    {
+      "line": "201",
+      "num": "201",
+      "x": 198,
+      "y": 1090,
+      "color": "#3F7526",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "x": 640,
+      "y": 1085,
+      "color": "#419152",
+      "textColor": "#000000"
+    },
+    {
+      "line": "51",
+      "num": "51",
+      "x": 936,
+      "y": 1289,
+      "color": "#A63A22",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1217,
+      "minY": 0,
+      "maxY": 1650
+    },
+    "minZoom": 0.5,
+    "maxZoom": 10
+  },
+  "geoProjection": {
+    "refLonWest": -80.56071,
+    "refLonEast": -80.289913,
+    "refXWest": 286,
+    "refXEast": 946,
+    "refLatNorth": 43.498292,
+    "refLatSouth": 43.357464,
+    "refYNorth": 67,
+    "refYSouth": 1539
+  },
+  "sequences": {
+    "8": ["fairway", "eastwood", "central"],
+    "51": ["ainslie-terminal", "cambridge-centre", "pinebush", "jamieson-cooper"],
+    "201": ["conestoga", "university-waterloo", "fischer-hallman-queens", "conestoga-college"],
+    "202": ["boardwalk", "king-university", "university-college", "conestoga"],
+    "ion": [
+      "conestoga",
+      "northfield",
+      "research-technology",
+      "university-waterloo",
+      "laurier-waterloo-park",
+      "waterloo-public-square",
+      "willis-way",
+      "allen",
+      "grand-river-hospital",
+      "central",
+      "kitchener-city-hall",
+      "victoria-park",
+      "frederick",
+      "queen",
+      "kitchener-market",
+      "borden",
+      "mill",
+      "block-line",
+      "fairway"
+    ],
+    "ion-bus": ["fairway", "sportsworld", "pinebush", "cambridge-centre", "ainslie-terminal"]
+  },
+  "stationAliases": {
+    "Conestoga Station - Southbound": "conestoga",
+    "Conestoga Station - Northbound": "conestoga",
+    "Conestoga Station (bus)": "conestoga",
+    "Northfield Station - Southbound": "northfield",
+    "Northfield Station - Northbound": "northfield",
+    "Research and Technology Station - Southbound": "research-technology",
+    "Research and Technology Station - Northbound": "research-technology",
+    "University Of Waterloo Station - Southbound": "university-waterloo",
+    "University Of Waterloo Station - Northbound": "university-waterloo",
+    "Laurier-Waterloo Park Station - Southbound": "laurier-waterloo-park",
+    "Laurier-Waterloo Park Station - Northbound": "laurier-waterloo-park",
+    "Waterloo Public Square Station - Northbound": "waterloo-public-square",
+    "Waterloo Public Square Station - Southbound": "waterloo-public-square",
+    "Willis Way Station - Southbound": "willis-way",
+    "Willis Way Station - Northbound": "willis-way",
+    "Allen Station - Southbound": "allen",
+    "Allen Station - Northbound": "allen",
+    "Grand River Hospital Station - Southbound": "grand-river-hospital",
+    "Grand River Hospital Station - Northbound": "grand-river-hospital",
+    "Grand River Hospital Station (bus)": "grand-river-hospital",
+    "Central Station - Southbound": "central",
+    "Central Station - Northbound": "central",
+    "Kitchener City Hall Station - Northbound": "kitchener-city-hall",
+    "Kitchener City Hall Station - Southbound": "kitchener-city-hall",
+    "Victoria Park Station - Southbound": "victoria-park",
+    "Victoria Park Station - Northbound": "victoria-park",
+    "Frederick Station - Northbound": "frederick",
+    "Frederick Station - Southbound": "frederick",
+    "Queen Station - Southbound": "queen",
+    "Queen Station - Northbound": "queen",
+    "Queen Station (Charles / Benton)": "queen",
+    "Kitchener Market Station - Southbound": "kitchener-market",
+    "Kitchener Market Station - Northbound": "kitchener-market",
+    "Borden Station - Southbound": "borden",
+    "Borden Station - Northbound": "borden",
+    "Mill Station - Southbound": "mill",
+    "Mill Station - Northbound": "mill",
+    "Block Line Station - Southbound": "block-line",
+    "Block Line Station - Northbound": "block-line",
+    "Fairway Station - Southbound": "fairway",
+    "Fairway Station - Northbound": "fairway",
+    "Fairway Station (bus)": "fairway",
+    "Fischer-Hallman / Queens": "fischer-hallman-queens",
+    "University Ave. / Conestoga College - Waterloo": "university-college",
+    "Jamieson / Cooper": "jamieson-cooper",
+    "Pinebush Station": "pinebush",
+    "Conestoga College Doon Campus - Door 3": "conestoga-college",
+    "Sportsworld Station": "sportsworld",
+    "Sportsworld Station - Southbound": "sportsworld",
+    "Sportsworld Station - Northbound": "sportsworld",
+    "Cambridge Centre Station": "cambridge-centre",
+    "Ainslie Terminal": "ainslie-terminal"
+  },
+  "stationIndex": [
+    {
+      "id": "place_AST",
+      "schematicId": "ainslie-terminal",
+      "name": "Ainslie Terminal",
+      "lat": 43.357464,
+      "lon": -80.313253,
+      "lines": ["51", "ion-bus"],
+      "platformIds": [
+        "1511",
+        "1512",
+        "1515",
+        "1516",
+        "1517",
+        "1518",
+        "1519",
+        "1520",
+        "1521",
+        "1522",
+        "6101"
+      ],
+      "departureRouteIds": ["206", "302", "50", "51", "53", "55", "57", "58", "63"]
+    },
+    {
+      "id": "allen",
+      "schematicId": "allen",
+      "name": "Allen Station",
+      "lat": 43.460097321,
+      "lon": -80.51885593999998,
+      "lines": ["ion"],
+      "platformIds": ["6007", "6117"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "block-line",
+      "schematicId": "block-line",
+      "name": "Block Line Station",
+      "lat": 43.422733033,
+      "lon": -80.46308476999998,
+      "lines": ["ion"],
+      "platformIds": ["6015", "6109"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "borden",
+      "schematicId": "borden",
+      "name": "Borden Station",
+      "lat": 43.44226659200001,
+      "lon": -80.47479269999998,
+      "lines": ["ion"],
+      "platformIds": ["6013", "6111"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "place_CBC",
+      "schematicId": "cambridge-centre",
+      "name": "Cambridge Centre Station",
+      "lat": 43.392657,
+      "lon": -80.322665,
+      "lines": ["51", "ion-bus"],
+      "platformIds": ["1063", "1065", "1066", "6020", "6104"],
+      "departureRouteIds": ["203", "302", "50", "51", "53", "56", "58", "60", "61", "65", "67"]
+    },
+    {
+      "id": "central",
+      "schematicId": "central",
+      "name": "Central Station",
+      "lat": 43.452895387,
+      "lon": -80.49867507,
+      "lines": ["8", "ion"],
+      "platformIds": ["6009", "6115"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "place_CCD",
+      "schematicId": "conestoga-college",
+      "name": "Conestoga College Doon",
+      "lat": 43.390379,
+      "lon": -80.403563,
+      "lines": ["201"],
+      "platformIds": ["1732", "3801"],
+      "departureRouteIds": ["10", "16", "201", "203", "36", "57", "61", "76"]
+    },
+    {
+      "id": "conestoga",
+      "schematicId": "conestoga",
+      "name": "Conestoga Station",
+      "lat": 43.49829213483276,
+      "lon": -80.52951572611032,
+      "lines": ["201", "202", "ion"],
+      "platformIds": [
+        "1126",
+        "1127",
+        "1128",
+        "1129",
+        "1130",
+        "3798",
+        "3799",
+        "3800",
+        "4005",
+        "6001",
+        "6123"
+      ],
+      "departureRouteIds": ["14", "201", "202", "21", "29", "301", "31", "6", "7", "9"]
+    },
+    {
+      "id": "place_ECI",
+      "schematicId": "eastwood",
+      "name": "Eastwood CI",
+      "lat": 43.439099,
+      "lon": -80.461002,
+      "lines": ["8"],
+      "platformIds": ["3576", "3715"],
+      "departureRouteIds": ["8"]
+    },
+    {
+      "id": "fairway",
+      "schematicId": "fairway",
+      "name": "Fairway Station",
+      "lat": 43.422341186,
+      "lon": -80.44254049,
+      "lines": ["8", "ion", "ion-bus"],
+      "platformIds": [
+        "3488",
+        "3489",
+        "3490",
+        "3491",
+        "3493",
+        "3495",
+        "3497",
+        "3499",
+        "6016",
+        "6024",
+        "6108"
+      ],
+      "departureRouteIds": ["1", "10", "12", "206", "23", "27", "28", "301", "302", "6", "7", "8"]
+    },
+    {
+      "id": "fischer-hallman-queens",
+      "schematicId": "fischer-hallman-queens",
+      "name": "Fischer-Hallman/Queens",
+      "lat": 43.42822,
+      "lon": -80.523417,
+      "lines": ["201"],
+      "platformIds": ["2981", "2986"],
+      "departureRouteIds": ["201"]
+    },
+    {
+      "id": "6113",
+      "schematicId": "frederick",
+      "name": "Frederick Station",
+      "lat": 43.44940161,
+      "lon": -80.48748309,
+      "lines": ["ion"],
+      "platformIds": ["6113"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "grand-river-hospital",
+      "schematicId": "grand-river-hospital",
+      "name": "Grand River Hospital Station",
+      "lat": 43.457139,
+      "lon": -80.511567,
+      "lines": ["ion"],
+      "platformIds": ["1272", "1900", "2540", "3242", "3243", "3279", "6008", "6116"],
+      "departureRouteIds": ["16", "301", "4", "7", "91"]
+    },
+    {
+      "id": "3411",
+      "schematicId": "jamieson-cooper",
+      "name": "Jamieson/Cooper",
+      "lat": 43.420696,
+      "lon": -80.289913,
+      "lines": ["51"],
+      "platformIds": ["3411"],
+      "departureRouteIds": ["51"]
+    },
+    {
+      "id": "place_KUN",
+      "schematicId": "king-university",
+      "name": "King/University",
+      "lat": 43.476148,
+      "lon": -80.524974,
+      "lines": ["202"],
+      "platformIds": ["1166", "1913", "2533", "2785", "3621"],
+      "departureRouteIds": ["12", "202", "29", "7", "8", "91"]
+    },
+    {
+      "id": "6114",
+      "schematicId": "kitchener-city-hall",
+      "name": "Kitchener City Hall Station",
+      "lat": 43.45210862,
+      "lon": -80.49118049,
+      "lines": ["ion"],
+      "platformIds": ["6114"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "kitchener-market",
+      "schematicId": "kitchener-market",
+      "name": "Kitchener Market Station",
+      "lat": 43.446375998,
+      "lon": -80.48384806,
+      "lines": ["ion"],
+      "platformIds": ["6012", "6112"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "laurier-waterloo-park",
+      "schematicId": "laurier-waterloo-park",
+      "name": "Laurier-Waterloo Park Station",
+      "lat": 43.46896069600001,
+      "lon": -80.53461781999998,
+      "lines": ["ion"],
+      "platformIds": ["6005", "6119"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "mill",
+      "schematicId": "mill",
+      "name": "Mill Station",
+      "lat": 43.433353495,
+      "lon": -80.47781542,
+      "lines": ["ion"],
+      "platformIds": ["6014", "6110"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "northfield",
+      "schematicId": "northfield",
+      "name": "Northfield Station",
+      "lat": 43.496965083,
+      "lon": -80.54312158,
+      "lines": ["ion"],
+      "platformIds": ["6002", "6122"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "pinebush",
+      "schematicId": "pinebush",
+      "name": "Pinebush Station",
+      "lat": 43.408319,
+      "lon": -80.327287,
+      "lines": ["51", "ion-bus"],
+      "platformIds": ["3508", "6019", "6023", "6105"],
+      "departureRouteIds": ["302", "51", "67"]
+    },
+    {
+      "id": "queen",
+      "schematicId": "queen",
+      "name": "Queen Station",
+      "lat": 43.448618,
+      "lon": -80.488854,
+      "lines": ["ion"],
+      "platformIds": ["1376", "1385", "2579", "6011"],
+      "departureRouteIds": ["3", "301", "35", "6", "7"]
+    },
+    {
+      "id": "research-technology",
+      "schematicId": "research-technology",
+      "name": "Research and Technology Station",
+      "lat": 43.481591713,
+      "lon": -80.5452988,
+      "lines": ["ion"],
+      "platformIds": ["6003", "6121"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "place_SPW",
+      "schematicId": "sportsworld",
+      "name": "Sportsworld Station",
+      "lat": 43.409928,
+      "lon": -80.392929,
+      "lines": ["ion-bus"],
+      "platformIds": ["1569", "1572", "1590", "6017", "6107"],
+      "departureRouteIds": ["203", "206", "302", "62", "67", "78"]
+    },
+    {
+      "id": "place_TBW",
+      "schematicId": "boardwalk",
+      "name": "The Boardwalk Station",
+      "lat": 43.435331,
+      "lon": -80.56071,
+      "lines": ["202"],
+      "platformIds": ["3881", "3908", "4000", "4001", "4002", "4003"],
+      "departureRouteIds": ["1", "13", "20", "202", "204", "29", "4", "5", "77"]
+    },
+    {
+      "id": "university-waterloo",
+      "schematicId": "university-waterloo",
+      "name": "University of Waterloo Station",
+      "lat": 43.473352503,
+      "lon": -80.54140163,
+      "lines": ["201", "ion"],
+      "platformIds": ["6004", "6120"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "university-college",
+      "schematicId": "university-college",
+      "name": "University/Conestoga College",
+      "lat": 43.479307,
+      "lon": -80.516202,
+      "lines": ["202"],
+      "platformIds": ["2788", "2832"],
+      "departureRouteIds": ["202"]
+    },
+    {
+      "id": "6010",
+      "schematicId": "victoria-park",
+      "name": "Victoria Park Station",
+      "lat": 43.450085011,
+      "lon": -80.49333684,
+      "lines": ["ion"],
+      "platformIds": ["6010"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "6118",
+      "schematicId": "waterloo-public-square",
+      "name": "Waterloo Public Square Station",
+      "lat": 43.464236449,
+      "lon": -80.52246747,
+      "lines": ["ion"],
+      "platformIds": ["6118"],
+      "departureRouteIds": ["301"]
+    },
+    {
+      "id": "6006",
+      "schematicId": "willis-way",
+      "name": "Willis Way Station",
+      "lat": 43.462566364,
+      "lon": -80.52381569,
+      "lines": ["ion"],
+      "platformIds": ["6006"],
+      "departureRouteIds": ["301"]
+    }
+  ]
+}

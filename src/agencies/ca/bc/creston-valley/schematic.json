@@ -1,0 +1,428 @@
+{
+  "viewBoxWidth": 1550,
+  "viewBoxHeight": 1350,
+  "lines": [
+    {
+      "id": "51-EKT",
+      "name": "Town Shuttle / Erickson",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 800,
+          "y": 900
+        },
+        {
+          "x": 950,
+          "y": 900
+        },
+        {
+          "x": 1050,
+          "y": 1000
+        },
+        {
+          "x": 1350,
+          "y": 1000
+        },
+        {
+          "x": 1400,
+          "y": 1050
+        },
+        {
+          "x": 1400,
+          "y": 1150
+        },
+        {
+          "x": 1350,
+          "y": 1200
+        },
+        {
+          "x": 1000,
+          "y": 1200
+        },
+        {
+          "x": 950,
+          "y": 1150
+        },
+        {
+          "x": 950,
+          "y": 900
+        },
+        {
+          "x": 800,
+          "y": 900
+        },
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "52-EKT",
+      "name": "North Creston",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 800
+        },
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 550
+        }
+      ]
+    },
+    {
+      "id": "54-EKT",
+      "name": "Wynndel",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 800
+        },
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 250
+        },
+        {
+          "x": 400,
+          "y": 150
+        },
+        {
+          "x": 250,
+          "y": 150
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "downtown",
+      "name": "11th Ave N at Canyon St",
+      "x": 600,
+      "y": 1000,
+      "lines": ["51-EKT", "52-EKT", "54-EKT"],
+      "label": {
+        "x": 600,
+        "y": 1032,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "mall",
+      "name": "Crestview Village",
+      "x": 600,
+      "y": 850,
+      "lines": ["52-EKT"],
+      "label": {
+        "x": 628,
+        "y": 850,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ramada",
+      "name": "Ramada Hotel",
+      "x": 500,
+      "y": 550,
+      "lines": ["52-EKT"],
+      "label": {
+        "x": 528,
+        "y": 550,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lakeview",
+      "name": "Hwy 3A at Lakeview Arrow Creek Rd",
+      "x": 500,
+      "y": 400,
+      "lines": ["54-EKT"],
+      "label": {
+        "x": 528,
+        "y": 400,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "elsie-holmes",
+      "name": "Elsie Holmes Rd at Wynndel Rd",
+      "x": 500,
+      "y": 250,
+      "lines": ["54-EKT"],
+      "label": {
+        "x": 528,
+        "y": 250,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "wynndel",
+      "name": "Wynndel General Store",
+      "x": 250,
+      "y": 150,
+      "lines": ["54-EKT"],
+      "label": {
+        "x": 250,
+        "y": 182,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "hospital",
+      "name": "Hillside St at 16th Ave N",
+      "x": 800,
+      "y": 900,
+      "lines": ["51-EKT"],
+      "label": {
+        "x": 800,
+        "y": 868,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "community-complex",
+      "name": "Creston Community Complex",
+      "x": 950,
+      "y": 900,
+      "lines": ["51-EKT"],
+      "label": {
+        "x": 975,
+        "y": 866,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "erickson",
+      "name": "Hwy 3 at Erickson Rd",
+      "x": 1300,
+      "y": 1000,
+      "lines": ["51-EKT"],
+      "label": {
+        "x": 1300,
+        "y": 968,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "25th-cedar",
+      "name": "25th Ave S at Cedar St",
+      "x": 1200,
+      "y": 1200,
+      "lines": ["51-EKT"],
+      "label": {
+        "x": 1200,
+        "y": 1232,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "library",
+      "name": "Creston Public Library",
+      "x": 1000,
+      "y": 1200,
+      "lines": ["51-EKT"],
+      "label": {
+        "x": 1000,
+        "y": 1232,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "51-EKT": ["downtown", "hospital", "community-complex", "erickson", "25th-cedar", "library"],
+    "52-EKT": ["downtown", "mall", "ramada"],
+    "54-EKT": ["downtown", "lakeview", "elsie-holmes", "wynndel"]
+  },
+  "stationAliases": {},
+  "badges": [
+    {
+      "line": "51-EKT",
+      "num": "51",
+      "x": 1150,
+      "y": 1032,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "52-EKT",
+      "num": "52",
+      "x": 632,
+      "y": 925,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "54-EKT",
+      "num": "54",
+      "x": 468,
+      "y": 325,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1510,
+      "minY": 40,
+      "maxY": 1310
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -116.55435,
+    "refLonEast": -116.46612,
+    "refXWest": 243,
+    "refXEast": 1358,
+    "refLatNorth": 49.18205,
+    "refLatSouth": 49.08958,
+    "refYNorth": 144,
+    "refYSouth": 1049
+  },
+  "stationIndex": [
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "11th Ave N at Canyon St",
+      "lat": 49.09599,
+      "lon": -116.51192,
+      "lines": ["51-EKT", "52-EKT", "54-EKT"],
+      "platformIds": ["162006", "162007"],
+      "departureRouteIds": ["51-EKT", "52-EKT", "54-EKT"]
+    },
+    {
+      "id": "162027",
+      "schematicId": "25th-cedar",
+      "name": "25th Ave S at Cedar St",
+      "lat": 49.09194,
+      "lon": -116.49512,
+      "lines": ["51-EKT"],
+      "platformIds": ["162027"],
+      "departureRouteIds": ["51-EKT"]
+    },
+    {
+      "id": "162023",
+      "schematicId": "community-complex",
+      "name": "Creston Community Complex",
+      "lat": 49.09803,
+      "lon": -116.5035,
+      "lines": ["51-EKT"],
+      "platformIds": ["162023"],
+      "departureRouteIds": ["51-EKT"]
+    },
+    {
+      "id": "162013",
+      "schematicId": "library",
+      "name": "Creston Public Library",
+      "lat": 49.08958,
+      "lon": -116.50586,
+      "lines": ["51-EKT"],
+      "platformIds": ["162013"],
+      "departureRouteIds": ["51-EKT"]
+    },
+    {
+      "id": "162029",
+      "schematicId": "mall",
+      "name": "Crestview Village",
+      "lat": 49.10452,
+      "lon": -116.51524,
+      "lines": ["52-EKT"],
+      "platformIds": ["162029"],
+      "departureRouteIds": ["52-EKT"]
+    },
+    {
+      "id": "162019",
+      "schematicId": "elsie-holmes",
+      "name": "Elsie Holmes Rd at Wynndel Rd",
+      "lat": 49.18205,
+      "lon": -116.53971,
+      "lines": ["54-EKT"],
+      "platformIds": ["162019"],
+      "departureRouteIds": ["54-EKT"]
+    },
+    {
+      "id": "162010",
+      "schematicId": "hospital",
+      "name": "Hillside St at 16th Ave N",
+      "lat": 49.09915,
+      "lon": -116.50571,
+      "lines": ["51-EKT"],
+      "platformIds": ["162010"],
+      "departureRouteIds": ["51-EKT"]
+    },
+    {
+      "id": "162025",
+      "schematicId": "erickson",
+      "name": "Hwy 3 at Erickson Rd",
+      "lat": 49.0909,
+      "lon": -116.46612,
+      "lines": ["51-EKT"],
+      "platformIds": ["162025"],
+      "departureRouteIds": ["51-EKT"]
+    },
+    {
+      "id": "lakeview",
+      "schematicId": "lakeview",
+      "name": "Hwy 3A at Lakeview Arrow Creek Rd",
+      "lat": 49.15365,
+      "lon": -116.53864,
+      "lines": ["54-EKT"],
+      "platformIds": ["162001", "162031"],
+      "departureRouteIds": ["54-EKT"]
+    },
+    {
+      "id": "162020",
+      "schematicId": "ramada",
+      "name": "Ramada Hotel",
+      "lat": 49.11988,
+      "lon": -116.52443,
+      "lines": ["52-EKT"],
+      "platformIds": ["162020"],
+      "departureRouteIds": ["52-EKT"]
+    },
+    {
+      "id": "162018",
+      "schematicId": "wynndel",
+      "name": "Wynndel General Store",
+      "lat": 49.18063,
+      "lon": -116.55435,
+      "lines": ["54-EKT"],
+      "platformIds": ["162018"],
+      "departureRouteIds": ["54-EKT"]
+    }
+  ]
+}

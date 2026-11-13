@@ -1,0 +1,268 @@
+{
+  "hubs": [
+    {
+      "id": "via-winnipeg-winnipeg",
+      "endpoints": [
+        {
+          "agencyId": "via",
+          "stationName": "Winnipeg",
+          "stationId": "winnipeg"
+        },
+        {
+          "agencyId": "winnipeg",
+          "stationName": "Main at Broadway (Union Station)",
+          "stationId": "union-station",
+          "feedStopIds": ["10625", "10641"]
+        }
+      ],
+      "badgeOffsets": {
+        "winnipeg": {
+          "dx": -51.65,
+          "dy": -28
+        },
+        "via": {
+          "dx": 0,
+          "dy": 56
+        }
+      }
+    },
+    {
+      "id": "flixbus-ca-medicine-hat-transit-medicinehat",
+      "badgeOffsets": {
+        "flixbus-ca": {
+          "dx": 32,
+          "dy": -40
+        },
+        "medicine-hat-transit": {
+          "dx": 72,
+          "dy": 56
+        }
+      }
+    },
+    {
+      "id": "flixbus-ca-oc-transpo-ottawastlaurent",
+      "badgeOffsets": {
+        "flixbus-ca": {
+          "dx": 40,
+          "dy": -56
+        }
+      }
+    },
+    {
+      "id": "flixbus-ca-owen-sound-owensound",
+      "badgeOffsets": {
+        "owen-sound": {
+          "dx": 0,
+          "dy": 96
+        }
+      }
+    },
+    {
+      "id": "flixbus-ca-lethbridge-lethbridge",
+      "endpoints": [
+        {
+          "agencyId": "flixbus-ca",
+          "stationId": "lethbridge",
+          "stationName": "Lethbridge"
+        },
+        {
+          "agencyId": "lethbridge",
+          "stationId": "city-centre",
+          "stationName": "City Centre",
+          "feedStopIds": ["14000", "14001", "14002"]
+        }
+      ]
+    }
+  ],
+  "exclusions": [],
+  "isolated": [
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Calgary",
+      "stationId": "calgary"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Edmonton",
+      "stationId": "edmonton"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "St Catharines",
+      "stationId": "st-catharines"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Kitchener Downtown",
+      "stationId": "kitchener"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Kingston",
+      "stationId": "kingston"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Wasaga Beach",
+      "stationId": "wasaga-beach"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "London",
+      "stationId": "london"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Mississauga",
+      "stationId": "mississauga"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "North Bay",
+      "stationId": "north-bay"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Peterborough",
+      "stationId": "peterborough"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Banff",
+      "stationId": "banff"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Canmore",
+      "stationId": "canmore"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Sarnia",
+      "stationId": "sarnia"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Montr\u00e9al",
+      "stationId": "montreal"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Stratford",
+      "stationId": "stratford"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Victoria",
+      "stationId": "victoria"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Winnipeg",
+      "stationId": "winnipeg"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Barrie",
+      "stationId": "barrie"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Scarborough",
+      "stationId": "scarborough"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Whitby\u2013Oshawa",
+      "stationId": "oshawa"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Longueuil",
+      "stationId": "longueuil"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Pearson Airport",
+      "stationId": "pearson"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Parry Sound",
+      "stationId": "parry-sound"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Port Severn",
+      "stationId": "port-severn"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Brantford"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Kingston (Division St)"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Waubaushene"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Ottawa (Gloucester Centre)"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Lake Louise Village (Shell)"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "St Thomas"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationName": "Toronto (Harbourfront)"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationId": "red-deer",
+      "stationName": "Red Deer"
+    },
+    {
+      "agencyId": "flixbus-ca",
+      "stationId": "lethbridge",
+      "stationName": "Lethbridge"
+    },
+    {
+      "agencyId": "kasper",
+      "stationName": "Wabowden - Dwyer's General Store",
+      "feedStopIds": ["10028"]
+    },
+    {
+      "agencyId": "kasper",
+      "stationName": "Winnipeg Hotel - The Marlborough",
+      "feedStopIds": ["10045"]
+    },
+    {
+      "agencyId": "kasper",
+      "stationId": "white-river",
+      "stationName": "White River"
+    },
+    {
+      "agencyId": "kasper",
+      "stationId": "longlac",
+      "stationName": "Longlac"
+    },
+    {
+      "agencyId": "kasper",
+      "stationId": "thunder-bay",
+      "stationName": "Thunder Bay"
+    },
+    {
+      "agencyId": "kasper",
+      "stationId": "winnipeg",
+      "stationName": "Winnipeg"
+    }
+  ]
+}

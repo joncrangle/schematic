@@ -1,0 +1,1065 @@
+{
+  "viewBoxWidth": 1200.0,
+  "viewBoxHeight": 1100.0,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 Barrie - Midland-Penetanguishene",
+      "color": "#FF7733",
+      "points": [
+        {
+          "x": 780.0,
+          "y": 700.0
+        },
+        {
+          "x": 640.0,
+          "y": 700.0
+        },
+        {
+          "x": 540.0,
+          "y": 600.0
+        },
+        {
+          "x": 540.0,
+          "y": 140.0
+        },
+        {
+          "x": 460,
+          "y": 60
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Barrie-Wasaga Beach",
+      "color": "#006747",
+      "points": [
+        {
+          "x": 780.0,
+          "y": 810.0
+        },
+        {
+          "x": 460.0,
+          "y": 810.0
+        },
+        {
+          "x": 360.0,
+          "y": 710.0
+        },
+        {
+          "x": 360.0,
+          "y": 400.0
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Barrie-Orillia",
+      "color": "#339966",
+      "points": [
+        {
+          "x": 700.0,
+          "y": 700.0
+        },
+        {
+          "x": 940.0,
+          "y": 700.0
+        },
+        {
+          "x": 1060.0,
+          "y": 580.0
+        },
+        {
+          "x": 1060.0,
+          "y": 260.0
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Collingwood-Wasaga",
+      "color": "#CC33FF",
+      "points": [
+        {
+          "x": 360.0,
+          "y": 400.0
+        },
+        {
+          "x": 190.0,
+          "y": 400.0
+        },
+        {
+          "x": 130.0,
+          "y": 340.0
+        },
+        {
+          "x": 130.0,
+          "y": 160.0
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "5 Alliston-Bradford",
+      "color": "#CC0000",
+      "points": [
+        {
+          "x": 260.0,
+          "y": 900.0
+        },
+        {
+          "x": 320.0,
+          "y": 960.0
+        },
+        {
+          "x": 900.0,
+          "y": 960.0
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "6 Midland-Orillia",
+      "color": "#9370DB",
+      "points": [
+        {
+          "x": 640.0,
+          "y": 200.0
+        },
+        {
+          "x": 940.0,
+          "y": 200.0
+        },
+        {
+          "x": 1000.0,
+          "y": 260.0
+        },
+        {
+          "x": 1060.0,
+          "y": 260.0
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "rvh",
+      "name": "RVH",
+      "x": 780.0,
+      "y": 700.0,
+      "lines": ["1", "3"],
+      "label": {
+        "x": 780,
+        "y": 676,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "georgian-college",
+      "name": "Georgian College",
+      "x": 700.0,
+      "y": 700.0,
+      "lines": ["1", "3"],
+      "label": {
+        "x": 700,
+        "y": 734,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "finlay-mill",
+      "name": "Finlay Mill at Library",
+      "x": 590.0,
+      "y": 650.0,
+      "lines": ["1"],
+      "label": {
+        "x": 568,
+        "y": 654,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "elmvale",
+      "name": "Elmvale",
+      "x": 540.0,
+      "y": 520.0,
+      "lines": ["1"],
+      "label": {
+        "x": 562,
+        "y": 524,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "waverley",
+      "name": "Waverley",
+      "x": 540.0,
+      "y": 420.0,
+      "lines": ["1"],
+      "label": {
+        "x": 562,
+        "y": 424,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "wyebridge",
+      "name": "Wyebridge",
+      "x": 540.0,
+      "y": 320.0,
+      "lines": ["1"],
+      "label": {
+        "x": 562,
+        "y": 324,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "huronia-mall",
+      "name": "Huronia Mall",
+      "x": 540.0,
+      "y": 220.0,
+      "lines": ["1"],
+      "label": {
+        "x": 518,
+        "y": 224,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "penetanguishene-arena",
+      "name": "Penetanguishene Arena",
+      "x": 540.0,
+      "y": 140.0,
+      "lines": ["1"],
+      "terminal": true,
+      "label": {
+        "x": 562,
+        "y": 144,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "barrie-allandale",
+      "name": "Barrie Allandale Station",
+      "x": 780.0,
+      "y": 810.0,
+      "lines": ["2"],
+      "terminal": true,
+      "label": {
+        "x": 780,
+        "y": 844,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "mill-street",
+      "name": "Mill St at Brentwood Rd",
+      "x": 640.0,
+      "y": 810.0,
+      "lines": ["2"],
+      "label": {
+        "x": 640,
+        "y": 840,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "brentwood-centre",
+      "name": "Brentwood Community Centre",
+      "x": 520.0,
+      "y": 810.0,
+      "lines": ["2"],
+      "label": {
+        "x": 520,
+        "y": 780,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "clearview-admin",
+      "name": "Clearview Admin Centre",
+      "x": 360.0,
+      "y": 600.0,
+      "lines": ["2"],
+      "label": {
+        "x": 338,
+        "y": 604,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "knox-road",
+      "name": "45th Street S at Knox Rd",
+      "x": 360.0,
+      "y": 500.0,
+      "lines": ["2"],
+      "label": {
+        "x": 338,
+        "y": 504,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "wasaga-beach",
+      "name": "Wasaga Beach",
+      "x": 360.0,
+      "y": 400.0,
+      "lines": ["2", "4"],
+      "terminal": true,
+      "label": {
+        "x": 384,
+        "y": 404,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "napoleon",
+      "name": "Napoleon",
+      "x": 870.0,
+      "y": 700.0,
+      "lines": ["3"],
+      "label": {
+        "x": 870,
+        "y": 676,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lake-simcoe-airport",
+      "name": "Lake Simcoe Airport",
+      "x": 1000.0,
+      "y": 640.0,
+      "lines": ["3"],
+      "label": {
+        "x": 978,
+        "y": 644,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "forest-plain",
+      "name": "Forest Plain at Line 15",
+      "x": 1060.0,
+      "y": 480.0,
+      "lines": ["3"],
+      "label": {
+        "x": 1038,
+        "y": 484,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "memorial-opp",
+      "name": "Memorial Avenue at OPP",
+      "x": 1060.0,
+      "y": 370.0,
+      "lines": ["3"],
+      "label": {
+        "x": 1038,
+        "y": 374,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lakehead-university",
+      "name": "Lakehead University",
+      "x": 1060.0,
+      "y": 260.0,
+      "lines": ["3", "6"],
+      "terminal": true,
+      "label": {
+        "x": 1060,
+        "y": 234,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "beachwood-74th",
+      "name": "Beachwood at 74th St",
+      "x": 275.0,
+      "y": 400.0,
+      "lines": ["4"],
+      "label": {
+        "x": 265,
+        "y": 434,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "beachwood-king",
+      "name": "Beachwood Rd at King St",
+      "x": 160.0,
+      "y": 370.0,
+      "lines": ["4"],
+      "label": {
+        "x": 182,
+        "y": 374,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "collingwood-georgian",
+      "name": "Collingwood Georgian College",
+      "x": 130.0,
+      "y": 270.0,
+      "lines": ["4"],
+      "label": {
+        "x": 152,
+        "y": 274,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "collingwood-terminal",
+      "name": "Collingwood Terminal",
+      "x": 130.0,
+      "y": 170.0,
+      "lines": ["4"],
+      "terminal": true,
+      "label": {
+        "x": 152,
+        "y": 174,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "new-tecumseth-rec",
+      "name": "New Tecumseth Rec Centre",
+      "x": 260.0,
+      "y": 900.0,
+      "lines": ["5"],
+      "terminal": true,
+      "label": {
+        "x": 282,
+        "y": 904,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "alliston-main",
+      "name": "Main St at 2nd St",
+      "x": 420.0,
+      "y": 960.0,
+      "lines": ["5"],
+      "label": {
+        "x": 420,
+        "y": 936,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "county-road-88",
+      "name": "County Road 88 at County Road 27",
+      "x": 560.0,
+      "y": 960.0,
+      "lines": ["5"],
+      "label": {
+        "x": 560,
+        "y": 994,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "holland-smart-centre",
+      "name": "Holland St at Smart Centre",
+      "x": 700.0,
+      "y": 960.0,
+      "lines": ["5"],
+      "label": {
+        "x": 700,
+        "y": 936,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "holland-west-park",
+      "name": "Holland St at West Park",
+      "x": 800.0,
+      "y": 960.0,
+      "lines": ["5"],
+      "label": {
+        "x": 800,
+        "y": 994,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "bradford-go",
+      "name": "Bradford GO Station",
+      "x": 900.0,
+      "y": 960.0,
+      "lines": ["5"],
+      "terminal": true,
+      "label": {
+        "x": 900,
+        "y": 934,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "midland-georgian",
+      "name": "Midland Georgian College",
+      "x": 640.0,
+      "y": 200.0,
+      "lines": ["6"],
+      "terminal": true,
+      "label": {
+        "x": 640,
+        "y": 176,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "midland-downtown",
+      "name": "Richard St at Albert St",
+      "x": 760.0,
+      "y": 200.0,
+      "lines": ["6"],
+      "label": {
+        "x": 760,
+        "y": 234,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sturgeon-bay",
+      "name": "Sturgeon Bay Rd",
+      "x": 880.0,
+      "y": 200.0,
+      "lines": ["6"],
+      "label": {
+        "x": 880,
+        "y": 176,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "coldwater",
+      "name": "Coldwater Rd",
+      "x": 970.0,
+      "y": 230.0,
+      "lines": ["6"],
+      "label": {
+        "x": 948,
+        "y": 252,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "penetanguishene-downtown",
+      "name": "Penetanguishene Downtown",
+      "x": 460,
+      "y": 60,
+      "lines": ["1"],
+      "terminal": true,
+      "label": {
+        "x": 438,
+        "y": 64,
+        "anchor": "end"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 508,
+      "y": 320,
+      "color": "#FF7733",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 420,
+      "y": 730,
+      "color": "#006747",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 1092,
+      "y": 430.0,
+      "color": "#339966",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 162,
+      "y": 320,
+      "color": "#CC33FF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 570.0,
+      "y": 928,
+      "color": "#CC0000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 770.0,
+      "y": 168,
+      "color": "#9370DB",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40.0,
+      "maxX": 1160.0,
+      "minY": 20,
+      "maxY": 1060.0
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -80.22,
+    "refLonEast": -79.43,
+    "refXWest": 130.0,
+    "refXEast": 1060.0,
+    "refLatNorth": 44.76,
+    "refLatSouth": 44.12,
+    "refYNorth": 140.0,
+    "refYSouth": 960.0
+  },
+  "sequences": {
+    "1": [
+      "rvh",
+      "georgian-college",
+      "finlay-mill",
+      "elmvale",
+      "waverley",
+      "wyebridge",
+      "huronia-mall",
+      "penetanguishene-arena",
+      "penetanguishene-downtown"
+    ],
+    "2": [
+      "barrie-allandale",
+      "mill-street",
+      "brentwood-centre",
+      "clearview-admin",
+      "knox-road",
+      "wasaga-beach"
+    ],
+    "3": [
+      "georgian-college",
+      "rvh",
+      "napoleon",
+      "lake-simcoe-airport",
+      "forest-plain",
+      "memorial-opp",
+      "lakehead-university"
+    ],
+    "4": [
+      "wasaga-beach",
+      "beachwood-74th",
+      "beachwood-king",
+      "collingwood-georgian",
+      "collingwood-terminal"
+    ],
+    "5": [
+      "new-tecumseth-rec",
+      "alliston-main",
+      "county-road-88",
+      "holland-smart-centre",
+      "holland-west-park",
+      "bradford-go"
+    ],
+    "6": [
+      "midland-georgian",
+      "midland-downtown",
+      "sturgeon-bay",
+      "coldwater",
+      "lakehead-university"
+    ]
+  },
+  "stationAliases": {
+    "129 Forest Plain Road": "forest-plain",
+    "135 Forestview Road": "forest-plain",
+    "25 45th Street": "wasaga-beach",
+    "25 45th Street S": "wasaga-beach",
+    "36 Coldwater Rd": "coldwater",
+    "415 Sturgeon Bay Rd": "sturgeon-bay",
+    "45th Street S & Knox Rd W": "knox-road",
+    "990 Jones Rd": "midland-georgian",
+    "990 Jones Road": "midland-georgian",
+    "Barrie Allandale Bus Station - Detour": "barrie-allandale",
+    "Barrie, Georgian College": "georgian-college",
+    "Beachwood Rd and 74th St": "beachwood-74th",
+    "Beachwood Rd and King St": "beachwood-king",
+    "Beachwood Road & 74th Street": "beachwood-74th",
+    "Brentwood Community Center": "brentwood-centre",
+    "Clearview Admin Center": "clearview-admin",
+    "Coldwater Rd and Robinson St": "coldwater",
+    "Commerce Road": "mill-street",
+    "Elmvale (NB)": "elmvale",
+    "Elmvale (SB)": "elmvale",
+    "Finlay Mill at Library (NB)": "finlay-mill",
+    "Finlay Mill at Library (SB)": "finlay-mill",
+    "Holland St W at Smart Centre Bradford": "holland-smart-centre",
+    "Holland at West Park": "holland-west-park",
+    "Lakehead": "lakehead-university",
+    "Line 15 at Jamieson Cr": "forest-plain",
+    "Main St at 2nd": "alliston-main",
+    "Midland, Georgian College": "midland-georgian",
+    "Penetanguishene Downtown": "penetanguishene-downtown",
+    "Richard St at Albert Street": "midland-downtown",
+    "Sturgeon Bay Rd & Pine St": "sturgeon-bay",
+    "Waverley (NB)": "waverley",
+    "Waverley (SB)": "waverley",
+    "Wyebridge (NB)": "wyebridge",
+    "Wyebridge (SB)": "wyebridge"
+  },
+  "stationIndex": [
+    {
+      "id": "knox-road",
+      "schematicId": "knox-road",
+      "name": "45th Street S at Knox Rd",
+      "lat": 44.468246,
+      "lon": -80.074696,
+      "lines": ["2"],
+      "platformIds": ["SCSTOP270", "SCSTOP271"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "SCSTOP210",
+      "schematicId": "barrie-allandale",
+      "name": "Barrie Allandale Station",
+      "lat": 44.373913,
+      "lon": -79.689146,
+      "lines": ["2"],
+      "platformIds": ["SCSTOP210"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "beachwood-74th",
+      "schematicId": "beachwood-74th",
+      "name": "Beachwood at 74th St",
+      "lat": 44.468032,
+      "lon": -80.116826,
+      "lines": ["4"],
+      "platformIds": ["SCSTOP412", "SCSTOP413"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "beachwood-king",
+      "schematicId": "beachwood-king",
+      "name": "Beachwood Rd at King St",
+      "lat": 44.486629,
+      "lon": -80.163072,
+      "lines": ["4"],
+      "platformIds": ["SCSTOP436", "SCSTOP437"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "SCSTOP560",
+      "schematicId": "bradford-go",
+      "name": "Bradford GO Station",
+      "lat": 44.116502,
+      "lon": -79.555401,
+      "lines": ["5"],
+      "platformIds": ["SCSTOP560"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "brentwood-centre",
+      "schematicId": "brentwood-centre",
+      "name": "Brentwood Community Centre",
+      "lat": 44.34604,
+      "lon": -79.93782,
+      "lines": ["2"],
+      "platformIds": ["SCSTOP240", "SCSTOP241"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "SCSTOP260",
+      "schematicId": "clearview-admin",
+      "name": "Clearview Admin Centre",
+      "lat": 44.419056,
+      "lon": -80.088278,
+      "lines": ["2"],
+      "platformIds": ["SCSTOP260"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "coldwater",
+      "schematicId": "coldwater",
+      "name": "Coldwater Rd",
+      "lat": 44.70776,
+      "lon": -79.643201,
+      "lines": ["6"],
+      "platformIds": ["SCSTOP640", "SCSTOP641"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "collingwood-georgian",
+      "schematicId": "collingwood-georgian",
+      "name": "Collingwood Georgian College",
+      "lat": 44.484069,
+      "lon": -80.192037,
+      "lines": ["4"],
+      "platformIds": ["SCSTOP448", "SCSTOP449"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "SCSTOP480",
+      "schematicId": "collingwood-terminal",
+      "name": "Collingwood Terminal",
+      "lat": 44.50028,
+      "lon": -80.21843,
+      "lines": ["4"],
+      "platformIds": ["SCSTOP480"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "county-road-88",
+      "schematicId": "county-road-88",
+      "name": "County Road 88 at County Road 27",
+      "lat": 44.089754,
+      "lon": -79.675048,
+      "lines": ["5"],
+      "platformIds": ["SCSTOP530", "SCSTOP531"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "elmvale",
+      "schematicId": "elmvale",
+      "name": "Elmvale",
+      "lat": 44.584534,
+      "lon": -79.866815,
+      "lines": ["1"],
+      "platformIds": ["SCSTOP150", "SCSTOP151"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "finlay-mill",
+      "schematicId": "finlay-mill",
+      "name": "Finlay Mill at Library",
+      "lat": 44.4397,
+      "lon": -79.731928,
+      "lines": ["1"],
+      "platformIds": ["SCSTOP128", "SCSTOP129"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "forest-plain",
+      "schematicId": "forest-plain",
+      "name": "Forest Plain at Line 15",
+      "lat": 44.569444,
+      "lon": -79.442368,
+      "lines": ["3"],
+      "platformIds": ["SCSTOP350", "SCSTOP360", "SCSTOP365", "SCSTOP366"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "georgian-college",
+      "schematicId": "georgian-college",
+      "name": "Georgian College",
+      "lat": 44.412052,
+      "lon": -79.669214,
+      "lines": ["1", "3"],
+      "platformIds": ["SCSTOP110", "SCSTOP111"],
+      "departureRouteIds": ["1", "3"]
+    },
+    {
+      "id": "holland-smart-centre",
+      "schematicId": "holland-smart-centre",
+      "name": "Holland St at Smart Centre",
+      "lat": 44.106628,
+      "lon": -79.59843,
+      "lines": ["5"],
+      "platformIds": ["SCSTOP540", "SCSTOP543"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "holland-west-park",
+      "schematicId": "holland-west-park",
+      "name": "Holland St at West Park",
+      "lat": 44.110056,
+      "lon": -79.584083,
+      "lines": ["5"],
+      "platformIds": ["SCSTOP549", "SCSTOP550"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "SCSTOP180",
+      "schematicId": "huronia-mall",
+      "name": "Huronia Mall",
+      "lat": 44.738409,
+      "lon": -79.909459,
+      "lines": ["1"],
+      "platformIds": ["SCSTOP180"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "SCSTOP330",
+      "schematicId": "lake-simcoe-airport",
+      "name": "Lake Simcoe Airport",
+      "lat": 44.4826,
+      "lon": -79.5436,
+      "lines": ["3"],
+      "platformIds": ["SCSTOP330"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "lakehead-university",
+      "schematicId": "lakehead-university",
+      "name": "Lakehead University",
+      "lat": 44.592199,
+      "lon": -79.459507,
+      "lines": ["3", "6"],
+      "platformIds": ["SCSTOP370", "SCSTOP670"],
+      "departureRouteIds": ["3", "6"]
+    },
+    {
+      "id": "alliston-main",
+      "schematicId": "alliston-main",
+      "name": "Main St at 2nd St",
+      "lat": 44.078682,
+      "lon": -79.785396,
+      "lines": ["5"],
+      "platformIds": ["SCSTOP520", "SCSTOP521"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "memorial-opp",
+      "schematicId": "memorial-opp",
+      "name": "Memorial Avenue at OPP",
+      "lat": 44.58115,
+      "lon": -79.42966,
+      "lines": ["3"],
+      "platformIds": ["SCSTOP380", "SCSTOP390"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "midland-georgian",
+      "schematicId": "midland-georgian",
+      "name": "Midland Georgian College",
+      "lat": 44.72658,
+      "lon": -79.87194,
+      "lines": ["6"],
+      "platformIds": ["SCSTOP600", "SCSTOP604", "SCSTOP605"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "mill-street",
+      "schematicId": "mill-street",
+      "name": "Mill St at Brentwood Rd",
+      "lat": 44.331087,
+      "lon": -79.887067,
+      "lines": ["2"],
+      "platformIds": ["SCSTOP230", "SCSTOP231"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "SCSTOP310",
+      "schematicId": "napoleon",
+      "name": "Napoleon",
+      "lat": 44.43451,
+      "lon": -79.6404,
+      "lines": ["3"],
+      "platformIds": ["SCSTOP310"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "SCSTOP500",
+      "schematicId": "new-tecumseth-rec",
+      "name": "New Tecumseth Rec Centre",
+      "lat": 44.138432,
+      "lon": -79.869131,
+      "lines": ["5"],
+      "platformIds": ["SCSTOP500"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "penetanguishene-arena",
+      "schematicId": "penetanguishene-arena",
+      "name": "Penetanguishene Arena",
+      "lat": 44.764573,
+      "lon": -79.927508,
+      "lines": ["1"],
+      "platformIds": ["SCSTOP190"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "midland-downtown",
+      "schematicId": "midland-downtown",
+      "name": "Richard St at Albert St",
+      "lat": 44.750576,
+      "lon": -79.773524,
+      "lines": ["6"],
+      "platformIds": ["SCSTOP610", "SCSTOP611"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "SCSTOP106",
+      "schematicId": "rvh",
+      "name": "RVH",
+      "lat": 44.415478,
+      "lon": -79.660687,
+      "lines": ["1", "3"],
+      "platformIds": ["SCSTOP106"],
+      "departureRouteIds": ["1", "3"]
+    },
+    {
+      "id": "sturgeon-bay",
+      "schematicId": "sturgeon-bay",
+      "name": "Sturgeon Bay Rd",
+      "lat": 44.750927,
+      "lon": -79.709147,
+      "lines": ["6"],
+      "platformIds": ["SCSTOP630", "SCSTOP631"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "wasaga-beach",
+      "schematicId": "wasaga-beach",
+      "name": "Wasaga Beach",
+      "lat": 44.473691,
+      "lon": -80.073313,
+      "lines": ["2", "4"],
+      "platformIds": ["SCSTOP280", "SCSTOP281"],
+      "departureRouteIds": ["2", "4"]
+    },
+    {
+      "id": "waverley",
+      "schematicId": "waverley",
+      "name": "Waverley",
+      "lat": 44.643706,
+      "lon": -79.824466,
+      "lines": ["1"],
+      "platformIds": ["SCSTOP160", "SCSTOP161"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "wyebridge",
+      "schematicId": "wyebridge",
+      "name": "Wyebridge",
+      "lat": 44.694428,
+      "lon": -79.882785,
+      "lines": ["1"],
+      "platformIds": ["SCSTOP170", "SCSTOP171"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "SCSTOP191",
+      "schematicId": "penetanguishene-downtown",
+      "name": "Penetanguishene Downtown",
+      "lat": 44.76703,
+      "lon": -79.933788,
+      "lines": ["1"],
+      "platformIds": ["SCSTOP191"],
+      "departureRouteIds": ["1"]
+    }
+  ]
+}

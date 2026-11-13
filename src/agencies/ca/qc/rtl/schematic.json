@@ -1,0 +1,582 @@
+{
+  "viewBoxWidth": 766.667,
+  "viewBoxHeight": 766.667,
+  "lines": [
+    {
+      "id": "901",
+      "name": "Ligne métropolitaine Taschereau",
+      "color": "#D90B3E",
+      "points": [
+        {
+          "x": 333.333,
+          "y": 216.667
+        },
+        {
+          "x": 233.333,
+          "y": 316.667
+        },
+        {
+          "x": 233.333,
+          "y": 366.667
+        },
+        {
+          "x": 83.333,
+          "y": 516.667
+        },
+        {
+          "x": 83.333,
+          "y": 666.667
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Ligne 8",
+      "color": "#D90B3E",
+      "points": [
+        {
+          "x": 333.333,
+          "y": 216.667
+        },
+        {
+          "x": 616.667,
+          "y": 500
+        },
+        {
+          "x": 616.667,
+          "y": 533.333
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Ligne 73",
+      "color": "#D90B3E",
+      "points": [
+        {
+          "x": 333.333,
+          "y": 216.667
+        },
+        {
+          "x": 333.333,
+          "y": 250
+        },
+        {
+          "x": 483.333,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Ligne 21",
+      "color": "#D90B3E",
+      "points": [
+        {
+          "x": 333.333,
+          "y": 216.667
+        },
+        {
+          "x": 350,
+          "y": 233.333
+        },
+        {
+          "x": 350,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Ligne 61",
+      "color": "#D90B3E",
+      "points": [
+        {
+          "x": 316.667,
+          "y": 66.667
+        },
+        {
+          "x": 566.667,
+          "y": 66.667
+        },
+        {
+          "x": 633.333,
+          "y": 133.333
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ligne 4",
+      "color": "#D90B3E",
+      "points": [
+        {
+          "x": 283.333,
+          "y": 500
+        },
+        {
+          "x": 283.333,
+          "y": 266.667
+        },
+        {
+          "x": 333.333,
+          "y": 216.667
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": "Ligne 88",
+      "color": "#D90B3E",
+      "points": [
+        {
+          "x": 333.333,
+          "y": 216.667
+        },
+        {
+          "x": 500,
+          "y": 383.333
+        },
+        {
+          "x": 500,
+          "y": 516.667
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "longueuil",
+      "name": "Longueuil",
+      "x": 333.333,
+      "y": 216.667,
+      "lines": ["901", "8", "73", "21", "4", "88"],
+      "terminal": true,
+      "label": {
+        "x": 361.333,
+        "y": 204.667,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "panama",
+      "name": "Panama",
+      "x": 233.333,
+      "y": 366.667,
+      "lines": ["901"],
+      "label": {
+        "x": 208.333,
+        "y": 366.667,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "brossard",
+      "name": "Brossard",
+      "x": 283.333,
+      "y": 500,
+      "lines": ["4"],
+      "terminal": true,
+      "label": {
+        "x": 283.333,
+        "y": 525,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "georges-gagne",
+      "name": "Georges-Gagné",
+      "x": 83.333,
+      "y": 666.667,
+      "lines": ["901"],
+      "terminal": true,
+      "label": {
+        "x": 111.333,
+        "y": 654.667,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-bruno",
+      "name": "Saint-Bruno",
+      "x": 616.667,
+      "y": 533.333,
+      "lines": ["8"],
+      "terminal": true,
+      "label": {
+        "x": 644.667,
+        "y": 521.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fontainebleau",
+      "name": "Fontainebleau Sud",
+      "x": 483.333,
+      "y": 400,
+      "lines": ["73"],
+      "terminal": true,
+      "label": {
+        "x": 513.3330000000001,
+        "y": 370,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "java",
+      "name": "Place de Java",
+      "x": 350,
+      "y": 600,
+      "lines": ["21"],
+      "terminal": true,
+      "label": {
+        "x": 378,
+        "y": 588,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "radisson",
+      "name": "Radisson",
+      "x": 316.667,
+      "y": 66.667,
+      "lines": ["61"],
+      "terminal": true,
+      "label": {
+        "x": 344.667,
+        "y": 54.667,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "boucherville",
+      "name": "Boucherville / du Fort-St-Louis",
+      "x": 633.333,
+      "y": 133.333,
+      "lines": ["61"],
+      "terminal": true,
+      "label": {
+        "x": 661.333,
+        "y": 121.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kimber",
+      "name": "Kimber / Léonard",
+      "x": 500,
+      "y": 516.667,
+      "lines": ["88"],
+      "terminal": true,
+      "label": {
+        "x": 500,
+        "y": 541.667,
+        "anchor": "middle",
+        "rot": 0
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "901",
+      "num": "901",
+      "x": 51.33,
+      "y": 580,
+      "color": "#D90B3E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "x": 625.15,
+      "y": 463.23,
+      "color": "#D90B3E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "73",
+      "num": "73",
+      "x": 412.37,
+      "y": 374.29,
+      "color": "#D90B3E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "21",
+      "num": "21",
+      "x": 382,
+      "y": 540,
+      "color": "#D90B3E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "61",
+      "num": "61",
+      "x": 466.67,
+      "y": 98.67,
+      "color": "#D90B3E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 251.33,
+      "y": 443.33,
+      "color": "#D90B3E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "88",
+      "num": "88",
+      "x": 468,
+      "y": 473.33,
+      "color": "#D90B3E",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "4": ["brossard", "longueuil"],
+    "8": ["longueuil", "saint-bruno"],
+    "21": ["longueuil", "java"],
+    "61": ["radisson", "boucherville"],
+    "73": ["longueuil", "fontainebleau"],
+    "88": ["longueuil", "kimber"],
+    "901": ["longueuil", "panama", "georges-gagne"]
+  },
+  "stationAliases": {
+    "Terminus Longueuil": "longueuil",
+    "de Fontainebleau S. / de Fontainebleau S.": "fontainebleau",
+    "De Montarville / du Fort-St-Louis": "boucherville",
+    "Terminus Panama": "panama",
+    "Kimber / Léonard": "kimber",
+    "4055 pl. de Java": "java",
+    "Terminus Brossard": "brossard",
+    "Terminus Radisson": "radisson",
+    "1011 St-Bruno": "saint-bruno",
+    "Terminus Georges-Gagné": "georges-gagne"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 33.333,
+      "maxX": 733.333,
+      "minY": 0,
+      "maxY": 733.333
+    },
+    "minZoom": 0.3,
+    "maxZoom": 15
+  },
+  "geoProjection": {
+    "refLonWest": -73.58,
+    "refLonEast": -73.31,
+    "refXWest": 66.667,
+    "refXEast": 700,
+    "refLatNorth": 45.64,
+    "refLatSouth": 45.38,
+    "refYNorth": 66.667,
+    "refYSouth": 700
+  },
+  "stationIndex": [
+    {
+      "id": "3542",
+      "schematicId": "boucherville",
+      "name": "Boucherville / du Fort-St-Louis",
+      "lat": 45.6042312467771,
+      "lon": -73.4534145923606,
+      "lines": ["61"],
+      "platformIds": ["3542"],
+      "departureRouteIds": ["284", "287", "61", "82", "86"]
+    },
+    {
+      "id": "5767",
+      "schematicId": "brossard",
+      "name": "Brossard",
+      "lat": 45.436900917515,
+      "lon": -73.4315403720757,
+      "lines": ["4"],
+      "platformIds": ["5767"],
+      "departureRouteIds": ["114", "132", "14", "32", "38", "4", "44", "720", "725"]
+    },
+    {
+      "id": "2502",
+      "schematicId": "fontainebleau",
+      "name": "Fontainebleau Sud",
+      "lat": 45.5184934882573,
+      "lon": -73.4574119987126,
+      "lines": ["73"],
+      "platformIds": ["2502"],
+      "departureRouteIds": ["73"]
+    },
+    {
+      "id": "6183",
+      "schematicId": "georges-gagne",
+      "name": "Georges-Gagné",
+      "lat": 45.3850686351167,
+      "lon": -73.5478981538109,
+      "lines": ["901"],
+      "platformIds": ["6183"],
+      "departureRouteIds": ["901"]
+    },
+    {
+      "id": "kimber",
+      "schematicId": "kimber",
+      "name": "Kimber / Léonard",
+      "lat": 45.4630347736304,
+      "lon": -73.3838842501344,
+      "lines": ["88"],
+      "platformIds": ["4503", "4504"],
+      "departureRouteIds": ["132", "505", "88"]
+    },
+    {
+      "id": "9999",
+      "schematicId": "longueuil",
+      "name": "Longueuil",
+      "lat": 45.52408,
+      "lon": -73.52141,
+      "lines": ["21", "4", "73", "8", "88", "901"],
+      "platformIds": [
+        "1001",
+        "1001",
+        "1002",
+        "1002",
+        "4415",
+        "4415",
+        "4416",
+        "4416",
+        "4417",
+        "4417",
+        "4418",
+        "4418"
+      ],
+      "departureRouteIds": [
+        "1",
+        "10",
+        "120",
+        "123",
+        "125",
+        "128",
+        "13",
+        "14",
+        "15",
+        "16",
+        "161",
+        "17",
+        "180",
+        "185",
+        "19",
+        "199",
+        "20",
+        "21",
+        "23",
+        "25",
+        "28",
+        "29",
+        "3",
+        "4",
+        "410",
+        "417",
+        "421",
+        "428",
+        "442",
+        "501",
+        "506",
+        "554",
+        "580",
+        "6",
+        "607",
+        "608",
+        "620",
+        "624",
+        "71",
+        "724",
+        "725",
+        "73",
+        "74",
+        "75",
+        "76",
+        "78",
+        "8",
+        "80",
+        "81",
+        "82",
+        "83",
+        "84",
+        "85",
+        "88",
+        "9",
+        "901",
+        "98",
+        "99"
+      ]
+    },
+    {
+      "id": "panama",
+      "schematicId": "panama",
+      "name": "Panama",
+      "lat": 45.4658919128232,
+      "lon": -73.4691798423217,
+      "lines": ["901"],
+      "platformIds": ["4429", "5923", "5925", "5927"],
+      "departureRouteIds": [
+        "13",
+        "15",
+        "160",
+        "30",
+        "33",
+        "34",
+        "37",
+        "38",
+        "42",
+        "44",
+        "47",
+        "5",
+        "50",
+        "526",
+        "542",
+        "59",
+        "6",
+        "60",
+        "609",
+        "613",
+        "618",
+        "670",
+        "720",
+        "724",
+        "77",
+        "901"
+      ]
+    },
+    {
+      "id": "5510",
+      "schematicId": "java",
+      "name": "Place de Java",
+      "lat": 45.4321647760582,
+      "lon": -73.45748092465,
+      "lines": ["21"],
+      "platformIds": ["5510"],
+      "departureRouteIds": ["21", "77"]
+    },
+    {
+      "id": "5869",
+      "schematicId": "radisson",
+      "name": "Radisson",
+      "lat": 45.5897603319547,
+      "lon": -73.5381375802226,
+      "lines": ["61"],
+      "platformIds": ["5869"],
+      "departureRouteIds": ["461", "462", "61"]
+    },
+    {
+      "id": "6172",
+      "schematicId": "saint-bruno",
+      "name": "Saint-Bruno",
+      "lat": 45.5024434255416,
+      "lon": -73.3841730566917,
+      "lines": ["8"],
+      "platformIds": ["6172"],
+      "departureRouteIds": ["60", "8"]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "yrt",
+  "name": "York Region Transit",
+  "serviceArea": "York Region",
+  "serviceAreaTranslations": { "fr": "Région de York" },
+  "shortName": "YRT",
+  "brandColor": "#004B87",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.76,
+      "maxLat": 44.4,
+      "minLon": -79.7,
+      "maxLon": -79.1
+    },
+    {
+      "minLat": 43.725,
+      "maxLat": 43.76,
+      "minLon": -79.62,
+      "maxLon": -79.56
+    }
+  ],
+  "modes": ["bus"],
+  "proximity": {
+    "radiusMeters": 1500,
+    "bucketMeters": 75
+  },
+  "attribution": {
+    "name": "York Region Open Data",
+    "url": "https://www.york.ca/open-data",
+    "license": "Open Data Licence Agreement"
+  },
+  "status": "active",
+  "stationService": {
+    "routeType": "bus"
+  },
+  "alertInterpretation": {
+    "lineIds": ["blue", "purple", "orange", "yellow"],
+    "routeLineMap": {
+      "Viva Blue": "blue",
+      "Viva Purple": "purple",
+      "Viva Orange": "orange",
+      "Viva Yellow": "yellow",
+      "601": "blue",
+      "60102": "blue",
+      "603": "purple",
+      "60301": "purple",
+      "605": "orange",
+      "607": "yellow"
+    }
+  },
+  "directionLiterals": {
+    "north": "Northbound",
+    "south": "Southbound",
+    "east": "Eastbound",
+    "west": "Westbound"
+  },
+  "cityPresets": [
+    {
+      "name": "Richmond Hill Centre",
+      "lat": 43.840199,
+      "lon": -79.425598
+    },
+    {
+      "name": "Vaughan Metropolitan Centre",
+      "lat": 43.7935,
+      "lon": -79.5277
+    },
+    {
+      "name": "Markham Centre",
+      "lat": 43.856002,
+      "lon": -79.334172
+    },
+    {
+      "name": "Newmarket Terminal",
+      "lat": 44.052538,
+      "lon": -79.486222
+    },
+    {
+      "name": "Finch Station",
+      "lat": 43.781,
+      "lon": -79.415
+    }
+  ],
+  "popularSurfaceRoutes": ["601", "603", "605", "607", "20"],
+  "staticTopology": {
+    "feeds": [
+      {
+        "name": "YRT GTFS",
+        "url": "https://www.yrt.ca/google/google_transit.zip",
+        "cacheFileName": "yrt-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#004B87",
+    "defaultTextColor": "#FFFFFF",
+    "source": "seed"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://rtu.york.ca/gtfsrealtime/VehiclePositions",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://rtu.york.ca/gtfsrealtime/TripUpdates",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "web",
+      "url": "https://www.yrt.ca/Modules/News/en/serviceadvisories",
+      "parser": "ghd-news-service-advisories",
+      "runtimes": ["self-hosted"],
+      "disabledReason": "Azure Front Door WAF on yrt.ca blocks Cloudflare Workers edge IPs"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://alerts.example.com/yrt.pb",
+      "devProxyPrefix": "/__dev/upstream/yrt",
+      "runtimes": ["cloudflare"],
+      "disabledReason": "Requires residential alert proxy daemon (see docs/deployment/deployment-guide.html#proxy)",
+      "baseUrlSecretName": "FEED_ALERT_PROXY_BASE_URL",
+      "requiredForCompleteness": true,
+      "auth": {
+        "type": "header",
+        "headerName": "x-feed-token",
+        "secretName": "FEED_ALERT_PROXY_TOKEN"
+      }
+    }
+  ],
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  }
+}

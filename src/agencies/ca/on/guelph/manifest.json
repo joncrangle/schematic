@@ -1,0 +1,219 @@
+{
+  "id": "guelph",
+  "name": "Guelph Transit",
+  "serviceArea": "Guelph",
+  "shortName": "Guelph",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.482,
+      "maxLat": 43.581,
+      "minLon": -80.322,
+      "maxLon": -80.175
+    }
+  ],
+  "focus": {
+    "lat": 43.530208,
+    "lon": -80.225346
+  },
+  "modes": ["bus", "express"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "City of Guelph open data, adapted into this application",
+    "url": "https://explore.guelph.ca/pages/open-data-license",
+    "license": "Open Data Licence – City of Guelph, Version 2.0. Contains information licensed under the Open Data Licence – City of Guelph.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Guelph Central Station",
+      "lat": 43.545593,
+      "lon": -80.245533
+    },
+    {
+      "name": "University Centre",
+      "lat": 43.530208,
+      "lon": -80.225346
+    },
+    {
+      "name": "Stone Road Mall",
+      "lat": 43.518749,
+      "lon": -80.239206
+    },
+    {
+      "name": "Woodlawn Smart Centres",
+      "lat": 43.564122,
+      "lon": -80.281735
+    }
+  ],
+  "popularSurfaceRoutes": [
+    "99",
+    "50 U",
+    "52 U",
+    "56 U",
+    "58 U",
+    "5",
+    "8",
+    "12",
+    "11",
+    "13",
+    "10",
+    "98"
+  ],
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeType": "express",
+        "routeIds": ["50 U", "52 U", "56 U", "58 U", "3007", "3008", "3009", "3010"]
+      }
+    ]
+  },
+  "alertInterpretation": {
+    "lineIds": ["99", "50 U", "52 U", "56 U", "58 U", "5", "8", "12"],
+    "routeLineMap": {
+      "2991": "1",
+      "2992": "10",
+      "2993": "11",
+      "2994": "12",
+      "2995": "13",
+      "2996": "14",
+      "2997": "15",
+      "2998": "16",
+      "2999": "17",
+      "3000": "18",
+      "3001": "19",
+      "3002": "2",
+      "3003": "20",
+      "3004": "3",
+      "3005": "4",
+      "3006": "5",
+      "3007": "50 U",
+      "3008": "52 U",
+      "3009": "56 U",
+      "3010": "58 U",
+      "3011": "6",
+      "3012": "7",
+      "3013": "8",
+      "3014": "9",
+      "3015": "98",
+      "3016": "99",
+      "3017": "99Lite",
+      "3018": "BREW",
+      "3019": "EdiCol",
+      "3023": "IroHarv",
+      "3030": "Sun LN",
+      "3032": "WHanSco",
+      "3039": "ZehCha"
+    },
+    "routeIdNormalization": {
+      "aliases": {
+        "2991": "1",
+        "2992": "10",
+        "2993": "11",
+        "2994": "12",
+        "2995": "13",
+        "2996": "14",
+        "2997": "15",
+        "2998": "16",
+        "2999": "17",
+        "3000": "18",
+        "3001": "19",
+        "3002": "2",
+        "3003": "20",
+        "3004": "3",
+        "3005": "4",
+        "3006": "5",
+        "3007": "50 U",
+        "3008": "52 U",
+        "3009": "56 U",
+        "3010": "58 U",
+        "3011": "6",
+        "3012": "7",
+        "3013": "8",
+        "3014": "9",
+        "3015": "98",
+        "3016": "99",
+        "3017": "99Lite",
+        "3018": "BREW",
+        "3019": "EdiCol",
+        "3023": "IroHarv",
+        "3030": "Sun LN",
+        "3032": "WHanSco",
+        "3039": "ZehCha"
+      }
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "titleIncludes": ["stop closure"]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "textIncludes": ["detour"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "short_name",
+    "feeds": [
+      {
+        "name": "City of Guelph GTFS",
+        "url": "https://drive.google.com/uc?export=download&id=1SsCgQ0agO_EONavJoOuBPMlbcu2VcUs4",
+        "cacheFileName": "guelph-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://glphprdtmgtfs.glphtrpcloud.com/tmgtfsrealtimewebservice/vehicle/vehiclepositions.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "unreliableVehicleFields": ["occupancy_status"],
+        "accept": "*/*",
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://glphprdtmgtfs.glphtrpcloud.com/tmgtfsrealtimewebservice/tripupdate/tripupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*",
+        "tripDirectionSource": "static"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://glphprdtmgtfs.glphtrpcloud.com/tmgtfsrealtimewebservice/alert/alerts.pb",
+      "format": "protobuf",
+      "descriptionField": "tts_description_text",
+      "accept": "*/*"
+    }
+  ]
+}

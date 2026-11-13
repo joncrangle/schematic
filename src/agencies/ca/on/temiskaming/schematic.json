@@ -1,0 +1,443 @@
+{
+  "viewBoxWidth": 1500,
+  "viewBoxHeight": 1950,
+  "lines": [
+    {
+      "id": "transit",
+      "name": "Temiskaming Transit (1 / 2)",
+      "color": "#F28C00",
+      "points": [
+        {
+          "x": 430,
+          "y": 1730
+        },
+        {
+          "x": 450,
+          "y": 1750
+        },
+        {
+          "x": 450,
+          "y": 1760
+        },
+        {
+          "x": 500,
+          "y": 1710
+        },
+        {
+          "x": 790,
+          "y": 1420
+        },
+        {
+          "x": 940,
+          "y": 1420
+        },
+        {
+          "x": 1080,
+          "y": 1280
+        },
+        {
+          "x": 1080,
+          "y": 1270
+        },
+        {
+          "x": 1040,
+          "y": 1230
+        },
+        {
+          "x": 1010,
+          "y": 1200
+        },
+        {
+          "x": 1010,
+          "y": 1160
+        },
+        {
+          "x": 990,
+          "y": 1140
+        },
+        {
+          "x": 990,
+          "y": 1130
+        },
+        {
+          "x": 570,
+          "y": 710
+        },
+        {
+          "x": 570,
+          "y": 540
+        },
+        {
+          "x": 600,
+          "y": 510
+        },
+        {
+          "x": 600,
+          "y": 290
+        },
+        {
+          "x": 610,
+          "y": 280
+        },
+        {
+          "x": 610,
+          "y": 250
+        },
+        {
+          "x": 670,
+          "y": 250
+        },
+        {
+          "x": 670,
+          "y": 540
+        },
+        {
+          "x": 370,
+          "y": 540
+        },
+        {
+          "x": 370,
+          "y": 650
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "cobalt",
+      "name": "Cobalt – Prospect & Nickel",
+      "x": 430,
+      "y": 1730,
+      "lines": ["transit"],
+      "label": {
+        "x": 410,
+        "y": 1700,
+        "anchor": "end",
+        "leader": true
+      },
+      "terminal": true
+    },
+    {
+      "id": "cobalt-grandview",
+      "name": "Cobalt – Grandview",
+      "x": 450,
+      "y": 1760,
+      "lines": ["transit"],
+      "label": {
+        "x": 450,
+        "y": 1790,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cobalt-library",
+      "name": "Cobalt Public Library",
+      "x": 500,
+      "y": 1710,
+      "lines": ["transit"],
+      "label": {
+        "x": 520,
+        "y": 1710,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "north-cobalt",
+      "name": "North Cobalt – Lakeview",
+      "x": 940,
+      "y": 1420,
+      "lines": ["transit"],
+      "label": {
+        "x": 940,
+        "y": 1450,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "medical-centre",
+      "name": "Haileybury Medical Centre",
+      "x": 1080,
+      "y": 1270,
+      "lines": ["transit"],
+      "label": {
+        "x": 1120,
+        "y": 1280,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "georgina-little",
+      "name": "Georgina & Little",
+      "x": 1040,
+      "y": 1230,
+      "lines": ["transit"],
+      "label": {
+        "x": 1070,
+        "y": 1220,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "main-rorke",
+      "name": "Main & Rorke",
+      "x": 1010,
+      "y": 1160,
+      "lines": ["transit"],
+      "label": {
+        "x": 1040,
+        "y": 1150,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "northern-college",
+      "name": "Northern College",
+      "x": 990,
+      "y": 1130,
+      "lines": ["transit"],
+      "label": {
+        "x": 1020,
+        "y": 1110,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "market-street",
+      "name": "New Liskeard – Market Street",
+      "x": 570,
+      "y": 540,
+      "lines": ["transit"],
+      "label": {
+        "x": 600,
+        "y": 560,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "hwy-65-wilson",
+      "name": "Highway 65 & Wilson",
+      "x": 600,
+      "y": 290,
+      "lines": ["transit"],
+      "label": {
+        "x": 575,
+        "y": 335,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "wal-mart",
+      "name": "Dymond – Wal-Mart",
+      "x": 610,
+      "y": 250,
+      "lines": ["transit"],
+      "label": {
+        "x": 640,
+        "y": 230,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Temiskaming Hospital",
+      "x": 370,
+      "y": 650,
+      "lines": ["transit"],
+      "label": {
+        "x": 350,
+        "y": 650,
+        "anchor": "end"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "transit",
+      "num": "1 / 2",
+      "x": 777.63,
+      "y": 872.37,
+      "color": "#F28C00",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "transit": [
+      "cobalt",
+      "cobalt-grandview",
+      "cobalt-library",
+      "north-cobalt",
+      "medical-centre",
+      "georgina-little",
+      "main-rorke",
+      "northern-college",
+      "market-street",
+      "hwy-65-wilson",
+      "wal-mart",
+      "hospital"
+    ]
+  },
+  "stationAliases": {
+    "Prospect Ave & Nickel St": "cobalt",
+    "Cobalt St & Grandview Ave": "cobalt-grandview",
+    "Cobalt Public Library": "cobalt-library",
+    "Lakeview Ave & Queen St": "north-cobalt",
+    "Haileybury Medical Centre": "medical-centre",
+    "Georgina Ave & Little St": "georgina-little",
+    "Rorke Ave & Main St": "main-rorke",
+    "Northern College": "northern-college",
+    "Market Street": "market-street",
+    "HWY 65 & Wilson Ave": "hwy-65-wilson",
+    "Wal-Mart": "wal-mart",
+    "Temiskaming Hospital": "hospital"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 255,
+      "maxX": 1240,
+      "minY": 100,
+      "maxY": 1900
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.7,
+    "refLonEast": -79.63,
+    "refXWest": 300,
+    "refXEast": 1100,
+    "refLatNorth": 47.545,
+    "refLatSouth": 47.39,
+    "refYNorth": 100,
+    "refYSouth": 1800
+  },
+  "stationIndex": [
+    {
+      "id": "112",
+      "schematicId": "cobalt-grandview",
+      "name": "Cobalt – Grandview",
+      "lat": 47.393454,
+      "lon": -79.686922,
+      "lines": ["transit"],
+      "platformIds": ["112"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "cobalt",
+      "schematicId": "cobalt",
+      "name": "Cobalt – Prospect & Nickel",
+      "lat": 47.396383,
+      "lon": -79.688646,
+      "lines": ["transit"],
+      "platformIds": ["110", "256"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "114",
+      "schematicId": "cobalt-library",
+      "name": "Cobalt Public Library",
+      "lat": 47.397884,
+      "lon": -79.682535,
+      "lines": ["transit"],
+      "platformIds": ["114"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "wal-mart",
+      "schematicId": "wal-mart",
+      "name": "Dymond – Wal-Mart",
+      "lat": 47.531776,
+      "lon": -79.672482,
+      "lines": ["transit"],
+      "platformIds": ["150", "224"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "georgina-little",
+      "schematicId": "georgina-little",
+      "name": "Georgina & Little",
+      "lat": 47.442348,
+      "lon": -79.635329,
+      "lines": ["transit"],
+      "platformIds": ["128", "239"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "medical-centre",
+      "schematicId": "medical-centre",
+      "name": "Haileybury Medical Centre",
+      "lat": 47.438191,
+      "lon": -79.632171,
+      "lines": ["transit"],
+      "platformIds": ["125", "242"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "hwy-65-wilson",
+      "schematicId": "hwy-65-wilson",
+      "name": "Highway 65 & Wilson",
+      "lat": 47.527397,
+      "lon": -79.673699,
+      "lines": ["transit"],
+      "platformIds": ["144", "223"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "main-rorke",
+      "schematicId": "main-rorke",
+      "name": "Main & Rorke",
+      "lat": 47.448604,
+      "lon": -79.63759,
+      "lines": ["transit"],
+      "platformIds": ["130", "237"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "market-street",
+      "schematicId": "market-street",
+      "name": "New Liskeard – Market Street",
+      "lat": 47.505086,
+      "lon": -79.676451,
+      "lines": ["transit"],
+      "platformIds": ["137", "230"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "north-cobalt",
+      "schematicId": "north-cobalt",
+      "name": "North Cobalt – Lakeview",
+      "lat": 47.425067,
+      "lon": -79.644036,
+      "lines": ["transit"],
+      "platformIds": ["119", "248"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "northern-college",
+      "schematicId": "northern-college",
+      "name": "Northern College",
+      "lat": 47.451317,
+      "lon": -79.639994,
+      "lines": ["transit"],
+      "platformIds": ["131", "236"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "hospital",
+      "schematicId": "hospital",
+      "name": "Temiskaming Hospital",
+      "lat": 47.495021,
+      "lon": -79.69388,
+      "lines": ["transit"],
+      "platformIds": ["161", "210"],
+      "departureRouteIds": ["1", "2"]
+    }
+  ]
+}

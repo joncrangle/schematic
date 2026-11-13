@@ -1,0 +1,354 @@
+{
+  "id": "orillia",
+  "name": "Orillia Transit",
+  "serviceArea": "Orillia",
+  "shortName": "Orillia",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "bounds": [
+    {
+      "minLat": 44.6,
+      "maxLat": 44.639,
+      "minLon": -79.442,
+      "maxLon": -79.373
+    },
+    {
+      "minLat": 44.575,
+      "maxLat": 44.64,
+      "minLon": -79.47,
+      "maxLon": -79.37
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Orillia Transit / City of Orillia",
+    "url": "https://www.orillia.ca/roads-and-environment/getting-around/transit/",
+    "license": "No explicit licence terms were found for the City of Orillia GTFS or AnyRide data. Data is attributed to Orillia Transit / City of Orillia.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "ignoreFeedRouteColors": true,
+    "feeds": [
+      {
+        "name": "Orillia Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-orillia.zip",
+        "cacheFileName": "orillia-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "format": "json",
+        "url": "https://orillia.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "operatorPrefix": "4000",
+        "profile": {
+          "data": "metrolinx_orillia",
+          "display": "consat"
+        },
+        "stopAreaMap": {
+          "GR02": "116",
+          "GR03": "117",
+          "GR04": "118",
+          "GR05": "184",
+          "GR06": "119",
+          "GR07": "120",
+          "GR10": "121",
+          "GR11": "122",
+          "GR12": "123",
+          "GR13": "124",
+          "GR14": "125",
+          "GR15": "202",
+          "GR16": "126",
+          "GR18": "127",
+          "GR20": "128",
+          "GR21": "129",
+          "GR22": "130",
+          "GR23": "131",
+          "GR24": "132",
+          "GR25A": "133",
+          "GR27": "134",
+          "GR28": "135",
+          "GR29": "136",
+          "GR30": "137",
+          "GR30A": "138",
+          "GR31": "139",
+          "GR32": "140",
+          "GR33": "141",
+          "GR34": "143",
+          "GR35": "144",
+          "GR35A": "145",
+          "GR36": "146",
+          "GR37": "147",
+          "GR38": "148",
+          "GR39A": "149",
+          "GR40": "150",
+          "GR41": "206",
+          "GR42": "151",
+          "GR44": "152",
+          "GRT": "153",
+          "LR01A": "185",
+          "LR01B": "186",
+          "LR02": "29",
+          "LR04": "30",
+          "LR05": "31",
+          "LR06": "32",
+          "LR07": "33",
+          "LR08": "34",
+          "LR09": "35",
+          "LR10": "36",
+          "LR11": "37",
+          "LR12": "38",
+          "LR13": "39",
+          "LR14": "40",
+          "LR15": "41",
+          "LR16": "42",
+          "LR17": "43",
+          "LR18": "44",
+          "LR19": "45",
+          "LR20": "46",
+          "LR21": "47",
+          "LR22": "48",
+          "LR22A": "177",
+          "LR23": "49",
+          "LR23B": "50",
+          "LR24": "51",
+          "LR25": "52",
+          "LR26": "53",
+          "LR27": "54",
+          "LR28": "55",
+          "LR29": "56",
+          "LR30": "57",
+          "LR31": "58",
+          "LR32": "59",
+          "LR33": "60",
+          "LR34": "61",
+          "LR35": "62",
+          "LR36": "63",
+          "LR37": "64",
+          "LR38": "65",
+          "LR39": "66",
+          "LRT": "27",
+          "NR00A": "2",
+          "NR01": "3",
+          "NR02": "4",
+          "NR03": "5",
+          "NR03A": "178",
+          "NR04": "6",
+          "NR05": "7",
+          "NR06": "8",
+          "NR07": "9",
+          "NR08": "10",
+          "NR08B": "179",
+          "NR09": "11",
+          "NR10": "12",
+          "NR10A": "180",
+          "NR11": "13",
+          "NR11A": "181",
+          "NR12": "14",
+          "NR13": "15",
+          "NR14": "16",
+          "NR15": "17",
+          "NR16": "18",
+          "NR16A": "19",
+          "NR17": "20",
+          "NR18": "21",
+          "NR19": "22",
+          "NR19A": "23",
+          "NR20": "24",
+          "NR21": "25",
+          "NR22": "26",
+          "NRT": "1",
+          "SR01": "69",
+          "SR01A": "70",
+          "SR02": "71",
+          "SR02B": "72",
+          "SR03": "73",
+          "SR04": "74",
+          "SR05": "75",
+          "SR05A": "76",
+          "SR06": "77",
+          "SR07": "78",
+          "SR08": "79",
+          "SR09": "80",
+          "SR10": "81",
+          "SR11": "82",
+          "SR12": "83",
+          "SR13": "84",
+          "SR14": "85",
+          "SR15": "86",
+          "SR15A": "87",
+          "SR15B": "88",
+          "SR16": "89",
+          "SR17": "90",
+          "SR17A": "92",
+          "SR17AA": "91",
+          "SR17B": "93",
+          "SR17C": "94",
+          "SR17D": "95",
+          "SR17E": "96",
+          "SR17F": "97",
+          "SR18AA": "187",
+          "SR18B": "188",
+          "SR19": "111",
+          "SR19A": "205",
+          "SR20": "112",
+          "SR21": "98",
+          "SR22": "99",
+          "SR23": "113",
+          "SR24": "114",
+          "SR25": "115",
+          "SR26": "100",
+          "SR27": "101",
+          "SR28": "102",
+          "SR29": "103",
+          "SR30": "104",
+          "SR31": "105",
+          "SR31A": "213",
+          "SR32": "106",
+          "SR33": "107",
+          "SR34": "108",
+          "SRT": "68",
+          "WR01": "155",
+          "WR02": "156",
+          "WR03": "157",
+          "WR04": "158",
+          "WR05": "159",
+          "WR06": "160",
+          "WR07": "161",
+          "WR07A": "211",
+          "WR08": "162",
+          "WR09": "163",
+          "WR10": "164",
+          "WR10B": "165",
+          "WR10C": "183",
+          "WR11": "166",
+          "WR11B": "167",
+          "WR12": "168",
+          "WR13": "169",
+          "WR14": "170",
+          "WR15": "171",
+          "WR16": "172",
+          "WR17": "173",
+          "WR18": "174",
+          "WR19": "175",
+          "WR20": "176",
+          "WR22": "190",
+          "WR22a": "191",
+          "WR22b": "208",
+          "WR23": "192",
+          "WR24": "194",
+          "WR25": "195",
+          "WR26": "196",
+          "WR27": "197",
+          "WR28": "198",
+          "WR29": "199",
+          "WR30": "200",
+          "WR30a": "207",
+          "WR31": "201",
+          "WRCR": "210",
+          "WROBR": "193"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://metrolinx.tmix.se/gtfs-realtime-orillia/alerts.pb",
+      "emptyIsStale": true
+    },
+    {
+      "type": "web",
+      "parser": "ghd-news-service-advisories",
+      "url": "https://www.orillia.ca/news-and-notices/transit/",
+      "language": "en",
+      "cloudflareMaxCrawlPages": 10
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "7", "8"],
+    "routeLineMap": {
+      "North": "1",
+      "Laclie": "2",
+      "South": "3",
+      "Georgian": "4",
+      "West Ridge Via Old Barrie Road": "7",
+      "West Ridge Via Coldwater Road": "8"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": ["platform has been moved", "not be going down"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "titleIncludes": ["Laclie route transit detour"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ],
+    "routeNames": {
+      "2": ["Laclie"]
+    }
+  },
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "7", "8"],
+  "routeShortNames": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "7": "7",
+    "8": "8"
+  },
+  "cityPresets": [
+    {
+      "name": "Downtown Terminal",
+      "lat": 44.608543,
+      "lon": -79.419798
+    },
+    {
+      "name": "Lakehead University",
+      "lat": 44.592138,
+      "lon": -79.459405
+    },
+    {
+      "name": "Memorial Ave. at OPP",
+      "lat": 44.581154,
+      "lon": -79.42959
+    },
+    {
+      "name": "Orillia Square Mall Shelter",
+      "lat": 44.6311,
+      "lon": -79.4338
+    },
+    {
+      "name": "Soldiers Memorial Hospital",
+      "lat": 44.6054,
+      "lon": -79.4263
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+name: Alert Feed Daemon Release
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'services/alert-feed-daemon/**'
+      - '!services/alert-feed-daemon/**/*.md'
+      - 'proto/**'
+      - 'Cargo.*'
+      - 'Cross.toml'
+      - '.github/workflows/alert-daemon*.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  ci:
+    name: Alert Feed Daemon CI
+    uses: ./.github/workflows/alert-daemon-ci.yml
+
+  binaries:
+    name: Build Binary (${{ matrix.name }})
+    needs: ci
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - target: x86_64-unknown-linux-musl
+            name: linux-x86_64
+            bin: target/x86_64-unknown-linux-musl/release/alert-feed-daemon
+          - target: aarch64-unknown-linux-musl
+            name: linux-aarch64
+            cross: true
+            bin: target/aarch64-unknown-linux-musl/release/alert-feed-daemon
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: ${{ matrix.target }}
+
+      - name: Install Protoc and musl tools
+        run: sudo apt-get update && sudo apt-get install -y protobuf-compiler musl-tools
+
+      - name: Install Rust target
+        run: rustup target add ${{ matrix.target }}
+
+      # AWS-LC's startup CPU probe must not assume AVX, so pin a baseline target.
+      - name: Pin baseline x86-64 CPU
+        if: ${{ matrix.target == 'x86_64-unknown-linux-musl' }}
+        run: |
+          echo "CFLAGS=-march=x86-64 -mno-avx -mno-avx2" >> "$GITHUB_ENV"
+          echo "AWS_LC_SYS_CFLAGS=-march=x86-64 -mno-avx -mno-avx2" >> "$GITHUB_ENV"
+          echo "RUSTFLAGS=-C target-cpu=x86-64" >> "$GITHUB_ENV"
+
+      - name: Build native binary
+        if: ${{ !matrix.cross }}
+        run: cargo build --release -p alert-feed-daemon --target ${{ matrix.target }}
+
+      - name: Install and run cross for ARM Linux
+        if: ${{ matrix.cross }}
+        run: |
+          mkdir -p ~/.cargo/bin
+          curl -sSL https://github.com/cross-rs/cross/releases/download/v0.2.5/cross-x86_64-unknown-linux-musl.tar.gz | tar -xz -C ~/.cargo/bin
+          cross build --release -p alert-feed-daemon --target ${{ matrix.target }}
+
+      # Nehalem has no AVX, so this fails fast if a constructor traps on SIGILL.
+      - name: Verify baseline CPU support
+        if: ${{ matrix.target == 'x86_64-unknown-linux-musl' }}
+        run: |
+          sudo apt-get install -y qemu-user
+          printf '{"feeds":[]}' > /tmp/empty-feeds.json
+          ALERT_FEED_CONFIG=/tmp/empty-feeds.json PORT=3001 \
+            qemu-x86_64 -cpu Nehalem "${{ matrix.bin }}" > /tmp/daemon.log 2>&1 &
+          pid=$!
+          for _ in $(seq 1 40); do
+            if curl -fsS http://127.0.0.1:3001/health > /dev/null; then
+              kill "$pid" 2>/dev/null || true
+              exit 0
+            fi
+            sleep 0.5
+          done
+          kill "$pid" 2>/dev/null || true
+          cat /tmp/daemon.log
+          exit 1
+
+      - name: Upload Binary Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: alert-feed-daemon-${{ matrix.name }}
+          path: ${{ matrix.bin }}
+          if-no-files-found: error
+
+  docker:
+    name: Build & Push Multi-Arch Container
+    needs: [ci, binaries]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Download Linux AMD64 Binary
+        uses: actions/download-artifact@v8
+        with:
+          name: alert-feed-daemon-linux-x86_64
+          path: bin/amd64
+
+      - name: Download Linux ARM64 Binary
+        uses: actions/download-artifact@v8
+        with:
+          name: alert-feed-daemon-linux-aarch64
+          path: bin/arm64
+
+      - name: Prepare binary permissions
+        run: |
+          chmod +x bin/amd64/alert-feed-daemon
+          chmod +x bin/arm64/alert-feed-daemon
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v6
+        with:
+          images: ghcr.io/${{ github.repository_owner }}/alert-feed-daemon
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=sha,prefix=sha-,format=short
+
+      - name: Build and push container
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: services/alert-feed-daemon/Dockerfile.release
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

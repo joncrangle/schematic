@@ -1,0 +1,88 @@
+{
+  "id": "st-thomas",
+  "name": "St. Thomas Transit",
+  "serviceArea": "St. Thomas",
+  "shortName": "RCT",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "bounds": [
+    {
+      "minLat": 42.745,
+      "maxLat": 42.812,
+      "minLon": -81.214,
+      "maxLon": -81.148
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "St. Thomas Transit (Railway City Transit) / City of St. Thomas",
+    "url": "https://www.stthomas.ca/living-in-st-thomas/transit/",
+    "license": "No explicit licence terms were found for the City of St. Thomas GTFS or AnyRide data. Data is attributed to Railway City Transit / City of St. Thomas.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "St. Thomas Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-stthomas.zip",
+        "cacheFileName": "st-thomas-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://stthomas.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "1400",
+        "profile": {
+          "data": "metrolinx_stthomas",
+          "display": "consat"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "5"]
+  },
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "5"],
+  "cityPresets": [
+    {
+      "name": "The Hub",
+      "lat": 42.781304,
+      "lon": -81.17216
+    },
+    {
+      "name": "HOSPITAL STEGH",
+      "lat": 42.764136,
+      "lon": -81.180243
+    },
+    {
+      "name": "Fanshawe College",
+      "lat": 42.753894,
+      "lon": -81.169661
+    },
+    {
+      "name": "Elgin Mall East",
+      "lat": 42.775617,
+      "lon": -81.159336
+    },
+    {
+      "name": "Parkside CI",
+      "lat": 42.756697,
+      "lon": -81.192883
+    }
+  ]
+}

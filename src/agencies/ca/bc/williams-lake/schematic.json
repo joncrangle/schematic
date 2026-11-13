@@ -1,0 +1,835 @@
+{
+  "viewBoxWidth": 2500,
+  "viewBoxHeight": 1900,
+  "lines": [
+    {
+      "id": "1-WIL",
+      "name": "Community Bus",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 800,
+          "y": 1000
+        },
+        {
+          "x": 650,
+          "y": 1000
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 550
+        },
+        {
+          "x": 400,
+          "y": 550
+        },
+        {
+          "x": 250,
+          "y": 400
+        },
+        {
+          "x": 250,
+          "y": 250
+        },
+        {
+          "x": 500,
+          "y": 250
+        },
+        {
+          "x": 650,
+          "y": 100
+        },
+        {
+          "x": 800,
+          "y": 100
+        },
+        {
+          "x": 800,
+          "y": 300
+        },
+        {
+          "x": 950,
+          "y": 450
+        },
+        {
+          "x": 850,
+          "y": 550
+        },
+        {
+          "x": 700,
+          "y": 550
+        },
+        {
+          "x": 700,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 800
+        },
+        {
+          "x": 800,
+          "y": 1000
+        },
+        {
+          "x": 900,
+          "y": 1100
+        },
+        {
+          "x": 1100,
+          "y": 1100
+        },
+        {
+          "x": 1100,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "2-WIL",
+      "name": "Broadway",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 1000
+        },
+        {
+          "x": 1500,
+          "y": 1000
+        },
+        {
+          "x": 1700,
+          "y": 1200
+        },
+        {
+          "x": 1800,
+          "y": 1200
+        },
+        {
+          "x": 1900,
+          "y": 1100
+        },
+        {
+          "x": 1900,
+          "y": 1000
+        },
+        {
+          "x": 1700,
+          "y": 800
+        },
+        {
+          "x": 1500,
+          "y": 800
+        },
+        {
+          "x": 1400,
+          "y": 700
+        },
+        {
+          "x": 1400,
+          "y": 450
+        },
+        {
+          "x": 1300,
+          "y": 350
+        },
+        {
+          "x": 1100,
+          "y": 350
+        },
+        {
+          "x": 1000,
+          "y": 450
+        },
+        {
+          "x": 1000,
+          "y": 550
+        },
+        {
+          "x": 950,
+          "y": 600
+        },
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 700,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 800
+        },
+        {
+          "x": 800,
+          "y": 1000
+        },
+        {
+          "x": 900,
+          "y": 1100
+        },
+        {
+          "x": 1100,
+          "y": 1100
+        },
+        {
+          "x": 1100,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "3-WIL",
+      "name": "South Lakeside",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 850,
+          "y": 950
+        },
+        {
+          "x": 750,
+          "y": 950
+        },
+        {
+          "x": 450,
+          "y": 1250
+        },
+        {
+          "x": 350,
+          "y": 1350
+        },
+        {
+          "x": 350,
+          "y": 1450
+        },
+        {
+          "x": 500,
+          "y": 1600
+        },
+        {
+          "x": 1000,
+          "y": 1600
+        },
+        {
+          "x": 1200,
+          "y": 1400
+        },
+        {
+          "x": 1900,
+          "y": 1400
+        },
+        {
+          "x": 2000,
+          "y": 1500
+        },
+        {
+          "x": 2000,
+          "y": 1600
+        },
+        {
+          "x": 1900,
+          "y": 1700
+        },
+        {
+          "x": 1700,
+          "y": 1700
+        },
+        {
+          "x": 1700,
+          "y": 1600
+        },
+        {
+          "x": 1500,
+          "y": 1400
+        },
+        {
+          "x": 1200,
+          "y": 1400
+        },
+        {
+          "x": 1200,
+          "y": 1000
+        },
+        {
+          "x": 1000,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "4-WIL",
+      "name": "Sugar Cane",
+      "color": "#EC008C",
+      "points": [
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 1000
+        },
+        {
+          "x": 1500,
+          "y": 1000
+        },
+        {
+          "x": 1700,
+          "y": 1200
+        },
+        {
+          "x": 1800,
+          "y": 1200
+        },
+        {
+          "x": 2100,
+          "y": 1500
+        },
+        {
+          "x": 2250,
+          "y": 1500
+        },
+        {
+          "x": 2350,
+          "y": 1400
+        },
+        {
+          "x": 2350,
+          "y": 1300
+        },
+        {
+          "x": 2250,
+          "y": 1200
+        },
+        {
+          "x": 1850,
+          "y": 1200
+        },
+        {
+          "x": 1650,
+          "y": 1000
+        },
+        {
+          "x": 1400,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 800
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "boitanio",
+      "name": "Boitanio Park",
+      "x": 1000,
+      "y": 800,
+      "lines": ["1-WIL", "2-WIL", "3-WIL", "4-WIL"],
+      "label": {
+        "x": 970,
+        "y": 770,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "7th-oliver",
+      "name": "7 Avenue / Oliver",
+      "x": 900,
+      "y": 900,
+      "lines": ["1-WIL", "2-WIL", "3-WIL", "4-WIL"],
+      "label": {
+        "x": 930,
+        "y": 930,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "yorston",
+      "name": "Yorston / 3 Avenue South",
+      "x": 800,
+      "y": 1000,
+      "lines": ["1-WIL", "2-WIL"],
+      "label": {
+        "x": 770,
+        "y": 1030,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "maple",
+      "name": "Maple / MacKenzie",
+      "x": 300,
+      "y": 250,
+      "lines": ["1-WIL"],
+      "label": {
+        "x": 300,
+        "y": 220,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "11th-blair",
+      "name": "11 Avenue / Blair",
+      "x": 700,
+      "y": 100,
+      "lines": ["1-WIL"],
+      "label": {
+        "x": 700,
+        "y": 70,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Cariboo Memorial Hospital",
+      "x": 750,
+      "y": 550,
+      "lines": ["1-WIL"],
+      "label": {
+        "x": 750,
+        "y": 520,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "proctor",
+      "name": "4 Avenue / Proctor",
+      "x": 700,
+      "y": 650,
+      "lines": ["1-WIL", "2-WIL"],
+      "label": {
+        "x": 675,
+        "y": 650,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "discovery",
+      "name": "Tourist Discovery Centre",
+      "x": 1750,
+      "y": 1200,
+      "lines": ["2-WIL"],
+      "label": {
+        "x": 1750,
+        "y": 1170,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lakeview",
+      "name": "Lakeview / Summit",
+      "x": 1600,
+      "y": 800,
+      "lines": ["2-WIL"],
+      "label": {
+        "x": 1600,
+        "y": 770,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "smedley",
+      "name": "11 Avenue / Smedley",
+      "x": 1250,
+      "y": 350,
+      "lines": ["2-WIL"],
+      "label": {
+        "x": 1250,
+        "y": 320,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sunset",
+      "name": "Sunset Manor",
+      "x": 350,
+      "y": 1400,
+      "lines": ["3-WIL"],
+      "label": {
+        "x": 325,
+        "y": 1400,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dog-creek",
+      "name": "Hodgson / Dog Creek",
+      "x": 900,
+      "y": 1600,
+      "lines": ["3-WIL"],
+      "label": {
+        "x": 900,
+        "y": 1630,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lakeside-hodgson",
+      "name": "South Lakeside / Hodgson",
+      "x": 1300,
+      "y": 1400,
+      "lines": ["3-WIL"],
+      "label": {
+        "x": 1330,
+        "y": 1370,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 1600,
+      "y": 1400,
+      "lines": ["3-WIL"],
+      "label": {
+        "x": 1600,
+        "y": 1370,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "renner",
+      "name": "South Lakeside / Renner",
+      "x": 1850,
+      "y": 1700,
+      "lines": ["3-WIL"],
+      "label": {
+        "x": 1850,
+        "y": 1730,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sugar-cane",
+      "name": "Sugar Cane Band Office",
+      "x": 2200,
+      "y": 1500,
+      "lines": ["4-WIL"],
+      "label": {
+        "x": 2200,
+        "y": 1530,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "chief-will-yum",
+      "name": "Chief Will-Yum Gas Bar",
+      "x": 2000,
+      "y": 1200,
+      "lines": ["4-WIL"],
+      "label": {
+        "x": 2000,
+        "y": 1170,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "1-WIL": ["boitanio", "7th-oliver", "yorston", "maple", "11th-blair", "hospital", "proctor"],
+    "2-WIL": ["boitanio", "7th-oliver", "discovery", "lakeview", "smedley", "proctor", "yorston"],
+    "3-WIL": [
+      "boitanio",
+      "7th-oliver",
+      "sunset",
+      "dog-creek",
+      "lakeside-hodgson",
+      "walmart",
+      "renner"
+    ],
+    "4-WIL": ["boitanio", "7th-oliver", "sugar-cane", "chief-will-yum"]
+  },
+  "stationAliases": {
+    "Borland St at Boitanio Park": "boitanio",
+    "7th Ave N at Oliver St": "7th-oliver",
+    "Yorston St at 3rd Ave S": "yorston",
+    "Pine St at MacKenzie Ave N": "maple",
+    "11th Ave N at Blair St": "11th-blair",
+    "4th Ave N at Gibbon St - Hospital": "hospital",
+    "Proctor St at 4th Ave N": "proctor",
+    "Broadway Ave S at Tourist Discovery Ctr": "discovery",
+    "Lakeview Ave at Summit St": "lakeview",
+    "11th Ave N at Smedley St": "smedley",
+    "Westridge Dr at Sunset Manor": "sunset",
+    "Hodgson Rd at Dog Creek Rd": "dog-creek",
+    "S Lakeside Dr at Hodgson Rd": "lakeside-hodgson",
+    "Prosperity Way (Walmart)": "walmart",
+    "S Lakeside Dr at Renner Rd": "renner",
+    "Sugar Cane Band Office": "sugar-cane",
+    "Hwy 97 at Chief Will-Yum Gas Bar": "chief-will-yum"
+  },
+  "badges": [
+    {
+      "line": "1-WIL",
+      "num": "1",
+      "x": 216,
+      "y": 350,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-WIL",
+      "num": "2",
+      "x": 1934,
+      "y": 1050,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-WIL",
+      "num": "3",
+      "x": 550,
+      "y": 1634,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-WIL",
+      "num": "4",
+      "x": 2384,
+      "y": 1350,
+      "color": "#EC008C",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 2460,
+      "minY": 40,
+      "maxY": 1860
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -122.166,
+    "refLonEast": -121.992,
+    "refXWest": 250,
+    "refXEast": 2200,
+    "refLatNorth": 52.168,
+    "refLatSouth": 52.108,
+    "refYNorth": 100,
+    "refYSouth": 1700
+  },
+  "stationIndex": [
+    {
+      "id": "186014",
+      "schematicId": "11th-blair",
+      "name": "11 Avenue / Blair",
+      "lat": 52.1505,
+      "lon": -122.14942,
+      "lines": ["1-WIL"],
+      "platformIds": ["186014"],
+      "departureRouteIds": ["1-WIL"]
+    },
+    {
+      "id": "186036",
+      "schematicId": "smedley",
+      "name": "11 Avenue / Smedley",
+      "lat": 52.1421,
+      "lon": -122.13797,
+      "lines": ["2-WIL"],
+      "platformIds": ["186036"],
+      "departureRouteIds": ["2-WIL"]
+    },
+    {
+      "id": "186024",
+      "schematicId": "proctor",
+      "name": "4 Avenue / Proctor",
+      "lat": 52.13189,
+      "lon": -122.14212,
+      "lines": ["1-WIL", "2-WIL"],
+      "platformIds": ["186024"],
+      "departureRouteIds": ["1-WIL", "2-WIL"]
+    },
+    {
+      "id": "186021",
+      "schematicId": "7th-oliver",
+      "name": "7 Avenue / Oliver",
+      "lat": 52.12915,
+      "lon": -122.13633,
+      "lines": ["1-WIL", "2-WIL", "3-WIL", "4-WIL"],
+      "platformIds": ["186021"],
+      "departureRouteIds": ["1-WIL", "2-WIL", "3-WIL", "4-WIL"]
+    },
+    {
+      "id": "186020",
+      "schematicId": "boitanio",
+      "name": "Boitanio Park",
+      "lat": 52.12977,
+      "lon": -122.13448,
+      "lines": ["1-WIL", "2-WIL", "3-WIL", "4-WIL"],
+      "platformIds": ["186020"],
+      "departureRouteIds": ["1-WIL", "2-WIL", "3-WIL", "4-WIL"]
+    },
+    {
+      "id": "186001",
+      "schematicId": "hospital",
+      "name": "Cariboo Memorial Hospital",
+      "lat": 52.13779,
+      "lon": -122.14625,
+      "lines": ["1-WIL"],
+      "platformIds": ["186001"],
+      "departureRouteIds": ["1-WIL"]
+    },
+    {
+      "id": "186076",
+      "schematicId": "chief-will-yum",
+      "name": "Chief Will-Yum Gas Bar",
+      "lat": 52.11774,
+      "lon": -122.00594,
+      "lines": ["4-WIL"],
+      "platformIds": ["186076"],
+      "departureRouteIds": ["4-WIL"]
+    },
+    {
+      "id": "186043",
+      "schematicId": "dog-creek",
+      "name": "Hodgson / Dog Creek",
+      "lat": 52.11181,
+      "lon": -122.14886,
+      "lines": ["3-WIL"],
+      "platformIds": ["186043"],
+      "departureRouteIds": ["3-WIL"]
+    },
+    {
+      "id": "186034",
+      "schematicId": "lakeview",
+      "name": "Lakeview / Summit",
+      "lat": 52.13092,
+      "lon": -122.1287,
+      "lines": ["2-WIL"],
+      "platformIds": ["186034"],
+      "departureRouteIds": ["2-WIL"]
+    },
+    {
+      "id": "186007",
+      "schematicId": "maple",
+      "name": "Maple / MacKenzie",
+      "lat": 52.14658,
+      "lon": -122.16336,
+      "lines": ["1-WIL"],
+      "platformIds": ["186007"],
+      "departureRouteIds": ["1-WIL"]
+    },
+    {
+      "id": "lakeside-hodgson",
+      "schematicId": "lakeside-hodgson",
+      "name": "South Lakeside / Hodgson",
+      "lat": 52.11648,
+      "lon": -122.13057,
+      "lines": ["3-WIL"],
+      "platformIds": ["186045", "186054"],
+      "departureRouteIds": ["3-WIL"]
+    },
+    {
+      "id": "186056",
+      "schematicId": "renner",
+      "name": "South Lakeside / Renner",
+      "lat": 52.11093,
+      "lon": -122.09333,
+      "lines": ["3-WIL"],
+      "platformIds": ["186056"],
+      "departureRouteIds": ["3-WIL"]
+    },
+    {
+      "id": "186035",
+      "schematicId": "sugar-cane",
+      "name": "Sugar Cane Band Office",
+      "lat": 52.10826,
+      "lon": -121.99199,
+      "lines": ["4-WIL"],
+      "platformIds": ["186035"],
+      "departureRouteIds": ["4-WIL"]
+    },
+    {
+      "id": "186042",
+      "schematicId": "sunset",
+      "name": "Sunset Manor",
+      "lat": 52.11651,
+      "lon": -122.16088,
+      "lines": ["3-WIL"],
+      "platformIds": ["186042"],
+      "departureRouteIds": ["3-WIL"]
+    },
+    {
+      "id": "186063",
+      "schematicId": "discovery",
+      "name": "Tourist Discovery Centre",
+      "lat": 52.12245,
+      "lon": -122.09884,
+      "lines": ["2-WIL"],
+      "platformIds": ["186063"],
+      "departureRouteIds": ["2-WIL"]
+    },
+    {
+      "id": "186047",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 52.11336,
+      "lon": -122.12244,
+      "lines": ["3-WIL"],
+      "platformIds": ["186047"],
+      "departureRouteIds": ["3-WIL"]
+    },
+    {
+      "id": "yorston",
+      "schematicId": "yorston",
+      "name": "Yorston / 3 Avenue South",
+      "lat": 52.12668,
+      "lon": -122.14163,
+      "lines": ["1-WIL", "2-WIL"],
+      "platformIds": ["186005", "186023"],
+      "departureRouteIds": ["1-WIL", "2-WIL"]
+    }
+  ]
+}

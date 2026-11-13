@@ -1,0 +1,166 @@
+{
+  "id": "tidal-transit",
+  "name": "Tidal Transit",
+  "shortName": "Tidal Transit",
+  "serviceArea": "Annapolis Valley and Digby County",
+  "locale": "en-CA",
+  "timezone": "America/Halifax",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ns"
+  },
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Tidal Transit Authority / Kings Transit Authority and TransLoc",
+    "url": "https://tidaltransit.ca/",
+    "license": "Official operator-linked transit data. No explicit reuse licence was found; attribution is provided on a best-effort basis.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "url": "https://kbus.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx",
+        "cacheFileName": "tidal-transit-gtfs.zip"
+      }
+    ]
+  },
+  "bounds": [
+    {
+      "minLat": 44.396556999999994,
+      "maxLat": 44.594501,
+      "minLon": -66.053,
+      "maxLon": -65.797
+    },
+    {
+      "minLat": 44.584351,
+      "maxLat": 44.722793,
+      "minLon": -65.803,
+      "maxLon": -65.547
+    },
+    {
+      "minLat": 44.724373940599996,
+      "maxLat": 44.845777000000005,
+      "minLon": -65.553,
+      "maxLon": -65.297
+    },
+    {
+      "minLat": 44.8321825059,
+      "maxLat": 44.963673174600004,
+      "minLon": -65.303,
+      "maxLon": -65.047
+    },
+    {
+      "minLat": 44.918386999999996,
+      "maxLat": 45.03819,
+      "minLon": -65.053,
+      "maxLon": -64.797
+    },
+    {
+      "minLat": 45.021704,
+      "maxLat": 45.0791730055,
+      "minLon": -64.803,
+      "maxLon": -64.547
+    },
+    {
+      "minLat": 45.057781,
+      "maxLat": 45.111000000000004,
+      "minLon": -64.553,
+      "maxLon": -64.28
+    }
+  ],
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "transloc",
+        "format": "json",
+        "url": "https://kbus.transloc.com/Services/JSONPRelay.svc",
+        "auth": {
+          "type": "query_param",
+          "parameterName": "apiKey",
+          "secretName": "FEED_TIDAL_API_KEY"
+        },
+        "routeIds": ["33", "47", "30", "32", "34"],
+        "idPrefix": "TL-",
+        "stopIdField": "RouteStopId",
+        "emptyArrivals": "error",
+        "pollIntervalSeconds": 60
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["TL-33", "TL-47", "TL-30", "TL-32", "TL-34"],
+  "routeShortNames": {
+    "TL-33": "1 Grand Pré",
+    "TL-47": "1 Port Williams",
+    "TL-30": "2",
+    "TL-32": "3",
+    "TL-34": "4"
+  },
+  "cityPresets": [
+    {
+      "name": "Greenwood Mall",
+      "lat": 44.968891,
+      "lon": -64.926411
+    },
+    {
+      "name": "Kentville Justice Centre",
+      "lat": 45.079251,
+      "lon": -64.494352
+    },
+    {
+      "name": "Digby Superstore",
+      "lat": 44.599726,
+      "lon": -65.772843
+    }
+  ],
+  "alerts": [
+    {
+      "type": "web",
+      "parser": "heading-service-notices",
+      "url": "https://tidaltransit.ca/",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-08-04",
+        "validThrough": "2026-12-31"
+      },
+      "routeNames": {
+        "TL-33": ["1"],
+        "TL-47": ["1"],
+        "TL-30": ["2"],
+        "TL-32": ["3"],
+        "TL-34": ["4"]
+      }
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["TL-33", "TL-47", "TL-30", "TL-32", "TL-34"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": ["not be running", "end service"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["detour"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  }
+}

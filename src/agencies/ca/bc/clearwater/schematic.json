@@ -1,0 +1,578 @@
+{
+  "viewBoxWidth": 2100,
+  "viewBoxHeight": 1700,
+  "lines": [
+    {
+      "id": "1-CLR",
+      "name": "Vavenby",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 1300,
+          "y": 500
+        },
+        {
+          "x": 1500,
+          "y": 700
+        },
+        {
+          "x": 1800,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "2-CLR",
+      "name": "Blackpool / Mountainview",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 150
+        },
+        {
+          "x": 550,
+          "y": 150
+        },
+        {
+          "x": 450,
+          "y": 250
+        },
+        {
+          "x": 450,
+          "y": 650
+        },
+        {
+          "x": 300,
+          "y": 800
+        },
+        {
+          "x": 450,
+          "y": 650
+        },
+        {
+          "x": 450,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "3-CLR",
+      "name": "Community Loop",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 900,
+          "y": 400
+        },
+        {
+          "x": 1050,
+          "y": 400
+        },
+        {
+          "x": 1150,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 700,
+          "y": 400
+        },
+        {
+          "x": 550,
+          "y": 400
+        },
+        {
+          "x": 450,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "10-CLR",
+      "name": "Valley Connector",
+      "color": "#00AA47",
+      "points": [
+        {
+          "x": 250,
+          "y": 1500
+        },
+        {
+          "x": 350,
+          "y": 1500
+        },
+        {
+          "x": 450,
+          "y": 1400
+        },
+        {
+          "x": 450,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 1300,
+          "y": 500
+        },
+        {
+          "x": 1500,
+          "y": 700
+        },
+        {
+          "x": 1800,
+          "y": 700
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "greer",
+      "name": "Mountainview at Greer",
+      "x": 800,
+      "y": 150,
+      "lines": ["2-CLR"],
+      "label": {
+        "x": 828,
+        "y": 150,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "buy-low",
+      "name": "Buy Low Foods",
+      "x": 800,
+      "y": 500,
+      "lines": ["1-CLR", "2-CLR", "3-CLR", "10-CLR"],
+      "label": {
+        "x": 800,
+        "y": 532,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "post-office",
+      "name": "Post Office",
+      "x": 950,
+      "y": 500,
+      "lines": ["1-CLR", "3-CLR"],
+      "label": {
+        "x": 950,
+        "y": 532,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "evergreen",
+      "name": "Evergreen Acres",
+      "x": 1000,
+      "y": 400,
+      "lines": ["3-CLR"],
+      "label": {
+        "x": 1000,
+        "y": 368,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "raft-forest",
+      "name": "Hwy 5 at Raft Forest Rd",
+      "x": 1250,
+      "y": 500,
+      "lines": ["1-CLR"],
+      "label": {
+        "x": 1250,
+        "y": 468,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "birch-island",
+      "name": "Birch Island",
+      "x": 1600,
+      "y": 700,
+      "lines": ["1-CLR"],
+      "label": {
+        "x": 1600,
+        "y": 732,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "vavenby",
+      "name": "Vavenby Store",
+      "x": 1800,
+      "y": 700,
+      "lines": ["1-CLR", "10-CLR"],
+      "label": {
+        "x": 1828,
+        "y": 700,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "dutch-lake",
+      "name": "Dutch Lake Community Centre",
+      "x": 600,
+      "y": 400,
+      "lines": ["3-CLR"],
+      "label": {
+        "x": 600,
+        "y": 368,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "brookfield",
+      "name": "Brookfield Mall",
+      "x": 450,
+      "y": 500,
+      "lines": ["2-CLR", "3-CLR", "10-CLR"],
+      "label": {
+        "x": 422,
+        "y": 500,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ford-jenkins",
+      "name": "Ford Rd at Jenkins Rd",
+      "x": 300,
+      "y": 800,
+      "lines": ["2-CLR"],
+      "label": {
+        "x": 272,
+        "y": 800,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "little-fort",
+      "name": "Little Fort",
+      "x": 450,
+      "y": 950,
+      "lines": ["10-CLR"],
+      "label": {
+        "x": 478,
+        "y": 950,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "barriere",
+      "name": "Barriere",
+      "x": 450,
+      "y": 1150,
+      "lines": ["10-CLR"],
+      "label": {
+        "x": 478,
+        "y": 1150,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lansdowne",
+      "name": "Lansdowne at 4th Avenue",
+      "x": 450,
+      "y": 1250,
+      "lines": ["10-CLR"],
+      "label": {
+        "x": 478,
+        "y": 1250,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "royal-inland-hospital",
+      "name": "Royal Inland Hospital",
+      "x": 450,
+      "y": 1350,
+      "lines": ["10-CLR"],
+      "label": {
+        "x": 478,
+        "y": 1350,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "aberdeen-mall",
+      "name": "Aberdeen Mall",
+      "x": 250,
+      "y": 1500,
+      "lines": ["10-CLR"],
+      "label": {
+        "x": 250,
+        "y": 1532,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "sequences": {
+    "1-CLR": ["buy-low", "post-office", "raft-forest", "birch-island", "vavenby"],
+    "2-CLR": ["buy-low", "greer", "brookfield", "ford-jenkins"],
+    "3-CLR": ["buy-low", "evergreen", "post-office", "dutch-lake", "brookfield"],
+    "10-CLR": [
+      "aberdeen-mall",
+      "royal-inland-hospital",
+      "lansdowne",
+      "barriere",
+      "little-fort",
+      "brookfield",
+      "buy-low",
+      "vavenby"
+    ]
+  },
+  "stationAliases": {
+    "Clearwater Medical Centre": "buy-low",
+    "Birch Island Lost Creek Rd at Norris Rd": "birch-island"
+  },
+  "badges": [
+    {
+      "line": "1-CLR",
+      "num": "1",
+      "x": 1423,
+      "y": 577,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-CLR",
+      "num": "2",
+      "x": 834,
+      "y": 320,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-CLR",
+      "num": "3",
+      "x": 660,
+      "y": 434,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "10-CLR",
+      "num": "10",
+      "x": 416,
+      "y": 1050,
+      "color": "#00AA47",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 2060,
+      "minY": 40,
+      "maxY": 1660
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -120.372,
+    "refLonEast": -119.728,
+    "refXWest": 250,
+    "refXEast": 1800,
+    "refLatNorth": 51.6795,
+    "refLatSouth": 50.6557,
+    "refYNorth": 150,
+    "refYSouth": 1500
+  },
+  "cornerInsertions": [
+    {
+      "lineId": "2-CLR",
+      "stationId": "ford-jenkins",
+      "before": {
+        "x": 450,
+        "y": 650
+      },
+      "after": {
+        "x": 450,
+        "y": 650
+      }
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "aberdeen-mall",
+      "schematicId": "aberdeen-mall",
+      "name": "Aberdeen Mall",
+      "lat": 50.65533,
+      "lon": -120.37239,
+      "lines": ["10-CLR"],
+      "platformIds": ["104409", "104432"],
+      "departureRouteIds": ["10-CLR"]
+    },
+    {
+      "id": "157013",
+      "schematicId": "barriere",
+      "name": "Barriere",
+      "lat": 51.1795,
+      "lon": -120.12451,
+      "lines": ["10-CLR"],
+      "platformIds": ["157013"],
+      "departureRouteIds": ["10-CLR"]
+    },
+    {
+      "id": "157006",
+      "schematicId": "birch-island",
+      "name": "Birch Island",
+      "lat": 51.60702,
+      "lon": -119.9134,
+      "lines": ["1-CLR"],
+      "platformIds": ["157006"],
+      "departureRouteIds": ["1-CLR"]
+    },
+    {
+      "id": "157002",
+      "schematicId": "brookfield",
+      "name": "Brookfield Mall",
+      "lat": 51.64513,
+      "lon": -120.07193,
+      "lines": ["10-CLR", "2-CLR", "3-CLR"],
+      "platformIds": ["157002"],
+      "departureRouteIds": ["10-CLR", "2-CLR", "3-CLR"]
+    },
+    {
+      "id": "buy-low",
+      "schematicId": "buy-low",
+      "name": "Buy Low Foods",
+      "lat": 51.65036,
+      "lon": -120.04018,
+      "lines": ["1-CLR", "10-CLR", "2-CLR", "3-CLR"],
+      "platformIds": ["157007", "157015"],
+      "departureRouteIds": ["1-CLR", "10-CLR", "2-CLR", "3-CLR"]
+    },
+    {
+      "id": "157011",
+      "schematicId": "dutch-lake",
+      "name": "Dutch Lake Community Centre",
+      "lat": 51.65013,
+      "lon": -120.0648,
+      "lines": ["3-CLR"],
+      "platformIds": ["157011"],
+      "departureRouteIds": ["3-CLR"]
+    },
+    {
+      "id": "157010",
+      "schematicId": "evergreen",
+      "name": "Evergreen Acres",
+      "lat": 51.64642,
+      "lon": -120.02082,
+      "lines": ["3-CLR"],
+      "platformIds": ["157010"],
+      "departureRouteIds": ["3-CLR"]
+    },
+    {
+      "id": "157008",
+      "schematicId": "ford-jenkins",
+      "name": "Ford Rd at Jenkins Rd",
+      "lat": 51.61,
+      "lon": -120.1088,
+      "lines": ["2-CLR"],
+      "platformIds": ["157008"],
+      "departureRouteIds": ["2-CLR"]
+    },
+    {
+      "id": "157004",
+      "schematicId": "raft-forest",
+      "name": "Hwy 5 at Raft Forest Rd",
+      "lat": 51.64113,
+      "lon": -119.97984,
+      "lines": ["1-CLR"],
+      "platformIds": ["157004"],
+      "departureRouteIds": ["1-CLR"]
+    },
+    {
+      "id": "104201",
+      "schematicId": "lansdowne",
+      "name": "Lansdowne at 4th Avenue",
+      "lat": 50.67672,
+      "lon": -120.33288,
+      "lines": ["10-CLR"],
+      "platformIds": ["104201"],
+      "departureRouteIds": ["10-CLR"]
+    },
+    {
+      "id": "157012",
+      "schematicId": "little-fort",
+      "name": "Little Fort",
+      "lat": 51.42174,
+      "lon": -120.20573,
+      "lines": ["10-CLR"],
+      "platformIds": ["157012"],
+      "departureRouteIds": ["10-CLR"]
+    },
+    {
+      "id": "157001",
+      "schematicId": "greer",
+      "name": "Mountainview at Greer",
+      "lat": 51.67949,
+      "lon": -120.01548,
+      "lines": ["2-CLR"],
+      "platformIds": ["157001"],
+      "departureRouteIds": ["2-CLR"]
+    },
+    {
+      "id": "post-office",
+      "schematicId": "post-office",
+      "name": "Post Office",
+      "lat": 51.64393,
+      "lon": -120.03228,
+      "lines": ["1-CLR", "3-CLR"],
+      "platformIds": ["157009", "157014"],
+      "departureRouteIds": ["1-CLR", "3-CLR"]
+    },
+    {
+      "id": "104503",
+      "schematicId": "royal-inland-hospital",
+      "name": "Royal Inland Hospital",
+      "lat": 50.66989,
+      "lon": -120.33356,
+      "lines": ["10-CLR"],
+      "platformIds": ["104503"],
+      "departureRouteIds": ["10-CLR"]
+    },
+    {
+      "id": "157005",
+      "schematicId": "vavenby",
+      "name": "Vavenby Store",
+      "lat": 51.58409,
+      "lon": -119.72799,
+      "lines": ["1-CLR", "10-CLR"],
+      "platformIds": ["157005"],
+      "departureRouteIds": ["1-CLR", "10-CLR"]
+    }
+  ]
+}

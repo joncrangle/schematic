@@ -1,0 +1,2174 @@
+{
+  "viewBoxWidth": 3100,
+  "viewBoxHeight": 1920,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 Confederation Line",
+      "color": "#D30F1D",
+      "points": [
+        {
+          "x": 900,
+          "y": 300
+        },
+        {
+          "x": 1020,
+          "y": 300
+        },
+        {
+          "x": 1140,
+          "y": 300
+        },
+        {
+          "x": 1260,
+          "y": 300
+        },
+        {
+          "x": 1380,
+          "y": 300
+        },
+        {
+          "x": 1500,
+          "y": 300
+        },
+        {
+          "x": 1600,
+          "y": 400
+        },
+        {
+          "x": 1700,
+          "y": 500
+        },
+        {
+          "x": 1800,
+          "y": 600
+        },
+        {
+          "x": 1920,
+          "y": 600
+        },
+        {
+          "x": 2040,
+          "y": 600
+        },
+        {
+          "x": 2160,
+          "y": 600
+        },
+        {
+          "x": 2280,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Trillium Line",
+      "color": "#508128",
+      "points": [
+        {
+          "x": 1020,
+          "y": 300
+        },
+        {
+          "x": 1020,
+          "y": 420
+        },
+        {
+          "x": 1020,
+          "y": 540
+        },
+        {
+          "x": 1020,
+          "y": 660
+        },
+        {
+          "x": 1020,
+          "y": 780
+        },
+        {
+          "x": 1140,
+          "y": 900
+        },
+        {
+          "x": 1140,
+          "y": 1020
+        },
+        {
+          "x": 1140,
+          "y": 1140
+        },
+        {
+          "x": 1380,
+          "y": 1380
+        },
+        {
+          "x": 1380,
+          "y": 1540
+        },
+        {
+          "x": 1200,
+          "y": 1720
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Airport Link",
+      "color": "#0980A5",
+      "points": [
+        {
+          "x": 1140,
+          "y": 1140
+        },
+        {
+          "x": 1020,
+          "y": 1260
+        },
+        {
+          "x": 900,
+          "y": 1380
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "61 Kanata corridor",
+      "color": "#0057B8",
+      "points": [
+        {
+          "x": 160,
+          "y": 1200
+        },
+        {
+          "x": 160,
+          "y": 1040
+        },
+        {
+          "x": 280,
+          "y": 920
+        },
+        {
+          "x": 400,
+          "y": 800
+        },
+        {
+          "x": 540,
+          "y": 660
+        },
+        {
+          "x": 780,
+          "y": 420
+        },
+        {
+          "x": 900,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "75 Barrhaven corridor",
+      "color": "#0057B8",
+      "points": [
+        {
+          "x": 540,
+          "y": 1780
+        },
+        {
+          "x": 540,
+          "y": 1660
+        },
+        {
+          "x": 540,
+          "y": 1540
+        },
+        {
+          "x": 540,
+          "y": 1420
+        },
+        {
+          "x": 540,
+          "y": 1300
+        },
+        {
+          "x": 540,
+          "y": 1020
+        },
+        {
+          "x": 540,
+          "y": 900
+        },
+        {
+          "x": 540,
+          "y": 780
+        },
+        {
+          "x": 540,
+          "y": 660
+        },
+        {
+          "x": 780,
+          "y": 420
+        },
+        {
+          "x": 900,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "39 Orl\u00e9ans corridor",
+      "color": "#0057B8",
+      "points": [
+        {
+          "x": 2280,
+          "y": 600
+        },
+        {
+          "x": 2400,
+          "y": 480
+        },
+        {
+          "x": 2520,
+          "y": 360
+        },
+        {
+          "x": 2640,
+          "y": 240
+        },
+        {
+          "x": 2800,
+          "y": 400
+        },
+        {
+          "x": 2800,
+          "y": 560
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": "88 Baseline\u2013Heron corridor",
+      "color": "#0057B8",
+      "points": [
+        {
+          "x": 280,
+          "y": 920
+        },
+        {
+          "x": 440,
+          "y": 920
+        },
+        {
+          "x": 540,
+          "y": 1020
+        },
+        {
+          "x": 780,
+          "y": 780
+        },
+        {
+          "x": 1020,
+          "y": 780
+        },
+        {
+          "x": 1260,
+          "y": 780
+        },
+        {
+          "x": 1380,
+          "y": 780
+        },
+        {
+          "x": 1500,
+          "y": 780
+        },
+        {
+          "x": 1620,
+          "y": 780
+        },
+        {
+          "x": 1740,
+          "y": 780
+        },
+        {
+          "x": 1800,
+          "y": 720
+        },
+        {
+          "x": 1800,
+          "y": 600
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "tunneys-pasture",
+      "name": "Tunney's Pasture",
+      "x": 900,
+      "y": 300,
+      "lines": ["1", "61", "75"],
+      "terminal": true,
+      "label": {
+        "x": 900,
+        "y": 260,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "bayview",
+      "name": "Bayview",
+      "x": 1020,
+      "y": 300,
+      "lines": ["1", "2"],
+      "terminal": true,
+      "label": {
+        "x": 1020,
+        "y": 260,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "pimisi",
+      "name": "Pimisi",
+      "x": 1140,
+      "y": 300,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1140,
+        "y": 260,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "lyon",
+      "name": "Lyon",
+      "x": 1260,
+      "y": 300,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1260,
+        "y": 335,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "parliament",
+      "name": "Parliament",
+      "x": 1380,
+      "y": 300,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1380,
+        "y": 260,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "rideau",
+      "name": "Rideau",
+      "x": 1500,
+      "y": 300,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1500,
+        "y": 335,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "uottawa",
+      "name": "uOttawa",
+      "x": 1600,
+      "y": 400,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1630,
+        "y": 375,
+        "rot": 0,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "lees",
+      "name": "Lees",
+      "x": 1700,
+      "y": 500,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1730,
+        "y": 475,
+        "rot": 0,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "hurdman",
+      "name": "Hurdman",
+      "x": 1800,
+      "y": 600,
+      "lines": ["1", "88"],
+      "terminal": true,
+      "label": {
+        "x": 1800,
+        "y": 560,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "tremblay",
+      "name": "Tremblay",
+      "x": 1920,
+      "y": 600,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1920,
+        "y": 635,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "st-laurent",
+      "name": "St-Laurent",
+      "x": 2040,
+      "y": 600,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2040,
+        "y": 565,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "cyrville",
+      "name": "Cyrville",
+      "x": 2160,
+      "y": 600,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2160,
+        "y": 635,
+        "rot": 0,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "blair",
+      "name": "Blair",
+      "x": 2280,
+      "y": 600,
+      "lines": ["1", "39"],
+      "terminal": true,
+      "label": {
+        "x": 2310,
+        "y": 600,
+        "rot": 0,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "corso-italia",
+      "name": "Corso Italia",
+      "x": 1020,
+      "y": 420,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 990,
+        "y": 420,
+        "rot": 0,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "dows-lake",
+      "name": "Dow's Lake",
+      "x": 1020,
+      "y": 540,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 990,
+        "y": 540,
+        "rot": 0,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "carleton",
+      "name": "Carleton",
+      "x": 1020,
+      "y": 660,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 990,
+        "y": 660,
+        "rot": 0,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "mooneys-bay",
+      "name": "Mooney's Bay",
+      "x": 1020,
+      "y": 780,
+      "lines": ["2", "88"],
+      "terminal": false,
+      "label": {
+        "x": 995,
+        "y": 805,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "walkley",
+      "name": "Walkley",
+      "x": 1140,
+      "y": 900,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1172,
+        "y": 900,
+        "rot": 0,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "greenboro",
+      "name": "Greenboro",
+      "x": 1140,
+      "y": 1020,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1172,
+        "y": 1020,
+        "rot": 0,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "south-keys",
+      "name": "South Keys",
+      "x": 1140,
+      "y": 1140,
+      "lines": ["2", "4"],
+      "terminal": true,
+      "label": {
+        "x": 1172,
+        "y": 1140,
+        "rot": 0,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "leitrim",
+      "name": "Leitrim",
+      "x": 1380,
+      "y": 1380,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1412,
+        "y": 1380,
+        "rot": 0,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "bowesville",
+      "name": "Bowesville",
+      "x": 1380,
+      "y": 1540,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1412,
+        "y": 1540,
+        "rot": 0,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "limebank",
+      "name": "Limebank",
+      "x": 1200,
+      "y": 1720,
+      "lines": ["2"],
+      "terminal": true,
+      "label": {
+        "x": 1232,
+        "y": 1720,
+        "rot": 0,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "uplands",
+      "name": "Uplands",
+      "x": 1020,
+      "y": 1260,
+      "lines": ["4"],
+      "terminal": false,
+      "label": {
+        "x": 992,
+        "y": 1260,
+        "rot": 0,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "airport",
+      "name": "Airport",
+      "x": 900,
+      "y": 1380,
+      "lines": ["4"],
+      "terminal": true,
+      "label": {
+        "x": 872,
+        "y": 1380,
+        "rot": 0,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "westboro",
+      "name": "Westboro",
+      "x": 780,
+      "y": 420,
+      "lines": ["61", "75"],
+      "terminal": false,
+      "label": {
+        "x": 752,
+        "y": 420,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lincoln-fields",
+      "name": "Lincoln Fields",
+      "x": 540,
+      "y": 660,
+      "lines": ["61", "75"],
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 660,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "pinecrest",
+      "name": "Pinecrest",
+      "x": 400,
+      "y": 800,
+      "lines": ["61"],
+      "terminal": false,
+      "label": {
+        "x": 372,
+        "y": 800,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "x": 280,
+      "y": 920,
+      "lines": ["61", "88"],
+      "terminal": false,
+      "label": {
+        "x": 252,
+        "y": 920,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "eagleson",
+      "name": "Eagleson",
+      "x": 160,
+      "y": 1040,
+      "lines": ["61"],
+      "terminal": false,
+      "label": {
+        "x": 132,
+        "y": 1040,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "terry-fox",
+      "name": "Terry Fox",
+      "x": 160,
+      "y": 1200,
+      "lines": ["61"],
+      "terminal": false,
+      "label": {
+        "x": 132,
+        "y": 1200,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "queensway",
+      "name": "Queensway",
+      "x": 540,
+      "y": 780,
+      "lines": ["75"],
+      "terminal": false,
+      "label": {
+        "x": 570,
+        "y": 780,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "x": 540,
+      "y": 900,
+      "lines": ["75"],
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 900,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "baseline",
+      "name": "Baseline",
+      "x": 540,
+      "y": 1020,
+      "lines": ["75", "88"],
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 1020,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "fallowfield",
+      "name": "Fallowfield",
+      "x": 540,
+      "y": 1300,
+      "lines": ["75"],
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 1300,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "longfields",
+      "name": "Longfields",
+      "x": 540,
+      "y": 1420,
+      "lines": ["75"],
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 1420,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "strandherd",
+      "name": "Strandherd",
+      "x": 540,
+      "y": 1540,
+      "lines": ["75"],
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 1540,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "marketplace",
+      "name": "Marketplace",
+      "x": 540,
+      "y": 1660,
+      "lines": ["75"],
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 1660,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "barrhaven-centre",
+      "name": "Barrhaven Centre",
+      "x": 540,
+      "y": 1780,
+      "lines": ["75"],
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 1780,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "jeanne-darc",
+      "name": "Jeanne d'Arc",
+      "x": 2400,
+      "y": 480,
+      "lines": ["39"],
+      "terminal": false,
+      "label": {
+        "x": 2430,
+        "y": 455,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "place-dorleans",
+      "name": "Place d'Orl\u00e9ans",
+      "x": 2520,
+      "y": 360,
+      "lines": ["39"],
+      "terminal": false,
+      "label": {
+        "x": 2550,
+        "y": 335,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "trim",
+      "name": "Trim",
+      "x": 2640,
+      "y": 240,
+      "lines": ["39"],
+      "terminal": false,
+      "label": {
+        "x": 2670,
+        "y": 215,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "millennium",
+      "name": "Millennium",
+      "x": 2800,
+      "y": 560,
+      "lines": ["39"],
+      "terminal": true,
+      "label": {
+        "x": 2830,
+        "y": 535,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "heron",
+      "name": "Heron",
+      "x": 1260,
+      "y": 780,
+      "lines": ["88"],
+      "terminal": false,
+      "label": {
+        "x": 1260,
+        "y": 815,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "billings-bridge",
+      "name": "Billings Bridge",
+      "x": 1380,
+      "y": 780,
+      "lines": ["88"],
+      "terminal": false,
+      "label": {
+        "x": 1380,
+        "y": 745,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "pleasant-park",
+      "name": "Pleasant Park",
+      "x": 1500,
+      "y": 780,
+      "lines": ["88"],
+      "terminal": false,
+      "label": {
+        "x": 1500,
+        "y": 815,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside",
+      "x": 1620,
+      "y": 780,
+      "lines": ["88"],
+      "terminal": false,
+      "label": {
+        "x": 1620,
+        "y": 745,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "smyth",
+      "name": "Smyth",
+      "x": 1740,
+      "y": 780,
+      "lines": ["88"],
+      "terminal": false,
+      "label": {
+        "x": 1740,
+        "y": 815,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lycee-claudel",
+      "name": "Lyc\u00e9e Claudel",
+      "x": 1800,
+      "y": 720,
+      "lines": ["88"],
+      "terminal": false,
+      "label": {
+        "x": 1832,
+        "y": 732,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 1160,
+      "y": 332,
+      "color": "#D30F1D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 1191.51,
+      "y": 1683.23,
+      "color": "#508128",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 936.77,
+      "y": 1388.49,
+      "color": "#0980A5",
+      "textColor": "#000000"
+    },
+    {
+      "line": "61",
+      "num": "61",
+      "x": 192,
+      "y": 1180,
+      "color": "#0057B8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "75",
+      "num": "75",
+      "x": 572,
+      "y": 1760,
+      "color": "#0057B8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "39",
+      "num": "39",
+      "x": 2768,
+      "y": 540,
+      "color": "#0057B8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "88",
+      "num": "88",
+      "x": 1765,
+      "y": 620,
+      "color": "#0057B8",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 3070,
+      "minY": 100,
+      "maxY": 1880
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -75.91,
+    "refLonEast": -75.48,
+    "refXWest": 160,
+    "refXEast": 2640,
+    "refLatNorth": 45.495,
+    "refLatSouth": 45.267,
+    "refYNorth": 240,
+    "refYSouth": 1780
+  },
+  "sequences": {
+    "1": [
+      "tunneys-pasture",
+      "bayview",
+      "pimisi",
+      "lyon",
+      "parliament",
+      "rideau",
+      "uottawa",
+      "lees",
+      "hurdman",
+      "tremblay",
+      "st-laurent",
+      "cyrville",
+      "blair"
+    ],
+    "2": [
+      "bayview",
+      "corso-italia",
+      "dows-lake",
+      "carleton",
+      "mooneys-bay",
+      "walkley",
+      "greenboro",
+      "south-keys",
+      "leitrim",
+      "bowesville",
+      "limebank"
+    ],
+    "4": ["south-keys", "uplands", "airport"],
+    "61": [
+      "terry-fox",
+      "eagleson",
+      "bayshore",
+      "pinecrest",
+      "lincoln-fields",
+      "westboro",
+      "tunneys-pasture"
+    ],
+    "75": [
+      "barrhaven-centre",
+      "marketplace",
+      "strandherd",
+      "longfields",
+      "fallowfield",
+      "baseline",
+      "iris",
+      "queensway",
+      "lincoln-fields",
+      "westboro",
+      "tunneys-pasture"
+    ],
+    "39": ["blair", "jeanne-darc", "place-dorleans", "trim", "millennium"],
+    "88": [
+      "bayshore",
+      "baseline",
+      "mooneys-bay",
+      "heron",
+      "billings-bridge",
+      "pleasant-park",
+      "riverside",
+      "smyth",
+      "lycee-claudel",
+      "hurdman"
+    ]
+  },
+  "stationAliases": {
+    "PARLIAMENT ~ PARLEMENT": "parliament",
+    "DOW'S LAKE ~ LAC DOW": "dows-lake",
+    "AIRPORT ~ A\u00c9ROPORT": "airport",
+    "PLACE D'ORLEANS": "place-dorleans"
+  },
+  "stationIndex": [
+    {
+      "id": "3039_stn",
+      "schematicId": "airport",
+      "name": "Airport",
+      "lat": 45.32335,
+      "lon": -75.668467,
+      "lines": ["4"],
+      "platformIds": ["6014", "RE992"],
+      "departureRouteIds": ["105", "4"]
+    },
+    {
+      "id": "3045_stn",
+      "schematicId": "barrhaven-centre",
+      "name": "Barrhaven Centre",
+      "lat": 45.2669,
+      "lon": -75.741548,
+      "lines": ["75"],
+      "platformIds": ["6588", "9518"],
+      "departureRouteIds": [
+        "110",
+        "275",
+        "279",
+        "305",
+        "406",
+        "677",
+        "684",
+        "690",
+        "70",
+        "75",
+        "80",
+        "99"
+      ]
+    },
+    {
+      "id": "3017_stn",
+      "schematicId": "baseline",
+      "name": "Baseline",
+      "lat": 45.347283,
+      "lon": -75.761713,
+      "lines": ["75", "88"],
+      "platformIds": ["7091", "7092", "7095", "7096", "818", "9641", "9642"],
+      "departureRouteIds": [
+        "111",
+        "112",
+        "116",
+        "117",
+        "187",
+        "189",
+        "275",
+        "277",
+        "279",
+        "305",
+        "406",
+        "53",
+        "610",
+        "646",
+        "68",
+        "686",
+        "688",
+        "73",
+        "74",
+        "75",
+        "82",
+        "84",
+        "87",
+        "88"
+      ]
+    },
+    {
+      "id": "3050_stn",
+      "schematicId": "bayshore",
+      "name": "Bayshore",
+      "lat": 45.345697,
+      "lon": -75.810814,
+      "lines": ["61", "88"],
+      "platformIds": ["2239", "3344", "9654"],
+      "departureRouteIds": [
+        "11",
+        "158",
+        "301",
+        "303",
+        "404",
+        "406",
+        "57",
+        "58",
+        "60",
+        "61",
+        "62",
+        "63",
+        "66",
+        "67",
+        "691",
+        "81",
+        "85",
+        "88"
+      ]
+    },
+    {
+      "id": "3060_stn",
+      "schematicId": "bayview",
+      "name": "Bayview",
+      "lat": 45.409174,
+      "lon": -75.722113,
+      "lines": ["1", "2"],
+      "platformIds": ["10027", "10028", "NA990", "NA995", "NA996", "NA997"],
+      "departureRouteIds": ["1", "12", "13", "2", "561", "562", "563", "57", "61", "74", "75"]
+    },
+    {
+      "id": "3034_stn",
+      "schematicId": "billings-bridge",
+      "name": "Billings Bridge",
+      "lat": 45.384811,
+      "lon": -75.676813,
+      "lines": ["88"],
+      "platformIds": ["1776", "1821", "1823", "463", "464", "510", "94", "9490", "9491"],
+      "departureRouteIds": [
+        "10",
+        "105",
+        "110",
+        "111",
+        "112",
+        "18",
+        "304",
+        "41",
+        "44",
+        "48",
+        "6",
+        "617",
+        "646",
+        "647",
+        "689",
+        "88",
+        "90",
+        "92",
+        "98"
+      ]
+    },
+    {
+      "id": "3027_stn",
+      "schematicId": "blair",
+      "name": "Blair",
+      "lat": 45.43123,
+      "lon": -75.608506,
+      "lines": ["1", "39"],
+      "platformIds": ["10144", "10149", "9872", "9873", "9922", "9961", "EE990", "EE995"],
+      "departureRouteIds": [
+        "1",
+        "12",
+        "15",
+        "21",
+        "221",
+        "222",
+        "226",
+        "228",
+        "23",
+        "234",
+        "237",
+        "24",
+        "25",
+        "26",
+        "30",
+        "302",
+        "32",
+        "33",
+        "34",
+        "35",
+        "38",
+        "39",
+        "42",
+        "526",
+        "539",
+        "619",
+        "624",
+        "628",
+        "630",
+        "631",
+        "E1"
+      ]
+    },
+    {
+      "id": "3067_stn",
+      "schematicId": "bowesville",
+      "name": "Bowesville",
+      "lat": 45.293536,
+      "lon": -75.632697,
+      "lines": ["2"],
+      "platformIds": ["10704", "RE996", "RE997"],
+      "departureRouteIds": ["105", "110", "2"]
+    },
+    {
+      "id": "3062_stn",
+      "schematicId": "carleton",
+      "name": "Carleton",
+      "lat": 45.385386,
+      "lon": -75.695787,
+      "lines": ["2"],
+      "platformIds": ["10737", "10738", "CG990", "CG995"],
+      "departureRouteIds": ["10", "111", "2", "48", "7"]
+    },
+    {
+      "id": "3065_stn",
+      "schematicId": "corso-italia",
+      "name": "Corso Italia",
+      "lat": 45.404359,
+      "lon": -75.713734,
+      "lines": ["2"],
+      "platformIds": ["10739", "10740", "10745", "10746", "NB995", "NB996"],
+      "departureRouteIds": ["14", "2", "8", "85"]
+    },
+    {
+      "id": "3026_stn",
+      "schematicId": "cyrville",
+      "name": "Cyrville",
+      "lat": 45.423135,
+      "lon": -75.628388,
+      "lines": ["1"],
+      "platformIds": ["10743", "10744", "EC990", "EC995"],
+      "departureRouteIds": ["1", "39"]
+    },
+    {
+      "id": "3061_stn",
+      "schematicId": "dows-lake",
+      "name": "Dow's Lake",
+      "lat": 45.397534,
+      "lon": -75.709036,
+      "lines": ["2"],
+      "platformIds": ["10741", "10742", "10747", "10748", "NB990"],
+      "departureRouteIds": ["2", "56", "8", "85"]
+    },
+    {
+      "id": "3055_stn",
+      "schematicId": "eagleson",
+      "name": "Eagleson",
+      "lat": 45.318563,
+      "lon": -75.884111,
+      "lines": ["61"],
+      "platformIds": ["2691", "2723", "554", "9531"],
+      "departureRouteIds": [
+        "110",
+        "161",
+        "168",
+        "265",
+        "301",
+        "303",
+        "404",
+        "561",
+        "562",
+        "563",
+        "565",
+        "60",
+        "61",
+        "62",
+        "63",
+        "67",
+        "688"
+      ]
+    },
+    {
+      "id": "3043_stn",
+      "schematicId": "fallowfield",
+      "name": "Fallowfield",
+      "lat": 45.298815,
+      "lon": -75.735989,
+      "lines": ["75"],
+      "platformIds": ["6607", "6608"],
+      "departureRouteIds": ["173", "275", "277", "279", "305", "406", "673", "70", "73", "74", "75"]
+    },
+    {
+      "id": "3037_stn",
+      "schematicId": "greenboro",
+      "name": "Greenboro",
+      "lat": 45.359855,
+      "lon": -75.658871,
+      "lines": ["2"],
+      "platformIds": ["486", "69", "9498", "RF990"],
+      "departureRouteIds": [
+        "105",
+        "110",
+        "116",
+        "117",
+        "197",
+        "198",
+        "2",
+        "294",
+        "304",
+        "40",
+        "43",
+        "6",
+        "617",
+        "640",
+        "644",
+        "649",
+        "697",
+        "698",
+        "90",
+        "92",
+        "98"
+      ]
+    },
+    {
+      "id": "3035_stn",
+      "schematicId": "heron",
+      "name": "Heron",
+      "lat": 45.378982,
+      "lon": -75.680089,
+      "lines": ["88"],
+      "platformIds": ["792", "795", "93", "9492"],
+      "departureRouteIds": [
+        "10",
+        "105",
+        "110",
+        "111",
+        "112",
+        "304",
+        "44",
+        "617",
+        "646",
+        "689",
+        "88",
+        "90",
+        "98"
+      ]
+    },
+    {
+      "id": "3023_stn",
+      "schematicId": "hurdman",
+      "name": "Hurdman",
+      "lat": 45.41218,
+      "lon": -75.66566,
+      "lines": ["1", "88"],
+      "platformIds": ["9951", "9952", "9953", "9954", "9955", "AF990", "AF995"],
+      "departureRouteIds": [
+        "1",
+        "10",
+        "105",
+        "110",
+        "19",
+        "39",
+        "42",
+        "44",
+        "45",
+        "48",
+        "49",
+        "609",
+        "613",
+        "617",
+        "628",
+        "645",
+        "647",
+        "88",
+        "9",
+        "90",
+        "92",
+        "98"
+      ]
+    },
+    {
+      "id": "3016_stn",
+      "schematicId": "iris",
+      "name": "Iris",
+      "lat": 45.355711,
+      "lon": -75.770365,
+      "lines": ["75"],
+      "platformIds": ["9506", "9507", "9508"],
+      "departureRouteIds": [
+        "256",
+        "261",
+        "262",
+        "263",
+        "265",
+        "266",
+        "275",
+        "277",
+        "279",
+        "305",
+        "73",
+        "74",
+        "75"
+      ]
+    },
+    {
+      "id": "3070_stn",
+      "schematicId": "jeanne-darc",
+      "name": "Jeanne d'Arc",
+      "lat": 45.468987,
+      "lon": -75.546146,
+      "lines": ["39"],
+      "platformIds": ["1514", "1515", "1599", "591", "622", "9462"],
+      "departureRouteIds": [
+        "138",
+        "234",
+        "237",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "38",
+        "39",
+        "405",
+        "627",
+        "630",
+        "631",
+        "637",
+        "678"
+      ]
+    },
+    {
+      "id": "3022_stn",
+      "schematicId": "lees",
+      "name": "Lees",
+      "lat": 45.416263,
+      "lon": -75.670152,
+      "lines": ["1"],
+      "platformIds": ["10042", "10043", "CE990", "CE995"],
+      "departureRouteIds": ["1", "10", "105", "39", "45", "5", "56", "606", "85"]
+    },
+    {
+      "id": "3041_stn",
+      "schematicId": "leitrim",
+      "name": "Leitrim",
+      "lat": 45.314117,
+      "lon": -75.631552,
+      "lines": ["2"],
+      "platformIds": ["10535", "10536", "RE994", "RE995"],
+      "departureRouteIds": ["105", "110", "2", "697", "93", "94"]
+    },
+    {
+      "id": "3068_stn",
+      "schematicId": "limebank",
+      "name": "Limebank",
+      "lat": 45.277472,
+      "lon": -75.666726,
+      "lines": ["2"],
+      "platformIds": [
+        "10443",
+        "10444",
+        "10571",
+        "10696",
+        "10697",
+        "10698",
+        "10699",
+        "RR990",
+        "RR991"
+      ],
+      "departureRouteIds": ["105", "110", "198", "2", "283", "299", "406", "70", "73", "74", "99"]
+    },
+    {
+      "id": "3014_stn",
+      "schematicId": "lincoln-fields",
+      "name": "Lincoln Fields",
+      "lat": 45.366509,
+      "lon": -75.782784,
+      "lines": ["61", "75"],
+      "platformIds": ["10159", "10160", "10161", "10162", "160", "2452", "4042", "5520", "9487"],
+      "departureRouteIds": [
+        "11",
+        "153",
+        "256",
+        "261",
+        "262",
+        "263",
+        "265",
+        "266",
+        "275",
+        "277",
+        "279",
+        "301",
+        "303",
+        "305",
+        "404",
+        "51",
+        "566",
+        "57",
+        "58",
+        "60",
+        "61",
+        "62",
+        "63",
+        "66",
+        "67",
+        "73",
+        "74",
+        "75",
+        "82",
+        "85"
+      ]
+    },
+    {
+      "id": "3046_stn",
+      "schematicId": "longfields",
+      "name": "Longfields",
+      "lat": 45.28532,
+      "lon": -75.746898,
+      "lines": ["75"],
+      "platformIds": ["6579", "6580"],
+      "departureRouteIds": ["275", "279", "305", "406", "75"]
+    },
+    {
+      "id": "3030_stn",
+      "schematicId": "lycee-claudel",
+      "name": "Lyc\u00e9e Claudel",
+      "lat": 45.406622,
+      "lon": -75.664347,
+      "lines": ["88"],
+      "platformIds": ["725", "98"],
+      "departureRouteIds": [
+        "10",
+        "105",
+        "110",
+        "45",
+        "49",
+        "609",
+        "613",
+        "617",
+        "645",
+        "647",
+        "88",
+        "90",
+        "92",
+        "98"
+      ]
+    },
+    {
+      "id": "3051_stn",
+      "schematicId": "lyon",
+      "name": "Lyon",
+      "lat": 45.418666,
+      "lon": -75.704783,
+      "lines": ["1"],
+      "platformIds": ["9928", "9929", "CA990", "CA995"],
+      "departureRouteIds": ["1", "10", "12", "57", "61", "75"]
+    },
+    {
+      "id": "3047_stn",
+      "schematicId": "marketplace",
+      "name": "Marketplace",
+      "lat": 45.269615,
+      "lon": -75.742833,
+      "lines": ["75"],
+      "platformIds": ["9516", "9517"],
+      "departureRouteIds": [
+        "110",
+        "275",
+        "279",
+        "305",
+        "406",
+        "677",
+        "684",
+        "690",
+        "70",
+        "75",
+        "80",
+        "99"
+      ]
+    },
+    {
+      "id": "3076_stn",
+      "schematicId": "millennium",
+      "name": "Millennium",
+      "lat": 45.465317,
+      "lon": -75.448232,
+      "lines": ["39"],
+      "platformIds": ["239", "9482"],
+      "departureRouteIds": ["25", "30", "39", "539", "618", "630"]
+    },
+    {
+      "id": "3063_stn",
+      "schematicId": "mooneys-bay",
+      "name": "Mooney's Bay",
+      "lat": 45.377393,
+      "lon": -75.684582,
+      "lines": ["2", "88"],
+      "platformIds": ["10749", "10750", "10751", "10752", "RA990"],
+      "departureRouteIds": ["10", "111", "112", "2", "646", "689", "88", "90"]
+    },
+    {
+      "id": "3052_stn",
+      "schematicId": "parliament",
+      "name": "Parliament",
+      "lat": 45.421317,
+      "lon": -75.699022,
+      "lines": ["1"],
+      "platformIds": ["9822", "9868", "CB990", "CB995"],
+      "departureRouteIds": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "15",
+        "17",
+        "19",
+        "57",
+        "6",
+        "61",
+        "615",
+        "616",
+        "7",
+        "75"
+      ]
+    },
+    {
+      "id": "3010_stn",
+      "schematicId": "pimisi",
+      "name": "Pimisi",
+      "lat": 45.413436,
+      "lon": -75.713021,
+      "lines": ["1"],
+      "platformIds": ["9870", "9871", "9957", "9958", "CJ990", "CJ995"],
+      "departureRouteIds": ["1", "12", "13", "561", "562", "563", "57", "61", "74", "75", "8"]
+    },
+    {
+      "id": "3019_stn",
+      "schematicId": "pinecrest",
+      "name": "Pinecrest",
+      "lat": 45.351194,
+      "lon": -75.790717,
+      "lines": ["61"],
+      "platformIds": ["2957", "9520"],
+      "departureRouteIds": [
+        "301",
+        "303",
+        "404",
+        "406",
+        "60",
+        "61",
+        "62",
+        "63",
+        "66",
+        "67",
+        "691",
+        "81",
+        "82"
+      ]
+    },
+    {
+      "id": "3028_stn",
+      "schematicId": "place-dorleans",
+      "name": "Place d'Orl\u00e9ans",
+      "lat": 45.478426,
+      "lon": -75.519316,
+      "lines": ["39"],
+      "platformIds": ["1493", "1556", "9477"],
+      "departureRouteIds": [
+        "138",
+        "221",
+        "234",
+        "237",
+        "302",
+        "31",
+        "32",
+        "33",
+        "35",
+        "36",
+        "38",
+        "39",
+        "405",
+        "539",
+        "634",
+        "678"
+      ]
+    },
+    {
+      "id": "3033_stn",
+      "schematicId": "pleasant-park",
+      "name": "Pleasant Park",
+      "lat": 45.392786,
+      "lon": -75.66936,
+      "lines": ["88"],
+      "platformIds": ["104", "2073", "2110", "95"],
+      "departureRouteIds": ["10", "105", "110", "49", "617", "647", "88", "90", "92", "98"]
+    },
+    {
+      "id": "3015_stn",
+      "schematicId": "queensway",
+      "name": "Queensway",
+      "lat": 45.359154,
+      "lon": -75.772116,
+      "lines": ["75"],
+      "platformIds": ["158", "18", "654", "9504", "9505"],
+      "departureRouteIds": [
+        "256",
+        "261",
+        "262",
+        "263",
+        "265",
+        "266",
+        "275",
+        "277",
+        "279",
+        "301",
+        "303",
+        "305",
+        "406",
+        "73",
+        "74",
+        "75"
+      ]
+    },
+    {
+      "id": "3009_stn",
+      "schematicId": "rideau",
+      "name": "Rideau",
+      "lat": 45.426197,
+      "lon": -75.691716,
+      "lines": ["1"],
+      "platformIds": ["10004", "10734", "9833", "9869", "CD990", "CD995"],
+      "departureRouteIds": [
+        "1",
+        "105",
+        "12",
+        "14",
+        "15",
+        "17",
+        "18",
+        "20",
+        "39",
+        "45",
+        "5",
+        "57",
+        "6",
+        "602",
+        "606",
+        "61",
+        "615",
+        "616",
+        "624",
+        "7",
+        "75",
+        "9"
+      ]
+    },
+    {
+      "id": "3032_stn",
+      "schematicId": "riverside",
+      "name": "Riverside",
+      "lat": 45.396736,
+      "lon": -75.669358,
+      "lines": ["88"],
+      "platformIds": ["103", "96"],
+      "departureRouteIds": ["10", "105", "110", "49", "613", "617", "647", "88", "90", "92", "98"]
+    },
+    {
+      "id": "3031_stn",
+      "schematicId": "smyth",
+      "name": "Smyth",
+      "lat": 45.401174,
+      "lon": -75.6667,
+      "lines": ["88"],
+      "platformIds": ["102", "97"],
+      "departureRouteIds": [
+        "10",
+        "105",
+        "110",
+        "49",
+        "609",
+        "613",
+        "617",
+        "645",
+        "647",
+        "88",
+        "90",
+        "92",
+        "98"
+      ]
+    },
+    {
+      "id": "3038_stn",
+      "schematicId": "south-keys",
+      "name": "South Keys",
+      "lat": 45.353649,
+      "lon": -75.655421,
+      "lines": ["2", "4"],
+      "platformIds": ["109", "1792", "1832", "489", "9499", "RF995", "RF996"],
+      "departureRouteIds": [
+        "105",
+        "110",
+        "116",
+        "117",
+        "197",
+        "198",
+        "2",
+        "294",
+        "304",
+        "4",
+        "40",
+        "43",
+        "6",
+        "617",
+        "640",
+        "644",
+        "649",
+        "697",
+        "698",
+        "90",
+        "92",
+        "98"
+      ]
+    },
+    {
+      "id": "3025_stn",
+      "schematicId": "st-laurent",
+      "name": "St-Laurent",
+      "lat": 45.42062,
+      "lon": -75.637976,
+      "lines": ["1"],
+      "platformIds": ["10014", "10015", "10016", "10017", "EB990", "EB995"],
+      "departureRouteIds": [
+        "1",
+        "105",
+        "14",
+        "18",
+        "19",
+        "20",
+        "24",
+        "302",
+        "39",
+        "40",
+        "41",
+        "47",
+        "620",
+        "624",
+        "633",
+        "7"
+      ]
+    },
+    {
+      "id": "3044_stn",
+      "schematicId": "strandherd",
+      "name": "Strandherd",
+      "lat": 45.273639,
+      "lon": -75.745728,
+      "lines": ["75"],
+      "platformIds": ["9513", "9514"],
+      "departureRouteIds": ["275", "279", "305", "406", "659", "677", "684", "690", "70", "75"]
+    },
+    {
+      "id": "3058_stn",
+      "schematicId": "terry-fox",
+      "name": "Terry Fox",
+      "lat": 45.309601,
+      "lon": -75.90662,
+      "lines": ["61"],
+      "platformIds": ["10757", "2880", "9526", "9527", "9528"],
+      "departureRouteIds": [
+        "161",
+        "162",
+        "163",
+        "165",
+        "168",
+        "265",
+        "301",
+        "303",
+        "404",
+        "561",
+        "562",
+        "565",
+        "60",
+        "61",
+        "62",
+        "646",
+        "663",
+        "67",
+        "68",
+        "688"
+      ]
+    },
+    {
+      "id": "3024_stn",
+      "schematicId": "tremblay",
+      "name": "Tremblay",
+      "lat": 45.417476,
+      "lon": -75.652993,
+      "lines": ["1"],
+      "platformIds": ["10728", "10729", "AE990", "AE995"],
+      "departureRouteIds": ["1", "105", "39"]
+    },
+    {
+      "id": "3029_stn",
+      "schematicId": "trim",
+      "name": "Trim",
+      "lat": 45.494922,
+      "lon": -75.480009,
+      "lines": ["39"],
+      "platformIds": ["9476", "9598"],
+      "departureRouteIds": ["221", "38", "39", "405", "539"]
+    },
+    {
+      "id": "3011_stn",
+      "schematicId": "tunneys-pasture",
+      "name": "Tunney's Pasture",
+      "lat": 45.403641,
+      "lon": -75.736404,
+      "lines": ["1", "61", "75"],
+      "platformIds": ["9942", "9943", "9944", "9945", "9946", "9947", "9948", "NA998", "NA999"],
+      "departureRouteIds": [
+        "1",
+        "11",
+        "12",
+        "13",
+        "14",
+        "256",
+        "261",
+        "262",
+        "263",
+        "265",
+        "266",
+        "275",
+        "277",
+        "279",
+        "404",
+        "51",
+        "53",
+        "56",
+        "561",
+        "562",
+        "563",
+        "566",
+        "57",
+        "58",
+        "60",
+        "61",
+        "62",
+        "63",
+        "66",
+        "67",
+        "73",
+        "74",
+        "75",
+        "80",
+        "81",
+        "82",
+        "86",
+        "87"
+      ]
+    },
+    {
+      "id": "3021_stn",
+      "schematicId": "uottawa",
+      "name": "uOttawa",
+      "lat": 45.42129,
+      "lon": -75.681368,
+      "lines": ["1"],
+      "platformIds": ["10735", "10736", "CD998", "CD999"],
+      "departureRouteIds": ["1", "105", "39", "45", "56"]
+    },
+    {
+      "id": "3069_stn",
+      "schematicId": "uplands",
+      "name": "Uplands",
+      "lat": 45.332941,
+      "lon": -75.655773,
+      "lines": ["4"],
+      "platformIds": ["10714", "RE990", "RE991"],
+      "departureRouteIds": ["105", "197", "4"]
+    },
+    {
+      "id": "3036_stn",
+      "schematicId": "walkley",
+      "name": "Walkley",
+      "lat": 45.368797,
+      "lon": -75.666707,
+      "lines": ["2"],
+      "platformIds": ["107", "1791", "1807", "4331", "4332", "9496", "RC990"],
+      "departureRouteIds": ["105", "110", "2", "304", "44", "617", "697", "698", "90", "92", "98"]
+    },
+    {
+      "id": "3012_stn",
+      "schematicId": "westboro",
+      "name": "Westboro",
+      "lat": 45.395778,
+      "lon": -75.753105,
+      "lines": ["61", "75"],
+      "platformIds": ["10344", "10377", "2127"],
+      "departureRouteIds": [
+        "256",
+        "261",
+        "262",
+        "263",
+        "265",
+        "266",
+        "275",
+        "277",
+        "279",
+        "404",
+        "57",
+        "58",
+        "60",
+        "61",
+        "62",
+        "63",
+        "66",
+        "67",
+        "73",
+        "74",
+        "75",
+        "81",
+        "82",
+        "87"
+      ]
+    }
+  ]
+}

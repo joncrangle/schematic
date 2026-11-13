@@ -1,0 +1,162 @@
+{
+  "id": "squamish",
+  "name": "BC Transit Squamish",
+  "serviceArea": "Squamish",
+  "shortName": "Squamish",
+  "locale": "en-CA",
+  "timezone": "America/Vancouver",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "bc"
+  },
+  "bounds": [
+    {
+      "minLat": 49.694,
+      "maxLat": 49.7125,
+      "minLon": -123.16,
+      "maxLon": -123.12
+    },
+    {
+      "minLat": 49.712,
+      "maxLat": 49.735,
+      "minLon": -123.16,
+      "maxLon": -123.135
+    },
+    {
+      "minLat": 49.733,
+      "maxLat": 49.748,
+      "minLon": -123.16,
+      "maxLon": -123.097
+    },
+    {
+      "minLat": 49.745,
+      "maxLat": 49.777,
+      "minLon": -123.16,
+      "maxLon": -123.128
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "BC Transit Squamish",
+    "url": "https://www.bctransit.com/squamish/",
+    "license": "BC Transit Open Data Terms of Use"
+  },
+  "cityPresets": [
+    {
+      "name": "Squamish Library",
+      "lat": 49.69734,
+      "lon": -123.15613
+    },
+    {
+      "name": "Squamish Highland Mall",
+      "lat": 49.74074,
+      "lon": -123.13202
+    },
+    {
+      "name": "Walmart",
+      "lat": 49.72125,
+      "lon": -123.15054
+    },
+    {
+      "name": "University",
+      "lat": 49.73687,
+      "lon": -123.09908
+    }
+  ],
+  "popularSurfaceRoutes": ["1-SQU", "2-SQU", "3-SQU", "4-SQU", "9-SQU"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "BC Transit Squamish",
+        "url": "https://bct.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/?operatorIds=43",
+        "cacheFileName": "squamish-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#004B8D",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=43",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bct.tmix.se/gtfs-realtime/tripupdates.pb?operatorIds=43",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://bct.tmix.se/gtfs-realtime/alerts.pb?operatorIds=43",
+      "entityOnly": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=41",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=41",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=41&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=41&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1-SQU", "2-SQU", "3-SQU", "4-SQU", "9-SQU"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "category",
+          "sourceValue": "ReducedService"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "effects": ["OTHER_EFFECT"],
+          "textIncludes": ["cancelled", "canceled", "will be missed"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  }
+}

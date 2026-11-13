@@ -1,0 +1,162 @@
+{
+  "id": "williams-lake",
+  "name": "BC Transit Williams Lake",
+  "serviceArea": "Williams Lake and Sugar Cane",
+  "shortName": "Williams Lake",
+  "locale": "en-CA",
+  "timezone": "America/Vancouver",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "bc"
+  },
+  "bounds": [
+    {
+      "minLat": 52.108,
+      "maxLat": 52.17,
+      "minLon": -122.17,
+      "maxLon": -122.085
+    },
+    {
+      "minLat": 52.105,
+      "maxLat": 52.12,
+      "minLon": -122.015,
+      "maxLon": -121.985
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "BC Transit Williams Lake",
+    "url": "https://www.bctransit.com/williams-lake/",
+    "license": "BC Transit Open Data Terms of Use"
+  },
+  "cityPresets": [
+    {
+      "name": "Borland St at Boitanio Park",
+      "lat": 52.12977,
+      "lon": -122.13448
+    },
+    {
+      "name": "4th Ave N at Gibbon St - Hospital",
+      "lat": 52.13779,
+      "lon": -122.14625
+    },
+    {
+      "name": "Prosperity Way (Walmart)",
+      "lat": 52.11336,
+      "lon": -122.12244
+    },
+    {
+      "name": "Sugar Cane Band Office",
+      "lat": 52.10826,
+      "lon": -121.99199
+    }
+  ],
+  "popularSurfaceRoutes": ["1-WIL", "2-WIL", "3-WIL", "4-WIL"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "BC Transit Williams Lake",
+        "url": "https://bct.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/?operatorIds=33",
+        "cacheFileName": "williams-lake-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#004B8D",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=33",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bct.tmix.se/gtfs-realtime/tripupdates.pb?operatorIds=33",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://bct.tmix.se/gtfs-realtime/alerts.pb?operatorIds=33",
+      "entityOnly": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=48",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=48",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=48&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=48&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1-WIL", "2-WIL", "3-WIL", "4-WIL"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "category",
+          "sourceValue": "ReducedService"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "effects": ["OTHER_EFFECT"],
+          "textIncludes": ["cancelled", "canceled"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "titleDateTimezone": "America/Vancouver"
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "viewBoxWidth": 1250,
+  "viewBoxHeight": 950,
+  "lines": [
+    {
+      "id": "1-PTA",
+      "name": "Southside",
+      "color": "#0B4D8A",
+      "points": [
+        {
+          "x": 620,
+          "y": 500
+        },
+        {
+          "x": 780,
+          "y": 660
+        },
+        {
+          "x": 780,
+          "y": 740
+        },
+        {
+          "x": 460,
+          "y": 740
+        },
+        {
+          "x": 460,
+          "y": 660
+        },
+        {
+          "x": 620,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "2-PTA",
+      "name": "Pacific Rim",
+      "color": "#8BC441",
+      "points": [
+        {
+          "x": 620,
+          "y": 500
+        },
+        {
+          "x": 740,
+          "y": 380
+        },
+        {
+          "x": 740,
+          "y": 260
+        },
+        {
+          "x": 380,
+          "y": 260
+        },
+        {
+          "x": 380,
+          "y": 420
+        },
+        {
+          "x": 460,
+          "y": 500
+        },
+        {
+          "x": 620,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "3-PTA",
+      "name": "River Road",
+      "color": "#F68920",
+      "points": [
+        {
+          "x": 620,
+          "y": 500
+        },
+        {
+          "x": 500,
+          "y": 380
+        },
+        {
+          "x": 380,
+          "y": 380
+        },
+        {
+          "x": 380,
+          "y": 260
+        },
+        {
+          "x": 280,
+          "y": 160
+        },
+        {
+          "x": 180,
+          "y": 160
+        },
+        {
+          "x": 180,
+          "y": 260
+        },
+        {
+          "x": 280,
+          "y": 360
+        },
+        {
+          "x": 380,
+          "y": 360
+        },
+        {
+          "x": 380,
+          "y": 420
+        },
+        {
+          "x": 460,
+          "y": 500
+        },
+        {
+          "x": 620,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "4-PTA",
+      "name": "Crosstown",
+      "color": "#EB138E",
+      "points": [
+        {
+          "x": 620,
+          "y": 500
+        },
+        {
+          "x": 780,
+          "y": 340
+        },
+        {
+          "x": 780,
+          "y": 260
+        },
+        {
+          "x": 740,
+          "y": 260
+        },
+        {
+          "x": 660,
+          "y": 180
+        },
+        {
+          "x": 460,
+          "y": 180
+        },
+        {
+          "x": 380,
+          "y": 260
+        },
+        {
+          "x": 280,
+          "y": 160
+        },
+        {
+          "x": 180,
+          "y": 160
+        },
+        {
+          "x": 180,
+          "y": 220
+        },
+        {
+          "x": 300,
+          "y": 340
+        },
+        {
+          "x": 380,
+          "y": 340
+        },
+        {
+          "x": 380,
+          "y": 260
+        },
+        {
+          "x": 460,
+          "y": 180
+        },
+        {
+          "x": 660,
+          "y": 180
+        },
+        {
+          "x": 740,
+          "y": 260
+        },
+        {
+          "x": 780,
+          "y": 300
+        },
+        {
+          "x": 780,
+          "y": 340
+        },
+        {
+          "x": 620,
+          "y": 500
+        },
+        {
+          "x": 780,
+          "y": 660
+        },
+        {
+          "x": 860,
+          "y": 740
+        },
+        {
+          "x": 860,
+          "y": 780
+        },
+        {
+          "x": 820,
+          "y": 820
+        },
+        {
+          "x": 540,
+          "y": 820
+        },
+        {
+          "x": 460,
+          "y": 740
+        },
+        {
+          "x": 460,
+          "y": 660
+        },
+        {
+          "x": 620,
+          "y": 500
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "redford",
+      "name": "Redford Exchange",
+      "x": 620,
+      "y": 500,
+      "lines": ["1-PTA", "2-PTA", "3-PTA", "4-PTA"],
+      "label": {
+        "x": 648,
+        "y": 505,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "West Coast Hospital",
+      "x": 780,
+      "y": 660,
+      "lines": ["1-PTA", "4-PTA"],
+      "label": {
+        "x": 808,
+        "y": 665,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "harbour",
+      "name": "3rd & Argyle",
+      "x": 460,
+      "y": 740,
+      "lines": ["1-PTA", "4-PTA"],
+      "label": {
+        "x": 432,
+        "y": 745,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "college",
+      "name": "North Island College",
+      "x": 740,
+      "y": 260,
+      "lines": ["2-PTA", "4-PTA"],
+      "label": {
+        "x": 768,
+        "y": 235,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "johnston",
+      "name": "Gertrude & Johnston",
+      "x": 380,
+      "y": 260,
+      "lines": ["2-PTA", "3-PTA", "4-PTA"],
+      "label": {
+        "x": 352,
+        "y": 265,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "river-road",
+      "name": "Falls & Georgia",
+      "x": 180,
+      "y": 160,
+      "lines": ["3-PTA", "4-PTA"],
+      "label": {
+        "x": 152,
+        "y": 165,
+        "anchor": "end"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-PTA",
+      "num": "1",
+      "x": 620,
+      "y": 772,
+      "color": "#0B4D8A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-PTA",
+      "num": "2",
+      "x": 580,
+      "y": 228,
+      "color": "#8BC441",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-PTA",
+      "num": "3",
+      "x": 148,
+      "y": 210,
+      "color": "#F68920",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-PTA",
+      "num": "4",
+      "x": 812,
+      "y": 300,
+      "color": "#EB138E",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1-PTA": ["redford", "hospital", "harbour"],
+    "2-PTA": ["redford", "college", "johnston"],
+    "3-PTA": ["redford", "johnston", "river-road"],
+    "4-PTA": ["redford", "college", "johnston", "river-road", "hospital", "harbour"]
+  },
+  "stationAliases": {
+    "code:111794": "redford",
+    "code:111752": "hospital",
+    "code:111801": "college",
+    "code:111836": "college",
+    "code:111808": "johnston",
+    "code:111829": "johnston",
+    "code:111761": "harbour",
+    "code:111787": "harbour",
+    "code:111856": "river-road"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1200,
+      "minY": 60,
+      "maxY": 885
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -124.81024,
+    "refLonEast": -124.78265,
+    "refXWest": 380,
+    "refXEast": 780,
+    "refLatNorth": 49.26384,
+    "refLatSouth": 49.24039,
+    "refYNorth": 160,
+    "refYSouth": 740
+  },
+  "stationIndex": [
+    {
+      "id": "harbour",
+      "schematicId": "harbour",
+      "name": "3rd & Argyle",
+      "lat": 49.23493,
+      "lon": -124.80772,
+      "lines": ["1-PTA", "4-PTA"],
+      "platformIds": ["111761", "111787"],
+      "departureRouteIds": ["1-PTA", "4-PTA"]
+    },
+    {
+      "id": "111856",
+      "schematicId": "river-road",
+      "name": "Falls & Georgia",
+      "lat": 49.27366,
+      "lon": -124.85043,
+      "lines": ["3-PTA", "4-PTA"],
+      "platformIds": ["111856"],
+      "departureRouteIds": ["3-PTA", "4-PTA"]
+    },
+    {
+      "id": "johnston",
+      "schematicId": "johnston",
+      "name": "Gertrude & Johnston",
+      "lat": 49.25784,
+      "lon": -124.81037,
+      "lines": ["2-PTA", "3-PTA", "4-PTA"],
+      "platformIds": ["111808", "111829"],
+      "departureRouteIds": ["2-PTA", "3-PTA", "4-PTA"]
+    },
+    {
+      "id": "college",
+      "schematicId": "college",
+      "name": "North Island College",
+      "lat": 49.25504,
+      "lon": -124.78967,
+      "lines": ["2-PTA", "4-PTA"],
+      "platformIds": ["111801", "111836"],
+      "departureRouteIds": ["2-PTA", "4-PTA"]
+    },
+    {
+      "id": "111794",
+      "schematicId": "redford",
+      "name": "Redford Exchange",
+      "lat": 49.2448,
+      "lon": -124.79517,
+      "lines": ["1-PTA", "2-PTA", "3-PTA", "4-PTA"],
+      "platformIds": ["111794"],
+      "departureRouteIds": ["1-PTA", "2-PTA", "3-PTA", "4-PTA"]
+    },
+    {
+      "id": "111752",
+      "schematicId": "hospital",
+      "name": "West Coast Hospital",
+      "lat": 49.24929,
+      "lon": -124.78265,
+      "lines": ["1-PTA", "4-PTA"],
+      "platformIds": ["111752"],
+      "departureRouteIds": ["1-PTA", "4-PTA"]
+    }
+  ]
+}

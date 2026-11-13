@@ -1,0 +1,309 @@
+{
+  "viewBoxWidth": 1650,
+  "viewBoxHeight": 1550,
+  "lines": [
+    {
+      "id": "22-SMI",
+      "name": "Smithers / Telkwa",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 750,
+          "y": 800
+        },
+        {
+          "x": 950,
+          "y": 800
+        },
+        {
+          "x": 1100,
+          "y": 950
+        },
+        {
+          "x": 1100,
+          "y": 1100
+        },
+        {
+          "x": 1250,
+          "y": 1250
+        },
+        {
+          "x": 1400,
+          "y": 1400
+        },
+        {
+          "x": 1500,
+          "y": 1400
+        }
+      ]
+    },
+    {
+      "id": "23-SMI",
+      "name": "Smithers / Witset",
+      "color": "#EC008C",
+      "points": [
+        {
+          "x": 250,
+          "y": 150
+        },
+        {
+          "x": 250,
+          "y": 300
+        },
+        {
+          "x": 400,
+          "y": 450
+        },
+        {
+          "x": 400,
+          "y": 600
+        },
+        {
+          "x": 600,
+          "y": 800
+        },
+        {
+          "x": 750,
+          "y": 800
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "witset",
+      "name": "Witset Gas Station",
+      "x": 250,
+      "y": 150,
+      "lines": ["23-SMI"],
+      "label": {
+        "x": 250,
+        "y": 120,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "moricetown-loop",
+      "name": "Moricetown Loop / Sawmill",
+      "x": 250,
+      "y": 250,
+      "lines": ["23-SMI"],
+      "label": {
+        "x": 275,
+        "y": 250,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bulkley",
+      "name": "Highway 16 / Bulkley",
+      "x": 550,
+      "y": 750,
+      "lines": ["23-SMI"],
+      "label": {
+        "x": 520,
+        "y": 780,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "downtown",
+      "name": "Roi Theatre",
+      "x": 750,
+      "y": 800,
+      "lines": ["22-SMI", "23-SMI"],
+      "label": {
+        "x": 750,
+        "y": 835,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "mall",
+      "name": "Smithers Mall",
+      "x": 900,
+      "y": 800,
+      "lines": ["22-SMI"],
+      "label": {
+        "x": 900,
+        "y": 770,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "laidlaw",
+      "name": "Laidlaw Frontage Road",
+      "x": 1100,
+      "y": 1050,
+      "lines": ["22-SMI"],
+      "label": {
+        "x": 1075,
+        "y": 1050,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "telkwa-post",
+      "name": "Telkwa Post Office",
+      "x": 1250,
+      "y": 1250,
+      "lines": ["22-SMI"],
+      "label": {
+        "x": 1280,
+        "y": 1220,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "woodland",
+      "name": "Woodland / Walnut",
+      "x": 1500,
+      "y": 1400,
+      "lines": ["22-SMI"],
+      "label": {
+        "x": 1500,
+        "y": 1430,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "sequences": {
+    "22-SMI": ["downtown", "mall", "laidlaw", "telkwa-post", "woodland"],
+    "23-SMI": ["witset", "moricetown-loop", "bulkley", "downtown"]
+  },
+  "stationAliases": {
+    "Beaver Rd at Witset Gas Station": "witset",
+    "Moricetown Loop at Sawmill Rd": "moricetown-loop",
+    "Hwy 16 at Bulkley Dr": "bulkley",
+    "4th Avenue at Roi Theatre": "downtown",
+    "Frontage Rd at Smithers Mall": "mall",
+    "Laidlaw Frontage Rd at Laidlaw Rd": "laidlaw",
+    "Hwy 16 at Telkwa Post Office": "telkwa-post",
+    "Woodland St at Walnut St": "woodland"
+  },
+  "badges": [
+    {
+      "line": "22-SMI",
+      "num": "22",
+      "x": 1134,
+      "y": 1030,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "23-SMI",
+      "num": "23",
+      "x": 216,
+      "y": 225,
+      "color": "#EC008C",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1610,
+      "minY": 40,
+      "maxY": 1510
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -127.333,
+    "refLonEast": -127.05,
+    "refXWest": 250,
+    "refXEast": 1500,
+    "refLatNorth": 55.019,
+    "refLatSouth": 54.682,
+    "refYNorth": 150,
+    "refYSouth": 1400
+  },
+  "stationIndex": [
+    {
+      "id": "195008",
+      "schematicId": "bulkley",
+      "name": "Highway 16 / Bulkley",
+      "lat": 54.78951,
+      "lon": -127.17699,
+      "lines": ["23-SMI"],
+      "platformIds": ["195008"],
+      "departureRouteIds": ["23-SMI"]
+    },
+    {
+      "id": "laidlaw",
+      "schematicId": "laidlaw",
+      "name": "Laidlaw Frontage Road",
+      "lat": 54.74687,
+      "lon": -127.10939,
+      "lines": ["22-SMI"],
+      "platformIds": ["185045", "185046"],
+      "departureRouteIds": ["22-SMI"]
+    },
+    {
+      "id": "195010",
+      "schematicId": "moricetown-loop",
+      "name": "Moricetown Loop / Sawmill",
+      "lat": 55.01487,
+      "lon": -127.33297,
+      "lines": ["23-SMI"],
+      "platformIds": ["195010"],
+      "departureRouteIds": ["23-SMI"]
+    },
+    {
+      "id": "195006",
+      "schematicId": "downtown",
+      "name": "Roi Theatre",
+      "lat": 54.7804,
+      "lon": -127.16697,
+      "lines": ["22-SMI", "23-SMI"],
+      "platformIds": ["195006"],
+      "departureRouteIds": ["22-SMI", "23-SMI"]
+    },
+    {
+      "id": "mall",
+      "schematicId": "mall",
+      "name": "Smithers Mall",
+      "lat": 54.78013,
+      "lon": -127.16362,
+      "lines": ["22-SMI"],
+      "platformIds": ["195002", "195003"],
+      "departureRouteIds": ["22-SMI"]
+    },
+    {
+      "id": "185038",
+      "schematicId": "telkwa-post",
+      "name": "Telkwa Post Office",
+      "lat": 54.69916,
+      "lon": -127.05076,
+      "lines": ["22-SMI"],
+      "platformIds": ["185038"],
+      "departureRouteIds": ["22-SMI"]
+    },
+    {
+      "id": "195009",
+      "schematicId": "witset",
+      "name": "Witset Gas Station",
+      "lat": 55.01921,
+      "lon": -127.3316,
+      "lines": ["23-SMI"],
+      "platformIds": ["195009"],
+      "departureRouteIds": ["23-SMI"]
+    },
+    {
+      "id": "185039",
+      "schematicId": "woodland",
+      "name": "Woodland / Walnut",
+      "lat": 54.68235,
+      "lon": -127.0647,
+      "lines": ["22-SMI"],
+      "platformIds": ["185039"],
+      "departureRouteIds": ["22-SMI"]
+    }
+  ]
+}

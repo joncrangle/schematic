@@ -1,0 +1,374 @@
+{
+  "id": "fraser-valley",
+  "name": "BC Transit Fraser Valley",
+  "serviceArea": "Abbotsford, Mission, Chilliwack, Agassiz, Harrison Hot Springs and Hope, with express service to Langley and Burnaby",
+  "shortName": "Fraser Valley",
+  "locale": "en-CA",
+  "timezone": "America/Vancouver",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "bc"
+  },
+  "bounds": [
+    {
+      "minLat": 49.0002,
+      "maxLat": 49.0876,
+      "minLon": -122.4109,
+      "maxLon": -122.2085
+    },
+    {
+      "minLat": 49.0954,
+      "maxLat": 49.1918,
+      "minLon": -122.0123,
+      "maxLon": -121.9106
+    },
+    {
+      "minLat": 49.1262,
+      "maxLat": 49.1623,
+      "minLon": -122.3583,
+      "maxLon": -122.306
+    },
+    {
+      "minLat": 49.1262,
+      "maxLat": 49.1623,
+      "minLon": -122.304,
+      "maxLon": -122.2491
+    },
+    {
+      "minLat": 49.1345,
+      "maxLat": 49.1623,
+      "minLon": -122.306,
+      "maxLon": -122.304
+    },
+    {
+      "minLat": 49.1262,
+      "maxLat": 49.133,
+      "minLon": -122.306,
+      "maxLon": -122.304
+    },
+    {
+      "minLat": 49.2258,
+      "maxLat": 49.2466,
+      "minLon": -121.7762,
+      "maxLon": -121.7449
+    },
+    {
+      "minLat": 49.2785,
+      "maxLat": 49.3075,
+      "minLon": -121.7939,
+      "maxLon": -121.7716
+    },
+    {
+      "minLat": 49.0991,
+      "maxLat": 49.1159,
+      "minLon": -122.3003,
+      "maxLon": -122.2839
+    },
+    {
+      "minLat": 49.3716,
+      "maxLat": 49.3866,
+      "minLon": -121.4487,
+      "maxLon": -121.4143
+    },
+    {
+      "minLat": 49.1808,
+      "maxLat": 49.1962,
+      "minLon": -121.7822,
+      "maxLon": -121.7605
+    },
+    {
+      "minLat": 49.0781,
+      "maxLat": 49.0861,
+      "minLon": -122.0687,
+      "maxLon": -122.0403
+    },
+    {
+      "minLat": 49.1782,
+      "maxLat": 49.1862,
+      "minLon": -121.8115,
+      "maxLon": -121.7994
+    },
+    {
+      "minLat": 49.3482,
+      "maxLat": 49.3563,
+      "minLon": -121.6192,
+      "maxLon": -121.6069
+    },
+    {
+      "minLat": 49.2502,
+      "maxLat": 49.2585,
+      "minLon": -121.7359,
+      "maxLon": -121.7234
+    },
+    {
+      "minLat": 49.0858,
+      "maxLat": 49.0938,
+      "minLon": -122.0124,
+      "maxLon": -122.0004
+    },
+    {
+      "minLat": 49.0881,
+      "maxLat": 49.0961,
+      "minLon": -122.0863,
+      "maxLon": -122.0743
+    },
+    {
+      "minLat": 49.1145,
+      "maxLat": 49.1225,
+      "minLon": -122.0516,
+      "maxLon": -122.0396
+    },
+    {
+      "minLat": 49.3565,
+      "maxLat": 49.3645,
+      "minLon": -121.4709,
+      "maxLon": -121.4589
+    },
+    {
+      "minLat": 49.3651,
+      "maxLat": 49.3731,
+      "minLon": -121.5574,
+      "maxLon": -121.5454
+    },
+    {
+      "minLat": 49.0998,
+      "maxLat": 49.1078,
+      "minLon": -122.0578,
+      "maxLon": -122.0458
+    },
+    {
+      "minLat": 49.1,
+      "maxLat": 49.25,
+      "minLon": -122.325,
+      "maxLon": -122.1
+    },
+    {
+      "minLat": 49.0,
+      "maxLat": 49.26,
+      "minLon": -122.91,
+      "maxLon": -122.42
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "BC Transit Fraser Valley",
+    "url": "https://www.bctransit.com/central-fraser-valley/",
+    "license": "BC Transit Open Data Terms of Use"
+  },
+  "cityPresets": [
+    {
+      "name": "Bourquin Exchange",
+      "lat": 49.04835,
+      "lon": -122.30876
+    },
+    {
+      "name": "Highstreet Exchange",
+      "lat": 49.05909,
+      "lon": -122.37924
+    },
+    {
+      "name": "Junction Mall",
+      "lat": 49.13018,
+      "lon": -122.31908
+    },
+    {
+      "name": "Downtown Chilliwack",
+      "lat": 49.16883,
+      "lon": -121.95635
+    },
+    {
+      "name": "Pioneer Ave at Evergreen Dr",
+      "lat": 49.23901,
+      "lon": -121.76519
+    },
+    {
+      "name": "Park St at 3rd Ave",
+      "lat": 49.3811,
+      "lon": -121.44266
+    }
+  ],
+  "popularSurfaceRoutes": [
+    "66-CFV",
+    "1-CFV",
+    "2-CFV",
+    "3-CFV",
+    "31-CFV",
+    "51-CFV",
+    "71-CFV",
+    "72-CFV"
+  ],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "BC Transit Fraser Valley",
+        "url": "https://bct.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/?operatorIds=13",
+        "cacheFileName": "fraser-valley-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#004B8D",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=13",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bct.tmix.se/gtfs-realtime/tripupdates.pb?operatorIds=13",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://bct.tmix.se/gtfs-realtime/alerts.pb?operatorIds=13",
+      "entityOnly": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=5",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=1",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=5",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=6",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=20",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=1&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=1&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=5&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=5&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=6&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=6&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=20&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=20&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["66-CFV", "1-CFV", "2-CFV", "3-CFV", "31-CFV", "51-CFV", "71-CFV", "72-CFV"],
+    "routeLineMap": {
+      "31A-CFV": "31-CFV",
+      "31X-CFV": "31-CFV"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "category",
+          "sourceValue": "ReducedService"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "effects": ["OTHER_EFFECT"],
+          "textIncludes": ["cancelled", "canceled"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "titleDateTimezone": "America/Vancouver"
+  }
+}

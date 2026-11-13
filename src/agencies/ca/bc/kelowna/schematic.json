@@ -1,0 +1,755 @@
+{
+  "viewBoxWidth": 1850,
+  "viewBoxHeight": 1660,
+  "lines": [
+    {
+      "id": "97-KEL",
+      "name": "Okanagan",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 180,
+          "y": 1300
+        },
+        {
+          "x": 600,
+          "y": 880
+        },
+        {
+          "x": 680,
+          "y": 960
+        },
+        {
+          "x": 1000,
+          "y": 960
+        },
+        {
+          "x": 1180,
+          "y": 780
+        },
+        {
+          "x": 1180,
+          "y": 560
+        },
+        {
+          "x": 1360,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "id": "98-KEL",
+      "name": "Rutland / UBCO Express",
+      "color": "#00A5C9",
+      "points": [
+        {
+          "x": 600,
+          "y": 880
+        },
+        {
+          "x": 680,
+          "y": 800
+        },
+        {
+          "x": 840,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 960
+        },
+        {
+          "x": 1200,
+          "y": 960
+        },
+        {
+          "x": 1360,
+          "y": 800
+        },
+        {
+          "x": 1360,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "id": "6-KEL",
+      "name": "Glenmore / UBCO Express",
+      "color": "#00AA47",
+      "points": [
+        {
+          "x": 600,
+          "y": 880
+        },
+        {
+          "x": 600,
+          "y": 760
+        },
+        {
+          "x": 800,
+          "y": 560
+        },
+        {
+          "x": 1000,
+          "y": 560
+        },
+        {
+          "x": 1180,
+          "y": 380
+        },
+        {
+          "x": 1360,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "id": "8-KEL",
+      "name": "University / College",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 800,
+          "y": 1240
+        },
+        {
+          "x": 800,
+          "y": 1160
+        },
+        {
+          "x": 1000,
+          "y": 960
+        },
+        {
+          "x": 1040,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 1000
+        },
+        {
+          "x": 1360,
+          "y": 840
+        },
+        {
+          "x": 1360,
+          "y": 800
+        },
+        {
+          "x": 1400,
+          "y": 760
+        },
+        {
+          "x": 1400,
+          "y": 420
+        },
+        {
+          "x": 1360,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "id": "10-KEL",
+      "name": "North Rutland / Downtown",
+      "color": "#49176B",
+      "points": [
+        {
+          "x": 600,
+          "y": 880
+        },
+        {
+          "x": 640,
+          "y": 840
+        },
+        {
+          "x": 880,
+          "y": 840
+        },
+        {
+          "x": 1000,
+          "y": 960
+        },
+        {
+          "x": 1040,
+          "y": 920
+        },
+        {
+          "x": 1240,
+          "y": 920
+        },
+        {
+          "x": 1360,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "1-KEL",
+      "name": "Lakeshore / Downtown",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 600,
+          "y": 880
+        },
+        {
+          "x": 600,
+          "y": 1080
+        },
+        {
+          "x": 680,
+          "y": 1160
+        },
+        {
+          "x": 720,
+          "y": 1160
+        },
+        {
+          "x": 800,
+          "y": 1240
+        },
+        {
+          "x": 600,
+          "y": 1240
+        },
+        {
+          "x": 600,
+          "y": 1380
+        },
+        {
+          "x": 700,
+          "y": 1480
+        }
+      ]
+    },
+    {
+      "id": "23-KEL",
+      "name": "Lake Country",
+      "color": "#8E0C3A",
+      "points": [
+        {
+          "x": 1360,
+          "y": 380
+        },
+        {
+          "x": 1480,
+          "y": 260
+        },
+        {
+          "x": 1480,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "19-KEL",
+      "name": "Glenmore / Orchard Park",
+      "color": "#BF83B9",
+      "points": [
+        {
+          "x": 1000,
+          "y": 560
+        },
+        {
+          "x": 1000,
+          "y": 960
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "westbank",
+      "name": "Westbank Exchange",
+      "x": 180,
+      "y": 1300,
+      "lines": ["97-KEL"],
+      "label": {
+        "x": 155,
+        "y": 1335,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "boucherie",
+      "name": "Boucherie Mountain Exchange",
+      "x": 360,
+      "y": 1120,
+      "lines": ["97-KEL"],
+      "label": {
+        "x": 335,
+        "y": 1095,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "queensway",
+      "name": "Queensway Exchange",
+      "x": 600,
+      "y": 880,
+      "lines": ["97-KEL", "98-KEL", "6-KEL", "10-KEL", "1-KEL"],
+      "label": {
+        "x": 565,
+        "y": 860,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "orchard-park",
+      "name": "Orchard Park Exchange",
+      "x": 1000,
+      "y": 960,
+      "lines": ["97-KEL", "98-KEL", "8-KEL", "19-KEL", "10-KEL"],
+      "label": {
+        "x": 1015,
+        "y": 1015,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "rutland",
+      "name": "Rutland Exchange",
+      "x": 1360,
+      "y": 800,
+      "lines": ["98-KEL", "8-KEL", "10-KEL"],
+      "label": {
+        "x": 1390,
+        "y": 820,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "ubco",
+      "name": "UBCO Exchange",
+      "x": 1360,
+      "y": 380,
+      "lines": ["97-KEL", "98-KEL", "6-KEL", "8-KEL", "23-KEL"],
+      "label": {
+        "x": 1325,
+        "y": 345,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "glenmore-union",
+      "name": "Glenmore Rd at Union Rd",
+      "x": 1000,
+      "y": 560,
+      "lines": ["6-KEL", "19-KEL"],
+      "label": {
+        "x": 975,
+        "y": 525,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "okanagan-college",
+      "name": "Okanagan College Exchange",
+      "x": 800,
+      "y": 1240,
+      "lines": ["8-KEL", "1-KEL"],
+      "label": {
+        "x": 830,
+        "y": 1265,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "south-pandosy",
+      "name": "South Pandosy Exchange",
+      "x": 600,
+      "y": 1240,
+      "lines": ["1-KEL"],
+      "label": {
+        "x": 575,
+        "y": 1240,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "mission-rec",
+      "name": "Mission Rec Exchange",
+      "x": 700,
+      "y": 1480,
+      "lines": ["1-KEL"],
+      "label": {
+        "x": 725,
+        "y": 1500,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "airport",
+      "name": "Kelowna Airport",
+      "x": 1480,
+      "y": 240,
+      "lines": ["23-KEL"],
+      "label": {
+        "x": 1505,
+        "y": 245,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lake-country",
+      "name": "Berry Rd at Bottom Wood Lake Rd",
+      "x": 1480,
+      "y": 100,
+      "lines": ["23-KEL"],
+      "label": {
+        "x": 1455,
+        "y": 100,
+        "anchor": "end"
+      },
+      "terminal": true
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 30,
+      "maxX": 1810,
+      "minY": 30,
+      "maxY": 1600
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -119.631,
+    "refLonEast": -119.394,
+    "refXWest": 180,
+    "refXEast": 1360,
+    "refLatNorth": 50.02947,
+    "refLatSouth": 49.83693,
+    "refYNorth": 100,
+    "refYSouth": 1480
+  },
+  "sequences": {
+    "97-KEL": ["westbank", "boucherie", "queensway", "orchard-park", "ubco"],
+    "98-KEL": ["queensway", "orchard-park", "rutland", "ubco"],
+    "6-KEL": ["queensway", "glenmore-union", "ubco"],
+    "8-KEL": ["okanagan-college", "orchard-park", "rutland", "ubco"],
+    "10-KEL": ["queensway", "orchard-park", "rutland"],
+    "1-KEL": ["queensway", "okanagan-college", "south-pandosy", "mission-rec"],
+    "23-KEL": ["ubco", "airport", "lake-country"],
+    "19-KEL": ["glenmore-union", "orchard-park"]
+  },
+  "stationAliases": {
+    "code:140005": "westbank",
+    "code:140006": "westbank",
+    "code:140004": "westbank",
+    "code:140214": "westbank",
+    "code:140010": "boucherie",
+    "code:140011": "boucherie",
+    "code:140009": "boucherie",
+    "code:140165": "boucherie",
+    "code:140007": "boucherie",
+    "code:140008": "boucherie",
+    "code:102859": "queensway",
+    "code:102861": "queensway",
+    "code:102855": "queensway",
+    "code:102856": "queensway",
+    "code:102860": "queensway",
+    "code:102854": "queensway",
+    "code:102853": "queensway",
+    "code:102862": "queensway",
+    "code:102857": "queensway",
+    "code:102858": "queensway",
+    "code:103079": "orchard-park",
+    "code:103077": "orchard-park",
+    "code:103072": "orchard-park",
+    "code:103069": "orchard-park",
+    "code:103070": "orchard-park",
+    "code:103075": "orchard-park",
+    "code:103071": "orchard-park",
+    "code:103073": "orchard-park",
+    "code:103193": "rutland",
+    "code:140148": "rutland",
+    "code:140149": "rutland",
+    "code:140151": "rutland",
+    "code:140150": "rutland",
+    "code:140316": "rutland",
+    "code:140103": "ubco",
+    "code:140101": "ubco",
+    "code:140098": "ubco",
+    "code:140102": "ubco",
+    "code:140099": "ubco",
+    "code:140104": "ubco",
+    "code:140132": "glenmore-union",
+    "code:140133": "glenmore-union",
+    "code:103030": "okanagan-college",
+    "code:103028": "okanagan-college",
+    "code:103457": "okanagan-college",
+    "code:103016": "south-pandosy",
+    "code:103025": "south-pandosy",
+    "code:103022": "mission-rec",
+    "code:103023": "mission-rec",
+    "code:103656": "airport",
+    "code:103680": "airport",
+    "code:103660": "lake-country",
+    "code:103061": "orchard-park",
+    "code:103067": "orchard-park"
+  },
+  "stationIndex": [
+    {
+      "id": "103660",
+      "schematicId": "lake-country",
+      "name": "Berry Rd at Bottom Wood Lake Rd",
+      "lat": 50.02947,
+      "lon": -119.40276,
+      "lines": ["23-KEL"],
+      "platformIds": ["103660"],
+      "departureRouteIds": ["23-KEL"]
+    },
+    {
+      "id": "boucherie",
+      "schematicId": "boucherie",
+      "name": "Boucherie Mountain Exchange",
+      "lat": 49.86207,
+      "lon": -119.58528,
+      "lines": ["97-KEL"],
+      "platformIds": ["140007", "140008", "140009", "140010", "140011", "140165"],
+      "departureRouteIds": [
+        "20-KEL",
+        "24-KEL",
+        "25-KEL",
+        "26-KEL",
+        "28-KEL",
+        "29-KEL",
+        "88-KEL",
+        "97-KEL"
+      ]
+    },
+    {
+      "id": "glenmore-union",
+      "schematicId": "glenmore-union",
+      "name": "Glenmore Rd at Union Rd",
+      "lat": 49.92765,
+      "lon": -119.43474,
+      "lines": ["19-KEL", "6-KEL"],
+      "platformIds": ["140132", "140133"],
+      "departureRouteIds": ["18-KEL", "19-KEL", "6-KEL"]
+    },
+    {
+      "id": "airport",
+      "schematicId": "airport",
+      "name": "Kelowna Airport",
+      "lat": 49.95206,
+      "lon": -119.3833,
+      "lines": ["23-KEL"],
+      "platformIds": ["103656", "103680"],
+      "departureRouteIds": ["23-KEL"]
+    },
+    {
+      "id": "mission-rec",
+      "schematicId": "mission-rec",
+      "name": "Mission Rec Exchange",
+      "lat": 49.83693,
+      "lon": -119.48062,
+      "lines": ["1-KEL"],
+      "platformIds": ["103022", "103023"],
+      "departureRouteIds": ["1-KEL", "16-KEL", "5-KEL"]
+    },
+    {
+      "id": "okanagan-college",
+      "schematicId": "okanagan-college",
+      "name": "Okanagan College Exchange",
+      "lat": 49.86127,
+      "lon": -119.47932,
+      "lines": ["1-KEL", "8-KEL"],
+      "platformIds": ["103028", "103030", "103457"],
+      "departureRouteIds": ["1-KEL", "12-KEL", "4-KEL", "8-KEL", "88-KEL"]
+    },
+    {
+      "id": "orchard-park",
+      "schematicId": "orchard-park",
+      "name": "Orchard Park Exchange",
+      "lat": 49.88202,
+      "lon": -119.44467,
+      "lines": ["10-KEL", "19-KEL", "8-KEL", "97-KEL", "98-KEL"],
+      "platformIds": [
+        "103061",
+        "103067",
+        "103069",
+        "103070",
+        "103071",
+        "103072",
+        "103073",
+        "103075",
+        "103077",
+        "103079"
+      ],
+      "departureRouteIds": [
+        "10-KEL",
+        "11-KEL",
+        "12-KEL",
+        "19-KEL",
+        "3-KEL",
+        "4-KEL",
+        "8-KEL",
+        "9-KEL",
+        "97-KEL",
+        "98-KEL"
+      ]
+    },
+    {
+      "id": "queensway",
+      "schematicId": "queensway",
+      "name": "Queensway Exchange",
+      "lat": 49.88742,
+      "lon": -119.4959,
+      "lines": ["1-KEL", "10-KEL", "6-KEL", "97-KEL", "98-KEL"],
+      "platformIds": [
+        "102853",
+        "102854",
+        "102855",
+        "102856",
+        "102857",
+        "102858",
+        "102859",
+        "102860",
+        "102861",
+        "102862"
+      ],
+      "departureRouteIds": [
+        "1-KEL",
+        "10-KEL",
+        "11-KEL",
+        "18-KEL",
+        "2-KEL",
+        "5-KEL",
+        "6-KEL",
+        "88-KEL",
+        "9-KEL",
+        "97-KEL",
+        "98-KEL"
+      ]
+    },
+    {
+      "id": "rutland",
+      "schematicId": "rutland",
+      "name": "Rutland Exchange",
+      "lat": 49.89064,
+      "lon": -119.39239,
+      "lines": ["10-KEL", "8-KEL", "98-KEL"],
+      "platformIds": ["103193", "140148", "140149", "140150", "140151", "140316"],
+      "departureRouteIds": ["10-KEL", "11-KEL", "14-KEL", "8-KEL", "98-KEL"]
+    },
+    {
+      "id": "south-pandosy",
+      "schematicId": "south-pandosy",
+      "name": "South Pandosy Exchange",
+      "lat": 49.8604,
+      "lon": -119.49115,
+      "lines": ["1-KEL"],
+      "platformIds": ["103016", "103025"],
+      "departureRouteIds": ["1-KEL", "12-KEL", "4-KEL"]
+    },
+    {
+      "id": "ubco",
+      "schematicId": "ubco",
+      "name": "UBCO Exchange",
+      "lat": 49.93991,
+      "lon": -119.39456,
+      "lines": ["23-KEL", "6-KEL", "8-KEL", "97-KEL", "98-KEL"],
+      "platformIds": ["140098", "140099", "140101", "140102", "140103", "140104"],
+      "departureRouteIds": ["13-KEL", "23-KEL", "6-KEL", "8-KEL", "84-KEL", "97-KEL", "98-KEL"]
+    },
+    {
+      "id": "westbank",
+      "schematicId": "westbank",
+      "name": "Westbank Exchange",
+      "lat": 49.82865,
+      "lon": -119.63102,
+      "lines": ["97-KEL"],
+      "platformIds": ["140004", "140005", "140006", "140214"],
+      "departureRouteIds": [
+        "20-KEL",
+        "21-KEL",
+        "22-KEL",
+        "24-KEL",
+        "25-KEL",
+        "26-KEL",
+        "28-KEL",
+        "88-KEL",
+        "97-KEL"
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "line": "97-KEL",
+      "num": "97",
+      "x": 237.37,
+      "y": 1197.37,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "98-KEL",
+      "num": "98",
+      "x": 1325,
+      "y": 780,
+      "color": "#00A5C9",
+      "textColor": "#000000"
+    },
+    {
+      "line": "6-KEL",
+      "num": "6",
+      "x": 717.37,
+      "y": 597.37,
+      "color": "#00AA47",
+      "textColor": "#000000"
+    },
+    {
+      "line": "8-KEL",
+      "num": "8",
+      "x": 882.63,
+      "y": 1122.63,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "10-KEL",
+      "num": "10",
+      "x": 1180,
+      "y": 888,
+      "color": "#49176B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "1-KEL",
+      "num": "1",
+      "x": 568,
+      "y": 1060,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "23-KEL",
+      "num": "23",
+      "x": 1512,
+      "y": 190,
+      "color": "#8E0C3A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "19-KEL",
+      "num": "19",
+      "x": 1032,
+      "y": 650,
+      "color": "#BF83B9",
+      "textColor": "#000000"
+    }
+  ]
+}

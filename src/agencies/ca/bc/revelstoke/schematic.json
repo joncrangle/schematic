@@ -1,0 +1,429 @@
+{
+  "viewBoxWidth": 1850,
+  "viewBoxHeight": 1400,
+  "lines": [
+    {
+      "id": "1-REVY",
+      "name": "Southside / Hospital",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 850,
+          "y": 500
+        },
+        {
+          "x": 1000,
+          "y": 650
+        },
+        {
+          "x": 1150,
+          "y": 650
+        },
+        {
+          "x": 1250,
+          "y": 750
+        },
+        {
+          "x": 1250,
+          "y": 800
+        },
+        {
+          "x": 1400,
+          "y": 950
+        },
+        {
+          "x": 1450,
+          "y": 950
+        },
+        {
+          "x": 1600,
+          "y": 800
+        },
+        {
+          "x": 1600,
+          "y": 650
+        },
+        {
+          "x": 1450,
+          "y": 500
+        },
+        {
+          "x": 850,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "3-REVY",
+      "name": "Big Eddy",
+      "color": "#F58220",
+      "points": [
+        {
+          "x": 850,
+          "y": 500
+        },
+        {
+          "x": 400,
+          "y": 500
+        },
+        {
+          "x": 200,
+          "y": 700
+        },
+        {
+          "x": 200,
+          "y": 850
+        },
+        {
+          "x": 350,
+          "y": 850
+        },
+        {
+          "x": 550,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 650
+        },
+        {
+          "x": 850,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "5-REVY",
+      "name": "Revelstoke Mountain Resort Shuttle",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 1350,
+          "y": 150
+        },
+        {
+          "x": 400,
+          "y": 150
+        },
+        {
+          "x": 400,
+          "y": 350
+        },
+        {
+          "x": 550,
+          "y": 500
+        },
+        {
+          "x": 850,
+          "y": 500
+        },
+        {
+          "x": 1150,
+          "y": 800
+        },
+        {
+          "x": 1250,
+          "y": 800
+        },
+        {
+          "x": 1250,
+          "y": 900
+        },
+        {
+          "x": 1550,
+          "y": 1200
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "hillcrest",
+      "name": "Coast Hillcrest Hotel",
+      "x": 1350,
+      "y": 150,
+      "lines": ["5-REVY"],
+      "label": {
+        "x": 1350,
+        "y": 118,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "basecamp",
+      "name": "Base Camp Resort",
+      "x": 400,
+      "y": 150,
+      "lines": ["5-REVY"],
+      "label": {
+        "x": 400,
+        "y": 118,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "wright-2nd",
+      "name": "Wright / 2nd Street",
+      "x": 550,
+      "y": 500,
+      "lines": ["3-REVY", "5-REVY"],
+      "label": {
+        "x": 550,
+        "y": 532,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "grizzly-plaza",
+      "name": "Grizzly Plaza",
+      "x": 850,
+      "y": 500,
+      "lines": ["1-REVY", "3-REVY", "5-REVY"],
+      "label": {
+        "x": 850,
+        "y": 468,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "big-eddy",
+      "name": "Big Eddy / Highway 23",
+      "x": 200,
+      "y": 700,
+      "lines": ["3-REVY"],
+      "label": {
+        "x": 170,
+        "y": 700,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lundell",
+      "name": "Lundell / Griffiths",
+      "x": 200,
+      "y": 850,
+      "lines": ["3-REVY"],
+      "label": {
+        "x": 170,
+        "y": 850,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "southside",
+      "name": "Oscar / Leach",
+      "x": 1150,
+      "y": 650,
+      "lines": ["1-REVY"],
+      "label": {
+        "x": 1150,
+        "y": 618,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Queen Victoria Hospital",
+      "x": 1450,
+      "y": 950,
+      "lines": ["1-REVY"],
+      "label": {
+        "x": 1480,
+        "y": 950,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "airport-arrow",
+      "name": "Airport Way / Arrow Drive",
+      "x": 1250,
+      "y": 800,
+      "lines": ["1-REVY", "5-REVY"],
+      "label": {
+        "x": 1280,
+        "y": 770,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "resort",
+      "name": "Revelstoke Mountain Resort",
+      "x": 1550,
+      "y": 1200,
+      "lines": ["5-REVY"],
+      "label": {
+        "x": 1580,
+        "y": 1200,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-REVY",
+      "num": "1",
+      "x": 1510,
+      "y": 534,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3-REVY",
+      "num": "3",
+      "x": 166,
+      "y": 790,
+      "color": "#F58220",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5-REVY",
+      "num": "5",
+      "x": 750,
+      "y": 184,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1-REVY": ["grizzly-plaza", "southside", "airport-arrow", "hospital"],
+    "3-REVY": ["grizzly-plaza", "wright-2nd", "big-eddy", "lundell"],
+    "5-REVY": ["hillcrest", "basecamp", "wright-2nd", "grizzly-plaza", "airport-arrow", "resort"]
+  },
+  "stationAliases": {
+    "Coast Hillcrest Hotel": "hillcrest",
+    "Base Camp Resort": "basecamp",
+    "MacKenzie Ave at 1st St - Grizzly Plaza": "grizzly-plaza",
+    "Big Eddy Rd at Hwy 23": "big-eddy",
+    "Lundell Rd at Griffiths Rd": "lundell",
+    "Leach St at Oscar St": "southside",
+    "Queen Victoria Hospital": "hospital",
+    "Airport Way at Arrow Dr": "airport-arrow",
+    "RMR Guest Services": "resort",
+    "Wright St at 2nd St W": "wright-2nd"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 1800,
+      "minY": 40,
+      "maxY": 1360
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -118.23056,
+    "refLonEast": -118.16085,
+    "refXWest": 150,
+    "refXEast": 1700,
+    "refLatNorth": 51.02136,
+    "refLatSouth": 50.9547,
+    "refYNorth": 150,
+    "refYSouth": 1250
+  },
+  "stationIndex": [
+    {
+      "id": "airport-arrow",
+      "schematicId": "airport-arrow",
+      "name": "Airport Way / Arrow Drive",
+      "lat": 50.97998,
+      "lon": -118.18483,
+      "lines": ["1-REVY", "5-REVY"],
+      "platformIds": ["156052", "156090"],
+      "departureRouteIds": ["1-REVY", "5-REVY"]
+    },
+    {
+      "id": "156074",
+      "schematicId": "basecamp",
+      "name": "Base Camp Resort",
+      "lat": 51.02136,
+      "lon": -118.21319,
+      "lines": ["5-REVY"],
+      "platformIds": ["156074"],
+      "departureRouteIds": ["5-REVY"]
+    },
+    {
+      "id": "156020",
+      "schematicId": "big-eddy",
+      "name": "Big Eddy / Highway 23",
+      "lat": 50.99771,
+      "lon": -118.23056,
+      "lines": ["3-REVY"],
+      "platformIds": ["156020"],
+      "departureRouteIds": ["3-REVY"]
+    },
+    {
+      "id": "156083",
+      "schematicId": "hillcrest",
+      "name": "Coast Hillcrest Hotel",
+      "lat": 50.99544,
+      "lon": -118.1628,
+      "lines": ["5-REVY"],
+      "platformIds": ["156083"],
+      "departureRouteIds": ["5-REVY"]
+    },
+    {
+      "id": "156011",
+      "schematicId": "grizzly-plaza",
+      "name": "Grizzly Plaza",
+      "lat": 50.99899,
+      "lon": -118.19496,
+      "lines": ["1-REVY", "3-REVY", "5-REVY"],
+      "platformIds": ["156011"],
+      "departureRouteIds": ["1-REVY", "3-REVY", "5-REVY"]
+    },
+    {
+      "id": "156071",
+      "schematicId": "lundell",
+      "name": "Lundell / Griffiths",
+      "lat": 50.99358,
+      "lon": -118.22034,
+      "lines": ["3-REVY"],
+      "platformIds": ["156071"],
+      "departureRouteIds": ["3-REVY"]
+    },
+    {
+      "id": "156048",
+      "schematicId": "southside",
+      "name": "Oscar / Leach",
+      "lat": 50.99145,
+      "lon": -118.17982,
+      "lines": ["1-REVY"],
+      "platformIds": ["156048"],
+      "departureRouteIds": ["1-REVY"]
+    },
+    {
+      "id": "156063",
+      "schematicId": "hospital",
+      "name": "Queen Victoria Hospital",
+      "lat": 50.97724,
+      "lon": -118.19054,
+      "lines": ["1-REVY"],
+      "platformIds": ["156063"],
+      "departureRouteIds": ["1-REVY"]
+    },
+    {
+      "id": "156087",
+      "schematicId": "resort",
+      "name": "Revelstoke Mountain Resort",
+      "lat": 50.95983,
+      "lon": -118.16367,
+      "lines": ["5-REVY"],
+      "platformIds": ["156087"],
+      "departureRouteIds": ["5-REVY"]
+    },
+    {
+      "id": "156065",
+      "schematicId": "wright-2nd",
+      "name": "Wright / 2nd Street",
+      "lat": 51.00767,
+      "lon": -118.21214,
+      "lines": ["3-REVY", "5-REVY"],
+      "platformIds": ["156065"],
+      "departureRouteIds": ["3-REVY", "5-REVY"]
+    }
+  ]
+}

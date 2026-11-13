@@ -1,0 +1,131 @@
+{
+  "id": "rtc",
+  "name": "Réseau de transport de la Capitale",
+  "shortName": "RTC",
+  "serviceArea": "Québec, L’Ancienne-Lorette, Saint-Augustin-de-Desmaures et Wendake",
+  "locale": "fr-CA",
+  "timezone": "America/Toronto",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "bounds": [
+    {
+      "minLat": 46.733,
+      "maxLat": 46.7541,
+      "minLon": -71.474,
+      "maxLon": -71.147
+    },
+    {
+      "minLat": 46.7544,
+      "maxLat": 46.94,
+      "minLon": -71.474,
+      "maxLon": -71.147
+    },
+    {
+      "minLat": 46.7541,
+      "maxLat": 46.7544,
+      "minLon": -71.474,
+      "maxLon": -71.2977
+    },
+    {
+      "minLat": 46.7541,
+      "maxLat": 46.7544,
+      "minLon": -71.2975,
+      "maxLon": -71.147
+    },
+    {
+      "minLat": 46.767,
+      "maxLat": 46.789,
+      "minLon": -71.303,
+      "maxLon": -71.26
+    }
+  ],
+  "attribution": {
+    "name": "Réseau de transport de la Capitale",
+    "url": "https://www.rtcquebec.ca/donnees-ouvertes",
+    "license": "Application, produit ou service, intégrant les Informations publiques du Réseau de transport de la Capitale, mises à jour le 11 novembre 2026. Les données en temps réel du site sont attribuées au RTC; aucune licence explicite pour cette API n’a été trouvée.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "RTC",
+        "url": "https://cdn.rtcquebec.ca/Site_Internet/DonneesOuvertes/googletransit.zip",
+        "cacheFileName": "rtc-gtfs.zip"
+      }
+    ],
+    "routeIdField": "short_name",
+    "sourceAgencyIds": ["RTC"]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "station_departures",
+        "format": "json",
+        "url": "https://api-iv.rtcquebec.ca/api/legacy/ListeBorneVirtuelle_Arret?noArret={stopId}&date={date}",
+        "dateTimezone": "America/Toronto",
+        "requestStopIdPattern": "^1-(.+)$",
+        "pollIntervalSeconds": 60,
+        "requestsPerMinute": 60,
+        "emptyBoardIsError": true,
+        "responseMapping": {
+          "routesPath": "$",
+          "routeIdField": "parcours.noParcours",
+          "departuresField": "horaires",
+          "timeField": "depart",
+          "directionField": "parcours.codeDirection",
+          "headsignField": "nomDestination",
+          "realtimeField": "ntr",
+          "realtimeOnly": true,
+          "cancelledField": "annule",
+          "stopClosedField": "arretNonDesservi",
+          "terminalField": "descenteSeulement"
+        }
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "url": "https://www.rtcquebec.ca/api/notices_v2?filter%5Bstatus%5D=1&filter%5Bstart%5D%5Bcondition%5D%5Bpath%5D=date_notice_start&filter%5Bstart%5D%5Bcondition%5D%5Boperator%5D=%3C%3D&filter%5Bstart%5D%5Bcondition%5D%5Bvalue%5D={now}&filter%5Bend-group%5D%5Bgroup%5D%5Bconjunction%5D=OR&filter%5Bend%5D%5Bcondition%5D%5Bpath%5D=date_notice_end&filter%5Bend%5D%5Bcondition%5D%5Boperator%5D=%3E&filter%5Bend%5D%5Bcondition%5D%5Bvalue%5D={now}&filter%5Bend%5D%5Bcondition%5D%5BmemberOf%5D=end-group&filter%5Bno-end%5D%5Bcondition%5D%5Bpath%5D=date_notice_end&filter%5Bno-end%5D%5Bcondition%5D%5Boperator%5D=IS+NULL&filter%5Bno-end%5D%5Bcondition%5D%5BmemberOf%5D=end-group&filter%5Bpublic-group%5D%5Bgroup%5D%5Bconjunction%5D=OR&filter%5Bpublic%5D%5Bcondition%5D%5Bpath%5D=non_public&filter%5Bpublic%5D%5Bcondition%5D%5Bvalue%5D=0&filter%5Bpublic%5D%5Bcondition%5D%5BmemberOf%5D=public-group&filter%5Bpublic-null%5D%5Bcondition%5D%5Bpath%5D=non_public&filter%5Bpublic-null%5D%5Bcondition%5D%5Boperator%5D=IS+NULL&filter%5Bpublic-null%5D%5Bcondition%5D%5BmemberOf%5D=public-group&page%5Blimit%5D=500&include=parcours%2Cparcours.routes%2Cparcours.arrets%2Cparcours.arrets.arrets_non_desservis%2Cparcours.arrets.arrets_suggeres",
+      "parser": "jsonapi-transit-notices",
+      "language": "fr"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["800", "801", "802", "803", "804", "805", "807", "18"],
+    "rules": [
+      {
+        "priority": 50,
+        "match": {
+          "titleIncludes": ["Travaux", "Fermeture", "Détour", "dévié", "déplacé", "instable"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["800", "801", "802", "803", "804", "805", "807", "18"],
+  "cityPresets": [
+    {
+      "name": "Terminus Gare-du-Palais",
+      "lat": 46.818398,
+      "lon": -71.213448
+    },
+    {
+      "name": "Terminus Les Saules",
+      "lat": 46.812683,
+      "lon": -71.323616
+    }
+  ]
+}

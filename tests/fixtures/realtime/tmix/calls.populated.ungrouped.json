@@ -1,0 +1,146 @@
+{
+  "isStopCancelled": false,
+  "calls": [
+    {
+      "id": "l:6000023/j:1493863/jinstance:/seq:24",
+      "calls": [
+        {
+          "id": "540411164",
+          "key": "8",
+          "lineId": 6000023,
+          "routeId": 1004667,
+          "journeyId": 1493863,
+          "stopPointId": 6000663,
+          "sequenceNumber": 24,
+          "line": "2",
+          "lineAppearance": {
+            "background": "#942976",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "127",
+          "destination": "MAIN - CROSSROADS CENTRE",
+          "subdestination": "",
+          "arrival": null,
+          "departure": {
+            "vehicleType": null,
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-10-14T18:42:40-04:00",
+            "plannedTime": "2026-10-14T18:35:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": "",
+            "occupancyPercent": null
+          },
+          "createdTime": "2026-10-14T22:41:27.0444077+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:6000006/j:1494059/jinstance:/seq:0",
+      "calls": [
+        {
+          "id": "540411336",
+          "key": "0",
+          "lineId": 6000006,
+          "routeId": 1004654,
+          "journeyId": 1494059,
+          "stopPointId": 6000663,
+          "sequenceNumber": 0,
+          "line": "5",
+          "lineAppearance": {
+            "background": "#41827C",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "638",
+          "destination": "YATES - MILTON GO",
+          "subdestination": "",
+          "arrival": null,
+          "departure": {
+            "vehicleType": null,
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-10-14T18:43:46-04:00",
+            "plannedTime": "2026-10-14T18:35:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": "",
+            "occupancyPercent": null
+          },
+          "createdTime": "2026-10-14T22:41:27.0444322+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:6000007/j:1494150/jinstance:/seq:0",
+      "calls": [
+        {
+          "id": "540411427",
+          "key": "3",
+          "lineId": 6000007,
+          "routeId": 1004657,
+          "journeyId": 1494150,
+          "stopPointId": 6000663,
+          "sequenceNumber": 0,
+          "line": "8",
+          "lineAppearance": {
+            "background": "#0071BC",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "639",
+          "destination": "WILLMOTT - MILTON GO",
+          "subdestination": "",
+          "arrival": null,
+          "departure": {
+            "vehicleType": null,
+            "journeyType": "Ordinary",
+            "forecastTime": "2026-10-14T18:44:19-04:00",
+            "plannedTime": "2026-10-14T18:35:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": "",
+            "occupancyPercent": null
+          },
+          "createdTime": "2026-10-14T22:41:27.0444349+00:00"
+        }
+      ]
+    },
+    {
+      "id": "l:6000078/j:1493962/jinstance:492102502/seq:0",
+      "calls": [
+        {
+          "id": "1032513741",
+          "key": "13",
+          "lineId": 6000078,
+          "routeId": 1003181,
+          "journeyId": 1493962,
+          "stopPointId": 6000663,
+          "sequenceNumber": 0,
+          "line": "21",
+          "lineAppearance": {
+            "background": "#000000",
+            "foreground": "#FFFFFF",
+            "fontStyle": "regular"
+          },
+          "journey": "19",
+          "destination": "STEELES - LISGAR GO",
+          "subdestination": "",
+          "arrival": null,
+          "departure": {
+            "vehicleType": null,
+            "journeyType": "Reinforcement",
+            "forecastTime": "2026-10-14T19:22:00-04:00",
+            "plannedTime": "2026-10-14T19:22:00-04:00",
+            "quality": "realtime",
+            "attributes": [],
+            "designation": "",
+            "occupancyPercent": null
+          },
+          "createdTime": "2026-10-14T22:41:27.0444542+00:00"
+        }
+      ]
+    }
+  ],
+  "messages": []
+}

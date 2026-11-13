@@ -1,0 +1,585 @@
+{
+  "viewBoxWidth": 2250,
+  "viewBoxHeight": 1950,
+  "lines": [
+    {
+      "id": "1-FSJ",
+      "name": "Northside",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 1000,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 1000
+        },
+        {
+          "x": 1400,
+          "y": 800
+        },
+        {
+          "x": 1400,
+          "y": 650
+        },
+        {
+          "x": 1550,
+          "y": 500
+        },
+        {
+          "x": 1800,
+          "y": 500
+        },
+        {
+          "x": 1800,
+          "y": 300
+        },
+        {
+          "x": 1700,
+          "y": 200
+        },
+        {
+          "x": 900,
+          "y": 200
+        },
+        {
+          "x": 900,
+          "y": 550
+        },
+        {
+          "x": 1000,
+          "y": 650
+        },
+        {
+          "x": 1000,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "2-FSJ",
+      "name": "Southside",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 1000,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 1100
+        },
+        {
+          "x": 1100,
+          "y": 1300
+        },
+        {
+          "x": 1600,
+          "y": 1800
+        },
+        {
+          "x": 1900,
+          "y": 1800
+        },
+        {
+          "x": 1900,
+          "y": 1400
+        },
+        {
+          "x": 1800,
+          "y": 1300
+        },
+        {
+          "x": 1300,
+          "y": 1300
+        },
+        {
+          "x": 1300,
+          "y": 1400
+        },
+        {
+          "x": 1400,
+          "y": 1500
+        },
+        {
+          "x": 1500,
+          "y": 1500
+        },
+        {
+          "x": 1500,
+          "y": 1600
+        },
+        {
+          "x": 1100,
+          "y": 1600
+        },
+        {
+          "x": 1000,
+          "y": 1500
+        },
+        {
+          "x": 1000,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "3-FSJ",
+      "name": "Central / Prospect Park",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 1000,
+          "y": 1000
+        },
+        {
+          "x": 750,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 1150
+        },
+        {
+          "x": 400,
+          "y": 1150
+        },
+        {
+          "x": 400,
+          "y": 1300
+        },
+        {
+          "x": 750,
+          "y": 1650
+        },
+        {
+          "x": 1100,
+          "y": 1650
+        },
+        {
+          "x": 1250,
+          "y": 1500
+        },
+        {
+          "x": 1250,
+          "y": 1300
+        },
+        {
+          "x": 1500,
+          "y": 1300
+        },
+        {
+          "x": 1550,
+          "y": 1350
+        },
+        {
+          "x": 1550,
+          "y": 1500
+        },
+        {
+          "x": 1300,
+          "y": 1500
+        },
+        {
+          "x": 1100,
+          "y": 1300
+        },
+        {
+          "x": 1000,
+          "y": 1300
+        },
+        {
+          "x": 1000,
+          "y": 550
+        },
+        {
+          "x": 900,
+          "y": 450
+        },
+        {
+          "x": 750,
+          "y": 450
+        },
+        {
+          "x": 650,
+          "y": 550
+        },
+        {
+          "x": 650,
+          "y": 1000
+        },
+        {
+          "x": 1000,
+          "y": 1000
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "downtown",
+      "name": "100 Street / 100 Avenue",
+      "x": 1000,
+      "y": 1000,
+      "lines": ["1-FSJ", "2-FSJ", "3-FSJ"],
+      "label": {
+        "x": 970,
+        "y": 970,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "107th-92nd",
+      "name": "107 Avenue / 92 Street",
+      "x": 1400,
+      "y": 750,
+      "lines": ["1-FSJ"],
+      "label": {
+        "x": 1375,
+        "y": 750,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Fort St. John Hospital",
+      "x": 1650,
+      "y": 500,
+      "lines": ["1-FSJ"],
+      "label": {
+        "x": 1650,
+        "y": 530,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "college",
+      "name": "Northern Lights College",
+      "x": 1100,
+      "y": 200,
+      "lines": ["1-FSJ"],
+      "label": {
+        "x": 1100,
+        "y": 170,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "100th-108th",
+      "name": "100 Street / 108 Avenue",
+      "x": 1000,
+      "y": 700,
+      "lines": ["1-FSJ", "3-FSJ"],
+      "label": {
+        "x": 1030,
+        "y": 700,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "totem-mall",
+      "name": "Totem Mall",
+      "x": 1400,
+      "y": 1300,
+      "lines": ["2-FSJ", "3-FSJ"],
+      "label": {
+        "x": 1400,
+        "y": 1260,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 1450,
+      "y": 1500,
+      "lines": ["2-FSJ", "3-FSJ"],
+      "label": {
+        "x": 1450,
+        "y": 1545,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "85th-86th",
+      "name": "85 Avenue / 86 Street",
+      "x": 1500,
+      "y": 1700,
+      "lines": ["2-FSJ"],
+      "label": {
+        "x": 1470,
+        "y": 1730,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "91st-77th",
+      "name": "91 Avenue / 77 Street",
+      "x": 1900,
+      "y": 1500,
+      "lines": ["2-FSJ"],
+      "label": {
+        "x": 1925,
+        "y": 1500,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "93rd-86th",
+      "name": "93 Avenue / 86 Street",
+      "x": 1650,
+      "y": 1300,
+      "lines": ["2-FSJ"],
+      "label": {
+        "x": 1650,
+        "y": 1270,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "old-fort",
+      "name": "Old Fort / Alaska Road South",
+      "x": 500,
+      "y": 1150,
+      "lines": ["3-FSJ"],
+      "label": {
+        "x": 500,
+        "y": 1120,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cree-100th",
+      "name": "Cree Road / 100 Street",
+      "x": 1000,
+      "y": 1650,
+      "lines": ["3-FSJ"],
+      "label": {
+        "x": 1000,
+        "y": 1680,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "106th-104th",
+      "name": "106 Street / 104 Avenue",
+      "x": 650,
+      "y": 750,
+      "lines": ["3-FSJ"],
+      "label": {
+        "x": 625,
+        "y": 750,
+        "anchor": "end"
+      }
+    }
+  ],
+  "sequences": {
+    "1-FSJ": ["downtown", "107th-92nd", "hospital", "college", "100th-108th"],
+    "2-FSJ": ["downtown", "85th-86th", "91st-77th", "93rd-86th", "totem-mall", "walmart"],
+    "3-FSJ": [
+      "downtown",
+      "old-fort",
+      "cree-100th",
+      "totem-mall",
+      "walmart",
+      "100th-108th",
+      "106th-104th"
+    ]
+  },
+  "stationAliases": {
+    "100 St & 100 Ave": "downtown",
+    "107 Ave & 92 St": "107th-92nd",
+    "Fort St. John Hospital": "hospital",
+    "Northern Lights College": "college",
+    "100 St & 108 Ave": "100th-108th",
+    "Totem Mall": "totem-mall",
+    "Walmart": "walmart",
+    "85 Ave & 86 St": "85th-86th",
+    "91 Ave & 77 St": "91st-77th",
+    "93 Ave & 86 St": "93rd-86th",
+    "Old Fort Rd at Alaska Rd S": "old-fort",
+    "Cree Rd & 100 St": "cree-100th",
+    "106 St & 104 Ave": "106th-104th"
+  },
+  "badges": [
+    {
+      "line": "1-FSJ",
+      "num": "1",
+      "x": 1834,
+      "y": 400,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-FSJ",
+      "num": "2",
+      "x": 1934,
+      "y": 1650,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-FSJ",
+      "num": "3",
+      "x": 366,
+      "y": 1240,
+      "color": "#F37421",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 2210,
+      "minY": 40,
+      "maxY": 1910
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -120.874,
+    "refLonEast": -120.803,
+    "refXWest": 400,
+    "refXEast": 1900,
+    "refLatNorth": 56.267,
+    "refLatSouth": 56.2318,
+    "refYNorth": 200,
+    "refYSouth": 1800
+  },
+  "stationIndex": [
+    {
+      "id": "198001",
+      "schematicId": "downtown",
+      "name": "100 Street / 100 Avenue",
+      "lat": 56.24606,
+      "lon": -120.84765,
+      "lines": ["1-FSJ", "2-FSJ", "3-FSJ"],
+      "platformIds": ["198001"],
+      "departureRouteIds": ["1-FSJ", "2-FSJ", "3-FSJ", "4-FSJ", "5-FSJ"]
+    },
+    {
+      "id": "100th-108th",
+      "schematicId": "100th-108th",
+      "name": "100 Street / 108 Avenue",
+      "lat": 56.25399,
+      "lon": -120.84758,
+      "lines": ["1-FSJ", "3-FSJ"],
+      "platformIds": ["198000", "198099"],
+      "departureRouteIds": ["1-FSJ", "3-FSJ", "5-FSJ"]
+    },
+    {
+      "id": "198033",
+      "schematicId": "106th-104th",
+      "name": "106 Street / 104 Avenue",
+      "lat": 56.24975,
+      "lon": -120.8577,
+      "lines": ["3-FSJ"],
+      "platformIds": ["198033"],
+      "departureRouteIds": ["3-FSJ", "5-FSJ"]
+    },
+    {
+      "id": "198002",
+      "schematicId": "107th-92nd",
+      "name": "107 Avenue / 92 Street",
+      "lat": 56.25302,
+      "lon": -120.83097,
+      "lines": ["1-FSJ"],
+      "platformIds": ["198002"],
+      "departureRouteIds": ["1-FSJ"]
+    },
+    {
+      "id": "198005",
+      "schematicId": "85th-86th",
+      "name": "85 Avenue / 86 Street",
+      "lat": 56.23176,
+      "lon": -120.82168,
+      "lines": ["2-FSJ"],
+      "platformIds": ["198005"],
+      "departureRouteIds": ["2-FSJ", "4-FSJ"]
+    },
+    {
+      "id": "198052",
+      "schematicId": "91st-77th",
+      "name": "91 Avenue / 77 Street",
+      "lat": 56.23736,
+      "lon": -120.80418,
+      "lines": ["2-FSJ"],
+      "platformIds": ["198052"],
+      "departureRouteIds": ["2-FSJ"]
+    },
+    {
+      "id": "198042",
+      "schematicId": "93rd-86th",
+      "name": "93 Avenue / 86 Street",
+      "lat": 56.23925,
+      "lon": -120.82189,
+      "lines": ["2-FSJ"],
+      "platformIds": ["198042"],
+      "departureRouteIds": ["2-FSJ", "4-FSJ", "5-FSJ"]
+    },
+    {
+      "id": "198075",
+      "schematicId": "cree-100th",
+      "name": "Cree Road / 100 Street",
+      "lat": 56.23436,
+      "lon": -120.84819,
+      "lines": ["3-FSJ"],
+      "platformIds": ["198075"],
+      "departureRouteIds": ["3-FSJ"]
+    },
+    {
+      "id": "198044",
+      "schematicId": "hospital",
+      "name": "Fort St. John Hospital",
+      "lat": 56.25664,
+      "lon": -120.81732,
+      "lines": ["1-FSJ"],
+      "platformIds": ["198044"],
+      "departureRouteIds": ["1-FSJ"]
+    },
+    {
+      "id": "198084",
+      "schematicId": "college",
+      "name": "Northern Lights College",
+      "lat": 56.26684,
+      "lon": -120.84435,
+      "lines": ["1-FSJ"],
+      "platformIds": ["198084"],
+      "departureRouteIds": ["1-FSJ"]
+    },
+    {
+      "id": "198069",
+      "schematicId": "old-fort",
+      "name": "Old Fort / Alaska Road South",
+      "lat": 56.24525,
+      "lon": -120.87389,
+      "lines": ["3-FSJ"],
+      "platformIds": ["198069"],
+      "departureRouteIds": ["3-FSJ"]
+    },
+    {
+      "id": "198007",
+      "schematicId": "totem-mall",
+      "name": "Totem Mall",
+      "lat": 56.23735,
+      "lon": -120.84206,
+      "lines": ["2-FSJ", "3-FSJ"],
+      "platformIds": ["198007"],
+      "departureRouteIds": ["2-FSJ", "3-FSJ", "5-FSJ"]
+    },
+    {
+      "id": "198079",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 56.23602,
+      "lon": -120.83597,
+      "lines": ["2-FSJ", "3-FSJ"],
+      "platformIds": ["198079"],
+      "departureRouteIds": ["2-FSJ", "3-FSJ", "5-FSJ"]
+    }
+  ]
+}

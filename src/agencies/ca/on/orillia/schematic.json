@@ -1,0 +1,1265 @@
+{
+  "viewBoxWidth": 2750,
+  "viewBoxHeight": 1980,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 North",
+      "color": "#16BC16",
+      "points": [
+        {
+          "x": 1300,
+          "y": 900
+        },
+        {
+          "x": 1200,
+          "y": 800
+        },
+        {
+          "x": 1200,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 1000,
+          "y": 300
+        },
+        {
+          "x": 1100,
+          "y": 200
+        },
+        {
+          "x": 1200,
+          "y": 200
+        },
+        {
+          "x": 1200,
+          "y": 300
+        },
+        {
+          "x": 1100,
+          "y": 400
+        },
+        {
+          "x": 1100,
+          "y": 500
+        },
+        {
+          "x": 1000,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 1100,
+          "y": 700
+        },
+        {
+          "x": 1200,
+          "y": 800
+        },
+        {
+          "x": 1300,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Laclie",
+      "color": "#00A7D5",
+      "points": [
+        {
+          "x": 1300,
+          "y": 900
+        },
+        {
+          "x": 1400,
+          "y": 800
+        },
+        {
+          "x": 1400,
+          "y": 600
+        },
+        {
+          "x": 1300,
+          "y": 500
+        },
+        {
+          "x": 1300,
+          "y": 400
+        },
+        {
+          "x": 1400,
+          "y": 300
+        },
+        {
+          "x": 1400,
+          "y": 150
+        },
+        {
+          "x": 1500,
+          "y": 50
+        },
+        {
+          "x": 1700,
+          "y": 50
+        },
+        {
+          "x": 1800,
+          "y": 150
+        },
+        {
+          "x": 1800,
+          "y": 350
+        },
+        {
+          "x": 1700,
+          "y": 450
+        },
+        {
+          "x": 1600,
+          "y": 450
+        },
+        {
+          "x": 1500,
+          "y": 550
+        },
+        {
+          "x": 1500,
+          "y": 650
+        },
+        {
+          "x": 1400,
+          "y": 750
+        },
+        {
+          "x": 1400,
+          "y": 800
+        },
+        {
+          "x": 1300,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 South",
+      "color": "#9F00DC",
+      "points": [
+        {
+          "x": 1300,
+          "y": 900
+        },
+        {
+          "x": 1400,
+          "y": 1000
+        },
+        {
+          "x": 1500,
+          "y": 1000
+        },
+        {
+          "x": 1500,
+          "y": 1100
+        },
+        {
+          "x": 1600,
+          "y": 1200
+        },
+        {
+          "x": 1800,
+          "y": 1200
+        },
+        {
+          "x": 1900,
+          "y": 1100
+        },
+        {
+          "x": 2000,
+          "y": 1100
+        },
+        {
+          "x": 2100,
+          "y": 1000
+        },
+        {
+          "x": 2300,
+          "y": 1000
+        },
+        {
+          "x": 2400,
+          "y": 1100
+        },
+        {
+          "x": 2300,
+          "y": 1000
+        },
+        {
+          "x": 2100,
+          "y": 1000
+        },
+        {
+          "x": 2000,
+          "y": 1100
+        },
+        {
+          "x": 2000,
+          "y": 1200
+        },
+        {
+          "x": 1900,
+          "y": 1300
+        },
+        {
+          "x": 1800,
+          "y": 1300
+        },
+        {
+          "x": 1700,
+          "y": 1400
+        },
+        {
+          "x": 1800,
+          "y": 1300
+        },
+        {
+          "x": 1900,
+          "y": 1300
+        },
+        {
+          "x": 2000,
+          "y": 1200
+        },
+        {
+          "x": 2000,
+          "y": 1400
+        },
+        {
+          "x": 1900,
+          "y": 1500
+        },
+        {
+          "x": 1800,
+          "y": 1600
+        },
+        {
+          "x": 1700,
+          "y": 1500
+        },
+        {
+          "x": 1700,
+          "y": 1400
+        },
+        {
+          "x": 1600,
+          "y": 1300
+        },
+        {
+          "x": 1500,
+          "y": 1300
+        },
+        {
+          "x": 1400,
+          "y": 1200
+        },
+        {
+          "x": 1400,
+          "y": 1100
+        },
+        {
+          "x": 1300,
+          "y": 1000
+        },
+        {
+          "x": 1300,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Georgian",
+      "color": "#E97815",
+      "points": [
+        {
+          "x": 1300,
+          "y": 900
+        },
+        {
+          "x": 1200,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 900,
+          "y": 1200
+        },
+        {
+          "x": 800,
+          "y": 1200
+        },
+        {
+          "x": 800,
+          "y": 1300
+        },
+        {
+          "x": 900,
+          "y": 1400
+        },
+        {
+          "x": 1100,
+          "y": 1400
+        },
+        {
+          "x": 1200,
+          "y": 1500
+        },
+        {
+          "x": 1200,
+          "y": 1700
+        },
+        {
+          "x": 1100,
+          "y": 1800
+        },
+        {
+          "x": 1000,
+          "y": 1800
+        },
+        {
+          "x": 900,
+          "y": 1700
+        },
+        {
+          "x": 1000,
+          "y": 1600
+        },
+        {
+          "x": 1200,
+          "y": 1600
+        },
+        {
+          "x": 1200,
+          "y": 1200
+        },
+        {
+          "x": 1200,
+          "y": 1000
+        },
+        {
+          "x": 1300,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "7 West Ridge Via Old Barrie Road",
+      "color": "#DE0715",
+      "points": [
+        {
+          "x": 1300,
+          "y": 900
+        },
+        {
+          "x": 1180,
+          "y": 1020
+        },
+        {
+          "x": 1120,
+          "y": 1020
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1080,
+          "y": 1020
+        },
+        {
+          "x": 1000,
+          "y": 1100
+        },
+        {
+          "x": 1000,
+          "y": 1160
+        },
+        {
+          "x": 980,
+          "y": 1180
+        },
+        {
+          "x": 820,
+          "y": 1180
+        },
+        {
+          "x": 800,
+          "y": 1200
+        },
+        {
+          "x": 780,
+          "y": 1220
+        },
+        {
+          "x": 780,
+          "y": 1280
+        },
+        {
+          "x": 680,
+          "y": 1380
+        },
+        {
+          "x": 600,
+          "y": 1380
+        },
+        {
+          "x": 500,
+          "y": 1480
+        },
+        {
+          "x": 400,
+          "y": 1480
+        },
+        {
+          "x": 400,
+          "y": 1400
+        },
+        {
+          "x": 500,
+          "y": 1300
+        },
+        {
+          "x": 500,
+          "y": 1100
+        },
+        {
+          "x": 500,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 900
+        },
+        {
+          "x": 700,
+          "y": 900
+        },
+        {
+          "x": 800,
+          "y": 900
+        },
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 900
+        },
+        {
+          "x": 1100,
+          "y": 900
+        },
+        {
+          "x": 1200,
+          "y": 900
+        },
+        {
+          "x": 1300,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "8 West Ridge Via Coldwater Road",
+      "color": "#224F99",
+      "points": [
+        {
+          "x": 1300,
+          "y": 900
+        },
+        {
+          "x": 1280,
+          "y": 880
+        },
+        {
+          "x": 800,
+          "y": 880
+        },
+        {
+          "x": 600,
+          "y": 680
+        },
+        {
+          "x": 500,
+          "y": 680
+        },
+        {
+          "x": 400,
+          "y": 780
+        },
+        {
+          "x": 400,
+          "y": 980
+        },
+        {
+          "x": 420,
+          "y": 1000
+        },
+        {
+          "x": 480,
+          "y": 1000
+        },
+        {
+          "x": 500,
+          "y": 1000
+        },
+        {
+          "x": 480,
+          "y": 1020
+        },
+        {
+          "x": 480,
+          "y": 1280
+        },
+        {
+          "x": 420,
+          "y": 1340
+        },
+        {
+          "x": 420,
+          "y": 1380
+        },
+        {
+          "x": 400,
+          "y": 1400
+        },
+        {
+          "x": 380,
+          "y": 1420
+        },
+        {
+          "x": 380,
+          "y": 1480
+        },
+        {
+          "x": 480,
+          "y": 1580
+        },
+        {
+          "x": 600,
+          "y": 1580
+        },
+        {
+          "x": 700,
+          "y": 1480
+        },
+        {
+          "x": 700,
+          "y": 1380
+        },
+        {
+          "x": 800,
+          "y": 1280
+        },
+        {
+          "x": 900,
+          "y": 1280
+        },
+        {
+          "x": 1100,
+          "y": 1080
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1120,
+          "y": 1020
+        },
+        {
+          "x": 1120,
+          "y": 1080
+        },
+        {
+          "x": 1200,
+          "y": 1080
+        },
+        {
+          "x": 1300,
+          "y": 980
+        },
+        {
+          "x": 1300,
+          "y": 900
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "terminal",
+      "name": "Downtown Terminal",
+      "x": 1300,
+      "y": 900,
+      "lines": ["1", "2", "3", "4", "7", "8"],
+      "label": {
+        "x": 1335,
+        "y": 900,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mall",
+      "name": "Orillia Square Mall Shelter",
+      "x": 1100,
+      "y": 200,
+      "lines": ["1"],
+      "label": {
+        "x": 1080,
+        "y": 170,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "park-fittons",
+      "name": "Park St. at Fittons Road West",
+      "x": 1000,
+      "y": 600,
+      "lines": ["1"],
+      "label": {
+        "x": 980,
+        "y": 570,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lewis-johnson",
+      "name": "Lewis Dr. at Johnson St.",
+      "x": 800,
+      "y": 800,
+      "lines": ["1"],
+      "label": {
+        "x": 760,
+        "y": 780,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bay-north",
+      "name": "Bay St. at North St. East",
+      "x": 1800,
+      "y": 350,
+      "lines": ["2"],
+      "label": {
+        "x": 1840,
+        "y": 350,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "maple",
+      "name": "12 Maple Dr.",
+      "x": 1700,
+      "y": 50,
+      "lines": ["2"],
+      "label": {
+        "x": 1725,
+        "y": 50,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "goldie",
+      "name": "Goldie Dr. at Third St.",
+      "x": 1400,
+      "y": 150,
+      "lines": ["2"],
+      "label": {
+        "x": 1360,
+        "y": 150,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "trillium",
+      "name": "Trillium Manor",
+      "x": 1300,
+      "y": 400,
+      "lines": ["2"],
+      "label": {
+        "x": 1275,
+        "y": 400,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "jarvis",
+      "name": "Laclie St. at Jarvis St.",
+      "x": 1500,
+      "y": 650,
+      "lines": ["2"],
+      "label": {
+        "x": 1540,
+        "y": 650,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "james-millard",
+      "name": "James St. East at Millard St.",
+      "x": 1500,
+      "y": 1100,
+      "lines": ["3"],
+      "label": {
+        "x": 1540,
+        "y": 1080,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "tudhope",
+      "name": "Atherley Road at Tudhope Park",
+      "x": 2400,
+      "y": 1100,
+      "lines": ["3"],
+      "label": {
+        "x": 2425,
+        "y": 1100,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "leacock",
+      "name": "Leacock Care Centre",
+      "x": 2100,
+      "y": 1000,
+      "lines": ["3"],
+      "label": {
+        "x": 2100,
+        "y": 965,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "westmount",
+      "name": "Mississaga St. West at Westmount Dr. North",
+      "x": 1100,
+      "y": 1000,
+      "lines": ["4", "7", "8"],
+      "label": {
+        "x": 1070,
+        "y": 985,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "quinn",
+      "name": "Mississaga St. West at Quinn Ave.",
+      "x": 800,
+      "y": 1200,
+      "lines": ["4", "7"],
+      "label": {
+        "x": 770,
+        "y": 1180,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lakeview",
+      "name": "Barrie Road at Lakeview Ave.",
+      "x": 1100,
+      "y": 1400,
+      "lines": ["4"],
+      "label": {
+        "x": 1080,
+        "y": 1440,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "opp",
+      "name": "Memorial Ave. at OPP",
+      "x": 1100,
+      "y": 1800,
+      "lines": ["4"],
+      "label": {
+        "x": 1125,
+        "y": 1820,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "georgian",
+      "name": "Georgian College",
+      "x": 1000,
+      "y": 1800,
+      "lines": ["4"],
+      "label": {
+        "x": 975,
+        "y": 1825,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lakehead",
+      "name": "Lakehead University",
+      "x": 400,
+      "y": 1400,
+      "lines": ["7", "8"],
+      "label": {
+        "x": 370,
+        "y": 1400,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "costco",
+      "name": "Costco",
+      "x": 500,
+      "y": 1300,
+      "lines": ["7"],
+      "label": {
+        "x": 525,
+        "y": 1315,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sports",
+      "name": "West Orillia Sports Complex",
+      "x": 600,
+      "y": 1580,
+      "lines": ["8"],
+      "label": {
+        "x": 600,
+        "y": 1615,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Murphy Road at Walmart",
+      "x": 500,
+      "y": 680,
+      "lines": ["8"],
+      "label": {
+        "x": 500,
+        "y": 645,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "monarch",
+      "name": "West Ridge Boulevard at Monarch Dr.",
+      "x": 500,
+      "y": 1000,
+      "lines": ["7", "8"],
+      "label": {
+        "x": 470,
+        "y": 1015,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Soldiers Memorial Hospital",
+      "x": 1200,
+      "y": 1080,
+      "lines": ["8"],
+      "label": {
+        "x": 1225,
+        "y": 1105,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "shannon",
+      "name": "West St. South at Shannon St.",
+      "x": 1700,
+      "y": 1400,
+      "lines": ["3"],
+      "label": {
+        "x": 1675,
+        "y": 1425,
+        "anchor": "end"
+      }
+    }
+  ],
+  "sequences": {
+    "1": ["terminal", "mall", "park-fittons", "lewis-johnson"],
+    "2": ["terminal", "bay-north", "maple", "goldie", "trillium", "jarvis"],
+    "3": ["terminal", "james-millard", "tudhope", "leacock", "shannon"],
+    "4": ["terminal", "westmount", "quinn", "lakeview", "opp", "georgian"],
+    "7": ["terminal", "westmount", "quinn", "lakehead", "costco", "monarch"],
+    "8": ["terminal", "walmart", "monarch", "lakehead", "sports", "westmount", "hospital"]
+  },
+  "stationAliases": {
+    "Downtown Terminal": "terminal",
+    "Orillia Square Mall Shelter": "mall",
+    "Park St. at Fittons Road West": "park-fittons",
+    "Lewis Dr. at Johnson St.": "lewis-johnson",
+    "Bay St. at North St. East": "bay-north",
+    "12 Maple Dr.": "maple",
+    "Goldie Dr. at Third St.": "goldie",
+    "Trillium Manor": "trillium",
+    "Laclie St. at Jarvis St.": "jarvis",
+    "James St. East at Millard St.": "james-millard",
+    "Atherley Road at Tudhope Park": "tudhope",
+    "Leacock Care Centre": "leacock",
+    "Mississaga St. West at Westmount Dr. North": "westmount",
+    "Mississaga St. West at Quinn Ave.": "quinn",
+    "Barrie Road at Lakeview Ave.": "lakeview",
+    "Memorial Ave. at OPP": "opp",
+    "Georgian College": "georgian",
+    "Lakehead University": "lakehead",
+    "Costco": "costco",
+    "West Orillia Sports Complex": "sports",
+    "Murphy Road at Walmart": "walmart",
+    "Soldiers Memorial Hospital": "hospital",
+    "Mississaga St. West at Westmount Dr.": "westmount",
+    "West Ridge Boulevard at Monarch Dr.": "monarch",
+    "West St. South at Shannon St.": "shannon"
+  },
+  "stationIndex": [
+    {
+      "id": "LR14",
+      "schematicId": "maple",
+      "name": "12 Maple Dr.",
+      "lat": 44.631807,
+      "lon": -79.412377,
+      "lines": ["2"],
+      "platformIds": ["LR14"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "SR14",
+      "schematicId": "tudhope",
+      "name": "Atherley Road at Tudhope Park",
+      "lat": 44.60631,
+      "lon": -79.387188,
+      "lines": ["3"],
+      "platformIds": ["SR14"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "GR23",
+      "schematicId": "lakeview",
+      "name": "Barrie Road at Lakeview Ave.",
+      "lat": 44.596074,
+      "lon": -79.432044,
+      "lines": ["4"],
+      "platformIds": ["GR23"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "LR10",
+      "schematicId": "bay-north",
+      "name": "Bay St. at North St. East",
+      "lat": 44.622746,
+      "lon": -79.415296,
+      "lines": ["2"],
+      "platformIds": ["LR10"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "WR22a",
+      "schematicId": "costco",
+      "name": "Costco",
+      "lat": 44.594651,
+      "lon": -79.454859,
+      "lines": ["7"],
+      "platformIds": ["WR22a"],
+      "departureRouteIds": ["7"]
+    },
+    {
+      "id": "terminal",
+      "schematicId": "terminal",
+      "name": "Downtown Terminal",
+      "lat": 44.608,
+      "lon": -79.4204,
+      "lines": ["1", "2", "3", "4", "7", "8"],
+      "platformIds": ["GRT", "LRT", "NRT", "SRT", "WRCR", "WROBR"],
+      "departureRouteIds": ["1", "2", "3", "4", "7", "8"]
+    },
+    {
+      "id": "GR31",
+      "schematicId": "georgian",
+      "name": "Georgian College",
+      "lat": 44.58156,
+      "lon": -79.433597,
+      "lines": ["4"],
+      "platformIds": ["GR31"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "LR23",
+      "schematicId": "goldie",
+      "name": "Goldie Dr. at Third St.",
+      "lat": 44.634235,
+      "lon": -79.427793,
+      "lines": ["2"],
+      "platformIds": ["LR23"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "SR07",
+      "schematicId": "james-millard",
+      "name": "James St. East at Millard St.",
+      "lat": 44.6017,
+      "lon": -79.4032,
+      "lines": ["3"],
+      "platformIds": ["SR07"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "jarvis",
+      "schematicId": "jarvis",
+      "name": "Laclie St. at Jarvis St.",
+      "lat": 44.616415,
+      "lon": -79.418393,
+      "lines": ["2"],
+      "platformIds": ["LR06", "LR36"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "lakehead",
+      "schematicId": "lakehead",
+      "name": "Lakehead University",
+      "lat": 44.592138,
+      "lon": -79.459405,
+      "lines": ["7", "8"],
+      "platformIds": ["WR11", "WR22b"],
+      "departureRouteIds": ["7", "8"]
+    },
+    {
+      "id": "SR15A",
+      "schematicId": "leacock",
+      "name": "Leacock Care Centre",
+      "lat": 44.606756,
+      "lon": -79.395215,
+      "lines": ["3"],
+      "platformIds": ["SR15A"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "NR16",
+      "schematicId": "lewis-johnson",
+      "name": "Lewis Dr. at Johnson St.",
+      "lat": 44.611758,
+      "lon": -79.437789,
+      "lines": ["1"],
+      "platformIds": ["NR16"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "GR30",
+      "schematicId": "opp",
+      "name": "Memorial Ave. at OPP",
+      "lat": 44.581154,
+      "lon": -79.42959,
+      "lines": ["4"],
+      "platformIds": ["GR30"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "GR14",
+      "schematicId": "quinn",
+      "name": "Mississaga St. West at Quinn Ave.",
+      "lat": 44.599232,
+      "lon": -79.440872,
+      "lines": ["4", "7"],
+      "platformIds": ["GR14"],
+      "departureRouteIds": ["4", "7"]
+    },
+    {
+      "id": "westmount",
+      "schematicId": "westmount",
+      "name": "Mississaga St. West at Westmount Dr. North",
+      "lat": 44.602381,
+      "lon": -79.433827,
+      "lines": ["4", "7", "8"],
+      "platformIds": ["GR06", "WR29"],
+      "departureRouteIds": ["4", "7", "8"]
+    },
+    {
+      "id": "WR06",
+      "schematicId": "walmart",
+      "name": "Murphy Road at Walmart",
+      "lat": 44.615608,
+      "lon": -79.446811,
+      "lines": ["8"],
+      "platformIds": ["WR06"],
+      "departureRouteIds": ["8"]
+    },
+    {
+      "id": "NR08B",
+      "schematicId": "mall",
+      "name": "Orillia Square Mall Shelter",
+      "lat": 44.6311,
+      "lon": -79.4338,
+      "lines": ["1"],
+      "platformIds": ["NR08B"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "NR12",
+      "schematicId": "park-fittons",
+      "name": "Park St. at Fittons Road West",
+      "lat": 44.619016,
+      "lon": -79.43859,
+      "lines": ["1"],
+      "platformIds": ["NR12"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "WR31",
+      "schematicId": "hospital",
+      "name": "Soldiers Memorial Hospital",
+      "lat": 44.6054,
+      "lon": -79.4263,
+      "lines": ["8"],
+      "platformIds": ["WR31"],
+      "departureRouteIds": ["8"]
+    },
+    {
+      "id": "LR28",
+      "schematicId": "trillium",
+      "name": "Trillium Manor",
+      "lat": 44.628453,
+      "lon": -79.425296,
+      "lines": ["2"],
+      "platformIds": ["LR28"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "WR24",
+      "schematicId": "sports",
+      "name": "West Orillia Sports Complex",
+      "lat": 44.5884,
+      "lon": -79.4541,
+      "lines": ["8"],
+      "platformIds": ["WR24"],
+      "departureRouteIds": ["8"]
+    },
+    {
+      "id": "monarch",
+      "schematicId": "monarch",
+      "name": "West Ridge Boulevard at Monarch Dr.",
+      "lat": 44.609029,
+      "lon": -79.454233,
+      "lines": ["7", "8"],
+      "platformIds": ["WR08", "WR15"],
+      "departureRouteIds": ["7", "8"]
+    },
+    {
+      "id": "SR26",
+      "schematicId": "shannon",
+      "name": "West St. South at Shannon St.",
+      "lat": 44.592447,
+      "lon": -79.406495,
+      "lines": ["3"],
+      "platformIds": ["SR26"],
+      "departureRouteIds": ["3"]
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 1027.37,
+      "y": 227.37,
+      "color": "#16BC16",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 1832,
+      "y": 200,
+      "color": "#00A7D5",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 2250,
+      "y": 1032,
+      "color": "#9F00DC",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1050,
+      "y": 1768,
+      "color": "#E97815",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7",
+      "num": "7",
+      "x": 650,
+      "y": 932,
+      "color": "#DE0715",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "x": 368,
+      "y": 800,
+      "color": "#224F99",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 2730,
+      "minY": 10,
+      "maxY": 1930
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.4596,
+    "refLonEast": -79.387188,
+    "refXWest": 400,
+    "refXEast": 2400,
+    "refLatNorth": 44.634235,
+    "refLatSouth": 44.581154,
+    "refYNorth": 150,
+    "refYSouth": 1800
+  }
+}

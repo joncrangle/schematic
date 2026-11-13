@@ -1,0 +1,176 @@
+{
+  "id": "regina-transit",
+  "name": "Regina Transit",
+  "serviceArea": "Regina",
+  "shortName": "Regina",
+  "locale": "en-CA",
+  "timezone": "America/Regina",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "sk"
+  },
+  "bounds": [
+    {
+      "minLat": 50.397,
+      "maxLat": 50.512,
+      "minLon": -104.756,
+      "maxLon": -104.5
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Regina Transit / City of Regina",
+    "url": "https://opengis.regina.ca/reginagtfs/google_transit.zip",
+    "license": "No explicit data reuse licence was found. Schedules are attributed to the City of Regina; live data is published for Regina Transit by TransitLive.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Downtown",
+      "lat": 50.447218,
+      "lon": -104.610621
+    },
+    {
+      "name": "University of Regina",
+      "lat": 50.41594,
+      "lon": -104.59242
+    },
+    {
+      "name": "Southland Mall",
+      "lat": 50.40198,
+      "lon": -104.62468
+    },
+    {
+      "name": "Victoria Square Mall",
+      "lat": 50.44387,
+      "lon": -104.55073
+    }
+  ],
+  "popularSurfaceRoutes": ["40", "2", "7", "9"],
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "short_name",
+    "feeds": [
+      {
+        "name": "Regina Transit",
+        "url": "https://opengis.regina.ca/reginagtfs/google_transit.zip",
+        "cacheFileName": "regina-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#005DAA",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://transitlive.com/gtfs-rt/vehicle_positions.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://transitlive.com/gtfs-rt/trip_updates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://transitlive.com/gtfs-rt/alerts.pb",
+      "language": "en"
+    },
+    {
+      "type": "web",
+      "url": "https://www.regina.ca/transportation-roads-parking/transit/service-updates/",
+      "parser": "heading-service-notices",
+      "language": "en",
+      "routeNames": {
+        "1": ["Route 1"],
+        "2": ["Route 2"],
+        "3": ["Route 3"],
+        "4": ["Route 4"],
+        "5": ["Route 5"],
+        "6": ["Route 6"],
+        "7": ["Route 7"],
+        "8": ["Route 8"],
+        "9": ["Route 9"],
+        "10": ["Route 10"],
+        "12": ["Route 12"],
+        "15": ["Route 15"],
+        "16": ["Route 16"],
+        "17": ["Route 17"],
+        "18": ["Route 18"],
+        "21": ["Route 21"],
+        "22": ["Route 22"],
+        "24": ["Route 24"],
+        "30": ["Route 30"],
+        "40": ["Route 40"],
+        "50": ["Route 50"],
+        "60": ["Route 60"]
+      }
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "7", "30", "40", "50", "60"],
+    "titleDateTimezone": "America/Regina",
+    "routeLineMap": {
+      "1-48": "1",
+      "2-48": "2",
+      "3-48": "3",
+      "4-48": "4",
+      "5-48": "5",
+      "6-48": "6",
+      "7-48": "7",
+      "8-48": "8",
+      "9-48": "9",
+      "10-48": "10",
+      "12-48": "12",
+      "15-48": "15",
+      "16-48": "16",
+      "17-48": "17",
+      "18-48": "18",
+      "21-48": "21",
+      "22-48": "22",
+      "24-48": "24",
+      "30-48": "30",
+      "40-48": "40",
+      "50-48": "50",
+      "60-48": "60"
+    },
+    "routeIdNormalization": {
+      "extractPattern": "^(\\d+)-\\d+$"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["detour", "detoured"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  }
+}

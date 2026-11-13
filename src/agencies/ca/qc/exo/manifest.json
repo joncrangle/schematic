@@ -1,0 +1,1337 @@
+{
+  "id": "exo",
+  "name": "exo / Réseau de transport métropolitain",
+  "serviceArea": "Greater Montréal",
+  "serviceAreaTranslations": {
+    "fr": "Grand Montréal"
+  },
+  "shortName": "exo",
+  "locale": "fr-CA",
+  "timezone": "America/Montreal",
+  "bounds": [
+    {
+      "minLat": 45.297988,
+      "maxLat": 45.541154000000006,
+      "minLon": -73.522268,
+      "maxLon": -73.14026
+    },
+    {
+      "minLat": 45.460469999999994,
+      "maxLat": 45.842139,
+      "minLon": -74.206755,
+      "maxLon": -73.653358
+    },
+    {
+      "minLat": 45.350843,
+      "maxLat": 45.486596000000006,
+      "minLon": -74.31517600000001,
+      "maxLon": -73.874321
+    },
+    {
+      "minLat": 45.234998999999995,
+      "maxLat": 45.498284000000005,
+      "minLon": -74.132108,
+      "maxLon": -73.566041
+    },
+    {
+      "minLat": 45.524296,
+      "maxLat": 46.037715000000006,
+      "minLon": -73.537594,
+      "maxLon": -73.08815299999999
+    },
+    {
+      "minLat": 45.436574,
+      "maxLat": 45.640975000000005,
+      "minLon": -73.538636,
+      "maxLon": -72.945476
+    },
+    {
+      "minLat": 45.347637,
+      "maxLat": 45.541154000000006,
+      "minLon": -73.649167,
+      "maxLon": -73.387574
+    },
+    {
+      "minLat": 45.589479,
+      "maxLat": 45.901461000000005,
+      "minLon": -73.539776,
+      "maxLon": -73.277373
+    },
+    {
+      "minLat": 45.554199,
+      "maxLat": 45.802329,
+      "minLon": -73.844249,
+      "maxLon": -73.498234
+    },
+    {
+      "minLat": 45.436648,
+      "maxLat": 45.63295,
+      "minLon": -73.522227,
+      "maxLon": -72.960043
+    },
+    {
+      "minLat": 45.495471,
+      "maxLat": 45.504471,
+      "minLon": -73.573117,
+      "maxLon": -73.560317
+    },
+    {
+      "minLat": 45.495471,
+      "maxLat": 45.504471,
+      "minLon": -73.573117,
+      "maxLon": -73.560317
+    },
+    {
+      "minLat": 45.490251,
+      "maxLat": 45.499251,
+      "minLon": -73.577175,
+      "maxLon": -73.564375
+    },
+    {
+      "minLat": 45.490251,
+      "maxLat": 45.499251,
+      "minLon": -73.577175,
+      "maxLon": -73.564375
+    },
+    {
+      "minLat": 45.469259,
+      "maxLat": 45.478259,
+      "minLon": -73.609491,
+      "maxLon": -73.596691
+    },
+    {
+      "minLat": 45.469259,
+      "maxLat": 45.478259,
+      "minLon": -73.609491,
+      "maxLon": -73.596691
+    },
+    {
+      "minLat": 45.449166,
+      "maxLat": 45.458166,
+      "minLon": -73.648118,
+      "maxLon": -73.635318
+    },
+    {
+      "minLat": 45.449166,
+      "maxLat": 45.458166,
+      "minLon": -73.648118,
+      "maxLon": -73.635318
+    },
+    {
+      "minLat": 45.444205,
+      "maxLat": 45.453205,
+      "minLon": -73.717735,
+      "maxLon": -73.704935
+    },
+    {
+      "minLat": 45.444205,
+      "maxLat": 45.453205,
+      "minLon": -73.717735,
+      "maxLon": -73.704935
+    },
+    {
+      "minLat": 45.444716,
+      "maxLat": 45.453716,
+      "minLon": -73.749513,
+      "maxLon": -73.736713
+    },
+    {
+      "minLat": 45.444716,
+      "maxLat": 45.453716,
+      "minLon": -73.749513,
+      "maxLon": -73.736713
+    },
+    {
+      "minLat": 45.445130999999996,
+      "maxLat": 45.454131,
+      "minLon": -73.770652,
+      "maxLon": -73.757852
+    },
+    {
+      "minLat": 45.445130999999996,
+      "maxLat": 45.454131,
+      "minLon": -73.770652,
+      "maxLon": -73.757852
+    },
+    {
+      "minLat": 45.445254,
+      "maxLat": 45.454254,
+      "minLon": -73.797274,
+      "maxLon": -73.784474
+    },
+    {
+      "minLat": 45.445254,
+      "maxLat": 45.454254,
+      "minLon": -73.797274,
+      "maxLon": -73.784474
+    },
+    {
+      "minLat": 45.442757,
+      "maxLat": 45.451757,
+      "minLon": -73.809843,
+      "maxLon": -73.797043
+    },
+    {
+      "minLat": 45.442757,
+      "maxLat": 45.451757,
+      "minLon": -73.809843,
+      "maxLon": -73.797043
+    },
+    {
+      "minLat": 45.437946,
+      "maxLat": 45.446946,
+      "minLon": -73.826292,
+      "maxLon": -73.813492
+    },
+    {
+      "minLat": 45.437946,
+      "maxLat": 45.446946,
+      "minLon": -73.826292,
+      "maxLon": -73.813492
+    },
+    {
+      "minLat": 45.430517,
+      "maxLat": 45.439517,
+      "minLon": -73.853819,
+      "maxLon": -73.841019
+    },
+    {
+      "minLat": 45.430517,
+      "maxLat": 45.439517,
+      "minLon": -73.853819,
+      "maxLon": -73.841019
+    },
+    {
+      "minLat": 45.422912,
+      "maxLat": 45.431912,
+      "minLon": -73.893663,
+      "maxLon": -73.880863
+    },
+    {
+      "minLat": 45.422912,
+      "maxLat": 45.431912,
+      "minLon": -73.893663,
+      "maxLon": -73.880863
+    },
+    {
+      "minLat": 45.415429,
+      "maxLat": 45.424429,
+      "minLon": -73.921978,
+      "maxLon": -73.909178
+    },
+    {
+      "minLat": 45.415429,
+      "maxLat": 45.424429,
+      "minLon": -73.921978,
+      "maxLon": -73.909178
+    },
+    {
+      "minLat": 45.403145,
+      "maxLat": 45.412145,
+      "minLon": -73.957634,
+      "maxLon": -73.944834
+    },
+    {
+      "minLat": 45.403145,
+      "maxLat": 45.412145,
+      "minLon": -73.957634,
+      "maxLon": -73.944834
+    },
+    {
+      "minLat": 45.391439,
+      "maxLat": 45.400439,
+      "minLon": -73.971834,
+      "maxLon": -73.959034
+    },
+    {
+      "minLat": 45.391439,
+      "maxLat": 45.400439,
+      "minLon": -73.971834,
+      "maxLon": -73.959034
+    },
+    {
+      "minLat": 45.38271,
+      "maxLat": 45.39171,
+      "minLon": -73.998675,
+      "maxLon": -73.98587500000001
+    },
+    {
+      "minLat": 45.38271,
+      "maxLat": 45.39171,
+      "minLon": -73.998675,
+      "maxLon": -73.98587500000001
+    },
+    {
+      "minLat": 45.381928,
+      "maxLat": 45.390928,
+      "minLon": -74.014654,
+      "maxLon": -74.001854
+    },
+    {
+      "minLat": 45.381928,
+      "maxLat": 45.390928,
+      "minLon": -74.014654,
+      "maxLon": -74.001854
+    },
+    {
+      "minLat": 45.394507,
+      "maxLat": 45.403507,
+      "minLon": -74.056956,
+      "maxLon": -74.044156
+    },
+    {
+      "minLat": 45.394507,
+      "maxLat": 45.403507,
+      "minLon": -74.056956,
+      "maxLon": -74.044156
+    },
+    {
+      "minLat": 45.455162,
+      "maxLat": 45.464162,
+      "minLon": -74.147308,
+      "maxLon": -74.134508
+    },
+    {
+      "minLat": 45.455162,
+      "maxLat": 45.464162,
+      "minLon": -74.147308,
+      "maxLon": -74.134508
+    },
+    {
+      "minLat": 45.52702,
+      "maxLat": 45.53602,
+      "minLon": -73.630173,
+      "maxLon": -73.617373
+    },
+    {
+      "minLat": 45.52702,
+      "maxLat": 45.53602,
+      "minLon": -73.630173,
+      "maxLon": -73.617373
+    },
+    {
+      "minLat": 45.532558,
+      "maxLat": 45.541558,
+      "minLon": -73.664431,
+      "maxLon": -73.651631
+    },
+    {
+      "minLat": 45.532558,
+      "maxLat": 45.541558,
+      "minLon": -73.664431,
+      "maxLon": -73.651631
+    },
+    {
+      "minLat": 45.535773,
+      "maxLat": 45.544773,
+      "minLon": -73.68328699999999,
+      "maxLon": -73.670487
+    },
+    {
+      "minLat": 45.535773,
+      "maxLat": 45.544773,
+      "minLon": -73.68328699999999,
+      "maxLon": -73.670487
+    },
+    {
+      "minLat": 45.555823,
+      "maxLat": 45.564823,
+      "minLon": -73.716267,
+      "maxLon": -73.703467
+    },
+    {
+      "minLat": 45.555823,
+      "maxLat": 45.564823,
+      "minLon": -73.716267,
+      "maxLon": -73.703467
+    },
+    {
+      "minLat": 45.599274,
+      "maxLat": 45.608274,
+      "minLon": -73.749029,
+      "maxLon": -73.736229
+    },
+    {
+      "minLat": 45.599274,
+      "maxLat": 45.608274,
+      "minLon": -73.749029,
+      "maxLon": -73.736229
+    },
+    {
+      "minLat": 45.620944,
+      "maxLat": 45.629944,
+      "minLon": -73.771134,
+      "maxLon": -73.758334
+    },
+    {
+      "minLat": 45.620944,
+      "maxLat": 45.629944,
+      "minLon": -73.771134,
+      "maxLon": -73.758334
+    },
+    {
+      "minLat": 45.630001,
+      "maxLat": 45.639001,
+      "minLon": -73.802142,
+      "maxLon": -73.789342
+    },
+    {
+      "minLat": 45.630001,
+      "maxLat": 45.639001,
+      "minLon": -73.802142,
+      "maxLon": -73.789342
+    },
+    {
+      "minLat": 45.631523,
+      "maxLat": 45.640523,
+      "minLon": -73.839947,
+      "maxLon": -73.827147
+    },
+    {
+      "minLat": 45.631523,
+      "maxLat": 45.640523,
+      "minLon": -73.839947,
+      "maxLon": -73.827147
+    },
+    {
+      "minLat": 45.66792,
+      "maxLat": 45.67692,
+      "minLon": -73.872576,
+      "maxLon": -73.859776
+    },
+    {
+      "minLat": 45.66792,
+      "maxLat": 45.67692,
+      "minLon": -73.872576,
+      "maxLon": -73.859776
+    },
+    {
+      "minLat": 45.707207,
+      "maxLat": 45.716207,
+      "minLon": -73.924955,
+      "maxLon": -73.912155
+    },
+    {
+      "minLat": 45.707207,
+      "maxLat": 45.716207,
+      "minLon": -73.924955,
+      "maxLon": -73.912155
+    },
+    {
+      "minLat": 45.768671,
+      "maxLat": 45.777671,
+      "minLon": -74.005538,
+      "maxLon": -73.992738
+    },
+    {
+      "minLat": 45.768671,
+      "maxLat": 45.777671,
+      "minLon": -74.005538,
+      "maxLon": -73.992738
+    },
+    {
+      "minLat": 45.49513,
+      "maxLat": 45.50413,
+      "minLon": -73.512221,
+      "maxLon": -73.499421
+    },
+    {
+      "minLat": 45.49513,
+      "maxLat": 45.50413,
+      "minLon": -73.512221,
+      "maxLon": -73.499421
+    },
+    {
+      "minLat": 45.503618,
+      "maxLat": 45.512618,
+      "minLon": -73.440224,
+      "maxLon": -73.427424
+    },
+    {
+      "minLat": 45.503618,
+      "maxLat": 45.512618,
+      "minLon": -73.440224,
+      "maxLon": -73.427424
+    },
+    {
+      "minLat": 45.507529,
+      "maxLat": 45.516529,
+      "minLon": -73.380808,
+      "maxLon": -73.368008
+    },
+    {
+      "minLat": 45.507529,
+      "maxLat": 45.516529,
+      "minLon": -73.380808,
+      "maxLon": -73.368008
+    },
+    {
+      "minLat": 45.518794,
+      "maxLat": 45.527794,
+      "minLon": -73.312316,
+      "maxLon": -73.299516
+    },
+    {
+      "minLat": 45.518794,
+      "maxLat": 45.527794,
+      "minLon": -73.312316,
+      "maxLon": -73.299516
+    },
+    {
+      "minLat": 45.541559,
+      "maxLat": 45.550559,
+      "minLon": -73.236184,
+      "maxLon": -73.223384
+    },
+    {
+      "minLat": 45.541559,
+      "maxLat": 45.550559,
+      "minLon": -73.236184,
+      "maxLon": -73.223384
+    },
+    {
+      "minLat": 45.572689,
+      "maxLat": 45.581689,
+      "minLon": -73.184889,
+      "maxLon": -73.172089
+    },
+    {
+      "minLat": 45.572689,
+      "maxLat": 45.581689,
+      "minLon": -73.184889,
+      "maxLon": -73.172089
+    },
+    {
+      "minLat": 45.433097,
+      "maxLat": 45.442097,
+      "minLon": -73.662328,
+      "maxLon": -73.649528
+    },
+    {
+      "minLat": 45.433097,
+      "maxLat": 45.442097,
+      "minLon": -73.662328,
+      "maxLon": -73.649528
+    },
+    {
+      "minLat": 45.420812,
+      "maxLat": 45.429812,
+      "minLon": -73.663341,
+      "maxLon": -73.650541
+    },
+    {
+      "minLat": 45.420812,
+      "maxLat": 45.429812,
+      "minLon": -73.663341,
+      "maxLon": -73.650541
+    },
+    {
+      "minLat": 45.377537,
+      "maxLat": 45.386537,
+      "minLon": -73.606507,
+      "maxLon": -73.593707
+    },
+    {
+      "minLat": 45.377537,
+      "maxLat": 45.386537,
+      "minLon": -73.606507,
+      "maxLon": -73.593707
+    },
+    {
+      "minLat": 45.369486,
+      "maxLat": 45.378486,
+      "minLon": -73.576795,
+      "maxLon": -73.563995
+    },
+    {
+      "minLat": 45.369486,
+      "maxLat": 45.378486,
+      "minLon": -73.576795,
+      "maxLon": -73.563995
+    },
+    {
+      "minLat": 45.362359,
+      "maxLat": 45.371359,
+      "minLon": -73.547193,
+      "maxLon": -73.534393
+    },
+    {
+      "minLat": 45.362359,
+      "maxLat": 45.371359,
+      "minLon": -73.547193,
+      "maxLon": -73.534393
+    },
+    {
+      "minLat": 45.356123,
+      "maxLat": 45.365123,
+      "minLon": -73.521232,
+      "maxLon": -73.508432
+    },
+    {
+      "minLat": 45.356123,
+      "maxLat": 45.365123,
+      "minLon": -73.521232,
+      "maxLon": -73.508432
+    },
+    {
+      "minLat": 45.530514,
+      "maxLat": 45.539514,
+      "minLon": -73.669025,
+      "maxLon": -73.656225
+    },
+    {
+      "minLat": 45.530514,
+      "maxLat": 45.539514,
+      "minLon": -73.669025,
+      "maxLon": -73.656225
+    },
+    {
+      "minLat": 45.517752,
+      "maxLat": 45.526752,
+      "minLon": -73.669224,
+      "maxLon": -73.656424
+    },
+    {
+      "minLat": 45.517752,
+      "maxLat": 45.526752,
+      "minLon": -73.669224,
+      "maxLon": -73.656424
+    },
+    {
+      "minLat": 45.544908,
+      "maxLat": 45.553908,
+      "minLon": -73.66073899999999,
+      "maxLon": -73.647939
+    },
+    {
+      "minLat": 45.544908,
+      "maxLat": 45.553908,
+      "minLon": -73.66073899999999,
+      "maxLon": -73.647939
+    },
+    {
+      "minLat": 45.5785,
+      "maxLat": 45.5875,
+      "minLon": -73.636677,
+      "maxLon": -73.62387700000001
+    },
+    {
+      "minLat": 45.5785,
+      "maxLat": 45.5875,
+      "minLon": -73.636677,
+      "maxLon": -73.62387700000001
+    },
+    {
+      "minLat": 45.595839,
+      "maxLat": 45.604839,
+      "minLon": -73.622179,
+      "maxLon": -73.609379
+    },
+    {
+      "minLat": 45.595839,
+      "maxLat": 45.604839,
+      "minLon": -73.622179,
+      "maxLon": -73.609379
+    },
+    {
+      "minLat": 45.613388,
+      "maxLat": 45.622388,
+      "minLon": -73.603078,
+      "maxLon": -73.590278
+    },
+    {
+      "minLat": 45.613388,
+      "maxLat": 45.622388,
+      "minLon": -73.603078,
+      "maxLon": -73.590278
+    },
+    {
+      "minLat": 45.656156,
+      "maxLat": 45.665156,
+      "minLon": -73.545583,
+      "maxLon": -73.532783
+    },
+    {
+      "minLat": 45.656156,
+      "maxLat": 45.665156,
+      "minLon": -73.545583,
+      "maxLon": -73.532783
+    },
+    {
+      "minLat": 45.670394,
+      "maxLat": 45.679394,
+      "minLon": -73.51175,
+      "maxLon": -73.49895000000001
+    },
+    {
+      "minLat": 45.670394,
+      "maxLat": 45.679394,
+      "minLon": -73.51175,
+      "maxLon": -73.49895000000001
+    },
+    {
+      "minLat": 45.730095,
+      "maxLat": 45.739095,
+      "minLon": -73.492592,
+      "maxLon": -73.479792
+    },
+    {
+      "minLat": 45.730095,
+      "maxLat": 45.739095,
+      "minLon": -73.492592,
+      "maxLon": -73.479792
+    },
+    {
+      "minLat": 45.723979,
+      "maxLat": 45.732979,
+      "minLon": -73.527569,
+      "maxLon": -73.514769
+    },
+    {
+      "minLat": 45.723979,
+      "maxLat": 45.732979,
+      "minLon": -73.527569,
+      "maxLon": -73.514769
+    },
+    {
+      "minLat": 45.725178,
+      "maxLat": 45.734178,
+      "minLon": -73.604783,
+      "maxLon": -73.591983
+    },
+    {
+      "minLat": 45.725178,
+      "maxLat": 45.734178,
+      "minLon": -73.604783,
+      "maxLon": -73.591983
+    },
+    {
+      "minLat": 45.233,
+      "maxLat": 45.258,
+      "minLon": -73.815,
+      "maxLon": -73.793
+    },
+    {
+      "minLat": 45.248,
+      "maxLat": 45.256,
+      "minLon": -74.134,
+      "maxLon": -74.124
+    }
+  ],
+  "modes": ["bus", "rail"],
+  "stationService": [
+    {
+      "routeType": "bus"
+    },
+    {
+      "routeType": "rail",
+      "splitByLine": true
+    }
+  ],
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "focus": {
+    "lat": 45.55,
+    "lon": -73.55
+  },
+  "attribution": {
+    "name": "exo / Réseau de transport métropolitain",
+    "url": "https://exo.quebec/fr/a-propos/donnees-ouvertes",
+    "license": "CC BY. Contient des données attribuées à exo.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Gare Centrale",
+      "lat": 45.499971,
+      "lon": -73.566717
+    },
+    {
+      "name": "Gare Lucien-L’Allier",
+      "lat": 45.494751,
+      "lon": -73.570775
+    },
+    {
+      "name": "Gare Parc",
+      "lat": 45.53152,
+      "lon": -73.623773
+    },
+    {
+      "name": "Gare Saint-Jérôme",
+      "lat": 45.773171,
+      "lon": -73.999138
+    },
+    {
+      "name": "Gare Vaudreuil",
+      "lat": 45.399007,
+      "lon": -74.050556
+    },
+    {
+      "name": "Gare Hudson",
+      "lat": 45.459662,
+      "lon": -74.140908
+    },
+    {
+      "name": "Gare Candiac",
+      "lat": 45.360623,
+      "lon": -73.514832
+    },
+    {
+      "name": "Gare Mascouche",
+      "lat": 45.729678,
+      "lon": -73.598383
+    },
+    {
+      "name": "Gare Mont-Saint-Hilaire",
+      "lat": 45.577189,
+      "lon": -73.178489
+    }
+  ],
+  "popularSurfaceRoutes": [
+    "citcrc:481",
+    "citla:709",
+    "citpi:491",
+    "citso:33",
+    "citsv:700",
+    "citvr:200",
+    "lrrs:141",
+    "mrclasso:400",
+    "mrclm:19",
+    "omitsju:350"
+  ],
+  "staticTopology": {
+    "source": "seed",
+    "additionalRouteTypes": [1501],
+    "feeds": [
+      {
+        "name": "exo TRAINS",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/trains/google_transit.zip",
+        "cacheFileName": "exo-trains.zip",
+        "idNamespace": "trains"
+      },
+      {
+        "name": "exo CITCRC",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/citcrc/google_transit.zip",
+        "cacheFileName": "exo-citcrc.zip",
+        "idNamespace": "citcrc"
+      },
+      {
+        "name": "exo CITLA",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/citla/google_transit.zip",
+        "cacheFileName": "exo-citla.zip",
+        "idNamespace": "citla"
+      },
+      {
+        "name": "exo CITPI",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/citpi/google_transit.zip",
+        "cacheFileName": "exo-citpi.zip",
+        "idNamespace": "citpi"
+      },
+      {
+        "name": "exo CITSO",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/citso/google_transit.zip",
+        "cacheFileName": "exo-citso.zip",
+        "idNamespace": "citso"
+      },
+      {
+        "name": "exo CITSV",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/citsv/google_transit.zip",
+        "cacheFileName": "exo-citsv.zip",
+        "idNamespace": "citsv"
+      },
+      {
+        "name": "exo CITVR",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/citvr/google_transit.zip",
+        "cacheFileName": "exo-citvr.zip",
+        "idNamespace": "citvr"
+      },
+      {
+        "name": "exo LRRS",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/lrrs/google_transit.zip",
+        "cacheFileName": "exo-lrrs.zip",
+        "idNamespace": "lrrs"
+      },
+      {
+        "name": "exo MRCLASSO",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/mrclasso/google_transit.zip",
+        "cacheFileName": "exo-mrclasso.zip",
+        "idNamespace": "mrclasso"
+      },
+      {
+        "name": "exo MRCLM",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/mrclm/google_transit.zip",
+        "cacheFileName": "exo-mrclm.zip",
+        "idNamespace": "mrclm"
+      },
+      {
+        "name": "exo OMITSJU",
+        "url": "https://exo.quebec/uploads/ressources-telechargeables/a-propos/donnees-ouvertes/omitsju/google_transit.zip",
+        "cacheFileName": "exo-omitsju.zip",
+        "idNamespace": "omitsju"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/TRAINS/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "trains"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/TRAINS/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "trains",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITCRC/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citcrc"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITCRC/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citcrc",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITLA/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citla"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITLA/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citla",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITPI/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citpi"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITPI/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citpi",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITSO/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citso"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITSO/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citso",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITSV/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citsv"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITSV/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citsv",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITVR/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citvr"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITVR/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "citvr",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/LRRS/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "lrrs"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/LRRS/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "lrrs",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/MRCLASSO/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "mrclasso"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/MRCLASSO/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "mrclasso",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/MRCLM/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "mrclm"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/MRCLM/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "mrclm",
+        "predictionTimeSource": "static-with-delay"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/OMITSJU/vehicleposition",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "omitsju"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://exo.chrono-saeiv.com/api/opendata/v1/OMITSJU/tripupdate",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "idNamespace": "omitsju",
+        "predictionTimeSource": "static-with-delay"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/TRAINS/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "trains"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITCRC/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "citcrc"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITLA/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "citla"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITPI/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "citpi"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITSO/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "citso"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITSV/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "citsv"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/CITVR/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "citvr"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/LRRS/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "lrrs"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/MRCLASSO/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "mrclasso"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/MRCLM/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "mrclm"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://exo.chrono-saeiv.com/api/opendata/v1/OMITSJU/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "idNamespace": "omitsju"
+    },
+    {
+      "type": "json",
+      "url": "https://exo.quebec/api/customer-notices?locale=fr&page=1",
+      "parser": "attribute-advisories",
+      "timestampMode": "agency-local-wall-clock",
+      "language": "fr",
+      "languageGroup": "customer-notices"
+    },
+    {
+      "type": "json",
+      "url": "https://exo.quebec/api/customer-notices?locale=en&page=1",
+      "parser": "attribute-advisories",
+      "timestampMode": "agency-local-wall-clock",
+      "language": "en",
+      "languageGroup": "customer-notices"
+    }
+  ],
+  "lineIds": ["VH", "SJ", "SH", "CA", "MA"],
+  "alertInterpretation": {
+    "preserveFeedPeriods": true,
+    "routeLineMap": {
+      "trains:1": "VH",
+      "trains:4": "SJ",
+      "trains:3": "SH",
+      "trains:5": "CA",
+      "trains:6": "MA"
+    },
+    "rules": [
+      {
+        "priority": 20,
+        "match": {
+          "textIncludes": ["demeurent desservis", "remain served"]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "normal"
+        }
+      },
+      {
+        "priority": 10,
+        "match": {
+          "effects": ["UNKNOWN_EFFECT"]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeType": "rail",
+        "routeIds": [
+          "trains:1",
+          "trains:3",
+          "trains:4",
+          "trains:5",
+          "trains:6",
+          "VH",
+          "SJ",
+          "SH",
+          "CA",
+          "MA"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1166 @@
+{
+  "viewBoxWidth": 11200,
+  "viewBoxHeight": 9600,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Route 1",
+      "color": "#0847DE",
+      "points": [
+        {
+          "x": 4960,
+          "y": 5180
+        },
+        {
+          "x": 4840,
+          "y": 5060
+        },
+        {
+          "x": 4520,
+          "y": 5380
+        },
+        {
+          "x": 4280,
+          "y": 5380
+        },
+        {
+          "x": 4120,
+          "y": 5220
+        },
+        {
+          "x": 4120,
+          "y": 4900
+        },
+        {
+          "x": 4460,
+          "y": 4560
+        },
+        {
+          "x": 4660,
+          "y": 4760
+        },
+        {
+          "x": 4660,
+          "y": 4900
+        },
+        {
+          "x": 4780,
+          "y": 5020
+        },
+        {
+          "x": 4780,
+          "y": 5100
+        },
+        {
+          "x": 4860,
+          "y": 5180
+        },
+        {
+          "x": 4960,
+          "y": 5180
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Route 2",
+      "color": "#FF0000",
+      "points": [
+        {
+          "x": 4960,
+          "y": 5180
+        },
+        {
+          "x": 5000,
+          "y": 5140
+        },
+        {
+          "x": 5000,
+          "y": 4900
+        },
+        {
+          "x": 4360,
+          "y": 4900
+        },
+        {
+          "x": 4360,
+          "y": 4520
+        },
+        {
+          "x": 4560,
+          "y": 4320
+        },
+        {
+          "x": 5140,
+          "y": 4320
+        },
+        {
+          "x": 5140,
+          "y": 4820
+        },
+        {
+          "x": 5280,
+          "y": 4960
+        },
+        {
+          "x": 5280,
+          "y": 5020
+        },
+        {
+          "x": 5120,
+          "y": 5180
+        },
+        {
+          "x": 4960,
+          "y": 5180
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Route 3",
+      "color": "#04B431",
+      "points": [
+        {
+          "x": 4960,
+          "y": 5180
+        },
+        {
+          "x": 5060,
+          "y": 5080
+        },
+        {
+          "x": 5380,
+          "y": 5080
+        },
+        {
+          "x": 5500,
+          "y": 5200
+        },
+        {
+          "x": 5500,
+          "y": 5540
+        },
+        {
+          "x": 5340,
+          "y": 5700
+        },
+        {
+          "x": 5160,
+          "y": 5700
+        },
+        {
+          "x": 4980,
+          "y": 5520
+        },
+        {
+          "x": 4980,
+          "y": 5200
+        },
+        {
+          "x": 4960,
+          "y": 5180
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Route 4",
+      "color": "#FF9933",
+      "points": [
+        {
+          "x": 4960,
+          "y": 5180
+        },
+        {
+          "x": 4900,
+          "y": 5240
+        },
+        {
+          "x": 4820,
+          "y": 5320
+        },
+        {
+          "x": 4580,
+          "y": 5320
+        },
+        {
+          "x": 4500,
+          "y": 5400
+        },
+        {
+          "x": 4500,
+          "y": 5580
+        },
+        {
+          "x": 4460,
+          "y": 5620
+        },
+        {
+          "x": 4460,
+          "y": 5860
+        },
+        {
+          "x": 4580,
+          "y": 5980
+        },
+        {
+          "x": 4840,
+          "y": 5720
+        },
+        {
+          "x": 4840,
+          "y": 5300
+        },
+        {
+          "x": 4960,
+          "y": 5180
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Route 5",
+      "color": "#FFFF00",
+      "points": [
+        {
+          "x": 4960,
+          "y": 5180
+        },
+        {
+          "x": 4780,
+          "y": 5180
+        },
+        {
+          "x": 4680,
+          "y": 5280
+        },
+        {
+          "x": 4580,
+          "y": 5380
+        },
+        {
+          "x": 4280,
+          "y": 5380
+        },
+        {
+          "x": 4200,
+          "y": 5460
+        },
+        {
+          "x": 4200,
+          "y": 5740
+        },
+        {
+          "x": 4420,
+          "y": 5740
+        },
+        {
+          "x": 4640,
+          "y": 5520
+        },
+        {
+          "x": 4840,
+          "y": 5320
+        },
+        {
+          "x": 5040,
+          "y": 5320
+        },
+        {
+          "x": 5100,
+          "y": 5260
+        },
+        {
+          "x": 5100,
+          "y": 5180
+        },
+        {
+          "x": 4960,
+          "y": 5180
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Route A",
+      "color": "#2ECCFA",
+      "points": [
+        {
+          "x": 4960,
+          "y": 5180
+        },
+        {
+          "x": 4780,
+          "y": 5180
+        },
+        {
+          "x": 4580,
+          "y": 5380
+        },
+        {
+          "x": 4280,
+          "y": 5380
+        },
+        {
+          "x": 4660,
+          "y": 5000
+        },
+        {
+          "x": 4660,
+          "y": 4900
+        },
+        {
+          "x": 1380,
+          "y": 1620
+        },
+        {
+          "x": 1380,
+          "y": 840
+        },
+        {
+          "x": 1680,
+          "y": 540
+        },
+        {
+          "x": 1680,
+          "y": 520
+        },
+        {
+          "x": 1880,
+          "y": 720
+        },
+        {
+          "x": 5040,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Route C",
+      "color": "#F4A9BC",
+      "points": [
+        {
+          "x": 4960,
+          "y": 5180
+        },
+        {
+          "x": 4780,
+          "y": 5180
+        },
+        {
+          "x": 6480,
+          "y": 6880
+        },
+        {
+          "x": 6520,
+          "y": 6880
+        },
+        {
+          "x": 6560,
+          "y": 6840
+        },
+        {
+          "x": 8320,
+          "y": 6840
+        },
+        {
+          "x": 10340,
+          "y": 4820
+        },
+        {
+          "x": 10340,
+          "y": 4320
+        },
+        {
+          "x": 10520,
+          "y": 4140
+        },
+        {
+          "x": 10540,
+          "y": 4140
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Route D",
+      "color": "#B9F01B",
+      "points": [
+        {
+          "x": 4960,
+          "y": 5180
+        },
+        {
+          "x": 6520,
+          "y": 6740
+        },
+        {
+          "x": 6520,
+          "y": 6880
+        },
+        {
+          "x": 7720,
+          "y": 8080
+        },
+        {
+          "x": 7720,
+          "y": 8160
+        },
+        {
+          "x": 6900,
+          "y": 8980
+        },
+        {
+          "x": 6440,
+          "y": 8980
+        },
+        {
+          "x": 5760,
+          "y": 8300
+        },
+        {
+          "x": 5020,
+          "y": 8300
+        },
+        {
+          "x": 4300,
+          "y": 7580
+        },
+        {
+          "x": 4300,
+          "y": 7540
+        },
+        {
+          "x": 4100,
+          "y": 7740
+        },
+        {
+          "x": 4100,
+          "y": 9100
+        },
+        {
+          "x": 3780,
+          "y": 8780
+        },
+        {
+          "x": 400,
+          "y": 8780
+        },
+        {
+          "x": 3800,
+          "y": 5380
+        },
+        {
+          "x": 4280,
+          "y": 5380
+        },
+        {
+          "x": 4480,
+          "y": 5180
+        },
+        {
+          "x": 4780,
+          "y": 5180
+        },
+        {
+          "x": 4960,
+          "y": 5180
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "terminal",
+      "name": "Downtown Terminal",
+      "x": 4960,
+      "y": 5180,
+      "lines": ["1", "2", "3", "4", "5", "10", "12", "13"],
+      "label": {
+        "x": 4945,
+        "y": 5125,
+        "anchor": "end",
+        "leader": true,
+        "rot": 45
+      }
+    },
+    {
+      "id": "college",
+      "name": "St. Clair College",
+      "x": 4280,
+      "y": 5380,
+      "lines": ["1", "5", "10", "13"],
+      "label": {
+        "x": 4320,
+        "y": 5420,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "nortown",
+      "name": "Nortown Centre",
+      "x": 4660,
+      "y": 4900,
+      "lines": ["1", "10"],
+      "label": {
+        "x": 4690,
+        "y": 4880,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "smartcentres",
+      "name": "SmartCentres",
+      "x": 4360,
+      "y": 4520,
+      "lines": ["2"],
+      "label": {
+        "x": 4385,
+        "y": 4520,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "meadowbrook",
+      "name": "Meadowbrook",
+      "x": 5140,
+      "y": 4820,
+      "lines": ["2"],
+      "label": {
+        "x": 5165,
+        "y": 4795,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sass",
+      "name": "Sass / OPP",
+      "x": 5380,
+      "y": 5080,
+      "lines": ["3"],
+      "label": {
+        "x": 5405,
+        "y": 5055,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mcgregor",
+      "name": "John McGregor",
+      "x": 5160,
+      "y": 5700,
+      "lines": ["3"],
+      "label": {
+        "x": 5135,
+        "y": 5725,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "active-centre",
+      "name": "Active Centre",
+      "x": 4580,
+      "y": 5320,
+      "lines": ["4"],
+      "label": {
+        "x": 4555,
+        "y": 5295,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bloomfield",
+      "name": "Bloomfield / Oriole",
+      "x": 4460,
+      "y": 5860,
+      "lines": ["4"],
+      "label": {
+        "x": 4485,
+        "y": 5835,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Chatham Hospital",
+      "x": 4780,
+      "y": 5180,
+      "lines": ["5", "10", "12", "13"],
+      "label": {
+        "x": 4750,
+        "y": 5130,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "casino",
+      "name": "Casino",
+      "x": 4640,
+      "y": 5520,
+      "lines": ["5"],
+      "label": {
+        "x": 4615,
+        "y": 5495,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "county-fair",
+      "name": "County Fair Mall",
+      "x": 1380,
+      "y": 840,
+      "lines": ["10"],
+      "label": {
+        "x": 1355,
+        "y": 815,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "wallaceburg",
+      "name": "CKHA Wallaceburg Site",
+      "x": 1680,
+      "y": 520,
+      "lines": ["10"],
+      "label": {
+        "x": 1705,
+        "y": 495,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "dresden",
+      "name": "Dresden Municipal Centre",
+      "x": 5040,
+      "y": 720,
+      "lines": ["10"],
+      "label": {
+        "x": 5065,
+        "y": 695,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "charing-cross",
+      "name": "Charing Cross",
+      "x": 6520,
+      "y": 6880,
+      "lines": ["12", "13"],
+      "label": {
+        "x": 6490,
+        "y": 6910,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "blenheim",
+      "name": "Blenheim Municipal Centre",
+      "x": 8320,
+      "y": 6840,
+      "lines": ["12"],
+      "label": {
+        "x": 8295,
+        "y": 6815,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ridgetown",
+      "name": "Ridgetown Municipal Centre",
+      "x": 10340,
+      "y": 4320,
+      "lines": ["12"],
+      "label": {
+        "x": 10315,
+        "y": 4295,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "arena",
+      "name": "Ridgetown Arena",
+      "x": 10540,
+      "y": 4140,
+      "lines": ["12"],
+      "label": {
+        "x": 10565,
+        "y": 4115,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cedar-springs",
+      "name": "Cedar Springs",
+      "x": 7720,
+      "y": 8160,
+      "lines": ["13"],
+      "label": {
+        "x": 7745,
+        "y": 8135,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "dealtown",
+      "name": "Dealtown",
+      "x": 6440,
+      "y": 8980,
+      "lines": ["13"],
+      "label": {
+        "x": 6465,
+        "y": 8955,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "south-buxton",
+      "name": "South Buxton",
+      "x": 5020,
+      "y": 8300,
+      "lines": ["13"],
+      "label": {
+        "x": 5045,
+        "y": 8275,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "north-buxton",
+      "name": "North Buxton",
+      "x": 4300,
+      "y": 7540,
+      "lines": ["13"],
+      "label": {
+        "x": 4325,
+        "y": 7515,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "merlin",
+      "name": "Merlin",
+      "x": 4100,
+      "y": 9100,
+      "lines": ["13"],
+      "label": {
+        "x": 4125,
+        "y": 9075,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "tilbury",
+      "name": "Tilbury Arena",
+      "x": 400,
+      "y": 8780,
+      "lines": ["13"],
+      "label": {
+        "x": 375,
+        "y": 8755,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "queen-entegrus",
+      "name": "Queen / Entegrus",
+      "x": 5040,
+      "y": 5320,
+      "lines": ["5"],
+      "label": {
+        "x": 5040,
+        "y": 5400,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 4088,
+      "y": 5000,
+      "color": "#0847DE",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 4580,
+      "y": 4288,
+      "color": "#FF0000",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 5532,
+      "y": 5360,
+      "color": "#04B431",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 4872,
+      "y": 5550,
+      "color": "#FF9933",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 4168,
+      "y": 5610,
+      "color": "#FFFF00",
+      "textColor": "#000000"
+    },
+    {
+      "line": "10",
+      "num": "A",
+      "x": 4623.23,
+      "y": 4991.51,
+      "color": "#2ECCFA",
+      "textColor": "#000000"
+    },
+    {
+      "line": "12",
+      "num": "C",
+      "x": 7600,
+      "y": 6872,
+      "color": "#F4A9BC",
+      "textColor": "#000000"
+    },
+    {
+      "line": "13",
+      "num": "D",
+      "x": 7217.37,
+      "y": 8617.37,
+      "color": "#B9F01B",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1": ["terminal", "college", "nortown"],
+    "2": ["terminal", "smartcentres", "meadowbrook"],
+    "3": ["terminal", "sass", "mcgregor"],
+    "4": ["terminal", "active-centre", "bloomfield"],
+    "5": ["terminal", "hospital", "college", "casino", "queen-entegrus"],
+    "10": ["terminal", "hospital", "college", "nortown", "county-fair", "wallaceburg", "dresden"],
+    "12": ["terminal", "hospital", "charing-cross", "blenheim", "ridgetown", "arena"],
+    "13": [
+      "terminal",
+      "charing-cross",
+      "cedar-springs",
+      "dealtown",
+      "south-buxton",
+      "north-buxton",
+      "merlin",
+      "tilbury",
+      "college",
+      "hospital"
+    ]
+  },
+  "stationAliases": {
+    "Downtown Transfer Terminal": "terminal",
+    "Fergie Jenkins P at HealthPlex": "college",
+    "St Clair St at Nortown Centre": "nortown",
+    "SmartCentres Chatham": "smartcentres",
+    "Michener Rd at Meadowbrook Plaza": "meadowbrook",
+    "Sass Rd at OPP Station": "sass",
+    "Indian Creek Rd at John McGregor": "mcgregor",
+    "Merritt Ave at Active Centre": "active-centre",
+    "Bloomfield Rd at Oriole P": "bloomfield",
+    "CKHA Chatham Campus": "hospital",
+    "Richmond St at Casino": "casino",
+    "County Fair Mall": "county-fair",
+    "CKHA Wallaceburg Site": "wallaceburg",
+    "Dresden Municipal Centre": "dresden",
+    "Charing Cross": "charing-cross",
+    "Blenheim Municipal Centre": "blenheim",
+    "Ridgetown Municipal Centre": "ridgetown",
+    "Ridgetown Arena": "arena",
+    "Cedar Springs": "cedar-springs",
+    "Dealtown": "dealtown",
+    "South Buxton": "south-buxton",
+    "North Buxton": "north-buxton",
+    "William St at Merlin Rd": "merlin",
+    "Tilbury Arena": "tilbury",
+    "Fergie Jenkins P at College": "college",
+    "Queen St at Entegrus": "queen-entegrus"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 3900,
+      "maxX": 5700,
+      "minY": 4200,
+      "maxY": 6150
+    },
+    "minZoom": 0.5,
+    "maxZoom": 100
+  },
+  "geoProjection": {
+    "refLonWest": -82.46,
+    "refLonEast": -81.86,
+    "refXWest": 0,
+    "refXEast": 10800,
+    "refLatNorth": 42.62,
+    "refLatSouth": 42.22,
+    "refYNorth": 0,
+    "refYSouth": 9600
+  },
+  "stationIndex": [
+    {
+      "id": "4012",
+      "schematicId": "active-centre",
+      "name": "Active Lifestyle Centre",
+      "lat": 42.398642,
+      "lon": -82.205172,
+      "lines": ["4"],
+      "platformIds": ["4012"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "6046",
+      "schematicId": "blenheim",
+      "name": "Blenheim Municipal Centre",
+      "lat": 42.334992,
+      "lon": -81.998024,
+      "lines": ["12"],
+      "platformIds": ["6046"],
+      "departureRouteIds": ["12"]
+    },
+    {
+      "id": "4032",
+      "schematicId": "bloomfield",
+      "name": "Bloomfield at Oriole Park",
+      "lat": 42.375649,
+      "lon": -82.21212,
+      "lines": ["4"],
+      "platformIds": ["4032"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "5131",
+      "schematicId": "casino",
+      "name": "Cascades Casino",
+      "lat": 42.389694,
+      "lon": -82.202645,
+      "lines": ["5"],
+      "platformIds": ["5131"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "7003",
+      "schematicId": "cedar-springs",
+      "name": "Cedar Springs",
+      "lat": 42.280266,
+      "lon": -82.031462,
+      "lines": ["13"],
+      "platformIds": ["7003"],
+      "departureRouteIds": ["13"]
+    },
+    {
+      "id": "charing-cross",
+      "schematicId": "charing-cross",
+      "name": "Charing Cross",
+      "lat": 42.333138,
+      "lon": -82.097801,
+      "lines": ["12", "13"],
+      "platformIds": ["6003", "6055"],
+      "departureRouteIds": ["12", "13"]
+    },
+    {
+      "id": "5024",
+      "schematicId": "hospital",
+      "name": "CKHA Chatham Campus",
+      "lat": 42.404527,
+      "lon": -82.194383,
+      "lines": ["10", "12", "13", "5"],
+      "platformIds": ["5024"],
+      "departureRouteIds": ["10", "12", "13", "5"]
+    },
+    {
+      "id": "5010",
+      "schematicId": "wallaceburg",
+      "name": "CKHA Wallaceburg Site",
+      "lat": 42.598246,
+      "lon": -82.366902,
+      "lines": ["10"],
+      "platformIds": ["5010"],
+      "departureRouteIds": ["10"]
+    },
+    {
+      "id": "5001",
+      "schematicId": "county-fair",
+      "name": "County Fair Mall",
+      "lat": 42.585382,
+      "lon": -82.383622,
+      "lines": ["10"],
+      "platformIds": ["5001"],
+      "departureRouteIds": ["10"]
+    },
+    {
+      "id": "7004",
+      "schematicId": "dealtown",
+      "name": "Dealtown",
+      "lat": 42.245656,
+      "lon": -82.102768,
+      "lines": ["13"],
+      "platformIds": ["7004"],
+      "departureRouteIds": ["13"]
+    },
+    {
+      "id": "1001",
+      "schematicId": "terminal",
+      "name": "Downtown Transfer Terminal",
+      "lat": 42.403911,
+      "lon": -82.184205,
+      "lines": ["1", "10", "12", "13", "2", "3", "4", "5"],
+      "platformIds": ["1001"],
+      "departureRouteIds": ["1", "10", "12", "13", "2", "3", "4", "5"]
+    },
+    {
+      "id": "5015",
+      "schematicId": "dresden",
+      "name": "Dresden Municipal Centre",
+      "lat": 42.590307,
+      "lon": -82.179486,
+      "lines": ["10"],
+      "platformIds": ["5015"],
+      "departureRouteIds": ["10"]
+    },
+    {
+      "id": "3042",
+      "schematicId": "mcgregor",
+      "name": "John McGregor Secondary",
+      "lat": 42.382358,
+      "lon": -82.173409,
+      "lines": ["3"],
+      "platformIds": ["3042"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "2046",
+      "schematicId": "meadowbrook",
+      "name": "Meadowbrook Plaza",
+      "lat": 42.419084,
+      "lon": -82.174517,
+      "lines": ["2"],
+      "platformIds": ["2046"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "7007",
+      "schematicId": "merlin",
+      "name": "Merlin",
+      "lat": 42.241053,
+      "lon": -82.231726,
+      "lines": ["13"],
+      "platformIds": ["7007"],
+      "departureRouteIds": ["13"]
+    },
+    {
+      "id": "7006",
+      "schematicId": "north-buxton",
+      "name": "North Buxton",
+      "lat": 42.306066,
+      "lon": -82.220835,
+      "lines": ["13"],
+      "platformIds": ["7006"],
+      "departureRouteIds": ["13"]
+    },
+    {
+      "id": "1045",
+      "schematicId": "nortown",
+      "name": "Nortown Centre",
+      "lat": 42.415857,
+      "lon": -82.201183,
+      "lines": ["1", "10"],
+      "platformIds": ["1045"],
+      "departureRouteIds": ["1", "10"]
+    },
+    {
+      "id": "6034",
+      "schematicId": "arena",
+      "name": "Ridgetown Arena",
+      "lat": 42.447777,
+      "lon": -81.874935,
+      "lines": ["12"],
+      "platformIds": ["6034"],
+      "departureRouteIds": ["12"]
+    },
+    {
+      "id": "6031",
+      "schematicId": "ridgetown",
+      "name": "Ridgetown Municipal Centre",
+      "lat": 42.439855,
+      "lon": -81.886001,
+      "lines": ["12"],
+      "platformIds": ["6031"],
+      "departureRouteIds": ["12"]
+    },
+    {
+      "id": "3019",
+      "schematicId": "sass",
+      "name": "Sass at OPP Station",
+      "lat": 42.4081,
+      "lon": -82.161041,
+      "lines": ["3"],
+      "platformIds": ["3019"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "2023",
+      "schematicId": "smartcentres",
+      "name": "SmartCentres Chatham",
+      "lat": 42.431649,
+      "lon": -82.217833,
+      "lines": ["2"],
+      "platformIds": ["2023"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "7005",
+      "schematicId": "south-buxton",
+      "name": "South Buxton",
+      "lat": 42.273863,
+      "lon": -82.181232,
+      "lines": ["13"],
+      "platformIds": ["7005"],
+      "departureRouteIds": ["13"]
+    },
+    {
+      "id": "college",
+      "schematicId": "college",
+      "name": "St. Clair College / HealthPlex",
+      "lat": 42.395275,
+      "lon": -82.220261,
+      "lines": ["1", "10", "13", "5"],
+      "platformIds": ["1023", "1024", "8008"],
+      "departureRouteIds": ["1", "10", "13", "5"]
+    },
+    {
+      "id": "7010",
+      "schematicId": "tilbury",
+      "name": "Tilbury Arena",
+      "lat": 42.253969,
+      "lon": -82.437717,
+      "lines": ["13"],
+      "platformIds": ["7010"],
+      "departureRouteIds": ["13"]
+    },
+    {
+      "id": "5137",
+      "schematicId": "queen-entegrus",
+      "name": "Queen at Entegrus",
+      "lat": 42.398627,
+      "lon": -82.179871,
+      "lines": ["5"],
+      "platformIds": ["5137"],
+      "departureRouteIds": ["5"]
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "viewBoxWidth": 2250,
+  "viewBoxHeight": 1200,
+  "lines": [
+    {
+      "id": "TL-34",
+      "name": "Route 4",
+      "color": "#FD00F3",
+      "points": [
+        {
+          "x": 180,
+          "y": 1020
+        },
+        {
+          "x": 360,
+          "y": 840
+        },
+        {
+          "x": 540,
+          "y": 660
+        },
+        {
+          "x": 600,
+          "y": 720
+        },
+        {
+          "x": 420,
+          "y": 900
+        },
+        {
+          "x": 240,
+          "y": 1080
+        },
+        {
+          "x": 180,
+          "y": 1020
+        }
+      ]
+    },
+    {
+      "id": "TL-32",
+      "name": "Route 3",
+      "color": "#FAFF07",
+      "points": [
+        {
+          "x": 540,
+          "y": 660
+        },
+        {
+          "x": 680,
+          "y": 520
+        },
+        {
+          "x": 680,
+          "y": 340
+        },
+        {
+          "x": 740,
+          "y": 340
+        },
+        {
+          "x": 740,
+          "y": 580
+        },
+        {
+          "x": 600,
+          "y": 720
+        },
+        {
+          "x": 540,
+          "y": 660
+        }
+      ]
+    },
+    {
+      "id": "TL-30",
+      "name": "Route 2",
+      "color": "#26FF03",
+      "points": [
+        {
+          "x": 680,
+          "y": 340
+        },
+        {
+          "x": 840,
+          "y": 340
+        },
+        {
+          "x": 940,
+          "y": 340
+        },
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 1000,
+          "y": 460
+        },
+        {
+          "x": 800,
+          "y": 460
+        },
+        {
+          "x": 680,
+          "y": 340
+        }
+      ]
+    },
+    {
+      "id": "TL-33",
+      "name": "Route 1 via Grand Pré",
+      "color": "#00C2FF",
+      "points": [
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 1250,
+          "y": 400
+        },
+        {
+          "x": 1500,
+          "y": 400
+        },
+        {
+          "x": 1800,
+          "y": 400
+        },
+        {
+          "x": 2000,
+          "y": 400
+        },
+        {
+          "x": 2060,
+          "y": 460
+        },
+        {
+          "x": 2060,
+          "y": 520
+        },
+        {
+          "x": 1120,
+          "y": 520
+        },
+        {
+          "x": 1000,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "TL-47",
+      "name": "Route 1 via Port Williams",
+      "color": "#303484",
+      "points": [
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 1250,
+          "y": 400
+        },
+        {
+          "x": 1500,
+          "y": 400
+        },
+        {
+          "x": 1680,
+          "y": 220
+        },
+        {
+          "x": 1800,
+          "y": 340
+        },
+        {
+          "x": 1800,
+          "y": 400
+        },
+        {
+          "x": 1800,
+          "y": 460
+        },
+        {
+          "x": 1060,
+          "y": 460
+        },
+        {
+          "x": 1000,
+          "y": 400
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "weymouth",
+      "name": "Weymouth",
+      "x": 180,
+      "y": 1020,
+      "lines": ["TL-34"],
+      "label": {
+        "x": 180,
+        "y": 986,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "digby",
+      "name": "Digby Superstore",
+      "x": 360,
+      "y": 840,
+      "lines": ["TL-34"],
+      "label": {
+        "x": 328,
+        "y": 840,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cornwallis",
+      "name": "Sunset Tides Transfer",
+      "x": 540,
+      "y": 660,
+      "lines": ["TL-34", "TL-32"],
+      "label": {
+        "x": 508,
+        "y": 660,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "annapolis-royal",
+      "name": "Annapolis Royal",
+      "x": 680,
+      "y": 520,
+      "lines": ["TL-32"],
+      "label": {
+        "x": 648,
+        "y": 520,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bridgetown",
+      "name": "Bridgetown",
+      "x": 680,
+      "y": 340,
+      "lines": ["TL-32", "TL-30"],
+      "label": {
+        "x": 648,
+        "y": 340,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "middleton",
+      "name": "Middleton",
+      "x": 840,
+      "y": 340,
+      "lines": ["TL-30"],
+      "label": {
+        "x": 840,
+        "y": 306,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "greenwood",
+      "name": "Greenwood Mall",
+      "x": 1000,
+      "y": 400,
+      "lines": ["TL-30", "TL-33", "TL-47"],
+      "label": {
+        "x": 1030,
+        "y": 362,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "berwick",
+      "name": "Berwick",
+      "x": 1250,
+      "y": 400,
+      "lines": ["TL-33", "TL-47"],
+      "label": {
+        "x": 1250,
+        "y": 366,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "kentville",
+      "name": "Kentville",
+      "x": 1500,
+      "y": 400,
+      "lines": ["TL-33", "TL-47"],
+      "label": {
+        "x": 1500,
+        "y": 366,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "wolfville",
+      "name": "Wolfville",
+      "x": 1800,
+      "y": 400,
+      "lines": ["TL-33", "TL-47"],
+      "label": {
+        "x": 1800,
+        "y": 366,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "grand-pre",
+      "name": "Grand Pré",
+      "x": 2000,
+      "y": 400,
+      "lines": ["TL-33"],
+      "label": {
+        "x": 2000,
+        "y": 366,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "port-williams",
+      "name": "Port Williams",
+      "x": 1680,
+      "y": 220,
+      "lines": ["TL-47"],
+      "label": {
+        "x": 1680,
+        "y": 186,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "TL-34": ["weymouth", "digby", "cornwallis"],
+    "TL-32": ["cornwallis", "annapolis-royal", "bridgetown"],
+    "TL-30": ["bridgetown", "middleton", "greenwood"],
+    "TL-33": ["greenwood", "berwick", "kentville", "wolfville", "grand-pre"],
+    "TL-47": ["greenwood", "berwick", "kentville", "port-williams", "wolfville"]
+  },
+  "stationAliases": {
+    "Post Office St Bridgetown": "bridgetown",
+    "Greenwood Mall": "greenwood",
+    "Greenwood Mall Front": "greenwood",
+    "Kentville Justice Centre": "kentville",
+    "Wolfville Town Centre": "wolfville",
+    "Just Us Coffee": "grand-pre",
+    "Community Hub Annapolis Royal Northbound": "annapolis-royal",
+    "Community Hub Annapolis Royal Southbound": "annapolis-royal",
+    "Weymouth Foodland": "weymouth",
+    "Digby Superstore": "digby",
+    "Digby Superstore out of town": "digby",
+    "Tim Hortons Middleton": "middleton",
+    "Foodland Berwick Eastbound": "berwick",
+    "Sunset Tides Station": "cornwallis",
+    "Sunset Tides Transfer Station": "cornwallis",
+    "Port Williams Community Center": "port-williams",
+    "Greenwood Mall - Back": "greenwood"
+  },
+  "badges": [
+    {
+      "line": "TL-34",
+      "num": "4",
+      "x": 298,
+      "y": 860,
+      "color": "#FD00F3",
+      "textColor": "#000000"
+    },
+    {
+      "line": "TL-32",
+      "num": "3",
+      "x": 648,
+      "y": 430,
+      "color": "#FAFF07",
+      "textColor": "#000000"
+    },
+    {
+      "line": "TL-30",
+      "num": "2",
+      "x": 790,
+      "y": 308,
+      "color": "#26FF03",
+      "textColor": "#000000"
+    },
+    {
+      "line": "TL-33",
+      "num": "1G",
+      "x": 1930,
+      "y": 368,
+      "color": "#00C2FF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "TL-47",
+      "num": "1P",
+      "x": 1744,
+      "y": 242,
+      "color": "#303484",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 2250,
+      "minY": 0,
+      "maxY": 1200
+    },
+    "minZoom": 0.5,
+    "maxZoom": 6
+  },
+  "geoProjection": {
+    "refLonWest": -65.99,
+    "refLonEast": -64.3,
+    "refXWest": 180,
+    "refXEast": 2000,
+    "refLatNorth": 45.1,
+    "refLatSouth": 44.41,
+    "refYNorth": 220,
+    "refYSouth": 1020
+  },
+  "stationIndex": [
+    {
+      "id": "annapolis-royal",
+      "schematicId": "annapolis-royal",
+      "name": "Annapolis Royal",
+      "lat": 44.740435,
+      "lon": -65.508355,
+      "lines": ["TL-32"],
+      "platformIds": ["TL-6803", "TL-6846", "TL-6853"],
+      "departureRouteIds": ["TL-32"]
+    },
+    {
+      "id": "berwick",
+      "schematicId": "berwick",
+      "name": "Berwick",
+      "lat": 45.0450673394,
+      "lon": -64.7359385544,
+      "lines": ["TL-33", "TL-47"],
+      "platformIds": ["TL-11728", "TL-11737", "TL-6908", "TL-6912"],
+      "departureRouteIds": ["TL-33", "TL-47"]
+    },
+    {
+      "id": "bridgetown",
+      "schematicId": "bridgetown",
+      "name": "Bridgetown",
+      "lat": 44.840841,
+      "lon": -65.290323,
+      "lines": ["TL-30", "TL-32"],
+      "platformIds": ["TL-6388", "TL-6826"],
+      "departureRouteIds": ["TL-30", "TL-32"]
+    },
+    {
+      "id": "digby",
+      "schematicId": "digby",
+      "name": "Digby Superstore",
+      "lat": 44.599726,
+      "lon": -65.772843,
+      "lines": ["TL-34"],
+      "platformIds": ["TL-7288", "TL-9413", "TL-9416"],
+      "departureRouteIds": ["TL-34"]
+    },
+    {
+      "id": "TL-9752",
+      "schematicId": "grand-pre",
+      "name": "Grand Pré",
+      "lat": 45.10514,
+      "lon": -64.2937,
+      "lines": ["TL-33"],
+      "platformIds": ["TL-9752"],
+      "departureRouteIds": ["TL-33"]
+    },
+    {
+      "id": "greenwood",
+      "schematicId": "greenwood",
+      "name": "Greenwood Mall",
+      "lat": 44.968891,
+      "lon": -64.926411,
+      "lines": ["TL-30", "TL-33", "TL-47"],
+      "platformIds": [
+        "TL-11424",
+        "TL-11425",
+        "TL-6535",
+        "TL-6538",
+        "TL-6541",
+        "TL-6874",
+        "TL-6875"
+      ],
+      "departureRouteIds": ["TL-30", "TL-33", "TL-47"]
+    },
+    {
+      "id": "kentville",
+      "schematicId": "kentville",
+      "name": "Kentville",
+      "lat": 45.079251,
+      "lon": -64.494352,
+      "lines": ["TL-33", "TL-47"],
+      "platformIds": ["TL-11494", "TL-11495", "TL-6956", "TL-6957"],
+      "departureRouteIds": ["TL-33", "TL-47"]
+    },
+    {
+      "id": "TL-6645",
+      "schematicId": "middleton",
+      "name": "Middleton",
+      "lat": 44.9413458841,
+      "lon": -65.0708687962,
+      "lines": ["TL-30"],
+      "platformIds": ["TL-6645"],
+      "departureRouteIds": ["TL-30"]
+    },
+    {
+      "id": "port-williams",
+      "schematicId": "port-williams",
+      "name": "Port Williams",
+      "lat": 45.0986312073,
+      "lon": -64.4107693558,
+      "lines": ["TL-47"],
+      "platformIds": ["TL-11746", "TL-11747"],
+      "departureRouteIds": ["TL-47"]
+    },
+    {
+      "id": "cornwallis",
+      "schematicId": "cornwallis",
+      "name": "Sunset Tides Transfer",
+      "lat": 44.6519078305,
+      "lon": -65.6336502351,
+      "lines": ["TL-32", "TL-34"],
+      "platformIds": ["TL-6779", "TL-9224"],
+      "departureRouteIds": ["TL-32", "TL-34"]
+    },
+    {
+      "id": "TL-9401",
+      "schematicId": "weymouth",
+      "name": "Weymouth",
+      "lat": 44.404557,
+      "lon": -65.999714,
+      "lines": ["TL-34"],
+      "platformIds": ["TL-9401"],
+      "departureRouteIds": ["TL-34"]
+    },
+    {
+      "id": "wolfville",
+      "schematicId": "wolfville",
+      "name": "Wolfville",
+      "lat": 45.091402,
+      "lon": -64.362175,
+      "lines": ["TL-33", "TL-47"],
+      "platformIds": ["TL-11583", "TL-7045"],
+      "departureRouteIds": ["TL-33", "TL-47"]
+    }
+  ]
+}

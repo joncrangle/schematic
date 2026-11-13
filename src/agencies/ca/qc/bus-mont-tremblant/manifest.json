@@ -1,0 +1,92 @@
+{
+  "id": "bus-mont-tremblant",
+  "name": "BUS Mont-Tremblant",
+  "serviceArea": "Mont-Tremblant",
+  "shortName": "BMT",
+  "locale": "fr-CA",
+  "timezone": "America/Montreal",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "bounds": [
+    {
+      "minLat": 46.106,
+      "maxLat": 46.1345,
+      "minLon": -74.6165,
+      "maxLon": -74.561
+    },
+    {
+      "minLat": 46.1345,
+      "maxLat": 46.2125,
+      "minLon": -74.634,
+      "maxLon": -74.584
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Ville de Mont-Tremblant / Zenbus",
+    "url": "https://vdmt.ca/services/transport-en-commun",
+    "license": "Aucune licence explicite de réutilisation des données n'a été trouvée. Les horaires et les données en temps réel sont attribués à la Ville de Mont-Tremblant et à son fournisseur de données Zenbus.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Centre de villégiature Tremblant",
+      "lat": 46.209583,
+      "lon": -74.588671
+    },
+    {
+      "name": "Centre-ville (De Saint-Jovite)",
+      "lat": 46.117897,
+      "lon": -74.564186
+    }
+  ],
+  "popularSurfaceRoutes": ["BMT"],
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "short_name",
+    "feeds": [
+      {
+        "name": "BUS Mont-Tremblant",
+        "url": "https://zenbus.net/gtfs/static/download.zip?dataset=tcmt6w8qbuxm",
+        "cacheFileName": "bus-mont-tremblant-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=tcmt6w8qbuxm",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=tcmt6w8qbuxm",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=tcmt6w8qbuxm",
+      "language": "fr"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["BMT"],
+    "routeLineMap": {
+      "zenbus:Line:546280001:LOC": "BMT"
+    },
+    "rules": []
+  }
+}

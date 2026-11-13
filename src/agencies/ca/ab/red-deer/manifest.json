@@ -1,0 +1,134 @@
+{
+  "id": "red-deer",
+  "name": "Red Deer Transit",
+  "serviceArea": "Red Deer and Gasoline Alley",
+  "shortName": "Red Deer",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "bounds": [
+    {
+      "minLat": 52.229,
+      "maxLat": 52.318,
+      "minLon": -113.863,
+      "maxLon": -113.743
+    },
+    {
+      "minLat": 52.202,
+      "maxLat": 52.232,
+      "minLon": -113.829,
+      "maxLon": -113.8
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "City of Red Deer Transit / MyBus",
+    "url": "https://data.reddeer.ca/datasets/gtfsdatafeed/",
+    "license": "Contains information licensed under the Open Government Licence - The City of Red Deer. No explicit reuse licence was found for the MyBus realtime API.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Red Deer Transit GTFS",
+        "url": "https://data.reddeer.ca/data/GTFS/RD_GTFS.zip",
+        "cacheFileName": "red-deer-gtfs.zip"
+      }
+    ],
+    "excludedRouteIds": ["9997", "9998"],
+    "ignoreFeedRouteColors": true,
+    "defaultColor": "#D7194B",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "bustime",
+        "format": "xml",
+        "url": "https://mybus.reddeer.ca/bustime/map",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["R1", "R2", "R3", "R4", "R12", "R10", "R11", "R13"],
+  "cityPresets": [
+    {
+      "name": "49 AV @ 48 ST SORENSEN STN",
+      "lat": 52.267595,
+      "lon": -113.810939
+    },
+    {
+      "name": "EB KINGSTON DR @ GAETZ AV",
+      "lat": 52.314077,
+      "lon": -113.814932
+    },
+    {
+      "name": "WB BENNETT ST @ BAKER AV",
+      "lat": 52.242009,
+      "lon": -113.81056
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["R1", "R2", "R3", "R4", "R12"]
+  },
+  "alerts": [
+    {
+      "type": "web",
+      "url": "https://www.reddeer.ca/city-services/transit/transit-disruptions-and-notices/",
+      "parser": "stop-closure-table",
+      "routeNames": {
+        "111": ["111"],
+        "R1": ["1", "R1"],
+        "R10": ["10", "R10"],
+        "R11": ["11", "R11"],
+        "R112": ["112", "R112"],
+        "R113": ["113", "R113"],
+        "R12": ["12", "R12"],
+        "R120": ["120", "R120"],
+        "R121": ["121", "R121"],
+        "R122": ["122", "R122"],
+        "R123": ["123", "R123"],
+        "R13": ["13", "R13"],
+        "R130": ["130", "R130"],
+        "R131": ["131", "R131"],
+        "R132": ["132", "R132"],
+        "R133": ["133", "R133"],
+        "R134": ["134", "R134"],
+        "R135": ["135", "R135"],
+        "R136": ["136", "R136"],
+        "R137": ["137", "R137"],
+        "R138": ["138", "R138"],
+        "R139": ["139", "R139"],
+        "R140": ["140", "R140"],
+        "R141": ["141", "R141"],
+        "R142": ["142", "R142"],
+        "R143": ["143", "R143"],
+        "R144": ["144", "R144"],
+        "R15": ["15", "R15"],
+        "R150": ["150", "R150"],
+        "R151": ["151", "R151"],
+        "R152": ["152", "R152"],
+        "R153": ["153", "R153"],
+        "R154": ["154", "R154"],
+        "R16": ["16", "R16"],
+        "R160": ["160", "R160"],
+        "R18": ["18", "R18"],
+        "R19": ["19", "R19"],
+        "R2": ["2", "R2"],
+        "R3": ["3", "R3"],
+        "R4": ["4", "R4"]
+      },
+      "allowLegacyResponseHeaders": true,
+      "devProxyPrefix": "/__dev/upstream/red-deer"
+    }
+  ]
+}

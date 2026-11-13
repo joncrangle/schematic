@@ -1,0 +1,14 @@
+{
+  "hubs": [
+    {
+      "id": "ets-flixbus-ca-southgate",
+      "badgeOffsets": {
+        "flixbus-ca": {
+          "dx": -112,
+          "dy": 24
+        }
+      }
+    }
+  ],
+  "exclusions": []
+}

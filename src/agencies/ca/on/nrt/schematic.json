@@ -1,0 +1,1110 @@
+{
+  "viewBoxWidth": 1680,
+  "viewBoxHeight": 1240,
+  "lines": [
+    {
+      "id": "40-45",
+      "name": "40 / 45 Niagara College NOTL",
+      "color": "#8D9FBE",
+      "points": [
+        {
+          "x": 380,
+          "y": 160
+        },
+        {
+          "x": 560,
+          "y": 160
+        },
+        {
+          "x": 600,
+          "y": 200
+        },
+        {
+          "x": 740,
+          "y": 200
+        },
+        {
+          "x": 970,
+          "y": 430
+        },
+        {
+          "x": 1000,
+          "y": 430
+        }
+      ]
+    },
+    {
+      "id": "50-55",
+      "name": "50 / 55 Brock University",
+      "color": "#FF9000",
+      "points": [
+        {
+          "x": 380,
+          "y": 160
+        },
+        {
+          "x": 440,
+          "y": 220
+        },
+        {
+          "x": 440,
+          "y": 290
+        },
+        {
+          "x": 420,
+          "y": 310
+        },
+        {
+          "x": 440,
+          "y": 330
+        },
+        {
+          "x": 440,
+          "y": 450
+        },
+        {
+          "x": 420,
+          "y": 470
+        },
+        {
+          "x": 610,
+          "y": 470
+        },
+        {
+          "x": 650,
+          "y": 430
+        },
+        {
+          "x": 1000,
+          "y": 430
+        }
+      ]
+    },
+    {
+      "id": "70-75",
+      "name": "70 / 75 St. Catharines - Welland",
+      "color": "#00A8AC",
+      "points": [
+        {
+          "x": 380,
+          "y": 160
+        },
+        {
+          "x": 420,
+          "y": 200
+        },
+        {
+          "x": 420,
+          "y": 620
+        },
+        {
+          "x": 360,
+          "y": 680
+        },
+        {
+          "x": 360,
+          "y": 760
+        },
+        {
+          "x": 420,
+          "y": 820
+        },
+        {
+          "x": 420,
+          "y": 920
+        }
+      ]
+    },
+    {
+      "id": "60-65",
+      "name": "60 / 65 Niagara Falls - Welland",
+      "color": "#735293",
+      "points": [
+        {
+          "x": 1000,
+          "y": 430
+        },
+        {
+          "x": 1000,
+          "y": 650
+        },
+        {
+          "x": 1000,
+          "y": 920
+        },
+        {
+          "x": 420,
+          "y": 920
+        },
+        {
+          "x": 360,
+          "y": 860
+        },
+        {
+          "x": 360,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "34 Niagara College Campus Link",
+      "color": "#FFE2A1",
+      "points": [
+        {
+          "x": 740,
+          "y": 200
+        },
+        {
+          "x": 700,
+          "y": 240
+        },
+        {
+          "x": 700,
+          "y": 700
+        },
+        {
+          "x": 640,
+          "y": 760
+        },
+        {
+          "x": 360,
+          "y": 760
+        },
+        {
+          "x": 340,
+          "y": 780
+        },
+        {
+          "x": 340,
+          "y": 860
+        },
+        {
+          "x": 400,
+          "y": 920
+        },
+        {
+          "x": 420,
+          "y": 920
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "22 Fort Erie Link",
+      "color": "#A0CF67",
+      "points": [
+        {
+          "x": 1000,
+          "y": 650
+        },
+        {
+          "x": 1060,
+          "y": 710
+        },
+        {
+          "x": 1060,
+          "y": 900
+        },
+        {
+          "x": 1240,
+          "y": 1080
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "25 Port Colborne Link",
+      "color": "#004D70",
+      "points": [
+        {
+          "x": 420,
+          "y": 920
+        },
+        {
+          "x": 420,
+          "y": 1140
+        }
+      ]
+    },
+    {
+      "id": "303",
+      "name": "303 Pelham Road",
+      "color": "#005D72",
+      "points": [
+        {
+          "x": 380,
+          "y": 160
+        },
+        {
+          "x": 300,
+          "y": 240
+        },
+        {
+          "x": 300,
+          "y": 370
+        },
+        {
+          "x": 140,
+          "y": 370
+        },
+        {
+          "x": 140,
+          "y": 230
+        }
+      ]
+    },
+    {
+      "id": "438",
+      "name": "438 GO Train Connection",
+      "color": "#005D72",
+      "points": [
+        {
+          "x": 140,
+          "y": 230
+        },
+        {
+          "x": 310,
+          "y": 230
+        },
+        {
+          "x": 380,
+          "y": 160
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "103 Drummond - Oldfield",
+      "color": "#07495F",
+      "points": [
+        {
+          "x": 1000,
+          "y": 650
+        },
+        {
+          "x": 1000,
+          "y": 590
+        },
+        {
+          "x": 1180,
+          "y": 590
+        },
+        {
+          "x": 1240,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "104-204",
+      "name": "104 / 204 Victoria Avenue",
+      "color": "#07495F",
+      "points": [
+        {
+          "x": 1240,
+          "y": 650
+        },
+        {
+          "x": 1240,
+          "y": 580
+        },
+        {
+          "x": 1380,
+          "y": 440
+        },
+        {
+          "x": 1420,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "603",
+      "name": "603 WEGO Green Line",
+      "color": "#4FC0A0",
+      "points": [
+        {
+          "x": 1480,
+          "y": 230
+        },
+        {
+          "x": 1480,
+          "y": 340
+        },
+        {
+          "x": 1420,
+          "y": 400
+        },
+        {
+          "x": 1480,
+          "y": 460
+        },
+        {
+          "x": 1480,
+          "y": 880
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "st-catharines-terminal",
+      "name": "Downtown Terminal",
+      "x": 380,
+      "y": 160,
+      "lines": ["40-45", "50-55", "70-75", "303", "438"],
+      "label": {
+        "x": 380,
+        "y": 128,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "st-catharines-go",
+      "name": "St Catharines",
+      "x": 140,
+      "y": 230,
+      "lines": ["303", "438"],
+      "label": {
+        "x": 115,
+        "y": 230,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "west-st-catharines",
+      "name": "West St. Catharines",
+      "x": 140,
+      "y": 370,
+      "lines": ["303"],
+      "label": {
+        "x": 122,
+        "y": 402,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pen-centre",
+      "name": "Pen Centre",
+      "x": 420,
+      "y": 310,
+      "lines": ["50-55", "70-75"],
+      "label": {
+        "x": 398,
+        "y": 316,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "brock-university",
+      "name": "Brock University",
+      "x": 420,
+      "y": 470,
+      "lines": ["50-55", "70-75"],
+      "label": {
+        "x": 392,
+        "y": 494,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "thorold-towpath",
+      "name": "Thorold Towpath",
+      "x": 650,
+      "y": 430,
+      "lines": ["50-55"],
+      "label": {
+        "x": 650,
+        "y": 404,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "niagara-college-notl",
+      "name": "Niagara College NOTL",
+      "x": 740,
+      "y": 200,
+      "lines": ["40-45", "34"],
+      "label": {
+        "x": 740,
+        "y": 172,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "morrison-dorchester",
+      "name": "Morrison-Dorchester",
+      "x": 1000,
+      "y": 430,
+      "lines": ["40-45", "50-55", "60-65"],
+      "label": {
+        "x": 1025,
+        "y": 430,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "canadian-drive",
+      "name": "Canadian Drive Hub",
+      "x": 1000,
+      "y": 650,
+      "lines": ["60-65", "22", "103"],
+      "label": {
+        "x": 976,
+        "y": 638,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "niagara-college-welland",
+      "name": "Niagara College Welland",
+      "x": 360,
+      "y": 760,
+      "lines": ["70-75", "60-65", "34"],
+      "label": {
+        "x": 336,
+        "y": 766,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "welland-terminal",
+      "name": "Welland Terminal",
+      "x": 420,
+      "y": 920,
+      "lines": ["70-75", "60-65", "34", "25"],
+      "label": {
+        "x": 396,
+        "y": 926,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "port-colborne-city-hall",
+      "name": "Port Colborne City Hall",
+      "x": 420,
+      "y": 1140,
+      "lines": ["25"],
+      "label": {
+        "x": 420,
+        "y": 1180,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "fort-erie-town-hall",
+      "name": "Fort Erie Town Hall",
+      "x": 1240,
+      "y": 1080,
+      "lines": ["22"],
+      "label": {
+        "x": 1240,
+        "y": 1120,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "main-ferry",
+      "name": "Main & Ferry Hub",
+      "x": 1240,
+      "y": 650,
+      "lines": ["103", "104-204"],
+      "label": {
+        "x": 1264,
+        "y": 656,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "niagara-falls-terminal",
+      "name": "Niagara Falls GO / VIA / Bus",
+      "x": 1420,
+      "y": 400,
+      "lines": ["104-204", "603"],
+      "label": {
+        "x": 1455,
+        "y": 395,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "whirlpool-aero-car",
+      "name": "Whirlpool Aero Car",
+      "x": 1480,
+      "y": 230,
+      "lines": ["603"],
+      "label": {
+        "x": 1480,
+        "y": 204,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "table-rock",
+      "name": "Table Rock",
+      "x": 1480,
+      "y": 740,
+      "lines": ["603"],
+      "label": {
+        "x": 1456,
+        "y": 746,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rapidsview",
+      "name": "Rapidsview",
+      "x": 1480,
+      "y": 880,
+      "lines": ["603"],
+      "label": {
+        "x": 1480,
+        "y": 920,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "40-45",
+      "num": "40",
+      "x": 630,
+      "y": 168,
+      "color": "#8D9FBE",
+      "textColor": "#000000"
+    },
+    {
+      "line": "40-45",
+      "num": "45",
+      "x": 670,
+      "y": 232,
+      "color": "#8D9FBE",
+      "textColor": "#000000"
+    },
+    {
+      "line": "50-55",
+      "num": "50",
+      "x": 780,
+      "y": 460,
+      "color": "#FF9000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "50-55",
+      "num": "55",
+      "x": 840,
+      "y": 462,
+      "color": "#FF9000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "70-75",
+      "num": "70",
+      "x": 428.49,
+      "y": 656.77,
+      "color": "#00A8AC",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "70-75",
+      "num": "75",
+      "x": 452,
+      "y": 600,
+      "color": "#00A8AC",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "60-65",
+      "num": "60",
+      "x": 780,
+      "y": 890,
+      "color": "#735293",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "60-65",
+      "num": "65",
+      "x": 840,
+      "y": 888,
+      "color": "#735293",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "34",
+      "num": "34",
+      "x": 732,
+      "y": 620,
+      "color": "#FFE2A1",
+      "textColor": "#000000"
+    },
+    {
+      "line": "22",
+      "num": "22",
+      "x": 1152.63,
+      "y": 947.37,
+      "color": "#A0CF67",
+      "textColor": "#000000"
+    },
+    {
+      "line": "25",
+      "num": "25",
+      "x": 452,
+      "y": 1030,
+      "color": "#004D70",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "303",
+      "num": "303",
+      "x": 240,
+      "y": 338,
+      "color": "#005D72",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "438",
+      "num": "438",
+      "x": 235,
+      "y": 198,
+      "color": "#005D72",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "103",
+      "num": "103",
+      "x": 1120,
+      "y": 558,
+      "color": "#07495F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "104-204",
+      "num": "104",
+      "x": 1238.23,
+      "y": 536.51,
+      "color": "#07495F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "104-204",
+      "num": "204",
+      "x": 1272.37,
+      "y": 502.37,
+      "color": "#07495F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "603",
+      "num": "603",
+      "x": 1512,
+      "y": 590,
+      "color": "#4FC0A0",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 30,
+      "maxX": 1650,
+      "minY": 60,
+      "maxY": 1210
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.28,
+    "refLonEast": -78.96,
+    "refXWest": 140,
+    "refXEast": 1480,
+    "refLatNorth": 43.18,
+    "refLatSouth": 42.88,
+    "refYNorth": 140,
+    "refYSouth": 1140
+  },
+  "sequences": {
+    "22": ["canadian-drive", "fort-erie-town-hall"],
+    "25": ["welland-terminal", "port-colborne-city-hall"],
+    "34": ["niagara-college-notl", "niagara-college-welland", "welland-terminal"],
+    "103": ["canadian-drive", "main-ferry"],
+    "303": ["st-catharines-terminal", "west-st-catharines", "st-catharines-go"],
+    "438": ["st-catharines-go", "st-catharines-terminal"],
+    "603": ["whirlpool-aero-car", "niagara-falls-terminal", "table-rock", "rapidsview"],
+    "40-45": ["st-catharines-terminal", "niagara-college-notl", "morrison-dorchester"],
+    "50-55": [
+      "st-catharines-terminal",
+      "pen-centre",
+      "brock-university",
+      "thorold-towpath",
+      "morrison-dorchester"
+    ],
+    "70-75": [
+      "st-catharines-terminal",
+      "pen-centre",
+      "brock-university",
+      "niagara-college-welland",
+      "welland-terminal"
+    ],
+    "60-65": [
+      "morrison-dorchester",
+      "canadian-drive",
+      "welland-terminal",
+      "niagara-college-welland"
+    ],
+    "104-204": ["main-ferry", "niagara-falls-terminal"]
+  },
+  "stationAliases": {
+    "code:DTT": "st-catharines-terminal",
+    "code:1418": "st-catharines-go",
+    "code:WAL": "west-st-catharines",
+    "code:PEN": "pen-centre",
+    "code:BRU": "brock-university",
+    "code:CTO": "thorold-towpath",
+    "code:GDC": "niagara-college-notl",
+    "code:3634": "morrison-dorchester",
+    "code:3635": "morrison-dorchester",
+    "code:6315": "canadian-drive",
+    "code:WLC": "niagara-college-welland",
+    "code:WEL": "welland-terminal",
+    "code:13006": "port-colborne-city-hall",
+    "code:7000": "fort-erie-town-hall",
+    "code:6133": "main-ferry",
+    "code:6102": "niagara-falls-terminal",
+    "code:8408": "niagara-falls-terminal",
+    "code:8418": "niagara-falls-terminal",
+    "code:8410": "whirlpool-aero-car",
+    "code:8402": "table-rock",
+    "code:8425": "table-rock",
+    "code:8400": "rapidsview"
+  },
+  "stationIndex": [
+    {
+      "id": "4321",
+      "schematicId": "brock-university",
+      "name": "Brock University",
+      "lat": 43.11893,
+      "lon": -79.249002,
+      "lines": ["50-55", "70-75"],
+      "platformIds": ["4321"],
+      "departureRouteIds": [
+        "316",
+        "321",
+        "323",
+        "324",
+        "331",
+        "332",
+        "335",
+        "336",
+        "416",
+        "421",
+        "423",
+        "424",
+        "425",
+        "431",
+        "432",
+        "435",
+        "436",
+        "50",
+        "55",
+        "70",
+        "75"
+      ]
+    },
+    {
+      "id": "3011",
+      "schematicId": "canadian-drive",
+      "name": "Canadian Drive Hub",
+      "lat": 43.064392,
+      "lon": -79.124111,
+      "lines": ["103", "22", "60-65"],
+      "platformIds": ["3011"],
+      "departureRouteIds": [
+        "101",
+        "103",
+        "105",
+        "111",
+        "112",
+        "113",
+        "203",
+        "205",
+        "211",
+        "213",
+        "22",
+        "60",
+        "65"
+      ]
+    },
+    {
+      "id": "4359",
+      "schematicId": "st-catharines-terminal",
+      "name": "Downtown Terminal",
+      "lat": 43.160076,
+      "lon": -79.243553,
+      "lines": ["303", "40-45", "438", "50-55", "70-75"],
+      "platformIds": ["4359"],
+      "departureRouteIds": [
+        "301",
+        "302",
+        "303",
+        "304",
+        "305",
+        "306",
+        "307",
+        "308",
+        "309",
+        "310",
+        "311",
+        "312",
+        "315",
+        "316",
+        "317",
+        "318",
+        "337",
+        "40",
+        "401",
+        "402",
+        "404",
+        "406",
+        "408",
+        "409",
+        "410",
+        "412",
+        "415",
+        "416",
+        "417",
+        "418",
+        "425",
+        "437",
+        "438",
+        "45",
+        "50",
+        "55",
+        "70",
+        "75"
+      ]
+    },
+    {
+      "id": "4264",
+      "schematicId": "fort-erie-town-hall",
+      "name": "Fort Erie Town Hall",
+      "lat": 42.902152,
+      "lon": -78.973011,
+      "lines": ["22"],
+      "platformIds": ["4264"],
+      "departureRouteIds": ["22", "751"]
+    },
+    {
+      "id": "3544",
+      "schematicId": "main-ferry",
+      "name": "Main & Ferry Hub",
+      "lat": 43.088609,
+      "lon": -79.092567,
+      "lines": ["103", "104-204"],
+      "platformIds": ["3544"],
+      "departureRouteIds": [
+        "101",
+        "102",
+        "103",
+        "104",
+        "106",
+        "107",
+        "110",
+        "115",
+        "116",
+        "203",
+        "204",
+        "206",
+        "210",
+        "216"
+      ]
+    },
+    {
+      "id": "morrison-dorchester",
+      "schematicId": "morrison-dorchester",
+      "name": "Morrison-Dorchester",
+      "lat": 43.10359,
+      "lon": -79.115696,
+      "lines": ["40-45", "50-55", "60-65"],
+      "platformIds": ["2887", "4125"],
+      "departureRouteIds": [
+        "102",
+        "108",
+        "109",
+        "110",
+        "111",
+        "114",
+        "115",
+        "209",
+        "210",
+        "211",
+        "214",
+        "40",
+        "45",
+        "50",
+        "55",
+        "60",
+        "65"
+      ]
+    },
+    {
+      "id": "4361",
+      "schematicId": "niagara-college-notl",
+      "name": "Niagara College NOTL",
+      "lat": 43.152453,
+      "lon": -79.166464,
+      "lines": ["34", "40-45"],
+      "platformIds": ["4361"],
+      "departureRouteIds": ["34", "40", "45"]
+    },
+    {
+      "id": "4366",
+      "schematicId": "niagara-college-welland",
+      "name": "Niagara College Welland",
+      "lat": 43.014994,
+      "lon": -79.262258,
+      "lines": ["34", "60-65", "70-75"],
+      "platformIds": ["4366"],
+      "departureRouteIds": ["34", "503", "509", "60", "65", "70", "75"]
+    },
+    {
+      "id": "niagara-falls-terminal",
+      "schematicId": "niagara-falls-terminal",
+      "name": "Niagara Falls GO / VIA / Bus",
+      "lat": 43.107799,
+      "lon": -79.063556,
+      "lines": ["104-204", "603"],
+      "platformIds": ["3712", "4189", "4199"],
+      "departureRouteIds": ["102", "104", "108", "115", "203", "204", "603"]
+    },
+    {
+      "id": "4363",
+      "schematicId": "pen-centre",
+      "name": "Pen Centre",
+      "lat": 43.134942,
+      "lon": -79.223716,
+      "lines": ["50-55", "70-75"],
+      "platformIds": ["4363"],
+      "departureRouteIds": [
+        "304",
+        "310",
+        "315",
+        "318",
+        "320",
+        "335",
+        "336",
+        "404",
+        "410",
+        "415",
+        "418",
+        "420",
+        "435",
+        "436",
+        "50",
+        "55",
+        "70",
+        "75"
+      ]
+    },
+    {
+      "id": "3734",
+      "schematicId": "port-colborne-city-hall",
+      "name": "Port Colborne City Hall",
+      "lat": 42.885061,
+      "lon": -79.252035,
+      "lines": ["25"],
+      "platformIds": ["3734"],
+      "departureRouteIds": ["25"]
+    },
+    {
+      "id": "4181",
+      "schematicId": "rapidsview",
+      "name": "Rapidsview",
+      "lat": 43.068173,
+      "lon": -79.064776,
+      "lines": ["603"],
+      "platformIds": ["4181"],
+      "departureRouteIds": ["602", "603"]
+    },
+    {
+      "id": "4253",
+      "schematicId": "st-catharines-go",
+      "name": "St Catharines",
+      "lat": 43.148133,
+      "lon": -79.258265,
+      "lines": ["303", "438"],
+      "platformIds": ["4253"],
+      "departureRouteIds": ["303", "438"]
+    },
+    {
+      "id": "table-rock",
+      "schematicId": "table-rock",
+      "name": "Table Rock",
+      "lat": 43.078395,
+      "lon": -79.079399,
+      "lines": ["603"],
+      "platformIds": ["4183", "4206"],
+      "departureRouteIds": ["602", "603"]
+    },
+    {
+      "id": "4358",
+      "schematicId": "thorold-towpath",
+      "name": "Thorold Towpath",
+      "lat": 43.123852,
+      "lon": -79.202047,
+      "lines": ["50-55"],
+      "platformIds": ["4358"],
+      "departureRouteIds": ["320", "321", "322", "332", "420", "421", "432", "50", "55"]
+    },
+    {
+      "id": "4365",
+      "schematicId": "welland-terminal",
+      "name": "Welland Terminal",
+      "lat": 42.992875,
+      "lon": -79.246246,
+      "lines": ["25", "34", "60-65", "70-75"],
+      "platformIds": ["4365"],
+      "departureRouteIds": [
+        "25",
+        "34",
+        "501",
+        "502",
+        "503",
+        "504",
+        "505",
+        "506",
+        "508",
+        "509",
+        "60",
+        "65",
+        "70",
+        "75"
+      ]
+    },
+    {
+      "id": "4364",
+      "schematicId": "west-st-catharines",
+      "name": "West St. Catharines",
+      "lat": 43.152403,
+      "lon": -79.266282,
+      "lines": ["303"],
+      "platformIds": ["4364"],
+      "departureRouteIds": ["303", "415"]
+    },
+    {
+      "id": "4191",
+      "schematicId": "whirlpool-aero-car",
+      "name": "Whirlpool Aero Car",
+      "lat": 43.117891,
+      "lon": -79.068728,
+      "lines": ["603"],
+      "platformIds": ["4191"],
+      "departureRouteIds": ["603"]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "viewBoxWidth": 800,
+  "viewBoxHeight": 800,
+  "lines": [
+    {
+      "id": "1-ASH",
+      "name": "Ashcroft\u2013Clinton",
+      "color": "#1C4587",
+      "points": [
+        {
+          "x": 470,
+          "y": 620
+        },
+        {
+          "x": 410,
+          "y": 560
+        },
+        {
+          "x": 410,
+          "y": 440
+        },
+        {
+          "x": 330,
+          "y": 360
+        },
+        {
+          "x": 330,
+          "y": 180
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "ashcroft",
+      "name": "Ashcroft",
+      "x": 470,
+      "y": 620,
+      "lines": ["1-ASH"],
+      "terminal": true,
+      "label": {
+        "x": 510,
+        "y": 630,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside",
+      "x": 410,
+      "y": 500,
+      "lines": ["1-ASH"],
+      "label": {
+        "x": 450,
+        "y": 510,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cache-creek",
+      "name": "Cache Creek",
+      "x": 330,
+      "y": 360,
+      "lines": ["1-ASH"],
+      "label": {
+        "x": 290,
+        "y": 370,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "clinton",
+      "name": "Clinton",
+      "x": 330,
+      "y": 180,
+      "lines": ["1-ASH"],
+      "terminal": true,
+      "label": {
+        "x": 370,
+        "y": 190,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-ASH",
+      "num": "1",
+      "x": 298,
+      "y": 250,
+      "color": "#1C4587",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "1-ASH": ["ashcroft", "riverside", "cache-creek", "clinton"]
+  },
+  "stationAliases": {
+    "Riverside Dr at Sage and Sands Dr": "riverside"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 130,
+      "maxX": 670,
+      "minY": 100,
+      "maxY": 700
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -121.58412,
+    "refLonEast": -121.27939,
+    "refXWest": 330,
+    "refXEast": 470,
+    "refLatNorth": 51.09333,
+    "refLatSouth": 50.72513,
+    "refYNorth": 180,
+    "refYSouth": 620
+  },
+  "stationIndex": [
+    {
+      "id": "158001",
+      "schematicId": "ashcroft",
+      "name": "Ashcroft",
+      "lat": 50.72513,
+      "lon": -121.27939,
+      "lines": ["1-ASH"],
+      "platformIds": ["158001"],
+      "departureRouteIds": ["1-ASH"]
+    },
+    {
+      "id": "158000",
+      "schematicId": "cache-creek",
+      "name": "Cache Creek",
+      "lat": 50.81107,
+      "lon": -121.32438,
+      "lines": ["1-ASH"],
+      "platformIds": ["158000"],
+      "departureRouteIds": ["1-ASH"]
+    },
+    {
+      "id": "158002",
+      "schematicId": "clinton",
+      "name": "Clinton",
+      "lat": 51.09333,
+      "lon": -121.58412,
+      "lines": ["1-ASH"],
+      "platformIds": ["158002"],
+      "departureRouteIds": ["1-ASH"]
+    },
+    {
+      "id": "158006",
+      "schematicId": "riverside",
+      "name": "Riverside",
+      "lat": 50.80192,
+      "lon": -121.32336,
+      "lines": ["1-ASH"],
+      "platformIds": ["158006"],
+      "departureRouteIds": ["1-ASH"]
+    }
+  ]
+}

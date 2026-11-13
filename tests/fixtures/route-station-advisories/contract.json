@@ -1,0 +1,131 @@
+{
+  "timeZone": "America/New_York",
+  "cases": [
+    {
+      "name": "reads route and station notices with their published periods",
+      "routeNames": {
+        "coastal": ["Coastal Limited"],
+        "valley": ["Valley Express"],
+        "lakes": ["Lakes Service"]
+      },
+      "html": "<main><div class=\"na-service-alert__option\"><h3>Coastal Limited</h3><div class=\"na-service-alert__option_block\"><a class=\"na-service-alert__option_title\" data-href=\"/alerts/coastal-bridge\">Coastal Limited Bridge Work</a><span class=\"na-service-alert__option_date\">Effective October 26, 2026 - January 1, 2027</span></div><div class=\"na-service-alert__option_block\"><a class=\"na-service-alert__option_title\" data-href=\"/alerts/coastal-weekends\">Coastal Limited Weekend Changes</a><span class=\"na-service-alert__option_date\">Effective October 15 - 19 and November 5 - 9, 2026</span></div></div><div class=\"na-service-alert__option\"><h3>Multiple Routes</h3><div class=\"tooltip\"><p class=\"tooltip__text_content\">Valley Express</p><p class=\"tooltip__text_content\">Lakes Service</p></div><div class=\"na-service-alert__option_block\"><a class=\"na-service-alert__option_title\" data-href=\"https://example.test/alerts/corridor\">Corridor Track Work</a><span class=\"na-service-alert__option_date\">Effective October 9 - November 15, 2026</span></div></div><div class=\"na-service-alert__option\"><h3>Valley Express</h3><div class=\"na-service-alert__option_block\"><a class=\"na-service-alert__option_title\" data-href=\"/alerts/valley-advisory\">Valley Express Travel Advisory</a><span class=\"na-service-alert__option_date\">Effective Immediately</span></div></div><ul><li class=\"na-service-alert__stations_ul_li\"><span class=\"na-service-alert__stations_ul_li_header\">Harbor Town, ST (HBT)</span><div class=\"na-service-alert__stations_ul_li_details_alert\"><a class=\"na-service-alert__stations_ul_li_details_alert_link\" data-href=\"/alerts/hbt-baggage\">Harbor Town No Longer Accepts Checked Baggage</a><span class=\"na-service-alert__stations_ul_li_details_alert_date\">Effective April 20, 2026</span></div><div class=\"na-service-alert__stations_ul_li_details_alert\"><a class=\"na-service-alert__stations_ul_li_details_alert_link\" data-href=\"/alerts/hbt-street\">Harbor Town Street Closure</a><span class=\"na-service-alert__stations_ul_li_details_alert_date\">November 6 - 9, 2026</span></div></li><li class=\"na-service-alert__stations_ul_li\"><span class=\"na-service-alert__stations_ul_li_header\">Ridge Junction, ST (RDJ)</span><div class=\"na-service-alert__stations_ul_li_details_alert\"><a class=\"na-service-alert__stations_ul_li_details_alert_link\" data-href=\"/alerts/rdj-credentials\">Ridge Junction Requires Credentials</a></div></li></ul></main>",
+      "notices": [
+        {
+          "id": "https://example.test/alerts/coastal-bridge",
+          "title": "Coastal Limited Bridge Work",
+          "description": "Effective October 26, 2026 - January 1, 2027\n[Advisory details](https://example.test/alerts/coastal-bridge)",
+          "routeIds": ["coastal"],
+          "startsAt": "2026-10-26T04:00:00Z",
+          "endsAt": "2027-01-02T05:00:00Z"
+        },
+        {
+          "id": "https://example.test/alerts/coastal-weekends#1792036800000",
+          "title": "Coastal Limited Weekend Changes",
+          "description": "Effective October 15 - 19 and November 5 - 9, 2026\n[Advisory details](https://example.test/alerts/coastal-weekends)",
+          "routeIds": ["coastal"],
+          "startsAt": "2026-10-15T04:00:00Z",
+          "endsAt": "2026-10-20T04:00:00Z"
+        },
+        {
+          "id": "https://example.test/alerts/coastal-weekends#1793854800000",
+          "title": "Coastal Limited Weekend Changes",
+          "description": "Effective October 15 - 19 and November 5 - 9, 2026\n[Advisory details](https://example.test/alerts/coastal-weekends)",
+          "routeIds": ["coastal"],
+          "startsAt": "2026-11-05T05:00:00Z",
+          "endsAt": "2026-11-10T05:00:00Z"
+        },
+        {
+          "id": "https://example.test/alerts/corridor",
+          "title": "Corridor Track Work",
+          "description": "Effective October 9 - November 15, 2026\n[Advisory details](https://example.test/alerts/corridor)",
+          "routeIds": ["lakes", "valley"],
+          "startsAt": "2026-10-09T04:00:00Z",
+          "endsAt": "2026-11-16T05:00:00Z"
+        },
+        {
+          "id": "https://example.test/alerts/valley-advisory",
+          "title": "Valley Express Travel Advisory",
+          "description": "Effective Immediately\n[Advisory details](https://example.test/alerts/valley-advisory)",
+          "routeIds": ["valley"],
+          "startsAt": "1970-01-01T00:00:00Z"
+        },
+        {
+          "id": "https://example.test/alerts/hbt-baggage",
+          "title": "Harbor Town No Longer Accepts Checked Baggage",
+          "description": "Effective April 20, 2026\n[Advisory details](https://example.test/alerts/hbt-baggage)",
+          "routeIds": [],
+          "stations": ["HBT"],
+          "startsAt": "2026-04-20T04:00:00Z"
+        },
+        {
+          "id": "https://example.test/alerts/hbt-street",
+          "title": "Harbor Town Street Closure",
+          "description": "November 6 - 9, 2026\n[Advisory details](https://example.test/alerts/hbt-street)",
+          "routeIds": [],
+          "stations": ["HBT"],
+          "startsAt": "2026-11-06T05:00:00Z",
+          "endsAt": "2026-11-10T05:00:00Z"
+        },
+        {
+          "id": "https://example.test/alerts/rdj-credentials",
+          "title": "Ridge Junction Requires Credentials",
+          "description": "[Advisory details](https://example.test/alerts/rdj-credentials)",
+          "routeIds": [],
+          "stations": ["RDJ"],
+          "startsAt": "1970-01-01T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "withholds a notice for an unmapped route and keeps the read partial",
+      "routeNames": {
+        "coastal": ["Coastal Limited"]
+      },
+      "html": "<div class=\"na-service-alert__option\"><h3>Mountain Flyer</h3><div class=\"na-service-alert__option_block\"><a class=\"na-service-alert__option_title\" data-href=\"/alerts/flyer\">Mountain Flyer Service Adjustment</a><span class=\"na-service-alert__option_date\">Effective November 6 - 9, 2026</span></div></div><div class=\"na-service-alert__option\"><h3>Coastal Limited</h3><div class=\"na-service-alert__option_block\"><a class=\"na-service-alert__option_title\" data-href=\"/alerts/coastal\">Coastal Limited Service Adjustment</a><span class=\"na-service-alert__option_date\">Effective Nov. 6, 2026</span></div></div>",
+      "partial": true,
+      "notices": [
+        {
+          "id": "https://example.test/alerts/coastal",
+          "title": "Coastal Limited Service Adjustment",
+          "description": "Effective Nov. 6, 2026\n[Advisory details](https://example.test/alerts/coastal)",
+          "routeIds": ["coastal"],
+          "startsAt": "2026-11-06T05:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "keeps a notice with an unreadable period as active while published",
+      "routeNames": {
+        "coastal": ["Coastal Limited"]
+      },
+      "html": "<div class=\"na-service-alert__option\"><h3>Coastal Limited</h3><div class=\"na-service-alert__option_block\"><a class=\"na-service-alert__option_title\" data-href=\"/alerts/coastal-weekends\">Coastal Limited Weekends</a><span class=\"na-service-alert__option_date\">Effective most weekends this fall</span></div><div class=\"na-service-alert__option_block\"><a class=\"na-service-alert__option_title\" data-href=\"/alerts/coastal-date\">Coastal Limited Date Error</a><span class=\"na-service-alert__option_date\">Effective November 31, 2026</span></div></div>",
+      "partial": true,
+      "notices": [
+        {
+          "id": "https://example.test/alerts/coastal-weekends",
+          "title": "Coastal Limited Weekends",
+          "description": "Effective most weekends this fall\n[Advisory details](https://example.test/alerts/coastal-weekends)",
+          "routeIds": ["coastal"],
+          "startsAt": "1970-01-01T00:00:00Z"
+        },
+        {
+          "id": "https://example.test/alerts/coastal-date",
+          "title": "Coastal Limited Date Error",
+          "description": "Effective November 31, 2026\n[Advisory details](https://example.test/alerts/coastal-date)",
+          "routeIds": ["coastal"],
+          "startsAt": "1970-01-01T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "rejects a page with no recognizable advisories",
+      "html": "<main><h1>Service Alerts</h1><p>Loading…</p></main>",
+      "error": true
+    },
+    {
+      "name": "rejects a station advisory without a station code",
+      "html": "<ul><li class=\"na-service-alert__stations_ul_li\"><span class=\"na-service-alert__stations_ul_li_header\">Harbor Town, ST</span><div class=\"na-service-alert__stations_ul_li_details_alert\"><a class=\"na-service-alert__stations_ul_li_details_alert_link\" data-href=\"/alerts/hbt\">Harbor Town Notice</a></div></li></ul>",
+      "error": true
+    }
+  ]
+}

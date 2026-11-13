@@ -1,0 +1,1276 @@
+{
+  "id": "bc-ferries",
+  "name": "BC Ferries",
+  "serviceArea": "Coastal British Columbia",
+  "serviceAreaTranslations": { "fr": "Côte de la Colombie-Britannique" },
+  "shortName": "BC Ferries",
+  "brandColor": "#00467F",
+  "locale": "en-CA",
+  "timezone": "America/Vancouver",
+  "bounds": [
+    {
+      "minLat": 49.187898,
+      "maxLat": 49.195898,
+      "minLon": -123.959665,
+      "maxLon": -123.947665
+    },
+    {
+      "minLat": 49.158097,
+      "maxLat": 49.166097,
+      "minLon": -123.898226,
+      "maxLon": -123.886226
+    },
+    {
+      "minLat": 49.370007,
+      "maxLat": 49.378007,
+      "minLon": -123.278515,
+      "maxLon": -123.266515
+    },
+    {
+      "minLat": 48.684614,
+      "maxLat": 48.692614,
+      "minLon": -123.417361,
+      "maxLon": -123.405361
+    },
+    {
+      "minLat": 49.002885,
+      "maxLat": 49.010885,
+      "minLon": -123.136334,
+      "maxLon": -123.124334
+    },
+    {
+      "minLat": 49.429098,
+      "maxLat": 49.437098,
+      "minLon": -123.47812,
+      "maxLon": -123.46612
+    },
+    {
+      "minLat": 49.74884,
+      "maxLat": 49.75684,
+      "minLon": -124.015412,
+      "maxLon": -124.003412
+    },
+    {
+      "minLat": 49.375636,
+      "maxLat": 49.383636,
+      "minLon": -123.3381,
+      "maxLon": -123.3261
+    },
+    {
+      "minLat": 49.736338,
+      "maxLat": 49.744338,
+      "minLon": -124.931653,
+      "maxLon": -124.919653
+    },
+    {
+      "minLat": 49.521392,
+      "maxLat": 49.529392,
+      "minLon": -124.854646,
+      "maxLon": -124.842646
+    },
+    {
+      "minLat": 50.023129,
+      "maxLat": 50.031129,
+      "minLon": -125.247726,
+      "maxLon": -125.235726
+    },
+    {
+      "minLat": 50.038349,
+      "maxLat": 50.046349,
+      "minLon": -125.22147,
+      "maxLon": -125.20947
+    },
+    {
+      "minLat": 50.099208,
+      "maxLat": 50.107208,
+      "minLon": -125.215343,
+      "maxLon": -125.203343
+    },
+    {
+      "minLat": 50.587369,
+      "maxLat": 50.595369,
+      "minLon": -127.091885,
+      "maxLon": -127.079885
+    },
+    {
+      "minLat": 49.833097,
+      "maxLat": 49.841097,
+      "minLon": -124.534855,
+      "maxLon": -124.522855
+    },
+    {
+      "minLat": 50.583805,
+      "maxLat": 50.591805,
+      "minLon": -126.936769,
+      "maxLon": -126.924769
+    },
+    {
+      "minLat": 49.530702,
+      "maxLat": 49.538702,
+      "minLon": -124.82919,
+      "maxLon": -124.81719
+    },
+    {
+      "minLat": 49.489875,
+      "maxLat": 49.497875,
+      "minLon": -124.714732,
+      "maxLon": -124.702732
+    },
+    {
+      "minLat": 49.508061,
+      "maxLat": 49.516061,
+      "minLon": -124.710722,
+      "maxLon": -124.698722
+    },
+    {
+      "minLat": 50.106271,
+      "maxLat": 50.114271,
+      "minLon": -125.059626,
+      "maxLon": -125.047626
+    },
+    {
+      "minLat": 48.765249,
+      "maxLat": 48.773249,
+      "minLon": -123.456676,
+      "maxLon": -123.444676
+    },
+    {
+      "minLat": 48.847616,
+      "maxLat": 48.855616,
+      "minLon": -123.451807,
+      "maxLon": -123.439807
+    },
+    {
+      "minLat": 49.162064,
+      "maxLat": 49.170064,
+      "minLon": -123.936677,
+      "maxLon": -123.924677
+    },
+    {
+      "minLat": 49.17371,
+      "maxLat": 49.18171,
+      "minLon": -123.864331,
+      "maxLon": -123.852331
+    },
+    {
+      "minLat": 48.79696,
+      "maxLat": 48.80496,
+      "minLon": -123.321518,
+      "maxLon": -123.309518
+    },
+    {
+      "minLat": 48.793973,
+      "maxLat": 48.801973,
+      "minLon": -123.207157,
+      "maxLon": -123.195157
+    },
+    {
+      "minLat": 48.87452,
+      "maxLat": 48.88252,
+      "minLon": -123.323261,
+      "maxLon": -123.311261
+    },
+    {
+      "minLat": 48.573387,
+      "maxLat": 48.581387,
+      "minLon": -123.472773,
+      "maxLon": -123.460773
+    },
+    {
+      "minLat": 48.921349,
+      "maxLat": 48.929349,
+      "minLon": -123.721136,
+      "maxLon": -123.709136
+    },
+    {
+      "minLat": 48.861494,
+      "maxLat": 48.869494,
+      "minLon": -123.646176,
+      "maxLon": -123.634176
+    },
+    {
+      "minLat": 48.977012,
+      "maxLat": 48.985012,
+      "minLon": -123.68424,
+      "maxLon": -123.67224
+    },
+    {
+      "minLat": 48.967109,
+      "maxLat": 48.975109,
+      "minLon": -123.66707,
+      "maxLon": -123.65507
+    },
+    {
+      "minLat": 48.877879,
+      "maxLat": 48.885879,
+      "minLon": -123.578542,
+      "maxLon": -123.566542
+    },
+    {
+      "minLat": 48.840332,
+      "maxLat": 48.848332,
+      "minLon": -123.329981,
+      "maxLon": -123.317981
+    },
+    {
+      "minLat": 52.370917,
+      "maxLat": 52.378917,
+      "minLon": -126.801123,
+      "maxLon": -126.789123
+    },
+    {
+      "minLat": 52.135012,
+      "maxLat": 52.143012,
+      "minLon": -128.150386,
+      "maxLon": -128.138386
+    },
+    {
+      "minLat": 52.348532,
+      "maxLat": 52.356532,
+      "minLon": -127.698627,
+      "maxLon": -127.686627
+    },
+    {
+      "minLat": 50.72156,
+      "maxLat": 50.72956,
+      "minLon": -127.46164,
+      "maxLon": -127.44964
+    },
+    {
+      "minLat": 54.29194,
+      "maxLat": 54.29994,
+      "minLon": -130.35768,
+      "maxLon": -130.34568
+    },
+    {
+      "minLat": 52.147435,
+      "maxLat": 52.155435,
+      "minLon": -128.099841,
+      "maxLon": -128.087841
+    },
+    {
+      "minLat": 53.243003,
+      "maxLat": 53.251003,
+      "minLon": -132.015792,
+      "maxLon": -132.003792
+    },
+    {
+      "minLat": 49.779006,
+      "maxLat": 49.787006,
+      "minLon": -124.184703,
+      "maxLon": -124.172703
+    },
+    {
+      "minLat": 49.390657,
+      "maxLat": 49.398657,
+      "minLon": -123.489757,
+      "maxLon": -123.477757
+    },
+    {
+      "minLat": 49.446003,
+      "maxLat": 49.454003,
+      "minLon": -123.445871,
+      "maxLon": -123.433871
+    },
+    {
+      "minLat": 50.622793,
+      "maxLat": 50.630793,
+      "minLon": -127.023889,
+      "maxLon": -127.011889
+    },
+    {
+      "minLat": 49.790839,
+      "maxLat": 49.798839,
+      "minLon": -124.626402,
+      "maxLon": -124.614402
+    },
+    {
+      "minLat": 48.61,
+      "maxLat": 48.618,
+      "minLon": -123.52383,
+      "maxLon": -123.51183
+    },
+    {
+      "minLat": 53.207813,
+      "maxLat": 53.215813,
+      "minLon": -131.994196,
+      "maxLon": -131.982196
+    },
+    {
+      "minLat": 52.588494,
+      "maxLat": 52.596494,
+      "minLon": -128.527907,
+      "maxLon": -128.515907
+    },
+    {
+      "minLat": 49.391565,
+      "maxLat": 49.399565,
+      "minLon": -123.439214,
+      "maxLon": -123.427214
+    },
+    {
+      "minLat": 50.067888,
+      "maxLat": 50.075888,
+      "minLon": -124.989437,
+      "maxLon": -124.977437
+    },
+    {
+      "minLat": 50.096584,
+      "maxLat": 50.104584,
+      "minLon": -125.001808,
+      "maxLon": -124.989808
+    }
+  ],
+  "modes": ["ferry"],
+  "stationService": {
+    "routeType": "ferry"
+  },
+  "attribution": {
+    "name": "BC Ferries; static GTFS by Trillium Solutions, Inc.",
+    "url": "https://www.bcferries.com/",
+    "license": "No explicit reuse terms found. Sailings and service notices from BC Ferries; schedule GTFS published by Trillium Solutions, Inc. with no stated licence.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "national",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "bc"
+  },
+  "cityPresets": [
+    {
+      "name": "Tsawwassen Ferry Terminal",
+      "lat": 49.006885,
+      "lon": -123.130334
+    },
+    {
+      "name": "Swartz Bay Ferry Terminal",
+      "lat": 48.688614,
+      "lon": -123.411361
+    },
+    {
+      "name": "Horseshoe Bay Ferry Terminal",
+      "lat": 49.374007,
+      "lon": -123.272515
+    },
+    {
+      "name": "Departure Bay Ferry Terminal",
+      "lat": 49.1918979532128,
+      "lon": -123.953664799673
+    }
+  ],
+  "focus": {
+    "lat": 48.95,
+    "lon": -123.5
+  },
+  "popularSurfaceRoutes": ["12443", "12444", "12394", "12393", "12422"],
+  "alertInterpretation": {
+    "lineIds": [
+      "12443",
+      "12444",
+      "12394",
+      "12427",
+      "12422",
+      "12426",
+      "12400",
+      "12402",
+      "12425",
+      "12405",
+      "12393"
+    ]
+  },
+  "routeShortNames": {
+    "12393": "30",
+    "12394": "3",
+    "12395": "7",
+    "12396": "17",
+    "12397": "18",
+    "12400": "8",
+    "12401": "13",
+    "12402": "12",
+    "12405": "20",
+    "12422": "5/9",
+    "12425": "19",
+    "12426": "6",
+    "12427": "4",
+    "12428": "21",
+    "12429": "22",
+    "12430": "23",
+    "12431": "24",
+    "12432": "25",
+    "12434": "10",
+    "12441": "11",
+    "12442": "26",
+    "12443": "1",
+    "12444": "2"
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "BC Ferries GTFS (Trillium)",
+        "url": "https://data.trilliumtransit.com/gtfs/bcferries-bc-ca/bcferries-bc-ca.zip",
+        "cacheFileName": "bc-ferries-gtfs.zip"
+      }
+    ],
+    "ignoreFeedRouteColors": true,
+    "defaultColor": "#00467F",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "ferry_sailing_boards",
+        "url": "https://cc.bcferries.com/api/currentconditions/1.0/route/{terminal}/{board}",
+        "format": "json",
+        "pollIntervalSeconds": 120,
+        "timeZone": "America/Vancouver",
+        "terminals": {
+          "ALF": "2505920",
+          "ALR": "2505814",
+          "BEC": "2505921",
+          "BKY": "2505802",
+          "BOW": "2505796",
+          "BTW": "2505859",
+          "CAM": "2505804",
+          "CFT": "2505866",
+          "CHM": "2505864",
+          "CMX": "2505800",
+          "COR": "2505843",
+          "DNE": "2505838",
+          "DNM": "2505835",
+          "DUK": "2505784",
+          "ERL": "2505793",
+          "FUL": "2505845",
+          "GAB": "2505851",
+          "HRB": "2505808",
+          "HRN": "2505840",
+          "HSB": "2505785",
+          "KLE": "2505923",
+          "KPR": "2505914",
+          "LNG": "2505791",
+          "MCN": "2505810",
+          "MIL": "2505868",
+          "NAH": "2505849",
+          "NAN": "2505783",
+          "PBB": "2505924",
+          "PLH": "2505847",
+          "POB": "2505853",
+          "POF": "2505926",
+          "PPH": "2505928",
+          "PPR": "2505930",
+          "PSB": "2505857",
+          "PSK": "2505934",
+          "PST": "2505855",
+          "PVB": "2505918",
+          "PWR": "2505812",
+          "QDR": "2505806",
+          "SHW": "2505932",
+          "SLT": "2505936",
+          "SOI": "2505833",
+          "SWB": "2505787",
+          "TEX": "2505834",
+          "THT": "2505869",
+          "TSA": "2505789",
+          "VES": "2505916"
+        },
+        "boards": [
+          {
+            "terminal": "BKY",
+            "board": "route21",
+            "routeId": "12428"
+          },
+          {
+            "terminal": "BTW",
+            "board": "route12",
+            "routeId": "12402"
+          },
+          {
+            "terminal": "CAM",
+            "board": "route23",
+            "routeId": "12430"
+          },
+          {
+            "terminal": "CFT",
+            "board": "route06",
+            "routeId": "12426"
+          },
+          {
+            "terminal": "CHM",
+            "board": "route20",
+            "routeId": "12405"
+          },
+          {
+            "terminal": "CMX",
+            "board": "route17",
+            "routeId": "12396"
+          },
+          {
+            "terminal": "DNE",
+            "board": "route22",
+            "routeId": "12429"
+          },
+          {
+            "terminal": "DUK",
+            "board": "route30",
+            "routeId": "12393"
+          },
+          {
+            "terminal": "HRB",
+            "board": "route24",
+            "routeId": "12431"
+          },
+          {
+            "terminal": "HSB",
+            "board": "route02",
+            "routeId": "12444"
+          },
+          {
+            "terminal": "HSB",
+            "board": "route03",
+            "routeId": "12394"
+          },
+          {
+            "terminal": "HSB",
+            "board": "route08",
+            "routeId": "12400"
+          },
+          {
+            "terminal": "LNG",
+            "board": "route03",
+            "routeId": "12394"
+          },
+          {
+            "terminal": "MCN",
+            "board": "route25",
+            "routeId": "12432"
+          },
+          {
+            "terminal": "MIL",
+            "board": "route12",
+            "routeId": "12402"
+          },
+          {
+            "terminal": "NAH",
+            "board": "route19",
+            "routeId": "12425"
+          },
+          {
+            "terminal": "NAN",
+            "board": "route02",
+            "routeId": "12444"
+          },
+          {
+            "terminal": "PLH",
+            "board": "route09",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "POB",
+            "board": "route05",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "POB",
+            "board": "route09",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "POF",
+            "board": "route10",
+            "routeId": "12434"
+          },
+          {
+            "terminal": "PPR",
+            "board": "route10",
+            "routeId": "12434"
+          },
+          {
+            "terminal": "PSB",
+            "board": "route05",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "PSB",
+            "board": "route09",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "PSK",
+            "board": "route11",
+            "routeId": "12441"
+          },
+          {
+            "terminal": "PSK",
+            "board": "route26",
+            "routeId": "12442"
+          },
+          {
+            "terminal": "PST",
+            "board": "route05",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "PST",
+            "board": "route09",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "PVB",
+            "board": "route05",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "PVB",
+            "board": "route09",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "PWR",
+            "board": "route17",
+            "routeId": "12396"
+          },
+          {
+            "terminal": "PWR",
+            "board": "route18",
+            "routeId": "12397"
+          },
+          {
+            "terminal": "SLT",
+            "board": "route07",
+            "routeId": "12395"
+          },
+          {
+            "terminal": "SWB",
+            "board": "route01",
+            "routeId": "12443"
+          },
+          {
+            "terminal": "SWB",
+            "board": "route04",
+            "routeId": "12427"
+          },
+          {
+            "terminal": "SWB",
+            "board": "route05",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "TSA",
+            "board": "route01",
+            "routeId": "12443"
+          },
+          {
+            "terminal": "TSA",
+            "board": "route09",
+            "routeId": "12422"
+          },
+          {
+            "terminal": "TSA",
+            "board": "route30",
+            "routeId": "12393"
+          }
+        ],
+        "legs": {
+          "ALF>PSK": {
+            "routeId": "12442",
+            "directionId": 0,
+            "headsign": "Skidegate (Graham Island)"
+          },
+          "ALR>MCN": {
+            "routeId": "12432",
+            "directionId": 1,
+            "headsign": "Port McNeill"
+          },
+          "ALR>SOI": {
+            "routeId": "12432",
+            "directionId": 0,
+            "headsign": "Sointula"
+          },
+          "BEC>PBB": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "McLoughlin Bay (Bella Bella)"
+          },
+          "BEC>POF": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "Ocean Falls"
+          },
+          "BEC>PPH": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "Port Hardy (Bear Cove)"
+          },
+          "BKY>DNM": {
+            "routeId": "12428",
+            "directionId": 0,
+            "headsign": "Denman Island (West)"
+          },
+          "BOW>HSB": {
+            "routeId": "12400",
+            "directionId": 0,
+            "headsign": "Horseshoe Bay (Vancouver)"
+          },
+          "BTW>MIL": {
+            "routeId": "12402",
+            "directionId": 0,
+            "headsign": "Mill Bay"
+          },
+          "CAM>QDR": {
+            "routeId": "12430",
+            "directionId": 0,
+            "headsign": "Quadra Island (Quathiaski Cove)"
+          },
+          "CFT>VES": {
+            "routeId": "12426",
+            "directionId": 0,
+            "headsign": "Vesuvius Bay (Salt Spring Island)"
+          },
+          "CHM>KPR": {
+            "routeId": "12405",
+            "directionId": 0,
+            "headsign": "Penelakut Island"
+          },
+          "CHM>THT": {
+            "routeId": "12405",
+            "directionId": 0,
+            "headsign": "Thetis Island"
+          },
+          "CMX>PWR": {
+            "routeId": "12396",
+            "directionId": 0,
+            "headsign": "Powell River (Westview)"
+          },
+          "COR>HRB": {
+            "routeId": "12431",
+            "directionId": 1,
+            "headsign": "Quadra Island (Heriot Bay)"
+          },
+          "DNE>HRN": {
+            "routeId": "12429",
+            "directionId": 0,
+            "headsign": "Hornby Island (Shingle Spit)"
+          },
+          "DNM>BKY": {
+            "routeId": "12428",
+            "directionId": 1,
+            "headsign": "Buckley Bay (Vancouver Island)"
+          },
+          "DUK>TSA": {
+            "routeId": "12393",
+            "directionId": 0,
+            "headsign": "Vancouver (Tsawwassen)"
+          },
+          "ERL>SLT": {
+            "routeId": "12395",
+            "directionId": 1,
+            "headsign": "Saltery Bay"
+          },
+          "FUL>SWB": {
+            "routeId": "12427",
+            "directionId": 1,
+            "headsign": "Victoria (Swartz Bay)"
+          },
+          "GAB>NAH": {
+            "routeId": "12425",
+            "directionId": 1,
+            "headsign": "Nanaimo Harbour"
+          },
+          "HRB>COR": {
+            "routeId": "12431",
+            "directionId": 0,
+            "headsign": "Cortes Island (Whaletown)"
+          },
+          "HRN>DNE": {
+            "routeId": "12429",
+            "directionId": 1,
+            "headsign": "Denman Island East (Gravelly Bay)"
+          },
+          "HSB>BOW": {
+            "routeId": "12400",
+            "directionId": 1,
+            "headsign": "Bowen Island (Snug Cove)"
+          },
+          "HSB>LNG": {
+            "routeId": "12394",
+            "directionId": 1,
+            "headsign": "Langdale (Gibsons)"
+          },
+          "HSB>NAN": {
+            "routeId": "12444",
+            "directionId": 1,
+            "headsign": "Departure Bay (Nanaimo)"
+          },
+          "KLE>PBB": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "McLoughlin Bay (Bella Bella)"
+          },
+          "KLE>PPR": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "Prince Rupert"
+          },
+          "KPR>CHM": {
+            "routeId": "12405",
+            "directionId": 1,
+            "headsign": "Chemainus"
+          },
+          "KPR>THT": {
+            "routeId": "12405",
+            "directionId": 0,
+            "headsign": "Thetis Island"
+          },
+          "LNG>HSB": {
+            "routeId": "12394",
+            "directionId": 0,
+            "headsign": "Horseshoe Bay (Vancouver)"
+          },
+          "MCN>ALR": {
+            "routeId": "12432",
+            "directionId": 0,
+            "headsign": "Alert Bay"
+          },
+          "MCN>SOI": {
+            "routeId": "12432",
+            "directionId": 0,
+            "headsign": "Sointula"
+          },
+          "MIL>BTW": {
+            "routeId": "12402",
+            "directionId": 1,
+            "headsign": "Brentwood"
+          },
+          "NAH>GAB": {
+            "routeId": "12425",
+            "directionId": 0,
+            "headsign": "Gabriola Island"
+          },
+          "NAN>HSB": {
+            "routeId": "12444",
+            "directionId": 0,
+            "headsign": "Horseshoe Bay (Vancouver)"
+          },
+          "PBB>BEC": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "Bella Coola"
+          },
+          "PBB>KLE": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "Klemtu"
+          },
+          "PBB>PPH": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "Port Hardy (Bear Cove)"
+          },
+          "PBB>PPR": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "Prince Rupert"
+          },
+          "PBB>SHW": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "Shearwater"
+          },
+          "PLH>POB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Otter Bay (Pender Island)"
+          },
+          "PLH>PSB": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Sturdies Bay (Galiano Island)"
+          },
+          "PLH>PVB": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Village Bay (Mayne Island)"
+          },
+          "PLH>SWB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Victoria (Swartz Bay)"
+          },
+          "PLH>TSA": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Vancouver (Tsawwassen)"
+          },
+          "POB>PLH": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Salt Spring Island (Long Harbour)"
+          },
+          "POB>PSB": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Sturdies Bay (Galiano Island)"
+          },
+          "POB>PST": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Lyall Harbour (Saturna Island)"
+          },
+          "POB>PVB": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Village Bay (Mayne Island)"
+          },
+          "POB>SWB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Victoria (Swartz Bay)"
+          },
+          "POB>TSA": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Vancouver (Tsawwassen)"
+          },
+          "POF>BEC": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "Bella Coola"
+          },
+          "POF>SHW": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "Shearwater"
+          },
+          "PPH>BEC": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "Bella Coola"
+          },
+          "PPH>PBB": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "McLoughlin Bay (Bella Bella)"
+          },
+          "PPH>PPR": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "Prince Rupert"
+          },
+          "PPR>KLE": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "Klemtu"
+          },
+          "PPR>PBB": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "McLoughlin Bay (Bella Bella)"
+          },
+          "PPR>PPH": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "Port Hardy (Bear Cove)"
+          },
+          "PPR>PSK": {
+            "routeId": "12441",
+            "directionId": 1,
+            "headsign": "Skidegate (Graham Island)"
+          },
+          "PSB>PLH": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Salt Spring Island (Long Harbour)"
+          },
+          "PSB>POB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Otter Bay (Pender Island)"
+          },
+          "PSB>PST": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Lyall Harbour (Saturna Island)"
+          },
+          "PSB>PVB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Village Bay (Mayne Island)"
+          },
+          "PSB>SWB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Victoria (Swartz Bay)"
+          },
+          "PSB>TSA": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Vancouver (Tsawwassen)"
+          },
+          "PSK>ALF": {
+            "routeId": "12442",
+            "directionId": 1,
+            "headsign": "Alliford Bay (Moresby Island)"
+          },
+          "PSK>PPR": {
+            "routeId": "12441",
+            "directionId": 0,
+            "headsign": "Prince Rupert"
+          },
+          "PST>POB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Otter Bay (Pender Island)"
+          },
+          "PST>PVB": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Village Bay (Mayne Island)"
+          },
+          "PST>SWB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Victoria (Swartz Bay)"
+          },
+          "PVB>PLH": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Salt Spring Island (Long Harbour)"
+          },
+          "PVB>POB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Otter Bay (Pender Island)"
+          },
+          "PVB>PSB": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Sturdies Bay (Galiano Island)"
+          },
+          "PVB>PST": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Lyall Harbour (Saturna Island)"
+          },
+          "PVB>SWB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Victoria (Swartz Bay)"
+          },
+          "PVB>TSA": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Vancouver (Tsawwassen)"
+          },
+          "PWR>CMX": {
+            "routeId": "12396",
+            "directionId": 1,
+            "headsign": "Comox (Little River)"
+          },
+          "PWR>TEX": {
+            "routeId": "12397",
+            "directionId": 1,
+            "headsign": "Texada Island (Blubber Bay)"
+          },
+          "QDR>CAM": {
+            "routeId": "12430",
+            "directionId": 1,
+            "headsign": "Campbell River (Vancouver Island)"
+          },
+          "SHW>PBB": {
+            "routeId": "12434",
+            "directionId": 1,
+            "headsign": "McLoughlin Bay (Bella Bella)"
+          },
+          "SHW>POF": {
+            "routeId": "12434",
+            "directionId": 0,
+            "headsign": "Ocean Falls"
+          },
+          "SLT>ERL": {
+            "routeId": "12395",
+            "directionId": 0,
+            "headsign": "Earls Cove"
+          },
+          "SOI>ALR": {
+            "routeId": "12432",
+            "directionId": 1,
+            "headsign": "Alert Bay"
+          },
+          "SOI>MCN": {
+            "routeId": "12432",
+            "directionId": 1,
+            "headsign": "Port McNeill"
+          },
+          "SWB>FUL": {
+            "routeId": "12427",
+            "directionId": 0,
+            "headsign": "Fulford Harbour (Salt Spring Island)"
+          },
+          "SWB>POB": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Otter Bay (Pender Island)"
+          },
+          "SWB>PSB": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Sturdies Bay (Galiano Island)"
+          },
+          "SWB>PST": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Lyall Harbour (Saturna Island)"
+          },
+          "SWB>PVB": {
+            "routeId": "12422",
+            "directionId": 0,
+            "headsign": "Village Bay (Mayne Island)"
+          },
+          "SWB>TSA": {
+            "routeId": "12443",
+            "directionId": 0,
+            "headsign": "Vancouver (Tsawwassen)"
+          },
+          "TEX>PWR": {
+            "routeId": "12397",
+            "directionId": 0,
+            "headsign": "Powell River (Westview)"
+          },
+          "THT>CHM": {
+            "routeId": "12405",
+            "directionId": 1,
+            "headsign": "Chemainus"
+          },
+          "THT>KPR": {
+            "routeId": "12405",
+            "directionId": 1,
+            "headsign": "Penelakut Island"
+          },
+          "TSA>DUK": {
+            "routeId": "12393",
+            "directionId": 1,
+            "headsign": "Duke Point"
+          },
+          "TSA>NAN": {
+            "routeId": "12393",
+            "directionId": 1,
+            "headsign": "Departure Bay (Nanaimo)"
+          },
+          "TSA>PLH": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Salt Spring Island (Long Harbour)"
+          },
+          "TSA>POB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Otter Bay (Pender Island)"
+          },
+          "TSA>PSB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Sturdies Bay (Galiano Island)"
+          },
+          "TSA>PVB": {
+            "routeId": "12422",
+            "directionId": 1,
+            "headsign": "Village Bay (Mayne Island)"
+          },
+          "TSA>SWB": {
+            "routeId": "12443",
+            "directionId": 1,
+            "headsign": "Victoria (Swartz Bay)"
+          },
+          "VES>CFT": {
+            "routeId": "12426",
+            "directionId": 1,
+            "headsign": "Crofton (Osborne Bay)"
+          }
+        },
+        "terminalNames": {
+          "ALF": "Alliford Bay (Moresby Island)",
+          "ALR": "Alert Bay",
+          "BEC": "Bella Coola",
+          "BKY": "Buckley Bay (Vancouver Island)",
+          "BOW": "Bowen Island (Snug Cove)",
+          "BTW": "Brentwood",
+          "CAM": "Campbell River (Vancouver Island)",
+          "CFT": "Crofton (Osborne Bay)",
+          "CHM": "Chemainus",
+          "CMX": "Comox (Little River)",
+          "COR": "Cortes Island (Whaletown)",
+          "DNE": "Denman Island East (Gravelly Bay)",
+          "DNM": "Denman Island (West)",
+          "DUK": "Duke Point",
+          "ERL": "Earls Cove",
+          "FUL": "Fulford Harbour (Salt Spring Island)",
+          "GAB": "Gabriola Island",
+          "HRB": "Quadra Island (Heriot Bay)",
+          "HRN": "Hornby Island (Shingle Spit)",
+          "HSB": "Horseshoe Bay (Vancouver)",
+          "KLE": "Klemtu",
+          "KPR": "Penelakut Island",
+          "LNG": "Langdale (Gibsons)",
+          "MCN": "Port McNeill",
+          "MIL": "Mill Bay",
+          "NAH": "Nanaimo Harbour",
+          "NAN": "Departure Bay (Nanaimo)",
+          "PBB": "McLoughlin Bay (Bella Bella)",
+          "PLH": "Salt Spring Island (Long Harbour)",
+          "POB": "Otter Bay (Pender Island)",
+          "POF": "Ocean Falls",
+          "PPH": "Port Hardy (Bear Cove)",
+          "PPR": "Prince Rupert",
+          "PSB": "Sturdies Bay (Galiano Island)",
+          "PSK": "Skidegate (Graham Island)",
+          "PST": "Lyall Harbour (Saturna Island)",
+          "PVB": "Village Bay (Mayne Island)",
+          "PWR": "Powell River (Westview)",
+          "QDR": "Quadra Island (Quathiaski Cove)",
+          "SHW": "Shearwater",
+          "SLT": "Saltery Bay",
+          "SOI": "Sointula",
+          "SWB": "Victoria (Swartz Bay)",
+          "TEX": "Texada Island (Blubber Bay)",
+          "THT": "Thetis Island",
+          "TSA": "Vancouver (Tsawwassen)",
+          "VES": "Vesuvius Bay (Salt Spring Island)"
+        }
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "web",
+      "url": "https://www.bcferries.com/current-conditions/service-notices",
+      "parser": "route-notice-index",
+      "language": "en",
+      "routeNames": {
+        "12393": ["TSA-DUK", "DUK-TSA"],
+        "12394": ["HSB-LNG", "LNG-HSB"],
+        "12395": ["ERL-SLT", "SLT-ERL"],
+        "12396": ["CMX-PWR", "PWR-CMX"],
+        "12397": ["PWR-TEX", "TEX-PWR"],
+        "12400": ["HSB-BOW", "BOW-HSB"],
+        "12401": ["GAM-KTS-LNG", "LNG-GAM-KTS"],
+        "12402": ["BTW-MIL", "MIL-BTW"],
+        "12405": ["CHE-THT-KPR", "CHM-THT-KPR", "CHM-THT", "CHM-PEN"],
+        "12422": ["TSA-SGI", "SGI-TSA", "SWB-SGI", "SGI-SWB"],
+        "12425": ["NAH-GAB", "GAB-NAH"],
+        "12426": ["CFT-VSE", "VSE-CFT", "CFT-VES", "VES-CFT"],
+        "12427": ["SWB-FUL", "FUL-SWB"],
+        "12428": ["BKY-DNM", "DNM-BKY"],
+        "12429": ["DNE-HRN", "HRN-DNE"],
+        "12430": ["CAM-QDR", "QDR-CAM"],
+        "12431": ["HRB-COR", "COR-HRB", "QDR-COR"],
+        "12432": ["MCN-ALR-SOI", "PMN-ALR-SOI", "MCN-ALR", "MCN-SOI", "ALR-SOI"],
+        "12434": ["PPH-PPR", "PPR-PPH"],
+        "12441": ["PPR-PSK", "PSK-PPR"],
+        "12442": ["ALF-PSK", "PSK-ALF"],
+        "12443": ["TSA-SWB", "SWB-TSA"],
+        "12444": ["HSB-DEP", "DEP-HSB", "HSB-NAN", "NAN-HSB"]
+      }
+    }
+  ]
+}

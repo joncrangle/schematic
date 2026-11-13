@@ -1,0 +1,2003 @@
+{
+  "cases": [
+    {
+      "name": "retains heading sections, duplicates and linked route detours without guessing scope or dates",
+      "html": "<nav><h2>Wrong closure</h2></nav><main><h2>Community Bus Detour (May - Dec)</h2><div><p>Use <b>Library</b> &amp; Church.</p></div><h3>Citywide</h3><p><strong>Detour (May - Dec)</strong></p><p><a href=\"/map.pdf\">Clockwise map</a></p><h2>Community Bus Detour (May - Dec)</h2><p>Use <b>Library</b> &amp; Church.</p><h2>Information</h2><p>Schedules</p></main>",
+      "notices": [
+        {
+          "title": "Community Bus Detour (May - Dec)",
+          "description": "Use Library & Church."
+        },
+        {
+          "title": "Citywide",
+          "description": "Detour (May - Dec)\n[Clockwise map](https://example.test/map.pdf)"
+        }
+      ]
+    },
+    {
+      "name": "fails a missing board",
+      "html": "<h2>Detour</h2><p>Use Main.</p>",
+      "error": true
+    },
+    {
+      "name": "does not infer recovery from removed notices",
+      "html": "<main><h2>Schedules</h2><p>Route maps.</p></main>",
+      "error": true
+    },
+    {
+      "name": "fails a notice with missing body",
+      "html": "<main><h2>Road closure</h2></main>",
+      "error": true
+    },
+    {
+      "name": "ignores executable text",
+      "html": "<main><h2>East Street Detour</h2><p>Use <script>bad()</script> Church.<style>bad</style></p></main>",
+      "notices": [
+        {
+          "title": "East Street Detour",
+          "description": "Use Church."
+        }
+      ]
+    },
+    {
+      "name": "matches declared route names at word boundaries without reading street numbers as routes",
+      "html": "<main><h2>Central Bus Detour</h2><p>Use Eastside bus at 70 Main Street, not Eastsider.</p></main>",
+      "routeNames": {
+        "8": [
+          "Central Bus"
+        ],
+        "4": [
+          "Eastside"
+        ],
+        "5": [
+          "Eastsider Extended"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Central Bus Detour",
+          "description": "Use Eastside bus at 70 Main Street, not Eastsider.",
+          "routeIds": [
+            "4",
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "recognizes Service-alert",
+      "html": "<main><h2>Service-alert</h2><p>Use Main Street.</p></main>",
+      "notices": [
+        {
+          "title": "Service-alert",
+          "description": "Use Main Street."
+        }
+      ]
+    },
+    {
+      "name": "recognizes Service: alert",
+      "html": "<main><h2>Service: alert</h2><p>Use Main Street.</p></main>",
+      "notices": [
+        {
+          "title": "Service: alert",
+          "description": "Use Main Street."
+        }
+      ]
+    },
+    {
+      "name": "recognizes Service disruption",
+      "html": "<main><h2>Service disruption</h2><p>Use Main Street.</p></main>",
+      "notices": [
+        {
+          "title": "Service disruption",
+          "description": "Use Main Street."
+        }
+      ]
+    },
+    {
+      "name": "excludes routine schedule navigation before a detour and retains usable links",
+      "html": "<main><h3>River Loop</h3><p><a href=\"/regular.pdf\">Clockwise Route Map and Schedule</a></p><p><strong>Detour (May - Dec)</strong></p><p><a href=\"/detour.pdf\">Clockwise detour map</a></p></main>",
+      "notices": [
+        {
+          "title": "River Loop",
+          "description": "Detour (May - Dec)\n[Clockwise detour map](https://example.test/detour.pdf)"
+        }
+      ]
+    },
+    {
+      "name": "retains unsafe link labels without executable destinations",
+      "html": "<main><h2>Road closure</h2><p>Use <a href=\"javascript:alert(1)\">Main Street</a>.</p></main>",
+      "notices": [
+        {
+          "title": "Road closure",
+          "description": "Use Main Street."
+        }
+      ]
+    },
+    {
+      "name": "recognizes seasonal service changes and route combinations without dates or inferred effects",
+      "html": "<nav><h2>Route Willow not in service over the summer</h2></nav><main><h2>Schedules and Maps</h2><p>Browse route maps and timetables.</p><h2>Route Willow not in service over the summer</h2><p>Route Willow will not operate over the summer because of seasonal schedule adjustments. Check <a href=\"/willow.pdf\">the Route Willow timetable</a>.</p><h2>Route Ash has been combined with Route Cedar on Saturdays</h2><p>The Saturday service combination is part of seasonal schedule adjustments.</p><h2>Route Birch and Route Elm have been combined into an on-demand service after 6 p.m.</h2><p>The schedule change applies after 6 p.m. and all day Sunday.</p><h2>How It Works</h2><p>Download the app and book a ride.</p><h3>Book a Ride</h3><p>Enter pickup and destination locations.</p><h3>Ride Alerts</h3><p>Set up text alerts for rides you book.</p></main>",
+      "routeNames": {
+        "W": [
+          "Route Willow"
+        ],
+        "A": [
+          "Route Ash"
+        ],
+        "C": [
+          "Route Cedar"
+        ],
+        "B": [
+          "Route Birch"
+        ],
+        "E": [
+          "Route Elm"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Route Willow not in service over the summer",
+          "description": "Route Willow will not operate over the summer because of seasonal schedule adjustments. Check [the Route Willow timetable](https://example.test/willow.pdf).",
+          "routeIds": [
+            "W"
+          ]
+        },
+        {
+          "title": "Route Ash has been combined with Route Cedar on Saturdays",
+          "description": "The Saturday service combination is part of seasonal schedule adjustments.",
+          "routeIds": [
+            "A",
+            "C"
+          ]
+        },
+        {
+          "title": "Route Birch and Route Elm have been combined into an on-demand service after 6 p.m.",
+          "description": "The schedule change applies after 6 p.m. and all day Sunday.",
+          "routeIds": [
+            "B",
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "does not treat standing schoolday and holiday schedules as incident notices",
+      "html": "<main><h2>Schoolday-only route</h2><p>The Pine Shuttle runs while classes are in session and does not run on weekends or school breaks.</p><h2>2026 Holiday Schedule</h2><p>Winter Day: no bus service. The next day follows the regular schedule.</p></main>",
+      "error": true
+    },
+    {
+      "name": "reads dated h4 notices with lists and tables without attaching dates to adjacent posts",
+      "html": "<main><p>October 14, 2026</p><h4>Winter timetable</h4><p>Trains run four days.</p><table><tr><th>Departure</th><td><a href=\"/timetable.pdf\">9:00 am</a></td></tr></table><hr><p>September 8, 2026</p><h4>Station hours</h4><p>The ticket office closes at six.</p><hr><p>August 25, 2026</p><h4>Coach schedules</h4><p>Minor changes:</p><ul><li>Routes 11 and 12 between Central and Bay</li></ul></main>",
+      "routeNames": {
+        "11": [
+          "Routes 11 and 12"
+        ],
+        "12": [
+          "Routes 11 and 12"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Winter timetable",
+          "description": "Trains run four days.\nDeparture [9:00 am](https://example.test/timetable.pdf)",
+          "startsAt": 1791936000000
+        },
+        {
+          "title": "Station hours",
+          "description": "The ticket office closes at six.",
+          "startsAt": 1788825600000
+        },
+        {
+          "title": "Coach schedules",
+          "description": "Minor changes:\nRoutes 11 and 12 between Central and Bay",
+          "routeIds": [
+            "11",
+            "12"
+          ],
+          "startsAt": 1787616000000
+        }
+      ]
+    },
+    {
+      "name": "dated notice missing body fails the complete board",
+      "html": "<main><p>October 14, 2026</p><h4>Station hours</h4><hr></main>",
+      "error": true
+    },
+    {
+      "name": "station hours remain scoped to named stops without route disruption",
+      "html": "<main><p>October 14, 2026</p><h4>Bay Station operating hours</h4><p>The ticket office closes at six.</p></main>",
+      "stopNames": {
+        "stop-1": [
+          "Bay Station"
+        ],
+        "stop-2": [
+          "Bayou Station"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Bay Station operating hours",
+          "description": "The ticket office closes at six.",
+          "affectedStations": [
+            "stop-1"
+          ],
+          "startsAt": 1791936000000,
+          "targets": [
+            {
+              "stopId": "stop-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "keeps different dated posts with the same title separate",
+      "html": "<main><p>October 14, 2026</p><h4>Station hours</h4><p>The office opens at nine.</p><hr><p>October 13, 2026</p><h4>Station hours</h4><p>The office opens at ten.</p></main>",
+      "notices": [
+        {
+          "title": "Station hours",
+          "description": "The office opens at nine.",
+          "startsAt": 1791936000000
+        },
+        {
+          "title": "Station hours",
+          "description": "The office opens at ten.",
+          "startsAt": 1791849600000
+        }
+      ]
+    },
+    {
+      "name": "rejects invalid calendar dates",
+      "html": "<main><p>February 30, 2026</p><h4>Station hours</h4><p>Office closes at six.</p></main>",
+      "error": true
+    },
+    {
+      "name": "scopes named stations in the body without treating destination prose as a station notice",
+      "html": "<main><p>October 14, 2026</p><h4>Notice of construction work</h4><p>Work at Central Station changes the pedestrian entrance.</p><hr><p>October 13, 2026</p><h4>Winter timetable</h4><p>Trains depart Central at nine.</p></main>",
+      "stopNames": {
+        "central": [
+          "Central"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Notice of construction work",
+          "description": "Work at Central Station changes the pedestrian entrance.",
+          "startsAt": 1791936000000,
+          "affectedStations": [
+            "central"
+          ],
+          "targets": [
+            {
+              "stopId": "central"
+            }
+          ]
+        },
+        {
+          "title": "Winter timetable",
+          "description": "Trains depart Central at nine.",
+          "startsAt": 1791849600000,
+          "affectedStations": [],
+          "targets": []
+        }
+      ]
+    },
+    {
+      "name": "retains a route adjustment and its added and removed stops",
+      "html": "<main><h3>New stops have launched</h3><p>The Amber route has expanded. Three stops were removed as part of the route adjustment.</p><table><tr><td>Stops added</td></tr><tr><td><ul><li>Hill Street</li><li>College Avenue</li></ul></td></tr></table><h3>Mobile app</h3><p>Download our app.</p></main>",
+      "routeNames": {
+        "A": [
+          "Amber route"
+        ]
+      },
+      "notices": [
+        {
+          "title": "New stops have launched",
+          "description": "The Amber route has expanded. Three stops were removed as part of the route adjustment.\nStops added\nHill Street College Avenue",
+          "routeIds": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "retains fleet status tables and accessible ride instructions without inferring route suspension",
+      "html": "<main><h2>Transit route status</h2><p>Latest bus information.</p><table><tr><td>Buses on the road</td></tr><tr><td><ul><li>Bus 901</li></ul></td></tr><tr><td>Replacement buses on the road</td></tr><tr><td>8211 - Amber Route</td></tr><tr><td>Buses off the road</td></tr><tr><td>Bus 801</td></tr></table><p>Call for an accessible van.</p><hr><p>Unrelated content.</p></main>",
+      "routeNames": {
+        "A": [
+          "Amber Route"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Transit route status",
+          "description": "Latest bus information.\nBuses on the road\nBus 901\nReplacement buses on the road\n8211 - Amber Route\nBuses off the road\nBus 801\nCall for an accessible van.",
+          "routeIds": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bounds dated CMS articles to their body and stated period",
+      "html": "<main><h1>Bridge access closure</h1><section class=\"gs-news-details-meta\"><span class=\"gs-news-details-date\">Nov 05, 2024</span></section><section class=\"usn_cmp_text\"><div class=\"text\"><p>Construction is expected from November 6 to November 9.</p><h2>Road closures</h2><p>Use <a href=\"/detour.pdf\">the detour map</a>.</p></div></section><section class=\"usn_cmp_reusablecomponents\"><p>Subscribe to our newsletter.</p></section></main>",
+      "timeZone": "America/Toronto",
+      "notices": [
+        {
+          "title": "Bridge access closure",
+          "description": "Construction is expected from November 6 to November 9.\nRoad closures\nUse [the detour map](https://example.test/detour.pdf).",
+          "startsAt": 1730869200000,
+          "endsAt": 1731214799000
+        }
+      ]
+    },
+    {
+      "name": "fails a permanent article without a stated retirement",
+      "html": "<main><h1>Bridge access closure</h1><section class=\"gs-news-details-meta\"><span class=\"gs-news-details-date\">Nov 05, 2024</span></section><section class=\"usn_cmp_text\"><div class=\"text\"><p>Construction is expected soon.</p><h2>Road closures</h2><p>Use <a href=\"/detour.pdf\">the detour map</a>.</p></div></section><section class=\"usn_cmp_reusablecomponents\"><p>Subscribe to our newsletter.</p></section></main>",
+      "error": true
+    },
+    {
+      "name": "requires main content around dated articles",
+      "html": "<h1>Bridge access closure</h1><section class=\"gs-news-details-meta\"><span class=\"gs-news-details-date\">Nov 05, 2024</span></section><section class=\"usn_cmp_text\"><div class=\"text\"><p>Construction is expected from November 6 to November 9.</p><h2>Road closures</h2><p>Use <a href=\"/detour.pdf\">the detour map</a>.</p></div></section><section class=\"usn_cmp_reusablecomponents\"><p>Subscribe to our newsletter.</p></section>",
+      "error": true
+    },
+    {
+      "name": "ignores dates before and after the stated article range",
+      "html": "<main><h1>Bridge access closure</h1><section class=\"gs-news-details-meta\"><span class=\"gs-news-details-date\">Nov 05, 2024</span></section><section class=\"usn_cmp_text\"><div class=\"text\"><p>A previous phase ended September 30. Construction from November 6 to November 9. Another phase begins December 15.</p><h2>Road closures</h2><p>Use <a href=\"/detour.pdf\">the detour map</a>.</p></div></section><section class=\"usn_cmp_reusablecomponents\"><p>Subscribe to our newsletter.</p></section></main>",
+      "timeZone": "America/Toronto",
+      "notices": [
+        {
+          "title": "Bridge access closure",
+          "description": "A previous phase ended September 30. Construction from November 6 to November 9. Another phase begins December 15.\nRoad closures\nUse [the detour map](https://example.test/detour.pdf).",
+          "startsAt": 1730869200000,
+          "endsAt": 1731214799000
+        }
+      ]
+    },
+    {
+      "name": "skips non-date diversion endpoints before the stated period",
+      "html": "<main><h1>Bridge access closure</h1><section class=\"gs-news-details-meta\"><span class=\"gs-news-details-date\">Nov 05, 2024</span></section><section class=\"usn_cmp_text\"><div class=\"text\"><p>Buses divert from Main Street to Park Road.</p><p>Construction from November 6 to November 9.</p><h2>Road closures</h2><p>Use <a href=\"/detour.pdf\">the detour map</a>.</p></div></section><section class=\"usn_cmp_reusablecomponents\"><p>Subscribe to our newsletter.</p></section></main>",
+      "timeZone": "America/Toronto",
+      "notices": [
+        {
+          "title": "Bridge access closure",
+          "description": "Buses divert from Main Street to Park Road.\nConstruction from November 6 to November 9.\nRoad closures\nUse [the detour map](https://example.test/detour.pdf).",
+          "startsAt": 1730869200000,
+          "endsAt": 1731214799000
+        }
+      ]
+    },
+    {
+      "name": "rejects an ambiguous year-crossing article period",
+      "html": "<main><h1>Bridge access closure</h1><section class=\"gs-news-details-meta\"><span class=\"gs-news-details-date\">Nov 05, 2024</span></section><section class=\"usn_cmp_text\"><div class=\"text\"><p>Construction from December 20 to January 5.</p><h2>Road closures</h2><p>Use <a href=\"/detour.pdf\">the detour map</a>.</p></div></section><section class=\"usn_cmp_reusablecomponents\"><p>Subscribe to our newsletter.</p></section></main>",
+      "timeZone": "America/Toronto",
+      "error": true
+    },
+    {
+      "name": "does not borrow an unrelated publication date",
+      "html": "<main><h1>Bridge access closure</h1><section class=\"gs-news-details-meta\"></section><section class=\"usn_cmp_text\"><div class=\"text\"><p>Construction is expected from November 6 to November 9.</p><h2>Road closures</h2><p>Use <a href=\"/detour.pdf\">the detour map</a>.</p></div></section><section class=\"usn_cmp_reusablecomponents\"><p>Subscribe to our newsletter.</p></section><aside class=\"gs-news-details-date\">Nov 05, 2024</aside></main>",
+      "timeZone": "America/Toronto",
+      "error": true
+    },
+    {
+      "name": "retires a dated holiday service suspension after its stated day",
+      "html": "<main><h1>Heritage Day affected services</h1><section class=\"gs-news-details-meta\"><span class=\"gs-news-details-date\">Thursday, October 08, 2026</span></section><section class=\"usn_cmp_text\"><h2>City Transit</h2><p>There will be no City Transit service on Monday, October 12.</p></section><footer>Subscribe</footer></main>",
+      "notices": [
+        {
+          "title": "Heritage Day affected services",
+          "description": "City Transit\nThere will be no City Transit service on Monday, October 12.",
+          "startsAt": 1791777600000,
+          "endsAt": 1791863999000
+        }
+      ],
+      "timeZone": "America/Toronto"
+    },
+    {
+      "name": "bounds AEM closure components and excludes FAQ prose",
+      "html": "<div class=\"maincontentparct\"><div class=\"text parbase\"><h3>Oct 24-25: East to Central closure</h3><p>Affected routes: Blue Line</p><p>Replacement buses between East and Central.</p><p><a href=\"/shuttle.pdf\">Shuttle map</a></p></div><div class=\"accordion\"><h3>Why closures?</h3><p>Closures maintain the railway.</p></div></div>",
+      "routeNames": {
+        "B": [
+          "Blue Line"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Oct 24-25: East to Central closure",
+          "description": "Affected routes: Blue Line\nReplacement buses between East and Central.\n[Shuttle map](https://example.test/shuttle.pdf)",
+          "routeIds": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reads equipment rows and prefers the named affected station over a shuttle destination",
+      "html": "<div class=\"maincontentparct\"><div class=\"text parbase\"><h2>Planned elevator outages</h2></div><div class=\"table-v2\"><table><thead><tr><th>Location</th><th>Outage Start Date</th><th>Expected In-Service Date</th></tr></thead><tbody><tr><td>East Station</td><td>October 19</td><td>November 6</td></tr></tbody></table></div><div class=\"alert-body\"><h2>Information | <span class=\"title-text\">East Station elevator temporarily closed</span></h2><p>Use a shuttle to Central Station.</p><a href=\"/replacement.pdf\">Replacement map</a></div><div class=\"text parbase\"><h2>Planned escalator outages</h2></div><div class=\"table-v2\"><table><thead><tr><th>Location</th><th>Direction</th><th>Outage Start Date</th><th>Expected In-Service Date</th></tr></thead><tbody><tr><td><span class=\"table-label\">Location: </span>West Station - Train side escalator</td><td>Up</td><td>September 14, 2026</td><td>December 15, 2026</td></tr></tbody></table></div></div>",
+      "stopNames": {
+        "East": [
+          "East"
+        ],
+        "Central": [
+          "Central"
+        ],
+        "West": [
+          "West"
+        ]
+      },
+      "notices": [
+        {
+          "title": "East Station elevator temporarily closed",
+          "description": "Use a shuttle to Central Station.\n[Replacement map](https://example.test/replacement.pdf)",
+          "affectedStations": [
+            "East"
+          ],
+          "targets": [
+            {
+              "stopId": "East"
+            }
+          ]
+        },
+        {
+          "title": "East Station elevator outage | October 19 - November 6",
+          "description": "Location: East Station\nOutage Start Date: October 19\nExpected In-Service Date: November 6",
+          "affectedStations": [
+            "East"
+          ],
+          "targets": [
+            {
+              "stopId": "East"
+            }
+          ]
+        },
+        {
+          "title": "West Station - Train side escalator outage | September 14, 2026 - December 15, 2026",
+          "description": "Location: West Station - Train side escalator\nDirection: Up\nOutage Start Date: September 14, 2026\nExpected In-Service Date: December 15, 2026",
+          "affectedStations": [
+            "West"
+          ],
+          "targets": [
+            {
+              "stopId": "West"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rejects an AEM FAQ without an advisory",
+      "html": "<div class=\"maincontentparct\"><div class=\"text parbase\"><h2>Why closures?</h2><p>Learn about maintenance.</p></div></div>",
+      "error": true
+    },
+    {
+      "name": "uses an explicit station caption rather than just the endpoints in a heading",
+      "html": "<div class=\"maincontentparct\"><div class=\"text parbase\"><h3>East to West closure</h3><p>Affected stations: East, Central, West</p><p>Use replacement buses.</p></div></div>",
+      "stopNames": {
+        "East": [
+          "East"
+        ],
+        "Central": [
+          "Central"
+        ],
+        "West": [
+          "West"
+        ]
+      },
+      "notices": [
+        {
+          "title": "East to West closure",
+          "description": "Affected stations: East, Central, West\nUse replacement buses.",
+          "affectedStations": [
+            "Central",
+            "East",
+            "West"
+          ],
+          "targets": [
+            {
+              "stopId": "Central"
+            },
+            {
+              "stopId": "East"
+            },
+            {
+              "stopId": "West"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "preserves a second station explicitly closed in the body",
+      "html": "<main><h3>East Station closure</h3><p>East Station and West Station are closed for maintenance.</p></main>",
+      "stopNames": {
+        "East": [
+          "East"
+        ],
+        "West": [
+          "West"
+        ]
+      },
+      "notices": [
+        {
+          "title": "East Station closure",
+          "description": "East Station and West Station are closed for maintenance.",
+          "affectedStations": [
+            "East",
+            "West"
+          ],
+          "targets": [
+            {
+              "stopId": "East"
+            },
+            {
+              "stopId": "West"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rejects a header-only outage table even beside a valid notice",
+      "html": "<div class=\"maincontentparct\"><div class=\"alert-body\"><h2>East Station elevator outage</h2><p>Use the shuttle.</p></div><div class=\"text parbase\"><h2>Planned escalator outages</h2></div><table><tr><th>Location</th><th>Outage Start Date</th><th>Expected In-Service Date</th></tr></table></div>",
+      "error": true
+    },
+    {
+      "name": "keeps successive equipment outages with different published periods",
+      "html": "<div class=\"maincontentparct\"><div class=\"text parbase\"><h2>Planned elevator outages</h2></div><table><tr><th>Location</th><th>Outage Start Date</th><th>Expected In-Service Date</th></tr><tr><td>East Station</td><td>October 19</td><td>October 20</td></tr><tr><td>East Station</td><td>November 2</td><td>November 3</td></tr></table></div>",
+      "notices": [
+        {
+          "title": "East Station elevator outage | October 19 - October 20",
+          "description": "Location: East Station\nOutage Start Date: October 19\nExpected In-Service Date: October 20"
+        },
+        {
+          "title": "East Station elevator outage | November 2 - November 3",
+          "description": "Location: East Station\nOutage Start Date: November 2\nExpected In-Service Date: November 3"
+        }
+      ]
+    },
+    {
+      "name": "excludes a shuttle destination in a later sentence of the closure paragraph",
+      "html": "<main><h3>East Station elevator outage</h3><p>The elevator is closed. Take a shuttle to West Station.</p></main>",
+      "stopNames": {
+        "East": [
+          "East"
+        ],
+        "West": [
+          "West"
+        ]
+      },
+      "notices": [
+        {
+          "title": "East Station elevator outage",
+          "description": "The elevator is closed. Take a shuttle to West Station.",
+          "affectedStations": [
+            "East"
+          ],
+          "targets": [
+            {
+              "stopId": "East"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "keeps independently bounded accordion notices outside main without trusting the all-clear header",
+      "html": "<main><p>Regular service.</p></main><div class=\"accordion-module\"><h2>Rail Service Alerts</h2><div class=\"accordion__section\"><a class=\"accordion__section__title\">Blue Line - October 24</a><div class=\"accordion__section__content\"><p>Trains will not be running between East and West stations.</p><ul><li>Use replacement buses.</li></ul></div></div></div><div class=\"accordion-module\"><h2>Bus Service Alerts</h2><div class=\"accordion__section\"><a class=\"accordion__section__title\">General Detours</a><div class=\"accordion__section__content\"><p>No general detours in effect.</p></div></div><div class=\"accordion__section\"><a class=\"accordion__section__title\">Route 2 - Glen</a><div class=\"accordion__section__content\"><p>Route 2 is on detour.</p></div></div></div><div class=\"accordion-module\"><h2>Replacement service</h2><div class=\"accordion__section\"><a class=\"accordion__section__title\">How to ride</a><div class=\"accordion__section__content\"><p>Look for detour signs.</p></div></div></div>",
+      "routeNames": {
+        "blue": [
+          "Blue Line"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Blue Line - October 24",
+          "description": "Trains will not be running between East and West stations.\nUse replacement buses.",
+          "routeIds": [
+            "blue"
+          ]
+        },
+        {
+          "title": "Route 2 - Glen",
+          "description": "Route 2 is on detour."
+        }
+      ]
+    },
+    {
+      "name": "does not turn an empty accordion board into recovery",
+      "html": "<main></main><div class=\"accordion-module\"><h2>Service Alerts</h2><div class=\"accordion__section\"><a class=\"accordion__section__title\">General Detours</a><div class=\"accordion__section__content\"><p>No general detours in effect.</p></div></div></div>",
+      "error": true
+    },
+    {
+      "name": "fails a malformed accordion incident",
+      "html": "<main></main><div class=\"accordion-module\"><h2>Service Alerts</h2><div class=\"accordion__section\"><a class=\"accordion__section__title\">Rail closure</a></div></div>",
+      "error": true
+    },
+    {
+      "name": "keeps each closed stop route pair and excludes replacement boarding columns",
+      "html": "<main><h3>Stop closure</h3><p>Stops closed.</p><ul><li>Bus stop #10 - Route 8</li><li>Bus stop #20 - Routes 10 and 12</li></ul><table><caption class=\"hide-caption\">table info</caption><tr><th>Closed bus stops:</th><th>Temporary bus stops:</th></tr><tr><td>Bus Stop #30</td><td>Bus Stop #99</td></tr></table></main>",
+      "routeNames": {
+        "A": [
+          "Route 8"
+        ],
+        "B": [
+          "Routes 10 and 12"
+        ],
+        "C": [
+          "Routes 10 and 12"
+        ]
+      },
+      "stopNames": {},
+      "notices": [
+        {
+          "title": "Stop closure",
+          "description": "Stops closed.\nBus stop #10 - Route 8\nBus stop #20 - Routes 10 and 12\nClosed bus stops: Temporary bus stops:\nBus Stop #30 Bus Stop #99",
+          "routeIds": [
+            "A",
+            "B",
+            "C"
+          ],
+          "affectedStations": [],
+          "targets": [
+            {
+              "stopId": "10",
+              "routeId": "A"
+            },
+            {
+              "stopId": "20",
+              "routeId": "B"
+            },
+            {
+              "stopId": "20",
+              "routeId": "C"
+            },
+            {
+              "stopId": "30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "does not attribute a shuttle boarding station from a plural closure reference",
+      "html": "<main><h3>Elevator outage</h3><p>Shuttle buses serve East Station during closures.</p></main>",
+      "stopNames": {
+        "east": [
+          "East"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Elevator outage",
+          "description": "Shuttle buses serve East Station during closures.",
+          "affectedStations": [],
+          "targets": []
+        }
+      ]
+    },
+    {
+      "name": "merges closed-stop targets across repeated responsive headings",
+      "html": "<main><h3>Stop closure</h3><p>Bus stop #10 - Route 8 is closed.</p><h3>Stop closure</h3><p>Bus stop #20 - Route 8 is closed.</p></main>",
+      "routeNames": {
+        "A": [
+          "Route 8"
+        ]
+      },
+      "stopNames": {},
+      "notices": [
+        {
+          "title": "Stop closure",
+          "description": "Bus stop #10 - Route 8 is closed.\nBus stop #20 - Route 8 is closed.",
+          "routeIds": [
+            "A"
+          ],
+          "affectedStations": [],
+          "targets": [
+            {
+              "stopId": "10",
+              "routeId": "A"
+            },
+            {
+              "stopId": "20",
+              "routeId": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "does not turn a replacement boarding reference after a closure into a closed stop",
+      "html": "<main><h3>Terminal closure</h3><p>The terminal is closed; board at Bus stop #99 - Route 8.</p></main>",
+      "routeNames": {
+        "A": [
+          "Route 8"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Terminal closure",
+          "description": "The terminal is closed; board at Bus stop #99 - Route 8.",
+          "routeIds": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "separates dated route entries in a published article",
+      "html": "<main><article class=\"primary-content\"><header class=\"blog-post__header\"><span class=\"date\">Sep 30, 2026</span><h3>Season changes</h3></header><ul><li>Route 8: Suspended from October 13 to approximately November 30.</li><li>Route 3: Schedule change starting October 5.</li><li>Route 5: Ends service on October 4.</li></ul></article></main>",
+      "timeZone": "America/Edmonton",
+      "routeNames": {
+        "8": [
+          "Route 8"
+        ],
+        "3": [
+          "Route 3"
+        ],
+        "5": [
+          "Route 5"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Route 8",
+          "description": "Route 8: Suspended from October 13 to approximately November 30.",
+          "routeIds": [
+            "8"
+          ],
+          "startsAt": 1791871200000
+        },
+        {
+          "title": "Route 3",
+          "description": "Route 3: Schedule change starting October 5.",
+          "routeIds": [
+            "3"
+          ],
+          "startsAt": 1791180000000
+        },
+        {
+          "title": "Route 5",
+          "description": "Route 5: Ends service on October 4.",
+          "routeIds": [
+            "5"
+          ],
+          "startsAt": 1791180000000
+        }
+      ]
+    },
+    {
+      "name": "fails an article with an unreadable route entry",
+      "html": "<main><article class=\"primary-content\"><header class=\"blog-post__header\"><span class=\"date\">Sep 30, 2026</span><h3>Changes</h3></header><ul><li>Unreadable</li></ul></article></main>",
+      "error": true
+    },
+    {
+      "name": "reads dated update cards without widening a stop closure to a route",
+      "now": 1793059200000,
+      "timeZone": "UTC",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 19 3:51pm</h4><p>East Stop is closed today until further notice.</p></div><div class=\"service-update\"><h4>October 18 1:26pm</h4><p>Route 8: West Stop is closed for today.</p></div></main>",
+      "routeNames": {
+        "8": [
+          "Route 8"
+        ]
+      },
+      "stopNames": {
+        "east": [
+          "East Stop"
+        ],
+        "west": [
+          "West Stop"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 19 3:51pm: East Stop is closed today until further notice.",
+          "description": "East Stop is closed today until further notice.",
+          "startsAt": 1792425060000,
+          "updatedAt": 1792425060000,
+          "affectedStations": [
+            "east"
+          ],
+          "targets": [
+            {
+              "stopId": "east"
+            }
+          ]
+        },
+        {
+          "title": "October 18 1:26pm: Route 8: West Stop is closed for today.",
+          "description": "Route 8: West Stop is closed for today.",
+          "startsAt": 1792329960000,
+          "endsAt": 1792367999000,
+          "updatedAt": 1792329960000,
+          "affectedStations": [
+            "west"
+          ],
+          "targets": [
+            {
+              "stopId": "west",
+              "routeId": "8"
+            }
+          ],
+          "routeIds": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "uncertain archive bounded cards do not persist or erase independent closure",
+      "now": 1824595200000,
+      "error": true,
+      "html": "<main><div class=\"service-update\"><h4>October 19 3:51pm</h4><p>East Stop is closed today until further notice.</p></div><div class=\"service-update\"><h4>October 18 1:26pm</h4><p>Route 8: West Stop is closed for today.</p></div><div class=\"service-update\"><h4>October 17 5:00pm</h4><p>Route 8 is closed until October 18.</p></div><div class=\"service-update\"><h4>October 17 4:00pm</h4><p>Route 8 is closed until 21:00PM.</p></div><div class=\"service-update\"><h4>October 17 3:00pm</h4><p>Route 8: no closures.</p></div></main>",
+      "routeNames": {
+        "8": [
+          "Route 8"
+        ]
+      },
+      "stopNames": {
+        "east": [
+          "East Stop"
+        ],
+        "west": [
+          "West Stop"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 19 3:51pm: East Stop is closed today until further notice.",
+          "description": "East Stop is closed today until further notice.",
+          "affectedStations": [
+            "east"
+          ],
+          "targets": [
+            {
+              "stopId": "east"
+            }
+          ]
+        }
+      ],
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      }
+    },
+    {
+      "name": "Edmonton dated article end after timezone change",
+      "timeZone": "America/Edmonton",
+      "html": "<main><article class=\"primary-content\"><header class=\"blog-post__header\"><span class=\"date\">Sep 30, 2026</span><h3>Changes</h3></header><ul><li>Route 8: Suspended from October 13 to November 30.</li></ul></article></main>",
+      "routeNames": {
+        "8": [
+          "Route 8"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Route 8",
+          "description": "Route 8: Suspended from October 13 to November 30.",
+          "routeIds": [
+            "8"
+          ],
+          "startsAt": 1791871200000,
+          "endsAt": 1796104799000
+        }
+      ]
+    },
+    {
+      "name": "rejects an update card with an impossible calendar date",
+      "html": "<main><div class=\"service-update\"><h4>February 30 3:51pm</h4><p>East Stop is closed.</p></div></main>",
+      "error": true,
+      "now": 1793102400000,
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      }
+    },
+    {
+      "name": "uses the fixed archive year for a same-day explicit clock retirement",
+      "now": 1793102400000,
+      "timeZone": "America/Edmonton",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 16 7:52pm</h4><p>Route 1 closure until 21:00PM.</p></div></main>",
+      "routeNames": {
+        "1": [
+          "Route 1"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 16 7:52pm: Route 1 closure until 21:00PM.",
+          "description": "Route 1 closure until 21:00PM.",
+          "startsAt": 1792201920000,
+          "updatedAt": 1792201920000,
+          "endsAt": 1792206000000,
+          "routeIds": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "explicit clock retirement wins over today fallback",
+      "now": 1793102400000,
+      "timeZone": "America/Edmonton",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 16 7:52pm</h4><p>Route 1 is suspended today until 21:00PM.</p></div></main>",
+      "routeNames": {
+        "1": [
+          "Route 1"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 16 7:52pm: Route 1 is suspended today until 21:00PM.",
+          "description": "Route 1 is suspended today until 21:00PM.",
+          "startsAt": 1792201920000,
+          "updatedAt": 1792201920000,
+          "endsAt": 1792206000000,
+          "routeIds": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "uses a same-day to clock as the explicit retirement",
+      "now": 1793102400000,
+      "timeZone": "America/Edmonton",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 14 9:00am</h4><p>Route 7 will be temporarily suspended today, October 14, from 4:51 p.m. to 6:53 p.m.</p></div></main>",
+      "routeNames": {
+        "7": [
+          "Route 7"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 14 9:00am: Route 7 will be temporarily suspended today, October 14, from 4:51 p.m.",
+          "description": "Route 7 will be temporarily suspended today, October 14, from 4:51 p.m. to 6:53 p.m.",
+          "startsAt": 1792018260000,
+          "updatedAt": 1791990000000,
+          "endsAt": 1792025580000,
+          "routeIds": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "does not let a malformed no-closures card pass as a recovery",
+      "html": "<main><div class=\"service-update\"><p>Route 1: no closures.</p></div></main>",
+      "error": true,
+      "now": 1793102400000,
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      }
+    },
+    {
+      "name": "rejects a publication reference whose dates use another year",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2025-09-30",
+        "validThrough": "2025-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 16 7:52pm</h4><p>Route 1 is suspended today.</p></div></main>",
+      "error": true,
+      "now": 1793102400000
+    },
+    {
+      "name": "rejects an update card with an unknown month",
+      "html": "<main><div class=\"service-update\"><h4>Imaginary 19 3:51pm</h4><p>East Stop is closed.</p></div></main>",
+      "error": true,
+      "now": 1793102400000,
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      }
+    },
+    {
+      "name": "rejects update card missing publication heading",
+      "html": "<main><div class=\"service-update\"><p>East Stop is closed.</p></div></main>",
+      "error": true,
+      "now": 1793102400000,
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      }
+    },
+    {
+      "name": "reads all routes in an explicit plural restoration list",
+      "now": 1793102400000,
+      "timeZone": "UTC",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 21 11:33am</h4><p>Routes 1, 2 and B8 have moved back to North Hub.</p></div></main>",
+      "routeNames": {
+        "1": [
+          "Route 1"
+        ],
+        "2": [
+          "Route 2"
+        ],
+        "B8": [
+          "Route B8",
+          "B8"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 21 11:33am: Routes 1, 2 and B8 have moved back to North Hub.",
+          "description": "Routes 1, 2 and B8 have moved back to North Hub.",
+          "startsAt": 1792582380000,
+          "updatedAt": 1792582380000,
+          "routeIds": [
+            "1",
+            "2",
+            "B8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bounds a published list of cancelled departures regardless of word order",
+      "now": 1793102400000,
+      "timeZone": "UTC",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 21 11:33am</h4><p>We will be cancelling the following B8 bus routes: 4:30pm and 5:37pm.</p></div></main>",
+      "routeNames": {
+        "B8": [
+          "B8"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 21 11:33am: We will be cancelling the following B8 bus routes: 4:30pm and 5:37pm.",
+          "description": "We will be cancelling the following B8 bus routes: 4:30pm and 5:37pm.",
+          "startsAt": 1792582380000,
+          "updatedAt": 1792582380000,
+          "routeIds": [
+            "B8"
+          ],
+          "endsAt": 1792627199000
+        }
+      ]
+    },
+    {
+      "name": "does not invent a day end for an unbounded service suspension",
+      "now": 1793102400000,
+      "timeZone": "UTC",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 21 11:33am</h4><p>Route 8 service is suspended.</p></div></main>",
+      "routeNames": {
+        "8": [
+          "Route 8"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 21 11:33am: Route 8 service is suspended.",
+          "description": "Route 8 service is suspended.",
+          "startsAt": 1792582380000,
+          "updatedAt": 1792582380000,
+          "routeIds": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "keeps an approximate explicit reopening clock open-ended",
+      "now": 1793102400000,
+      "timeZone": "UTC",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 19 3:51pm</h4><p>Route 1 is closed until 5:00pm approximately, pending clearance.</p></div></main>",
+      "routeNames": {
+        "1": [
+          "Route 1"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 19 3:51pm: Route 1 is closed until 5:00pm approximately, pending clearance.",
+          "description": "Route 1 is closed until 5:00pm approximately, pending clearance.",
+          "startsAt": 1792425060000,
+          "updatedAt": 1792425060000,
+          "routeIds": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "keeps an approximate interval reopening clock open-ended",
+      "now": 1793102400000,
+      "timeZone": "UTC",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "html": "<main><div class=\"service-update\"><h4>October 19 3:51pm</h4><p>Route 1 is closed today from 4:00pm to 5:00pm approximately, pending clearance.</p></div></main>",
+      "routeNames": {
+        "1": [
+          "Route 1"
+        ]
+      },
+      "notices": [
+        {
+          "title": "October 19 3:51pm: Route 1 is closed today from 4:00pm to 5:00pm approximately, pending clearance.",
+          "description": "Route 1 is closed today from 4:00pm to 5:00pm approximately, pending clearance.",
+          "startsAt": 1792425060000,
+          "updatedAt": 1792425060000,
+          "routeIds": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "retains labelled notice body across a separator and reads its service window",
+      "timeZone": "America/Halifax",
+      "routeNames": {
+        "42A": [
+          "42A/B"
+        ],
+        "42B": [
+          "42A/B"
+        ],
+        "99": [
+          "99"
+        ]
+      },
+      "html": "<main><h3>Market Road Detour</h3><p>Route(s): 42A/B</p><p>Start Date: Monday, Oct. 26, 2026<br>End Date: Friday, Oct. 30, 2026</p><p>Time: All-day</p><hr><p>Use Highway 99 during construction.</p></main>",
+      "notices": [
+        {
+          "title": "Market Road Detour",
+          "description": "Route(s): 42A/B\nStart Date: Monday, Oct. 26, 2026 End Date: Friday, Oct. 30, 2026\nTime: All-day\nUse Highway 99 during construction.",
+          "routeIds": [
+            "42A",
+            "42B"
+          ],
+          "periodStartsAt": 1792983600000,
+          "endsAt": 1793415599000
+        }
+      ]
+    },
+    {
+      "name": "splits daily clocked closures into separate windows across a daylight saving boundary",
+      "timeZone": "America/Halifax",
+      "routeNames": {
+        "42A": [
+          "42A/B"
+        ],
+        "42B": [
+          "42A/B"
+        ],
+        "99": [
+          "99"
+        ]
+      },
+      "html": "<main><h3>Elm Road Stop Closure</h3><p>Route(s): 42A/B</p><p>Start Date: Saturday, Oct. 31, 2026<br>End Date: Sunday, Nov. 1, 2026</p><p>Time: 9 a.m. - 4 p.m.</p><hr><p>The stop closes daily. Use the next stop.</p></main>",
+      "notices": [
+        {
+          "id": "https://example.test/board#Elm Road Stop Closure#1793448000000",
+          "title": "Elm Road Stop Closure",
+          "description": "Route(s): 42A/B\nStart Date: Saturday, Oct. 31, 2026 End Date: Sunday, Nov. 1, 2026\nTime: 9 a.m. - 4 p.m.\nThe stop closes daily. Use the next stop.",
+          "routeIds": [
+            "42A",
+            "42B"
+          ],
+          "periodStartsAt": 1793448000000,
+          "endsAt": 1793473200000
+        },
+        {
+          "id": "https://example.test/board#Elm Road Stop Closure#1793538000000",
+          "title": "Elm Road Stop Closure",
+          "description": "Route(s): 42A/B\nStart Date: Saturday, Oct. 31, 2026 End Date: Sunday, Nov. 1, 2026\nTime: 9 a.m. - 4 p.m.\nThe stop closes daily. Use the next stop.",
+          "routeIds": [
+            "42A",
+            "42B"
+          ],
+          "periodStartsAt": 1793538000000,
+          "endsAt": 1793563200000
+        }
+      ]
+    },
+    {
+      "name": "reads embedded transit notices with future detours, trip windows and immediate stop scope",
+      "timeZone": "America/Halifax",
+      "routeNames": {
+        "42": [
+          "42"
+        ],
+        "18": [
+          "18"
+        ]
+      },
+      "html": "<main><div class=\"paragraph--type--transit-service-notice\"><div class=\"field--name-field-tm-rss-pubdate\"><div class=\"field__item\"><time datetime=\"2026-10-28T15:00:00-03:00\"></time></div></div><div class=\"field--name-field-tm-rss-title\"><div class=\"field__item\"><h3>42 Market Outbound is on detour</h3></div></div><div class=\"field--name-field-tm-rss-description\"><div class=\"field__item\">Detour Notice<br>Routes: 42 Market Outbound<br>Date Effective: Wednesday, November 11, 2026 08:30</div></div></div><div class=\"paragraph--type--transit-service-notice\"><div class=\"field--name-field-tm-rss-pubdate\"><div class=\"field__item\"><time datetime=\"2026-10-28T15:00:00-03:00\"></time></div></div><div class=\"field--name-field-tm-rss-title\"><div class=\"field__item\"><h3>Route 42 Inbound trip departing at Wednesday, October 28, 2026 18:15 from Central is cancelled</h3></div></div><div class=\"field--name-field-tm-rss-description\"><div class=\"field__item\">Route 42 Inbound departing at Wednesday, October 28, 2026 18:15 from Central arriving at Wednesday, October 28, 2026 18:52 West is cancelled</div></div></div><div class=\"paragraph--type--transit-service-notice\"><div class=\"field--name-field-tm-rss-pubdate\"><div class=\"field__item\"><time datetime=\"2026-10-28T15:00:00-03:00\"></time></div></div><div class=\"field--name-field-tm-rss-title\"><div class=\"field__item\"><h3>Stop Closure @ 7001</h3></div></div><div class=\"field--name-field-tm-rss-description\"><div class=\"field__item\">Stop Closure Notice<br>Routes: 42 Market<br>Date Effective: Immediate</div></div></div></main>",
+      "notices": [
+        {
+          "title": "42 Market Outbound is on detour",
+          "description": "Detour Notice\nRoutes: 42 Market Outbound\nDate Effective: Wednesday, November 11, 2026 08:30",
+          "routeIds": [
+            "42"
+          ],
+          "periodStartsAt": 1794400200000,
+          "effect": "DETOUR",
+          "targets": [
+            {
+              "routeId": "42",
+              "directionText": "Outbound"
+            }
+          ]
+        },
+        {
+          "title": "Route 42 Inbound trip departing at Wednesday, October 28, 2026 18:15 from Central is cancelled",
+          "description": "Route 42 Inbound departing at Wednesday, October 28, 2026 18:15 from Central arriving at Wednesday, October 28, 2026 18:52 West is cancelled",
+          "routeIds": [
+            "42"
+          ],
+          "periodStartsAt": 1793222100000,
+          "endsAt": 1793224320000,
+          "effect": "NO_SERVICE",
+          "tripScoped": true,
+          "targets": [
+            {
+              "routeId": "42",
+              "directionText": "Inbound"
+            }
+          ]
+        },
+        {
+          "title": "Stop Closure @ 7001",
+          "description": "Stop Closure Notice\nRoutes: 42 Market\nDate Effective: Immediate",
+          "routeIds": [
+            "42"
+          ],
+          "periodStartsAt": 1793210400000,
+          "affectedStations": [
+            "7001"
+          ],
+          "targets": [
+            {
+              "routeId": "42",
+              "stopId": "7001"
+            }
+          ],
+          "stopScoped": true
+        }
+      ]
+    },
+    {
+      "name": "fails an incomplete embedded transit notice",
+      "html": "<main><div class=\"paragraph--type--transit-service-notice\"><h3>Detour</h3></div></main>",
+      "error": true
+    },
+    {
+      "name": "keeps unresolved stops and unrecognized explicit route tokens scoped",
+      "timeZone": "America/Halifax",
+      "routeNames": {
+        "42": [
+          "42"
+        ]
+      },
+      "html": "<main><div class=\"paragraph--type--transit-service-notice\"><div class=\"field--name-field-tm-rss-pubdate\"><div class=\"field__item\"><time datetime=\"2026-10-28T15:00:00-03:00\"></time></div></div><div class=\"field--name-field-tm-rss-title\"><div class=\"field__item\"><h3>Stop closure is closed for construction</h3></div></div><div class=\"field--name-field-tm-rss-description\"><div class=\"field__item\">Stop Closure Notice<br>Routes: 42 Market<br>Date Effective: Immediate</div></div></div><div class=\"paragraph--type--transit-service-notice\"><div class=\"field--name-field-tm-rss-pubdate\"><div class=\"field__item\"><time datetime=\"2026-10-28T15:00:00-03:00\"></time></div></div><div class=\"field--name-field-tm-rss-title\"><div class=\"field__item\"><h3>staff Outbound is on detour</h3></div></div><div class=\"field--name-field-tm-rss-description\"><div class=\"field__item\">Detour Notice<br>Routes: staff Outbound<br>Date Effective: Immediate</div></div></div></main>",
+      "notices": [
+        {
+          "title": "Stop closure is closed for construction",
+          "description": "Stop Closure Notice\nRoutes: 42 Market\nDate Effective: Immediate",
+          "routeIds": [
+            "42"
+          ],
+          "periodStartsAt": 1793210400000,
+          "stopScoped": true
+        },
+        {
+          "title": "staff Outbound is on detour",
+          "description": "Detour Notice\nRoutes: staff Outbound\nDate Effective: Immediate",
+          "routeIds": [
+            "staff"
+          ],
+          "periodStartsAt": 1793210400000,
+          "effect": "DETOUR",
+          "targets": [
+            {
+              "routeId": "staff",
+              "directionText": "Outbound"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reads lowercase daily route labels identically",
+      "timeZone": "America/Halifax",
+      "routeNames": {
+        "42A": [
+          "42A/B"
+        ],
+        "42B": [
+          "42A/B"
+        ],
+        "99": [
+          "99"
+        ]
+      },
+      "html": "<main><h3>Elm Road Stop Closure</h3><p>route(s): 42A/B</p><p>Start Date: Saturday, Oct. 31, 2026<br>End Date: Sunday, Nov. 1, 2026</p><p>Time: 9 a.m. - 4 p.m.</p><hr><p>The stop closes daily. Use the next stop.</p></main>",
+      "notices": [
+        {
+          "id": "https://example.test/board#Elm Road Stop Closure#1793448000000",
+          "title": "Elm Road Stop Closure",
+          "description": "route(s): 42A/B\nStart Date: Saturday, Oct. 31, 2026 End Date: Sunday, Nov. 1, 2026\nTime: 9 a.m. - 4 p.m.\nThe stop closes daily. Use the next stop.",
+          "routeIds": [
+            "42A",
+            "42B"
+          ],
+          "periodStartsAt": 1793448000000,
+          "endsAt": 1793473200000
+        },
+        {
+          "id": "https://example.test/board#Elm Road Stop Closure#1793538000000",
+          "title": "Elm Road Stop Closure",
+          "description": "route(s): 42A/B\nStart Date: Saturday, Oct. 31, 2026 End Date: Sunday, Nov. 1, 2026\nTime: 9 a.m. - 4 p.m.\nThe stop closes daily. Use the next stop.",
+          "routeIds": [
+            "42A",
+            "42B"
+          ],
+          "periodStartsAt": 1793538000000,
+          "endsAt": 1793563200000
+        }
+      ]
+    },
+    {
+      "name": "accepts an explicit clear service board",
+      "html": "<main><p>There are no Metro service changes planned at this time. Please revisit this page later.</p></main>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "notices": []
+    },
+    {
+      "name": "preserves explicit clear text from component content",
+      "html": "<div class=\"maincontentparct\"><div class=\"text parbase\"><p>There are no Metro service changes planned at this time.</p></div><div class=\"text parbase\"><h3>Why do maintenance?</h3><p>General maintenance information.</p></div></div>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "notices": []
+    },
+    {
+      "name": "ignores a clear message in navigation",
+      "html": "<nav><p>There are no Metro service changes planned at this time.</p></nav><main><h2>Schedules</h2><p>Route maps.</p></main>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "error": true
+    },
+    {
+      "name": "a clear paragraph never discards a published incident",
+      "html": "<main><p>There are no Metro service changes planned at this time.</p><h2>East Street Detour</h2><p>Use Library Street.</p></main>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "notices": [
+        {
+          "title": "East Street Detour",
+          "description": "Use Library Street."
+        }
+      ]
+    },
+    {
+      "name": "matches the declared service name case-insensitively",
+      "html": "<main><p>There are no METRO service changes planned at this time.</p></main>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "notices": []
+    },
+    {
+      "name": "rejects a clear statement without declared service names",
+      "html": "<main><p>There are no Metro service changes planned at this time.</p></main>",
+      "error": true
+    },
+    {
+      "name": "rejects a clear statement scoped to a time window",
+      "html": "<main><p>There are no weekend service changes planned at this time.</p></main>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "error": true
+    },
+    {
+      "name": "rejects a clear statement scoped within the declared service",
+      "html": "<main><p>There are no Metro overnight service changes planned at this time.</p></main>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "error": true
+    },
+    {
+      "name": "rejects a clear statement scoped to one line",
+      "html": "<main><p>There are no Line 1 service changes planned at this time.</p></main>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "error": true
+    },
+    {
+      "name": "ignores a clear message in an aside within main",
+      "html": "<main><aside><p>There are no Metro service changes planned at this time.</p></aside><h2>Schedules</h2><p>Route maps.</p></main>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "error": true
+    },
+    {
+      "name": "ignores a clear message in a component alert banner",
+      "html": "<div class=\"maincontentparct\"><div class=\"alert-body\"><p>There are no Metro service changes planned at this time.</p></div><div class=\"text parbase\"><h3>Why do maintenance?</h3><p>General maintenance information.</p></div></div>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "error": true
+    },
+    {
+      "name": "ignores a clear message in a component sidebar",
+      "html": "<div class=\"maincontentparct\"><aside><div class=\"text parbase\"><p>There are no Metro service changes planned at this time.</p></div></aside><div class=\"text parbase\"><h3>Why do maintenance?</h3><p>General maintenance information.</p></div></div>",
+      "clearStatementNames": [
+        "Metro"
+      ],
+      "error": true
+    },
+    {
+      "name": "reads route-headed articles and keeps alternatives outside affected scope",
+      "html": "<nav>Noise</nav><article><div><h1>Ligne # 7</h1><div>Détour temporaire : la rue est fermée.</div></div><div>Utilisez la ligne #9 comme alternative.</div></article>",
+      "routeNames": {
+        "7": [
+          "Ligne # 7"
+        ],
+        "9": [
+          "Ligne #9"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Ligne # 7",
+          "description": "Détour temporaire : la rue est fermée. Utilisez la ligne #9 comme alternative.",
+          "routeIds": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "route-headed article without a body fails",
+      "html": "<article><h1>Route # 7</h1></article>",
+      "routeNames": {
+        "7": [
+          "Route # 7"
+        ]
+      },
+      "error": true
+    },
+    {
+      "name": "unknown route-headed article fails instead of clearing",
+      "html": "<article><h1>Ligne # 8</h1><p>Détour.</p></article>",
+      "routeNames": {
+        "7": [
+          "Ligne # 7"
+        ]
+      },
+      "error": true
+    },
+    {
+      "name": "rejects mixed article boards rather than hiding other advisories",
+      "html": "<article><h1>Route # 7</h1><p>Detour.</p></article><article><h2>Service alerts</h2><p>Route 8 is not operating.</p></article>",
+      "routeNames": {
+        "7": [
+          "Route # 7"
+        ],
+        "8": [
+          "Route 8"
+        ]
+      },
+      "error": true
+    },
+    {
+      "name": "nested article has one owner and keeps headings out of body",
+      "html": "<article><section><article><h1>Route # 7</h1><section><div>Detour.</div><p>Use <a href=\"/map\">the map</a>.</p></section></article></section></article>",
+      "routeNames": {
+        "7": [
+          "Route # 7"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Route # 7",
+          "description": "Detour. Use [the map](https://example.test/map).",
+          "routeIds": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reads disclosure accordion notices under a detour heading",
+      "html": "<article role=\"main\"><h1>Detours</h1><div><h2>Detours / Stop Closures</h2><div class=\"accordion\" id=\"accordSet1\"><div class=\"accordCtrl\"><button id=\"accrToggle1\" aria-expanded=\"false\">Expand all</button></div><div class=\"accordSet\"><h3><button id=\"accrHead1\" aria-expanded=\"false\" aria-controls=\"accrCnt1\">Route 7 Detour</button></h3><div class=\"accordCnt\" id=\"accrCnt1\" role=\"region\" hidden><p>Route 7 will detour via <strong>Elm Street</strong> until further notice.</p></div><h3><button id=\"accrHead2\" aria-expanded=\"false\" aria-controls=\"accrCnt2\">Stop Closure - Stop #0042</button></h3><div class=\"accordCnt\" id=\"accrCnt2\" role=\"region\" hidden><p>Bus stop #0042 on Oak Avenue is closed.</p></div></div></div></div></article>",
+      "routeNames": {
+        "7": [
+          "Route 7"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Route 7 Detour",
+          "description": "Route 7 will detour via Elm Street until further notice.",
+          "routeIds": [
+            "7"
+          ]
+        },
+        {
+          "title": "Stop Closure - Stop #0042",
+          "description": "Bus stop #0042 on Oak Avenue is closed.",
+          "affectedStations": [],
+          "targets": [
+            {
+              "stopId": "0042"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reads an empty disclosure board under a closures heading as quiet",
+      "html": "<article role=\"main\"><h1>Detours</h1><div><h2>Detours / Stop Closures&nbsp;</h2><div class=\"accordion\" id=\"accordSet1\"><div class=\"accordCtrl\"><button id=\"accrToggle1\" aria-expanded=\"false\">Expand all</button></div><div class=\"accordSet\"></div></div></div></article>",
+      "notices": []
+    },
+    {
+      "name": "ignores a disclosure accordion without an advisory heading",
+      "html": "<main><h2>Service changes</h2><p>Route 3 will detour on Sunday.</p></main><div><p>Event shuttles run all year.</p><div class=\"accordion\" id=\"accordSet1\"><div class=\"accordCtrl\"><button id=\"accrToggle1\" aria-expanded=\"false\">Expand all</button></div><div class=\"accordSet\"><h3><button id=\"accrHead1\" aria-expanded=\"false\" aria-controls=\"accrCnt1\">Fair Shuttle</button></h3><div class=\"accordCnt\" id=\"accrCnt1\" role=\"region\" hidden><p>Shuttles run every 15 minutes.</p></div></div></div></div>",
+      "routeNames": {
+        "3": [
+          "Route 3"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Service changes",
+          "description": "Route 3 will detour on Sunday.",
+          "routeIds": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fails a disclosure button without its panel",
+      "html": "<div><h2>Detours</h2><div class=\"accordion\" id=\"accordSet1\"><div class=\"accordCtrl\"><button id=\"accrToggle1\" aria-expanded=\"false\">Expand all</button></div><div class=\"accordSet\"><h3><button aria-controls=\"accrCnt9\">Route 7 Detour</button></h3></div></div></div>",
+      "error": true
+    },
+    {
+      "name": "fails unrecognized content inside a disclosure board",
+      "html": "<div><h2>Detours</h2><div class=\"accordion\" id=\"accordSet1\"><div class=\"accordCtrl\"><button id=\"accrToggle1\" aria-expanded=\"false\">Expand all</button></div><div class=\"accordSet\"><p>Route 7 detour details coming soon.</p></div></div></div>",
+      "error": true
+    },
+    {
+      "name": "targets stops listed by feed ID in a Stop and Status closure table",
+      "html": "<main><h4>Bus stop closures</h4><table><tbody><tr><td><strong>Stop</strong></td><td><strong>Status</strong></td></tr><tr><td>1234: <span>Elm Street (east side)</span></td><td>projected closure May 1 - 9</td></tr><tr><td>Oak Avenue, west of Pine Street</td><td>projected closure May 1 - 9</td></tr><tr><td>Q0042: <span>Pine Street</span></td><td>projected closure May 1 - 9</td></tr></tbody></table></main>",
+      "notices": [
+        {
+          "title": "Bus stop closures",
+          "description": "1234: Elm Street (east side) projected closure May 1 - 9\nOak Avenue, west of Pine Street projected closure May 1 - 9\nQ0042: Pine Street projected closure May 1 - 9",
+          "affectedStations": [],
+          "targets": [
+            {
+              "stopId": "1234"
+            },
+            {
+              "stopId": "Q0042"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "embedded post preserves the whole holiday suspension day",
+      "html": "<div class=\"fts-jal-single-fb-post\"><div class=\"fts-jal-fb-message\">Buses will not be running on Wednesday November 11, 2026. Regular service will resume Thursday.</div></div>",
+      "now": 1794312000000,
+      "timeZone": "America/Halifax",
+      "notices": [
+        {
+          "title": "Buses will not be running on Wednesday November 11, 2026.",
+          "description": "Buses will not be running on Wednesday November 11, 2026. Regular service will resume Thursday.",
+          "periodStartsAt": 1794369600000,
+          "endsAt": 1794456000000
+        }
+      ]
+    },
+    {
+      "name": "embedded early closure uses the declared publication year and evening time",
+      "html": "<div class=\"fts-jal-single-fb-post\"><div class=\"fts-jal-fb-message\">Heads up, riders! On Saturday November 7, all routes will end service at 6:00 PM. Regular service will resume Monday.</div></div>",
+      "now": 1794312000000,
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-01-01",
+        "validThrough": "2026-12-31"
+      },
+      "timeZone": "America/Halifax",
+      "notices": [
+        {
+          "title": "On Saturday November 7, all routes will end service at 6:00 PM.",
+          "description": "Heads up, riders! On Saturday November 7, all routes will end service at 6:00 PM. Regular service will resume Monday.",
+          "periodStartsAt": 1794088800000,
+          "endsAt": 1794110400000
+        }
+      ]
+    },
+    {
+      "name": "embedded board of readable non-service posts has no advisories",
+      "html": "<div class=\"fts-jal-single-fb-post\"><div class=\"fts-jal-fb-message\">Use a flashlight while waiting at the bus stop.</div></div>",
+      "now": 1794312000000,
+      "notices": []
+    },
+    {
+      "name": "embedded message missing from an otherwise recognized card fails",
+      "html": "<div class=\"fts-jal-single-fb-post\"><div>Unreadable</div></div>",
+      "error": true
+    },
+    {
+      "name": "bulletin stop closure never targets the replacement stop",
+      "html": "<div class=\"headline\"><h3>Service Bulletins</h3></div><span class=\"list-group-item\"><h4><i class=\"fa-exclamation-triangle\"></i>Route 7 construction</h4><p>last updated 11/9/2026 8:31:39 PM</p><p>Route 7 is unable to service stops 2300 by St. Alder School and 2400 opposite. Use stop 2500 instead.</p></span>",
+      "now": 1794312000000,
+      "routeNames": {
+        "R7": [
+          "7"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Route 7 construction",
+          "description": "Route 7 is unable to service stops 2300 by St. Alder School and 2400 opposite. Use stop 2500 instead.",
+          "routeIds": [
+            "R7"
+          ],
+          "affectedStations": [
+            "2300",
+            "2400"
+          ],
+          "targets": [
+            {
+              "stopId": "2300",
+              "routeId": "R7"
+            },
+            {
+              "stopId": "2400",
+              "routeId": "R7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "embedded yearless notices reject an expired publication reference",
+      "html": "<div class=\"fts-jal-single-fb-post\"><div class=\"fts-jal-fb-message\">All routes will end service on November 7 at 6:00 PM.</div></div>",
+      "now": 1799150400000,
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-01-01",
+        "validThrough": "2026-12-31"
+      },
+      "error": true
+    },
+    {
+      "name": "bulletin section excludes news cards and normal weather marker",
+      "html": "<div class=\"headline\"><h3>Service Bulletins</h3></div><span class=\"list-group-item\"><h4><i class=\"fa-exclamation-triangle\"></i>No weather bulletins</h4><p>last updated 11/9/2026 8:31:39 PM</p><p>No weather-related bulletins have been issued.</p></span><div><h3>Transit News</h3></div><span class=\"list-group-item\"><h4><i class=\"fa-exclamation-triangle\"></i>Construction of new offices</h4><p>New offices opened.</p></span>",
+      "now": 1794312000000,
+      "notices": []
+    },
+    {
+      "name": "embedded suspended service is never discarded as a social update",
+      "html": "<div class=\"fts-jal-single-fb-post\"><div class=\"fts-jal-fb-message\">All service is suspended due to severe weather.</div></div>",
+      "notices": [
+        {
+          "title": "All service is suspended due to severe weather.",
+          "description": "All service is suspended due to severe weather."
+        }
+      ]
+    },
+    {
+      "name": "bulletin direction suffixes map every declared route in a list",
+      "html": "<div><h3>Service Bulletins</h3></div><span class=\"list-group-item\"><h4><i class=\"fa-exclamation-triangle\"></i>Service reductions</h4><p>Routes 7-2, 8-2 and 9-2 will have fewer trips.</p></span>",
+      "routeNames": {
+        "R7": [
+          "7",
+          "7-2"
+        ],
+        "R8": [
+          "8",
+          "8-2"
+        ],
+        "R9": [
+          "9",
+          "9-2"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Service reductions",
+          "description": "Routes 7-2, 8-2 and 9-2 will have fewer trips.",
+          "routeIds": [
+            "R7",
+            "R8",
+            "R9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "linked advisory closes only published stops and reads weekday-prefixed periods",
+      "html": "<main><h1>Arrêts non desservis</h1><div class=\"body-blocks\"><p>Début: lundi 28 septembre Fin: indéterminée Raison: travaux Arrêts non desservis: Rue des Pins (#1200) Rue du Lac (#1300) Arrêt recommandé: Rue Neuve (#1400) Informations importantes: Arrêt #1500 inchangé.</p></div><div class=\"affected-lines\"><span class=\"chip-large\">7</span></div><div class=\"date-published\">Publié le 27 septembre 2026</div></main>",
+      "timeZone": "America/Toronto",
+      "notices": [
+        {
+          "id": "https://example.test/board",
+          "title": "Arrêts non desservis",
+          "description": "Début: lundi 28 septembre Fin: indéterminée Raison: travaux Arrêts non desservis: Rue des Pins (#1200) Rue du Lac (#1300) Arrêt recommandé: Rue Neuve (#1400) Informations importantes: Arrêt #1500 inchangé.",
+          "routeIds": [
+            "7"
+          ],
+          "periodStartsAt": 1790568000000,
+          "stopScoped": true,
+          "affectedStations": [
+            "1200",
+            "1300"
+          ],
+          "targets": [
+            {
+              "stopId": "1200",
+              "routeId": "7"
+            },
+            {
+              "stopId": "1300",
+              "routeId": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "linked singular closure preserves one closed stop",
+      "html": "<main><h1>Arrêts non desservis</h1><div class=\"body-blocks\"><p>Début: lundi 28 septembre Fin: indéterminée Raison: travaux Arrêt non desservi: Rue des Pins (#1200) Arrêt recommandé: Rue Neuve (#1400) Informations importantes: Arrêt #1500 inchangé.</p></div><div class=\"affected-lines\"><span class=\"chip-large\">7</span></div><div class=\"date-published\">Publié le 27 septembre 2026</div></main>",
+      "timeZone": "America/Toronto",
+      "notices": [
+        {
+          "id": "https://example.test/board",
+          "title": "Arrêts non desservis",
+          "description": "Début: lundi 28 septembre Fin: indéterminée Raison: travaux Arrêt non desservi: Rue des Pins (#1200) Arrêt recommandé: Rue Neuve (#1400) Informations importantes: Arrêt #1500 inchangé.",
+          "routeIds": [
+            "7"
+          ],
+          "periodStartsAt": 1790568000000,
+          "stopScoped": true,
+          "affectedStations": [
+            "1200"
+          ],
+          "targets": [
+            {
+              "stopId": "1200",
+              "routeId": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "linked grouped stop identifiers do not require repeated hash signs",
+      "html": "<main><h1>Arrêts non desservis</h1><div class=\"body-blocks\"><p>Début: lundi 28 septembre Fin: indéterminée Raison: travaux Arrêts non desservis: Rue des Pins (#1200-1300) Arrêt recommandé: Rue Neuve (#1400) Informations importantes: Arrêt #1500 inchangé.</p></div><div class=\"affected-lines\"><span class=\"chip-large\">7</span></div><div class=\"date-published\">Publié le 27 septembre 2026</div></main>",
+      "timeZone": "America/Toronto",
+      "notices": [
+        {
+          "id": "https://example.test/board",
+          "title": "Arrêts non desservis",
+          "description": "Début: lundi 28 septembre Fin: indéterminée Raison: travaux Arrêts non desservis: Rue des Pins (#1200-1300) Arrêt recommandé: Rue Neuve (#1400) Informations importantes: Arrêt #1500 inchangé.",
+          "routeIds": [
+            "7"
+          ],
+          "periodStartsAt": 1790568000000,
+          "stopScoped": true,
+          "affectedStations": [
+            "1200",
+            "1300"
+          ],
+          "targets": [
+            {
+              "stopId": "1200",
+              "routeId": "7"
+            },
+            {
+              "stopId": "1300",
+              "routeId": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "linked dated notice ends after its final published day",
+      "html": "<main><div class=\"date-section\">En vigueur Du 5 au 11 novembre 2026</div><h1>Free access</h1><div class=\"body-blocks\"><p>Eligible riders travel free.</p></div><div class=\"date-published\">Publié le 5 novembre 2026</div></main>",
+      "timeZone": "America/Toronto",
+      "notices": [
+        {
+          "id": "https://example.test/board",
+          "title": "Free access",
+          "description": "Eligible riders travel free.",
+          "periodStartsAt": 1793854800000,
+          "endsAt": 1794459600000
+        }
+      ]
+    },
+    {
+      "name": "reads every accordion group item under an impacts heading as a notice",
+      "html": "<main><article><div class=\"node__content\"><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Transit impacts</div></h2><div class=\"field__item\"><p>Routes and stops may be impacted. Use the bus tracker when planning your trip.</p></div><ul class=\"o-accordion-group__list\" aria-label=\"Accordion control group buttons\"><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\" aria-controls=\"accordion__content-\" id=\"accordion__trigger-\"><div class=\"field__item\">Tracker timing issue</div></button><div class=\"m-accordion__content\" id=\"accordion__content-\"><div class=\"field__item\"><p>Arrival estimates in the tracker are an hour late.</p><p>Use printed schedules until it is fixed.</p></div></div></div></li><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\" aria-controls=\"accordion__content-\" id=\"accordion__trigger-\"><div class=\"field__item\">Elm Street roadwork</div></button><div class=\"m-accordion__content\" id=\"accordion__content-\"><div class=\"field__item\"><p>Route 7 stops on Elm Street are relocated during roadwork.</p></div></div></div></li></ul></div><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Rider FAQ</div></h2><ul class=\"o-accordion-group__list\" aria-label=\"Accordion control group buttons\"><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\" aria-controls=\"accordion__content-\" id=\"accordion__trigger-\"><div class=\"field__item\">Can I bring a bike?</div></button><div class=\"m-accordion__content\" id=\"accordion__content-\"><div class=\"field__item\"><p>Every bus has a bike rack.</p></div></div></div></li></ul></div></div></article></main>",
+      "routeNames": {
+        "7": [
+          "Route 7"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Tracker timing issue",
+          "description": "Arrival estimates in the tracker are an hour late.\nUse printed schedules until it is fixed."
+        },
+        {
+          "title": "Elm Street roadwork",
+          "description": "Route 7 stops on Elm Street are relocated during roadwork.",
+          "routeIds": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "accepts an impacts accordion group without an item list as the quiet board",
+      "html": "<main><article><div class=\"node__content\"><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Transit Impacts</div></h2><div class=\"field__item\"><p>Routes and stops may be impacted. Use the bus tracker when planning your trip.</p></div></div><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Rider FAQ</div></h2><ul class=\"o-accordion-group__list\" aria-label=\"Accordion control group buttons\"><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\" aria-controls=\"accordion__content-\" id=\"accordion__trigger-\"><div class=\"field__item\">Can I bring a bike?</div></button><div class=\"m-accordion__content\" id=\"accordion__content-\"><div class=\"field__item\"><p>Every bus has a bike rack.</p></div></div></div></li></ul></div></div></article></main>",
+      "notices": []
+    },
+    {
+      "name": "fails an accordion group item without its panel",
+      "html": "<main><article><div class=\"node__content\"><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Transit impacts</div></h2><div class=\"field__item\"><p>Routes and stops may be impacted. Use the bus tracker when planning your trip.</p></div><ul class=\"o-accordion-group__list\" aria-label=\"Accordion control group buttons\"><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\" aria-controls=\"accordion__content-\" id=\"accordion__trigger-\"><div class=\"field__item\">Elm Street roadwork</div></button></div></li></ul></div><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Rider FAQ</div></h2><ul class=\"o-accordion-group__list\" aria-label=\"Accordion control group buttons\"><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\" aria-controls=\"accordion__content-\" id=\"accordion__trigger-\"><div class=\"field__item\">Can I bring a bike?</div></button><div class=\"m-accordion__content\" id=\"accordion__content-\"><div class=\"field__item\"><p>Every bus has a bike rack.</p></div></div></div></li></ul></div></div></article></main>",
+      "error": true
+    },
+    {
+      "name": "fails an empty accordion group item list",
+      "html": "<main><article><div class=\"node__content\"><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Transit impacts</div></h2><div class=\"field__item\"><p>Routes and stops may be impacted. Use the bus tracker when planning your trip.</p></div><ul class=\"o-accordion-group__list\" aria-label=\"Accordion control group buttons\"></ul></div><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Rider FAQ</div></h2><ul class=\"o-accordion-group__list\" aria-label=\"Accordion control group buttons\"><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\" aria-controls=\"accordion__content-\" id=\"accordion__trigger-\"><div class=\"field__item\">Can I bring a bike?</div></button><div class=\"m-accordion__content\" id=\"accordion__content-\"><div class=\"field__item\"><p>Every bus has a bike rack.</p></div></div></div></li></ul></div></div></article></main>",
+      "error": true
+    },
+    {
+      "name": "ignores accordion groups without an advisory heading",
+      "html": "<main><article><div class=\"node__content\"><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Rider FAQ</div></h2><ul class=\"o-accordion-group__list\" aria-label=\"Accordion control group buttons\"><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\" aria-controls=\"accordion__content-\" id=\"accordion__trigger-\"><div class=\"field__item\">Can I bring a bike?</div></button><div class=\"m-accordion__content\" id=\"accordion__content-\"><div class=\"field__item\"><p>Every bus has a bike rack.</p></div></div></div></li></ul></div></div></article></main>",
+      "error": true
+    },
+    {
+      "name": "fails accordion group items whose list is wrapped",
+      "html": "<main><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Transit impacts</div></h2><div><ul class=\"o-accordion-group__list\"><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\">Elm Street roadwork</button><div class=\"m-accordion__content\"><p>Stops on Elm Street are relocated.</p></div></div></li></ul></div></div></main>",
+      "error": true
+    },
+    {
+      "name": "fails accordion group items under a renamed list",
+      "html": "<main><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Transit impacts</div></h2><ul class=\"o-accordion-group__items\"><li class=\"o-accordion-group__list-row\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\">Elm Street roadwork</button><div class=\"m-accordion__content\"><p>Stops on Elm Street are relocated.</p></div></div></li></ul></div></main>",
+      "error": true
+    },
+    {
+      "name": "fails an accordion group row that is not a list item",
+      "html": "<main><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Transit impacts</div></h2><ul class=\"o-accordion-group__list\"><div class=\"paragraph m-accordion\"><button class=\"m-accordion__trigger\">Elm Street roadwork</button><div class=\"m-accordion__content\"><p>Stops on Elm Street are relocated.</p></div></div></ul></div></main>",
+      "error": true
+    },
+    {
+      "name": "fails an accordion group item without a title",
+      "html": "<main><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Transit impacts</div></h2><ul class=\"o-accordion-group__list\"><li><div class=\"m-accordion\"><button class=\"m-accordion__trigger\"> </button><div class=\"m-accordion__content\"><p>Stops are relocated.</p></div></div></li></ul></div></main>",
+      "error": true
+    },
+    {
+      "name": "fails an accordion group row that is itself the panel",
+      "html": "<main><div class=\"paragraph o-accordion-group\"><h2 class=\"o-accordion-group__title\"><div class=\"field__item\">Transit impacts</div></h2><ul class=\"o-accordion-group__list\"><li class=\"m-accordion__content\"><button class=\"m-accordion__trigger\">Elm detour</button><p>Route 7 detoured.</p></li></ul></div></main>",
+      "error": true
+    },
+    {
+      "name": "completed update cards prove a quiet board",
+      "html": "<main><article class=\"node--type-update featured-update-card\"><a href=\"/updates/detour\"><span class=\"field--name-title\">Route 7 detour</span><span>Complete</span><div class=\"text-caption\">Ended: Saturday, August 1, 2026 - 7:00 PM</div></a></article></main>",
+      "notices": []
+    },
+    {
+      "name": "active update cards require their detail page",
+      "html": "<main><article class=\"node--type-update featured-update-card\"><a href=\"/updates/detour\"><span class=\"field--name-title\">Route 7 detour</span><span>Active</span><div class=\"text-caption\">Until further notice</div></a></article></main>",
+      "error": true
+    },
+    {
+      "name": "unrecognized update card cannot clear service",
+      "html": "<main><article class=\"node--type-update featured-update-card\"><span>Unknown shape</span></article></main>",
+      "error": true
+    },
+    {
+      "name": "completed teasers cannot hide active notices elsewhere",
+      "html": "<main><article class=\"featured-update-card\"><a href=\"/updates/old\"><span class=\"field--name-title\">Old detour</span><span>Complete</span><div class=\"text-caption\">Ended: Saturday, August 1, 2026</div></a></article><h2>Road closure</h2><p>Route 7 diverted via Main.</p></main>",
+      "notices": [
+        {
+          "title": "Road closure",
+          "description": "Route 7 diverted via Main."
+        }
+      ]
+    },
+    {
+      "name": "linked update details retain published periods and stop scope",
+      "html": "<main><article class=\"node--type-update node--view-mode-full\"><h1>Route 7 closure</h1><div><div>Start Date</div><div>Thursday, November 12, 2026 - 9:00 AM</div></div><div><div>End Date</div><div>Thursday, November 12, 2026 - 6:00 PM</div></div><div class=\"prose\"><p>Central is closed. Use East.</p></div></article></main>",
+      "timeZone": "America/Toronto",
+      "routeNames": {
+        "7": [
+          "Route 7"
+        ]
+      },
+      "stopNames": {
+        "s": [
+          "Central"
+        ]
+      },
+      "notices": [
+        {
+          "id": "https://example.test/board",
+          "title": "Route 7 closure",
+          "description": "Central is closed. Use East.",
+          "startsAt": 1794492000000,
+          "endsAt": 1794524400000,
+          "routeIds": [
+            "7"
+          ],
+          "stopScoped": true,
+          "affectedStations": [
+            "s"
+          ],
+          "targets": [
+            {
+              "stopId": "s",
+              "routeId": "7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

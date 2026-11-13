@@ -1,0 +1,140 @@
+{
+  "id": "burlington",
+  "name": "Burlington Transit",
+  "serviceArea": "Burlington",
+  "shortName": "BT",
+  "brandColor": "#890A07",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.29,
+      "maxLat": 43.42,
+      "minLon": -79.9,
+      "maxLon": -79.72
+    },
+    {
+      "minLat": 43.25,
+      "maxLat": 43.3,
+      "minLon": -79.9,
+      "maxLon": -79.84
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "City of Burlington Open Data",
+    "url": "https://opendata.burlington.ca/gtfs-rt/",
+    "license": "https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "10", "11", "25"],
+    "routeLineMap": {
+      "351": "1",
+      "352": "2",
+      "353": "3",
+      "354": "4",
+      "356": "6",
+      "3510": "10",
+      "3511": "11",
+      "3512": "12",
+      "3525": "25",
+      "3548": "48",
+      "3550": "50",
+      "3551": "51",
+      "3552": "52",
+      "3580": "80",
+      "3581": "81",
+      "3587": "87"
+    }
+  },
+  "directionLiterals": {
+    "east": "Eastbound",
+    "west": "Westbound",
+    "north": "Northbound",
+    "south": "Southbound"
+  },
+  "cityPresets": [
+    {
+      "name": "Burlington GO",
+      "lat": 43.340046,
+      "lon": -79.809315
+    },
+    {
+      "name": "Appleby GO",
+      "lat": 43.379496,
+      "lon": -79.760622
+    },
+    {
+      "name": "Downtown, John St",
+      "lat": 43.325782,
+      "lon": -79.796914
+    },
+    {
+      "name": "Dundas / Highway 407 Park & Ride",
+      "lat": 43.388457,
+      "lon": -79.829579
+    },
+    {
+      "name": "Aldershot GO",
+      "lat": 43.313152,
+      "lon": -79.856402
+    },
+    {
+      "name": "Brant at Plains",
+      "lat": 43.338227,
+      "lon": -79.816624
+    },
+    {
+      "name": "Hamilton, King at James",
+      "lat": 43.256679,
+      "lon": -79.868895
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "10", "11", "25"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Burlington Transit GTFS",
+        "url": "https://opendata.burlington.ca/gtfs-rt/GTFS_Data.zip",
+        "cacheFileName": "burlington-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#890A07",
+    "defaultTextColor": "#FFFFFF",
+    "routeIdField": "short_name"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://opendata.burlington.ca/gtfs-rt/GTFS_VehiclePositions.pb",
+        "format": "protobuf",
+        "accept": "text/plain"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://opendata.burlington.ca/gtfs-rt/GTFS_TripUpdates.pb",
+        "format": "protobuf",
+        "accept": "text/plain"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://opendata.burlington.ca/gtfs-rt/GTFS_ServiceAlerts.pb",
+      "format": "protobuf",
+      "accept": "text/plain"
+    }
+  ]
+}

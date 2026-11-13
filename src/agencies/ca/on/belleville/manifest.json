@@ -1,0 +1,185 @@
+{
+  "id": "belleville",
+  "name": "Belleville Transit",
+  "serviceArea": "Belleville",
+  "shortName": "Belleville",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 44.1395,
+      "maxLat": 44.2003,
+      "minLon": -77.4339,
+      "maxLon": -77.3408
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "City of Belleville / Belleville Transit",
+    "url": "https://www.belleville.ca/walk-ride-and-drive/transit/",
+    "license": "No explicit terms were found for the Belleville Transit GTFS or AnyRide data.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Terminal",
+      "lat": 44.162622,
+      "lon": -77.381703
+    },
+    {
+      "name": "Quinte Mall",
+      "lat": 44.18772,
+      "lon": -77.40183
+    },
+    {
+      "name": "VIA Station",
+      "lat": 44.17864,
+      "lon": -77.37454
+    },
+    {
+      "name": "Loyalist College",
+      "lat": 44.15686,
+      "lon": -77.43122
+    },
+    {
+      "name": "Millennium Parkway",
+      "lat": 44.19636,
+      "lon": -77.397965
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "7", "6", "4", "3A", "3C"],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "6", "7"],
+    "routeLineMap": {
+      "3A": "3",
+      "3C": "3"
+    },
+    "rules": [
+      {
+        "priority": 400,
+        "match": {
+          "textIncludes": ["cancelled", "canceled", "no service", "not operating", "suspended"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 300,
+        "match": {
+          "sourceField": "isDisturbance",
+          "sourceValue": true
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": ["detour", "detoured"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://metrolinx.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "1100",
+        "profile": {
+          "data": "metrolinx_belleville"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Belleville Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-belleville.zip",
+        "cacheFileName": "belleville-gtfs.zip"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "anyride-messages",
+      "url": "https://metrolinx.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+      "operatorPrefix": "1100",
+      "profile": {
+        "data": "metrolinx_belleville"
+      },
+      "stops": [
+        {
+          "stopId": "TER008",
+          "routeIds": ["1", "N"]
+        },
+        {
+          "stopId": "TER007",
+          "routeIds": ["2"]
+        },
+        {
+          "stopId": "TER006",
+          "routeIds": ["3A", "3C"]
+        },
+        {
+          "stopId": "TER003",
+          "routeIds": ["4"]
+        },
+        {
+          "stopId": "TER001",
+          "routeIds": ["5A", "5C"]
+        },
+        {
+          "stopId": "TER002",
+          "routeIds": ["6"]
+        },
+        {
+          "stopId": "TER004",
+          "routeIds": ["7"]
+        },
+        {
+          "stopId": "TER005",
+          "routeIds": ["8"]
+        },
+        {
+          "stopId": "NFR390",
+          "routeIds": ["1", "2", "6"]
+        },
+        {
+          "stopId": "STN237",
+          "routeIds": ["3A", "N"]
+        },
+        {
+          "stopId": "WBL376",
+          "routeIds": ["4", "N"]
+        },
+        {
+          "stopId": "MIL274",
+          "routeIds": ["7", "N"]
+        }
+      ]
+    }
+  ]
+}

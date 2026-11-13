@@ -1,0 +1,151 @@
+{
+  "id": "owen-sound",
+  "name": "Owen Sound Transit",
+  "serviceArea": "Owen Sound",
+  "shortName": "OST",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 44.54,
+      "maxLat": 44.6,
+      "minLon": -80.97,
+      "maxLon": -80.9
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Owen Sound Transit / City of Owen Sound",
+    "url": "https://www.owensound.ca/roads-transportation/public-transit/city-bus-service/",
+    "license": "No explicit reuse terms were found for the City of Owen Sound GTFS or AnyRide data. Data supplied through Consat Tmix.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Transit Terminal",
+      "lat": 44.568553,
+      "lon": -80.941739
+    },
+    {
+      "name": "Owen Sound Hospital",
+      "lat": 44.569214,
+      "lon": -80.91165
+    },
+    {
+      "name": "The Bayshore",
+      "lat": 44.579265,
+      "lon": -80.93413
+    },
+    {
+      "name": "10th St E College",
+      "lat": 44.570537,
+      "lon": -80.918523
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "4"],
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://owensound.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "1500",
+        "profile": {
+          "data": "metrolinx_owensound",
+          "display": "consat"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Owen Sound Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-owensound.zip",
+        "cacheFileName": "owen-sound-gtfs.zip"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "anyride-messages",
+      "url": "https://owensound.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+      "operatorPrefix": "1500",
+      "profile": {
+        "data": "metrolinx_owensound",
+        "display": "consat"
+      },
+      "requiredForCompleteness": true,
+      "stops": [
+        {
+          "stopId": "2",
+          "routeIds": ["1", "2", "3", "4"]
+        },
+        {
+          "stopId": "119",
+          "routeIds": ["1"]
+        },
+        {
+          "stopId": "84",
+          "routeIds": ["2"]
+        },
+        {
+          "stopId": "192",
+          "routeIds": ["3"]
+        },
+        {
+          "stopId": "180",
+          "routeIds": ["4"]
+        }
+      ]
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4"],
+    "rules": [
+      {
+        "priority": 400,
+        "match": {
+          "textIncludes": ["cancelled", "canceled", "no service", "not operating", "suspended"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 300,
+        "match": {
+          "sourceField": "isDisturbance",
+          "sourceValue": true
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": ["detour", "detoured"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  }
+}

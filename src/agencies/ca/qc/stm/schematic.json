@@ -1,0 +1,2045 @@
+{
+  "viewBoxWidth": 3900,
+  "viewBoxHeight": 3150,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Ligne 1 - Verte",
+      "color": "#00B300",
+      "points": [
+        {
+          "x": 1160,
+          "y": 2900
+        },
+        {
+          "x": 1280,
+          "y": 2900
+        },
+        {
+          "x": 1400,
+          "y": 2900
+        },
+        {
+          "x": 1520,
+          "y": 2900
+        },
+        {
+          "x": 1640,
+          "y": 2900
+        },
+        {
+          "x": 1760,
+          "y": 2780
+        },
+        {
+          "x": 1880,
+          "y": 2660
+        },
+        {
+          "x": 1760,
+          "y": 2540
+        },
+        {
+          "x": 1640,
+          "y": 2420
+        },
+        {
+          "x": 1760,
+          "y": 2300
+        },
+        {
+          "x": 1880,
+          "y": 2180
+        },
+        {
+          "x": 2000,
+          "y": 2060
+        },
+        {
+          "x": 2120,
+          "y": 1940
+        },
+        {
+          "x": 2240,
+          "y": 1820
+        },
+        {
+          "x": 2360,
+          "y": 1700
+        },
+        {
+          "x": 2480,
+          "y": 1580
+        },
+        {
+          "x": 2600,
+          "y": 1460
+        },
+        {
+          "x": 2720,
+          "y": 1340
+        },
+        {
+          "x": 2600,
+          "y": 1220
+        },
+        {
+          "x": 2720,
+          "y": 1100
+        },
+        {
+          "x": 2840,
+          "y": 980
+        },
+        {
+          "x": 2960,
+          "y": 860
+        },
+        {
+          "x": 2840,
+          "y": 740
+        },
+        {
+          "x": 2960,
+          "y": 620
+        },
+        {
+          "x": 3080,
+          "y": 500
+        },
+        {
+          "x": 3200,
+          "y": 380
+        },
+        {
+          "x": 3320,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Ligne 2 - Orange",
+      "color": "#D95700",
+      "points": [
+        {
+          "x": 440,
+          "y": 1460
+        },
+        {
+          "x": 560,
+          "y": 1580
+        },
+        {
+          "x": 680,
+          "y": 1700
+        },
+        {
+          "x": 800,
+          "y": 1820
+        },
+        {
+          "x": 920,
+          "y": 1940
+        },
+        {
+          "x": 1040,
+          "y": 2060
+        },
+        {
+          "x": 1160,
+          "y": 2180
+        },
+        {
+          "x": 1280,
+          "y": 2300
+        },
+        {
+          "x": 1400,
+          "y": 2420
+        },
+        {
+          "x": 1520,
+          "y": 2540
+        },
+        {
+          "x": 1640,
+          "y": 2660
+        },
+        {
+          "x": 1760,
+          "y": 2540
+        },
+        {
+          "x": 1880,
+          "y": 2420
+        },
+        {
+          "x": 2000,
+          "y": 2300
+        },
+        {
+          "x": 2120,
+          "y": 2180
+        },
+        {
+          "x": 2240,
+          "y": 2060
+        },
+        {
+          "x": 2360,
+          "y": 1940
+        },
+        {
+          "x": 2480,
+          "y": 1820
+        },
+        {
+          "x": 2360,
+          "y": 1700
+        },
+        {
+          "x": 2240,
+          "y": 1580
+        },
+        {
+          "x": 2120,
+          "y": 1460
+        },
+        {
+          "x": 2000,
+          "y": 1340
+        },
+        {
+          "x": 1880,
+          "y": 1220
+        },
+        {
+          "x": 1760,
+          "y": 1100
+        },
+        {
+          "x": 1640,
+          "y": 980
+        },
+        {
+          "x": 1520,
+          "y": 860
+        },
+        {
+          "x": 1400,
+          "y": 740
+        },
+        {
+          "x": 1280,
+          "y": 620
+        },
+        {
+          "x": 1160,
+          "y": 500
+        },
+        {
+          "x": 1040,
+          "y": 380
+        },
+        {
+          "x": 920,
+          "y": 260
+        },
+        {
+          "x": 800,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ligne 4 - Jaune",
+      "color": "#FFD900",
+      "points": [
+        {
+          "x": 2360,
+          "y": 1700
+        },
+        {
+          "x": 2840,
+          "y": 1700
+        },
+        {
+          "x": 2960,
+          "y": 1580
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Ligne 5 - Bleue",
+      "color": "#0095E6",
+      "points": [
+        {
+          "x": 1160,
+          "y": 2180
+        },
+        {
+          "x": 1280,
+          "y": 2060
+        },
+        {
+          "x": 1400,
+          "y": 1940
+        },
+        {
+          "x": 1520,
+          "y": 1820
+        },
+        {
+          "x": 1640,
+          "y": 1700
+        },
+        {
+          "x": 1520,
+          "y": 1580
+        },
+        {
+          "x": 1400,
+          "y": 1460
+        },
+        {
+          "x": 1520,
+          "y": 1340
+        },
+        {
+          "x": 1640,
+          "y": 1220
+        },
+        {
+          "x": 1640,
+          "y": 980
+        },
+        {
+          "x": 1760,
+          "y": 860
+        },
+        {
+          "x": 1880,
+          "y": 740
+        },
+        {
+          "x": 2000,
+          "y": 620
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "lasalle",
+      "name": "LaSalle",
+      "x": 1760,
+      "y": 2780,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1785,
+        "y": 2805,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "place-darmes",
+      "name": "Place-d’Armes",
+      "x": 2360,
+      "y": 1940,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 2385,
+        "y": 1965,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "charlevoix",
+      "name": "Charlevoix",
+      "x": 1880,
+      "y": 2660,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1905,
+        "y": 2685,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "champ-de-mars",
+      "name": "Champ-de-Mars",
+      "x": 2480,
+      "y": 1820,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 2505,
+        "y": 1845,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lionel-groulx",
+      "name": "Lionel-Groulx",
+      "x": 1760,
+      "y": 2540,
+      "lines": ["1", "2"],
+      "terminal": false,
+      "label": {
+        "x": 1726,
+        "y": 2516,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "atwater",
+      "name": "Atwater",
+      "x": 1640,
+      "y": 2420,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1670,
+        "y": 2430,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sherbrooke",
+      "name": "Sherbrooke",
+      "x": 2240,
+      "y": 1580,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 2206,
+        "y": 1556,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "guy-concordia",
+      "name": "Guy-Concordia",
+      "x": 1760,
+      "y": 2300,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1785,
+        "y": 2325,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mont-royal",
+      "name": "Mont-Royal",
+      "x": 2120,
+      "y": 1460,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 2086,
+        "y": 1436,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "peel",
+      "name": "Peel",
+      "x": 1880,
+      "y": 2180,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1905,
+        "y": 2205,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "laurier",
+      "name": "Laurier",
+      "x": 2000,
+      "y": 1340,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1966,
+        "y": 1316,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "mcgill",
+      "name": "McGill",
+      "x": 2000,
+      "y": 2060,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2025,
+        "y": 2085,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "rosemont",
+      "name": "Rosemont",
+      "x": 1880,
+      "y": 1220,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1846,
+        "y": 1196,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "place-des-arts",
+      "name": "Place-des-Arts",
+      "x": 2120,
+      "y": 1940,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2145,
+        "y": 1965,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "beaubien",
+      "name": "Beaubien",
+      "x": 1760,
+      "y": 1100,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1726,
+        "y": 1076,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "saint-laurent",
+      "name": "Saint-Laurent",
+      "x": 2240,
+      "y": 1820,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2265,
+        "y": 1845,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "jean-talon",
+      "name": "Jean-Talon",
+      "x": 1640,
+      "y": 980,
+      "lines": ["2", "5"],
+      "terminal": false,
+      "label": {
+        "x": 1606,
+        "y": 956,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "berri-uqam",
+      "name": "Berri-UQAM",
+      "x": 2360,
+      "y": 1700,
+      "lines": ["1", "2", "4"],
+      "terminal": true,
+      "label": {
+        "x": 2326,
+        "y": 1676,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "jarry",
+      "name": "Jarry",
+      "x": 1520,
+      "y": 860,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1486,
+        "y": 836,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "beaudry",
+      "name": "Beaudry",
+      "x": 2480,
+      "y": 1580,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2505,
+        "y": 1605,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cremazie",
+      "name": "Crémazie",
+      "x": 1400,
+      "y": 740,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1366,
+        "y": 716,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "papineau",
+      "name": "Papineau",
+      "x": 2600,
+      "y": 1460,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2625,
+        "y": 1485,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sauve",
+      "name": "Sauvé",
+      "x": 1280,
+      "y": 620,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1246,
+        "y": 596,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "frontenac",
+      "name": "Frontenac",
+      "x": 2720,
+      "y": 1340,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2745,
+        "y": 1365,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "henri-bourassa",
+      "name": "Henri-Bourassa",
+      "x": 1160,
+      "y": 500,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1126,
+        "y": 476,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "prefontaine",
+      "name": "Préfontaine",
+      "x": 2600,
+      "y": 1220,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2630,
+        "y": 1230,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cartier",
+      "name": "Cartier",
+      "x": 1040,
+      "y": 380,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1006,
+        "y": 356,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "joliette",
+      "name": "Joliette",
+      "x": 2720,
+      "y": 1100,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2745,
+        "y": 1125,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cote-des-neiges",
+      "name": "Côte-des-Neiges",
+      "x": 1280,
+      "y": 2060,
+      "lines": ["5"],
+      "terminal": false,
+      "label": {
+        "x": 1305,
+        "y": 2085,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pie-ix",
+      "name": "Pie-IX",
+      "x": 2840,
+      "y": 980,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2865,
+        "y": 1005,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "de-la-concorde",
+      "name": "De la Concorde",
+      "x": 920,
+      "y": 260,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 886,
+        "y": 236,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "viau",
+      "name": "Viau",
+      "x": 2960,
+      "y": 860,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2985,
+        "y": 885,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "montmorency",
+      "name": "Montmorency",
+      "x": 800,
+      "y": 260,
+      "lines": ["2"],
+      "terminal": true,
+      "label": {
+        "x": 766,
+        "y": 236,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "assomption",
+      "name": "Assomption",
+      "x": 2840,
+      "y": 740,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2870,
+        "y": 750,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "edouard-montpetit",
+      "name": "Édouard-Montpetit",
+      "x": 1520,
+      "y": 1820,
+      "lines": ["5"],
+      "terminal": false,
+      "label": {
+        "x": 1545,
+        "y": 1845,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cadillac",
+      "name": "Cadillac",
+      "x": 2960,
+      "y": 620,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 2985,
+        "y": 645,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "outremont",
+      "name": "Outremont",
+      "x": 1640,
+      "y": 1700,
+      "lines": ["5"],
+      "terminal": false,
+      "label": {
+        "x": 1665,
+        "y": 1725,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "langelier",
+      "name": "Langelier",
+      "x": 3080,
+      "y": 500,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 3105,
+        "y": 525,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "acadie",
+      "name": "Acadie",
+      "x": 1520,
+      "y": 1580,
+      "lines": ["5"],
+      "terminal": false,
+      "label": {
+        "x": 1550,
+        "y": 1590,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "radisson",
+      "name": "Radisson",
+      "x": 3200,
+      "y": 380,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 3225,
+        "y": 405,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "parc",
+      "name": "Parc",
+      "x": 1400,
+      "y": 1460,
+      "lines": ["5"],
+      "terminal": false,
+      "label": {
+        "x": 1430,
+        "y": 1470,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "honore-beaugrand",
+      "name": "Honoré-Beaugrand",
+      "x": 3320,
+      "y": 260,
+      "lines": ["1"],
+      "terminal": true,
+      "label": {
+        "x": 3345,
+        "y": 285,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "de-castelnau",
+      "name": "De Castelnau",
+      "x": 1520,
+      "y": 1340,
+      "lines": ["5"],
+      "terminal": false,
+      "label": {
+        "x": 1545,
+        "y": 1365,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fabre",
+      "name": "Fabre",
+      "x": 1760,
+      "y": 860,
+      "lines": ["5"],
+      "terminal": false,
+      "label": {
+        "x": 1785,
+        "y": 885,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "diberville",
+      "name": "D’Iberville",
+      "x": 1880,
+      "y": 740,
+      "lines": ["5"],
+      "terminal": false,
+      "label": {
+        "x": 1905,
+        "y": 765,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "universite-de-montreal",
+      "name": "Université-de-Montréal",
+      "x": 1400,
+      "y": 1940,
+      "lines": ["5"],
+      "terminal": false,
+      "label": {
+        "x": 1425,
+        "y": 1965,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-michel",
+      "name": "Saint-Michel",
+      "x": 2000,
+      "y": 620,
+      "lines": ["5"],
+      "terminal": true,
+      "label": {
+        "x": 2025,
+        "y": 645,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "jean-drapeau",
+      "name": "Jean-Drapeau",
+      "x": 2840,
+      "y": 1700,
+      "lines": ["4"],
+      "terminal": false,
+      "label": {
+        "x": 2865,
+        "y": 1725,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "longueuiluniversite-de-sherbrooke",
+      "name": "Longueuil–Université-de-Sherbrooke",
+      "x": 2960,
+      "y": 1580,
+      "lines": ["4"],
+      "terminal": true,
+      "label": {
+        "x": 2985,
+        "y": 1605,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cote-vertu",
+      "name": "Côte-Vertu",
+      "x": 440,
+      "y": 1460,
+      "lines": ["2"],
+      "terminal": true,
+      "label": {
+        "x": 406,
+        "y": 1436,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "du-college",
+      "name": "Du Collège",
+      "x": 560,
+      "y": 1580,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 526,
+        "y": 1556,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "georges-vanier",
+      "name": "Georges-Vanier",
+      "x": 1880,
+      "y": 2420,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1905,
+        "y": 2445,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "de-la-savane",
+      "name": "De la Savane",
+      "x": 680,
+      "y": 1700,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 646,
+        "y": 1676,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "namur",
+      "name": "Namur",
+      "x": 800,
+      "y": 1820,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 766,
+        "y": 1796,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "plamondon",
+      "name": "Plamondon",
+      "x": 920,
+      "y": 1940,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 886,
+        "y": 1916,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cote-sainte-catherine",
+      "name": "Côte-Sainte-Catherine",
+      "x": 1040,
+      "y": 2060,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1006,
+        "y": 2036,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lucien-lallier",
+      "name": "Lucien-L’Allier",
+      "x": 2000,
+      "y": 2300,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 2025,
+        "y": 2325,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "snowdon",
+      "name": "Snowdon",
+      "x": 1160,
+      "y": 2180,
+      "lines": ["2", "5"],
+      "terminal": true,
+      "label": {
+        "x": 1126,
+        "y": 2156,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "villa-maria",
+      "name": "Villa-Maria",
+      "x": 1280,
+      "y": 2300,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1246,
+        "y": 2276,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "vendome",
+      "name": "Vendôme",
+      "x": 1400,
+      "y": 2420,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1366,
+        "y": 2396,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "place-saint-henri",
+      "name": "Place-Saint-Henri",
+      "x": 1520,
+      "y": 2540,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 1486,
+        "y": 2516,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bonaventure",
+      "name": "Bonaventure",
+      "x": 2120,
+      "y": 2180,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 2086,
+        "y": 2156,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "angrignon",
+      "name": "Angrignon",
+      "x": 1160,
+      "y": 2900,
+      "lines": ["1"],
+      "terminal": true,
+      "label": {
+        "x": 1185,
+        "y": 2925,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "square-victoriaoaci",
+      "name": "Square-Victoria–OACI",
+      "x": 2240,
+      "y": 2060,
+      "lines": ["2"],
+      "terminal": false,
+      "label": {
+        "x": 2265,
+        "y": 2085,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "monk",
+      "name": "Monk",
+      "x": 1280,
+      "y": 2900,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1305,
+        "y": 2925,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "jolicoeur",
+      "name": "Jolicoeur",
+      "x": 1400,
+      "y": 2900,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1425,
+        "y": 2925,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "verdun",
+      "name": "Verdun",
+      "x": 1520,
+      "y": 2900,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1545,
+        "y": 2925,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "de-leglise",
+      "name": "De l’Église",
+      "x": 1640,
+      "y": 2900,
+      "lines": ["1"],
+      "terminal": false,
+      "label": {
+        "x": 1665,
+        "y": 2925,
+        "anchor": "start"
+      }
+    }
+  ],
+  "sequences": {
+    "1": [
+      "angrignon",
+      "monk",
+      "jolicoeur",
+      "verdun",
+      "de-leglise",
+      "lasalle",
+      "charlevoix",
+      "lionel-groulx",
+      "atwater",
+      "guy-concordia",
+      "peel",
+      "mcgill",
+      "place-des-arts",
+      "saint-laurent",
+      "berri-uqam",
+      "beaudry",
+      "papineau",
+      "frontenac",
+      "prefontaine",
+      "joliette",
+      "pie-ix",
+      "viau",
+      "assomption",
+      "cadillac",
+      "langelier",
+      "radisson",
+      "honore-beaugrand"
+    ],
+    "2": [
+      "cote-vertu",
+      "du-college",
+      "de-la-savane",
+      "namur",
+      "plamondon",
+      "cote-sainte-catherine",
+      "snowdon",
+      "villa-maria",
+      "vendome",
+      "place-saint-henri",
+      "lionel-groulx",
+      "georges-vanier",
+      "lucien-lallier",
+      "bonaventure",
+      "square-victoriaoaci",
+      "place-darmes",
+      "champ-de-mars",
+      "berri-uqam",
+      "sherbrooke",
+      "mont-royal",
+      "laurier",
+      "rosemont",
+      "beaubien",
+      "jean-talon",
+      "jarry",
+      "cremazie",
+      "sauve",
+      "henri-bourassa",
+      "cartier",
+      "de-la-concorde",
+      "montmorency"
+    ],
+    "4": ["berri-uqam", "jean-drapeau", "longueuiluniversite-de-sherbrooke"],
+    "5": [
+      "snowdon",
+      "cote-des-neiges",
+      "universite-de-montreal",
+      "edouard-montpetit",
+      "outremont",
+      "acadie",
+      "parc",
+      "de-castelnau",
+      "jean-talon",
+      "fabre",
+      "diberville",
+      "saint-michel"
+    ]
+  },
+  "stationAliases": {
+    "STATION CHAMPS DE MARS": "champ-de-mars",
+    "STATION ST-LAURENT": "saint-laurent",
+    "STATION DE L'ASSOMPTION": "assomption",
+    "STATION  DU PARC": "parc",
+    "STATION IBERVILLE": "diberville",
+    "STATION LONGUEUIL- U. de SHERBROOKE": "longueuiluniversite-de-sherbrooke",
+    "STATION CÔTE-STE-CATHERINE": "cote-sainte-catherine",
+    "STATION PLACE ST-HENRI": "place-saint-henri"
+  },
+  "stationIndex": [
+    {
+      "id": "STATION_M542",
+      "schematicId": "acadie",
+      "name": "Acadie",
+      "lat": 45.523467,
+      "lon": -73.623211,
+      "lines": ["5"],
+      "platformIds": ["59"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "angrignon",
+      "schematicId": "angrignon",
+      "name": "Angrignon",
+      "lat": 45.446397,
+      "lon": -73.603293,
+      "lines": ["1"],
+      "platformIds": ["43"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M162",
+      "schematicId": "assomption",
+      "name": "Assomption",
+      "lat": 45.569167,
+      "lon": -73.546845,
+      "lines": ["1"],
+      "platformIds": ["22"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "atwater",
+      "schematicId": "atwater",
+      "name": "Atwater",
+      "lat": 45.490038,
+      "lon": -73.585731,
+      "lines": ["1"],
+      "platformIds": ["35"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "beaubien",
+      "schematicId": "beaubien",
+      "name": "Beaubien",
+      "lat": 45.535236,
+      "lon": -73.6044,
+      "lines": ["2"],
+      "platformIds": ["6"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M148",
+      "schematicId": "beaudry",
+      "name": "Beaudry",
+      "lat": 45.518971,
+      "lon": -73.55591,
+      "lines": ["1"],
+      "platformIds": ["29"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M146",
+      "schematicId": "berri-uqam",
+      "name": "Berri-UQAM",
+      "lat": 45.514852,
+      "lon": -73.560106,
+      "lines": ["1", "2", "4"],
+      "platformIds": ["9999111", "9999112", "9999114"],
+      "departureRouteIds": ["1", "2", "4"]
+    },
+    {
+      "id": "STATION_M252",
+      "schematicId": "bonaventure",
+      "name": "Bonaventure",
+      "lat": 45.498053,
+      "lon": -73.567129,
+      "lines": ["2"],
+      "platformIds": ["15"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M164",
+      "schematicId": "cadillac",
+      "name": "Cadillac",
+      "lat": 45.576859,
+      "lon": -73.54669,
+      "lines": ["1"],
+      "platformIds": ["21"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M282",
+      "schematicId": "cartier",
+      "name": "Cartier",
+      "lat": 45.560398,
+      "lon": -73.681719,
+      "lines": ["2"],
+      "platformIds": ["66"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M258",
+      "schematicId": "champ-de-mars",
+      "name": "Champ-de-Mars",
+      "lat": 45.510031,
+      "lon": -73.556462,
+      "lines": ["2"],
+      "platformIds": ["12"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "charlevoix",
+      "schematicId": "charlevoix",
+      "name": "Charlevoix",
+      "lat": 45.478467,
+      "lon": -73.569366,
+      "lines": ["1"],
+      "platformIds": ["37"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "cote-des-neiges",
+      "schematicId": "cote-des-neiges",
+      "name": "Côte-des-Neiges",
+      "lat": 45.496808,
+      "lon": -73.62339,
+      "lines": ["5"],
+      "platformIds": ["55"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "STATION_M234",
+      "schematicId": "cote-sainte-catherine",
+      "name": "Côte-Sainte-Catherine",
+      "lat": 45.49236,
+      "lon": -73.633146,
+      "lines": ["2"],
+      "platformIds": ["50"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "cote-vertu",
+      "schematicId": "cote-vertu",
+      "name": "Côte-Vertu",
+      "lat": 45.514244,
+      "lon": -73.682766,
+      "lines": ["2"],
+      "platformIds": ["65"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M276",
+      "schematicId": "cremazie",
+      "name": "Crémazie",
+      "lat": 45.545972,
+      "lon": -73.63887,
+      "lines": ["2"],
+      "platformIds": ["3"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M554",
+      "schematicId": "diberville",
+      "name": "D’Iberville",
+      "lat": 45.553612,
+      "lon": -73.602038,
+      "lines": ["5"],
+      "platformIds": ["63"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "de-castelnau",
+      "schematicId": "de-castelnau",
+      "name": "De Castelnau",
+      "lat": 45.535483,
+      "lon": -73.619871,
+      "lines": ["5"],
+      "platformIds": ["61"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "de-leglise",
+      "schematicId": "de-leglise",
+      "name": "De l’Église",
+      "lat": 45.461911,
+      "lon": -73.567107,
+      "lines": ["1"],
+      "platformIds": ["39"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M286",
+      "schematicId": "de-la-concorde",
+      "name": "De la Concorde",
+      "lat": 45.560544,
+      "lon": -73.709337,
+      "lines": ["2"],
+      "platformIds": ["67"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M228",
+      "schematicId": "de-la-savane",
+      "name": "De la Savane",
+      "lat": 45.50033,
+      "lon": -73.661537,
+      "lines": ["2"],
+      "platformIds": ["53"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M224",
+      "schematicId": "du-college",
+      "name": "Du Collège",
+      "lat": 45.508356,
+      "lon": -73.673282,
+      "lines": ["2"],
+      "platformIds": ["54"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "edouard-montpetit",
+      "schematicId": "edouard-montpetit",
+      "name": "Édouard-Montpetit",
+      "lat": 45.51022,
+      "lon": -73.612344,
+      "lines": ["5"],
+      "platformIds": ["57"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "STATION_M552",
+      "schematicId": "fabre",
+      "name": "Fabre",
+      "lat": 45.547921,
+      "lon": -73.607055,
+      "lines": ["5"],
+      "platformIds": ["62"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "STATION_M152",
+      "schematicId": "frontenac",
+      "name": "Frontenac",
+      "lat": 45.533133,
+      "lon": -73.552158,
+      "lines": ["1"],
+      "platformIds": ["27"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M248",
+      "schematicId": "georges-vanier",
+      "name": "Georges-Vanier",
+      "lat": 45.488962,
+      "lon": -73.576435,
+      "lines": ["2"],
+      "platformIds": ["17"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M136",
+      "schematicId": "guy-concordia",
+      "name": "Guy-Concordia",
+      "lat": 45.495692,
+      "lon": -73.57925,
+      "lines": ["1"],
+      "platformIds": ["34"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "henri-bourassa",
+      "schematicId": "henri-bourassa",
+      "name": "Henri-Bourassa",
+      "lat": 45.55522,
+      "lon": -73.668199,
+      "lines": ["2"],
+      "platformIds": ["1"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "honore-beaugrand",
+      "schematicId": "honore-beaugrand",
+      "name": "Honoré-Beaugrand",
+      "lat": 45.596495,
+      "lon": -73.535053,
+      "lines": ["1"],
+      "platformIds": ["18"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M274",
+      "schematicId": "jarry",
+      "name": "Jarry",
+      "lat": 45.543438,
+      "lon": -73.628674,
+      "lines": ["2"],
+      "platformIds": ["4"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "jean-drapeau",
+      "schematicId": "jean-drapeau",
+      "name": "Jean-Drapeau",
+      "lat": 45.512335,
+      "lon": -73.532703,
+      "lines": ["4"],
+      "platformIds": ["45"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "STATION_M272",
+      "schematicId": "jean-talon",
+      "name": "Jean-Talon",
+      "lat": 45.539074,
+      "lon": -73.613814,
+      "lines": ["2", "5"],
+      "platformIds": ["9999052", "9999055"],
+      "departureRouteIds": ["2", "5"]
+    },
+    {
+      "id": "jolicoeur",
+      "schematicId": "jolicoeur",
+      "name": "Jolicoeur",
+      "lat": 45.456783,
+      "lon": -73.581991,
+      "lines": ["1"],
+      "platformIds": ["41"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M156",
+      "schematicId": "joliette",
+      "name": "Joliette",
+      "lat": 45.546819,
+      "lon": -73.551427,
+      "lines": ["1"],
+      "platformIds": ["25"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M166",
+      "schematicId": "langelier",
+      "name": "Langelier",
+      "lat": 45.582784,
+      "lon": -73.543101,
+      "lines": ["1"],
+      "platformIds": ["20"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "lasalle",
+      "schematicId": "lasalle",
+      "name": "LaSalle",
+      "lat": 45.470631,
+      "lon": -73.566281,
+      "lines": ["1"],
+      "platformIds": ["38"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M266",
+      "schematicId": "laurier",
+      "name": "Laurier",
+      "lat": 45.527388,
+      "lon": -73.586858,
+      "lines": ["2"],
+      "platformIds": ["8"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "lionel-groulx",
+      "schematicId": "lionel-groulx",
+      "name": "Lionel-Groulx",
+      "lat": 45.482818,
+      "lon": -73.579721,
+      "lines": ["1", "2"],
+      "platformIds": ["36"],
+      "departureRouteIds": ["1", "2"]
+    },
+    {
+      "id": "STATION_M454",
+      "schematicId": "longueuiluniversite-de-sherbrooke",
+      "name": "Longueuil–Université-de-Sherbrooke",
+      "lat": 45.524574,
+      "lon": -73.522036,
+      "lines": ["4"],
+      "platformIds": ["44"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "STATION_M250",
+      "schematicId": "lucien-lallier",
+      "name": "Lucien-L’Allier",
+      "lat": 45.494814,
+      "lon": -73.571215,
+      "lines": ["2"],
+      "platformIds": ["16"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M140",
+      "schematicId": "mcgill",
+      "name": "McGill",
+      "lat": 45.504137,
+      "lon": -73.571793,
+      "lines": ["1"],
+      "platformIds": ["32"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M120",
+      "schematicId": "monk",
+      "name": "Monk",
+      "lat": 45.451166,
+      "lon": -73.593265,
+      "lines": ["1"],
+      "platformIds": ["42"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M264",
+      "schematicId": "mont-royal",
+      "name": "Mont-Royal",
+      "lat": 45.524716,
+      "lon": -73.582234,
+      "lines": ["2"],
+      "platformIds": ["9"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M288",
+      "schematicId": "montmorency",
+      "name": "Montmorency",
+      "lat": 45.558434,
+      "lon": -73.722423,
+      "lines": ["2"],
+      "platformIds": ["68"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M230",
+      "schematicId": "namur",
+      "name": "Namur",
+      "lat": 45.494637,
+      "lon": -73.652755,
+      "lines": ["2"],
+      "platformIds": ["52"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M540",
+      "schematicId": "outremont",
+      "name": "Outremont",
+      "lat": 45.520363,
+      "lon": -73.615012,
+      "lines": ["5"],
+      "platformIds": ["58"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "STATION_M150",
+      "schematicId": "papineau",
+      "name": "Papineau",
+      "lat": 45.523717,
+      "lon": -73.552073,
+      "lines": ["1"],
+      "platformIds": ["28"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M544",
+      "schematicId": "parc",
+      "name": "Parc",
+      "lat": 45.530197,
+      "lon": -73.624583,
+      "lines": ["5"],
+      "platformIds": ["60"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "STATION_M138",
+      "schematicId": "peel",
+      "name": "Peel",
+      "lat": 45.500895,
+      "lon": -73.57471,
+      "lines": ["1"],
+      "platformIds": ["33"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M158",
+      "schematicId": "pie-ix",
+      "name": "Pie-IX",
+      "lat": 45.553658,
+      "lon": -73.551696,
+      "lines": ["1"],
+      "platformIds": ["24"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M256",
+      "schematicId": "place-darmes",
+      "name": "Place-d’Armes",
+      "lat": 45.506277,
+      "lon": -73.559505,
+      "lines": ["2"],
+      "platformIds": ["13"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "place-des-arts",
+      "schematicId": "place-des-arts",
+      "name": "Place-des-Arts",
+      "lat": 45.508173,
+      "lon": -73.568313,
+      "lines": ["1"],
+      "platformIds": ["31"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M244",
+      "schematicId": "place-saint-henri",
+      "name": "Place-Saint-Henri",
+      "lat": 45.477363,
+      "lon": -73.586418,
+      "lines": ["2"],
+      "platformIds": ["46"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M232",
+      "schematicId": "plamondon",
+      "name": "Plamondon",
+      "lat": 45.494609,
+      "lon": -73.638166,
+      "lines": ["2"],
+      "platformIds": ["51"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M154",
+      "schematicId": "prefontaine",
+      "name": "Préfontaine",
+      "lat": 45.54177,
+      "lon": -73.554543,
+      "lines": ["1"],
+      "platformIds": ["26"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "radisson",
+      "schematicId": "radisson",
+      "name": "Radisson",
+      "lat": 45.589614,
+      "lon": -73.539753,
+      "lines": ["1"],
+      "platformIds": ["19"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "rosemont",
+      "schematicId": "rosemont",
+      "name": "Rosemont",
+      "lat": 45.531023,
+      "lon": -73.598493,
+      "lines": ["2"],
+      "platformIds": ["7"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M144",
+      "schematicId": "saint-laurent",
+      "name": "Saint-Laurent",
+      "lat": 45.51059,
+      "lon": -73.56534,
+      "lines": ["1"],
+      "platformIds": ["30"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "STATION_M556",
+      "schematicId": "saint-michel",
+      "name": "Saint-Michel",
+      "lat": 45.559708,
+      "lon": -73.600167,
+      "lines": ["5"],
+      "platformIds": ["64"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "sauve",
+      "schematicId": "sauve",
+      "name": "Sauvé",
+      "lat": 45.550819,
+      "lon": -73.65593,
+      "lines": ["2"],
+      "platformIds": ["2"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M262",
+      "schematicId": "sherbrooke",
+      "name": "Sherbrooke",
+      "lat": 45.518407,
+      "lon": -73.568263,
+      "lines": ["2"],
+      "platformIds": ["10"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M236",
+      "schematicId": "snowdon",
+      "name": "Snowdon",
+      "lat": 45.485244,
+      "lon": -73.627806,
+      "lines": ["2", "5"],
+      "platformIds": ["9999492", "9999495"],
+      "departureRouteIds": ["2", "5"]
+    },
+    {
+      "id": "square-victoriaoaci",
+      "schematicId": "square-victoriaoaci",
+      "name": "Square-Victoria–OACI",
+      "lat": 45.501874,
+      "lon": -73.563188,
+      "lines": ["2"],
+      "platformIds": ["14"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "universite-de-montreal",
+      "schematicId": "universite-de-montreal",
+      "name": "Université-de-Montréal",
+      "lat": 45.503671,
+      "lon": -73.618478,
+      "lines": ["5"],
+      "platformIds": ["56"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "vendome",
+      "schematicId": "vendome",
+      "name": "Vendôme",
+      "lat": 45.473861,
+      "lon": -73.603865,
+      "lines": ["2"],
+      "platformIds": ["47"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "STATION_M124",
+      "schematicId": "verdun",
+      "name": "Verdun",
+      "lat": 45.459432,
+      "lon": -73.571654,
+      "lines": ["1"],
+      "platformIds": ["40"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "viau",
+      "schematicId": "viau",
+      "name": "Viau",
+      "lat": 45.560976,
+      "lon": -73.54703,
+      "lines": ["1"],
+      "platformIds": ["23"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "villa-maria",
+      "schematicId": "villa-maria",
+      "name": "Villa-Maria",
+      "lat": 45.479559,
+      "lon": -73.61979,
+      "lines": ["2"],
+      "platformIds": ["48"],
+      "departureRouteIds": ["2"]
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 3308.49,
+      "y": 316.77,
+      "color": "#00B300",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 870,
+      "y": 292,
+      "color": "#D95700",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 2948.49,
+      "y": 1636.77,
+      "color": "#FFD900",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 1988.49,
+      "y": 676.77,
+      "color": "#0095E6",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 3900,
+      "minY": 0,
+      "maxY": 3150
+    },
+    "minZoom": 0.3,
+    "maxZoom": 12
+  },
+  "geoProjection": {
+    "refLonWest": -73.682766,
+    "refLonEast": -73.535053,
+    "refXWest": 440,
+    "refXEast": 3320,
+    "refLatNorth": 45.596495,
+    "refLatSouth": 45.446397,
+    "refYNorth": 260,
+    "refYSouth": 2900
+  }
+}

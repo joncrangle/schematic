@@ -1,0 +1,190 @@
+{
+  "viewBoxWidth": 900,
+  "viewBoxHeight": 920,
+  "lines": [
+    {
+      "id": "1-WCT",
+      "name": "Tofino / Ucluelet",
+      "color": "#1B4687",
+      "points": [
+        {
+          "x": 220,
+          "y": 160
+        },
+        {
+          "x": 340,
+          "y": 280
+        },
+        {
+          "x": 340,
+          "y": 400
+        },
+        {
+          "x": 460,
+          "y": 520
+        },
+        {
+          "x": 460,
+          "y": 760
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "tofino",
+      "name": "Tofino",
+      "x": 220,
+      "y": 160,
+      "lines": ["1-WCT"],
+      "label": {
+        "x": 192,
+        "y": 165,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "visitor",
+      "name": "Tofino Visitor Centre",
+      "x": 340,
+      "y": 280,
+      "lines": ["1-WCT"],
+      "label": {
+        "x": 368,
+        "y": 285,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ty-histanis",
+      "name": "Ty-Histanis",
+      "x": 340,
+      "y": 400,
+      "lines": ["1-WCT"],
+      "label": {
+        "x": 312,
+        "y": 405,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "junction",
+      "name": "Pacific Rim Visitor Centre",
+      "x": 460,
+      "y": 520,
+      "lines": ["1-WCT"],
+      "label": {
+        "x": 488,
+        "y": 525,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ucluelet",
+      "name": "Ucluelet Community Centre",
+      "x": 460,
+      "y": 760,
+      "lines": ["1-WCT"],
+      "label": {
+        "x": 488,
+        "y": 765,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-WCT",
+      "num": "1",
+      "x": 428,
+      "y": 650,
+      "color": "#1B4687",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "1-WCT": ["tofino", "visitor", "ty-histanis", "junction", "ucluelet"]
+  },
+  "stationAliases": {
+    "code:119025": "tofino",
+    "code:119016": "visitor",
+    "code:119014": "ty-histanis",
+    "code:119011": "junction",
+    "code:119007": "ucluelet",
+    "code:119033": "ty-histanis"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 100,
+      "maxX": 800,
+      "minY": 80,
+      "maxY": 830
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -125.90836,
+    "refLonEast": -125.54918,
+    "refXWest": 220,
+    "refXEast": 460,
+    "refLatNorth": 49.15273,
+    "refLatSouth": 48.93813,
+    "refYNorth": 160,
+    "refYSouth": 760
+  },
+  "stationIndex": [
+    {
+      "id": "119011",
+      "schematicId": "junction",
+      "name": "Pacific Rim Visitor Centre",
+      "lat": 48.9928,
+      "lon": -125.58798,
+      "lines": ["1-WCT"],
+      "platformIds": ["119011"],
+      "departureRouteIds": ["1-WCT"]
+    },
+    {
+      "id": "119025",
+      "schematicId": "tofino",
+      "name": "Tofino",
+      "lat": 49.15273,
+      "lon": -125.90836,
+      "lines": ["1-WCT"],
+      "platformIds": ["119025"],
+      "departureRouteIds": ["1-WCT"]
+    },
+    {
+      "id": "119016",
+      "schematicId": "visitor",
+      "name": "Tofino Visitor Centre",
+      "lat": 49.10651,
+      "lon": -125.86747,
+      "lines": ["1-WCT"],
+      "platformIds": ["119016"],
+      "departureRouteIds": ["1-WCT"]
+    },
+    {
+      "id": "119014",
+      "schematicId": "ty-histanis",
+      "name": "Ty-Histanis",
+      "lat": 49.07462,
+      "lon": -125.79203,
+      "lines": ["1-WCT"],
+      "platformIds": ["119014", "119033"],
+      "departureRouteIds": ["1-WCT"]
+    },
+    {
+      "id": "119007",
+      "schematicId": "ucluelet",
+      "name": "Ucluelet Community Centre",
+      "lat": 48.93813,
+      "lon": -125.54918,
+      "lines": ["1-WCT"],
+      "platformIds": ["119007"],
+      "departureRouteIds": ["1-WCT"]
+    }
+  ]
+}

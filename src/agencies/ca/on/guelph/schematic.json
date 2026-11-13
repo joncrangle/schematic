@@ -1,0 +1,1675 @@
+{
+  "viewBoxWidth": 1620,
+  "viewBoxHeight": 2140,
+  "lines": [
+    {
+      "id": "99",
+      "name": "99 Mainline",
+      "color": "#4F832E",
+      "points": [
+        {
+          "x": 850,
+          "y": 200
+        },
+        {
+          "x": 850,
+          "y": 2000
+        }
+      ]
+    },
+    {
+      "id": "50 U",
+      "name": "50U Scottsdale (term weekdays)",
+      "color": "#AF81E9",
+      "points": [
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 834,
+          "y": 984
+        },
+        {
+          "x": 666,
+          "y": 984
+        },
+        {
+          "x": 650,
+          "y": 1000
+        },
+        {
+          "x": 634,
+          "y": 1000
+        },
+        {
+          "x": 534,
+          "y": 1100
+        },
+        {
+          "x": 550,
+          "y": 1100
+        },
+        {
+          "x": 534,
+          "y": 1116
+        },
+        {
+          "x": 534,
+          "y": 1184
+        },
+        {
+          "x": 550,
+          "y": 1200
+        },
+        {
+          "x": 534,
+          "y": 1184
+        },
+        {
+          "x": 366,
+          "y": 1184
+        },
+        {
+          "x": 350,
+          "y": 1200
+        },
+        {
+          "x": 334,
+          "y": 1184
+        },
+        {
+          "x": 334,
+          "y": 1116
+        },
+        {
+          "x": 350,
+          "y": 1100
+        },
+        {
+          "x": 366,
+          "y": 1084
+        },
+        {
+          "x": 434,
+          "y": 1084
+        },
+        {
+          "x": 450,
+          "y": 1100
+        },
+        {
+          "x": 434,
+          "y": 1084
+        },
+        {
+          "x": 434,
+          "y": 916
+        },
+        {
+          "x": 450,
+          "y": 900
+        },
+        {
+          "x": 466,
+          "y": 884
+        },
+        {
+          "x": 634,
+          "y": 884
+        },
+        {
+          "x": 650,
+          "y": 900
+        },
+        {
+          "x": 634,
+          "y": 916
+        },
+        {
+          "x": 634,
+          "y": 984
+        },
+        {
+          "x": 650,
+          "y": 1000
+        },
+        {
+          "x": 666,
+          "y": 984
+        },
+        {
+          "x": 834,
+          "y": 984
+        },
+        {
+          "x": 850,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "52 U",
+      "name": "52U Kortright (term weekdays)",
+      "color": "#008290",
+      "points": [
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 834,
+          "y": 1016
+        },
+        {
+          "x": 834,
+          "y": 1204
+        },
+        {
+          "x": 850,
+          "y": 1220
+        },
+        {
+          "x": 834,
+          "y": 1220
+        },
+        {
+          "x": 754,
+          "y": 1300
+        },
+        {
+          "x": 770,
+          "y": 1300
+        },
+        {
+          "x": 754,
+          "y": 1284
+        },
+        {
+          "x": 716,
+          "y": 1284
+        },
+        {
+          "x": 700,
+          "y": 1300
+        },
+        {
+          "x": 684,
+          "y": 1284
+        },
+        {
+          "x": 566,
+          "y": 1284
+        },
+        {
+          "x": 550,
+          "y": 1300
+        },
+        {
+          "x": 534,
+          "y": 1316
+        },
+        {
+          "x": 534,
+          "y": 1384
+        },
+        {
+          "x": 550,
+          "y": 1400
+        },
+        {
+          "x": 566,
+          "y": 1384
+        },
+        {
+          "x": 834,
+          "y": 1384
+        },
+        {
+          "x": 850,
+          "y": 1400
+        },
+        {
+          "x": 834,
+          "y": 1384
+        },
+        {
+          "x": 834,
+          "y": 1236
+        },
+        {
+          "x": 850,
+          "y": 1220
+        },
+        {
+          "x": 834,
+          "y": 1204
+        },
+        {
+          "x": 834,
+          "y": 1016
+        },
+        {
+          "x": 850,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "56 U",
+      "name": "56U Colonial (term weekdays)",
+      "color": "#F54549",
+      "points": [
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 866,
+          "y": 1016
+        },
+        {
+          "x": 866,
+          "y": 1204
+        },
+        {
+          "x": 850,
+          "y": 1220
+        },
+        {
+          "x": 866,
+          "y": 1236
+        },
+        {
+          "x": 866,
+          "y": 1384
+        },
+        {
+          "x": 850,
+          "y": 1400
+        },
+        {
+          "x": 866,
+          "y": 1416
+        },
+        {
+          "x": 866,
+          "y": 1564
+        },
+        {
+          "x": 850,
+          "y": 1580
+        },
+        {
+          "x": 866,
+          "y": 1596
+        },
+        {
+          "x": 866,
+          "y": 1684
+        },
+        {
+          "x": 850,
+          "y": 1700
+        },
+        {
+          "x": 866,
+          "y": 1700
+        },
+        {
+          "x": 966,
+          "y": 1800
+        },
+        {
+          "x": 950,
+          "y": 1800
+        },
+        {
+          "x": 966,
+          "y": 1816
+        },
+        {
+          "x": 1084,
+          "y": 1816
+        },
+        {
+          "x": 1100,
+          "y": 1800
+        },
+        {
+          "x": 1116,
+          "y": 1816
+        },
+        {
+          "x": 1234,
+          "y": 1816
+        },
+        {
+          "x": 1250,
+          "y": 1800
+        },
+        {
+          "x": 1266,
+          "y": 1784
+        },
+        {
+          "x": 1266,
+          "y": 1596
+        },
+        {
+          "x": 1250,
+          "y": 1580
+        },
+        {
+          "x": 1234,
+          "y": 1596
+        },
+        {
+          "x": 866,
+          "y": 1596
+        },
+        {
+          "x": 850,
+          "y": 1580
+        },
+        {
+          "x": 866,
+          "y": 1564
+        },
+        {
+          "x": 866,
+          "y": 1416
+        },
+        {
+          "x": 850,
+          "y": 1400
+        },
+        {
+          "x": 866,
+          "y": 1384
+        },
+        {
+          "x": 866,
+          "y": 1236
+        },
+        {
+          "x": 850,
+          "y": 1220
+        },
+        {
+          "x": 866,
+          "y": 1204
+        },
+        {
+          "x": 866,
+          "y": 1016
+        },
+        {
+          "x": 850,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "58 U",
+      "name": "58U Edinburgh (term weekdays)",
+      "color": "#91469B",
+      "points": [
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 818,
+          "y": 968
+        },
+        {
+          "x": 682,
+          "y": 968
+        },
+        {
+          "x": 650,
+          "y": 1000
+        },
+        {
+          "x": 618,
+          "y": 1000
+        },
+        {
+          "x": 518,
+          "y": 1100
+        },
+        {
+          "x": 550,
+          "y": 1100
+        },
+        {
+          "x": 518,
+          "y": 1132
+        },
+        {
+          "x": 518,
+          "y": 1168
+        },
+        {
+          "x": 550,
+          "y": 1200
+        },
+        {
+          "x": 518,
+          "y": 1232
+        },
+        {
+          "x": 518,
+          "y": 1268
+        },
+        {
+          "x": 550,
+          "y": 1300
+        },
+        {
+          "x": 582,
+          "y": 1268
+        },
+        {
+          "x": 668,
+          "y": 1268
+        },
+        {
+          "x": 700,
+          "y": 1300
+        },
+        {
+          "x": 732,
+          "y": 1268
+        },
+        {
+          "x": 738,
+          "y": 1268
+        },
+        {
+          "x": 770,
+          "y": 1300
+        },
+        {
+          "x": 738,
+          "y": 1300
+        },
+        {
+          "x": 818,
+          "y": 1220
+        },
+        {
+          "x": 850,
+          "y": 1220
+        },
+        {
+          "x": 818,
+          "y": 1220
+        },
+        {
+          "x": 850,
+          "y": 1220
+        },
+        {
+          "x": 818,
+          "y": 1188
+        },
+        {
+          "x": 818,
+          "y": 1032
+        },
+        {
+          "x": 850,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "5 Goodwin",
+      "color": "#921B1E",
+      "points": [
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 882,
+          "y": 1032
+        },
+        {
+          "x": 1068,
+          "y": 1032
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1132,
+          "y": 1000
+        },
+        {
+          "x": 1402,
+          "y": 1270
+        },
+        {
+          "x": 1370,
+          "y": 1270
+        },
+        {
+          "x": 1402,
+          "y": 1302
+        },
+        {
+          "x": 1402,
+          "y": 1768
+        },
+        {
+          "x": 1370,
+          "y": 1800
+        },
+        {
+          "x": 1338,
+          "y": 1832
+        },
+        {
+          "x": 1132,
+          "y": 1832
+        },
+        {
+          "x": 1100,
+          "y": 1800
+        },
+        {
+          "x": 1068,
+          "y": 1832
+        },
+        {
+          "x": 982,
+          "y": 1832
+        },
+        {
+          "x": 950,
+          "y": 1800
+        },
+        {
+          "x": 982,
+          "y": 1800
+        },
+        {
+          "x": 882,
+          "y": 1700
+        },
+        {
+          "x": 850,
+          "y": 1700
+        },
+        {
+          "x": 882,
+          "y": 1668
+        },
+        {
+          "x": 882,
+          "y": 1612
+        },
+        {
+          "x": 850,
+          "y": 1580
+        },
+        {
+          "x": 882,
+          "y": 1548
+        },
+        {
+          "x": 882,
+          "y": 1432
+        },
+        {
+          "x": 850,
+          "y": 1400
+        },
+        {
+          "x": 882,
+          "y": 1368
+        },
+        {
+          "x": 882,
+          "y": 1032
+        },
+        {
+          "x": 850,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "8 Janefield",
+      "color": "#0082B1",
+      "points": [
+        {
+          "x": 850,
+          "y": 650
+        },
+        {
+          "x": 450,
+          "y": 650
+        },
+        {
+          "x": 450,
+          "y": 750
+        },
+        {
+          "x": 350,
+          "y": 850
+        },
+        {
+          "x": 350,
+          "y": 900
+        },
+        {
+          "x": 350,
+          "y": 1000
+        },
+        {
+          "x": 450,
+          "y": 1100
+        },
+        {
+          "x": 550,
+          "y": 1000
+        },
+        {
+          "x": 550,
+          "y": 900
+        },
+        {
+          "x": 550,
+          "y": 750
+        },
+        {
+          "x": 450,
+          "y": 750
+        },
+        {
+          "x": 450,
+          "y": 650
+        },
+        {
+          "x": 850,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "12 Delhi",
+      "color": "#008290",
+      "points": [
+        {
+          "x": 850,
+          "y": 650
+        },
+        {
+          "x": 1040,
+          "y": 460
+        },
+        {
+          "x": 1040,
+          "y": 340
+        },
+        {
+          "x": 1040,
+          "y": 200
+        },
+        {
+          "x": 1180,
+          "y": 200
+        },
+        {
+          "x": 1260,
+          "y": 120
+        },
+        {
+          "x": 1400,
+          "y": 120
+        },
+        {
+          "x": 1400,
+          "y": 340
+        },
+        {
+          "x": 1180,
+          "y": 340
+        },
+        {
+          "x": 1040,
+          "y": 200
+        },
+        {
+          "x": 1040,
+          "y": 340
+        },
+        {
+          "x": 1040,
+          "y": 460
+        },
+        {
+          "x": 850,
+          "y": 650
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "woodlawn-smart-centres",
+      "name": "Woodlawn Smart Centres",
+      "x": 850,
+      "y": 200,
+      "lines": ["99"],
+      "terminal": true,
+      "label": {
+        "x": 815,
+        "y": 200,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "guelph-central",
+      "name": "Guelph Central Station",
+      "x": 850,
+      "y": 650,
+      "lines": ["99", "8", "12"],
+      "label": {
+        "x": 885,
+        "y": 650,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "guelph-general-hospital",
+      "name": "Guelph General Hospital",
+      "x": 1040,
+      "y": 460,
+      "lines": ["12"],
+      "label": {
+        "x": 1075,
+        "y": 460,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "homewood-health-centre",
+      "name": "Homewood Health Centre",
+      "x": 1040,
+      "y": 340,
+      "lines": ["12"],
+      "label": {
+        "x": 1005,
+        "y": 340,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "delhi-emma",
+      "name": "Delhi / Emma",
+      "x": 1040,
+      "y": 200,
+      "lines": ["12"],
+      "label": {
+        "x": 1005,
+        "y": 200,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "woodlawn-victoria",
+      "name": "Woodlawn / Victoria",
+      "x": 1400,
+      "y": 120,
+      "lines": ["12"],
+      "label": {
+        "x": 1400,
+        "y": 85,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "edinburgh-municipal",
+      "name": "Edinburgh / Municipal",
+      "x": 450,
+      "y": 750,
+      "lines": ["8"],
+      "label": {
+        "x": 415,
+        "y": 750,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "college-centennial",
+      "name": "College / Centennial",
+      "x": 350,
+      "y": 900,
+      "lines": ["8"],
+      "label": {
+        "x": 315,
+        "y": 900,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "college-vanier",
+      "name": "College / Vanier",
+      "x": 450,
+      "y": 900,
+      "lines": ["50 U"],
+      "label": {
+        "x": 450,
+        "y": 855,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "college-lynnwood",
+      "name": "College / Lynnwood",
+      "x": 550,
+      "y": 900,
+      "lines": ["8"],
+      "label": {
+        "x": 585,
+        "y": 850,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "stone-road-mall",
+      "name": "Stone Road Mall",
+      "x": 450,
+      "y": 1100,
+      "lines": ["8", "50 U"],
+      "label": {
+        "x": 415,
+        "y": 1065,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "university-centre",
+      "name": "University Centre",
+      "x": 850,
+      "y": 1000,
+      "lines": ["99", "50 U", "52 U", "56 U", "58 U", "5"],
+      "label": {
+        "x": 885,
+        "y": 965,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "stone-research",
+      "name": "Stone / Research",
+      "x": 650,
+      "y": 1000,
+      "lines": ["50 U", "58 U"],
+      "label": {
+        "x": 675,
+        "y": 1000,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "edinburgh-thornberry",
+      "name": "Edinburgh / Thornberry",
+      "x": 550,
+      "y": 1100,
+      "lines": ["50 U", "58 U"],
+      "label": {
+        "x": 585,
+        "y": 1135,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ironwood-scottsdale",
+      "name": "Ironwood / Scottsdale",
+      "x": 350,
+      "y": 1200,
+      "lines": ["50 U"],
+      "label": {
+        "x": 315,
+        "y": 1200,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "edinburgh-ironwood",
+      "name": "Edinburgh / Ironwood",
+      "x": 550,
+      "y": 1200,
+      "lines": ["58 U"],
+      "label": {
+        "x": 585,
+        "y": 1225,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kortright-rickson",
+      "name": "Kortright / Rickson",
+      "x": 700,
+      "y": 1300,
+      "lines": ["52 U", "58 U"],
+      "label": {
+        "x": 700,
+        "y": 1335,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "edinburgh-rodgers",
+      "name": "Edinburgh / Rodgers",
+      "x": 550,
+      "y": 1400,
+      "lines": ["52 U"],
+      "label": {
+        "x": 525,
+        "y": 1425,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "gordon-kortright",
+      "name": "Gordon / Kortright",
+      "x": 850,
+      "y": 1220,
+      "lines": ["99", "52 U", "56 U", "58 U"],
+      "label": {
+        "x": 885,
+        "y": 1190,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "gordon-edinburgh",
+      "name": "Gordon / Edinburgh",
+      "x": 850,
+      "y": 1400,
+      "lines": ["99", "52 U", "56 U", "5"],
+      "label": {
+        "x": 885,
+        "y": 1435,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "gordon-arkell",
+      "name": "Gordon / Arkell",
+      "x": 850,
+      "y": 1580,
+      "lines": ["99", "56 U", "5"],
+      "label": {
+        "x": 815,
+        "y": 1580,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "gordon-clairfields",
+      "name": "Gordon / Clairfields",
+      "x": 850,
+      "y": 1700,
+      "lines": ["99", "5"],
+      "label": {
+        "x": 815,
+        "y": 1700,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "clair-gosling",
+      "name": "Clair / Gosling",
+      "x": 850,
+      "y": 2000,
+      "lines": ["99"],
+      "terminal": true,
+      "label": {
+        "x": 885,
+        "y": 2000,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "stone-victoria",
+      "name": "Stone / Victoria",
+      "x": 1100,
+      "y": 1000,
+      "lines": ["5"],
+      "label": {
+        "x": 1125,
+        "y": 975,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "frederick-waterford",
+      "name": "Frederick / Waterford",
+      "x": 1370,
+      "y": 1800,
+      "lines": ["5"],
+      "label": {
+        "x": 1405,
+        "y": 1800,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "goodwin-wilkie",
+      "name": "Goodwin / Wilkie",
+      "x": 1100,
+      "y": 1800,
+      "lines": ["5", "56 U"],
+      "label": {
+        "x": 1100,
+        "y": 1760,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "colonial-bard",
+      "name": "Colonial / Bard",
+      "x": 1250,
+      "y": 1580,
+      "lines": ["56 U"],
+      "label": {
+        "x": 1250,
+        "y": 1535,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "99",
+      "num": "99",
+      "x": 882,
+      "y": 1920,
+      "color": "#4F832E",
+      "textColor": "#000000"
+    },
+    {
+      "line": "50 U",
+      "num": "50U",
+      "x": 302,
+      "y": 1150,
+      "color": "#AF81E9",
+      "textColor": "#000000"
+    },
+    {
+      "line": "52 U",
+      "num": "52U",
+      "x": 700,
+      "y": 1416,
+      "color": "#008290",
+      "textColor": "#000000"
+    },
+    {
+      "line": "56 U",
+      "num": "56U",
+      "x": 1200,
+      "y": 1784,
+      "color": "#F54549",
+      "textColor": "#000000"
+    },
+    {
+      "line": "58 U",
+      "num": "58U",
+      "x": 507.39,
+      "y": 1306.89,
+      "color": "#91469B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 1434,
+      "y": 1470,
+      "color": "#921B1E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "x": 318,
+      "y": 960,
+      "color": "#0082B1",
+      "textColor": "#000000"
+    },
+    {
+      "line": "12",
+      "num": "12",
+      "x": 1432,
+      "y": 230,
+      "color": "#008290",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 100,
+      "minY": 20,
+      "maxX": 1600,
+      "maxY": 2110
+    },
+    "minZoom": 0.2,
+    "maxZoom": 4
+  },
+  "geoProjection": {
+    "refLonWest": -80.28,
+    "refLonEast": -80.18,
+    "refXWest": 350,
+    "refXEast": 1370,
+    "refLatNorth": 43.57,
+    "refLatSouth": 43.49,
+    "refYNorth": 200,
+    "refYSouth": 2000
+  },
+  "sequences": {
+    "5": [
+      "university-centre",
+      "stone-victoria",
+      "frederick-waterford",
+      "goodwin-wilkie",
+      "gordon-clairfields",
+      "gordon-arkell",
+      "gordon-edinburgh"
+    ],
+    "8": [
+      "guelph-central",
+      "edinburgh-municipal",
+      "college-centennial",
+      "stone-road-mall",
+      "college-lynnwood"
+    ],
+    "12": [
+      "guelph-central",
+      "guelph-general-hospital",
+      "homewood-health-centre",
+      "delhi-emma",
+      "woodlawn-victoria"
+    ],
+    "99": [
+      "woodlawn-smart-centres",
+      "guelph-central",
+      "university-centre",
+      "gordon-kortright",
+      "gordon-edinburgh",
+      "gordon-arkell",
+      "gordon-clairfields",
+      "clair-gosling"
+    ],
+    "50 U": [
+      "university-centre",
+      "stone-research",
+      "edinburgh-thornberry",
+      "ironwood-scottsdale",
+      "stone-road-mall",
+      "college-vanier"
+    ],
+    "52 U": [
+      "university-centre",
+      "gordon-kortright",
+      "kortright-rickson",
+      "edinburgh-rodgers",
+      "gordon-edinburgh"
+    ],
+    "56 U": [
+      "university-centre",
+      "gordon-kortright",
+      "gordon-edinburgh",
+      "gordon-arkell",
+      "goodwin-wilkie",
+      "colonial-bard"
+    ],
+    "58 U": [
+      "university-centre",
+      "stone-research",
+      "edinburgh-thornberry",
+      "edinburgh-ironwood",
+      "kortright-rickson",
+      "gordon-kortright"
+    ]
+  },
+  "stationAliases": {
+    "Woodlawn Smart Centres northbound": "woodlawn-smart-centres",
+    "Guelph Central Station Platform 1": "guelph-central",
+    "Guelph Central Station Platform 5": "guelph-central",
+    "Guelph Central Station Platform 6": "guelph-central",
+    "Guelph Central Station Platform 21": "guelph-central",
+    "Guelph Central Station Platform 2": "guelph-central",
+    "Guelph Central Station Platform 3": "guelph-central",
+    "Guelph Central Station Platform 4": "guelph-central",
+    "Guelph Central Station Platform 7": "guelph-central",
+    "Guelph Central Station Platform 8": "guelph-central",
+    "Guelph Central Station Platform 18": "guelph-central",
+    "Guelph Central Station Platform 19": "guelph-central",
+    "Guelph Central Station Platform 20": "guelph-central",
+    "Guelph Central Station Platform 22": "guelph-central",
+    "Guelph Central Station Platform 9": "guelph-central",
+    "Guelph Central Station Platform 11": "guelph-central",
+    "Guelph Central Station Platform 10": "guelph-central",
+    "Delhi at Guelph General Hospital northbound": "guelph-general-hospital",
+    "Delhi at Guelph General Hospital southbound": "guelph-general-hospital",
+    "Delhi at Homewood Health Centre northbound": "homewood-health-centre",
+    "Delhi at Homewood Health Centre southbound": "homewood-health-centre",
+    "Delhi at Emma northbound": "delhi-emma",
+    "Delhi at Emma southbound": "delhi-emma",
+    "Woodlawn at Victoria westbound": "woodlawn-victoria",
+    "Edinburgh at Municipal southbound": "edinburgh-municipal",
+    "Edinburgh at Municipal northbound": "edinburgh-municipal",
+    "College at Centennial westbound": "college-centennial",
+    "College at Vanier eastbound": "college-vanier",
+    "College at Lynnwood eastbound": "college-lynnwood",
+    "Stone Road Mall Platform 1": "stone-road-mall",
+    "Stone Road Mall Platform 4": "stone-road-mall",
+    "Stone Road Mall Platform 2": "stone-road-mall",
+    "Stone Road Mall Platform 3": "stone-road-mall",
+    "University Centre South Loop Platform 3": "university-centre",
+    "University Centre South Loop Platform 5": "university-centre",
+    "University Centre North Loop Platform 10": "university-centre",
+    "University Centre North Loop Platform 7": "university-centre",
+    "University Centre North Loop Platform 9": "university-centre",
+    "University Centre South Loop Platform 6": "university-centre",
+    "University Centre South Loop Platform 0": "university-centre",
+    "University Centre South Loop Platform 1": "university-centre",
+    "University Centre South Loop Platform 2": "university-centre",
+    "University Centre South Loop Platform 4": "university-centre",
+    "University Centre North Loop Platform 8": "university-centre",
+    "University Centre North Loop Platform 11": "university-centre",
+    "University Centre North Loop Platform 12 A": "university-centre",
+    "University Centre North Loop Platform 12 B": "university-centre",
+    "Stone at Research westbound": "stone-research",
+    "Stone at Research eastbound": "stone-research",
+    "Edinburgh at Thornberry southbound": "edinburgh-thornberry",
+    "Ironwood at Scottsdale westbound": "ironwood-scottsdale",
+    "Edinburgh at Ironwood southbound": "edinburgh-ironwood",
+    "Kortright at Rickson westbound": "kortright-rickson",
+    "Kortright at Rickson eastbound": "kortright-rickson",
+    "Edinburgh at Rodgers southbound": "edinburgh-rodgers",
+    "Edinburgh at Rodgers northbound": "edinburgh-rodgers",
+    "Gordon at Kortright southbound": "gordon-kortright",
+    "Gordon at Kortright northbound": "gordon-kortright",
+    "Gordon at Edinburgh southbound": "gordon-edinburgh",
+    "Gordon at Edinburgh northbound": "gordon-edinburgh",
+    "Gordon at Arkell southbound": "gordon-arkell",
+    "Gordon at Arkell northbound": "gordon-arkell",
+    "Gordon at Clairfields southbound": "gordon-clairfields",
+    "Gordon at Clairfields northbound": "gordon-clairfields",
+    "Clair at Gosling westbound": "clair-gosling",
+    "Stone at Victoria eastbound": "stone-victoria",
+    "Stone at Victoria westbound": "stone-victoria",
+    "Frederick at Waterford westbound": "frederick-waterford",
+    "Goodwin at Wilkie eastbound": "goodwin-wilkie",
+    "Goodwin at Wilkie westbound": "goodwin-wilkie",
+    "Colonial at Bard northbound": "colonial-bard",
+    "Woodlawn Smart Centres southbound": "woodlawn-smart-centres"
+  },
+  "stationIndex": [
+    {
+      "id": "6058",
+      "schematicId": "clair-gosling",
+      "name": "Clair / Gosling",
+      "lat": 43.499197,
+      "lon": -80.190701,
+      "lines": ["99"],
+      "platformIds": ["6058"],
+      "departureRouteIds": ["16", "19", "99"]
+    },
+    {
+      "id": "156",
+      "schematicId": "college-centennial",
+      "name": "College / Centennial",
+      "lat": 43.521522,
+      "lon": -80.24709,
+      "lines": ["8"],
+      "platformIds": ["156"],
+      "departureRouteIds": ["17", "2", "8"]
+    },
+    {
+      "id": "118",
+      "schematicId": "college-lynnwood",
+      "name": "College / Lynnwood",
+      "lat": 43.524333,
+      "lon": -80.243006,
+      "lines": ["8"],
+      "platformIds": ["118"],
+      "departureRouteIds": ["1", "15", "8", "Sun LN", "WHanSco"]
+    },
+    {
+      "id": "117",
+      "schematicId": "college-vanier",
+      "name": "College / Vanier",
+      "lat": 43.522099,
+      "lon": -80.246057,
+      "lines": ["50 U"],
+      "platformIds": ["117"],
+      "departureRouteIds": ["1", "15", "18", "50 U"]
+    },
+    {
+      "id": "5607",
+      "schematicId": "colonial-bard",
+      "name": "Colonial / Bard",
+      "lat": 43.520917,
+      "lon": -80.187044,
+      "lines": ["56 U"],
+      "platformIds": ["5607"],
+      "departureRouteIds": ["56 U", "EdiCol"]
+    },
+    {
+      "id": "delhi-emma",
+      "schematicId": "delhi-emma",
+      "name": "Delhi / Emma",
+      "lat": 43.55969,
+      "lon": -80.25912,
+      "lines": ["12"],
+      "platformIds": ["1206", "1222"],
+      "departureRouteIds": ["12"]
+    },
+    {
+      "id": "162",
+      "schematicId": "edinburgh-ironwood",
+      "name": "Edinburgh / Ironwood",
+      "lat": 43.516369,
+      "lon": -80.228883,
+      "lines": ["58 U"],
+      "platformIds": ["162"],
+      "departureRouteIds": ["2", "58 U"]
+    },
+    {
+      "id": "edinburgh-municipal",
+      "schematicId": "edinburgh-municipal",
+      "name": "Edinburgh / Municipal",
+      "lat": 43.530091,
+      "lon": -80.248243,
+      "lines": ["8"],
+      "platformIds": ["5934", "820"],
+      "departureRouteIds": ["8", "Sun LN", "WHanSco"]
+    },
+    {
+      "id": "edinburgh-rodgers",
+      "schematicId": "edinburgh-rodgers",
+      "name": "Edinburgh / Rodgers",
+      "lat": 43.512602,
+      "lon": -80.218619,
+      "lines": ["52 U"],
+      "platformIds": ["110", "164"],
+      "departureRouteIds": ["1", "2", "52 U", "EdiCol", "Sun LN", "ZehCha"]
+    },
+    {
+      "id": "6043",
+      "schematicId": "edinburgh-thornberry",
+      "name": "Edinburgh / Thornberry",
+      "lat": 43.518931,
+      "lon": -80.23265,
+      "lines": ["50 U", "58 U"],
+      "platformIds": ["6043"],
+      "departureRouteIds": ["2", "50 U", "58 U", "6"]
+    },
+    {
+      "id": "520",
+      "schematicId": "frederick-waterford",
+      "name": "Frederick / Waterford",
+      "lat": 43.514916,
+      "lon": -80.175535,
+      "lines": ["5"],
+      "platformIds": ["520"],
+      "departureRouteIds": ["5", "Sun LN"]
+    },
+    {
+      "id": "goodwin-wilkie",
+      "schematicId": "goodwin-wilkie",
+      "name": "Goodwin / Wilkie",
+      "lat": 43.508801,
+      "lon": -80.181028,
+      "lines": ["5", "56 U"],
+      "platformIds": ["522", "5971"],
+      "departureRouteIds": ["5", "56 U", "EdiCol", "Sun LN"]
+    },
+    {
+      "id": "gordon-arkell",
+      "schematicId": "gordon-arkell",
+      "name": "Gordon / Arkell",
+      "lat": 43.513912,
+      "lon": -80.199892,
+      "lines": ["5", "56 U", "99"],
+      "platformIds": ["1612", "5608"],
+      "departureRouteIds": ["5", "56 U", "99", "99Lite", "EdiCol", "Sun LN", "ZehCha"]
+    },
+    {
+      "id": "gordon-clairfields",
+      "schematicId": "gordon-clairfields",
+      "name": "Gordon / Clairfields",
+      "lat": 43.505172,
+      "lon": -80.194346,
+      "lines": ["5", "99"],
+      "platformIds": ["1615", "1636"],
+      "departureRouteIds": ["5", "99", "99Lite", "EdiCol", "Sun LN"]
+    },
+    {
+      "id": "gordon-edinburgh",
+      "schematicId": "gordon-edinburgh",
+      "name": "Gordon / Edinburgh",
+      "lat": 43.516559,
+      "lon": -80.203531,
+      "lines": ["5", "52 U", "56 U", "99"],
+      "platformIds": ["106", "168"],
+      "departureRouteIds": ["1", "2", "5", "52 U", "56 U", "99", "99Lite", "Sun LN"]
+    },
+    {
+      "id": "gordon-kortright",
+      "schematicId": "gordon-kortright",
+      "name": "Gordon / Kortright",
+      "lat": 43.522362,
+      "lon": -80.213442,
+      "lines": ["52 U", "56 U", "58 U", "99"],
+      "platformIds": ["103", "5807"],
+      "departureRouteIds": [
+        "1",
+        "2",
+        "5",
+        "52 U",
+        "56 U",
+        "58 U",
+        "7",
+        "99",
+        "99Lite",
+        "EdiCol",
+        "Sun LN"
+      ]
+    },
+    {
+      "id": "guelph-central",
+      "schematicId": "guelph-central",
+      "name": "Guelph Central Station",
+      "lat": 43.546108,
+      "lon": -80.245165,
+      "lines": ["12", "8", "99"],
+      "platformIds": [
+        "5833",
+        "5837",
+        "5839",
+        "5841",
+        "5849",
+        "5850",
+        "5851",
+        "5852",
+        "5853",
+        "5857",
+        "5858",
+        "5859",
+        "5860",
+        "5889",
+        "5909",
+        "6171"
+      ],
+      "departureRouteIds": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "20",
+        "3",
+        "4",
+        "8",
+        "9",
+        "98",
+        "99",
+        "99Lite",
+        "BREW",
+        "IroHarv",
+        "Sun LN",
+        "WHanSco"
+      ]
+    },
+    {
+      "id": "guelph-general-hospital",
+      "schematicId": "guelph-general-hospital",
+      "name": "Guelph General Hospital",
+      "lat": 43.555478,
+      "lon": -80.253275,
+      "lines": ["12"],
+      "platformIds": ["1204", "1224"],
+      "departureRouteIds": ["12"]
+    },
+    {
+      "id": "homewood-health-centre",
+      "schematicId": "homewood-health-centre",
+      "name": "Homewood Health Centre",
+      "lat": 43.558006,
+      "lon": -80.256812,
+      "lines": ["12"],
+      "platformIds": ["1205", "1223"],
+      "departureRouteIds": ["12"]
+    },
+    {
+      "id": "5817",
+      "schematicId": "ironwood-scottsdale",
+      "name": "Ironwood / Scottsdale",
+      "lat": 43.513147,
+      "lon": -80.234387,
+      "lines": ["50 U"],
+      "platformIds": ["5817"],
+      "departureRouteIds": ["50 U"]
+    },
+    {
+      "id": "kortright-rickson",
+      "schematicId": "kortright-rickson",
+      "name": "Kortright / Rickson",
+      "lat": 43.517057,
+      "lon": -80.216554,
+      "lines": ["52 U", "58 U"],
+      "platformIds": ["704", "720"],
+      "departureRouteIds": ["52 U", "58 U", "7", "EdiCol"]
+    },
+    {
+      "id": "stone-research",
+      "schematicId": "stone-research",
+      "name": "Stone / Research",
+      "lat": 43.525095,
+      "lon": -80.227034,
+      "lines": ["50 U", "58 U"],
+      "platformIds": ["1501", "1520"],
+      "departureRouteIds": ["15", "17", "18", "50 U", "58 U", "IroHarv", "Sun LN", "WHanSco"]
+    },
+    {
+      "id": "stone-victoria",
+      "schematicId": "stone-victoria",
+      "name": "Stone / Victoria",
+      "lat": 43.53918,
+      "lon": -80.208169,
+      "lines": ["5"],
+      "platformIds": ["339", "359"],
+      "departureRouteIds": ["17", "18", "5"]
+    },
+    {
+      "id": "stone-road-mall",
+      "schematicId": "stone-road-mall",
+      "name": "Stone Road Mall",
+      "lat": 43.518223,
+      "lon": -80.239911,
+      "lines": ["50 U", "8"],
+      "platformIds": ["5882", "6047", "6048", "813"],
+      "departureRouteIds": ["17", "18", "19", "50 U", "8"]
+    },
+    {
+      "id": "university-centre",
+      "schematicId": "university-centre",
+      "name": "University Centre",
+      "lat": 43.528915,
+      "lon": -80.22357,
+      "lines": ["5", "50 U", "52 U", "56 U", "58 U", "99"],
+      "platformIds": [
+        "5831",
+        "5832",
+        "5834",
+        "5836",
+        "5838",
+        "5840",
+        "5842",
+        "5843",
+        "5844",
+        "5845",
+        "5846",
+        "5847",
+        "5848",
+        "6216"
+      ],
+      "departureRouteIds": [
+        "1",
+        "15",
+        "17",
+        "18",
+        "2",
+        "5",
+        "50 U",
+        "52 U",
+        "56 U",
+        "58 U",
+        "6",
+        "7",
+        "99",
+        "99Lite",
+        "EdiCol",
+        "IroHarv",
+        "Sun LN",
+        "WHanSco",
+        "ZehCha"
+      ]
+    },
+    {
+      "id": "1214",
+      "schematicId": "woodlawn-victoria",
+      "name": "Woodlawn / Victoria",
+      "lat": 43.577342,
+      "lon": -80.260578,
+      "lines": ["12"],
+      "platformIds": ["1214"],
+      "departureRouteIds": ["12"]
+    },
+    {
+      "id": "6055",
+      "schematicId": "woodlawn-smart-centres",
+      "name": "Woodlawn Smart Centres",
+      "lat": 43.563774,
+      "lon": -80.281538,
+      "lines": ["99"],
+      "platformIds": ["5917", "6055"],
+      "departureRouteIds": ["17", "18", "99"]
+    }
+  ]
+}

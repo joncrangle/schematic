@@ -1,0 +1,720 @@
+{
+  "viewBoxWidth": 1200,
+  "viewBoxHeight": 860,
+  "lines": [
+    {
+      "id": "2",
+      "name": "2 Hurontario",
+      "color": "#D33517",
+      "points": [
+        { "x": 640, "y": 740 },
+        { "x": 640, "y": 660 },
+        { "x": 636, "y": 650 },
+        { "x": 636, "y": 470 },
+        { "x": 636, "y": 460 },
+        { "x": 575, "y": 400 },
+        { "x": 500, "y": 400 }
+      ]
+    },
+    {
+      "id": "101",
+      "name": "101 Dundas Express",
+      "color": "#026BCD",
+      "points": [
+        { "x": 160, "y": 580 },
+        { "x": 1020, "y": 580 }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "103 Hurontario Express",
+      "color": "#026BCD",
+      "points": [
+        { "x": 640, "y": 660 },
+        { "x": 644, "y": 650 },
+        { "x": 644, "y": 470 },
+        { "x": 640, "y": 460 },
+        { "x": 640, "y": 140 }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "107 Malton Express",
+      "color": "#026BCD",
+      "points": [
+        { "x": 500, "y": 400 },
+        { "x": 675, "y": 400 },
+        { "x": 895, "y": 180 },
+        { "x": 795, "y": 80 },
+        { "x": 975, "y": 80 }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "109 Meadowvale Express",
+      "color": "#026BCD",
+      "points": [
+        { "x": 160, "y": 240 },
+        { "x": 160, "y": 400 },
+        { "x": 675, "y": 400 },
+        { "x": 895, "y": 180 },
+        { "x": 1020, "y": 305 },
+        { "x": 1020, "y": 580 }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "110 University Express",
+      "color": "#026BCD",
+      "points": [
+        { "x": 340, "y": 740 },
+        { "x": 340, "y": 400 },
+        { "x": 500, "y": 400 }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "brampton-gateway-terminal",
+      "name": "Brampton Gateway Terminal",
+      "x": 640,
+      "y": 140,
+      "lines": ["103"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 640, "y": 110, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "hurontario-eglinton",
+      "name": "Hurontario at Eglinton",
+      "x": 640,
+      "y": 270,
+      "lines": ["103"],
+      "accessible": true,
+      "label": { "x": 660, "y": 270, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "hurontario-burnhamthorpe",
+      "name": "Hurontario at Burnhamthorpe",
+      "x": 640,
+      "y": 460,
+      "lines": ["2", "103"],
+      "accessible": true,
+      "label": { "x": 665, "y": 460, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "city-centre-transit-terminal",
+      "name": "City Centre Transit Terminal",
+      "x": 500,
+      "y": 400,
+      "lines": ["2", "107", "109", "110"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 500, "y": 370, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "trillium-health-centre",
+      "name": "Trillium Health Centre",
+      "x": 640,
+      "y": 660,
+      "lines": ["103"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 665, "y": 660, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "port-credit-go-station",
+      "name": "Port Credit GO Station",
+      "x": 640,
+      "y": 740,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 640, "y": 770, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "central-parkway-station",
+      "name": "Central Parkway Station",
+      "x": 735,
+      "y": 340,
+      "lines": ["107", "109"],
+      "accessible": true,
+      "label": { "x": 720, "y": 320, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "dixie-station",
+      "name": "Dixie Station",
+      "x": 815,
+      "y": 260,
+      "lines": ["107", "109"],
+      "accessible": true,
+      "label": { "x": 800, "y": 240, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "renforth-station",
+      "name": "Renforth Station",
+      "x": 895,
+      "y": 180,
+      "lines": ["107", "109"],
+      "accessible": true,
+      "label": { "x": 915, "y": 190, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "viscount-station",
+      "name": "Viscount Station",
+      "x": 845,
+      "y": 130,
+      "lines": ["107"],
+      "accessible": true,
+      "label": { "x": 865, "y": 130, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "westwood-square-transit-terminal",
+      "name": "Westwood Square Transit Terminal",
+      "x": 795,
+      "y": 80,
+      "lines": ["107"],
+      "accessible": true,
+      "label": { "x": 795, "y": 55, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "humber-college-north-campus",
+      "name": "Humber College North Campus",
+      "x": 975,
+      "y": 80,
+      "lines": ["107"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 975, "y": 55, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "kipling-bus-terminal",
+      "name": "Kipling Bus Terminal",
+      "x": 1020,
+      "y": 580,
+      "lines": ["101", "109"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 1045, "y": 580, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "laird-ridgeway",
+      "name": "Laird at Ridgeway",
+      "x": 160,
+      "y": 580,
+      "lines": ["101"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 160, "y": 610, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "university-of-toronto-mississauga",
+      "name": "University of Toronto Mississauga",
+      "x": 340,
+      "y": 580,
+      "lines": ["101", "110"],
+      "accessible": true,
+      "label": { "x": 360, "y": 555, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "south-common-centre",
+      "name": "South Common Centre",
+      "x": 340,
+      "y": 480,
+      "lines": ["110"],
+      "accessible": true,
+      "label": { "x": 320, "y": 480, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "erin-mills-station",
+      "name": "Erin Mills Station",
+      "x": 340,
+      "y": 400,
+      "lines": ["109", "110"],
+      "accessible": true,
+      "label": { "x": 340, "y": 370, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "winston-churchill-station",
+      "name": "Winston Churchill Station",
+      "x": 160,
+      "y": 400,
+      "lines": ["109"],
+      "accessible": true,
+      "label": { "x": 140, "y": 400, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "meadowvale-town-centre",
+      "name": "Meadowvale Town Centre",
+      "x": 160,
+      "y": 240,
+      "lines": ["109"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 160, "y": 210, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "clarkson-go-station",
+      "name": "Clarkson GO Station",
+      "x": 340,
+      "y": 740,
+      "lines": ["110"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 340, "y": 770, "rot": 0, "anchor": "middle" }
+    }
+  ],
+  "badges": [
+    { "line": "2", "num": "2", "x": 672, "y": 720, "color": "#D33517", "textColor": "#FFFFFF" },
+    { "line": "101", "num": "101", "x": 245, "y": 548, "color": "#026BCD", "textColor": "#FFFFFF" },
+    { "line": "103", "num": "103", "x": 672, "y": 160, "color": "#026BCD", "textColor": "#FFFFFF" },
+    {
+      "line": "107",
+      "num": "107",
+      "x": 829.06,
+      "y": 167.8,
+      "color": "#026BCD",
+      "textColor": "#FFFFFF"
+    },
+    { "line": "109", "num": "109", "x": 192, "y": 260, "color": "#026BCD", "textColor": "#FFFFFF" },
+    { "line": "110", "num": "110", "x": 372, "y": 720, "color": "#026BCD", "textColor": "#FFFFFF" }
+  ],
+  "viewport": {
+    "bounds": { "minX": 60, "maxX": 1140, "minY": 20, "maxY": 840 },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.8,
+    "refLonEast": -79.5,
+    "refXWest": 0,
+    "refXEast": 1200,
+    "refLatNorth": 43.75,
+    "refLatSouth": 43.47,
+    "refYNorth": 0,
+    "refYSouth": 860
+  },
+  "sequences": {
+    "2": ["port-credit-go-station", "hurontario-burnhamthorpe", "city-centre-transit-terminal"],
+    "101": ["laird-ridgeway", "university-of-toronto-mississauga", "kipling-bus-terminal"],
+    "103": [
+      "trillium-health-centre",
+      "hurontario-burnhamthorpe",
+      "hurontario-eglinton",
+      "brampton-gateway-terminal"
+    ],
+    "107": [
+      "city-centre-transit-terminal",
+      "central-parkway-station",
+      "dixie-station",
+      "renforth-station",
+      "viscount-station",
+      "westwood-square-transit-terminal",
+      "humber-college-north-campus"
+    ],
+    "109": [
+      "meadowvale-town-centre",
+      "winston-churchill-station",
+      "erin-mills-station",
+      "city-centre-transit-terminal",
+      "central-parkway-station",
+      "dixie-station",
+      "renforth-station",
+      "kipling-bus-terminal"
+    ],
+    "110": [
+      "clarkson-go-station",
+      "university-of-toronto-mississauga",
+      "south-common-centre",
+      "erin-mills-station",
+      "city-centre-transit-terminal"
+    ]
+  },
+  "stationAliases": {
+    "Brampton Gateway Terminal": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Drop Off": "brampton-gateway-terminal",
+    "Central Parkway Station East Platform A": "central-parkway-station",
+    "Central Parkway Station West Platform B": "central-parkway-station",
+    "City Centre Transit Terminal Drop Off": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform A": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform D": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform E": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform F": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform G": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform H": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform I": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform J": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform K": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform L": "city-centre-transit-terminal",
+    "City Centre Transit Terminal Platform O": "city-centre-transit-terminal",
+    "Clarkson Go Station Platform 9": "clarkson-go-station",
+    "Dixie Station East Platform A": "dixie-station",
+    "Dixie Station West Platform B": "dixie-station",
+    "Erin Mills Station East Platform 5": "erin-mills-station",
+    "Erin Mills Station East Platform 6": "erin-mills-station",
+    "Erin Mills Station West Platform 3": "erin-mills-station",
+    "Erin Mills Station West Platform 4": "erin-mills-station",
+    "Humber College North Campus Platform 1": "humber-college-north-campus",
+    "Hurontario St At Burnhamthorpe Rd": "hurontario-burnhamthorpe",
+    "Hurontario St At Eglinton Ave": "hurontario-eglinton",
+    "Kipling Terminal Platform 3": "kipling-bus-terminal",
+    "Kipling Terminal Platform 4": "kipling-bus-terminal",
+    "Kipling Terminal Platform 5": "kipling-bus-terminal",
+    "Kipling Terminal Platform 6 Drop Off": "kipling-bus-terminal",
+    "Kipling Terminal Platform 11": "kipling-bus-terminal",
+    "Kipling Terminal Platform 12": "kipling-bus-terminal",
+    "Kipling Terminal Platform 13": "kipling-bus-terminal",
+    "Kipling Terminal Platform 14": "kipling-bus-terminal",
+    "Kipling Terminal Platform 15": "kipling-bus-terminal",
+    "Kipling Terminal Platform 16": "kipling-bus-terminal",
+    "Laird Rd West Of Ridgeway Dr": "laird-ridgeway",
+    "Meadowvale Town Centre Bus Terminal Platform B": "meadowvale-town-centre",
+    "Meadowvale Town Centre Bus Terminal Platform C": "meadowvale-town-centre",
+    "Meadowvale Town Centre Bus Terminal Platform D": "meadowvale-town-centre",
+    "Meadowvale Town Centre Bus Terminal Platform E": "meadowvale-town-centre",
+    "Meadowvale Town Centre Bus Terminal Platform F": "meadowvale-town-centre",
+    "Meadowvale Town Centre Bus Terminal Platform G": "meadowvale-town-centre",
+    "Meadowvale Town Centre Bus Terminal Platform H": "meadowvale-town-centre",
+    "Meadowvale Town Centre Bus Terminal Platform I": "meadowvale-town-centre",
+    "Meadowvale Town Centre Bus Terminal Platform J": "meadowvale-town-centre",
+    "Meadowvale Town Centre Drop Off": "meadowvale-town-centre",
+    "Port Credit Go Station Platform 8": "port-credit-go-station",
+    "Queensway At Trillium Hospital": "trillium-health-centre",
+    "Renforth Station East Platform 7": "renforth-station",
+    "Renforth Station West Platform 1": "renforth-station",
+    "South Common Centre Bus Terminal Platform A": "south-common-centre",
+    "South Common Centre Bus Terminal Platform B": "south-common-centre",
+    "South Common Centre Bus Terminal Platform C": "south-common-centre",
+    "South Common Centre Bus Terminal Platform D": "south-common-centre",
+    "South Common Centre Bus Terminal Platform E": "south-common-centre",
+    "South Common Centre Bus Terminal Platform F": "south-common-centre",
+    "South Common Centre Bus Terminal Platform G": "south-common-centre",
+    "South Common Centre Bus Terminal Platform H": "south-common-centre",
+    "South Common Centre Bus Terminal Platform I": "south-common-centre",
+    "South Common Centre Bus Terminal Platform K": "south-common-centre",
+    "South Common Mall Bus Terminal Platform J": "south-common-centre",
+    "University Of Toronto At Mississauga Campus": "university-of-toronto-mississauga",
+    "Viscount Station Toronto Airport": "viscount-station",
+    "Westwood Square Bus Terminal Drop Off": "westwood-square-transit-terminal",
+    "Westwood Square Bus Terminal Platform A": "westwood-square-transit-terminal",
+    "Westwood Square Bus Terminal Platform B": "westwood-square-transit-terminal",
+    "Westwood Square Bus Terminal Platform C": "westwood-square-transit-terminal",
+    "Westwood Square Bus Terminal Platform D": "westwood-square-transit-terminal",
+    "Westwood Square Bus Terminal Platform E": "westwood-square-transit-terminal",
+    "Westwood Square Bus Terminal Platform F": "westwood-square-transit-terminal",
+    "Westwood Square Bus Terminal Platform G": "westwood-square-transit-terminal",
+    "Westwood Square Bus Terminal Platform H": "westwood-square-transit-terminal",
+    "Westwood Square Bus Terminal Platform I": "westwood-square-transit-terminal",
+    "Winston Churchill Station East Platform 6": "winston-churchill-station",
+    "Winston Churchill Station West Platform 4": "winston-churchill-station"
+  },
+  "stationIndex": [
+    {
+      "id": "brampton-gateway-terminal",
+      "schematicId": "brampton-gateway-terminal",
+      "name": "Brampton Gateway Terminal",
+      "lat": 43.666356,
+      "lon": -79.73375,
+      "lines": ["103"],
+      "platformIds": ["2616", "9021"],
+      "departureRouteIds": ["103"]
+    },
+    {
+      "id": "central-parkway-station",
+      "schematicId": "central-parkway-station",
+      "name": "Central Parkway Station",
+      "lat": 43.607777,
+      "lon": -79.635969,
+      "lines": ["107", "109"],
+      "platformIds": ["1714", "1716"],
+      "departureRouteIds": ["107", "109"]
+    },
+    {
+      "id": "city-centre-transit-terminal",
+      "schematicId": "city-centre-transit-terminal",
+      "name": "City Centre Transit Terminal",
+      "lat": 43.593731,
+      "lon": -79.647476,
+      "lines": ["107", "109", "110", "2"],
+      "platformIds": [
+        "0085",
+        "0364",
+        "0477",
+        "0597",
+        "0664",
+        "0766",
+        "1402",
+        "1403",
+        "1406",
+        "1408",
+        "1419",
+        "6000"
+      ],
+      "departureRouteIds": [
+        "10",
+        "107",
+        "109",
+        "110",
+        "17",
+        "2",
+        "20",
+        "26",
+        "28",
+        "3",
+        "302",
+        "312",
+        "315",
+        "6",
+        "61",
+        "66",
+        "68",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "clarkson-go-station",
+      "schematicId": "clarkson-go-station",
+      "name": "Clarkson GO Station",
+      "lat": 43.512562,
+      "lon": -79.633058,
+      "lines": ["110"],
+      "platformIds": ["0100"],
+      "departureRouteIds": ["110"]
+    },
+    {
+      "id": "dixie-station",
+      "schematicId": "dixie-station",
+      "name": "Dixie Station",
+      "lat": 43.629895,
+      "lon": -79.614908,
+      "lines": ["107", "109"],
+      "platformIds": ["3220", "3225"],
+      "departureRouteIds": ["107", "109", "135", "73", "74"]
+    },
+    {
+      "id": "erin-mills-station",
+      "schematicId": "erin-mills-station",
+      "name": "Erin Mills Station",
+      "lat": 43.552598,
+      "lon": -79.699557,
+      "lines": ["109", "110"],
+      "platformIds": ["1715", "1792", "3424", "3425"],
+      "departureRouteIds": ["109", "110", "46", "48"]
+    },
+    {
+      "id": "7201",
+      "schematicId": "humber-college-north-campus",
+      "name": "Humber College North Campus",
+      "lat": 43.729277,
+      "lon": -79.605657,
+      "lines": ["107"],
+      "platformIds": ["7201"],
+      "departureRouteIds": ["107"]
+    },
+    {
+      "id": "hurontario-burnhamthorpe",
+      "schematicId": "hurontario-burnhamthorpe",
+      "name": "Hurontario at Burnhamthorpe",
+      "lat": 43.593562,
+      "lon": -79.634551,
+      "lines": ["103", "2"],
+      "platformIds": ["4003", "4005"],
+      "departureRouteIds": ["103", "2"]
+    },
+    {
+      "id": "hurontario-eglinton",
+      "schematicId": "hurontario-eglinton",
+      "name": "Hurontario at Eglinton",
+      "lat": 43.607455,
+      "lon": -79.653542,
+      "lines": ["103"],
+      "platformIds": ["1900", "1919"],
+      "departureRouteIds": ["103", "17"]
+    },
+    {
+      "id": "kipling-bus-terminal",
+      "schematicId": "kipling-bus-terminal",
+      "name": "Kipling Bus Terminal",
+      "lat": 43.635326,
+      "lon": -79.538848,
+      "lines": ["101", "109"],
+      "platformIds": [
+        "9056",
+        "9057",
+        "9059",
+        "9061",
+        "9062",
+        "9099",
+        "9105",
+        "9106",
+        "9117",
+        "9118"
+      ],
+      "departureRouteIds": [
+        "1",
+        "101",
+        "108",
+        "109",
+        "11",
+        "126",
+        "135",
+        "20",
+        "26",
+        "3",
+        "307",
+        "35",
+        "70",
+        "71"
+      ]
+    },
+    {
+      "id": "1661",
+      "schematicId": "laird-ridgeway",
+      "name": "Laird at Ridgeway",
+      "lat": 43.518041,
+      "lon": -79.690412,
+      "lines": ["101"],
+      "platformIds": ["1661"],
+      "departureRouteIds": ["1", "101"]
+    },
+    {
+      "id": "meadowvale-town-centre",
+      "schematicId": "meadowvale-town-centre",
+      "name": "Meadowvale Town Centre",
+      "lat": 43.583174,
+      "lon": -79.75896,
+      "lines": ["109"],
+      "platformIds": [
+        "0665",
+        "0780",
+        "0812",
+        "0919",
+        "1374",
+        "2127",
+        "2228",
+        "2244",
+        "2266",
+        "6002"
+      ],
+      "departureRouteIds": [
+        "10",
+        "109",
+        "13",
+        "313",
+        "38",
+        "39",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "48",
+        "90"
+      ]
+    },
+    {
+      "id": "port-credit-go-station",
+      "schematicId": "port-credit-go-station",
+      "name": "Port Credit GO Station",
+      "lat": 43.555362,
+      "lon": -79.587672,
+      "lines": ["2"],
+      "platformIds": ["0348"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "renforth-station",
+      "schematicId": "renforth-station",
+      "name": "Renforth Station",
+      "lat": 43.663275,
+      "lon": -79.591034,
+      "lines": ["107", "109"],
+      "platformIds": ["1088", "1133"],
+      "departureRouteIds": ["107", "109", "135", "39", "7"]
+    },
+    {
+      "id": "south-common-centre",
+      "schematicId": "south-common-centre",
+      "name": "South Common Centre",
+      "lat": 43.543104,
+      "lon": -79.68373,
+      "lines": ["110"],
+      "platformIds": [
+        "0990",
+        "1013",
+        "1014",
+        "1062",
+        "1073",
+        "1089",
+        "3199",
+        "4007",
+        "4008",
+        "4300"
+      ],
+      "departureRouteIds": ["110", "13", "26", "29", "36", "48"]
+    },
+    {
+      "id": "2622",
+      "schematicId": "trillium-health-centre",
+      "name": "Trillium Health Centre",
+      "lat": 43.572075,
+      "lon": -79.609828,
+      "lines": ["103"],
+      "platformIds": ["2622"],
+      "departureRouteIds": ["103", "28", "4"]
+    },
+    {
+      "id": "university-of-toronto-mississauga",
+      "schematicId": "university-of-toronto-mississauga",
+      "name": "University of Toronto Mississauga",
+      "lat": 43.547872,
+      "lon": -79.663841,
+      "lines": ["101", "110"],
+      "platformIds": ["0490", "0910", "0991", "4800"],
+      "departureRouteIds": ["1", "101", "110", "126", "44", "48"]
+    },
+    {
+      "id": "viscount-station",
+      "schematicId": "viscount-station",
+      "name": "Viscount Station",
+      "lat": 43.689879,
+      "lon": -79.615523,
+      "lines": ["107"],
+      "platformIds": ["0575"],
+      "departureRouteIds": ["107", "24"]
+    },
+    {
+      "id": "westwood-square-transit-terminal",
+      "schematicId": "westwood-square-transit-terminal",
+      "name": "Westwood Square Transit Terminal",
+      "lat": 43.721713,
+      "lon": -79.640641,
+      "lines": ["107"],
+      "platformIds": [
+        "1687",
+        "2708",
+        "2804",
+        "2849",
+        "2850",
+        "2853",
+        "2859",
+        "2875",
+        "6003",
+        "7100"
+      ],
+      "departureRouteIds": ["107", "11", "15", "16", "18", "22", "24", "30", "42", "7"]
+    },
+    {
+      "id": "winston-churchill-station",
+      "schematicId": "winston-churchill-station",
+      "name": "Winston Churchill Station",
+      "lat": 43.542417,
+      "lon": -79.712422,
+      "lines": ["109"],
+      "platformIds": ["4552", "4553"],
+      "departureRouteIds": ["109", "135"]
+    }
+  ]
+}

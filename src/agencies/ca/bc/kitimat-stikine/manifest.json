@@ -1,0 +1,373 @@
+{
+  "id": "kitimat-stikine",
+  "name": "BC Transit Kitimat-Stikine",
+  "serviceArea": "Terrace, Kitimat, Thornhill and the Hazeltons",
+  "shortName": "Kitimat-Stikine",
+  "locale": "en-CA",
+  "timezone": "America/Vancouver",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "bc"
+  },
+  "bounds": [
+    {
+      "minLat": 54.4875,
+      "maxLat": 54.5392,
+      "minLon": -128.6426,
+      "maxLon": -128.5621
+    },
+    {
+      "minLat": 54.0404,
+      "maxLat": 54.0755,
+      "minLon": -128.6781,
+      "maxLon": -128.613
+    },
+    {
+      "minLat": 54.4967,
+      "maxLat": 54.5353,
+      "minLon": -128.5549,
+      "maxLon": -128.5053
+    },
+    {
+      "minLat": 55.2474,
+      "maxLat": 55.2708,
+      "minLon": -127.6827,
+      "maxLon": -127.6187
+    },
+    {
+      "minLat": 53.9621,
+      "maxLat": 53.9857,
+      "minLon": -128.6566,
+      "maxLon": -128.6399
+    },
+    {
+      "minLat": 55.0921,
+      "maxLat": 55.111,
+      "minLon": -128.0822,
+      "maxLon": -128.0491
+    },
+    {
+      "minLat": 55.2424,
+      "maxLat": 55.2574,
+      "minLon": -127.6058,
+      "maxLon": -127.5786
+    },
+    {
+      "minLat": 54.5407,
+      "maxLat": 54.5514,
+      "minLon": -128.4722,
+      "maxLon": -128.4571
+    },
+    {
+      "minLat": 55.0832,
+      "maxLat": 55.0924,
+      "minLon": -127.8353,
+      "maxLon": -127.8186
+    },
+    {
+      "minLat": 54.778,
+      "maxLat": 54.7955,
+      "minLon": -127.1805,
+      "maxLon": -127.1595
+    },
+    {
+      "minLat": 54.6051,
+      "maxLat": 54.6136,
+      "minLon": -128.4215,
+      "maxLon": -128.4044
+    },
+    {
+      "minLat": 54.3564,
+      "maxLat": 54.3646,
+      "minLon": -128.5438,
+      "maxLon": -128.5315
+    },
+    {
+      "minLat": 54.449,
+      "maxLat": 54.4649,
+      "minLon": -128.4925,
+      "maxLon": -128.4793
+    },
+    {
+      "minLat": 55.2343,
+      "maxLat": 55.2425,
+      "minLon": -127.6666,
+      "maxLon": -127.6543
+    },
+    {
+      "minLat": 55.0095,
+      "maxLat": 55.0255,
+      "minLon": -127.3405,
+      "maxLon": -127.3195
+    },
+    {
+      "minLat": 54.5196,
+      "maxLat": 54.5276,
+      "minLon": -128.6735,
+      "maxLon": -128.6615
+    },
+    {
+      "minLat": 54.4976,
+      "maxLat": 54.5056,
+      "minLon": -128.7158,
+      "maxLon": -128.7038
+    },
+    {
+      "minLat": 54.0917,
+      "maxLat": 54.0997,
+      "minLon": -128.6076,
+      "maxLon": -128.5956
+    },
+    {
+      "minLat": 54.4685,
+      "maxLat": 54.4765,
+      "minLon": -128.5822,
+      "maxLon": -128.5702
+    },
+    {
+      "minLat": 54.5741,
+      "maxLat": 54.5821,
+      "minLon": -128.4324,
+      "maxLon": -128.4204
+    },
+    {
+      "minLat": 55.3062,
+      "maxLat": 55.3142,
+      "minLon": -127.6861,
+      "maxLon": -127.6741
+    },
+    {
+      "minLat": 55.3482,
+      "maxLat": 55.3562,
+      "minLon": -127.6986,
+      "maxLon": -127.6866
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "BC Transit Kitimat-Stikine",
+    "url": "https://www.bctransit.com/terrace/",
+    "license": "BC Transit Open Data Terms of Use"
+  },
+  "cityPresets": [
+    {
+      "name": "Lakelse at Skeena Mall",
+      "lat": 54.51701,
+      "lon": -128.59612
+    },
+    {
+      "name": "Coast Mountain College",
+      "lat": 54.52857,
+      "lon": -128.63457
+    },
+    {
+      "name": "Kitimat City Centre",
+      "lat": 54.05333,
+      "lon": -128.65434
+    },
+    {
+      "name": "New Hazelton Post Office",
+      "lat": 55.24636,
+      "lon": -127.58456
+    }
+  ],
+  "popularSurfaceRoutes": [
+    "41-TSK",
+    "42-TSK",
+    "43-TSK",
+    "45-TSK",
+    "11-TSK",
+    "1A-TSK",
+    "2-TSK",
+    "3-TSK"
+  ],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "BC Transit Kitimat-Stikine",
+        "url": "https://bct.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/?operatorIds=26",
+        "cacheFileName": "kitimat-stikine-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#004B8D",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=26",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bct.tmix.se/gtfs-realtime/tripupdates.pb?operatorIds=26",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=43",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=24",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=19",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=53",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=43",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=24",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=19",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=53",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=43&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=43&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=24&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=24&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=19&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=19&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=53&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=53&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["41-TSK", "42-TSK", "43-TSK", "45-TSK", "11-TSK", "1A-TSK", "2-TSK", "3-TSK"],
+    "routeLineMap": {
+      "1B-TSK": "1A-TSK"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "category",
+          "sourceValue": "ReducedService"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "effects": ["OTHER_EFFECT"],
+          "textIncludes": ["cancelled", "canceled"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "titleDateTimezone": "America/Vancouver"
+  }
+}

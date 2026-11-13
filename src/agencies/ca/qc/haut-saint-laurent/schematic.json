@@ -1,0 +1,462 @@
+{
+  "viewBoxWidth": 1650,
+  "viewBoxHeight": 1040,
+  "lines": [
+    {
+      "id": "Hu-Mer",
+      "name": "Ligne Jaune",
+      "color": "#F0B400",
+      "points": [
+        {
+          "x": 650,
+          "y": 900
+        },
+        {
+          "x": 450,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 850,
+          "y": 500
+        },
+        {
+          "x": 1100,
+          "y": 500
+        },
+        {
+          "x": 1250,
+          "y": 350
+        }
+      ]
+    },
+    {
+      "id": "Orm-Hu",
+      "name": "Ligne Bleue",
+      "color": "#2F75B5",
+      "points": [
+        {
+          "x": 450,
+          "y": 820
+        },
+        {
+          "x": 450,
+          "y": 700
+        },
+        {
+          "x": 450,
+          "y": 400
+        },
+        {
+          "x": 450,
+          "y": 380
+        },
+        {
+          "x": 580,
+          "y": 250
+        },
+        {
+          "x": 600,
+          "y": 250
+        },
+        {
+          "x": 620,
+          "y": 250
+        },
+        {
+          "x": 850,
+          "y": 480
+        },
+        {
+          "x": 850,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "StA-Fr",
+      "name": "Ligne Verte",
+      "color": "#3FB62F",
+      "points": [
+        {
+          "x": 150,
+          "y": 650
+        },
+        {
+          "x": 150,
+          "y": 400
+        },
+        {
+          "x": 450,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 250
+        },
+        {
+          "x": 850,
+          "y": 500
+        },
+        {
+          "x": 850,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 750
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "cazaville",
+      "name": "Cazaville",
+      "x": 150,
+      "y": 650,
+      "lines": ["StA-Fr"],
+      "label": {
+        "x": 120,
+        "y": 650,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "saint-anicet",
+      "name": "Saint-Anicet",
+      "x": 150,
+      "y": 400,
+      "lines": ["StA-Fr"],
+      "label": {
+        "x": 150,
+        "y": 365,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sainte-barbe",
+      "name": "Sainte-Barbe",
+      "x": 450,
+      "y": 400,
+      "lines": ["StA-Fr", "Orm-Hu"],
+      "label": {
+        "x": 430,
+        "y": 375,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "valleyfield",
+      "name": "Salaberry-de-Valleyfield",
+      "x": 600,
+      "y": 250,
+      "lines": ["StA-Fr", "Orm-Hu"],
+      "label": {
+        "x": 600,
+        "y": 215,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "ormstown",
+      "name": "Ormstown, Super C",
+      "x": 850,
+      "y": 500,
+      "lines": ["Hu-Mer", "Orm-Hu", "StA-Fr"],
+      "label": {
+        "x": 875,
+        "y": 530,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "franklin",
+      "name": "Franklin",
+      "x": 1000,
+      "y": 750,
+      "lines": ["StA-Fr"],
+      "label": {
+        "x": 1030,
+        "y": 750,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "huntingdon",
+      "name": "Huntingdon, parc Léo-Beaudin",
+      "x": 450,
+      "y": 700,
+      "lines": ["Hu-Mer", "Orm-Hu"],
+      "label": {
+        "x": 420,
+        "y": 700,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hinchinbrooke",
+      "name": "Hinchinbrooke",
+      "x": 650,
+      "y": 900,
+      "lines": ["Hu-Mer"],
+      "label": {
+        "x": 650,
+        "y": 935,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "godmanchester",
+      "name": "Godmanchester",
+      "x": 650,
+      "y": 700,
+      "lines": ["Hu-Mer"],
+      "label": {
+        "x": 650,
+        "y": 735,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "howick",
+      "name": "Howick / Très-Saint-Sacrement",
+      "x": 1100,
+      "y": 500,
+      "lines": ["Hu-Mer"],
+      "label": {
+        "x": 1100,
+        "y": 535,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sainte-martine",
+      "name": "Sainte-Martine, des Copains",
+      "x": 1250,
+      "y": 350,
+      "lines": ["Hu-Mer"],
+      "label": {
+        "x": 1280,
+        "y": 350,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "huntingdon-dollarama",
+      "name": "Huntingdon, Dollarama",
+      "x": 450,
+      "y": 820,
+      "lines": ["Orm-Hu"],
+      "terminal": true,
+      "label": {
+        "x": 420,
+        "y": 820,
+        "anchor": "end"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "Hu-Mer",
+      "num": "Jaune",
+      "color": "#F0B400",
+      "x": 1000,
+      "y": 467,
+      "textColor": "#000000"
+    },
+    {
+      "line": "Orm-Hu",
+      "num": "Bleue",
+      "color": "#2F75B5",
+      "x": 483,
+      "y": 560,
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "StA-Fr",
+      "num": "Verte",
+      "color": "#3FB62F",
+      "x": 117,
+      "y": 540,
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "Hu-Mer": [
+      "hinchinbrooke",
+      "huntingdon",
+      "godmanchester",
+      "ormstown",
+      "howick",
+      "sainte-martine"
+    ],
+    "Orm-Hu": ["huntingdon-dollarama", "huntingdon", "sainte-barbe", "valleyfield", "ormstown"],
+    "StA-Fr": ["cazaville", "saint-anicet", "sainte-barbe", "valleyfield", "ormstown", "franklin"]
+  },
+  "stationAliases": {
+    "CLC Cazaville  2315 Montée de Cazaville": "cazaville",
+    "Station-service (en face du Marché Tradition)": "saint-anicet",
+    "Marché Tradition  1562 route 132": "saint-anicet",
+    "Coopérative BMR Uniag  59 Montée du Lac": "sainte-barbe",
+    "Cégep (arrêt bibliothèque Armand-Frappier)": "valleyfield",
+    "Super C  1473 route 201": "ormstown",
+    "Les vergers Leahy  1772 route 209": "franklin",
+    "Rue Châteauguay (138)  Parc Léo-Beaudin": "huntingdon",
+    "Parc Gordon Hill, rue Expo.": "hinchinbrooke",
+    "138A   rue Thériault": "godmanchester",
+    "Rue Lambton  Parc Napoléon-Parent": "howick",
+    "Rue Saint-Joseph / rue des copains": "sainte-martine",
+    "Rue Lake (Dollarama)": "huntingdon-dollarama"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1630,
+      "minY": 20,
+      "maxY": 1020
+    },
+    "minZoom": 0.3,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -74.37,
+    "refLonEast": -73.8,
+    "refXWest": 150,
+    "refXEast": 1250,
+    "refLatNorth": 45.253,
+    "refLatSouth": 44.999,
+    "refYNorth": 250,
+    "refYSouth": 900
+  },
+  "stationIndex": [
+    {
+      "id": "372",
+      "schematicId": "cazaville",
+      "name": "Cazaville",
+      "lat": 45.088389893734,
+      "lon": -74.372225199914,
+      "lines": ["StA-Fr"],
+      "platformIds": ["372"],
+      "departureRouteIds": ["StA-Fr"]
+    },
+    {
+      "id": "389",
+      "schematicId": "franklin",
+      "name": "Franklin",
+      "lat": 45.034562057337,
+      "lon": -73.914805561634,
+      "lines": ["StA-Fr"],
+      "platformIds": ["389"],
+      "departureRouteIds": ["StA-Fr"]
+    },
+    {
+      "id": "godmanchester",
+      "schematicId": "godmanchester",
+      "name": "Godmanchester",
+      "lat": 45.111039857341,
+      "lon": -74.102267941159,
+      "lines": ["Hu-Mer"],
+      "platformIds": ["10", "109"],
+      "departureRouteIds": ["Hu-Mer"]
+    },
+    {
+      "id": "ST:ki3tja",
+      "schematicId": "hinchinbrooke",
+      "name": "Hinchinbrooke",
+      "lat": 44.999108,
+      "lon": -74.08074,
+      "lines": ["Hu-Mer"],
+      "platformIds": ["ST:ki3tja"],
+      "departureRouteIds": ["Hu-Mer"]
+    },
+    {
+      "id": "howick",
+      "schematicId": "howick",
+      "name": "Howick / Très-Saint-Sacrement",
+      "lat": 45.187337777777,
+      "lon": -73.847790846931,
+      "lines": ["Hu-Mer"],
+      "platformIds": ["101", "18"],
+      "departureRouteIds": ["Hu-Mer"]
+    },
+    {
+      "id": "huntingdon",
+      "schematicId": "huntingdon",
+      "name": "Huntingdon, parc Léo-Beaudin",
+      "lat": 45.0884359501,
+      "lon": -74.172916949583,
+      "lines": ["Hu-Mer", "Orm-Hu"],
+      "platformIds": ["110", "7"],
+      "departureRouteIds": ["Hu-Mer", "Orm-Hu"]
+    },
+    {
+      "id": "386",
+      "schematicId": "ormstown",
+      "name": "Ormstown, Super C",
+      "lat": 45.116755664785,
+      "lon": -73.984609089868,
+      "lines": ["Hu-Mer", "Orm-Hu", "StA-Fr"],
+      "platformIds": ["386"],
+      "departureRouteIds": ["Hu-Mer", "Orm-Hu", "StA-Fr"]
+    },
+    {
+      "id": "saint-anicet",
+      "schematicId": "saint-anicet",
+      "name": "Saint-Anicet",
+      "lat": 45.136870175921,
+      "lon": -74.359572307783,
+      "lines": ["StA-Fr"],
+      "platformIds": ["375", "463"],
+      "departureRouteIds": ["StA-Fr"]
+    },
+    {
+      "id": "379",
+      "schematicId": "sainte-barbe",
+      "name": "Sainte-Barbe",
+      "lat": 45.165480354169,
+      "lon": -74.197054755316,
+      "lines": ["Orm-Hu", "StA-Fr"],
+      "platformIds": ["379"],
+      "departureRouteIds": ["Orm-Hu", "StA-Fr"]
+    },
+    {
+      "id": "sainte-martine",
+      "schematicId": "sainte-martine",
+      "name": "Sainte-Martine, des Copains",
+      "lat": 45.249126448679,
+      "lon": -73.799129048484,
+      "lines": ["Hu-Mer"],
+      "platformIds": ["20", "99"],
+      "departureRouteIds": ["Hu-Mer"]
+    },
+    {
+      "id": "380",
+      "schematicId": "valleyfield",
+      "name": "Salaberry-de-Valleyfield",
+      "lat": 45.253320597968,
+      "lon": -74.132043946957,
+      "lines": ["Orm-Hu", "StA-Fr"],
+      "platformIds": ["380"],
+      "departureRouteIds": ["Orm-Hu", "StA-Fr"]
+    },
+    {
+      "id": "203",
+      "schematicId": "huntingdon-dollarama",
+      "name": "Huntingdon, Dollarama",
+      "lat": 45.091727536733174,
+      "lon": -74.18688686540621,
+      "lines": ["Orm-Hu"],
+      "platformIds": ["203"],
+      "departureRouteIds": ["Orm-Hu"]
+    }
+  ]
+}

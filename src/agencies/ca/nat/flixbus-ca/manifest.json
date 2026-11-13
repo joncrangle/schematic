@@ -1,0 +1,1128 @@
+{
+  "id": "flixbus-ca",
+  "name": "FlixBus",
+  "serviceArea": "Canada",
+  "shortName": "FlixBus",
+  "brandColor": "#73D700",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "scope": "national",
+  "jurisdiction": {
+    "country": "ca"
+  },
+  "bounds": [
+    {
+      "minLat": 52.270051,
+      "maxLat": 52.300594,
+      "minLon": -113.83827,
+      "maxLon": -113.788342
+    },
+    {
+      "minLat": 42.959169,
+      "maxLat": 42.989711,
+      "minLon": -82.426542,
+      "maxLon": -82.384798
+    },
+    {
+      "minLat": 43.373615,
+      "maxLat": 43.404158,
+      "minLon": -80.427625,
+      "maxLon": -80.385596
+    },
+    {
+      "minLat": 51.487609,
+      "maxLat": 51.518151,
+      "minLon": -106.301765,
+      "maxLon": -106.252698
+    },
+    {
+      "minLat": 45.405211,
+      "maxLat": 45.435753,
+      "minLon": -75.659787,
+      "maxLon": -75.616273
+    },
+    {
+      "minLat": 43.51492,
+      "maxLat": 43.545462,
+      "minLon": -80.246438,
+      "maxLon": -80.20431
+    },
+    {
+      "minLat": 51.115563,
+      "maxLat": 51.146106,
+      "minLon": -114.031192,
+      "maxLon": -113.982522
+    },
+    {
+      "minLat": 49.258007,
+      "maxLat": 49.288549,
+      "minLon": -123.121295,
+      "maxLon": -123.074483
+    },
+    {
+      "minLat": 42.76375,
+      "maxLat": 42.794292,
+      "minLon": -81.201649,
+      "maxLon": -81.160037
+    },
+    {
+      "minLat": 42.965074,
+      "maxLat": 42.995616,
+      "minLon": -81.271672,
+      "maxLon": -81.229924
+    },
+    {
+      "minLat": 50.834258,
+      "maxLat": 50.8648,
+      "minLon": -105.588279,
+      "maxLon": -105.539903
+    },
+    {
+      "minLat": 51.071606,
+      "maxLat": 51.102148,
+      "minLon": -114.007327,
+      "maxLon": -113.958703
+    },
+    {
+      "minLat": 42.914943,
+      "maxLat": 42.945486,
+      "minLon": -81.245048,
+      "maxLon": -81.203333
+    },
+    {
+      "minLat": 50.015429,
+      "maxLat": 50.045971,
+      "minLon": -110.730164,
+      "maxLon": -110.682618
+    },
+    {
+      "minLat": 51.026439,
+      "maxLat": 51.056981,
+      "minLon": -114.085874,
+      "maxLon": -114.037297
+    },
+    {
+      "minLat": 50.124558,
+      "maxLat": 50.155101,
+      "minLon": -101.674969,
+      "maxLon": -101.627315
+    },
+    {
+      "minLat": 50.291533,
+      "maxLat": 50.322075,
+      "minLon": -107.804024,
+      "maxLon": -107.756202
+    },
+    {
+      "minLat": 51.071512,
+      "maxLat": 51.102054,
+      "minLon": -114.157307,
+      "maxLon": -114.108683
+    },
+    {
+      "minLat": 44.549221,
+      "maxLat": 44.579764,
+      "minLon": -80.478925,
+      "maxLon": -80.436056
+    },
+    {
+      "minLat": 53.525481,
+      "maxLat": 53.556023,
+      "minLon": -113.546204,
+      "maxLon": -113.494807
+    },
+    {
+      "minLat": 51.087416,
+      "maxLat": 51.117958,
+      "minLon": -115.039826,
+      "maxLon": -114.991186
+    },
+    {
+      "minLat": 52.153105,
+      "maxLat": 52.183648,
+      "minLon": -106.661002,
+      "maxLon": -106.611205
+    },
+    {
+      "minLat": 43.666794,
+      "maxLat": 43.697336,
+      "minLon": -79.633793,
+      "maxLon": -79.591559
+    },
+    {
+      "minLat": 43.115911,
+      "maxLat": 43.146453,
+      "minLon": -80.770294,
+      "maxLon": -80.728443
+    },
+    {
+      "minLat": 42.333099,
+      "maxLat": 42.363641,
+      "minLon": -82.203748,
+      "maxLon": -82.162422
+    },
+    {
+      "minLat": 43.101662,
+      "maxLat": 43.132204,
+      "minLon": -79.144712,
+      "maxLon": -79.10287
+    },
+    {
+      "minLat": 43.102818,
+      "maxLat": 43.13336,
+      "minLon": -79.270167,
+      "maxLon": -79.228325
+    },
+    {
+      "minLat": 52.748714,
+      "maxLat": 52.779257,
+      "minLon": -108.307771,
+      "maxLon": -108.257296
+    },
+    {
+      "minLat": 50.939176,
+      "maxLat": 50.969718,
+      "minLon": -114.09756,
+      "maxLon": -114.049075
+    },
+    {
+      "minLat": 43.529356,
+      "maxLat": 43.559898,
+      "minLon": -80.268162,
+      "maxLon": -80.226025
+    },
+    {
+      "minLat": 42.969472,
+      "maxLat": 43.000014,
+      "minLon": -81.651029,
+      "maxLon": -81.609277
+    },
+    {
+      "minLat": 46.292543,
+      "maxLat": 46.323086,
+      "minLon": -79.460753,
+      "maxLon": -79.416539
+    },
+    {
+      "minLat": 45.401563,
+      "maxLat": 45.432106,
+      "minLon": -75.672762,
+      "maxLon": -75.629251
+    },
+    {
+      "minLat": 44.497292,
+      "maxLat": 44.527834,
+      "minLon": -77.49957,
+      "maxLon": -77.45674
+    },
+    {
+      "minLat": 43.856891,
+      "maxLat": 43.887433,
+      "minLon": -78.929019,
+      "maxLon": -78.886651
+    },
+    {
+      "minLat": 44.255943,
+      "maxLat": 44.286485,
+      "minLon": -78.369823,
+      "maxLon": -78.327168
+    },
+    {
+      "minLat": 44.599118,
+      "maxLat": 44.629661,
+      "minLon": -80.619208,
+      "maxLon": -80.576302
+    },
+    {
+      "minLat": 43.75896,
+      "maxLat": 43.789502,
+      "minLon": -79.275271,
+      "maxLon": -79.232973
+    },
+    {
+      "minLat": 45.033919,
+      "maxLat": 45.064461,
+      "minLon": -79.318784,
+      "maxLon": -79.275554
+    },
+    {
+      "minLat": 43.76218,
+      "maxLat": 43.792722,
+      "minLon": -79.529878,
+      "maxLon": -79.487577
+    },
+    {
+      "minLat": 45.466419,
+      "maxLat": 45.496961,
+      "minLon": -75.705441,
+      "maxLon": -75.661879
+    },
+    {
+      "minLat": 51.081178,
+      "maxLat": 51.11172,
+      "minLon": -115.380775,
+      "maxLon": -115.332141
+    },
+    {
+      "minLat": 43.96274,
+      "maxLat": 43.993283,
+      "minLon": -78.215812,
+      "maxLon": -78.173369
+    },
+    {
+      "minLat": 44.592759,
+      "maxLat": 44.623301,
+      "minLon": -79.441657,
+      "maxLon": -79.398755
+    },
+    {
+      "minLat": 45.293989,
+      "maxLat": 45.324531,
+      "minLon": -75.928337,
+      "maxLon": -75.884909
+    },
+    {
+      "minLat": 43.4394,
+      "maxLat": 43.469943,
+      "minLon": -80.514457,
+      "maxLon": -80.472383
+    },
+    {
+      "minLat": 43.092975,
+      "maxLat": 43.123517,
+      "minLon": -79.084687,
+      "maxLon": -79.042851
+    },
+    {
+      "minLat": 48.405658,
+      "maxLat": 48.436201,
+      "minLon": -123.38905,
+      "maxLon": -123.343028
+    },
+    {
+      "minLat": 51.023352,
+      "maxLat": 51.053894,
+      "minLon": -113.425316,
+      "maxLon": -113.376742
+    },
+    {
+      "minLat": 45.330743,
+      "maxLat": 45.361285,
+      "minLon": -75.82929,
+      "maxLon": -75.785834
+    },
+    {
+      "minLat": 44.266486,
+      "maxLat": 44.297029,
+      "minLon": -78.371294,
+      "maxLon": -78.328632
+    },
+    {
+      "minLat": 50.638776,
+      "maxLat": 50.669319,
+      "minLon": -104.889439,
+      "maxLon": -104.841265
+    },
+    {
+      "minLat": 53.261509,
+      "maxLat": 53.292052,
+      "minLon": -110.03566,
+      "maxLon": -109.984581
+    },
+    {
+      "minLat": 53.573103,
+      "maxLat": 53.603646,
+      "minLon": -113.460888,
+      "maxLon": -113.409433
+    },
+    {
+      "minLat": 44.891589,
+      "maxLat": 44.922131,
+      "minLon": -76.291362,
+      "maxLon": -76.248238
+    },
+    {
+      "minLat": 50.775803,
+      "maxLat": 50.806345,
+      "minLon": -112.473753,
+      "maxLon": -112.425438
+    },
+    {
+      "minLat": 43.824637,
+      "maxLat": 43.855179,
+      "minLon": -79.446909,
+      "maxLon": -79.404564
+    },
+    {
+      "minLat": 53.329029,
+      "maxLat": 53.359571,
+      "minLon": -110.88358,
+      "maxLon": -110.83242
+    },
+    {
+      "minLat": 49.958239,
+      "maxLat": 49.988781,
+      "minLon": -98.321812,
+      "maxLon": -98.274323
+    },
+    {
+      "minLat": 44.535842,
+      "maxLat": 44.566384,
+      "minLon": -79.695865,
+      "maxLon": -79.653006
+    },
+    {
+      "minLat": 44.250104,
+      "maxLat": 44.280646,
+      "minLon": -76.518965,
+      "maxLon": -76.476315
+    },
+    {
+      "minLat": 44.458859,
+      "maxLat": 44.489401,
+      "minLon": -80.097568,
+      "maxLon": -80.054765
+    },
+    {
+      "minLat": 43.246827,
+      "maxLat": 43.277369,
+      "minLon": -79.90867,
+      "maxLon": -79.866728
+    },
+    {
+      "minLat": 46.489514,
+      "maxLat": 46.520056,
+      "minLon": -80.960641,
+      "maxLon": -80.916267
+    },
+    {
+      "minLat": 43.23673,
+      "maxLat": 43.267272,
+      "minLon": -79.086256,
+      "maxLon": -79.044322
+    },
+    {
+      "minLat": 50.678019,
+      "maxLat": 50.708561,
+      "minLon": -113.908577,
+      "maxLon": -113.860363
+    },
+    {
+      "minLat": 51.411232,
+      "maxLat": 51.441775,
+      "minLon": -116.201652,
+      "maxLon": -116.152667
+    },
+    {
+      "minLat": 42.302693,
+      "maxLat": 42.333235,
+      "minLon": -83.063635,
+      "maxLon": -83.022329
+    },
+    {
+      "minLat": 43.062162,
+      "maxLat": 43.092705,
+      "minLon": -79.100205,
+      "maxLon": -79.05839
+    },
+    {
+      "minLat": 51.161124,
+      "maxLat": 51.191666,
+      "minLon": -115.593808,
+      "maxLon": -115.54509
+    },
+    {
+      "minLat": 43.625383,
+      "maxLat": 43.655925,
+      "minLon": -79.401761,
+      "maxLon": -79.359557
+    },
+    {
+      "minLat": 45.416678,
+      "maxLat": 45.44722,
+      "minLon": -75.632091,
+      "maxLon": -75.588568
+    },
+    {
+      "minLat": 49.891239,
+      "maxLat": 49.921781,
+      "minLon": -97.177746,
+      "maxLon": -97.130323
+    },
+    {
+      "minLat": 43.242757,
+      "maxLat": 43.273299,
+      "minLon": -79.937663,
+      "maxLon": -79.895725
+    },
+    {
+      "minLat": 43.575076,
+      "maxLat": 43.605618,
+      "minLon": -79.666304,
+      "maxLon": -79.624134
+    },
+    {
+      "minLat": 42.993307,
+      "maxLat": 43.023849,
+      "minLon": -81.286569,
+      "maxLon": -81.244801
+    },
+    {
+      "minLat": 44.218523,
+      "maxLat": 44.249065,
+      "minLon": -76.502943,
+      "maxLon": -76.460315
+    },
+    {
+      "minLat": 43.145007,
+      "maxLat": 43.175549,
+      "minLon": -79.265827,
+      "maxLon": -79.223955
+    },
+    {
+      "minLat": 44.790767,
+      "maxLat": 44.82131,
+      "minLon": -79.757053,
+      "maxLon": -79.714004
+    },
+    {
+      "minLat": 43.865622,
+      "maxLat": 43.896165,
+      "minLon": -79.252493,
+      "maxLon": -79.210118
+    },
+    {
+      "minLat": 44.488899,
+      "maxLat": 44.519442,
+      "minLon": -80.332439,
+      "maxLon": -80.289614
+    },
+    {
+      "minLat": 50.333614,
+      "maxLat": 50.364156,
+      "minLon": -113.795058,
+      "maxLon": -113.747194
+    },
+    {
+      "minLat": 45.327266,
+      "maxLat": 45.357808,
+      "minLon": -79.250826,
+      "maxLon": -79.207372
+    },
+    {
+      "minLat": 43.628882,
+      "maxLat": 43.659424,
+      "minLon": -79.398576,
+      "maxLon": -79.35637
+    },
+    {
+      "minLat": 44.372271,
+      "maxLat": 44.402813,
+      "minLon": -79.710887,
+      "maxLon": -79.668147
+    },
+    {
+      "minLat": 45.508249,
+      "maxLat": 45.538791,
+      "minLon": -73.543137,
+      "maxLon": -73.499543
+    },
+    {
+      "minLat": 43.526934,
+      "maxLat": 43.557476,
+      "minLon": -79.73316,
+      "maxLon": -79.691024
+    },
+    {
+      "minLat": 49.872009,
+      "maxLat": 49.902552,
+      "minLon": -99.97584,
+      "maxLon": -99.928435
+    },
+    {
+      "minLat": 53.470646,
+      "maxLat": 53.501188,
+      "minLon": -113.543006,
+      "maxLon": -113.491676
+    },
+    {
+      "minLat": 51.110629,
+      "maxLat": 51.141171,
+      "minLon": -114.230332,
+      "maxLon": -114.181668
+    },
+    {
+      "minLat": 43.000472,
+      "maxLat": 43.031014,
+      "minLon": -80.898329,
+      "maxLon": -80.856557
+    },
+    {
+      "minLat": 50.567807,
+      "maxLat": 50.598349,
+      "minLon": -111.922601,
+      "maxLon": -111.874499
+    },
+    {
+      "minLat": 43.804108,
+      "maxLat": 43.83465,
+      "minLon": -79.136592,
+      "maxLon": -79.094261
+    },
+    {
+      "minLat": 45.409139,
+      "maxLat": 45.439681,
+      "minLon": -75.708719,
+      "maxLon": -75.665201
+    },
+    {
+      "minLat": 45.23714,
+      "maxLat": 45.267682,
+      "minLon": -79.852637,
+      "maxLon": -79.809251
+    },
+    {
+      "minLat": 44.169228,
+      "maxLat": 44.19977,
+      "minLon": -77.415878,
+      "maxLon": -77.373287
+    },
+    {
+      "minLat": 43.689264,
+      "maxLat": 43.719806,
+      "minLon": -79.712307,
+      "maxLon": -79.670058
+    },
+    {
+      "minLat": 43.35031,
+      "maxLat": 43.380853,
+      "minLon": -81.000769,
+      "maxLon": -80.958757
+    },
+    {
+      "minLat": 49.677801,
+      "maxLat": 49.708344,
+      "minLon": -112.859214,
+      "maxLon": -112.811999
+    },
+    {
+      "minLat": 45.114122,
+      "maxLat": 45.144664,
+      "minLon": -76.145635,
+      "maxLon": -76.102343
+    },
+    {
+      "minLat": 45.807287,
+      "maxLat": 45.837829,
+      "minLon": -79.39056,
+      "maxLon": -79.346732
+    },
+    {
+      "minLat": 44.553195,
+      "maxLat": 44.583737,
+      "minLon": -80.963238,
+      "maxLon": -80.920366
+    },
+    {
+      "minLat": 44.241436,
+      "maxLat": 44.271978,
+      "minLon": -76.590499,
+      "maxLon": -76.547855
+    },
+    {
+      "minLat": 50.38858,
+      "maxLat": 50.419123,
+      "minLon": -105.555873,
+      "maxLon": -105.507953
+    },
+    {
+      "minLat": 44.733813,
+      "maxLat": 44.764356,
+      "minLon": -79.72863,
+      "maxLon": -79.685624
+    },
+    {
+      "minLat": 45.544444,
+      "maxLat": 45.574986,
+      "minLon": -73.703878,
+      "maxLon": -73.660256
+    },
+    {
+      "minLat": 53.070329,
+      "maxLat": 53.100871,
+      "minLon": -109.316526,
+      "maxLon": -109.265674
+    },
+    {
+      "minLat": 45.501616,
+      "maxLat": 45.532158,
+      "minLon": -73.585179,
+      "maxLon": -73.541591
+    },
+    {
+      "minLat": 44.212611,
+      "maxLat": 44.243154,
+      "minLon": -76.518083,
+      "maxLon": -76.47546
+    },
+    {
+      "minLat": 50.430641,
+      "maxLat": 50.461183,
+      "minLon": -104.573511,
+      "maxLon": -104.525549
+    },
+    {
+      "minLat": 43.154952,
+      "maxLat": 43.185494,
+      "minLon": -80.236358,
+      "maxLon": -80.19448
+    },
+    {
+      "minLat": 45.329541,
+      "maxLat": 45.360084,
+      "minLon": -80.030509,
+      "maxLon": -79.987053
+    },
+    {
+      "minLat": 50.004334,
+      "maxLat": 50.034877,
+      "minLon": -113.601907,
+      "maxLon": -113.554372
+    },
+    {
+      "minLat": 50.024111,
+      "maxLat": 50.054654,
+      "minLon": -110.698332,
+      "maxLon": -110.650777
+    },
+    {
+      "minLat": 44.100371,
+      "maxLat": 44.130913,
+      "minLon": -77.619908,
+      "maxLon": -77.577366
+    },
+    {
+      "minLat": 44.485018,
+      "maxLat": 44.515561,
+      "minLon": -80.239871,
+      "maxLon": -80.19705
+    },
+    {
+      "minLat": 52.443611,
+      "maxLat": 52.474153,
+      "minLon": -107.410888,
+      "maxLon": -107.360763
+    },
+    {
+      "minLat": 43.710429,
+      "maxLat": 43.740971,
+      "minLon": -79.468922,
+      "maxLon": -79.426658
+    },
+    {
+      "minLat": 45.283617,
+      "maxLat": 45.314159,
+      "minLon": -75.757599,
+      "maxLon": -75.714179
+    },
+    {
+      "minLat": 49.709554,
+      "maxLat": 49.740097,
+      "minLon": -113.419776,
+      "maxLon": -113.37253
+    },
+    {
+      "minLat": 44.313181,
+      "maxLat": 44.343723,
+      "minLon": -76.185675,
+      "maxLon": -76.142979
+    },
+    {
+      "minLat": 43.052992,
+      "maxLat": 43.083534,
+      "minLon": -79.083591,
+      "maxLon": -79.041783
+    },
+    {
+      "minLat": 43.241952,
+      "maxLat": 43.272495,
+      "minLon": -81.163865,
+      "maxLon": -81.121927
+    },
+    {
+      "minLat": 53.48702,
+      "maxLat": 53.517563,
+      "minLon": -112.108097,
+      "maxLon": -112.056746
+    },
+    {
+      "minLat": 51.400589,
+      "maxLat": 51.431131,
+      "minLon": -116.238789,
+      "maxLon": -116.189816
+    },
+    {
+      "minLat": 43.954214,
+      "maxLat": 43.984757,
+      "minLon": -78.306621,
+      "maxLon": -78.264184
+    },
+    {
+      "minLat": 44.891308,
+      "maxLat": 44.92185,
+      "minLon": -79.391043,
+      "maxLon": -79.347919
+    }
+  ],
+  "focus": {
+    "lat": 43.644153,
+    "lon": -79.377473
+  },
+  "modes": ["bus"],
+  "proximity": {
+    "radiusMeters": 1500,
+    "bucketMeters": 75
+  },
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "FlixBus",
+    "url": "https://global.flixbus.com/",
+    "license": "No published data licence. Station boards and live trip status come from FlixBus's public rider tracker. Use is subject to the FlixBus general terms (section 3.2). Anyone hosting an instance is responsible for complying with them.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "cityPresets": [
+    {
+      "name": "Toronto",
+      "lat": 43.644153,
+      "lon": -79.377473
+    },
+    {
+      "name": "Ottawa",
+      "lat": 45.420482,
+      "lon": -75.63803
+    },
+    {
+      "name": "Montréal",
+      "lat": 45.516887,
+      "lon": -73.563385
+    },
+    {
+      "name": "Calgary",
+      "lat": 51.04171003187684,
+      "lon": -114.06158554153788
+    },
+    {
+      "name": "Edmonton",
+      "lat": 53.54075206205995,
+      "lon": -113.52050551145537
+    },
+    {
+      "name": "Vancouver",
+      "lat": 49.273278,
+      "lon": -123.097889
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": [
+      "TO",
+      "TK",
+      "TW",
+      "TS",
+      "TL",
+      "NF",
+      "NB",
+      "SU",
+      "OS",
+      "OM",
+      "MU",
+      "EC",
+      "CB",
+      "CR",
+      "ES",
+      "RW",
+      "VV"
+    ],
+    "routeLineMap": {
+      "2700": "TO",
+      "2705": "TO",
+      "2709": "TK",
+      "N2700": "TK",
+      "2701": "TW",
+      "N2706": "TW",
+      "N2710": "TW",
+      "2710": "TS",
+      "2702": "TL",
+      "2704": "NF",
+      "2685": "NF",
+      "N2685": "NF",
+      "N2687": "NF",
+      "N2768a": "NF",
+      "US0215": "NF",
+      "ADN806D": "NF",
+      "ADN809D": "NF",
+      "ADN813D": "NF",
+      "ADN816D": "NF",
+      "2707": "NB",
+      "2708": "SU",
+      "2711": "OS",
+      "2730": "OM",
+      "US0200": "MU",
+      "2677": "MU",
+      "2679": "MU",
+      "N2679": "MU",
+      "2689": "MU",
+      "US0260": "MU",
+      "ADA278D": "MU",
+      "ADA287D": "MU",
+      "ADA297D": "MU",
+      "ADA508D": "MU",
+      "2720": "EC",
+      "2721": "CB",
+      "2725": "CB",
+      "2726": "CR",
+      "2722": "ES",
+      "2723": "RW",
+      "CUS3332": "VV",
+      "2114": "VV",
+      "US0501": "VV"
+    }
+  },
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "id",
+    "feeds": [
+      {
+        "name": "FlixBus station boards",
+        "url": "https://global.api.flixbus.com/gis/v2/timetable/{station}/{board}?from={from}&to={to}&apiKey=7781b8fa-07cf-4ab7-8b62-1f3178523ba0",
+        "cacheFileName": "flixbus-ca-boards.zip",
+        "stationTimetables": {
+          "stations": [
+            "aafae0fb-8d4d-4c26-bd2b-ad3963ee0045",
+            "2ae92e46-5e22-4991-af03-51574f963ccd",
+            "0a76f578-6518-44d8-9346-36189284e33b",
+            "d3acc9d6-cc18-4512-abe6-635e698c5281",
+            "198e003c-1501-4f7e-b7da-8cc4f046d34d",
+            "b4fb4f7a-ff5c-479d-a707-6db43a379b49",
+            "9b6b4ac2-3ecb-11ea-8017-02437075395e",
+            "0e880928-b37e-44ed-828b-039512e66259"
+          ],
+          "cityRegions": ["AB", "BC", "MB", "NB", "NL", "NS", "ON", "PE", "PQ", "QC", "SK"],
+          "timeZone": "America/Toronto"
+        }
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "station_timetables",
+        "url": "https://global.api.flixbus.com/gis/v2/timetable/{station}/{board}?from={from}&to={to}&apiKey=7781b8fa-07cf-4ab7-8b62-1f3178523ba0",
+        "format": "json",
+        "pollIntervalSeconds": 60,
+        "stations": [
+          "aafae0fb-8d4d-4c26-bd2b-ad3963ee0045",
+          "2ae92e46-5e22-4991-af03-51574f963ccd",
+          "0a76f578-6518-44d8-9346-36189284e33b",
+          "d3acc9d6-cc18-4512-abe6-635e698c5281",
+          "198e003c-1501-4f7e-b7da-8cc4f046d34d",
+          "b4fb4f7a-ff5c-479d-a707-6db43a379b49",
+          "9b6b4ac2-3ecb-11ea-8017-02437075395e",
+          "0e880928-b37e-44ed-828b-039512e66259"
+        ],
+        "cityRegions": ["AB", "BC", "MB", "NB", "NL", "NS", "ON", "PE", "PQ", "QC", "SK"],
+        "lookbackHours": 12,
+        "lookaheadHours": 6,
+        "directions": {
+          "2114": {
+            "Seattle Bus Station": 0,
+            "Vancouver (Pacific Central Station)": 1
+          },
+          "2677": {
+            "New York Midtown (31st St & 8th Ave)": 0,
+            "Montreal (Gare d'autocars de Montreal)": 1
+          },
+          "2679": {
+            "New York Midtown (31st St & 8th Ave)": 0,
+            "Montreal (Gare d'autocars de Montreal)": 1
+          },
+          "2685": {
+            "New York Midtown (31st St & 8th Ave)": 0,
+            "Toronto (Union Station Bus Terminal)": 1,
+            "Scarborough Centre": 1
+          },
+          "2689": {
+            "Boston (South Station)": 1,
+            "Montreal (Gare d'autocars de Montreal)": 0
+          },
+          "2700": {
+            "Toronto (Union Station Bus Terminal)": 0,
+            "Mississauga (Duke of York Blvd)": 0,
+            "Toronto Pearson Airport (Terminal 1)": 0,
+            "Brampton Bramalea GO (Steeles Avenue)": 0,
+            "Ottawa (VIA Rail)": 1,
+            "Ottawa (St. Laurent)": 1
+          },
+          "2701": {
+            "Toronto Pearson Airport (Terminal 1)": 0,
+            "Detroit Bus Station": 0,
+            "Scarborough Centre": 1,
+            "Ottawa (St. Laurent)": 1,
+            "Ottawa (Gloucester Centre)": 1,
+            "Toronto (Union Station Bus Terminal)": 0
+          },
+          "2702": {
+            "Toronto (Union Station Bus Terminal)": 0,
+            "Toronto (Harbourfront)": 0,
+            "London (Downtown)": 1,
+            "London (White Oaks Mall)": 1,
+            "London (Western Univ.)": 1,
+            "Sarnia (Bayside Terminal)": 1,
+            "St Thomas": 1
+          },
+          "2704": {
+            "Niagara Falls Canada (Rapidsview)": 0,
+            "Toronto (Union Station Bus Terminal)": 1
+          },
+          "2705": {
+            "London (Western Univ.)": 0,
+            "Ottawa (VIA Rail)": 1
+          },
+          "2707": {
+            "Toronto (Union Station Bus Terminal)": 0,
+            "North Bay (Holiday Inn)": 1
+          },
+          "2708": {
+            "Toronto (Union Station Bus Terminal)": 0,
+            "Sudbury (Ontario Northland Terminal)": 1
+          },
+          "2709": {
+            "Niagara Falls Canada (Rapidsview)": 0,
+            "Toronto (Union Station Bus Terminal)": 1,
+            "Ottawa (Gloucester Centre)": 1
+          },
+          "2710": {
+            "Ottawa (St. Laurent)": 0,
+            "London (Western Univ.)": 1
+          },
+          "2711": {
+            "Owen Sound (Transit Terminal)": 0,
+            "Toronto (Union Station Bus Terminal)": 1
+          },
+          "2720": {
+            "Edmonton (Downtown - Jasper Ave)": 1,
+            "Edmonton (Belvedere Transit Centre)": 1,
+            "Calgary (Downtown - 11 Ave SE)": 0,
+            "Medicine Hat (Petro-Canada)": 0,
+            "Calgary (Anderson)": 0,
+            "Lethbridge (Downtown)": 0,
+            "Calgary (Whitehorn)": 0
+          },
+          "2721": {
+            "Banff": 0,
+            "Lake Louise (Lakeshore)": 0,
+            "Calgary Int. Airport (Door 14, Bay 31)": 1,
+            "Calgary (Downtown - 11 Ave SE)": 1
+          },
+          "2722": {
+            "Regina (Victoria Square Mall)": 0,
+            "Edmonton (Southgate Transit Centre)": 1
+          },
+          "2723": {
+            "Regina (Victoria Square Mall)": 0,
+            "Winnipeg (Grey Wolf Terminal)": 1
+          },
+          "2725": {
+            "Banff": 0,
+            "Calgary Int. Airport (Door 14, Bay 31)": 1,
+            "Edmonton (Belvedere Transit Centre)": 1
+          },
+          "2726": {
+            "Regina (Victoria Square Mall)": 0,
+            "Calgary Int. Airport (Door 14, Bay 31)": 1
+          },
+          "2730": {
+            "Montreal (Gare d'autocars de Montreal)": 0,
+            "Ottawa (St. Laurent)": 1
+          },
+          "ADA278D": {
+            "Montreal (Gare d'autocars de Montreal)": 0
+          },
+          "ADA287D": {
+            "New York (Hudson Yards Trailways)": 0
+          },
+          "ADA297D": {
+            "New York Port Authority": 0
+          },
+          "ADA508D": {
+            "Montreal (Gare d'autocars de Montreal)": 0
+          },
+          "ADN806D": {
+            "Toronto (Union Station Bus Terminal)": 0
+          },
+          "ADN809D": {
+            "New York Port Authority": 0
+          },
+          "ADN813D": {
+            "New York Port Authority": 0
+          },
+          "ADN816D": {
+            "Toronto (Union Station Bus Terminal)": 0
+          },
+          "CUS3332": {
+            "Victoria Bus Terminus": 0,
+            "Vancouver (Pacific Central Station)": 1
+          },
+          "N2679": {
+            "New York Midtown (31st St & 8th Ave)": 0,
+            "Montreal (Gare d'autocars de Montreal)": 1
+          },
+          "N2685": {
+            "Toronto (Union Station Bus Terminal)": 1,
+            "New York Midtown (31st St & 8th Ave)": 0
+          },
+          "N2687": {
+            "New York Midtown (31st St & 8th Ave)": 0,
+            "Scarborough Centre": 1
+          },
+          "N2700": {
+            "Mississauga (Duke of York Blvd)": 0,
+            "Ottawa (Gloucester Centre)": 1
+          },
+          "N2706": {
+            "Detroit Bus Station": 1,
+            "Scarborough Centre": 0
+          },
+          "N2710": {
+            "London (Western Univ.)": 0,
+            "Detroit Bus Station": 0,
+            "Ottawa (St. Laurent)": 1
+          },
+          "N2768a": {
+            "New York Midtown (31st St & 8th Ave)": 0,
+            "Scarborough Centre": 1
+          },
+          "US0200": {
+            "New York Port Authority": 0,
+            "Montreal (Gare d'autocars de Montreal)": 1
+          },
+          "US0215": {
+            "New York Port Authority": 0,
+            "Toronto (Union Station Bus Terminal)": 1
+          },
+          "US0260": {
+            "Boston (South Station)": 0,
+            "Montreal (Gare d'autocars de Montreal)": 1
+          },
+          "US0501": {
+            "Seattle Bus Station": 1,
+            "Vancouver (Pacific Central Station)": 0
+          }
+        }
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["2700", "2702", "2704", "2720"]
+}

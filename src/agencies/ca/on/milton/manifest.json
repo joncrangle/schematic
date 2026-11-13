@@ -1,0 +1,140 @@
+{
+  "id": "milton",
+  "name": "Milton Transit",
+  "serviceArea": "Milton",
+  "shortName": "MT",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.47,
+      "maxLat": 43.59,
+      "minLon": -79.92,
+      "maxLon": -79.81
+    },
+    {
+      "minLat": 43.585,
+      "maxLat": 43.61,
+      "minLon": -79.81,
+      "maxLon": -79.78
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Milton Transit / Town of Milton open data, adapted into this application",
+    "url": "https://discover-milton.hub.arcgis.com/pages/disclaimer-and-terms-of-use",
+    "license": "Open Government Licence – Milton"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Milton GO Station",
+      "lat": 43.52423,
+      "lon": -79.86618
+    },
+    {
+      "name": "Lisgar GO Station",
+      "lat": 43.59211,
+      "lon": -79.78828
+    },
+    {
+      "name": "Milton District Hospital",
+      "lat": 43.49726,
+      "lon": -79.87118
+    },
+    {
+      "name": "Milton Crossroads",
+      "lat": 43.54196,
+      "lon": -79.86692
+    },
+    {
+      "name": "Toronto Premium Outlets",
+      "lat": 43.57706,
+      "lon": -79.83195
+    },
+    {
+      "name": "Mattamy National Cycling Centre",
+      "lat": 43.47429,
+      "lon": -79.87754
+    },
+    {
+      "name": "Main at Scott",
+      "lat": 43.50382,
+      "lon": -79.89314
+    },
+    {
+      "name": "Whitlock at Regional Road 25",
+      "lat": 43.49362,
+      "lon": -79.84328
+    },
+    {
+      "name": "Derry at Commercial",
+      "lat": 43.50277,
+      "lon": -79.8658
+    },
+    {
+      "name": "Louis St Laurent at Regional Road 25",
+      "lat": 43.4964,
+      "lon": -79.8488
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "6", "7", "9A", "9B", "21"],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "6", "7", "9", "21"],
+    "routeLineMap": {
+      "9A": "9",
+      "9B": "9"
+    }
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://milton.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "60"
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Milton Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-milton.zip",
+        "cacheFileName": "milton-gtfs.zip"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "web",
+      "url": "https://www.milton.ca/news/rider-alerts/",
+      "parser": "ghd-news-service-advisories",
+      "maxAgeMinutes": 10080,
+      "runtimes": ["self-hosted"]
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://alerts.example.com/milton.pb",
+      "format": "protobuf",
+      "runtimes": ["cloudflare"],
+      "disabledReason": "Requires the alert-feed daemon and FEED_ALERT_PROXY_BASE_URL/FEED_ALERT_PROXY_TOKEN secrets (see docs/deployment/deployment-guide.html#proxy)",
+      "baseUrlSecretName": "FEED_ALERT_PROXY_BASE_URL",
+      "requiredForCompleteness": true,
+      "auth": {
+        "type": "header",
+        "headerName": "x-feed-token",
+        "secretName": "FEED_ALERT_PROXY_TOKEN"
+      }
+    }
+  ]
+}

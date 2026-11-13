@@ -1,0 +1,938 @@
+{
+  "viewBoxWidth": 1400,
+  "viewBoxHeight": 1900,
+  "lines": [
+    {
+      "id": "5-WHI",
+      "name": "Upper Village/Benchlands",
+      "color": "#8E0C3A",
+      "points": [
+        {
+          "x": 1040,
+          "y": 800
+        },
+        {
+          "x": 1040,
+          "y": 570
+        },
+        {
+          "x": 1040,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "6-WHI",
+      "name": "Tapley's/Blueberry",
+      "color": "#FFC20E",
+      "points": [
+        {
+          "x": 1040,
+          "y": 800
+        },
+        {
+          "x": 450,
+          "y": 800
+        },
+        {
+          "x": 530,
+          "y": 880
+        },
+        {
+          "x": 960,
+          "y": 880
+        },
+        {
+          "x": 1040,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "7-WHI",
+      "name": "Staff Housing",
+      "color": "#B2A97E",
+      "points": [
+        {
+          "x": 1040,
+          "y": 800
+        },
+        {
+          "x": 1240,
+          "y": 800
+        },
+        {
+          "x": 1040,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "10-WHI",
+      "name": "Valley Express",
+      "color": "#8177B7",
+      "points": [
+        {
+          "x": 592,
+          "y": 170
+        },
+        {
+          "x": 592,
+          "y": 648
+        },
+        {
+          "x": 877,
+          "y": 648
+        },
+        {
+          "x": 1032,
+          "y": 803
+        },
+        {
+          "x": 1032,
+          "y": 1267
+        },
+        {
+          "x": 917,
+          "y": 1382
+        },
+        {
+          "x": 597,
+          "y": 1382
+        },
+        {
+          "x": 432,
+          "y": 1547
+        },
+        {
+          "x": 432,
+          "y": 1720
+        }
+      ]
+    },
+    {
+      "id": "20-WHI",
+      "name": "Cheakamus",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 1040,
+          "y": 800
+        },
+        {
+          "x": 1040,
+          "y": 1030
+        },
+        {
+          "x": 1140,
+          "y": 1130
+        },
+        {
+          "x": 1040,
+          "y": 1230
+        },
+        {
+          "x": 1040,
+          "y": 1270
+        },
+        {
+          "x": 920,
+          "y": 1390
+        },
+        {
+          "x": 600,
+          "y": 1390
+        },
+        {
+          "x": 440,
+          "y": 1550
+        },
+        {
+          "x": 300,
+          "y": 1550
+        },
+        {
+          "x": 440,
+          "y": 1550
+        },
+        {
+          "x": 440,
+          "y": 1720
+        }
+      ]
+    },
+    {
+      "id": "21-WHI",
+      "name": "Spring Creek",
+      "color": "#F7941E",
+      "points": [
+        {
+          "x": 1048,
+          "y": 800
+        },
+        {
+          "x": 1048,
+          "y": 1027
+        },
+        {
+          "x": 1151,
+          "y": 1130
+        },
+        {
+          "x": 1048,
+          "y": 1233
+        },
+        {
+          "x": 1048,
+          "y": 1273
+        },
+        {
+          "x": 923,
+          "y": 1398
+        },
+        {
+          "x": 803,
+          "y": 1398
+        },
+        {
+          "x": 685,
+          "y": 1516
+        }
+      ]
+    },
+    {
+      "id": "30-WHI",
+      "name": "Emerald via Alpine",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 1040,
+          "y": 800
+        },
+        {
+          "x": 1029,
+          "y": 811
+        },
+        {
+          "x": 874,
+          "y": 656
+        },
+        {
+          "x": 584,
+          "y": 656
+        },
+        {
+          "x": 584,
+          "y": 507
+        },
+        {
+          "x": 487,
+          "y": 410
+        },
+        {
+          "x": 584,
+          "y": 313
+        },
+        {
+          "x": 584,
+          "y": 170
+        }
+      ]
+    },
+    {
+      "id": "31-WHI",
+      "name": "Alpine",
+      "color": "#A54399",
+      "points": [
+        {
+          "x": 1040,
+          "y": 800
+        },
+        {
+          "x": 1023,
+          "y": 817
+        },
+        {
+          "x": 870,
+          "y": 664
+        },
+        {
+          "x": 576,
+          "y": 664
+        },
+        {
+          "x": 576,
+          "y": 510
+        },
+        {
+          "x": 452,
+          "y": 386
+        },
+        {
+          "x": 624,
+          "y": 386
+        },
+        {
+          "x": 624,
+          "y": 530
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "whistler-village",
+      "name": "Whistler Village",
+      "x": 1040,
+      "y": 800,
+      "lines": ["5-WHI", "6-WHI", "7-WHI", "10-WHI", "20-WHI", "21-WHI", "30-WHI", "31-WHI"],
+      "terminal": true,
+      "label": {
+        "x": 1080,
+        "y": 840,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "nesters-mall",
+      "name": "Nesters Mall",
+      "x": 584,
+      "y": 640,
+      "lines": ["10-WHI", "30-WHI", "31-WHI"],
+      "label": {
+        "x": 552,
+        "y": 648,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "meadow-park",
+      "name": "Meadow Park Sports Centre",
+      "x": 580,
+      "y": 530,
+      "lines": ["30-WHI", "31-WHI"],
+      "label": {
+        "x": 555,
+        "y": 536,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "alpine-meadows",
+      "name": "Alpine Meadows",
+      "x": 481,
+      "y": 410,
+      "lines": ["30-WHI", "31-WHI"],
+      "terminal": true,
+      "label": {
+        "x": 446,
+        "y": 410,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rainbow",
+      "name": "Rainbow",
+      "x": 588,
+      "y": 290,
+      "lines": ["10-WHI", "30-WHI"],
+      "label": {
+        "x": 636,
+        "y": 290,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "emerald-estates",
+      "name": "Emerald Estates",
+      "x": 588,
+      "y": 170,
+      "lines": ["10-WHI", "30-WHI"],
+      "terminal": true,
+      "label": {
+        "x": 636,
+        "y": 170,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "upper-village",
+      "name": "Upper Village",
+      "x": 1040,
+      "y": 670,
+      "lines": ["5-WHI"],
+      "label": {
+        "x": 1076,
+        "y": 670,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "benchlands",
+      "name": "Benchlands",
+      "x": 1040,
+      "y": 570,
+      "lines": ["5-WHI"],
+      "label": {
+        "x": 1076,
+        "y": 570,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "staff-housing",
+      "name": "Staff Housing",
+      "x": 1240,
+      "y": 800,
+      "lines": ["7-WHI"],
+      "label": {
+        "x": 1240,
+        "y": 760,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "tapleys-farm",
+      "name": "Tapley's Farm",
+      "x": 450,
+      "y": 800,
+      "lines": ["6-WHI"],
+      "label": {
+        "x": 414,
+        "y": 800,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "blueberry",
+      "name": "Blueberry",
+      "x": 740,
+      "y": 880,
+      "lines": ["6-WHI"],
+      "label": {
+        "x": 740,
+        "y": 922,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "alta-vista",
+      "name": "Alta Vista",
+      "x": 1040,
+      "y": 980,
+      "lines": ["10-WHI", "20-WHI", "21-WHI"],
+      "label": {
+        "x": 998,
+        "y": 980,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "nordic-estates",
+      "name": "Nordic Estates",
+      "x": 1140,
+      "y": 1130,
+      "lines": ["20-WHI", "21-WHI"],
+      "label": {
+        "x": 1176,
+        "y": 1130,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "whistler-creekside",
+      "name": "Whistler Creekside",
+      "x": 1040,
+      "y": 1230,
+      "lines": ["10-WHI", "20-WHI", "21-WHI"],
+      "label": {
+        "x": 998,
+        "y": 1225,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bayshores",
+      "name": "Bayshores",
+      "x": 960,
+      "y": 1350,
+      "lines": ["10-WHI", "20-WHI", "21-WHI"],
+      "label": {
+        "x": 998,
+        "y": 1358,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "tamarisk",
+      "name": "Tamarisk",
+      "x": 840,
+      "y": 1390,
+      "lines": ["10-WHI", "20-WHI", "21-WHI"],
+      "label": {
+        "x": 840,
+        "y": 1348,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "spring-creek",
+      "name": "Spring Creek",
+      "x": 686,
+      "y": 1516,
+      "lines": ["21-WHI"],
+      "terminal": true,
+      "label": {
+        "x": 714,
+        "y": 1520,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "function-junction",
+      "name": "Function Junction",
+      "x": 300,
+      "y": 1550,
+      "lines": ["20-WHI"],
+      "label": {
+        "x": 264,
+        "y": 1550,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hi-whistler",
+      "name": "HI Whistler",
+      "x": 440,
+      "y": 1630,
+      "lines": ["10-WHI", "20-WHI"],
+      "label": {
+        "x": 478,
+        "y": 1630,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cheakamus-crossing",
+      "name": "Cheakamus Crossing",
+      "x": 440,
+      "y": 1720,
+      "lines": ["10-WHI", "20-WHI"],
+      "terminal": true,
+      "label": {
+        "x": 478,
+        "y": 1725,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "5-WHI",
+      "num": "5",
+      "x": 1006,
+      "y": 620,
+      "color": "#8E0C3A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6-WHI",
+      "num": "6",
+      "x": 760,
+      "y": 768,
+      "color": "#FFC20E",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7-WHI",
+      "num": "7",
+      "x": 1205,
+      "y": 832,
+      "color": "#B2A97E",
+      "textColor": "#000000"
+    },
+    {
+      "line": "10-WHI",
+      "num": "10",
+      "x": 700,
+      "y": 1348,
+      "color": "#8177B7",
+      "textColor": "#000000"
+    },
+    {
+      "line": "20-WHI",
+      "num": "20",
+      "x": 370,
+      "y": 1584,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "21-WHI",
+      "num": "21",
+      "x": 769,
+      "y": 1478,
+      "color": "#F7941E",
+      "textColor": "#000000"
+    },
+    {
+      "line": "30-WHI",
+      "num": "30",
+      "x": 520,
+      "y": 332,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "31-WHI",
+      "num": "31",
+      "x": 509,
+      "y": 489,
+      "color": "#A54399",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "5-WHI": ["whistler-village", "upper-village", "benchlands"],
+    "6-WHI": ["whistler-village", "tapleys-farm", "blueberry"],
+    "7-WHI": ["whistler-village", "staff-housing"],
+    "10-WHI": [
+      "emerald-estates",
+      "rainbow",
+      "nesters-mall",
+      "whistler-village",
+      "alta-vista",
+      "whistler-creekside",
+      "bayshores",
+      "tamarisk",
+      "hi-whistler",
+      "cheakamus-crossing"
+    ],
+    "20-WHI": [
+      "whistler-village",
+      "alta-vista",
+      "nordic-estates",
+      "whistler-creekside",
+      "bayshores",
+      "tamarisk",
+      "function-junction",
+      "hi-whistler",
+      "cheakamus-crossing"
+    ],
+    "21-WHI": [
+      "whistler-village",
+      "alta-vista",
+      "nordic-estates",
+      "whistler-creekside",
+      "bayshores",
+      "tamarisk",
+      "spring-creek"
+    ],
+    "30-WHI": [
+      "whistler-village",
+      "nesters-mall",
+      "meadow-park",
+      "alpine-meadows",
+      "rainbow",
+      "emerald-estates"
+    ],
+    "31-WHI": ["whistler-village", "nesters-mall", "meadow-park", "alpine-meadows"]
+  },
+  "stationAliases": {
+    "code:102713": "whistler-village",
+    "code:102714": "whistler-village",
+    "code:102716": "whistler-village",
+    "code:102717": "whistler-village",
+    "code:102718": "whistler-village",
+    "code:102455": "whistler-village",
+    "code:102456": "whistler-village",
+    "code:130007": "whistler-village",
+    "code:102462": "whistler-village",
+    "code:102514": "nesters-mall",
+    "code:102517": "nesters-mall",
+    "code:102600": "meadow-park",
+    "code:102622": "alpine-meadows",
+    "code:102703": "rainbow",
+    "code:102653": "emerald-estates",
+    "code:102453": "upper-village",
+    "code:102454": "upper-village",
+    "code:102476": "benchlands",
+    "code:102464": "staff-housing",
+    "code:102525": "tapleys-farm",
+    "code:102502": "blueberry",
+    "code:102523": "alta-vista",
+    "code:102533": "alta-vista",
+    "code:102545": "nordic-estates",
+    "code:102547": "nordic-estates",
+    "code:102596": "whistler-creekside",
+    "code:102599": "whistler-creekside",
+    "code:130002": "whistler-creekside",
+    "code:130003": "whistler-creekside",
+    "code:102628": "bayshores",
+    "code:102632": "bayshores",
+    "code:102639": "tamarisk",
+    "code:102645": "tamarisk",
+    "code:102661": "spring-creek",
+    "code:102662": "spring-creek",
+    "code:102676": "function-junction",
+    "code:102686": "hi-whistler",
+    "code:102690": "cheakamus-crossing"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 110,
+      "maxX": 1340,
+      "minY": 20,
+      "maxY": 1880
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -123.04364,
+    "refLonEast": -122.93123,
+    "refXWest": 547,
+    "refXEast": 922,
+    "refLatNorth": 50.15664,
+    "refLatSouth": 50.07867,
+    "refYNorth": 150,
+    "refYSouth": 1559
+  },
+  "cornerInsertions": [
+    {
+      "lineId": "20-WHI",
+      "stationId": "function-junction",
+      "before": {
+        "x": 440,
+        "y": 1550
+      },
+      "after": {
+        "x": 440,
+        "y": 1550
+      }
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "102622",
+      "schematicId": "alpine-meadows",
+      "name": "Alpine Meadows",
+      "lat": 50.14815,
+      "lon": -122.96328,
+      "lines": ["30-WHI", "31-WHI"],
+      "platformIds": ["102622"],
+      "departureRouteIds": ["30-WHI", "31-WHI"]
+    },
+    {
+      "id": "alta-vista",
+      "schematicId": "alta-vista",
+      "name": "Alta Vista",
+      "lat": 50.10736,
+      "lon": -122.97529,
+      "lines": ["10-WHI", "20-WHI", "21-WHI"],
+      "platformIds": ["102523", "102533"],
+      "departureRouteIds": ["10-WHI", "20-WHI", "20X-WHI", "21-WHI"]
+    },
+    {
+      "id": "bayshores",
+      "schematicId": "bayshores",
+      "name": "Bayshores",
+      "lat": 50.09046,
+      "lon": -122.99782,
+      "lines": ["10-WHI", "20-WHI", "21-WHI"],
+      "platformIds": ["102628", "102632"],
+      "departureRouteIds": ["10-WHI", "20-WHI", "20X-WHI", "21-WHI"]
+    },
+    {
+      "id": "102476",
+      "schematicId": "benchlands",
+      "name": "Benchlands",
+      "lat": 50.11416,
+      "lon": -122.94052,
+      "lines": ["5-WHI"],
+      "platformIds": ["102476"],
+      "departureRouteIds": ["5-WHI"]
+    },
+    {
+      "id": "102502",
+      "schematicId": "blueberry",
+      "name": "Blueberry",
+      "lat": 50.11062,
+      "lon": -122.97126,
+      "lines": ["6-WHI"],
+      "platformIds": ["102502"],
+      "departureRouteIds": ["6-WHI"]
+    },
+    {
+      "id": "102690",
+      "schematicId": "cheakamus-crossing",
+      "name": "Cheakamus Crossing",
+      "lat": 50.07867,
+      "lon": -123.04364,
+      "lines": ["10-WHI", "20-WHI"],
+      "platformIds": ["102690"],
+      "departureRouteIds": ["10-WHI", "20-WHI", "20X-WHI"]
+    },
+    {
+      "id": "102653",
+      "schematicId": "emerald-estates",
+      "name": "Emerald Estates",
+      "lat": 50.15606,
+      "lon": -122.93123,
+      "lines": ["10-WHI", "30-WHI"],
+      "platformIds": ["102653"],
+      "departureRouteIds": ["10-WHI", "30-WHI", "32-WHI"]
+    },
+    {
+      "id": "102676",
+      "schematicId": "function-junction",
+      "name": "Function Junction",
+      "lat": 50.09013,
+      "lon": -123.03139,
+      "lines": ["20-WHI"],
+      "platformIds": ["102676"],
+      "departureRouteIds": ["20-WHI", "20X-WHI"]
+    },
+    {
+      "id": "102686",
+      "schematicId": "hi-whistler",
+      "name": "HI Whistler",
+      "lat": 50.07982,
+      "lon": -123.04142,
+      "lines": ["10-WHI", "20-WHI"],
+      "platformIds": ["102686"],
+      "departureRouteIds": ["10-WHI", "20-WHI", "20X-WHI"]
+    },
+    {
+      "id": "102600",
+      "schematicId": "meadow-park",
+      "name": "Meadow Park Sports Centre",
+      "lat": 50.14444,
+      "lon": -122.96024,
+      "lines": ["30-WHI", "31-WHI"],
+      "platformIds": ["102600"],
+      "departureRouteIds": ["30-WHI", "31-WHI", "32-WHI"]
+    },
+    {
+      "id": "nesters-mall",
+      "schematicId": "nesters-mall",
+      "name": "Nesters Mall",
+      "lat": 50.1283,
+      "lon": -122.95483,
+      "lines": ["10-WHI", "30-WHI", "31-WHI"],
+      "platformIds": ["102514", "102517"],
+      "departureRouteIds": ["10-WHI", "30-WHI", "31-WHI"]
+    },
+    {
+      "id": "nordic-estates",
+      "schematicId": "nordic-estates",
+      "name": "Nordic Estates",
+      "lat": 50.10282,
+      "lon": -122.98177,
+      "lines": ["20-WHI", "21-WHI"],
+      "platformIds": ["102545", "102547"],
+      "departureRouteIds": ["20-WHI", "21-WHI"]
+    },
+    {
+      "id": "102703",
+      "schematicId": "rainbow",
+      "name": "Rainbow",
+      "lat": 50.15664,
+      "lon": -122.95596,
+      "lines": ["10-WHI", "30-WHI"],
+      "platformIds": ["102703"],
+      "departureRouteIds": ["10-WHI", "30-WHI", "32-WHI"]
+    },
+    {
+      "id": "spring-creek",
+      "schematicId": "spring-creek",
+      "name": "Spring Creek",
+      "lat": 50.08677,
+      "lon": -123.01425,
+      "lines": ["21-WHI"],
+      "platformIds": ["102661", "102662"],
+      "departureRouteIds": ["21-WHI"]
+    },
+    {
+      "id": "102464",
+      "schematicId": "staff-housing",
+      "name": "Staff Housing",
+      "lat": 50.10912,
+      "lon": -122.948,
+      "lines": ["7-WHI"],
+      "platformIds": ["102464"],
+      "departureRouteIds": ["7-WHI"]
+    },
+    {
+      "id": "tamarisk",
+      "schematicId": "tamarisk",
+      "name": "Tamarisk",
+      "lat": 50.09051,
+      "lon": -123.00546,
+      "lines": ["10-WHI", "20-WHI", "21-WHI"],
+      "platformIds": ["102639", "102645"],
+      "departureRouteIds": ["10-WHI", "20-WHI", "20X-WHI", "21-WHI"]
+    },
+    {
+      "id": "102525",
+      "schematicId": "tapleys-farm",
+      "name": "Tapley's Farm",
+      "lat": 50.12485,
+      "lon": -122.97001,
+      "lines": ["6-WHI"],
+      "platformIds": ["102525"],
+      "departureRouteIds": ["6-WHI"]
+    },
+    {
+      "id": "upper-village",
+      "schematicId": "upper-village",
+      "name": "Upper Village",
+      "lat": 50.11624,
+      "lon": -122.94893,
+      "lines": ["5-WHI"],
+      "platformIds": ["102453", "102454"],
+      "departureRouteIds": ["5-WHI"]
+    },
+    {
+      "id": "whistler-creekside",
+      "schematicId": "whistler-creekside",
+      "name": "Whistler Creekside",
+      "lat": 50.09445,
+      "lon": -122.99016,
+      "lines": ["10-WHI", "20-WHI", "21-WHI"],
+      "platformIds": ["102596", "102599", "130002", "130003"],
+      "departureRouteIds": ["10-WHI", "20-WHI", "20X-WHI", "21-WHI"]
+    },
+    {
+      "id": "whistler-village",
+      "schematicId": "whistler-village",
+      "name": "Whistler Village",
+      "lat": 50.11615,
+      "lon": -122.95648,
+      "lines": ["10-WHI", "20-WHI", "21-WHI", "30-WHI", "31-WHI", "5-WHI", "6-WHI", "7-WHI"],
+      "platformIds": [
+        "102455",
+        "102456",
+        "102462",
+        "102713",
+        "102714",
+        "102716",
+        "102717",
+        "102718",
+        "130007"
+      ],
+      "departureRouteIds": [
+        "10-WHI",
+        "20-WHI",
+        "20X-WHI",
+        "21-WHI",
+        "30-WHI",
+        "31-WHI",
+        "32-WHI",
+        "5-WHI",
+        "6-WHI",
+        "7-WHI"
+      ]
+    }
+  ]
+}

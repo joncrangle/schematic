@@ -1,0 +1,501 @@
+{
+  "viewBoxWidth": 960,
+  "viewBoxHeight": 860,
+  "lines": [
+    {
+      "id": "10",
+      "name": "NE Crescent Heights",
+      "color": "#FC6F23",
+      "points": [
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 300
+        },
+        {
+          "x": 600,
+          "y": 140
+        },
+        {
+          "x": 760,
+          "y": 140
+        },
+        {
+          "x": 760,
+          "y": 300
+        },
+        {
+          "x": 600,
+          "y": 300
+        },
+        {
+          "x": 500,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "NW Crescent Heights",
+      "color": "#804000",
+      "points": [
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 400,
+          "y": 300
+        },
+        {
+          "x": 400,
+          "y": 140
+        },
+        {
+          "x": 240,
+          "y": 140
+        },
+        {
+          "x": 240,
+          "y": 300
+        },
+        {
+          "x": 400,
+          "y": 300
+        },
+        {
+          "x": 500,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "River Flats",
+      "color": "#FF7AED",
+      "points": [
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 660,
+          "y": 400
+        },
+        {
+          "x": 820,
+          "y": 400
+        },
+        {
+          "x": 820,
+          "y": 520
+        },
+        {
+          "x": 660,
+          "y": 520
+        },
+        {
+          "x": 660,
+          "y": 400
+        },
+        {
+          "x": 500,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Hospital",
+      "color": "#0080FF",
+      "points": [
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 380,
+          "y": 400
+        },
+        {
+          "x": 220,
+          "y": 400
+        },
+        {
+          "x": 220,
+          "y": 480
+        },
+        {
+          "x": 300,
+          "y": 480
+        },
+        {
+          "x": 380,
+          "y": 400
+        },
+        {
+          "x": 500,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "South Hill",
+      "color": "#EC1000",
+      "points": [
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 420,
+          "y": 480
+        },
+        {
+          "x": 420,
+          "y": 640
+        },
+        {
+          "x": 260,
+          "y": 640
+        },
+        {
+          "x": 260,
+          "y": 560
+        },
+        {
+          "x": 340,
+          "y": 560
+        },
+        {
+          "x": 420,
+          "y": 480
+        },
+        {
+          "x": 500,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Dunmore Road",
+      "color": "#00FF00",
+      "points": [
+        {
+          "x": 506.0,
+          "y": 400.0
+        },
+        {
+          "x": 506.0,
+          "y": 657.51
+        },
+        {
+          "x": 624.24,
+          "y": 775.76
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Dunmore Road",
+      "color": "#008040",
+      "points": [
+        {
+          "x": 615.76,
+          "y": 784.24
+        },
+        {
+          "x": 494.0,
+          "y": 662.49
+        },
+        {
+          "x": 494.0,
+          "y": 400.0
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "transit-terminal",
+      "name": "Transit Terminal",
+      "x": 500,
+      "y": 400,
+      "lines": ["10", "11", "20", "21", "22", "30", "31"],
+      "label": {
+        "x": 524.0,
+        "y": 434.0,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "big-marble",
+      "name": "Big Marble Go Centre",
+      "x": 600,
+      "y": 140,
+      "lines": ["10"],
+      "label": {
+        "x": 600,
+        "y": 110.0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "mccoy",
+      "name": "McCoy High School",
+      "x": 240,
+      "y": 220,
+      "lines": ["11"],
+      "label": {
+        "x": 215.0,
+        "y": 220,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "elm-street-school",
+      "name": "Elm Street School",
+      "x": 820,
+      "y": 460,
+      "lines": ["20"],
+      "label": {
+        "x": 795.0,
+        "y": 460,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Medicine Hat Hospital",
+      "x": 220,
+      "y": 440,
+      "lines": ["21"],
+      "label": {
+        "x": 195.0,
+        "y": 440,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "homestead-market",
+      "name": "Homestead Market",
+      "x": 260,
+      "y": 600,
+      "lines": ["22"],
+      "label": {
+        "x": 235.0,
+        "y": 600,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "kingsway-11th",
+      "name": "Kingsway Avenue & 11th Street",
+      "x": 500,
+      "y": 560,
+      "lines": ["30", "31"],
+      "label": {
+        "x": 531.0,
+        "y": 560,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "medicine-hat-mall",
+      "name": "Medicine Hat Mall",
+      "x": 620,
+      "y": 780,
+      "lines": ["30", "31"],
+      "label": {
+        "x": 649.0,
+        "y": 780,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "10",
+      "num": "10",
+      "x": 792,
+      "y": 220,
+      "color": "#FC6F23",
+      "textColor": "#000000"
+    },
+    {
+      "line": "11",
+      "num": "11",
+      "x": 320,
+      "y": 108,
+      "color": "#804000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "20",
+      "num": "20",
+      "x": 852,
+      "y": 460,
+      "color": "#FF7AED",
+      "textColor": "#000000"
+    },
+    {
+      "line": "21",
+      "num": "21",
+      "x": 300,
+      "y": 368,
+      "color": "#0080FF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "22",
+      "num": "22",
+      "x": 340,
+      "y": 672,
+      "color": "#EC1000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "30",
+      "num": "30",
+      "x": 540,
+      "y": 620,
+      "color": "#00FF00",
+      "textColor": "#000000"
+    },
+    {
+      "line": "31",
+      "num": "31",
+      "x": 460,
+      "y": 620,
+      "color": "#008040",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 950,
+      "minY": 80,
+      "maxY": 830
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -110.701,
+    "refLonEast": -110.662,
+    "refXWest": 220,
+    "refXEast": 820,
+    "refLatNorth": 50.0601,
+    "refLatSouth": 50.0051,
+    "refYNorth": 140,
+    "refYSouth": 780
+  },
+  "sequences": {
+    "10": ["transit-terminal", "big-marble"],
+    "11": ["transit-terminal", "mccoy"],
+    "20": ["transit-terminal", "elm-street-school"],
+    "21": ["transit-terminal", "hospital"],
+    "22": ["transit-terminal", "homestead-market"],
+    "30": ["transit-terminal", "kingsway-11th", "medicine-hat-mall"],
+    "31": ["medicine-hat-mall", "kingsway-11th", "transit-terminal"]
+  },
+  "stationAliases": {
+    "Division Av. At Big Marble Go Centre": "big-marble",
+    "8th St. & 2nd Av. (at McCoy High School)": "mccoy",
+    "Woodman Av. at Elm Street School": "elm-street-school",
+    "6th Av. at Medicine Hat Hospital": "hospital",
+    "5th St. at Medicine Hat Hospital": "hospital",
+    "Bannon Av. at Homestead Market": "homestead-market",
+    "Kingsway Av. & 11th St.": "kingsway-11th"
+  },
+  "stationIndex": [
+    {
+      "id": "N020",
+      "schematicId": "big-marble",
+      "name": "Big Marble Go Centre",
+      "lat": 50.060108,
+      "lon": -110.690981,
+      "lines": ["10"],
+      "platformIds": ["N020"],
+      "departureRouteIds": ["10"]
+    },
+    {
+      "id": "C048",
+      "schematicId": "elm-street-school",
+      "name": "Elm Street School",
+      "lat": 50.034543554,
+      "lon": -110.662004468,
+      "lines": ["20"],
+      "platformIds": ["C048"],
+      "departureRouteIds": ["20"]
+    },
+    {
+      "id": "C026",
+      "schematicId": "homestead-market",
+      "name": "Homestead Market",
+      "lat": 50.0232576952426,
+      "lon": -110.728504631298,
+      "lines": ["22"],
+      "platformIds": ["C026"],
+      "departureRouteIds": ["22"]
+    },
+    {
+      "id": "kingsway-11th",
+      "schematicId": "kingsway-11th",
+      "name": "Kingsway Avenue & 11th Street",
+      "lat": 50.028919333,
+      "lon": -110.669288,
+      "lines": ["30", "31"],
+      "platformIds": ["C005", "C008"],
+      "departureRouteIds": ["30", "31", "46"]
+    },
+    {
+      "id": "N044",
+      "schematicId": "mccoy",
+      "name": "McCoy High School",
+      "lat": 50.049877,
+      "lon": -110.680546,
+      "lines": ["11"],
+      "platformIds": ["N044"],
+      "departureRouteIds": ["11"]
+    },
+    {
+      "id": "hospital",
+      "schematicId": "hospital",
+      "name": "Medicine Hat Hospital",
+      "lat": 50.0353994270001,
+      "lon": -110.701019221,
+      "lines": ["21"],
+      "platformIds": ["C075", "C076"],
+      "departureRouteIds": ["21"]
+    },
+    {
+      "id": "S009",
+      "schematicId": "medicine-hat-mall",
+      "name": "Medicine Hat Mall",
+      "lat": 50.0051417230001,
+      "lon": -110.649215099,
+      "lines": ["30", "31"],
+      "platformIds": ["S009"],
+      "departureRouteIds": ["30", "31", "53", "56", "61"]
+    },
+    {
+      "id": "C001",
+      "schematicId": "transit-terminal",
+      "name": "Transit Terminal",
+      "lat": 50.039346,
+      "lon": -110.674556,
+      "lines": ["10", "11", "20", "21", "22", "30", "31"],
+      "platformIds": ["C001"],
+      "departureRouteIds": ["10", "11", "20", "21", "22", "30", "31", "46"]
+    }
+  ]
+}

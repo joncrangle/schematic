@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oxc-project/oxc/main/npm/oxfmt/configuration_schema.json",
+  "ignorePatterns": [
+    "src/agencies/**/*.jsonc",
+    "src/components/network-coverage/generated/**/*.ts",
+    "src/components/network-coverage/generated/**/*.json",
+    "docs/data-attribution.md"
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "id": "west-kootenay",
+  "name": "BC Transit West Kootenay",
+  "serviceArea": "Nelson, Castlegar, Trail, Rossland and the Slocan, Arrow and Kootenay Lake valleys",
+  "shortName": "West Kootenay",
+  "locale": "en-CA",
+  "timezone": "America/Vancouver",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "bc"
+  },
+  "bounds": [
+    {
+      "minLat": 49.0872,
+      "maxLat": 49.1296,
+      "minLon": -117.761,
+      "maxLon": -117.6499
+    },
+    {
+      "minLat": 49.4689,
+      "maxLat": 49.5287,
+      "minLon": -117.3348,
+      "maxLon": -117.2601
+    },
+    {
+      "minLat": 49.2615,
+      "maxLat": 49.3398,
+      "minLon": -117.7026,
+      "maxLon": -117.6117
+    },
+    {
+      "minLat": 49.0699,
+      "maxLat": 49.1239,
+      "minLon": -117.6072,
+      "maxLon": -117.5264
+    },
+    {
+      "minLat": 49.6066,
+      "maxLat": 49.7043,
+      "minLon": -117.5728,
+      "maxLon": -117.4745
+    },
+    {
+      "minLat": 49.3427,
+      "maxLat": 49.4639,
+      "minLon": -117.5934,
+      "maxLon": -117.5112
+    },
+    {
+      "minLat": 49.6083,
+      "maxLat": 49.6292,
+      "minLon": -117.0914,
+      "maxLon": -116.9537
+    },
+    {
+      "minLat": 49.5361,
+      "maxLat": 49.5946,
+      "minLon": -117.2679,
+      "maxLon": -117.1915
+    },
+    {
+      "minLat": 49.0675,
+      "maxLat": 49.0871,
+      "minLon": -117.8164,
+      "maxLon": -117.769
+    },
+    {
+      "minLat": 49.5944,
+      "maxLat": 49.6163,
+      "minLon": -117.1819,
+      "maxLon": -117.0997
+    },
+    {
+      "minLat": 49.7404,
+      "maxLat": 49.7719,
+      "minLon": -117.4757,
+      "maxLon": -117.4592
+    },
+    {
+      "minLat": 49.4592,
+      "maxLat": 49.4904,
+      "minLon": -117.5035,
+      "maxLon": -117.4332
+    },
+    {
+      "minLat": 49.4802,
+      "maxLat": 49.5228,
+      "minLon": -117.6345,
+      "maxLon": -117.5741
+    },
+    {
+      "minLat": 49.2037,
+      "maxLat": 49.2189,
+      "minLon": -117.7103,
+      "maxLon": -117.6831
+    },
+    {
+      "minLat": 49.9056,
+      "maxLat": 49.9174,
+      "minLon": -116.9236,
+      "maxLon": -116.8925
+    },
+    {
+      "minLat": 49.081,
+      "maxLat": 49.0946,
+      "minLon": -117.6408,
+      "maxLon": -117.6146
+    },
+    {
+      "minLat": 49.7086,
+      "maxLat": 49.7336,
+      "minLon": -117.4754,
+      "maxLon": -117.4571
+    },
+    {
+      "minLat": 49.4886,
+      "maxLat": 49.5013,
+      "minLon": -117.3819,
+      "maxLon": -117.3496
+    },
+    {
+      "minLat": 49.4863,
+      "maxLat": 49.4954,
+      "minLon": -117.4208,
+      "maxLon": -117.3912
+    },
+    {
+      "minLat": 49.5806,
+      "maxLat": 49.597,
+      "minLon": -117.609,
+      "maxLon": -117.5756
+    },
+    {
+      "minLat": 49.442,
+      "maxLat": 49.4545,
+      "minLon": -117.5652,
+      "maxLon": -117.5517
+    },
+    {
+      "minLat": 49.5348,
+      "maxLat": 49.5453,
+      "minLon": -117.6567,
+      "maxLon": -117.6429
+    },
+    {
+      "minLat": 49.9803,
+      "maxLat": 49.9944,
+      "minLon": -117.3812,
+      "maxLon": -117.367
+    },
+    {
+      "minLat": 49.8678,
+      "maxLat": 49.8759,
+      "minLon": -118.0858,
+      "maxLon": -118.0738
+    },
+    {
+      "minLat": 49.9567,
+      "maxLat": 49.9648,
+      "minLon": -116.9123,
+      "maxLon": -116.8999
+    },
+    {
+      "minLat": 50.1978,
+      "maxLat": 50.2059,
+      "minLon": -116.9697,
+      "maxLon": -116.9575
+    },
+    {
+      "minLat": 49.2787,
+      "maxLat": 49.2876,
+      "minLon": -117.2209,
+      "maxLon": -117.2082
+    },
+    {
+      "minLat": 50.2352,
+      "maxLat": 50.2456,
+      "minLon": -117.8112,
+      "maxLon": -117.7986
+    },
+    {
+      "minLat": 49.948,
+      "maxLat": 49.9563,
+      "minLon": -117.3628,
+      "maxLon": -117.3508
+    },
+    {
+      "minLat": 50.0932,
+      "maxLat": 50.1014,
+      "minLon": -117.4776,
+      "maxLon": -117.4652
+    },
+    {
+      "minLat": 50.1506,
+      "maxLat": 50.1587,
+      "minLon": -117.6603,
+      "maxLon": -117.6483
+    },
+    {
+      "minLat": 50.0971,
+      "maxLat": 50.1051,
+      "minLon": -117.9065,
+      "maxLon": -117.8945
+    },
+    {
+      "minLat": 49.9866,
+      "maxLat": 49.9946,
+      "minLon": -117.8859,
+      "maxLon": -117.8738
+    },
+    {
+      "minLat": 49.8727,
+      "maxLat": 49.8808,
+      "minLon": -116.9079,
+      "maxLon": -116.8958
+    },
+    {
+      "minLat": 49.7791,
+      "maxLat": 49.7872,
+      "minLon": -116.9065,
+      "maxLon": -116.8936
+    },
+    {
+      "minLat": 49.73,
+      "maxLat": 49.7384,
+      "minLon": -116.9164,
+      "maxLon": -116.9041
+    },
+    {
+      "minLat": 49.1581,
+      "maxLat": 49.1662,
+      "minLon": -117.7378,
+      "maxLon": -117.7258
+    },
+    {
+      "minLat": 49.4734,
+      "maxLat": 49.4814,
+      "minLon": -117.4061,
+      "maxLon": -117.3937
+    },
+    {
+      "minLat": 49.87,
+      "maxLat": 49.878,
+      "minLon": -118.1042,
+      "maxLon": -118.092
+    },
+    {
+      "minLat": 49.7743,
+      "maxLat": 49.7823,
+      "minLon": -118.1465,
+      "maxLon": -118.1345
+    },
+    {
+      "minLat": 50.1521,
+      "maxLat": 50.1601,
+      "minLon": -116.9262,
+      "maxLon": -116.9142
+    },
+    {
+      "minLat": 49.1897,
+      "maxLat": 49.1977,
+      "minLon": -117.2862,
+      "maxLon": -117.2742
+    },
+    {
+      "minLat": 49.3311,
+      "maxLat": 49.3391,
+      "minLon": -117.7294,
+      "maxLon": -117.7174
+    },
+    {
+      "minLat": 49.431,
+      "maxLat": 49.439,
+      "minLon": -117.6083,
+      "maxLon": -117.5963
+    },
+    {
+      "minLat": 50.2926,
+      "maxLat": 50.3006,
+      "minLon": -117.6911,
+      "maxLon": -117.6791
+    },
+    {
+      "minLat": 50.241,
+      "maxLat": 50.249,
+      "minLon": -116.9709,
+      "maxLon": -116.9589
+    },
+    {
+      "minLat": 49.2415,
+      "maxLat": 49.2495,
+      "minLon": -117.6683,
+      "maxLon": -117.6563
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "BC Transit West Kootenay",
+    "url": "https://www.bctransit.com/west-kootenay/",
+    "license": "BC Transit Open Data Terms of Use"
+  },
+  "cityPresets": [
+    {
+      "name": "Nelson Exchange Bay A",
+      "lat": 49.49047,
+      "lon": -117.29541
+    },
+    {
+      "name": "Selkirk College Bay A",
+      "lat": 49.31103,
+      "lon": -117.6522
+    },
+    {
+      "name": "Cedar Ave at Spokane St",
+      "lat": 49.09477,
+      "lon": -117.70784
+    },
+    {
+      "name": "Columbia Ave at Spokane St",
+      "lat": 49.07708,
+      "lon": -117.80172
+    },
+    {
+      "name": "Slocan St at Giffin Ave",
+      "lat": 49.7633,
+      "lon": -117.46573
+    }
+  ],
+  "popularSurfaceRoutes": ["10-WKT", "20-WKT", "43-WKT", "46-WKT", "98-WKT", "99-WKT"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "BC Transit West Kootenay",
+        "url": "https://bct.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/?operatorIds=20",
+        "cacheFileName": "west-kootenay-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#004B8D",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bct.tmix.se/gtfs-realtime/vehicleupdates.pb?operatorIds=20",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bct.tmix.se/gtfs-realtime/tripupdates.pb?operatorIds=20",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://bct.tmix.se/gtfs-realtime/alerts.pb?operatorIds=20",
+      "entityOnly": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/routealert?id=46",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/stopalertbysystem?transitid=46",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=46&alertTypeId=3",
+      "language": "en",
+      "requiredForCompleteness": true
+    },
+    {
+      "type": "json",
+      "parser": "rendered-advisory-board",
+      "url": "https://alerts.bctransit.com/manualalert?transitId=46&alertTypeId=4",
+      "language": "en",
+      "requiredForCompleteness": true
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["10-WKT", "20-WKT", "43-WKT", "46-WKT", "98-WKT", "99-WKT"],
+    "routeLineMap": {
+      "10X-WKT": "10-WKT",
+      "43X-WKT": "43-WKT"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "category",
+          "sourceValue": "ReducedService"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "effects": ["OTHER_EFFECT"],
+          "textIncludes": ["cancelled", "canceled"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "titleDateTimezone": "America/Vancouver"
+  }
+}

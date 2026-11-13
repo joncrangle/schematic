@@ -1,0 +1,854 @@
+{
+  "viewBoxWidth": 1500,
+  "viewBoxHeight": 1620,
+  "lines": [
+    {
+      "id": "3",
+      "name": "North Hill Connector",
+      "color": "#469BA6",
+      "points": [
+        {
+          "x": 480,
+          "y": 140
+        },
+        {
+          "x": 400,
+          "y": 220
+        },
+        {
+          "x": 400,
+          "y": 360
+        },
+        {
+          "x": 560,
+          "y": 520
+        },
+        {
+          "x": 650,
+          "y": 520
+        },
+        {
+          "x": 700,
+          "y": 470
+        },
+        {
+          "x": 700,
+          "y": 360
+        },
+        {
+          "x": 700,
+          "y": 220
+        },
+        {
+          "x": 620,
+          "y": 140
+        },
+        {
+          "x": 480,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Corral / Highway Hub",
+      "color": "#8B4513",
+      "points": [
+        {
+          "x": 480,
+          "y": 140
+        },
+        {
+          "x": 480,
+          "y": 80
+        },
+        {
+          "x": 700,
+          "y": 80
+        },
+        {
+          "x": 900,
+          "y": 280
+        },
+        {
+          "x": 900,
+          "y": 320
+        },
+        {
+          "x": 900,
+          "y": 420
+        },
+        {
+          "x": 800,
+          "y": 420
+        },
+        {
+          "x": 600,
+          "y": 220
+        },
+        {
+          "x": 480,
+          "y": 220
+        },
+        {
+          "x": 480,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Maryland West",
+      "color": "#F4D03F",
+      "points": [
+        {
+          "x": 650,
+          "y": 520
+        },
+        {
+          "x": 560,
+          "y": 520
+        },
+        {
+          "x": 440,
+          "y": 640
+        },
+        {
+          "x": 440,
+          "y": 740
+        },
+        {
+          "x": 280,
+          "y": 900
+        },
+        {
+          "x": 280,
+          "y": 1040
+        },
+        {
+          "x": 400,
+          "y": 1160
+        },
+        {
+          "x": 400,
+          "y": 1220
+        },
+        {
+          "x": 260,
+          "y": 1360
+        },
+        {
+          "x": 180,
+          "y": 1280
+        },
+        {
+          "x": 180,
+          "y": 880
+        },
+        {
+          "x": 420,
+          "y": 640
+        },
+        {
+          "x": 650,
+          "y": 640
+        },
+        {
+          "x": 650,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Victoria West",
+      "color": "#7145A1",
+      "points": [
+        {
+          "x": 650,
+          "y": 520
+        },
+        {
+          "x": 650,
+          "y": 800
+        },
+        {
+          "x": 380,
+          "y": 800
+        },
+        {
+          "x": 140,
+          "y": 1040
+        },
+        {
+          "x": 140,
+          "y": 1160
+        },
+        {
+          "x": 280,
+          "y": 1160
+        },
+        {
+          "x": 480,
+          "y": 960
+        },
+        {
+          "x": 480,
+          "y": 720
+        },
+        {
+          "x": 720,
+          "y": 720
+        },
+        {
+          "x": 720,
+          "y": 590
+        },
+        {
+          "x": 650,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "East Hospital\u2013ACC",
+      "color": "#2036E8",
+      "points": [
+        {
+          "x": 650,
+          "y": 520
+        },
+        {
+          "x": 950,
+          "y": 520
+        },
+        {
+          "x": 1220,
+          "y": 790
+        },
+        {
+          "x": 1220,
+          "y": 800
+        },
+        {
+          "x": 1220,
+          "y": 940
+        },
+        {
+          "x": 1080,
+          "y": 940
+        },
+        {
+          "x": 980,
+          "y": 840
+        },
+        {
+          "x": 850,
+          "y": 840
+        },
+        {
+          "x": 650,
+          "y": 640
+        },
+        {
+          "x": 650,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "South Central",
+      "color": "#FF00FF",
+      "points": [
+        {
+          "x": 650,
+          "y": 520
+        },
+        {
+          "x": 650,
+          "y": 530
+        },
+        {
+          "x": 440,
+          "y": 740
+        },
+        {
+          "x": 440,
+          "y": 1120
+        },
+        {
+          "x": 500,
+          "y": 1180
+        },
+        {
+          "x": 500,
+          "y": 1240
+        },
+        {
+          "x": 720,
+          "y": 1460
+        },
+        {
+          "x": 820,
+          "y": 1460
+        },
+        {
+          "x": 820,
+          "y": 1000
+        },
+        {
+          "x": 720,
+          "y": 900
+        },
+        {
+          "x": 720,
+          "y": 590
+        },
+        {
+          "x": 650,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Riverheights West",
+      "color": "#F27935",
+      "points": [
+        {
+          "x": 650,
+          "y": 520
+        },
+        {
+          "x": 240,
+          "y": 520
+        },
+        {
+          "x": 140,
+          "y": 620
+        },
+        {
+          "x": 140,
+          "y": 700
+        },
+        {
+          "x": 240,
+          "y": 800
+        },
+        {
+          "x": 480,
+          "y": 800
+        },
+        {
+          "x": 650,
+          "y": 630
+        },
+        {
+          "x": 650,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "1st Street South",
+      "color": "#1CE65B",
+      "points": [
+        {
+          "x": 650,
+          "y": 520
+        },
+        {
+          "x": 800,
+          "y": 520
+        },
+        {
+          "x": 920,
+          "y": 640
+        },
+        {
+          "x": 920,
+          "y": 980
+        },
+        {
+          "x": 1120,
+          "y": 1180
+        },
+        {
+          "x": 1120,
+          "y": 1220
+        },
+        {
+          "x": 920,
+          "y": 1220
+        },
+        {
+          "x": 840,
+          "y": 1140
+        },
+        {
+          "x": 840,
+          "y": 710
+        },
+        {
+          "x": 650,
+          "y": 520
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "downtown",
+      "name": "Downtown Terminal",
+      "x": 650,
+      "y": 520,
+      "lines": ["3", "8", "14", "15", "17", "22", "23"],
+      "label": {
+        "x": 650,
+        "y": 486,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 480,
+      "y": 140,
+      "lines": ["3", "7"],
+      "label": {
+        "x": 480,
+        "y": 106,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sportsplex",
+      "name": "Sportsplex",
+      "x": 900,
+      "y": 320,
+      "lines": ["7"],
+      "label": {
+        "x": 932,
+        "y": 320,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "university",
+      "name": "Brandon University",
+      "x": 440,
+      "y": 740,
+      "lines": ["8", "17"],
+      "label": {
+        "x": 408,
+        "y": 740,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "victoria-26",
+      "name": "26th Street / Victoria",
+      "x": 280,
+      "y": 900,
+      "lines": ["8"],
+      "label": {
+        "x": 248,
+        "y": 900,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "valleyview",
+      "name": "Valleyview",
+      "x": 140,
+      "y": 1040,
+      "lines": ["14"],
+      "label": {
+        "x": 108,
+        "y": 1040,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "riverheights",
+      "name": "Victoria / 34th Street",
+      "x": 140,
+      "y": 620,
+      "lines": ["22"],
+      "label": {
+        "x": 172,
+        "y": 620,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "assiniboine",
+      "name": "Assiniboine College",
+      "x": 1220,
+      "y": 800,
+      "lines": ["15"],
+      "label": {
+        "x": 1252,
+        "y": 800,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "shoppers",
+      "name": "Shoppers Mall",
+      "x": 500,
+      "y": 1180,
+      "lines": ["17"],
+      "label": {
+        "x": 532,
+        "y": 1180,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "richmond",
+      "name": "Richmond Terminal",
+      "x": 400,
+      "y": 1160,
+      "lines": ["8"],
+      "label": {
+        "x": 340,
+        "y": 1120,
+        "anchor": "end"
+      },
+      "labelLeader": true
+    },
+    {
+      "id": "maryland-west",
+      "name": "Maryland West",
+      "x": 260,
+      "y": 1360,
+      "lines": ["8"],
+      "label": {
+        "x": 228,
+        "y": 1360,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "patricia",
+      "name": "Patricia Avenue",
+      "x": 720,
+      "y": 1460,
+      "lines": ["17"],
+      "label": {
+        "x": 720,
+        "y": 1494,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "civic",
+      "name": "Civic Services Complex",
+      "x": 1120,
+      "y": 1180,
+      "lines": ["23"],
+      "label": {
+        "x": 1152,
+        "y": 1180,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "richmond-east",
+      "name": "Richmond / 6th Street",
+      "x": 920,
+      "y": 1220,
+      "lines": ["23"],
+      "label": {
+        "x": 920,
+        "y": 1254,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "north-hill-mcdonalds",
+      "name": "North Hill McDonald's",
+      "x": 700,
+      "y": 80,
+      "lines": ["7"],
+      "label": {
+        "x": 700,
+        "y": 40,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "3": ["walmart", "downtown"],
+    "7": ["walmart", "north-hill-mcdonalds", "sportsplex"],
+    "8": ["downtown", "university", "victoria-26", "richmond", "maryland-west"],
+    "14": ["downtown", "valleyview"],
+    "15": ["downtown", "assiniboine"],
+    "17": ["downtown", "university", "shoppers", "patricia"],
+    "22": ["downtown", "riverheights"],
+    "23": ["downtown", "civic", "richmond-east"]
+  },
+  "stationAliases": {
+    "code:3106": "downtown",
+    "code:1": "downtown",
+    "code:3235": "downtown",
+    "code:1050": "walmart",
+    "code:1035": "sportsplex",
+    "code:28": "university",
+    "code:2088": "university",
+    "code:1017": "victoria-26",
+    "code:2093": "valleyview",
+    "code:2055": "riverheights",
+    "code:3062": "assiniboine",
+    "code:2033": "shoppers",
+    "code:2099": "richmond",
+    "code:2008": "richmond",
+    "code:2004": "maryland-west",
+    "code:2001": "patricia",
+    "code:3032": "civic",
+    "code:2069": "richmond-east",
+    "code:1015": "north-hill-mcdonalds"
+  },
+  "badges": [
+    {
+      "line": "3",
+      "num": "3",
+      "x": 368,
+      "y": 300,
+      "color": "#469BA6",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7",
+      "num": "7",
+      "x": 932,
+      "y": 370,
+      "color": "#8B4513",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "x": 148,
+      "y": 1110,
+      "color": "#F4D03F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "14",
+      "num": "14",
+      "x": 108,
+      "y": 1100,
+      "color": "#7145A1",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "15",
+      "num": "15",
+      "x": 1252,
+      "y": 870,
+      "color": "#2036E8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "17",
+      "num": "17",
+      "x": 852,
+      "y": 1260,
+      "color": "#FF00FF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "22",
+      "num": "22",
+      "x": 108,
+      "y": 660,
+      "color": "#F27935",
+      "textColor": "#000000"
+    },
+    {
+      "line": "23",
+      "num": "23",
+      "x": 1152,
+      "y": 1200,
+      "color": "#1CE65B",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1500,
+      "minY": 0,
+      "maxY": 1620
+    },
+    "minZoom": 0.6,
+    "maxZoom": 5
+  },
+  "geoProjection": {
+    "refLonWest": -99.984616,
+    "refLonEast": -99.9208278906839,
+    "refXWest": 140,
+    "refXEast": 1220,
+    "refLatNorth": 49.8675952114166,
+    "refLatSouth": 49.8130983002841,
+    "refYNorth": 140,
+    "refYSouth": 1460
+  },
+  "stationIndex": [
+    {
+      "id": "1017",
+      "schematicId": "victoria-26",
+      "name": "26th Street / Victoria",
+      "lat": 49.8414948488173,
+      "lon": -99.9732221647037,
+      "lines": ["8"],
+      "platformIds": ["1017"],
+      "departureRouteIds": ["22", "8"]
+    },
+    {
+      "id": "3062",
+      "schematicId": "assiniboine",
+      "name": "Assiniboine College",
+      "lat": 49.8418033028724,
+      "lon": -99.9208278906839,
+      "lines": ["15"],
+      "platformIds": ["3062"],
+      "departureRouteIds": ["15"]
+    },
+    {
+      "id": "university",
+      "schematicId": "university",
+      "name": "Brandon University",
+      "lat": 49.8441971745609,
+      "lon": -99.9620440579679,
+      "lines": ["17", "8"],
+      "platformIds": ["2088", "28"],
+      "departureRouteIds": ["17", "8"]
+    },
+    {
+      "id": "3032",
+      "schematicId": "civic",
+      "name": "Civic Services Complex",
+      "lat": 49.8273502187342,
+      "lon": -99.9255016401709,
+      "lines": ["23"],
+      "platformIds": ["3032"],
+      "departureRouteIds": ["1001", "1003", "1004", "1009", "23"]
+    },
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "Downtown Terminal",
+      "lat": 49.84902649218,
+      "lon": -99.9487429826702,
+      "lines": ["14", "15", "17", "22", "23", "3", "8"],
+      "platformIds": ["1", "3106", "3235"],
+      "departureRouteIds": ["1004", "14", "15", "17", "22", "23", "3", "8"]
+    },
+    {
+      "id": "2004",
+      "schematicId": "maryland-west",
+      "name": "Maryland West",
+      "lat": 49.8206,
+      "lon": -99.9658,
+      "lines": ["8"],
+      "platformIds": ["2004"],
+      "departureRouteIds": ["8"]
+    },
+    {
+      "id": "2001",
+      "schematicId": "patricia",
+      "name": "Patricia Avenue",
+      "lat": 49.8130983002841,
+      "lon": -99.9624557770762,
+      "lines": ["17"],
+      "platformIds": ["2001"],
+      "departureRouteIds": ["17"]
+    },
+    {
+      "id": "2069",
+      "schematicId": "richmond-east",
+      "name": "Richmond / 6th Street",
+      "lat": 49.8275,
+      "lon": -99.9464,
+      "lines": ["23"],
+      "platformIds": ["2069"],
+      "departureRouteIds": ["1003", "1004", "23"]
+    },
+    {
+      "id": "richmond",
+      "schematicId": "richmond",
+      "name": "Richmond Terminal",
+      "lat": 49.82756,
+      "lon": -99.96318,
+      "lines": ["8"],
+      "platformIds": ["2008", "2099"],
+      "departureRouteIds": ["1001", "1004", "8"]
+    },
+    {
+      "id": "2033",
+      "schematicId": "shoppers",
+      "name": "Shoppers Mall",
+      "lat": 49.8258012429357,
+      "lon": -99.9620574690138,
+      "lines": ["17"],
+      "platformIds": ["2033"],
+      "departureRouteIds": ["1003", "1004", "17"]
+    },
+    {
+      "id": "1035",
+      "schematicId": "sportsplex",
+      "name": "Sportsplex",
+      "lat": 49.8669986347555,
+      "lon": -99.9473831026186,
+      "lines": ["7"],
+      "platformIds": ["1035"],
+      "departureRouteIds": ["7"]
+    },
+    {
+      "id": "2093",
+      "schematicId": "valleyview",
+      "name": "Valleyview",
+      "lat": 49.8423477913348,
+      "lon": -99.9792973684846,
+      "lines": ["14"],
+      "platformIds": ["2093"],
+      "departureRouteIds": ["1001", "14"]
+    },
+    {
+      "id": "2055",
+      "schematicId": "riverheights",
+      "name": "Victoria / 34th Street",
+      "lat": 49.843925,
+      "lon": -99.984616,
+      "lines": ["22"],
+      "platformIds": ["2055"],
+      "departureRouteIds": ["22"]
+    },
+    {
+      "id": "1050",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 49.8675952114166,
+      "lon": -99.9617864195499,
+      "lines": ["3", "7"],
+      "platformIds": ["1050"],
+      "departureRouteIds": ["3", "7"]
+    },
+    {
+      "id": "1015",
+      "schematicId": "north-hill-mcdonalds",
+      "name": "North Hill McDonald's",
+      "lat": 49.8872198097241,
+      "lon": -99.9519871146671,
+      "lines": ["7"],
+      "platformIds": ["1015"],
+      "departureRouteIds": ["7"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "hubs": [
+    {
+      "id": "codiac-via-moncton",
+      "endpoints": [
+        {
+          "agencyId": "codiac",
+          "stationId": "via-rail",
+          "stationName": "Main / Vaughan Harvey",
+          "feedStopIds": ["M0463"]
+        },
+        {
+          "agencyId": "via",
+          "stationId": "moncton",
+          "stationName": "Moncton",
+          "walkingMarkers": {
+            "codiac": {
+              "dx": 50,
+              "dy": 60,
+              "label": "VIA Moncton"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "isolated": [
+    {
+      "agencyId": "via",
+      "stationId": "moncton",
+      "stationName": "Moncton"
+    }
+  ],
+  "exclusions": []
+}

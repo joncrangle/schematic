@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "name": "preserves a dated stop closure and its alternative",
+      "html": "<table><tr><th>Route</th><th>Closed Stop</th><th>Alternate Stop</th><th>Start Date</th><th>End Date</th></tr><tr><td>7</td><td>Stop 42 - Oak Avenue</td><td>Stop 43 - Elm Avenue</td><td>Jan 10, 2027</td><td>Until further notice</td></tr></table>",
+      "routeNames": {
+        "R7": ["7"]
+      },
+      "notices": [
+        {
+          "id": "https://example.test/status#7-42",
+          "title": "Stop 42 closed",
+          "description": "Closed stop: Stop 42 - Oak Avenue\nAlternate stop: Stop 43 - Elm Avenue",
+          "startsAt": 1799560800000,
+          "routeIds": ["R7"],
+          "affectedStations": ["Stop 42"],
+          "targets": [
+            {
+              "routeId": "R7",
+              "stopId": "Stop 42",
+              "stopCode": "42"
+            }
+          ],
+          "stopScoped": true,
+          "effect": "NO_SERVICE"
+        }
+      ]
+    },
+    {
+      "name": "rejects a missing table",
+      "html": "<h1>Site unavailable</h1>",
+      "error": true
+    },
+    {
+      "name": "rejects a truncated row",
+      "html": "<table><tr><th>Route</th><th>Closed Stop</th><th>Alternate Stop</th><th>Start Date</th><th>End Date</th></tr><tr><td>7</td><td>Stop 42</td></tr></table>",
+      "error": true
+    },
+    {
+      "name": "rejects an unverified empty table",
+      "html": "<table><tr><th>Route</th><th>Closed Stop</th><th>Alternate Stop</th><th>Start Date</th><th>End Date</th></tr></table>",
+      "error": true
+    },
+    {
+      "name": "includes the final dated service day",
+      "html": "<table><tr><th>Route</th><th>Closed Stop</th><th>Alternate Stop</th><th>Start Date</th><th>End Date</th></tr><tr><td>7</td><td>Stop 42 - Oak Avenue</td><td>Stop 43 - Elm Avenue</td><td>Jan 10, 2027</td><td>January 11, 2027</td></tr></table>",
+      "routeNames": {
+        "R7": ["7"]
+      },
+      "notices": [
+        {
+          "id": "https://example.test/status#7-42",
+          "title": "Stop 42 closed",
+          "description": "Closed stop: Stop 42 - Oak Avenue\nAlternate stop: Stop 43 - Elm Avenue",
+          "startsAt": 1799560800000,
+          "routeIds": ["R7"],
+          "affectedStations": ["Stop 42"],
+          "targets": [
+            {
+              "routeId": "R7",
+              "stopId": "Stop 42",
+              "stopCode": "42"
+            }
+          ],
+          "stopScoped": true,
+          "effect": "NO_SERVICE",
+          "endsAt": 1799733600000
+        }
+      ]
+    },
+    {
+      "name": "rejects an invalid month spelling",
+      "html": "<table><tr><th>Route</th><th>Closed Stop</th><th>Alternate Stop</th><th>Start Date</th><th>End Date</th></tr><tr><td>7</td><td>Stop 42 - Oak Avenue</td><td>Stop 43 - Elm Avenue</td><td>Janwrong 10, 2027</td><td>Until further notice</td></tr></table>",
+      "error": true
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "calgary-transit",
+  "name": "Calgary Transit",
+  "serviceArea": "Calgary",
+  "shortName": "CT",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "bounds": [
+    {
+      "minLat": 50.85306,
+      "maxLat": 51.190269,
+      "minLon": -114.271669,
+      "maxLon": -113.908016
+    },
+    {
+      "minLat": 51.028624,
+      "maxLat": 51.050522,
+      "minLon": -113.858931,
+      "maxLon": -113.821498
+    }
+  ],
+  "modes": ["rail", "bus"],
+  "attribution": {
+    "name": "Calgary Transit / The City of Calgary",
+    "url": "https://data.calgary.ca/Transportation-Transit/Calgary-Transit-Scheduling-Data/npk7-z3bj",
+    "license": "Contains information licensed under the Open Government Licence – City of Calgary.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "stationService": [
+    {
+      "routeType": "rail"
+    },
+    {
+      "routeType": "bus"
+    }
+  ],
+  "cityPresets": [
+    {
+      "name": "Tuscany",
+      "lat": 51.13451,
+      "lon": -114.235512
+    },
+    {
+      "name": "Somerset-Bridlewood",
+      "lat": 50.89876,
+      "lon": -114.068687
+    },
+    {
+      "name": "Saddletowne",
+      "lat": 51.125542,
+      "lon": -113.948277
+    },
+    {
+      "name": "69 Street",
+      "lat": 51.037605,
+      "lon": -114.188486
+    }
+  ],
+  "popularSurfaceRoutes": ["3", "MG", "MO", "MY", "MT", "MP"],
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "short_name",
+    "feeds": [
+      {
+        "name": "Calgary Transit",
+        "url": "https://data.calgary.ca/download/npk7-z3bj/application%2Fzip",
+        "cacheFileName": "calgary-transit-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#D71920",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://data.calgary.ca/download/am7c-qe3u/application/octet-stream",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://data.calgary.ca/download/gs4m-mdc2/application/octet-stream",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://data.calgary.ca/download/jhgn-ynqj/application/octet-stream",
+      "language": "en"
+    },
+    {
+      "type": "web",
+      "url": "https://www.calgarytransit.com/service-updates/ctrain-service.html",
+      "parser": "heading-service-notices",
+      "language": "en",
+      "clearStatementNames": ["CTrain"],
+      "routeNames": {
+        "202": ["Blue Line"],
+        "201": ["Red Line"]
+      },
+      "stopNames": {
+        "saddletowne": ["Saddletowne"],
+        "martindale": ["Martindale"],
+        "mcknight-westwinds": ["McKnight-Westwinds"],
+        "whitehorn": ["Whitehorn"]
+      }
+    },
+    {
+      "type": "web",
+      "url": "https://www.calgarytransit.com/rider-information/escalator-outages.html",
+      "parser": "heading-service-notices",
+      "language": "en",
+      "stopNames": {
+        "tuscany": ["Tuscany"],
+        "crowfoot": ["Crowfoot"],
+        "dalhousie": ["Dalhousie"],
+        "brentwood": ["Brentwood"],
+        "university": ["University"],
+        "banff-trail": ["Banff Trail"],
+        "lions-park": ["Lions Park"],
+        "sait-auarts-jubilee": ["SAIT / AUArts / Jubilee"],
+        "sunnyside": ["Sunnyside"],
+        "69-street": ["69 Street"],
+        "sirocco": ["Sirocco"],
+        "45-street": ["45 Street"],
+        "westbrook": ["Westbrook"],
+        "shaganappi-point": ["Shaganappi Point"],
+        "sunalta": ["Sunalta"],
+        "downtown-west-kerby": ["Downtown West-Kerby"],
+        "8-street": ["8 Street"],
+        "7-street": ["7 Street"],
+        "6-street": ["6 Street"],
+        "4-street": ["4 Street"],
+        "3-street": ["3 Street"],
+        "1-street": ["1 Street"],
+        "centre-street": ["Centre Street"],
+        "city-hall-bow-valley-college": ["City Hall / Bow Valley College"],
+        "victoria-park-stampede": ["Victoria Park / Stampede"],
+        "erlton-stampede": ["Erlton / Stampede"],
+        "39-avenue": ["39 Avenue"],
+        "chinook": ["Chinook"],
+        "heritage": ["Heritage"],
+        "southland": ["Southland"],
+        "anderson": ["Anderson"],
+        "canyon-meadows": ["Canyon Meadows"],
+        "fish-creek-lacombe": ["Fish Creek-Lacombe"],
+        "shawnessy": ["Shawnessy"],
+        "somerset-bridlewood": ["Somerset-Bridlewood"],
+        "bridgeland-memorial": ["Bridgeland / Memorial"],
+        "zoo": ["Zoo"],
+        "barlow-max-bell": ["Barlow / Max Bell"],
+        "franklin": ["Franklin"],
+        "marlborough": ["Marlborough"],
+        "rundle": ["Rundle"],
+        "whitehorn": ["Whitehorn"],
+        "mcknight-westwinds": ["McKnight-Westwinds"],
+        "martindale": ["Martindale"],
+        "saddletowne": ["Saddletowne"]
+      }
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["201", "202"],
+    "routeLineMap": {
+      "201-20786": "201",
+      "202-20786": "202"
+    },
+    "titleDateTimezone": "America/Edmonton",
+    "rules": [
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": ["elevator", "escalator"]
+        },
+        "result": {
+          "kind": "accessibility",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 150,
+        "match": {
+          "textIncludes": ["temporarily closed", "stop closure", "stop closures"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "titleIncludes": ["closure"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["detour", "detoured"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ],
+    "preserveFeedPeriods": true,
+    "reconcileUntimedNotices": true,
+    "stopIdPattern": "\\bStop #([0-9]+)[^\\n]*?temporarily closed",
+    "routeNames": {
+      "201": ["Red Line"],
+      "202": ["Blue Line"]
+    }
+  },
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeIds": ["201", "202", "201-20786", "202-20786"],
+        "routeType": "rail"
+      }
+    ]
+  }
+}

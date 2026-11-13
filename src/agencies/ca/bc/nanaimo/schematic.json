@@ -1,0 +1,775 @@
+{
+  "viewBoxWidth": 1750,
+  "viewBoxHeight": 2040,
+  "lines": [
+    {
+      "id": "1-NAN",
+      "name": "Nanaimo Rapid Line",
+      "color": "#A54499",
+      "points": [
+        {
+          "x": 500,
+          "y": 440
+        },
+        {
+          "x": 720,
+          "y": 660
+        },
+        {
+          "x": 900,
+          "y": 840
+        },
+        {
+          "x": 900,
+          "y": 1020
+        },
+        {
+          "x": 1120,
+          "y": 1240
+        }
+      ]
+    },
+    {
+      "id": "6-NAN",
+      "name": "Harewood",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 500,
+          "y": 1160
+        },
+        {
+          "x": 500,
+          "y": 1300
+        },
+        {
+          "x": 600,
+          "y": 1400
+        },
+        {
+          "x": 960,
+          "y": 1400
+        },
+        {
+          "x": 1120,
+          "y": 1240
+        }
+      ]
+    },
+    {
+      "id": "9-NAN",
+      "name": "Intercity",
+      "color": "#4F6F19",
+      "points": [
+        {
+          "x": 180,
+          "y": 120
+        },
+        {
+          "x": 280,
+          "y": 220
+        },
+        {
+          "x": 500,
+          "y": 440
+        }
+      ]
+    },
+    {
+      "id": "15-NAN",
+      "name": "VIU Connector via Parkway",
+      "color": "#8E0C3A",
+      "points": [
+        {
+          "x": 500,
+          "y": 440
+        },
+        {
+          "x": 360,
+          "y": 580
+        },
+        {
+          "x": 360,
+          "y": 1020
+        },
+        {
+          "x": 500,
+          "y": 1160
+        }
+      ]
+    },
+    {
+      "id": "20-NAN",
+      "name": "Hammond Bay",
+      "color": "#0073AE",
+      "points": [
+        {
+          "x": 500,
+          "y": 440
+        },
+        {
+          "x": 680,
+          "y": 260
+        },
+        {
+          "x": 820,
+          "y": 260
+        },
+        {
+          "x": 1000,
+          "y": 440
+        },
+        {
+          "x": 1240,
+          "y": 680
+        },
+        {
+          "x": 1240,
+          "y": 700
+        },
+        {
+          "x": 1120,
+          "y": 820
+        },
+        {
+          "x": 1080,
+          "y": 860
+        },
+        {
+          "x": 1080,
+          "y": 1200
+        },
+        {
+          "x": 1120,
+          "y": 1240
+        }
+      ]
+    },
+    {
+      "id": "25-NAN",
+      "name": "Ferry Shuttle",
+      "color": "#FFC20E",
+      "points": [
+        {
+          "x": 500,
+          "y": 440
+        },
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 660,
+          "y": 660
+        },
+        {
+          "x": 720,
+          "y": 660
+        },
+        {
+          "x": 880,
+          "y": 660
+        },
+        {
+          "x": 1040,
+          "y": 820
+        },
+        {
+          "x": 1120,
+          "y": 820
+        }
+      ]
+    },
+    {
+      "id": "40-NAN",
+      "name": "VIU Express",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 500,
+          "y": 440
+        },
+        {
+          "x": 460,
+          "y": 480
+        },
+        {
+          "x": 460,
+          "y": 500
+        },
+        {
+          "x": 620,
+          "y": 660
+        },
+        {
+          "x": 720,
+          "y": 660
+        },
+        {
+          "x": 640,
+          "y": 740
+        },
+        {
+          "x": 500,
+          "y": 740
+        },
+        {
+          "x": 420,
+          "y": 820
+        },
+        {
+          "x": 420,
+          "y": 1080
+        },
+        {
+          "x": 500,
+          "y": 1160
+        },
+        {
+          "x": 700,
+          "y": 1160
+        },
+        {
+          "x": 780,
+          "y": 1080
+        },
+        {
+          "x": 1120,
+          "y": 1080
+        },
+        {
+          "x": 1120,
+          "y": 1240
+        }
+      ]
+    },
+    {
+      "id": "70-NAN",
+      "name": "NCX Nanaimo - Cowichan Express",
+      "color": "#77AE99",
+      "points": [
+        {
+          "x": 1120,
+          "y": 1240
+        },
+        {
+          "x": 1120,
+          "y": 1560
+        },
+        {
+          "x": 1040,
+          "y": 1640
+        },
+        {
+          "x": 1040,
+          "y": 1880
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "ravensong",
+      "name": "Ravensong Exchange",
+      "x": 180,
+      "y": 120,
+      "lines": ["9-NAN"],
+      "label": {
+        "x": 155,
+        "y": 115,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "parksville",
+      "name": "Parksville",
+      "x": 280,
+      "y": 220,
+      "lines": ["9-NAN"],
+      "label": {
+        "x": 305,
+        "y": 220,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "woodgrove",
+      "name": "Woodgrove Exchange",
+      "x": 500,
+      "y": 440,
+      "lines": ["1-NAN", "9-NAN", "15-NAN", "20-NAN", "25-NAN", "40-NAN"],
+      "label": {
+        "x": 465,
+        "y": 430,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "country-club",
+      "name": "Country Club Exchange",
+      "x": 720,
+      "y": 660,
+      "lines": ["1-NAN", "25-NAN", "40-NAN"],
+      "label": {
+        "x": 745,
+        "y": 625,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "terminal-park",
+      "name": "Terminal Park",
+      "x": 900,
+      "y": 1020,
+      "lines": ["1-NAN"],
+      "label": {
+        "x": 875,
+        "y": 1010,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown Nanaimo Exchange",
+      "x": 1120,
+      "y": 1240,
+      "lines": ["1-NAN", "6-NAN", "20-NAN", "40-NAN", "70-NAN"],
+      "label": {
+        "x": 1155,
+        "y": 1240,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "viu",
+      "name": "VIU Exchange",
+      "x": 500,
+      "y": 1160,
+      "lines": ["6-NAN", "15-NAN", "40-NAN"],
+      "label": {
+        "x": 470,
+        "y": 1165,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "harewood",
+      "name": "Harewood",
+      "x": 760,
+      "y": 1400,
+      "lines": ["6-NAN"],
+      "label": {
+        "x": 760,
+        "y": 1435,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "malaspina",
+      "name": "Malaspina",
+      "x": 1000,
+      "y": 440,
+      "lines": ["20-NAN"],
+      "label": {
+        "x": 1025,
+        "y": 425,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "departure-bay",
+      "name": "Departure Bay Ferry Terminal",
+      "x": 1120,
+      "y": 820,
+      "lines": ["20-NAN", "25-NAN"],
+      "label": {
+        "x": 1150,
+        "y": 815,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "gabriola-ferry",
+      "name": "Gabriola Ferry Terminal",
+      "x": 1120,
+      "y": 1080,
+      "lines": ["40-NAN"],
+      "label": {
+        "x": 1145,
+        "y": 1080,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "south-parkway",
+      "name": "South Parkway Plaza",
+      "x": 1120,
+      "y": 1480,
+      "lines": ["70-NAN"],
+      "label": {
+        "x": 1145,
+        "y": 1480,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "airport",
+      "name": "Nanaimo Airport",
+      "x": 1040,
+      "y": 1680,
+      "lines": ["70-NAN"],
+      "label": {
+        "x": 1065,
+        "y": 1680,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "village-green",
+      "name": "Village Green Mall",
+      "x": 1040,
+      "y": 1880,
+      "lines": ["70-NAN"],
+      "label": {
+        "x": 1065,
+        "y": 1885,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "sequences": {
+    "1-NAN": ["woodgrove", "country-club", "terminal-park", "downtown"],
+    "6-NAN": ["viu", "harewood", "downtown"],
+    "9-NAN": ["ravensong", "parksville", "woodgrove"],
+    "15-NAN": ["woodgrove", "viu"],
+    "20-NAN": ["woodgrove", "malaspina", "departure-bay", "downtown"],
+    "25-NAN": ["woodgrove", "country-club", "departure-bay"],
+    "40-NAN": ["woodgrove", "country-club", "viu", "gabriola-ferry", "downtown"],
+    "70-NAN": ["downtown", "south-parkway", "airport", "village-green"]
+  },
+  "stationAliases": {
+    "code:110358": "ravensong",
+    "code:109925": "woodgrove",
+    "code:109926": "woodgrove",
+    "code:110518": "woodgrove",
+    "code:110517": "woodgrove",
+    "code:110512": "country-club",
+    "code:109802": "country-club",
+    "code:110515": "country-club",
+    "code:110516": "country-club",
+    "code:109847": "country-club",
+    "code:110514": "country-club",
+    "code:110513": "country-club",
+    "code:110511": "country-club",
+    "code:110208": "terminal-park",
+    "code:110209": "terminal-park",
+    "code:109873": "downtown",
+    "code:104183": "downtown",
+    "code:104182": "downtown",
+    "code:104180": "downtown",
+    "code:104178": "downtown",
+    "code:104181": "downtown",
+    "code:104179": "downtown",
+    "code:104177": "downtown",
+    "code:110071": "viu",
+    "code:110070": "viu",
+    "code:110519": "viu",
+    "code:110520": "viu",
+    "code:110122": "harewood",
+    "code:109943": "malaspina",
+    "code:109880": "departure-bay",
+    "code:104859": "gabriola-ferry",
+    "code:110388": "parksville",
+    "code:110298": "parksville",
+    "code:110133": "harewood",
+    "code:109908": "malaspina",
+    "code:110157": "south-parkway",
+    "code:104776": "south-parkway",
+    "code:104775": "airport",
+    "code:104033": "village-green"
+  },
+  "stationIndex": [
+    {
+      "id": "country-club",
+      "schematicId": "country-club",
+      "name": "Country Club Exchange",
+      "lat": 49.20664,
+      "lon": -124.00305,
+      "lines": ["1-NAN", "25-NAN", "40-NAN"],
+      "platformIds": [
+        "109802",
+        "109847",
+        "110511",
+        "110512",
+        "110513",
+        "110514",
+        "110515",
+        "110516"
+      ],
+      "departureRouteIds": [
+        "1-NAN",
+        "20-NAN",
+        "20A-NAN",
+        "25-NAN",
+        "30-NAN",
+        "40-NAN",
+        "72-NAN",
+        "92-NAN"
+      ]
+    },
+    {
+      "id": "109880",
+      "schematicId": "departure-bay",
+      "name": "Departure Bay Ferry Terminal",
+      "lat": 49.19172,
+      "lon": -123.95319,
+      "lines": ["20-NAN", "25-NAN"],
+      "platformIds": ["109880"],
+      "departureRouteIds": ["20-NAN", "20A-NAN", "25-NAN"]
+    },
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "Downtown Nanaimo Exchange",
+      "lat": 49.16409,
+      "lon": -123.93175,
+      "lines": ["1-NAN", "20-NAN", "40-NAN", "6-NAN", "70-NAN"],
+      "platformIds": [
+        "104177",
+        "104178",
+        "104179",
+        "104180",
+        "104181",
+        "104182",
+        "104183",
+        "109873"
+      ],
+      "departureRouteIds": [
+        "1-NAN",
+        "20-NAN",
+        "20A-NAN",
+        "25-NAN",
+        "30-NAN",
+        "40-NAN",
+        "5-NAN",
+        "6-NAN",
+        "7-NAN",
+        "70-NAN",
+        "72-NAN",
+        "78-NAN"
+      ]
+    },
+    {
+      "id": "104859",
+      "schematicId": "gabriola-ferry",
+      "name": "Gabriola Ferry Terminal",
+      "lat": 49.16529,
+      "lon": -123.93175,
+      "lines": ["40-NAN"],
+      "platformIds": ["104859"],
+      "departureRouteIds": ["25-NAN", "40-NAN"]
+    },
+    {
+      "id": "harewood",
+      "schematicId": "harewood",
+      "name": "Harewood",
+      "lat": 49.14711,
+      "lon": -123.95537,
+      "lines": ["6-NAN"],
+      "platformIds": ["110122", "110133"],
+      "departureRouteIds": ["6-NAN"]
+    },
+    {
+      "id": "malaspina",
+      "schematicId": "malaspina",
+      "name": "Malaspina",
+      "lat": 49.23119,
+      "lon": -123.98458,
+      "lines": ["20-NAN"],
+      "platformIds": ["109908", "109943"],
+      "departureRouteIds": ["20-NAN", "20A-NAN", "92-NAN"]
+    },
+    {
+      "id": "104775",
+      "schematicId": "airport",
+      "name": "Nanaimo Airport",
+      "lat": 49.05268,
+      "lon": -123.8748,
+      "lines": ["70-NAN"],
+      "platformIds": ["104775"],
+      "departureRouteIds": ["70-NAN", "78-NAN"]
+    },
+    {
+      "id": "parksville",
+      "schematicId": "parksville",
+      "name": "Parksville",
+      "lat": 49.31829,
+      "lon": -124.30945,
+      "lines": ["9-NAN"],
+      "platformIds": ["110298", "110388"],
+      "departureRouteIds": ["88-NAN", "9-NAN"]
+    },
+    {
+      "id": "110358",
+      "schematicId": "ravensong",
+      "name": "Ravensong Exchange",
+      "lat": 49.34589,
+      "lon": -124.45012,
+      "lines": ["9-NAN"],
+      "platformIds": ["110358"],
+      "departureRouteIds": ["9-NAN", "97-NAN", "98-NAN", "99-NAN"]
+    },
+    {
+      "id": "south-parkway",
+      "schematicId": "south-parkway",
+      "name": "South Parkway Plaza",
+      "lat": 49.13026,
+      "lon": -123.92385,
+      "lines": ["70-NAN"],
+      "platformIds": ["104776", "110157"],
+      "departureRouteIds": ["7-NAN", "70-NAN", "78-NAN", "8-NAN"]
+    },
+    {
+      "id": "terminal-park",
+      "schematicId": "terminal-park",
+      "name": "Terminal Park",
+      "lat": 49.1757,
+      "lon": -123.94681,
+      "lines": ["1-NAN"],
+      "platformIds": ["110208", "110209"],
+      "departureRouteIds": ["1-NAN", "72-NAN"]
+    },
+    {
+      "id": "104033",
+      "schematicId": "village-green",
+      "name": "Village Green Mall",
+      "lat": 48.77503,
+      "lon": -123.7016,
+      "lines": ["70-NAN"],
+      "platformIds": ["104033"],
+      "departureRouteIds": ["70-NAN"]
+    },
+    {
+      "id": "viu",
+      "schematicId": "viu",
+      "name": "VIU Exchange",
+      "lat": 49.15823,
+      "lon": -123.96655,
+      "lines": ["15-NAN", "40-NAN", "6-NAN"],
+      "platformIds": ["110070", "110071", "110519", "110520"],
+      "departureRouteIds": ["15-NAN", "15A-NAN", "40-NAN", "5-NAN", "6-NAN", "8-NAN"]
+    },
+    {
+      "id": "woodgrove",
+      "schematicId": "woodgrove",
+      "name": "Woodgrove Exchange",
+      "lat": 49.23638,
+      "lon": -124.05263,
+      "lines": ["1-NAN", "15-NAN", "20-NAN", "25-NAN", "40-NAN", "9-NAN"],
+      "platformIds": ["109925", "109926", "110517", "110518"],
+      "departureRouteIds": [
+        "1-NAN",
+        "15-NAN",
+        "15A-NAN",
+        "20-NAN",
+        "20A-NAN",
+        "25-NAN",
+        "30-NAN",
+        "31-NAN",
+        "40-NAN",
+        "9-NAN"
+      ]
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1720,
+      "minY": 20,
+      "maxY": 2000
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -124.45012,
+    "refLonEast": -123.93175,
+    "refXWest": 180,
+    "refXEast": 1120,
+    "refLatNorth": 49.34589,
+    "refLatSouth": 49.16409,
+    "refYNorth": 120,
+    "refYSouth": 1240
+  },
+  "badges": [
+    {
+      "line": "1-NAN",
+      "num": "1",
+      "x": 817.37,
+      "y": 802.63,
+      "color": "#A54499",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6-NAN",
+      "num": "6",
+      "x": 680,
+      "y": 1368,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "9-NAN",
+      "num": "9",
+      "x": 337.37,
+      "y": 322.63,
+      "color": "#4F6F19",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "15-NAN",
+      "num": "15",
+      "x": 328,
+      "y": 850,
+      "color": "#8E0C3A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "20-NAN",
+      "num": "20",
+      "x": 1090,
+      "y": 570,
+      "color": "#0073AE",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "25-NAN",
+      "num": "25",
+      "x": 960,
+      "y": 700,
+      "color": "#FFC20E",
+      "textColor": "#000000"
+    },
+    {
+      "line": "40-NAN",
+      "num": "40",
+      "x": 452,
+      "y": 940,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "70-NAN",
+      "num": "70",
+      "x": 1008,
+      "y": 1770,
+      "color": "#77AE99",
+      "textColor": "#000000"
+    }
+  ]
+}

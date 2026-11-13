@@ -1,0 +1,985 @@
+{
+  "viewBoxWidth": 1900,
+  "viewBoxHeight": 1500,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Spring Garden",
+      "color": "#ED1C24",
+      "points": [
+        {
+          "x": 400,
+          "y": 650
+        },
+        {
+          "x": 400,
+          "y": 800
+        },
+        {
+          "x": 500,
+          "y": 900
+        },
+        {
+          "x": 700,
+          "y": 900
+        },
+        {
+          "x": 850,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 750
+        },
+        {
+          "x": 1000,
+          "y": 650
+        },
+        {
+          "x": 1150,
+          "y": 500
+        },
+        {
+          "x": 1150,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Fairview",
+      "color": "#789B28",
+      "points": [
+        {
+          "x": 200,
+          "y": 350
+        },
+        {
+          "x": 200,
+          "y": 450
+        },
+        {
+          "x": 400,
+          "y": 650
+        },
+        {
+          "x": 600,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 750
+        },
+        {
+          "x": 900,
+          "y": 750
+        },
+        {
+          "x": 1000,
+          "y": 650
+        },
+        {
+          "x": 1150,
+          "y": 800
+        },
+        {
+          "x": 1150,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "CrossTown",
+      "color": "#9C5CA2",
+      "points": [
+        {
+          "x": 200,
+          "y": 350
+        },
+        {
+          "x": 240,
+          "y": 390
+        },
+        {
+          "x": 240,
+          "y": 490
+        },
+        {
+          "x": 400,
+          "y": 650
+        },
+        {
+          "x": 600,
+          "y": 450
+        },
+        {
+          "x": 1000,
+          "y": 450
+        },
+        {
+          "x": 1050,
+          "y": 400
+        },
+        {
+          "x": 1150,
+          "y": 400
+        },
+        {
+          "x": 1150,
+          "y": 200
+        },
+        {
+          "x": 1150,
+          "y": 70
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Universities",
+      "color": "#F58A43",
+      "points": [
+        {
+          "x": 200,
+          "y": 350
+        },
+        {
+          "x": 400,
+          "y": 350
+        },
+        {
+          "x": 700,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 900
+        },
+        {
+          "x": 700,
+          "y": 1050
+        },
+        {
+          "x": 650,
+          "y": 1100
+        },
+        {
+          "x": 550,
+          "y": 1100
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Portland",
+      "color": "#EC008C",
+      "points": [
+        {
+          "x": 1000,
+          "y": 650
+        },
+        {
+          "x": 1040,
+          "y": 650
+        },
+        {
+          "x": 1190,
+          "y": 500
+        },
+        {
+          "x": 1190,
+          "y": 440
+        },
+        {
+          "x": 1150,
+          "y": 400
+        },
+        {
+          "x": 1250,
+          "y": 500
+        },
+        {
+          "x": 1450,
+          "y": 500
+        },
+        {
+          "x": 1650,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Sackville Corridor",
+      "color": "#A6CE39",
+      "points": [
+        {
+          "x": 400,
+          "y": 70
+        },
+        {
+          "x": 470,
+          "y": 70
+        },
+        {
+          "x": 600,
+          "y": 200
+        },
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 740,
+          "y": 540
+        },
+        {
+          "x": 740,
+          "y": 860
+        },
+        {
+          "x": 700,
+          "y": 900
+        },
+        {
+          "x": 750,
+          "y": 950
+        },
+        {
+          "x": 850,
+          "y": 950
+        },
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Barrington",
+      "color": "#0000FF",
+      "points": [
+        {
+          "x": 400,
+          "y": 500
+        },
+        {
+          "x": 400,
+          "y": 650
+        },
+        {
+          "x": 540,
+          "y": 790
+        },
+        {
+          "x": 1040,
+          "y": 790
+        },
+        {
+          "x": 1150,
+          "y": 900
+        },
+        {
+          "x": 1150,
+          "y": 1100
+        },
+        {
+          "x": 1150,
+          "y": 1320
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "lacewood",
+      "name": "Lacewood Terminal",
+      "x": 200,
+      "y": 350,
+      "lines": ["2", "3", "4"],
+      "label": {
+        "x": 170,
+        "y": 355,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "mumford",
+      "name": "Mumford Terminal",
+      "x": 400,
+      "y": 650,
+      "lines": ["1", "2", "3", "29"],
+      "label": {
+        "x": 365,
+        "y": 665,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "spring-garden",
+      "name": "Spring Garden at Summer",
+      "x": 700,
+      "y": 900,
+      "lines": ["1", "4", "8"],
+      "label": {
+        "x": 675,
+        "y": 935,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dalhousie",
+      "name": "Dalhousie",
+      "x": 550,
+      "y": 1100,
+      "lines": ["4"],
+      "label": {
+        "x": 515,
+        "y": 1105,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "scotia-square",
+      "name": "Scotia Square",
+      "x": 1000,
+      "y": 650,
+      "lines": ["1", "2", "5", "8"],
+      "label": {
+        "x": 965,
+        "y": 630,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "water-street",
+      "name": "Water St Terminal",
+      "x": 1150,
+      "y": 900,
+      "lines": ["2", "29"],
+      "label": {
+        "x": 1185,
+        "y": 905,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "bridge",
+      "name": "Bridge Terminal",
+      "x": 1150,
+      "y": 400,
+      "lines": ["1", "3", "5"],
+      "label": {
+        "x": 1185,
+        "y": 390,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "highfield",
+      "name": "Highfield Terminal",
+      "x": 1150,
+      "y": 200,
+      "lines": ["3"],
+      "label": {
+        "x": 1185,
+        "y": 205,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "burnside",
+      "name": "Burnside",
+      "x": 1150,
+      "y": 70,
+      "lines": ["3"],
+      "label": {
+        "x": 1185,
+        "y": 75,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "penhorn",
+      "name": "Penhorn Terminal",
+      "x": 1450,
+      "y": 500,
+      "lines": ["5"],
+      "label": {
+        "x": 1450,
+        "y": 470,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "portland-hills",
+      "name": "Portland Hills Terminal",
+      "x": 1650,
+      "y": 700,
+      "lines": ["5"],
+      "label": {
+        "x": 1680,
+        "y": 705,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "cobequid",
+      "name": "Cobequid Terminal",
+      "x": 600,
+      "y": 200,
+      "lines": ["8"],
+      "label": {
+        "x": 635,
+        "y": 205,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sackville",
+      "name": "Sackville Terminal",
+      "x": 400,
+      "y": 70,
+      "lines": ["8"],
+      "label": {
+        "x": 365,
+        "y": 75,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "bayers-road",
+      "name": "Bayers Road Centre",
+      "x": 400,
+      "y": 500,
+      "lines": ["29"],
+      "label": {
+        "x": 400,
+        "y": 470,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "hollis-barrington",
+      "name": "Hollis at Barrington",
+      "x": 1150,
+      "y": 1100,
+      "lines": ["29"],
+      "label": {
+        "x": 1185,
+        "y": 1105,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "point-pleasant",
+      "name": "Point Pleasant Park",
+      "x": 1150,
+      "y": 1320,
+      "lines": ["29"],
+      "label": {
+        "x": 1185,
+        "y": 1325,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 1850,
+      "minY": 0,
+      "maxY": 1480
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -63.663207,
+    "refLonEast": -63.505501,
+    "refXWest": 200,
+    "refXEast": 1650,
+    "refLatNorth": 44.768002,
+    "refLatSouth": 44.637,
+    "refYNorth": 70,
+    "refYSouth": 1100
+  },
+  "sequences": {
+    "1": ["mumford", "spring-garden", "scotia-square", "bridge"],
+    "2": ["lacewood", "mumford", "scotia-square", "water-street"],
+    "3": ["lacewood", "mumford", "bridge", "highfield", "burnside"],
+    "4": ["lacewood", "spring-garden", "dalhousie"],
+    "5": ["scotia-square", "bridge", "penhorn", "portland-hills"],
+    "8": ["sackville", "cobequid", "spring-garden", "scotia-square"],
+    "29": ["bayers-road", "mumford", "water-street", "hollis-barrington", "point-pleasant"]
+  },
+  "stationAliases": {
+    "code:7285": "mumford",
+    "code:7601": "bridge",
+    "code:7602": "bridge",
+    "code:7603": "bridge",
+    "code:7604": "bridge",
+    "code:7605": "bridge",
+    "code:7606": "bridge",
+    "code:7607": "bridge",
+    "code:7608": "bridge",
+    "code:7609": "bridge",
+    "code:7610": "bridge",
+    "code:7611": "bridge",
+    "code:7612": "bridge",
+    "code:7613": "bridge",
+    "code:7614": "bridge",
+    "code:7615": "bridge",
+    "code:7616": "bridge",
+    "code:8435": "water-street",
+    "code:8637": "penhorn",
+    "code:9102": "lacewood",
+    "code:9103": "lacewood",
+    "code:9104": "lacewood",
+    "code:9105": "lacewood",
+    "code:9106": "lacewood",
+    "code:9109": "lacewood",
+    "code:9110": "lacewood",
+    "code:9111": "lacewood",
+    "code:9112": "lacewood",
+    "code:9113": "lacewood",
+    "code:9114": "lacewood",
+    "code:8949": "portland-hills",
+    "code:8951": "portland-hills",
+    "code:8952": "portland-hills",
+    "code:8953": "portland-hills",
+    "code:8954": "portland-hills",
+    "code:8955": "portland-hills",
+    "code:6297": "cobequid",
+    "code:6299": "cobequid",
+    "code:8140": "highfield",
+    "code:8141": "highfield",
+    "code:8940": "penhorn",
+    "code:8941": "penhorn",
+    "code:8943": "penhorn",
+    "code:8944": "penhorn",
+    "code:8946": "penhorn",
+    "code:8948": "penhorn",
+    "code:8958": "sackville",
+    "code:8959": "sackville",
+    "code:8960": "sackville",
+    "code:8961": "sackville",
+    "code:8967": "sackville",
+    "code:8640": "mumford",
+    "code:8641": "mumford",
+    "code:2122": "mumford",
+    "code:8950": "portland-hills",
+    "code:8947": "penhorn",
+    "code:8337": "spring-garden",
+    "code:7144": "dalhousie",
+    "code:6014": "burnside",
+    "code:6087": "scotia-square",
+    "code:6107": "scotia-square",
+    "code:2348": "scotia-square",
+    "code:6105": "scotia-square",
+    "code:8335": "spring-garden",
+    "code:6563": "bayers-road",
+    "code:6564": "bayers-road",
+    "code:6938": "hollis-barrington",
+    "code:8409": "point-pleasant"
+  },
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 492.63,
+      "y": 847.37,
+      "color": "#ED1C24",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 192.37,
+      "y": 487.63,
+      "color": "#789B28",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 880,
+      "y": 418,
+      "color": "#9C5CA2",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 482.63,
+      "y": 387.37,
+      "color": "#F58A43",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 1552.63,
+      "y": 557.37,
+      "color": "#EC008C",
+      "textColor": "#000000"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "x": 568,
+      "y": 300,
+      "color": "#A6CE39",
+      "textColor": "#000000"
+    },
+    {
+      "line": "29",
+      "num": "29",
+      "x": 1118,
+      "y": 1210,
+      "color": "#0000FF",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "10001",
+      "schematicId": "bridge",
+      "name": "Bridge Terminal",
+      "lat": 44.670435,
+      "lon": -63.574645,
+      "lines": ["1", "3", "5"],
+      "platformIds": [
+        "7601",
+        "7602",
+        "7603",
+        "7604",
+        "7605",
+        "7606",
+        "7607",
+        "7608",
+        "7609",
+        "7610",
+        "7611",
+        "7612",
+        "7613",
+        "7614",
+        "7615",
+        "7616"
+      ],
+      "departureRouteIds": [
+        "1",
+        "10A",
+        "10B",
+        "10C",
+        "158",
+        "159",
+        "161",
+        "165",
+        "168A",
+        "168B",
+        "3",
+        "320",
+        "370",
+        "39",
+        "5",
+        "50",
+        "51A",
+        "51B",
+        "53",
+        "54",
+        "55",
+        "56",
+        "62",
+        "6A",
+        "6B",
+        "6C",
+        "87"
+      ]
+    },
+    {
+      "id": "6014",
+      "schematicId": "burnside",
+      "name": "Burnside",
+      "lat": 44.698501,
+      "lon": -63.607219,
+      "lines": ["3"],
+      "platformIds": ["6014"],
+      "departureRouteIds": ["3", "51B", "56", "64", "84", "87"]
+    },
+    {
+      "id": "10005",
+      "schematicId": "cobequid",
+      "name": "Cobequid Terminal",
+      "lat": 44.754245,
+      "lon": -63.663077,
+      "lines": ["8"],
+      "platformIds": ["6297", "6299"],
+      "departureRouteIds": ["182", "8", "82", "84", "87", "88", "93"]
+    },
+    {
+      "id": "7144",
+      "schematicId": "dalhousie",
+      "name": "Dalhousie",
+      "lat": 44.636652,
+      "lon": -63.58978,
+      "lines": ["4"],
+      "platformIds": ["7144"],
+      "departureRouteIds": ["10A", "10B", "10C", "4"]
+    },
+    {
+      "id": "10006",
+      "schematicId": "highfield",
+      "name": "Highfield Terminal",
+      "lat": 44.684418,
+      "lon": -63.589169,
+      "lines": ["3"],
+      "platformIds": ["8140", "8141"],
+      "departureRouteIds": ["3", "39", "53", "64", "72", "87"]
+    },
+    {
+      "id": "10002",
+      "schematicId": "lacewood",
+      "name": "Lacewood Terminal",
+      "lat": 44.660789,
+      "lon": -63.663207,
+      "lines": ["2", "3", "4"],
+      "platformIds": [
+        "9102",
+        "9103",
+        "9104",
+        "9105",
+        "9106",
+        "9109",
+        "9110",
+        "9111",
+        "9112",
+        "9113",
+        "9114"
+      ],
+      "departureRouteIds": [
+        "135",
+        "136",
+        "137",
+        "138",
+        "2",
+        "21",
+        "28",
+        "3",
+        "30A",
+        "30B",
+        "39",
+        "4",
+        "433"
+      ]
+    },
+    {
+      "id": "10000",
+      "schematicId": "mumford",
+      "name": "Mumford Terminal",
+      "lat": 44.648293,
+      "lon": -63.621181,
+      "lines": ["1", "2", "29", "3"],
+      "platformIds": ["2122", "7285", "8640", "8641"],
+      "departureRouteIds": [
+        "1",
+        "2",
+        "22",
+        "24",
+        "25",
+        "26",
+        "28",
+        "29",
+        "3",
+        "415",
+        "91",
+        "9A",
+        "9B"
+      ]
+    },
+    {
+      "id": "10008",
+      "schematicId": "penhorn",
+      "name": "Penhorn Terminal",
+      "lat": 44.670761,
+      "lon": -63.538494,
+      "lines": ["5"],
+      "platformIds": ["8637", "8940", "8941", "8943", "8944", "8946", "8947", "8948"],
+      "departureRouteIds": ["158", "159", "161", "165", "168A", "168B", "5", "58", "62", "63", "67"]
+    },
+    {
+      "id": "10003",
+      "schematicId": "portland-hills",
+      "name": "Portland Hills Terminal",
+      "lat": 44.669712,
+      "lon": -63.505501,
+      "lines": ["5"],
+      "platformIds": ["8949", "8950", "8951", "8952", "8953", "8954", "8955"],
+      "departureRouteIds": [
+        "158",
+        "159",
+        "161",
+        "165",
+        "168A",
+        "168B",
+        "401",
+        "5",
+        "58",
+        "59",
+        "61",
+        "63",
+        "65",
+        "68",
+        "72"
+      ]
+    },
+    {
+      "id": "10009",
+      "schematicId": "sackville",
+      "name": "Sackville Terminal",
+      "lat": 44.768002,
+      "lon": -63.69881,
+      "lines": ["8"],
+      "platformIds": ["8958", "8959", "8960", "8961", "8967"],
+      "departureRouteIds": [
+        "182",
+        "183",
+        "185",
+        "186",
+        "8",
+        "82",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88"
+      ]
+    },
+    {
+      "id": "scotia-square",
+      "schematicId": "scotia-square",
+      "name": "Scotia Square",
+      "lat": 44.651012,
+      "lon": -63.575822,
+      "lines": ["1", "2", "5", "8"],
+      "platformIds": ["2348", "6087", "6105", "6107"],
+      "departureRouteIds": [
+        "1",
+        "10A",
+        "10B",
+        "10C",
+        "123",
+        "127",
+        "135",
+        "136",
+        "137",
+        "138",
+        "158",
+        "159",
+        "161",
+        "165",
+        "168A",
+        "168B",
+        "182",
+        "183",
+        "185",
+        "186",
+        "192",
+        "194",
+        "196",
+        "2",
+        "29",
+        "5",
+        "7B",
+        "8",
+        "84",
+        "93",
+        "9A",
+        "9B"
+      ]
+    },
+    {
+      "id": "spring-garden",
+      "schematicId": "spring-garden",
+      "name": "Spring Garden at Summer",
+      "lat": 44.641453,
+      "lon": -63.583128,
+      "lines": ["1", "4", "8"],
+      "platformIds": ["8335", "8337"],
+      "departureRouteIds": [
+        "1",
+        "123",
+        "127",
+        "182",
+        "183",
+        "185",
+        "186",
+        "192",
+        "194",
+        "196",
+        "4",
+        "8",
+        "9A",
+        "9B"
+      ]
+    },
+    {
+      "id": "10010",
+      "schematicId": "water-street",
+      "name": "Water St Terminal",
+      "lat": 44.649364,
+      "lon": -63.572665,
+      "lines": ["2", "29"],
+      "platformIds": ["8435"],
+      "departureRouteIds": ["2", "29", "90"]
+    },
+    {
+      "id": "bayers-road",
+      "schematicId": "bayers-road",
+      "name": "Bayers Road Centre",
+      "lat": 44.654575,
+      "lon": -63.627955,
+      "lines": ["29"],
+      "platformIds": ["6563", "6564"],
+      "departureRouteIds": ["2", "28", "29", "8", "91"]
+    },
+    {
+      "id": "6938",
+      "schematicId": "hollis-barrington",
+      "name": "Hollis at Barrington",
+      "lat": 44.639088,
+      "lon": -63.569355,
+      "lines": ["29"],
+      "platformIds": ["6938"],
+      "departureRouteIds": ["29"]
+    },
+    {
+      "id": "8409",
+      "schematicId": "point-pleasant",
+      "name": "Point Pleasant Park",
+      "lat": 44.625848,
+      "lon": -63.574319,
+      "lines": ["29"],
+      "platformIds": ["8409"],
+      "departureRouteIds": ["29"]
+    }
+  ]
+}

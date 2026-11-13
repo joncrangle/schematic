@@ -1,0 +1,683 @@
+{
+  "viewBoxWidth": 1800,
+  "viewBoxHeight": 1500,
+  "lines": [
+    {
+      "id": "10N",
+      "name": "10N",
+      "color": "#FFD107",
+      "points": [
+        {
+          "x": 550,
+          "y": 1150
+        },
+        {
+          "x": 750,
+          "y": 1350
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 850
+        },
+        {
+          "x": 950,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 500
+        },
+        {
+          "x": 600,
+          "y": 350
+        },
+        {
+          "x": 450,
+          "y": 350
+        },
+        {
+          "x": 300,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "12N",
+      "name": "12N",
+      "color": "#005FBD",
+      "points": [
+        {
+          "x": 550,
+          "y": 1150
+        },
+        {
+          "x": 450,
+          "y": 1050
+        },
+        {
+          "x": 450,
+          "y": 850
+        },
+        {
+          "x": 600,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "14N",
+      "name": "14N",
+      "color": "#F23635",
+      "points": [
+        {
+          "x": 200,
+          "y": 1000
+        },
+        {
+          "x": 450,
+          "y": 1000
+        },
+        {
+          "x": 750,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 500
+        },
+        {
+          "x": 1050,
+          "y": 500
+        },
+        {
+          "x": 1500,
+          "y": 950
+        },
+        {
+          "x": 1500,
+          "y": 1150
+        }
+      ]
+    },
+    {
+      "id": "16N",
+      "name": "16N",
+      "color": "#00AA1A",
+      "points": [
+        {
+          "x": 750,
+          "y": 1350
+        },
+        {
+          "x": 950,
+          "y": 1350
+        },
+        {
+          "x": 1300,
+          "y": 1000
+        },
+        {
+          "x": 1300,
+          "y": 850
+        },
+        {
+          "x": 1150,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 500
+        },
+        {
+          "x": 1150,
+          "y": 500
+        },
+        {
+          "x": 1500,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "300",
+      "name": "300 Campus Connect",
+      "color": "#CC9900",
+      "points": [
+        {
+          "x": 1300,
+          "y": 1000
+        },
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 700
+        },
+        {
+          "x": 550,
+          "y": 900
+        },
+        {
+          "x": 550,
+          "y": 1150
+        },
+        {
+          "x": 750,
+          "y": 1350
+        },
+        {
+          "x": 950,
+          "y": 1350
+        },
+        {
+          "x": 1300,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "11S",
+      "name": "11S",
+      "color": "#FFD107",
+      "points": [
+        {
+          "x": 300,
+          "y": 200
+        },
+        {
+          "x": 450,
+          "y": 350
+        },
+        {
+          "x": 600,
+          "y": 350
+        },
+        {
+          "x": 750,
+          "y": 500
+        },
+        {
+          "x": 750,
+          "y": 700
+        },
+        {
+          "x": 550,
+          "y": 900
+        },
+        {
+          "x": 550,
+          "y": 1150
+        }
+      ]
+    },
+    {
+      "id": "13S",
+      "name": "13S",
+      "color": "#005FBD",
+      "points": [
+        {
+          "x": 750,
+          "y": 150
+        },
+        {
+          "x": 750,
+          "y": 700
+        },
+        {
+          "x": 600,
+          "y": 700
+        },
+        {
+          "x": 450,
+          "y": 850
+        },
+        {
+          "x": 450,
+          "y": 1050
+        },
+        {
+          "x": 550,
+          "y": 1150
+        }
+      ]
+    },
+    {
+      "id": "17S",
+      "name": "17S",
+      "color": "#00AA1A",
+      "points": [
+        {
+          "x": 1500,
+          "y": 150
+        },
+        {
+          "x": 1150,
+          "y": 500
+        },
+        {
+          "x": 750,
+          "y": 500
+        },
+        {
+          "x": 750,
+          "y": 700
+        },
+        {
+          "x": 1150,
+          "y": 700
+        },
+        {
+          "x": 1300,
+          "y": 850
+        },
+        {
+          "x": 1300,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 950,
+          "y": 1150
+        },
+        {
+          "x": 550,
+          "y": 1150
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "kings-place",
+      "name": "Kings Place",
+      "x": 750,
+      "y": 700,
+      "lines": ["10N", "12N", "14N", "16N", "300", "11S", "13S", "17S"],
+      "label": {
+        "x": 720,
+        "y": 675,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "city-hall",
+      "name": "City Hall",
+      "x": 750,
+      "y": 500,
+      "lines": ["10N", "12N", "14N", "16N"],
+      "label": {
+        "x": 720,
+        "y": 500,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "regent-mall",
+      "name": "Regent Mall",
+      "x": 550,
+      "y": 1150,
+      "lines": ["10N", "12N", "300", "11S", "13S", "17S"],
+      "label": {
+        "x": 520,
+        "y": 1150,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "corbett-centre",
+      "name": "Corbett Centre",
+      "x": 750,
+      "y": 1350,
+      "lines": ["10N", "16N", "300"],
+      "label": {
+        "x": 750,
+        "y": 1382,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "unb",
+      "name": "UNB SUB",
+      "x": 1300,
+      "y": 1000,
+      "lines": ["16N", "300", "17S"],
+      "label": {
+        "x": 1330,
+        "y": 1000,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "carlisle",
+      "name": "Carlisle",
+      "x": 300,
+      "y": 200,
+      "lines": ["10N", "11S"],
+      "label": {
+        "x": 300,
+        "y": 168,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "killarney",
+      "name": "Killarney Lodge",
+      "x": 750,
+      "y": 150,
+      "lines": ["12N", "13S"],
+      "label": {
+        "x": 750,
+        "y": 118,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "kingswood",
+      "name": "Kingswood",
+      "x": 200,
+      "y": 1000,
+      "lines": ["14N"],
+      "label": {
+        "x": 170,
+        "y": 1000,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "hazelwood",
+      "name": "Hazelwood & Alderwood",
+      "x": 1500,
+      "y": 1150,
+      "lines": ["14N"],
+      "label": {
+        "x": 1500,
+        "y": 1182,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "marysville",
+      "name": "Canada & Perley",
+      "x": 1500,
+      "y": 150,
+      "lines": ["16N", "17S"],
+      "label": {
+        "x": 1500,
+        "y": 118,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "10N",
+      "num": "10N",
+      "x": 1134,
+      "y": 940,
+      "color": "#FFD107",
+      "textColor": "#000000"
+    },
+    {
+      "line": "12N",
+      "num": "12N",
+      "x": 784,
+      "y": 300,
+      "color": "#005FBD",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "14N",
+      "num": "14N",
+      "x": 1076,
+      "y": 574,
+      "color": "#F23635",
+      "textColor": "#000000"
+    },
+    {
+      "line": "16N",
+      "num": "16N",
+      "x": 1334,
+      "y": 900,
+      "color": "#00AA1A",
+      "textColor": "#000000"
+    },
+    {
+      "line": "300",
+      "num": "300",
+      "x": 584,
+      "y": 1040,
+      "color": "#CC9900",
+      "textColor": "#000000"
+    },
+    {
+      "line": "11S",
+      "num": "11S",
+      "x": 550,
+      "y": 318,
+      "color": "#FFD107",
+      "textColor": "#000000"
+    },
+    {
+      "line": "13S",
+      "num": "13S",
+      "x": 716,
+      "y": 400,
+      "color": "#005FBD",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "17S",
+      "num": "17S",
+      "x": 1180,
+      "y": 666,
+      "color": "#00AA1A",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "10N": ["regent-mall", "corbett-centre", "kings-place", "city-hall", "carlisle"],
+    "12N": ["regent-mall", "kings-place", "city-hall", "killarney"],
+    "14N": ["kingswood", "kings-place", "city-hall", "hazelwood"],
+    "16N": ["corbett-centre", "unb", "kings-place", "city-hall", "marysville"],
+    "300": ["unb", "kings-place", "regent-mall", "corbett-centre"],
+    "11S": ["carlisle", "kings-place", "regent-mall"],
+    "13S": ["killarney", "kings-place", "regent-mall"],
+    "17S": ["marysville", "unb", "kings-place", "regent-mall"]
+  },
+  "stationAliases": {
+    "Kings Place": "kings-place",
+    "City Hall": "city-hall",
+    "Regent Mall": "regent-mall",
+    "Corbett Centre": "corbett-centre",
+    "UNB SUB": "unb",
+    "Carlisle": "carlisle",
+    "Killarney Lodge": "killarney",
+    "Kingswood": "kingswood",
+    "Hazelwood and/et Alderwood": "hazelwood",
+    "Canada and/et Perley": "marysville"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 1750,
+      "minY": 40,
+      "maxY": 1460
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -66.73218,
+    "refLonEast": -66.5774,
+    "refXWest": 150,
+    "refXEast": 1650,
+    "refLatNorth": 46.01368,
+    "refLatSouth": 45.91395,
+    "refYNorth": 150,
+    "refYSouth": 1350
+  },
+  "stationIndex": [
+    {
+      "id": "4000",
+      "schematicId": "marysville",
+      "name": "Canada & Perley",
+      "lat": 45.99931,
+      "lon": -66.57779,
+      "lines": ["16N", "17S"],
+      "platformIds": ["4000"],
+      "departureRouteIds": ["120", "16N", "17S"]
+    },
+    {
+      "id": "2001",
+      "schematicId": "carlisle",
+      "name": "Carlisle",
+      "lat": 45.97839,
+      "lon": -66.73218,
+      "lines": ["10N", "11S"],
+      "platformIds": ["2001"],
+      "departureRouteIds": ["10N", "11S", "140"]
+    },
+    {
+      "id": "1101",
+      "schematicId": "city-hall",
+      "name": "City Hall",
+      "lat": 45.96331,
+      "lon": -66.64367,
+      "lines": ["10N", "12N", "14N", "16N"],
+      "platformIds": ["1101"],
+      "departureRouteIds": ["10N", "12N", "130", "13S", "14N", "16N", "200"]
+    },
+    {
+      "id": "201315",
+      "schematicId": "corbett-centre",
+      "name": "Corbett Centre",
+      "lat": 45.92915,
+      "lon": -66.66271,
+      "lines": ["10N", "16N", "300"],
+      "platformIds": ["201315"],
+      "departureRouteIds": ["10N", "110", "160", "16N", "200", "216", "300"]
+    },
+    {
+      "id": "5104",
+      "schematicId": "hazelwood",
+      "name": "Hazelwood & Alderwood",
+      "lat": 45.93284,
+      "lon": -66.60235,
+      "lines": ["14N"],
+      "platformIds": ["5104"],
+      "departureRouteIds": ["140", "14N", "15S"]
+    },
+    {
+      "id": "1001",
+      "schematicId": "killarney",
+      "name": "Killarney Lodge",
+      "lat": 46.01368,
+      "lon": -66.63029,
+      "lines": ["12N", "13S"],
+      "platformIds": ["1001"],
+      "departureRouteIds": ["120", "12N", "13S"]
+    },
+    {
+      "id": "1000",
+      "schematicId": "kings-place",
+      "name": "Kings Place",
+      "lat": 45.96151,
+      "lon": -66.643,
+      "lines": ["10N", "11S", "12N", "13S", "14N", "16N", "17S", "300"],
+      "platformIds": ["1000"],
+      "departureRouteIds": [
+        "10N",
+        "110",
+        "116",
+        "11S",
+        "12N",
+        "130",
+        "13S",
+        "14N",
+        "150",
+        "15S",
+        "160",
+        "16N",
+        "17S",
+        "200",
+        "216",
+        "300"
+      ]
+    },
+    {
+      "id": "10010",
+      "schematicId": "kingswood",
+      "name": "Kingswood",
+      "lat": 45.93194,
+      "lon": -66.71199,
+      "lines": ["14N"],
+      "platformIds": ["10010"],
+      "departureRouteIds": ["14N", "150", "15S"]
+    },
+    {
+      "id": "2074",
+      "schematicId": "regent-mall",
+      "name": "Regent Mall",
+      "lat": 45.93526,
+      "lon": -66.66288,
+      "lines": ["10N", "11S", "12N", "13S", "17S", "300"],
+      "platformIds": ["2074"],
+      "departureRouteIds": [
+        "10N",
+        "110",
+        "116",
+        "11S",
+        "12N",
+        "130",
+        "13S",
+        "150",
+        "17S",
+        "200",
+        "300"
+      ]
+    },
+    {
+      "id": "unb",
+      "schematicId": "unb",
+      "name": "UNB SUB",
+      "lat": 45.94524,
+      "lon": -66.64226,
+      "lines": ["16N", "17S", "300"],
+      "platformIds": ["10004", "7025"],
+      "departureRouteIds": ["16N", "17S", "200", "300"]
+    }
+  ]
+}

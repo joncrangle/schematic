@@ -1,0 +1,740 @@
+{
+  "viewBoxWidth": 2850,
+  "viewBoxHeight": 1450,
+  "lines": [
+    {
+      "id": "1-MTW",
+      "name": "Port McNeill",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 700
+        },
+        {
+          "x": 950,
+          "y": 700
+        },
+        {
+          "x": 1550,
+          "y": 1300
+        },
+        {
+          "x": 2100,
+          "y": 1300
+        },
+        {
+          "x": 2200,
+          "y": 1200
+        },
+        {
+          "x": 2200,
+          "y": 950
+        },
+        {
+          "x": 2150,
+          "y": 900
+        },
+        {
+          "x": 1950,
+          "y": 900
+        },
+        {
+          "x": 1950,
+          "y": 1050
+        }
+      ]
+    },
+    {
+      "id": "2-MTW",
+      "name": "Port Hardy",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 700
+        },
+        {
+          "x": 950,
+          "y": 700
+        },
+        {
+          "x": 1550,
+          "y": 1300
+        },
+        {
+          "x": 2100,
+          "y": 1300
+        },
+        {
+          "x": 2200,
+          "y": 1200
+        },
+        {
+          "x": 2200,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "4-MTW",
+      "name": "Fort Rupert / Port Hardy Airport",
+      "color": "#FCAF17",
+      "points": [
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 700
+        },
+        {
+          "x": 950,
+          "y": 700
+        },
+        {
+          "x": 1050,
+          "y": 600
+        },
+        {
+          "x": 1250,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "5-MTW",
+      "name": "Coal Harbour",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 800
+        },
+        {
+          "x": 300,
+          "y": 1000
+        },
+        {
+          "x": 300,
+          "y": 1200
+        }
+      ]
+    },
+    {
+      "id": "11-MTW",
+      "name": "Port Hardy Local",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 200
+        },
+        {
+          "x": 350,
+          "y": 200
+        },
+        {
+          "x": 350,
+          "y": 500
+        },
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 600,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "12-MTW",
+      "name": "Port McNeill Local",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 1950,
+          "y": 1050
+        },
+        {
+          "x": 2100,
+          "y": 1050
+        },
+        {
+          "x": 2200,
+          "y": 1150
+        },
+        {
+          "x": 2200,
+          "y": 1200
+        },
+        {
+          "x": 2450,
+          "y": 1200
+        },
+        {
+          "x": 2200,
+          "y": 1200
+        },
+        {
+          "x": 1950,
+          "y": 1200
+        },
+        {
+          "x": 1950,
+          "y": 900
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "thunderbird-mall",
+      "name": "Thunderbird Mall",
+      "x": 600,
+      "y": 400,
+      "lines": ["1-MTW", "2-MTW", "4-MTW", "5-MTW", "11-MTW"],
+      "label": {
+        "x": 628,
+        "y": 400,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "park-tsulquate",
+      "name": "Park Drive & Tsulquate",
+      "x": 475,
+      "y": 200,
+      "lines": ["11-MTW"],
+      "label": {
+        "x": 475,
+        "y": 168,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "trustee",
+      "name": "9150 Block Trustee",
+      "x": 350,
+      "y": 400,
+      "lines": ["11-MTW"],
+      "label": {
+        "x": 322,
+        "y": 400,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "port-hardy-hospital",
+      "name": "Port Hardy Hospital",
+      "x": 450,
+      "y": 500,
+      "lines": ["11-MTW"],
+      "label": {
+        "x": 450,
+        "y": 532,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "coal-harbour-junction",
+      "name": "Coal Harbour Junction",
+      "x": 600,
+      "y": 700,
+      "lines": ["1-MTW", "2-MTW", "4-MTW", "5-MTW"],
+      "label": {
+        "x": 572,
+        "y": 700,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "quatsino",
+      "name": "Quatsino Health Ctr",
+      "x": 300,
+      "y": 1050,
+      "lines": ["5-MTW"],
+      "label": {
+        "x": 328,
+        "y": 1050,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "coal-harbour",
+      "name": "Coal Harbour",
+      "x": 300,
+      "y": 1200,
+      "lines": ["5-MTW"],
+      "label": {
+        "x": 300,
+        "y": 1232,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "fort-rupert",
+      "name": "Fort Rupert Park and Ride",
+      "x": 800,
+      "y": 700,
+      "lines": ["1-MTW", "2-MTW", "4-MTW"],
+      "label": {
+        "x": 800,
+        "y": 732,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "kwakiutl",
+      "name": "Kwakiutl Health Clinic",
+      "x": 1100,
+      "y": 600,
+      "lines": ["4-MTW"],
+      "label": {
+        "x": 1100,
+        "y": 568,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "airport",
+      "name": "Port Hardy Airport",
+      "x": 1250,
+      "y": 600,
+      "lines": ["4-MTW"],
+      "label": {
+        "x": 1278,
+        "y": 600,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "port-alice-junction",
+      "name": "Port Alice Junction",
+      "x": 1150,
+      "y": 900,
+      "lines": ["1-MTW", "2-MTW"],
+      "label": {
+        "x": 1178,
+        "y": 900,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kingcome-mine",
+      "name": "Kingcome & Mine",
+      "x": 2200,
+      "y": 1200,
+      "lines": ["1-MTW", "2-MTW", "12-MTW"],
+      "label": {
+        "x": 2228,
+        "y": 1240,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "broughton-cedar",
+      "name": "Broughton & Cedar",
+      "x": 2200,
+      "y": 1000,
+      "lines": ["1-MTW", "2-MTW"],
+      "label": {
+        "x": 2228,
+        "y": 1000,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "ferry-terminal",
+      "name": "Port McNeill Ferry Terminal",
+      "x": 1950,
+      "y": 900,
+      "lines": ["1-MTW", "12-MTW"],
+      "label": {
+        "x": 1922,
+        "y": 900,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "pioneer-mall",
+      "name": "Pioneer Mall",
+      "x": 1950,
+      "y": 1050,
+      "lines": ["1-MTW", "12-MTW"],
+      "label": {
+        "x": 1922,
+        "y": 1050,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "medical-clinic",
+      "name": "McNeill & Campbell Way",
+      "x": 2050,
+      "y": 1050,
+      "lines": ["12-MTW"],
+      "label": {
+        "x": 2050,
+        "y": 1018,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hyde-creek",
+      "name": "Hyde Creek & Hwy 19",
+      "x": 2450,
+      "y": 1200,
+      "lines": ["12-MTW"],
+      "label": {
+        "x": 2478,
+        "y": 1200,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "argus",
+      "name": "Argus & Chelan",
+      "x": 2050,
+      "y": 1200,
+      "lines": ["12-MTW"],
+      "label": {
+        "x": 2050,
+        "y": 1232,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "1-MTW": [
+      "thunderbird-mall",
+      "coal-harbour-junction",
+      "fort-rupert",
+      "port-alice-junction",
+      "kingcome-mine",
+      "broughton-cedar",
+      "ferry-terminal",
+      "pioneer-mall"
+    ],
+    "2-MTW": [
+      "broughton-cedar",
+      "kingcome-mine",
+      "port-alice-junction",
+      "fort-rupert",
+      "coal-harbour-junction",
+      "thunderbird-mall"
+    ],
+    "4-MTW": ["thunderbird-mall", "coal-harbour-junction", "fort-rupert", "kwakiutl", "airport"],
+    "5-MTW": ["thunderbird-mall", "coal-harbour-junction", "quatsino", "coal-harbour"],
+    "11-MTW": ["thunderbird-mall", "park-tsulquate", "trustee", "port-hardy-hospital"],
+    "12-MTW": [
+      "pioneer-mall",
+      "medical-clinic",
+      "hyde-creek",
+      "kingcome-mine",
+      "argus",
+      "ferry-terminal"
+    ]
+  },
+  "stationAliases": {
+    "Hardy Bay & Lansdowne": "coal-harbour-junction",
+    "Hwy 19 & Port Alice Jct": "port-alice-junction",
+    "Campbell Way & Mine": "kingcome-mine",
+    "Mine & Campbell Way": "kingcome-mine",
+    "Cedar & Broughton": "broughton-cedar"
+  },
+  "badges": [
+    {
+      "line": "1-MTW",
+      "num": "1",
+      "x": 2050,
+      "y": 868,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-MTW",
+      "num": "2",
+      "x": 1700,
+      "y": 1334,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-MTW",
+      "num": "4",
+      "x": 1175,
+      "y": 632,
+      "color": "#FCAF17",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5-MTW",
+      "num": "5",
+      "x": 268,
+      "y": 1125,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "11-MTW",
+      "num": "11",
+      "x": 420,
+      "y": 232,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "12-MTW",
+      "num": "12",
+      "x": 2330,
+      "y": 1166,
+      "color": "#F37421",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 2810,
+      "minY": 40,
+      "maxY": 1410
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -127.58,
+    "refLonEast": -127.011,
+    "refXWest": 300,
+    "refXEast": 2450,
+    "refLatNorth": 50.7307,
+    "refLatSouth": 50.5714,
+    "refYNorth": 200,
+    "refYSouth": 1200
+  },
+  "cornerInsertions": [
+    {
+      "lineId": "12-MTW",
+      "stationId": "hyde-creek",
+      "before": {
+        "x": 2200,
+        "y": 1200
+      },
+      "after": {
+        "x": 2200,
+        "y": 1200
+      }
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "115039",
+      "schematicId": "trustee",
+      "name": "9150 Block Trustee",
+      "lat": 50.71628,
+      "lon": -127.50253,
+      "lines": ["11-MTW"],
+      "platformIds": ["115039"],
+      "departureRouteIds": ["11-MTW"]
+    },
+    {
+      "id": "115005",
+      "schematicId": "argus",
+      "name": "Argus & Chelan",
+      "lat": 50.58139,
+      "lon": -127.08306,
+      "lines": ["12-MTW"],
+      "platformIds": ["115005"],
+      "departureRouteIds": ["12-MTW"]
+    },
+    {
+      "id": "broughton-cedar",
+      "schematicId": "broughton-cedar",
+      "name": "Broughton & Cedar",
+      "lat": 50.58857,
+      "lon": -127.0791,
+      "lines": ["1-MTW", "2-MTW"],
+      "platformIds": ["115015", "115017"],
+      "departureRouteIds": ["1-MTW", "2-MTW"]
+    },
+    {
+      "id": "115020",
+      "schematicId": "coal-harbour",
+      "name": "Coal Harbour",
+      "lat": 50.59988,
+      "lon": -127.57983,
+      "lines": ["5-MTW"],
+      "platformIds": ["115020"],
+      "departureRouteIds": ["5-MTW"]
+    },
+    {
+      "id": "coal-harbour-junction",
+      "schematicId": "coal-harbour-junction",
+      "name": "Coal Harbour Junction",
+      "lat": 50.70039,
+      "lon": -127.48239,
+      "lines": ["1-MTW", "2-MTW", "4-MTW", "5-MTW"],
+      "platformIds": ["115033", "115055"],
+      "departureRouteIds": ["1-MTW", "2-MTW", "4-MTW", "5-MTW"]
+    },
+    {
+      "id": "115027",
+      "schematicId": "fort-rupert",
+      "name": "Fort Rupert Park and Ride",
+      "lat": 50.68917,
+      "lon": -127.42199,
+      "lines": ["1-MTW", "2-MTW", "4-MTW"],
+      "platformIds": ["115027"],
+      "departureRouteIds": ["1-MTW", "2-MTW", "4-MTW"]
+    },
+    {
+      "id": "115001",
+      "schematicId": "hyde-creek",
+      "name": "Hyde Creek & Hwy 19",
+      "lat": 50.5714,
+      "lon": -127.0109,
+      "lines": ["12-MTW"],
+      "platformIds": ["115001"],
+      "departureRouteIds": ["12-MTW"]
+    },
+    {
+      "id": "kingcome-mine",
+      "schematicId": "kingcome-mine",
+      "name": "Kingcome & Mine",
+      "lat": 50.57948,
+      "lon": -127.06998,
+      "lines": ["1-MTW", "12-MTW", "2-MTW"],
+      "platformIds": ["115002", "115058", "115061"],
+      "departureRouteIds": ["1-MTW", "12-MTW", "2-MTW"]
+    },
+    {
+      "id": "115031",
+      "schematicId": "kwakiutl",
+      "name": "Kwakiutl Health Clinic",
+      "lat": 50.69473,
+      "lon": -127.40821,
+      "lines": ["4-MTW"],
+      "platformIds": ["115031"],
+      "departureRouteIds": ["4-MTW"]
+    },
+    {
+      "id": "115010",
+      "schematicId": "medical-clinic",
+      "name": "McNeill & Campbell Way",
+      "lat": 50.58349,
+      "lon": -127.07865,
+      "lines": ["12-MTW"],
+      "platformIds": ["115010"],
+      "departureRouteIds": ["12-MTW"]
+    },
+    {
+      "id": "115060",
+      "schematicId": "park-tsulquate",
+      "name": "Park Drive & Tsulquate",
+      "lat": 50.73066,
+      "lon": -127.49766,
+      "lines": ["11-MTW"],
+      "platformIds": ["115060"],
+      "departureRouteIds": ["11-MTW"]
+    },
+    {
+      "id": "115013",
+      "schematicId": "pioneer-mall",
+      "name": "Pioneer Mall",
+      "lat": 50.58791,
+      "lon": -127.08531,
+      "lines": ["1-MTW", "12-MTW"],
+      "platformIds": ["115013"],
+      "departureRouteIds": ["1-MTW", "12-MTW"]
+    },
+    {
+      "id": "port-alice-junction",
+      "schematicId": "port-alice-junction",
+      "name": "Port Alice Junction",
+      "lat": 50.60364,
+      "lon": -127.30947,
+      "lines": ["1-MTW", "2-MTW"],
+      "platformIds": ["115022", "115059"],
+      "departureRouteIds": ["1-MTW", "2-MTW"]
+    },
+    {
+      "id": "115024",
+      "schematicId": "airport",
+      "name": "Port Hardy Airport",
+      "lat": 50.68438,
+      "lon": -127.37687,
+      "lines": ["4-MTW"],
+      "platformIds": ["115024"],
+      "departureRouteIds": ["4-MTW"]
+    },
+    {
+      "id": "115044",
+      "schematicId": "port-hardy-hospital",
+      "name": "Port Hardy Hospital",
+      "lat": 50.72025,
+      "lon": -127.50334,
+      "lines": ["11-MTW"],
+      "platformIds": ["115044"],
+      "departureRouteIds": ["11-MTW"]
+    },
+    {
+      "id": "115019",
+      "schematicId": "ferry-terminal",
+      "name": "Port McNeill Ferry Terminal",
+      "lat": 50.5912,
+      "lon": -127.08595,
+      "lines": ["1-MTW", "12-MTW"],
+      "platformIds": ["115019"],
+      "departureRouteIds": ["1-MTW", "12-MTW", "2-MTW"]
+    },
+    {
+      "id": "115023",
+      "schematicId": "quatsino",
+      "name": "Quatsino Health Ctr",
+      "lat": 50.61421,
+      "lon": -127.57074,
+      "lines": ["5-MTW"],
+      "platformIds": ["115023"],
+      "departureRouteIds": ["5-MTW"]
+    },
+    {
+      "id": "115045",
+      "schematicId": "thunderbird-mall",
+      "name": "Thunderbird Mall",
+      "lat": 50.72166,
+      "lon": -127.49822,
+      "lines": ["1-MTW", "11-MTW", "2-MTW", "4-MTW", "5-MTW"],
+      "platformIds": ["115045"],
+      "departureRouteIds": ["1-MTW", "11-MTW", "2-MTW", "4-MTW", "5-MTW"]
+    }
+  ]
+}

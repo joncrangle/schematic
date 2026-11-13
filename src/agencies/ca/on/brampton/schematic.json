@@ -1,0 +1,1024 @@
+{
+  "viewBoxWidth": 1400,
+  "viewBoxHeight": 1000,
+  "lines": [
+    {
+      "id": "501",
+      "name": "501 Züm Queen",
+      "color": "#CB4947",
+      "points": [
+        { "x": 680, "y": 500 },
+        { "x": 1360, "y": 500 }
+      ]
+    },
+    {
+      "id": "502",
+      "name": "502 Züm Main",
+      "color": "#CB4947",
+      "points": [
+        { "x": 980, "y": 880 },
+        { "x": 710, "y": 610 },
+        { "x": 710, "y": 340 },
+        { "x": 680, "y": 340 },
+        { "x": 840, "y": 180 }
+      ]
+    },
+    {
+      "id": "505",
+      "name": "505 Züm Bovaird",
+      "color": "#CB4947",
+      "points": [
+        { "x": 200, "y": 340 },
+        { "x": 1000, "y": 340 },
+        { "x": 1000, "y": 940 }
+      ]
+    },
+    {
+      "id": "511",
+      "name": "511 Züm Steeles",
+      "color": "#CB4947",
+      "points": [
+        { "x": 120, "y": 880 },
+        { "x": 120, "y": 690 },
+        { "x": 530, "y": 690 },
+        { "x": 560, "y": 720 },
+        { "x": 590, "y": 690 },
+        { "x": 1150, "y": 690 },
+        { "x": 1270, "y": 810 }
+      ]
+    },
+    {
+      "id": "561",
+      "name": "561 Züm Queen West",
+      "color": "#CB4947",
+      "points": [
+        { "x": 200, "y": 340 },
+        { "x": 360, "y": 500 },
+        { "x": 680, "y": 500 }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "115 Pearson Airport Express",
+      "color": "#2E308D",
+      "points": [
+        { "x": 1340, "y": 880 },
+        { "x": 960, "y": 500 }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "18 Dixie",
+      "color": "#2E308D",
+      "points": [
+        { "x": 1080, "y": 850 },
+        { "x": 960, "y": 730 },
+        { "x": 960, "y": 500 },
+        { "x": 620, "y": 160 }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Chinguacousy",
+      "color": "#2E308D",
+      "points": [
+        { "x": 790, "y": 690 },
+        { "x": 760, "y": 720 },
+        { "x": 300, "y": 720 },
+        { "x": 300, "y": 240 },
+        { "x": 200, "y": 340 }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "mount-pleasant-go",
+      "name": "Mount Pleasant",
+      "x": 200,
+      "y": 340,
+      "lines": ["4", "505", "561"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 180, "y": 340, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "chinguacousy-bovaird",
+      "name": "Chinguacousy at Bovaird",
+      "x": 300,
+      "y": 340,
+      "lines": ["4", "505"],
+      "accessible": true,
+      "label": { "x": 320, "y": 364, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "clockwork-drive",
+      "name": "Clockwork Drive",
+      "x": 300,
+      "y": 240,
+      "lines": ["4"],
+      "accessible": true,
+      "label": { "x": 320, "y": 240, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "dixie-caledon",
+      "name": "Dixie at UPS, Caledon",
+      "x": 620,
+      "y": 160,
+      "lines": ["18"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 620, "y": 136, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "sandalwood-loop",
+      "name": "Sandalwood Loop",
+      "x": 840,
+      "y": 180,
+      "lines": ["502"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 860, "y": 180, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "dixie-mayfield",
+      "name": "Dixie at Mayfield",
+      "x": 700,
+      "y": 240,
+      "lines": ["18"],
+      "accessible": false,
+      "terminal": true,
+      "label": { "x": 680, "y": 240, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "brisdale-station",
+      "name": "Brisdale at Remembrance",
+      "x": 300,
+      "y": 520,
+      "lines": ["4"],
+      "accessible": true,
+      "label": { "x": 320, "y": 520, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "downtown-terminal",
+      "name": "Downtown Terminal",
+      "x": 680,
+      "y": 500,
+      "lines": ["501", "561"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 650,
+        "y": 530,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "main-zum-bovaird",
+      "name": "Main Street Station",
+      "x": 680,
+      "y": 340,
+      "lines": ["502", "505"],
+      "accessible": true,
+      "label": { "x": 680, "y": 364, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "kennedy-bovaird",
+      "name": "Kennedy at Bovaird",
+      "x": 520,
+      "y": 340,
+      "lines": ["505"],
+      "accessible": true,
+      "label": { "x": 520, "y": 316, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "dixie-bovaird",
+      "name": "Dixie at Bovaird",
+      "x": 800,
+      "y": 340,
+      "lines": ["18", "505"],
+      "accessible": true,
+      "label": { "x": 800, "y": 364, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "trinity-common-terminal",
+      "name": "Trinity Common Terminal",
+      "x": 900,
+      "y": 340,
+      "lines": ["505"],
+      "accessible": true,
+      "label": { "x": 900, "y": 316, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "airport-road-station",
+      "name": "Airport Road Station",
+      "x": 1000,
+      "y": 340,
+      "lines": ["505"],
+      "accessible": true,
+      "label": { "x": 1020, "y": 340, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "woodslea-intermodal",
+      "name": "Woodslea Intermodal",
+      "x": 1000,
+      "y": 440,
+      "lines": ["505"],
+      "accessible": true,
+      "label": { "x": 1020, "y": 440, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "morning-star",
+      "name": "Morning Star",
+      "x": 1000,
+      "y": 660,
+      "lines": ["505"],
+      "accessible": true,
+      "label": { "x": 1015, "y": 660, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "viscount-station",
+      "name": "Viscount Station",
+      "x": 1000,
+      "y": 940,
+      "lines": ["505"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 1020, "y": 940, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "bramalea-terminal",
+      "name": "Bramalea Transit Terminal",
+      "x": 960,
+      "y": 500,
+      "lines": ["18", "115", "501"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 940, "y": 524, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "dixie-clark",
+      "name": "Dixie at Clark Blvd",
+      "x": 960,
+      "y": 620,
+      "lines": ["18"],
+      "accessible": true,
+      "label": { "x": 940, "y": 620, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "dixie-courtneypark",
+      "name": "Dixie at Courtneypark",
+      "x": 1080,
+      "y": 850,
+      "lines": ["18"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 1080, "y": 874, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "gateway-zum-queen",
+      "name": "Gateway Station",
+      "x": 1100,
+      "y": 500,
+      "lines": ["501"],
+      "accessible": true,
+      "label": { "x": 1100, "y": 524, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "highway-50-station",
+      "name": "Highway 50 Station",
+      "x": 1220,
+      "y": 500,
+      "lines": ["501"],
+      "accessible": true,
+      "label": { "x": 1225, "y": 477, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "smart-vmc-terminal",
+      "name": "Smart VMC Terminal",
+      "x": 1360,
+      "y": 500,
+      "lines": ["501"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 1370, "y": 524, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "chinguacousy-steeles",
+      "name": "Chinguacousy at Steeles",
+      "x": 300,
+      "y": 720,
+      "lines": ["4"],
+      "accessible": true,
+      "label": { "x": 290, "y": 744, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "sheridan-college",
+      "name": "Sheridan College",
+      "x": 560,
+      "y": 720,
+      "lines": ["4", "511"],
+      "accessible": true,
+      "label": { "x": 560, "y": 744, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "winston-churchill",
+      "name": "Winston Churchill",
+      "x": 400,
+      "y": 690,
+      "lines": ["511"],
+      "accessible": true,
+      "label": { "x": 400, "y": 666, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "brampton-gateway-terminal",
+      "name": "Brampton Gateway Terminal",
+      "x": 790,
+      "y": 690,
+      "lines": ["4", "502", "511"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 760, "y": 666, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "airport-road-steeles",
+      "name": "Airport Road & Steeles",
+      "x": 900,
+      "y": 690,
+      "lines": ["511"],
+      "accessible": true,
+      "label": { "x": 930, "y": 666, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "lisgar-go",
+      "name": "Lisgar",
+      "x": 120,
+      "y": 880,
+      "lines": ["511"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 120, "y": 920, "rot": 0, "anchor": "middle" }
+    },
+    {
+      "id": "bramalea-go",
+      "name": "Bramalea",
+      "x": 1150,
+      "y": 690,
+      "lines": ["115", "511"],
+      "accessible": true,
+      "label": { "x": 1170, "y": 690, "rot": 0, "anchor": "start" }
+    },
+    {
+      "id": "humber-college",
+      "name": "Humber College",
+      "x": 1270,
+      "y": 810,
+      "lines": ["511"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 1250, "y": 810, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "hurontario-eglinton",
+      "name": "Hurontario at Eglinton",
+      "x": 850,
+      "y": 750,
+      "lines": ["502"],
+      "accessible": true,
+      "label": { "x": 830, "y": 750, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "mississauga-city-centre",
+      "name": "Mississauga City Centre",
+      "x": 980,
+      "y": 880,
+      "lines": ["502"],
+      "accessible": true,
+      "terminal": true,
+      "label": { "x": 940, "y": 880, "rot": 0, "anchor": "end" }
+    },
+    {
+      "id": "pearson-terminal-1",
+      "name": "Pearson Int Airport Terminal 1",
+      "x": 1340,
+      "y": 880,
+      "lines": ["115"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1305,
+        "y": 900,
+        "rot": 0,
+        "anchor": "end"
+      }
+    }
+  ],
+  "badges": [
+    { "line": "501", "num": "501", "x": 750, "y": 466, "color": "#CB4947", "textColor": "#FFFFFF" },
+    { "line": "502", "num": "502", "x": 870, "y": 810, "color": "#CB4947", "textColor": "#FFFFFF" },
+    {
+      "line": "505",
+      "num": "505",
+      "x": 420,
+      "y": 308,
+      "color": "#CB4947",
+      "textColor": "#FFFFFF"
+    },
+    { "line": "511", "num": "511", "x": 88, "y": 780, "color": "#CB4947", "textColor": "#FFFFFF" },
+    { "line": "561", "num": "561", "x": 240, "y": 420, "color": "#CB4947", "textColor": "#FFFFFF" },
+    {
+      "line": "115",
+      "num": "115",
+      "x": 1160,
+      "y": 750,
+      "color": "#2E308D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "18",
+      "num": "18",
+      "x": 1060,
+      "y": 790,
+      "color": "#2E308D",
+      "textColor": "#FFFFFF"
+    },
+    { "line": "4", "num": "4", "x": 332, "y": 580, "color": "#2E308D", "textColor": "#FFFFFF" }
+  ],
+  "viewport": {
+    "bounds": { "minX": 20, "maxX": 1390, "minY": 90, "maxY": 970 },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.85,
+    "refLonEast": -79.51,
+    "refXWest": 120,
+    "refXEast": 1330,
+    "refLatNorth": 43.8,
+    "refLatSouth": 43.58,
+    "refYNorth": 120,
+    "refYSouth": 900
+  },
+  "sequences": {
+    "4": [
+      "brampton-gateway-terminal",
+      "sheridan-college",
+      "chinguacousy-steeles",
+      "brisdale-station",
+      "chinguacousy-bovaird",
+      "clockwork-drive",
+      "mount-pleasant-go"
+    ],
+    "18": [
+      "dixie-courtneypark",
+      "dixie-clark",
+      "bramalea-terminal",
+      "dixie-bovaird",
+      "dixie-mayfield",
+      "dixie-caledon"
+    ],
+    "115": ["pearson-terminal-1", "bramalea-go", "bramalea-terminal"],
+    "501": [
+      "downtown-terminal",
+      "bramalea-terminal",
+      "gateway-zum-queen",
+      "highway-50-station",
+      "smart-vmc-terminal"
+    ],
+    "502": [
+      "mississauga-city-centre",
+      "hurontario-eglinton",
+      "brampton-gateway-terminal",
+      "main-zum-bovaird",
+      "sandalwood-loop"
+    ],
+    "505": [
+      "mount-pleasant-go",
+      "chinguacousy-bovaird",
+      "kennedy-bovaird",
+      "main-zum-bovaird",
+      "dixie-bovaird",
+      "trinity-common-terminal",
+      "airport-road-station",
+      "woodslea-intermodal",
+      "morning-star",
+      "viscount-station"
+    ],
+    "511": [
+      "lisgar-go",
+      "winston-churchill",
+      "sheridan-college",
+      "brampton-gateway-terminal",
+      "airport-road-steeles",
+      "bramalea-go",
+      "humber-college"
+    ],
+    "561": ["mount-pleasant-go", "downtown-terminal"]
+  },
+  "stationAliases": {
+    "Smart Centres Bus Terminal": "smart-vmc-terminal",
+    "Mississauga CC Terminal": "mississauga-city-centre",
+    "Mount Pleasant GO Station": "mount-pleasant-go",
+    "Lisgar GO Station": "lisgar-go",
+    "Bramalea GO Station": "bramalea-go",
+    "Bramalea Terminal": "bramalea-terminal",
+    "Lisgar GO Station - Route 11/511 Stop": "lisgar-go",
+    "Bramalea GO Station - Route 115 NB / 301": "bramalea-go",
+    "Bramalea GO Station - Route 13/16 Stop": "bramalea-go",
+    "Bramalea GO Station - Route 15 SB/115 SB Stop": "bramalea-go",
+    "Bramalea GO Station - Route 15/15A NB Stop": "bramalea-go",
+    "Bramalea GO Station-Route 11/11A/511/A/C EB Stop": "bramalea-go",
+    "Bramalea GO Station-Route 11/11A/511/A/C WB Stop": "bramalea-go",
+    "Mount Pleasant GO Station  Route 29/29A/215 Stop": "mount-pleasant-go",
+    "Mount Pleasant GO Station  Route 9 Stop": "mount-pleasant-go",
+    "Mount Pleasant GO Station - 5/5A/505 Zum Bovaird": "mount-pleasant-go",
+    "Mount Pleasant GO Station - Route 1 / 561 Stop": "mount-pleasant-go",
+    "Mount Pleasant GO Station Route 4C Stop": "mount-pleasant-go",
+    "Mount Pleasant GO Station Route 60 Stop": "mount-pleasant-go",
+    "Bramalea Terminal Route 1/1A EB - Departure": "bramalea-terminal",
+    "Bramalea Terminal Route 1/1A WB - Departure": "bramalea-terminal",
+    "Bramalea Terminal Route 10/16 Stop": "bramalea-terminal",
+    "Bramalea Terminal Route 115 Stop": "bramalea-terminal",
+    "Bramalea Terminal Route 12 / 205 / 217": "bramalea-terminal",
+    "Bramalea Terminal Route 13/20 Stop": "bramalea-terminal",
+    "Bramalea Terminal Route 15/15A NB Stop": "bramalea-terminal",
+    "Bramalea Terminal Route 15/15A SB Stop": "bramalea-terminal",
+    "Bramalea Terminal Route 18 SB Stop": "bramalea-terminal",
+    "Bramalea Terminal Route 8 Stop": "bramalea-terminal",
+    "Bramalea Terminal Route 9 EB/17/207 Stop": "bramalea-terminal",
+    "Bramalea Terminal Route 9 WB/19/208 Stop": "bramalea-terminal",
+    "Bramalea Terminal- Zum Queen 501 EB-Departure": "bramalea-terminal",
+    "Bramalea Terminal- Zum Queen 501 WB-Departure": "bramalea-terminal",
+    "N Bramalea Terminal Rt 18 NB": "bramalea-terminal",
+    "Downtown Terminal Route 1/1A EB": "downtown-terminal",
+    "Downtown Terminal Route 1/1A WB /561 Stop": "downtown-terminal",
+    "Downtown Terminal Zum Queen Stop": "downtown-terminal",
+    "S Downtown Terminal Rt 52 Stop": "downtown-terminal",
+    "Brampton Gateway Terminal Route 11/11A EB Stop": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 11/511/511C WB": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 2 NB Stop": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 2/502 SB": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 3/3A Stop": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 4/4C/104 Stop": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 502 NB Stop": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 511/511C EB": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 52 Stop": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 53 Stop": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 54 / 199 Stop": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 57 Stop": "brampton-gateway-terminal",
+    "Brampton Gateway Terminal Route 8 Stop": "brampton-gateway-terminal",
+    "Sheridan College Term - 3/3A/4/4C/11/511/104 WB": "sheridan-college",
+    "Sheridan College Terminal - 11/511/511C EB": "sheridan-college",
+    "Sheridan Rt 53 WB Stop": "sheridan-college",
+    "Steeles Ave W e/of McLaughlin Rd S (Sheridan Ent)": "sheridan-college",
+    "Trinity Common Terminal - 5/5A WB/ 505 WB/17 Stop": "trinity-common-terminal",
+    "Trinity Common Terminal Route 23 EB Stop": "trinity-common-terminal",
+    "Trinity Common Terminal Route 32/23 WB/ 300 Stop": "trinity-common-terminal",
+    "Trinity Common Terminal-5/5A EB/ 505 EB Stop": "trinity-common-terminal",
+    "Sandalwood Loop - Route 3 / 81 Stop": "sandalwood-loop",
+    "Sandalwood Loop - Route 502 Stop": "sandalwood-loop",
+    "City Centre Transit Terminal - Arrival": "mississauga-city-centre",
+    "City Centre Transit Terminal - Platform L": "mississauga-city-centre",
+    "Smart VMC Terminal - Route 501 Zum Queen WB": "smart-vmc-terminal",
+    "Queen St & Highway 50 - WB": "highway-50-station",
+    "Highway 50 - Zum Queen Stop EB": "highway-50-station",
+    "Highway 50 - Zum Queen Station Stop WB": "highway-50-station",
+    "Gateway - Zum Queen Station Stop EB": "gateway-zum-queen",
+    "Chrysler - Zum Queen Station Stop WB": "gateway-zum-queen",
+    "Main - Zum Bovaird Station Stop EB": "main-zum-bovaird",
+    "Main - Zum Bovaird Station Stop WB": "main-zum-bovaird",
+    "Hurontario St at Eglinton Ave - NB (Zum Main)": "hurontario-eglinton",
+    "Hurontario St at Eglinton Ave - SB (Zum Main)": "hurontario-eglinton",
+    "Bovaird - Zum Main Station Stop NB": "main-zum-bovaird",
+    "Bovaird - Zum Main Station Stop SB": "main-zum-bovaird",
+    "Kennedy - Zum Bovaird Station Stop EB": "kennedy-bovaird",
+    "Kennedy - Zum Bovaird Station Stop WB": "kennedy-bovaird",
+    "Dixie - Zum Bovaird Station Stop EB": "dixie-bovaird",
+    "Dixie - Zum Bovaird Station Stop WB": "dixie-bovaird",
+    "Dixie Rd n/of Bovaird Dr E": "dixie-bovaird",
+    "Dixie Rd at Bovaird Dr E": "dixie-bovaird",
+    "Airport Road - Zum Bovaird Station Stop EB": "airport-road-station",
+    "Airport Road - Zum Bovaird Station Stop WB": "airport-road-station",
+    "Intermodal - Zum Bovaird Station Stop NB": "woodslea-intermodal",
+    "Woodslea - Zum Bovaird Station Stop SB": "woodslea-intermodal",
+    "Morning Star - Zum Bovaird Stop NB": "morning-star",
+    "Morning Star - Zum Bovaird Stop SB": "morning-star",
+    "Viscount Station - Route 505 Stop": "viscount-station",
+    "NIU_Viscount Station - Route 505 Drop Off Only": "viscount-station",
+    "Winston Churchill - Zum Steeles Station Stop EB": "winston-churchill",
+    "Winston Churchill - Zum Steeles Station Stop WB": "winston-churchill",
+    "Airport Road - Zum Steeles Station Stop EB": "airport-road-steeles",
+    "Airport Road - Zum Steeles Station Stop WB": "airport-road-steeles",
+    "Humber College Terminal- Zum Steeles 511/511A/511C": "humber-college",
+    "Pearson Int Airport Terminal 1 Ground Level": "pearson-terminal-1",
+    "N Chinguacousy Rd at Bovaird Dr": "chinguacousy-bovaird",
+    "Chinguacousy Rd n/of Bovaird Dr": "chinguacousy-bovaird",
+    "Chinguacousy - Zum Bovaird Station Stop EB": "chinguacousy-bovaird",
+    "Chinguacousy - Zum Bovaird Station Stop WB": "chinguacousy-bovaird",
+    "Steeles Ave W at Chinguacousy Rd": "chinguacousy-steeles",
+    "Brisdale Dr n/of Remembrance Rd": "brisdale-station",
+    "Clockwork Dr e/of Chinguacousy Rd": "clockwork-drive",
+    "Clockwork Dr btwn Hawtrey Rd and Benjamin Thorne Rd": "clockwork-drive",
+    "Dixie Rd at Clark Blvd": "dixie-clark",
+    "N Dixie Rd n/of Courtneypark Dr": "dixie-courtneypark",
+    "S Dixie Rd n/of Courtneypark Dr": "dixie-courtneypark",
+    "Dixie Rd s/of Mayfield Rd": "dixie-mayfield",
+    "Dixie Rd at UPS (Caledon)": "dixie-caledon"
+  },
+  "stationIndex": [
+    {
+      "id": "airport-road-steeles",
+      "schematicId": "airport-road-steeles",
+      "name": "Airport Road & Steeles",
+      "lat": 43.724305,
+      "lon": -79.668113,
+      "lines": ["511"],
+      "platformIds": ["00051112", "00051113"],
+      "departureRouteIds": ["11", "511"]
+    },
+    {
+      "id": "airport-road-station",
+      "schematicId": "airport-road-station",
+      "name": "Airport Road Station",
+      "lat": 43.762718,
+      "lon": -79.722761,
+      "lines": ["505"],
+      "platformIds": ["00016700", "00017090"],
+      "departureRouteIds": ["211", "5", "505"]
+    },
+    {
+      "id": "place_BLGO",
+      "schematicId": "bramalea-go",
+      "name": "Bramalea GO Station",
+      "lat": 43.701862,
+      "lon": -79.691934,
+      "lines": ["115", "511"],
+      "platformIds": ["22080104", "22080105", "22080106", "22080107", "22080108", "22080109"],
+      "departureRouteIds": ["11", "115", "13", "15", "16", "301", "511"]
+    },
+    {
+      "id": "place_CITY",
+      "schematicId": "bramalea-terminal",
+      "name": "Bramalea Terminal",
+      "lat": 43.718956,
+      "lon": -79.720601,
+      "lines": ["115", "18", "501"],
+      "platformIds": [
+        "00045528",
+        "00045533",
+        "00045538",
+        "00045543",
+        "00045545",
+        "00045550",
+        "00045555",
+        "00045560",
+        "00045565",
+        "00045570",
+        "00045575",
+        "00045580",
+        "00045585",
+        "00050193",
+        "00050198"
+      ],
+      "departureRouteIds": [
+        "1",
+        "10",
+        "115",
+        "12",
+        "13",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "205",
+        "207",
+        "208",
+        "217",
+        "501",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "place_GATE",
+      "schematicId": "brampton-gateway-terminal",
+      "name": "Brampton Gateway Terminal",
+      "lat": 43.666101,
+      "lon": -79.733925,
+      "lines": ["4", "502", "511"],
+      "platformIds": [
+        "00030100",
+        "00030101",
+        "00030102",
+        "00030106",
+        "00030107",
+        "00030108",
+        "00030109",
+        "00030110",
+        "00030111",
+        "00030112",
+        "00030113",
+        "00030117",
+        "18090402"
+      ],
+      "departureRouteIds": [
+        "104",
+        "11",
+        "199",
+        "2",
+        "200",
+        "3",
+        "4",
+        "502",
+        "511",
+        "52",
+        "53",
+        "54",
+        "57",
+        "8"
+      ]
+    },
+    {
+      "id": "25090100",
+      "schematicId": "brisdale-station",
+      "name": "Brisdale at Remembrance",
+      "lat": 43.704175,
+      "lon": -79.8437,
+      "lines": ["4"],
+      "platformIds": ["25090100"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "chinguacousy-bovaird",
+      "schematicId": "chinguacousy-bovaird",
+      "name": "Chinguacousy at Bovaird",
+      "lat": 43.685889,
+      "lon": -79.807686,
+      "lines": ["4", "505"],
+      "platformIds": ["00015695", "00015700", "00016460", "00017320"],
+      "departureRouteIds": ["104", "212", "215", "4", "5", "505", "9"]
+    },
+    {
+      "id": "00001450",
+      "schematicId": "chinguacousy-steeles",
+      "name": "Chinguacousy at Steeles",
+      "lat": 43.647359,
+      "lon": -79.75415,
+      "lines": ["4"],
+      "platformIds": ["00001450"],
+      "departureRouteIds": ["104", "4"]
+    },
+    {
+      "id": "clockwork-drive",
+      "schematicId": "clockwork-drive",
+      "name": "Clockwork Drive",
+      "lat": 43.709548,
+      "lon": -79.845653,
+      "lines": ["4"],
+      "platformIds": ["24062415", "25090101"],
+      "departureRouteIds": ["26", "4"]
+    },
+    {
+      "id": "dixie-bovaird",
+      "schematicId": "dixie-bovaird",
+      "name": "Dixie at Bovaird",
+      "lat": 43.735395,
+      "lon": -79.755274,
+      "lines": ["18", "505"],
+      "platformIds": ["00006180", "14090137", "14090138"],
+      "departureRouteIds": ["18", "208", "5", "505"]
+    },
+    {
+      "id": "00002720",
+      "schematicId": "dixie-clark",
+      "name": "Dixie at Clark Blvd",
+      "lat": 43.710581,
+      "lon": -79.722202,
+      "lines": ["18"],
+      "platformIds": ["00002720"],
+      "departureRouteIds": ["13", "18"]
+    },
+    {
+      "id": "dixie-courtneypark",
+      "schematicId": "dixie-courtneypark",
+      "name": "Dixie at Courtneypark",
+      "lat": 43.664093,
+      "lon": -79.65912,
+      "lines": ["18"],
+      "platformIds": ["00005900", "00006670"],
+      "departureRouteIds": ["18"]
+    },
+    {
+      "id": "23090403",
+      "schematicId": "dixie-mayfield",
+      "name": "Dixie at Mayfield",
+      "lat": 43.762189,
+      "lon": -79.791721,
+      "lines": ["18"],
+      "platformIds": ["23090403"],
+      "departureRouteIds": ["18"]
+    },
+    {
+      "id": "23090404",
+      "schematicId": "dixie-caledon",
+      "name": "Dixie at UPS, Caledon",
+      "lat": 43.767661,
+      "lon": -79.801137,
+      "lines": ["18"],
+      "platformIds": ["23090404"],
+      "departureRouteIds": ["18"]
+    },
+    {
+      "id": "place_4CRN",
+      "schematicId": "downtown-terminal",
+      "name": "Downtown Terminal",
+      "lat": 43.686933,
+      "lon": -79.762487,
+      "lines": ["501", "561"],
+      "platformIds": ["00045505", "00045510", "00045520", "00050100"],
+      "departureRouteIds": ["1", "501", "52", "561"]
+    },
+    {
+      "id": "gateway-zum-queen",
+      "schematicId": "gateway-zum-queen",
+      "name": "Gateway Station",
+      "lat": 43.73838,
+      "lon": -79.701478,
+      "lines": ["501"],
+      "platformIds": ["00050118", "00050160"],
+      "departureRouteIds": ["1", "215", "501"]
+    },
+    {
+      "id": "highway-50-station",
+      "schematicId": "highway-50-station",
+      "name": "Highway 50 Station",
+      "lat": 43.76712,
+      "lon": -79.647313,
+      "lines": ["501"],
+      "platformIds": ["00050128", "00050150"],
+      "departureRouteIds": ["1", "35", "41", "501"]
+    },
+    {
+      "id": "humber-college",
+      "schematicId": "humber-college",
+      "name": "Humber College",
+      "lat": 43.729155,
+      "lon": -79.605278,
+      "lines": ["511"],
+      "platformIds": ["15090802"],
+      "departureRouteIds": ["511"]
+    },
+    {
+      "id": "hurontario-eglinton",
+      "schematicId": "hurontario-eglinton",
+      "name": "Hurontario at Eglinton",
+      "lat": 43.607447,
+      "lon": -79.653539,
+      "lines": ["502"],
+      "platformIds": ["00028075", "00028150"],
+      "departureRouteIds": ["502"]
+    },
+    {
+      "id": "kennedy-bovaird",
+      "schematicId": "kennedy-bovaird",
+      "name": "Kennedy at Bovaird",
+      "lat": 43.716331,
+      "lon": -79.775795,
+      "lines": ["505"],
+      "platformIds": ["00016540", "00017230"],
+      "departureRouteIds": ["5", "505"]
+    },
+    {
+      "id": "place_LISGO",
+      "schematicId": "lisgar-go",
+      "name": "Lisgar GO Station",
+      "lat": 43.591836,
+      "lon": -79.788374,
+      "lines": ["511"],
+      "platformIds": ["00044406"],
+      "departureRouteIds": ["11", "511"]
+    },
+    {
+      "id": "main-zum-bovaird",
+      "schematicId": "main-zum-bovaird",
+      "name": "Main Street Station",
+      "lat": 43.706584,
+      "lon": -79.787571,
+      "lines": ["502", "505"],
+      "platformIds": ["00009280", "00009530", "00016510", "00017270"],
+      "departureRouteIds": ["2", "5", "502", "505"]
+    },
+    {
+      "id": "place_MCCT",
+      "schematicId": "mississauga-city-centre",
+      "name": "Mississauga City Centre",
+      "lat": 43.594242,
+      "lon": -79.64715,
+      "lines": ["502"],
+      "platformIds": ["00028180", "00028190"],
+      "departureRouteIds": ["502"]
+    },
+    {
+      "id": "morning-star",
+      "schematicId": "morning-star",
+      "name": "Morning Star",
+      "lat": 43.71019,
+      "lon": -79.650877,
+      "lines": ["505"],
+      "platformIds": ["00014750", "18090403"],
+      "departureRouteIds": ["30", "505"]
+    },
+    {
+      "id": "place_MPGO",
+      "schematicId": "mount-pleasant-go",
+      "name": "Mount Pleasant GO",
+      "lat": 43.674543,
+      "lon": -79.822225,
+      "lines": ["4", "505", "561"],
+      "platformIds": ["00011440", "00015880", "00016430", "00025840", "14090132", "15090711"],
+      "departureRouteIds": ["1", "215", "29", "4", "5", "505", "561", "60", "9"]
+    },
+    {
+      "id": "00010101",
+      "schematicId": "pearson-terminal-1",
+      "name": "Pearson Int Airport Terminal 1",
+      "lat": 43.681982,
+      "lon": -79.612966,
+      "lines": ["115"],
+      "platformIds": ["00010101"],
+      "departureRouteIds": ["115"]
+    },
+    {
+      "id": "sandalwood-loop",
+      "schematicId": "sandalwood-loop",
+      "name": "Sandalwood Loop",
+      "lat": 43.720987,
+      "lon": -79.808504,
+      "lines": ["502"],
+      "platformIds": ["00012430", "19090314"],
+      "departureRouteIds": ["3", "502", "81"]
+    },
+    {
+      "id": "place_SHER",
+      "schematicId": "sheridan-college",
+      "name": "Sheridan College",
+      "lat": 43.656212,
+      "lon": -79.741109,
+      "lines": ["4", "511"],
+      "platformIds": ["00008510", "00018205", "15033001", "15033002"],
+      "departureRouteIds": ["104", "11", "200", "3", "4", "511", "53", "54"]
+    },
+    {
+      "id": "place_SCBT",
+      "schematicId": "smart-vmc-terminal",
+      "name": "Smart VMC Terminal",
+      "lat": 43.79696,
+      "lon": -79.528006,
+      "lines": ["501"],
+      "platformIds": ["18090455"],
+      "departureRouteIds": ["501"]
+    },
+    {
+      "id": "place_SPTE",
+      "schematicId": "trinity-common-terminal",
+      "name": "Trinity Common Terminal",
+      "lat": 43.73109,
+      "lon": -79.763603,
+      "lines": ["505"],
+      "platformIds": ["00011060", "00011830", "14090135", "14090136"],
+      "departureRouteIds": ["17", "23", "300", "32", "5", "505"]
+    },
+    {
+      "id": "viscount-station",
+      "schematicId": "viscount-station",
+      "name": "Viscount Station",
+      "lat": 43.689663,
+      "lon": -79.615685,
+      "lines": ["505"],
+      "platformIds": ["22103102", "26080305"],
+      "departureRouteIds": ["505"]
+    },
+    {
+      "id": "winston-churchill",
+      "schematicId": "winston-churchill",
+      "name": "Winston Churchill",
+      "lat": 43.606798,
+      "lon": -79.796938,
+      "lines": ["511"],
+      "platformIds": ["00000468", "00000469"],
+      "departureRouteIds": ["11", "511"]
+    },
+    {
+      "id": "woodslea-intermodal",
+      "schematicId": "woodslea-intermodal",
+      "name": "Woodslea Intermodal",
+      "lat": 43.731185,
+      "lon": -79.678794,
+      "lines": ["505"],
+      "platformIds": ["00010125", "00010130"],
+      "departureRouteIds": ["30", "505"]
+    }
+  ]
+}

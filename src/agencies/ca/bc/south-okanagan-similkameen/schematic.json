@@ -1,0 +1,812 @@
+{
+  "viewBoxWidth": 2000,
+  "viewBoxHeight": 2250,
+  "lines": [
+    {
+      "id": "1-SOS",
+      "name": "Okanagan Lake / Wiltse",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 400,
+          "y": 750
+        },
+        {
+          "x": 600,
+          "y": 750
+        },
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 1350
+        },
+        {
+          "x": 950,
+          "y": 1600
+        },
+        {
+          "x": 850,
+          "y": 1600
+        },
+        {
+          "x": 850,
+          "y": 1900
+        }
+      ]
+    },
+    {
+      "id": "2-SOS",
+      "name": "Westside / Penticton Avenue",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 850,
+          "y": 1600
+        },
+        {
+          "x": 500,
+          "y": 1250
+        },
+        {
+          "x": 400,
+          "y": 1250
+        },
+        {
+          "x": 650,
+          "y": 1000
+        },
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 850,
+          "y": 1250
+        },
+        {
+          "x": 1500,
+          "y": 1250
+        },
+        {
+          "x": 1650,
+          "y": 1100
+        }
+      ]
+    },
+    {
+      "id": "3-SOS",
+      "name": "Uplands / Skaha Lake",
+      "color": "#F58220",
+      "points": [
+        {
+          "x": 650,
+          "y": 2100
+        },
+        {
+          "x": 850,
+          "y": 1900
+        },
+        {
+          "x": 850,
+          "y": 1600
+        },
+        {
+          "x": 950,
+          "y": 1600
+        },
+        {
+          "x": 1200,
+          "y": 1350
+        },
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 1350,
+          "y": 1000
+        },
+        {
+          "x": 1500,
+          "y": 850
+        }
+      ]
+    },
+    {
+      "id": "4-SOS",
+      "name": "Westside / Duncan East",
+      "color": "#EC008C",
+      "points": [
+        {
+          "x": 850,
+          "y": 1600
+        },
+        {
+          "x": 500,
+          "y": 1250
+        },
+        {
+          "x": 400,
+          "y": 1250
+        },
+        {
+          "x": 650,
+          "y": 1000
+        },
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 850,
+          "y": 1250
+        },
+        {
+          "x": 1050,
+          "y": 1450
+        },
+        {
+          "x": 1400,
+          "y": 1450
+        },
+        {
+          "x": 1600,
+          "y": 1250
+        }
+      ]
+    },
+    {
+      "id": "5-SOS",
+      "name": "Main Street",
+      "color": "#92278F",
+      "points": [
+        {
+          "x": 1250,
+          "y": 2100
+        },
+        {
+          "x": 1050,
+          "y": 1900
+        },
+        {
+          "x": 850,
+          "y": 1900
+        },
+        {
+          "x": 850,
+          "y": 750
+        }
+      ]
+    },
+    {
+      "id": "30-SOS",
+      "name": "Penticton / Summerland",
+      "color": "#67AFE3",
+      "points": [
+        {
+          "x": 850,
+          "y": 1600
+        },
+        {
+          "x": 950,
+          "y": 1600
+        },
+        {
+          "x": 1200,
+          "y": 1350
+        },
+        {
+          "x": 1200,
+          "y": 1250
+        },
+        {
+          "x": 400,
+          "y": 1250
+        },
+        {
+          "x": 400,
+          "y": 750
+        },
+        {
+          "x": 550,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "70-SOS",
+      "name": "Penticton / Kelowna",
+      "color": "#46266D",
+      "points": [
+        {
+          "x": 850,
+          "y": 1600
+        },
+        {
+          "x": 1050,
+          "y": 1400
+        },
+        {
+          "x": 1050,
+          "y": 1200
+        },
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 650,
+          "y": 800
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 1150,
+          "y": 350
+        },
+        {
+          "x": 1350,
+          "y": 350
+        },
+        {
+          "x": 1550,
+          "y": 150
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "queensway",
+      "name": "Queensway Exchange",
+      "x": 1550,
+      "y": 150,
+      "lines": ["70-SOS"],
+      "label": {
+        "x": 1550,
+        "y": 118,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "westbank",
+      "name": "Westbank Exchange",
+      "x": 1150,
+      "y": 350,
+      "lines": ["70-SOS"],
+      "label": {
+        "x": 1120,
+        "y": 350,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "summerland",
+      "name": "Wharton / Kelly",
+      "x": 550,
+      "y": 600,
+      "lines": ["30-SOS"],
+      "label": {
+        "x": 550,
+        "y": 568,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside / Dynes",
+      "x": 400,
+      "y": 750,
+      "lines": ["1-SOS"],
+      "label": {
+        "x": 370,
+        "y": 750,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lakeshore",
+      "name": "Martin / Lakeshore",
+      "x": 850,
+      "y": 750,
+      "lines": ["5-SOS"],
+      "label": {
+        "x": 850,
+        "y": 718,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "city-centre",
+      "name": "City Centre Exchange",
+      "x": 850,
+      "y": 1000,
+      "lines": ["1-SOS", "2-SOS", "3-SOS", "4-SOS", "5-SOS", "70-SOS"],
+      "label": {
+        "x": 820,
+        "y": 1030,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "uplands",
+      "name": "Johnson / Haven Hill",
+      "x": 1500,
+      "y": 850,
+      "lines": ["3-SOS"],
+      "label": {
+        "x": 1530,
+        "y": 850,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "penticton-ave",
+      "name": "Penticton Avenue",
+      "x": 1650,
+      "y": 1100,
+      "lines": ["2-SOS"],
+      "label": {
+        "x": 1680,
+        "y": 1100,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "duncan-east",
+      "name": "Duncan / Columbia",
+      "x": 1600,
+      "y": 1250,
+      "lines": ["4-SOS"],
+      "label": {
+        "x": 1630,
+        "y": 1250,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "college",
+      "name": "Okanagan College",
+      "x": 400,
+      "y": 1250,
+      "lines": ["2-SOS", "4-SOS", "30-SOS"],
+      "label": {
+        "x": 370,
+        "y": 1250,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "plaza",
+      "name": "Penticton Plaza",
+      "x": 850,
+      "y": 1250,
+      "lines": ["2-SOS", "4-SOS", "5-SOS", "30-SOS"],
+      "label": {
+        "x": 820,
+        "y": 1280,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Penticton Hospital",
+      "x": 1200,
+      "y": 1350,
+      "lines": ["1-SOS", "3-SOS", "30-SOS"],
+      "label": {
+        "x": 1230,
+        "y": 1350,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cherry-lane",
+      "name": "Cherry Lane Exchange",
+      "x": 850,
+      "y": 1600,
+      "lines": ["1-SOS", "2-SOS", "3-SOS", "4-SOS", "5-SOS", "30-SOS", "70-SOS"],
+      "label": {
+        "x": 820,
+        "y": 1600,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "peachtree",
+      "name": "Peachtree Square",
+      "x": 850,
+      "y": 1900,
+      "lines": ["1-SOS", "3-SOS", "5-SOS"],
+      "label": {
+        "x": 880,
+        "y": 1870,
+        "anchor": "start",
+        "leader": true
+      },
+      "terminal": true
+    },
+    {
+      "id": "skaha-channel",
+      "name": "Skaha Lake / Channel",
+      "x": 650,
+      "y": 2100,
+      "lines": ["3-SOS"],
+      "label": {
+        "x": 620,
+        "y": 2100,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "yorkton",
+      "name": "Yorkton / South Main",
+      "x": 1250,
+      "y": 2100,
+      "lines": ["5-SOS"],
+      "label": {
+        "x": 1280,
+        "y": 2100,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-SOS",
+      "num": "1",
+      "x": 500,
+      "y": 784,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2-SOS",
+      "num": "2",
+      "x": 1350,
+      "y": 1216,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3-SOS",
+      "num": "3",
+      "x": 726,
+      "y": 1976,
+      "color": "#F58220",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-SOS",
+      "num": "4",
+      "x": 1250,
+      "y": 1484,
+      "color": "#EC008C",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5-SOS",
+      "num": "5",
+      "x": 884,
+      "y": 1120,
+      "color": "#92278F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "30-SOS",
+      "num": "30",
+      "x": 600,
+      "y": 1284,
+      "color": "#67AFE3",
+      "textColor": "#000000"
+    },
+    {
+      "line": "70-SOS",
+      "num": "70",
+      "x": 1280,
+      "y": 384,
+      "color": "#46266D",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "1-SOS": ["riverside", "city-centre", "hospital", "cherry-lane", "peachtree"],
+    "2-SOS": ["cherry-lane", "college", "city-centre", "plaza", "penticton-ave"],
+    "3-SOS": ["skaha-channel", "peachtree", "cherry-lane", "hospital", "city-centre", "uplands"],
+    "4-SOS": ["cherry-lane", "college", "city-centre", "plaza", "duncan-east"],
+    "5-SOS": ["yorkton", "peachtree", "cherry-lane", "plaza", "city-centre", "lakeshore"],
+    "30-SOS": ["cherry-lane", "hospital", "plaza", "college", "summerland"],
+    "70-SOS": ["cherry-lane", "city-centre", "westbank", "queensway"]
+  },
+  "stationAliases": {
+    "Queensway Exch (Kelowna)": "queensway",
+    "Westbank Exch": "westbank",
+    "Wharton at Kelly": "summerland",
+    "Riverside & Dynes": "riverside",
+    "Martin & Lakeshore": "lakeshore",
+    "Wade & Martin": "city-centre",
+    "Johnson & Haven Hill": "uplands",
+    "Penticton Ave 1660 Blk": "penticton-ave",
+    "Duncan & Columbia": "duncan-east",
+    "Duncan & Hwy 97 (OK College)": "college",
+    "Penticton Plaza": "plaza",
+    "Duncan & Main (Plaza)": "plaza",
+    "Gov't & Carmi (Penticton Hosp.)": "hospital",
+    "Cherry Lane Shopping Centre": "cherry-lane",
+    "Warren & Atkinson (Cherry Lane)": "cherry-lane",
+    "Atkinson & Warren": "cherry-lane",
+    "Peachtree Square": "peachtree",
+    "Skaha Lake Rd & Channel": "skaha-channel",
+    "Yorkton &  S Main": "yorkton",
+    "Winnipeg & Wade": "city-centre",
+    "Winnipeg & Nanaimo": "city-centre",
+    "Main & Wade": "city-centre",
+    "Martin & Wade": "city-centre",
+    "Martin & Nanaimo": "city-centre"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 1950,
+      "minY": 40,
+      "maxY": 2210
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -120.50977,
+    "refLonEast": -119.44801,
+    "refXWest": 150,
+    "refXEast": 1850,
+    "refLatNorth": 49.88713,
+    "refLatSouth": 49.02001,
+    "refYNorth": 150,
+    "refYSouth": 2100
+  },
+  "stationIndex": [
+    {
+      "id": "cherry-lane",
+      "schematicId": "cherry-lane",
+      "name": "Cherry Lane Exchange",
+      "lat": 49.47462,
+      "lon": -119.58686,
+      "lines": ["1-SOS", "2-SOS", "3-SOS", "30-SOS", "4-SOS", "5-SOS", "70-SOS"],
+      "platformIds": ["146151", "146157", "146161"],
+      "departureRouteIds": [
+        "1-SOS",
+        "10-SOS",
+        "11-SOS",
+        "15-SOS",
+        "16-SOS",
+        "2-SOS",
+        "20-SOS",
+        "3-SOS",
+        "30-SOS",
+        "4-SOS",
+        "40-SOS",
+        "5-SOS",
+        "50-SOS",
+        "70-SOS",
+        "PL-SOS"
+      ]
+    },
+    {
+      "id": "city-centre",
+      "schematicId": "city-centre",
+      "name": "City Centre Exchange",
+      "lat": 49.49738,
+      "lon": -119.59163,
+      "lines": ["1-SOS", "2-SOS", "3-SOS", "4-SOS", "5-SOS", "70-SOS"],
+      "platformIds": [
+        "146025",
+        "146042",
+        "146043",
+        "146044",
+        "146045",
+        "146046",
+        "146047",
+        "146050",
+        "146051",
+        "146333"
+      ],
+      "departureRouteIds": [
+        "1-SOS",
+        "10-SOS",
+        "11-SOS",
+        "15-SOS",
+        "16-SOS",
+        "2-SOS",
+        "3-SOS",
+        "4-SOS",
+        "40-SOS",
+        "5-SOS",
+        "50-SOS",
+        "70-SOS",
+        "PL-SOS"
+      ]
+    },
+    {
+      "id": "146117",
+      "schematicId": "duncan-east",
+      "name": "Duncan / Columbia",
+      "lat": 49.48675,
+      "lon": -119.5599,
+      "lines": ["4-SOS"],
+      "platformIds": ["146117"],
+      "departureRouteIds": ["15-SOS", "3-SOS", "4-SOS", "5-SOS"]
+    },
+    {
+      "id": "146239",
+      "schematicId": "uplands",
+      "name": "Johnson / Haven Hill",
+      "lat": 49.49773,
+      "lon": -119.57978,
+      "lines": ["3-SOS"],
+      "platformIds": ["146239"],
+      "departureRouteIds": ["10-SOS", "3-SOS"]
+    },
+    {
+      "id": "146049",
+      "schematicId": "lakeshore",
+      "name": "Martin / Lakeshore",
+      "lat": 49.50213,
+      "lon": -119.59551,
+      "lines": ["5-SOS"],
+      "platformIds": ["146049"],
+      "departureRouteIds": ["2-SOS", "5-SOS"]
+    },
+    {
+      "id": "college",
+      "schematicId": "college",
+      "name": "Okanagan College",
+      "lat": 49.48662,
+      "lon": -119.60401,
+      "lines": ["2-SOS", "30-SOS", "4-SOS"],
+      "platformIds": ["146029", "146030"],
+      "departureRouteIds": ["15-SOS", "2-SOS", "30-SOS", "4-SOS", "40-SOS"]
+    },
+    {
+      "id": "peachtree",
+      "schematicId": "peachtree",
+      "name": "Peachtree Square",
+      "lat": 49.46376,
+      "lon": -119.58849,
+      "lines": ["1-SOS", "3-SOS", "5-SOS"],
+      "platformIds": ["146233", "146234"],
+      "departureRouteIds": [
+        "1-SOS",
+        "15-SOS",
+        "16-SOS",
+        "3-SOS",
+        "40-SOS",
+        "5-SOS",
+        "50-SOS",
+        "70-SOS"
+      ]
+    },
+    {
+      "id": "146280",
+      "schematicId": "penticton-ave",
+      "name": "Penticton Avenue",
+      "lat": 49.49036,
+      "lon": -119.55474,
+      "lines": ["2-SOS"],
+      "platformIds": ["146280"],
+      "departureRouteIds": ["2-SOS"]
+    },
+    {
+      "id": "hospital",
+      "schematicId": "hospital",
+      "name": "Penticton Hospital",
+      "lat": 49.4823,
+      "lon": -119.57623,
+      "lines": ["1-SOS", "3-SOS", "30-SOS"],
+      "platformIds": ["146147", "146148"],
+      "departureRouteIds": ["1-SOS", "3-SOS", "30-SOS", "40-SOS"]
+    },
+    {
+      "id": "plaza",
+      "schematicId": "plaza",
+      "name": "Penticton Plaza",
+      "lat": 49.48384,
+      "lon": -119.58698,
+      "lines": ["2-SOS", "30-SOS", "4-SOS", "5-SOS"],
+      "platformIds": ["146189", "146192", "146318"],
+      "departureRouteIds": [
+        "10-SOS",
+        "15-SOS",
+        "2-SOS",
+        "30-SOS",
+        "4-SOS",
+        "40-SOS",
+        "5-SOS",
+        "70-SOS"
+      ]
+    },
+    {
+      "id": "140215",
+      "schematicId": "queensway",
+      "name": "Queensway Exchange",
+      "lat": 49.88713,
+      "lon": -119.49494,
+      "lines": ["70-SOS"],
+      "platformIds": ["140215"],
+      "departureRouteIds": ["70-SOS"]
+    },
+    {
+      "id": "146247",
+      "schematicId": "riverside",
+      "name": "Riverside / Dynes",
+      "lat": 49.49924,
+      "lon": -119.61237,
+      "lines": ["1-SOS"],
+      "platformIds": ["146247"],
+      "departureRouteIds": ["1-SOS", "16-SOS", "PL-SOS"]
+    },
+    {
+      "id": "146215",
+      "schematicId": "skaha-channel",
+      "name": "Skaha Lake / Channel",
+      "lat": 49.45303,
+      "lon": -119.59638,
+      "lines": ["3-SOS"],
+      "platformIds": ["146215"],
+      "departureRouteIds": ["16-SOS", "3-SOS", "PL-SOS"]
+    },
+    {
+      "id": "westbank",
+      "schematicId": "westbank",
+      "name": "Westbank Exchange",
+      "lat": 49.82966,
+      "lon": -119.6316,
+      "lines": ["70-SOS"],
+      "platformIds": ["103606", "140213"],
+      "departureRouteIds": ["70-SOS"]
+    },
+    {
+      "id": "summerland",
+      "schematicId": "summerland",
+      "name": "Wharton / Kelly",
+      "lat": 49.60086,
+      "lon": -119.67986,
+      "lines": ["30-SOS"],
+      "platformIds": ["146284", "146290"],
+      "departureRouteIds": ["30-SOS"]
+    },
+    {
+      "id": "yorkton",
+      "schematicId": "yorkton",
+      "name": "Yorkton / South Main",
+      "lat": 49.45662,
+      "lon": -119.57898,
+      "lines": ["5-SOS"],
+      "platformIds": ["146088", "146089"],
+      "departureRouteIds": ["15-SOS", "16-SOS", "5-SOS", "70-SOS"]
+    }
+  ]
+}

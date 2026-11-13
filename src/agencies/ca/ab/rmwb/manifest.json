@@ -1,0 +1,132 @@
+{
+  "id": "rmwb",
+  "name": "Wood Buffalo Transit",
+  "serviceArea": "Fort McMurray",
+  "shortName": "Wood Buffalo",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "bounds": [
+    {
+      "minLat": 56.65,
+      "maxLat": 56.792,
+      "minLon": -111.49,
+      "maxLon": -111.32
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Regional Municipality of Wood Buffalo / Civilia",
+    "url": "https://www.rmwb.ca/programs-and-services/transit/",
+    "license": "No explicit data-reuse terms were found on the operator page publishing the GTFS and realtime feeds. The feed URL key is intentionally public and published by the operator.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "cityPresets": [
+    {
+      "name": "Timberlea Terminal",
+      "lat": 56.755948,
+      "lon": -111.454614
+    },
+    {
+      "name": "Thickwood Terminal",
+      "lat": 56.731304,
+      "lon": -111.437949
+    },
+    {
+      "name": "King Street At Keyano College",
+      "lat": 56.713412,
+      "lon": -111.351671
+    }
+  ],
+  "popularSurfaceRoutes": [
+    "Route 1",
+    "Route 2",
+    "Route 6",
+    "Route 3",
+    "Route 9",
+    "Route 4",
+    "Route 5",
+    "Route 7",
+    "Route 8"
+  ],
+  "alertInterpretation": {
+    "lineIds": ["Route 1", "Route 2", "Route 3", "Route 6", "Route 9"],
+    "rules": [
+      {
+        "priority": 200,
+        "match": {
+          "titleIncludes": ["Cancellation"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://rmwb-gtfsrt.civilia.ca/pb/vehiclePositions.pb?key=0C4bE1ff25e445788A128B1D6248D201",
+        "format": "protobuf",
+        "auth": {
+          "type": "query_param",
+          "parameterName": "key"
+        },
+        "pollIntervalSeconds": 30,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://rmwb-gtfsrt.civilia.ca/pb/tripUpdates.pb?key=0C4bE1ff25e445788A128B1D6248D201",
+        "format": "protobuf",
+        "auth": {
+          "type": "query_param",
+          "parameterName": "key"
+        },
+        "pollIntervalSeconds": 30,
+        "predictionTimeSource": "static-with-delay",
+        "tripDirectionSource": "static"
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Wood Buffalo Transit GTFS",
+        "url": "https://rmwb-gtfsrt.civilia.ca/gtfs?key=0C4bE1ff25e445788A128B1D6248D201",
+        "cacheFileName": "rmwb-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#005070",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "alerts": [
+    {
+      "type": "web",
+      "url": "https://apps4.rmwb.ca/transit-disruptions/mobile.php",
+      "parser": "disruption-details-table",
+      "routeNames": {
+        "Route 1": ["Route 1"],
+        "Route 2": ["Route 2"],
+        "Route 3": ["Route 3"],
+        "Route 4": ["Route 4"],
+        "Route 5": ["Route 5"],
+        "Route 6": ["Route 6"],
+        "Route 7": ["Route 7"],
+        "Route 8": ["Route 8"],
+        "Route 9": ["Route 9"]
+      }
+    }
+  ]
+}

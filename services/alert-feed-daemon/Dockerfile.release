@@ -1,0 +1,22 @@
+# syntax=docker/dockerfile:1
+# Minimal runtime image for multi-arch container assembling pre-compiled static binaries
+FROM alpine:latest
+
+RUN apk add --no-cache ca-certificates
+
+WORKDIR /app
+
+RUN mkdir -p /etc/alert-feed-daemon
+COPY services/alert-feed-daemon/feeds.json /etc/alert-feed-daemon/feeds.json
+
+ARG TARGETARCH
+COPY bin/${TARGETARCH}/alert-feed-daemon /usr/local/bin/alert-feed-daemon
+RUN chmod +x /usr/local/bin/alert-feed-daemon
+
+ENV PORT=3001 \
+    ALERT_FEED_CONFIG=/etc/alert-feed-daemon/feeds.json
+EXPOSE 3001
+
+USER 1000:1000
+
+ENTRYPOINT ["alert-feed-daemon"]

@@ -1,0 +1,1238 @@
+{
+  "viewBoxWidth": 1170.0,
+  "viewBoxHeight": 1230.0,
+  "lines": [
+    {
+      "id": "capital",
+      "name": "Capital Line",
+      "color": "#294DA7",
+      "points": [
+        {
+          "x": 780.0,
+          "y": 84.0
+        },
+        {
+          "x": 540.0,
+          "y": 324.0
+        },
+        {
+          "x": 540.0,
+          "y": 384.0
+        },
+        {
+          "x": 480.0,
+          "y": 444.0
+        },
+        {
+          "x": 312.0,
+          "y": 444.0
+        },
+        {
+          "x": 252.0,
+          "y": 504.0
+        },
+        {
+          "x": 252.0,
+          "y": 1008.0
+        }
+      ]
+    },
+    {
+      "id": "metro",
+      "name": "Metro Line",
+      "color": "#E5232D",
+      "points": [
+        {
+          "x": 360.0,
+          "y": 84.0
+        },
+        {
+          "x": 432.0,
+          "y": 156.0
+        },
+        {
+          "x": 432.0,
+          "y": 276.0
+        },
+        {
+          "x": 529.2,
+          "y": 373.2
+        },
+        {
+          "x": 529.2,
+          "y": 384.0
+        },
+        {
+          "x": 480.0,
+          "y": 433.2
+        },
+        {
+          "x": 312.0,
+          "y": 433.2
+        },
+        {
+          "x": 241.2,
+          "y": 504.0
+        },
+        {
+          "x": 241.2,
+          "y": 672.0
+        }
+      ]
+    },
+    {
+      "id": "valley",
+      "name": "Valley Line",
+      "color": "#219A49",
+      "points": [
+        {
+          "x": 456.0,
+          "y": 384.0
+        },
+        {
+          "x": 660.0,
+          "y": 384.0
+        },
+        {
+          "x": 660.0,
+          "y": 504.0
+        },
+        {
+          "x": 732.0,
+          "y": 576.0
+        },
+        {
+          "x": 732.0,
+          "y": 828.0
+        },
+        {
+          "x": 804.0,
+          "y": 900.0
+        },
+        {
+          "x": 804.0,
+          "y": 1068.0
+        },
+        {
+          "x": 876.0,
+          "y": 1140.0
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "clareview",
+      "name": "Clareview",
+      "x": 780.0,
+      "y": 84.0,
+      "lines": ["capital"],
+      "terminal": true,
+      "label": {
+        "x": 801.0,
+        "y": 84.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "belvedere",
+      "name": "Belvedere",
+      "x": 720.0,
+      "y": 144.0,
+      "lines": ["capital"],
+      "terminal": false,
+      "label": {
+        "x": 741.0,
+        "y": 144.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "coliseum",
+      "name": "Coliseum",
+      "x": 660.0,
+      "y": 204.0,
+      "lines": ["capital"],
+      "terminal": false,
+      "label": {
+        "x": 681.0,
+        "y": 204.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "stadium",
+      "name": "Stadium",
+      "x": 600.0,
+      "y": 264.0,
+      "lines": ["capital"],
+      "terminal": false,
+      "label": {
+        "x": 621.0,
+        "y": 264.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "churchill",
+      "name": "Churchill",
+      "x": 540.0,
+      "y": 384.0,
+      "lines": ["capital", "metro", "valley"],
+      "terminal": false,
+      "label": {
+        "x": 561.0,
+        "y": 351.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "central",
+      "name": "Central",
+      "x": 480.0,
+      "y": 444.0,
+      "lines": ["capital", "metro"],
+      "terminal": false,
+      "label": {
+        "x": 480.0,
+        "y": 474.0,
+        "rot": -45,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bay-enterprise-square",
+      "name": "Bay/Enterprise Square",
+      "x": 396.0,
+      "y": 444.0,
+      "lines": ["capital", "metro"],
+      "terminal": false,
+      "label": {
+        "x": 396.0,
+        "y": 414.0,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "corona",
+      "name": "Corona",
+      "x": 312.0,
+      "y": 444.0,
+      "lines": ["capital", "metro"],
+      "terminal": false,
+      "label": {
+        "x": 312.0,
+        "y": 474.0,
+        "rot": -45,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "government-centre",
+      "name": "Government Centre",
+      "x": 252.0,
+      "y": 504.0,
+      "lines": ["capital", "metro"],
+      "terminal": false,
+      "label": {
+        "x": 231.0,
+        "y": 504.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "university",
+      "name": "University",
+      "x": 252.0,
+      "y": 588.0,
+      "lines": ["capital", "metro"],
+      "terminal": false,
+      "label": {
+        "x": 231.0,
+        "y": 588.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "health-sciences-jubilee",
+      "name": "Health Sciences/Jubilee",
+      "x": 252.0,
+      "y": 672.0,
+      "lines": ["capital", "metro"],
+      "terminal": true,
+      "label": {
+        "x": 231.0,
+        "y": 672.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "mckernan-belgravia",
+      "name": "McKernan/Belgravia",
+      "x": 252.0,
+      "y": 756.0,
+      "lines": ["capital"],
+      "terminal": false,
+      "label": {
+        "x": 231.0,
+        "y": 756.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "south-campus",
+      "name": "South Campus/Fort Edmonton Park",
+      "x": 252.0,
+      "y": 840.0,
+      "lines": ["capital"],
+      "terminal": false,
+      "label": {
+        "x": 231.0,
+        "y": 840.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "southgate",
+      "name": "Southgate",
+      "x": 252.0,
+      "y": 924.0,
+      "lines": ["capital"],
+      "terminal": false,
+      "label": {
+        "x": 231.0,
+        "y": 924.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "century-park",
+      "name": "Century Park",
+      "x": 252.0,
+      "y": 1008.0,
+      "lines": ["capital"],
+      "terminal": true,
+      "label": {
+        "x": 231.0,
+        "y": 1008.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "nait-blatchford-market",
+      "name": "NAIT/Blatchford Market",
+      "x": 360.0,
+      "y": 84.0,
+      "lines": ["metro"],
+      "terminal": true,
+      "label": {
+        "x": 339.0,
+        "y": 84.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "kingsway-royal-alex",
+      "name": "Kingsway/Royal Alex",
+      "x": 432.0,
+      "y": 180.0,
+      "lines": ["metro"],
+      "terminal": false,
+      "label": {
+        "x": 411.0,
+        "y": 180.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "macewan",
+      "name": "MacEwan",
+      "x": 432.0,
+      "y": 264.0,
+      "lines": ["metro"],
+      "terminal": false,
+      "label": {
+        "x": 411.0,
+        "y": 264.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "102-street",
+      "name": "102 Street",
+      "x": 456.0,
+      "y": 384.0,
+      "lines": ["valley"],
+      "terminal": true,
+      "label": {
+        "x": 438.0,
+        "y": 354.0,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "quarters",
+      "name": "Quarters",
+      "x": 660.0,
+      "y": 384.0,
+      "lines": ["valley"],
+      "terminal": false,
+      "label": {
+        "x": 681.0,
+        "y": 384.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "muttart",
+      "name": "Muttart",
+      "x": 660.0,
+      "y": 504.0,
+      "lines": ["valley"],
+      "terminal": false,
+      "label": {
+        "x": 681.0,
+        "y": 504.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "strathearn",
+      "name": "Strathearn",
+      "x": 732.0,
+      "y": 576.0,
+      "lines": ["valley"],
+      "terminal": false,
+      "label": {
+        "x": 753.0,
+        "y": 576.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "holyrood",
+      "name": "Holyrood",
+      "x": 732.0,
+      "y": 660.0,
+      "lines": ["valley"],
+      "terminal": false,
+      "label": {
+        "x": 753.0,
+        "y": 660.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bonnie-doon",
+      "name": "Bonnie Doon",
+      "x": 732.0,
+      "y": 744.0,
+      "lines": ["valley"],
+      "terminal": false,
+      "label": {
+        "x": 753.0,
+        "y": 744.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "avonmore",
+      "name": "Avonmore",
+      "x": 732.0,
+      "y": 828.0,
+      "lines": ["valley"],
+      "terminal": false,
+      "label": {
+        "x": 753.0,
+        "y": 828.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "davies",
+      "name": "Davies",
+      "x": 804.0,
+      "y": 900.0,
+      "lines": ["valley"],
+      "terminal": false,
+      "label": {
+        "x": 825.0,
+        "y": 900.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "millbourne-woodvale",
+      "name": "Millbourne/Woodvale",
+      "x": 804.0,
+      "y": 984.0,
+      "lines": ["valley"],
+      "terminal": false,
+      "label": {
+        "x": 825.0,
+        "y": 984.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "grey-nuns",
+      "name": "Grey Nuns",
+      "x": 804.0,
+      "y": 1068.0,
+      "lines": ["valley"],
+      "terminal": false,
+      "label": {
+        "x": 825.0,
+        "y": 1068.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mill-woods",
+      "name": "Mill Woods",
+      "x": 876.0,
+      "y": 1140.0,
+      "lines": ["valley"],
+      "terminal": true,
+      "label": {
+        "x": 897.0,
+        "y": 1140.0,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "sequences": {
+    "capital": [
+      "clareview",
+      "belvedere",
+      "coliseum",
+      "stadium",
+      "churchill",
+      "central",
+      "bay-enterprise-square",
+      "corona",
+      "government-centre",
+      "university",
+      "health-sciences-jubilee",
+      "mckernan-belgravia",
+      "south-campus",
+      "southgate",
+      "century-park"
+    ],
+    "metro": [
+      "nait-blatchford-market",
+      "kingsway-royal-alex",
+      "macewan",
+      "churchill",
+      "central",
+      "bay-enterprise-square",
+      "corona",
+      "government-centre",
+      "university",
+      "health-sciences-jubilee"
+    ],
+    "valley": [
+      "102-street",
+      "churchill",
+      "quarters",
+      "muttart",
+      "strathearn",
+      "holyrood",
+      "bonnie-doon",
+      "avonmore",
+      "davies",
+      "millbourne-woodvale",
+      "grey-nuns",
+      "mill-woods"
+    ]
+  },
+  "stationAliases": {
+    "NAIT - Blatchford Market Station": "nait-blatchford-market",
+    "Kingsway RAH Station": "kingsway-royal-alex",
+    "MacEwan Station": "macewan",
+    "Government Station": "government-centre",
+    "Health Sciences Jubilee Station": "health-sciences-jubilee",
+    "South Campus Ft Edmonton Station": "south-campus",
+    "South Camputs Ft. Edmonton Station": "south-campus",
+    "Bay Enterprise Square Station": "bay-enterprise-square",
+    "McKernan Belgravia Station": "mckernan-belgravia",
+    "Churchill Station Underground": "churchill",
+    "Millbourne Woodvale Stop": "millbourne-woodvale",
+    "Clareview Station": "clareview",
+    "Clareview Stop": "clareview",
+    "Belvedere Station": "belvedere",
+    "Belvedere Stop": "belvedere",
+    "Coliseum Station": "coliseum",
+    "Coliseum Stop": "coliseum",
+    "Stadium Station": "stadium",
+    "Stadium Stop": "stadium",
+    "Churchill Station": "churchill",
+    "Churchill Stop": "churchill",
+    "Central Station": "central",
+    "Central Stop": "central",
+    "Bay/Enterprise Square Stop": "bay-enterprise-square",
+    "Corona Station": "corona",
+    "Corona Stop": "corona",
+    "Government Centre Station": "government-centre",
+    "Government Centre Stop": "government-centre",
+    "University Station": "university",
+    "University Stop": "university",
+    "Health Sciences/Jubilee Stop": "health-sciences-jubilee",
+    "McKernan/Belgravia Stop": "mckernan-belgravia",
+    "South Campus/Fort Edmonton Park Station": "south-campus",
+    "South Campus/Fort Edmonton Park Stop": "south-campus",
+    "Southgate Station": "southgate",
+    "Southgate Stop": "southgate",
+    "Century Park Station": "century-park",
+    "Century Park Stop": "century-park",
+    "102 Street Station": "102-street",
+    "102 Street Stop": "102-street",
+    "Quarters Station": "quarters",
+    "Quarters Stop": "quarters",
+    "Muttart Station": "muttart",
+    "Muttart Stop": "muttart",
+    "Strathearn Station": "strathearn",
+    "Strathearn Stop": "strathearn",
+    "Holyrood Station": "holyrood",
+    "Holyrood Stop": "holyrood",
+    "Bonnie Doon Station": "bonnie-doon",
+    "Bonnie Doon Stop": "bonnie-doon",
+    "Avonmore Station": "avonmore",
+    "Avonmore Stop": "avonmore",
+    "Davies Station": "davies",
+    "Davies Stop": "davies",
+    "Millbourne/Woodvale Station": "millbourne-woodvale",
+    "Grey Nuns Station": "grey-nuns",
+    "Grey Nuns Stop": "grey-nuns",
+    "Mill Woods Station": "mill-woods",
+    "Mill Woods Stop": "mill-woods",
+    "Century Park Transit Centre": "century-park",
+    "East Clareview Transit Centre": "clareview",
+    "West Clareview Transit Centre": "clareview",
+    "Mill Woods Transit Centre": "mill-woods",
+    "Southgate Transit Centre": "southgate",
+    "Belvedere Transit Centre": "belvedere",
+    "Coliseum Transit Centre": "coliseum",
+    "Stadium Transit Centre": "stadium",
+    "Davies Transit Centre": "davies",
+    "South Campus Fort Edmonton Transit Centre": "south-campus",
+    "Clareview": "clareview",
+    "Belvedere": "belvedere",
+    "Coliseum": "coliseum",
+    "Stadium": "stadium",
+    "Churchill": "churchill",
+    "Central": "central",
+    "Bay/Enterprise Square": "bay-enterprise-square",
+    "Corona": "corona",
+    "Government Centre": "government-centre",
+    "University": "university",
+    "Health Sciences/Jubilee": "health-sciences-jubilee",
+    "McKernan/Belgravia": "mckernan-belgravia",
+    "South Campus/Fort Edmonton Park": "south-campus",
+    "Southgate": "southgate",
+    "Century Park": "century-park",
+    "Bay Enterprise Station": "bay-enterprise-square",
+    "102 St Stop": "102-street",
+    "Kingsway RAH Transit Centre": "kingsway-royal-alex",
+    "Government Transit Centre": "government-centre",
+    "University Transit Centre": "university",
+    "South Campus Ft. Edmonton TC": "south-campus"
+  },
+  "badges": [
+    {
+      "line": "capital",
+      "num": "C",
+      "x": 742.37,
+      "y": 76.37,
+      "color": "#294DA7",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "metro",
+      "num": "M",
+      "x": 464,
+      "y": 180.0,
+      "color": "#E5232D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "valley",
+      "num": "V",
+      "x": 836,
+      "y": 940,
+      "color": "#219A49",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0.0,
+      "maxX": 1170.0,
+      "minY": 0.0,
+      "maxY": 1230.0
+    },
+    "minZoom": 0.5,
+    "maxZoom": 10
+  },
+  "geoProjection": {
+    "refLonWest": -113.528414,
+    "refLonEast": -113.411819,
+    "refXWest": 252.0,
+    "refXEast": 780.0,
+    "refLatNorth": 53.601592,
+    "refLatSouth": 53.457805,
+    "refYNorth": 84.0,
+    "refYSouth": 1008.0
+  },
+  "stationIndex": [
+    {
+      "id": "QAVO",
+      "schematicId": "avonmore",
+      "name": "Avonmore",
+      "lat": 53.508301,
+      "lon": -113.455149,
+      "lines": ["valley"],
+      "platformIds": ["2717", "2718"],
+      "departureRouteIds": ["023R"]
+    },
+    {
+      "id": "belvedere",
+      "schematicId": "belvedere",
+      "name": "Belvedere",
+      "lat": 53.588203,
+      "lon": -113.435016,
+      "lines": ["capital"],
+      "platformIds": ["7201", "7202", "7203", "7204", "7208", "7209", "7212", "78301", "78302"],
+      "departureRouteIds": ["002", "021R", "053", "106", "107", "108", "633"]
+    },
+    {
+      "id": "QBON",
+      "schematicId": "bonnie-doon",
+      "name": "Bonnie Doon",
+      "lat": 53.519699,
+      "lon": -113.455351,
+      "lines": ["valley"],
+      "platformIds": ["2715", "2716"],
+      "departureRouteIds": ["023R"]
+    },
+    {
+      "id": "Q7003",
+      "schematicId": "central",
+      "name": "Central",
+      "lat": 53.541035,
+      "lon": -113.491717,
+      "lines": ["capital", "metro"],
+      "platformIds": ["19351", "19352"],
+      "departureRouteIds": ["021R", "022R"]
+    },
+    {
+      "id": "century-park",
+      "schematicId": "century-park",
+      "name": "Century Park",
+      "lat": 53.45728,
+      "lon": -113.515574,
+      "lines": ["capital"],
+      "platformIds": [
+        "4201",
+        "4202",
+        "4203",
+        "4204",
+        "4205",
+        "4206",
+        "4207",
+        "4208",
+        "4209",
+        "4210",
+        "4211",
+        "4212",
+        "4213",
+        "4214",
+        "4215",
+        "4216",
+        "49821",
+        "49822"
+      ],
+      "departureRouteIds": [
+        "009",
+        "021R",
+        "056",
+        "518",
+        "519",
+        "521",
+        "660",
+        "662",
+        "667",
+        "700X",
+        "705",
+        "707",
+        "708",
+        "709",
+        "712",
+        "713",
+        "715",
+        "716",
+        "717",
+        "718",
+        "719",
+        "721",
+        "722",
+        "729",
+        "747"
+      ]
+    },
+    {
+      "id": "churchill",
+      "schematicId": "churchill",
+      "name": "Churchill",
+      "lat": 53.54442,
+      "lon": -113.489045,
+      "lines": ["capital", "metro", "valley"],
+      "platformIds": ["1515", "1516", "18761", "18762"],
+      "departureRouteIds": ["021R", "022R", "023R"]
+    },
+    {
+      "id": "clareview",
+      "schematicId": "clareview",
+      "name": "Clareview",
+      "lat": 53.602469,
+      "lon": -113.411911,
+      "lines": ["capital"],
+      "platformIds": [
+        "7101",
+        "7102",
+        "7105",
+        "7106",
+        "7901",
+        "7902",
+        "7903",
+        "7904",
+        "7905",
+        "7906",
+        "7908",
+        "7909",
+        "7910",
+        "79771",
+        "79772"
+      ],
+      "departureRouteIds": [
+        "002",
+        "021R",
+        "053",
+        "054",
+        "104",
+        "107",
+        "108",
+        "113",
+        "114",
+        "116",
+        "117",
+        "118",
+        "119",
+        "121",
+        "633"
+      ]
+    },
+    {
+      "id": "coliseum",
+      "schematicId": "coliseum",
+      "name": "Coliseum",
+      "lat": 53.570845,
+      "lon": -113.459844,
+      "lines": ["capital"],
+      "platformIds": [
+        "1201",
+        "1202",
+        "1203",
+        "1204",
+        "1205",
+        "1206",
+        "1207",
+        "1208",
+        "1209",
+        "1210",
+        "1211",
+        "1212",
+        "18891",
+        "18892"
+      ],
+      "departureRouteIds": [
+        "002",
+        "005",
+        "008",
+        "021R",
+        "053",
+        "071",
+        "102",
+        "104",
+        "114",
+        "589",
+        "633"
+      ]
+    },
+    {
+      "id": "Q7007",
+      "schematicId": "corona",
+      "name": "Corona",
+      "lat": 53.540977,
+      "lon": -113.505358,
+      "lines": ["capital", "metro"],
+      "platformIds": ["19261", "19262"],
+      "departureRouteIds": ["021R", "022R"]
+    },
+    {
+      "id": "davies",
+      "schematicId": "davies",
+      "name": "Davies",
+      "lat": 53.499824,
+      "lon": -113.444055,
+      "lines": ["valley"],
+      "platformIds": [
+        "2601",
+        "2604",
+        "2605",
+        "2606",
+        "2607",
+        "2608",
+        "2609",
+        "2610",
+        "2611",
+        "2687",
+        "2877"
+      ],
+      "departureRouteIds": [
+        "006",
+        "023R",
+        "501",
+        "502",
+        "503",
+        "504",
+        "505",
+        "506",
+        "511",
+        "636",
+        "653",
+        "656"
+      ]
+    },
+    {
+      "id": "Q7008",
+      "schematicId": "government-centre",
+      "name": "Government Centre",
+      "lat": 53.536148,
+      "lon": -113.504481,
+      "lines": ["capital", "metro"],
+      "platformIds": ["1301", "1305", "1306", "1307", "1310", "19251", "19252"],
+      "departureRouteIds": ["021R", "022R", "120X", "130X", "150X", "701"]
+    },
+    {
+      "id": "QGRN",
+      "schematicId": "grey-nuns",
+      "name": "Grey Nuns",
+      "lat": 53.46302,
+      "lon": -113.434653,
+      "lines": ["valley"],
+      "platformIds": ["3606", "3607"],
+      "departureRouteIds": ["023R"]
+    },
+    {
+      "id": "Q7009",
+      "schematicId": "health-sciences-jubilee",
+      "name": "Health Sciences/Jubilee",
+      "lat": 53.519935,
+      "lon": -113.525923,
+      "lines": ["capital", "metro"],
+      "platformIds": ["20141", "20142"],
+      "departureRouteIds": ["021R", "022R"]
+    },
+    {
+      "id": "QHOL",
+      "schematicId": "holyrood",
+      "name": "Holyrood",
+      "lat": 53.528045,
+      "lon": -113.457534,
+      "lines": ["valley"],
+      "platformIds": ["2006", "2162"],
+      "departureRouteIds": ["023R"]
+    },
+    {
+      "id": "Q7010",
+      "schematicId": "kingsway-royal-alex",
+      "name": "Kingsway/Royal Alex",
+      "lat": 53.558429,
+      "lon": -113.501409,
+      "lines": ["metro"],
+      "platformIds": [
+        "1104",
+        "1105",
+        "1106",
+        "1107",
+        "1108",
+        "1109",
+        "1110",
+        "1111",
+        "1112",
+        "11141",
+        "11142"
+      ],
+      "departureRouteIds": ["003", "022R", "102", "103", "111", "140X", "691", "701", "903"]
+    },
+    {
+      "id": "Q7016",
+      "schematicId": "macewan",
+      "name": "MacEwan",
+      "lat": 53.547806,
+      "lon": -113.499219,
+      "lines": ["metro"],
+      "platformIds": ["11171", "11172"],
+      "departureRouteIds": ["022R"]
+    },
+    {
+      "id": "Q7011",
+      "schematicId": "mckernan-belgravia",
+      "name": "McKernan/Belgravia",
+      "lat": 53.513445,
+      "lon": -113.526163,
+      "lines": ["capital"],
+      "platformIds": ["99811", "99812"],
+      "departureRouteIds": ["021R"]
+    },
+    {
+      "id": "mill-woods",
+      "schematicId": "mill-woods",
+      "name": "Mill Woods",
+      "lat": 53.457193,
+      "lon": -113.429382,
+      "lines": ["valley"],
+      "platformIds": [
+        "3899",
+        "3900",
+        "3901",
+        "3902",
+        "3903",
+        "3904",
+        "3905",
+        "3906",
+        "3907",
+        "3908",
+        "3909",
+        "3910",
+        "3911",
+        "3912",
+        "3913",
+        "3914",
+        "3915",
+        "3916",
+        "3917"
+      ],
+      "departureRouteIds": [
+        "023R",
+        "053",
+        "056",
+        "508",
+        "509A",
+        "509B",
+        "511",
+        "512",
+        "513",
+        "514",
+        "515",
+        "516",
+        "517",
+        "518",
+        "519",
+        "521",
+        "523",
+        "526",
+        "527",
+        "642",
+        "646",
+        "661"
+      ]
+    },
+    {
+      "id": "QMWO",
+      "schematicId": "millbourne-woodvale",
+      "name": "Millbourne/Woodvale",
+      "lat": 53.474723,
+      "lon": -113.438979,
+      "lines": ["valley"],
+      "platformIds": ["3875", "3876"],
+      "departureRouteIds": ["023R"]
+    },
+    {
+      "id": "QMUT",
+      "schematicId": "muttart",
+      "name": "Muttart",
+      "lat": 53.536271,
+      "lon": -113.479931,
+      "lines": ["valley"],
+      "platformIds": ["22992", "22993"],
+      "departureRouteIds": ["023R"]
+    },
+    {
+      "id": "Q7002",
+      "schematicId": "nait-blatchford-market",
+      "name": "NAIT/Blatchford Market",
+      "lat": 53.566634,
+      "lon": -113.508774,
+      "lines": ["metro"],
+      "platformIds": ["11163", "11164"],
+      "departureRouteIds": ["022R"]
+    },
+    {
+      "id": "QQUA",
+      "schematicId": "quarters",
+      "name": "Quarters",
+      "lat": 53.544426,
+      "lon": -113.484008,
+      "lines": ["valley"],
+      "platformIds": ["1518", "1519"],
+      "departureRouteIds": ["023R"]
+    },
+    {
+      "id": "Q7012",
+      "schematicId": "south-campus",
+      "name": "South Campus/Fort Edmonton Park",
+      "lat": 53.50318,
+      "lon": -113.528858,
+      "lines": ["capital"],
+      "platformIds": [
+        "21151",
+        "21152",
+        "2701",
+        "2702",
+        "2703",
+        "2704",
+        "2705",
+        "2706",
+        "2707",
+        "2710",
+        "2711",
+        "2712",
+        "2713",
+        "2714"
+      ],
+      "departureRouteIds": ["004", "021R", "031", "502", "655", "702", "703", "724", "910X", "930X"]
+    },
+    {
+      "id": "southgate",
+      "schematicId": "southgate",
+      "name": "Southgate",
+      "lat": 53.485522,
+      "lon": -113.516146,
+      "lines": ["capital"],
+      "platformIds": [
+        "21131",
+        "21132",
+        "2201",
+        "2202",
+        "2203",
+        "2204",
+        "2205",
+        "2206",
+        "2207",
+        "2208",
+        "2211",
+        "2212",
+        "2213",
+        "2214",
+        "2215",
+        "2218"
+      ],
+      "departureRouteIds": [
+        "006",
+        "009",
+        "021R",
+        "055",
+        "507",
+        "651",
+        "652",
+        "701",
+        "702",
+        "704",
+        "705",
+        "706",
+        "707",
+        "708",
+        "709"
+      ]
+    },
+    {
+      "id": "stadium",
+      "schematicId": "stadium",
+      "name": "Stadium",
+      "lat": 53.559811,
+      "lon": -113.471353,
+      "lines": ["capital"],
+      "platformIds": ["1401", "1402", "1403", "1404", "1405", "1407", "19811", "19812"],
+      "departureRouteIds": ["002", "003", "021R", "071", "101", "111", "622"]
+    },
+    {
+      "id": "QSTR",
+      "schematicId": "strathearn",
+      "name": "Strathearn",
+      "lat": 53.53169,
+      "lon": -113.462462,
+      "lines": ["valley"],
+      "platformIds": ["22990", "22991"],
+      "departureRouteIds": ["023R"]
+    },
+    {
+      "id": "Q7015",
+      "schematicId": "university",
+      "name": "University",
+      "lat": 53.525145,
+      "lon": -113.521555,
+      "lines": ["capital", "metro"],
+      "platformIds": ["2001", "2002", "23161", "23162"],
+      "departureRouteIds": ["004", "008", "021R", "022R", "031", "051", "723", "902", "920X"]
+    },
+    {
+      "id": "Q102St",
+      "schematicId": "102-street",
+      "name": "102 Street",
+      "lat": 53.54316,
+      "lon": -113.494138,
+      "lines": ["valley"],
+      "platformIds": ["1513", "1514"],
+      "departureRouteIds": ["023R"]
+    },
+    {
+      "id": "Q7000",
+      "schematicId": "bay-enterprise-square",
+      "name": "Bay/Enterprise Square",
+      "lat": 53.54091,
+      "lon": -113.497985,
+      "lines": ["capital", "metro"],
+      "platformIds": ["19851", "19852"],
+      "departureRouteIds": ["021R", "022R"]
+    }
+  ]
+}

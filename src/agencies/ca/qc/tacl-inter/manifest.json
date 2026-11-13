@@ -1,0 +1,169 @@
+{
+  "id": "tacl-inter",
+  "name": "L'Inter des Laurentides",
+  "serviceArea": "Mont-Tremblant – Saint-Jérôme",
+  "shortName": "L'Inter",
+  "locale": "fr-CA",
+  "timezone": "America/Montreal",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "bounds": [
+    {
+      "minLat": 46.098,
+      "maxLat": 46.13,
+      "minLon": -74.625,
+      "maxLon": -74.548
+    },
+    {
+      "minLat": 46.1197,
+      "maxLat": 46.1267,
+      "minLon": -74.4563,
+      "maxLon": -74.4457
+    },
+    {
+      "minLat": 46.1152,
+      "maxLat": 46.1213,
+      "minLon": -74.4359,
+      "maxLon": -74.427
+    },
+    {
+      "minLat": 46.1067,
+      "maxLat": 46.1189,
+      "minLon": -74.4888,
+      "maxLon": -74.4742
+    },
+    {
+      "minLat": 46.1092,
+      "maxLat": 46.1156,
+      "minLon": -74.5227,
+      "maxLon": -74.514
+    },
+    {
+      "minLat": 46.1007,
+      "maxLat": 46.1073,
+      "minLon": -74.4097,
+      "maxLon": -74.4015
+    },
+    {
+      "minLat": 46.0865,
+      "maxLat": 46.0928,
+      "minLon": -74.335,
+      "maxLon": -74.3263
+    },
+    {
+      "minLat": 46.0622,
+      "maxLat": 46.0685,
+      "minLon": -74.3119,
+      "maxLon": -74.3032
+    },
+    {
+      "minLat": 46.0373,
+      "maxLat": 46.064,
+      "minLon": -74.2917,
+      "maxLon": -74.2321
+    },
+    {
+      "minLat": 45.9671,
+      "maxLat": 46.0369,
+      "minLon": -74.223,
+      "maxLon": -74.1653
+    },
+    {
+      "minLat": 45.9334,
+      "maxLat": 45.964,
+      "minLon": -74.1511,
+      "maxLon": -74.1214
+    },
+    {
+      "minLat": 45.8805,
+      "maxLat": 45.9276,
+      "minLon": -74.1564,
+      "maxLon": -74.1031
+    },
+    {
+      "minLat": 45.8704,
+      "maxLat": 45.8767,
+      "minLon": -74.0815,
+      "maxLon": -74.0734
+    },
+    {
+      "minLat": 45.8567,
+      "maxLat": 45.8631,
+      "minLon": -74.0742,
+      "maxLon": -74.0658
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Transport adapté et collectif des Laurentides (TaCL) / Zenbus",
+    "url": "https://www.transportlaurentides.ca/",
+    "license": "Le catalogue de flux Zenbus indique ODbL-1.0, sans confirmation de l'exploitant. Les horaires et les données en temps réel sont attribués à TaCL et à son fournisseur de données Zenbus.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Sainte-Adèle (Place des Citoyens)",
+      "lat": 45.951018,
+      "lon": -74.133983
+    },
+    {
+      "name": "Sainte-Agathe-des-Monts",
+      "lat": 46.051732,
+      "lon": -74.284903
+    },
+    {
+      "name": "Mont-Tremblant (boul. du Docteur-Gervais)",
+      "lat": 46.123207,
+      "lon": -74.582222
+    }
+  ],
+  "popularSurfaceRoutes": ["Inter"],
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "short_name",
+    "feeds": [
+      {
+        "name": "L'Inter des Laurentides",
+        "url": "https://zenbus.net/gtfs/static/download.zip?dataset=linter",
+        "cacheFileName": "tacl-inter-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=linter",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=linter",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=linter",
+      "language": "fr"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["Inter"],
+    "routeLineMap": {
+      "zenbus:Line:6398051127132160:LOC": "Inter"
+    },
+    "rules": []
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "oakville",
+  "name": "Oakville Transit",
+  "serviceArea": "Oakville",
+  "shortName": "OT",
+  "brandColor": "#004B8C",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.38,
+      "maxLat": 43.515,
+      "minLon": -79.775,
+      "maxLon": -79.64
+    },
+    {
+      "minLat": 43.36,
+      "maxLat": 43.51,
+      "minLon": -79.835,
+      "maxLon": -79.65
+    },
+    {
+      "minLat": 43.35,
+      "maxLat": 43.53,
+      "minLon": -79.8,
+      "maxLon": -79.45
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Oakville Transit / Town of Oakville open data, adapted into this application",
+    "url": "https://www.oakville.ca/town-hall/plans-strategies/open-data/open-data-licence/",
+    "license": "Contains information licensed under the Open Government Licence – Town of Oakville.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "popularSurfaceRoutes": ["1", "3", "4", "5", "6", "13", "14", "14A", "19"],
+  "alertInterpretation": {
+    "lineIds": ["1", "3", "4", "5", "6", "13", "14", "19"],
+    "routeLineMap": {
+      "14A": "14"
+    },
+    "rules": [
+      {
+        "priority": 120,
+        "match": {
+          "textIncludes": ["delay", "delays", "delayed"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "cityPresets": [
+    {
+      "name": "Oakville GO",
+      "lat": 43.4558,
+      "lon": -79.6824
+    },
+    {
+      "name": "Uptown Core Terminal",
+      "lat": 43.485887,
+      "lon": -79.719198
+    },
+    {
+      "name": "Bronte GO",
+      "lat": 43.416332,
+      "lon": -79.724001
+    },
+    {
+      "name": "South Oakville Centre",
+      "lat": 43.412078,
+      "lon": -79.705097
+    },
+    {
+      "name": "Sheridan College",
+      "lat": 43.4696,
+      "lon": -79.6974
+    },
+    {
+      "name": "Oakville Trafalgar Memorial Hospital",
+      "lat": 43.45054,
+      "lon": -79.76471
+    },
+    {
+      "name": "Oakville Place",
+      "lat": 43.462,
+      "lon": -79.6889
+    },
+    {
+      "name": "Downtown Oakville",
+      "lat": 43.4471,
+      "lon": -79.668
+    },
+    {
+      "name": "Trafalgar / 407 Park & Ride",
+      "lat": 43.506475,
+      "lon": -79.745817
+    }
+  ],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Oakville Transit GTFS",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/d78a1c1ad6a940009de8b68839a8f606/data",
+        "cacheFileName": "oakville-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#004B8C",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://busfinder.oakvilletransit.ca/gtfsrt/vehicles",
+        "format": "protobuf"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://busfinder.oakvilletransit.ca/gtfsrt/trips",
+        "format": "protobuf"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://busfinder.oakvilletransit.ca/gtfsrt/alerts",
+      "format": "protobuf"
+    }
+  ]
+}

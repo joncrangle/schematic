@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Transit announcements</title>
+    <item>
+      <guid>english-1042</guid>
+      <title>Route 42 suspended near Central station</title>
+      <link>https://transit.example.test/en/articles/1042</link>
+      <description>Service is suspended while crews respond.</description>
+      <pubDate>Sat, 10 Oct 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

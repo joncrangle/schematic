@@ -1,0 +1,779 @@
+{
+  "viewBoxWidth": 1040,
+  "viewBoxHeight": 680,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Route 1",
+      "color": "#1E824C",
+      "points": [
+        {
+          "x": 720,
+          "y": 100
+        },
+        {
+          "x": 740,
+          "y": 440
+        },
+        {
+          "x": 640,
+          "y": 520
+        },
+        {
+          "x": 580,
+          "y": 520
+        },
+        {
+          "x": 320,
+          "y": 560
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Route 2",
+      "color": "#F37021",
+      "points": [
+        {
+          "x": 380,
+          "y": 260
+        },
+        {
+          "x": 460,
+          "y": 180
+        },
+        {
+          "x": 520,
+          "y": 340
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Route 4",
+      "color": "#8B1E41",
+      "points": [
+        {
+          "x": 200,
+          "y": 220
+        },
+        {
+          "x": 200,
+          "y": 360
+        },
+        {
+          "x": 520,
+          "y": 340
+        },
+        {
+          "x": 740,
+          "y": 440
+        }
+      ]
+    },
+    {
+      "id": "501",
+      "name": "Express 501/502",
+      "color": "#00843D",
+      "points": [
+        {
+          "x": 200,
+          "y": 220
+        },
+        {
+          "x": 200,
+          "y": 560
+        },
+        {
+          "x": 320,
+          "y": 560
+        },
+        {
+          "x": 380,
+          "y": 480
+        },
+        {
+          "x": 520,
+          "y": 340
+        },
+        {
+          "x": 740,
+          "y": 440
+        }
+      ]
+    },
+    {
+      "id": "601",
+      "name": "Express 601/602",
+      "color": "#E31B23",
+      "points": [
+        {
+          "x": 200,
+          "y": 220
+        },
+        {
+          "x": 520,
+          "y": 340
+        },
+        {
+          "x": 580,
+          "y": 520
+        },
+        {
+          "x": 640,
+          "y": 520
+        },
+        {
+          "x": 740,
+          "y": 440
+        },
+        {
+          "x": 820,
+          "y": 440
+        },
+        {
+          "x": 900,
+          "y": 360
+        },
+        {
+          "x": 960,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "701",
+      "name": "Express 701/702",
+      "color": "#00A3E0",
+      "points": [
+        {
+          "x": 200,
+          "y": 220
+        },
+        {
+          "x": 200,
+          "y": 360
+        },
+        {
+          "x": 520,
+          "y": 340
+        },
+        {
+          "x": 540,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "801",
+      "name": "Express 801/802",
+      "color": "#9E2A7A",
+      "points": [
+        {
+          "x": 720,
+          "y": 100
+        },
+        {
+          "x": 520,
+          "y": 340
+        },
+        {
+          "x": 580,
+          "y": 520
+        },
+        {
+          "x": 640,
+          "y": 520
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "cataraqui-centre",
+      "name": "Cataraqui Centre",
+      "x": 200,
+      "y": 220,
+      "lines": ["501", "601", "701", "4"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 185,
+        "y": 210,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "frontenac-mall",
+      "name": "Frontenac Mall",
+      "x": 200,
+      "y": 360,
+      "lines": ["701", "4"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 185,
+        "y": 360,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "centre-70-park-and-ride",
+      "name": "Centre 70 Park & Ride",
+      "x": 200,
+      "y": 555,
+      "lines": ["501"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 180,
+        "y": 555,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "st-lawrence-college",
+      "name": "St. Lawrence College",
+      "x": 320,
+      "y": 560,
+      "lines": ["501", "1"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 320,
+        "y": 580,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "queen-s-west-campus",
+      "name": "Queen's West Campus",
+      "x": 380,
+      "y": 480,
+      "lines": ["501"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 365,
+        "y": 480,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "kingston-station-via",
+      "name": "Kingston Station (VIA)",
+      "x": 380,
+      "y": 260,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 355,
+        "y": 210,
+        "rot": 0,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "bus-terminal",
+      "name": "Bus Terminal",
+      "x": 460,
+      "y": 187,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 460,
+        "y": 165,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "king-s-crossing-north",
+      "name": "King's Crossing North",
+      "x": 540,
+      "y": 100,
+      "lines": ["701"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 540,
+        "y": 80,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "kingston-centre",
+      "name": "Kingston Centre",
+      "x": 520,
+      "y": 340,
+      "lines": ["501", "601", "701", "801", "2", "4"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 555,
+        "y": 310,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "montreal-st-park-and-ride",
+      "name": "Montreal St. Park & Ride",
+      "x": 720,
+      "y": 100,
+      "lines": ["801", "1"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 720,
+        "y": 80,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "queen-s-university",
+      "name": "Queen's University",
+      "x": 580,
+      "y": 520,
+      "lines": ["601", "801", "1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 570,
+        "y": 540,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "kingston-general-hospital",
+      "name": "Kingston General Hospital",
+      "x": 640,
+      "y": 520,
+      "lines": ["601", "801", "1"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 630,
+        "y": 540,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown",
+      "x": 740,
+      "y": 440,
+      "lines": ["501", "601", "1", "4"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 725,
+        "y": 470,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "rmc",
+      "name": "RMC",
+      "x": 820,
+      "y": 435,
+      "lines": ["601"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 820,
+        "y": 460,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cfb-kingston",
+      "name": "CFB Kingston",
+      "x": 900,
+      "y": 360,
+      "lines": ["601"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 915,
+        "y": 360,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "innovation-dr-park-and-ride",
+      "name": "Innovation Dr. Park & Ride",
+      "x": 960,
+      "y": 260,
+      "lines": ["601"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 975,
+        "y": 260,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "501",
+      "num": "501",
+      "x": 168,
+      "y": 420,
+      "color": "#00843D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "601",
+      "num": "601",
+      "x": 320,
+      "y": 295,
+      "color": "#E31B23",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "701",
+      "num": "701",
+      "x": 562.89,
+      "y": 210.66,
+      "color": "#00A3E0",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "801",
+      "num": "801",
+      "x": 606.07,
+      "y": 186.73,
+      "color": "#9E2A7A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "1",
+      "num": "1",
+      "x": 762.01,
+      "y": 269.29,
+      "color": "#1E824C",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 390.73,
+      "y": 204.01,
+      "color": "#F37021",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 637.97,
+      "y": 358.47,
+      "color": "#8B1E41",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 150,
+      "maxX": 1000,
+      "minY": 60,
+      "maxY": 600
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -76.6,
+    "refLonEast": -76.42,
+    "refXWest": 60,
+    "refXEast": 960,
+    "refLatNorth": 44.28,
+    "refLatSouth": 44.21,
+    "refYNorth": 100,
+    "refYSouth": 600
+  },
+  "sequences": {
+    "1": [
+      "montreal-st-park-and-ride",
+      "downtown",
+      "kingston-general-hospital",
+      "queen-s-university",
+      "st-lawrence-college"
+    ],
+    "2": ["kingston-station-via", "bus-terminal", "kingston-centre"],
+    "4": ["cataraqui-centre", "frontenac-mall", "kingston-centre", "downtown"],
+    "501": [
+      "cataraqui-centre",
+      "centre-70-park-and-ride",
+      "st-lawrence-college",
+      "queen-s-west-campus",
+      "kingston-centre",
+      "downtown"
+    ],
+    "601": [
+      "cataraqui-centre",
+      "kingston-centre",
+      "queen-s-university",
+      "kingston-general-hospital",
+      "downtown",
+      "rmc",
+      "cfb-kingston",
+      "innovation-dr-park-and-ride"
+    ],
+    "701": ["cataraqui-centre", "frontenac-mall", "kingston-centre", "king-s-crossing-north"],
+    "801": [
+      "montreal-st-park-and-ride",
+      "kingston-centre",
+      "queen-s-university",
+      "kingston-general-hospital"
+    ]
+  },
+  "stationAliases": {
+    "695 innovation dr.": "innovation-dr-park-and-ride",
+    "bath / centennial": "frontenac-mall",
+    "bath / gardiners": "frontenac-mall",
+    "bath / kingston centre": "kingston-centre",
+    "centre 70 park and ride": "centre-70-park-and-ride",
+    "craftsman / d'artisan": "cfb-kingston",
+    "d'artisan / highway 2": "cfb-kingston",
+    "highway 2 / highway 15": "cfb-kingston",
+    "innovation / highway 15": "innovation-dr-park-and-ride",
+    "king's crossing": "king-s-crossing-north",
+    "king's crossing south": "king-s-crossing-north",
+    "montreal street park & ride": "montreal-st-park-and-ride",
+    "princess / kingston centre": "kingston-centre",
+    "queen's / kingston general hospital": "kingston-general-hospital",
+    "royal military college": "rmc",
+    "stuart / george": "kingston-general-hospital",
+    "union / alfred": "queen-s-university",
+    "via rail station": "kingston-station-via"
+  },
+  "stationIndex": [
+    {
+      "id": "bus-terminal",
+      "schematicId": "bus-terminal",
+      "name": "Bus Terminal",
+      "lat": 44.25875,
+      "lon": -76.50603,
+      "lines": ["2"],
+      "platformIds": ["S00052", "S02007", "S02014", "S09074"],
+      "departureRouteIds": ["2", "7", "N1"]
+    },
+    {
+      "id": "cataraqui-centre",
+      "schematicId": "cataraqui-centre",
+      "name": "Cataraqui Centre",
+      "lat": 44.25508,
+      "lon": -76.57215,
+      "lines": ["4", "501", "601", "701"],
+      "platformIds": [
+        "S02077",
+        "S02078",
+        "S02079",
+        "S02081",
+        "S02082",
+        "S02083",
+        "S02084",
+        "S02085"
+      ],
+      "departureRouteIds": [
+        "10",
+        "11",
+        "13",
+        "14",
+        "15",
+        "19",
+        "19A",
+        "4",
+        "501",
+        "502",
+        "6",
+        "7",
+        "701",
+        "702",
+        "N1"
+      ]
+    },
+    {
+      "id": "centre-70-park-and-ride",
+      "schematicId": "centre-70-park-and-ride",
+      "name": "Centre 70 Park & Ride",
+      "lat": 44.21883,
+      "lon": -76.56915,
+      "lines": ["501"],
+      "platformIds": ["S09036", "S09037"],
+      "departureRouteIds": ["15", "501", "502", "6"]
+    },
+    {
+      "id": "cfb-kingston",
+      "schematicId": "cfb-kingston",
+      "name": "CFB Kingston",
+      "lat": 44.23973,
+      "lon": -76.45767,
+      "lines": ["601"],
+      "platformIds": ["09096", "09171", "09172", "09174"],
+      "departureRouteIds": ["12", "60", "601", "602"]
+    },
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "Downtown",
+      "lat": 44.23117,
+      "lon": -76.4856,
+      "lines": ["1", "4", "501", "601"],
+      "platformIds": ["S02035", "S02036", "S02037", "S02038", "S02039", "S02040"],
+      "departureRouteIds": [
+        "1",
+        "12",
+        "2",
+        "4",
+        "501",
+        "502",
+        "601",
+        "602",
+        "701",
+        "702",
+        "801",
+        "802",
+        "N1"
+      ]
+    },
+    {
+      "id": "frontenac-mall",
+      "schematicId": "frontenac-mall",
+      "name": "Frontenac Mall",
+      "lat": 44.23754,
+      "lon": -76.54741,
+      "lines": ["4", "701"],
+      "platformIds": ["00806", "09030", "S09209"],
+      "departureRouteIds": ["701", "702"]
+    },
+    {
+      "id": "innovation-dr-park-and-ride",
+      "schematicId": "innovation-dr-park-and-ride",
+      "name": "Innovation Dr. Park & Ride",
+      "lat": 44.27169,
+      "lon": -76.44541,
+      "lines": ["601"],
+      "platformIds": ["00683", "00814", "S02080"],
+      "departureRouteIds": ["22", "601", "602"]
+    },
+    {
+      "id": "king-s-crossing-north",
+      "schematicId": "king-s-crossing-north",
+      "name": "King's Crossing North",
+      "lat": 44.26586,
+      "lon": -76.50343,
+      "lines": ["701"],
+      "platformIds": ["00831", "09215", "S09227"],
+      "departureRouteIds": ["60", "7", "701", "702"]
+    },
+    {
+      "id": "kingston-centre",
+      "schematicId": "kingston-centre",
+      "name": "Kingston Centre",
+      "lat": 44.24215,
+      "lon": -76.51677,
+      "lines": ["2", "4", "501", "601", "701", "801"],
+      "platformIds": [
+        "S00501",
+        "S00502",
+        "S00503",
+        "S00504",
+        "S00505",
+        "S00506",
+        "S09042",
+        "S09210",
+        "S09217"
+      ],
+      "departureRouteIds": ["11", "16", "31", "32", "4", "501", "701", "702"]
+    },
+    {
+      "id": "kingston-general-hospital",
+      "schematicId": "kingston-general-hospital",
+      "name": "Kingston General Hospital",
+      "lat": 44.22464,
+      "lon": -76.49221,
+      "lines": ["1", "601", "801"],
+      "platformIds": ["00318", "S00426", "S00427"],
+      "departureRouteIds": ["1", "12", "2", "501", "502", "601", "602", "N1"]
+    },
+    {
+      "id": "kingston-station-via",
+      "schematicId": "kingston-station-via",
+      "name": "Kingston Station (VIA Rail)",
+      "lat": 44.25773,
+      "lon": -76.53782,
+      "lines": ["2"],
+      "platformIds": ["09127"],
+      "departureRouteIds": ["11", "2"]
+    },
+    {
+      "id": "montreal-st-park-and-ride",
+      "schematicId": "montreal-st-park-and-ride",
+      "name": "Montreal St. Park & Ride",
+      "lat": 44.27897,
+      "lon": -76.47257,
+      "lines": ["1", "801"],
+      "platformIds": ["Smspr1"],
+      "departureRouteIds": ["1", "801", "802"]
+    },
+    {
+      "id": "queen-s-university",
+      "schematicId": "queen-s-university",
+      "name": "Queen's University",
+      "lat": 44.22769,
+      "lon": -76.49717,
+      "lines": ["1", "601", "801"],
+      "platformIds": ["09099", "S02042"],
+      "departureRouteIds": ["1", "12", "2", "N1"]
+    },
+    {
+      "id": "queen-s-west-campus",
+      "schematicId": "queen-s-west-campus",
+      "name": "Queen's West Campus",
+      "lat": 44.22335,
+      "lon": -76.51396,
+      "lines": ["501"],
+      "platformIds": ["S00444", "S02009"],
+      "departureRouteIds": ["1", "12", "2", "N1"]
+    },
+    {
+      "id": "rmc",
+      "schematicId": "rmc",
+      "name": "Royal Military College",
+      "lat": 44.2369,
+      "lon": -76.46556,
+      "lines": ["601"],
+      "platformIds": ["S00126", "S00127"],
+      "departureRouteIds": ["12", "60", "601", "602"]
+    },
+    {
+      "id": "st-lawrence-college",
+      "schematicId": "st-lawrence-college",
+      "name": "St. Lawrence College",
+      "lat": 44.22372,
+      "lon": -76.52642,
+      "lines": ["1", "501"],
+      "platformIds": ["S02070"],
+      "departureRouteIds": ["1", "12", "16", "2", "31", "32", "6", "N1"]
+    }
+  ]
+}

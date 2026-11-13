@@ -1,0 +1,829 @@
+{
+  "viewBoxWidth": 1850,
+  "viewBoxHeight": 1700,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 Northside",
+      "color": "#A41E36",
+      "points": [
+        {
+          "x": 1000,
+          "y": 500
+        },
+        {
+          "x": 900,
+          "y": 400
+        },
+        {
+          "x": 700,
+          "y": 400
+        },
+        {
+          "x": 700,
+          "y": 300
+        },
+        {
+          "x": 1100,
+          "y": 300
+        },
+        {
+          "x": 1100,
+          "y": 200
+        },
+        {
+          "x": 1200,
+          "y": 100
+        },
+        {
+          "x": 1300,
+          "y": 100
+        },
+        {
+          "x": 1200,
+          "y": 100
+        },
+        {
+          "x": 1100,
+          "y": 200
+        },
+        {
+          "x": 1100,
+          "y": 300
+        },
+        {
+          "x": 700,
+          "y": 300
+        },
+        {
+          "x": 700,
+          "y": 400
+        },
+        {
+          "x": 900,
+          "y": 400
+        },
+        {
+          "x": 1000,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Hospital",
+      "color": "#48B754",
+      "points": [
+        {
+          "x": 1000,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 600,
+          "y": 700
+        },
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 1100
+        },
+        {
+          "x": 800,
+          "y": 1100
+        },
+        {
+          "x": 1100,
+          "y": 1400
+        },
+        {
+          "x": 800,
+          "y": 1100
+        },
+        {
+          "x": 600,
+          "y": 1100
+        },
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 700
+        },
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 1000,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Talbot",
+      "color": "#37ADE0",
+      "points": [
+        {
+          "x": 1000,
+          "y": 500
+        },
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 250,
+          "y": 600
+        },
+        {
+          "x": 150,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 700
+        },
+        {
+          "x": 1000,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 500
+        },
+        {
+          "x": 1200,
+          "y": 500
+        },
+        {
+          "x": 1300,
+          "y": 600
+        },
+        {
+          "x": 1300,
+          "y": 750
+        },
+        {
+          "x": 1450,
+          "y": 750
+        },
+        {
+          "x": 1500,
+          "y": 700
+        },
+        {
+          "x": 1600,
+          "y": 700
+        },
+        {
+          "x": 1600,
+          "y": 800
+        },
+        {
+          "x": 1500,
+          "y": 900
+        },
+        {
+          "x": 1200,
+          "y": 900
+        },
+        {
+          "x": 1100,
+          "y": 800
+        },
+        {
+          "x": 1100,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Parkside",
+      "color": "#F26E4B",
+      "points": [
+        {
+          "x": 1000,
+          "y": 500
+        },
+        {
+          "x": 950,
+          "y": 550
+        },
+        {
+          "x": 950,
+          "y": 750
+        },
+        {
+          "x": 950,
+          "y": 900
+        },
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 450,
+          "y": 1000
+        },
+        {
+          "x": 350,
+          "y": 900
+        },
+        {
+          "x": 200,
+          "y": 900
+        },
+        {
+          "x": 100,
+          "y": 1000
+        },
+        {
+          "x": 100,
+          "y": 1150
+        },
+        {
+          "x": 200,
+          "y": 1250
+        },
+        {
+          "x": 300,
+          "y": 1250
+        },
+        {
+          "x": 450,
+          "y": 1100
+        },
+        {
+          "x": 500,
+          "y": 1100
+        },
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 800,
+          "y": 1000
+        },
+        {
+          "x": 950,
+          "y": 850
+        },
+        {
+          "x": 950,
+          "y": 550
+        },
+        {
+          "x": 1000,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "5 Fanshawe",
+      "color": "#2A398F",
+      "points": [
+        {
+          "x": 1000,
+          "y": 500
+        },
+        {
+          "x": 1050,
+          "y": 550
+        },
+        {
+          "x": 1150,
+          "y": 550
+        },
+        {
+          "x": 1250,
+          "y": 650
+        },
+        {
+          "x": 1250,
+          "y": 700
+        },
+        {
+          "x": 1300,
+          "y": 750
+        },
+        {
+          "x": 1300,
+          "y": 850
+        },
+        {
+          "x": 1400,
+          "y": 950
+        },
+        {
+          "x": 1500,
+          "y": 950
+        },
+        {
+          "x": 1500,
+          "y": 1250
+        },
+        {
+          "x": 1400,
+          "y": 1350
+        },
+        {
+          "x": 1150,
+          "y": 1350
+        },
+        {
+          "x": 1100,
+          "y": 1400
+        },
+        {
+          "x": 1150,
+          "y": 1350
+        },
+        {
+          "x": 1400,
+          "y": 1350
+        },
+        {
+          "x": 1500,
+          "y": 1250
+        },
+        {
+          "x": 1500,
+          "y": 950
+        },
+        {
+          "x": 1400,
+          "y": 950
+        },
+        {
+          "x": 1300,
+          "y": 850
+        },
+        {
+          "x": 1300,
+          "y": 750
+        },
+        {
+          "x": 1250,
+          "y": 700
+        },
+        {
+          "x": 1250,
+          "y": 650
+        },
+        {
+          "x": 1150,
+          "y": 550
+        },
+        {
+          "x": 1050,
+          "y": 550
+        },
+        {
+          "x": 1000,
+          "y": 500
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "hub",
+      "name": "The Hub",
+      "x": 1000,
+      "y": 500,
+      "lines": ["1", "2", "3", "4", "5"],
+      "label": {
+        "x": 1035,
+        "y": 480,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "balaclava-edgeware",
+      "name": "Balaclava @ South Edgeware",
+      "x": 700,
+      "y": 300,
+      "lines": ["1"],
+      "label": {
+        "x": 670,
+        "y": 300,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "edgeware-confederation",
+      "name": "South Edgeware @ Confederation",
+      "x": 1100,
+      "y": 300,
+      "lines": ["1"],
+      "label": {
+        "x": 1080,
+        "y": 270,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "valleyview",
+      "name": "Valleyview",
+      "x": 1300,
+      "y": 100,
+      "lines": ["1"],
+      "label": {
+        "x": 1300,
+        "y": 60,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "joe-thornton",
+      "name": "CASO @ Joe Thornton",
+      "x": 600,
+      "y": 800,
+      "lines": ["2"],
+      "label": {
+        "x": 570,
+        "y": 800,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "HOSPITAL STEGH",
+      "x": 600,
+      "y": 1000,
+      "lines": ["2", "4"],
+      "label": {
+        "x": 630,
+        "y": 1030,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fanshawe-college",
+      "name": "Fanshawe College",
+      "x": 1100,
+      "y": 1400,
+      "lines": ["2", "5"],
+      "label": {
+        "x": 1100,
+        "y": 1450,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "talbot-west",
+      "name": "Willam South of Talbot",
+      "x": 150,
+      "y": 700,
+      "lines": ["3"],
+      "label": {
+        "x": 150,
+        "y": 735,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "wellington-highview",
+      "name": "Wellington @ Highview",
+      "x": 1300,
+      "y": 750,
+      "lines": ["3", "5"],
+      "label": {
+        "x": 1310,
+        "y": 710,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "elgin-mall",
+      "name": "Elgin Mall East",
+      "x": 1500,
+      "y": 700,
+      "lines": ["3"],
+      "label": {
+        "x": 1530,
+        "y": 670,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "first-wellington",
+      "name": "First @ Wellington",
+      "x": 950,
+      "y": 750,
+      "lines": ["4"],
+      "label": {
+        "x": 980,
+        "y": 750,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "chester-wilson",
+      "name": "Chester @ Wilson",
+      "x": 350,
+      "y": 900,
+      "lines": ["4"],
+      "label": {
+        "x": 350,
+        "y": 860,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "parkside",
+      "name": "Parkside CI",
+      "x": 300,
+      "y": 1250,
+      "lines": ["4"],
+      "label": {
+        "x": 300,
+        "y": 1285,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "manor-elm",
+      "name": "Manor @ Elm",
+      "x": 1500,
+      "y": 1050,
+      "lines": ["5"],
+      "label": {
+        "x": 1530,
+        "y": 1050,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "peach-tree-carolina",
+      "name": "Peach Tree @ Carolina",
+      "x": 1500,
+      "y": 1250,
+      "lines": ["5"],
+      "label": {
+        "x": 1530,
+        "y": 1250,
+        "anchor": "start"
+      }
+    }
+  ],
+  "sequences": {
+    "1": ["hub", "balaclava-edgeware", "edgeware-confederation", "valleyview"],
+    "2": ["hub", "joe-thornton", "hospital", "fanshawe-college"],
+    "3": ["hub", "talbot-west", "wellington-highview", "elgin-mall"],
+    "4": ["hub", "first-wellington", "hospital", "chester-wilson", "parkside"],
+    "5": ["hub", "wellington-highview", "manor-elm", "peach-tree-carolina", "fanshawe-college"]
+  },
+  "stationAliases": {
+    "The Hub": "hub",
+    "Balaclava @ South Edgeware": "balaclava-edgeware",
+    "South Edgeware @ Confederation": "edgeware-confederation",
+    "Valleyview": "valleyview",
+    "CASO @ Joe Thornton": "joe-thornton",
+    "HOSPITAL STEGH": "hospital",
+    "Fanshawe College": "fanshawe-college",
+    "Willam South of Talbot": "talbot-west",
+    "Wellington @ Highview": "wellington-highview",
+    "Elgin Mall East": "elgin-mall",
+    "First @ Wellington": "first-wellington",
+    "Chester @ Wilson": "chester-wilson",
+    "Parkside CI": "parkside",
+    "Manor @ Elm": "manor-elm",
+    "Peach Tree @ Carolina": "peach-tree-carolina"
+  },
+  "stationIndex": [
+    {
+      "id": "balaclava-edgeware",
+      "schematicId": "balaclava-edgeware",
+      "name": "Balaclava @ South Edgeware",
+      "lat": 42.792623,
+      "lon": -81.182485,
+      "lines": ["1"],
+      "platformIds": ["105", "122"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "joe-thornton",
+      "schematicId": "joe-thornton",
+      "name": "CASO @ Joe Thornton",
+      "lat": 42.776426,
+      "lon": -81.18017,
+      "lines": ["2"],
+      "platformIds": ["203", "221"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "410",
+      "schematicId": "chester-wilson",
+      "name": "Chester @ Wilson",
+      "lat": 42.768852,
+      "lon": -81.195933,
+      "lines": ["4"],
+      "platformIds": ["410"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "319",
+      "schematicId": "elgin-mall",
+      "name": "Elgin Mall East",
+      "lat": 42.775617,
+      "lon": -81.159336,
+      "lines": ["3"],
+      "platformIds": ["319"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "212",
+      "schematicId": "fanshawe-college",
+      "name": "Fanshawe College",
+      "lat": 42.753894,
+      "lon": -81.169661,
+      "lines": ["2", "5"],
+      "platformIds": ["212"],
+      "departureRouteIds": ["2", "5"]
+    },
+    {
+      "id": "first-wellington",
+      "schematicId": "first-wellington",
+      "name": "First @ Wellington",
+      "lat": 42.776048,
+      "lon": -81.175797,
+      "lines": ["4"],
+      "platformIds": ["401", "424"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "hospital",
+      "schematicId": "hospital",
+      "name": "HOSPITAL STEGH",
+      "lat": 42.764136,
+      "lon": -81.180243,
+      "lines": ["2", "4"],
+      "platformIds": ["207", "217"],
+      "departureRouteIds": ["2", "4"]
+    },
+    {
+      "id": "manor-elm",
+      "schematicId": "manor-elm",
+      "name": "Manor @ Elm",
+      "lat": 42.763974,
+      "lon": -81.159777,
+      "lines": ["5"],
+      "platformIds": ["507", "519"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "415",
+      "schematicId": "parkside",
+      "name": "Parkside CI",
+      "lat": 42.756697,
+      "lon": -81.192883,
+      "lines": ["4"],
+      "platformIds": ["415"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "peach-tree-carolina",
+      "schematicId": "peach-tree-carolina",
+      "name": "Peach Tree @ Carolina",
+      "lat": 42.753706,
+      "lon": -81.157646,
+      "lines": ["5"],
+      "platformIds": ["510", "516"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "edgeware-confederation",
+      "schematicId": "edgeware-confederation",
+      "name": "South Edgeware @ Confederation",
+      "lat": 42.792866,
+      "lon": -81.168926,
+      "lines": ["1"],
+      "platformIds": ["108", "118"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "100",
+      "schematicId": "hub",
+      "name": "The Hub",
+      "lat": 42.781304,
+      "lon": -81.17216,
+      "lines": ["1", "2", "3", "4", "5"],
+      "platformIds": ["100"],
+      "departureRouteIds": ["1", "2", "3", "4", "5"]
+    },
+    {
+      "id": "113",
+      "schematicId": "valleyview",
+      "name": "Valleyview",
+      "lat": 42.804051,
+      "lon": -81.159042,
+      "lines": ["1"],
+      "platformIds": ["113"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "315",
+      "schematicId": "wellington-highview",
+      "name": "Wellington @ Highview",
+      "lat": 42.774566,
+      "lon": -81.16437,
+      "lines": ["3", "5"],
+      "platformIds": ["315"],
+      "departureRouteIds": ["3", "5"]
+    },
+    {
+      "id": "306",
+      "schematicId": "talbot-west",
+      "name": "Willam South of Talbot",
+      "lat": 42.778717,
+      "lon": -81.203024,
+      "lines": ["3"],
+      "platformIds": ["306"],
+      "departureRouteIds": ["3"]
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 1280,
+      "y": 132,
+      "color": "#A41E36",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 568,
+      "y": 850,
+      "color": "#48B754",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 450,
+      "y": 568,
+      "color": "#37ADE0",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 220,
+      "y": 1282,
+      "color": "#F26E4B",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 1532,
+      "y": 1100,
+      "color": "#2A398F",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1820,
+      "minY": 10,
+      "maxY": 1690
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -81.203024,
+    "refLonEast": -81.159336,
+    "refXWest": 150,
+    "refXEast": 1500,
+    "refLatNorth": 42.804051,
+    "refLatSouth": 42.753894,
+    "refYNorth": 100,
+    "refYSouth": 1400
+  }
+}

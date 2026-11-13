@@ -1,0 +1,2 @@
+# Seed-owned artifacts: never hand-edit, regenerate via scripts/seed.ts instead.
+src/agencies/**/interchanges.jsonc linguist-generated=true

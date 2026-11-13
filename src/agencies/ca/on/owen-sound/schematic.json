@@ -1,0 +1,507 @@
+{
+  "viewBoxWidth": 1700,
+  "viewBoxHeight": 1450,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 Brooke",
+      "color": "#E51B23",
+      "points": [
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 550,
+          "y": 700
+        },
+        {
+          "x": 550,
+          "y": 200
+        },
+        {
+          "x": 250,
+          "y": 200
+        },
+        {
+          "x": 250,
+          "y": 600
+        },
+        {
+          "x": 350,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Core",
+      "color": "#F5A000",
+      "points": [
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 780
+        },
+        {
+          "x": 490,
+          "y": 780
+        },
+        {
+          "x": 490,
+          "y": 860
+        },
+        {
+          "x": 850,
+          "y": 860
+        },
+        {
+          "x": 1050,
+          "y": 660
+        },
+        {
+          "x": 1050,
+          "y": 480
+        },
+        {
+          "x": 850,
+          "y": 480
+        },
+        {
+          "x": 750,
+          "y": 580
+        },
+        {
+          "x": 750,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Crosstown",
+      "color": "#3956A6",
+      "points": [
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 450,
+          "y": 900
+        },
+        {
+          "x": 450,
+          "y": 1250
+        },
+        {
+          "x": 850,
+          "y": 1250
+        },
+        {
+          "x": 1050,
+          "y": 1050
+        },
+        {
+          "x": 1350,
+          "y": 1050
+        },
+        {
+          "x": 1350,
+          "y": 950
+        },
+        {
+          "x": 1050,
+          "y": 950
+        },
+        {
+          "x": 800,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 East Bayshore",
+      "color": "#39A840",
+      "points": [
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 160
+        },
+        {
+          "x": 1150,
+          "y": 160
+        },
+        {
+          "x": 1150,
+          "y": 480
+        },
+        {
+          "x": 1450,
+          "y": 480
+        },
+        {
+          "x": 1450,
+          "y": 780
+        },
+        {
+          "x": 730,
+          "y": 780
+        },
+        {
+          "x": 650,
+          "y": 700
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "transit-terminal",
+      "name": "Transit Terminal",
+      "x": 650,
+      "y": 700,
+      "lines": ["1", "2", "3", "4"],
+      "label": {
+        "x": 610,
+        "y": 720,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "brooke-north",
+      "name": "28th St W at 4th Ave W",
+      "x": 420,
+      "y": 200,
+      "lines": ["1"],
+      "label": {
+        "x": 420,
+        "y": 165,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "osdss",
+      "name": "Back of OSDSS High School",
+      "x": 400,
+      "y": 700,
+      "lines": ["1"],
+      "label": {
+        "x": 375,
+        "y": 715,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "college-tenth",
+      "name": "10th St E College",
+      "x": 950,
+      "y": 760,
+      "lines": ["2"],
+      "label": {
+        "x": 960,
+        "y": 795,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mall",
+      "name": "Mall Entrance #2",
+      "x": 1050,
+      "y": 570,
+      "lines": ["2"],
+      "label": {
+        "x": 1020,
+        "y": 550,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ymca",
+      "name": "YMCA",
+      "x": 750,
+      "y": 620,
+      "lines": ["2"],
+      "label": {
+        "x": 780,
+        "y": 600,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "first-street-southwest",
+      "name": "4th Ave W at 1st St SW",
+      "x": 450,
+      "y": 1180,
+      "lines": ["3"],
+      "label": {
+        "x": 420,
+        "y": 1185,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Owen Sound Hospital",
+      "x": 1350,
+      "y": 950,
+      "lines": ["3"],
+      "label": {
+        "x": 1380,
+        "y": 920,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bayshore",
+      "name": "The Bayshore",
+      "x": 650,
+      "y": 400,
+      "lines": ["4"],
+      "label": {
+        "x": 680,
+        "y": 405,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "east-bayshore-north",
+      "name": "3rd Ave E at #2775",
+      "x": 900,
+      "y": 160,
+      "lines": ["4"],
+      "label": {
+        "x": 900,
+        "y": 125,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart/ Dollarama",
+      "x": 1310,
+      "y": 480,
+      "lines": ["4"],
+      "label": {
+        "x": 1330,
+        "y": 450,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "college-eighth",
+      "name": "8th St E College",
+      "x": 1220,
+      "y": 780,
+      "lines": ["4"],
+      "label": {
+        "x": 1220,
+        "y": 815,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 218,
+      "y": 390,
+      "color": "#E51B23",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 960,
+      "y": 448,
+      "color": "#F5A000",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 700,
+      "y": 1282,
+      "color": "#3956A6",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1182,
+      "y": 300,
+      "color": "#39A840",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 1650,
+      "minY": 60,
+      "maxY": 1400
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -80.961906,
+    "refLonEast": -80.905502,
+    "refXWest": 250,
+    "refXEast": 1450,
+    "refLatNorth": 44.594071,
+    "refLatSouth": 44.546103,
+    "refYNorth": 160,
+    "refYSouth": 1250
+  },
+  "sequences": {
+    "1": ["transit-terminal", "brooke-north", "osdss"],
+    "2": ["transit-terminal", "college-tenth", "mall", "ymca"],
+    "3": ["transit-terminal", "first-street-southwest", "hospital"],
+    "4": ["transit-terminal", "bayshore", "east-bayshore-north", "walmart", "college-eighth"]
+  },
+  "stationAliases": {},
+  "stationIndex": [
+    {
+      "id": "159",
+      "schematicId": "college-tenth",
+      "name": "10th St E College",
+      "lat": 44.570537,
+      "lon": -80.918523,
+      "lines": ["2"],
+      "platformIds": ["159"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "119",
+      "schematicId": "brooke-north",
+      "name": "28th St W at 4th Ave W",
+      "lat": 44.592062,
+      "lon": -80.945908,
+      "lines": ["1"],
+      "platformIds": ["119"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "73",
+      "schematicId": "east-bayshore-north",
+      "name": "3rd Ave E at #2775",
+      "lat": 44.594071,
+      "lon": -80.920569,
+      "lines": ["4"],
+      "platformIds": ["73"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "171",
+      "schematicId": "first-street-southwest",
+      "name": "4th Ave W at 1st St SW",
+      "lat": 44.546103,
+      "lon": -80.944774,
+      "lines": ["3"],
+      "platformIds": ["171"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "189",
+      "schematicId": "college-eighth",
+      "name": "8th St E College",
+      "lat": 44.566737,
+      "lon": -80.918881,
+      "lines": ["4"],
+      "platformIds": ["189"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "156",
+      "schematicId": "osdss",
+      "name": "Back of OSDSS High School",
+      "lat": 44.566555,
+      "lon": -80.957481,
+      "lines": ["1"],
+      "platformIds": ["156"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "84",
+      "schematicId": "mall",
+      "name": "Mall Entrance #2",
+      "lat": 44.576704,
+      "lon": -80.91936,
+      "lines": ["2"],
+      "platformIds": ["84"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "192",
+      "schematicId": "hospital",
+      "name": "Owen Sound Hospital",
+      "lat": 44.569214,
+      "lon": -80.91165,
+      "lines": ["3"],
+      "platformIds": ["192"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "180",
+      "schematicId": "bayshore",
+      "name": "The Bayshore",
+      "lat": 44.579265,
+      "lon": -80.93413,
+      "lines": ["4"],
+      "platformIds": ["180"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "2",
+      "schematicId": "transit-terminal",
+      "name": "Transit Terminal",
+      "lat": 44.568553,
+      "lon": -80.941739,
+      "lines": ["1", "2", "3", "4"],
+      "platformIds": ["2"],
+      "departureRouteIds": ["1", "2", "3", "4"]
+    },
+    {
+      "id": "88",
+      "schematicId": "walmart",
+      "name": "Walmart/ Dollarama",
+      "lat": 44.574782,
+      "lon": -80.910259,
+      "lines": ["4"],
+      "platformIds": ["88"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "165",
+      "schematicId": "ymca",
+      "name": "YMCA",
+      "lat": 44.56912,
+      "lon": -80.932785,
+      "lines": ["2"],
+      "platformIds": ["165"],
+      "departureRouteIds": ["2"]
+    }
+  ]
+}

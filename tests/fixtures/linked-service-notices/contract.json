@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "same-origin relative cards are deduplicated",
+      "html": "<a data-alerts-type=\"notice\" data-alerts-line=\"/7/\" href=\"/one\"><h3>Detour</h3></a><a data-alerts-type=\"notice\" data-alerts-line=\"/7/\" href=\"/one\"><h3>Detour</h3></a>",
+      "urls": [
+        "https://example.test/one"
+      ]
+    },
+    {
+      "name": "unreadable card title fails",
+      "html": "<a data-alerts-type=\"notice\" data-alerts-line=\"/7/\" href=\"/one\"></a>",
+      "error": true
+    },
+    {
+      "name": "missing route scope fails",
+      "html": "<a data-alerts-type=\"notice\" href=\"/one\"><h3>Detour</h3></a>",
+      "error": true
+    },
+    {
+      "name": "foreign advisory link fails",
+      "html": "<a data-alerts-type=\"notice\" data-alerts-line=\"\" href=\"https://foreign.test/one\"><h3>Detour</h3></a>",
+      "error": true
+    }
+  ]
+}

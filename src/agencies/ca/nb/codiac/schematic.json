@@ -1,0 +1,724 @@
+{
+  "viewBoxWidth": 1700,
+  "viewBoxHeight": 1620,
+  "lines": [
+    {
+      "id": "50",
+      "name": "Red Line / Ligne Rouge",
+      "color": "#CF000F",
+      "points": [
+        {
+          "x": 1040,
+          "y": 720
+        },
+        {
+          "x": 980,
+          "y": 660
+        },
+        {
+          "x": 780,
+          "y": 660
+        },
+        {
+          "x": 780,
+          "y": 500
+        },
+        {
+          "x": 700,
+          "y": 420
+        },
+        {
+          "x": 460,
+          "y": 420
+        },
+        {
+          "x": 460,
+          "y": 340
+        },
+        {
+          "x": 500,
+          "y": 300
+        },
+        {
+          "x": 500,
+          "y": 180
+        },
+        {
+          "x": 380,
+          "y": 60
+        },
+        {
+          "x": 260,
+          "y": 60
+        },
+        {
+          "x": 260,
+          "y": 720
+        },
+        {
+          "x": 440,
+          "y": 900
+        },
+        {
+          "x": 860,
+          "y": 900
+        },
+        {
+          "x": 1040,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Green Line / Ligne Verte",
+      "color": "#1F7334",
+      "points": [
+        {
+          "x": 140,
+          "y": 140
+        },
+        {
+          "x": 340,
+          "y": 140
+        },
+        {
+          "x": 500,
+          "y": 300
+        },
+        {
+          "x": 460,
+          "y": 340
+        },
+        {
+          "x": 460,
+          "y": 420
+        },
+        {
+          "x": 460,
+          "y": 940
+        },
+        {
+          "x": 640,
+          "y": 1120
+        },
+        {
+          "x": 760,
+          "y": 1000
+        },
+        {
+          "x": 1040,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Hildegard",
+      "color": "#DA87C8",
+      "points": [
+        {
+          "x": 460,
+          "y": 420
+        },
+        {
+          "x": 460,
+          "y": 340
+        },
+        {
+          "x": 500,
+          "y": 300
+        },
+        {
+          "x": 340,
+          "y": 140
+        },
+        {
+          "x": 140,
+          "y": 140
+        },
+        {
+          "x": 280,
+          "y": 280
+        },
+        {
+          "x": 420,
+          "y": 420
+        },
+        {
+          "x": 460,
+          "y": 420
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Hospitals / H\u00f4pitaux",
+      "color": "#87411E",
+      "points": [
+        {
+          "x": 760,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 840
+        },
+        {
+          "x": 600,
+          "y": 560
+        },
+        {
+          "x": 680,
+          "y": 480
+        },
+        {
+          "x": 780,
+          "y": 480
+        },
+        {
+          "x": 780,
+          "y": 660
+        },
+        {
+          "x": 900,
+          "y": 780
+        },
+        {
+          "x": 900,
+          "y": 860
+        },
+        {
+          "x": 760,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Riverview",
+      "color": "#9C4A8A",
+      "points": [
+        {
+          "x": 760,
+          "y": 1000
+        },
+        {
+          "x": 640,
+          "y": 1120
+        },
+        {
+          "x": 640,
+          "y": 1240
+        },
+        {
+          "x": 460,
+          "y": 1420
+        },
+        {
+          "x": 460,
+          "y": 1500
+        },
+        {
+          "x": 720,
+          "y": 1500
+        },
+        {
+          "x": 820,
+          "y": 1400
+        },
+        {
+          "x": 820,
+          "y": 1060
+        },
+        {
+          "x": 760,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "Champlain",
+      "color": "#4BB84D",
+      "points": [
+        {
+          "x": 1040,
+          "y": 720
+        },
+        {
+          "x": 1180,
+          "y": 580
+        },
+        {
+          "x": 1320,
+          "y": 580
+        },
+        {
+          "x": 1320,
+          "y": 500
+        },
+        {
+          "x": 1440,
+          "y": 500
+        },
+        {
+          "x": 1440,
+          "y": 660
+        },
+        {
+          "x": 1320,
+          "y": 780
+        },
+        {
+          "x": 1100,
+          "y": 780
+        },
+        {
+          "x": 1040,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "name": "Orange",
+      "color": "#F57B2D",
+      "points": [
+        {
+          "x": 1040,
+          "y": 720
+        },
+        {
+          "x": 1120,
+          "y": 640
+        },
+        {
+          "x": 1180,
+          "y": 640
+        },
+        {
+          "x": 1320,
+          "y": 780
+        },
+        {
+          "x": 1320,
+          "y": 1200
+        },
+        {
+          "x": 1160,
+          "y": 1360
+        },
+        {
+          "x": 1040,
+          "y": 1240
+        },
+        {
+          "x": 1040,
+          "y": 720
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "champlain",
+      "name": "Place Champlain Place",
+      "x": 1040,
+      "y": 720,
+      "lines": ["50", "51", "96", "93"],
+      "label": {
+        "x": 1072,
+        "y": 720,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "plaza",
+      "name": "North / South Plaza",
+      "x": 460,
+      "y": 420,
+      "lines": ["50", "51", "62"],
+      "label": {
+        "x": 410,
+        "y": 460,
+        "anchor": "end"
+      },
+      "labelLeader": true
+    },
+    {
+      "id": "trinity",
+      "name": "Trinity / The Brick",
+      "x": 500,
+      "y": 300,
+      "lines": ["50", "51", "62"],
+      "label": {
+        "x": 532,
+        "y": 300,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "magnetic-hill",
+      "name": "Magnetic Hill",
+      "x": 140,
+      "y": 140,
+      "lines": ["51", "62"],
+      "label": {
+        "x": 140,
+        "y": 106,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "hildegard",
+      "name": "Hildegard / Mailhot",
+      "x": 280,
+      "y": 280,
+      "lines": ["62"],
+      "label": {
+        "x": 248,
+        "y": 280,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "university",
+      "name": "Universit\u00e9 de Moncton",
+      "x": 780,
+      "y": 660,
+      "lines": ["50", "64"],
+      "label": {
+        "x": 812,
+        "y": 620,
+        "anchor": "start"
+      },
+      "labelLeader": true
+    },
+    {
+      "id": "main",
+      "name": "1111 / 1110 Main",
+      "x": 760,
+      "y": 1000,
+      "lines": ["51", "64", "81"],
+      "label": {
+        "x": 792,
+        "y": 1000,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "via-rail",
+      "name": "Main / Vaughan Harvey",
+      "x": 640,
+      "y": 1120,
+      "lines": ["51", "81"],
+      "label": {
+        "x": 608,
+        "y": 1120,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "aquatic",
+      "name": "P\u00f4le Aquatique Hub",
+      "x": 1320,
+      "y": 780,
+      "lines": ["93", "96"],
+      "label": {
+        "x": 1352,
+        "y": 780,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "champlain-east",
+      "name": "Champlain / Dieppe",
+      "x": 1320,
+      "y": 500,
+      "lines": ["93"],
+      "label": {
+        "x": 1320,
+        "y": 466,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "fox-creek",
+      "name": "Fox Creek / Amirault",
+      "x": 1160,
+      "y": 1360,
+      "lines": ["96"],
+      "label": {
+        "x": 1160,
+        "y": 1394,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "riverview-mall",
+      "name": "Riverview Mall",
+      "x": 460,
+      "y": 1420,
+      "lines": ["81"],
+      "label": {
+        "x": 428,
+        "y": 1420,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "pine-glen",
+      "name": "Pine Glen",
+      "x": 720,
+      "y": 1500,
+      "lines": ["81"],
+      "label": {
+        "x": 720,
+        "y": 1534,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "50": ["champlain", "university", "plaza", "trinity"],
+    "51": ["magnetic-hill", "trinity", "plaza", "via-rail", "main", "champlain"],
+    "62": ["plaza", "trinity", "magnetic-hill", "hildegard"],
+    "64": ["main", "university"],
+    "81": ["main", "via-rail", "riverview-mall", "pine-glen"],
+    "93": ["champlain", "champlain-east", "aquatic"],
+    "96": ["champlain", "aquatic", "fox-creek"]
+  },
+  "stationAliases": {
+    "code:D0200": "champlain",
+    "code:M0785": "plaza",
+    "code:M1029": "plaza",
+    "code:M1075": "trinity",
+    "code:M1115": "magnetic-hill",
+    "code:M0338": "hildegard",
+    "code:M0746": "university",
+    "code:M0969": "university",
+    "code:M0234": "main",
+    "code:M0413": "main",
+    "code:M0463": "via-rail",
+    "code:D 1305": "aquatic",
+    "code:D1128": "champlain-east",
+    "code:D1138": "champlain-east",
+    "code:D1002": "fox-creek",
+    "code:D1192": "fox-creek",
+    "code:R1178": "riverview-mall",
+    "code:R0577": "pine-glen"
+  },
+  "badges": [
+    {
+      "line": "50",
+      "num": "50",
+      "x": 228,
+      "y": 600,
+      "color": "#CF000F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "51",
+      "num": "51",
+      "x": 428,
+      "y": 780,
+      "color": "#1F7334",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "62",
+      "num": "62",
+      "x": 172,
+      "y": 300,
+      "color": "#DA87C8",
+      "textColor": "#000000"
+    },
+    {
+      "line": "64",
+      "num": "64",
+      "x": 568,
+      "y": 700,
+      "color": "#87411E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "81",
+      "num": "81",
+      "x": 852,
+      "y": 1300,
+      "color": "#9C4A8A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "93",
+      "num": "93",
+      "x": 1472,
+      "y": 600,
+      "color": "#4BB84D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "96",
+      "num": "96",
+      "x": 1352,
+      "y": 1060,
+      "color": "#F57B2D",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1700,
+      "minY": 50,
+      "maxY": 1620
+    },
+    "minZoom": 0.6,
+    "maxZoom": 5
+  },
+  "geoProjection": {
+    "refLonWest": -64.8910137946018,
+    "refLonEast": -64.7014543696716,
+    "refXWest": 140,
+    "refXEast": 1320,
+    "refLatNorth": 46.1366518519313,
+    "refLatSouth": 46.059901,
+    "refYNorth": 140,
+    "refYSouth": 1500
+  },
+  "stationIndex": [
+    {
+      "id": "main",
+      "schematicId": "main",
+      "name": "1111 / 1110 Main",
+      "lat": 46.0862758207244,
+      "lon": -64.7852084437432,
+      "lines": ["51", "64", "81"],
+      "platformIds": ["M0234", "M0413"],
+      "departureRouteIds": ["51", "60", "64", "66", "67", "68", "81", "82", "86"]
+    },
+    {
+      "id": "champlain-east",
+      "schematicId": "champlain-east",
+      "name": "Champlain / Dieppe",
+      "lat": 46.1049481139688,
+      "lon": -64.7016356630587,
+      "lines": ["93"],
+      "platformIds": ["D1128", "D1136", "D1138"],
+      "departureRouteIds": ["93"]
+    },
+    {
+      "id": "fox-creek",
+      "schematicId": "fox-creek",
+      "name": "Fox Creek / Amirault",
+      "lat": 46.0624643677106,
+      "lon": -64.7047583152856,
+      "lines": ["96"],
+      "platformIds": ["D1002", "D1192"],
+      "departureRouteIds": ["96", "96A"]
+    },
+    {
+      "id": "hildegard",
+      "schematicId": "hildegard",
+      "name": "Hildegard / Mailhot",
+      "lat": 46.1123117888918,
+      "lon": -64.8466739714668,
+      "lines": ["62"],
+      "platformIds": ["M0338", "T5009"],
+      "departureRouteIds": ["50", "62"]
+    },
+    {
+      "id": "M1115",
+      "schematicId": "magnetic-hill",
+      "name": "Magnetic Hill",
+      "lat": 46.1366518519313,
+      "lon": -64.8910137946018,
+      "lines": ["51", "62"],
+      "platformIds": ["M1115"],
+      "departureRouteIds": ["51", "62"]
+    },
+    {
+      "id": "M0463",
+      "schematicId": "via-rail",
+      "name": "Main / Vaughan Harvey",
+      "lat": 46.0850175836578,
+      "lon": -64.788747886267,
+      "lines": ["51", "81"],
+      "platformIds": ["M0463"],
+      "departureRouteIds": ["51", "66", "67", "68", "81", "82", "86"]
+    },
+    {
+      "id": "plaza",
+      "schematicId": "plaza",
+      "name": "North / South Plaza",
+      "lat": 46.1133794908961,
+      "lon": -64.8290381709467,
+      "lines": ["50", "51", "62"],
+      "platformIds": ["M0785", "M1029"],
+      "departureRouteIds": ["50", "51", "62", "65"]
+    },
+    {
+      "id": "R0577",
+      "schematicId": "pine-glen",
+      "name": "Pine Glen",
+      "lat": 46.0657564734388,
+      "lon": -64.7935111053862,
+      "lines": ["81"],
+      "platformIds": ["R0577"],
+      "departureRouteIds": ["81"]
+    },
+    {
+      "id": "D0200",
+      "schematicId": "champlain",
+      "name": "Place Champlain Place",
+      "lat": 46.0967314490651,
+      "lon": -64.759525358452,
+      "lines": ["50", "51", "93", "96"],
+      "platformIds": ["D0200"],
+      "departureRouteIds": ["16", "50", "51", "61", "63", "93", "94", "94A", "96", "96A"]
+    },
+    {
+      "id": "D 1305",
+      "schematicId": "aquatic",
+      "name": "Pôle Aquatique Hub",
+      "lat": 46.0956925727609,
+      "lon": -64.7022200829003,
+      "lines": ["93", "96"],
+      "platformIds": ["D 1305"],
+      "departureRouteIds": ["93", "94", "94A", "96", "96A", "98"]
+    },
+    {
+      "id": "R1178",
+      "schematicId": "riverview-mall",
+      "name": "Riverview Mall",
+      "lat": 46.059901,
+      "lon": -64.818884,
+      "lines": ["81"],
+      "platformIds": ["R1178"],
+      "departureRouteIds": ["81", "82", "85", "86"]
+    },
+    {
+      "id": "M1075",
+      "schematicId": "trinity",
+      "name": "Trinity / The Brick",
+      "lat": 46.1158427059583,
+      "lon": -64.8308849387375,
+      "lines": ["50", "51", "62"],
+      "platformIds": ["M1075"],
+      "departureRouteIds": ["50", "51", "62", "65"]
+    },
+    {
+      "id": "university",
+      "schematicId": "university",
+      "name": "Université de Moncton",
+      "lat": 46.1064010027312,
+      "lon": -64.7918487345421,
+      "lines": ["50", "64"],
+      "platformIds": ["M0746", "M0969"],
+      "departureRouteIds": ["16", "50", "64"]
+    }
+  ]
+}

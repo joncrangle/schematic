@@ -1,0 +1,518 @@
+{
+  "viewBoxWidth": 1800,
+  "viewBoxHeight": 1950,
+  "lines": [
+    {
+      "id": "1-DAW",
+      "name": "Northside",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 1200,
+          "y": 900
+        },
+        {
+          "x": 1400,
+          "y": 900
+        },
+        {
+          "x": 1550,
+          "y": 750
+        },
+        {
+          "x": 1550,
+          "y": 550
+        },
+        {
+          "x": 1450,
+          "y": 450
+        },
+        {
+          "x": 1450,
+          "y": 350
+        },
+        {
+          "x": 1350,
+          "y": 250
+        },
+        {
+          "x": 1100,
+          "y": 250
+        },
+        {
+          "x": 1100,
+          "y": 450
+        },
+        {
+          "x": 950,
+          "y": 600
+        },
+        {
+          "x": 650,
+          "y": 600
+        },
+        {
+          "x": 500,
+          "y": 450
+        },
+        {
+          "x": 500,
+          "y": 350
+        },
+        {
+          "x": 350,
+          "y": 200
+        },
+        {
+          "x": 250,
+          "y": 200
+        },
+        {
+          "x": 250,
+          "y": 450
+        },
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 1200
+        },
+        {
+          "x": 600,
+          "y": 1300
+        },
+        {
+          "x": 1000,
+          "y": 1300
+        },
+        {
+          "x": 1000,
+          "y": 900
+        },
+        {
+          "x": 1100,
+          "y": 800
+        },
+        {
+          "x": 1200,
+          "y": 800
+        },
+        {
+          "x": 1200,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "2-DAW",
+      "name": "Southside",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 1200,
+          "y": 900
+        },
+        {
+          "x": 1200,
+          "y": 1100
+        },
+        {
+          "x": 1250,
+          "y": 1150
+        },
+        {
+          "x": 1250,
+          "y": 1350
+        },
+        {
+          "x": 1350,
+          "y": 1450
+        },
+        {
+          "x": 1350,
+          "y": 1650
+        },
+        {
+          "x": 1500,
+          "y": 1650
+        },
+        {
+          "x": 1500,
+          "y": 1750
+        },
+        {
+          "x": 900,
+          "y": 1750
+        },
+        {
+          "x": 650,
+          "y": 1500
+        },
+        {
+          "x": 500,
+          "y": 1500
+        },
+        {
+          "x": 500,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 900
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 900
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "coop-mall",
+      "name": "Co-op Mall",
+      "x": 1200,
+      "y": 900,
+      "lines": ["1-DAW", "2-DAW"],
+      "label": {
+        "x": 1230,
+        "y": 870,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "8th-96th",
+      "name": "8 Street / 96 Avenue",
+      "x": 1450,
+      "y": 400,
+      "lines": ["1-DAW"],
+      "label": {
+        "x": 1475,
+        "y": 400,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "rotary-manor",
+      "name": "Rotary Manor",
+      "x": 1200,
+      "y": 250,
+      "lines": ["1-DAW"],
+      "label": {
+        "x": 1200,
+        "y": 220,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "19th-89th",
+      "name": "19 Street / 89 Avenue",
+      "x": 300,
+      "y": 200,
+      "lines": ["1-DAW"],
+      "label": {
+        "x": 300,
+        "y": 170,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "17th-94th",
+      "name": "17 Street / 94 Avenue",
+      "x": 500,
+      "y": 750,
+      "lines": ["1-DAW"],
+      "label": {
+        "x": 475,
+        "y": 750,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "17th-108th",
+      "name": "17 Street / 108 Avenue",
+      "x": 500,
+      "y": 1100,
+      "lines": ["1-DAW", "2-DAW"],
+      "label": {
+        "x": 475,
+        "y": 1100,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Hospital / 15 Street",
+      "x": 900,
+      "y": 1300,
+      "lines": ["1-DAW"],
+      "label": {
+        "x": 900,
+        "y": 1330,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "10th-103rd",
+      "name": "10 Street / 103 Avenue",
+      "x": 1000,
+      "y": 1000,
+      "lines": ["1-DAW"],
+      "label": {
+        "x": 975,
+        "y": 1000,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dawson-mall",
+      "name": "Dawson Creek Mall",
+      "x": 1250,
+      "y": 1200,
+      "lines": ["2-DAW"],
+      "label": {
+        "x": 1225,
+        "y": 1200,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "college",
+      "name": "Northern Lights College",
+      "x": 1250,
+      "y": 1300,
+      "lines": ["2-DAW"],
+      "label": {
+        "x": 1275,
+        "y": 1300,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 1350,
+      "y": 1550,
+      "lines": ["2-DAW"],
+      "label": {
+        "x": 1325,
+        "y": 1550,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "no-frills",
+      "name": "Dave's No Frills",
+      "x": 800,
+      "y": 900,
+      "lines": ["2-DAW"],
+      "label": {
+        "x": 800,
+        "y": 870,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "1-DAW": [
+      "coop-mall",
+      "8th-96th",
+      "rotary-manor",
+      "19th-89th",
+      "17th-94th",
+      "17th-108th",
+      "hospital",
+      "10th-103rd"
+    ],
+    "2-DAW": ["coop-mall", "dawson-mall", "college", "walmart", "17th-108th", "no-frills"]
+  },
+  "stationAliases": {
+    "Coop Mall": "coop-mall",
+    "8 St & 96 Ave": "8th-96th",
+    "Rotary Manor": "rotary-manor",
+    "19 St & 89 Ave": "19th-89th",
+    "17 St & 94 Ave": "17th-94th",
+    "108 Ave & 17 St": "17th-108th",
+    "15 St & 111 Ave": "hospital",
+    "103 Ave & 10 St": "10th-103rd",
+    "Dawson Creek Mall": "dawson-mall",
+    "Northern Lights College": "college",
+    "Walmart": "walmart",
+    "Dave's No Frills": "no-frills"
+  },
+  "badges": [
+    {
+      "line": "1-DAW",
+      "num": "1",
+      "x": 1584,
+      "y": 650,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-DAW",
+      "num": "2",
+      "x": 1100,
+      "y": 1784,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1760,
+      "minY": 40,
+      "maxY": 1910
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -120.255,
+    "refLonEast": -120.21,
+    "refXWest": 250,
+    "refXEast": 1550,
+    "refLatNorth": 55.776,
+    "refLatSouth": 55.739,
+    "refYNorth": 200,
+    "refYSouth": 1750
+  },
+  "stationIndex": [
+    {
+      "id": "196030",
+      "schematicId": "10th-103rd",
+      "name": "10 Street / 103 Avenue",
+      "lat": 55.75762,
+      "lon": -120.22964,
+      "lines": ["1-DAW"],
+      "platformIds": ["196030"],
+      "departureRouteIds": ["1-DAW", "2-DAW"]
+    },
+    {
+      "id": "196043",
+      "schematicId": "17th-108th",
+      "name": "17 Street / 108 Avenue",
+      "lat": 55.75214,
+      "lon": -120.25009,
+      "lines": ["1-DAW", "2-DAW"],
+      "platformIds": ["196043"],
+      "departureRouteIds": ["1-DAW", "2-DAW"]
+    },
+    {
+      "id": "17th-94th",
+      "schematicId": "17th-94th",
+      "name": "17 Street / 94 Avenue",
+      "lat": 55.76917,
+      "lon": -120.2505,
+      "lines": ["1-DAW"],
+      "platformIds": ["196003", "196004"],
+      "departureRouteIds": ["1-DAW"]
+    },
+    {
+      "id": "196103",
+      "schematicId": "19th-89th",
+      "name": "19 Street / 89 Avenue",
+      "lat": 55.77415,
+      "lon": -120.2552,
+      "lines": ["1-DAW"],
+      "platformIds": ["196103"],
+      "departureRouteIds": ["1-DAW"]
+    },
+    {
+      "id": "196018",
+      "schematicId": "8th-96th",
+      "name": "8 Street / 96 Avenue",
+      "lat": 55.76687,
+      "lon": -120.22447,
+      "lines": ["1-DAW"],
+      "platformIds": ["196018"],
+      "departureRouteIds": ["1-DAW"]
+    },
+    {
+      "id": "196070",
+      "schematicId": "coop-mall",
+      "name": "Co-op Mall",
+      "lat": 55.75677,
+      "lon": -120.22371,
+      "lines": ["1-DAW", "2-DAW"],
+      "platformIds": ["196070"],
+      "departureRouteIds": ["1-DAW", "2-DAW"]
+    },
+    {
+      "id": "196002",
+      "schematicId": "no-frills",
+      "name": "Dave's No Frills",
+      "lat": 55.76233,
+      "lon": -120.24241,
+      "lines": ["2-DAW"],
+      "platformIds": ["196002"],
+      "departureRouteIds": ["2-DAW"]
+    },
+    {
+      "id": "196074",
+      "schematicId": "dawson-mall",
+      "name": "Dawson Creek Mall",
+      "lat": 55.75032,
+      "lon": -120.22165,
+      "lines": ["2-DAW"],
+      "platformIds": ["196074"],
+      "departureRouteIds": ["2-DAW"]
+    },
+    {
+      "id": "196050",
+      "schematicId": "hospital",
+      "name": "Hospital / 15 Street",
+      "lat": 55.74925,
+      "lon": -120.24432,
+      "lines": ["1-DAW"],
+      "platformIds": ["196050"],
+      "departureRouteIds": ["1-DAW", "2-DAW"]
+    },
+    {
+      "id": "196071",
+      "schematicId": "college",
+      "name": "Northern Lights College",
+      "lat": 55.74633,
+      "lon": -120.22772,
+      "lines": ["2-DAW"],
+      "platformIds": ["196071"],
+      "departureRouteIds": ["2-DAW"]
+    },
+    {
+      "id": "196104",
+      "schematicId": "rotary-manor",
+      "name": "Rotary Manor",
+      "lat": 55.77334,
+      "lon": -120.23523,
+      "lines": ["1-DAW"],
+      "platformIds": ["196104"],
+      "departureRouteIds": ["1-DAW"]
+    },
+    {
+      "id": "196068",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 55.7389,
+      "lon": -120.21985,
+      "lines": ["2-DAW"],
+      "platformIds": ["196068"],
+      "departureRouteIds": ["2-DAW"]
+    }
+  ]
+}

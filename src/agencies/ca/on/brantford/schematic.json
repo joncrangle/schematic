@@ -1,0 +1,758 @@
+{
+  "viewBoxWidth": 1780,
+  "viewBoxHeight": 1200,
+  "lines": [
+    {
+      "id": "3080",
+      "name": "A Telephone Line",
+      "color": "#FFCC00",
+      "points": [
+        {
+          "x": 220,
+          "y": 1000
+        },
+        {
+          "x": 440,
+          "y": 780
+        },
+        {
+          "x": 650,
+          "y": 780
+        },
+        {
+          "x": 900,
+          "y": 530
+        },
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 1100,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "3173",
+      "name": "B Daffodil Line",
+      "color": "#FF9933",
+      "points": [
+        {
+          "x": 650,
+          "y": 100
+        },
+        {
+          "x": 650,
+          "y": 370
+        },
+        {
+          "x": 520,
+          "y": 500
+        },
+        {
+          "x": 450,
+          "y": 570
+        },
+        {
+          "x": 450,
+          "y": 650
+        },
+        {
+          "x": 580,
+          "y": 780
+        },
+        {
+          "x": 650,
+          "y": 780
+        },
+        {
+          "x": 650,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 1050
+        },
+        {
+          "x": 1000,
+          "y": 1050
+        }
+      ]
+    },
+    {
+      "id": "3076",
+      "name": "20 Grand River Line",
+      "color": "#4C70B5",
+      "points": [
+        {
+          "x": 160,
+          "y": 360
+        },
+        {
+          "x": 240,
+          "y": 440
+        },
+        {
+          "x": 460,
+          "y": 440
+        },
+        {
+          "x": 520,
+          "y": 500
+        },
+        {
+          "x": 650,
+          "y": 630
+        },
+        {
+          "x": 650,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 780
+        },
+        {
+          "x": 650,
+          "y": 870
+        },
+        {
+          "x": 520,
+          "y": 1000
+        },
+        {
+          "x": 220,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "3181",
+      "name": "23 Memorial Line",
+      "color": "#CF48B5",
+      "points": [
+        {
+          "x": 650,
+          "y": 780
+        },
+        {
+          "x": 650,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 630
+        },
+        {
+          "x": 520,
+          "y": 500
+        },
+        {
+          "x": 730,
+          "y": 290
+        },
+        {
+          "x": 730,
+          "y": 180
+        },
+        {
+          "x": 650,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "3172",
+      "name": "24 Park Line",
+      "color": "#47D45A",
+      "points": [
+        {
+          "x": 650,
+          "y": 100
+        },
+        {
+          "x": 1200,
+          "y": 100
+        },
+        {
+          "x": 1280,
+          "y": 180
+        },
+        {
+          "x": 1280,
+          "y": 260
+        },
+        {
+          "x": 1240,
+          "y": 300
+        },
+        {
+          "x": 1100,
+          "y": 300
+        },
+        {
+          "x": 1100,
+          "y": 350
+        },
+        {
+          "x": 1250,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "3171",
+      "name": "25 Beaver Line",
+      "color": "#B8B8B8",
+      "points": [
+        {
+          "x": 650,
+          "y": 100
+        },
+        {
+          "x": 760,
+          "y": 210
+        },
+        {
+          "x": 1010,
+          "y": 210
+        },
+        {
+          "x": 1100,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "3079",
+      "name": "8 Holmedale & Mayfair Line",
+      "color": "#3B9E4B",
+      "points": [
+        {
+          "x": 650,
+          "y": 780
+        },
+        {
+          "x": 350,
+          "y": 780
+        },
+        {
+          "x": 250,
+          "y": 680
+        },
+        {
+          "x": 200,
+          "y": 680
+        },
+        {
+          "x": 200,
+          "y": 620
+        },
+        {
+          "x": 320,
+          "y": 500
+        },
+        {
+          "x": 520,
+          "y": 500
+        },
+        {
+          "x": 520,
+          "y": 300
+        },
+        {
+          "x": 650,
+          "y": 170
+        },
+        {
+          "x": 650,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "3073",
+      "name": "9 Echo Place Loop",
+      "color": "#78206E",
+      "points": [
+        {
+          "x": 650,
+          "y": 780
+        },
+        {
+          "x": 970,
+          "y": 780
+        },
+        {
+          "x": 1250,
+          "y": 500
+        },
+        {
+          "x": 1250,
+          "y": 450
+        },
+        {
+          "x": 1100,
+          "y": 300
+        },
+        {
+          "x": 1440,
+          "y": 300
+        },
+        {
+          "x": 1500,
+          "y": 360
+        },
+        {
+          "x": 1500,
+          "y": 680
+        },
+        {
+          "x": 1360,
+          "y": 820
+        },
+        {
+          "x": 690,
+          "y": 820
+        },
+        {
+          "x": 650,
+          "y": 780
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "transit-terminal",
+      "name": "Brantford Transit Terminal",
+      "x": 650,
+      "y": 780,
+      "lines": ["3080", "3173", "3076", "3181", "3079", "3073"],
+      "terminal": true,
+      "label": {
+        "x": 640,
+        "y": 830,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "shellard-blackburn",
+      "name": "Shellard at Blackburn",
+      "x": 220,
+      "y": 1000,
+      "lines": ["3080", "3076"],
+      "terminal": true,
+      "label": {
+        "x": 200,
+        "y": 1045,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "brantford-commons",
+      "name": "Brantford Commons",
+      "x": 650,
+      "y": 100,
+      "lines": ["3173", "3181", "3172", "3171", "3079"],
+      "terminal": true,
+      "label": {
+        "x": 610,
+        "y": 55,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lynden-park-mall",
+      "name": "Lynden Park Mall",
+      "x": 1100,
+      "y": 300,
+      "lines": ["3080", "3172", "3171", "3073"],
+      "terminal": true,
+      "label": {
+        "x": 1100,
+        "y": 240,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "general-hospital",
+      "name": "Brantford General Hospital",
+      "x": 520,
+      "y": 500,
+      "lines": ["3173", "3076", "3181", "3079"],
+      "label": {
+        "x": 475,
+        "y": 475,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "market-grey",
+      "name": "Market at Grey",
+      "x": 650,
+      "y": 650,
+      "lines": ["3076", "3181"],
+      "label": {
+        "x": 690,
+        "y": 630,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "woodland-cultural-centre",
+      "name": "Woodland Cultural Centre",
+      "x": 1000,
+      "y": 1050,
+      "lines": ["3173"],
+      "terminal": true,
+      "label": {
+        "x": 1025,
+        "y": 1065,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "northwest-industrial-area",
+      "name": "Hardy at Zatonski",
+      "x": 160,
+      "y": 360,
+      "lines": ["3076"],
+      "terminal": true,
+      "label": {
+        "x": 130,
+        "y": 320,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "holmedale",
+      "name": "Sunset at Grand River",
+      "x": 200,
+      "y": 680,
+      "lines": ["3079"],
+      "label": {
+        "x": 175,
+        "y": 705,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "dunsdon-wayne-gretzky",
+      "name": "Dunsdon at Wayne Gretzky",
+      "x": 1200,
+      "y": 100,
+      "lines": ["3172"],
+      "label": {
+        "x": 1225,
+        "y": 80,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "holiday-drive",
+      "name": "Holiday Drive",
+      "x": 1250,
+      "y": 500,
+      "lines": ["3172", "3073"],
+      "terminal": true,
+      "label": {
+        "x": 1280,
+        "y": 505,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "medical-centre",
+      "name": "Brantford Medical Centre",
+      "x": 1440,
+      "y": 300,
+      "lines": ["3073"],
+      "label": {
+        "x": 1460,
+        "y": 270,
+        "anchor": "start"
+      }
+    }
+  ],
+  "sequences": {
+    "3080": ["shellard-blackburn", "transit-terminal", "lynden-park-mall"],
+    "3173": [
+      "brantford-commons",
+      "general-hospital",
+      "transit-terminal",
+      "woodland-cultural-centre"
+    ],
+    "3076": [
+      "northwest-industrial-area",
+      "general-hospital",
+      "market-grey",
+      "transit-terminal",
+      "shellard-blackburn"
+    ],
+    "3181": ["transit-terminal", "market-grey", "general-hospital", "brantford-commons"],
+    "3172": ["brantford-commons", "dunsdon-wayne-gretzky", "lynden-park-mall", "holiday-drive"],
+    "3171": ["brantford-commons", "lynden-park-mall"],
+    "3079": ["transit-terminal", "holmedale", "general-hospital", "brantford-commons"],
+    "3073": ["transit-terminal", "holiday-drive", "lynden-park-mall", "medical-centre"]
+  },
+  "stationAliases": {
+    "Lynden Park Mall": "lynden-park-mall",
+    "Lynden Park Mall (Arrive)": "lynden-park-mall",
+    "Brantford Commons": "brantford-commons",
+    "Brantford General Hospital": "general-hospital",
+    "Shellard Ln at Blackburn Dr": "shellard-blackburn",
+    "Woodland Cultural Centre": "woodland-cultural-centre",
+    "Hardy Rd at Zatonski Ave": "northwest-industrial-area",
+    "Market St at Grey St": "market-grey",
+    "Holiday Dr": "holiday-drive",
+    "Brantford Medical Centre": "medical-centre",
+    "Sunset Ave at Grand River Ave": "holmedale",
+    "Dunsdon St at Wayne Gretzky Pkwy": "dunsdon-wayne-gretzky",
+    "Transit Terminal (arrive)": "transit-terminal",
+    "Terminal platform 8": "transit-terminal",
+    "Terminal platform 1": "transit-terminal",
+    "Wellington St at Transit Terminal": "transit-terminal",
+    "Terminal platform 4": "transit-terminal",
+    "Terminal platform 7": "transit-terminal",
+    "Terminal platform 6": "transit-terminal",
+    "Terminal platform 2": "transit-terminal",
+    "Terminal platform 9": "transit-terminal",
+    "Terminal platform 5": "transit-terminal",
+    "Terminal platform 3": "transit-terminal"
+  },
+  "badges": [
+    {
+      "line": "3080",
+      "num": "A",
+      "x": 882.63,
+      "y": 592.63,
+      "color": "#FFCC00",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3173",
+      "num": "B",
+      "x": 752.37,
+      "y": 947.63,
+      "color": "#FF9933",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3076",
+      "num": "20",
+      "x": 522.37,
+      "y": 952.37,
+      "color": "#4C70B5",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3181",
+      "num": "23",
+      "x": 712.63,
+      "y": 352.63,
+      "color": "#CF48B5",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3172",
+      "num": "24",
+      "x": 1040,
+      "y": 132,
+      "color": "#47D45A",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3171",
+      "num": "25",
+      "x": 1018.38,
+      "y": 263.63,
+      "color": "#B8B8B8",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3079",
+      "num": "8",
+      "x": 355,
+      "y": 532,
+      "color": "#3B9E4B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3073",
+      "num": "9",
+      "x": 1407.37,
+      "y": 727.37,
+      "color": "#78206E",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "minY": 10,
+      "maxX": 1740,
+      "maxY": 1130
+    },
+    "minZoom": 0.6,
+    "maxZoom": 4
+  },
+  "geoProjection": {
+    "refLonWest": -80.312743,
+    "refLonEast": -80.217101,
+    "refXWest": 220,
+    "refXEast": 1440,
+    "refLatNorth": 43.182198,
+    "refLatSouth": 43.11307,
+    "refYNorth": 100,
+    "refYSouth": 1000
+  },
+  "stationIndex": [
+    {
+      "id": "brantford-commons",
+      "schematicId": "brantford-commons",
+      "name": "Brantford Commons",
+      "lat": 43.182198,
+      "lon": -80.278362,
+      "lines": ["3079", "3171", "3172", "3173", "3181"],
+      "platformIds": ["84641", "84794"],
+      "departureRouteIds": ["3079", "3171", "3172", "3173", "3181"]
+    },
+    {
+      "id": "general-hospital",
+      "schematicId": "general-hospital",
+      "name": "Brantford General Hospital",
+      "lat": 43.152537,
+      "lon": -80.275517,
+      "lines": ["3076", "3079", "3173", "3181"],
+      "platformIds": ["84572", "84591", "84651", "84671"],
+      "departureRouteIds": ["3076", "3079", "3173", "3181"]
+    },
+    {
+      "id": "84761",
+      "schematicId": "medical-centre",
+      "name": "Brantford Medical Centre",
+      "lat": 43.172667,
+      "lon": -80.217101,
+      "lines": ["3073"],
+      "platformIds": ["84761"],
+      "departureRouteIds": ["3073"]
+    },
+    {
+      "id": "transit-terminal",
+      "schematicId": "transit-terminal",
+      "name": "Brantford Transit Terminal",
+      "lat": 43.1406714402152,
+      "lon": -80.2646362050199,
+      "lines": ["3073", "3076", "3079", "3080", "3173", "3181"],
+      "platformIds": [
+        "84508",
+        "84532",
+        "84567",
+        "84596",
+        "84615",
+        "84713",
+        "84780",
+        "84807",
+        "84855",
+        "86259",
+        "86474",
+        "86551",
+        "89223"
+      ],
+      "departureRouteIds": [
+        "3073",
+        "3074",
+        "3075",
+        "3076",
+        "3079",
+        "3080",
+        "3083",
+        "3084",
+        "3173",
+        "3181"
+      ]
+    },
+    {
+      "id": "dunsdon-wayne-gretzky",
+      "schematicId": "dunsdon-wayne-gretzky",
+      "name": "Dunsdon at Wayne Gretzky",
+      "lat": 43.183434,
+      "lon": -80.248729,
+      "lines": ["3172"],
+      "platformIds": ["84552", "84806"],
+      "departureRouteIds": ["3172"]
+    },
+    {
+      "id": "84578",
+      "schematicId": "northwest-industrial-area",
+      "name": "Hardy at Zatonski",
+      "lat": 43.160157,
+      "lon": -80.331607,
+      "lines": ["3076"],
+      "platformIds": ["84578"],
+      "departureRouteIds": ["3076", "3082"]
+    },
+    {
+      "id": "84736",
+      "schematicId": "holiday-drive",
+      "name": "Holiday Drive",
+      "lat": 43.16394,
+      "lon": -80.24045,
+      "lines": ["3073", "3172"],
+      "platformIds": ["84736"],
+      "departureRouteIds": ["3073", "3084", "3172"]
+    },
+    {
+      "id": "lynden-park-mall",
+      "schematicId": "lynden-park-mall",
+      "name": "Lynden Park Mall",
+      "lat": 43.1707273534062,
+      "lon": -80.2385857701302,
+      "lines": ["3073", "3080", "3171", "3172"],
+      "platformIds": ["84519", "84970", "89277"],
+      "departureRouteIds": ["3073", "3080", "3082", "3084", "3171", "3172"]
+    },
+    {
+      "id": "market-grey",
+      "schematicId": "market-grey",
+      "name": "Market at Grey",
+      "lat": 43.145656,
+      "lon": -80.264325,
+      "lines": ["3076", "3181"],
+      "platformIds": ["84568", "84595"],
+      "departureRouteIds": ["3076", "3181"]
+    },
+    {
+      "id": "84496",
+      "schematicId": "shellard-blackburn",
+      "name": "Shellard at Blackburn",
+      "lat": 43.11307,
+      "lon": -80.312743,
+      "lines": ["3076", "3080"],
+      "platformIds": ["84496"],
+      "departureRouteIds": ["3076", "3080"]
+    },
+    {
+      "id": "84663",
+      "schematicId": "holmedale",
+      "name": "Sunset at Grand River",
+      "lat": 43.1404958141226,
+      "lon": -80.2963622711639,
+      "lines": ["3079"],
+      "platformIds": ["84663"],
+      "departureRouteIds": ["3079"]
+    },
+    {
+      "id": "89230",
+      "schematicId": "woodland-cultural-centre",
+      "name": "Woodland Cultural Centre",
+      "lat": 43.1267683951858,
+      "lon": -80.2434754770721,
+      "lines": ["3173"],
+      "platformIds": ["89230"],
+      "departureRouteIds": ["3173"]
+    }
+  ]
+}

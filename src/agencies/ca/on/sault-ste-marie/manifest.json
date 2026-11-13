@@ -1,0 +1,136 @@
+{
+  "id": "sault-ste-marie",
+  "name": "Sault Ste. Marie Transit",
+  "serviceArea": "Sault Ste. Marie",
+  "shortName": "Sault Transit",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 46.51,
+      "maxLat": 46.555,
+      "minLon": -84.405,
+      "maxLon": -84.235
+    },
+    {
+      "minLat": 46.505,
+      "maxLat": 46.51,
+      "minLon": -84.336,
+      "maxLon": -84.255
+    },
+    {
+      "minLat": 46.495,
+      "maxLat": 46.505,
+      "minLon": -84.315,
+      "maxLon": -84.26
+    },
+    {
+      "minLat": 46.555,
+      "maxLat": 46.57,
+      "minLon": -84.36,
+      "maxLon": -84.3
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Sault Ste. Marie Transit / City of Sault Ste. Marie; Consat Tmix",
+    "url": "https://saultstemarie.ca/live/transit/bus-routes-and-schedules/",
+    "license": "No explicit terms were found for the Sault Ste. Marie Transit GTFS or AnyRide data.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Terminal",
+      "lat": 46.51529,
+      "lon": -84.33769
+    },
+    {
+      "name": "Market Mall",
+      "lat": 46.53735,
+      "lon": -84.36387
+    },
+    {
+      "name": "Sault Area Hospital main entrance",
+      "lat": 46.54887,
+      "lon": -84.31201
+    },
+    {
+      "name": "Sault College",
+      "lat": 46.53385,
+      "lon": -84.3153
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "8"],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "8"],
+    "rules": [
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": ["detour", "detoured", "reroute", "rerouted"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://saultstemarie.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "130000",
+        "profile": {
+          "data": "metrolinx_saultstemarie",
+          "display": "saultstemarie"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Sault Ste. Marie Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-saultstemarie.zip",
+        "cacheFileName": "sault-ste-marie-gtfs.zip"
+      }
+    ],
+    "excludedRouteIds": ["9"],
+    "ignoreFeedRouteColors": true,
+    "defaultColor": "#007D85",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://metrolinx.tmix.se/gtfs-realtime-saultstemarie/alerts.pb",
+      "format": "protobuf"
+    },
+    {
+      "type": "web",
+      "url": "https://saultstemarie.ca/live/transit/bus-routes-and-schedules/",
+      "parser": "heading-service-notices",
+      "routeNames": {
+        "2": ["Citywide"],
+        "3": ["#3 Korah Road"],
+        "4": ["Eastside"],
+        "8": ["Community Bus"]
+      }
+    }
+  ]
+}

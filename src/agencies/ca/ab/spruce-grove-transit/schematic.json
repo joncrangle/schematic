@@ -1,0 +1,228 @@
+{
+  "viewBoxWidth": 1340,
+  "viewBoxHeight": 520,
+  "lines": [
+    {
+      "id": "560",
+      "name": "Spruce Grove - Downtown Edmonton",
+      "color": "#139FE6",
+      "points": [
+        {
+          "x": 1100,
+          "y": 220
+        },
+        {
+          "x": 1100,
+          "y": 420
+        },
+        {
+          "x": 1000,
+          "y": 420
+        },
+        {
+          "x": 1000,
+          "y": 220
+        },
+        {
+          "x": 400,
+          "y": 220
+        },
+        {
+          "x": 160,
+          "y": 220
+        },
+        {
+          "x": 160,
+          "y": 400
+        },
+        {
+          "x": 400,
+          "y": 400
+        },
+        {
+          "x": 400,
+          "y": 220
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "kingsway",
+      "name": "Kingsway RAH Transit Centre",
+      "x": 1100,
+      "y": 220,
+      "lines": ["560"],
+      "label": {
+        "x": 1125.0,
+        "y": 220,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "jasper-avenue",
+      "name": "Jasper Avenue",
+      "x": 1060,
+      "y": 420,
+      "lines": ["560"],
+      "label": {
+        "x": 1085.0,
+        "y": 420,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "macewan",
+      "name": "MacEwan University",
+      "x": 1000,
+      "y": 360,
+      "lines": ["560"],
+      "label": {
+        "x": 975.0,
+        "y": 360,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "nait",
+      "name": "NAIT",
+      "x": 1000,
+      "y": 280,
+      "lines": ["560"],
+      "label": {
+        "x": 975.0,
+        "y": 280,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "spruce-grove-centre",
+      "name": "Spruce Grove Transit Centre",
+      "x": 400,
+      "y": 220,
+      "lines": ["560"],
+      "label": {
+        "x": 400,
+        "y": 190.0,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tri-leisure",
+      "name": "Tri Leisure Centre",
+      "x": 160,
+      "y": 320,
+      "lines": ["560"],
+      "label": {
+        "x": 185.0,
+        "y": 320,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "560",
+      "num": "560",
+      "x": 700,
+      "y": 252,
+      "color": "#139FE6",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1320,
+      "minY": 120,
+      "maxY": 480
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -113.934863,
+    "refLonEast": -113.5002,
+    "refXWest": 160,
+    "refXEast": 1100,
+    "refLatNorth": 53.567373,
+    "refLatSouth": 53.54103,
+    "refYNorth": 220,
+    "refYSouth": 420
+  },
+  "sequences": {
+    "560": ["kingsway", "jasper-avenue", "macewan", "nait", "spruce-grove-centre", "tri-leisure"]
+  },
+  "stationAliases": {
+    "Kingsway RAH Transit Centre": "kingsway",
+    "101 Street & Jasper Avenue": "jasper-avenue",
+    "109 Street & 104 Avenue": "macewan",
+    "109 Street & Princess Elizabeth Avenue": "nait",
+    "Jennifer Heil Way & TransAlta Tri Leisure Centre": "tri-leisure",
+    "Spruce Grove Transit Centre": "spruce-grove-centre"
+  },
+  "stationIndex": [
+    {
+      "id": "1620",
+      "schematicId": "jasper-avenue",
+      "name": "Jasper Avenue",
+      "lat": 53.54103,
+      "lon": -113.495157,
+      "lines": ["560"],
+      "platformIds": ["1620"],
+      "departureRouteIds": ["560"]
+    },
+    {
+      "id": "Q560",
+      "schematicId": "kingsway",
+      "name": "Kingsway RAH Transit Centre",
+      "lat": 53.558429,
+      "lon": -113.501409,
+      "lines": ["560"],
+      "platformIds": ["1113"],
+      "departureRouteIds": ["560"]
+    },
+    {
+      "id": "1702",
+      "schematicId": "macewan",
+      "name": "MacEwan University",
+      "lat": 53.54671,
+      "lon": -113.508234,
+      "lines": ["560"],
+      "platformIds": ["1702"],
+      "departureRouteIds": ["560"]
+    },
+    {
+      "id": "1890",
+      "schematicId": "nait",
+      "name": "NAIT",
+      "lat": 53.56502,
+      "lon": -113.505996,
+      "lines": ["560"],
+      "platformIds": ["1890"],
+      "departureRouteIds": ["560"]
+    },
+    {
+      "id": "spruce-grove-centre",
+      "schematicId": "spruce-grove-centre",
+      "name": "Spruce Grove Transit Centre",
+      "lat": 53.567283,
+      "lon": -113.877323,
+      "lines": ["560"],
+      "platformIds": ["P1001", "P1002", "P1007"],
+      "departureRouteIds": ["560"]
+    },
+    {
+      "id": "8584",
+      "schematicId": "tri-leisure",
+      "name": "Tri Leisure Centre",
+      "lat": 53.549336,
+      "lon": -113.934863,
+      "lines": ["560"],
+      "platformIds": ["8584"],
+      "departureRouteIds": ["560"]
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "viewBoxWidth": 1750,
+  "viewBoxHeight": 1500,
+  "lines": [
+    {
+      "id": "1-MER",
+      "name": "North End",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 900,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 1050,
+          "y": 450
+        },
+        {
+          "x": 1100,
+          "y": 450
+        },
+        {
+          "x": 1250,
+          "y": 300
+        },
+        {
+          "x": 1300,
+          "y": 300
+        },
+        {
+          "x": 1350,
+          "y": 350
+        },
+        {
+          "x": 1450,
+          "y": 350
+        },
+        {
+          "x": 1550,
+          "y": 250
+        },
+        {
+          "x": 1550,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "2-MER",
+      "name": "Collettville",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 900,
+          "y": 700
+        },
+        {
+          "x": 750,
+          "y": 850
+        },
+        {
+          "x": 550,
+          "y": 850
+        },
+        {
+          "x": 450,
+          "y": 950
+        },
+        {
+          "x": 450,
+          "y": 1150
+        },
+        {
+          "x": 700,
+          "y": 1150
+        },
+        {
+          "x": 900,
+          "y": 950
+        },
+        {
+          "x": 900,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "3-MER",
+      "name": "Diamond Vale",
+      "color": "#F58220",
+      "points": [
+        {
+          "x": 900,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 1150
+        },
+        {
+          "x": 1100,
+          "y": 1150
+        },
+        {
+          "x": 1300,
+          "y": 1350
+        },
+        {
+          "x": 1500,
+          "y": 1350
+        },
+        {
+          "x": 1500,
+          "y": 1200
+        },
+        {
+          "x": 1300,
+          "y": 1000
+        },
+        {
+          "x": 1300,
+          "y": 800
+        },
+        {
+          "x": 1200,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "4-MER",
+      "name": "Lower Nicola",
+      "color": "#EC008C",
+      "points": [
+        {
+          "x": 900,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 450
+        },
+        {
+          "x": 450,
+          "y": 450
+        },
+        {
+          "x": 250,
+          "y": 250
+        },
+        {
+          "x": 250,
+          "y": 150
+        },
+        {
+          "x": 450,
+          "y": 150
+        },
+        {
+          "x": 450,
+          "y": 300
+        },
+        {
+          "x": 600,
+          "y": 300
+        },
+        {
+          "x": 750,
+          "y": 450
+        },
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 700
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "downtown",
+      "name": "Downtown Exchange",
+      "x": 900,
+      "y": 700,
+      "lines": ["1-MER", "2-MER", "3-MER", "4-MER"],
+      "label": {
+        "x": 930,
+        "y": 670,
+        "anchor": "start",
+        "leader": true
+      },
+      "terminal": true
+    },
+    {
+      "id": "health-centre",
+      "name": "Nicola Valley Health Centre",
+      "x": 1050,
+      "y": 450,
+      "lines": ["1-MER"],
+      "label": {
+        "x": 1025,
+        "y": 450,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "nvit",
+      "name": "NVIT Campus",
+      "x": 1275,
+      "y": 300,
+      "lines": ["1-MER"],
+      "label": {
+        "x": 1275,
+        "y": 270,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "no-frills",
+      "name": "No Frills",
+      "x": 1400,
+      "y": 350,
+      "lines": ["1-MER"],
+      "label": {
+        "x": 1400,
+        "y": 380,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 1550,
+      "y": 150,
+      "lines": ["1-MER"],
+      "label": {
+        "x": 1550,
+        "y": 120,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "fir-hill",
+      "name": "Fir / Hill",
+      "x": 450,
+      "y": 1050,
+      "lines": ["2-MER"],
+      "label": {
+        "x": 425,
+        "y": 1050,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "garcia-merritt",
+      "name": "Merritt / Garcia",
+      "x": 1100,
+      "y": 700,
+      "lines": ["3-MER"],
+      "label": {
+        "x": 1100,
+        "y": 730,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "clapperton",
+      "name": "Clapperton / 2700 Block",
+      "x": 1400,
+      "y": 1350,
+      "lines": ["3-MER"],
+      "label": {
+        "x": 1400,
+        "y": 1380,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "nicola-mobile-park",
+      "name": "Nicola Mobile Park",
+      "x": 550,
+      "y": 450,
+      "lines": ["4-MER"],
+      "label": {
+        "x": 550,
+        "y": 420,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lower-nicola",
+      "name": "Yap Skim / Hummingbird",
+      "x": 350,
+      "y": 150,
+      "lines": ["4-MER"],
+      "label": {
+        "x": 350,
+        "y": 120,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "1-MER": ["downtown", "health-centre", "nvit", "no-frills", "walmart"],
+    "2-MER": ["downtown", "fir-hill"],
+    "3-MER": ["downtown", "clapperton", "garcia-merritt"],
+    "4-MER": ["downtown", "nicola-mobile-park", "lower-nicola"]
+  },
+  "stationAliases": {
+    "Voght St at Mamette Ave": "downtown",
+    "Nicola Valley Health Centre": "health-centre",
+    "Nicola Valley Institute of Tech": "nvit",
+    "No Frills": "no-frills",
+    "Walmart": "walmart",
+    "Fir at Hill": "fir-hill",
+    "Merritt Ave at Garcia St": "garcia-merritt",
+    "Clapperton Ave at 2700 Block": "clapperton",
+    "Hwy 8 at Nicola Mobile Park": "nicola-mobile-park",
+    "Yap Skim Dr at Hummingbird Rd": "lower-nicola"
+  },
+  "badges": [
+    {
+      "line": "1-MER",
+      "num": "1",
+      "x": 1476,
+      "y": 276,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-MER",
+      "num": "2",
+      "x": 416,
+      "y": 1000,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-MER",
+      "num": "3",
+      "x": 1334,
+      "y": 910,
+      "color": "#F58220",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-MER",
+      "num": "4",
+      "x": 281,
+      "y": 326,
+      "color": "#EC008C",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1710,
+      "minY": 40,
+      "maxY": 1460
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -120.88,
+    "refLonEast": -120.75,
+    "refXWest": 250,
+    "refXEast": 1550,
+    "refLatNorth": 50.177,
+    "refLatSouth": 50.102,
+    "refYNorth": 150,
+    "refYSouth": 1350
+  },
+  "stationIndex": [
+    {
+      "id": "155011",
+      "schematicId": "clapperton",
+      "name": "Clapperton / 2700 Block",
+      "lat": 50.10245,
+      "lon": -120.77393,
+      "lines": ["3-MER"],
+      "platformIds": ["155011"],
+      "departureRouteIds": ["3-MER"]
+    },
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "Downtown Exchange",
+      "lat": 50.11211,
+      "lon": -120.78843,
+      "lines": ["1-MER", "2-MER", "3-MER", "4-MER"],
+      "platformIds": ["155001", "155034"],
+      "departureRouteIds": ["1-MER", "2-MER", "3-MER", "4-MER"]
+    },
+    {
+      "id": "155082",
+      "schematicId": "fir-hill",
+      "name": "Fir / Hill",
+      "lat": 50.10638,
+      "lon": -120.80311,
+      "lines": ["2-MER"],
+      "platformIds": ["155082"],
+      "departureRouteIds": ["2-MER"]
+    },
+    {
+      "id": "155086",
+      "schematicId": "garcia-merritt",
+      "name": "Merritt / Garcia",
+      "lat": 50.11295,
+      "lon": -120.78508,
+      "lines": ["3-MER"],
+      "platformIds": ["155086"],
+      "departureRouteIds": ["3-MER"]
+    },
+    {
+      "id": "nicola-mobile-park",
+      "schematicId": "nicola-mobile-park",
+      "name": "Nicola Mobile Park",
+      "lat": 50.14656,
+      "lon": -120.87026,
+      "lines": ["4-MER"],
+      "platformIds": ["155056", "155069"],
+      "departureRouteIds": ["4-MER"]
+    },
+    {
+      "id": "155038",
+      "schematicId": "health-centre",
+      "name": "Nicola Valley Health Centre",
+      "lat": 50.12216,
+      "lon": -120.77469,
+      "lines": ["1-MER"],
+      "platformIds": ["155038"],
+      "departureRouteIds": ["1-MER"]
+    },
+    {
+      "id": "155043",
+      "schematicId": "no-frills",
+      "name": "No Frills",
+      "lat": 50.12085,
+      "lon": -120.76275,
+      "lines": ["1-MER"],
+      "platformIds": ["155043"],
+      "departureRouteIds": ["1-MER"]
+    },
+    {
+      "id": "155041",
+      "schematicId": "nvit",
+      "name": "NVIT Campus",
+      "lat": 50.12449,
+      "lon": -120.76701,
+      "lines": ["1-MER"],
+      "platformIds": ["155041"],
+      "departureRouteIds": ["1-MER"]
+    },
+    {
+      "id": "155044",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 50.12196,
+      "lon": -120.75223,
+      "lines": ["1-MER"],
+      "platformIds": ["155044"],
+      "departureRouteIds": ["1-MER"]
+    },
+    {
+      "id": "155061",
+      "schematicId": "lower-nicola",
+      "name": "Yap Skim / Hummingbird",
+      "lat": 50.17542,
+      "lon": -120.86712,
+      "lines": ["4-MER"],
+      "platformIds": ["155061"],
+      "departureRouteIds": ["4-MER"]
+    }
+  ]
+}

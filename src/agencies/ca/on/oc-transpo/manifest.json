@@ -1,0 +1,381 @@
+{
+  "id": "oc-transpo",
+  "name": "OC Transpo",
+  "serviceArea": "Ottawa",
+  "shortName": "OC Transpo",
+  "brandColor": "#D30F1D",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 45.34,
+      "maxLat": 45.462,
+      "minLon": -75.84,
+      "maxLon": -75.58
+    },
+    {
+      "minLat": 45.22,
+      "maxLat": 45.43,
+      "minLon": -76.05,
+      "maxLon": -75.84
+    },
+    {
+      "minLat": 45.12,
+      "maxLat": 45.34,
+      "minLon": -75.88,
+      "maxLon": -75.55
+    },
+    {
+      "minLat": 45.4,
+      "maxLat": 45.53,
+      "minLon": -75.61,
+      "maxLon": -75.34
+    },
+    {
+      "minLat": 45.14,
+      "maxLat": 45.22,
+      "minLon": -75.99,
+      "maxLon": -75.88
+    },
+    {
+      "minLat": 45.33,
+      "maxLat": 45.38,
+      "minLon": -75.55,
+      "maxLon": -75.34
+    },
+    {
+      "minLat": 45.22,
+      "maxLat": 45.25,
+      "minLon": -75.49,
+      "maxLon": -75.46
+    }
+  ],
+  "modes": ["rail", "bus"],
+  "proximity": {
+    "radiusMeters": 1500,
+    "bucketMeters": 75
+  },
+  "stationService": [
+    {
+      "routeType": "rail"
+    },
+    {
+      "routeType": "bus"
+    }
+  ],
+  "attribution": {
+    "name": "OC Transpo / City of Ottawa open data",
+    "url": "https://www.octranspo.com/en/plan-your-trip/travel-tools/developers/dev-terms/",
+    "license": "Contains information licensed under the City of Ottawa Open Data Terms of Use.",
+    "licenseIsStatement": true,
+    "translations": {
+      "fr": {
+        "name": "Données ouvertes d'OC Transpo / Ville d'Ottawa",
+        "url": "https://www.octranspo.com/fr/planifiez/outils-dinformation/developpeurs/conditions-developpeurs/",
+        "license": "Conditions d'utilisation des données ouvertes de la Ville d'Ottawa",
+        "licenseIsStatement": false
+      }
+    }
+  },
+  "status": "experimental",
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "4", "39", "61", "75", "88"],
+    "rules": [
+      {
+        "priority": 425,
+        "match": {
+          "titleIncludes": [
+            "aucun service",
+            "service interrompu",
+            "service suspendu",
+            "suppression de service",
+            "voyage annulé",
+            "voyages annulés",
+            "trajet annulé",
+            "circuit annulé",
+            "circuits annulés"
+          ]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 350,
+        "match": {
+          "titleIncludes": ["déviation"]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "normal",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 325,
+        "match": {
+          "titleIncludes": ["ascenseur"]
+        },
+        "result": {
+          "kind": "accessibility",
+          "severity": "normal"
+        }
+      },
+      {
+        "priority": 300,
+        "match": {
+          "textIncludes": ["retard", "ralenti", "ralentissement"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 400,
+        "match": {
+          "textIncludes": ["CLEAR, DETOUR"]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "normal"
+        }
+      },
+      {
+        "priority": 375,
+        "match": {
+          "titleIncludes": [
+            "emergency detour",
+            "emergency diversion",
+            "déviation d'urgence",
+            "déviation d’urgence",
+            "détour d'urgence",
+            "détour d’urgence",
+            "déviation urgente",
+            "détour urgent"
+          ],
+          "textIncludes": [
+            "no service",
+            "suspended",
+            "suspension",
+            "route cancelled",
+            "cancelled trip",
+            "trip cancelled",
+            "aucun service",
+            "service interrompu",
+            "service suspendu",
+            "voyage annulé",
+            "trajet annulé",
+            "circuit annulé"
+          ]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 360,
+        "match": {
+          "titleIncludes": [
+            "emergency detour",
+            "emergency diversion",
+            "déviation d'urgence",
+            "déviation d’urgence",
+            "détour d'urgence",
+            "détour d’urgence",
+            "déviation urgente",
+            "détour urgent"
+          ]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 300,
+        "match": {
+          "titleIncludes": ["cancelled trip", "trip cancelled"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 200,
+        "match": {
+          "sourceField": "rssCategory",
+          "sourceValue": "Detours"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "normal",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 375,
+        "match": {
+          "titleIncludes": ["no service", "service suspended", "suspension", "route cancelled"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      }
+    ]
+  },
+  "cityPresets": [
+    {
+      "name": "Rideau",
+      "lat": 45.426197,
+      "lon": -75.691716
+    },
+    {
+      "name": "Tunney's Pasture",
+      "lat": 45.403641,
+      "lon": -75.736404
+    },
+    {
+      "name": "Hurdman",
+      "lat": 45.41218,
+      "lon": -75.66566
+    },
+    {
+      "name": "South Keys",
+      "lat": 45.353649,
+      "lon": -75.655421
+    },
+    {
+      "name": "Baseline",
+      "lat": 45.347283,
+      "lon": -75.761713
+    },
+    {
+      "name": "Terry Fox",
+      "lat": 45.309601,
+      "lon": -75.90662
+    }
+  ],
+  "popularSurfaceRoutes": ["39", "45", "57", "61", "62", "63", "74", "75", "88", "98"],
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeType": "rail",
+        "routeIds": ["1", "2", "4"]
+      }
+    ]
+  },
+  "staticTopology": {
+    "feeds": [
+      {
+        "name": "OC Transpo GTFS Schedule",
+        "url": "https://oct-gtfs-emasagcnfmcgeham.z01.azurefd.net/public-access/GTFSExport.zip",
+        "cacheFileName": "oc-transpo-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#D30F1D",
+    "defaultTextColor": "#FFFFFF",
+    "source": "seed",
+    "routeIdField": "short_name"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://nextrip-public-api.azure-api.net/octranspo/gtfs-rt-vp/beta/v1/VehiclePositions",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_OC_TRANSPO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "devProxyPrefix": "/__dev/upstream/oc-transpo"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://nextrip-public-api.azure-api.net/octranspo/gtfs-rt-tp/beta/v1/TripUpdates",
+        "format": "protobuf",
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_OC_TRANSPO_API_KEY"
+        },
+        "pollIntervalSeconds": 30,
+        "devProxyPrefix": "/__dev/upstream/oc-transpo"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "rss",
+      "url": "https://www.octranspo.com/en/feeds/updates-en/",
+      "routeIdsFromTitle": true,
+      "expiryPolicy": "feed-presence",
+      "routeCategoryPrefix": "affectedRoutes-",
+      "runtimes": ["self-hosted"],
+      "language": "en",
+      "languageGroup": "service-updates",
+      "incidentIdentityPattern": "/(?:e|f)/(\\d+)(?:[/?#]|$)"
+    },
+    {
+      "type": "rss",
+      "url": "https://www.octranspo.com/fr/feeds/updates-fr/",
+      "routeIdsFromTitle": true,
+      "expiryPolicy": "feed-presence",
+      "routeCategoryPrefix": "affectedRoutes-",
+      "runtimes": ["self-hosted"],
+      "language": "fr",
+      "languageGroup": "service-updates",
+      "incidentIdentityPattern": "/(?:e|f)/(\\d+)(?:[/?#]|$)"
+    },
+    {
+      "type": "rss",
+      "url": "https://alerts.example.com/oc-transpo.xml",
+      "routeIdsFromTitle": true,
+      "expiryPolicy": "feed-presence",
+      "routeCategoryPrefix": "affectedRoutes-",
+      "runtimes": ["cloudflare"],
+      "baseUrlSecretName": "FEED_ALERT_PROXY_BASE_URL",
+      "requiredForCompleteness": true,
+      "auth": {
+        "type": "header",
+        "headerName": "x-feed-token",
+        "secretName": "FEED_ALERT_PROXY_TOKEN"
+      },
+      "disabledReason": "Requires the alert-feed daemon RSS endpoint and FEED_ALERT_PROXY_BASE_URL/FEED_ALERT_PROXY_TOKEN secrets (see docs/deployment/deployment-guide.html#proxy)",
+      "language": "en",
+      "languageGroup": "service-updates",
+      "incidentIdentityPattern": "/(?:e|f)/(\\d+)(?:[/?#]|$)"
+    },
+    {
+      "type": "rss",
+      "url": "https://alerts.example.com/oc-transpo-fr.xml",
+      "routeIdsFromTitle": true,
+      "expiryPolicy": "feed-presence",
+      "routeCategoryPrefix": "affectedRoutes-",
+      "runtimes": ["cloudflare"],
+      "baseUrlSecretName": "FEED_ALERT_PROXY_BASE_URL",
+      "requiredForCompleteness": true,
+      "auth": {
+        "type": "header",
+        "headerName": "x-feed-token",
+        "secretName": "FEED_ALERT_PROXY_TOKEN"
+      },
+      "disabledReason": "Requires the alert-feed daemon RSS endpoint and FEED_ALERT_PROXY_BASE_URL/FEED_ALERT_PROXY_TOKEN secrets (see docs/deployment/deployment-guide.html#proxy)",
+      "language": "fr",
+      "languageGroup": "service-updates",
+      "incidentIdentityPattern": "/(?:e|f)/(\\d+)(?:[/?#]|$)"
+    }
+  ],
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  }
+}

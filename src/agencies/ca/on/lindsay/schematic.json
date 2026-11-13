@@ -1,0 +1,557 @@
+{
+  "viewBoxWidth": 1950,
+  "viewBoxHeight": 1950,
+  "lines": [
+    {
+      "id": "4",
+      "name": "Blue Line",
+      "color": "#0066CC",
+      "points": [
+        {
+          "x": 960,
+          "y": 1140
+        },
+        {
+          "x": 1100,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 720
+        },
+        {
+          "x": 1280,
+          "y": 900
+        },
+        {
+          "x": 1620,
+          "y": 900
+        },
+        {
+          "x": 1380,
+          "y": 1140
+        },
+        {
+          "x": 960,
+          "y": 1140
+        },
+        {
+          "x": 760,
+          "y": 1340
+        },
+        {
+          "x": 360,
+          "y": 1340
+        },
+        {
+          "x": 420,
+          "y": 1280
+        },
+        {
+          "x": 700,
+          "y": 1560
+        },
+        {
+          "x": 840,
+          "y": 1560
+        },
+        {
+          "x": 940,
+          "y": 1660
+        },
+        {
+          "x": 1020,
+          "y": 1580
+        },
+        {
+          "x": 1020,
+          "y": 1200
+        },
+        {
+          "x": 960,
+          "y": 1140
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Green Line",
+      "color": "#00843D",
+      "points": [
+        {
+          "x": 960,
+          "y": 1140
+        },
+        {
+          "x": 860,
+          "y": 1040
+        },
+        {
+          "x": 860,
+          "y": 460
+        },
+        {
+          "x": 680,
+          "y": 640
+        },
+        {
+          "x": 500,
+          "y": 640
+        },
+        {
+          "x": 620,
+          "y": 760
+        },
+        {
+          "x": 620,
+          "y": 1200
+        },
+        {
+          "x": 480,
+          "y": 1340
+        },
+        {
+          "x": 360,
+          "y": 1340
+        },
+        {
+          "x": 940,
+          "y": 760
+        },
+        {
+          "x": 1020,
+          "y": 760
+        },
+        {
+          "x": 960,
+          "y": 820
+        },
+        {
+          "x": 960,
+          "y": 1140
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Red Line",
+      "color": "#D2232A",
+      "points": [
+        {
+          "x": 960,
+          "y": 1140
+        },
+        {
+          "x": 940,
+          "y": 1160
+        },
+        {
+          "x": 940,
+          "y": 1660
+        },
+        {
+          "x": 840,
+          "y": 1760
+        },
+        {
+          "x": 840,
+          "y": 1780
+        },
+        {
+          "x": 400,
+          "y": 1340
+        },
+        {
+          "x": 360,
+          "y": 1340
+        },
+        {
+          "x": 560,
+          "y": 1140
+        },
+        {
+          "x": 960,
+          "y": 1140
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Orange Line",
+      "color": "#EF7D00",
+      "points": [
+        {
+          "x": 960,
+          "y": 1140
+        },
+        {
+          "x": 900,
+          "y": 1200
+        },
+        {
+          "x": 620,
+          "y": 1200
+        },
+        {
+          "x": 660,
+          "y": 1160
+        },
+        {
+          "x": 660,
+          "y": 280
+        },
+        {
+          "x": 620,
+          "y": 240
+        },
+        {
+          "x": 360,
+          "y": 500
+        },
+        {
+          "x": 360,
+          "y": 1340
+        },
+        {
+          "x": 680,
+          "y": 1660
+        },
+        {
+          "x": 940,
+          "y": 1660
+        },
+        {
+          "x": 960,
+          "y": 1640
+        },
+        {
+          "x": 960,
+          "y": 1140
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "hub",
+      "name": "Transit Hub",
+      "x": 960,
+      "y": 1140,
+      "lines": ["4", "5", "6", "7"],
+      "label": {
+        "x": 1010,
+        "y": 1165,
+        "anchor": "start",
+        "leader": true,
+        "rot": 30
+      }
+    },
+    {
+      "id": "rivera-park",
+      "name": "Rivera Park",
+      "x": 1100,
+      "y": 720,
+      "lines": ["4"],
+      "label": {
+        "x": 1124,
+        "y": 696,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "riverview",
+      "name": "Highway 36 at Riverview",
+      "x": 1620,
+      "y": 900,
+      "lines": ["4"],
+      "label": {
+        "x": 1644,
+        "y": 876,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "william-orchard",
+      "name": "William at Orchard",
+      "x": 860,
+      "y": 460,
+      "lines": ["5"],
+      "label": {
+        "x": 884,
+        "y": 436,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "westwood",
+      "name": "Westwood Court",
+      "x": 500,
+      "y": 640,
+      "lines": ["5"],
+      "label": {
+        "x": 476,
+        "y": 678,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Ross Memorial Hospital",
+      "x": 620,
+      "y": 1200,
+      "lines": ["5", "7"],
+      "label": {
+        "x": 650,
+        "y": 1230,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "mall",
+      "name": "Lindsay Square Mall",
+      "x": 360,
+      "y": 1340,
+      "lines": ["4", "5", "6", "7"],
+      "label": {
+        "x": 336,
+        "y": 1378,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "college",
+      "name": "Fleming College",
+      "x": 940,
+      "y": 1660,
+      "lines": ["4", "6", "7"],
+      "label": {
+        "x": 970,
+        "y": 1700,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "victoria-manor",
+      "name": "Victoria Manor",
+      "x": 840,
+      "y": 1780,
+      "lines": ["6"],
+      "label": {
+        "x": 816,
+        "y": 1818,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "springdale-gardens",
+      "name": "Springdale Gardens Park",
+      "x": 620,
+      "y": 240,
+      "lines": ["7"],
+      "label": {
+        "x": 644,
+        "y": 216,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "carew",
+      "name": "Carew Apartments",
+      "x": 1020,
+      "y": 760,
+      "lines": ["5"],
+      "label": {
+        "x": 1005,
+        "y": 730,
+        "anchor": "end"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "4",
+      "num": "Blue",
+      "x": 1460,
+      "y": 868,
+      "color": "#0066CC",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "5",
+      "num": "Green",
+      "x": 807.37,
+      "y": 467.37,
+      "color": "#00843D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6",
+      "num": "Red",
+      "x": 908,
+      "y": 1470,
+      "color": "#D2232A",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "7",
+      "num": "Orange",
+      "x": 507.37,
+      "y": 307.37,
+      "color": "#EF7D00",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "4": ["hub", "rivera-park", "riverview", "mall", "college"],
+    "5": ["hub", "william-orchard", "westwood", "hospital", "mall", "carew"],
+    "6": ["hub", "college", "victoria-manor", "mall"],
+    "7": ["hub", "hospital", "springdale-gardens", "mall", "college"]
+  },
+  "stationAliases": {
+    "Transit Hub": "hub",
+    "Rivera Park": "rivera-park",
+    "Highway 36 At Riverview": "riverview",
+    "William At Orchard": "william-orchard",
+    "Westwood Court": "westwood",
+    "Ross Memorial Hospital": "hospital",
+    "Lindsay Square Mall": "mall",
+    "Fleming College": "college",
+    "Victoria Manor": "victoria-manor",
+    "Springdale Gardens Park": "springdale-gardens",
+    "Carew Apartments": "carew"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1900,
+      "minY": 60,
+      "maxY": 1900
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -78.766,
+    "refLonEast": -78.716,
+    "refXWest": 200,
+    "refXEast": 1700,
+    "refLatNorth": 44.379,
+    "refLatSouth": 44.338,
+    "refYNorth": 100,
+    "refYSouth": 1800
+  },
+  "stationIndex": [
+    {
+      "id": "168",
+      "schematicId": "carew",
+      "name": "Carew Apartments",
+      "lat": 44.36285,
+      "lon": -78.73856,
+      "lines": ["5"],
+      "platformIds": ["168"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "college",
+      "schematicId": "college",
+      "name": "Fleming College",
+      "lat": 44.341498,
+      "lon": -78.741067,
+      "lines": ["4", "6", "7"],
+      "platformIds": ["258", "317", "345", "434"],
+      "departureRouteIds": ["4", "6", "7"]
+    },
+    {
+      "id": "219",
+      "schematicId": "riverview",
+      "name": "Highway 36 at Riverview",
+      "lat": 44.359615,
+      "lon": -78.718728,
+      "lines": ["4"],
+      "platformIds": ["219"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "mall",
+      "schematicId": "mall",
+      "name": "Lindsay Square Mall",
+      "lat": 44.348968,
+      "lon": -78.760596,
+      "lines": ["4", "5", "6", "7"],
+      "platformIds": ["137", "249", "331", "425", "446"],
+      "departureRouteIds": ["4", "5", "6", "7"]
+    },
+    {
+      "id": "205",
+      "schematicId": "rivera-park",
+      "name": "Rivera Park",
+      "lat": 44.364063,
+      "lon": -78.735993,
+      "lines": ["4"],
+      "platformIds": ["205"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "hospital",
+      "schematicId": "hospital",
+      "name": "Ross Memorial Hospital",
+      "lat": 44.352535,
+      "lon": -78.751787,
+      "lines": ["5", "7"],
+      "platformIds": ["133", "140", "404"],
+      "departureRouteIds": ["5", "7"]
+    },
+    {
+      "id": "417",
+      "schematicId": "springdale-gardens",
+      "name": "Springdale Gardens Park",
+      "lat": 44.375622,
+      "lon": -78.752286,
+      "lines": ["7"],
+      "platformIds": ["417"],
+      "departureRouteIds": ["7"]
+    },
+    {
+      "id": "101",
+      "schematicId": "hub",
+      "name": "Transit Hub",
+      "lat": 44.35395,
+      "lon": -78.74069,
+      "lines": ["4", "5", "6", "7"],
+      "platformIds": ["101"],
+      "departureRouteIds": ["4", "5", "6", "7"]
+    },
+    {
+      "id": "victoria-manor",
+      "schematicId": "victoria-manor",
+      "name": "Victoria Manor",
+      "lat": 44.338617,
+      "lon": -78.744361,
+      "lines": ["6"],
+      "platformIds": ["320", "342"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "westwood",
+      "schematicId": "westwood",
+      "name": "Westwood Court",
+      "lat": 44.365821,
+      "lon": -78.755849,
+      "lines": ["5"],
+      "platformIds": ["124", "148"],
+      "departureRouteIds": ["5"]
+    },
+    {
+      "id": "william-orchard",
+      "schematicId": "william-orchard",
+      "name": "William at Orchard",
+      "lat": 44.3701,
+      "lon": -78.74373,
+      "lines": ["5"],
+      "platformIds": ["109", "163"],
+      "departureRouteIds": ["5"]
+    }
+  ]
+}

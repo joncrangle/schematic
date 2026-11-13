@@ -1,0 +1,492 @@
+{
+  "viewBoxWidth": 1440,
+  "viewBoxHeight": 1140,
+  "lines": [
+    {
+      "id": "2",
+      "name": "All Day Express",
+      "color": "#000000",
+      "points": [
+        {
+          "x": 650,
+          "y": 400
+        },
+        {
+          "x": 590,
+          "y": 460
+        },
+        {
+          "x": 590,
+          "y": 930
+        },
+        {
+          "x": 660,
+          "y": 1000
+        },
+        {
+          "x": 850,
+          "y": 1000
+        },
+        {
+          "x": 920,
+          "y": 930
+        },
+        {
+          "x": 920,
+          "y": 670
+        },
+        {
+          "x": 650,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "West Hill",
+      "color": "#037859",
+      "points": [
+        {
+          "x": 650,
+          "y": 400
+        },
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 300,
+          "y": 600
+        },
+        {
+          "x": 300,
+          "y": 700
+        },
+        {
+          "x": 420,
+          "y": 820
+        },
+        {
+          "x": 500,
+          "y": 820
+        },
+        {
+          "x": 560,
+          "y": 760
+        },
+        {
+          "x": 560,
+          "y": 490
+        },
+        {
+          "x": 650,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "East Hill",
+      "color": "#003399",
+      "points": [
+        {
+          "x": 650,
+          "y": 400
+        },
+        {
+          "x": 710,
+          "y": 460
+        },
+        {
+          "x": 710,
+          "y": 650
+        },
+        {
+          "x": 900,
+          "y": 840
+        },
+        {
+          "x": 1100,
+          "y": 840
+        },
+        {
+          "x": 1160,
+          "y": 780
+        },
+        {
+          "x": 1160,
+          "y": 700
+        },
+        {
+          "x": 1100,
+          "y": 640
+        },
+        {
+          "x": 890,
+          "y": 640
+        },
+        {
+          "x": 650,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "East Flat",
+      "color": "#B36620",
+      "points": [
+        {
+          "x": 650,
+          "y": 400
+        },
+        {
+          "x": 740,
+          "y": 400
+        },
+        {
+          "x": 780,
+          "y": 360
+        },
+        {
+          "x": 1180,
+          "y": 360
+        },
+        {
+          "x": 1240,
+          "y": 300
+        },
+        {
+          "x": 1240,
+          "y": 220
+        },
+        {
+          "x": 1120,
+          "y": 100
+        },
+        {
+          "x": 790,
+          "y": 100
+        },
+        {
+          "x": 500,
+          "y": 390
+        },
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 650,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "West Flat",
+      "color": "#B31605",
+      "points": [
+        {
+          "x": 650,
+          "y": 400
+        },
+        {
+          "x": 510,
+          "y": 400
+        },
+        {
+          "x": 370,
+          "y": 260
+        },
+        {
+          "x": 180,
+          "y": 260
+        },
+        {
+          "x": 120,
+          "y": 320
+        },
+        {
+          "x": 120,
+          "y": 400
+        },
+        {
+          "x": 180,
+          "y": 460
+        },
+        {
+          "x": 440,
+          "y": 460
+        },
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 650,
+          "y": 400
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "downtown-transfer",
+      "name": "Downtown Transfer",
+      "x": 650,
+      "y": 400,
+      "lines": ["2", "3", "4", "5", "6"],
+      "label": {
+        "x": 650,
+        "y": 365,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "victoria-hospital",
+      "name": "Victoria Hospital",
+      "x": 300,
+      "y": 600,
+      "lines": ["3"],
+      "label": {
+        "x": 272,
+        "y": 600,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "south-hill-mall",
+      "name": "South Hill Mall",
+      "x": 420,
+      "y": 820,
+      "lines": ["3"],
+      "label": {
+        "x": 420,
+        "y": 855,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "marquis-central",
+      "name": "Marquis / Central",
+      "x": 660,
+      "y": 1000,
+      "lines": ["2"],
+      "label": {
+        "x": 660,
+        "y": 1032,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "east-hill",
+      "name": "28th Street / 15th Avenue",
+      "x": 1100,
+      "y": 840,
+      "lines": ["4"],
+      "label": {
+        "x": 1100,
+        "y": 875,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cornerstone",
+      "name": "Cornerstone",
+      "x": 780,
+      "y": 360,
+      "lines": ["5"],
+      "label": {
+        "x": 780,
+        "y": 330,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "saskpolytechnic",
+      "name": "Saskatchewan Polytechnic",
+      "x": 1180,
+      "y": 360,
+      "lines": ["5"],
+      "label": {
+        "x": 1180,
+        "y": 395,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "west-flat",
+      "name": "13th Street / 12th Avenue",
+      "x": 180,
+      "y": 260,
+      "lines": ["6"],
+      "label": {
+        "x": 180,
+        "y": 230,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "2",
+      "num": "2",
+      "x": 622,
+      "y": 870,
+      "color": "#000000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 332,
+      "y": 680,
+      "color": "#037859",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1192,
+      "y": 740,
+      "color": "#003399",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 1040,
+      "y": 68,
+      "color": "#B36620",
+      "textColor": "#000000"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 350,
+      "y": 228,
+      "color": "#B31605",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 1380,
+      "minY": 60,
+      "maxY": 1080
+    },
+    "minZoom": 0.6,
+    "maxZoom": 5
+  },
+  "geoProjection": {
+    "refLonWest": -105.7842,
+    "refLonEast": -105.72439,
+    "refXWest": 300,
+    "refXEast": 1180,
+    "refLatNorth": 53.200065,
+    "refLatSouth": 53.17944,
+    "refYNorth": 400,
+    "refYSouth": 1000
+  },
+  "sequences": {
+    "2": ["downtown-transfer", "marquis-central"],
+    "3": ["downtown-transfer", "victoria-hospital", "south-hill-mall"],
+    "4": ["downtown-transfer", "east-hill"],
+    "5": ["downtown-transfer", "cornerstone", "saskpolytechnic"],
+    "6": ["downtown-transfer", "west-flat"]
+  },
+  "stationAliases": {
+    "Transfer Station": "downtown-transfer",
+    "Victoria Hospital": "victoria-hospital",
+    "South Hill Mall": "south-hill-mall",
+    "Marquis Road East @ Central Ave": "marquis-central",
+    "28th St East @ 15th Ave": "east-hill",
+    "Cornerstone South West": "cornerstone",
+    "Saskpolytechnic West Entrance": "saskpolytechnic",
+    "13th St West @ 12th Ave": "west-flat"
+  },
+  "stationIndex": [
+    {
+      "id": "26",
+      "schematicId": "west-flat",
+      "name": "13th Street / 12th Avenue",
+      "lat": 53.20105,
+      "lon": -105.78639,
+      "lines": ["6"],
+      "platformIds": ["26"],
+      "departureRouteIds": ["6"]
+    },
+    {
+      "id": "119",
+      "schematicId": "east-hill",
+      "name": "28th Street / 15th Avenue",
+      "lat": 53.18759,
+      "lon": -105.71247,
+      "lines": ["4"],
+      "platformIds": ["119"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "84",
+      "schematicId": "cornerstone",
+      "name": "Cornerstone",
+      "lat": 53.19946,
+      "lon": -105.73289,
+      "lines": ["5"],
+      "platformIds": ["84"],
+      "departureRouteIds": ["5", "8"]
+    },
+    {
+      "id": "downtown-transfer",
+      "schematicId": "downtown-transfer",
+      "name": "Downtown Transfer",
+      "lat": 53.20013,
+      "lon": -105.75245,
+      "lines": ["2", "3", "4", "5", "6"],
+      "platformIds": ["200", "201"],
+      "departureRouteIds": ["1", "2", "3", "4", "5", "6", "8"]
+    },
+    {
+      "id": "11",
+      "schematicId": "marquis-central",
+      "name": "Marquis / Central",
+      "lat": 53.17944,
+      "lon": -105.75379,
+      "lines": ["2"],
+      "platformIds": ["11"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "79",
+      "schematicId": "saskpolytechnic",
+      "name": "Saskatchewan Polytechnic",
+      "lat": 53.20101,
+      "lon": -105.72439,
+      "lines": ["5"],
+      "platformIds": ["79"],
+      "departureRouteIds": ["5", "8"]
+    },
+    {
+      "id": "7",
+      "schematicId": "south-hill-mall",
+      "name": "South Hill Mall",
+      "lat": 53.18607,
+      "lon": -105.7644,
+      "lines": ["3"],
+      "platformIds": ["7"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "53",
+      "schematicId": "victoria-hospital",
+      "name": "Victoria Hospital",
+      "lat": 53.19119,
+      "lon": -105.7842,
+      "lines": ["3"],
+      "platformIds": ["53"],
+      "departureRouteIds": ["3"]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "now": 1794416400000,
+  "cases": [
+    {
+      "name": "published scope and periods",
+      "hex": "0a7710feffffffffffffff7f1802a8068080c09ef4abcc0820a0d8b1dc9c3428e081b9dc9c3430d0c2b3dc9c3438b097b7dc9c344898a5b5dc9c34600468027228526f757465204120666f6c6c6f7773207468652074656d706f7261727920646976657273696f6e2e7a0e526f7574652041206465746f7572",
+      "alerts": [
+        {
+          "id": "9223372036854775806",
+          "title": "Route A detour",
+          "description": "Route A follows the temporary diversion.",
+          "startsAt": 1794416340000,
+          "endsAt": 1794416460000,
+          "impactPeriods": [
+            {
+              "startsAt": 1794416370000,
+              "endsAt": 1794416430000
+            }
+          ],
+          "routeIds": [
+            "4839359833440256"
+          ],
+          "targets": [
+            {
+              "routeId": "4839359833440256"
+            }
+          ],
+          "effect": 4,
+          "sourceFields": {
+            "priority": 2,
+            "cause": 0
+          },
+          "updatedAt": 1794416399000
+        }
+      ]
+    },
+    {
+      "name": "recognized empty board",
+      "hex": "",
+      "alerts": []
+    },
+    {
+      "name": "versioned quiet board",
+      "hex": "1880adb5dc9c34",
+      "alerts": []
+    },
+    {
+      "name": "deleted messages do not recur",
+      "hex": "0a7e10feffffffffffffff7f1802a8068080c09ef4abcc0820a0d8b1dc9c3428e081b9dc9c3430d0c2b3dc9c3438b097b7dc9c344898a5b5dc9c34600468027228526f757465204120666f6c6c6f7773207468652074656d706f7261727920646976657273696f6e2e7a0e526f7574652041206465746f75725080adb5dc9c34",
+      "alerts": []
+    },
+    {
+      "name": "truncated message",
+      "hex": "0a7f00",
+      "error": true
+    },
+    {
+      "name": "unknown nonempty board",
+      "hex": "1001",
+      "error": true
+    },
+    {
+      "name": "calendar dates and named stop restrictions",
+      "hex": "0a4d107b30cdb5d3097244566575696c6c657a206e6f74657220717565206ce28099617272c3aa7420282331323329206120c3a974c3a92064c3a9706c6163c3a920706f757220747261766175782e",
+      "stopCodeMap": {
+        "123": "native-stop"
+      },
+      "alerts": [
+        {
+          "id": "123",
+          "title": "Veuillez noter que l’arrêt (#123) a été déplacé pour travaux.",
+          "description": "Veuillez noter que l’arrêt (#123) a été déplacé pour travaux.",
+          "startsAt": 0,
+          "impactPeriods": [
+            {
+              "startsAt": 1730433600000
+            }
+          ],
+          "routeIds": [],
+          "targets": [
+            {
+              "stopId": "native-stop"
+            }
+          ],
+          "affectedStations": [
+            "native-stop"
+          ],
+          "stopScoped": true,
+          "sourceFields": {
+            "priority": 0,
+            "cause": 0,
+            "stopScoped": true
+          },
+          "updatedAt": 1794416400000
+        }
+      ]
+    },
+    {
+      "name": "zero message IDs reject consistently",
+      "hex": "0a051000720141",
+      "error": true
+    },
+    {
+      "name": "replacement stops do not inherit closure scope",
+      "hex": "0a2d107c7229417272c3aa742023313233206665726dc3a93b207574696c6973657a20617272c3aa7420233435362e",
+      "stopCodeMap": {
+        "123": "closed",
+        "456": "replacement"
+      },
+      "alerts": [
+        {
+          "id": "124",
+          "title": "Arrêt #123 fermé; utilisez arrêt #456.",
+          "description": "Arrêt #123 fermé; utilisez arrêt #456.",
+          "startsAt": 0,
+          "routeIds": [],
+          "targets": [
+            {
+              "stopId": "closed"
+            }
+          ],
+          "stopScoped": true,
+          "affectedStations": [
+            "closed"
+          ],
+          "sourceFields": {
+            "priority": 0,
+            "cause": 0,
+            "stopScoped": true
+          },
+          "updatedAt": 1794416400000
+        }
+      ]
+    }
+  ]
+}

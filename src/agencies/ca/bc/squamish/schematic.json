@@ -1,0 +1,837 @@
+{
+  "viewBoxWidth": 1300,
+  "viewBoxHeight": 1580,
+  "lines": [
+    {
+      "id": "1-SQU",
+      "name": "Brackendale",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 187,
+          "y": 1357
+        },
+        {
+          "x": 286,
+          "y": 1258
+        },
+        {
+          "x": 286,
+          "y": 1000
+        },
+        {
+          "x": 286,
+          "y": 898
+        },
+        {
+          "x": 387,
+          "y": 797
+        },
+        {
+          "x": 478,
+          "y": 706
+        },
+        {
+          "x": 596,
+          "y": 706
+        },
+        {
+          "x": 596,
+          "y": 612
+        },
+        {
+          "x": 516,
+          "y": 532
+        },
+        {
+          "x": 516,
+          "y": 266
+        },
+        {
+          "x": 598,
+          "y": 266
+        },
+        {
+          "x": 636,
+          "y": 228
+        },
+        {
+          "x": 636,
+          "y": 182
+        },
+        {
+          "x": 558,
+          "y": 104
+        },
+        {
+          "x": 384,
+          "y": 104
+        },
+        {
+          "x": 384,
+          "y": 266
+        },
+        {
+          "x": 520,
+          "y": 266
+        }
+      ]
+    },
+    {
+      "id": "2-SQU",
+      "name": "Highlands",
+      "color": "#8DC63F",
+      "points": [
+        {
+          "x": 193,
+          "y": 1363
+        },
+        {
+          "x": 294,
+          "y": 1262
+        },
+        {
+          "x": 294,
+          "y": 1000
+        },
+        {
+          "x": 294,
+          "y": 902
+        },
+        {
+          "x": 393,
+          "y": 803
+        },
+        {
+          "x": 482,
+          "y": 714
+        },
+        {
+          "x": 600,
+          "y": 714
+        },
+        {
+          "x": 762,
+          "y": 714
+        },
+        {
+          "x": 822,
+          "y": 654
+        },
+        {
+          "x": 902,
+          "y": 654
+        },
+        {
+          "x": 1004,
+          "y": 552
+        },
+        {
+          "x": 1004,
+          "y": 498
+        },
+        {
+          "x": 902,
+          "y": 396
+        },
+        {
+          "x": 796,
+          "y": 396
+        },
+        {
+          "x": 796,
+          "y": 632
+        },
+        {
+          "x": 817,
+          "y": 653
+        }
+      ]
+    },
+    {
+      "id": "3-SQU",
+      "name": "Valleycliffe",
+      "color": "#F7941E",
+      "points": [
+        {
+          "x": 204,
+          "y": 1374
+        },
+        {
+          "x": 304,
+          "y": 1274
+        },
+        {
+          "x": 400,
+          "y": 1370
+        },
+        {
+          "x": 480,
+          "y": 1370
+        },
+        {
+          "x": 540,
+          "y": 1310
+        },
+        {
+          "x": 480,
+          "y": 1370
+        },
+        {
+          "x": 700,
+          "y": 1370
+        },
+        {
+          "x": 780,
+          "y": 1290
+        },
+        {
+          "x": 740,
+          "y": 1250
+        },
+        {
+          "x": 328,
+          "y": 1250
+        },
+        {
+          "x": 204,
+          "y": 1374
+        }
+      ]
+    },
+    {
+      "id": "4-SQU",
+      "name": "Garibaldi",
+      "color": "#ED1C8F",
+      "points": [
+        {
+          "x": 198,
+          "y": 1368
+        },
+        {
+          "x": 302,
+          "y": 1264
+        },
+        {
+          "x": 302,
+          "y": 1012
+        },
+        {
+          "x": 445,
+          "y": 1012
+        },
+        {
+          "x": 612,
+          "y": 845
+        },
+        {
+          "x": 612,
+          "y": 710
+        },
+        {
+          "x": 612,
+          "y": 610
+        },
+        {
+          "x": 612,
+          "y": 430
+        }
+      ]
+    },
+    {
+      "id": "9-SQU",
+      "name": "University",
+      "color": "#AC5C3B",
+      "points": [
+        {
+          "x": 182,
+          "y": 1352
+        },
+        {
+          "x": 278,
+          "y": 1256
+        },
+        {
+          "x": 278,
+          "y": 1000
+        },
+        {
+          "x": 278,
+          "y": 895
+        },
+        {
+          "x": 381,
+          "y": 792
+        },
+        {
+          "x": 471,
+          "y": 702
+        },
+        {
+          "x": 575,
+          "y": 598
+        },
+        {
+          "x": 624,
+          "y": 598
+        },
+        {
+          "x": 624,
+          "y": 698
+        },
+        {
+          "x": 755,
+          "y": 698
+        },
+        {
+          "x": 815,
+          "y": 638
+        },
+        {
+          "x": 1045,
+          "y": 638
+        },
+        {
+          "x": 1109,
+          "y": 702
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "squamish-library",
+      "name": "Squamish Library",
+      "x": 193,
+      "y": 1363,
+      "lines": ["1-SQU", "2-SQU", "3-SQU", "4-SQU", "9-SQU"],
+      "terminal": true,
+      "label": {
+        "x": 150,
+        "y": 1365,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cleveland-buckley",
+      "name": "Cleveland & Buckley",
+      "x": 293,
+      "y": 1263,
+      "lines": ["1-SQU", "2-SQU", "3-SQU", "4-SQU", "9-SQU"],
+      "label": {
+        "x": 250,
+        "y": 1255,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 290,
+      "y": 990,
+      "lines": ["1-SQU", "2-SQU", "4-SQU", "9-SQU"],
+      "label": {
+        "x": 250,
+        "y": 1000,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "brennan-park",
+      "name": "Brennan Park",
+      "x": 390,
+      "y": 800,
+      "lines": ["1-SQU", "2-SQU", "9-SQU"],
+      "label": {
+        "x": 350,
+        "y": 790,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "government-mamquam",
+      "name": "Government & Mamquam",
+      "x": 480,
+      "y": 710,
+      "lines": ["2-SQU", "9-SQU"],
+      "label": {
+        "x": 445,
+        "y": 695,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "mamquam-diamond-head",
+      "name": "Mamquam & Diamond Head",
+      "x": 610,
+      "y": 706,
+      "lines": ["1-SQU", "2-SQU", "4-SQU", "9-SQU"],
+      "label": {
+        "x": 635,
+        "y": 745,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "highland-mall",
+      "name": "Highland Mall",
+      "x": 600,
+      "y": 610,
+      "lines": ["1-SQU", "4-SQU", "9-SQU"],
+      "label": {
+        "x": 645,
+        "y": 600,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "judd-government",
+      "name": "Judd & Government",
+      "x": 516,
+      "y": 270,
+      "lines": ["1-SQU"],
+      "label": {
+        "x": 548,
+        "y": 305,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "brackendale-schools",
+      "name": "Brackendale Schools",
+      "x": 384,
+      "y": 104,
+      "lines": ["1-SQU"],
+      "terminal": true,
+      "label": {
+        "x": 342,
+        "y": 100,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ross-depot",
+      "name": "Ross & Depot",
+      "x": 636,
+      "y": 205,
+      "lines": ["1-SQU"],
+      "label": {
+        "x": 675,
+        "y": 205,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "dowad-tantalus",
+      "name": "Dowad & Tantalus",
+      "x": 612,
+      "y": 430,
+      "lines": ["4-SQU"],
+      "terminal": true,
+      "label": {
+        "x": 645,
+        "y": 430,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "university",
+      "name": "University",
+      "x": 1108,
+      "y": 702,
+      "lines": ["9-SQU"],
+      "terminal": true,
+      "label": {
+        "x": 1100,
+        "y": 752,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "perth-pomona",
+      "name": "Perth & Pomona",
+      "x": 900,
+      "y": 396,
+      "lines": ["2-SQU"],
+      "terminal": true,
+      "label": {
+        "x": 900,
+        "y": 362,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "thunderbird-ridge",
+      "name": "Thunderbird Ridge",
+      "x": 1004,
+      "y": 520,
+      "lines": ["2-SQU"],
+      "label": {
+        "x": 1036,
+        "y": 520,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "general-hospital",
+      "name": "Squamish General Hospital",
+      "x": 400,
+      "y": 1370,
+      "lines": ["3-SQU"],
+      "label": {
+        "x": 400,
+        "y": 1412,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "vista-northridge",
+      "name": "Vista & Northridge",
+      "x": 540,
+      "y": 1310,
+      "lines": ["3-SQU"],
+      "label": {
+        "x": 572,
+        "y": 1305,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "spruce-westway",
+      "name": "Spruce & Westway",
+      "x": 780,
+      "y": 1290,
+      "lines": ["3-SQU"],
+      "label": {
+        "x": 815,
+        "y": 1295,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-SQU",
+      "num": "1",
+      "x": 484,
+      "y": 400,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-SQU",
+      "num": "2",
+      "x": 762,
+      "y": 520,
+      "color": "#8DC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-SQU",
+      "num": "3",
+      "x": 600,
+      "y": 1404,
+      "color": "#F7941E",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-SQU",
+      "num": "4",
+      "x": 646,
+      "y": 520,
+      "color": "#ED1C8F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "9-SQU",
+      "num": "9",
+      "x": 1000,
+      "y": 672,
+      "color": "#AC5C3B",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "1-SQU": [
+      "squamish-library",
+      "cleveland-buckley",
+      "walmart",
+      "brennan-park",
+      "mamquam-diamond-head",
+      "highland-mall",
+      "judd-government",
+      "ross-depot",
+      "brackendale-schools"
+    ],
+    "2-SQU": [
+      "squamish-library",
+      "cleveland-buckley",
+      "walmart",
+      "brennan-park",
+      "government-mamquam",
+      "mamquam-diamond-head",
+      "thunderbird-ridge",
+      "perth-pomona"
+    ],
+    "3-SQU": [
+      "squamish-library",
+      "cleveland-buckley",
+      "general-hospital",
+      "vista-northridge",
+      "spruce-westway"
+    ],
+    "4-SQU": [
+      "squamish-library",
+      "cleveland-buckley",
+      "walmart",
+      "mamquam-diamond-head",
+      "highland-mall",
+      "dowad-tantalus"
+    ],
+    "9-SQU": [
+      "squamish-library",
+      "cleveland-buckley",
+      "walmart",
+      "brennan-park",
+      "government-mamquam",
+      "highland-mall",
+      "mamquam-diamond-head",
+      "university"
+    ]
+  },
+  "stationAliases": {
+    "code:102738": "squamish-library",
+    "code:102733": "cleveland-buckley",
+    "code:102734": "cleveland-buckley",
+    "code:102732": "cleveland-buckley",
+    "code:134022": "cleveland-buckley",
+    "code:134034": "walmart",
+    "code:134035": "walmart",
+    "code:102769": "brennan-park",
+    "code:102776": "government-mamquam",
+    "code:102780": "mamquam-diamond-head",
+    "code:102783": "mamquam-diamond-head",
+    "code:134028": "mamquam-diamond-head",
+    "code:134046": "highland-mall",
+    "code:102796": "highland-mall",
+    "code:102817": "judd-government",
+    "code:102818": "judd-government",
+    "code:102829": "brackendale-schools",
+    "code:102831": "brackendale-schools",
+    "code:102826": "ross-depot",
+    "code:134050": "dowad-tantalus",
+    "code:102704": "university",
+    "code:102805": "thunderbird-ridge",
+    "code:102812": "thunderbird-ridge",
+    "code:102813": "perth-pomona",
+    "code:102706": "general-hospital",
+    "code:102750": "vista-northridge",
+    "code:102762": "spruce-westway"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1260,
+      "minY": 20,
+      "maxY": 1560
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -123.15613,
+    "refLonEast": -123.09908,
+    "refXWest": 265,
+    "refXEast": 1102,
+    "refLatNorth": 49.772465,
+    "refLatSouth": 49.69734,
+    "refYNorth": 57,
+    "refYSouth": 1370
+  },
+  "cornerInsertions": [
+    {
+      "lineId": "3-SQU",
+      "stationId": "vista-northridge",
+      "before": {
+        "x": 480,
+        "y": 1370
+      },
+      "after": {
+        "x": 480,
+        "y": 1370
+      }
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "brackendale-schools",
+      "schematicId": "brackendale-schools",
+      "name": "Brackendale Schools",
+      "lat": 49.77058,
+      "lon": -123.15325,
+      "lines": ["1-SQU"],
+      "platformIds": ["102829", "102831"],
+      "departureRouteIds": ["1-SQU"]
+    },
+    {
+      "id": "102769",
+      "schematicId": "brennan-park",
+      "name": "Brennan Park",
+      "lat": 49.72551,
+      "lon": -123.14152,
+      "lines": ["1-SQU", "2-SQU", "9-SQU"],
+      "platformIds": ["102769"],
+      "departureRouteIds": ["1-SQU", "2-SQU", "9-SQU"]
+    },
+    {
+      "id": "cleveland-buckley",
+      "schematicId": "cleveland-buckley",
+      "name": "Cleveland & Buckley",
+      "lat": 49.70482,
+      "lon": -123.15133,
+      "lines": ["1-SQU", "2-SQU", "3-SQU", "4-SQU", "9-SQU"],
+      "platformIds": ["102732", "102733", "102734", "134022"],
+      "departureRouteIds": ["1-SQU", "2-SQU", "3-SQU", "4-SQU", "9-SQU"]
+    },
+    {
+      "id": "134050",
+      "schematicId": "dowad-tantalus",
+      "name": "Dowad & Tantalus",
+      "lat": 49.75394,
+      "lon": -123.1346,
+      "lines": ["4-SQU"],
+      "platformIds": ["134050"],
+      "departureRouteIds": ["4-SQU"]
+    },
+    {
+      "id": "102776",
+      "schematicId": "government-mamquam",
+      "name": "Government & Mamquam",
+      "lat": 49.73393,
+      "lon": -123.14245,
+      "lines": ["2-SQU", "9-SQU"],
+      "platformIds": ["102776"],
+      "departureRouteIds": ["2-SQU", "9-SQU"]
+    },
+    {
+      "id": "highland-mall",
+      "schematicId": "highland-mall",
+      "name": "Highland Mall",
+      "lat": 49.74084,
+      "lon": -123.13243,
+      "lines": ["1-SQU", "4-SQU", "9-SQU"],
+      "platformIds": ["102796", "134046"],
+      "departureRouteIds": ["1-SQU", "2-SQU", "4-SQU", "9-SQU"]
+    },
+    {
+      "id": "judd-government",
+      "schematicId": "judd-government",
+      "name": "Judd & Government",
+      "lat": 49.75948,
+      "lon": -123.14346,
+      "lines": ["1-SQU"],
+      "platformIds": ["102817", "102818"],
+      "departureRouteIds": ["1-SQU"]
+    },
+    {
+      "id": "mamquam-diamond-head",
+      "schematicId": "mamquam-diamond-head",
+      "name": "Mamquam & Diamond Head",
+      "lat": 49.73553,
+      "lon": -123.13148,
+      "lines": ["1-SQU", "2-SQU", "4-SQU", "9-SQU"],
+      "platformIds": ["102780", "102783", "134028"],
+      "departureRouteIds": ["1-SQU", "2-SQU", "4-SQU", "9-SQU"]
+    },
+    {
+      "id": "102813",
+      "schematicId": "perth-pomona",
+      "name": "Perth & Pomona",
+      "lat": 49.74732,
+      "lon": -123.11044,
+      "lines": ["2-SQU"],
+      "platformIds": ["102813"],
+      "departureRouteIds": ["2-SQU"]
+    },
+    {
+      "id": "102826",
+      "schematicId": "ross-depot",
+      "name": "Ross & Depot",
+      "lat": 49.76637,
+      "lon": -123.14404,
+      "lines": ["1-SQU"],
+      "platformIds": ["102826"],
+      "departureRouteIds": ["1-SQU"]
+    },
+    {
+      "id": "102762",
+      "schematicId": "spruce-westway",
+      "name": "Spruce & Westway",
+      "lat": 49.70214,
+      "lon": -123.12571,
+      "lines": ["3-SQU"],
+      "platformIds": ["102762"],
+      "departureRouteIds": ["3-SQU"]
+    },
+    {
+      "id": "102706",
+      "schematicId": "general-hospital",
+      "name": "Squamish General Hospital",
+      "lat": 49.69786,
+      "lon": -123.14198,
+      "lines": ["3-SQU"],
+      "platformIds": ["102706"],
+      "departureRouteIds": ["3-SQU"]
+    },
+    {
+      "id": "102738",
+      "schematicId": "squamish-library",
+      "name": "Squamish Library",
+      "lat": 49.69734,
+      "lon": -123.15613,
+      "lines": ["1-SQU", "2-SQU", "3-SQU", "4-SQU", "9-SQU"],
+      "platformIds": ["102738"],
+      "departureRouteIds": ["1-SQU", "2-SQU", "3-SQU", "4-SQU", "9-SQU"]
+    },
+    {
+      "id": "thunderbird-ridge",
+      "schematicId": "thunderbird-ridge",
+      "name": "Thunderbird Ridge",
+      "lat": 49.74105,
+      "lon": -123.10746,
+      "lines": ["2-SQU"],
+      "platformIds": ["102805", "102812"],
+      "departureRouteIds": ["2-SQU"]
+    },
+    {
+      "id": "102704",
+      "schematicId": "university",
+      "name": "University",
+      "lat": 49.73687,
+      "lon": -123.09908,
+      "lines": ["9-SQU"],
+      "platformIds": ["102704"],
+      "departureRouteIds": ["2-SQU", "9-SQU"]
+    },
+    {
+      "id": "102750",
+      "schematicId": "vista-northridge",
+      "name": "Vista & Northridge",
+      "lat": 49.70343,
+      "lon": -123.13709,
+      "lines": ["3-SQU"],
+      "platformIds": ["102750"],
+      "departureRouteIds": ["3-SQU"]
+    },
+    {
+      "id": "walmart",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 49.72125,
+      "lon": -123.15054,
+      "lines": ["1-SQU", "2-SQU", "4-SQU", "9-SQU"],
+      "platformIds": ["134034", "134035"],
+      "departureRouteIds": ["1-SQU", "2-SQU", "4-SQU", "9-SQU"]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "viewBoxWidth": 1500,
+  "viewBoxHeight": 820,
+  "lines": [
+    {
+      "id": "1-SUN",
+      "name": "Sechelt-Gibsons/Langdale Ferry",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 560,
+          "y": 300
+        },
+        {
+          "x": 680,
+          "y": 420
+        },
+        {
+          "x": 800,
+          "y": 540
+        },
+        {
+          "x": 1000,
+          "y": 540
+        },
+        {
+          "x": 1120,
+          "y": 660
+        },
+        {
+          "x": 1240,
+          "y": 540
+        },
+        {
+          "x": 1240,
+          "y": 420
+        }
+      ]
+    },
+    {
+      "id": "90-SUN",
+      "name": "Sechelt-Gibsons/Langdale Ferry Express",
+      "color": "#F7941D",
+      "points": [
+        {
+          "x": 1240,
+          "y": 420
+        },
+        {
+          "x": 1120,
+          "y": 540
+        },
+        {
+          "x": 1000,
+          "y": 540
+        },
+        {
+          "x": 960,
+          "y": 540
+        },
+        {
+          "x": 840,
+          "y": 420
+        },
+        {
+          "x": 680,
+          "y": 420
+        },
+        {
+          "x": 560,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "2-SUN",
+      "name": "West Sechelt",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 560,
+          "y": 300
+        },
+        {
+          "x": 380,
+          "y": 300
+        },
+        {
+          "x": 300,
+          "y": 220
+        },
+        {
+          "x": 220,
+          "y": 220
+        },
+        {
+          "x": 220,
+          "y": 380
+        },
+        {
+          "x": 300,
+          "y": 460
+        },
+        {
+          "x": 480,
+          "y": 460
+        },
+        {
+          "x": 560,
+          "y": 380
+        },
+        {
+          "x": 560,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "3-SUN",
+      "name": "Sechelt Arena",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 560,
+          "y": 100
+        },
+        {
+          "x": 560,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "4-SUN",
+      "name": "Halfmoon Bay",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 560,
+          "y": 300
+        },
+        {
+          "x": 560,
+          "y": 400
+        },
+        {
+          "x": 460,
+          "y": 500
+        },
+        {
+          "x": 300,
+          "y": 500
+        },
+        {
+          "x": 140,
+          "y": 340
+        },
+        {
+          "x": 140,
+          "y": 100
+        },
+        {
+          "x": 360,
+          "y": 100
+        },
+        {
+          "x": 560,
+          "y": 300
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "sechelt",
+      "name": "Sechelt Exchange",
+      "x": 560,
+      "y": 300,
+      "lines": ["1-SUN", "90-SUN", "2-SUN", "3-SUN", "4-SUN"],
+      "label": {
+        "x": 588,
+        "y": 275,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "wilson-creek",
+      "name": "Wilson Creek",
+      "x": 680,
+      "y": 420,
+      "lines": ["1-SUN", "90-SUN"],
+      "label": {
+        "x": 652,
+        "y": 425,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "roberts-creek",
+      "name": "Roberts Creek",
+      "x": 800,
+      "y": 540,
+      "lines": ["1-SUN"],
+      "label": {
+        "x": 800,
+        "y": 572,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "gibsons",
+      "name": "Sunnycrest Mall",
+      "x": 1000,
+      "y": 540,
+      "lines": ["1-SUN", "90-SUN"],
+      "label": {
+        "x": 1000,
+        "y": 510,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lower-gibsons",
+      "name": "Lower Gibsons",
+      "x": 1120,
+      "y": 660,
+      "lines": ["1-SUN"],
+      "label": {
+        "x": 1120,
+        "y": 692,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "langdale",
+      "name": "Langdale Ferry",
+      "x": 1240,
+      "y": 420,
+      "lines": ["1-SUN", "90-SUN"],
+      "label": {
+        "x": 1268,
+        "y": 425,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "west-sechelt",
+      "name": "West Sechelt",
+      "x": 300,
+      "y": 220,
+      "lines": ["2-SUN"],
+      "label": {
+        "x": 300,
+        "y": 190,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "arena",
+      "name": "Sechelt Arena",
+      "x": 560,
+      "y": 100,
+      "lines": ["3-SUN"],
+      "label": {
+        "x": 588,
+        "y": 105,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "halfmoon-bay",
+      "name": "Halfmoon Bay",
+      "x": 140,
+      "y": 100,
+      "lines": ["4-SUN"],
+      "label": {
+        "x": 140,
+        "y": 70,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "southwood",
+      "name": "Southwood",
+      "x": 140,
+      "y": 340,
+      "lines": ["4-SUN"],
+      "label": {
+        "x": 112,
+        "y": 345,
+        "anchor": "end"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-SUN",
+      "num": "1",
+      "x": 900,
+      "y": 572,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "90-SUN",
+      "num": "90",
+      "x": 760,
+      "y": 388,
+      "color": "#F7941D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2-SUN",
+      "num": "2",
+      "x": 390,
+      "y": 428,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-SUN",
+      "num": "3",
+      "x": 592,
+      "y": 190,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-SUN",
+      "num": "4",
+      "x": 108,
+      "y": 230,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1-SUN": ["sechelt", "wilson-creek", "roberts-creek", "gibsons", "lower-gibsons", "langdale"],
+    "90-SUN": ["langdale", "gibsons", "wilson-creek", "sechelt"],
+    "2-SUN": ["sechelt", "west-sechelt"],
+    "3-SUN": ["arena", "sechelt"],
+    "4-SUN": ["sechelt", "southwood", "halfmoon-bay"]
+  },
+  "stationAliases": {
+    "code:170003": "sechelt",
+    "code:170006": "sechelt",
+    "code:170026": "wilson-creek",
+    "code:170177": "wilson-creek",
+    "code:118063": "roberts-creek",
+    "code:170040": "roberts-creek",
+    "code:170071": "gibsons",
+    "code:170321": "gibsons",
+    "code:170077": "lower-gibsons",
+    "code:170089": "lower-gibsons",
+    "code:170101": "langdale",
+    "code:170226": "west-sechelt",
+    "code:170249": "arena",
+    "code:170999": "halfmoon-bay",
+    "code:170297": "southwood"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 30,
+      "maxX": 1460,
+      "minY": 30,
+      "maxY": 750
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -123.9115,
+    "refLonEast": -123.47496,
+    "refXWest": 140,
+    "refXEast": 1240,
+    "refLatNorth": 49.51393,
+    "refLatSouth": 49.40124,
+    "refYNorth": 100,
+    "refYSouth": 660
+  },
+  "stationIndex": [
+    {
+      "id": "170999",
+      "schematicId": "halfmoon-bay",
+      "name": "Halfmoon Bay",
+      "lat": 49.51393,
+      "lon": -123.9115,
+      "lines": ["4-SUN"],
+      "platformIds": ["170999"],
+      "departureRouteIds": ["4-SUN"]
+    },
+    {
+      "id": "170101",
+      "schematicId": "langdale",
+      "name": "Langdale Ferry",
+      "lat": 49.43359,
+      "lon": -123.47496,
+      "lines": ["1-SUN", "90-SUN"],
+      "platformIds": ["170101"],
+      "departureRouteIds": ["1-SUN", "90-SUN"]
+    },
+    {
+      "id": "lower-gibsons",
+      "schematicId": "lower-gibsons",
+      "name": "Lower Gibsons",
+      "lat": 49.40124,
+      "lon": -123.50715,
+      "lines": ["1-SUN"],
+      "platformIds": ["170077", "170089"],
+      "departureRouteIds": ["1-SUN"]
+    },
+    {
+      "id": "roberts-creek",
+      "schematicId": "roberts-creek",
+      "name": "Roberts Creek",
+      "lat": 49.42095,
+      "lon": -123.64168,
+      "lines": ["1-SUN"],
+      "platformIds": ["118063", "170040"],
+      "departureRouteIds": ["1-SUN"]
+    },
+    {
+      "id": "170249",
+      "schematicId": "arena",
+      "name": "Sechelt Arena",
+      "lat": 49.48897,
+      "lon": -123.77332,
+      "lines": ["3-SUN"],
+      "platformIds": ["170249"],
+      "departureRouteIds": ["3-SUN"]
+    },
+    {
+      "id": "sechelt",
+      "schematicId": "sechelt",
+      "name": "Sechelt Exchange",
+      "lat": 49.47235,
+      "lon": -123.75953,
+      "lines": ["1-SUN", "2-SUN", "3-SUN", "4-SUN", "90-SUN"],
+      "platformIds": ["170003", "170006"],
+      "departureRouteIds": ["1-SUN", "2-SUN", "3-SUN", "4-SUN", "90-SUN"]
+    },
+    {
+      "id": "170297",
+      "schematicId": "southwood",
+      "name": "Southwood",
+      "lat": 49.47815,
+      "lon": -123.88923,
+      "lines": ["4-SUN"],
+      "platformIds": ["170297"],
+      "departureRouteIds": ["4-SUN"]
+    },
+    {
+      "id": "gibsons",
+      "schematicId": "gibsons",
+      "name": "Sunnycrest Mall",
+      "lat": 49.40672,
+      "lon": -123.51735,
+      "lines": ["1-SUN", "90-SUN"],
+      "platformIds": ["170071", "170321"],
+      "departureRouteIds": ["1-SUN", "90-SUN"]
+    },
+    {
+      "id": "170226",
+      "schematicId": "west-sechelt",
+      "name": "West Sechelt",
+      "lat": 49.47463,
+      "lon": -123.79697,
+      "lines": ["2-SUN"],
+      "platformIds": ["170226"],
+      "departureRouteIds": ["2-SUN", "4-SUN"]
+    },
+    {
+      "id": "wilson-creek",
+      "schematicId": "wilson-creek",
+      "name": "Wilson Creek",
+      "lat": 49.4402,
+      "lon": -123.70915,
+      "lines": ["1-SUN", "90-SUN"],
+      "platformIds": ["170026", "170177"],
+      "departureRouteIds": ["1-SUN", "90-SUN"]
+    }
+  ]
+}

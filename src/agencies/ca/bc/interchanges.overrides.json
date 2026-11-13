@@ -1,0 +1,426 @@
+{
+  "hubs": [
+    {
+      "id": "bc-ferries-prince-rupert-via-princerupert",
+      "endpoints": [
+        { "agencyId": "bc-ferries", "stationName": "Prince Rupert", "feedStopIds": ["2505931"] },
+        {
+          "agencyId": "prince-rupert",
+          "stationName": "Prince Rupert Ferry Terminal",
+          "feedStopIds": ["190089"]
+        },
+        { "agencyId": "via", "stationId": "prince-rupert", "stationName": "Prince Rupert" }
+      ]
+    },
+    {
+      "id": "clearwater-kamloops-lansdowne-4th",
+      "endpoints": [
+        {
+          "agencyId": "clearwater",
+          "stationId": "lansdowne",
+          "stationName": "Lansdowne at 4th Avenue"
+        },
+        {
+          "agencyId": "kamloops",
+          "stationName": "Lansdowne St at 4th Ave",
+          "feedStopIds": ["104201"]
+        }
+      ]
+    },
+    {
+      "id": "translink-via-mainstreetscienceworld",
+      "endpoints": [
+        {
+          "agencyId": "translink",
+          "stationName": "Main Street-Science World",
+          "stationId": "main-street-science-world"
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Vancouver",
+          "stationId": "vancouver",
+          "badgeLabel": "VIA",
+          "walkingMarkers": {
+            "translink": {
+              "dx": 70,
+              "dy": -35,
+              "label": "Pacific Central"
+            }
+          }
+        }
+      ],
+      "badgeOffsets": {
+        "flixbus-ca": {
+          "dx": 55,
+          "dy": 48,
+          "layout": "vertical"
+        }
+      }
+    },
+    {
+      "id": "bc-ferries-nanaimo-departure-bay",
+      "endpoints": [
+        {
+          "agencyId": "bc-ferries",
+          "stationId": "departure-bay",
+          "stationName": "Departure Bay (Nanaimo)"
+        },
+        {
+          "agencyId": "nanaimo",
+          "stationId": "departure-bay",
+          "stationName": "Departure Bay Ferry Terminal"
+        }
+      ],
+      "badgeOffsets": {
+        "nanaimo": {
+          "dx": 65,
+          "dy": 36
+        }
+      }
+    },
+    {
+      "id": "bc-ferries-nanaimo-harbour",
+      "endpoints": [
+        {
+          "agencyId": "bc-ferries",
+          "stationId": "nanaimo-harbour",
+          "stationName": "Nanaimo Harbour"
+        },
+        {
+          "agencyId": "nanaimo",
+          "stationId": "gabriola-ferry",
+          "stationName": "Gabriola Ferry Terminal",
+          "feedStopIds": ["104859"]
+        }
+      ]
+    },
+    {
+      "id": "pemberton-whistler-gondolatransitexchange",
+      "endpoints": [
+        {
+          "agencyId": "pemberton",
+          "stationId": "gondola-exchange",
+          "stationName": "Gondola Transit Exchange"
+        },
+        {
+          "agencyId": "whistler",
+          "stationId": "whistler-village",
+          "stationName": "Whistler Village",
+          "feedStopIds": [
+            "102455",
+            "102456",
+            "102462",
+            "102713",
+            "102714",
+            "102716",
+            "102717",
+            "102718",
+            "130007"
+          ]
+        }
+      ],
+      "badgeOffsets": {
+        "whistler": {
+          "dx": 70,
+          "dy": -34
+        }
+      }
+    },
+    {
+      "id": "pemberton-whistler-meadowparksportscentre",
+      "endpoints": [
+        {
+          "agencyId": "pemberton",
+          "stationId": "meadow-park",
+          "stationName": "Meadow Park Sports Centre",
+          "feedStopIds": ["102600"]
+        },
+        {
+          "agencyId": "whistler",
+          "stationId": "meadow-park",
+          "stationName": "Meadow Park Sports Centre",
+          "feedStopIds": ["102600"]
+        }
+      ]
+    },
+    {
+      "id": "pemberton-whistler-rainbowestates",
+      "endpoints": [
+        {
+          "agencyId": "pemberton",
+          "stationId": "rainbow-estates",
+          "stationName": "Rainbow Estates"
+        },
+        {
+          "agencyId": "whistler",
+          "stationId": "rainbow",
+          "stationName": "Rainbow"
+        }
+      ]
+    },
+    {
+      "id": "bc-ferries-comox-little-river",
+      "endpoints": [
+        {
+          "agencyId": "bc-ferries",
+          "stationName": "Comox (Little River)",
+          "feedStopIds": ["2505801"]
+        },
+        {
+          "agencyId": "comox-valley",
+          "stationName": "Little River Ferry",
+          "feedStopIds": ["111449"],
+          "stationId": "little-river"
+        }
+      ]
+    },
+    {
+      "id": "bc-ferries-comox-buckley-bay",
+      "endpoints": [
+        {
+          "agencyId": "bc-ferries",
+          "stationName": "Buckley Bay (Vancouver Island)",
+          "feedStopIds": ["2505803"]
+        },
+        {
+          "agencyId": "comox-valley",
+          "stationName": "Buckley Bay",
+          "feedStopIds": ["103864", "110324"],
+          "stationId": "buckley-bay"
+        }
+      ]
+    },
+    {
+      "id": "bc-ferries-campbell-river",
+      "endpoints": [
+        {
+          "agencyId": "bc-ferries",
+          "stationName": "Campbell River (Vancouver Island)",
+          "feedStopIds": ["2505805"]
+        },
+        {
+          "agencyId": "campbell-river",
+          "stationName": "Island Hwy & St Anns",
+          "feedStopIds": ["110814"]
+        }
+      ]
+    },
+    {
+      "id": "bc-ferries-cowichan-chemainus",
+      "endpoints": [
+        {
+          "agencyId": "bc-ferries",
+          "stationName": "Chemainus",
+          "feedStopIds": ["2505865"],
+          "stationId": "chemainus"
+        },
+        {
+          "agencyId": "cowichan-valley",
+          "stationName": "Esplanade & Oak - Thetis/Penelakut Ferry",
+          "feedStopIds": ["136139"]
+        }
+      ]
+    },
+    {
+      "id": "kelowna-north-okanagan-ubcoexchange",
+      "badgeOffsets": {
+        "kelowna": {
+          "dx": -55,
+          "dy": -55
+        }
+      }
+    },
+    {
+      "id": "kelowna-south-okanagan-similkameen-westbankexchange",
+      "badgeOffsets": {
+        "kelowna": {
+          "dx": -60,
+          "dy": -50
+        }
+      }
+    }
+  ],
+  "exclusions": [
+    {
+      "left": {
+        "agencyId": "fraser-valley",
+        "stationName": "Pioneer Ave at Park St",
+        "feedStopIds": ["132001", "132012"]
+      },
+      "right": { "agencyId": "via", "stationName": "Agassiz", "feedStopIds": ["296"] }
+    },
+    {
+      "left": {
+        "agencyId": "fraser-valley",
+        "stationName": "Young Rd at Cheam Ave",
+        "feedStopIds": ["124038", "124053"]
+      },
+      "right": { "agencyId": "via", "stationName": "Chilliwack", "feedStopIds": ["277"] }
+    },
+    {
+      "left": {
+        "agencyId": "fraser-valley",
+        "stationName": "Pioneer Ave at Evergreen Dr",
+        "stationId": "agassiz"
+      },
+      "right": { "agencyId": "via", "stationName": "Agassiz", "feedStopIds": ["296"] }
+    },
+    {
+      "left": {
+        "agencyId": "fraser-valley",
+        "stationName": "Chawathil Rd at Lougheed Hwy",
+        "stationId": "chawathil"
+      },
+      "right": { "agencyId": "via", "stationName": "Katz", "feedStopIds": ["285"] }
+    },
+    {
+      "left": {
+        "agencyId": "fraser-valley",
+        "stationName": "Young Rd at Chilliwack Central Rd",
+        "feedStopIds": ["124039", "124052"]
+      },
+      "right": { "agencyId": "via", "stationName": "Chilliwack", "feedStopIds": ["277"] }
+    },
+    {
+      "left": {
+        "agencyId": "kitimat-stikine",
+        "stationName": "Kalum at Lazelle",
+        "feedStopIds": ["192011"]
+      },
+      "right": { "agencyId": "via", "stationName": "Terrace", "feedStopIds": ["31"] }
+    },
+    {
+      "left": {
+        "agencyId": "kitimat-stikine",
+        "stationName": "Kalum at Feeney",
+        "feedStopIds": ["192096", "192097"]
+      },
+      "right": { "agencyId": "via", "stationName": "Terrace", "feedStopIds": ["31"] }
+    },
+    {
+      "left": {
+        "agencyId": "kitimat-stikine",
+        "stationName": "Lakelse at Atwood",
+        "feedStopIds": ["192051"]
+      },
+      "right": { "agencyId": "via", "stationName": "Terrace", "feedStopIds": ["31"] }
+    },
+    {
+      "left": {
+        "agencyId": "clearwater",
+        "stationName": "Royal Inland Hospital",
+        "stationId": "royal-inland-hospital"
+      },
+      "right": { "agencyId": "kamloops", "stationName": "Ponderosa Lodge" }
+    },
+    {
+      "left": {
+        "agencyId": "clearwater",
+        "stationName": "Royal Inland Hospital",
+        "stationId": "royal-inland-hospital"
+      },
+      "right": { "agencyId": "kamloops", "stationName": "Columbia St at 3rd Ave" }
+    },
+    {
+      "left": {
+        "agencyId": "clearwater",
+        "stationName": "Royal Inland Hospital",
+        "stationId": "royal-inland-hospital"
+      },
+      "right": { "agencyId": "kamloops", "stationName": "3rd Ave at Columbia St" }
+    },
+    {
+      "left": {
+        "agencyId": "clearwater",
+        "stationName": "Royal Inland Hospital",
+        "stationId": "royal-inland-hospital"
+      },
+      "right": { "agencyId": "kamloops", "stationName": "4th Ave at Nicola St" }
+    },
+    {
+      "left": {
+        "agencyId": "clearwater",
+        "stationName": "Royal Inland Hospital",
+        "stationId": "royal-inland-hospital"
+      },
+      "right": { "agencyId": "kamloops", "stationName": "Columbia St at 5th Ave" }
+    },
+    {
+      "left": {
+        "agencyId": "clearwater",
+        "stationName": "Royal Inland Hospital",
+        "stationId": "royal-inland-hospital"
+      },
+      "right": { "agencyId": "kamloops", "stationName": "Interior Health" }
+    },
+    {
+      "left": {
+        "agencyId": "pemberton",
+        "stationName": "Hwy 99 at Alpine Way"
+      },
+      "right": {
+        "agencyId": "whistler",
+        "stationName": "Alpine Meadows",
+        "stationId": "alpine-meadows"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "pemberton",
+        "stationName": "Village Gate Blvd at Northlands Blvd"
+      },
+      "right": {
+        "agencyId": "whistler",
+        "stationName": "Whistler Village",
+        "stationId": "whistler-village"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "smithers",
+        "stationName": "Alfred Ave at Main St"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Smithers",
+        "feedStopIds": ["307"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "prince-george",
+        "stationName": "Burns Lake",
+        "stationId": "burns-lake"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Burns Lake",
+        "feedStopIds": ["338"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "prince-george",
+        "stationName": "Endako Bar and Grill",
+        "feedStopIds": ["185013"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Endako",
+        "feedStopIds": ["424"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "prince-george",
+        "stationName": "Vanderhoof",
+        "stationId": "vanderhoof"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Vanderhoof",
+        "feedStopIds": ["36"]
+      }
+    }
+  ]
+}

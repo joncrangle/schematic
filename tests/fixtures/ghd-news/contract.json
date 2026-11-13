@@ -1,0 +1,889 @@
+{
+  "timeZone": "America/Toronto",
+  "now": 1790611200000,
+  "recognizedEmptyPages": [
+    "govstack-empty-newsfeed.html",
+    "unclosed-empty-newsfeed.html",
+    "thunderbay-anchored-accordion-empty.html"
+  ],
+  "unsupportedPages": [
+    "challenge-interstitial.html",
+    "blank-card-with-empty-marker.html",
+    "missing-card-title.html",
+    "nested-empty-marker.html",
+    "thunderbay-accordion-missing-section.html",
+    "thunderbay-accordion-tab-without-body.html",
+    "thunderbay-accordion-renamed-tab.html"
+  ],
+  "variants": [
+    {
+      "file": "yrt-blog-item.html",
+      "maxAgeMinutes": null,
+      "alerts": [
+        {
+          "id": "https://www.yrt.ca/en/news/24-woodbine.aspx",
+          "title": "24 - Woodbine",
+          "routeIds": [
+            "24"
+          ],
+          "stopIds": [
+            "3229",
+            "3230",
+            "3231",
+            "3232",
+            "3233",
+            "3216",
+            "3221",
+            "3222",
+            "3223",
+            "3224",
+            "3225",
+            "3226"
+          ],
+          "effect": "DETOUR",
+          "startsAt": 1790568000000,
+          "endsAt": 1790999999000
+        },
+        {
+          "id": "https://www.yrt.ca/en/news/107b-keele.aspx",
+          "title": "107B - Keele",
+          "routeIds": [
+            "107B"
+          ],
+          "stopIds": [
+            "3861",
+            "3862",
+            "3863",
+            "3871",
+            "3872",
+            "3873",
+            "3874",
+            "3875"
+          ],
+          "effect": "DETOUR",
+          "startsAt": 1790568000000,
+          "endsAt": 1791259199000
+        },
+        {
+          "id": "https://www.yrt.ca/en/news/91-bayview2.aspx",
+          "title": "91 - Bayview",
+          "routeIds": [
+            "91"
+          ],
+          "stopIds": [
+            "2885",
+            "2886",
+            "2887",
+            "2888",
+            "5234",
+            "2889",
+            "3577",
+            "3579",
+            "3581",
+            "2884",
+            "3583"
+          ],
+          "effect": "DETOUR",
+          "startsAt": 1789963200000,
+          "endsAt": 1790999999000
+        }
+      ]
+    },
+    {
+      "file": "milton-blog-item.html",
+      "maxAgeMinutes": 10080,
+      "alerts": [
+        {
+          "id": "https://www.milton.ca/en/news/route-6-7-detour-sept-25.aspx",
+          "title": "Route 6/7 detour - Sept. 25",
+          "routeIds": [
+            "6",
+            "7"
+          ],
+          "stopIds": [],
+          "effect": "DETOUR",
+          "startsAt": 1790346060000,
+          "endsAt": 1790950860000
+        },
+        {
+          "id": "https://www.milton.ca/en/news/service-changes-sept-28.aspx",
+          "title": "Service Changes - Sept. 28",
+          "routeIds": [
+            "9A"
+          ],
+          "stopIds": [],
+          "effect": null,
+          "startsAt": 1790257560000,
+          "endsAt": 1790862360000
+        },
+        {
+          "id": "https://www.milton.ca/en/news/route-5-stops-temporarily-out-of-service.aspx",
+          "title": "Route 5 - stops temporarily out of service",
+          "routeIds": [
+            "5"
+          ],
+          "stopIds": [
+            "2395"
+          ],
+          "effect": null,
+          "startsAt": 1790092560000,
+          "endsAt": 1790697360000
+        },
+        {
+          "id": "https://www.milton.ca/en/news/school-extra-service-updates-starting-sept-8.aspx",
+          "title": "School Extra Service updates starting Sept. 8",
+          "routeIds": [
+            "50"
+          ],
+          "stopIds": [],
+          "effect": null,
+          "startsAt": 1788351840000,
+          "endsAt": 1788956640000
+        }
+      ]
+    },
+    {
+      "file": "drt-feed-list.html",
+      "maxAgeMinutes": 20160,
+      "alerts": [
+        {
+          "id": "/news/posts/temporary-bus-stop-closure-1608-kingston-rd-westbound-glenanna-rd/",
+          "title": "Temporary Bus Stop Closure - 1608 - Kingston Rd Westbound @ Glenanna Rd.",
+          "routeIds": [
+            "900",
+            "920"
+          ],
+          "stopIds": [
+            "1608"
+          ],
+          "effect": null,
+          "startsAt": 1790740800000,
+          "endsAt": 1790999999000
+        },
+        {
+          "id": "/news/posts/temporary-bus-stop-closure-stop-94191-thickson-northbound-rossland-north-side-stop/",
+          "title": "Temporary Bus Stop Closure - Stop #94191 - Thickson Northbound @ Rossland (North Side Stop)",
+          "routeIds": [
+            "905",
+            "920"
+          ],
+          "stopIds": [
+            "94191",
+            "93185"
+          ],
+          "effect": null,
+          "startsAt": 1790049600000,
+          "endsAt": 1791259200000
+        },
+        {
+          "id": "/news/posts/temporary-bus-stop-relocation-stop-458-rossland-westbound-thickson/",
+          "title": "Temporary Bus Stop Relocation - Stop #458 - Rossland Westbound @ Thickson",
+          "routeIds": [
+            "916"
+          ],
+          "stopIds": [
+            "458"
+          ],
+          "effect": null,
+          "startsAt": 1790049600000,
+          "endsAt": 1791172800000
+        },
+        {
+          "id": "/news/posts/detour-trulls-road-from-avondale-drive-to-sandringham-drive-route-421/",
+          "title": "Detour - Trulls Road from Avondale Drive to Sandringham Drive, Route 421",
+          "routeIds": [
+            "421"
+          ],
+          "stopIds": [],
+          "effect": "DETOUR",
+          "startsAt": 1788840000000,
+          "endsAt": 1790049600000
+        },
+        {
+          "id": "/news/posts/detour-port-perry-walmart-stop-3300/",
+          "title": "Detour - Port Perry Walmart - Stop #3300",
+          "routeIds": [
+            "618",
+            "905C"
+          ],
+          "stopIds": [
+            "3300"
+          ],
+          "effect": null,
+          "startsAt": 1783310400000,
+          "endsAt": 1792209599000
+        }
+      ]
+    },
+    {
+      "file": "drt-feed-list-page2.html",
+      "maxAgeMinutes": 20160,
+      "alerts": [
+        {
+          "id": "/news/posts/detour-route-407-wilson-road-closure-between-dean-avenue-and-bloor-street/",
+          "title": "Detour - Route 407 - Wilson Road closure between Dean Avenue and Bloor Street",
+          "routeIds": [
+            "407"
+          ],
+          "stopIds": [],
+          "effect": "DETOUR",
+          "startsAt": 1754452800000,
+          "endsAt": 1798779599000
+        }
+      ]
+    },
+    {
+      "file": "thunderbay-anchored-accordion.html",
+      "maxAgeMinutes": null,
+      "pageUrl": "https://www.thunderbay.ca/city-services/transit/service-alerts/",
+      "alerts": [
+        {
+          "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-beverly-street-detour-route-15-october-5-2026",
+          "title": "Service Notice: Beverly Street detour (Route 15) – October 5, 2026 - NEW",
+          "routeIds": [
+            "15"
+          ],
+          "stopIds": [
+            "1869",
+            "1298",
+            "1299",
+            "1300",
+            "1301",
+            "1212",
+            "1213",
+            "1214",
+            "1216",
+            "1868"
+          ],
+          "effect": "DETOUR",
+          "startsAt": 1791172800000,
+          "endsAt": 0
+        },
+        {
+          "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-east-end-balmoral-detour-june-29-2026",
+          "title": "Service Notice: East End & Balmoral Detour – June 29, 2026",
+          "routeIds": [
+            "12",
+            "16"
+          ],
+          "stopIds": [],
+          "effect": "DETOUR",
+          "startsAt": 1782705600000,
+          "endsAt": 0
+        },
+        {
+          "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-cumberland-street-closure-waterfront-terminal-access",
+          "title": "Transit Detour Notice: Cumberland Street Closure – Waterfront Terminal Access",
+          "routeIds": [
+            "1",
+            "2",
+            "11",
+            "13"
+          ],
+          "stopIds": [
+            "1189",
+            "1190",
+            "1120"
+          ],
+          "effect": "DETOUR",
+          "startsAt": 1780891200000,
+          "endsAt": 0
+        },
+        {
+          "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-oliver-road-closure",
+          "title": "Transit Detour Notice: Oliver Road Closure",
+          "routeIds": [
+            "2",
+            "11",
+            "13"
+          ],
+          "stopIds": [
+            "1865",
+            "1866",
+            "1456",
+            "1457",
+            "1458"
+          ],
+          "effect": "DETOUR",
+          "startsAt": 1782100800000,
+          "endsAt": 1785815999000
+        }
+      ]
+    },
+    {
+      "file": "dated-news-headlines.html",
+      "maxAgeMinutes": null,
+      "alerts": [
+        {
+          "id": "/news/project-update",
+          "title": "Project weekly update: October 19 to 23, 2026",
+          "routeIds": [],
+          "stopIds": [],
+          "effect": null,
+          "startsAt": 1790568000000,
+          "endsAt": 0
+        },
+        {
+          "id": "/news/lettered-detour",
+          "title": "Route B detour on October 19",
+          "routeIds": [
+            "B"
+          ],
+          "stopIds": [],
+          "effect": "DETOUR",
+          "startsAt": 1790568000000,
+          "endsAt": 0
+        },
+        {
+          "id": "/news/numeric-detour",
+          "title": "24 - Northern corridor",
+          "routeIds": [
+            "24"
+          ],
+          "stopIds": [],
+          "effect": "DETOUR",
+          "startsAt": 1790568000000,
+          "endsAt": 0
+        }
+      ]
+    }
+  ],
+  "accordionClocks": {
+    "file": "thunderbay-anchored-accordion.html",
+    "pageUrl": "https://www.thunderbay.ca/city-services/transit/service-alerts/",
+    "clocks": [
+      {
+        "now": 1789920000000,
+        "alerts": [
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-beverly-street-detour-route-15-october-5-2026",
+            "title": "Service Notice: Beverly Street detour (Route 15) – October 5, 2026 - NEW",
+            "routeIds": [
+              "15"
+            ],
+            "stopIds": [
+              "1869",
+              "1298",
+              "1299",
+              "1300",
+              "1301",
+              "1212",
+              "1213",
+              "1214",
+              "1216",
+              "1868"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1791172800000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-east-end-balmoral-detour-june-29-2026",
+            "title": "Service Notice: East End & Balmoral Detour – June 29, 2026",
+            "routeIds": [
+              "12",
+              "16"
+            ],
+            "stopIds": [],
+            "effect": "DETOUR",
+            "startsAt": 1782705600000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-cumberland-street-closure-waterfront-terminal-access",
+            "title": "Transit Detour Notice: Cumberland Street Closure – Waterfront Terminal Access",
+            "routeIds": [
+              "1",
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1189",
+              "1190",
+              "1120"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1780891200000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-oliver-road-closure",
+            "title": "Transit Detour Notice: Oliver Road Closure",
+            "routeIds": [
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1865",
+              "1866",
+              "1456",
+              "1457",
+              "1458"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1782100800000,
+            "endsAt": 1785815999000
+          }
+        ]
+      },
+      {
+        "now": 1790611200000,
+        "alerts": [
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-beverly-street-detour-route-15-october-5-2026",
+            "title": "Service Notice: Beverly Street detour (Route 15) – October 5, 2026 - NEW",
+            "routeIds": [
+              "15"
+            ],
+            "stopIds": [
+              "1869",
+              "1298",
+              "1299",
+              "1300",
+              "1301",
+              "1212",
+              "1213",
+              "1214",
+              "1216",
+              "1868"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1791172800000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-east-end-balmoral-detour-june-29-2026",
+            "title": "Service Notice: East End & Balmoral Detour – June 29, 2026",
+            "routeIds": [
+              "12",
+              "16"
+            ],
+            "stopIds": [],
+            "effect": "DETOUR",
+            "startsAt": 1782705600000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-cumberland-street-closure-waterfront-terminal-access",
+            "title": "Transit Detour Notice: Cumberland Street Closure – Waterfront Terminal Access",
+            "routeIds": [
+              "1",
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1189",
+              "1190",
+              "1120"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1780891200000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-oliver-road-closure",
+            "title": "Transit Detour Notice: Oliver Road Closure",
+            "routeIds": [
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1865",
+              "1866",
+              "1456",
+              "1457",
+              "1458"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1782100800000,
+            "endsAt": 1785815999000
+          }
+        ]
+      },
+      {
+        "now": 1791993600000,
+        "alerts": [
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-beverly-street-detour-route-15-october-5-2026",
+            "title": "Service Notice: Beverly Street detour (Route 15) – October 5, 2026 - NEW",
+            "routeIds": [
+              "15"
+            ],
+            "stopIds": [
+              "1869",
+              "1298",
+              "1299",
+              "1300",
+              "1301",
+              "1212",
+              "1213",
+              "1214",
+              "1216",
+              "1868"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1791172800000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-east-end-balmoral-detour-june-29-2026",
+            "title": "Service Notice: East End & Balmoral Detour – June 29, 2026",
+            "routeIds": [
+              "12",
+              "16"
+            ],
+            "stopIds": [],
+            "effect": "DETOUR",
+            "startsAt": 1782705600000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-cumberland-street-closure-waterfront-terminal-access",
+            "title": "Transit Detour Notice: Cumberland Street Closure – Waterfront Terminal Access",
+            "routeIds": [
+              "1",
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1189",
+              "1190",
+              "1120"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1780891200000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-oliver-road-closure",
+            "title": "Transit Detour Notice: Oliver Road Closure",
+            "routeIds": [
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1865",
+              "1866",
+              "1456",
+              "1457",
+              "1458"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1782100800000,
+            "endsAt": 1785815999000
+          }
+        ]
+      },
+      {
+        "now": 1798777800000,
+        "alerts": [
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-beverly-street-detour-route-15-october-5-2026",
+            "title": "Service Notice: Beverly Street detour (Route 15) – October 5, 2026 - NEW",
+            "routeIds": [
+              "15"
+            ],
+            "stopIds": [
+              "1869",
+              "1298",
+              "1299",
+              "1300",
+              "1301",
+              "1212",
+              "1213",
+              "1214",
+              "1216",
+              "1868"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1791172800000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-east-end-balmoral-detour-june-29-2026",
+            "title": "Service Notice: East End & Balmoral Detour – June 29, 2026",
+            "routeIds": [
+              "12",
+              "16"
+            ],
+            "stopIds": [],
+            "effect": "DETOUR",
+            "startsAt": 1782705600000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-cumberland-street-closure-waterfront-terminal-access",
+            "title": "Transit Detour Notice: Cumberland Street Closure – Waterfront Terminal Access",
+            "routeIds": [
+              "1",
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1189",
+              "1190",
+              "1120"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1780891200000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-oliver-road-closure",
+            "title": "Transit Detour Notice: Oliver Road Closure",
+            "routeIds": [
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1865",
+              "1866",
+              "1456",
+              "1457",
+              "1458"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1782100800000,
+            "endsAt": 1785815999000
+          }
+        ]
+      },
+      {
+        "now": 1798992000000,
+        "alerts": [
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-beverly-street-detour-route-15-october-5-2026",
+            "title": "Service Notice: Beverly Street detour (Route 15) – October 5, 2026 - NEW",
+            "routeIds": [
+              "15"
+            ],
+            "stopIds": [
+              "1869",
+              "1298",
+              "1299",
+              "1300",
+              "1301",
+              "1212",
+              "1213",
+              "1214",
+              "1216",
+              "1868"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1791172800000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-east-end-balmoral-detour-june-29-2026",
+            "title": "Service Notice: East End & Balmoral Detour – June 29, 2026",
+            "routeIds": [
+              "12",
+              "16"
+            ],
+            "stopIds": [],
+            "effect": "DETOUR",
+            "startsAt": 1782705600000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-cumberland-street-closure-waterfront-terminal-access",
+            "title": "Transit Detour Notice: Cumberland Street Closure – Waterfront Terminal Access",
+            "routeIds": [
+              "1",
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1189",
+              "1190",
+              "1120"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1780891200000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-oliver-road-closure",
+            "title": "Transit Detour Notice: Oliver Road Closure",
+            "routeIds": [
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1865",
+              "1866",
+              "1456",
+              "1457",
+              "1458"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1782100800000,
+            "endsAt": 1785815999000
+          }
+        ]
+      },
+      {
+        "now": 1813075200000,
+        "alerts": [
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-beverly-street-detour-route-15-october-5-2026",
+            "title": "Service Notice: Beverly Street detour (Route 15) – October 5, 2026 - NEW",
+            "routeIds": [
+              "15"
+            ],
+            "stopIds": [
+              "1869",
+              "1298",
+              "1299",
+              "1300",
+              "1301",
+              "1212",
+              "1213",
+              "1214",
+              "1216",
+              "1868"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1791172800000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-east-end-balmoral-detour-june-29-2026",
+            "title": "Service Notice: East End & Balmoral Detour – June 29, 2026",
+            "routeIds": [
+              "12",
+              "16"
+            ],
+            "stopIds": [],
+            "effect": "DETOUR",
+            "startsAt": 1782705600000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-cumberland-street-closure-waterfront-terminal-access",
+            "title": "Transit Detour Notice: Cumberland Street Closure – Waterfront Terminal Access",
+            "routeIds": [
+              "1",
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1189",
+              "1190",
+              "1120"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1780891200000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-oliver-road-closure",
+            "title": "Transit Detour Notice: Oliver Road Closure",
+            "routeIds": [
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1865",
+              "1866",
+              "1456",
+              "1457",
+              "1458"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1782100800000,
+            "endsAt": 1785815999000
+          }
+        ]
+      },
+      {
+        "now": 1829318400000,
+        "alerts": [
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-beverly-street-detour-route-15-october-5-2026",
+            "title": "Service Notice: Beverly Street detour (Route 15) – October 5, 2026 - NEW",
+            "routeIds": [
+              "15"
+            ],
+            "stopIds": [
+              "1869",
+              "1298",
+              "1299",
+              "1300",
+              "1301",
+              "1212",
+              "1213",
+              "1214",
+              "1216",
+              "1868"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1791172800000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#service-notice-east-end-balmoral-detour-june-29-2026",
+            "title": "Service Notice: East End & Balmoral Detour – June 29, 2026",
+            "routeIds": [
+              "12",
+              "16"
+            ],
+            "stopIds": [],
+            "effect": "DETOUR",
+            "startsAt": 1782705600000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-cumberland-street-closure-waterfront-terminal-access",
+            "title": "Transit Detour Notice: Cumberland Street Closure – Waterfront Terminal Access",
+            "routeIds": [
+              "1",
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1189",
+              "1190",
+              "1120"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1780891200000,
+            "endsAt": 0
+          },
+          {
+            "id": "https://www.thunderbay.ca/city-services/transit/service-alerts/#transit-detour-notice-oliver-road-closure",
+            "title": "Transit Detour Notice: Oliver Road Closure",
+            "routeIds": [
+              "2",
+              "11",
+              "13"
+            ],
+            "stopIds": [
+              "1865",
+              "1866",
+              "1456",
+              "1457",
+              "1458"
+            ],
+            "effect": "DETOUR",
+            "startsAt": 1782100800000,
+            "endsAt": 1785815999000
+          }
+        ]
+      }
+    ]
+  }
+}

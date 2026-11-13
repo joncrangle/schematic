@@ -1,0 +1,537 @@
+{
+  "viewBoxWidth": 1420,
+  "viewBoxHeight": 1330,
+  "lines": [
+    {
+      "id": "1-POW",
+      "name": "Townsite/ Grief Point",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 440,
+          "y": 300
+        },
+        {
+          "x": 700,
+          "y": 560
+        },
+        {
+          "x": 900,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "2-POW",
+      "name": "Wildwood Express",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 700,
+          "y": 560
+        },
+        {
+          "x": 440,
+          "y": 300
+        },
+        {
+          "x": 440,
+          "y": 160
+        },
+        {
+          "x": 280,
+          "y": 160
+        },
+        {
+          "x": 240,
+          "y": 200
+        },
+        {
+          "x": 240,
+          "y": 300
+        },
+        {
+          "x": 500,
+          "y": 560
+        },
+        {
+          "x": 700,
+          "y": 560
+        }
+      ]
+    },
+    {
+      "id": "3-POW",
+      "name": "Upper Westview",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 700,
+          "y": 560
+        },
+        {
+          "x": 700,
+          "y": 400
+        },
+        {
+          "x": 860,
+          "y": 400
+        },
+        {
+          "x": 940,
+          "y": 480
+        },
+        {
+          "x": 940,
+          "y": 640
+        },
+        {
+          "x": 780,
+          "y": 640
+        },
+        {
+          "x": 700,
+          "y": 560
+        }
+      ]
+    },
+    {
+      "id": "12-POW",
+      "name": "Stillwater",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 700,
+          "y": 560
+        },
+        {
+          "x": 820,
+          "y": 560
+        },
+        {
+          "x": 1060,
+          "y": 800
+        },
+        {
+          "x": 1140,
+          "y": 800
+        },
+        {
+          "x": 1140,
+          "y": 920
+        }
+      ]
+    },
+    {
+      "id": "13-POW",
+      "name": "Texada Island",
+      "color": "#91278F",
+      "points": [
+        {
+          "x": 460,
+          "y": 1200
+        },
+        {
+          "x": 460,
+          "y": 960
+        },
+        {
+          "x": 380,
+          "y": 880
+        },
+        {
+          "x": 580,
+          "y": 680
+        },
+        {
+          "x": 700,
+          "y": 560
+        },
+        {
+          "x": 860,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "14-POW",
+      "name": "Lund",
+      "color": "#FCAF17",
+      "points": [
+        {
+          "x": 180,
+          "y": 80
+        },
+        {
+          "x": 180,
+          "y": 240
+        },
+        {
+          "x": 500,
+          "y": 560
+        },
+        {
+          "x": 700,
+          "y": 560
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "town-centre",
+      "name": "Town Centre Exchange",
+      "x": 700,
+      "y": 560,
+      "lines": ["1-POW", "2-POW", "3-POW", "12-POW", "13-POW", "14-POW"],
+      "label": {
+        "x": 672,
+        "y": 585,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "townsite",
+      "name": "Townsite",
+      "x": 440,
+      "y": 300,
+      "lines": ["1-POW", "2-POW"],
+      "label": {
+        "x": 412,
+        "y": 305,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "grief-point",
+      "name": "Grief Point",
+      "x": 900,
+      "y": 760,
+      "lines": ["1-POW"],
+      "label": {
+        "x": 900,
+        "y": 792,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "hospital",
+      "name": "qathet General Hospital",
+      "x": 860,
+      "y": 400,
+      "lines": ["3-POW", "13-POW"],
+      "label": {
+        "x": 888,
+        "y": 405,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "wildwood",
+      "name": "Wildwood",
+      "x": 280,
+      "y": 160,
+      "lines": ["2-POW"],
+      "label": {
+        "x": 280,
+        "y": 130,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "westview-ferry",
+      "name": "Westview Ferry",
+      "x": 580,
+      "y": 680,
+      "lines": ["13-POW"],
+      "label": {
+        "x": 608,
+        "y": 685,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saltery-bay",
+      "name": "Saltery Bay Ferry",
+      "x": 1140,
+      "y": 920,
+      "lines": ["12-POW"],
+      "label": {
+        "x": 1168,
+        "y": 925,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lund",
+      "name": "Lund",
+      "x": 180,
+      "y": 80,
+      "lines": ["14-POW"],
+      "label": {
+        "x": 152,
+        "y": 85,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "blubber-bay",
+      "name": "Blubber Bay Ferry",
+      "x": 380,
+      "y": 880,
+      "lines": ["13-POW"],
+      "label": {
+        "x": 352,
+        "y": 885,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "van-anda",
+      "name": "Van Anda",
+      "x": 460,
+      "y": 1040,
+      "lines": ["13-POW"],
+      "label": {
+        "x": 488,
+        "y": 1045,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "shelter-point",
+      "name": "Shelter Point",
+      "x": 460,
+      "y": 1200,
+      "lines": ["13-POW"],
+      "label": {
+        "x": 488,
+        "y": 1205,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-POW",
+      "num": "1",
+      "x": 850,
+      "y": 666,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-POW",
+      "num": "2",
+      "x": 472,
+      "y": 210,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-POW",
+      "num": "3",
+      "x": 972,
+      "y": 540,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "12-POW",
+      "num": "12",
+      "x": 1172,
+      "y": 850,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "13-POW",
+      "num": "13",
+      "x": 492,
+      "y": 1100,
+      "color": "#91278F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "14-POW",
+      "num": "14",
+      "x": 148,
+      "y": 160,
+      "color": "#FCAF17",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1-POW": ["townsite", "town-centre", "grief-point"],
+    "2-POW": ["town-centre", "townsite", "wildwood"],
+    "3-POW": ["town-centre", "hospital"],
+    "12-POW": ["town-centre", "saltery-bay"],
+    "13-POW": [
+      "shelter-point",
+      "van-anda",
+      "blubber-bay",
+      "westview-ferry",
+      "town-centre",
+      "hospital"
+    ],
+    "14-POW": ["lund", "town-centre"]
+  },
+  "stationAliases": {
+    "code:116062": "town-centre",
+    "code:116063": "town-centre",
+    "code:116064": "town-centre",
+    "code:116065": "town-centre",
+    "code:116031": "townsite",
+    "code:164156": "grief-point",
+    "code:116033": "hospital",
+    "code:164123": "wildwood",
+    "code:164197": "wildwood",
+    "code:116053": "westview-ferry",
+    "code:116014": "saltery-bay",
+    "code:116000": "lund",
+    "code:116050": "blubber-bay",
+    "code:116046": "blubber-bay",
+    "code:116047": "van-anda",
+    "code:116044": "shelter-point",
+    "code:116028": "townsite"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 30,
+      "maxX": 1390,
+      "minY": 20,
+      "maxY": 1280
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -124.76096,
+    "refLonEast": -124.17795,
+    "refXWest": 180,
+    "refXEast": 1140,
+    "refLatNorth": 49.98142,
+    "refLatSouth": 49.65439,
+    "refYNorth": 80,
+    "refYSouth": 1200
+  },
+  "stationIndex": [
+    {
+      "id": "blubber-bay",
+      "schematicId": "blubber-bay",
+      "name": "Blubber Bay Ferry",
+      "lat": 49.79509,
+      "lon": -124.62047,
+      "lines": ["13-POW"],
+      "platformIds": ["116046", "116050"],
+      "departureRouteIds": ["13-POW"]
+    },
+    {
+      "id": "164156",
+      "schematicId": "grief-point",
+      "name": "Grief Point",
+      "lat": 49.80524,
+      "lon": -124.51967,
+      "lines": ["1-POW"],
+      "platformIds": ["164156"],
+      "departureRouteIds": ["1-POW"]
+    },
+    {
+      "id": "116000",
+      "schematicId": "lund",
+      "name": "Lund",
+      "lat": 49.98142,
+      "lon": -124.76096,
+      "lines": ["14-POW"],
+      "platformIds": ["116000"],
+      "departureRouteIds": ["14-POW"]
+    },
+    {
+      "id": "116033",
+      "schematicId": "hospital",
+      "name": "qathet General Hospital",
+      "lat": 49.85119,
+      "lon": -124.51857,
+      "lines": ["13-POW", "3-POW"],
+      "platformIds": ["116033"],
+      "departureRouteIds": ["13-POW", "14-POW", "3-POW"]
+    },
+    {
+      "id": "116014",
+      "schematicId": "saltery-bay",
+      "name": "Saltery Bay Ferry",
+      "lat": 49.78175,
+      "lon": -124.17795,
+      "lines": ["12-POW"],
+      "platformIds": ["116014"],
+      "departureRouteIds": ["12-POW"]
+    },
+    {
+      "id": "116044",
+      "schematicId": "shelter-point",
+      "name": "Shelter Point",
+      "lat": 49.65439,
+      "lon": -124.46681,
+      "lines": ["13-POW"],
+      "platformIds": ["116044"],
+      "departureRouteIds": ["13-POW"]
+    },
+    {
+      "id": "town-centre",
+      "schematicId": "town-centre",
+      "name": "Town Centre Exchange",
+      "lat": 49.84384,
+      "lon": -124.51728,
+      "lines": ["1-POW", "12-POW", "13-POW", "14-POW", "2-POW", "3-POW"],
+      "platformIds": ["116062", "116063", "116064", "116065"],
+      "departureRouteIds": ["1-POW", "12-POW", "13-POW", "14-POW", "2-POW", "3-POW", "9-POW"]
+    },
+    {
+      "id": "116031",
+      "schematicId": "townsite",
+      "name": "Townsite",
+      "lat": 49.87485,
+      "lon": -124.55196,
+      "lines": ["1-POW", "2-POW"],
+      "platformIds": ["116028", "116031"],
+      "departureRouteIds": ["1-POW", "14-POW", "2-POW"]
+    },
+    {
+      "id": "116047",
+      "schematicId": "van-anda",
+      "name": "Van Anda",
+      "lat": 49.75661,
+      "lon": -124.55369,
+      "lines": ["13-POW"],
+      "platformIds": ["116047"],
+      "departureRouteIds": ["13-POW"]
+    },
+    {
+      "id": "116053",
+      "schematicId": "westview-ferry",
+      "name": "Westview Ferry",
+      "lat": 49.83618,
+      "lon": -124.52855,
+      "lines": ["13-POW"],
+      "platformIds": ["116053"],
+      "departureRouteIds": ["13-POW"]
+    },
+    {
+      "id": "wildwood",
+      "schematicId": "wildwood",
+      "name": "Wildwood",
+      "lat": 49.88907,
+      "lon": -124.56342,
+      "lines": ["2-POW"],
+      "platformIds": ["164123", "164197"],
+      "departureRouteIds": ["14-POW", "2-POW"]
+    }
+  ]
+}

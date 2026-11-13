@@ -1,0 +1,156 @@
+{
+  "id": "brantford",
+  "name": "Brantford Transit",
+  "serviceArea": "Brantford",
+  "shortName": "BT",
+  "locale": "en-CA",
+  "timezone": "America/New_York",
+  "bounds": [
+    {
+      "minLat": 43.109,
+      "maxLat": 43.192,
+      "minLon": -80.337,
+      "maxLon": -80.208
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "attribution": {
+    "name": "Brantford Transit / City of Brantford / Strategic Mapping Inc.",
+    "url": "https://www.brantford.ca/your-government/open-data/open-data-licence/",
+    "license": "Contains information licensed under the Open Government Licence – Brantford. Vendor-hosted GTFS licence applicability is unconfirmed.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Brantford Transit Terminal",
+      "lat": 43.1406714402152,
+      "lon": -80.2646362050199
+    },
+    {
+      "name": "Lynden Park Mall",
+      "lat": 43.1708387002364,
+      "lon": -80.2386116232995
+    },
+    {
+      "name": "Brantford Commons",
+      "lat": 43.182198,
+      "lon": -80.278362
+    },
+    {
+      "name": "Brantford General Hospital",
+      "lat": 43.1533716295331,
+      "lon": -80.2765823913772
+    }
+  ],
+  "popularSurfaceRoutes": ["3080", "3173", "3076", "3181", "3172", "3171"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Brantford Transit GTFS",
+        "url": "https://bt.mapstrat.com/current/google_transit.zip",
+        "cacheFileName": "brantford-transit.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bt.mapstrat.com/current/gtfrealtime_VehiclePositions.bin",
+        "format": "protobuf",
+        "accept": "application/octet-stream",
+        "pollIntervalSeconds": 15,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bt.mapstrat.com/current/gtfrealtime_TripUpdates.bin",
+        "format": "protobuf",
+        "accept": "application/octet-stream",
+        "pollIntervalSeconds": 15,
+        "tripDirectionSource": "static"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "mapstrat-broadcast",
+      "url": "https://bt.mytransitride.com/api/Broadcast",
+      "language": "en"
+    },
+    {
+      "type": "web",
+      "parser": "ghd-news-service-advisories",
+      "url": "https://www.brantford.ca/news/transit-notices/",
+      "language": "en",
+      "cloudflareMaxCrawlPages": 10,
+      "maxAgeMinutes": 20160
+    },
+    {
+      "type": "web",
+      "parser": "ghd-news-service-advisories",
+      "url": "https://www.brantford.ca/news/downtown-detours/",
+      "language": "en",
+      "cloudflareMaxCrawlPages": 4,
+      "maxAgeMinutes": 20160
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["3080", "3173", "3076", "3181", "3172", "3171", "3079", "3073"],
+    "routeIdNormalization": {
+      "aliases": {
+        "A": "3080",
+        "25": "3171",
+        "24": "3172",
+        "B": "3173",
+        "9": "3073",
+        "7": "3074",
+        "20": "3076",
+        "21": "3082",
+        "14": "3084",
+        "1": "3083",
+        "5": "3075",
+        "23": "3181",
+        "8": "3079"
+      }
+    },
+    "rules": [
+      {
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  },
+  "routeShortNames": {
+    "3080": "A",
+    "3171": "25",
+    "3172": "24",
+    "3173": "B",
+    "3073": "9",
+    "3074": "7",
+    "3076": "20",
+    "3082": "21",
+    "3084": "14",
+    "3083": "1",
+    "3075": "5",
+    "3181": "23",
+    "3079": "8"
+  }
+}

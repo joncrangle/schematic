@@ -1,0 +1,532 @@
+{
+  "viewBoxWidth": 1250,
+  "viewBoxHeight": 1250,
+  "lines": [
+    {
+      "id": "2-COW",
+      "name": "Mt. Prevost",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 500,
+          "y": 640
+        },
+        {
+          "x": 280,
+          "y": 420
+        },
+        {
+          "x": 500,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "3-COW",
+      "name": "Quamichan",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 500,
+          "y": 200
+        },
+        {
+          "x": 500,
+          "y": 640
+        }
+      ]
+    },
+    {
+      "id": "4-COW",
+      "name": "Maple Bay",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 980,
+          "y": 520
+        },
+        {
+          "x": 620,
+          "y": 520
+        },
+        {
+          "x": 500,
+          "y": 640
+        }
+      ]
+    },
+    {
+      "id": "6-COW",
+      "name": "Crofton-Chemainus",
+      "color": "#FCAF17",
+      "points": [
+        {
+          "x": 780,
+          "y": 160
+        },
+        {
+          "x": 920,
+          "y": 300
+        },
+        {
+          "x": 920,
+          "y": 340
+        },
+        {
+          "x": 620,
+          "y": 640
+        },
+        {
+          "x": 500,
+          "y": 640
+        }
+      ]
+    },
+    {
+      "id": "7-COW",
+      "name": "Cowichan Lake",
+      "color": "#00AA47",
+      "points": [
+        {
+          "x": 160,
+          "y": 540
+        },
+        {
+          "x": 400,
+          "y": 540
+        },
+        {
+          "x": 500,
+          "y": 640
+        }
+      ]
+    },
+    {
+      "id": "8-COW",
+      "name": "Mill Bay via Telegraph Rd/Duncan via Shawnigan Lk",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 500,
+          "y": 640
+        },
+        {
+          "x": 500,
+          "y": 760
+        },
+        {
+          "x": 620,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "9-COW",
+      "name": "Mill Bay via Shawnigan Lk/Duncan via Telegraph Rd",
+      "color": "#8177B7",
+      "points": [
+        {
+          "x": 620,
+          "y": 880
+        },
+        {
+          "x": 740,
+          "y": 760
+        },
+        {
+          "x": 740,
+          "y": 640
+        },
+        {
+          "x": 500,
+          "y": 640
+        }
+      ]
+    },
+    {
+      "id": "66-COW",
+      "name": "CVX Cowichan - Victoria Express",
+      "color": "#F49A5D",
+      "points": [
+        {
+          "x": 620,
+          "y": 1100
+        },
+        {
+          "x": 620,
+          "y": 1000
+        },
+        {
+          "x": 800,
+          "y": 820
+        },
+        {
+          "x": 800,
+          "y": 760
+        },
+        {
+          "x": 680,
+          "y": 640
+        },
+        {
+          "x": 500,
+          "y": 640
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "commons",
+      "name": "Cowichan Commons",
+      "x": 500,
+      "y": 200,
+      "lines": ["2-COW", "3-COW"],
+      "label": {
+        "x": 500,
+        "y": 170,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "hospital",
+      "name": "Cowichan District Hospital",
+      "x": 280,
+      "y": 420,
+      "lines": ["2-COW"],
+      "label": {
+        "x": 252,
+        "y": 425,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "village-green",
+      "name": "Village Green Mall",
+      "x": 500,
+      "y": 640,
+      "lines": ["2-COW", "3-COW", "4-COW", "6-COW", "7-COW", "8-COW", "9-COW", "66-COW"],
+      "label": {
+        "x": 472,
+        "y": 645,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lake-cowichan",
+      "name": "Lake Cowichan",
+      "x": 160,
+      "y": 540,
+      "lines": ["7-COW"],
+      "label": {
+        "x": 132,
+        "y": 545,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "maple-bay",
+      "name": "Maple Bay",
+      "x": 980,
+      "y": 520,
+      "lines": ["4-COW"],
+      "label": {
+        "x": 1008,
+        "y": 525,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "crofton",
+      "name": "Crofton Ferry",
+      "x": 920,
+      "y": 300,
+      "lines": ["6-COW"],
+      "label": {
+        "x": 948,
+        "y": 305,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "chemainus",
+      "name": "Chemainus",
+      "x": 780,
+      "y": 160,
+      "lines": ["6-COW"],
+      "label": {
+        "x": 780,
+        "y": 130,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "mill-bay",
+      "name": "Mill Bay",
+      "x": 620,
+      "y": 880,
+      "lines": ["8-COW", "9-COW"],
+      "label": {
+        "x": 648,
+        "y": 885,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "victoria",
+      "name": "Legislature Exchange",
+      "x": 620,
+      "y": 1100,
+      "lines": ["66-COW"],
+      "label": {
+        "x": 648,
+        "y": 1105,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lodgepole",
+      "name": "Lodgepole Park & Ride",
+      "x": 620,
+      "y": 1000,
+      "lines": ["66-COW"],
+      "label": {
+        "x": 592,
+        "y": 1005,
+        "anchor": "end"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "2-COW",
+      "num": "2",
+      "x": 248,
+      "y": 350,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3-COW",
+      "num": "3",
+      "x": 532,
+      "y": 370,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-COW",
+      "num": "4",
+      "x": 800,
+      "y": 488,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "6-COW",
+      "num": "6",
+      "x": 883,
+      "y": 423,
+      "color": "#FCAF17",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7-COW",
+      "num": "7",
+      "x": 300,
+      "y": 572,
+      "color": "#00AA47",
+      "textColor": "#000000"
+    },
+    {
+      "line": "8-COW",
+      "num": "8",
+      "x": 468,
+      "y": 730,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "9-COW",
+      "num": "9",
+      "x": 772,
+      "y": 720,
+      "color": "#8177B7",
+      "textColor": "#000000"
+    },
+    {
+      "line": "66-COW",
+      "num": "66",
+      "x": 652,
+      "y": 1055,
+      "color": "#F49A5D",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "2-COW": ["village-green", "hospital", "commons"],
+    "3-COW": ["commons", "village-green"],
+    "4-COW": ["maple-bay", "village-green"],
+    "6-COW": ["chemainus", "crofton", "village-green"],
+    "7-COW": ["lake-cowichan", "village-green"],
+    "8-COW": ["village-green", "mill-bay"],
+    "9-COW": ["mill-bay", "village-green"],
+    "66-COW": ["victoria", "lodgepole", "village-green"]
+  },
+  "stationAliases": {
+    "code:108001": "commons",
+    "code:109134": "commons",
+    "code:136011": "hospital",
+    "code:104033": "village-green",
+    "code:136191": "lake-cowichan",
+    "code:108088": "lake-cowichan",
+    "code:136094": "maple-bay",
+    "code:136129": "crofton",
+    "code:106111": "chemainus",
+    "code:136295": "mill-bay",
+    "code:100006": "victoria",
+    "code:100003": "victoria",
+    "code:104000": "lodgepole",
+    "code:104001": "lodgepole"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1200,
+      "minY": 60,
+      "maxY": 1190
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -124.05501,
+    "refLonEast": -123.36894,
+    "refXWest": 160,
+    "refXEast": 620,
+    "refLatNorth": 48.92664,
+    "refLatSouth": 48.41914,
+    "refYNorth": 160,
+    "refYSouth": 1100
+  },
+  "stationIndex": [
+    {
+      "id": "106111",
+      "schematicId": "chemainus",
+      "name": "Chemainus",
+      "lat": 48.92664,
+      "lon": -123.72684,
+      "lines": ["6-COW"],
+      "platformIds": ["106111"],
+      "departureRouteIds": ["34-COW", "6-COW"]
+    },
+    {
+      "id": "commons",
+      "schematicId": "commons",
+      "name": "Cowichan Commons",
+      "lat": 48.80176,
+      "lon": -123.72044,
+      "lines": ["2-COW", "3-COW"],
+      "platformIds": ["108001", "109134"],
+      "departureRouteIds": ["2-COW", "3-COW", "36-COW", "7-COW"]
+    },
+    {
+      "id": "136011",
+      "schematicId": "hospital",
+      "name": "Cowichan District Hospital",
+      "lat": 48.78565,
+      "lon": -123.72337,
+      "lines": ["2-COW"],
+      "platformIds": ["136011"],
+      "departureRouteIds": ["2-COW"]
+    },
+    {
+      "id": "136129",
+      "schematicId": "crofton",
+      "name": "Crofton Ferry",
+      "lat": 48.86472,
+      "lon": -123.64166,
+      "lines": ["6-COW"],
+      "platformIds": ["136129"],
+      "departureRouteIds": ["6-COW"]
+    },
+    {
+      "id": "lake-cowichan",
+      "schematicId": "lake-cowichan",
+      "name": "Lake Cowichan",
+      "lat": 48.82603,
+      "lon": -124.05501,
+      "lines": ["7-COW"],
+      "platformIds": ["108088", "136191"],
+      "departureRouteIds": ["20-COW", "21-COW", "7-COW"]
+    },
+    {
+      "id": "victoria",
+      "schematicId": "victoria",
+      "name": "Legislature Exchange",
+      "lat": 48.41914,
+      "lon": -123.36894,
+      "lines": ["66-COW"],
+      "platformIds": ["100003", "100006"],
+      "departureRouteIds": ["66-COW", "99-COW"]
+    },
+    {
+      "id": "104000",
+      "schematicId": "lodgepole",
+      "name": "Lodgepole Park & Ride",
+      "lat": 48.64234,
+      "lon": -123.55507,
+      "lines": ["66-COW"],
+      "platformIds": ["104000", "104001"],
+      "departureRouteIds": ["66-COW", "8-COW", "9-COW", "99-COW"]
+    },
+    {
+      "id": "136094",
+      "schematicId": "maple-bay",
+      "name": "Maple Bay",
+      "lat": 48.81483,
+      "lon": -123.61203,
+      "lines": ["4-COW"],
+      "platformIds": ["136094"],
+      "departureRouteIds": ["4-COW"]
+    },
+    {
+      "id": "136295",
+      "schematicId": "mill-bay",
+      "name": "Mill Bay",
+      "lat": 48.65085,
+      "lon": -123.55781,
+      "lines": ["8-COW", "9-COW"],
+      "platformIds": ["136295"],
+      "departureRouteIds": ["8-COW", "9-COW"]
+    },
+    {
+      "id": "104033",
+      "schematicId": "village-green",
+      "name": "Village Green Mall",
+      "lat": 48.77465,
+      "lon": -123.7016,
+      "lines": ["2-COW", "3-COW", "4-COW", "6-COW", "66-COW", "7-COW", "8-COW", "9-COW"],
+      "platformIds": ["104033"],
+      "departureRouteIds": [
+        "2-COW",
+        "3-COW",
+        "36-COW",
+        "4-COW",
+        "5-COW",
+        "6-COW",
+        "66-COW",
+        "7-COW",
+        "8-COW",
+        "9-COW"
+      ]
+    }
+  ]
+}

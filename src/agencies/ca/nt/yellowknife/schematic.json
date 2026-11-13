@@ -1,0 +1,520 @@
+{
+  "viewBoxWidth": 1550,
+  "viewBoxHeight": 1220,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 YK Connector",
+      "color": "#FFC20F",
+      "points": [
+        {
+          "x": 300,
+          "y": 600
+        },
+        {
+          "x": 200,
+          "y": 600
+        },
+        {
+          "x": 100,
+          "y": 700
+        },
+        {
+          "x": 100,
+          "y": 900
+        },
+        {
+          "x": 250,
+          "y": 1050
+        },
+        {
+          "x": 400,
+          "y": 900
+        },
+        {
+          "x": 500,
+          "y": 800
+        },
+        {
+          "x": 550,
+          "y": 800
+        },
+        {
+          "x": 600,
+          "y": 750
+        },
+        {
+          "x": 900,
+          "y": 450
+        },
+        {
+          "x": 1100,
+          "y": 250
+        },
+        {
+          "x": 1200,
+          "y": 150
+        },
+        {
+          "x": 1250,
+          "y": 150
+        },
+        {
+          "x": 1250,
+          "y": 200
+        },
+        {
+          "x": 1250,
+          "y": 350
+        },
+        {
+          "x": 1150,
+          "y": 450
+        },
+        {
+          "x": 1150,
+          "y": 600
+        },
+        {
+          "x": 950,
+          "y": 800
+        },
+        {
+          "x": 650,
+          "y": 800
+        },
+        {
+          "x": 500,
+          "y": 800
+        },
+        {
+          "x": 400,
+          "y": 700
+        },
+        {
+          "x": 300,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Borden/Forrest",
+      "color": "#28265F",
+      "points": [
+        {
+          "x": 450,
+          "y": 420
+        },
+        {
+          "x": 300,
+          "y": 270
+        },
+        {
+          "x": 150,
+          "y": 420
+        },
+        {
+          "x": 300,
+          "y": 570
+        },
+        {
+          "x": 450,
+          "y": 570
+        },
+        {
+          "x": 600,
+          "y": 720
+        },
+        {
+          "x": 800,
+          "y": 720
+        },
+        {
+          "x": 900,
+          "y": 620
+        },
+        {
+          "x": 900,
+          "y": 450
+        },
+        {
+          "x": 750,
+          "y": 450
+        },
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 450,
+          "y": 600
+        },
+        {
+          "x": 450,
+          "y": 420
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Niven Loop",
+      "color": "#3996D4",
+      "points": [
+        {
+          "x": 900,
+          "y": 450
+        },
+        {
+          "x": 950,
+          "y": 400
+        },
+        {
+          "x": 950,
+          "y": 250
+        },
+        {
+          "x": 850,
+          "y": 150
+        },
+        {
+          "x": 750,
+          "y": 150
+        },
+        {
+          "x": 700,
+          "y": 200
+        },
+        {
+          "x": 700,
+          "y": 300
+        },
+        {
+          "x": 850,
+          "y": 450
+        },
+        {
+          "x": 900,
+          "y": 450
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "copperhouse",
+      "name": "Copperhouse",
+      "x": 300,
+      "y": 600,
+      "lines": ["1"],
+      "label": {
+        "x": 330,
+        "y": 600,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kam-lake",
+      "name": "Kam Lake",
+      "x": 250,
+      "y": 1050,
+      "lines": ["1"],
+      "label": {
+        "x": 250,
+        "y": 1085,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "aquatic-centre",
+      "name": "Aquatic Centre",
+      "x": 600,
+      "y": 750,
+      "lines": ["1"],
+      "label": {
+        "x": 600,
+        "y": 785,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "downtown",
+      "name": "Centre Square / YK Centre",
+      "x": 900,
+      "y": 450,
+      "lines": ["1", "2", "3"],
+      "label": {
+        "x": 930,
+        "y": 450,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "old-town",
+      "name": "Old Town",
+      "x": 1100,
+      "y": 250,
+      "lines": ["1"],
+      "label": {
+        "x": 1130,
+        "y": 250,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ndilo",
+      "name": "Ndilo",
+      "x": 1200,
+      "y": 150,
+      "lines": ["1"],
+      "label": {
+        "x": 1200,
+        "y": 115,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 450,
+      "y": 420,
+      "lines": ["2"],
+      "label": {
+        "x": 480,
+        "y": 420,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "magrum-park",
+      "name": "Magrum Park",
+      "x": 300,
+      "y": 270,
+      "lines": ["2"],
+      "label": {
+        "x": 300,
+        "y": 235,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "forrest",
+      "name": "Forrest Drive",
+      "x": 800,
+      "y": 720,
+      "lines": ["2"],
+      "label": {
+        "x": 800,
+        "y": 755,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "niven",
+      "name": "Niven Drive",
+      "x": 950,
+      "y": 250,
+      "lines": ["3"],
+      "label": {
+        "x": 980,
+        "y": 250,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "moyle",
+      "name": "Moyle Drive",
+      "x": 750,
+      "y": 150,
+      "lines": ["3"],
+      "label": {
+        "x": 750,
+        "y": 115,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "color": "#FFC20F",
+      "x": 133,
+      "y": 820,
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "color": "#28265F",
+      "x": 210,
+      "y": 433,
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "color": "#3996D4",
+      "x": 983,
+      "y": 340,
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1": ["copperhouse", "kam-lake", "aquatic-centre", "downtown", "old-town", "ndilo"],
+    "2": ["walmart", "magrum-park", "forrest", "downtown"],
+    "3": ["downtown", "niven", "moyle"]
+  },
+  "stationAliases": {
+    "code:169321": "copperhouse",
+    "code:169355": "kam-lake",
+    "code:169299": "aquatic-centre",
+    "code:169317": "aquatic-centre",
+    "code:169316": "aquatic-centre",
+    "code:180462": "downtown",
+    "code:169308": "downtown",
+    "code:172032": "downtown",
+    "code:180463": "downtown",
+    "code:169337": "old-town",
+    "code:169350": "old-town",
+    "code:169343": "ndilo",
+    "code:169287": "walmart",
+    "code:169291": "magrum-park",
+    "code:169302": "forrest",
+    "code:169314": "forrest",
+    "code:169279": "niven",
+    "code:169281": "moyle"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1530,
+      "minY": 20,
+      "maxY": 1200
+    },
+    "minZoom": 0.3,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -114.43,
+    "refLonEast": -114.336,
+    "refXWest": 150,
+    "refXEast": 1200,
+    "refLatNorth": 62.475,
+    "refLatSouth": 62.424,
+    "refYNorth": 150,
+    "refYSouth": 1050
+  },
+  "stationIndex": [
+    {
+      "id": "aquatic-centre",
+      "schematicId": "aquatic-centre",
+      "name": "Aquatic Centre",
+      "lat": 62.443493208,
+      "lon": -114.395073493,
+      "lines": ["1"],
+      "platformIds": ["169299", "169316", "169317"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "Centre Square / YK Centre",
+      "lat": 62.455027,
+      "lon": -114.370071,
+      "lines": ["1", "2", "3"],
+      "platformIds": ["169308", "172032", "180462", "180463"],
+      "departureRouteIds": ["1", "2", "3"]
+    },
+    {
+      "id": "169321",
+      "schematicId": "copperhouse",
+      "name": "Copperhouse",
+      "lat": 62.44541,
+      "lon": -114.411423,
+      "lines": ["1"],
+      "platformIds": ["169321"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "forrest",
+      "schematicId": "forrest",
+      "name": "Forrest Drive",
+      "lat": 62.444535,
+      "lon": -114.374307,
+      "lines": ["2"],
+      "platformIds": ["169302", "169314"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "169355",
+      "schematicId": "kam-lake",
+      "name": "Kam Lake",
+      "lat": 62.423786,
+      "lon": -114.421863,
+      "lines": ["1"],
+      "platformIds": ["169355"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "169291",
+      "schematicId": "magrum-park",
+      "name": "Magrum Park",
+      "lat": 62.454875,
+      "lon": -114.421257,
+      "lines": ["2"],
+      "platformIds": ["169291"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "169281",
+      "schematicId": "moyle",
+      "name": "Moyle Drive",
+      "lat": 62.466559,
+      "lon": -114.372513,
+      "lines": ["3"],
+      "platformIds": ["169281"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "169343",
+      "schematicId": "ndilo",
+      "name": "Ndilo",
+      "lat": 62.475177,
+      "lon": -114.336307,
+      "lines": ["1"],
+      "platformIds": ["169343"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "169279",
+      "schematicId": "niven",
+      "name": "Niven Drive",
+      "lat": 62.465023,
+      "lon": -114.363685,
+      "lines": ["3"],
+      "platformIds": ["169279"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "old-town",
+      "schematicId": "old-town",
+      "name": "Old Town",
+      "lat": 62.462404,
+      "lon": -114.352759,
+      "lines": ["1"],
+      "platformIds": ["169337", "169350"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "169287",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 62.44995,
+      "lon": -114.407795,
+      "lines": ["2"],
+      "platformIds": ["169287"],
+      "departureRouteIds": ["2"]
+    }
+  ]
+}

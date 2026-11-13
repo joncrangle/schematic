@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "name": "keeps notices separate and excludes app promotion",
+      "html": "<main><h2>Service Announcement:</h2><p>Stops at Cedar Street and 4th Avenue are closed due to construction. Routes 7 and 9 will follow a detour.</p><hr><p>Service will not stop at Bayview Terminal during reconstruction. Use the temporary stop at Market Road.</p><hr><p>Download the CityHop app to track buses and receive an alert as your bus approaches.</p><ul><li>Plan your trip</li></ul></main>",
+      "routeNames": {
+        "R7": [
+          "7"
+        ],
+        "R9": [
+          "9"
+        ],
+        "R-CEDAR": [
+          "Cedar Street"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Stops at Cedar Street and 4th Avenue are closed due to construction.",
+          "description": "Routes 7 and 9 will follow a detour.",
+          "routeIds": [
+            "R7",
+            "R9"
+          ]
+        },
+        {
+          "title": "Service will not stop at Bayview Terminal during reconstruction.",
+          "description": "Use the temporary stop at Market Road."
+        }
+      ]
+    },
+    {
+      "name": "keeps route attribution after punctuation",
+      "html": "<main><h2>Service Announcement</h2><p>Routes — 7 and 9 will follow a detour.</p></main>",
+      "routeNames": {
+        "R7": [
+          "7"
+        ],
+        "R9": [
+          "9"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Routes — 7 and 9 will follow a detour.",
+          "routeIds": [
+            "R7",
+            "R9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "keeps route attribution without whitespace after a colon",
+      "html": "<main><h2>Service Announcement</h2><p>Routes:7 and 9 will follow a detour.</p></main>",
+      "routeNames": {
+        "R7": [
+          "7"
+        ],
+        "R9": [
+          "9"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Routes:7 and 9 will follow a detour.",
+          "routeIds": [
+            "R7",
+            "R9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "matches a complete service announcement heading",
+      "html": "<main><h2>Service Announcements and Schedules</h2><p>Construction at Central Stop has closed the boarding area.</p></main>",
+      "error": true
+    },
+    {
+      "name": "does not infer recovery from an unrecognized board",
+      "html": "<main><h2>Service Announcement</h2><p>Read the schedule and fares online.</p></main>",
+      "error": true
+    },
+    {
+      "name": "fails when the service announcement board is missing",
+      "html": "<main><h2>Schedules</h2><p>Route 7 travels to Central Stop.</p></main>",
+      "error": true
+    }
+  ]
+}

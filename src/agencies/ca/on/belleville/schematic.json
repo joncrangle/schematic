@@ -1,0 +1,462 @@
+{
+  "viewBoxWidth": 1400,
+  "viewBoxHeight": 1200,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 North Front",
+      "color": "#0072BC",
+      "points": [
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 640,
+          "y": 940
+        },
+        {
+          "x": 640,
+          "y": 200
+        },
+        {
+          "x": 500,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Sidney",
+      "color": "#ED1D24",
+      "points": [
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 440,
+          "y": 1000
+        },
+        {
+          "x": 240,
+          "y": 800
+        },
+        {
+          "x": 240,
+          "y": 480
+        },
+        {
+          "x": 240,
+          "y": 200
+        },
+        {
+          "x": 500,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3A / 3C College / VIA Rail",
+      "color": "#FBA61C",
+      "points": [
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 760,
+          "y": 940
+        },
+        {
+          "x": 760,
+          "y": 840
+        },
+        {
+          "x": 1040,
+          "y": 560
+        },
+        {
+          "x": 1040,
+          "y": 480
+        },
+        {
+          "x": 240,
+          "y": 480
+        },
+        {
+          "x": 320,
+          "y": 560
+        },
+        {
+          "x": 320,
+          "y": 760
+        },
+        {
+          "x": 560,
+          "y": 1000
+        },
+        {
+          "x": 700,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Loyalist College",
+      "color": "#79288C",
+      "points": [
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 700,
+          "y": 1080
+        },
+        {
+          "x": 280,
+          "y": 1080
+        },
+        {
+          "x": 80,
+          "y": 880
+        },
+        {
+          "x": 80,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "6 / 6A Industrial",
+      "color": "#16BECF",
+      "points": [
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 880,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 680
+        },
+        {
+          "x": 1200,
+          "y": 400
+        },
+        {
+          "x": 1120,
+          "y": 320
+        },
+        {
+          "x": 900,
+          "y": 320
+        },
+        {
+          "x": 780,
+          "y": 200
+        },
+        {
+          "x": 500,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "7 Walmart",
+      "color": "#00A651",
+      "points": [
+        {
+          "x": 700,
+          "y": 1000
+        },
+        {
+          "x": 820,
+          "y": 880
+        },
+        {
+          "x": 820,
+          "y": 400
+        },
+        {
+          "x": 900,
+          "y": 320
+        },
+        {
+          "x": 700,
+          "y": 120
+        },
+        {
+          "x": 700,
+          "y": 80
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "x": 700,
+      "y": 1000,
+      "lines": ["1", "2", "3", "4", "6", "7"],
+      "label": {
+        "x": 715,
+        "y": 1050,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "quinte-mall",
+      "name": "Quinte Mall",
+      "x": 500,
+      "y": 200,
+      "lines": ["1", "2", "6"],
+      "label": {
+        "x": 500,
+        "y": 155,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "via-station",
+      "name": "VIA Station",
+      "x": 1040,
+      "y": 560,
+      "lines": ["3"],
+      "label": {
+        "x": 1080,
+        "y": 570,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "college-street-west",
+      "name": "College Street West",
+      "x": 240,
+      "y": 480,
+      "lines": ["2", "3"],
+      "label": {
+        "x": 200,
+        "y": 450,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "sports-wellness-centre",
+      "name": "Quinte Sports & Wellness Centre",
+      "x": 900,
+      "y": 320,
+      "lines": ["6", "7"],
+      "label": {
+        "x": 930,
+        "y": 300,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Millennium Parkway",
+      "x": 700,
+      "y": 80,
+      "lines": ["7"],
+      "label": {
+        "x": 740,
+        "y": 85,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "loyalist-college",
+      "name": "Loyalist College",
+      "x": 80,
+      "y": 800,
+      "lines": ["4"],
+      "label": {
+        "x": 120,
+        "y": 795,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1360,
+      "minY": 20,
+      "maxY": 1180
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -77.431,
+    "refLonEast": -77.349,
+    "refXWest": 80,
+    "refXEast": 1200,
+    "refLatNorth": 44.198,
+    "refLatSouth": 44.145,
+    "refYNorth": 80,
+    "refYSouth": 1080
+  },
+  "sequences": {
+    "1": ["terminal", "quinte-mall"],
+    "2": ["terminal", "college-street-west", "quinte-mall"],
+    "3": ["terminal", "via-station", "college-street-west"],
+    "4": ["terminal", "loyalist-college"],
+    "6": ["terminal", "sports-wellness-centre", "quinte-mall"],
+    "7": ["terminal", "sports-wellness-centre", "walmart"]
+  },
+  "stationAliases": {
+    "Terminal": "terminal",
+    "Quinte Mall": "quinte-mall",
+    "VIA Station": "via-station",
+    "College Street West": "college-street-west",
+    "Quinte Sports & Wellness Centre": "sports-wellness-centre",
+    "Millennium Parkway": "walmart",
+    "Loyalist College": "loyalist-college"
+  },
+  "stationIndex": [
+    {
+      "id": "college-street-west",
+      "schematicId": "college-street-west",
+      "name": "College Street West",
+      "lat": 44.17265,
+      "lon": -77.40409,
+      "lines": ["2", "3"],
+      "platformIds": ["SID450", "SID459"],
+      "departureRouteIds": ["2", "3A", "3C"]
+    },
+    {
+      "id": "WBL376",
+      "schematicId": "loyalist-college",
+      "name": "Loyalist College",
+      "lat": 44.15686,
+      "lon": -77.43122,
+      "lines": ["4"],
+      "platformIds": ["WBL376"],
+      "departureRouteIds": ["4", "N"]
+    },
+    {
+      "id": "MIL274",
+      "schematicId": "walmart",
+      "name": "Millennium Parkway",
+      "lat": 44.19636,
+      "lon": -77.397965,
+      "lines": ["7"],
+      "platformIds": ["MIL274"],
+      "departureRouteIds": ["7", "N"]
+    },
+    {
+      "id": "NFR390",
+      "schematicId": "quinte-mall",
+      "name": "Quinte Mall",
+      "lat": 44.18772,
+      "lon": -77.40183,
+      "lines": ["1", "2", "6"],
+      "platformIds": ["NFR390"],
+      "departureRouteIds": ["1", "2", "6"]
+    },
+    {
+      "id": "sports-wellness-centre",
+      "schematicId": "sports-wellness-centre",
+      "name": "Quinte Sports & Wellness Centre",
+      "lat": 44.1872,
+      "lon": -77.38413,
+      "lines": ["6", "7"],
+      "platformIds": ["CAN265", "CAN274"],
+      "departureRouteIds": ["6", "7", "N"]
+    },
+    {
+      "id": "terminal",
+      "schematicId": "terminal",
+      "name": "Terminal",
+      "lat": 44.16294,
+      "lon": -77.38143,
+      "lines": ["1", "2", "3", "4", "6", "7"],
+      "platformIds": [
+        "TER001",
+        "TER002",
+        "TER003",
+        "TER004",
+        "TER005",
+        "TER006",
+        "TER007",
+        "TER008"
+      ],
+      "departureRouteIds": ["1", "2", "3A", "3C", "4", "5A", "5C", "6", "7", "8", "N"]
+    },
+    {
+      "id": "via-station",
+      "schematicId": "via-station",
+      "name": "VIA Station",
+      "lat": 44.17864,
+      "lon": -77.37454,
+      "lines": ["3"],
+      "platformIds": ["STN237", "STN250"],
+      "departureRouteIds": ["3A", "3C", "N"]
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 608,
+      "y": 660,
+      "color": "#0072BC",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 208,
+      "y": 640,
+      "color": "#ED1D24",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 480,
+      "y": 448,
+      "color": "#FBA61C",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 400,
+      "y": 1112,
+      "color": "#79288C",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 1232,
+      "y": 600,
+      "color": "#16BECF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7",
+      "num": "7",
+      "x": 852,
+      "y": 800,
+      "color": "#00A651",
+      "textColor": "#000000"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "viewBoxWidth": 1500,
+  "viewBoxHeight": 980,
+  "lines": [
+    {
+      "id": "99-WHI",
+      "name": "Pemberton Commuter",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 200,
+          "y": 840
+        },
+        {
+          "x": 200,
+          "y": 540
+        },
+        {
+          "x": 300,
+          "y": 440
+        },
+        {
+          "x": 300,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "100-WHI",
+      "name": "Pemberton Local",
+      "color": "#8DC63F",
+      "points": [
+        {
+          "x": 300,
+          "y": 300
+        },
+        {
+          "x": 1000,
+          "y": 300
+        },
+        {
+          "x": 1080,
+          "y": 220
+        },
+        {
+          "x": 1180,
+          "y": 220
+        },
+        {
+          "x": 1240,
+          "y": 280
+        },
+        {
+          "x": 1180,
+          "y": 340
+        },
+        {
+          "x": 340,
+          "y": 340
+        },
+        {
+          "x": 300,
+          "y": 300
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "blackbird-bakery",
+      "name": "Blackbird Bakery",
+      "x": 300,
+      "y": 300,
+      "lines": ["99-WHI", "100-WHI"],
+      "terminal": true,
+      "label": {
+        "x": 258,
+        "y": 295,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rainbow-estates",
+      "name": "Rainbow Estates",
+      "x": 200,
+      "y": 620,
+      "lines": ["99-WHI"],
+      "label": {
+        "x": 236,
+        "y": 620,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "meadow-park",
+      "name": "Meadow Park Sports Centre",
+      "x": 200,
+      "y": 720,
+      "lines": ["99-WHI"],
+      "label": {
+        "x": 236,
+        "y": 720,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "gondola-exchange",
+      "name": "Gondola Transit Exchange",
+      "x": 200,
+      "y": 840,
+      "lines": ["99-WHI"],
+      "terminal": true,
+      "label": {
+        "x": 236,
+        "y": 845,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mount-currie",
+      "name": "Mt. Currie Community Centre",
+      "x": 720,
+      "y": 300,
+      "lines": ["100-WHI"],
+      "label": {
+        "x": 720,
+        "y": 258,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "community-store",
+      "name": "Xit'olacw Community Store",
+      "x": 1130,
+      "y": 220,
+      "lines": ["100-WHI"],
+      "label": {
+        "x": 1130,
+        "y": 178,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "creekside-school",
+      "name": "Creekside Rd at School Rd",
+      "x": 1240,
+      "y": 280,
+      "lines": ["100-WHI"],
+      "label": {
+        "x": 1276,
+        "y": 285,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "99-WHI",
+      "num": "99",
+      "x": 266,
+      "y": 380,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "100-WHI",
+      "num": "100",
+      "x": 520,
+      "y": 374,
+      "color": "#8DC63F",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "99-WHI": ["gondola-exchange", "meadow-park", "rainbow-estates", "blackbird-bakery"],
+    "100-WHI": ["blackbird-bakery", "mount-currie", "community-store", "creekside-school"]
+  },
+  "stationAliases": {
+    "code:135000": "blackbird-bakery",
+    "code:102703": "rainbow-estates",
+    "code:102600": "meadow-park",
+    "code:102713": "gondola-exchange",
+    "code:102848": "mount-currie",
+    "code:135004": "mount-currie",
+    "code:102850": "community-store",
+    "code:102851": "creekside-school"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1480,
+      "minY": 100,
+      "maxY": 960
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -122.96024,
+    "refLonEast": -122.65617,
+    "refXWest": 128,
+    "refXEast": 1066,
+    "refLatNorth": 50.33107,
+    "refLatSouth": 50.11391,
+    "refYNorth": 257,
+    "refYSouth": 791
+  },
+  "stationIndex": [
+    {
+      "id": "135000",
+      "schematicId": "blackbird-bakery",
+      "name": "Blackbird Bakery",
+      "lat": 50.32133,
+      "lon": -122.80628,
+      "lines": ["100-WHI", "99-WHI"],
+      "platformIds": ["135000"],
+      "departureRouteIds": ["100-WHI", "99-WHI"]
+    },
+    {
+      "id": "102851",
+      "schematicId": "creekside-school",
+      "name": "Creekside Rd at School Rd",
+      "lat": 50.33107,
+      "lon": -122.65617,
+      "lines": ["100-WHI"],
+      "platformIds": ["102851"],
+      "departureRouteIds": ["100-WHI"]
+    },
+    {
+      "id": "102713",
+      "schematicId": "gondola-exchange",
+      "name": "Gondola Transit Exchange",
+      "lat": 50.11391,
+      "lon": -122.95257,
+      "lines": ["99-WHI"],
+      "platformIds": ["102713"],
+      "departureRouteIds": ["99-WHI"]
+    },
+    {
+      "id": "102600",
+      "schematicId": "meadow-park",
+      "name": "Meadow Park Sports Centre",
+      "lat": 50.14444,
+      "lon": -122.96024,
+      "lines": ["99-WHI"],
+      "platformIds": ["102600"],
+      "departureRouteIds": ["99-WHI"]
+    },
+    {
+      "id": "mount-currie",
+      "schematicId": "mount-currie",
+      "name": "Mt. Currie Community Centre",
+      "lat": 50.31815,
+      "lon": -122.7199,
+      "lines": ["100-WHI"],
+      "platformIds": ["102848", "135004"],
+      "departureRouteIds": ["100-WHI"]
+    },
+    {
+      "id": "102703",
+      "schematicId": "rainbow-estates",
+      "name": "Rainbow Estates",
+      "lat": 50.15664,
+      "lon": -122.95596,
+      "lines": ["99-WHI"],
+      "platformIds": ["102703"],
+      "departureRouteIds": ["99-WHI"]
+    },
+    {
+      "id": "102850",
+      "schematicId": "community-store",
+      "name": "Xit'olacw Community Store",
+      "lat": 50.33063,
+      "lon": -122.66719,
+      "lines": ["100-WHI"],
+      "platformIds": ["102850"],
+      "departureRouteIds": ["100-WHI"]
+    }
+  ]
+}

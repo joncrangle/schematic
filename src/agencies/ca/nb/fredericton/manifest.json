@@ -1,0 +1,120 @@
+{
+  "id": "fredericton",
+  "name": "Fredericton Transit",
+  "serviceArea": "Fredericton",
+  "shortName": "Fredericton",
+  "locale": "en-CA",
+  "timezone": "America/Halifax",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "nb"
+  },
+  "bounds": [
+    {
+      "minLat": 45.91,
+      "maxLat": 46.02,
+      "minLon": -66.74,
+      "maxLon": -66.57
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Fredericton Transit / Consat Telematics AB",
+    "url": "https://www.fredericton.ca/resident-services/fredericton-transit",
+    "license": "No explicit data reuse licence was found. Schedules and live data are attributed to the operator and its data publisher.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Fredericton Transit",
+        "url": "https://fredericton.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/gtfs.zip",
+        "cacheFileName": "fredericton-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://myride.fredericton.ca/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "100000",
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "anyride-messages",
+      "url": "https://myride.fredericton.ca/Tmix.Cap.Ti.Process.AnyRide/api",
+      "operatorPrefix": "100000",
+      "stops": [
+        {
+          "stopId": "1000",
+          "routeIds": [
+            "10N",
+            "11S",
+            "12N",
+            "13S",
+            "14N",
+            "15S",
+            "16N",
+            "17S",
+            "110",
+            "116",
+            "130",
+            "150",
+            "160",
+            "216",
+            "300"
+          ]
+        },
+        {
+          "stopId": "201315",
+          "routeIds": ["200"]
+        },
+        {
+          "stopId": "1001",
+          "routeIds": ["120"]
+        },
+        {
+          "stopId": "2001",
+          "routeIds": ["140"]
+        }
+      ]
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["10N", "12N", "14N", "16N", "300", "11S", "13S", "17S"]
+  },
+  "cityPresets": [
+    {
+      "name": "Kings Place",
+      "lat": 45.96151,
+      "lon": -66.643
+    },
+    {
+      "name": "Regent Mall",
+      "lat": 45.93526,
+      "lon": -66.66288
+    },
+    {
+      "name": "UNB SUB",
+      "lat": 45.94479,
+      "lon": -66.64182
+    },
+    {
+      "name": "City Hall",
+      "lat": 45.96331,
+      "lon": -66.64367
+    }
+  ],
+  "popularSurfaceRoutes": ["10N", "11S", "12N", "13S", "14N", "15S", "16N", "17S", "300"]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "brampton",
+  "name": "Brampton Transit",
+  "serviceArea": "Brampton",
+  "shortName": "BT",
+  "brandColor": "#2E308D",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.66,
+      "maxLat": 43.71,
+      "minLon": -79.78,
+      "maxLon": -79.72
+    },
+    {
+      "minLat": 43.63,
+      "maxLat": 43.9,
+      "minLon": -79.87,
+      "maxLon": -79.6
+    },
+    {
+      "minLat": 43.58,
+      "maxLat": 43.64,
+      "minLon": -79.68,
+      "maxLon": -79.62
+    },
+    {
+      "minLat": 43.77,
+      "maxLat": 43.81,
+      "minLon": -79.6,
+      "maxLon": -79.52
+    },
+    {
+      "minLat": 43.585,
+      "maxLat": 43.64,
+      "minLon": -79.82,
+      "maxLon": -79.75
+    },
+    {
+      "minLat": 43.67,
+      "maxLat": 43.75,
+      "minLon": -79.64,
+      "maxLon": -79.59
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Brampton Transit / City of Brampton open data, adapted into this application",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/84e3c5b5b6cf417883b60b977de3e3a6?f=json",
+    "license": "CC BY 4.0"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Brampton Gateway Terminal",
+      "lat": 43.66542,
+      "lon": -79.734069
+    },
+    {
+      "name": "Downtown Terminal",
+      "lat": 43.68687,
+      "lon": -79.762467
+    },
+    {
+      "name": "Bramalea Transit Terminal",
+      "lat": 43.718713,
+      "lon": -79.720569
+    },
+    {
+      "name": "Bramalea",
+      "lat": 43.701911,
+      "lon": -79.691354
+    },
+    {
+      "name": "Mount Pleasant",
+      "lat": 43.674849,
+      "lon": -79.822789
+    },
+    {
+      "name": "Trinity Common Terminal",
+      "lat": 43.730653,
+      "lon": -79.764333
+    },
+    {
+      "name": "Sandalwood Loop",
+      "lat": 43.720821,
+      "lon": -79.808831
+    },
+    {
+      "name": "Gateway Station",
+      "lat": 43.73838,
+      "lon": -79.701478
+    },
+    {
+      "name": "Lisgar",
+      "lat": 43.591826,
+      "lon": -79.788421
+    },
+    {
+      "name": "Mississauga City Centre",
+      "lat": 43.594021,
+      "lon": -79.647347
+    },
+    {
+      "name": "Humber College",
+      "lat": 43.729155,
+      "lon": -79.605278
+    },
+    {
+      "name": "Smart VMC Terminal",
+      "lat": 43.79703,
+      "lon": -79.527931
+    },
+    {
+      "name": "Pearson Int Airport Terminal 1",
+      "lat": 43.681982,
+      "lon": -79.612966
+    }
+  ],
+  "popularSurfaceRoutes": ["501", "502", "505", "511", "561", "4", "18", "115"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Brampton Transit GTFS",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/a355aabd5a8c490186bdce559c9c75fb/data",
+        "cacheFileName": "brampton-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://gtfs-rt-merge.prod.bt-cadavl.com/BramptonTransit/GTFS/merged_VehiclePosition.pb",
+        "format": "protobuf"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://gtfs-rt-merge.prod.bt-cadavl.com/BramptonTransit/GTFS/merged_TripUpdate.pb",
+        "format": "protobuf"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://gtfs-rt-merge.prod.bt-cadavl.com/BramptonTransit/GTFS/merged_Alert.pb",
+      "format": "protobuf"
+    }
+  ]
+}

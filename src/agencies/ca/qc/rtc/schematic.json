@@ -1,0 +1,1290 @@
+{
+  "viewBoxWidth": 2100,
+  "viewBoxHeight": 1450,
+  "lines": [
+    {
+      "id": "800",
+      "name": "Métrobus 800",
+      "points": [
+        {
+          "x": 1650,
+          "y": 250
+        },
+        {
+          "x": 1650,
+          "y": 350
+        },
+        {
+          "x": 1450,
+          "y": 550
+        },
+        {
+          "x": 1450,
+          "y": 900
+        },
+        {
+          "x": 1350,
+          "y": 900
+        },
+        {
+          "x": 1250,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 1050
+        },
+        {
+          "x": 1150,
+          "y": 1050
+        }
+      ],
+      "color": "#97BF0D"
+    },
+    {
+      "id": "801",
+      "name": "Métrobus 801",
+      "points": [
+        {
+          "x": 1050,
+          "y": 150
+        },
+        {
+          "x": 1050,
+          "y": 700
+        },
+        {
+          "x": 1100,
+          "y": 750
+        },
+        {
+          "x": 1100,
+          "y": 850
+        },
+        {
+          "x": 1250,
+          "y": 1000
+        },
+        {
+          "x": 1200,
+          "y": 1050
+        },
+        {
+          "x": 1150,
+          "y": 1050
+        }
+      ],
+      "color": "#97BF0D"
+    },
+    {
+      "id": "802",
+      "name": "Métrobus 802",
+      "points": [
+        {
+          "x": 1450,
+          "y": 550
+        },
+        {
+          "x": 1350,
+          "y": 550
+        },
+        {
+          "x": 1250,
+          "y": 650
+        },
+        {
+          "x": 1050,
+          "y": 650
+        },
+        {
+          "x": 950,
+          "y": 750
+        },
+        {
+          "x": 950,
+          "y": 1050
+        }
+      ],
+      "color": "#97BF0D"
+    },
+    {
+      "id": "803",
+      "name": "Métrobus 803",
+      "points": [
+        {
+          "x": 450,
+          "y": 550
+        },
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 850,
+          "y": 350
+        },
+        {
+          "x": 1050,
+          "y": 550
+        },
+        {
+          "x": 1450,
+          "y": 550
+        }
+      ],
+      "color": "#97BF0D"
+    },
+    {
+      "id": "804",
+      "name": "Métrobus 804",
+      "points": [
+        {
+          "x": 250,
+          "y": 200
+        },
+        {
+          "x": 250,
+          "y": 350
+        },
+        {
+          "x": 450,
+          "y": 550
+        },
+        {
+          "x": 450,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 900
+        },
+        {
+          "x": 500,
+          "y": 1050
+        },
+        {
+          "x": 450,
+          "y": 1100
+        }
+      ],
+      "color": "#97BF0D"
+    },
+    {
+      "id": "805",
+      "name": "Métrobus 805",
+      "points": [
+        {
+          "x": 250,
+          "y": 1050
+        },
+        {
+          "x": 1200,
+          "y": 1050
+        },
+        {
+          "x": 1250,
+          "y": 1000
+        },
+        {
+          "x": 1100,
+          "y": 850
+        },
+        {
+          "x": 1100,
+          "y": 750
+        }
+      ],
+      "color": "#97BF0D"
+    },
+    {
+      "id": "807",
+      "name": "Métrobus 807",
+      "points": [
+        {
+          "x": 250,
+          "y": 1050
+        },
+        {
+          "x": 250,
+          "y": 1250
+        },
+        {
+          "x": 1150,
+          "y": 1250
+        },
+        {
+          "x": 1250,
+          "y": 1150
+        },
+        {
+          "x": 1250,
+          "y": 1000
+        }
+      ],
+      "color": "#97BF0D"
+    },
+    {
+      "id": "18",
+      "name": "Parcours 18",
+      "points": [
+        {
+          "x": 650,
+          "y": 900
+        },
+        {
+          "x": 1550,
+          "y": 900
+        },
+        {
+          "x": 1600,
+          "y": 850
+        }
+      ],
+      "color": "#013888"
+    }
+  ],
+  "stations": [
+    {
+      "id": "montmorency",
+      "name": "Chute-Montmorency",
+      "x": 1650,
+      "y": 250,
+      "lines": ["800"],
+      "label": {
+        "x": 1650,
+        "y": 218,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "beauport",
+      "name": "Terminus Beauport",
+      "x": 1450,
+      "y": 550,
+      "lines": ["800", "802", "803"],
+      "label": {
+        "x": 1480,
+        "y": 550,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "limoilou",
+      "name": "Cégep Limoilou",
+      "x": 1450,
+      "y": 750,
+      "lines": ["800"],
+      "label": {
+        "x": 1480,
+        "y": 750,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "gare-palais-rue",
+      "name": "Gare-Palais",
+      "x": 1450,
+      "y": 900,
+      "lines": ["800"],
+      "label": {
+        "x": 1450,
+        "y": 932,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "gare-palais",
+      "name": "Terminus Gare-du-Palais",
+      "x": 1600,
+      "y": 850,
+      "lines": ["18"],
+      "label": {
+        "x": 1630,
+        "y": 850,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "youville",
+      "name": "D’Youville",
+      "x": 1250,
+      "y": 1000,
+      "lines": ["800", "801", "805", "807"],
+      "label": {
+        "x": 1280,
+        "y": 1000,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "parlement",
+      "name": "Colline Parlementaire",
+      "x": 1150,
+      "y": 1050,
+      "lines": ["800", "801", "805"],
+      "label": {
+        "x": 1150,
+        "y": 1082,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "faune",
+      "name": "Terminus de la Faune",
+      "x": 1050,
+      "y": 150,
+      "lines": ["801"],
+      "label": {
+        "x": 1050,
+        "y": 118,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "charlesbourg",
+      "name": "Terminus Charlesbourg",
+      "x": 1050,
+      "y": 350,
+      "lines": ["801"],
+      "label": {
+        "x": 1080,
+        "y": 350,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "41e",
+      "name": "41e Rue",
+      "x": 1050,
+      "y": 550,
+      "lines": ["801", "803"],
+      "label": {
+        "x": 1020,
+        "y": 550,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "18e",
+      "name": "18e Rue / 1re Avenue",
+      "x": 1050,
+      "y": 650,
+      "lines": ["801", "802"],
+      "label": {
+        "x": 1020,
+        "y": 650,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "victoria",
+      "name": "Parc-Victoria",
+      "x": 1100,
+      "y": 750,
+      "lines": ["801", "805"],
+      "label": {
+        "x": 1070,
+        "y": 750,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "belvedere",
+      "name": "Belvédère",
+      "x": 950,
+      "y": 1050,
+      "lines": ["802", "805"],
+      "label": {
+        "x": 950,
+        "y": 1018,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "saules",
+      "name": "Terminus Les Saules",
+      "x": 450,
+      "y": 550,
+      "lines": ["803", "804"],
+      "label": {
+        "x": 420,
+        "y": 550,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "galeries",
+      "name": "Galeries de la Capitale",
+      "x": 650,
+      "y": 350,
+      "lines": ["803"],
+      "label": {
+        "x": 650,
+        "y": 318,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "emerson",
+      "name": "Val-Bélair / Emerson",
+      "x": 250,
+      "y": 200,
+      "lines": ["804"],
+      "label": {
+        "x": 250,
+        "y": 168,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "campus",
+      "name": "Université Laval / campus",
+      "x": 650,
+      "y": 900,
+      "lines": ["804", "18"],
+      "label": {
+        "x": 680,
+        "y": 868,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "laurier",
+      "name": "Laurier Québec",
+      "x": 500,
+      "y": 1050,
+      "lines": ["804", "805"],
+      "label": {
+        "x": 530,
+        "y": 1082,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "wolfe",
+      "name": "Sainte-Foy / Wolfe",
+      "x": 450,
+      "y": 1100,
+      "lines": ["804"],
+      "label": {
+        "x": 420,
+        "y": 1100,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "univ-laurier",
+      "name": "Université Laval / Laurier",
+      "x": 750,
+      "y": 1050,
+      "lines": ["805"],
+      "label": {
+        "x": 750,
+        "y": 1082,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "marly",
+      "name": "Terminus de Marly",
+      "x": 250,
+      "y": 1050,
+      "lines": ["805", "807"],
+      "label": {
+        "x": 220,
+        "y": 1050,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "cegep-foy",
+      "name": "Cégep de Sainte-Foy",
+      "x": 450,
+      "y": 1250,
+      "lines": ["807"],
+      "label": {
+        "x": 450,
+        "y": 1282,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "univ-foy",
+      "name": "Université Laval / Ste-Foy",
+      "x": 650,
+      "y": 1250,
+      "lines": ["807"],
+      "label": {
+        "x": 650,
+        "y": 1282,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "garneau",
+      "name": "Cégep Garneau",
+      "x": 900,
+      "y": 1250,
+      "lines": ["807"],
+      "label": {
+        "x": 900,
+        "y": 1282,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "800",
+      "num": "800",
+      "x": 1684,
+      "y": 300,
+      "color": "#97BF0D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "801",
+      "num": "801",
+      "x": 1084,
+      "y": 240,
+      "color": "#97BF0D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "802",
+      "num": "802",
+      "x": 916,
+      "y": 820,
+      "color": "#97BF0D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "803",
+      "num": "803",
+      "x": 1290,
+      "y": 516,
+      "color": "#97BF0D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "804",
+      "num": "804",
+      "x": 284,
+      "y": 300,
+      "color": "#97BF0D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "805",
+      "num": "805",
+      "x": 820,
+      "y": 1016,
+      "color": "#97BF0D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "807",
+      "num": "807",
+      "x": 1020,
+      "y": 1284,
+      "color": "#97BF0D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "18",
+      "num": "18",
+      "x": 850,
+      "y": 934,
+      "color": "#013888",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "800": ["montmorency", "beauport", "limoilou", "gare-palais-rue", "youville", "parlement"],
+    "801": ["faune", "charlesbourg", "41e", "18e", "victoria", "youville", "parlement"],
+    "802": ["beauport", "18e", "belvedere"],
+    "803": ["saules", "galeries", "41e", "beauport"],
+    "804": ["emerson", "saules", "campus", "laurier", "wolfe"],
+    "805": ["marly", "laurier", "univ-laurier", "belvedere", "parlement", "youville", "victoria"],
+    "807": ["marly", "cegep-foy", "univ-foy", "garneau", "youville"],
+    "18": ["campus", "gare-palais"]
+  },
+  "stationAliases": {
+    "T.C.-Montmorency": "montmorency",
+    "T. Beauport": "beauport",
+    "Cégep Limoilou": "limoilou",
+    "Gare-Palais/2558": "gare-palais-rue",
+    "Gare-Palais/2562": "gare-palais-rue",
+    "T. Gare Palais": "gare-palais",
+    "D'Youville": "youville",
+    "T. D'Youville": "youville",
+    "C. Parlementaire": "parlement",
+    "de Cl.-Fontaine": "parlement",
+    "Amér.-Française": "parlement",
+    "T. de la Faune": "faune",
+    "T. Charlesbourg": "charlesbourg",
+    "41e Rue": "41e",
+    "18e Rue": "18e",
+    "T. Parc-Victoria": "victoria",
+    "Belvédère": "belvedere",
+    "T. Les Saules": "saules",
+    "T. Gal. Capitale": "galeries",
+    "Emerson": "emerson",
+    "Université Laval": "campus",
+    "Médecine/6457": "campus",
+    "Médecine/6458": "campus",
+    "Médecine/1556": "campus",
+    "Médecine/1557": "campus",
+    "Médecine/1558": "campus",
+    "Laurier-Québec": "laurier",
+    "Wolfe": "wolfe",
+    "Univ. Laval/1561": "univ-laurier",
+    "T. de Marly": "marly",
+    "Cégep-de-Ste-Foy": "cegep-foy",
+    "Univ. Laval/1413": "univ-foy",
+    "Univ. Laval/1513": "univ-foy",
+    "Cégep Garneau": "garneau",
+    "code:1289": "18e",
+    "code:1324": "18e"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 2050,
+      "minY": 50,
+      "maxY": 1400
+    },
+    "minZoom": 0.35,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -71.42,
+    "refLonEast": -71.15,
+    "refXWest": 250,
+    "refXEast": 1650,
+    "refLatNorth": 46.89,
+    "refLatSouth": 46.75,
+    "refYNorth": 150,
+    "refYSouth": 1250
+  },
+  "stationIndex": [
+    {
+      "id": "18e",
+      "schematicId": "18e",
+      "name": "18e Rue / 1re Avenue",
+      "lat": 46.829914,
+      "lon": -71.237511,
+      "lines": ["801", "802"],
+      "platformIds": ["1-1213", "1-1243", "1-1289", "1-1324", "1-1512", "1-6768"],
+      "departureRouteIds": ["28", "3", "3A", "4", "801", "802", "931"]
+    },
+    {
+      "id": "41e",
+      "schematicId": "41e",
+      "name": "41e Rue",
+      "lat": 46.841404,
+      "lon": -71.248245,
+      "lines": ["801", "803"],
+      "platformIds": ["1-1887", "1-2953", "1-5334", "1-5852"],
+      "departureRouteIds": ["3", "330", "530", "61", "801", "803", "931"]
+    },
+    {
+      "id": "belvedere",
+      "schematicId": "belvedere",
+      "name": "Belvédère",
+      "lat": 46.799644,
+      "lon": -71.242699,
+      "lines": ["802", "805"],
+      "platformIds": ["1-1486", "1-1736", "1-1774", "1-1844"],
+      "departureRouteIds": [
+        "1",
+        "11",
+        "283",
+        "291",
+        "292",
+        "294",
+        "79",
+        "802",
+        "805",
+        "807",
+        "907",
+        "925",
+        "931",
+        "991",
+        "992"
+      ]
+    },
+    {
+      "id": "cegep-foy",
+      "schematicId": "cegep-foy",
+      "name": "Cégep de Sainte-Foy",
+      "lat": 46.784225,
+      "lon": -71.284111,
+      "lines": ["807"],
+      "platformIds": ["1-1943", "1-1994"],
+      "departureRouteIds": ["185", "807", "907"]
+    },
+    {
+      "id": "garneau",
+      "schematicId": "garneau",
+      "name": "Cégep Garneau",
+      "lat": 46.790634,
+      "lon": -71.265175,
+      "lines": ["807"],
+      "platformIds": ["1-1410", "1-1475"],
+      "departureRouteIds": [
+        "185",
+        "330",
+        "331",
+        "336",
+        "337",
+        "338",
+        "350",
+        "354",
+        "355",
+        "358",
+        "370",
+        "372",
+        "374",
+        "380",
+        "381",
+        "382",
+        "384",
+        "79",
+        "807",
+        "907",
+        "91",
+        "92",
+        "93",
+        "94"
+      ]
+    },
+    {
+      "id": "limoilou",
+      "schematicId": "limoilou",
+      "name": "Cégep Limoilou",
+      "lat": 46.828896,
+      "lon": -71.224991,
+      "lines": ["800"],
+      "platformIds": ["1-2519", "1-2564", "1-3010", "1-3077", "1-3248"],
+      "departureRouteIds": [
+        "136",
+        "19",
+        "290",
+        "36",
+        "39",
+        "52",
+        "54",
+        "59",
+        "800",
+        "936",
+        "950",
+        "954"
+      ]
+    },
+    {
+      "id": "1-3371",
+      "schematicId": "montmorency",
+      "name": "Chute-Montmorency",
+      "lat": 46.891445,
+      "lon": -71.149269,
+      "lines": ["800"],
+      "platformIds": ["1-3371"],
+      "departureRouteIds": ["250", "350", "550", "59", "800"]
+    },
+    {
+      "id": "parlement",
+      "schematicId": "parlement",
+      "name": "Colline Parlementaire",
+      "lat": 46.809593,
+      "lon": -71.21624,
+      "lines": ["800", "801", "805"],
+      "platformIds": ["1-1517", "1-1560", "1-7016", "1-8115", "1-8116"],
+      "departureRouteIds": [
+        "11",
+        "231",
+        "236",
+        "237",
+        "238",
+        "250",
+        "251",
+        "253",
+        "254",
+        "255",
+        "257",
+        "258",
+        "270",
+        "272",
+        "273",
+        "274",
+        "279",
+        "280",
+        "281",
+        "282",
+        "284",
+        "289",
+        "5",
+        "800",
+        "801",
+        "805",
+        "925",
+        "931",
+        "991",
+        "992"
+      ]
+    },
+    {
+      "id": "youville",
+      "schematicId": "youville",
+      "name": "D’Youville",
+      "lat": 46.812523,
+      "lon": -71.214813,
+      "lines": ["800", "801", "805", "807"],
+      "platformIds": [
+        "1-1011",
+        "1-1190",
+        "1-2051",
+        "1-2087",
+        "1-2094",
+        "1-2441",
+        "1-2664",
+        "1-2878"
+      ],
+      "departureRouteIds": [
+        "11",
+        "19",
+        "231",
+        "236",
+        "237",
+        "238",
+        "250",
+        "251",
+        "253",
+        "254",
+        "255",
+        "257",
+        "258",
+        "270",
+        "272",
+        "273",
+        "274",
+        "279",
+        "280",
+        "281",
+        "282",
+        "284",
+        "289",
+        "5",
+        "6",
+        "800",
+        "801",
+        "805",
+        "807",
+        "907",
+        "925",
+        "931",
+        "936",
+        "950",
+        "954",
+        "972",
+        "980",
+        "982",
+        "984",
+        "991",
+        "992"
+      ]
+    },
+    {
+      "id": "galeries",
+      "schematicId": "galeries",
+      "name": "Galeries de la Capitale",
+      "lat": 46.830353,
+      "lon": -71.296921,
+      "lines": ["803"],
+      "platformIds": [
+        "1-2539",
+        "1-2559",
+        "1-2560",
+        "1-2611",
+        "1-2633",
+        "1-3023",
+        "1-3064",
+        "1-3350",
+        "1-3366"
+      ],
+      "departureRouteIds": ["61", "630", "650", "690", "70", "71", "803", "82", "85", "982"]
+    },
+    {
+      "id": "gare-palais-rue",
+      "schematicId": "gare-palais-rue",
+      "name": "Gare-Palais",
+      "lat": 46.817593,
+      "lon": -71.215714,
+      "lines": ["800"],
+      "platformIds": ["1-2558", "1-2562"],
+      "departureRouteIds": ["136", "290", "54", "800", "950", "954"]
+    },
+    {
+      "id": "laurier",
+      "schematicId": "laurier",
+      "name": "Laurier Québec",
+      "lat": 46.770046,
+      "lon": -71.289566,
+      "lines": ["804", "805"],
+      "platformIds": ["1-8504", "1-8505"],
+      "departureRouteIds": [
+        "12",
+        "530",
+        "531",
+        "536",
+        "537",
+        "538",
+        "550",
+        "554",
+        "555",
+        "558",
+        "570",
+        "572",
+        "574",
+        "580",
+        "581",
+        "582",
+        "584",
+        "70",
+        "804",
+        "805",
+        "904",
+        "91",
+        "92",
+        "93",
+        "931",
+        "94",
+        "991",
+        "992"
+      ]
+    },
+    {
+      "id": "victoria",
+      "schematicId": "victoria",
+      "name": "Parc-Victoria",
+      "lat": 46.81778,
+      "lon": -71.230354,
+      "lines": ["801", "805"],
+      "platformIds": [
+        "1-1257",
+        "1-8401",
+        "1-8402",
+        "1-8403",
+        "1-8404",
+        "1-8405",
+        "1-8407",
+        "1-8421",
+        "1-8431"
+      ],
+      "departureRouteIds": [
+        "19",
+        "231",
+        "237",
+        "270",
+        "272",
+        "273",
+        "274",
+        "279",
+        "28",
+        "280",
+        "281",
+        "282",
+        "284",
+        "289",
+        "29",
+        "3",
+        "36",
+        "4",
+        "74",
+        "80",
+        "801",
+        "805",
+        "82",
+        "84",
+        "85",
+        "86",
+        "9",
+        "931"
+      ]
+    },
+    {
+      "id": "wolfe",
+      "schematicId": "wolfe",
+      "name": "Sainte-Foy / Wolfe",
+      "lat": 46.776657,
+      "lon": -71.296104,
+      "lines": ["804"],
+      "platformIds": ["1-1948", "1-1989", "1-6783"],
+      "departureRouteIds": ["13", "22", "804", "88", "904"]
+    },
+    {
+      "id": "beauport",
+      "schematicId": "beauport",
+      "name": "Terminus Beauport",
+      "lat": 46.846916,
+      "lon": -71.216354,
+      "lines": ["800", "802", "803"],
+      "platformIds": ["1-1361", "1-2552", "1-2568", "1-2630", "1-3328"],
+      "departureRouteIds": ["250", "350", "51", "550", "800", "802", "803", "950", "954"]
+    },
+    {
+      "id": "charlesbourg",
+      "schematicId": "charlesbourg",
+      "name": "Terminus Charlesbourg",
+      "lat": 46.862022,
+      "lon": -71.267525,
+      "lines": ["801"],
+      "platformIds": [
+        "1-3943",
+        "1-5522",
+        "1-5690",
+        "1-5691",
+        "1-5693",
+        "1-5695",
+        "1-5696",
+        "1-5697",
+        "1-5699",
+        "1-5700",
+        "1-5701",
+        "1-6700"
+      ],
+      "departureRouteIds": [
+        "136",
+        "3",
+        "330",
+        "36",
+        "39",
+        "52",
+        "530",
+        "59",
+        "630",
+        "690",
+        "72",
+        "801",
+        "82A",
+        "931",
+        "936",
+        "972"
+      ]
+    },
+    {
+      "id": "faune",
+      "schematicId": "faune",
+      "name": "Terminus de la Faune",
+      "lat": 46.888718,
+      "lon": -71.306473,
+      "lines": ["801"],
+      "platformIds": ["1-7331", "1-7332", "1-7333"],
+      "departureRouteIds": [
+        "136",
+        "231",
+        "237",
+        "31",
+        "32",
+        "331",
+        "337",
+        "34",
+        "39",
+        "531",
+        "537",
+        "630",
+        "801",
+        "81",
+        "931"
+      ]
+    },
+    {
+      "id": "marly",
+      "schematicId": "marly",
+      "name": "Terminus de Marly",
+      "lat": 46.751652,
+      "lon": -71.331032,
+      "lines": ["805", "807"],
+      "platformIds": ["1-1442", "1-2009", "1-2110", "1-2384"],
+      "departureRouteIds": ["11", "630", "650", "805", "807", "90", "907", "96", "991"]
+    },
+    {
+      "id": "gare-palais",
+      "schematicId": "gare-palais",
+      "name": "Terminus Gare-du-Palais",
+      "lat": 46.818398,
+      "lon": -71.213448,
+      "lines": ["18"],
+      "platformIds": ["1-5601", "1-5806", "1-5807"],
+      "departureRouteIds": ["18", "291", "294", "71"]
+    },
+    {
+      "id": "saules",
+      "schematicId": "saules",
+      "name": "Terminus Les Saules",
+      "lat": 46.812988,
+      "lon": -71.323799,
+      "lines": ["803", "804"],
+      "platformIds": [
+        "1-5717",
+        "1-5719",
+        "1-5720",
+        "1-5723",
+        "1-5725",
+        "1-5726",
+        "1-5727",
+        "1-5728",
+        "1-5729",
+        "1-5730",
+        "1-5733",
+        "1-5734",
+        "1-5736",
+        "1-5778",
+        "1-5794",
+        "1-5804",
+        "1-6386"
+      ],
+      "departureRouteIds": [
+        "22",
+        "280",
+        "290",
+        "380",
+        "580",
+        "630",
+        "690",
+        "74",
+        "79",
+        "80",
+        "803",
+        "804",
+        "81",
+        "84",
+        "84G",
+        "86",
+        "88",
+        "904",
+        "980",
+        "984"
+      ]
+    },
+    {
+      "id": "campus",
+      "schematicId": "campus",
+      "name": "Université Laval / campus",
+      "lat": 46.787113,
+      "lon": -71.276573,
+      "lines": ["18", "804"],
+      "platformIds": [
+        "1-1472",
+        "1-1515",
+        "1-1556",
+        "1-1557",
+        "1-1558",
+        "1-1830",
+        "1-1999",
+        "1-6457",
+        "1-6458"
+      ],
+      "departureRouteIds": [
+        "16",
+        "18",
+        "185",
+        "330",
+        "331",
+        "336",
+        "337",
+        "338",
+        "350",
+        "354",
+        "355",
+        "358",
+        "370",
+        "372",
+        "374",
+        "380",
+        "381",
+        "382",
+        "384",
+        "79",
+        "804",
+        "805",
+        "807",
+        "907",
+        "91",
+        "92",
+        "93",
+        "94",
+        "991",
+        "992"
+      ]
+    },
+    {
+      "id": "1-1561",
+      "schematicId": "univ-laurier",
+      "name": "Université Laval / Laurier",
+      "lat": 46.7794,
+      "lon": -71.270241,
+      "lines": ["805"],
+      "platformIds": ["1-1561"],
+      "departureRouteIds": ["804", "805", "904", "931"]
+    },
+    {
+      "id": "1-1413",
+      "schematicId": "univ-foy",
+      "name": "Université Laval / Ste-Foy",
+      "lat": 46.787117,
+      "lon": -71.277176,
+      "lines": ["807"],
+      "platformIds": ["1-1413"],
+      "departureRouteIds": [
+        "185",
+        "330",
+        "331",
+        "336",
+        "337",
+        "338",
+        "350",
+        "354",
+        "355",
+        "358",
+        "370",
+        "372",
+        "374",
+        "380",
+        "381",
+        "382",
+        "384",
+        "79",
+        "807",
+        "907",
+        "91",
+        "92",
+        "93",
+        "94"
+      ]
+    },
+    {
+      "id": "emerson",
+      "schematicId": "emerson",
+      "name": "Val-Bélair / Emerson",
+      "lat": 46.856583,
+      "lon": -71.418648,
+      "lines": ["804"],
+      "platformIds": ["1-5617"],
+      "departureRouteIds": ["270", "370", "570", "70", "74", "804", "84"]
+    }
+  ]
+}

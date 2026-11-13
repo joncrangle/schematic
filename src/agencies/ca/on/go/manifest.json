@@ -1,0 +1,250 @@
+{
+  "id": "go",
+  "name": "GO Transit",
+  "serviceArea": "Greater Golden Horseshoe",
+  "serviceAreaTranslations": { "fr": "Région élargie du Golden Horseshoe" },
+  "shortName": "GO",
+  "brandColor": "#00853F",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 42.9,
+      "maxLat": 44.6,
+      "minLon": -81.2,
+      "maxLon": -75.8
+    },
+    {
+      "minLat": 43.2,
+      "maxLat": 43.9,
+      "minLon": -79.85,
+      "maxLon": -78.6
+    }
+  ],
+  "modes": ["rail", "bus"],
+  "proximity": {
+    "radiusMeters": 1500,
+    "bucketMeters": 75
+  },
+  "stationService": {
+    "routeType": "rail",
+    "splitByLine": true
+  },
+  "attribution": {
+    "name": "Metrolinx Open Data",
+    "url": "https://www.metrolinx.com/en/about-us/open-data",
+    "license": "Open Government Licence – Ontario",
+    "translations": {
+      "fr": {
+        "name": "Données ouvertes de Metrolinx",
+        "url": "https://www.metrolinx.com/fr/a-propos-de-nous/donnees-ouvertes",
+        "license": "Licence du gouvernement ouvert – Ontario"
+      }
+    }
+  },
+  "status": "active",
+  "alertInterpretation": {
+    "titleDateTimezone": "America/Toronto",
+    "lineIds": ["LW", "MI", "KI", "BR", "RH", "ST", "LE", "UP"],
+    "routeLineMap": {
+      "GT": "KI"
+    },
+    "routeIdNormalization": {
+      "extractPattern": "^[^-]+-([A-Za-z0-9]+)$"
+    },
+    "rules": [
+      {
+        "priority": 200,
+        "match": {
+          "textIncludes": [
+            "pedestrian bridge",
+            "pedestrian overpass",
+            "pedestrian tunnel",
+            "pedestrian walkway",
+            "station access",
+            "access route",
+            "street level access",
+            "level access",
+            "stairway",
+            "staircase",
+            "stairwell",
+            "stairs",
+            "walkway",
+            "step-free",
+            "step free",
+            "ramp",
+            "waiting area",
+            "station building",
+            "washroom",
+            "restroom"
+          ]
+        },
+        "result": {
+          "kind": "accessibility",
+          "severity": "normal"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": ["reduced speed", "reduced speeds", "slower speeds", "slower than usual"]
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "cityPresets": [
+    {
+      "name": "Union Station",
+      "lat": 43.6455,
+      "lon": -79.3806
+    },
+    {
+      "name": "Hamilton GO Centre",
+      "lat": 43.253284,
+      "lon": -79.869192
+    },
+    {
+      "name": "Oshawa GO",
+      "lat": 43.871004,
+      "lon": -78.884807
+    },
+    {
+      "name": "Aldershot GO",
+      "lat": 43.313385,
+      "lon": -79.855659
+    },
+    {
+      "name": "Burlington GO",
+      "lat": 43.341265,
+      "lon": -79.809141
+    },
+    {
+      "name": "Oakville GO",
+      "lat": 43.455594,
+      "lon": -79.682242
+    },
+    {
+      "name": "Brampton GO",
+      "lat": 43.686909,
+      "lon": -79.762863
+    },
+    {
+      "name": "Pickering GO",
+      "lat": 43.831576,
+      "lon": -79.084594
+    }
+  ],
+  "directionLiterals": {
+    "north": "Northbound",
+    "south": "Southbound",
+    "east": "Eastbound",
+    "west": "Westbound",
+    "outbound": "Outbound",
+    "inbound": "Inbound"
+  },
+  "popularSurfaceRoutes": ["LW", "LE", "KI", "MI", "UP"],
+  "staticTopology": {
+    "feeds": [
+      {
+        "name": "GO Transit",
+        "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+        "cacheFileName": "go-gtfs.zip"
+      },
+      {
+        "name": "UP Express",
+        "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/UP-GTFS.zip",
+        "cacheFileName": "up-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#00853F",
+    "defaultTextColor": "#FFFFFF",
+    "source": "seed",
+    "routeIdField": "short_name"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/Gtfs/Feed/VehiclePosition",
+        "format": "protobuf",
+        "unreliableVehicleFields": ["speed", "occupancy_status"],
+        "devProxyPrefix": "/__dev/upstream/metrolinx",
+        "auth": {
+          "type": "query_param",
+          "parameterName": "key",
+          "secretName": "FEED_METROLINX_API_KEY"
+        },
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/Gtfs/Feed/TripUpdates",
+        "format": "protobuf",
+        "devProxyPrefix": "/__dev/upstream/metrolinx",
+        "auth": {
+          "type": "query_param",
+          "parameterName": "key",
+          "secretName": "FEED_METROLINX_API_KEY"
+        },
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/UP/Gtfs/Feed/VehiclePosition",
+        "format": "protobuf",
+        "devProxyPrefix": "/__dev/upstream/metrolinx",
+        "auth": {
+          "type": "query_param",
+          "parameterName": "key",
+          "secretName": "FEED_METROLINX_API_KEY"
+        },
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/UP/Gtfs/Feed/TripUpdates",
+        "format": "protobuf",
+        "devProxyPrefix": "/__dev/upstream/metrolinx",
+        "auth": {
+          "type": "query_param",
+          "parameterName": "key",
+          "secretName": "FEED_METROLINX_API_KEY"
+        },
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/Gtfs/Feed/Alerts",
+      "format": "json",
+      "devProxyPrefix": "/__dev/upstream/metrolinx",
+      "auth": {
+        "type": "query_param",
+        "parameterName": "key",
+        "secretName": "FEED_METROLINX_API_KEY"
+      }
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/UP/Gtfs/Feed/Alerts",
+      "format": "json",
+      "devProxyPrefix": "/__dev/upstream/metrolinx",
+      "auth": {
+        "type": "query_param",
+        "parameterName": "key",
+        "secretName": "FEED_METROLINX_API_KEY"
+      }
+    }
+  ],
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel><title>Fictional Transit updates</title><link>https://transit.example.test/alerts</link><description>Current updates</description>
+    <item><guid>detour-42</guid><title>Detour: Routes 42 and 43</title><description><![CDATA[<p>Use the temporary stop &amp; platform.</p>]]></description><pubDate>Sat, 10 Oct 2026 12:00:00 GMT</pubDate><category>Detours</category><category>affectedRoutes-42,43</category><link>https://transit.example.test/alerts/detour-42</link></item>
+    <item><guid>cancel-44</guid><title>Route 44 cancelled trip</title><content:encoded><![CDATA[<p>No service for this trip.</p>]]></content:encoded><pubDate>Sat, 10 Oct 2026 13:00:00 GMT</pubDate><endDate>Sat, 10 Oct 2026 18:00:00 GMT</endDate><category>Service changes</category></item>
+  </channel>
+</rss>

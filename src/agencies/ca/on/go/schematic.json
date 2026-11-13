@@ -1,0 +1,2425 @@
+{
+  "viewBoxWidth": 1100,
+  "viewBoxHeight": 1030,
+  "lines": [
+    {
+      "id": "LW",
+      "name": "Lakeshore West",
+      "color": "#8D0134",
+      "points": [
+        {
+          "x": 420,
+          "y": 925
+        },
+        {
+          "x": 315,
+          "y": 925
+        },
+        {
+          "x": 180,
+          "y": 925
+        },
+        {
+          "x": 130,
+          "y": 925
+        },
+        {
+          "x": 90,
+          "y": 885
+        },
+        {
+          "x": 90,
+          "y": 830
+        },
+        {
+          "x": 45,
+          "y": 830
+        },
+        {
+          "x": 90,
+          "y": 830
+        },
+        {
+          "x": 135,
+          "y": 830
+        },
+        {
+          "x": 180,
+          "y": 830
+        },
+        {
+          "x": 225,
+          "y": 830
+        },
+        {
+          "x": 270,
+          "y": 830
+        },
+        {
+          "x": 315,
+          "y": 830
+        },
+        {
+          "x": 360,
+          "y": 830
+        },
+        {
+          "x": 405,
+          "y": 830
+        },
+        {
+          "x": 450,
+          "y": 830
+        },
+        {
+          "x": 490,
+          "y": 830
+        },
+        {
+          "x": 580,
+          "y": 830
+        }
+      ]
+    },
+    {
+      "id": "MI",
+      "name": "Milton",
+      "color": "#F5821F",
+      "points": [
+        {
+          "x": 60,
+          "y": 680
+        },
+        {
+          "x": 115,
+          "y": 680
+        },
+        {
+          "x": 170,
+          "y": 680
+        },
+        {
+          "x": 225,
+          "y": 680
+        },
+        {
+          "x": 280,
+          "y": 680
+        },
+        {
+          "x": 335,
+          "y": 680
+        },
+        {
+          "x": 390,
+          "y": 680
+        },
+        {
+          "x": 445,
+          "y": 680
+        },
+        {
+          "x": 445,
+          "y": 770
+        },
+        {
+          "x": 505,
+          "y": 830
+        },
+        {
+          "x": 580,
+          "y": 830
+        }
+      ]
+    },
+    {
+      "id": "KI",
+      "name": "Kitchener",
+      "color": "#00863E",
+      "points": [
+        {
+          "x": 30,
+          "y": 465
+        },
+        {
+          "x": 75,
+          "y": 420
+        },
+        {
+          "x": 105,
+          "y": 420
+        },
+        {
+          "x": 135,
+          "y": 420
+        },
+        {
+          "x": 165,
+          "y": 420
+        },
+        {
+          "x": 195,
+          "y": 420
+        },
+        {
+          "x": 225,
+          "y": 420
+        },
+        {
+          "x": 250,
+          "y": 420
+        },
+        {
+          "x": 280,
+          "y": 450
+        },
+        {
+          "x": 320,
+          "y": 490
+        },
+        {
+          "x": 360,
+          "y": 530
+        },
+        {
+          "x": 400,
+          "y": 570
+        },
+        {
+          "x": 460,
+          "y": 630
+        },
+        {
+          "x": 500,
+          "y": 670
+        },
+        {
+          "x": 500,
+          "y": 750
+        },
+        {
+          "x": 580,
+          "y": 830
+        }
+      ]
+    },
+    {
+      "id": "BR",
+      "name": "Barrie",
+      "color": "#0077BE",
+      "points": [
+        {
+          "x": 550,
+          "y": 110
+        },
+        {
+          "x": 550,
+          "y": 155
+        },
+        {
+          "x": 550,
+          "y": 200
+        },
+        {
+          "x": 550,
+          "y": 245
+        },
+        {
+          "x": 550,
+          "y": 290
+        },
+        {
+          "x": 550,
+          "y": 335
+        },
+        {
+          "x": 550,
+          "y": 380
+        },
+        {
+          "x": 550,
+          "y": 425
+        },
+        {
+          "x": 550,
+          "y": 470
+        },
+        {
+          "x": 550,
+          "y": 515
+        },
+        {
+          "x": 550,
+          "y": 800
+        },
+        {
+          "x": 580,
+          "y": 830
+        }
+      ]
+    },
+    {
+      "id": "RH",
+      "name": "Richmond Hill",
+      "color": "#00ABE8",
+      "points": [
+        {
+          "x": 640,
+          "y": 255
+        },
+        {
+          "x": 640,
+          "y": 340
+        },
+        {
+          "x": 640,
+          "y": 425
+        },
+        {
+          "x": 640,
+          "y": 510
+        },
+        {
+          "x": 640,
+          "y": 595
+        },
+        {
+          "x": 640,
+          "y": 665
+        },
+        {
+          "x": 635,
+          "y": 670
+        },
+        {
+          "x": 635,
+          "y": 775
+        },
+        {
+          "x": 580,
+          "y": 830
+        }
+      ]
+    },
+    {
+      "id": "ST",
+      "name": "Stouffville",
+      "color": "#7D4C0F",
+      "points": [
+        {
+          "x": 750,
+          "y": 140
+        },
+        {
+          "x": 750,
+          "y": 195
+        },
+        {
+          "x": 750,
+          "y": 250
+        },
+        {
+          "x": 750,
+          "y": 305
+        },
+        {
+          "x": 750,
+          "y": 360
+        },
+        {
+          "x": 750,
+          "y": 415
+        },
+        {
+          "x": 750,
+          "y": 470
+        },
+        {
+          "x": 750,
+          "y": 525
+        },
+        {
+          "x": 750,
+          "y": 580
+        },
+        {
+          "x": 750,
+          "y": 660
+        },
+        {
+          "x": 580,
+          "y": 830
+        }
+      ]
+    },
+    {
+      "id": "LE",
+      "name": "Lakeshore East",
+      "color": "#EE2E24",
+      "points": [
+        {
+          "x": 985,
+          "y": 830
+        },
+        {
+          "x": 940,
+          "y": 830
+        },
+        {
+          "x": 895,
+          "y": 830
+        },
+        {
+          "x": 850,
+          "y": 830
+        },
+        {
+          "x": 805,
+          "y": 830
+        },
+        {
+          "x": 760,
+          "y": 830
+        },
+        {
+          "x": 715,
+          "y": 830
+        },
+        {
+          "x": 670,
+          "y": 830
+        },
+        {
+          "x": 625,
+          "y": 830
+        },
+        {
+          "x": 580,
+          "y": 830
+        }
+      ]
+    },
+    {
+      "id": "UP",
+      "name": "UP Express",
+      "color": "#2386C8",
+      "points": [
+        {
+          "x": 300,
+          "y": 570
+        },
+        {
+          "x": 400,
+          "y": 570
+        },
+        {
+          "x": 460,
+          "y": 630
+        },
+        {
+          "x": 500,
+          "y": 670
+        },
+        {
+          "x": 500,
+          "y": 750
+        },
+        {
+          "x": 580,
+          "y": 830
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "union",
+      "name": "Union",
+      "x": 580,
+      "y": 830,
+      "lines": ["LW", "MI", "KI", "BR", "RH", "ST", "LE", "UP"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 580,
+        "y": 885,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hamilton",
+      "name": "Hamilton",
+      "x": 45,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 45,
+        "y": 800,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "aldershot",
+      "name": "Aldershot",
+      "x": 90,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 90,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "burlington",
+      "name": "Burlington",
+      "x": 135,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 135,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "appleby",
+      "name": "Appleby",
+      "x": 180,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 180,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bronte",
+      "name": "Bronte",
+      "x": 225,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 225,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "oakville",
+      "name": "Oakville",
+      "x": 270,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 270,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "clarkson",
+      "name": "Clarkson",
+      "x": 315,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 315,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "port-credit",
+      "name": "Port Credit",
+      "x": 360,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 360,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "long-branch",
+      "name": "Long Branch",
+      "x": 405,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 405,
+        "y": 850,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mimico",
+      "name": "Mimico",
+      "x": 450,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": false,
+      "terminal": false,
+      "label": {
+        "x": 450,
+        "y": 850,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "exhibition",
+      "name": "Exhibition",
+      "x": 490,
+      "y": 830,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 490,
+        "y": 850,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "west-harbour",
+      "name": "West Harbour",
+      "x": 130,
+      "y": 925,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 130,
+        "y": 934,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "confederation",
+      "name": "Confederation",
+      "x": 180,
+      "y": 925,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 180,
+        "y": 934,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "st-catharines",
+      "name": "St Catharines",
+      "x": 315,
+      "y": 925,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 315,
+        "y": 934,
+        "rot": 45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "niagara-falls",
+      "name": "Niagara Falls",
+      "x": 420,
+      "y": 925,
+      "lines": ["LW"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 432,
+        "y": 925,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "danforth",
+      "name": "Danforth",
+      "x": 625,
+      "y": 830,
+      "lines": ["LE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 625,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "scarborough",
+      "name": "Scarborough",
+      "x": 670,
+      "y": 830,
+      "lines": ["LE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 670,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "eglinton",
+      "name": "Eglinton",
+      "x": 715,
+      "y": 830,
+      "lines": ["LE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 715,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "guildwood",
+      "name": "Guildwood",
+      "x": 760,
+      "y": 830,
+      "lines": ["LE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 760,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "rouge-hill",
+      "name": "Rouge Hill",
+      "x": 805,
+      "y": 830,
+      "lines": ["LE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 805,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pickering",
+      "name": "Pickering",
+      "x": 850,
+      "y": 830,
+      "lines": ["LE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 850,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "ajax",
+      "name": "Ajax",
+      "x": 895,
+      "y": 830,
+      "lines": ["LE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 895,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "whitby",
+      "name": "Whitby",
+      "x": 940,
+      "y": 830,
+      "lines": ["LE"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 940,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "durham-college-oshawa",
+      "name": "Durham College Oshawa",
+      "x": 985,
+      "y": 830,
+      "lines": ["LE"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 985,
+        "y": 810,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "milton",
+      "name": "Milton",
+      "x": 60,
+      "y": 680,
+      "lines": ["MI"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 60,
+        "y": 650,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lisgar",
+      "name": "Lisgar",
+      "x": 115,
+      "y": 680,
+      "lines": ["MI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 115,
+        "y": 660,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "meadowvale",
+      "name": "Meadowvale",
+      "x": 170,
+      "y": 680,
+      "lines": ["MI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 170,
+        "y": 660,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "streetsville",
+      "name": "Streetsville",
+      "x": 225,
+      "y": 680,
+      "lines": ["MI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 225,
+        "y": 660,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "erindale",
+      "name": "Erindale",
+      "x": 280,
+      "y": 680,
+      "lines": ["MI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 280,
+        "y": 660,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cooksville",
+      "name": "Cooksville",
+      "x": 335,
+      "y": 680,
+      "lines": ["MI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 335,
+        "y": 660,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "dixie",
+      "name": "Dixie",
+      "x": 390,
+      "y": 680,
+      "lines": ["MI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 390,
+        "y": 650,
+        "anchor": "end",
+        "rot": 0
+      }
+    },
+    {
+      "id": "kipling",
+      "name": "Kipling",
+      "x": 445,
+      "y": 680,
+      "lines": ["MI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 445,
+        "y": 650,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "bloor",
+      "name": "Bloor",
+      "x": 500,
+      "y": 670,
+      "lines": ["KI", "UP"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 512,
+        "y": 670,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mount-dennis",
+      "name": "Mount Dennis",
+      "x": 460,
+      "y": 630,
+      "lines": ["KI", "UP"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 472,
+        "y": 620,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "weston",
+      "name": "Weston",
+      "x": 400,
+      "y": 570,
+      "lines": ["KI", "UP"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 412,
+        "y": 570,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pearson",
+      "name": "Pearson",
+      "x": 300,
+      "y": 570,
+      "lines": ["UP"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 300,
+        "y": 556,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "etobicoke-north",
+      "name": "Etobicoke North",
+      "x": 360,
+      "y": 530,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 372,
+        "y": 530,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "malton",
+      "name": "Malton",
+      "x": 320,
+      "y": 490,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 332,
+        "y": 490,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bramalea",
+      "name": "Bramalea",
+      "x": 280,
+      "y": 450,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 292,
+        "y": 450,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "brampton-innovation-district",
+      "name": "Brampton Innovation District",
+      "x": 225,
+      "y": 420,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 225,
+        "y": 406,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mount-pleasant",
+      "name": "Mount Pleasant",
+      "x": 195,
+      "y": 420,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 195,
+        "y": 406,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "georgetown",
+      "name": "Georgetown",
+      "x": 165,
+      "y": 420,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 165,
+        "y": 406,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "acton",
+      "name": "Acton",
+      "x": 135,
+      "y": 420,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 135,
+        "y": 406,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "guelph-central",
+      "name": "Guelph Central",
+      "x": 105,
+      "y": 420,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 105,
+        "y": 406,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kitchener",
+      "name": "Kitchener",
+      "x": 75,
+      "y": 420,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 75,
+        "y": 406,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "stratford",
+      "name": "Stratford",
+      "x": 30,
+      "y": 465,
+      "lines": ["KI"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 30,
+        "y": 497,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "downsview-park",
+      "name": "Downsview Park",
+      "x": 550,
+      "y": 515,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 515,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rutherford",
+      "name": "Rutherford",
+      "x": 550,
+      "y": 470,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 470,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "maple",
+      "name": "Maple",
+      "x": 550,
+      "y": 425,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 425,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "king-city",
+      "name": "King City",
+      "x": 550,
+      "y": 380,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 380,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "x": 550,
+      "y": 335,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 335,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "newmarket",
+      "name": "Newmarket",
+      "x": 550,
+      "y": 290,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 290,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "east-gwillimbury",
+      "name": "East Gwillimbury",
+      "x": 550,
+      "y": 245,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 245,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bradford",
+      "name": "Bradford",
+      "x": 550,
+      "y": 200,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 200,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "barrie-south",
+      "name": "Barrie South",
+      "x": 550,
+      "y": 155,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 530,
+        "y": 155,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "allandale-waterfront",
+      "name": "Allandale Waterfront",
+      "x": 550,
+      "y": 110,
+      "lines": ["BR"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 530,
+        "y": 110,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "oriole",
+      "name": "Oriole",
+      "x": 635,
+      "y": 670,
+      "lines": ["RH"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 655,
+        "y": 670,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "old-cummer",
+      "name": "Old Cummer",
+      "x": 640,
+      "y": 595,
+      "lines": ["RH"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 660,
+        "y": 595,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "langstaff",
+      "name": "Langstaff",
+      "x": 640,
+      "y": 510,
+      "lines": ["RH"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 660,
+        "y": 510,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "richmond-hill",
+      "name": "Richmond Hill",
+      "x": 640,
+      "y": 425,
+      "lines": ["RH"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 660,
+        "y": 425,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "gormley",
+      "name": "Gormley",
+      "x": 640,
+      "y": 340,
+      "lines": ["RH"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 660,
+        "y": 340,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bloomington",
+      "name": "Bloomington",
+      "x": 640,
+      "y": 255,
+      "lines": ["RH"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 660,
+        "y": 255,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kennedy",
+      "name": "Kennedy",
+      "x": 750,
+      "y": 580,
+      "lines": ["ST"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 770,
+        "y": 580,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "agincourt",
+      "name": "Agincourt",
+      "x": 750,
+      "y": 525,
+      "lines": ["ST"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 770,
+        "y": 525,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "milliken",
+      "name": "Milliken",
+      "x": 750,
+      "y": 470,
+      "lines": ["ST"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 770,
+        "y": 470,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "unionville",
+      "name": "Unionville",
+      "x": 750,
+      "y": 415,
+      "lines": ["ST"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 770,
+        "y": 415,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "centennial",
+      "name": "Centennial",
+      "x": 750,
+      "y": 360,
+      "lines": ["ST"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 770,
+        "y": 360,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "markham",
+      "name": "Markham",
+      "x": 750,
+      "y": 305,
+      "lines": ["ST"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 770,
+        "y": 305,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "mount-joy",
+      "name": "Mount Joy",
+      "x": 750,
+      "y": 250,
+      "lines": ["ST"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 770,
+        "y": 250,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "stouffville",
+      "name": "Stouffville",
+      "x": 750,
+      "y": 195,
+      "lines": ["ST"],
+      "accessible": true,
+      "terminal": false,
+      "label": {
+        "x": 770,
+        "y": 195,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "old-elm",
+      "name": "Old Elm",
+      "x": 750,
+      "y": 140,
+      "lines": ["ST"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 770,
+        "y": 140,
+        "rot": 0,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "LW",
+      "num": "LW",
+      "x": 15,
+      "y": 830,
+      "color": "#8D0134",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "LE",
+      "num": "LE",
+      "x": 742,
+      "y": 862,
+      "color": "#EE2E24",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "MI",
+      "num": "MI",
+      "x": 25,
+      "y": 690,
+      "color": "#F5821F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "KI",
+      "num": "KI",
+      "x": 271.51,
+      "y": 486.77,
+      "color": "#00863E",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "BR",
+      "num": "BR",
+      "x": 550,
+      "y": 75,
+      "color": "#0077BE",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "RH",
+      "num": "RH",
+      "x": 608,
+      "y": 275,
+      "color": "#00ABE8",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "ST",
+      "num": "ST",
+      "x": 718,
+      "y": 160,
+      "color": "#7D4C0F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "UP",
+      "num": "UP",
+      "x": 411,
+      "y": 626,
+      "color": "#2386C8",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1100,
+      "minY": 0,
+      "maxY": 1030
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -81.2,
+    "refLonEast": -75.8,
+    "refXWest": 0,
+    "refXEast": 1100,
+    "refLatNorth": 44.6,
+    "refLatSouth": 42.9,
+    "refYNorth": 30,
+    "refYSouth": 1030
+  },
+  "sequences": {
+    "LW": [
+      "niagara-falls",
+      "st-catharines",
+      "confederation",
+      "west-harbour",
+      "hamilton",
+      "aldershot",
+      "burlington",
+      "appleby",
+      "bronte",
+      "oakville",
+      "clarkson",
+      "port-credit",
+      "long-branch",
+      "mimico",
+      "exhibition",
+      "union"
+    ],
+    "LE": [
+      "durham-college-oshawa",
+      "whitby",
+      "ajax",
+      "pickering",
+      "rouge-hill",
+      "guildwood",
+      "eglinton",
+      "scarborough",
+      "danforth",
+      "union"
+    ],
+    "MI": [
+      "milton",
+      "lisgar",
+      "meadowvale",
+      "streetsville",
+      "erindale",
+      "cooksville",
+      "dixie",
+      "kipling",
+      "union"
+    ],
+    "KI": [
+      "stratford",
+      "kitchener",
+      "guelph-central",
+      "acton",
+      "georgetown",
+      "mount-pleasant",
+      "brampton-innovation-district",
+      "bramalea",
+      "malton",
+      "etobicoke-north",
+      "weston",
+      "mount-dennis",
+      "bloor",
+      "union"
+    ],
+    "BR": [
+      "allandale-waterfront",
+      "barrie-south",
+      "bradford",
+      "east-gwillimbury",
+      "newmarket",
+      "aurora",
+      "king-city",
+      "maple",
+      "rutherford",
+      "downsview-park",
+      "union"
+    ],
+    "RH": ["bloomington", "gormley", "richmond-hill", "langstaff", "old-cummer", "oriole", "union"],
+    "ST": [
+      "old-elm",
+      "stouffville",
+      "mount-joy",
+      "markham",
+      "centennial",
+      "unionville",
+      "milliken",
+      "agincourt",
+      "kennedy",
+      "union"
+    ],
+    "UP": ["pearson", "weston", "mount-dennis", "bloor", "union"]
+  },
+  "stationAliases": {
+    "hamilton go centre": "hamilton",
+    "up express pearson airport": "pearson",
+    "up express union": "union",
+    "weston go/up": "weston"
+  },
+  "stationIndex": [
+    {
+      "id": "AD",
+      "schematicId": "allandale-waterfront",
+      "name": "Allandale Waterfront GO",
+      "lat": 44.374139,
+      "lon": -79.687858,
+      "lines": ["BR"],
+      "platformIds": ["AD"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "BA",
+      "schematicId": "barrie-south",
+      "name": "Barrie South GO",
+      "lat": 44.35112,
+      "lon": -79.627441,
+      "lines": ["BR"],
+      "platformIds": ["BA"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "BD",
+      "schematicId": "bradford",
+      "name": "Bradford GO",
+      "lat": 44.116513,
+      "lon": -79.555394,
+      "lines": ["BR"],
+      "platformIds": ["BD"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "EA",
+      "schematicId": "east-gwillimbury",
+      "name": "East Gwillimbury GO",
+      "lat": 44.077996,
+      "lon": -79.455776,
+      "lines": ["BR"],
+      "platformIds": ["EA"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "NE",
+      "schematicId": "newmarket",
+      "name": "Newmarket GO",
+      "lat": 44.060426,
+      "lon": -79.459289,
+      "lines": ["BR"],
+      "platformIds": ["NE"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "AU",
+      "schematicId": "aurora",
+      "name": "Aurora GO",
+      "lat": 44.000758,
+      "lon": -79.459725,
+      "lines": ["BR"],
+      "platformIds": ["AU"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "LI",
+      "schematicId": "old-elm",
+      "name": "Old Elm GO",
+      "lat": 43.990395,
+      "lon": -79.237098,
+      "lines": ["ST"],
+      "platformIds": ["LI"],
+      "departureRouteIds": ["ST"]
+    },
+    {
+      "id": "BM",
+      "schematicId": "bloomington",
+      "name": "Bloomington GO",
+      "lat": 43.975949,
+      "lon": -79.397258,
+      "lines": ["RH"],
+      "platformIds": ["BM"],
+      "departureRouteIds": ["RH"]
+    },
+    {
+      "id": "ST",
+      "schematicId": "stouffville",
+      "name": "Stouffville GO",
+      "lat": 43.970924,
+      "lon": -79.249989,
+      "lines": ["ST"],
+      "platformIds": ["ST"],
+      "departureRouteIds": ["ST"]
+    },
+    {
+      "id": "GO",
+      "schematicId": "gormley",
+      "name": "Gormley GO",
+      "lat": 43.941617,
+      "lon": -79.399033,
+      "lines": ["RH"],
+      "platformIds": ["GO"],
+      "departureRouteIds": ["RH"]
+    },
+    {
+      "id": "KC",
+      "schematicId": "king-city",
+      "name": "King City GO",
+      "lat": 43.920037,
+      "lon": -79.526886,
+      "lines": ["BR"],
+      "platformIds": ["KC"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "MJ",
+      "schematicId": "mount-joy",
+      "name": "Mount Joy GO",
+      "lat": 43.900521,
+      "lon": -79.26313,
+      "lines": ["ST"],
+      "platformIds": ["MJ"],
+      "departureRouteIds": ["ST"]
+    },
+    {
+      "id": "MR",
+      "schematicId": "markham",
+      "name": "Markham GO",
+      "lat": 43.882691,
+      "lon": -79.262469,
+      "lines": ["ST"],
+      "platformIds": ["MR"],
+      "departureRouteIds": ["ST"]
+    },
+    {
+      "id": "RI",
+      "schematicId": "richmond-hill",
+      "name": "Richmond Hill GO",
+      "lat": 43.874307,
+      "lon": -79.426167,
+      "lines": ["RH"],
+      "platformIds": ["RI"],
+      "departureRouteIds": ["RH"]
+    },
+    {
+      "id": "CE",
+      "schematicId": "centennial",
+      "name": "Centennial GO",
+      "lat": 43.873601,
+      "lon": -79.289211,
+      "lines": ["ST"],
+      "platformIds": ["CE"],
+      "departureRouteIds": ["ST"]
+    },
+    {
+      "id": "OS",
+      "schematicId": "durham-college-oshawa",
+      "name": "Durham College Oshawa GO",
+      "lat": 43.870909,
+      "lon": -78.88585,
+      "lines": ["LE"],
+      "platformIds": ["00159", "OS"],
+      "departureRouteIds": ["52", "56", "88", "90", "92", "96", "LE"]
+    },
+    {
+      "id": "WH",
+      "schematicId": "whitby",
+      "name": "Whitby GO",
+      "lat": 43.86484,
+      "lon": -78.93818,
+      "lines": ["LE"],
+      "platformIds": ["WH"],
+      "departureRouteIds": ["LE"]
+    },
+    {
+      "id": "MP",
+      "schematicId": "maple",
+      "name": "Maple GO",
+      "lat": 43.859481,
+      "lon": -79.506984,
+      "lines": ["BR"],
+      "platformIds": ["MP"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "UI",
+      "schematicId": "unionville",
+      "name": "Unionville GO",
+      "lat": 43.851689,
+      "lon": -79.314332,
+      "lines": ["ST"],
+      "platformIds": ["UI"],
+      "departureRouteIds": ["ST"]
+    },
+    {
+      "id": "AJ",
+      "schematicId": "ajax",
+      "name": "Ajax GO",
+      "lat": 43.847766,
+      "lon": -79.041372,
+      "lines": ["LE"],
+      "platformIds": ["AJ"],
+      "departureRouteIds": ["LE"]
+    },
+    {
+      "id": "LA",
+      "schematicId": "langstaff",
+      "name": "Langstaff GO",
+      "lat": 43.838546,
+      "lon": -79.423139,
+      "lines": ["RH"],
+      "platformIds": ["LA"],
+      "departureRouteIds": ["RH"]
+    },
+    {
+      "id": "RU",
+      "schematicId": "rutherford",
+      "name": "Rutherford GO",
+      "lat": 43.838487,
+      "lon": -79.498819,
+      "lines": ["BR"],
+      "platformIds": ["RU"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "PIN",
+      "schematicId": "pickering",
+      "name": "Pickering GO",
+      "lat": 43.831576,
+      "lon": -79.084594,
+      "lines": ["LE"],
+      "platformIds": ["PIN"],
+      "departureRouteIds": ["LE"]
+    },
+    {
+      "id": "MK",
+      "schematicId": "milliken",
+      "name": "Milliken GO",
+      "lat": 43.823227,
+      "lon": -79.301785,
+      "lines": ["ST"],
+      "platformIds": ["MK"],
+      "departureRouteIds": ["ST"]
+    },
+    {
+      "id": "OL",
+      "schematicId": "old-cummer",
+      "name": "Old Cummer GO",
+      "lat": 43.793703,
+      "lon": -79.371403,
+      "lines": ["RH"],
+      "platformIds": ["OL"],
+      "departureRouteIds": ["RH"]
+    },
+    {
+      "id": "AG",
+      "schematicId": "agincourt",
+      "name": "Agincourt GO",
+      "lat": 43.78611,
+      "lon": -79.284385,
+      "lines": ["ST"],
+      "platformIds": ["AG"],
+      "departureRouteIds": ["ST"]
+    },
+    {
+      "id": "RO",
+      "schematicId": "rouge-hill",
+      "name": "Rouge Hill GO",
+      "lat": 43.780375,
+      "lon": -79.130646,
+      "lines": ["LE"],
+      "platformIds": ["RO"],
+      "departureRouteIds": ["LE"]
+    },
+    {
+      "id": "OR",
+      "schematicId": "oriole",
+      "name": "Oriole GO",
+      "lat": 43.765518,
+      "lon": -79.364275,
+      "lines": ["RH"],
+      "platformIds": ["OR"],
+      "departureRouteIds": ["RH"]
+    },
+    {
+      "id": "GU",
+      "schematicId": "guildwood",
+      "name": "Guildwood GO",
+      "lat": 43.755272,
+      "lon": -79.198252,
+      "lines": ["LE"],
+      "platformIds": ["GU"],
+      "departureRouteIds": ["LE"]
+    },
+    {
+      "id": "DW",
+      "schematicId": "downsview-park",
+      "name": "Downsview Park GO",
+      "lat": 43.7536333,
+      "lon": -79.47835,
+      "lines": ["BR"],
+      "platformIds": ["DW"],
+      "departureRouteIds": ["BR"]
+    },
+    {
+      "id": "EG",
+      "schematicId": "eglinton",
+      "name": "Eglinton GO",
+      "lat": 43.739621,
+      "lon": -79.23231,
+      "lines": ["LE"],
+      "platformIds": ["EG"],
+      "departureRouteIds": ["LE"]
+    },
+    {
+      "id": "KE",
+      "schematicId": "kennedy",
+      "name": "Kennedy GO",
+      "lat": 43.733045,
+      "lon": -79.262706,
+      "lines": ["ST"],
+      "platformIds": ["KE"],
+      "departureRouteIds": ["ST"]
+    },
+    {
+      "id": "SC",
+      "schematicId": "scarborough",
+      "name": "Scarborough GO",
+      "lat": 43.716945,
+      "lon": -79.254722,
+      "lines": ["LE"],
+      "platformIds": ["SC"],
+      "departureRouteIds": ["LE"]
+    },
+    {
+      "id": "ET",
+      "schematicId": "etobicoke-north",
+      "name": "Etobicoke North GO",
+      "lat": 43.706172,
+      "lon": -79.563506,
+      "lines": ["KI"],
+      "platformIds": ["ET"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "MA",
+      "schematicId": "malton",
+      "name": "Malton GO",
+      "lat": 43.705153,
+      "lon": -79.63823,
+      "lines": ["KI"],
+      "platformIds": ["MA"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "BE",
+      "schematicId": "bramalea",
+      "name": "Bramalea GO",
+      "lat": 43.7022591,
+      "lon": -79.6887512,
+      "lines": ["KI"],
+      "platformIds": ["BE"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "WE",
+      "schematicId": "weston",
+      "name": "Weston GO",
+      "lat": 43.70029,
+      "lon": -79.51368,
+      "lines": ["KI", "UP"],
+      "platformIds": ["WE"],
+      "departureRouteIds": ["KI", "UP"]
+    },
+    {
+      "id": "MD",
+      "schematicId": "mount-dennis",
+      "name": "Mount Dennis GO",
+      "lat": 43.68749,
+      "lon": -79.48703,
+      "lines": ["KI", "UP"],
+      "platformIds": ["MD"],
+      "departureRouteIds": ["KI", "UP"]
+    },
+    {
+      "id": "BR",
+      "schematicId": "brampton-innovation-district",
+      "name": "Brampton Innovation District GO",
+      "lat": 43.6869087,
+      "lon": -79.7628632,
+      "lines": ["KI"],
+      "platformIds": ["BR"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "DA",
+      "schematicId": "danforth",
+      "name": "Danforth GO",
+      "lat": 43.686462,
+      "lon": -79.300358,
+      "lines": ["LE"],
+      "platformIds": ["DA"],
+      "departureRouteIds": ["LE"]
+    },
+    {
+      "id": "PA",
+      "schematicId": "pearson",
+      "name": "UP Express Pearson Airport",
+      "lat": 43.682683,
+      "lon": -79.612968,
+      "lines": ["UP"],
+      "platformIds": ["PA"],
+      "departureRouteIds": ["35", "40", "94", "UP"]
+    },
+    {
+      "id": "MO",
+      "schematicId": "mount-pleasant",
+      "name": "Mount Pleasant GO",
+      "lat": 43.6749763,
+      "lon": -79.8221817,
+      "lines": ["KI"],
+      "platformIds": ["MO"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "BL",
+      "schematicId": "bloor",
+      "name": "Bloor GO",
+      "lat": 43.656928,
+      "lon": -79.450192,
+      "lines": ["KI", "UP"],
+      "platformIds": ["BL"],
+      "departureRouteIds": ["KI", "UP"]
+    },
+    {
+      "id": "GE",
+      "schematicId": "georgetown",
+      "name": "Georgetown GO",
+      "lat": 43.655373,
+      "lon": -79.919054,
+      "lines": ["KI"],
+      "platformIds": ["GE"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "UN",
+      "schematicId": "union",
+      "name": "Union Station GO",
+      "lat": 43.645195,
+      "lon": -79.3806,
+      "lines": ["BR", "KI", "LE", "LW", "MI", "RH", "ST", "UP"],
+      "platformIds": ["UN"],
+      "departureRouteIds": ["BR", "KI", "LE", "LW", "MI", "RH", "ST", "UP"]
+    },
+    {
+      "id": "KP",
+      "schematicId": "kipling",
+      "name": "Kipling GO",
+      "lat": 43.636955,
+      "lon": -79.536287,
+      "lines": ["MI"],
+      "platformIds": ["KP"],
+      "departureRouteIds": ["MI"]
+    },
+    {
+      "id": "EX",
+      "schematicId": "exhibition",
+      "name": "Exhibition GO",
+      "lat": 43.635549,
+      "lon": -79.418927,
+      "lines": ["LW"],
+      "platformIds": ["EX"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "AC",
+      "schematicId": "acton",
+      "name": "Acton GO",
+      "lat": 43.6338043,
+      "lon": -80.034111,
+      "lines": ["KI"],
+      "platformIds": ["AC"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "MI",
+      "schematicId": "mimico",
+      "name": "Mimico GO",
+      "lat": 43.616411,
+      "lon": -79.497762,
+      "lines": ["LW"],
+      "platformIds": ["MI"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "DI",
+      "schematicId": "dixie",
+      "name": "Dixie GO",
+      "lat": 43.608022,
+      "lon": -79.577762,
+      "lines": ["MI"],
+      "platformIds": ["DI"],
+      "departureRouteIds": ["MI"]
+    },
+    {
+      "id": "ME",
+      "schematicId": "meadowvale",
+      "name": "Meadowvale GO",
+      "lat": 43.597566,
+      "lon": -79.754328,
+      "lines": ["MI"],
+      "platformIds": ["ME"],
+      "departureRouteIds": ["MI"]
+    },
+    {
+      "id": "LO",
+      "schematicId": "long-branch",
+      "name": "Long Branch GO",
+      "lat": 43.591317,
+      "lon": -79.546149,
+      "lines": ["LW"],
+      "platformIds": ["LO"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "LS",
+      "schematicId": "lisgar",
+      "name": "Lisgar GO",
+      "lat": 43.590791,
+      "lon": -79.788539,
+      "lines": ["MI"],
+      "platformIds": ["LS"],
+      "departureRouteIds": ["MI"]
+    },
+    {
+      "id": "CO",
+      "schematicId": "cooksville",
+      "name": "Cooksville GO",
+      "lat": 43.582973,
+      "lon": -79.623695,
+      "lines": ["MI"],
+      "platformIds": ["CO"],
+      "departureRouteIds": ["MI"]
+    },
+    {
+      "id": "SR",
+      "schematicId": "streetsville",
+      "name": "Streetsville GO",
+      "lat": 43.575584,
+      "lon": -79.70882,
+      "lines": ["MI"],
+      "platformIds": ["SR"],
+      "departureRouteIds": ["MI"]
+    },
+    {
+      "id": "ER",
+      "schematicId": "erindale",
+      "name": "Erindale GO",
+      "lat": 43.567235,
+      "lon": -79.668506,
+      "lines": ["MI"],
+      "platformIds": ["ER"],
+      "departureRouteIds": ["MI"]
+    },
+    {
+      "id": "PO",
+      "schematicId": "port-credit",
+      "name": "Port Credit GO",
+      "lat": 43.555999,
+      "lon": -79.586881,
+      "lines": ["LW"],
+      "platformIds": ["PO"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "GL",
+      "schematicId": "guelph-central",
+      "name": "Guelph Central GO",
+      "lat": 43.544353,
+      "lon": -80.246917,
+      "lines": ["KI"],
+      "platformIds": ["GL"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "ML",
+      "schematicId": "milton",
+      "name": "Milton GO",
+      "lat": 43.52364,
+      "lon": -79.867172,
+      "lines": ["MI"],
+      "platformIds": ["ML"],
+      "departureRouteIds": ["MI"]
+    },
+    {
+      "id": "CL",
+      "schematicId": "clarkson",
+      "name": "Clarkson GO",
+      "lat": 43.513127,
+      "lon": -79.633206,
+      "lines": ["LW"],
+      "platformIds": ["CL"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "KI",
+      "schematicId": "kitchener",
+      "name": "Kitchener GO",
+      "lat": 43.455686,
+      "lon": -80.49313,
+      "lines": ["KI"],
+      "platformIds": ["KI"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "OA",
+      "schematicId": "oakville",
+      "name": "Oakville GO",
+      "lat": 43.455594,
+      "lon": -79.682242,
+      "lines": ["LW"],
+      "platformIds": ["OA"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "BO",
+      "schematicId": "bronte",
+      "name": "Bronte GO",
+      "lat": 43.416774,
+      "lon": -79.722294,
+      "lines": ["LW"],
+      "platformIds": ["BO"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "AP",
+      "schematicId": "appleby",
+      "name": "Appleby GO",
+      "lat": 43.379429,
+      "lon": -79.760991,
+      "lines": ["LW"],
+      "platformIds": ["AP"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "SF",
+      "schematicId": "stratford",
+      "name": "Stratford GO",
+      "lat": 43.3643734351,
+      "lon": -80.9757413887,
+      "lines": ["KI"],
+      "platformIds": ["SF"],
+      "departureRouteIds": ["KI"]
+    },
+    {
+      "id": "BU",
+      "schematicId": "burlington",
+      "name": "Burlington GO",
+      "lat": 43.341265,
+      "lon": -79.809141,
+      "lines": ["LW"],
+      "platformIds": ["BU"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "AL",
+      "schematicId": "aldershot",
+      "name": "Aldershot GO",
+      "lat": 43.313385,
+      "lon": -79.855659,
+      "lines": ["LW"],
+      "platformIds": ["AL"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "WR",
+      "schematicId": "west-harbour",
+      "name": "West Harbour GO",
+      "lat": 43.266775,
+      "lon": -79.866222,
+      "lines": ["LW"],
+      "platformIds": ["WR"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "HA",
+      "schematicId": "hamilton",
+      "name": "Hamilton GO Centre",
+      "lat": 43.253284,
+      "lon": -79.869192,
+      "lines": ["LW"],
+      "platformIds": ["HA"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "CF",
+      "schematicId": "confederation",
+      "name": "Confederation GO",
+      "lat": 43.241874,
+      "lon": -79.760331,
+      "lines": ["LW"],
+      "platformIds": ["CF"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "SCTH",
+      "schematicId": "st-catharines",
+      "name": "St. Catharines GO",
+      "lat": 43.1476135,
+      "lon": -79.2549057,
+      "lines": ["LW"],
+      "platformIds": ["SCTH"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "NI",
+      "schematicId": "niagara-falls",
+      "name": "Niagara Falls GO",
+      "lat": 43.108882,
+      "lon": -79.063319,
+      "lines": ["LW"],
+      "platformIds": ["NI"],
+      "departureRouteIds": ["LW"]
+    },
+    {
+      "id": "00159",
+      "schematicId": "durham-college-oshawa",
+      "name": "Durham College Oshawa",
+      "lat": 43.870909,
+      "lon": -78.88585,
+      "lines": ["LE"],
+      "platformIds": []
+    }
+  ]
+}

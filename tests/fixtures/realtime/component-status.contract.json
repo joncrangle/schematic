@@ -1,0 +1,156 @@
+[
+  {
+    "name": "equipment notice and duplicate responsive copy",
+    "html": "<div id=\"lift-service-status-content\"><ul><li><p>Station Central</p><p>Central elevator is out of service.</p><p>Station Central</p><p>Central elevator is out of service.</p></li></ul></div>",
+    "expected": [
+      {
+        "title": "Station Central",
+        "description": "Central elevator is out of service.",
+        "routes": [],
+        "stops": [
+          "central"
+        ],
+        "effect": "ACCESSIBILITY_ISSUE"
+      }
+    ],
+    "routes": {
+      "A": [
+        "Line A"
+      ]
+    },
+    "stops": {
+      "central": [
+        "Central"
+      ]
+    }
+  },
+  {
+    "name": "explicit normal board",
+    "html": "<ul id=\"rail-service-status-content\"><li><p>Normal métro service</p></li></ul>",
+    "expected": [],
+    "routes": {
+      "A": [
+        "Line A"
+      ]
+    },
+    "stops": {
+      "central": [
+        "Central"
+      ]
+    }
+  },
+  {
+    "name": "unknown empty board fails",
+    "html": "<ul id=\"rail-service-status-content\"></ul>",
+    "invalid": true,
+    "routes": {
+      "A": [
+        "Line A"
+      ]
+    },
+    "stops": {
+      "central": [
+        "Central"
+      ]
+    }
+  },
+  {
+    "name": "unmapped notice fails",
+    "html": "<ul id=\"rail-service-status-content\"><li><p>Unknown service interruption</p></li></ul>",
+    "invalid": true,
+    "routes": {
+      "A": [
+        "Line A"
+      ]
+    },
+    "stops": {
+      "central": [
+        "Central"
+      ]
+    }
+  },
+  {
+    "name": "route interruption",
+    "html": "<ul id=\"rail-service-status-content\"><li><img alt=\"Line A\"><p>Service interrupted</p><p>Replacement buses operate.</p></li></ul>",
+    "expected": [
+      {
+        "title": "Service interrupted",
+        "description": "Replacement buses operate.",
+        "routes": [
+          "A"
+        ],
+        "stops": []
+      }
+    ],
+    "routes": {
+      "A": [
+        "Line A"
+      ]
+    },
+    "stops": {
+      "central": [
+        "Central"
+      ]
+    }
+  },
+  {
+    "name": "explicit normal elevator block without a list",
+    "html": "<div id=\"lift-service-status-content\"><div><img aria-hidden=\"true\"><p>Normal elevator service</p></div></div>",
+    "expected": [],
+    "routes": {
+      "A": [
+        "Line A"
+      ]
+    },
+    "stops": {
+      "central": [
+        "Central"
+      ]
+    }
+  },
+  {
+    "name": "explicit French normal elevator block without a list",
+    "html": "<div id=\"lift-service-status-content\"><div><img aria-hidden=\"true\"><p>Service normal des ascenseurs</p></div></div>",
+    "expected": [],
+    "routes": {
+      "A": [
+        "Line A"
+      ]
+    },
+    "stops": {
+      "central": [
+        "Central"
+      ]
+    }
+  },
+  {
+    "name": "normal marker with an unparsed disruption is not all clear",
+    "html": "<div id=\"lift-service-status-content\"><div><img aria-hidden=\"true\"><p>Normal elevator service</p><p>Central elevator is out of service.</p></div></div>",
+    "routes": {
+      "A": [
+        "Line A"
+      ]
+    },
+    "stops": {
+      "central": [
+        "Central"
+      ]
+    },
+    "invalid": true
+  },
+  {
+    "name": "repeated punctuation is not an exact normal marker",
+    "html": "<div id=\"lift-service-status-content\"><p>Normal elevator service...</p></div>",
+    "routes": {
+      "A": [
+        "Line A"
+      ]
+    },
+    "stops": {
+      "central": [
+        "Central"
+      ]
+    },
+    "invalid": true
+  }
+]

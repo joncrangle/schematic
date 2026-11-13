@@ -1,0 +1,67 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "schematic",
+  "compatibility_date": "2025-09-02",
+  "compatibility_flags": ["nodejs_compat"],
+  // The workers.dev hostname skips zone WAF and rate-limit rules. Set false once
+  // a custom domain under "routes" serves the app.
+  "workers_dev": true,
+  "preview_urls": false,
+  "main": "src/server.ts",
+  // Fails a runaway invocation fast instead of billing up to the 30s default.
+  // The heaviest legitimate invocation (the alert cron) stays under 2s.
+  "limits": {
+    "cpu_ms": 5000,
+  },
+  // Per-client-network request limit enforced in middleware; the Worker refuses
+  // to serve without it. namespace_id is any integer unique within the account.
+  "ratelimits": [
+    {
+      "name": "REQUEST_RATE_LIMITER",
+      "namespace_id": "1001",
+      "simple": { "limit": 600, "period": 60 },
+    },
+  ],
+  "assets": { "binding": "ASSETS" },
+  // Worker-wide edge cache for the three public read paths. Scoping lives
+  // purely in response Cache-Control headers in code. No entrypoint map,
+  // no environments. One production worker.
+  "cache": {
+    "enabled": true,
+  },
+  // D1 database_ids below are deliberate PLACEHOLDERS (not real resources).
+  // Each deployer creates their own databases (`bunx wrangler d1 create ...`)
+  // and pastes the returned IDs here — see docs/deployment/deployment-guide.html §2.2.
+  // Never commit real IDs: they identify one account's databases and would
+  // break (or misbind) anyone else's deploy. Local `vite dev` needs none of
+  // this (Miniflare provisions bindings automatically).
+  "d1_databases": [
+    {
+      "binding": "DB_NOTIFICATIONS",
+      "database_name": "push-notifications-db",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+    },
+    {
+      "binding": "DB_TRANSIT",
+      "database_name": "transit-status-db",
+      "database_id": "11111111-1111-1111-1111-111111111111",
+    },
+  ],
+  "vars": {
+    "NODE_ENV": "production",
+    "LOG_LEVEL": "info",
+  },
+  // Workers cron handles alerts only; remote topology refresh runs on Forgejo.
+  "triggers": {
+    "crons": ["* * * * *", "*/15 * * * *"],
+  },
+  // Keep every console log for incident diagnosis; drop the automatic
+  // per-request invocation log, the only log volume that scales with traffic.
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": {
+      "invocation_logs": false,
+    },
+  },
+}

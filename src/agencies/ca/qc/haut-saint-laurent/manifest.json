@@ -1,0 +1,98 @@
+{
+  "id": "haut-saint-laurent",
+  "name": "MRC du Haut-Saint-Laurent",
+  "serviceArea": "Haut-Saint-Laurent, Québec",
+  "locale": "fr-CA",
+  "timezone": "America/Toronto",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "status": "experimental",
+  "bounds": [
+    {
+      "minLat": 44.996,
+      "maxLat": 45.182,
+      "minLon": -74.395,
+      "maxLon": -73.88
+    },
+    {
+      "minLat": 45.179,
+      "maxLat": 45.194,
+      "minLon": -73.89,
+      "maxLon": -73.84
+    },
+    {
+      "minLat": 45.188,
+      "maxLat": 45.256,
+      "minLon": -73.845,
+      "maxLon": -73.795
+    },
+    {
+      "minLat": 45.179,
+      "maxLat": 45.256,
+      "minLon": -74.2,
+      "maxLon": -74.11
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "MRC du Haut-Saint-Laurent / Hubup",
+    "url": "https://mrchsl.com/services/transport",
+    "license": "Aucune condition de réutilisation explicite trouvée pour les données de transport publiées."
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "url": "https://gtfs-rt.infra-hubup.fr/mrchsl/current/revision/gtfs"
+      }
+    ],
+    "defaultColor": "#F0B400",
+    "defaultTextColor": "#000000"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "hubup",
+        "format": "json",
+        "url": "https://mrchsl.api.hubup.cloud",
+        "tailsUrl": "https://sys-log.infra-hubup.fr/tails/by/companies/v2",
+        "companyTag": "mrchsl",
+        "timeZone": "America/Toronto",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["Hu-Mer", "Orm-Hu", "StA-Fr"],
+  "cityPresets": [
+    {
+      "name": "Ormstown, Super C",
+      "lat": 45.116755664785,
+      "lon": -73.984609089868
+    },
+    {
+      "name": "Salaberry-de-Valleyfield, Cégep",
+      "lat": 45.253320597968,
+      "lon": -74.132043946957
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["Hu-Mer", "Orm-Hu", "StA-Fr"]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "hubup-service-alerts",
+      "url": "https://mrchsl.api.hubup.cloud/exposed/current/service/alert/v2",
+      "language": "fr",
+      "timestampMode": "agency-local-wall-clock",
+      "pollIntervalSeconds": 300
+    }
+  ],
+  "shortName": "HSL"
+}

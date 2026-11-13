@@ -1,0 +1,155 @@
+{
+  "id": "peterborough-transit",
+  "name": "Peterborough Transit",
+  "serviceArea": "Peterborough",
+  "shortName": "Peterborough",
+  "locale": "en-CA",
+  "timezone": "America/New_York",
+  "bounds": [
+    {
+      "minLat": 44.258,
+      "maxLat": 44.365,
+      "minLon": -78.385,
+      "maxLon": -78.265
+    },
+    {
+      "minLat": 44.365,
+      "maxLat": 44.428,
+      "minLon": -78.385,
+      "maxLon": -78.265
+    },
+    {
+      "minLat": 44.428,
+      "maxLat": 44.52,
+      "minLon": -78.374,
+      "maxLon": -78.294
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "attribution": {
+    "name": "City of Peterborough / Peterborough Transit / Strategic Mapping Inc.",
+    "url": "https://www.peterborough.ca/living-in-peterborough/transit/",
+    "license": "No explicit terms were found for the Peterborough Transit vendor-hosted GTFS or realtime data.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Peterborough Terminal",
+      "lat": 44.304795,
+      "lon": -78.321716
+    },
+    {
+      "name": "Trent U - Bata Library",
+      "lat": 44.357593,
+      "lon": -78.290721
+    },
+    {
+      "name": "Fleming College",
+      "lat": 44.266878,
+      "lon": -78.375241
+    },
+    {
+      "name": "Trent U - Gzowski College",
+      "lat": 44.357379,
+      "lon": -78.287002
+    }
+  ],
+  "popularSurfaceRoutes": ["1423", "1424", "1425", "1427", "1428", "1429", "1430", "1426"],
+  "staticTopology": {
+    "source": "seed",
+    "excludedRouteIds": ["1454", "1455"],
+    "feeds": [
+      {
+        "name": "Peterborough Transit GTFS",
+        "url": "https://pt.mapstrat.com/current/google_transit.zip",
+        "cacheFileName": "peterborough-transit.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://pt.mapstrat.com/current/gtfrealtime_VehiclePositions.bin",
+        "format": "protobuf",
+        "accept": "application/octet-stream",
+        "pollIntervalSeconds": 15,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://pt.mapstrat.com/current/gtfrealtime_TripUpdates.bin",
+        "format": "protobuf",
+        "accept": "application/octet-stream",
+        "pollIntervalSeconds": 15,
+        "tripDirectionSource": "static"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "mapstrat-broadcast",
+      "url": "https://pt.mytransitride.com/api/Broadcast",
+      "language": "en"
+    }
+  ],
+  "routeShortNames": {
+    "1423": "2",
+    "1424": "3",
+    "1425": "4",
+    "1426": "5",
+    "1427": "6",
+    "1428": "7",
+    "1429": "8",
+    "1430": "9",
+    "1447": "11",
+    "2630": "14",
+    "1433": "22",
+    "1434": "23",
+    "1435": "31",
+    "2566": "33"
+  },
+  "alertInterpretation": {
+    "lineIds": ["1423", "1424", "1425", "1427", "1428", "1429", "1430", "1426"],
+    "routeIdNormalization": {
+      "aliases": {
+        "2": "1423",
+        "3": "1424",
+        "4": "1425",
+        "5": "1426",
+        "6": "1427",
+        "7": "1428",
+        "8": "1429",
+        "9": "1430",
+        "11": "1447",
+        "14": "2630",
+        "22": "1433",
+        "23": "1434",
+        "31": "1435",
+        "33": "2566"
+      }
+    },
+    "rules": [
+      {
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  }
+}

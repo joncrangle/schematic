@@ -1,0 +1,121 @@
+{
+  "id": "thunder-bay",
+  "name": "Thunder Bay Transit",
+  "serviceArea": "Thunder Bay",
+  "shortName": "TBT",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 48.335,
+      "maxLat": 48.49,
+      "minLon": -89.4,
+      "maxLon": -89.17
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Thunder Bay Transit / City of Thunder Bay",
+    "url": "https://www.thunderbay.ca/city-hall/thunder-bay-open-data/",
+    "license": "Contains information licensed under the Open Data Licence – The Corporation of the City of Thunder Bay. The City's transit page offers its feeds for developers at no charge for for-profit and non-profit applications.",
+    "licenseIsStatement": true
+  },
+  "brandColor": "#0B4A6F",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Waterfront Terminal",
+      "lat": 48.43568,
+      "lon": -89.21703
+    },
+    {
+      "name": "City Hall Terminal",
+      "lat": 48.38247,
+      "lon": -89.24602
+    },
+    {
+      "name": "Intercity Shopping Centre",
+      "lat": 48.40349,
+      "lon": -89.2433
+    },
+    {
+      "name": "Lakehead University",
+      "lat": 48.42144,
+      "lon": -89.26211
+    },
+    {
+      "name": "Confederation College",
+      "lat": 48.40297,
+      "lon": -89.26967
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3M", "8", "9", "10", "15", "17", "11", "12", "13", "16"],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3m", "8", "9", "10", "15", "17"],
+    "routeLineMap": { "3M": "3m" },
+    "rules": [
+      {
+        "priority": 300,
+        "match": {
+          "textIncludes": ["limited service stop"]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "normal"
+        }
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "defaultColor": "#EF4135",
+    "defaultTextColor": "#FFFFFF",
+    "feeds": [
+      {
+        "name": "Thunder Bay Transit GTFS",
+        "url": "http://api.nextlift.ca/gtfs.zip",
+        "cacheFileName": "thunder-bay-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "http://api.nextlift.ca/gtfs-realtime/vehicleupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "http://api.nextlift.ca/gtfs-realtime/tripupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionSource": "static",
+        "cancelledTripsFrom": "http://api.nextlift.ca/gtfs-realtime/alerts.pb"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "http://api.nextlift.ca/gtfs-realtime/alerts.pb",
+      "format": "protobuf",
+      "emptyIsStale": true
+    },
+    {
+      "type": "web",
+      "url": "https://www.thunderbay.ca/city-services/transit/service-alerts/",
+      "parser": "ghd-news-service-advisories"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "viewBoxWidth": 1500,
+  "viewBoxHeight": 1750,
+  "lines": [
+    {
+      "id": "1-100M",
+      "name": "100 Mile House",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 700,
+          "y": 1300
+        },
+        {
+          "x": 700,
+          "y": 1550
+        },
+        {
+          "x": 650,
+          "y": 1600
+        },
+        {
+          "x": 450,
+          "y": 1600
+        },
+        {
+          "x": 400,
+          "y": 1550
+        },
+        {
+          "x": 400,
+          "y": 1300
+        },
+        {
+          "x": 500,
+          "y": 1200
+        },
+        {
+          "x": 900,
+          "y": 1200
+        },
+        {
+          "x": 900,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 1200,
+          "y": 800
+        },
+        {
+          "x": 1200,
+          "y": 650
+        },
+        {
+          "x": 850,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 800
+        },
+        {
+          "x": 700,
+          "y": 1300
+        }
+      ]
+    },
+    {
+      "id": "2-100M",
+      "name": "108 Ranch",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 700,
+          "y": 1300
+        },
+        {
+          "x": 700,
+          "y": 1100
+        },
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 300
+        },
+        {
+          "x": 500,
+          "y": 200
+        },
+        {
+          "x": 300,
+          "y": 200
+        },
+        {
+          "x": 300,
+          "y": 300
+        },
+        {
+          "x": 400,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 400
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "cariboo-mall",
+      "name": "Cariboo Mall",
+      "x": 700,
+      "y": 1300,
+      "lines": ["1-100M", "2-100M"],
+      "label": {
+        "x": 728,
+        "y": 1300,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "jens-alder",
+      "name": "Jens St at Alder Ave",
+      "x": 550,
+      "y": 1600,
+      "lines": ["1-100M"],
+      "label": {
+        "x": 550,
+        "y": 1632,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "100 Mile District General Hospital",
+      "x": 900,
+      "y": 1200,
+      "lines": ["1-100M"],
+      "label": {
+        "x": 928,
+        "y": 1200,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "evergreen",
+      "name": "Evergreen Cres at Dogwood Cres S",
+      "x": 1100,
+      "y": 800,
+      "lines": ["1-100M"],
+      "label": {
+        "x": 1100,
+        "y": 832,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "first-cedar",
+      "name": "1st St at Cedar Ave S",
+      "x": 1000,
+      "y": 650,
+      "lines": ["1-100M"],
+      "label": {
+        "x": 1000,
+        "y": 618,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "birch-2nd",
+      "name": "Birch Ave S at 2nd St",
+      "x": 700,
+      "y": 1100,
+      "lines": ["1-100M", "2-100M"],
+      "label": {
+        "x": 672,
+        "y": 1100,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "park-dawson",
+      "name": "Park Dr at Dawson Rd - 103 Mile",
+      "x": 600,
+      "y": 700,
+      "lines": ["2-100M"],
+      "label": {
+        "x": 572,
+        "y": 700,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "easzee",
+      "name": "Easzee Dr at Hwy 97",
+      "x": 600,
+      "y": 400,
+      "lines": ["2-100M"],
+      "label": {
+        "x": 628,
+        "y": 400,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kitwanga",
+      "name": "Kitwanga Dr at Kallum Dr",
+      "x": 400,
+      "y": 200,
+      "lines": ["2-100M"],
+      "label": {
+        "x": 400,
+        "y": 168,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "1-100M": ["cariboo-mall", "jens-alder", "hospital", "evergreen", "first-cedar", "birch-2nd"],
+    "2-100M": ["cariboo-mall", "birch-2nd", "park-dawson", "easzee", "kitwanga"]
+  },
+  "stationAliases": {},
+  "badges": [
+    {
+      "line": "1-100M",
+      "num": "1",
+      "x": 368,
+      "y": 1430,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-100M",
+      "num": "2",
+      "x": 632,
+      "y": 850,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1460,
+      "minY": 40,
+      "maxY": 1710
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -121.379,
+    "refLonEast": -121.2904,
+    "refXWest": 400,
+    "refXEast": 1100,
+    "refLatNorth": 51.7427,
+    "refLatSouth": 51.6314,
+    "refYNorth": 200,
+    "refYSouth": 1600
+  },
+  "stationIndex": [
+    {
+      "id": "187006",
+      "schematicId": "hospital",
+      "name": "100 Mile District General Hospital",
+      "lat": 51.63794,
+      "lon": -121.29199,
+      "lines": ["1-100M"],
+      "platformIds": ["187006"],
+      "departureRouteIds": ["1-100M"]
+    },
+    {
+      "id": "187016",
+      "schematicId": "first-cedar",
+      "name": "1st St at Cedar Ave S",
+      "lat": 51.64623,
+      "lon": -121.29359,
+      "lines": ["1-100M"],
+      "platformIds": ["187016"],
+      "departureRouteIds": ["1-100M"]
+    },
+    {
+      "id": "187017",
+      "schematicId": "birch-2nd",
+      "name": "Birch Ave S at 2nd St",
+      "lat": 51.64561,
+      "lon": -121.29508,
+      "lines": ["1-100M", "2-100M"],
+      "platformIds": ["187017"],
+      "departureRouteIds": ["1-100M", "2-100M"]
+    },
+    {
+      "id": "187000",
+      "schematicId": "cariboo-mall",
+      "name": "Cariboo Mall",
+      "lat": 51.63899,
+      "lon": -121.29726,
+      "lines": ["1-100M", "2-100M"],
+      "platformIds": ["187000"],
+      "departureRouteIds": ["1-100M", "2-100M"]
+    },
+    {
+      "id": "easzee",
+      "schematicId": "easzee",
+      "name": "Easzee Dr at Hwy 97",
+      "lat": 51.7277,
+      "lon": -121.32878,
+      "lines": ["2-100M"],
+      "platformIds": ["187020", "187021"],
+      "departureRouteIds": ["2-100M"]
+    },
+    {
+      "id": "187009",
+      "schematicId": "evergreen",
+      "name": "Evergreen Cres at Dogwood Cres S",
+      "lat": 51.64615,
+      "lon": -121.29044,
+      "lines": ["1-100M"],
+      "platformIds": ["187009"],
+      "departureRouteIds": ["1-100M"]
+    },
+    {
+      "id": "187003",
+      "schematicId": "jens-alder",
+      "name": "Jens St at Alder Ave",
+      "lat": 51.63143,
+      "lon": -121.29944,
+      "lines": ["1-100M"],
+      "platformIds": ["187003"],
+      "departureRouteIds": ["1-100M"]
+    },
+    {
+      "id": "187022",
+      "schematicId": "kitwanga",
+      "name": "Kitwanga Dr at Kallum Dr",
+      "lat": 51.7427,
+      "lon": -121.379,
+      "lines": ["2-100M"],
+      "platformIds": ["187022"],
+      "departureRouteIds": ["2-100M"]
+    },
+    {
+      "id": "park-dawson",
+      "schematicId": "park-dawson",
+      "name": "Park Dr at Dawson Rd - 103 Mile",
+      "lat": 51.69079,
+      "lon": -121.30805,
+      "lines": ["2-100M"],
+      "platformIds": ["187023", "187024"],
+      "departureRouteIds": ["2-100M"]
+    }
+  ]
+}

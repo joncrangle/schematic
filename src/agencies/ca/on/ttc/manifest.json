@@ -1,0 +1,195 @@
+{
+  "id": "ttc",
+  "name": "TTC",
+  "serviceArea": "Toronto",
+  "shortName": "TTC",
+  "brandColor": "#DA251D",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    { "minLat": 43.58, "maxLat": 43.806, "minLon": -79.54, "maxLon": -79.34 },
+    { "minLat": 43.58, "maxLat": 43.785, "minLon": -79.64, "maxLon": -79.54 },
+    { "minLat": 43.75, "maxLat": 43.796, "minLon": -79.54, "maxLon": -79.5 },
+    { "minLat": 43.58, "maxLat": 43.855, "minLon": -79.34, "maxLon": -79.11 }
+  ],
+  "modes": ["subway", "streetcar", "bus"],
+  "proximity": {
+    "radiusMeters": 1500,
+    "bucketMeters": 75
+  },
+  "stationService": {
+    "routeType": "subway"
+  },
+  "attribution": {
+    "name": "City of Toronto Open Data",
+    "url": "https://open.toronto.ca/dataset/ttc-routes-and-schedules/",
+    "license": "OGL-Toronto"
+  },
+  "status": "active",
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "4", "5", "6"],
+    "stripLinePrefixFromTitle": true,
+    "rules": [
+      {
+        "priority": 200,
+        "match": {
+          "effects": ["REDUCED_SERVICE"],
+          "titleIncludes": ["there will be no subway service"]
+        },
+        "result": {
+          "kind": "upcoming",
+          "severity": "normal"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "effectDescription",
+          "sourceValue": "Reduced Speed Zone"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "routeIdNormalization": {
+      "stripPrefix": "line",
+      "extractPattern": "\\b([12456])\\b"
+    }
+  },
+  "cityPresets": [
+    {
+      "name": "Union Station",
+      "lat": 43.6455,
+      "lon": -79.3806
+    },
+    {
+      "name": "Yonge-Dundas Square",
+      "lat": 43.6561,
+      "lon": -79.3809
+    },
+    {
+      "name": "Yonge & Eglinton",
+      "lat": 43.7051,
+      "lon": -79.3979
+    },
+    {
+      "name": "Kensington Market",
+      "lat": 43.6532,
+      "lon": -79.4033
+    },
+    {
+      "name": "High Park",
+      "lat": 43.6465,
+      "lon": -79.4637
+    },
+    {
+      "name": "North York Centre",
+      "lat": 43.768547,
+      "lon": -79.412592
+    },
+    {
+      "name": "Scarborough Centre",
+      "lat": 43.774369,
+      "lon": -79.25849
+    },
+    {
+      "name": "Pearson Airport T1",
+      "lat": 43.681739,
+      "lon": -79.611041
+    }
+  ],
+  "directionLiterals": {
+    "north": "Northbound",
+    "south": "Southbound",
+    "east": "Eastbound",
+    "west": "Westbound"
+  },
+  "popularSurfaceRoutes": ["504", "501", "506", "510", "91", "97"],
+  "routeInterpretation": {
+    "routeTypeRules": [
+      { "routeType": "streetcar", "minId": 500, "maxId": 514 },
+      { "routeType": "express", "minId": 900, "maxId": 999 }
+    ],
+    "directionInference": {
+      "routeOverrides": {
+        "510": "north-south",
+        "511": "north-south"
+      },
+      "invertNorthSouth": true
+    }
+  },
+  "staticTopology": {
+    "feeds": [
+      {
+        "name": "TTC",
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/b811ead4-6eaf-4adb-8408-d389fb5a069c/resource/c920e221-7a1c-488b-8c5b-6d8cd4e85eaf/download/completegtfs.zip",
+        "cacheFileName": "completegtfs.zip"
+      }
+    ],
+    "defaultColor": "#DA251D",
+    "defaultTextColor": "#FFFFFF",
+    "source": "nextbus",
+    "agencySlug": "ttc"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://gtfsrt.ttc.ca/vehicles/position?format=binary",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://gtfsrt.ttc.ca/trips/update?format=binary",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "nextbus",
+        "url": "https://retro.umoiq.com/service/publicJSONFeed?a=ttc",
+        "format": "json",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "station_trip_updates",
+        "url": "https://gtfsrt.ttc.ca/trips/subway?format=binary",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "station_departures",
+        "url": "https://ntas.ttc.ca/api/ntas/get-next-train-time/{stopId}",
+        "format": "json",
+        "lineIds": ["5", "6"],
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://gtfsrt.ttc.ca/alerts/subway?format=binary",
+      "devProxyPrefix": "/__dev/upstream/ttc-gtfsrt"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://gtfsrt.ttc.ca/alerts/streetcar?format=binary",
+      "devProxyPrefix": "/__dev/upstream/ttc-gtfsrt"
+    },
+    {
+      "type": "json",
+      "url": "https://alerts.ttc.ca/api/alerts/live-alerts",
+      "devProxyPrefix": "/__dev/upstream/ttc-alerts",
+      "parser": "generic-alert-feed",
+      "timestampMode": "agency-local-wall-clock"
+    }
+  ],
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  }
+}

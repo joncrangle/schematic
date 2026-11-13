@@ -1,0 +1,841 @@
+{
+  "viewBoxWidth": 1560,
+  "viewBoxHeight": 1240,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 High Point",
+      "color": "#F5821F",
+      "points": [
+        {
+          "x": 620,
+          "y": 470
+        },
+        {
+          "x": 560,
+          "y": 470
+        },
+        {
+          "x": 560,
+          "y": 280
+        },
+        {
+          "x": 320,
+          "y": 280
+        },
+        {
+          "x": 320,
+          "y": 180
+        },
+        {
+          "x": 170,
+          "y": 180
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Trudeau",
+      "color": "#684287",
+      "points": [
+        {
+          "x": 150,
+          "y": 900
+        },
+        {
+          "x": 1130,
+          "y": 900
+        },
+        {
+          "x": 1130,
+          "y": 500
+        },
+        {
+          "x": 960,
+          "y": 500
+        },
+        {
+          "x": 960,
+          "y": 640
+        },
+        {
+          "x": 780,
+          "y": 640
+        },
+        {
+          "x": 780,
+          "y": 470
+        },
+        {
+          "x": 620,
+          "y": 470
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "6 Scott",
+      "color": "#65A7BD",
+      "points": [
+        {
+          "x": 620,
+          "y": 470
+        },
+        {
+          "x": 240,
+          "y": 470
+        },
+        {
+          "x": 240,
+          "y": 780
+        },
+        {
+          "x": 560,
+          "y": 780
+        },
+        {
+          "x": 560,
+          "y": 530
+        },
+        {
+          "x": 620,
+          "y": 470
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "7 Harrison",
+      "color": "#8DC63F",
+      "points": [
+        {
+          "x": 620,
+          "y": 470
+        },
+        {
+          "x": 500,
+          "y": 470
+        },
+        {
+          "x": 500,
+          "y": 540
+        },
+        {
+          "x": 280,
+          "y": 540
+        },
+        {
+          "x": 280,
+          "y": 700
+        },
+        {
+          "x": 380,
+          "y": 700
+        },
+        {
+          "x": 380,
+          "y": 640
+        },
+        {
+          "x": 470,
+          "y": 640
+        },
+        {
+          "x": 470,
+          "y": 470
+        },
+        {
+          "x": 620,
+          "y": 470
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "9 Ontario South",
+      "color": "#A6664C",
+      "points": [
+        {
+          "x": 620,
+          "y": 470
+        },
+        {
+          "x": 740,
+          "y": 470
+        },
+        {
+          "x": 740,
+          "y": 700
+        },
+        {
+          "x": 1080,
+          "y": 700
+        },
+        {
+          "x": 1080,
+          "y": 1020
+        },
+        {
+          "x": 1200,
+          "y": 1020
+        },
+        {
+          "x": 1200,
+          "y": 1110
+        },
+        {
+          "x": 1080,
+          "y": 1110
+        },
+        {
+          "x": 1080,
+          "y": 1170
+        },
+        {
+          "x": 1020,
+          "y": 1170
+        },
+        {
+          "x": 1020,
+          "y": 1040
+        },
+        {
+          "x": 900,
+          "y": 1040
+        },
+        {
+          "x": 900,
+          "y": 950
+        },
+        {
+          "x": 1020,
+          "y": 950
+        },
+        {
+          "x": 1020,
+          "y": 760
+        },
+        {
+          "x": 700,
+          "y": 760
+        },
+        {
+          "x": 700,
+          "y": 470
+        },
+        {
+          "x": 620,
+          "y": 470
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "21 Steeles",
+      "color": "#3DC7F4",
+      "points": [
+        {
+          "x": 620,
+          "y": 470
+        },
+        {
+          "x": 800,
+          "y": 470
+        },
+        {
+          "x": 840,
+          "y": 430
+        },
+        {
+          "x": 840,
+          "y": 100
+        },
+        {
+          "x": 1400,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Main",
+      "color": "#942976",
+      "points": [
+        {
+          "x": 160,
+          "y": 660
+        },
+        {
+          "x": 160,
+          "y": 520
+        },
+        {
+          "x": 210,
+          "y": 470
+        },
+        {
+          "x": 620,
+          "y": 470
+        },
+        {
+          "x": 840,
+          "y": 470
+        },
+        {
+          "x": 880,
+          "y": 430
+        },
+        {
+          "x": 880,
+          "y": 350
+        },
+        {
+          "x": 1120,
+          "y": 350
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "milton-go",
+      "name": "Milton GO",
+      "x": 620,
+      "y": 470,
+      "lines": ["1", "2", "3", "6", "7", "9", "21"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 630,
+        "y": 504,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "main-at-milton-mall",
+      "name": "Main at Milton Mall",
+      "x": 560,
+      "y": 470,
+      "lines": ["1", "2", "6", "7"],
+      "accessible": false,
+      "label": {
+        "x": 550,
+        "y": 436,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "main-at-court",
+      "name": "Main at Court",
+      "x": 400,
+      "y": 470,
+      "lines": ["2", "6"],
+      "accessible": false,
+      "label": {
+        "x": 390,
+        "y": 504,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "drew-centre-at-thompson",
+      "name": "Drew Centre at Thompson",
+      "x": 780,
+      "y": 470,
+      "lines": ["2", "3", "21"],
+      "accessible": false,
+      "label": {
+        "x": 740,
+        "y": 436,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "milton-district-hospital",
+      "name": "Milton District Hospital",
+      "x": 160,
+      "y": 660,
+      "lines": ["2"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 120,
+        "y": 682,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "savoline-at-derry",
+      "name": "Savoline at Derry",
+      "x": 560,
+      "y": 780,
+      "lines": ["6"],
+      "accessible": false,
+      "label": {
+        "x": 560,
+        "y": 804,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "derry-at-commercial",
+      "name": "Derry at Commercial",
+      "x": 390,
+      "y": 540,
+      "lines": ["7"],
+      "accessible": false,
+      "label": {
+        "x": 370,
+        "y": 564,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "dymott-at-savoline",
+      "name": "Dymott at Savoline",
+      "x": 380,
+      "y": 700,
+      "lines": ["7"],
+      "accessible": false,
+      "label": {
+        "x": 380,
+        "y": 724,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "highway-401-park-and-ride",
+      "name": "Highway 401 Park & Ride",
+      "x": 365,
+      "y": 280,
+      "lines": ["1"],
+      "accessible": true,
+      "label": {
+        "x": 365,
+        "y": 304,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "8218-parkhill",
+      "name": "8218 Parkhill",
+      "x": 170,
+      "y": 180,
+      "lines": ["1"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 170,
+        "y": 156,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "milton-crossroads",
+      "name": "Milton Crossroads",
+      "x": 1120,
+      "y": 350,
+      "lines": ["2"],
+      "accessible": false,
+      "terminal": true,
+      "label": {
+        "x": 1120,
+        "y": 326,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "trudeau-at-derry",
+      "name": "Trudeau at Derry",
+      "x": 1045,
+      "y": 500,
+      "lines": ["3"],
+      "accessible": false,
+      "label": {
+        "x": 1045,
+        "y": 476,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "louis-st-laurent-at-fourth-line",
+      "name": "Louis St. Laurent at Fourth Line",
+      "x": 1130,
+      "y": 900,
+      "lines": ["3"],
+      "accessible": false,
+      "label": {
+        "x": 1150,
+        "y": 900,
+        "rot": 0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "louis-st-laurent-at-regional-road-25",
+      "name": "Louis St. Laurent at Regional Road 25",
+      "x": 1020,
+      "y": 900,
+      "lines": ["3", "9"],
+      "accessible": false,
+      "label": {
+        "x": 1000,
+        "y": 876,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "mattamy-national-cycling-centre",
+      "name": "Mattamy National Cycling Centre",
+      "x": 150,
+      "y": 900,
+      "lines": ["3"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 150,
+        "y": 924,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "whitlock-at-regional-road-25",
+      "name": "Whitlock at Regional Road 25",
+      "x": 900,
+      "y": 950,
+      "lines": ["9"],
+      "accessible": false,
+      "label": {
+        "x": 880,
+        "y": 950,
+        "rot": 0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "britannia-at-rose-way",
+      "name": "Britannia at Rose Way",
+      "x": 1200,
+      "y": 1110,
+      "lines": ["9"],
+      "accessible": false,
+      "label": {
+        "x": 1200,
+        "y": 1134,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "steeles-at-trafalgar",
+      "name": "Steeles at Trafalgar",
+      "x": 1050,
+      "y": 100,
+      "lines": ["21"],
+      "accessible": false,
+      "label": {
+        "x": 1050,
+        "y": 76,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "lisgar-go",
+      "name": "Lisgar",
+      "x": 1400,
+      "y": 100,
+      "lines": ["21"],
+      "accessible": true,
+      "terminal": true,
+      "label": {
+        "x": 1400,
+        "y": 76,
+        "rot": 0,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 245,
+      "y": 150,
+      "color": "#F5821F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 1040,
+      "y": 320,
+      "color": "#942976",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 250,
+      "y": 870,
+      "color": "#684287",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 210,
+      "y": 760,
+      "color": "#65A7BD",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7",
+      "num": "7",
+      "x": 310,
+      "y": 650,
+      "color": "#8DC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "9",
+      "num": "9",
+      "x": 990,
+      "y": 830,
+      "color": "#A6664C",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "21",
+      "num": "21",
+      "x": 1280,
+      "y": 70,
+      "color": "#3DC7F4",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1470,
+      "minY": 30,
+      "maxY": 1215
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.92,
+    "refLonEast": -79.78,
+    "refXWest": 40,
+    "refXEast": 1520,
+    "refLatNorth": 43.6,
+    "refLatSouth": 43.46,
+    "refYNorth": 30,
+    "refYSouth": 1210
+  },
+  "sequences": {
+    "1": ["8218-parkhill", "highway-401-park-and-ride", "main-at-milton-mall", "milton-go"],
+    "2": [
+      "milton-district-hospital",
+      "main-at-court",
+      "main-at-milton-mall",
+      "milton-go",
+      "drew-centre-at-thompson",
+      "milton-crossroads"
+    ],
+    "3": [
+      "mattamy-national-cycling-centre",
+      "louis-st-laurent-at-regional-road-25",
+      "louis-st-laurent-at-fourth-line",
+      "trudeau-at-derry",
+      "drew-centre-at-thompson",
+      "milton-go"
+    ],
+    "6": ["milton-go", "main-at-milton-mall", "main-at-court", "savoline-at-derry"],
+    "7": ["milton-go", "main-at-milton-mall", "derry-at-commercial", "dymott-at-savoline"],
+    "9": [
+      "milton-go",
+      "louis-st-laurent-at-regional-road-25",
+      "whitlock-at-regional-road-25",
+      "britannia-at-rose-way"
+    ],
+    "21": ["milton-go", "drew-centre-at-thompson", "steeles-at-trafalgar", "lisgar-go"]
+  },
+  "stationIndex": [
+    {
+      "id": "MI2329",
+      "schematicId": "8218-parkhill",
+      "name": "8218 Parkhill",
+      "lat": 43.53262,
+      "lon": -79.90357,
+      "lines": ["1"],
+      "platformIds": ["MI2329"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "MI2494",
+      "schematicId": "britannia-at-rose-way",
+      "name": "Britannia at Rose Way",
+      "lat": 43.4888,
+      "lon": -79.83289,
+      "lines": ["9"],
+      "platformIds": ["MI2494"],
+      "departureRouteIds": ["9B"]
+    },
+    {
+      "id": "MI2176",
+      "schematicId": "derry-at-commercial",
+      "name": "Derry at Commercial",
+      "lat": 43.50277,
+      "lon": -79.8658,
+      "lines": ["7"],
+      "platformIds": ["MI2176"],
+      "departureRouteIds": ["50", "53", "55", "7", "8"]
+    },
+    {
+      "id": "MI2167",
+      "schematicId": "drew-centre-at-thompson",
+      "name": "Drew Centre at Thompson",
+      "lat": 43.52566,
+      "lon": -79.86482,
+      "lines": ["2", "21", "3"],
+      "platformIds": ["MI2167"],
+      "departureRouteIds": ["3", "4"]
+    },
+    {
+      "id": "MI2185",
+      "schematicId": "dymott-at-savoline",
+      "name": "Dymott at Savoline",
+      "lat": 43.4845,
+      "lon": -79.87028,
+      "lines": ["7"],
+      "platformIds": ["MI2185"],
+      "departureRouteIds": ["50", "51", "53", "7"]
+    },
+    {
+      "id": "MI4011",
+      "schematicId": "lisgar-go",
+      "name": "Lisgar",
+      "lat": 43.59211,
+      "lon": -79.78828,
+      "lines": ["21"],
+      "platformIds": ["MI4011"],
+      "departureRouteIds": ["21"]
+    },
+    {
+      "id": "louis-st-laurent-at-fourth-line",
+      "schematicId": "louis-st-laurent-at-fourth-line",
+      "name": "Louis St. Laurent at Fourth Line",
+      "lat": 43.51588,
+      "lon": -79.82722,
+      "lines": ["3"],
+      "platformIds": ["MI2147", "MI2286", "MI2518"],
+      "departureRouteIds": ["3", "4", "52", "54"]
+    },
+    {
+      "id": "louis-st-laurent-at-regional-road-25",
+      "schematicId": "louis-st-laurent-at-regional-road-25",
+      "name": "Louis St. Laurent at Regional Road 25",
+      "lat": 43.4964,
+      "lon": -79.8488,
+      "lines": ["3", "9"],
+      "platformIds": ["MI2451", "MI2487"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "main-at-court",
+      "schematicId": "main-at-court",
+      "name": "Main at Court",
+      "lat": 43.51622,
+      "lon": -79.87997,
+      "lines": ["2", "6"],
+      "platformIds": ["MI2023", "MI2058"],
+      "departureRouteIds": ["2", "6"]
+    },
+    {
+      "id": "MI2060",
+      "schematicId": "main-at-milton-mall",
+      "name": "Main at Milton Mall",
+      "lat": 43.51909,
+      "lon": -79.87647,
+      "lines": ["1", "2", "6", "7"],
+      "platformIds": ["MI2060"],
+      "departureRouteIds": ["1", "2", "6", "7", "9A", "9B"]
+    },
+    {
+      "id": "MI2482",
+      "schematicId": "mattamy-national-cycling-centre",
+      "name": "Mattamy National Cycling Centre",
+      "lat": 43.47429,
+      "lon": -79.87754,
+      "lines": ["3"],
+      "platformIds": ["MI2482"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "MI2038",
+      "schematicId": "milton-district-hospital",
+      "name": "Milton District Hospital",
+      "lat": 43.49726,
+      "lon": -79.87118,
+      "lines": ["2"],
+      "platformIds": ["MI2038"],
+      "departureRouteIds": ["2", "50", "55", "7"]
+    },
+    {
+      "id": "milton-go",
+      "schematicId": "milton-go",
+      "name": "Milton GO",
+      "lat": 43.52423,
+      "lon": -79.86618,
+      "lines": ["1", "2", "21", "3", "6", "7", "9"],
+      "platformIds": ["MI2123", "MI2203", "MI2351"],
+      "departureRouteIds": ["1", "2", "21", "3", "4", "5", "6", "7", "8", "9A", "9B"]
+    },
+    {
+      "id": "savoline-at-derry",
+      "schematicId": "savoline-at-derry",
+      "name": "Savoline at Derry",
+      "lat": 43.48887,
+      "lon": -79.88176,
+      "lines": ["6"],
+      "platformIds": ["MI2094", "MI2190"],
+      "departureRouteIds": ["50", "51", "53", "6", "7"]
+    },
+    {
+      "id": "trudeau-at-derry",
+      "schematicId": "trudeau-at-derry",
+      "name": "Trudeau at Derry",
+      "lat": 43.52821,
+      "lon": -79.83843,
+      "lines": ["3"],
+      "platformIds": ["MI2278", "MI2293"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "MI2479",
+      "schematicId": "whitlock-at-regional-road-25",
+      "name": "Whitlock at Regional Road 25",
+      "lat": 43.49362,
+      "lon": -79.84328,
+      "lines": ["9"],
+      "platformIds": ["MI2479"],
+      "departureRouteIds": ["54", "9B"]
+    }
+  ]
+}

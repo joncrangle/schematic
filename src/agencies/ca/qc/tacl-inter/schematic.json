@@ -1,0 +1,342 @@
+{
+  "viewBoxWidth": 760,
+  "viewBoxHeight": 920,
+  "lines": [
+    {
+      "id": "Inter",
+      "name": "L'Inter des Laurentides",
+      "color": "#FF8000",
+      "points": [
+        {
+          "x": 120,
+          "y": 120
+        },
+        {
+          "x": 340,
+          "y": 120
+        },
+        {
+          "x": 460,
+          "y": 240
+        },
+        {
+          "x": 460,
+          "y": 740
+        },
+        {
+          "x": 560,
+          "y": 840
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "mont-tremblant",
+      "name": "Mont-Tremblant",
+      "x": 120,
+      "y": 120,
+      "lines": ["Inter"],
+      "label": {
+        "x": 120,
+        "y": 90,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "saint-jovite",
+      "name": "Saint-Jovite",
+      "x": 220,
+      "y": 120,
+      "lines": ["Inter"],
+      "label": {
+        "x": 220,
+        "y": 150,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "mont-blanc",
+      "name": "Mont-Blanc",
+      "x": 340,
+      "y": 120,
+      "lines": ["Inter"],
+      "label": {
+        "x": 340,
+        "y": 90,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sainte-agathe",
+      "name": "Sainte-Agathe-des-Monts",
+      "x": 460,
+      "y": 240,
+      "lines": ["Inter"],
+      "label": {
+        "x": 485,
+        "y": 240,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "val-david",
+      "name": "Val-David",
+      "x": 460,
+      "y": 340,
+      "lines": ["Inter"],
+      "label": {
+        "x": 485,
+        "y": 340,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "val-morin",
+      "name": "Val-Morin",
+      "x": 460,
+      "y": 440,
+      "lines": ["Inter"],
+      "label": {
+        "x": 485,
+        "y": 440,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sainte-adele",
+      "name": "Sainte-Adèle",
+      "x": 460,
+      "y": 540,
+      "lines": ["Inter"],
+      "label": {
+        "x": 485,
+        "y": 540,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-sauveur",
+      "name": "Saint-Sauveur",
+      "x": 460,
+      "y": 640,
+      "lines": ["Inter"],
+      "label": {
+        "x": 485,
+        "y": 640,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "prevost",
+      "name": "Prévost",
+      "x": 460,
+      "y": 740,
+      "lines": ["Inter"],
+      "label": {
+        "x": 485,
+        "y": 740,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-jerome",
+      "name": "Saint-Jérôme",
+      "x": 560,
+      "y": 840,
+      "lines": ["Inter"],
+      "label": {
+        "x": 585,
+        "y": 840,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "Inter",
+      "num": "Inter",
+      "x": 425,
+      "y": 390,
+      "color": "#FF8000",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 740,
+      "minY": 50,
+      "maxY": 890
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -74.6,
+    "refLonEast": -74.0,
+    "refXWest": 200.7,
+    "refXEast": 561.0,
+    "refLatNorth": 46.13,
+    "refLatSouth": 45.77,
+    "refYNorth": 103.6,
+    "refYSouth": 905.3
+  },
+  "sequences": {
+    "Inter": [
+      "mont-tremblant",
+      "saint-jovite",
+      "mont-blanc",
+      "sainte-agathe",
+      "val-david",
+      "val-morin",
+      "sainte-adele",
+      "saint-sauveur",
+      "prevost",
+      "saint-jerome"
+    ]
+  },
+  "stationAliases": {
+    "Boul. Du Docteur-Gervais & Rue Vaillancourt": "mont-tremblant",
+    "Boul. Du Docteur-Gervais (CFP L’Horizon / CCMT / polyvalente)": "mont-tremblant",
+    "Boul. Ste-Adèle & Ch. Notre-Dame(Place Des Citoyens)": "sainte-adele",
+    "Boul. Ste-Adèle & Rue Bélec (Place des Citoyens)": "sainte-adele",
+    "Ch. Du Lac Millette & Rue Guindon": "saint-sauveur",
+    "Ch. Du Lac-Echo & Route 117": "prevost",
+    "Gare Intermodale De Saint-Jérôme": "saint-jerome",
+    "Route 117 & Ch. Du Curé-Corbeil (nord)": "val-morin",
+    "Route 117 & Ch. Du Curé-Corbeil (sud)": "val-morin",
+    "Route 117 & Ch. Du Lac-Echo": "prevost",
+    "Route 117 & Rue De L’Église": "val-david",
+    "Rue De Saint-Jovite & Rue Des Pionniers": "saint-jovite",
+    "Rue De Saint-Jovite & Rue Perreault": "saint-jovite",
+    "Rue Principale & Rue Saint-Faustin": "mont-blanc",
+    "Rue Saint-Faustin & Rue De La Pisciculture": "mont-blanc",
+    "Rue Saint-Paul & Rue Saint-Antoine": "sainte-agathe",
+    "Rue Saint-Paul & Rue Sainte-Agathe": "sainte-agathe"
+  },
+  "stationIndex": [
+    {
+      "id": "mont-blanc",
+      "schematicId": "mont-blanc",
+      "name": "Mont-Blanc",
+      "lat": 46.113167,
+      "lon": -74.484755,
+      "lines": ["Inter"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:563570006:LOC",
+        "zenbus:StopPoint:SP:565580008:LOC",
+        "zenbus:StopPoint:SP:565610006:LOC",
+        "zenbus:StopPoint:SP:573160006:LOC"
+      ],
+      "departureRouteIds": ["Inter"]
+    },
+    {
+      "id": "mont-tremblant",
+      "schematicId": "mont-tremblant",
+      "name": "Mont-Tremblant",
+      "lat": 46.123207,
+      "lon": -74.582222,
+      "lines": ["Inter"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:453790008:LOC",
+        "zenbus:StopPoint:SP:456680008:LOC",
+        "zenbus:StopPoint:SP:463560013:LOC",
+        "zenbus:StopPoint:SP:5730019027451904:LOC"
+      ],
+      "departureRouteIds": ["Inter"]
+    },
+    {
+      "id": "prevost",
+      "schematicId": "prevost",
+      "name": "Prévost",
+      "lat": 45.859695,
+      "lon": -74.069771,
+      "lines": ["Inter"],
+      "platformIds": ["zenbus:StopPoint:SP:459760005:LOC", "zenbus:StopPoint:SP:472810010:LOC"],
+      "departureRouteIds": ["Inter"]
+    },
+    {
+      "id": "zenbus:StopPoint:SP:5103743473287168:LOC",
+      "schematicId": "saint-jerome",
+      "name": "Saint-Jérôme",
+      "lat": 45.773617,
+      "lon": -74.00032,
+      "lines": ["Inter"],
+      "platformIds": ["zenbus:StopPoint:SP:5103743473287168:LOC"],
+      "departureRouteIds": ["Inter"]
+    },
+    {
+      "id": "saint-jovite",
+      "schematicId": "saint-jovite",
+      "name": "Saint-Jovite",
+      "lat": 46.117905,
+      "lon": -74.564171,
+      "lines": ["Inter"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:458620004:LOC",
+        "zenbus:StopPoint:SP:459750006:LOC",
+        "zenbus:StopPoint:SP:477190005:LOC",
+        "zenbus:StopPoint:SP:6388853186232320:LOC"
+      ],
+      "departureRouteIds": ["Inter"]
+    },
+    {
+      "id": "saint-sauveur",
+      "schematicId": "saint-sauveur",
+      "name": "Saint-Sauveur",
+      "lat": 45.893774,
+      "lon": -74.148916,
+      "lines": ["Inter"],
+      "platformIds": ["zenbus:StopPoint:SP:444460008:LOC", "zenbus:StopPoint:SP:469860007:LOC"],
+      "departureRouteIds": ["Inter"]
+    },
+    {
+      "id": "sainte-adele",
+      "schematicId": "sainte-adele",
+      "name": "Sainte-Adèle",
+      "lat": 45.951018,
+      "lon": -74.133983,
+      "lines": ["Inter"],
+      "platformIds": ["zenbus:StopPoint:SP:440580011:LOC", "zenbus:StopPoint:SP:465400006:LOC"],
+      "departureRouteIds": ["Inter"]
+    },
+    {
+      "id": "sainte-agathe",
+      "schematicId": "sainte-agathe",
+      "name": "Sainte-Agathe-des-Monts",
+      "lat": 46.051899,
+      "lon": -74.28514,
+      "lines": ["Inter"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:537990008:LOC",
+        "zenbus:StopPoint:SP:5639708481683456:LOC",
+        "zenbus:StopPoint:SP:565600007:LOC",
+        "zenbus:StopPoint:SP:575250008:LOC"
+      ],
+      "departureRouteIds": ["Inter"]
+    },
+    {
+      "id": "val-david",
+      "schematicId": "val-david",
+      "name": "Val-David",
+      "lat": 46.025307,
+      "lon": -74.215029,
+      "lines": ["Inter"],
+      "platformIds": ["zenbus:StopPoint:SP:465390006:LOC", "zenbus:StopPoint:SP:467820004:LOC"],
+      "departureRouteIds": ["Inter"]
+    },
+    {
+      "id": "val-morin",
+      "schematicId": "val-morin",
+      "name": "Val-Morin",
+      "lat": 45.99485,
+      "lon": -74.200066,
+      "lines": ["Inter"],
+      "platformIds": ["zenbus:StopPoint:SP:432700007:LOC", "zenbus:StopPoint:SP:472890007:LOC"],
+      "departureRouteIds": ["Inter"]
+    }
+  ]
+}

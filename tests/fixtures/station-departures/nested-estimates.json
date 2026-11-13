@@ -1,0 +1,87 @@
+{
+  "routeStopSchedules": [
+    {
+      "routeName": "Example Corridor",
+      "routeNumber": "rail",
+      "directionName": "S",
+      "stopTimes": [
+        {
+          "scheduledDepartTimeUtc": "0001-01-01T00:00:00",
+          "estimatedDepartTimeUtc": "2026-10-14T01:05:00Z",
+          "isRealtime": true,
+          "tripPointId": "example-0-0",
+          "isLastPoint": null,
+          "isCancelled": false,
+          "isOffRoute": false
+        }
+      ],
+      "frequencyInfo": null,
+      "hasTrips": null,
+      "hasSchedule": null,
+      "isEndOfRoute": null,
+      "isTemporaryStopOnly": null,
+      "isClosedRegularStop": null,
+      "serviceInterruptions": null,
+      "upcomingServiceInterruptions": null
+    },
+    {
+      "routeName": "Example Corridor",
+      "routeNumber": "rail",
+      "directionName": "S",
+      "stopTimes": [
+        {
+          "scheduledDepartTimeUtc": "0001-01-01T00:00:00",
+          "estimatedDepartTimeUtc": "2026-10-14T01:06:00Z",
+          "isRealtime": true,
+          "tripPointId": "example-1-0",
+          "isLastPoint": null,
+          "isCancelled": false,
+          "isOffRoute": false
+        },
+        {
+          "scheduledDepartTimeUtc": "0001-01-01T00:00:00",
+          "estimatedDepartTimeUtc": "2026-10-14T01:07:00Z",
+          "isRealtime": true,
+          "tripPointId": "example-1-1",
+          "isLastPoint": null,
+          "isCancelled": false,
+          "isOffRoute": false
+        }
+      ],
+      "frequencyInfo": null,
+      "hasTrips": null,
+      "hasSchedule": null,
+      "isEndOfRoute": null,
+      "isTemporaryStopOnly": null,
+      "isClosedRegularStop": null,
+      "serviceInterruptions": null,
+      "upcomingServiceInterruptions": null
+    },
+    {
+      "routeName": "Example Corridor",
+      "routeNumber": "rail",
+      "directionName": "S",
+      "stopTimes": [
+        {
+          "scheduledDepartTimeUtc": "0001-01-01T00:00:00",
+          "estimatedDepartTimeUtc": "2026-10-14T01:07:00Z",
+          "isRealtime": true,
+          "tripPointId": "example-2-0",
+          "isLastPoint": null,
+          "isCancelled": false,
+          "isOffRoute": false
+        }
+      ],
+      "frequencyInfo": null,
+      "hasTrips": null,
+      "hasSchedule": null,
+      "isEndOfRoute": null,
+      "isTemporaryStopOnly": null,
+      "isClosedRegularStop": null,
+      "serviceInterruptions": null,
+      "upcomingServiceInterruptions": null
+    }
+  ],
+  "date": "2026-10-13T00:00:00",
+  "amenities": []
+}

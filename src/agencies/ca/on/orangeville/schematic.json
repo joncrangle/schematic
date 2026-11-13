@@ -1,0 +1,461 @@
+{
+  "viewBoxWidth": 1450,
+  "viewBoxHeight": 1200,
+  "lines": [
+    {
+      "id": "Blue",
+      "name": "Blue - South Central",
+      "color": "#0066A4",
+      "points": [
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 400,
+          "y": 600
+        },
+        {
+          "x": 200,
+          "y": 800
+        },
+        {
+          "x": 100,
+          "y": 800
+        },
+        {
+          "x": 100,
+          "y": 700
+        },
+        {
+          "x": 200,
+          "y": 600
+        },
+        {
+          "x": 400,
+          "y": 600
+        },
+        {
+          "x": 400,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 800,
+          "y": 800
+        },
+        {
+          "x": 800,
+          "y": 720
+        },
+        {
+          "x": 680,
+          "y": 600
+        },
+        {
+          "x": 600,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "Orange",
+      "name": "Orange - South West",
+      "color": "#CC780D",
+      "points": [
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 600,
+          "y": 500
+        },
+        {
+          "x": 1080,
+          "y": 500
+        },
+        {
+          "x": 1080,
+          "y": 340
+        },
+        {
+          "x": 1000,
+          "y": 260
+        },
+        {
+          "x": 800,
+          "y": 260
+        },
+        {
+          "x": 700,
+          "y": 160
+        },
+        {
+          "x": 500,
+          "y": 160
+        },
+        {
+          "x": 300,
+          "y": 360
+        },
+        {
+          "x": 500,
+          "y": 360
+        },
+        {
+          "x": 600,
+          "y": 460
+        },
+        {
+          "x": 600,
+          "y": 600
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "transit-hub",
+      "name": "Transit Hub (Center St)",
+      "x": 600,
+      "y": 600,
+      "lines": ["Blue", "Orange"],
+      "label": {
+        "x": 620,
+        "y": 560,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "alder-arena",
+      "name": "Alder Street Arena",
+      "x": 200,
+      "y": 800,
+      "lines": ["Blue"],
+      "label": {
+        "x": 220,
+        "y": 810,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fendley-park",
+      "name": "Montgomery Boulevard @ Fendley Park",
+      "x": 100,
+      "y": 700,
+      "lines": ["Blue"],
+      "label": {
+        "x": 100,
+        "y": 680,
+        "rot": -45,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "broadway-dawson",
+      "name": "Broadway @ Dawson Road",
+      "x": 400,
+      "y": 600,
+      "lines": ["Blue"],
+      "label": {
+        "x": 380,
+        "y": 560,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "westside-market",
+      "name": "Centennial Road @ Westside Market",
+      "x": 400,
+      "y": 1000,
+      "lines": ["Blue"],
+      "label": {
+        "x": 415,
+        "y": 1030,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "townline-mill",
+      "name": "Townline @ Mill Street",
+      "x": 800,
+      "y": 800,
+      "lines": ["Blue"],
+      "label": {
+        "x": 825,
+        "y": 810,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "broadway-second",
+      "name": "Broadway @ Second Street",
+      "x": 800,
+      "y": 500,
+      "lines": ["Orange"],
+      "label": {
+        "x": 800,
+        "y": 470,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "headwaters",
+      "name": "Headwaters Health Centre",
+      "x": 1080,
+      "y": 500,
+      "lines": ["Orange"],
+      "label": {
+        "x": 1100,
+        "y": 530,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fourth-avenue",
+      "name": "Fourth Avenue",
+      "x": 1000,
+      "y": 260,
+      "lines": ["Orange"],
+      "label": {
+        "x": 1020,
+        "y": 230,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "orangeville-mall",
+      "name": "Orangeville Mall",
+      "x": 700,
+      "y": 160,
+      "lines": ["Orange"],
+      "label": {
+        "x": 720,
+        "y": 130,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "hansen-college",
+      "name": "Hansen Boulevard @ College Avenue",
+      "x": 300,
+      "y": 360,
+      "lines": ["Orange"],
+      "label": {
+        "x": 280,
+        "y": 330,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "odss-tony-rose",
+      "name": "ODSS School & Tony Rose",
+      "x": 600,
+      "y": 460,
+      "lines": ["Orange"],
+      "label": {
+        "x": 575,
+        "y": 460,
+        "anchor": "end",
+        "rot": 0
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "Blue",
+      "num": "Blue",
+      "x": 368,
+      "y": 900,
+      "color": "#0066A4",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "Orange",
+      "num": "Orange",
+      "x": 940,
+      "y": 468,
+      "color": "#CC780D",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1430,
+      "minY": 60,
+      "maxY": 1120
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -80.137392,
+    "refLonEast": -80.073316,
+    "refXWest": 100,
+    "refXEast": 1080,
+    "refLatNorth": 43.930321,
+    "refLatSouth": 43.902008,
+    "refYNorth": 160,
+    "refYSouth": 1000
+  },
+  "sequences": {
+    "Blue": [
+      "transit-hub",
+      "alder-arena",
+      "fendley-park",
+      "broadway-dawson",
+      "westside-market",
+      "townline-mill"
+    ],
+    "Orange": [
+      "transit-hub",
+      "broadway-second",
+      "headwaters",
+      "fourth-avenue",
+      "orangeville-mall",
+      "hansen-college",
+      "odss-tony-rose"
+    ]
+  },
+  "stationAliases": {
+    "Transit Hub (Center St)": "transit-hub",
+    "Alder Street Arena": "alder-arena",
+    "Montgomery Boulevard @ Fendley Park": "fendley-park",
+    "Broadway @ Dawson Road": "broadway-dawson",
+    "Centennial Road @ Westside Market": "westside-market",
+    "Townline @ Mill Street": "townline-mill",
+    "Broadway @ Second Street": "broadway-second",
+    "Headwaters Health Centre": "headwaters",
+    "Fourth Avenue": "fourth-avenue",
+    "Orangeville Mall": "orangeville-mall",
+    "Hansen Boulevard @ College Avenue": "hansen-college",
+    "ODSS School & Tony Rose": "odss-tony-rose"
+  },
+  "stationIndex": [
+    {
+      "id": "8",
+      "schematicId": "alder-arena",
+      "name": "Alder Street Arena",
+      "lat": 43.904537,
+      "lon": -80.126045,
+      "lines": ["Blue"],
+      "platformIds": ["8"],
+      "departureRouteIds": ["Blue"]
+    },
+    {
+      "id": "19",
+      "schematicId": "broadway-dawson",
+      "name": "Broadway @ Dawson Road",
+      "lat": 43.916832,
+      "lon": -80.10809,
+      "lines": ["Blue"],
+      "platformIds": ["19"],
+      "departureRouteIds": ["Blue"]
+    },
+    {
+      "id": "40",
+      "schematicId": "broadway-second",
+      "name": "Broadway @ Second Street",
+      "lat": 43.920063,
+      "lon": -80.09351,
+      "lines": ["Orange"],
+      "platformIds": ["40"],
+      "departureRouteIds": ["Orange"]
+    },
+    {
+      "id": "24",
+      "schematicId": "westside-market",
+      "name": "Centennial Road @ Westside Market",
+      "lat": 43.902008,
+      "lon": -80.11888,
+      "lines": ["Blue"],
+      "platformIds": ["24"],
+      "departureRouteIds": ["Blue"]
+    },
+    {
+      "id": "48",
+      "schematicId": "fourth-avenue",
+      "name": "Fourth Avenue",
+      "lat": 43.926983,
+      "lon": -80.091444,
+      "lines": ["Orange"],
+      "platformIds": ["48"],
+      "departureRouteIds": ["Orange"]
+    },
+    {
+      "id": "59",
+      "schematicId": "hansen-college",
+      "name": "Hansen Boulevard @ College Avenue",
+      "lat": 43.92226,
+      "lon": -80.125244,
+      "lines": ["Orange"],
+      "platformIds": ["59"],
+      "departureRouteIds": ["Orange"]
+    },
+    {
+      "id": "46",
+      "schematicId": "headwaters",
+      "name": "Headwaters Health Centre",
+      "lat": 43.9199,
+      "lon": -80.073316,
+      "lines": ["Orange"],
+      "platformIds": ["46"],
+      "departureRouteIds": ["Orange"]
+    },
+    {
+      "id": "15",
+      "schematicId": "fendley-park",
+      "name": "Montgomery Boulevard @ Fendley Park",
+      "lat": 43.906952,
+      "lon": -80.137392,
+      "lines": ["Blue"],
+      "platformIds": ["15"],
+      "departureRouteIds": ["Blue"]
+    },
+    {
+      "id": "70",
+      "schematicId": "odss-tony-rose",
+      "name": "ODSS School & Tony Rose",
+      "lat": 43.922728,
+      "lon": -80.103984,
+      "lines": ["Orange"],
+      "platformIds": ["70"],
+      "departureRouteIds": ["Orange"]
+    },
+    {
+      "id": "53",
+      "schematicId": "orangeville-mall",
+      "name": "Orangeville Mall",
+      "lat": 43.930321,
+      "lon": -80.102256,
+      "lines": ["Orange"],
+      "platformIds": ["53"],
+      "departureRouteIds": ["Orange"]
+    },
+    {
+      "id": "33",
+      "schematicId": "townline-mill",
+      "name": "Townline @ Mill Street",
+      "lat": 43.91382,
+      "lon": -80.090808,
+      "lines": ["Blue"],
+      "platformIds": ["33"],
+      "departureRouteIds": ["Blue"]
+    },
+    {
+      "id": "100",
+      "schematicId": "transit-hub",
+      "name": "Transit Hub (Center St)",
+      "lat": 43.91609,
+      "lon": -80.103975,
+      "lines": ["Blue", "Orange"],
+      "platformIds": ["100"],
+      "departureRouteIds": ["Blue", "Orange"]
+    }
+  ]
+}

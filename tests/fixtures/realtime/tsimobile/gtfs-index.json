@@ -1,0 +1,809 @@
+{
+  "stops": {
+    "BENN": "199",
+    "ALEX": "344",
+    "YONK": "345",
+    "NIAG": "346",
+    "OCHR": "347",
+    "WVHO": "340",
+    "SARN": "341",
+    "MJLI": "342",
+    "SLAM": "343",
+    "OROK": "348",
+    "MSNH": "298",
+    "WNDG": "299",
+    "AGAS": "296",
+    "THIB": "297",
+    "TELK": "294",
+    "SMRB": "295",
+    "TIMB": "292",
+    "OBRI": "293",
+    "SIPI": "290",
+    "CEDA": "195",
+    "HERC": "197",
+    "ROCH": "191",
+    "BDNC": "190",
+    "BRMT": "193",
+    "LEVA": "192",
+    "USKX": "270",
+    "BBAR": "273",
+    "HOPE": "274",
+    "OSKR": "276",
+    "CHIL": "277",
+    "AMRY": "278",
+    "EDMO": "449",
+    "GRNG": "448",
+    "HUTT": "442",
+    "FITZ": "441",
+    "FING": "440",
+    "DYCE": "446",
+    "TOGO": "445",
+    "JONQ": "444",
+    "SAVL": "108",
+    "ALWB": "109",
+    "AUDN": "102",
+    "FERL": "103",
+    "KAMS": "100",
+    "MUDR": "101",
+    "ARMG": "106",
+    "FLTL": "107",
+    "GSTO": "104",
+    "COLL": "105",
+    "SANF": "39",
+    "STIT": "38",
+    "BIMA": "33",
+    "SSCC": "32",
+    "TRRC": "31",
+    "PBDT": "37",
+    "VDRH": "36",
+    "BRKV": "35",
+    "MALT": "34",
+    "DNST": "438",
+    "CHBD": "439",
+    "OAKV": "436",
+    "HERV": "437",
+    "CHUR": "435",
+    "FFRA": "432",
+    "LTUQ": "433",
+    "VDRY": "339",
+    "BRNL": "338",
+    "WEIR": "335",
+    "PENN": "333",
+    "DORV": "332",
+    "GEOR": "6",
+    "NAKI": "99",
+    "CARA": "98",
+    "HLSP": "91",
+    "BIRD": "90",
+    "LNDN": "93",
+    "OBAX": "92",
+    "LLAC": "95",
+    "SHPN": "94",
+    "HBAY": "96",
+    "OTTM": "153",
+    "XYUL": "555",
+    "ATKL": "238",
+    "MUNK": "235",
+    "WAIN": "236",
+    "NONS": "237",
+    "NEME": "230",
+    "UNIT": "231",
+    "BUTT": "232",
+    "GRIM": "1",
+    "SYRA": "614",
+    "TREM": "155",
+    "CRSM": "147",
+    "RDDT": "144",
+    "MNKI": "142",
+    "FARL": "140",
+    "GLNA": "141",
+    "RVRS": "616",
+    "OTTW": "617",
+    "HOUS": "148",
+    "TPAS": "149",
+    "GMRE": "132",
+    "CNYK": "131",
+    "SPAU": "130",
+    "HRDL": "134",
+    "CHNY": "492",
+    "STGS": "24",
+    "SCHE": "25",
+    "MIQK": "26",
+    "FALR": "27",
+    "JASP": "21",
+    "AMHS": "22",
+    "ROUS": "28",
+    "EARC": "29",
+    "DESS": "407",
+    "TURN": "406",
+    "DRLL": "405",
+    "LBOU": "404",
+    "NFNY": "403",
+    "CORM": "401",
+    "SFOY": "629",
+    "DEVN": "409",
+    "LRIE": "408",
+    "QBEC": "628",
+    "MCGR": "379",
+    "LWTH": "378",
+    "LYDD": "371",
+    "MIKA": "370",
+    "PIKW": "373",
+    "MCLI": "375",
+    "SMTF": "377",
+    "MSBI": "376",
+    "WDON": "618",
+    "CBAT": "392",
+    "ELSA": "88",
+    "CLOV": "390",
+    "BLGC": "397",
+    "MUSK": "395",
+    "LNGL": "394",
+    "CHRT": "82",
+    "CLWT": "80",
+    "CAUS": "87",
+    "CHLO": "84",
+    "STRF": "7",
+    "TPIS": "170",
+    "BRQU": "245",
+    "ALZL": "244",
+    "VBRU": "247",
+    "RAWE": "246",
+    "EVAN": "241",
+    "POUG": "240",
+    "BIGG": "615",
+    "PITS": "249",
+    "POGA": "248",
+    "PRUP": "458",
+    "SHWN": "459",
+    "SUDB": "621",
+    "HLFX": "620",
+    "GUIL": "450",
+    "HEBV": "453",
+    "PGEO": "454",
+    "VKNG": "455",
+    "OPHR": "456",
+    "JOLI": "457",
+    "LPRS": "179",
+    "CBRG": "178",
+    "KOND": "177",
+    "KWIN": "176",
+    "AMST": "173",
+    "DORR": "172",
+    "MCTC": "171",
+    "RCLK": "198",
+    "LEDW": "183",
+    "MWWC": "182",
+    "COQU": "180",
+    "CHEL": "2",
+    "COPE": "187",
+    "LARC": "184",
+    "SCAT": "185",
+    "ALBY": "189",
+    "SMYS": "11",
+    "TRUR": "10",
+    "MCTN": "12",
+    "BISC": "15",
+    "STRR": "14",
+    "RGRV": "19",
+    "JACR": "18",
+    "BRMP": "322",
+    "INGR": "323",
+    "RAPB": "320",
+    "CANN": "321",
+    "BUDD": "326",
+    "RDLX": "327",
+    "BOLK": "324",
+    "RMSK": "328",
+    "STRL": "329",
+    "BUFX": "201",
+    "GANA": "200",
+    "LDAR": "203",
+    "SACK": "202",
+    "CHAP": "205",
+    "BRTL": "204",
+    "MCBR": "207",
+    "ELMA": "206",
+    "JACC": "209",
+    "WEKU": "208",
+    "WSTR": "76",
+    "GOGA": "74",
+    "PROC": "73",
+    "FELX": "72",
+    "RUEL": "71",
+    "GUEL": "70",
+    "FOLE": "79",
+    "GLNC": "78",
+    "VCVR": "8",
+    "NEWY": "120",
+    "SMMC": "121",
+    "SIGN": "125",
+    "GARN": "126",
+    "FRNZ": "127",
+    "WOMR": "128",
+    "FORS": "129",
+    "DOMC": "414",
+    "BLVL": "415",
+    "HIBB": "417",
+    "DALT": "410",
+    "VMLC": "411",
+    "DERI": "412",
+    "TRNJ": "413",
+    "DUNL": "418",
+    "CSLM": "419",
+    "GOAT": "136",
+    "IRQC": "319",
+    "BOYD": "318",
+    "THKP": "313",
+    "CART": "312",
+    "BTRS": "310",
+    "PLUM": "317",
+    "RBRT": "315",
+    "PIPN": "314",
+    "GILL": "139",
+    "LPOC": "138",
+    "BGQU": "369",
+    "UTIC": "366",
+    "OSHA": "367",
+    "NICH": "360",
+    "BEND": "361",
+    "MCCR": "380",
+    "MEGI": "381",
+    "LUKE": "383",
+    "RTAC": "384",
+    "LOOS": "386",
+    "WBDN": "387",
+    "WNPG": "388",
+    "FALL": "576",
+    "SPAR": "60",
+    "KITW": "61",
+    "HNPN": "63",
+    "HRVY": "64",
+    "LAFO": "65",
+    "ILFO": "67",
+    "PATE": "252",
+    "MNET": "253",
+    "CARI": "250",
+    "PACI": "256",
+    "VLMT": "257",
+    "EDSN": "254",
+    "PRLL": "255",
+    "MELV": "506",
+    "THOM": "503",
+    "DRMV": "630",
+    "SHYA": "631",
+    "CASS": "632",
+    "ANJO": "633",
+    "AMYO": "636",
+    "SWAN": "637",
+    "WILD": "461",
+    "SENN": "460",
+    "WGWC": "168",
+    "GVIE": "169",
+    "KORM": "164",
+    "LEVN": "165",
+    "STAD": "166",
+    "MLCH": "167",
+    "KPTC": "160",
+    "KISK": "161",
+    "BRTF": "162",
+    "GAGN": "163",
+    "ALDR": "600",
+    "PHOP": "9",
+    "BUFF": "357",
+    "ARNO": "356",
+    "CBTN": "355",
+    "ODHI": "353",
+    "ODAY": "352",
+    "COTO": "351",
+    "RAPX": "350",
+    "CASY": "216",
+    "TRTC": "217",
+    "GIRD": "214",
+    "MJBG": "215",
+    "MCCA": "212",
+    "CROT": "210",
+    "MTGM": "218",
+    "DAUP": "289",
+    "NBND": "288",
+    "SUDJ": "4",
+    "SINM": "281",
+    "WYOM": "280",
+    "WDST": "282",
+    "KATZ": "285",
+    "TIDL": "284",
+    "SHEA": "287",
+    "STRN": "286",
+    "HINT": "263",
+    "PNTN": "262",
+    "RSRV": "261",
+    "HUDS": "260",
+    "MIRA": "267",
+    "SULT": "266",
+    "RAMS": "265",
+    "WNTB": "264",
+    "ASHN": "269",
+    "BLUE": "268",
+    "WSHG": "59",
+    "KGON": "58",
+    "PRSS": "55",
+    "MMGY": "54",
+    "LDES": "51",
+    "RBLN": "50",
+    "LIZO": "52",
+    "ROME": "259",
+    "RCHN": "115",
+    "MCKC": "68",
+    "KAMN": "117",
+    "WHTR": "116",
+    "RLRX": "111",
+    "MTPD": "110",
+    "CAPR": "113",
+    "PARS": "69",
+    "TRTO": "119",
+    "SASK": "118",
+    "ESHR": "429",
+    "KINO": "420",
+    "DIXX": "423",
+    "DUPL": "425",
+    "ENDA": "424",
+    "GLBP": "427",
+    "PARE": "426",
+    "WILR": "308",
+    "NAPN": "309",
+    "VERE": "301",
+    "OSKL": "303",
+    "UFRZ": "305",
+    "SANM": "306",
+    "SMTR": "307",
+    "ABBO": "145",
+    "CHES": "229",
+    "WATR": "228",
+    "NHAZ": "227",
+    "MTRL": "226",
+    "PLPX": "224",
+    "RHIN": "222",
+    "AMQU": "221",
+    "AZIL": "220",
+    "KITC": "114",
+    "LOCH": "391",
+    "CANO": "89",
+    "HALC": "151",
+    "CHAT": "601",
+    "BRGR": "157",
+    "CWLL": "602",
+    "ENDV": "159",
+    "HOCK": "158",
+    "FERG": "83",
+    "SAUV": "634",
+    "NCLC": "399",
+    "GRGC": "48",
+    "WYMT": "49",
+    "LMAL": "46",
+    "SMQU": "47",
+    "SLKT": "44",
+    "CHER": "45",
+    "SAYA": "42",
+    "SJUS": "43",
+    "SPRJ": "41",
+    "SNKR": "638",
+    "FRKS": "639"
+  },
+  "trains": {
+    "1": {
+      "routeId": "8-119",
+      "directionId": 1,
+      "headsign": "Vancouver"
+    },
+    "2": {
+      "routeId": "8-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "5": {
+      "routeId": "21-458",
+      "directionId": 0,
+      "headsign": "Prince Rupert"
+    },
+    "6": {
+      "routeId": "21-458",
+      "directionId": 1,
+      "headsign": "Jasper"
+    },
+    "14": {
+      "routeId": "226-620",
+      "directionId": 0,
+      "headsign": "Halifax"
+    },
+    "15": {
+      "routeId": "226-620",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "20": {
+      "routeId": "628-226",
+      "directionId": 1,
+      "headsign": "Québec"
+    },
+    "22": {
+      "routeId": "628-576",
+      "directionId": 1,
+      "headsign": "Québec"
+    },
+    "24": {
+      "routeId": "628-576",
+      "directionId": 1,
+      "headsign": "Québec"
+    },
+    "26": {
+      "routeId": "617-628",
+      "directionId": 0,
+      "headsign": "Québec"
+    },
+    "28": {
+      "routeId": "617-628",
+      "directionId": 0,
+      "headsign": "Québec"
+    },
+    "29": {
+      "routeId": "628-226",
+      "directionId": 0,
+      "headsign": "Montréal"
+    },
+    "31": {
+      "routeId": "617-226",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "33": {
+      "routeId": "617-628",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "35": {
+      "routeId": "617-628",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "37": {
+      "routeId": "628-576",
+      "directionId": 0,
+      "headsign": "Ottawa"
+    },
+    "38": {
+      "routeId": "617-226",
+      "directionId": 0,
+      "headsign": "Montréal"
+    },
+    "39": {
+      "routeId": "628-576",
+      "directionId": 0,
+      "headsign": "Ottawa"
+    },
+    "40": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "41": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "42": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "43": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "44": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "45": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "46": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "47": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "48": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "50": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "52": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "53": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "54": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "55": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "59": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "60": {
+      "routeId": "226-119",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "61": {
+      "routeId": "226-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "62": {
+      "routeId": "226-119",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "63": {
+      "routeId": "226-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "64": {
+      "routeId": "226-119",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "65": {
+      "routeId": "226-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "66": {
+      "routeId": "226-119",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "67": {
+      "routeId": "226-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "68": {
+      "routeId": "226-119",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "69": {
+      "routeId": "226-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "70": {
+      "routeId": "119-618",
+      "directionId": 1,
+      "headsign": "Toronto"
+    },
+    "71": {
+      "routeId": "119-618",
+      "directionId": 0,
+      "headsign": "Windsor"
+    },
+    "72": {
+      "routeId": "119-618",
+      "directionId": 1,
+      "headsign": "Toronto"
+    },
+    "73": {
+      "routeId": "119-618",
+      "directionId": 0,
+      "headsign": "Windsor"
+    },
+    "75": {
+      "routeId": "119-618",
+      "directionId": 0,
+      "headsign": "Windsor"
+    },
+    "76": {
+      "routeId": "119-618",
+      "directionId": 1,
+      "headsign": "Toronto"
+    },
+    "78": {
+      "routeId": "119-618",
+      "directionId": 1,
+      "headsign": "Toronto"
+    },
+    "79": {
+      "routeId": "119-618",
+      "directionId": 0,
+      "headsign": "Windsor"
+    },
+    "82": {
+      "routeId": "119-93",
+      "directionId": 1,
+      "headsign": "Toronto"
+    },
+    "83": {
+      "routeId": "119-93",
+      "directionId": 0,
+      "headsign": "London"
+    },
+    "84": {
+      "routeId": "119-341",
+      "directionId": 1,
+      "headsign": "Toronto"
+    },
+    "87": {
+      "routeId": "119-341",
+      "directionId": 0,
+      "headsign": "Sarnia"
+    },
+    "97": {
+      "routeId": "119-120",
+      "directionId": 0,
+      "headsign": "Niagara Falls"
+    },
+    "98": {
+      "routeId": "119-120",
+      "directionId": 1,
+      "headsign": "Toronto"
+    },
+    "185": {
+      "routeId": "621-116",
+      "directionId": 0,
+      "headsign": "White River"
+    },
+    "186": {
+      "routeId": "621-116",
+      "directionId": 1,
+      "headsign": "Sudbury"
+    },
+    "600": {
+      "routeId": "226-444",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "601": {
+      "routeId": "226-444",
+      "directionId": 0,
+      "headsign": "Jonquière"
+    },
+    "602": {
+      "routeId": "226-444",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "603": {
+      "routeId": "226-460",
+      "directionId": 0,
+      "headsign": "Senneterre"
+    },
+    "604": {
+      "routeId": "226-460",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "605": {
+      "routeId": "226-444",
+      "directionId": 0,
+      "headsign": "Jonquière"
+    },
+    "606": {
+      "routeId": "226-460",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "607": {
+      "routeId": "226-460",
+      "directionId": 0,
+      "headsign": "Senneterre"
+    },
+    "622": {
+      "routeId": "628-226",
+      "directionId": 1,
+      "headsign": "Québec"
+    },
+    "624": {
+      "routeId": "628-576",
+      "directionId": 1,
+      "headsign": "Québec"
+    },
+    "633": {
+      "routeId": "617-226",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "637": {
+      "routeId": "628-576",
+      "directionId": 0,
+      "headsign": "Ottawa"
+    },
+    "641": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "643": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "644": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "645": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "646": {
+      "routeId": "617-119",
+      "directionId": 1,
+      "headsign": "Ottawa"
+    },
+    "647": {
+      "routeId": "617-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "668": {
+      "routeId": "226-119",
+      "directionId": 1,
+      "headsign": "Montréal"
+    },
+    "669": {
+      "routeId": "226-119",
+      "directionId": 0,
+      "headsign": "Toronto"
+    },
+    "690": {
+      "routeId": "149-435",
+      "directionId": 1,
+      "headsign": "The Pas"
+    },
+    "691": {
+      "routeId": "149-435",
+      "directionId": 0,
+      "headsign": "Churchill"
+    },
+    "692": {
+      "routeId": "388-435",
+      "directionId": 1,
+      "headsign": "Winnipeg"
+    },
+    "693": {
+      "routeId": "388-435",
+      "directionId": 0,
+      "headsign": "Churchill"
+    }
+  }
+}

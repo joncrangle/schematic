@@ -1,0 +1,159 @@
+{
+  "id": "drt",
+  "name": "Durham Region Transit",
+  "serviceArea": "Durham Region",
+  "serviceAreaTranslations": { "fr": "Région de Durham" },
+  "shortName": "DRT",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.775,
+      "maxLat": 44.0,
+      "minLon": -79.27,
+      "maxLon": -78.57
+    },
+    {
+      "minLat": 44.0,
+      "maxLat": 44.45,
+      "minLon": -79.2,
+      "maxLon": -78.9
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Durham Region Transit / The Regional Municipality of Durham open data, adapted into this application",
+    "url": "https://www.durham.ca/regional-government/access-to-information/open-data/",
+    "license": "Contains public sector information made available under The Regional Municipality of Durham's Open Data Licence",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Oshawa GO",
+      "lat": 43.870662,
+      "lon": -78.886365
+    },
+    {
+      "name": "Ajax GO",
+      "lat": 43.847679,
+      "lon": -79.041346
+    },
+    {
+      "name": "Whitby GO",
+      "lat": 43.865496,
+      "lon": -78.93794
+    },
+    {
+      "name": "Pickering GO",
+      "lat": 43.831147,
+      "lon": -79.084237
+    },
+    {
+      "name": "Oshawa Centre Terminal",
+      "lat": 43.889169,
+      "lon": -78.877279
+    },
+    {
+      "name": "Pickering Parkway Terminal",
+      "lat": 43.832968,
+      "lon": -79.0851
+    },
+    {
+      "name": "Ontario Tech / Durham College North Campus",
+      "lat": 43.943641,
+      "lon": -78.895505
+    },
+    {
+      "name": "Harmony Terminal",
+      "lat": 43.942102,
+      "lon": -78.848752
+    },
+    {
+      "name": "Centennial Circle",
+      "lat": 43.787494,
+      "lon": -79.190831
+    },
+    {
+      "name": "Simpson at King",
+      "lat": 43.911329,
+      "lon": -78.675014
+    }
+  ],
+  "popularSurfaceRoutes": ["900", "901", "902", "905", "915", "916"],
+  "directionLiterals": {
+    "north": "Northbound",
+    "south": "Southbound",
+    "east": "Eastbound",
+    "west": "Westbound"
+  },
+  "routeInterpretation": {
+    "directionInference": {
+      "default": "east-west",
+      "routeOverrides": {
+        "901": "north-south",
+        "905": "north-south"
+      }
+    }
+  },
+  "alertInterpretation": {
+    "lineIds": ["900", "901", "902", "905", "915", "916"]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://drtonline.durhamregiontransit.com/gtfsrealtime/VehiclePositions",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://drtonline.durhamregiontransit.com/gtfsrealtime/TripUpdates",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "web",
+      "url": "https://www.durhamregiontransit.com/news/service-alerts-and-detours/",
+      "parser": "ghd-news-service-advisories",
+      "maxAgeMinutes": 20160,
+      "runtimes": ["self-hosted"]
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://alerts.example.com/drt.pb",
+      "format": "protobuf",
+      "runtimes": ["cloudflare"],
+      "disabledReason": "Requires the alert-feed daemon and FEED_ALERT_PROXY_BASE_URL/FEED_ALERT_PROXY_TOKEN secrets (see docs/deployment/deployment-guide.html#proxy)",
+      "baseUrlSecretName": "FEED_ALERT_PROXY_BASE_URL",
+      "requiredForCompleteness": true,
+      "auth": {
+        "type": "header",
+        "headerName": "x-feed-token",
+        "secretName": "FEED_ALERT_PROXY_TOKEN"
+      }
+    }
+  ],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Durham Region Transit",
+        "url": "https://maps.durham.ca/OpenDataGTFS/GTFS_Durham_TXT.zip",
+        "cacheFileName": "drt-gtfs.zip"
+      }
+    ]
+  }
+}

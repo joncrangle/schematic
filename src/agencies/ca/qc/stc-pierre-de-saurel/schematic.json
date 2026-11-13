@@ -1,0 +1,245 @@
+{
+  "viewBoxWidth": 1650,
+  "viewBoxHeight": 1350,
+  "lines": [
+    {
+      "id": "10",
+      "name": "Ligne 10",
+      "color": "#00B2FF",
+      "points": [
+        {
+          "x": 1250,
+          "y": 700
+        },
+        {
+          "x": 1250,
+          "y": 200
+        },
+        {
+          "x": 900,
+          "y": 200
+        },
+        {
+          "x": 650,
+          "y": 450
+        },
+        {
+          "x": 650,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "750",
+      "name": "Express 750–753",
+      "color": "#46858E",
+      "points": [
+        {
+          "x": 250,
+          "y": 1150
+        },
+        {
+          "x": 250,
+          "y": 1100
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 1250,
+          "y": 700
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "promenades",
+      "name": "Terminus des Promenades",
+      "x": 1250,
+      "y": 700,
+      "lines": ["10", "750"],
+      "label": {
+        "x": 1280,
+        "y": 700,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "hotel-dieu",
+      "name": "Hôtel-Dieu",
+      "x": 1250,
+      "y": 200,
+      "lines": ["10"],
+      "label": {
+        "x": 1250,
+        "y": 168,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "centre-ville",
+      "name": "Centre-ville",
+      "x": 900,
+      "y": 200,
+      "lines": ["10"],
+      "label": {
+        "x": 900,
+        "y": 168,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "plaza-tracy",
+      "name": "Plaza Tracy",
+      "x": 650,
+      "y": 700,
+      "lines": ["10", "750"],
+      "label": {
+        "x": 680,
+        "y": 730,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cegep",
+      "name": "Cégep de Sorel-Tracy",
+      "x": 650,
+      "y": 900,
+      "lines": ["10"],
+      "label": {
+        "x": 680,
+        "y": 900,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "longueuil",
+      "name": "Terminus Longueuil",
+      "x": 250,
+      "y": 1150,
+      "lines": ["750"],
+      "label": {
+        "x": 220,
+        "y": 1150,
+        "anchor": "end"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "10",
+      "num": "10",
+      "x": 1284,
+      "y": 420,
+      "color": "#00B2FF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "750",
+      "num": "EXP",
+      "x": 950,
+      "y": 734,
+      "color": "#46858E",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "10": ["promenades", "hotel-dieu", "centre-ville", "plaza-tracy", "cegep"],
+    "750": ["longueuil", "plaza-tracy", "promenades"]
+  },
+  "stationAliases": {
+    "Terminus des Promenades - STC": "promenades",
+    "Hôtel-Dieu (Hôpital)": "hotel-dieu",
+    "Charlotte / Du Roi": "centre-ville",
+    "Stationnement incitatif de la Plaza Tracy": "plaza-tracy",
+    "Cégep de Sorel-Tracy": "cegep",
+    "Terminus Longueuil (porte A7)": "longueuil"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 1600,
+      "minY": 40,
+      "maxY": 1310
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -73.520843,
+    "refLonEast": -73.09252,
+    "refXWest": 150,
+    "refXEast": 1500,
+    "refLatNorth": 46.04632,
+    "refLatSouth": 45.52362,
+    "refYNorth": 150,
+    "refYSouth": 1200
+  },
+  "stationIndex": [
+    {
+      "id": "zenbus:StopArea:SA:783540023:LOC",
+      "schematicId": "cegep",
+      "name": "Cégep de Sorel-Tracy",
+      "lat": 46.01548,
+      "lon": -73.15016,
+      "lines": ["10"],
+      "platformIds": ["zenbus:StopPoint:SP:787170058:LOC"],
+      "departureRouteIds": ["10"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:764720013:LOC",
+      "schematicId": "centre-ville",
+      "name": "Centre-ville",
+      "lat": 46.04312,
+      "lon": -73.11552,
+      "lines": ["10"],
+      "platformIds": ["zenbus:StopPoint:SP:775780012:LOC"],
+      "departureRouteIds": ["10"]
+    },
+    {
+      "id": "hotel-dieu",
+      "schematicId": "hotel-dieu",
+      "name": "Hôtel-Dieu",
+      "lat": 46.04608,
+      "lon": -73.09694,
+      "lines": ["10"],
+      "platformIds": ["zenbus:StopPoint:SP:750730089:LOC", "zenbus:StopPoint:SP:779600013:LOC"],
+      "departureRouteIds": ["10"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:795230011:LOC",
+      "schematicId": "plaza-tracy",
+      "name": "Plaza Tracy",
+      "lat": 46.01943,
+      "lon": -73.15178,
+      "lines": ["10", "750"],
+      "platformIds": ["zenbus:StopPoint:SP:795240015:LOC"],
+      "departureRouteIds": ["10", "750", "751", "752", "753"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:796850015:LOC",
+      "schematicId": "promenades",
+      "name": "Terminus des Promenades",
+      "lat": 46.02519,
+      "lon": -73.10692,
+      "lines": ["10", "750"],
+      "platformIds": ["zenbus:StopPoint:SP:787190036:LOC"],
+      "departureRouteIds": ["10", "750", "751", "752", "753"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:678460003:LOC",
+      "schematicId": "longueuil",
+      "name": "Terminus Longueuil",
+      "lat": 45.52362,
+      "lon": -73.52084,
+      "lines": ["750"],
+      "platformIds": ["zenbus:StopPoint:SP:756590002:LOC"],
+      "departureRouteIds": ["750", "751", "752", "753"]
+    }
+  ]
+}

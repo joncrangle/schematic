@@ -1,0 +1,12 @@
+header { gtfs_realtime_version: "2.0" timestamp: 1700000000 }
+entity {
+  id: "modification-entity"
+  trip_update {
+    trip { modified_trip { modifications_id: "detour-42" affected_trip_id: "trip-42" start_time: "09:00:00" start_date: "20231114" } }
+    stop_time_update {
+      stop_sequence: 2 stop_id: "hub-platform"
+      arrival { delay: 0 time: 1700000317 scheduled_time: 1700000000 }
+      departure { delay: 0 time: 1700000320 scheduled_time: 1700000000 }
+    }
+  }
+}

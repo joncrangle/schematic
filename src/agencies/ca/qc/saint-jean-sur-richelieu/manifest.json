@@ -1,0 +1,144 @@
+{
+  "id": "saint-jean-sur-richelieu",
+  "name": "Transport collectif de Saint-Jean-sur-Richelieu",
+  "serviceArea": "Saint-Jean-sur-Richelieu",
+  "shortName": "SJSR",
+  "locale": "fr-CA",
+  "timezone": "America/Montreal",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "bounds": [
+    {
+      "minLat": 45.27,
+      "maxLat": 45.372,
+      "minLon": -73.345,
+      "maxLon": -73.225
+    },
+    {
+      "minLat": 45.372,
+      "maxLat": 45.3825,
+      "minLon": -73.3835,
+      "maxLon": -73.345
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Ville de Saint-Jean-sur-Richelieu / Zenbus",
+    "url": "https://sjsr.ca/transport-collectif/",
+    "license": "Aucune licence explicite de réutilisation des données n'a été trouvée. Les horaires et les données en temps réel sont attribués à la Ville et à son fournisseur de données.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Ville de Saint-Jean-sur-Richelieu",
+        "url": "https://zenbus.net/gtfs/static/download.zip?dataset=saint-jean-sur-richelieu",
+        "cacheFileName": "saint-jean-sur-richelieu-gtfs.zip"
+      }
+    ],
+    "routeIdField": "short_name"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=saint-jean-sur-richelieu",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=saint-jean-sur-richelieu",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=saint-jean-sur-richelieu",
+      "language": "fr"
+    }
+  ],
+  "alertInterpretation": {
+    "routeIdNormalization": {
+      "aliases": {
+        "zenbus:Line:28030075:LOC": "10",
+        "zenbus:Line:38020072:LOC": "20",
+        "zenbus:Line:28050073:LOC": "30",
+        "zenbus:Line:28040066:LOC": "40",
+        "zenbus:Line:34020069:LOC": "50",
+        "zenbus:Line:12050073:LOC": "96A",
+        "zenbus:Line:32010071:LOC": "96E",
+        "zenbus:Line:8070075:LOC": "96S"
+      }
+    },
+    "routeLineMap": {
+      "zenbus:Line:28030075:LOC": "10",
+      "zenbus:Line:38020072:LOC": "20",
+      "zenbus:Line:28050073:LOC": "30",
+      "zenbus:Line:28040066:LOC": "40",
+      "zenbus:Line:34020069:LOC": "50",
+      "zenbus:Line:12050073:LOC": "96A",
+      "zenbus:Line:32010071:LOC": "96E",
+      "zenbus:Line:8070075:LOC": "96S",
+      "96S": "96E"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": ["détour", "arrêts non desservis", "arrêt non desservi"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 90,
+        "match": {
+          "titleIncludes": ["Travaux"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "lineIds": ["10", "20", "30", "40", "50", "96A", "96E"],
+    "routeNames": {
+      "10": ["Ligne bleue"],
+      "20": ["Ligne jaune"],
+      "30": ["Ligne orange"],
+      "40": ["Ligne rouge"],
+      "50": ["Ligne verte"],
+      "96A": ["96 A", "96A"],
+      "96E": ["96 Express", "96E"],
+      "96S": ["96 Super Express", "96S"]
+    }
+  },
+  "cityPresets": [
+    {
+      "name": "Terminus SJSR",
+      "lat": 45.326026,
+      "lon": -73.290911
+    },
+    {
+      "name": "Cégep Saint-Jean-sur-Richelieu",
+      "lat": 45.297233,
+      "lon": -73.266808
+    }
+  ],
+  "popularSurfaceRoutes": ["96A", "10", "20", "30", "40", "50", "96E", "96S"]
+}

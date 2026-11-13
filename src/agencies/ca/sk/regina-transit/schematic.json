@@ -1,0 +1,618 @@
+{
+  "viewBoxWidth": 1120,
+  "viewBoxHeight": 800,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Dieppe / Broad North",
+      "color": "#1AA68A",
+      "points": [
+        {
+          "x": 200,
+          "y": 400
+        },
+        {
+          "x": 455,
+          "y": 400
+        },
+        {
+          "x": 455,
+          "y": 240
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Argyle Park / Wood Meadows",
+      "color": "#FF8000",
+      "points": [
+        {
+          "x": 385,
+          "y": 160
+        },
+        {
+          "x": 465,
+          "y": 240
+        },
+        {
+          "x": 465,
+          "y": 385
+        },
+        {
+          "x": 860,
+          "y": 385
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Glencairn / Whitmore Park",
+      "color": "#0000FF",
+      "points": [
+        {
+          "x": 485,
+          "y": 720
+        },
+        {
+          "x": 485,
+          "y": 405
+        },
+        {
+          "x": 860,
+          "y": 405
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "University / Rochdale Express",
+      "color": "#FFFF00",
+      "points": [
+        {
+          "x": 260,
+          "y": 100
+        },
+        {
+          "x": 260,
+          "y": 145
+        },
+        {
+          "x": 445,
+          "y": 330
+        },
+        {
+          "x": 445,
+          "y": 400
+        },
+        {
+          "x": 645,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Albert Express",
+      "color": "#00CECE",
+      "points": [
+        {
+          "x": 260,
+          "y": 100
+        },
+        {
+          "x": 475,
+          "y": 100
+        },
+        {
+          "x": 475,
+          "y": 720
+        },
+        {
+          "x": 320,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Victoria Express",
+      "color": "#970000",
+      "points": [
+        {
+          "x": 480,
+          "y": 395
+        },
+        {
+          "x": 980,
+          "y": 395
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Arcola Express",
+      "color": "#808000",
+      "points": [
+        {
+          "x": 490,
+          "y": 415
+        },
+        {
+          "x": 600,
+          "y": 415
+        },
+        {
+          "x": 680,
+          "y": 495
+        },
+        {
+          "x": 900,
+          "y": 495
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "rochdale",
+      "name": "Rochdale Crossing",
+      "x": 260,
+      "y": 100,
+      "lines": ["30", "40"],
+      "label": {
+        "x": 235,
+        "y": 100,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "argyle-park",
+      "name": "Argyle Park",
+      "x": 385,
+      "y": 160,
+      "lines": ["2"],
+      "label": {
+        "x": 362,
+        "y": 160,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "northgate",
+      "name": "Northgate Mall",
+      "x": 465,
+      "y": 240,
+      "lines": ["1", "2", "40"],
+      "label": {
+        "x": 500,
+        "y": 240,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "dieppe",
+      "name": "Dieppe",
+      "x": 200,
+      "y": 400,
+      "lines": ["1"],
+      "label": {
+        "x": 175,
+        "y": 400,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown",
+      "x": 465,
+      "y": 400,
+      "lines": ["1", "2", "7", "30", "40", "50", "60"],
+      "label": {
+        "x": 425,
+        "y": 372,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "golden-mile",
+      "name": "Golden Mile",
+      "x": 480,
+      "y": 600,
+      "lines": ["7", "40"],
+      "label": {
+        "x": 450,
+        "y": 600,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "southland",
+      "name": "Southland Mall",
+      "x": 480,
+      "y": 720,
+      "lines": ["7", "40"],
+      "label": {
+        "x": 505,
+        "y": 720,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "grasslands",
+      "name": "Grasslands",
+      "x": 320,
+      "y": 720,
+      "lines": ["40"],
+      "label": {
+        "x": 295,
+        "y": 720,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "university",
+      "name": "University of Regina",
+      "x": 645,
+      "y": 600,
+      "lines": ["30"],
+      "label": {
+        "x": 645,
+        "y": 632,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "victoria-square",
+      "name": "Victoria Square Mall",
+      "x": 740,
+      "y": 395,
+      "lines": ["2", "7", "50"],
+      "label": {
+        "x": 740,
+        "y": 362,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "east-superstore",
+      "name": "East Superstore",
+      "x": 860,
+      "y": 395,
+      "lines": ["2", "7", "50"],
+      "label": {
+        "x": 860,
+        "y": 362,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora Boulevard",
+      "x": 980,
+      "y": 395,
+      "lines": ["50"],
+      "label": {
+        "x": 1005,
+        "y": 395,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "sandra-schmirler",
+      "name": "Sandra Schmirler Leisure Centre",
+      "x": 780,
+      "y": 495,
+      "lines": ["60"],
+      "label": {
+        "x": 780,
+        "y": 463,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "greens",
+      "name": "The Greens on Gardiner",
+      "x": 900,
+      "y": 495,
+      "lines": ["60"],
+      "label": {
+        "x": 925,
+        "y": 495,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 300,
+      "y": 430,
+      "color": "#1AA68A",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 620,
+      "y": 355,
+      "color": "#FF8000",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7",
+      "num": "7",
+      "x": 515,
+      "y": 670,
+      "color": "#0000FF",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "30",
+      "num": "30",
+      "x": 329,
+      "y": 260,
+      "color": "#FFFF00",
+      "textColor": "#000000"
+    },
+    {
+      "line": "40",
+      "num": "40",
+      "x": 360,
+      "y": 70,
+      "color": "#00CECE",
+      "textColor": "#000000"
+    },
+    {
+      "line": "50",
+      "num": "50",
+      "x": 920,
+      "y": 425,
+      "color": "#970000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "60",
+      "num": "60",
+      "x": 840,
+      "y": 525,
+      "color": "#808000",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 130,
+      "maxX": 1100,
+      "minY": 50,
+      "maxY": 770
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -104.7,
+    "refLonEast": -104.5,
+    "refXWest": 115.7,
+    "refXEast": 987.0,
+    "refLatNorth": 50.5,
+    "refLatSouth": 50.4,
+    "refYNorth": 79.1,
+    "refYSouth": 705.7
+  },
+  "sequences": {
+    "1": ["dieppe", "downtown", "northgate"],
+    "2": ["argyle-park", "northgate", "downtown", "victoria-square", "east-superstore"],
+    "7": ["southland", "golden-mile", "downtown", "victoria-square", "east-superstore"],
+    "30": ["rochdale", "downtown", "university"],
+    "40": ["rochdale", "northgate", "downtown", "golden-mile", "southland", "grasslands"],
+    "50": ["downtown", "victoria-square", "east-superstore", "aurora"],
+    "60": ["downtown", "sandra-schmirler", "greens"]
+  },
+  "stationAliases": {
+    "5th Ave N @ Cornwall St (WB)": "northgate",
+    "7th Ave N @ Cornwall St (EB)": "northgate",
+    "7th Ave N @ Smith St (EB)": "northgate",
+    "7th Ave N @ Smith St (WB)": "northgate",
+    "Albert St @ 12th Ave (SB)": "downtown",
+    "Albert St @ Victoria Ave (NB)": "downtown",
+    "Anaquod Rd @ Aurora Blvd (EB)": "aurora",
+    "Aurora Blvd @ Anaquod Rd (NB)": "aurora",
+    "Broad St @ Saskatchewan Dr (SB)": "downtown",
+    "Dewdney Ave @ 7100 Dewdney Ave (WB)": "dieppe",
+    "Dewdney Ave @ Courtney St (EB)": "dieppe",
+    "Gordon Rd @ Lockwood Rd (WB)": "southland",
+    "Gordon Rd @ Rae St (EB)": "southland",
+    "Green Bank Rd @ Green Pine Gate (NB)": "greens",
+    "Harvard Way @ Grasslands Dr (NB)": "grasslands",
+    "Lorne St @ 12th Ave (NB)": "downtown",
+    "Lorne St @ Victoria Ave (NB)": "downtown",
+    "Pasqua Gate E @ Sangster Blvd (WB)": "argyle-park",
+    "Pasqua Gate East @ Pasqua St (EB)": "argyle-park",
+    "Quance St @ Vic Square Mall (EB)": "victoria-square",
+    "Quance St @ Victoria Square Mall (WB)": "victoria-square",
+    "Rae St @ Golden Mile (NB)": "golden-mile",
+    "Rae St @ Golden Mile (SB)": "golden-mile",
+    "Rochdale Blvd @ Lakeridge Rd (WB)": "rochdale",
+    "Rochdale Blvd @ Sherwood Mall (EB)": "rochdale",
+    "Smith St @ 7th Ave N (SB)": "northgate",
+    "Southland Mall @ Plainsview Rd (WB)": "southland",
+    "University Dr W @ Riddell Centre (NB)": "university",
+    "University Dr W @ Riddell Centre (SB)": "university",
+    "University Park Dr @ Vic Sq Mall (SB)": "victoria-square",
+    "Victoria Ave @ Lorne St (EB)": "downtown",
+    "Victoria Ave @ Scarth St (WB)": "downtown",
+    "Westfair Rd @ Superstore (WB)": "east-superstore",
+    "Woodhams Rd @ SS Leisure Centre (EB)": "sandra-schmirler"
+  },
+  "stationIndex": [
+    {
+      "id": "argyle-park",
+      "schematicId": "argyle-park",
+      "name": "Argyle Park",
+      "lat": 50.48983,
+      "lon": -104.639141,
+      "lines": ["2"],
+      "platformIds": ["1255", "1256"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "aurora",
+      "schematicId": "aurora",
+      "name": "Aurora Boulevard",
+      "lat": 50.444897,
+      "lon": -104.508635,
+      "lines": ["50"],
+      "platformIds": ["1666", "1668"],
+      "departureRouteIds": ["50"]
+    },
+    {
+      "id": "dieppe",
+      "schematicId": "dieppe",
+      "name": "Dieppe",
+      "lat": 50.45525,
+      "lon": -104.68471,
+      "lines": ["1"],
+      "platformIds": ["0143", "1649"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "Downtown",
+      "lat": 50.45119,
+      "lon": -104.60656,
+      "lines": ["1", "2", "30", "40", "50", "60", "7"],
+      "platformIds": ["0112", "0360", "0404", "0959", "1547", "3998", "4001", "4004"],
+      "departureRouteIds": [
+        "1",
+        "10",
+        "12",
+        "15",
+        "2",
+        "24",
+        "3",
+        "30",
+        "4",
+        "40",
+        "5",
+        "50",
+        "60",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "0528",
+      "schematicId": "east-superstore",
+      "name": "East Superstore",
+      "lat": 50.44552,
+      "lon": -104.52936,
+      "lines": ["2", "50", "7"],
+      "platformIds": ["0528"],
+      "departureRouteIds": ["12", "2", "50", "7", "9"]
+    },
+    {
+      "id": "golden-mile",
+      "schematicId": "golden-mile",
+      "name": "Golden Mile",
+      "lat": 50.41775,
+      "lon": -104.62102,
+      "lines": ["40", "7"],
+      "platformIds": ["0261", "0584"],
+      "departureRouteIds": ["18", "4", "40", "7", "8", "9"]
+    },
+    {
+      "id": "1566",
+      "schematicId": "grasslands",
+      "name": "Grasslands",
+      "lat": 50.40727,
+      "lon": -104.648192,
+      "lines": ["40"],
+      "platformIds": ["1566"],
+      "departureRouteIds": ["18", "40", "7", "9"]
+    },
+    {
+      "id": "northgate",
+      "schematicId": "northgate",
+      "name": "Northgate Mall",
+      "lat": 50.4771,
+      "lon": -104.61274,
+      "lines": ["1", "2", "40"],
+      "platformIds": ["0056", "0060", "0088", "0089", "0166"],
+      "departureRouteIds": ["1", "2", "40", "5", "6"]
+    },
+    {
+      "id": "rochdale",
+      "schematicId": "rochdale",
+      "name": "Rochdale Crossing",
+      "lat": 50.4956,
+      "lon": -104.66611,
+      "lines": ["30", "40"],
+      "platformIds": ["0202", "0440"],
+      "departureRouteIds": ["16", "17", "3", "30", "4", "40"]
+    },
+    {
+      "id": "0830",
+      "schematicId": "sandra-schmirler",
+      "name": "Sandra Schmirler Leisure Centre",
+      "lat": 50.428881,
+      "lon": -104.535271,
+      "lines": ["60"],
+      "platformIds": ["0830"],
+      "departureRouteIds": ["12", "22", "60"]
+    },
+    {
+      "id": "southland",
+      "schematicId": "southland",
+      "name": "Southland Mall",
+      "lat": 50.40198,
+      "lon": -104.62468,
+      "lines": ["40", "7"],
+      "platformIds": ["0602", "0773", "1264", "1641"],
+      "departureRouteIds": ["40", "7", "8", "9"]
+    },
+    {
+      "id": "1614",
+      "schematicId": "greens",
+      "name": "The Greens on Gardiner",
+      "lat": 50.423808,
+      "lon": -104.524057,
+      "lines": ["60"],
+      "platformIds": ["1614"],
+      "departureRouteIds": ["60"]
+    },
+    {
+      "id": "university",
+      "schematicId": "university",
+      "name": "University of Regina",
+      "lat": 50.41594,
+      "lon": -104.59242,
+      "lines": ["30"],
+      "platformIds": ["0249", "0270"],
+      "departureRouteIds": ["21", "22", "3", "30", "4"]
+    },
+    {
+      "id": "victoria-square",
+      "schematicId": "victoria-square",
+      "name": "Victoria Square Mall",
+      "lat": 50.44485,
+      "lon": -104.549331,
+      "lines": ["2", "50", "7"],
+      "platformIds": ["0520", "0819", "1038"],
+      "departureRouteIds": ["2", "21", "50", "7"]
+    }
+  ]
+}

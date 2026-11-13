@@ -1,0 +1,1371 @@
+{
+  "id": "ontario-northland",
+  "name": "Ontario Northland",
+  "serviceArea": "Northern Ontario",
+  "serviceAreaTranslations": { "fr": "Nord de l’Ontario" },
+  "shortName": "ONTC",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 46.438031,
+      "maxLat": 46.446031,
+      "minLon": -80.317163,
+      "maxLon": -80.305163
+    },
+    {
+      "minLat": 46.41065,
+      "maxLat": 46.41865,
+      "minLon": -80.13994,
+      "maxLon": -80.12794
+    },
+    {
+      "minLat": 46.362568,
+      "maxLat": 46.370568,
+      "minLon": -79.923066,
+      "maxLon": -79.911066
+    },
+    {
+      "minLat": 46.312381,
+      "maxLat": 46.320381,
+      "minLon": -78.708492,
+      "maxLon": -78.696492
+    },
+    {
+      "minLat": 46.099038,
+      "maxLat": 46.107038,
+      "minLon": -77.512242,
+      "maxLon": -77.500242
+    },
+    {
+      "minLat": 46.015614,
+      "maxLat": 46.023614,
+      "minLon": -77.456261,
+      "maxLon": -77.444261
+    },
+    {
+      "minLat": 45.897821,
+      "maxLat": 45.905821,
+      "minLon": -77.290713,
+      "maxLon": -77.278713
+    },
+    {
+      "minLat": 45.822163,
+      "maxLat": 45.830163,
+      "minLon": -77.122359,
+      "maxLon": -77.110359
+    },
+    {
+      "minLat": 45.624947,
+      "maxLat": 45.632947,
+      "minLon": -76.885994,
+      "maxLon": -76.873994
+    },
+    {
+      "minLat": 45.465493,
+      "maxLat": 45.473493,
+      "minLon": -76.674107,
+      "maxLon": -76.662107
+    },
+    {
+      "minLat": 45.418733,
+      "maxLat": 45.426733,
+      "minLon": -76.374779,
+      "maxLon": -76.362779
+    },
+    {
+      "minLat": 47.523505,
+      "maxLat": 47.531505,
+      "minLon": -79.680724,
+      "maxLon": -79.668724
+    },
+    {
+      "minLat": 48.546008,
+      "maxLat": 48.554008,
+      "minLon": -80.992989,
+      "maxLon": -80.980989
+    },
+    {
+      "minLat": 45.20672,
+      "maxLat": 45.21472,
+      "minLon": -79.798188,
+      "maxLon": -79.786188
+    },
+    {
+      "minLat": 46.33992,
+      "maxLat": 46.34792,
+      "minLon": -79.49751,
+      "maxLon": -79.48551
+    },
+    {
+      "minLat": 47.671405,
+      "maxLat": 47.679405,
+      "minLon": -81.730844,
+      "maxLon": -81.718844
+    },
+    {
+      "minLat": 47.467699,
+      "maxLat": 47.475699,
+      "minLon": -81.852996,
+      "maxLon": -81.840996
+    },
+    {
+      "minLat": 46.904316,
+      "maxLat": 46.912316,
+      "minLon": -81.638296,
+      "maxLon": -81.626296
+    },
+    {
+      "minLat": 46.696765,
+      "maxLat": 46.704765,
+      "minLon": -81.561914,
+      "maxLon": -81.549914
+    },
+    {
+      "minLat": 46.621082,
+      "maxLat": 46.629082,
+      "minLon": -81.459777,
+      "maxLon": -81.447777
+    },
+    {
+      "minLat": 46.582209,
+      "maxLat": 46.590209,
+      "minLon": -81.340613,
+      "maxLon": -81.328613
+    },
+    {
+      "minLat": 46.564962,
+      "maxLat": 46.572962,
+      "minLon": -81.206551,
+      "maxLon": -81.194551
+    },
+    {
+      "minLat": 46.547673,
+      "maxLat": 46.555673,
+      "minLon": -81.117308,
+      "maxLon": -81.105308
+    },
+    {
+      "minLat": 46.500998,
+      "maxLat": 46.508998,
+      "minLon": -80.944118,
+      "maxLon": -80.932118
+    },
+    {
+      "minLat": 46.461529,
+      "maxLat": 46.469529,
+      "minLon": -80.97636,
+      "maxLon": -80.96436
+    },
+    {
+      "minLat": 46.10027,
+      "maxLat": 46.10827,
+      "minLon": -80.616499,
+      "maxLon": -80.604499
+    },
+    {
+      "minLat": 45.890568,
+      "maxLat": 45.898568,
+      "minLon": -80.572324,
+      "maxLon": -80.560324
+    },
+    {
+      "minLat": 45.766579,
+      "maxLat": 45.774579,
+      "minLon": -80.503424,
+      "maxLon": -80.491424
+    },
+    {
+      "minLat": 45.592451,
+      "maxLat": 45.600451,
+      "minLon": -80.380063,
+      "maxLon": -80.368063
+    },
+    {
+      "minLat": 45.339456,
+      "maxLat": 45.347456,
+      "minLon": -80.016127,
+      "maxLon": -80.004127
+    },
+    {
+      "minLat": 45.285825,
+      "maxLat": 45.293825,
+      "minLon": -79.856962,
+      "maxLon": -79.844962
+    },
+    {
+      "minLat": 45.114721,
+      "maxLat": 45.122721,
+      "minLon": -79.763348,
+      "maxLon": -79.751348
+    },
+    {
+      "minLat": 44.804121,
+      "maxLat": 44.812121,
+      "minLon": -79.74094,
+      "maxLon": -79.72894
+    },
+    {
+      "minLat": 44.70386,
+      "maxLat": 44.71186,
+      "minLon": -79.649037,
+      "maxLon": -79.637037
+    },
+    {
+      "minLat": 44.592961,
+      "maxLat": 44.600961,
+      "minLon": -79.415994,
+      "maxLon": -79.403994
+    },
+    {
+      "minLat": 44.682187,
+      "maxLat": 44.690187,
+      "minLon": -79.409222,
+      "maxLon": -79.397222
+    },
+    {
+      "minLat": 44.746393,
+      "maxLat": 44.754393,
+      "minLon": -79.339544,
+      "maxLon": -79.327544
+    },
+    {
+      "minLat": 44.841016,
+      "maxLat": 44.849016,
+      "minLon": -79.322968,
+      "maxLon": -79.310968
+    },
+    {
+      "minLat": 45.214371,
+      "maxLat": 45.222371,
+      "minLon": -79.312008,
+      "maxLon": -79.300008
+    },
+    {
+      "minLat": 45.447118,
+      "maxLat": 45.455118,
+      "minLon": -79.253835,
+      "maxLon": -79.241835
+    },
+    {
+      "minLat": 45.619655,
+      "maxLat": 45.627655,
+      "minLon": -79.416127,
+      "maxLon": -79.404127
+    },
+    {
+      "minLat": 45.76643,
+      "maxLat": 45.77443,
+      "minLon": -79.398231,
+      "maxLon": -79.386231
+    },
+    {
+      "minLat": 45.834877,
+      "maxLat": 45.842877,
+      "minLon": -79.384443,
+      "maxLon": -79.372443
+    },
+    {
+      "minLat": 45.982895,
+      "maxLat": 45.990895,
+      "minLon": -79.365553,
+      "maxLon": -79.353553
+    },
+    {
+      "minLat": 46.077981,
+      "maxLat": 46.085981,
+      "minLon": -79.370521,
+      "maxLon": -79.358521
+    },
+    {
+      "minLat": 46.330234,
+      "maxLat": 46.338234,
+      "minLon": -79.494205,
+      "maxLon": -79.482205
+    },
+    {
+      "minLat": 46.578619,
+      "maxLat": 46.586619,
+      "minLon": -79.643895,
+      "maxLon": -79.631895
+    },
+    {
+      "minLat": 46.731333,
+      "maxLat": 46.739333,
+      "minLon": -79.809654,
+      "maxLon": -79.797654
+    },
+    {
+      "minLat": 47.059711,
+      "maxLat": 47.067711,
+      "minLon": -79.795197,
+      "maxLon": -79.783197
+    },
+    {
+      "minLat": 47.322039,
+      "maxLat": 47.330039,
+      "minLon": -79.816919,
+      "maxLon": -79.804919
+    },
+    {
+      "minLat": 47.376902,
+      "maxLat": 47.384902,
+      "minLon": -79.737584,
+      "maxLon": -79.725584
+    },
+    {
+      "minLat": 47.388927,
+      "maxLat": 47.396927,
+      "minLon": -79.692912,
+      "maxLon": -79.680912
+    },
+    {
+      "minLat": 47.438052,
+      "maxLat": 47.446052,
+      "minLon": -79.643523,
+      "maxLon": -79.631523
+    },
+    {
+      "minLat": 47.66373,
+      "maxLat": 47.67173,
+      "minLon": -79.743972,
+      "maxLon": -79.731972
+    },
+    {
+      "minLat": 47.707004,
+      "maxLat": 47.715004,
+      "minLon": -79.829446,
+      "maxLon": -79.817446
+    },
+    {
+      "minLat": 48.069012,
+      "maxLat": 48.077012,
+      "minLon": -80.041009,
+      "maxLon": -80.029009
+    },
+    {
+      "minLat": 48.143776,
+      "maxLat": 48.151776,
+      "minLon": -80.05123,
+      "maxLon": -80.03923
+    },
+    {
+      "minLat": 48.10385,
+      "maxLat": 48.11185,
+      "minLon": -80.109971,
+      "maxLon": -80.097971
+    },
+    {
+      "minLat": 48.096175,
+      "maxLat": 48.104175,
+      "minLon": -80.201609,
+      "maxLon": -80.189609
+    },
+    {
+      "minLat": 48.162586,
+      "maxLat": 48.170586,
+      "minLon": -80.255729,
+      "maxLon": -80.243729
+    },
+    {
+      "minLat": 48.338858,
+      "maxLat": 48.346858,
+      "minLon": -80.259077,
+      "maxLon": -80.247077
+    },
+    {
+      "minLat": 48.429637,
+      "maxLat": 48.437637,
+      "minLon": -80.333073,
+      "maxLon": -80.321073
+    },
+    {
+      "minLat": 48.532381,
+      "maxLat": 48.540381,
+      "minLon": -80.471781,
+      "maxLon": -80.459781
+    },
+    {
+      "minLat": 48.533791,
+      "maxLat": 48.541791,
+      "minLon": -80.686711,
+      "maxLon": -80.674711
+    },
+    {
+      "minLat": 48.541258,
+      "maxLat": 48.549258,
+      "minLon": -80.896792,
+      "maxLon": -80.884792
+    },
+    {
+      "minLat": 48.544913,
+      "maxLat": 48.552913,
+      "minLon": -81.063798,
+      "maxLon": -81.051798
+    },
+    {
+      "minLat": 48.470627,
+      "maxLat": 48.478627,
+      "minLon": -81.332806,
+      "maxLon": -81.320806
+    },
+    {
+      "minLat": 48.483871,
+      "maxLat": 48.491871,
+      "minLon": -81.206476,
+      "maxLon": -81.194476
+    },
+    {
+      "minLat": 48.481373,
+      "maxLat": 48.489373,
+      "minLon": -81.21724,
+      "maxLon": -81.20524
+    },
+    {
+      "minLat": 48.598827,
+      "maxLat": 48.606827,
+      "minLon": -80.644494,
+      "maxLon": -80.632494
+    },
+    {
+      "minLat": 48.707,
+      "maxLat": 48.715,
+      "minLon": -80.789074,
+      "maxLon": -80.777074
+    },
+    {
+      "minLat": 48.76172,
+      "maxLat": 48.76972,
+      "minLon": -80.68662,
+      "maxLon": -80.67462
+    },
+    {
+      "minLat": 48.764893,
+      "maxLat": 48.772893,
+      "minLon": -80.807227,
+      "maxLon": -80.795227
+    },
+    {
+      "minLat": 49.056269,
+      "maxLat": 49.064269,
+      "minLon": -81.029339,
+      "maxLon": -81.017339
+    },
+    {
+      "minLat": 49.117109,
+      "maxLat": 49.125109,
+      "minLon": -81.388218,
+      "maxLon": -81.376218
+    },
+    {
+      "minLat": 49.276229,
+      "maxLat": 49.284229,
+      "minLon": -81.639338,
+      "maxLon": -81.627338
+    },
+    {
+      "minLat": 49.28398,
+      "maxLat": 49.29198,
+      "minLon": -81.873711,
+      "maxLon": -81.861711
+    },
+    {
+      "minLat": 49.307564,
+      "maxLat": 49.315564,
+      "minLon": -82.039712,
+      "maxLon": -82.027712
+    },
+    {
+      "minLat": 49.340823,
+      "maxLat": 49.348823,
+      "minLon": -82.165878,
+      "maxLon": -82.153878
+    },
+    {
+      "minLat": 49.411685,
+      "maxLat": 49.419685,
+      "minLon": -82.426641,
+      "maxLon": -82.414641
+    },
+    {
+      "minLat": 49.470717,
+      "maxLat": 49.478717,
+      "minLon": -82.687657,
+      "maxLon": -82.675657
+    },
+    {
+      "minLat": 49.522985,
+      "maxLat": 49.530985,
+      "minLon": -82.871617,
+      "maxLon": -82.859617
+    },
+    {
+      "minLat": 49.608807,
+      "maxLat": 49.616807,
+      "minLon": -83.269165,
+      "maxLon": -83.257165
+    },
+    {
+      "minLat": 49.639236,
+      "maxLat": 49.647236,
+      "minLon": -83.410584,
+      "maxLon": -83.398584
+    },
+    {
+      "minLat": 49.686562,
+      "maxLat": 49.694562,
+      "minLon": -83.677051,
+      "maxLon": -83.665051
+    },
+    {
+      "minLat": 46.309775,
+      "maxLat": 46.317775,
+      "minLon": -79.44416,
+      "maxLon": -79.43216
+    },
+    {
+      "minLat": 45.319578,
+      "maxLat": 45.327578,
+      "minLon": -79.231697,
+      "maxLon": -79.219697
+    },
+    {
+      "minLat": 45.026707,
+      "maxLat": 45.034707,
+      "minLon": -79.319337,
+      "maxLon": -79.307337
+    },
+    {
+      "minLat": 44.913349,
+      "maxLat": 44.921349,
+      "minLon": -79.378233,
+      "maxLon": -79.366233
+    },
+    {
+      "minLat": 43.720947,
+      "maxLat": 43.728947,
+      "minLon": -79.454807,
+      "maxLon": -79.442807
+    },
+    {
+      "minLat": 46.331546,
+      "maxLat": 46.339546,
+      "minLon": -79.503411,
+      "maxLon": -79.491411
+    },
+    {
+      "minLat": 47.491249,
+      "maxLat": 47.499249,
+      "minLon": -79.699891,
+      "maxLon": -79.687891
+    },
+    {
+      "minLat": 48.483074,
+      "maxLat": 48.491074,
+      "minLon": -81.320394,
+      "maxLon": -81.308394
+    },
+    {
+      "minLat": 47.819478,
+      "maxLat": 47.827478,
+      "minLon": -79.885238,
+      "maxLon": -79.873238
+    },
+    {
+      "minLat": 43.779446,
+      "maxLat": 43.787446,
+      "minLon": -79.529574,
+      "maxLon": -79.517574
+    },
+    {
+      "minLat": 49.439812,
+      "maxLat": 49.447812,
+      "minLon": -82.546114,
+      "maxLon": -82.534114
+    },
+    {
+      "minLat": 43.639875,
+      "maxLat": 43.647875,
+      "minLon": -79.383302,
+      "maxLon": -79.371302
+    },
+    {
+      "minLat": 43.916493,
+      "maxLat": 43.924493,
+      "minLon": -79.532015,
+      "maxLon": -79.520015
+    },
+    {
+      "minLat": 46.491265,
+      "maxLat": 46.499265,
+      "minLon": -80.893699,
+      "maxLon": -80.881699
+    },
+    {
+      "minLat": 44.88263,
+      "maxLat": 44.89063,
+      "minLon": -79.35485,
+      "maxLon": -79.34285
+    },
+    {
+      "minLat": 45.03973,
+      "maxLat": 45.04773,
+      "minLon": -79.328578,
+      "maxLon": -79.316578
+    },
+    {
+      "minLat": 44.675072,
+      "maxLat": 44.683072,
+      "minLon": -79.412371,
+      "maxLon": -79.400371
+    },
+    {
+      "minLat": 48.204632,
+      "maxLat": 48.212632,
+      "minLon": -80.266601,
+      "maxLon": -80.254601
+    },
+    {
+      "minLat": 48.095758,
+      "maxLat": 48.103758,
+      "minLon": -80.201215,
+      "maxLon": -80.189215
+    },
+    {
+      "minLat": 46.015002,
+      "maxLat": 46.023002,
+      "minLon": -77.45555,
+      "maxLon": -77.44355
+    },
+    {
+      "minLat": 49.40937,
+      "maxLat": 49.41737,
+      "minLon": -82.426511,
+      "maxLon": -82.414511
+    },
+    {
+      "minLat": 44.577192,
+      "maxLat": 44.585192,
+      "minLon": -79.435608,
+      "maxLon": -79.423608
+    },
+    {
+      "minLat": 44.604925,
+      "maxLat": 44.612925,
+      "minLon": -79.426321,
+      "maxLon": -79.414321
+    },
+    {
+      "minLat": 47.795,
+      "maxLat": 47.803,
+      "minLon": -81.528308,
+      "maxLon": -81.516308
+    },
+    {
+      "minLat": 45.508179,
+      "maxLat": 45.516179,
+      "minLon": -79.309403,
+      "maxLon": -79.297403
+    },
+    {
+      "minLat": 44.370099,
+      "maxLat": 44.378099,
+      "minLon": -79.696194,
+      "maxLon": -79.684194
+    },
+    {
+      "minLat": 46.45126,
+      "maxLat": 46.45926,
+      "minLon": -80.422,
+      "maxLon": -80.41
+    },
+    {
+      "minLat": 46.183426,
+      "maxLat": 46.191426,
+      "minLon": -82.929583,
+      "maxLon": -82.917583
+    },
+    {
+      "minLat": 46.463178,
+      "maxLat": 46.471178,
+      "minLon": -81.001902,
+      "maxLon": -80.989902
+    },
+    {
+      "minLat": 46.181146,
+      "maxLat": 46.189146,
+      "minLon": -82.934996,
+      "maxLon": -82.922996
+    },
+    {
+      "minLat": 46.32548,
+      "maxLat": 46.33348,
+      "minLon": -81.59456,
+      "maxLon": -81.58256
+    },
+    {
+      "minLat": 46.257208,
+      "maxLat": 46.265208,
+      "minLon": -81.775427,
+      "maxLon": -81.763427
+    },
+    {
+      "minLat": 46.26582,
+      "maxLat": 46.27382,
+      "minLon": -81.89212,
+      "maxLon": -81.88012
+    },
+    {
+      "minLat": 46.208689,
+      "maxLat": 46.216689,
+      "minLon": -82.081823,
+      "maxLon": -82.069823
+    },
+    {
+      "minLat": 46.19194,
+      "maxLat": 46.19994,
+      "minLon": -82.35156,
+      "maxLon": -82.33956
+    },
+    {
+      "minLat": 46.20775,
+      "maxLat": 46.21575,
+      "minLon": -82.60782,
+      "maxLon": -82.59582
+    },
+    {
+      "minLat": 46.4837,
+      "maxLat": 46.4917,
+      "minLon": -80.79591,
+      "maxLon": -80.78391
+    },
+    {
+      "minLat": 46.27479,
+      "maxLat": 46.28279,
+      "minLon": -83.22601,
+      "maxLon": -83.21401
+    },
+    {
+      "minLat": 46.252643,
+      "maxLat": 46.260643,
+      "minLon": -83.563427,
+      "maxLon": -83.551427
+    },
+    {
+      "minLat": 46.29642,
+      "maxLat": 46.30442,
+      "minLon": -83.79957,
+      "maxLon": -83.78757
+    },
+    {
+      "minLat": 46.48045,
+      "maxLat": 46.48845,
+      "minLon": -84.07621,
+      "maxLon": -84.06421
+    },
+    {
+      "minLat": 46.54159,
+      "maxLat": 46.54959,
+      "minLon": -84.1689,
+      "maxLon": -84.1569
+    },
+    {
+      "minLat": 46.528568,
+      "maxLat": 46.536568,
+      "minLon": -84.321283,
+      "maxLon": -84.309283
+    },
+    {
+      "minLat": 46.54494,
+      "maxLat": 46.55294,
+      "minLon": -84.31809,
+      "maxLon": -84.30609
+    },
+    {
+      "minLat": 46.63836,
+      "maxLat": 46.64636,
+      "minLon": -84.31285,
+      "maxLon": -84.30085
+    },
+    {
+      "minLat": 46.92286,
+      "maxLat": 46.93086,
+      "minLon": -84.42989,
+      "maxLon": -84.41789
+    },
+    {
+      "minLat": 46.72965,
+      "maxLat": 46.73765,
+      "minLon": -84.35532,
+      "maxLon": -84.34332
+    },
+    {
+      "minLat": 47.979344,
+      "maxLat": 47.987344,
+      "minLon": -84.786006,
+      "maxLon": -84.774006
+    },
+    {
+      "minLat": 48.589008,
+      "maxLat": 48.597008,
+      "minLon": -85.2809,
+      "maxLon": -85.2689
+    },
+    {
+      "minLat": 46.130727,
+      "maxLat": 46.138727,
+      "minLon": -77.560327,
+      "maxLon": -77.548327
+    },
+    {
+      "minLat": 46.167579,
+      "maxLat": 46.175579,
+      "minLon": -77.703334,
+      "maxLon": -77.691334
+    },
+    {
+      "minLat": 46.209283,
+      "maxLat": 46.217283,
+      "minLon": -77.902782,
+      "maxLon": -77.890782
+    },
+    {
+      "minLat": 46.247993,
+      "maxLat": 46.255993,
+      "minLon": -78.292513,
+      "maxLon": -78.280513
+    },
+    {
+      "minLat": 46.266394,
+      "maxLat": 46.274394,
+      "minLon": -79.046451,
+      "maxLon": -79.034451
+    },
+    {
+      "minLat": 46.270945,
+      "maxLat": 46.278945,
+      "minLon": -83.441381,
+      "maxLon": -83.429381
+    },
+    {
+      "minLat": 46.341873,
+      "maxLat": 46.349873,
+      "minLon": -83.92892,
+      "maxLon": -83.91692
+    },
+    {
+      "minLat": 46.278617,
+      "maxLat": 46.286617,
+      "minLon": -83.418115,
+      "maxLon": -83.406115
+    },
+    {
+      "minLat": 46.283497,
+      "maxLat": 46.291497,
+      "minLon": -83.689706,
+      "maxLon": -83.677706
+    },
+    {
+      "minLat": 46.284579,
+      "maxLat": 46.292579,
+      "minLon": -83.710712,
+      "maxLon": -83.698712
+    },
+    {
+      "minLat": 46.334057,
+      "maxLat": 46.342057,
+      "minLon": -84.051044,
+      "maxLon": -84.039044
+    },
+    {
+      "minLat": 46.313636,
+      "maxLat": 46.321636,
+      "minLon": -83.871064,
+      "maxLon": -83.859064
+    },
+    {
+      "minLat": 46.311005,
+      "maxLat": 46.319005,
+      "minLon": -83.859179,
+      "maxLon": -83.847179
+    },
+    {
+      "minLat": 47.327462,
+      "maxLat": 47.335462,
+      "minLon": -84.619299,
+      "maxLon": -84.607299
+    },
+    {
+      "minLat": 49.597142,
+      "maxLat": 49.605142,
+      "minLon": -87.965918,
+      "maxLon": -87.953918
+    },
+    {
+      "minLat": 49.723147,
+      "maxLat": 49.731147,
+      "minLon": -86.953171,
+      "maxLon": -86.941171
+    },
+    {
+      "minLat": 49.777904,
+      "maxLat": 49.785904,
+      "minLon": -86.539171,
+      "maxLon": -86.527171
+    },
+    {
+      "minLat": 45.305762,
+      "maxLat": 45.313762,
+      "minLon": -75.912202,
+      "maxLon": -75.900202
+    },
+    {
+      "minLat": 48.696699,
+      "maxLat": 48.704699,
+      "minLon": -85.542827,
+      "maxLon": -85.530827
+    },
+    {
+      "minLat": 47.822567,
+      "maxLat": 47.830567,
+      "minLon": -79.879063,
+      "maxLon": -79.867063
+    },
+    {
+      "minLat": 46.542081,
+      "maxLat": 46.550081,
+      "minLon": -84.330177,
+      "maxLon": -84.318177
+    },
+    {
+      "minLat": 48.71675,
+      "maxLat": 48.72475,
+      "minLon": -86.37942,
+      "maxLon": -86.36742
+    },
+    {
+      "minLat": 48.779002,
+      "maxLat": 48.787002,
+      "minLon": -87.106109,
+      "maxLon": -87.094109
+    },
+    {
+      "minLat": 48.810334,
+      "maxLat": 48.818334,
+      "minLon": -87.274634,
+      "maxLon": -87.262634
+    },
+    {
+      "minLat": 48.87817,
+      "maxLat": 48.88617,
+      "minLon": -87.562322,
+      "maxLon": -87.550322
+    },
+    {
+      "minLat": 49.009895,
+      "maxLat": 49.017895,
+      "minLon": -88.269718,
+      "maxLon": -88.257718
+    },
+    {
+      "minLat": 48.368586,
+      "maxLat": 48.376586,
+      "minLon": -89.309263,
+      "maxLon": -89.297263
+    },
+    {
+      "minLat": 48.422016,
+      "maxLat": 48.430016,
+      "minLon": -89.276279,
+      "maxLon": -89.264279
+    },
+    {
+      "minLat": 48.418384,
+      "maxLat": 48.426384,
+      "minLon": -89.266898,
+      "maxLon": -89.254898
+    },
+    {
+      "minLat": 48.699996,
+      "maxLat": 48.707996,
+      "minLon": -85.864968,
+      "maxLon": -85.852968
+    },
+    {
+      "minLat": 49.037418,
+      "maxLat": 49.045418,
+      "minLon": -90.474471,
+      "maxLon": -90.462471
+    },
+    {
+      "minLat": 49.412731,
+      "maxLat": 49.420731,
+      "minLon": -91.669682,
+      "maxLon": -91.657682
+    },
+    {
+      "minLat": 49.785325,
+      "maxLat": 49.793325,
+      "minLon": -92.834141,
+      "maxLon": -92.822141
+    },
+    {
+      "minLat": 49.850894,
+      "maxLat": 49.858894,
+      "minLon": -93.390541,
+      "maxLon": -93.378541
+    },
+    {
+      "minLat": 49.75556,
+      "maxLat": 49.76356,
+      "minLon": -94.47497,
+      "maxLon": -94.46297
+    },
+    {
+      "minLat": 49.645238,
+      "maxLat": 49.653238,
+      "minLon": -95.799027,
+      "maxLon": -95.787027
+    },
+    {
+      "minLat": 49.850448,
+      "maxLat": 49.858448,
+      "minLon": -97.084521,
+      "maxLon": -97.072521
+    },
+    {
+      "minLat": 49.902621,
+      "maxLat": 49.910621,
+      "minLon": -97.160173,
+      "maxLon": -97.148173
+    },
+    {
+      "minLat": 48.89872,
+      "maxLat": 48.90672,
+      "minLon": -90.033417,
+      "maxLon": -90.021417
+    },
+    {
+      "minLat": 49.736095,
+      "maxLat": 49.744095,
+      "minLon": -95.143544,
+      "maxLon": -95.131544
+    },
+    {
+      "minLat": 49.735306,
+      "maxLat": 49.743306,
+      "minLon": -95.159135,
+      "maxLon": -95.147135
+    },
+    {
+      "minLat": 49.403583,
+      "maxLat": 49.411583,
+      "minLon": -94.100612,
+      "maxLon": -94.088612
+    },
+    {
+      "minLat": 49.110438,
+      "maxLat": 49.118438,
+      "minLon": -93.932411,
+      "maxLon": -93.920411
+    },
+    {
+      "minLat": 48.629226,
+      "maxLat": 48.637226,
+      "minLon": -93.8364,
+      "maxLon": -93.8244
+    },
+    {
+      "minLat": 48.617178,
+      "maxLat": 48.625178,
+      "minLon": -93.679294,
+      "maxLon": -93.667294
+    },
+    {
+      "minLat": 48.606282,
+      "maxLat": 48.614282,
+      "minLon": -93.39255,
+      "maxLon": -93.38055
+    },
+    {
+      "minLat": 48.629116,
+      "maxLat": 48.637116,
+      "minLon": -93.36775,
+      "maxLon": -93.35575
+    },
+    {
+      "minLat": 48.75109,
+      "maxLat": 48.75909,
+      "minLon": -91.613876,
+      "maxLon": -91.601876
+    },
+    {
+      "minLat": 48.724837,
+      "maxLat": 48.732837,
+      "minLon": -91.655342,
+      "maxLon": -91.643342
+    },
+    {
+      "minLat": 48.397606,
+      "maxLat": 48.405606,
+      "minLon": -89.621232,
+      "maxLon": -89.609232
+    },
+    {
+      "minLat": 48.60292,
+      "maxLat": 48.61092,
+      "minLon": -93.430256,
+      "maxLon": -93.418256
+    },
+    {
+      "minLat": 49.763397,
+      "maxLat": 49.771397,
+      "minLon": -94.506512,
+      "maxLon": -94.494512
+    },
+    {
+      "minLat": 45.39597,
+      "maxLat": 45.40397,
+      "minLon": -75.65337,
+      "maxLon": -75.64137
+    },
+    {
+      "minLat": 45.39566,
+      "maxLat": 45.40366,
+      "minLon": -75.65715,
+      "maxLon": -75.64515
+    },
+    {
+      "minLat": 45.4127,
+      "maxLat": 45.4207,
+      "minLon": -75.65798,
+      "maxLon": -75.64598
+    },
+    {
+      "minLat": 47.987065,
+      "maxLat": 47.995065,
+      "minLon": -84.77866,
+      "maxLon": -84.76666
+    },
+    {
+      "minLat": 48.722465,
+      "maxLat": 48.730465,
+      "minLon": -86.382862,
+      "maxLon": -86.370862
+    },
+    {
+      "minLat": 49.017254,
+      "maxLat": 49.025254,
+      "minLon": -88.294781,
+      "maxLon": -88.282781
+    },
+    {
+      "minLat": 49.658083,
+      "maxLat": 49.666083,
+      "minLon": -96.462537,
+      "maxLon": -96.450537
+    },
+    {
+      "minLat": 48.447784,
+      "maxLat": 48.455784,
+      "minLon": -89.256924,
+      "maxLon": -89.244924
+    },
+    {
+      "minLat": 49.782833,
+      "maxLat": 49.790833,
+      "minLon": -92.838167,
+      "maxLon": -92.826167
+    },
+    {
+      "minLat": 49.782153,
+      "maxLat": 49.790153,
+      "minLon": -86.57858,
+      "maxLon": -86.56658
+    }
+  ],
+  "focus": {
+    "lat": 46.313775,
+    "lon": -79.43816
+  },
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Ontario Northland Transportation Commission / Consat Telematics AB",
+    "url": "https://www.ontarionorthland.ca/en",
+    "license": "No explicit terms were found for the Ontario Northland GTFS, realtime data or service updates.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "national",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "North Bay",
+      "lat": 46.3137749768794,
+      "lon": -79.4381599500776
+    },
+    {
+      "name": "Sudbury",
+      "lat": 46.5049979556352,
+      "lon": -80.9381179511548
+    },
+    {
+      "name": "Timmins",
+      "lat": 48.4746269322932,
+      "lon": -81.3268059957773
+    },
+    {
+      "name": "Hearst",
+      "lat": 49.690561965108,
+      "lon": -83.6710509750993
+    },
+    {
+      "name": "Parry Sound",
+      "lat": 45.3434559423477,
+      "lon": -80.0101269409061
+    }
+  ],
+  "popularSurfaceRoutes": ["101", "201", "301", "401", "501", "503", "601", "603"],
+  "routeShortNames": {
+    "101": "101",
+    "102": "102",
+    "201": "201",
+    "202": "202",
+    "301": "301",
+    "302": "302",
+    "401": "401",
+    "402": "402",
+    "403": "403",
+    "404": "404",
+    "501": "501",
+    "502": "502",
+    "503": "503",
+    "504": "504",
+    "601": "601",
+    "602": "602",
+    "603": "603",
+    "604": "604"
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Ontario Northland GTFS",
+        "url": "https://ontarionorthland.tmix.se/gtfs/gtfs.zip",
+        "cacheFileName": "ontario-northland-gtfs.zip"
+      }
+    ],
+    "excludedRouteIds": ["90", "91", "95", "96"]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://ontarionorthland.tmix.se/gtfs-realtime/vehicleupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://ontarionorthland.tmix.se/gtfs-realtime/tripupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://ontarionorthland.tmix.se/gtfs-realtime/alerts.pb"
+    },
+    {
+      "type": "web",
+      "url": "https://www.ontarionorthland.ca/en/travel/service-updates",
+      "parser": "heading-service-notices",
+      "language": "en",
+      "routeNames": {
+        "101": ["Routes 101 and 102"],
+        "102": ["Routes 101 and 102"],
+        "201": ["Routes 201 and 202"],
+        "202": ["Routes 201 and 202"],
+        "301": ["Route 301"],
+        "302": ["Route 302"],
+        "401": ["Route 401"],
+        "402": ["Route 402"],
+        "403": ["Route 403"],
+        "404": ["Route 404"],
+        "501": ["Route 501"],
+        "502": ["Route 502"],
+        "503": ["Route 503"],
+        "504": ["Route 504"],
+        "601": ["Route 601"],
+        "602": ["Route 602"],
+        "603": ["Route 603"],
+        "604": ["Route 604"]
+      },
+      "stopNames": {
+        "Moosonee": ["Moosonee"],
+        "Cochrane": ["Cochrane"],
+        "North Bay": ["North Bay station"],
+        "Englehart Station": ["Englehart"],
+        "Sault Ste. Marie": ["Sault Ste. Marie", "Sault Ste Marie"]
+      }
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["101", "201", "301", "401", "403", "501", "503", "601", "603"],
+    "routeLineMap": {
+      "101": "101",
+      "102": "101",
+      "201": "201",
+      "202": "201",
+      "301": "301",
+      "302": "301",
+      "401": "401",
+      "402": "401",
+      "403": "403",
+      "404": "403",
+      "501": "501",
+      "502": "501",
+      "503": "503",
+      "504": "503",
+      "601": "601",
+      "602": "601",
+      "603": "603",
+      "604": "603"
+    },
+    "rules": [
+      {
+        "priority": 300,
+        "match": {
+          "textIncludes": [
+            "station hours",
+            "operating hours",
+            "station closed",
+            "schedule",
+            "ticket",
+            "boarding",
+            "safety initiatives",
+            "construction work at",
+            "polar bear express",
+            "forest fire",
+            "relocating",
+            "notice of construction",
+            "construction notice",
+            "new allandale terminal"
+          ]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "normal"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "stc-pierre-de-saurel",
+  "name": "Société de transport collectif de Pierre-De Saurel",
+  "serviceArea": "Sorel-Tracy et corridor de Longueuil",
+  "shortName": "STC",
+  "locale": "fr-CA",
+  "timezone": "America/Montreal",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "bounds": [
+    {
+      "minLat": 46.01,
+      "maxLat": 46.055,
+      "minLon": -73.17,
+      "maxLon": -73.085
+    },
+    {
+      "minLat": 45.89,
+      "maxLat": 45.895,
+      "minLon": -73.168,
+      "maxLon": -73.16
+    },
+    {
+      "minLat": 45.666,
+      "maxLat": 45.672,
+      "minLon": -73.433,
+      "maxLon": -73.425
+    },
+    {
+      "minLat": 45.627,
+      "maxLat": 45.632,
+      "minLon": -73.391,
+      "maxLon": -73.384
+    },
+    {
+      "minLat": 45.58,
+      "maxLat": 45.586,
+      "minLon": -73.326,
+      "maxLon": -73.318
+    },
+    {
+      "minLat": 45.522,
+      "maxLat": 45.526,
+      "minLon": -73.523,
+      "maxLon": -73.519
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Société de transport collectif de Pierre-De Saurel / Zenbus",
+    "url": "https://stcpierredesaurel.ca/",
+    "license": "Aucune licence explicite de réutilisation des données n'a été trouvée. Les horaires et les données en temps réel sont attribués à l'exploitant et à son fournisseur de données.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Société de transport collectif de Pierre-De Saurel",
+        "url": "https://zenbus.net/gtfs/static/download.zip?dataset=pierre-de-saurel",
+        "cacheFileName": "stc-pierre-de-saurel-gtfs.zip"
+      }
+    ],
+    "routeIdField": "short_name"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=pierre-de-saurel",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=pierre-de-saurel",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://zenbus.net/gtfs/rt/poll.proto?dataset=pierre-de-saurel",
+      "language": "fr"
+    }
+  ],
+  "alertInterpretation": {
+    "routeLineMap": {
+      "zenbus:Line:707750001:LOC": "750",
+      "zenbus:Line:694670001:LOC": "10",
+      "zenbus:Line:5113183358418944:LOC": "750",
+      "zenbus:Line:4921406539169792:LOC": "750",
+      "zenbus:Line:714890001:LOC": "750",
+      "751": "750",
+      "752": "750",
+      "753": "750"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "titleIncludes": ["Travaux"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "lineIds": ["10", "750"]
+  },
+  "cityPresets": [
+    {
+      "name": "Terminus des Promenades - STC",
+      "lat": 46.025188,
+      "lon": -73.106918
+    },
+    {
+      "name": "Terminus Longueuil (porte A7)",
+      "lat": 45.52362,
+      "lon": -73.520843
+    }
+  ],
+  "popularSurfaceRoutes": ["10", "750", "751", "752", "753"]
+}

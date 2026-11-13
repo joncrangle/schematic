@@ -1,0 +1,119 @@
+{
+  "now": 1794416400000,
+  "timeZone": "America/Toronto",
+  "cases": [
+    {
+      "name": "municipal cards require full article reconciliation",
+      "html": "<div class='d-flex-comm' onclick=\"document.location='/communiques/2026-11-10/transit'\"><h5>Incident dans le secteur du collège</h5><p class='comm-date'>10 novembre 2026</p><p class='comm-extrait'>Les rues sont fermées.</p></div>",
+      "source": "https://example.test/news",
+      "pageUrls": [
+        "https://example.test/communiques/2026-11-10/transit"
+      ],
+      "alerts": []
+    },
+    {
+      "name": "lazy monthly archives stay inside the read",
+      "html": "<div class='d-flex-comm' onclick=\"document.location='/communiques/2026-11-10/transit'\"><h5>Incident dans le secteur du collège</h5><p class='comm-date'>10 novembre 2026</p><p class='comm-extrait'>Les rues sont fermées.</p></div><a href=\"javascript:fChangeComm('ComWrap-1','2026','10')\">octobre</a><script>$('#'+DivWrap).load('/php/load-comm-info.php?y='+Annee+'&m='+Mois);</script>",
+      "source": "https://example.test/news",
+      "pageUrls": [
+        "https://example.test/communiques/2026-11-10/transit",
+        "https://example.test/php/load-comm-info.php?y=2026&m=10"
+      ],
+      "alerts": []
+    },
+    {
+      "name": "article preserves published text without inventing route scope",
+      "html": "<h1>Transport collectif</h1><div class=\"CommuniquesWrap\"><p>Le transport en commun subit des retards.</p></div>",
+      "source": "https://example.test/communiques/2026-11-10/transit",
+      "pageUrls": [],
+      "alerts": [
+        {
+          "id": "https://example.test/communiques/2026-11-10/transit",
+          "title": "Transport collectif",
+          "description": "Le transport en commun subit des retards.",
+          "startsAt": 1794286800000,
+          "routeIds": [],
+          "updatedAt": 1794416400000
+        }
+      ]
+    },
+    {
+      "name": "an updated reopening supersedes archived disruption prose",
+      "html": "<h1>Incident</h1><div class=\"CommuniquesWrap\"><p>Mise à jour à 17 h</p><p>Toutes les rues sont maintenant ouvertes à la circulation.</p><p>Le transport en commun subit des retards.</p></div>",
+      "source": "https://example.test/communiques/2026-11-10/transit",
+      "pageUrls": [],
+      "alerts": []
+    },
+    {
+      "name": "ordinary city closures are outside transit scope",
+      "html": "<h1>Fermeture des bureaux</h1><div class=\"CommuniquesWrap\"><p>La mairie est fermée.</p></div>",
+      "source": "https://example.test/communiques/2026-11-10/transit",
+      "pageUrls": [],
+      "alerts": []
+    },
+    {
+      "name": "a normal-service sentence does not suppress another published notice",
+      "html": "<h1>Congé férié</h1><div class=\"CommuniquesWrap\"><p>Autobus de ville : en fonction sauf le circuit 2.</p><p>Le circuit 2 est suspendu.</p></div>",
+      "source": "https://example.test/communiques/2026-11-10/transit",
+      "pageUrls": [],
+      "alerts": [
+        {
+          "id": "https://example.test/communiques/2026-11-10/transit",
+          "title": "Congé férié",
+          "description": "Autobus de ville : en fonction sauf le circuit 2. Le circuit 2 est suspendu.",
+          "startsAt": 1794286800000,
+          "routeIds": [],
+          "updatedAt": 1794416400000
+        }
+      ]
+    },
+    {
+      "name": "new template cards retain their date and link",
+      "html": "<ul class=\"news-list\"><li class=\"news-list__item\"><a class=\"news-list__link\" href=\"/actualite/route-a\"><span class=\"news-list__metas\">Avis importants | 10 novembre 2026</span><span class=\"news-list__title\">Détour autobus</span></a></li></ul>",
+      "source": "https://example.test/news",
+      "pageUrls": [
+        "https://example.test/actualite/route-a"
+      ],
+      "alerts": []
+    },
+    {
+      "name": "incomplete news cards fail the read",
+      "html": "<div class=\"d-flex-comm\"><h5>Autobus</h5></div>",
+      "source": "https://example.test/news",
+      "pageUrls": [],
+      "alerts": [],
+      "error": true
+    },
+    {
+      "name": "foreign article links fail the read",
+      "html": "<div class='d-flex-comm' onclick=\"document.location='https://other.test/communiques/2026-11-10/transit'\"><h5>Incident dans le secteur du collège</h5><p class='comm-date'>10 novembre 2026</p><p class='comm-extrait'>Les rues sont fermées.</p></div>",
+      "source": "https://example.test/news",
+      "pageUrls": [],
+      "alerts": [],
+      "error": true
+    },
+    {
+      "name": "unresolved old notices have no invented expiry",
+      "html": "<h1>Transport collectif</h1><div class=\"CommuniquesWrap\"><p>Le transport en commun subit des retards.</p></div>",
+      "source": "https://example.test/communiques/2026-01-10/transit",
+      "pageUrls": [],
+      "alerts": [
+        {
+          "id": "https://example.test/communiques/2026-01-10/transit",
+          "title": "Transport collectif",
+          "description": "Le transport en commun subit des retards.",
+          "startsAt": 1768021200000,
+          "routeIds": [],
+          "updatedAt": 1794416400000
+        }
+      ]
+    },
+    {
+      "name": "a published dated closure expires on its stated final day",
+      "html": "<h1>Fermeture du 1 au 4 novembre</h1><div class=\"CommuniquesWrap\"><p>Le transport en commun subit des retards.</p></div>",
+      "source": "https://example.test/communiques/2026-11-10/transit",
+      "pageUrls": [],
+      "alerts": []
+    }
+  ]
+}

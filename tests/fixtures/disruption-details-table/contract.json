@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "name": "recognizes the published empty board",
+      "html": "<h2>Transit Alerts</h2><table><thead><tr><th>Disruption Details</th></tr></thead><tbody><tr><td>There are no active transit disruptions.</td></tr></tbody></table>",
+      "notices": []
+    },
+    {
+      "name": "rejects a missing board",
+      "html": "<h1>Access denied</h1>",
+      "error": true
+    },
+    {
+      "name": "rejects an empty table without the clear marker",
+      "html": "<table><tr><th>Disruption Details</th></tr></table>",
+      "error": true
+    },
+    {
+      "name": "keeps stop closures scoped and open ended",
+      "html": "<table><tr><th>Disruption Details</th></tr><tr><td>Route 9 Bus stop closure. Stops affected are 73010 and 73011. Start Date: 21 Aug, 2026 Time: 11:20 am Unknown end time</td></tr></table>",
+      "routeNames": {
+        "r9": [
+          "Route 9"
+        ]
+      },
+      "notices": [
+        {
+          "title": "Route 9 Bus stop closure. Stops affected are 73010 and 73011. Start Date: 21 Aug, 2026 Time: 11:20 am Unknown end time",
+          "startsAt": 1787332800000,
+          "routeIds": [
+            "r9"
+          ],
+          "stationIds": [
+            "73010",
+            "73011"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "retains unknown route scope without clearing",
+      "html": "<table><tr><th>Disruption Details</th></tr><tr><td>Route 77 Cancellation. Start Date: 24 Oct, 2026 Time: 11:20 am Unknown end time</td></tr></table>",
+      "notices": [
+        {
+          "title": "Route 77 Cancellation. Start Date: 24 Oct, 2026 Time: 11:20 am Unknown end time",
+          "startsAt": 1792862400000,
+          "routeIds": [],
+          "stationIds": []
+        }
+      ]
+    },
+    {
+      "name": "rejects invalid dates",
+      "html": "<table><tr><th>Disruption Details</th></tr><tr><td>Route 9 Closure Start Date: 31 Feb, 2026 Time: 11:20 am Unknown end time</td></tr></table>",
+      "error": true
+    },
+    {
+      "name": "rejects changed row structure",
+      "html": "<table><tr><th>Disruption Details</th></tr><tr><td>Unexpected content</td></tr></table>",
+      "error": true
+    },
+    {
+      "name": "rejects malformed clocks instead of silently using midnight",
+      "html": "<table><tr><th>Disruption Details</th></tr><tr><td>Route 9 Cancellation. Start Date: 24 Oct, 2026 Time: nonsense Unknown end time</td></tr></table>",
+      "error": true
+    },
+    {
+      "name": "rejects a clear marker mixed with a notice",
+      "html": "<table><tr><th>Disruption Details</th></tr><tr><td>There are no active transit disruptions.</td></tr><tr><td>Route 9 Cancellation. Start Date: 24 Oct, 2026 Unknown end time</td></tr></table>",
+      "error": true
+    }
+  ]
+}

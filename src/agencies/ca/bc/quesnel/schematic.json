@@ -1,0 +1,564 @@
+{
+  "viewBoxWidth": 2050,
+  "viewBoxHeight": 1400,
+  "lines": [
+    {
+      "id": "1-QUE",
+      "name": "West Quesnel",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 800
+        },
+        {
+          "x": 600,
+          "y": 800
+        },
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 550
+        },
+        {
+          "x": 250,
+          "y": 550
+        },
+        {
+          "x": 250,
+          "y": 600
+        },
+        {
+          "x": 350,
+          "y": 700
+        },
+        {
+          "x": 450,
+          "y": 800
+        },
+        {
+          "x": 450,
+          "y": 1150
+        },
+        {
+          "x": 600,
+          "y": 1150
+        },
+        {
+          "x": 700,
+          "y": 1050
+        },
+        {
+          "x": 700,
+          "y": 900
+        },
+        {
+          "x": 600,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "2-QUE",
+      "name": "Red Bluff",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 1150,
+          "y": 850
+        },
+        {
+          "x": 1400,
+          "y": 850
+        },
+        {
+          "x": 1550,
+          "y": 700
+        },
+        {
+          "x": 1550,
+          "y": 450
+        },
+        {
+          "x": 1700,
+          "y": 450
+        },
+        {
+          "x": 1800,
+          "y": 550
+        },
+        {
+          "x": 1800,
+          "y": 850
+        },
+        {
+          "x": 1750,
+          "y": 900
+        },
+        {
+          "x": 1750,
+          "y": 1200
+        }
+      ]
+    },
+    {
+      "id": "3-QUE",
+      "name": "North Fraser",
+      "color": "#F58220",
+      "points": [
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 1100,
+          "y": 600
+        },
+        {
+          "x": 1100,
+          "y": 300
+        },
+        {
+          "x": 1000,
+          "y": 200
+        },
+        {
+          "x": 900,
+          "y": 200
+        },
+        {
+          "x": 900,
+          "y": 450
+        },
+        {
+          "x": 900,
+          "y": 550
+        },
+        {
+          "x": 800,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 500
+        },
+        {
+          "x": 550,
+          "y": 350
+        },
+        {
+          "x": 550,
+          "y": 100
+        },
+        {
+          "x": 450,
+          "y": 100
+        },
+        {
+          "x": 450,
+          "y": 450
+        },
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 600,
+          "y": 800
+        },
+        {
+          "x": 900,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 700
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "downtown",
+      "name": "St Laurent / Reid",
+      "x": 1000,
+      "y": 700,
+      "lines": ["1-QUE", "2-QUE", "3-QUE"],
+      "label": {
+        "x": 970,
+        "y": 670,
+        "anchor": "end",
+        "leader": true
+      },
+      "terminal": true
+    },
+    {
+      "id": "hospital",
+      "name": "G. R. Baker Memorial Hospital",
+      "x": 900,
+      "y": 450,
+      "lines": ["3-QUE"],
+      "label": {
+        "x": 875,
+        "y": 450,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "bowron",
+      "name": "Bowron / Callanan",
+      "x": 950,
+      "y": 200,
+      "lines": ["3-QUE"],
+      "label": {
+        "x": 950,
+        "y": 170,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "north-fraser",
+      "name": "North Fraser Turnaround",
+      "x": 500,
+      "y": 100,
+      "lines": ["3-QUE"],
+      "label": {
+        "x": 500,
+        "y": 70,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "dawson-lewis",
+      "name": "Dawson / Lewis",
+      "x": 350,
+      "y": 550,
+      "lines": ["1-QUE"],
+      "label": {
+        "x": 350,
+        "y": 520,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "abbott-blair",
+      "name": "Abbott / Blair",
+      "x": 350,
+      "y": 700,
+      "lines": ["1-QUE"],
+      "label": {
+        "x": 375,
+        "y": 700,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "roddis-rolph",
+      "name": "Rolph / Roddis",
+      "x": 500,
+      "y": 1150,
+      "lines": ["1-QUE"],
+      "label": {
+        "x": 500,
+        "y": 1180,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "west-park",
+      "name": "West Park Mall",
+      "x": 600,
+      "y": 800,
+      "lines": ["1-QUE", "3-QUE"],
+      "label": {
+        "x": 570,
+        "y": 835,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "johnston",
+      "name": "Johnston / Yorston",
+      "x": 1150,
+      "y": 850,
+      "lines": ["2-QUE"],
+      "label": {
+        "x": 1150,
+        "y": 880,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "rec-centre",
+      "name": "Quesnel Recreation Centre",
+      "x": 1550,
+      "y": 600,
+      "lines": ["2-QUE"],
+      "label": {
+        "x": 1525,
+        "y": 600,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "campus",
+      "name": "Campus Way",
+      "x": 1550,
+      "y": 500,
+      "lines": ["2-QUE"],
+      "label": {
+        "x": 1525,
+        "y": 500,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "valhalla",
+      "name": "Valhalla / Gassoff",
+      "x": 1800,
+      "y": 800,
+      "lines": ["2-QUE"],
+      "label": {
+        "x": 1770,
+        "y": 770,
+        "anchor": "end",
+        "leader": true
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "South Quesnel Walmart",
+      "x": 1750,
+      "y": 1200,
+      "lines": ["2-QUE"],
+      "label": {
+        "x": 1750,
+        "y": 1230,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "sequences": {
+    "1-QUE": ["downtown", "dawson-lewis", "abbott-blair", "roddis-rolph", "west-park"],
+    "2-QUE": ["downtown", "johnston", "rec-centre", "campus", "valhalla", "walmart"],
+    "3-QUE": ["downtown", "bowron", "hospital", "north-fraser", "west-park"]
+  },
+  "stationAliases": {
+    "St Laurent Ave at Reid St": "downtown",
+    "G R Baker Memorial Hospital": "hospital",
+    "Bowron Ave at Callanan St": "bowron",
+    "N Fraser Dr Turnaround": "north-fraser",
+    "Dawson St at Lewis Dr": "dawson-lewis",
+    "Abbott Dr at Blair St": "abbott-blair",
+    "Rolph St at Roddis Dr": "roddis-rolph",
+    "Marsh Dr at West Park Mall": "west-park",
+    "Johnston Ave at Yorston Ave": "johnston",
+    "North Star Rd at Quesnel Rec Ctr": "rec-centre",
+    "North Star Rd at Campus Way": "campus",
+    "Valhalla Rd at Gassoff Rd": "valhalla",
+    "South Quesnel Wal-Mart": "walmart"
+  },
+  "badges": [
+    {
+      "line": "1-QUE",
+      "num": "1",
+      "x": 416,
+      "y": 1000,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-QUE",
+      "num": "2",
+      "x": 1834,
+      "y": 680,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-QUE",
+      "num": "3",
+      "x": 1134,
+      "y": 400,
+      "color": "#F58220",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 2010,
+      "minY": 40,
+      "maxY": 1360
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -122.53,
+    "refLonEast": -122.44,
+    "refXWest": 100,
+    "refXEast": 1750,
+    "refLatNorth": 52.991,
+    "refLatSouth": 52.963,
+    "refYNorth": 100,
+    "refYSouth": 1200
+  },
+  "stationIndex": [
+    {
+      "id": "184022",
+      "schematicId": "abbott-blair",
+      "name": "Abbott / Blair",
+      "lat": 52.97483,
+      "lon": -122.51897,
+      "lines": ["1-QUE"],
+      "platformIds": ["184022"],
+      "departureRouteIds": ["1-QUE", "1R-QUE"]
+    },
+    {
+      "id": "184052",
+      "schematicId": "bowron",
+      "name": "Bowron / Callanan",
+      "lat": 52.9842,
+      "lon": -122.49222,
+      "lines": ["3-QUE"],
+      "platformIds": ["184052"],
+      "departureRouteIds": ["3-QUE"]
+    },
+    {
+      "id": "campus",
+      "schematicId": "campus",
+      "name": "Campus Way",
+      "lat": 52.98327,
+      "lon": -122.46852,
+      "lines": ["2-QUE"],
+      "platformIds": ["184069", "184070"],
+      "departureRouteIds": ["2-QUE", "2A-QUE", "2B-QUE"]
+    },
+    {
+      "id": "184017",
+      "schematicId": "dawson-lewis",
+      "name": "Dawson / Lewis",
+      "lat": 52.98013,
+      "lon": -122.52965,
+      "lines": ["1-QUE"],
+      "platformIds": ["184017"],
+      "departureRouteIds": ["1-QUE", "1R-QUE"]
+    },
+    {
+      "id": "184056",
+      "schematicId": "hospital",
+      "name": "G. R. Baker Memorial Hospital",
+      "lat": 52.9818,
+      "lon": -122.4994,
+      "lines": ["3-QUE"],
+      "platformIds": ["184056"],
+      "departureRouteIds": ["3-QUE"]
+    },
+    {
+      "id": "johnston",
+      "schematicId": "johnston",
+      "name": "Johnston / Yorston",
+      "lat": 52.97302,
+      "lon": -122.48481,
+      "lines": ["2-QUE"],
+      "platformIds": ["184064", "184082"],
+      "departureRouteIds": ["2-QUE", "2A-QUE", "2B-QUE"]
+    },
+    {
+      "id": "184035",
+      "schematicId": "north-fraser",
+      "name": "North Fraser Turnaround",
+      "lat": 52.99016,
+      "lon": -122.5124,
+      "lines": ["3-QUE"],
+      "platformIds": ["184035"],
+      "departureRouteIds": ["3-QUE"]
+    },
+    {
+      "id": "rec-centre",
+      "schematicId": "rec-centre",
+      "name": "Quesnel Recreation Centre",
+      "lat": 52.98134,
+      "lon": -122.46584,
+      "lines": ["2-QUE"],
+      "platformIds": ["184068", "184071"],
+      "departureRouteIds": ["2-QUE", "2A-QUE", "2B-QUE"]
+    },
+    {
+      "id": "184009",
+      "schematicId": "roddis-rolph",
+      "name": "Rolph / Roddis",
+      "lat": 52.96708,
+      "lon": -122.50816,
+      "lines": ["1-QUE"],
+      "platformIds": ["184009"],
+      "departureRouteIds": ["1-QUE", "1R-QUE"]
+    },
+    {
+      "id": "184114",
+      "schematicId": "walmart",
+      "name": "South Quesnel Walmart",
+      "lat": 52.96465,
+      "lon": -122.43988,
+      "lines": ["2-QUE"],
+      "platformIds": ["184114"],
+      "departureRouteIds": ["2-QUE", "2A-QUE", "2B-QUE"]
+    },
+    {
+      "id": "184043",
+      "schematicId": "downtown",
+      "name": "St Laurent / Reid",
+      "lat": 52.97897,
+      "lon": -122.49628,
+      "lines": ["1-QUE", "2-QUE", "3-QUE"],
+      "platformIds": ["184043"],
+      "departureRouteIds": ["1-QUE", "1R-QUE", "2-QUE", "2A-QUE", "2B-QUE", "3-QUE", "30-QUE"]
+    },
+    {
+      "id": "valhalla",
+      "schematicId": "valhalla",
+      "name": "Valhalla / Gassoff",
+      "lat": 52.97915,
+      "lon": -122.44708,
+      "lines": ["2-QUE"],
+      "platformIds": ["184099", "184101"],
+      "departureRouteIds": ["2-QUE", "2A-QUE", "2B-QUE"]
+    },
+    {
+      "id": "184160",
+      "schematicId": "west-park",
+      "name": "West Park Mall",
+      "lat": 52.97405,
+      "lon": -122.50559,
+      "lines": ["1-QUE", "3-QUE"],
+      "platformIds": ["184160"],
+      "departureRouteIds": ["1-QUE", "1R-QUE", "3-QUE"]
+    }
+  ]
+}

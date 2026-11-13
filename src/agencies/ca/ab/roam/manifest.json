@@ -1,0 +1,220 @@
+{
+  "id": "roam",
+  "name": "Roam Transit",
+  "serviceArea": "Banff, Canmore & Lake Louise",
+  "serviceAreaTranslations": { "fr": "Banff, Canmore et Lake Louise" },
+  "shortName": "Roam",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "bounds": [
+    {
+      "minLat": 51.12,
+      "maxLat": 51.205,
+      "minLon": -115.65,
+      "maxLon": -115.49
+    },
+    {
+      "minLat": 51.04,
+      "maxLat": 51.12,
+      "minLon": -115.41,
+      "maxLon": -115.3
+    },
+    {
+      "minLat": 51.12,
+      "maxLat": 51.2,
+      "minLon": -115.57,
+      "maxLon": -115.36
+    },
+    {
+      "minLat": 51.19,
+      "maxLat": 51.43,
+      "minLon": -116.22,
+      "maxLon": -115.56
+    },
+    {
+      "minLat": 51.2,
+      "maxLat": 51.255,
+      "minLon": -115.55,
+      "maxLon": -115.49
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "attribution": {
+    "name": "Bow Valley Regional Transit Commission",
+    "url": "https://roamtransit.com/about-us/roam-transit-gtfs-feed/",
+    "license": "Contains information licensed under the Open Government Licence – Bow Valley Regional Transit Commission",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Banff High School Transit Hub",
+      "lat": 51.179578,
+      "lon": -115.569821
+    },
+    {
+      "name": "Canmore 9th Street",
+      "lat": 51.0899925,
+      "lon": -115.3615199
+    },
+    {
+      "name": "Lake Louise Village North",
+      "lat": 51.4250936710227,
+      "lon": -116.177888072239
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "5C", "5T", "7", "8X", "12"],
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "short_name",
+    "feeds": [
+      {
+        "name": "Roam Transit GTFS",
+        "url": "https://bowvalley.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/",
+        "cacheFileName": "roam-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://bowvalley.tmix.se/gtfs-realtime/vehicleupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://bowvalley.tmix.se/gtfs-realtime/tripupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alertInterpretation": {
+    "reconcilePublishedRestorations": true,
+    "lineIds": ["1", "2", "3", "5C", "5T", "8X", "9", "12", "4", "6", "7"],
+    "routeIdNormalization": {
+      "aliases": {
+        "9507": "1",
+        "9506": "2",
+        "9505": "3",
+        "33007": "5C",
+        "33008": "5T",
+        "12635": "8X",
+        "12633": "9",
+        "76745": "12",
+        "9504": "4",
+        "10031": "6",
+        "76746": "7"
+      }
+    },
+    "routeLineMap": {
+      "9507": "1",
+      "9506": "2",
+      "9505": "3",
+      "33007": "5C",
+      "33008": "5T",
+      "12635": "8X",
+      "12633": "9",
+      "76745": "12",
+      "9504": "4",
+      "10031": "6",
+      "76746": "7"
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": [
+            "stop is closed",
+            "hub will be closed",
+            "not be able to service that stop"
+          ]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 75,
+        "match": {
+          "textIncludes": ["cancelling the following", "temporarily suspended today"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["experiencing delays", "experiencing delayed service", "delays to route"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://bowvalley.tmix.se/gtfs-realtime/alerts.pb"
+    },
+    {
+      "type": "web",
+      "url": "https://roamtransit.com/2026-fall-and-winter-schedule-changes/",
+      "parser": "heading-service-notices",
+      "routeNames": {
+        "1": ["Route 1"],
+        "2": ["Route 2"],
+        "3": ["Route 3"],
+        "5C": ["Route 5C"],
+        "5T": ["Route 5T"],
+        "8X": ["Route 8X", "8X"],
+        "9": ["Route 9"],
+        "12": ["Route 12"],
+        "4": ["Route 4"],
+        "6": ["Route 6"],
+        "7": ["Route 7"]
+      }
+    },
+    {
+      "type": "web",
+      "url": "https://roamtransit.com/service-updates/",
+      "parser": "heading-service-notices",
+      "publicationReference": {
+        "publicationYear": 2026,
+        "validFrom": "2026-09-30",
+        "validThrough": "2026-11-30"
+      },
+      "routeNames": {
+        "1": ["Route 1"],
+        "2": ["Route 2"],
+        "3": ["Route 3"],
+        "5C": ["Route 5C"],
+        "5T": ["Route 5T"],
+        "8X": ["Route 8X", "8X"],
+        "9": ["Route 9"],
+        "12": ["Route 12"],
+        "4": ["Route 4"],
+        "6": ["Route 6"],
+        "7": ["Route 7"]
+      },
+      "stopNames": {
+        "2428692": ["Upper Hot Springs", "Banff Upper Hot Springs"]
+      }
+    }
+  ]
+}

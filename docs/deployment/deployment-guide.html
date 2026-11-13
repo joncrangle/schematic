@@ -1,0 +1,1267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>Deployment guide — Schematic</title>
+    <style>
+      /* Self-contained, no external requests. Dark theme. */
+      :root {
+        color-scheme: dark;
+        --bg: #0f1216;
+        --surface: #161b22;
+        --surface-2: #1b212a;
+        --line: #28303b;
+        --text: #e9e7e2;
+        --muted: #9aa4ae;
+        --faint: #6b7683;
+        --accent: #5eead4;
+        --accent-dim: #2dd4bf;
+        --link: #7dd3fc;
+        --code-bg: #1b212a;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        background:
+          radial-gradient(1200px 500px at 50% -120px, #1a2b28 0%, var(--bg) 55%) fixed,
+          var(--bg);
+        color: var(--text);
+        font:
+          16px/1.7 -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      main {
+        max-width: 44rem;
+        margin: 0 auto;
+        padding: 3.5rem 1.5rem 6rem;
+      }
+      h1 {
+        font-size: 2.1rem;
+        letter-spacing: -0.02em;
+        margin: 0.3rem 0 0.5rem;
+        line-height: 1.2;
+      }
+      h2 {
+        font-size: 1.3rem;
+        margin: 3.2rem 0 0.5rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--line);
+        line-height: 1.35;
+        letter-spacing: -0.01em;
+      }
+      h2 .n {
+        color: var(--accent);
+        font-weight: 700;
+        margin-right: 0.5rem;
+      }
+      h3 {
+        font-size: 1rem;
+        margin: 1.8rem 0 0.35rem;
+        color: var(--text);
+      }
+      p,
+      li {
+        color: #cfccc5;
+      }
+      p {
+        margin: 0.6rem 0;
+      }
+      .sub {
+        color: var(--muted);
+        margin-top: 0;
+      }
+      strong {
+        color: var(--text);
+      }
+      a {
+        color: var(--link);
+        text-underline-offset: 3px;
+      }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.85em;
+        background: var(--code-bg);
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 0.1em 0.38em;
+        color: var(--text);
+      }
+      .cmd {
+        margin: 0.7rem 0;
+      }
+      .cmd-label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: var(--muted);
+        margin: 0 0 0.3rem 0.1rem;
+      }
+      .cmd-label .warn-word {
+        color: #fbbf24;
+      }
+      pre {
+        position: relative;
+        background: var(--code-bg);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 0.9rem 1rem;
+        overflow-x: auto;
+        font-size: 0.84rem;
+        line-height: 1.6;
+        margin: 0;
+        color: #e6edf3;
+      }
+      pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        color: inherit;
+      }
+      .copy {
+        position: absolute;
+        top: 0.45rem;
+        right: 0.45rem;
+        font:
+          600 0.72rem/1 -apple-system,
+          "Segoe UI",
+          sans-serif;
+        color: var(--muted);
+        background: #0f1419;
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        padding: 0.35rem 0.6rem;
+        cursor: pointer;
+      }
+      .copy:hover {
+        color: var(--accent);
+        border-color: var(--accent-dim);
+      }
+      .rt-tabs {
+        display: inline-flex;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 3px;
+        gap: 3px;
+        margin: 0.8rem 0 0.2rem;
+      }
+      .rt-tabs button {
+        font:
+          700 0.82rem/1.4 -apple-system,
+          "Segoe UI",
+          sans-serif;
+        padding: 0.45rem 1.1rem;
+        border: none;
+        border-radius: 7px;
+        background: none;
+        cursor: pointer;
+        color: var(--muted);
+      }
+      .rt-tabs button[aria-selected="true"] {
+        background: var(--surface-2);
+        color: var(--accent);
+        box-shadow: inset 0 0 0 1px var(--line);
+      }
+      body[data-rt="docker"] .rt-podman {
+        display: none;
+      }
+      body[data-rt="podman"] .rt-docker {
+        display: none;
+      }
+      ol {
+        padding-left: 1.35rem;
+      }
+      ol li,
+      ul li {
+        margin: 0.35rem 0;
+      }
+      ul.plain {
+        list-style: none;
+        padding-left: 0;
+      }
+      ul.plain li {
+        padding-left: 1.7rem;
+        position: relative;
+      }
+      ul.plain li input {
+        position: absolute;
+        left: 0;
+        top: 0.35rem;
+        width: 1rem;
+        height: 1rem;
+        accent-color: var(--accent-dim);
+        cursor: pointer;
+      }
+      .callout {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-left: 3px solid var(--accent-dim);
+        border-radius: 10px;
+        padding: 0.7rem 1rem;
+        margin: 0.8rem 0;
+        font-size: 0.92rem;
+      }
+      nav.toc {
+        margin: 1.8rem 0 0;
+        padding: 1.1rem 1.3rem;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+      }
+      nav.toc ol {
+        margin: 0.3rem 0 0;
+      }
+      nav.toc a {
+        color: var(--text);
+      }
+      nav.toc .sub {
+        font-size: 0.85rem;
+      }
+      footer {
+        margin-top: 3rem;
+        padding-top: 1.2rem;
+        border-top: 1px solid var(--line);
+        font-size: 0.83rem;
+        color: var(--faint);
+      }
+      @media print {
+        .copy,
+        .rt-tabs {
+          display: none;
+        }
+        body[data-rt] .rt-docker,
+        body[data-rt] .rt-podman {
+          display: block;
+        }
+        li.rt-docker,
+        li.rt-podman {
+          display: list-item;
+        }
+        body {
+          background: #fff;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="sub">Schematic · deployment guide</p>
+      <h1>Deploy, self-host, and lock down</h1>
+      <p class="sub">
+        Do the steps in order. You need an existing Cloudflare account that already owns your
+        domain, and the repo cloned locally. Each command has its own copy button — run them one at
+        a time, not as a bulk paste.
+      </p>
+
+      <nav class="toc" aria-label="Contents">
+        <strong>Contents</strong>
+        <ol>
+          <li><a href="#prereqs">Prerequisites</a></li>
+          <li>
+            <a href="#workers">Deploy to Cloudflare Workers</a>
+            <ul>
+              <li><a href="#ship-only">Ship only the agencies you need</a></li>
+            </ul>
+          </li>
+          <li><a href="#container">Self-host with Docker or Podman (optional)</a></li>
+          <li><a href="#access">Lock down with Cloudflare Access (optional)</a></li>
+          <li><a href="#proxy">Alert Feed Proxy Daemon &amp; Cloudflare Tunnel (optional)</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="prereqs"><span class="n">1</span>Prerequisites</h2>
+      <ul>
+        <li>Bun v1.2+ or Node.js v22+ (<code>package.json</code> scripts run under Bun).</li>
+        <li>
+          A Cloudflare account with an <strong>active zone</strong> for your domain (required for
+          Custom Domains and Access).
+        </li>
+        <li>Zero Trust enabled on the account (only for the optional Access stage).</li>
+        <li>Repo cloned with dependencies installed. Run each line separately:</li>
+      </ul>
+      <div class="cmd">
+        <div class="cmd-label">Run:</div>
+        <pre><code>bun install</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">Run:</div>
+        <pre><code>cp .env.example .env</code></pre>
+      </div>
+      <div class="callout">
+        Never commit secrets or real email addresses. Secrets go in
+        <code>wrangler secret put</code> or <code>.env</code> (git-ignored); Access rules live only
+        in the Cloudflare dashboard or API.
+      </div>
+
+      <h2 id="workers"><span class="n">2</span>Deploy to Cloudflare Workers</h2>
+
+      <h3>2.1 Log in to Wrangler</h3>
+      <div class="cmd">
+        <div class="cmd-label">Run — opens a browser for OAuth:</div>
+        <pre><code>bunx wrangler login</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">Run — confirm it shows your account:</div>
+        <pre><code>bunx wrangler whoami</code></pre>
+      </div>
+      <p>Wrangler is a devDependency, so <code>bunx wrangler …</code> is the repo's convention.</p>
+
+      <h3>2.2 Create the D1 databases</h3>
+      <p>
+        Why create databases first instead of relying solely on the config file? The configuration
+        file only <em>references</em> databases — each entry pairs a binding name (the variable your
+        Worker code reads at <code>env.&lt;BINDING&gt;</code>) with a <code>database_id</code>. The
+        database itself has to exist first in your Cloudflare account to generate that ID. The flow
+        is: create the database → paste the returned ID into your local config.
+      </p>
+      <p>
+        The repository provides <code>wrangler.sample.jsonc</code> containing placeholder IDs. Copy
+        it to <code>wrangler.jsonc</code> (which is git-ignored to keep your account's database IDs
+        private):
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Run — create local config from sample:</div>
+        <pre><code>cp wrangler.sample.jsonc wrangler.jsonc</code></pre>
+      </div>
+      <p>
+        Schematic uses two D1 databases: <code>transit-status-db</code> (binding:
+        <code>DB_TRANSIT</code>) for all agency routes, stops, and shape topology, and
+        <code>push-notifications-db</code> (binding: <code>DB_NOTIFICATIONS</code>) for user push
+        subscriptions and alert delivery history. Run both create commands, then copy each returned
+        <code>database_id</code> into the matching entry in <code>wrangler.jsonc</code>:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Run — copy the returned ID into <code>DB_NOTIFICATIONS</code>:</div>
+        <pre><code>bunx wrangler d1 create push-notifications-db</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">Run — copy the returned ID into <code>DB_TRANSIT</code>:</div>
+        <pre><code>bunx wrangler d1 create transit-status-db</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">
+          Run — confirm every database exists and the IDs match <code>wrangler.jsonc</code>:
+        </div>
+        <pre><code>bunx wrangler d1 list</code></pre>
+      </div>
+      <p>
+        Binding names must stay valid JS identifiers. No migration files are needed: tables are
+        created in code on first access (<code>CREATE TABLE IF NOT EXISTS</code>). With no D1
+        binding on Workers (or no <code>DATA_DIR</code> when self-hosting) the server fails loudly
+        instead of silently using memory.
+      </p>
+
+      <h3>2.3 Set production secrets (VAPID &amp; agency API keys)</h3>
+      <p>
+        Secrets are stored securely in Cloudflare Workers and never committed to version control.
+        Each <code>bunx wrangler secret put &lt;NAME&gt;</code> prompts interactively for the secret
+        value and deploys it immediately to your Worker environment. Run each secret command
+        individually:
+      </p>
+
+      <p><strong>1. Web Push notifications (VAPID keys):</strong></p>
+      <p>
+        Required for desktop and mobile push notifications on service delays. Without these keys,
+        the app functions normally, but push UI hides and background notification cycles skip:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Run — prints a public + private keypair; keep it private:</div>
+        <pre><code>bunx web-push generate-vapid-keys</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">
+          <span class="warn-word">Run alone</span> — paste the public key when prompted:
+        </div>
+        <pre><code>bunx wrangler secret put VAPID_PUBLIC_KEY</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">
+          <span class="warn-word">Run alone</span> — paste the private key when prompted:
+        </div>
+        <pre><code>bunx wrangler secret put VAPID_PRIVATE_KEY</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">
+          <span class="warn-word">Run alone</span> — optional, defaults to mailto:admin@example.com:
+        </div>
+        <pre><code>bunx wrangler secret put VAPID_SUBJECT</code></pre>
+      </div>
+
+      <p><strong>2. Agency API keys &amp; feed secrets:</strong></p>
+      <p>
+        Some transit providers require an API key or authentication token to access their real-time
+        GTFS-RT or alert feeds. Every agency manifest (in
+        <code>src/agencies/&lt;country&gt;/&lt;region&gt;/&lt;agency&gt;/manifest.json</code>)
+        declares the secrets it requires under <code>auth.secretName</code>.
+      </p>
+      <p>
+        To store an API key for any agency requiring authentication, use the generic command
+        pattern:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">
+          <span class="warn-word">Generic pattern</span> — paste the agency API key when prompted:
+        </div>
+        <pre><code>bunx wrangler secret put &lt;AGENCY_SECRET_NAME&gt;</code></pre>
+      </div>
+
+      <p><strong>Supported agencies requiring an API key:</strong></p>
+      <ul>
+        <li>
+          <strong>GO Transit (Metrolinx):</strong> Realtime GTFS-RT alerts require an API key stored
+          under <code>FEED_METROLINX_API_KEY</code>. Register for a free developer key at
+          <a href="https://api.openmetrolinx.com" target="_blank" rel="noopener noreferrer"
+            >api.openmetrolinx.com</a
+          >
+          and push it to your Worker:
+          <div class="cmd">
+            <div class="cmd-label">
+              <span class="warn-word">Run alone</span> — paste your Metrolinx API key when prompted:
+            </div>
+            <pre><code>bunx wrangler secret put FEED_METROLINX_API_KEY</code></pre>
+          </div>
+        </li>
+      </ul>
+      <p>
+        If an optional agency secret is omitted, that agency's authenticated feeds fail gracefully
+        with an honest diagnostic log while all other agencies continue operating normally.
+      </p>
+      <p>
+        For local dev, add the same keys to <code>.env</code> (e.g.
+        <code>FEED_METROLINX_API_KEY=your_key_here</code>). To audit all active secrets on your Worker,
+        run:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Run — verify all active secrets on your Worker:</div>
+        <pre><code>bunx wrangler secret list</code></pre>
+      </div>
+
+      <h3 id="ship-only">2.4 Ship only the agencies you need</h3>
+      <p>
+        If you serve one city, leave the rest out. Open
+        <code>src/agencies/agencyCatalog.ts</code> and delete both import lines and the
+        <code>agencyCatalog</code> entry for each agency you do not want. Keep the entries you want.
+        Registries, seed configs, and the scheduler read this file, so they shrink to match.
+      </p>
+      <p>Rebuild Workers from the trimmed catalog:</p>
+      <div class="cmd">
+        <div class="cmd-label">Run:</div>
+        <pre><code>bun run deploy</code></pre>
+      </div>
+      <p>
+        The prebuilt GHCR image ships all registered agencies, so Docker users must build from
+        source after the trim:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Run:</div>
+        <pre><code>docker build -t ghcr.io/joncrangle/schematic:latest .</code></pre>
+      </div>
+      <p>Seed follows the trimmed catalog, so seed all to seed only what remains:</p>
+      <div class="cmd">
+        <div class="cmd-label">Run:</div>
+        <pre><code>bun scripts/seed.ts --agency=all --db=remote</code></pre>
+      </div>
+      <p>
+        The bundler skips leftover folders under
+        <code>src/agencies/ca/on/&lt;id&gt;/</code>, so you can keep them.
+        <code>bun run test</code> still complains about them, and deploy forks can ignore that
+        warning. The app skips removed interchange hubs at runtime with no crash.
+      </p>
+
+      <h3>2.5 Seed the remote D1 database</h3>
+      <p>
+        Before deploying the Worker, populate static transit topology (routes, stops, shapes) into
+        your remote Cloudflare D1 database. The seeder downloads declared official GTFS feeds for
+        all registered seedable agencies, seeds the local SQLite projection, and reconciles it into
+        your remote <code>DB_TRANSIT</code> binding:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Run — ingest all agencies into remote Cloudflare D1:</div>
+        <pre><code>bun scripts/seed.ts --agency=all --db=remote</code></pre>
+      </div>
+      <p>
+        You can also seed an individual agency by specifying <code>--agency=ttc</code>,
+        <code>--agency=go</code>, <code>--agency=yrt</code>, or <code>--agency=kingston</code>.
+      </p>
+      <div class="callout">
+        The D1 free tier includes 100,000 rows written per calendar day with a UTC reset. Initial
+        population writes the complete selected topology. Later seeds and runtime refreshes upsert
+        only new or changed rows and delete only removed keys, scoped by <code>agency_id</code>.
+        Monitor actual rows written.
+      </div>
+      <p>
+        Manual SQLite seeding, self-hosted refresh, and the external remote job share a streaming
+        GTFS projection. Automatic refresh uses archive/configuration and normalized table hashes to
+        skip parsing and unchanged-table reads. Local and remote D1 seed targets reconcile the
+        SQLite projection. Manual seeds verify actual destination rows despite matching hashes, so
+        they can repair corruption without rewriting unchanged rows. Effectively unchanged topology
+        writes zero rows, including no freshness or hash update. If only
+        one existing stop's coordinates change, the delta is that stop plus two metadata rows,
+        <code>seed_topology_meta</code> and <code>topology_meta</code>.
+      </p>
+      <p>
+        Manual seeding remains the authority for initial population and the emergency path for
+        changes or repairs that cannot wait for the weekly refresh opportunity. An empty refresh
+        store logs <code>needs-seed</code> without download, schema provisioning, or population.
+        Review generated station-index and interchange changes from manual seeding before committing
+        and deploying.
+      </p>
+
+      <h3>2.6 Build and deploy</h3>
+      <div class="cmd">
+        <div class="cmd-label">Run:</div>
+        <pre><code>bun run deploy</code></pre>
+      </div>
+      <p>
+        This runs
+        <code>bun run deploy:check &amp;&amp; bun run build &amp;&amp;
+          bun run check:worker-functions &amp;&amp; wrangler deploy</code> — the
+        readiness check ensures no placeholder D1 IDs remain in <code>wrangler.jsonc</code> before
+        anything uploads. After the configured build, <code>check:worker-functions</code> sends a
+        local RPC probe to confirm that the built Worker recognizes a client-advertised server
+        function. The worker is named <code>schematic</code>, so it first goes live at
+        <code>https://schematic.&lt;your-subdomain&gt;.workers.dev</code>. Expect the deploy output
+        to list both D1 bindings and the minute fast-alert and fifteen-minute slow-alert crons.
+        Workers do not execute GTFS refresh.
+      </p>
+      <div class="callout">
+        Cron changes can take up to 15 minutes to propagate. If you change the shell precache list
+        in <code>src/sw.ts</code>, bump <code>CACHE_NAME</code> (currently
+        <code>app-shell-v1</code>) or users may keep the old shell.
+      </div>
+
+      <h3>2.7 Attach your custom domain</h3>
+      <p>
+        <strong>Recommended: dashboard (Option A).</strong> Your hostname is operator-specific —
+        committing it under <code>routes</code> would publish your domain and break every other
+        deployer's deploy (their account doesn't own your zone, so the Custom Domain creation
+        fails). Keep <code>routes</code> out of the repo:
+      </p>
+      <p>
+        <strong>A — Dashboard (recommended):</strong> Workers &amp; Pages → <code>schematic</code> →
+        Settings → Domains &amp; Routes → Add → Custom Domain → enter your hostname. Cloudflare
+        creates the DNS record and certificate.
+      </p>
+      <p>
+        <strong>B — Config file (local-only change, don't commit):</strong> add to
+        <code>wrangler.jsonc</code>, deploy, then revert — useful if you want the domain creation in
+        the deploy itself:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">
+          Add to <code>wrangler.jsonc</code>, then run <code>bun run deploy</code>:
+        </div>
+        <pre><code>"routes": [
+  { "pattern": "ttc.example.com", "custom_domain": true }
+]</code></pre>
+      </div>
+      <p>
+        The hostname must not already have a CNAME record, and matching is exact —
+        <code>www.</code> needs its own rule if you want it.
+      </p>
+
+      <h3>2.8 Keep alerts on Workers, schedule topology externally</h3>
+      <p>
+        <code>* * * * *</code> polls JSON and GTFS-RT alert sources every minute;
+        <code>*/15 * * * *</code> polls web and RSS sources every fifteen minutes. Both evaluate
+        complete snapshots and send Web Push to matching subscriptions. Manage these expressions in
+        <code>wrangler.jsonc</code>. Workers Free's 10 ms CPU budget cannot run GTFS projection; do
+        not add a topology cron there.
+      </p>
+      <p>
+        Alert observations remain transient in the Workers Cache API; no alert-feed database or D1
+        writes are introduced. Mixed agencies reuse opposite-cadence observations for up to fifteen
+        minutes (web/RSS) or 45 seconds (JSON/GTFS-RT). A cache miss fetches the source immediately,
+        including outside its normal cadence, so eviction or a different cache location cannot
+        fabricate an empty complete snapshot. Failed or capped crawls remain stale and suppress
+        recovery notifications.
+      </p>
+      <p>
+        Each Workers cycle shares a ceiling of 49 operations across cache lookups and mutations,
+        HTTP requests, redirects, and pushes. The current registry's uncapped cold polling alone
+        estimates 54 operations on the fast cadence and 3 on the slow cadence, before redirects or
+        pushes. Workers skip agencies without interested subscriptions or outstanding deliveries.
+        Exhausted work is deferred; agency starting positions rotate each cycle, and recipient
+        positions advance each full provider revolution to avoid correlated starvation. A separate
+        50-statement D1 guard includes schema and batch statements and reserves delivery or pruning
+        writes before accepting a push. These guards bound operation counts; CPU and daily quotas still
+        require production observation. Self-hosted polling retains its existing retry and crawl
+        limits.
+      </p>
+      <p>
+        Run the portable Bun CLI from a separate cron host or Forgejo runner instead. It refreshes
+        existing remote D1 topology directly, without a SQLite source, generated artifacts, or a
+        Worker deploy:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">
+          Run from a checkout with credentials supplied by your job's secret store:
+        </div>
+        <pre><code>bun scripts/refresh-topology.ts --config=/path/to/wrangler.json</code></pre>
+      </div>
+      <p>
+        Schedule it daily at 04:00 UTC, <code>0 4 * * *</code>. The shared policy selects only seed
+        agencies assigned to that weekday and skips fresh topology under the existing seven-day TTL.
+        Assignments are deterministic for the registered set and can rebalance when agencies change.
+        A failed agency does not stop the others; the CLI exits nonzero and the next scheduled retry
+        is its next weekly opportunity. TTC NextBus crawling and alert evaluation are unchanged;
+        request reads remain write-free.
+      </p>
+      <p>
+        Follow <a href="topology-refresh.md">portable refresh setup</a> for the private minimal D1
+        config, D1-write token, account ID, and scheduler concurrency. The included Forgejo workflow
+        uses a configurable runner label, daily schedule, and manual dispatch only. Its official Bun
+        setup action is fetched from GitHub but executes on the Forgejo runner, consuming no GitHub
+        Actions minutes. It has no push, pull-request, or deploy trigger. Any other Bun-capable cron
+        host can run the same CLI; Forgejo is not an application dependency.
+      </p>
+      <p>
+        An unchanged check does not advance <code>topology_meta.last_sync</code>, so an agency can
+        remain due for its next weekly check. Automatic refresh never regenerates the compiled
+        <code>stationIndex</code> or regional interchanges. Moved-stop warnings include before/after
+        coordinates and direct you to run these commands in your repository checkout:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Replace &lt;id&gt; with the agency ID from the warning:</div>
+        <pre><code>bun scripts/seed.ts --agency=&lt;id&gt; --db=sqlite</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">Regenerate interchanges from existing SQLite data:</div>
+        <pre><code>bun scripts/seed.ts --interchange-only</code></pre>
+      </div>
+      <p>
+        Review and commit the generated artifacts, then deploy them. Database refresh alone does not
+        update the deployed station index.
+      </p>
+      <p>
+        Smoke-test locally with <code>vite dev</code> running (default port 3000; 8787 is only the
+        <code>wrangler dev</code> default):
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Run with <code>vite dev</code> running — minute tick:</div>
+        <pre><code>curl "http://localhost:3000/cdn-cgi/handler/scheduled?cron=*+*+*+*+*"</code></pre>
+      </div>
+      <p>
+        In production, check Workers &amp; Pages → <code>schematic</code> → Settings → Trigger
+        Events → View events.
+      </p>
+
+      <h3>2.9 Serve the public read paths from the edge cache</h3>
+      <p>
+        Three read paths are safe to share and served from Cloudflare's edge cache:
+        <code>/api/snapshot/:agencyId</code>, <code>/api/departures/:agencyId/:stationId</code>, and
+        <code>/api/routes-catalog/:agencyId</code>. Everything else stays uncached. The flag ships
+        in <code>wrangler.sample.jsonc</code> (needs Wrangler 4.69+, repo pins 4.131.1; keep
+        <code>compatibility_date</code> at <code>2025-09-02</code>):
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">
+          Already in your config copied from the sample — confirm it is there:
+        </div>
+        <pre><code>"cache": {
+  "enabled": true
+}</code></pre>
+      </div>
+      <p>
+        Edge policy per path (browsers always revalidate; the numbers below are edge-only):
+        snapshots stay fresh 15 seconds with 15 seconds of background refresh and 60 seconds of
+        stale cover on origin error; departures stay fresh 20 seconds and never serve old countdowns
+        — an expired entry waits for origin, an origin error reaches the client as an error; the
+        routes catalog stays fresh 1 hour with 24-hour refresh and error windows. Each deploy starts
+        with an empty cache, so the first requests after a deploy are misses while it fills.
+      </p>
+      <p>
+        Before enabling the cache, record Workers request count, CPU time (watch
+        <code>exceededCpu</code>), and 5xx rate in Workers &amp; Pages → <code>schematic</code> →
+        Observability; record daily D1 rows read/written too. On Free, enable the available D1-limit
+        emails and weekly Workers/CPU summaries.
+      </p>
+      <p>
+        After deploy, repeat the measurements and compare them with the baseline. For a cache smoke
+        check, request a public read path twice and confirm the second response reports
+        <code>cf-cache-status: HIT</code> with an <code>age</code> value.
+      </p>
+      <div class="callout">
+        <strong>Rollback (emergency only).</strong> Purge is never part of a deploy, and the zone
+        dashboard purge cannot reach these entries — do not bother with it. To roll back: remove the
+        §4.4 Bypass so Access covers everything again, set <code>"enabled": false</code> in the
+        <code>cache</code> block of <code>wrangler.jsonc</code>, and run
+        <code>bun run deploy</code>. Disabling stops the edge from reading or filling the cache on
+        later requests.
+      </div>
+
+      <h3 id="cost-guards">2.10 Guard against runaway costs</h3>
+      <p>
+        Workers Paid has no spending cap: usage beyond the included allowance is billed as overage.
+        In the dashboard, open Notifications → Add → <strong>Usage Based Billing</strong> and set a
+        threshold so you hear about unexpected usage early. It warns but never stops the Worker.
+      </p>
+      <p>
+        Static assets and edge-cache hits never reach the Worker. Every other request is billed, so
+        the app bounds it in code, and the sample config declares the settings it relies on:
+      </p>
+      <ul>
+        <li>
+          <code>ratelimits</code> — the <code>REQUEST_RATE_LIMITER</code> binding admits 600
+          requests per client network (IPv4 address or IPv6 /64) per 60 seconds and answers the
+          rest with <code>429</code>. The Worker refuses to serve without this binding.
+          <code>namespace_id</code> is any integer unique within your account.
+        </li>
+        <li>
+          <code>limits.cpu_ms</code> — 5000 ms per invocation, well above the heaviest alert cron
+          and far below the 30-second default, so a runaway invocation fails fast. CPU limits apply
+          on Workers Paid.
+        </li>
+        <li>
+          <code>observability.logs.invocation_logs: false</code> — drops the automatic per-request
+          log line, the only log volume that grows with traffic. Application logs keep a
+          <code>head_sampling_rate</code> of 1 so incidents remain diagnosable.
+        </li>
+      </ul>
+      <p>
+        Each request may also issue at most 100 transit-database queries; an unknown station id
+        returns a 404 the edge holds for 60 seconds without touching feeds or D1.
+      </p>
+      <div class="callout">
+        <strong>Custom domain?</strong> Set <code>"workers_dev": false</code> once §2.7 is done.
+        The <code>*.workers.dev</code> hostname skips zone WAF and rate-limiting rules, so leaving it
+        on gives anyone a second, unfiltered way in. Keep it <code>true</code> only while
+        <code>workers.dev</code> is how you serve the app.
+      </div>
+
+      <h3>Stage check</h3>
+      <ul class="plain">
+        <li>
+          <input type="checkbox" /> <code>whoami</code> shows the right account;
+          <code>d1 list</code> matches <code>wrangler.jsonc</code>;
+          <code>wrangler secret list</code> confirms active secrets.
+        </li>
+        <li>
+          <input type="checkbox" /> Remote <code>transit-status-db</code> is seeded with transit
+          data.
+        </li>
+        <li>
+          <input type="checkbox" /> <code>bun run build</code> emits <code>public/sw.js</code> +
+          <code>dist/</code>.
+        </li>
+        <li>
+          <input type="checkbox" /> Deploy lists both D1 bindings and both alert crons,
+          <code>* * * * *</code> and <code>*/15 * * * *</code>.
+        </li>
+        <li>
+          <input type="checkbox" /> A separate topology job has private D1 configuration,
+          credentials, and single-cycle concurrency; a manual run succeeds before relying on its
+          schedule.
+        </li>
+        <li><input type="checkbox" /> Custom domain serves the map; service worker registers.</li>
+        <li>
+          <input type="checkbox" /> Cron Events show minute ticks within ~15 min; a test push
+          arrives during a severe disruption.
+        </li>
+      </ul>
+
+      <h2 id="container"><span class="n">3</span>Self-host with Docker or Podman (optional)</h2>
+      <p class="sub">
+        Skip this if you only want Cloudflare. Pre-built multi-architecture container images (<code
+          >linux/amd64</code
+        >
+        and <code>linux/arm64</code>) are published to GitHub Container Registry (GHCR) on every
+        release. Pick your runtime — every command below follows the tab:
+      </p>
+      <div class="rt-tabs" role="tablist" aria-label="Container runtime">
+        <button role="tab" type="button" data-rt-tab="docker" aria-selected="true">Docker</button>
+        <button role="tab" type="button" data-rt-tab="podman" aria-selected="false">Podman</button>
+      </div>
+
+      <h3>3.1 Obtain the image</h3>
+      <p><strong>Option A — Pull pre-built image (recommended):</strong></p>
+      <div class="cmd rt-docker">
+        <div class="cmd-label">Run:</div>
+        <pre><code>docker pull ghcr.io/joncrangle/schematic:latest</code></pre>
+      </div>
+      <div class="cmd rt-podman">
+        <div class="cmd-label">Run:</div>
+        <pre><code>podman pull ghcr.io/joncrangle/schematic:latest</code></pre>
+      </div>
+      <p><strong>Option B — Build from source:</strong></p>
+      <div class="cmd rt-docker">
+        <div class="cmd-label">Run:</div>
+        <pre><code>docker build -t ghcr.io/joncrangle/schematic:latest .</code></pre>
+      </div>
+      <div class="cmd rt-podman">
+        <div class="cmd-label">Run:</div>
+        <pre><code>podman build -t ghcr.io/joncrangle/schematic:latest .</code></pre>
+      </div>
+      <p>
+        The container installs locked deps, builds assets, pre-seeds all agencies' SQLite data, and
+        produces a slim runner running as the non-root <code>bun</code> user on port 3000.
+      </p>
+
+      <h3>3.2 Run</h3>
+      <div class="rt-podman">
+        <p><strong>Podman rootless only:</strong> one-time host setup as admin, then verify:</p>
+        <div class="cmd">
+          <div class="cmd-label">Run (admin):</div>
+          <pre><code>sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 $USER</code></pre>
+        </div>
+        <div class="cmd">
+          <div class="cmd-label">Run — confirm the ranges exist:</div>
+          <pre><code>grep $USER /etc/subuid /etc/subgid</code></pre>
+        </div>
+      </div>
+      <p class="rt-docker">No host setup needed on Docker — start the container directly:</p>
+      <p class="rt-podman">Then start the container:</p>
+      <div class="cmd">
+        <div class="cmd-label">Run:</div>
+        <pre><code>mkdir -p ./data</code></pre>
+      </div>
+      <div class="cmd rt-docker">
+        <div class="cmd-label">Run:</div>
+        <pre><code>docker run -d --name schematic -p 3000:3000 -v ./data:/app/data ghcr.io/joncrangle/schematic:latest</code></pre>
+      </div>
+      <div class="cmd rt-podman">
+        <div class="cmd-label">Run (note <code>--userns=keep-id</code>):</div>
+        <pre><code>podman run -d --name schematic -p 3000:3000 -v ./data:/app/data --userns=keep-id ghcr.io/joncrangle/schematic:latest</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">Run — expect OK:</div>
+        <pre><code>curl -fsS http://localhost:3000 &gt;/dev/null &amp;&amp; echo OK</code></pre>
+      </div>
+      <p class="rt-docker">
+        If the container can't write to the mounted <code>./data</code> (UID mismatch on the
+        non-root <code>bun</code> user), re-run with <code>--user $(id -u):$(id -g)</code>.
+      </p>
+      <p class="rt-podman">
+        If the container can't write to the mounted <code>./data</code>, make sure you passed
+        <code>--userns=keep-id</code> as above.
+      </p>
+      <p>
+        Or with compose — <code>compose.yaml</code> automatically pulls the pre-built GHCR image, or
+        builds locally if <code>--build</code> is provided. Each its own step:
+      </p>
+      <p class="rt-podman">
+        Note: Podman needs a compose provider such as <code>podman-compose</code> installed; Docker
+        ships <code>docker compose</code> built in.
+      </p>
+      <div class="cmd rt-docker">
+        <div class="cmd-label">Run:</div>
+        <pre><code>HOST_PORT=3000 docker compose -f compose.yaml up -d</code></pre>
+      </div>
+      <div class="cmd rt-podman">
+        <div class="cmd-label">Run:</div>
+        <pre><code>HOST_PORT=3000 podman compose -f compose.yaml up -d</code></pre>
+      </div>
+      <div class="cmd rt-docker">
+        <div class="cmd-label">Run — follow logs:</div>
+        <pre><code>docker compose -f compose.yaml logs -f</code></pre>
+      </div>
+      <div class="cmd rt-podman">
+        <div class="cmd-label">Run — follow logs:</div>
+        <pre><code>podman compose -f compose.yaml logs -f</code></pre>
+      </div>
+      <div class="callout">
+        <code>compose.yaml</code> passes <code>VAPID_PUBLIC_KEY</code>,
+        <code>VAPID_PRIVATE_KEY</code>, <code>VAPID_SUBJECT</code>,
+        <code>PUSH_ENDPOINT_HOSTS</code>, <code>GEOIP_DB_PATH</code>, and every
+        <code>FEED_*</code> secret listed in <code>.env.example</code> through from your shell or a
+        <code>.env</code> file beside <code>compose.yaml</code> — set whichever tiers you want
+        before <code>up</code>. Push uses the built-in browser-service hosts unless
+        <code>PUSH_ENDPOINT_HOSTS</code> adds exact custom hosts. Push remains disabled without both
+        VAPID keys, and coarse-ip stays off without <code>GEOIP_DB_PATH</code>. Self-hosted storage
+        is SQLite under <code>DATA_DIR</code> (<code
+          >bun run start</code
+        >
+        needs it set). The explicit startup hook starts the alert scheduler and an independent
+        topology timer for the next 04:00 UTC opportunity, using the same weekday assignments and
+        seven-day TTL as the external remote job. Self-hosting needs neither Forgejo nor Cloudflare;
+        SQLite remains local. Importing the server starts no timers. Startup does not refresh every
+        agency or catch up missed runs; overlapping topology cycles share one in-flight run. Initial
+        population and emergency refresh remain manual seed operations.
+      </div>
+
+      <h3>Stage check</h3>
+      <ul class="plain">
+        <li class="rt-docker">
+          <input type="checkbox" /> <code>docker images</code> shows
+          <code>ghcr.io/joncrangle/schematic</code>; container is Up.
+        </li>
+        <li class="rt-podman">
+          <input type="checkbox" /> <code>podman images</code> shows
+          <code>ghcr.io/joncrangle/schematic</code>; container is Up.
+        </li>
+        <li><input type="checkbox" /> <code>curl http://localhost:3000</code> returns the app.</li>
+        <li>
+          <input type="checkbox" /> <code>/sw.js</code> serves <code>no-cache</code>;
+          <code>/assets/*.js</code> serves immutable caching.
+        </li>
+      </ul>
+
+      <h2 id="access"><span class="n">4</span>Lock down with Cloudflare Access (optional)</h2>
+      <p class="sub">
+        Puts a login screen in front of the app so only the email addresses you allowlist get
+        through. Access denies by default — no Block policy needed. All dashboard, nothing to paste.
+      </p>
+
+      <h3>4.1 Create the Zero Trust organization</h3>
+      <ol>
+        <li>
+          Dashboard → Zero Trust; pick a team name (fixes
+          <code>&lt;team&gt;.cloudflareaccess.com</code> permanently).
+        </li>
+        <li>
+          Select a plan — the Free plan covers a small allowlist like this (payment details
+          required, not charged).
+        </li>
+      </ol>
+
+      <h3>4.2 Add a login method</h3>
+      <p>
+        <strong>Easiest:</strong> One-time PIN — available out of the box under Zero Trust →
+        Integrations → Identity providers.
+      </p>
+      <p>
+        <strong>Or Google OAuth</strong> (works with personal Gmail, no Workspace needed): Google
+        Cloud Console → new project → APIs &amp; Services → Credentials → consent screen (Audience:
+        External) → Create OAuth client (Web application) with origin
+        <code>https://&lt;team&gt;.cloudflareaccess.com</code> and redirect
+        <code>https://&lt;team&gt;.cloudflareaccess.com/cdn-cgi/access/callback</code> → paste the
+        Client ID + Secret into Zero Trust → Integrations → Identity providers → Google → Test.
+      </p>
+
+      <h3>4.3 Create the Access Application and Policy</h3>
+      <p>
+        A policy must exist before protecting the application. Configure the application and its
+        access rules together in the Zero Trust dashboard:
+      </p>
+      <ol>
+        <li>
+          Navigate to <strong>Zero Trust</strong> → <strong>Access Controls</strong> (or
+          <strong>Access</strong>) → <strong>Applications</strong>.
+        </li>
+        <li>Click <strong>Add an application</strong> → Select <strong>Self-hosted</strong>.</li>
+        <li>
+          <strong>Application Configuration</strong>:
+          <ul>
+            <li><strong>Application name</strong>: e.g. <code>Schematic</code></li>
+            <li>
+              <strong>Application domain</strong>: Enter your Worker domain (e.g.
+              <code>schematic.&lt;team&gt;.workers.dev</code> or your custom domain).
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Login Methods</strong>: Under the Login Methods section, check the identity
+          provider established in step 4.2 (such as Google OAuth or One-time PIN).
+        </li>
+        <li>
+          <strong>Policies</strong>: Click <strong>Add a policy</strong>:
+          <ul>
+            <li><strong>Policy name</strong>: e.g. <code>Allow My Emails</code></li>
+            <li><strong>Action</strong>: Select <strong>Allow</strong></li>
+            <li>
+              <strong>Session duration</strong>: Select <strong>24 hours</strong> (recommended
+              balance) or <strong>1 month</strong> (for persistent PWA access).
+            </li>
+            <li>
+              <strong>Configure rules</strong>: Under <strong>Include</strong>, set
+              <strong>Selector</strong> to <strong>Emails</strong> and enter your authorized email
+              address(es). (Do <em>not</em> use "Everyone" or "Login Methods" as the rule selector,
+              which would open access to anyone).
+            </li>
+          </ul>
+        </li>
+        <li>Save the application and policy.</li>
+      </ol>
+
+      <h3>4.4 Bypass Access for the public read paths</h3>
+      <p>
+        The edge can only cache what it can fetch without a login, so the three public read paths
+        from §2.9 sit outside Access while everything else stays challenged. More-specific path
+        rules win: add a second Self-hosted application covering just those paths with a Bypass
+        policy, and leave the main application from §4.3 untouched.
+      </p>
+      <ol>
+        <li>
+          Zero Trust → Access → Applications → <strong>Add an application</strong> →
+          <strong>Self-hosted</strong>.
+        </li>
+        <li>
+          <strong>Application name</strong>: e.g. <code>Schematic public reads</code>.
+          <strong>Application domain</strong>: the same hostname as §4.3, with
+          <strong>Path</strong> entries for <code>/api/snapshot/*</code>,
+          <code>/api/departures/*</code>, and <code>/api/routes-catalog/*</code>.
+        </li>
+        <li>
+          <strong>Policies</strong> → <strong>Add a policy</strong>: <strong>Action</strong> →
+          <strong>Bypass</strong>, include everyone the paths serve (e.g. Everyone). Save.
+        </li>
+        <li>
+          Confirm an incognito <code>curl</code> to <code>/api/snapshot/ttc</code> returns data with
+          no redirect to login, while <code>/</code> still redirects to the team login page.
+        </li>
+      </ol>
+
+      <h3>Stage check</h3>
+      <ul class="plain">
+        <li><input type="checkbox" /> Incognito visit redirects to the team login page.</li>
+        <li>
+          <input type="checkbox" /> Every allowlisted account gets in; any other account sees the
+          block page.
+        </li>
+        <li>
+          <input type="checkbox" /> PWA installed from the home screen keeps its session; no
+          addresses appear in git.
+        </li>
+      </ul>
+
+      <h2 id="proxy">
+        <span class="n">5</span>Alert Feed Proxy Daemon &amp; Cloudflare Tunnel (optional)
+      </h2>
+      <p class="sub">
+        Use this when an upstream blocks the deployment runtime's egress, or when parsing a large
+        supported GHD service-alert board directly in a Worker exceeds its compute budget.
+      </p>
+
+      <h3>5.1 Architecture</h3>
+      <p>
+        Cloudflare Workers execute from cloud edge datacenters. Certain transit authority advisory
+        portals block requests from cloud datacenter IP addresses with HTTP 403 or bot challenges.
+        The daemon also moves supported GHD board fetching and HTML parsing out of Workers: it polls
+        the board on an unblocked host, turns parsed advisories into standard GTFS-Realtime Protobuf
+        (<code>FeedMessage</code>), and exposes the cached feed to your Cloudflare Worker via a
+        <a
+          href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Cloudflare Tunnel</a
+        >
+        without opening inbound firewall ports.
+      </p>
+
+      <h3>5.2 Running the daemon</h3>
+      <p>
+        The daemon reads its served-feed registry from the JSON file named by
+        <code>ALERT_FEED_CONFIG</code>. The repository Compose service mounts
+        <code>services/alert-feed-daemon/feeds.json</code> at
+        <code>/etc/alert-feed-daemon/feeds.json</code>. Its default serves YRT, GRT, DRT, Milton, and OC Transpo.
+        YRT needs the daemon because its WAF blocks Workers; the other three GHD boards use it to
+        move their large HTML parse off Workers. The registry supports the existing
+        <code>ghd-news-service-advisories</code> parser, so a compatible board can be added in JSON
+        without a Rust change or image rebuild. The <code>rss</code> kind validates and forwards OC Transpo's RSS document unchanged at <code>/oc-transpo.xml</code>, preserving metadata for the existing
+        decoder. RSS decoding remains in Workers. Upgrade the daemon binary/image for RSS support,
+        then restart it after editing the mounted file.
+      </p>
+      <p>
+        Each entry pairs an <code>id</code> with an <code>upstreamUrl</code>, parser,
+        <code>routeParser</code>, and IANA <code>timeZone</code>. The ID determines the public path
+        <code>/&lt;id&gt;.pb</code>. Optional <code>maxAgeMinutes</code> matches the operator's
+        publication policy (0–4,294,967,295 minutes). RSS entries instead use
+        <code>parser: "rss"</code> and omit <code>routeParser</code>, <code>timeZone</code>, and
+        <code>maxAgeMinutes</code>; their path is <code>/&lt;id&gt;.xml</code>. Registry defaults set
+        <code>pollIntervalSecs</code> and <code>maxStalenessSecs</code>; the existing global
+        environment variables override those defaults, and per-feed values override both. Poll
+        intervals must be positive and representable by the runtime timer. A staleness threshold of
+        zero makes a cached feed stale as soon as its recorded age becomes positive. An empty
+        <code>feeds</code> array starts no pollers while keeping <code>/health</code> available.
+      </p>
+      <p>
+        <strong>Roll out the daemon first.</strong> Update the mounted registry and restart the
+        daemon, then verify <code>/yrt.pb</code>, <code>/grt.pb</code>, <code>/drt.pb</code>, and
+        <code>/milton.pb</code> return protobuf feeds, and <code>/oc-transpo.xml</code> returns RSS through
+        the tunnel with the configured token. Configure the Worker secrets next, and only
+        then deploy the manifests that route Cloudflare alert sources through the daemon. If
+        <code>FEED_ALERT_PROXY_BASE_URL</code> is absent, those proxy sources are inactive: YRT, DRT,
+        Milton, and OC Transpo have no alert source on Workers; GRT retains its separate official GTFS-Realtime
+        source, but its combined snapshot stays stale because the required GHD board is missing.
+        A daemon request or auth failure is
+        reported as stale feed data rather than triggering direct HTML parsing in the Worker.
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Registry entry for another compatible GHD board:</div>
+        <pre><code>{
+  "id": "agency",
+  "enabled": true,
+  "parser": "ghd-news-service-advisories",
+  "upstreamUrl": "https://www.example.ca/Modules/News/en/serviceadvisories",
+  "routeParser": "standard",
+  "timeZone": "America/Toronto",
+  "maxAgeMinutes": 10080
+}</code></pre>
+      </div>
+      <p>
+        Generate a shared secret token using OpenSSL, then run the daemon either as a standalone
+        compiled binary or as a container:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Run — generate secret token:</div>
+        <pre><code>openssl rand -hex 32</code></pre>
+      </div>
+
+      <p><strong>Option A — Native binary:</strong></p>
+      <div class="cmd">
+        <div class="cmd-label">Run — compile release binary:</div>
+        <pre><code>bun run alerts:build</code></pre>
+      </div>
+      <div class="cmd">
+        <div class="cmd-label">Run — start daemon:</div>
+        <pre><code>PORT=3001 FEED_ALERT_PROXY_TOKEN=your_generated_token ALERT_FEED_CONFIG=/path/to/feeds.json bun run alerts:start</code></pre>
+      </div>
+
+      <p><strong>Option B — Containerized (Docker / Podman):</strong></p>
+      <p>Pull and run the pre-built multi-arch image (recommended):</p>
+      <div class="cmd">
+        <div class="cmd-label">Run — start pre-built container:</div>
+        <pre><code>docker run -d --name alert-feed-daemon -p 3001:3001 -e FEED_ALERT_PROXY_TOKEN=your_generated_token -e ALERT_FEED_CONFIG=/etc/alert-feed-daemon/feeds.json -v "$PWD/services/alert-feed-daemon/feeds.json:/etc/alert-feed-daemon/feeds.json:ro" ghcr.io/joncrangle/alert-feed-daemon:latest</code></pre>
+      </div>
+      <p>Or start it as part of your stack via Docker Compose:</p>
+      <div class="cmd">
+        <div class="cmd-label">Run — start via compose:</div>
+        <pre><code>FEED_ALERT_PROXY_TOKEN=your_generated_token docker compose -f compose.yaml up -d alert-feed-daemon</code></pre>
+      </div>
+      <p>Or build the image locally from source:</p>
+      <div class="cmd">
+        <div class="cmd-label">Run — build image locally:</div>
+        <pre><code>docker build -f services/alert-feed-daemon/Dockerfile -t ghcr.io/joncrangle/alert-feed-daemon:latest .</code></pre>
+      </div>
+
+      <h3>5.3 Exposing via Cloudflare Tunnel</h3>
+      <p>
+        Route an ingress hostname (e.g. <code>alerts.yourdomain.com</code>) through your Cloudflare
+        Tunnel to the daemon's port (<code>3001</code>). Refer to the official
+        <a
+          href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Cloudflare Tunnel documentation</a
+        >
+        for managing tunnels via the Zero Trust dashboard or CLI.
+      </p>
+
+      <h3>5.4 Connect the Worker to the Proxied Feed</h3>
+      <p>Configure your tunnel base URL and shared token in your Cloudflare Worker secrets:</p>
+      <div class="cmd">
+        <div class="cmd-label">Run — deploy the proxy base URL and token to your Worker:</div>
+        <pre><code>bunx wrangler secret put FEED_ALERT_PROXY_BASE_URL
+# Enter your tunnel origin, e.g.: https://alerts.yourdomain.com
+
+bunx wrangler secret put FEED_ALERT_PROXY_TOKEN
+# Enter the same FEED_ALERT_PROXY_TOKEN used by the daemon</code></pre>
+      </div>
+      <p>
+        The YRT, GRT, DRT, Milton, and OC Transpo manifests declare
+        <code>baseUrlSecretName: "FEED_ALERT_PROXY_BASE_URL"</code> on their Cloudflare-only proxy
+        sources. Once the secret is provisioned, Schematic activates and rewrites each URL to the
+        shared tunnel origin and its feed path:
+      </p>
+      <div class="cmd">
+        <div class="cmd-label">Manifest configuration (under <code>alerts</code>):</div>
+        <pre><code>{
+  "type": "gtfs-rt",
+  "url": "https://alerts.example.com/yrt.pb",
+  "runtimes": ["cloudflare"],
+  "baseUrlSecretName": "FEED_ALERT_PROXY_BASE_URL",
+  "auth": {
+    "type": "header",
+    "headerName": "x-feed-token",
+    "secretName": "FEED_ALERT_PROXY_TOKEN"
+  }
+}</code></pre>
+      </div>
+
+      <h3>Stage check</h3>
+      <ul class="plain">
+        <li>
+          <input type="checkbox" />
+          <code
+            >curl -s https://alerts.yourdomain.com/&lt;feed_id&gt;.pb -H "x-feed-token:
+            your_token"</code
+          >
+          returns binary protobuf.
+        </li>
+        <li>
+          <input type="checkbox" /> Cloudflare Worker successfully ingests service advisories
+          without WAF 403 errors.
+        </li>
+      </ul>
+
+      <footer>
+        Revised for Deploy to Cloudflare for end-to-end testing. Single file, no external requests.
+        Independent open-source project — not affiliated with the Toronto Transit Commission.
+      </footer>
+    </main>
+    <script>
+      (function () {
+        "use strict";
+        /* Runtime tabs (Docker / Podman), remembered per browser. */
+        var tabs = document.querySelectorAll("[data-rt-tab]");
+        function setRt(rt) {
+          document.body.setAttribute("data-rt", rt);
+          tabs.forEach(function (b) {
+            b.setAttribute(
+              "aria-selected",
+              b.getAttribute("data-rt-tab") === rt ? "true" : "false",
+            );
+          });
+          try {
+            localStorage.setItem("schem-guide-rt", rt);
+          } catch (e) {}
+        }
+        var saved = null;
+        try {
+          saved = localStorage.getItem("schem-guide-rt");
+        } catch (e) {}
+        setRt(saved === "podman" ? "podman" : "docker");
+        tabs.forEach(function (b) {
+          b.addEventListener("click", function () {
+            setRt(b.getAttribute("data-rt-tab"));
+          });
+        });
+        document.querySelectorAll("pre").forEach(function (pre) {
+          var btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "copy";
+          btn.textContent = "Copy";
+          btn.addEventListener("click", function () {
+            var code = pre.querySelector("code");
+            var text = (
+              code ? code.textContent : pre.innerText.replace(/\n?Cop(y|ied)$/, "")
+            ).trim();
+            function done() {
+              btn.textContent = "Copied";
+              setTimeout(function () {
+                btn.textContent = "Copy";
+              }, 1500);
+            }
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(text).then(done, done);
+            } else {
+              var ta = document.createElement("textarea");
+              ta.value = text;
+              document.body.appendChild(ta);
+              ta.select();
+              try {
+                document.execCommand("copy");
+              } catch (e) {}
+              document.body.removeChild(ta);
+              done();
+            }
+          });
+          pre.appendChild(btn);
+        });
+      })();
+    </script>
+  </body>
+</html>

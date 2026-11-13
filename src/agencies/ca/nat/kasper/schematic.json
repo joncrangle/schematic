@@ -1,0 +1,522 @@
+{
+  "viewBoxWidth": 2100,
+  "viewBoxHeight": 1050,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Thunder Bay - White River",
+      "color": "#145F32",
+      "points": [
+        {
+          "x": 1600,
+          "y": 900
+        },
+        {
+          "x": 1900,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Thunder Bay - Longlac",
+      "color": "#873D8F",
+      "points": [
+        {
+          "x": 1600,
+          "y": 900
+        },
+        {
+          "x": 1600,
+          "y": 650
+        },
+        {
+          "x": 1900,
+          "y": 350
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Thunder Bay - Sioux Lookout",
+      "color": "#006D9C",
+      "points": [
+        {
+          "x": 1600,
+          "y": 900
+        },
+        {
+          "x": 1350,
+          "y": 650
+        },
+        {
+          "x": 1200,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sioux Lookout - Winnipeg",
+      "color": "#8C4B16",
+      "points": [
+        {
+          "x": 1200,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Winnipeg - Balmertown",
+      "color": "#9A2448",
+      "points": [
+        {
+          "x": 700,
+          "y": 650
+        },
+        {
+          "x": 725,
+          "y": 625
+        },
+        {
+          "x": 925,
+          "y": 625
+        },
+        {
+          "x": 950,
+          "y": 650
+        },
+        {
+          "x": 1200,
+          "y": 400
+        },
+        {
+          "x": 1200,
+          "y": 250
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Winnipeg - The Pas",
+      "color": "#3F5F9C",
+      "points": [
+        {
+          "x": 700,
+          "y": 650
+        },
+        {
+          "x": 350,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Winnipeg - Thompson",
+      "color": "#7C6416",
+      "points": [
+        {
+          "x": 700,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Brandon - Winnipeg",
+      "color": "#546F37",
+      "points": [
+        {
+          "x": 150,
+          "y": 850
+        },
+        {
+          "x": 500,
+          "y": 850
+        },
+        {
+          "x": 700,
+          "y": 650
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "winnipeg",
+      "name": "Winnipeg",
+      "x": 700,
+      "y": 650,
+      "lines": ["4", "5", "6", "7", "8"],
+      "label": {
+        "x": 735,
+        "y": 700,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "sioux-lookout",
+      "name": "Sioux Lookout",
+      "x": 1200,
+      "y": 650,
+      "lines": ["3", "4"],
+      "label": {
+        "x": 1200,
+        "y": 615,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "thunder-bay",
+      "name": "Thunder Bay",
+      "x": 1600,
+      "y": 900,
+      "lines": ["1", "2", "3"],
+      "label": {
+        "x": 1600,
+        "y": 950,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "white-river",
+      "name": "White River",
+      "x": 1900,
+      "y": 900,
+      "lines": ["1"],
+      "label": {
+        "x": 1900,
+        "y": 865,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "longlac",
+      "name": "Longlac",
+      "x": 1900,
+      "y": 350,
+      "lines": ["2"],
+      "label": {
+        "x": 1900,
+        "y": 315,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "balmertown",
+      "name": "Balmertown",
+      "x": 1200,
+      "y": 250,
+      "lines": ["5"],
+      "label": {
+        "x": 1200,
+        "y": 215,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "the-pas",
+      "name": "The Pas",
+      "x": 350,
+      "y": 300,
+      "lines": ["6"],
+      "label": {
+        "x": 350,
+        "y": 265,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "paint-lake",
+      "name": "Paint Lake",
+      "x": 700,
+      "y": 100,
+      "lines": ["7"],
+      "label": {
+        "x": 700,
+        "y": 65,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "brandon",
+      "name": "Brandon",
+      "x": 150,
+      "y": 850,
+      "lines": ["8"],
+      "label": {
+        "x": 150,
+        "y": 815,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "kenora",
+      "name": "Kenora",
+      "x": 950,
+      "y": 650,
+      "lines": ["4", "5"],
+      "label": {
+        "x": 950,
+        "y": 690,
+        "anchor": "middle"
+      },
+      "terminal": false
+    }
+  ],
+  "sequences": {
+    "1": ["thunder-bay", "white-river"],
+    "2": ["thunder-bay", "longlac"],
+    "3": ["thunder-bay", "sioux-lookout"],
+    "4": ["sioux-lookout", "kenora", "winnipeg"],
+    "5": ["winnipeg", "kenora", "balmertown"],
+    "6": ["winnipeg", "the-pas"],
+    "7": ["winnipeg", "paint-lake"],
+    "8": ["brandon", "winnipeg"]
+  },
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 1750,
+      "y": 933,
+      "color": "#145F32",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 1765,
+      "y": 532,
+      "color": "#873D8F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 1452,
+      "y": 797,
+      "color": "#006D9C",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1070,
+      "y": 683,
+      "color": "#8C4B16",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 1233,
+      "y": 330,
+      "color": "#9A2448",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 487,
+      "y": 483,
+      "color": "#3F5F9C",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "7",
+      "num": "7",
+      "x": 733,
+      "y": 350,
+      "color": "#7C6416",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "x": 330,
+      "y": 883,
+      "color": "#546F37",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "stationAliases": {
+    "Winnipeg - Balmoral Transit Station": "winnipeg",
+    "Thunder Bay - 947 Memorial Avenue": "thunder-bay",
+    "Sioux Lookout - Tim Horton's": "sioux-lookout",
+    "White River - BVD": "white-river",
+    "Longlac - Robin's Donuts": "longlac",
+    "Balmer Motel": "balmertown",
+    "Kenora - McDonald's": "kenora",
+    "Brandon - Clark Hall": "brandon",
+    "The Pas - Wescana Inn": "the-pas",
+    "Paint Lake - 391 Hwy JCT": "paint-lake"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 30,
+      "maxX": 2050,
+      "minY": 20,
+      "maxY": 1020
+    },
+    "minZoom": 0.25,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -101.25,
+    "refLonEast": -85.28,
+    "refXWest": 150,
+    "refXEast": 1900,
+    "refLatNorth": 55.74,
+    "refLatSouth": 48.4,
+    "refYNorth": 100,
+    "refYSouth": 900
+  },
+  "stationIndex": [
+    {
+      "id": "9088",
+      "schematicId": "balmertown",
+      "name": "Balmertown",
+      "lat": 51.055956,
+      "lon": -93.744949,
+      "lines": ["5"],
+      "platformIds": ["9088"],
+      "departureRouteIds": ["Balmertown - Winnipeg", "Winnipeg - Balmertown"]
+    },
+    {
+      "id": "10052",
+      "schematicId": "brandon",
+      "name": "Brandon",
+      "lat": 49.845521,
+      "lon": -99.96291,
+      "lines": ["8"],
+      "platformIds": ["10052"],
+      "departureRouteIds": ["Brandon - Winnipeg"]
+    },
+    {
+      "id": "9054",
+      "schematicId": "kenora",
+      "name": "Kenora",
+      "lat": 49.762572,
+      "lon": -94.477214,
+      "lines": ["4", "5"],
+      "platformIds": ["9054"],
+      "departureRouteIds": [
+        "Balmertown - Winnipeg",
+        "Sioux Lookout - Winnipeg",
+        "Winnipeg - Balmertown",
+        "Winnipeg - Sioux Lookout"
+      ]
+    },
+    {
+      "id": "9080",
+      "schematicId": "longlac",
+      "name": "Longlac",
+      "lat": 49.78229,
+      "lon": -86.53401,
+      "lines": ["2"],
+      "platformIds": ["9080"],
+      "departureRouteIds": ["Longlac - Thunder Bay", "Thunder Bay - Longlac"]
+    },
+    {
+      "id": "10027",
+      "schematicId": "paint-lake",
+      "name": "Paint Lake",
+      "lat": 55.5150306,
+      "lon": -98.095071,
+      "lines": ["7"],
+      "platformIds": ["10027"],
+      "departureRouteIds": ["Thompson - Winnipeg", "Winnipeg - Thompson"]
+    },
+    {
+      "id": "9081",
+      "schematicId": "sioux-lookout",
+      "name": "Sioux Lookout",
+      "lat": 50.092686,
+      "lon": -91.919545,
+      "lines": ["3", "4"],
+      "platformIds": ["9081"],
+      "departureRouteIds": [
+        "Sioux Lookout - Thunder Bay",
+        "Sioux Lookout - Winnipeg",
+        "Thunder Bay - Sioux Lookout",
+        "Winnipeg - Sioux Lookout"
+      ]
+    },
+    {
+      "id": "10018",
+      "schematicId": "the-pas",
+      "name": "The Pas",
+      "lat": 53.82088,
+      "lon": -101.249282,
+      "lines": ["6"],
+      "platformIds": ["10018"],
+      "departureRouteIds": ["The Pas - Winnipeg", "Winnipeg - The Pas"]
+    },
+    {
+      "id": "9070",
+      "schematicId": "thunder-bay",
+      "name": "Thunder Bay",
+      "lat": 48.409357,
+      "lon": -89.244704,
+      "lines": ["1", "2", "3"],
+      "platformIds": ["9070"],
+      "departureRouteIds": [
+        "Longlac - Thunder Bay",
+        "Sioux Lookout - Thunder Bay",
+        "Thunder Bay - Longlac",
+        "Thunder Bay - Sioux Lookout",
+        "Thunder Bay - White River",
+        "White River - Thunder Bay"
+      ]
+    },
+    {
+      "id": "9085",
+      "schematicId": "white-river",
+      "name": "White River",
+      "lat": 48.593753,
+      "lon": -85.2779108,
+      "lines": ["1"],
+      "platformIds": ["9085"],
+      "departureRouteIds": ["Thunder Bay - White River", "White River - Thunder Bay"]
+    },
+    {
+      "id": "9082",
+      "schematicId": "winnipeg",
+      "name": "Winnipeg",
+      "lat": 49.8911015,
+      "lon": -97.152289,
+      "lines": ["4", "5", "6", "7", "8"],
+      "platformIds": ["9082"],
+      "departureRouteIds": [
+        "Balmertown - Winnipeg",
+        "Brandon - Winnipeg",
+        "Sioux Lookout - Winnipeg",
+        "The Pas - Winnipeg",
+        "Thompson - Winnipeg",
+        "Winnipeg - Balmertown",
+        "Winnipeg - Sioux Lookout",
+        "Winnipeg - The Pas",
+        "Winnipeg - Thompson"
+      ]
+    }
+  ]
+}

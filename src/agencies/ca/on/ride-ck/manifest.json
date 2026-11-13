@@ -1,0 +1,117 @@
+{
+  "id": "ride-ck",
+  "name": "Ride CK",
+  "serviceArea": "Chatham-Kent",
+  "shortName": "Ride CK",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 42.37,
+      "maxLat": 42.44,
+      "minLon": -82.24,
+      "maxLon": -82.15
+    },
+    {
+      "minLat": 42.41,
+      "maxLat": 42.61,
+      "minLon": -82.4,
+      "maxLon": -82.17
+    },
+    {
+      "minLat": 42.325,
+      "maxLat": 42.455,
+      "minLon": -82.11,
+      "maxLon": -81.865
+    },
+    {
+      "minLat": 42.235,
+      "maxLat": 42.405,
+      "minLon": -82.445,
+      "maxLon": -82.02
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "attribution": {
+    "name": "Ride CK / Municipality of Chatham-Kent; TransitFare",
+    "url": "https://www.rideck.ca/",
+    "license": "No explicit reuse licence was found for the Ride CK GTFS and GTFS-RT data. The URL query token is intentionally public in the Transitland atlas.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Chatham Terminal",
+      "lat": 42.403911,
+      "lon": -82.184205
+    },
+    {
+      "name": "Wallaceburg",
+      "lat": 42.598246,
+      "lon": -82.366902
+    },
+    {
+      "name": "Dresden",
+      "lat": 42.590307,
+      "lon": -82.179486
+    },
+    {
+      "name": "Ridgetown",
+      "lat": 42.439855,
+      "lon": -81.886001
+    },
+    {
+      "name": "Tilbury",
+      "lat": 42.253969,
+      "lon": -82.437717
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "5", "10", "12", "13"],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "5", "10", "12", "13"]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Ride CK GTFS",
+        "url": "https://ck.usetransit.com/api/1/public/gtfs/5/gtfs.zip?token=eddbcb1b954b64461%21%219687922751%24-%24%409cc77671a2df2f%5E",
+        "cacheFileName": "ride-ck-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://ck.usetransit.com/api/1/public/gtfs/5/VehiclePositions.pb?token=eddbcb1b954b64461%21%219687922751%24-%24%409cc77671a2df2f%5E",
+        "format": "protobuf",
+        "pollIntervalSeconds": 60,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://ck.usetransit.com/api/1/public/gtfs/5/TripUpdates.pb?token=eddbcb1b954b64461%21%219687922751%24-%24%409cc77671a2df2f%5E",
+        "format": "protobuf",
+        "pollIntervalSeconds": 60,
+        "tripDirectionSource": "static"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://ck.usetransit.com/api/1/public/gtfs/5/Alerts.pb?token=eddbcb1b954b64461%21%219687922751%24-%24%409cc77671a2df2f%5E",
+      "format": "protobuf",
+      "emptyIsStale": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "valid": [
+    "routes-and-categories.xml",
+    "empty.xml",
+    "atom.xml",
+    "empty-atom.xml",
+    "doctype-in-comment.xml",
+    "duplicate-titles.xml",
+    "french-routes-and-categories.xml",
+    "issue326-english.xml",
+    "issue326-french.xml"
+  ],
+  "invalid": [
+    "html.xml",
+    "missing-channel.xml",
+    "truncated.xml",
+    "multiple-roots.xml",
+    "doctype.xml",
+    "duplicate-channel.xml",
+    "blank.xml",
+    "rss-nested-in-html.xml",
+    "missing-title.xml",
+    "blank-title.xml",
+    "markup-only-title.xml",
+    "script-only-title.xml",
+    "empty-item.xml",
+    "nested-missing-title.xml",
+    "unbound-prefix.xml",
+    "unknown-entity.xml",
+    "invalid-character-reference.xml",
+    "empty-doctype.xml"
+  ]
+}

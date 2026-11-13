@@ -1,0 +1,56 @@
+services:
+  schematic:
+    image: ghcr.io/joncrangle/schematic:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: schematic
+    restart: unless-stopped
+    ports:
+      - "${HOST_PORT:-3000}:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - LOG_LEVEL=info
+      - DATA_DIR=/app/data
+      # Optional tiers, passed through from the host environment when set.
+      # Unset stays empty, which ServerEnv treats as unconfigured: push skips,
+      # coarse-ip stays disabled, and unauthenticated feeds warn honestly.
+      - VAPID_PUBLIC_KEY=${VAPID_PUBLIC_KEY:-}
+      - VAPID_PRIVATE_KEY=${VAPID_PRIVATE_KEY:-}
+      - VAPID_SUBJECT=${VAPID_SUBJECT:-}
+      - PUSH_ENDPOINT_HOSTS=${PUSH_ENDPOINT_HOSTS:-}
+      - GEOIP_DB_PATH=${GEOIP_DB_PATH:-}
+      # Agency feed secrets; every entry mirrors .env.example.
+      - FEED_METROLINX_API_KEY=${FEED_METROLINX_API_KEY:-}
+      - FEED_OC_TRANSPO_API_KEY=${FEED_OC_TRANSPO_API_KEY:-}
+      - FEED_STM_API_KEY=${FEED_STM_API_KEY:-}
+      - FEED_CHRONO_API_KEY=${FEED_CHRONO_API_KEY:-}
+      - FEED_STO_API_KEY=${FEED_STO_API_KEY:-}
+      - FEED_STO_API_SECRET=${FEED_STO_API_SECRET:-}
+      - FEED_TRANSLINK_API_KEY=${FEED_TRANSLINK_API_KEY:-}
+      - FEED_WINNIPEG_TRANSIT_API_KEY=${FEED_WINNIPEG_TRANSIT_API_KEY:-}
+      - FEED_T3_SWIFTLY_TOKEN=${FEED_T3_SWIFTLY_TOKEN:-}
+      - FEED_TIDAL_API_KEY=${FEED_TIDAL_API_KEY:-}
+      - FEED_ALERT_PROXY_BASE_URL=${FEED_ALERT_PROXY_BASE_URL:-}
+      - FEED_ALERT_PROXY_TOKEN=${FEED_ALERT_PROXY_TOKEN:-}
+    volumes:
+      - ./data:/app/data
+
+  alert-feed-daemon:
+    image: ghcr.io/joncrangle/alert-feed-daemon:latest
+    build:
+      context: .
+      dockerfile: services/alert-feed-daemon/Dockerfile
+    container_name: alert-feed-daemon
+    restart: unless-stopped
+    ports:
+      - "${ALERT_DAEMON_PORT:-3001}:3001"
+    environment:
+      - PORT=3001
+      - FEED_ALERT_PROXY_TOKEN=${FEED_ALERT_PROXY_TOKEN:-}
+      - POLL_INTERVAL_SECS=${POLL_INTERVAL_SECS:-180}
+      - MAX_STALENESS_SECS=${MAX_STALENESS_SECS:-3600}
+      - ALERT_FEED_CONFIG=/etc/alert-feed-daemon/feeds.json
+    volumes:
+      - ./services/alert-feed-daemon/feeds.json:/etc/alert-feed-daemon/feeds.json:ro

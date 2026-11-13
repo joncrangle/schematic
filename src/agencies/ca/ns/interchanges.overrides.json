@@ -1,0 +1,27 @@
+{
+  "hubs": [
+    {
+      "id": "halifax-via-halifax",
+      "endpoints": [
+        {
+          "agencyId": "halifax",
+          "stationId": "hollis-barrington",
+          "stationName": "Hollis at Barrington",
+          "feedStopIds": ["6938"]
+        },
+        {
+          "agencyId": "via",
+          "stationId": "halifax",
+          "stationName": "Halifax"
+        }
+      ],
+      "badgeOffsets": {
+        "halifax": {
+          "dx": -50,
+          "dy": 0
+        }
+      }
+    }
+  ],
+  "exclusions": []
+}

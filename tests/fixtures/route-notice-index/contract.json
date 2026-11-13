@@ -1,0 +1,131 @@
+{
+  "cases": [
+    {
+      "name": "merges one notice listed under several routes",
+      "routeNames": {
+        "R1": [
+          "NOR-SOU",
+          "SOU-NOR"
+        ],
+        "R2": [
+          "NOR-EAS"
+        ]
+      },
+      "html": "<div class=\"content\"><h3 class=\"service-region\" id=\"North\">North</h3><hr/><a href=\"?serviceNoticeCode=100&subscriptionRoute=NOR-SOU\">\n   Berth Closure - May 2 to 9&nbsp;-&nbsp;North Harbour - South Point</a>\n<hr /><a href=\"?serviceNoticeCode=200&subscriptionRoute=NOR-EAS\">\n   Sailing Delay&nbsp;-&nbsp;North Harbour - East Cove</a>\n<hr /><h3 class=\"service-region\">East</h3><hr/><a href=\"?serviceNoticeCode=100&subscriptionRoute=NOR-EAS\">\n   Berth Closure - May 2 to 9&nbsp;-&nbsp;North Harbour - East Cove</a>\n<hr /></div>",
+      "notices": [
+        {
+          "url": "https://example.test/notices?serviceNoticeCode=100",
+          "title": "Berth Closure - May 2 to 9",
+          "description": "North Harbour - South Point\nNorth Harbour - East Cove\n[Service notice](https://example.test/notices?serviceNoticeCode=100)",
+          "routeIds": [
+            "R1",
+            "R2"
+          ]
+        },
+        {
+          "url": "https://example.test/notices?serviceNoticeCode=200",
+          "title": "Sailing Delay",
+          "description": "North Harbour - East Cove\n[Service notice](https://example.test/notices?serviceNoticeCode=200)",
+          "routeIds": [
+            "R2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "accepts explicitly empty regions as no notices",
+      "routeNames": {
+        "R1": [
+          "NOR-SOU",
+          "SOU-NOR"
+        ],
+        "R2": [
+          "NOR-EAS"
+        ]
+      },
+      "html": "<h3 class=\"service-region\">North</h3><hr/>\n No service notices at this time<h3 class=\"service-region\">East</h3><hr/>No service notices at this time",
+      "notices": []
+    },
+    {
+      "name": "withholds a notice whose route code is not mapped",
+      "routeNames": {
+        "R1": [
+          "NOR-SOU",
+          "SOU-NOR"
+        ],
+        "R2": [
+          "NOR-EAS"
+        ]
+      },
+      "html": "<h3 class=\"service-region\">North</h3><hr/><a href=\"?serviceNoticeCode=300&subscriptionRoute=NOR-WES\">\n   Terminal Work&nbsp;-&nbsp;North Harbour - West Bay</a>\n<hr /><a href=\"?serviceNoticeCode=200&subscriptionRoute=SOU-NOR\">\n   Sailing Delay&nbsp;-&nbsp;South Point - North Harbour</a>\n<hr />",
+      "partial": true,
+      "notices": [
+        {
+          "url": "https://example.test/notices?serviceNoticeCode=200",
+          "title": "Sailing Delay",
+          "description": "South Point - North Harbour\n[Service notice](https://example.test/notices?serviceNoticeCode=200)",
+          "routeIds": [
+            "R1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stops a region at the next ordinary heading",
+      "routeNames": {
+        "R1": [
+          "NOR-SOU",
+          "SOU-NOR"
+        ],
+        "R2": [
+          "NOR-EAS"
+        ]
+      },
+      "html": "<h3 class=\"service-region\">North</h3><hr/>No service notices at this time<h2>Subscribe</h2><p>Get notices by email</p>",
+      "notices": []
+    },
+    {
+      "name": "keeps a zero-width no-break space inside a title",
+      "routeNames": {
+        "R1": [
+          "NOR-SOU"
+        ]
+      },
+      "html": "<h3 class=\"service-region\">North</h3><a href=\"?serviceNoticeCode=400&subscriptionRoute=NOR-SOU\">Berth﻿Closure&nbsp;-&nbsp;North Harbour</a>",
+      "notices": [
+        {
+          "url": "https://example.test/notices?serviceNoticeCode=400",
+          "title": "Berth﻿Closure",
+          "description": "North Harbour\n[Service notice](https://example.test/notices?serviceNoticeCode=400)",
+          "routeIds": [
+            "R1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fails without service notice regions",
+      "html": "<main><h2>Service notices</h2><p>Try again later.</p></main>",
+      "error": true
+    },
+    {
+      "name": "fails on a region with unrecognized content",
+      "html": "<h3 class=\"service-region\">North</h3><hr/>Notices are temporarily unavailable",
+      "error": true
+    },
+    {
+      "name": "fails on a notice link without a route code",
+      "routeNames": {
+        "R1": [
+          "NOR-SOU",
+          "SOU-NOR"
+        ],
+        "R2": [
+          "NOR-EAS"
+        ]
+      },
+      "html": "<h3 class=\"service-region\">North</h3><a href=\"?serviceNoticeCode=100\">Berth Closure&nbsp;-&nbsp;North Harbour</a>",
+      "error": true
+    }
+  ]
+}

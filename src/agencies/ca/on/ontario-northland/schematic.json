@@ -1,0 +1,689 @@
+{
+  "viewBoxWidth": 2400,
+  "viewBoxHeight": 1680,
+  "lines": [
+    {
+      "id": "101",
+      "name": "Toronto – North Bay",
+      "color": "#00214D",
+      "points": [
+        {
+          "x": 1500,
+          "y": 1500
+        },
+        {
+          "x": 1500,
+          "y": 1380
+        },
+        {
+          "x": 1500,
+          "y": 1260
+        },
+        {
+          "x": 1740,
+          "y": 1020
+        },
+        {
+          "x": 1740,
+          "y": 900
+        },
+        {
+          "x": 1740,
+          "y": 780
+        },
+        {
+          "x": 1740,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "name": "Toronto – Sudbury",
+      "color": "#E6B012",
+      "points": [
+        {
+          "x": 1500,
+          "y": 1500
+        },
+        {
+          "x": 1500,
+          "y": 1380
+        },
+        {
+          "x": 1500,
+          "y": 1260
+        },
+        {
+          "x": 1260,
+          "y": 1020
+        },
+        {
+          "x": 1080,
+          "y": 840
+        },
+        {
+          "x": 1080,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "301",
+      "name": "North Bay – Timmins",
+      "color": "#2563EB",
+      "points": [
+        {
+          "x": 1740,
+          "y": 600
+        },
+        {
+          "x": 1740,
+          "y": 420
+        },
+        {
+          "x": 1620,
+          "y": 420
+        },
+        {
+          "x": 1380,
+          "y": 420
+        },
+        {
+          "x": 1620,
+          "y": 420
+        },
+        {
+          "x": 1620,
+          "y": 180
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "name": "Sudbury – Hearst",
+      "color": "#7C3AED",
+      "points": [
+        {
+          "x": 1080,
+          "y": 600
+        },
+        {
+          "x": 1200,
+          "y": 600
+        },
+        {
+          "x": 1380,
+          "y": 420
+        },
+        {
+          "x": 1620,
+          "y": 180
+        },
+        {
+          "x": 1020,
+          "y": 180
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "name": "Timmins – Thunder Bay",
+      "color": "#059669",
+      "points": [
+        {
+          "x": 1380,
+          "y": 420
+        },
+        {
+          "x": 1140,
+          "y": 180
+        },
+        {
+          "x": 1020,
+          "y": 180
+        },
+        {
+          "x": 780,
+          "y": 420
+        },
+        {
+          "x": 300,
+          "y": 420
+        }
+      ]
+    },
+    {
+      "id": "501",
+      "name": "Ottawa – Sudbury",
+      "color": "#DC2626",
+      "points": [
+        {
+          "x": 2160,
+          "y": 780
+        },
+        {
+          "x": 1980,
+          "y": 600
+        },
+        {
+          "x": 1740,
+          "y": 600
+        },
+        {
+          "x": 1080,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "503",
+      "name": "Sudbury – Sault Ste. Marie",
+      "color": "#C2410C",
+      "points": [
+        {
+          "x": 1080,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 780
+        },
+        {
+          "x": 660,
+          "y": 780
+        }
+      ]
+    },
+    {
+      "id": "601",
+      "name": "Sault Ste. Marie – Thunder Bay",
+      "color": "#0891B2",
+      "points": [
+        {
+          "x": 660,
+          "y": 780
+        },
+        {
+          "x": 300,
+          "y": 420
+        }
+      ]
+    },
+    {
+      "id": "603",
+      "name": "Thunder Bay – Winnipeg",
+      "color": "#6B7280",
+      "points": [
+        {
+          "x": 300,
+          "y": 420
+        },
+        {
+          "x": 120,
+          "y": 240
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "union-bus-terminal",
+      "name": "Union Bus Terminal",
+      "x": 1500,
+      "y": 1500,
+      "lines": ["101", "201"],
+      "label": {
+        "x": 1524,
+        "y": 1528,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "yorkdale",
+      "name": "Yorkdale",
+      "x": 1500,
+      "y": 1380,
+      "lines": ["101", "201"],
+      "label": {
+        "x": 1524,
+        "y": 1408,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "allandale-terminal",
+      "name": "Allandale Terminal",
+      "x": 1500,
+      "y": 1260,
+      "lines": ["101", "201"],
+      "label": {
+        "x": 1524,
+        "y": 1288,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "gravenhurst",
+      "name": "Gravenhurst",
+      "x": 1740,
+      "y": 1020,
+      "lines": ["101"],
+      "label": {
+        "x": 1764,
+        "y": 1048,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "bracebridge",
+      "name": "Bracebridge",
+      "x": 1740,
+      "y": 900,
+      "lines": ["101"],
+      "label": {
+        "x": 1764,
+        "y": 928,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "huntsville",
+      "name": "Huntsville",
+      "x": 1740,
+      "y": 780,
+      "lines": ["101"],
+      "label": {
+        "x": 1764,
+        "y": 808,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "parry-sound",
+      "name": "Parry Sound",
+      "x": 1260,
+      "y": 1020,
+      "lines": ["201"],
+      "label": {
+        "x": 1285,
+        "y": 1020,
+        "anchor": "start",
+        "rot": 0
+      }
+    },
+    {
+      "id": "north-bay",
+      "name": "North Bay",
+      "x": 1740,
+      "y": 600,
+      "lines": ["101", "301", "501"],
+      "label": {
+        "x": 1764,
+        "y": 628,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sudbury",
+      "name": "Sudbury",
+      "x": 1080,
+      "y": 600,
+      "lines": ["201", "401", "501", "503"],
+      "label": {
+        "x": 1104,
+        "y": 628,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "new-liskeard",
+      "name": "New Liskeard",
+      "x": 1740,
+      "y": 420,
+      "lines": ["301"],
+      "label": {
+        "x": 1764,
+        "y": 448,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cochrane",
+      "name": "Cochrane",
+      "x": 1620,
+      "y": 180,
+      "lines": ["301", "401"],
+      "label": {
+        "x": 1644,
+        "y": 208,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "timmins",
+      "name": "Timmins",
+      "x": 1380,
+      "y": 420,
+      "lines": ["301", "401", "403"],
+      "label": {
+        "x": 1404,
+        "y": 448,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "hearst",
+      "name": "Hearst",
+      "x": 1020,
+      "y": 180,
+      "lines": ["401", "403"],
+      "label": {
+        "x": 1044,
+        "y": 208,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sault-ste-marie",
+      "name": "Sault Ste. Marie",
+      "x": 660,
+      "y": 780,
+      "lines": ["503", "601"],
+      "label": {
+        "x": 684,
+        "y": 808,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "thunder-bay",
+      "name": "Thunder Bay",
+      "x": 300,
+      "y": 420,
+      "lines": ["403", "601", "603"],
+      "label": {
+        "x": 320,
+        "y": 390,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "winnipeg",
+      "name": "Winnipeg",
+      "x": 120,
+      "y": 240,
+      "lines": ["603"],
+      "label": {
+        "x": 100,
+        "y": 240,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ottawa",
+      "name": "Ottawa VIA Rail",
+      "x": 2160,
+      "y": 780,
+      "lines": ["501"],
+      "label": {
+        "x": 2184,
+        "y": 808,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "matheson",
+      "name": "Matheson",
+      "x": 1620,
+      "y": 420,
+      "lines": ["301"],
+      "label": {
+        "x": 1620,
+        "y": 465,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "101": [
+      "union-bus-terminal",
+      "yorkdale",
+      "allandale-terminal",
+      "gravenhurst",
+      "bracebridge",
+      "huntsville",
+      "north-bay"
+    ],
+    "201": ["union-bus-terminal", "yorkdale", "allandale-terminal", "parry-sound", "sudbury"],
+    "301": ["north-bay", "new-liskeard", "matheson", "timmins", "cochrane"],
+    "401": ["sudbury", "timmins", "cochrane", "hearst"],
+    "403": ["timmins", "hearst", "thunder-bay"],
+    "501": ["ottawa", "north-bay", "sudbury"],
+    "503": ["sudbury", "sault-ste-marie"],
+    "601": ["sault-ste-marie", "thunder-bay"],
+    "603": ["thunder-bay", "winnipeg"]
+  },
+  "stationAliases": {
+    "UNION STATION BUS TERMINAL": "union-bus-terminal",
+    "YORKDALE": "yorkdale",
+    "BARRIE ALLANDALE TERMINAL": "allandale-terminal",
+    "GRAVENHURST": "gravenhurst",
+    "BRACEBRIDGE": "bracebridge",
+    "HUNTSVILLE": "huntsville",
+    "PARRY SOUND": "parry-sound",
+    "NORTH BAY": "north-bay",
+    "SUDBURY": "sudbury",
+    "NEW LISKEARD": "new-liskeard",
+    "COCHRANE": "cochrane",
+    "TIMMINS": "timmins",
+    "HEARST": "hearst",
+    "SAULT STE MARIE": "sault-ste-marie",
+    "THUNDER BAY": "thunder-bay",
+    "WINNIPEG": "winnipeg",
+    "OTTAWA - VIA RAIL": "ottawa",
+    "MATHESON": "matheson"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 2400,
+      "minY": 0,
+      "maxY": 1680
+    },
+    "minZoom": 0.5,
+    "maxZoom": 4
+  },
+  "geoProjection": {
+    "refLonWest": -97.15417,
+    "refLonEast": -75.65198,
+    "refXWest": 120,
+    "refXEast": 2160,
+    "refLatNorth": 49.90662,
+    "refLatSouth": 43.64387,
+    "refYNorth": 240,
+    "refYSouth": 1500
+  },
+  "stationIndex": [
+    {
+      "id": "315",
+      "schematicId": "allandale-terminal",
+      "name": "Allandale Terminal",
+      "lat": 44.374098982662,
+      "lon": -79.6901938878,
+      "lines": ["101", "201"],
+      "platformIds": ["315"],
+      "departureRouteIds": ["101", "102", "201", "202"]
+    },
+    {
+      "id": "207",
+      "schematicId": "bracebridge",
+      "name": "Bracebridge",
+      "lat": 45.0307069346309,
+      "lon": -79.3133369833232,
+      "lines": ["101"],
+      "platformIds": ["207"],
+      "departureRouteIds": ["101", "102"]
+    },
+    {
+      "id": "192",
+      "schematicId": "cochrane",
+      "name": "Cochrane",
+      "lat": 49.0602689981461,
+      "lon": -81.0233389399946,
+      "lines": ["301", "401"],
+      "platformIds": ["192"],
+      "departureRouteIds": ["301", "302", "401", "402"]
+    },
+    {
+      "id": "208",
+      "schematicId": "gravenhurst",
+      "name": "Gravenhurst",
+      "lat": 44.9173489864916,
+      "lon": -79.3722329288722,
+      "lines": ["101"],
+      "platformIds": ["208"],
+      "departureRouteIds": ["101", "102"]
+    },
+    {
+      "id": "204",
+      "schematicId": "hearst",
+      "name": "Hearst",
+      "lat": 49.690561965108,
+      "lon": -83.6710509750993,
+      "lines": ["401", "403"],
+      "platformIds": ["204"],
+      "departureRouteIds": ["401", "402", "403", "404"]
+    },
+    {
+      "id": "206",
+      "schematicId": "huntsville",
+      "name": "Huntsville",
+      "lat": 45.3235779237003,
+      "lon": -79.225696977228,
+      "lines": ["101"],
+      "platformIds": ["206"],
+      "departureRouteIds": ["101", "102"]
+    },
+    {
+      "id": "114",
+      "schematicId": "new-liskeard",
+      "name": "New Liskeard",
+      "lat": 47.5275049824268,
+      "lon": -79.6747239958496,
+      "lines": ["301"],
+      "platformIds": ["114"],
+      "departureRouteIds": ["301", "302"]
+    },
+    {
+      "id": "205",
+      "schematicId": "north-bay",
+      "name": "North Bay",
+      "lat": 46.3137749768794,
+      "lon": -79.4381599500776,
+      "lines": ["101", "301", "501"],
+      "platformIds": ["205"],
+      "departureRouteIds": ["101", "102", "301", "302", "501", "502"]
+    },
+    {
+      "id": "551",
+      "schematicId": "ottawa",
+      "name": "Ottawa VIA Rail",
+      "lat": 45.4166999459267,
+      "lon": -75.6519799400122,
+      "lines": ["501"],
+      "platformIds": ["551"],
+      "departureRouteIds": ["501", "502"]
+    },
+    {
+      "id": "141",
+      "schematicId": "parry-sound",
+      "name": "Parry Sound",
+      "lat": 45.3434559423477,
+      "lon": -80.0101269409061,
+      "lines": ["201"],
+      "platformIds": ["141"],
+      "departureRouteIds": ["201", "202"]
+    },
+    {
+      "id": "490",
+      "schematicId": "sault-ste-marie",
+      "name": "Sault Ste. Marie",
+      "lat": 46.5460809320212,
+      "lon": -84.3241769168527,
+      "lines": ["503", "601"],
+      "platformIds": ["490"],
+      "departureRouteIds": ["503", "504", "601", "602"]
+    },
+    {
+      "id": "129",
+      "schematicId": "sudbury",
+      "name": "Sudbury",
+      "lat": 46.5049979556352,
+      "lon": -80.9381179511548,
+      "lines": ["201", "401", "501", "503"],
+      "platformIds": ["129"],
+      "departureRouteIds": ["201", "202", "401", "402", "501", "502", "503", "504"]
+    },
+    {
+      "id": "507",
+      "schematicId": "thunder-bay",
+      "name": "Thunder Bay",
+      "lat": 48.372585978359,
+      "lon": -89.3032629322261,
+      "lines": ["403", "601", "603"],
+      "platformIds": ["507"],
+      "departureRouteIds": ["403", "404", "601", "602", "603", "604"]
+    },
+    {
+      "id": "185",
+      "schematicId": "timmins",
+      "name": "Timmins",
+      "lat": 48.4746269322932,
+      "lon": -81.3268059957773,
+      "lines": ["301", "401", "403"],
+      "platformIds": ["185"],
+      "departureRouteIds": ["301", "302", "401", "402", "403", "404"]
+    },
+    {
+      "id": "222",
+      "schematicId": "union-bus-terminal",
+      "name": "Union Bus Terminal",
+      "lat": 43.6438749544323,
+      "lon": -79.3773019686342,
+      "lines": ["101", "201"],
+      "platformIds": ["222"],
+      "departureRouteIds": ["101", "102", "201", "202"]
+    },
+    {
+      "id": "529",
+      "schematicId": "winnipeg",
+      "name": "Winnipeg",
+      "lat": 49.9066209420562,
+      "lon": -97.1541729569436,
+      "lines": ["603"],
+      "platformIds": ["529"],
+      "departureRouteIds": ["603", "604"]
+    },
+    {
+      "id": "210",
+      "schematicId": "yorkdale",
+      "name": "Yorkdale",
+      "lat": 43.7249469850213,
+      "lon": -79.4488069787622,
+      "lines": ["101", "201"],
+      "platformIds": ["210"],
+      "departureRouteIds": ["101", "102", "201", "202"]
+    },
+    {
+      "id": "180",
+      "schematicId": "matheson",
+      "name": "Matheson",
+      "lat": 48.5363809391857,
+      "lon": -80.4657809436322,
+      "lines": ["301"],
+      "platformIds": ["180"],
+      "departureRouteIds": ["301", "302"]
+    }
+  ]
+}

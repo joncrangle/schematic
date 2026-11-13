@@ -1,0 +1,994 @@
+{
+  "viewBoxWidth": 2400,
+  "viewBoxHeight": 1450,
+  "lines": [
+    {
+      "id": "L1",
+      "name": "Lévisien L1",
+      "points": [
+        {
+          "x": 250,
+          "y": 1000
+        },
+        {
+          "x": 250,
+          "y": 1100
+        },
+        {
+          "x": 350,
+          "y": 1200
+        },
+        {
+          "x": 450,
+          "y": 1200
+        },
+        {
+          "x": 550,
+          "y": 1100
+        },
+        {
+          "x": 550,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 700
+        },
+        {
+          "x": 1500,
+          "y": 700
+        },
+        {
+          "x": 1500,
+          "y": 500
+        },
+        {
+          "x": 1950,
+          "y": 500
+        }
+      ],
+      "color": "#4EA685"
+    },
+    {
+      "id": "L3",
+      "name": "Lévisien L3",
+      "points": [
+        {
+          "x": 250,
+          "y": 1000
+        },
+        {
+          "x": 250,
+          "y": 1100
+        },
+        {
+          "x": 350,
+          "y": 1200
+        },
+        {
+          "x": 450,
+          "y": 1200
+        },
+        {
+          "x": 550,
+          "y": 1100
+        },
+        {
+          "x": 550,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 700
+        },
+        {
+          "x": 700,
+          "y": 200
+        }
+      ],
+      "color": "#1E4289"
+    },
+    {
+      "id": "L2",
+      "name": "Lévisien L2",
+      "points": [
+        {
+          "x": 700,
+          "y": 200
+        },
+        {
+          "x": 700,
+          "y": 700
+        },
+        {
+          "x": 1250,
+          "y": 700
+        },
+        {
+          "x": 1400,
+          "y": 550
+        },
+        {
+          "x": 1500,
+          "y": 550
+        },
+        {
+          "x": 1500,
+          "y": 500
+        },
+        {
+          "x": 1700,
+          "y": 500
+        },
+        {
+          "x": 1700,
+          "y": 400
+        },
+        {
+          "x": 1500,
+          "y": 200
+        },
+        {
+          "x": 1300,
+          "y": 200
+        },
+        {
+          "x": 1200,
+          "y": 300
+        }
+      ],
+      "color": "#1E4289"
+    },
+    {
+      "id": "22",
+      "name": "Parcours 22",
+      "points": [
+        {
+          "x": 150,
+          "y": 1250
+        },
+        {
+          "x": 400,
+          "y": 1250
+        },
+        {
+          "x": 550,
+          "y": 1100
+        },
+        {
+          "x": 550,
+          "y": 800
+        },
+        {
+          "x": 650,
+          "y": 800
+        },
+        {
+          "x": 700,
+          "y": 750
+        },
+        {
+          "x": 700,
+          "y": 700
+        }
+      ],
+      "color": "#0091B3"
+    },
+    {
+      "id": "23",
+      "name": "Parcours 23",
+      "points": [
+        {
+          "x": 150,
+          "y": 500
+        },
+        {
+          "x": 250,
+          "y": 500
+        },
+        {
+          "x": 500,
+          "y": 750
+        },
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 550,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 650
+        },
+        {
+          "x": 700,
+          "y": 700
+        },
+        {
+          "x": 700,
+          "y": 800
+        },
+        {
+          "x": 850,
+          "y": 950
+        }
+      ],
+      "color": "#0091B3"
+    },
+    {
+      "id": "L4",
+      "name": "Lévisien 4",
+      "color": "#4EA685",
+      "points": [
+        {
+          "x": 700,
+          "y": 200
+        },
+        {
+          "x": 700,
+          "y": 700
+        },
+        {
+          "x": 1250,
+          "y": 700
+        },
+        {
+          "x": 1400,
+          "y": 550
+        },
+        {
+          "x": 1500,
+          "y": 550
+        },
+        {
+          "x": 1500,
+          "y": 500
+        },
+        {
+          "x": 1700,
+          "y": 500
+        },
+        {
+          "x": 1800,
+          "y": 600
+        },
+        {
+          "x": 2150,
+          "y": 600
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "lagueux",
+      "name": "Terminus Lagueux",
+      "x": 250,
+      "y": 1000,
+      "lines": ["L1", "L3"],
+      "label": {
+        "x": 220,
+        "y": 1000,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "etienne",
+      "name": "Saint-Étienne-de-Lauzon",
+      "x": 450,
+      "y": 1200,
+      "lines": ["L1", "L3"],
+      "label": {
+        "x": 480,
+        "y": 1200,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "plante",
+      "name": "Station Plante",
+      "x": 550,
+      "y": 800,
+      "lines": ["L1", "L3", "22"],
+      "label": {
+        "x": 520,
+        "y": 800,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "rivieres",
+      "name": "PRB des Rivières",
+      "x": 550,
+      "y": 650,
+      "lines": ["L1", "L3", "23"],
+      "label": {
+        "x": 550,
+        "y": 618,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "concorde",
+      "name": "Station de la Concorde",
+      "x": 700,
+      "y": 700,
+      "lines": ["L1", "L3", "L2", "22", "23", "L4"],
+      "label": {
+        "x": 730,
+        "y": 732,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "taniata",
+      "name": "Station Taniata",
+      "x": 1000,
+      "y": 700,
+      "lines": ["L1", "L2", "L4"],
+      "label": {
+        "x": 1000,
+        "y": 732,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "chapais",
+      "name": "Station T.-Chapais",
+      "x": 1250,
+      "y": 700,
+      "lines": ["L1", "L2", "L4"],
+      "label": {
+        "x": 1250,
+        "y": 732,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "galeries",
+      "name": "Galeries Chagnon",
+      "x": 1500,
+      "y": 700,
+      "lines": ["L1"],
+      "label": {
+        "x": 1530,
+        "y": 700,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "st-omer",
+      "name": "Station St-Omer",
+      "x": 1500,
+      "y": 500,
+      "lines": ["L1", "L2", "L4"],
+      "label": {
+        "x": 1470,
+        "y": 500,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "arena",
+      "name": "Aréna A.-Lacroix",
+      "x": 1700,
+      "y": 500,
+      "lines": ["L1", "L2", "L4"],
+      "label": {
+        "x": 1730,
+        "y": 468,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lauzon",
+      "name": "Parc industriel de Lauzon",
+      "x": 1950,
+      "y": 500,
+      "lines": ["L1"],
+      "label": {
+        "x": 1980,
+        "y": 500,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "kennedy",
+      "name": "Station du Président-Kennedy",
+      "x": 1350,
+      "y": 600,
+      "lines": ["L2", "L4"],
+      "label": {
+        "x": 1320,
+        "y": 600,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cegep",
+      "name": "Cégep de Lévis",
+      "x": 1700,
+      "y": 400,
+      "lines": ["L2"],
+      "label": {
+        "x": 1730,
+        "y": 400,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "jolliet",
+      "name": "Station Jolliet",
+      "x": 1500,
+      "y": 200,
+      "lines": ["L2"],
+      "label": {
+        "x": 1500,
+        "y": 168,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hotel-dieu",
+      "name": "Hôtel-Dieu de Lévis",
+      "x": 1300,
+      "y": 200,
+      "lines": ["L2"],
+      "label": {
+        "x": 1300,
+        "y": 168,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "traverse",
+      "name": "Terminus de la Traverse",
+      "x": 1200,
+      "y": 300,
+      "lines": ["L2"],
+      "label": {
+        "x": 1170,
+        "y": 300,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "foresterie",
+      "name": "Sainte-Foy / Foresterie",
+      "x": 700,
+      "y": 200,
+      "lines": ["L3", "L2", "L4"],
+      "label": {
+        "x": 700,
+        "y": 168,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "lisiere",
+      "name": "La Lisière / des Charmilles",
+      "x": 150,
+      "y": 1250,
+      "lines": ["22"],
+      "label": {
+        "x": 120,
+        "y": 1250,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "pionniers",
+      "name": "Des Pionniers / Baronet",
+      "x": 150,
+      "y": 500,
+      "lines": ["23"],
+      "label": {
+        "x": 120,
+        "y": 500,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "etchemins",
+      "name": "École Les Etchemins",
+      "x": 850,
+      "y": 950,
+      "lines": ["23"],
+      "label": {
+        "x": 880,
+        "y": 950,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "j-demers",
+      "name": "Station J.-Demers",
+      "x": 500,
+      "y": 750,
+      "lines": ["23"],
+      "label": {
+        "x": 470,
+        "y": 750,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "lallemand",
+      "name": "Lauzon / Lallemand",
+      "x": 2150,
+      "y": 600,
+      "lines": ["L4"],
+      "terminal": true,
+      "label": {
+        "x": 2180,
+        "y": 600,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "L1",
+      "num": "L1",
+      "x": 1850,
+      "y": 534,
+      "color": "#4EA685",
+      "textColor": "#000000"
+    },
+    {
+      "line": "L2",
+      "num": "L2",
+      "x": 1620,
+      "y": 466,
+      "color": "#1E4289",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "L3",
+      "num": "L3",
+      "x": 666,
+      "y": 400,
+      "color": "#1E4289",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "22",
+      "num": "22",
+      "x": 200,
+      "y": 1284,
+      "color": "#0091B3",
+      "textColor": "#000000"
+    },
+    {
+      "line": "23",
+      "num": "23",
+      "x": 200,
+      "y": 466,
+      "color": "#0091B3",
+      "textColor": "#000000"
+    },
+    {
+      "line": "L4",
+      "num": "L4",
+      "x": 2000,
+      "y": 634,
+      "color": "#4EA685",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "L1": [
+      "lagueux",
+      "etienne",
+      "plante",
+      "rivieres",
+      "concorde",
+      "taniata",
+      "chapais",
+      "galeries",
+      "st-omer",
+      "arena",
+      "lauzon"
+    ],
+    "L3": ["lagueux", "etienne", "plante", "rivieres", "concorde", "foresterie"],
+    "L2": [
+      "foresterie",
+      "concorde",
+      "taniata",
+      "chapais",
+      "kennedy",
+      "st-omer",
+      "arena",
+      "cegep",
+      "jolliet",
+      "hotel-dieu",
+      "traverse"
+    ],
+    "22": ["lisiere", "plante", "concorde"],
+    "23": ["pionniers", "j-demers", "rivieres", "concorde", "etchemins"],
+    "L4": [
+      "foresterie",
+      "concorde",
+      "taniata",
+      "chapais",
+      "kennedy",
+      "st-omer",
+      "arena",
+      "lallemand"
+    ]
+  },
+  "stationAliases": {
+    "Terminus Lagueux": "lagueux",
+    "Station PRB de St-É.-de-Lauzon": "etienne",
+    "Station Plante": "plante",
+    "Station PRB des Rivières": "rivieres",
+    "Station de la Concorde": "concorde",
+    "Station Taniata": "taniata",
+    "Station T.-Chapais": "chapais",
+    "Galeries Chagnon - A.-Desjardins": "galeries",
+    "Station St-Omer": "st-omer",
+    "Station Aréna A.-Lacroix": "arena",
+    "Parc industriel de Lauzon": "lauzon",
+    "des Riveurs - arrêt 1066": "lauzon",
+    "Station du Président-Kennedy": "kennedy",
+    "Station Cégep de Lévis": "cegep",
+    "Station Jolliet": "jolliet",
+    "Station H.-Dieu de Lévis": "hotel-dieu",
+    "Terminus de la Traverse": "traverse",
+    "Station de la Foresterie": "foresterie",
+    "de la Lisière / des Charmilles": "lisiere",
+    "des Pionniers / Baronet": "pionniers",
+    "École Les Etchemins": "etchemins",
+    "Station J.-Demers": "j-demers",
+    "J.-Demers / des Rivières": "j-demers",
+    "Lallemand / des Riveurs": "lallemand"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 50,
+      "maxX": 2350,
+      "minY": 50,
+      "maxY": 1400
+    },
+    "minZoom": 0.35,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -71.4,
+    "refLonEast": -71.11,
+    "refXWest": 150,
+    "refXEast": 1950,
+    "refLatNorth": 46.827,
+    "refLatSouth": 46.65,
+    "refYNorth": 200,
+    "refYSouth": 1200
+  },
+  "stationIndex": [
+    {
+      "id": "arena",
+      "schematicId": "arena",
+      "name": "Aréna A.-Lacroix",
+      "lat": 46.814462,
+      "lon": -71.151414,
+      "lines": ["L1", "L2", "L4"],
+      "platformIds": ["1025", "1026"],
+      "departureRouteIds": ["119", "L1", "L2", "L4"]
+    },
+    {
+      "id": "cegep",
+      "schematicId": "cegep",
+      "name": "Cégep de Lévis",
+      "lat": 46.816343,
+      "lon": -71.153058,
+      "lines": ["L2"],
+      "platformIds": ["1023", "1024"],
+      "departureRouteIds": ["L2"]
+    },
+    {
+      "id": "7301",
+      "schematicId": "pionniers",
+      "name": "Des Pionniers / Baronet",
+      "lat": 46.701525,
+      "lon": -71.398121,
+      "lines": ["23"],
+      "platformIds": ["7301"],
+      "departureRouteIds": ["23", "231", "235", "23E"]
+    },
+    {
+      "id": "etchemins",
+      "schematicId": "etchemins",
+      "name": "École Les Etchemins",
+      "lat": 46.720665,
+      "lon": -71.266627,
+      "lines": ["23"],
+      "platformIds": ["6505", "6606", "6915", "6916", "6919"],
+      "departureRouteIds": ["22", "229", "23", "319", "34", "35", "351", "355", "36", "399", "L2"]
+    },
+    {
+      "id": "galeries",
+      "schematicId": "galeries",
+      "name": "Galeries Chagnon",
+      "lat": 46.798086,
+      "lon": -71.170185,
+      "lines": ["L1"],
+      "platformIds": ["3052", "3053"],
+      "departureRouteIds": [
+        "11",
+        "11A",
+        "158",
+        "200",
+        "210",
+        "225",
+        "235",
+        "236",
+        "245",
+        "350",
+        "355",
+        "375",
+        "380",
+        "385",
+        "L1"
+      ]
+    },
+    {
+      "id": "hotel-dieu",
+      "schematicId": "hotel-dieu",
+      "name": "Hôtel-Dieu de Lévis",
+      "lat": 46.815736,
+      "lon": -71.178908,
+      "lines": ["L2"],
+      "platformIds": ["3008", "3009"],
+      "departureRouteIds": ["13", "15", "16", "L2"]
+    },
+    {
+      "id": "lisiere",
+      "schematicId": "lisiere",
+      "name": "La Lisière / des Charmilles",
+      "lat": 46.667557,
+      "lon": -71.388359,
+      "lines": ["22"],
+      "platformIds": ["220005", "220010"],
+      "departureRouteIds": ["22", "T22"]
+    },
+    {
+      "id": "lauzon",
+      "schematicId": "lauzon",
+      "name": "Parc industriel de Lauzon",
+      "lat": 46.816057,
+      "lon": -71.112813,
+      "lines": ["L1"],
+      "platformIds": ["1066", "1071", "1072", "110290"],
+      "departureRouteIds": ["11", "11A", "L1"]
+    },
+    {
+      "id": "rivieres",
+      "schematicId": "rivieres",
+      "name": "PRB des Rivières",
+      "lat": 46.727485,
+      "lon": -71.296121,
+      "lines": ["23", "L1", "L3"],
+      "platformIds": ["240345", "650670", "7013", "7014", "7929", "990123"],
+      "departureRouteIds": [
+        "221",
+        "222",
+        "225",
+        "23",
+        "231",
+        "23E",
+        "24",
+        "24E",
+        "43E",
+        "65",
+        "L1",
+        "L3",
+        "T22"
+      ]
+    },
+    {
+      "id": "etienne",
+      "schematicId": "etienne",
+      "name": "Saint-Étienne-de-Lauzon",
+      "lat": 46.651523,
+      "lon": -71.301756,
+      "lines": ["L1", "L3"],
+      "platformIds": ["30125", "30130"],
+      "departureRouteIds": ["L1", "L3", "T22"]
+    },
+    {
+      "id": "20575",
+      "schematicId": "foresterie",
+      "name": "Sainte-Foy / Foresterie",
+      "lat": 46.780198,
+      "lon": -71.278487,
+      "lines": ["L2", "L3", "L4"],
+      "platformIds": ["20575"],
+      "departureRouteIds": ["200", "23E", "24E", "34E", "36E", "37E", "38E", "L2", "L3", "L4"]
+    },
+    {
+      "id": "concorde",
+      "schematicId": "concorde",
+      "name": "Station de la Concorde",
+      "lat": 46.731366,
+      "lon": -71.276111,
+      "lines": ["22", "23", "L1", "L2", "L3", "L4"],
+      "platformIds": ["5047", "5048"],
+      "departureRouteIds": [
+        "200",
+        "22",
+        "221",
+        "222",
+        "23",
+        "231",
+        "232",
+        "325",
+        "34E",
+        "37E",
+        "38E",
+        "42E",
+        "43E",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ]
+    },
+    {
+      "id": "kennedy",
+      "schematicId": "kennedy",
+      "name": "Station du Président-Kennedy",
+      "lat": 46.796395,
+      "lon": -71.175195,
+      "lines": ["L2", "L4"],
+      "platformIds": ["3022", "3025"],
+      "departureRouteIds": ["11", "138", "139", "15", "16", "345", "42E", "L1", "L2", "L4", "T15"]
+    },
+    {
+      "id": "jolliet",
+      "schematicId": "jolliet",
+      "name": "Station Jolliet",
+      "lat": 46.825461,
+      "lon": -71.1658,
+      "lines": ["L2"],
+      "platformIds": ["1009", "1010"],
+      "departureRouteIds": ["11", "111", "11A", "L2"]
+    },
+    {
+      "id": "plante",
+      "schematicId": "plante",
+      "name": "Station Plante",
+      "lat": 46.717406,
+      "lon": -71.298553,
+      "lines": ["22", "L1", "L3"],
+      "platformIds": ["7001", "7002"],
+      "departureRouteIds": ["22", "221", "225", "235", "236", "24", "24E", "65", "L1", "L3", "T22"]
+    },
+    {
+      "id": "st-omer",
+      "schematicId": "st-omer",
+      "name": "Station St-Omer",
+      "lat": 46.806939,
+      "lon": -71.163202,
+      "lines": ["L1", "L2", "L4"],
+      "platformIds": ["3012", "3013"],
+      "departureRouteIds": [
+        "119",
+        "125",
+        "127",
+        "129",
+        "13",
+        "200",
+        "210",
+        "350",
+        "380",
+        "L1",
+        "L2",
+        "L4"
+      ]
+    },
+    {
+      "id": "chapais",
+      "schematicId": "chapais",
+      "name": "Station T.-Chapais",
+      "lat": 46.780679,
+      "lon": -71.192717,
+      "lines": ["L1", "L2", "L4"],
+      "platformIds": ["20290", "3033"],
+      "departureRouteIds": ["345", "42E", "L1", "L2", "L4"]
+    },
+    {
+      "id": "taniata",
+      "schematicId": "taniata",
+      "name": "Station Taniata",
+      "lat": 46.752248,
+      "lon": -71.239043,
+      "lines": ["L1", "L2", "L4"],
+      "platformIds": ["20420", "5013"],
+      "departureRouteIds": [
+        "31",
+        "345",
+        "37",
+        "37E",
+        "38",
+        "38E",
+        "39",
+        "42E",
+        "L1",
+        "L2",
+        "L4",
+        "T31"
+      ]
+    },
+    {
+      "id": "traverse",
+      "schematicId": "traverse",
+      "name": "Terminus de la Traverse",
+      "lat": 46.810723,
+      "lon": -71.18751,
+      "lines": ["L2"],
+      "platformIds": ["110002", "110003", "3001", "3541", "520305"],
+      "departureRouteIds": ["11", "11A", "13", "15", "16", "L2", "T2"]
+    },
+    {
+      "id": "lagueux",
+      "schematicId": "lagueux",
+      "name": "Terminus Lagueux",
+      "lat": 46.671912,
+      "lon": -71.340938,
+      "lines": ["L1", "L3"],
+      "platformIds": ["10010", "30020", "990094"],
+      "departureRouteIds": ["210", "L1", "L3", "T22"]
+    },
+    {
+      "id": "110245",
+      "schematicId": "lallemand",
+      "name": "Lauzon / Lallemand",
+      "lat": 46.815252,
+      "lon": -71.104385,
+      "lines": ["L4"],
+      "platformIds": ["110245"],
+      "departureRouteIds": ["11", "111", "119", "L4"]
+    },
+    {
+      "id": "j-demers",
+      "schematicId": "j-demers",
+      "name": "Station J.-Demers",
+      "lat": 46.720317,
+      "lon": -71.298497,
+      "lines": ["23"],
+      "platformIds": ["7005", "7006", "7851"],
+      "departureRouteIds": [
+        "22",
+        "221",
+        "225",
+        "23",
+        "235",
+        "236",
+        "23E",
+        "24",
+        "24E",
+        "65",
+        "L1",
+        "L3",
+        "T22"
+      ]
+    }
+  ]
+}

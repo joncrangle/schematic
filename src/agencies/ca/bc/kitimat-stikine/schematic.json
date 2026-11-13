@@ -1,0 +1,976 @@
+{
+  "viewBoxWidth": 1700,
+  "viewBoxHeight": 1800,
+  "lines": [
+    {
+      "id": "41-TSK",
+      "name": "College/Halliwell",
+      "color": "#F68712",
+      "points": [
+        {
+          "x": 480,
+          "y": 340
+        },
+        {
+          "x": 560,
+          "y": 260
+        },
+        {
+          "x": 880,
+          "y": 260
+        },
+        {
+          "x": 880,
+          "y": 420
+        },
+        {
+          "x": 800,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "42-TSK",
+      "name": "City Shuttle",
+      "color": "#59CAF5",
+      "points": [
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 1040,
+          "y": 500
+        },
+        {
+          "x": 1040,
+          "y": 420
+        },
+        {
+          "x": 880,
+          "y": 420
+        },
+        {
+          "x": 880,
+          "y": 340
+        },
+        {
+          "x": 640,
+          "y": 340
+        },
+        {
+          "x": 800,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "43-TSK",
+      "name": "Southside",
+      "color": "#80CC28",
+      "points": [
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 920,
+          "y": 620
+        },
+        {
+          "x": 920,
+          "y": 780
+        },
+        {
+          "x": 640,
+          "y": 780
+        },
+        {
+          "x": 640,
+          "y": 620
+        },
+        {
+          "x": 920,
+          "y": 620
+        },
+        {
+          "x": 800,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "45-TSK",
+      "name": "Thornhill",
+      "color": "#ED088F",
+      "points": [
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 920,
+          "y": 620
+        },
+        {
+          "x": 1240,
+          "y": 620
+        },
+        {
+          "x": 1240,
+          "y": 700
+        },
+        {
+          "x": 1480,
+          "y": 700
+        },
+        {
+          "x": 1480,
+          "y": 460
+        },
+        {
+          "x": 1240,
+          "y": 460
+        },
+        {
+          "x": 1240,
+          "y": 620
+        },
+        {
+          "x": 920,
+          "y": 620
+        },
+        {
+          "x": 800,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "11-TSK",
+      "name": "Terrace-Kitimat Connector",
+      "color": "#18468B",
+      "points": [
+        {
+          "x": 800,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 620
+        },
+        {
+          "x": 920,
+          "y": 620
+        },
+        {
+          "x": 1240,
+          "y": 940
+        },
+        {
+          "x": 1240,
+          "y": 1600
+        },
+        {
+          "x": 900,
+          "y": 1600
+        },
+        {
+          "x": 800,
+          "y": 1500
+        }
+      ]
+    },
+    {
+      "id": "1A-TSK",
+      "name": "Kitimat Route 1",
+      "color": "#A9BC0D",
+      "points": [
+        {
+          "x": 800,
+          "y": 1500
+        },
+        {
+          "x": 800,
+          "y": 1300
+        },
+        {
+          "x": 960,
+          "y": 1300
+        },
+        {
+          "x": 960,
+          "y": 1420
+        },
+        {
+          "x": 880,
+          "y": 1420
+        },
+        {
+          "x": 800,
+          "y": 1500
+        }
+      ]
+    },
+    {
+      "id": "2-TSK",
+      "name": "Nechako",
+      "color": "#00ADEF",
+      "points": [
+        {
+          "x": 800,
+          "y": 1500
+        },
+        {
+          "x": 1140,
+          "y": 1500
+        },
+        {
+          "x": 1140,
+          "y": 1440
+        },
+        {
+          "x": 1020,
+          "y": 1440
+        },
+        {
+          "x": 1020,
+          "y": 1500
+        },
+        {
+          "x": 800,
+          "y": 1500
+        }
+      ]
+    },
+    {
+      "id": "3-TSK",
+      "name": "Kildala",
+      "color": "#AD630B",
+      "points": [
+        {
+          "x": 800,
+          "y": 1500
+        },
+        {
+          "x": 900,
+          "y": 1600
+        },
+        {
+          "x": 900,
+          "y": 1680
+        },
+        {
+          "x": 560,
+          "y": 1680
+        },
+        {
+          "x": 560,
+          "y": 1500
+        },
+        {
+          "x": 800,
+          "y": 1500
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "skeena-mall",
+      "name": "Lakelse at Skeena Mall",
+      "x": 800,
+      "y": 500,
+      "lines": ["41-TSK", "42-TSK", "43-TSK", "45-TSK", "11-TSK"],
+      "label": {
+        "x": 772,
+        "y": 512,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "park-sparks",
+      "name": "Park at Sparks",
+      "x": 880,
+      "y": 420,
+      "lines": ["41-TSK", "42-TSK"],
+      "label": {
+        "x": 855,
+        "y": 420,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "sparks-kerby",
+      "name": "Sparks at Kerby",
+      "x": 880,
+      "y": 260,
+      "lines": ["41-TSK"],
+      "label": {
+        "x": 905,
+        "y": 260,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "munroe-twedle",
+      "name": "Munroe at Twedle",
+      "x": 720,
+      "y": 260,
+      "lines": ["41-TSK"],
+      "label": {
+        "x": 720,
+        "y": 230,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "college",
+      "name": "Coast Mountain College",
+      "x": 480,
+      "y": 340,
+      "lines": ["41-TSK"],
+      "label": {
+        "x": 455,
+        "y": 340,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "apsley",
+      "name": "Apsley at Park",
+      "x": 1040,
+      "y": 500,
+      "lines": ["42-TSK"],
+      "label": {
+        "x": 1065,
+        "y": 500,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "tuck",
+      "name": "Tuck Avenue Seniors Centre",
+      "x": 800,
+      "y": 340,
+      "lines": ["42-TSK"],
+      "label": {
+        "x": 800,
+        "y": 310,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "walsh",
+      "name": "Walsh at Munroe",
+      "x": 720,
+      "y": 420,
+      "lines": ["42-TSK"],
+      "label": {
+        "x": 695,
+        "y": 420,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "feeny",
+      "name": "Feeny at Hwy 16",
+      "x": 920,
+      "y": 620,
+      "lines": ["43-TSK", "45-TSK", "11-TSK"],
+      "label": {
+        "x": 945,
+        "y": 592,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pear-graham",
+      "name": "Pear at Graham",
+      "x": 800,
+      "y": 780,
+      "lines": ["43-TSK"],
+      "label": {
+        "x": 800,
+        "y": 812,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "unbc",
+      "name": "Keith at UNBC",
+      "x": 640,
+      "y": 700,
+      "lines": ["43-TSK"],
+      "label": {
+        "x": 615,
+        "y": 700,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "ksyen",
+      "name": "Ksyen Regional Hospital",
+      "x": 800,
+      "y": 620,
+      "lines": ["43-TSK", "11-TSK"],
+      "label": {
+        "x": 800,
+        "y": 652,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hemlock",
+      "name": "Hemlock at Aspen",
+      "x": 1360,
+      "y": 700,
+      "lines": ["45-TSK"],
+      "label": {
+        "x": 1360,
+        "y": 732,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "clark-paquette",
+      "name": "Clark St at Paquette",
+      "x": 1480,
+      "y": 580,
+      "lines": ["45-TSK"],
+      "label": {
+        "x": 1505,
+        "y": 580,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "walker-edlund",
+      "name": "Walker at Edlund",
+      "x": 1360,
+      "y": 460,
+      "lines": ["45-TSK"],
+      "label": {
+        "x": 1360,
+        "y": 430,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "river-clark",
+      "name": "River and Clark",
+      "x": 1240,
+      "y": 540,
+      "lines": ["45-TSK"],
+      "label": {
+        "x": 1215,
+        "y": 540,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "oolicahn",
+      "name": "Oolicahn at Hwy 37",
+      "x": 1240,
+      "y": 1300,
+      "lines": ["11-TSK"],
+      "label": {
+        "x": 1265,
+        "y": 1300,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "kitimat-centre",
+      "name": "Kitimat City Centre",
+      "x": 800,
+      "y": 1500,
+      "lines": ["11-TSK", "1A-TSK", "2-TSK", "3-TSK"],
+      "label": {
+        "x": 772,
+        "y": 1470,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "kitimat-hospital",
+      "name": "S Lahakas at Kitimat Hospital",
+      "x": 900,
+      "y": 1600,
+      "lines": ["11-TSK", "3-TSK"],
+      "label": {
+        "x": 875,
+        "y": 1600,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "kuldo",
+      "name": "Kuldo at Dease",
+      "x": 560,
+      "y": 1590,
+      "lines": ["3-TSK"],
+      "label": {
+        "x": 535,
+        "y": 1590,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "nalabila-duncan",
+      "name": "Nalabila at Duncan",
+      "x": 800,
+      "y": 1380,
+      "lines": ["1A-TSK"],
+      "label": {
+        "x": 775,
+        "y": 1380,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "alexander",
+      "name": "Alexander at 1352 Blk",
+      "x": 880,
+      "y": 1300,
+      "lines": ["1A-TSK"],
+      "label": {
+        "x": 880,
+        "y": 1270,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "kingfisher",
+      "name": "Kingfisher at Nalabila",
+      "x": 960,
+      "y": 1360,
+      "lines": ["1A-TSK"],
+      "label": {
+        "x": 985,
+        "y": 1360,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "gyrfalcon",
+      "name": "Gyrfalcon at Kingfisher",
+      "x": 920,
+      "y": 1420,
+      "lines": ["1A-TSK"],
+      "label": {
+        "x": 920,
+        "y": 1452,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "albatross",
+      "name": "Albatross at Kingfisher",
+      "x": 1080,
+      "y": 1440,
+      "lines": ["2-TSK"],
+      "label": {
+        "x": 1080,
+        "y": 1410,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "wren",
+      "name": "Nalabila at Wren",
+      "x": 1140,
+      "y": 1500,
+      "lines": ["2-TSK"],
+      "label": {
+        "x": 1140,
+        "y": 1532,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "41-TSK": ["college", "munroe-twedle", "sparks-kerby", "park-sparks", "skeena-mall"],
+    "42-TSK": ["skeena-mall", "apsley", "park-sparks", "tuck", "walsh"],
+    "43-TSK": ["skeena-mall", "feeny", "pear-graham", "unbc", "ksyen"],
+    "45-TSK": ["skeena-mall", "feeny", "hemlock", "clark-paquette", "walker-edlund", "river-clark"],
+    "11-TSK": ["kitimat-centre", "kitimat-hospital", "oolicahn", "feeny", "ksyen", "skeena-mall"],
+    "1A-TSK": ["kitimat-centre", "nalabila-duncan", "alexander", "kingfisher", "gyrfalcon"],
+    "2-TSK": ["kitimat-centre", "wren", "albatross"],
+    "3-TSK": ["kitimat-centre", "kitimat-hospital", "kuldo"]
+  },
+  "stationAliases": {
+    "Feeny farside Hwy 16": "feeny"
+  },
+  "badges": [
+    {
+      "line": "41-TSK",
+      "num": "41",
+      "x": 600,
+      "y": 292,
+      "color": "#F68712",
+      "textColor": "#000000"
+    },
+    {
+      "line": "42-TSK",
+      "num": "42",
+      "x": 1072,
+      "y": 460,
+      "color": "#59CAF5",
+      "textColor": "#000000"
+    },
+    {
+      "line": "43-TSK",
+      "num": "43",
+      "x": 700,
+      "y": 812,
+      "color": "#80CC28",
+      "textColor": "#000000"
+    },
+    {
+      "line": "45-TSK",
+      "num": "45",
+      "x": 1512,
+      "y": 650,
+      "color": "#ED088F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "11-TSK",
+      "num": "11",
+      "x": 1272,
+      "y": 1100,
+      "color": "#18468B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "1A-TSK",
+      "num": "1A",
+      "x": 768,
+      "y": 1330,
+      "color": "#A9BC0D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2-TSK",
+      "num": "2",
+      "x": 1172,
+      "y": 1470,
+      "color": "#00ADEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-TSK",
+      "num": "3",
+      "x": 730,
+      "y": 1712,
+      "color": "#AD630B",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 300,
+      "maxX": 1660,
+      "minY": 180,
+      "maxY": 1770
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -128.63457,
+    "refLonEast": -128.51385,
+    "refXWest": 480,
+    "refXEast": 1360,
+    "refLatNorth": 54.53326,
+    "refLatSouth": 54.05333,
+    "refYNorth": 260,
+    "refYSouth": 1500
+  },
+  "stationIndex": [
+    {
+      "id": "194030",
+      "schematicId": "albatross",
+      "name": "Albatross at Kingfisher",
+      "lat": 54.0561,
+      "lon": -128.63367,
+      "lines": ["2-TSK"],
+      "platformIds": ["194030"],
+      "departureRouteIds": ["2-TSK", "4-TSK"]
+    },
+    {
+      "id": "alexander",
+      "schematicId": "alexander",
+      "name": "Alexander at 1352 Blk",
+      "lat": 54.06879,
+      "lon": -128.63617,
+      "lines": ["1A-TSK"],
+      "platformIds": ["194067", "194068"],
+      "departureRouteIds": ["1A-TSK", "1B-TSK", "4-TSK"]
+    },
+    {
+      "id": "192053",
+      "schematicId": "apsley",
+      "name": "Apsley at Park",
+      "lat": 54.51699,
+      "lon": -128.57839,
+      "lines": ["42-TSK"],
+      "platformIds": ["192053"],
+      "departureRouteIds": ["42-TSK", "44-TSK"]
+    },
+    {
+      "id": "192009",
+      "schematicId": "clark-paquette",
+      "name": "Clark St at Paquette",
+      "lat": 54.51098,
+      "lon": -128.53989,
+      "lines": ["45-TSK"],
+      "platformIds": ["192009"],
+      "departureRouteIds": ["45-TSK"]
+    },
+    {
+      "id": "college",
+      "schematicId": "college",
+      "name": "Coast Mountain College",
+      "lat": 54.52868,
+      "lon": -128.63538,
+      "lines": ["41-TSK"],
+      "platformIds": ["192042", "192151"],
+      "departureRouteIds": ["13-TSK", "41-TSK", "46-TSK"]
+    },
+    {
+      "id": "feeny",
+      "schematicId": "feeny",
+      "name": "Feeny at Hwy 16",
+      "lat": 54.51151,
+      "lon": -128.58064,
+      "lines": ["11-TSK", "43-TSK", "45-TSK"],
+      "platformIds": ["192004", "192005"],
+      "departureRouteIds": ["11-TSK", "14-TSK", "164-TSK", "43-TSK", "45-TSK"]
+    },
+    {
+      "id": "194085",
+      "schematicId": "gyrfalcon",
+      "name": "Gyrfalcon at Kingfisher",
+      "lat": 54.05752,
+      "lon": -128.63208,
+      "lines": ["1A-TSK"],
+      "platformIds": ["194085"],
+      "departureRouteIds": ["1A-TSK"]
+    },
+    {
+      "id": "192133",
+      "schematicId": "hemlock",
+      "name": "Hemlock at Aspen",
+      "lat": 54.50079,
+      "lon": -128.52398,
+      "lines": ["45-TSK"],
+      "platformIds": ["192133"],
+      "departureRouteIds": ["11-TSK", "45-TSK"]
+    },
+    {
+      "id": "192089",
+      "schematicId": "unbc",
+      "name": "Keith at UNBC",
+      "lat": 54.5133,
+      "lon": -128.60515,
+      "lines": ["43-TSK"],
+      "platformIds": ["192089"],
+      "departureRouteIds": ["43-TSK"]
+    },
+    {
+      "id": "194077",
+      "schematicId": "kingfisher",
+      "name": "Kingfisher at Nalabila",
+      "lat": 54.0611,
+      "lon": -128.62785,
+      "lines": ["1A-TSK"],
+      "platformIds": ["194077"],
+      "departureRouteIds": ["1A-TSK", "4-TSK"]
+    },
+    {
+      "id": "194000",
+      "schematicId": "kitimat-centre",
+      "name": "Kitimat City Centre",
+      "lat": 54.05333,
+      "lon": -128.65434,
+      "lines": ["11-TSK", "1A-TSK", "2-TSK", "3-TSK"],
+      "platformIds": ["194000"],
+      "departureRouteIds": [
+        "11-TSK",
+        "12-TSK",
+        "1A-TSK",
+        "1B-TSK",
+        "2-TSK",
+        "3-TSK",
+        "4-TSK",
+        "99-TSK"
+      ]
+    },
+    {
+      "id": "192153",
+      "schematicId": "ksyen",
+      "name": "Ksyen Regional Hospital",
+      "lat": 54.51163,
+      "lon": -128.59632,
+      "lines": ["11-TSK", "43-TSK"],
+      "platformIds": ["192153"],
+      "departureRouteIds": ["11-TSK", "14-TSK", "164-TSK", "43-TSK"]
+    },
+    {
+      "id": "194025",
+      "schematicId": "kuldo",
+      "name": "Kuldo at Dease",
+      "lat": 54.05196,
+      "lon": -128.66807,
+      "lines": ["3-TSK"],
+      "platformIds": ["194025"],
+      "departureRouteIds": ["3-TSK", "99-TSK"]
+    },
+    {
+      "id": "192001",
+      "schematicId": "skeena-mall",
+      "name": "Lakelse at Skeena Mall",
+      "lat": 54.51701,
+      "lon": -128.59612,
+      "lines": ["11-TSK", "41-TSK", "42-TSK", "43-TSK", "45-TSK"],
+      "platformIds": ["192001"],
+      "departureRouteIds": [
+        "11-TSK",
+        "13-TSK",
+        "14-TSK",
+        "164-TSK",
+        "41-TSK",
+        "42-TSK",
+        "43-TSK",
+        "44-TSK",
+        "45-TSK",
+        "46-TSK"
+      ]
+    },
+    {
+      "id": "192031",
+      "schematicId": "munroe-twedle",
+      "name": "Munroe at Twedle",
+      "lat": 54.53209,
+      "lon": -128.6054,
+      "lines": ["41-TSK"],
+      "platformIds": ["192031"],
+      "departureRouteIds": ["41-TSK", "44-TSK"]
+    },
+    {
+      "id": "nalabila-duncan",
+      "schematicId": "nalabila-duncan",
+      "name": "Nalabila at Duncan",
+      "lat": 54.06576,
+      "lon": -128.64896,
+      "lines": ["1A-TSK"],
+      "platformIds": ["194056", "194057"],
+      "departureRouteIds": ["1A-TSK", "1B-TSK", "4-TSK"]
+    },
+    {
+      "id": "194096",
+      "schematicId": "wren",
+      "name": "Nalabila at Wren",
+      "lat": 54.05455,
+      "lon": -128.61975,
+      "lines": ["2-TSK"],
+      "platformIds": ["194096"],
+      "departureRouteIds": ["2-TSK", "4-TSK"]
+    },
+    {
+      "id": "194101",
+      "schematicId": "oolicahn",
+      "name": "Oolicahn at Hwy 37",
+      "lat": 54.09566,
+      "lon": -128.6016,
+      "lines": ["11-TSK"],
+      "platformIds": ["194101"],
+      "departureRouteIds": ["11-TSK"]
+    },
+    {
+      "id": "192013",
+      "schematicId": "park-sparks",
+      "name": "Park at Sparks",
+      "lat": 54.51847,
+      "lon": -128.59115,
+      "lines": ["41-TSK", "42-TSK"],
+      "platformIds": ["192013"],
+      "departureRouteIds": ["13-TSK", "41-TSK", "42-TSK", "44-TSK", "46-TSK"]
+    },
+    {
+      "id": "192101",
+      "schematicId": "pear-graham",
+      "name": "Pear at Graham",
+      "lat": 54.50638,
+      "lon": -128.59031,
+      "lines": ["43-TSK"],
+      "platformIds": ["192101"],
+      "departureRouteIds": ["43-TSK"]
+    },
+    {
+      "id": "192142",
+      "schematicId": "river-clark",
+      "name": "River and Clark",
+      "lat": 54.51724,
+      "lon": -128.54086,
+      "lines": ["45-TSK"],
+      "platformIds": ["192142"],
+      "departureRouteIds": ["45-TSK"]
+    },
+    {
+      "id": "194007",
+      "schematicId": "kitimat-hospital",
+      "name": "S Lahakas at Kitimat Hospital",
+      "lat": 54.05042,
+      "lon": -128.64781,
+      "lines": ["11-TSK", "3-TSK"],
+      "platformIds": ["194007"],
+      "departureRouteIds": ["11-TSK", "3-TSK"]
+    },
+    {
+      "id": "sparks-kerby",
+      "schematicId": "sparks-kerby",
+      "name": "Sparks at Kerby",
+      "lat": 54.53326,
+      "lon": -128.59221,
+      "lines": ["41-TSK"],
+      "platformIds": ["192021", "192022"],
+      "departureRouteIds": ["41-TSK", "44-TSK"]
+    },
+    {
+      "id": "192109",
+      "schematicId": "tuck",
+      "name": "Tuck Avenue Seniors Centre",
+      "lat": 54.52662,
+      "lon": -128.58969,
+      "lines": ["42-TSK"],
+      "platformIds": ["192109"],
+      "departureRouteIds": ["42-TSK"]
+    },
+    {
+      "id": "192138",
+      "schematicId": "walker-edlund",
+      "name": "Walker at Edlund",
+      "lat": 54.53109,
+      "lon": -128.51385,
+      "lines": ["45-TSK"],
+      "platformIds": ["192138"],
+      "departureRouteIds": ["45-TSK"]
+    },
+    {
+      "id": "192066",
+      "schematicId": "walsh",
+      "name": "Walsh at Munroe",
+      "lat": 54.52071,
+      "lon": -128.6064,
+      "lines": ["42-TSK"],
+      "platformIds": ["192066"],
+      "departureRouteIds": ["13-TSK", "42-TSK", "44-TSK", "46-TSK"]
+    }
+  ]
+}

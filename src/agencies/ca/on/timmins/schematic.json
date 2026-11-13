@@ -1,0 +1,1055 @@
+{
+  "viewBoxWidth": 1500,
+  "viewBoxHeight": 1000,
+  "lines": [
+    {
+      "id": "222",
+      "name": "222 Northern College Express",
+      "color": "#737373",
+      "points": [
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 780,
+          "y": 600
+        },
+        {
+          "x": 820,
+          "y": 560
+        },
+        {
+          "x": 900,
+          "y": 560
+        },
+        {
+          "x": 980,
+          "y": 480
+        },
+        {
+          "x": 1040,
+          "y": 480
+        },
+        {
+          "x": 1080,
+          "y": 440
+        },
+        {
+          "x": 1120,
+          "y": 440
+        },
+        {
+          "x": 1200,
+          "y": 440
+        },
+        {
+          "x": 1160,
+          "y": 480
+        },
+        {
+          "x": 1080,
+          "y": 480
+        },
+        {
+          "x": 1040,
+          "y": 520
+        },
+        {
+          "x": 960,
+          "y": 520
+        },
+        {
+          "x": 920,
+          "y": 560
+        },
+        {
+          "x": 900,
+          "y": 560
+        },
+        {
+          "x": 820,
+          "y": 560
+        },
+        {
+          "x": 780,
+          "y": 600
+        },
+        {
+          "x": 700,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "5 Westmount",
+      "color": "#E76A66",
+      "points": [
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 620,
+          "y": 600
+        },
+        {
+          "x": 540,
+          "y": 520
+        },
+        {
+          "x": 520,
+          "y": 500
+        },
+        {
+          "x": 520,
+          "y": 420
+        },
+        {
+          "x": 560,
+          "y": 380
+        },
+        {
+          "x": 560,
+          "y": 360
+        },
+        {
+          "x": 600,
+          "y": 360
+        },
+        {
+          "x": 640,
+          "y": 360
+        },
+        {
+          "x": 720,
+          "y": 440
+        },
+        {
+          "x": 760,
+          "y": 480
+        },
+        {
+          "x": 760,
+          "y": 560
+        },
+        {
+          "x": 720,
+          "y": 600
+        },
+        {
+          "x": 700,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "9 Schumacher",
+      "color": "#A30708",
+      "points": [
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 740,
+          "y": 560
+        },
+        {
+          "x": 820,
+          "y": 560
+        },
+        {
+          "x": 900,
+          "y": 560
+        },
+        {
+          "x": 980,
+          "y": 560
+        },
+        {
+          "x": 1000,
+          "y": 580
+        },
+        {
+          "x": 1020,
+          "y": 600
+        },
+        {
+          "x": 1040,
+          "y": 600
+        },
+        {
+          "x": 1040,
+          "y": 720
+        },
+        {
+          "x": 1080,
+          "y": 760
+        },
+        {
+          "x": 1040,
+          "y": 800
+        },
+        {
+          "x": 960,
+          "y": 800
+        },
+        {
+          "x": 920,
+          "y": 760
+        },
+        {
+          "x": 920,
+          "y": 680
+        },
+        {
+          "x": 960,
+          "y": 640
+        },
+        {
+          "x": 960,
+          "y": 600
+        },
+        {
+          "x": 920,
+          "y": 560
+        },
+        {
+          "x": 840,
+          "y": 560
+        },
+        {
+          "x": 900,
+          "y": 560
+        },
+        {
+          "x": 860,
+          "y": 520
+        },
+        {
+          "x": 820,
+          "y": 520
+        },
+        {
+          "x": 740,
+          "y": 520
+        },
+        {
+          "x": 700,
+          "y": 560
+        },
+        {
+          "x": 700,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "16 South Porcupine / Porcupine",
+      "color": "#6498CA",
+      "points": [
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 780,
+          "y": 600
+        },
+        {
+          "x": 820,
+          "y": 560
+        },
+        {
+          "x": 900,
+          "y": 560
+        },
+        {
+          "x": 980,
+          "y": 480
+        },
+        {
+          "x": 1040,
+          "y": 480
+        },
+        {
+          "x": 1120,
+          "y": 480
+        },
+        {
+          "x": 1160,
+          "y": 480
+        },
+        {
+          "x": 1200,
+          "y": 520
+        },
+        {
+          "x": 1200,
+          "y": 440
+        },
+        {
+          "x": 1280,
+          "y": 360
+        },
+        {
+          "x": 1360,
+          "y": 360
+        },
+        {
+          "x": 1360,
+          "y": 440
+        },
+        {
+          "x": 1280,
+          "y": 520
+        },
+        {
+          "x": 1200,
+          "y": 520
+        },
+        {
+          "x": 1120,
+          "y": 520
+        },
+        {
+          "x": 1040,
+          "y": 520
+        },
+        {
+          "x": 960,
+          "y": 520
+        },
+        {
+          "x": 920,
+          "y": 560
+        },
+        {
+          "x": 900,
+          "y": 560
+        },
+        {
+          "x": 860,
+          "y": 600
+        },
+        {
+          "x": 820,
+          "y": 600
+        },
+        {
+          "x": 700,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "31 Howard / Brousseau",
+      "color": "#3D0AD3",
+      "points": [
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 780,
+          "y": 520
+        },
+        {
+          "x": 900,
+          "y": 400
+        },
+        {
+          "x": 820,
+          "y": 320
+        },
+        {
+          "x": 740,
+          "y": 400
+        },
+        {
+          "x": 700,
+          "y": 440
+        },
+        {
+          "x": 700,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "32 Lee / Rea South",
+      "color": "#AE6751",
+      "points": [
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 620,
+          "y": 680
+        },
+        {
+          "x": 520,
+          "y": 780
+        },
+        {
+          "x": 520,
+          "y": 860
+        },
+        {
+          "x": 640,
+          "y": 860
+        },
+        {
+          "x": 700,
+          "y": 800
+        },
+        {
+          "x": 700,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "37 Riverside / Melrose",
+      "color": "#FDB209",
+      "points": [
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 320,
+          "y": 600
+        },
+        {
+          "x": 320,
+          "y": 580
+        },
+        {
+          "x": 200,
+          "y": 700
+        },
+        {
+          "x": 320,
+          "y": 700
+        },
+        {
+          "x": 440,
+          "y": 580
+        },
+        {
+          "x": 440,
+          "y": 420
+        },
+        {
+          "x": 560,
+          "y": 540
+        },
+        {
+          "x": 620,
+          "y": 600
+        },
+        {
+          "x": 700,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "38 Melrose / Riverside",
+      "color": "#308101",
+      "points": [
+        {
+          "x": 700,
+          "y": 600
+        },
+        {
+          "x": 620,
+          "y": 600
+        },
+        {
+          "x": 560,
+          "y": 540
+        },
+        {
+          "x": 440,
+          "y": 420
+        },
+        {
+          "x": 320,
+          "y": 540
+        },
+        {
+          "x": 320,
+          "y": 580
+        },
+        {
+          "x": 200,
+          "y": 700
+        },
+        {
+          "x": 200,
+          "y": 760
+        },
+        {
+          "x": 600,
+          "y": 760
+        },
+        {
+          "x": 700,
+          "y": 660
+        },
+        {
+          "x": 700,
+          "y": 600
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "timmins-transit-terminal",
+      "name": "Timmins Transit Terminal",
+      "x": 700,
+      "y": 600,
+      "lines": ["5", "9", "16", "31", "32", "37", "38", "222"],
+      "label": {
+        "x": 730,
+        "y": 640,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "melrose-apartments",
+      "name": "Melrose Apartments",
+      "x": 520,
+      "y": 500,
+      "lines": ["5"],
+      "label": {
+        "x": 500,
+        "y": 482,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "maclean-apartments",
+      "name": "Maclean Apartments",
+      "x": 640,
+      "y": 360,
+      "lines": ["5"],
+      "label": {
+        "x": 640,
+        "y": 332,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "father-costello-aura-lake",
+      "name": "Father Costello & Aura Lake",
+      "x": 900,
+      "y": 560,
+      "lines": ["9", "16"],
+      "label": {
+        "x": 900,
+        "y": 530,
+        "rot": -45,
+        "anchor": "start",
+        "leader": true
+      }
+    },
+    {
+      "id": "schumacher",
+      "name": "Schumacher",
+      "x": 1040,
+      "y": 720,
+      "lines": ["9"],
+      "label": {
+        "x": 1020,
+        "y": 720,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "grant-dwyer",
+      "name": "Grant & Dwyer",
+      "x": 840,
+      "y": 560,
+      "lines": ["9"],
+      "label": {
+        "x": 855,
+        "y": 540,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "south-porcupine-terminal",
+      "name": "South Porcupine Terminal",
+      "x": 1200,
+      "y": 520,
+      "lines": ["16"],
+      "label": {
+        "x": 1220,
+        "y": 550,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "northern-college",
+      "name": "Northern College",
+      "x": 1200,
+      "y": 440,
+      "lines": ["16", "222"],
+      "label": {
+        "x": 1200,
+        "y": 410,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "porcupine",
+      "name": "Porcupine",
+      "x": 1360,
+      "y": 360,
+      "lines": ["16"],
+      "label": {
+        "x": 1380,
+        "y": 340,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "timmins-district-hospital",
+      "name": "Timmins District Hospital",
+      "x": 900,
+      "y": 400,
+      "lines": ["31"],
+      "label": {
+        "x": 920,
+        "y": 388,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "brousseau-pine",
+      "name": "Brousseau & Pine",
+      "x": 820,
+      "y": 320,
+      "lines": ["31"],
+      "label": {
+        "x": 820,
+        "y": 292,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "southern-preston",
+      "name": "Southern & Preston",
+      "x": 520,
+      "y": 780,
+      "lines": ["32"],
+      "label": {
+        "x": 500,
+        "y": 804,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "timmins-square",
+      "name": "Timmins Square",
+      "x": 320,
+      "y": 580,
+      "lines": ["37", "38"],
+      "label": {
+        "x": 300,
+        "y": 558,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "home-depot",
+      "name": "Home Depot",
+      "x": 200,
+      "y": 700,
+      "lines": ["37", "38"],
+      "label": {
+        "x": 180,
+        "y": 726,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cedar-meadows",
+      "name": "Cedar Meadows",
+      "x": 440,
+      "y": 420,
+      "lines": ["37", "38"],
+      "label": {
+        "x": 440,
+        "y": 392,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "sportsplex-college-boreal",
+      "name": "Sportsplex / College Boreal",
+      "x": 560,
+      "y": 540,
+      "lines": ["37", "38"],
+      "label": {
+        "x": 560,
+        "y": 510,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "222",
+      "num": "222",
+      "x": 1043.23,
+      "y": 431.51,
+      "color": "#737373",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 552,
+      "y": 460,
+      "color": "#E76A66",
+      "textColor": "#000000"
+    },
+    {
+      "line": "9",
+      "num": "9",
+      "x": 1000,
+      "y": 832,
+      "color": "#A30708",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "16",
+      "num": "16",
+      "x": 1392,
+      "y": 420,
+      "color": "#6498CA",
+      "textColor": "#000000"
+    },
+    {
+      "line": "31",
+      "num": "31",
+      "x": 668,
+      "y": 460,
+      "color": "#3D0AD3",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "32",
+      "num": "32",
+      "x": 600,
+      "y": 892,
+      "color": "#AE6751",
+      "textColor": "#000000"
+    },
+    {
+      "line": "37",
+      "num": "37",
+      "x": 206.51,
+      "y": 648.23,
+      "color": "#FDB209",
+      "textColor": "#000000"
+    },
+    {
+      "line": "38",
+      "num": "38",
+      "x": 300,
+      "y": 792,
+      "color": "#308101",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 120,
+      "maxX": 1470,
+      "minY": 220,
+      "maxY": 960
+    },
+    "minZoom": 1,
+    "maxZoom": 5
+  },
+  "geoProjection": {
+    "refLonWest": -81.40371,
+    "refLonEast": -81.15917,
+    "refXWest": 200,
+    "refXEast": 1360,
+    "refLatNorth": 48.49951,
+    "refLatSouth": 48.45057,
+    "refYNorth": 320,
+    "refYSouth": 920
+  },
+  "sequences": {
+    "5": ["timmins-transit-terminal", "melrose-apartments", "maclean-apartments"],
+    "9": ["timmins-transit-terminal", "father-costello-aura-lake", "schumacher", "grant-dwyer"],
+    "16": [
+      "timmins-transit-terminal",
+      "father-costello-aura-lake",
+      "south-porcupine-terminal",
+      "northern-college",
+      "porcupine"
+    ],
+    "222": ["timmins-transit-terminal", "northern-college"],
+    "31": ["timmins-transit-terminal", "timmins-district-hospital", "brousseau-pine"],
+    "32": ["timmins-transit-terminal", "southern-preston"],
+    "37": [
+      "timmins-transit-terminal",
+      "timmins-square",
+      "home-depot",
+      "cedar-meadows",
+      "sportsplex-college-boreal"
+    ],
+    "38": [
+      "timmins-transit-terminal",
+      "sportsplex-college-boreal",
+      "cedar-meadows",
+      "timmins-square",
+      "home-depot"
+    ]
+  },
+  "stationAliases": {
+    "Route 5 Timmins Terminal": "timmins-transit-terminal",
+    "Route 6 Timmins Terminal": "timmins-transit-terminal",
+    "Route 7 Timmins Terminal": "timmins-transit-terminal",
+    "Route 6/7 Timmins Terminal": "timmins-transit-terminal",
+    "Route 9 Timmins Terminal": "timmins-transit-terminal",
+    "Route 16B Timmins Terminal": "timmins-transit-terminal",
+    "Route 31 Timmins Terminal": "timmins-transit-terminal",
+    "Route 32 Timmins Terminal": "timmins-transit-terminal",
+    "Route 37 Timmins Terminal": "timmins-transit-terminal",
+    "Route 38 Timmins Terminal": "timmins-transit-terminal",
+    "Route 901E Timmins Terminal": "timmins-transit-terminal",
+    "Route 901W Timmins Terminal": "timmins-transit-terminal",
+    "Route 902N Timmins Terminal": "timmins-transit-terminal",
+    "Route 902S Timmins Terminal": "timmins-transit-terminal",
+    "Route 222 College Express": "timmins-transit-terminal",
+    "Timmins Square at No Frills": "timmins-square",
+    "Riverside Dr. W.B. at Timmins Square": "timmins-square",
+    "Home Depot Westbound": "home-depot",
+    "Sportsplex": "sportsplex-college-boreal",
+    "College Boreal": "sportsplex-college-boreal",
+    "Norman and Cedar Meadows": "cedar-meadows",
+    "Cedar Meadows on Norman St.": "cedar-meadows",
+    "Timmins and Distric Hospital": "timmins-district-hospital",
+    "Brousseau and Pine": "brousseau-pine",
+    "Southern and Preston": "southern-preston",
+    "Father Costello and Aura Lake Eastbound": "father-costello-aura-lake",
+    "Father Costello and Aura Lake Westbound": "father-costello-aura-lake",
+    "Brundy and Claim Post": "schumacher",
+    "Grant and Dwyer": "grant-dwyer",
+    "South Porcupine Transit Terminal": "south-porcupine-terminal",
+    "South Porcupine across Terminal": "south-porcupine-terminal",
+    "Northern College Westbound": "northern-college",
+    "King and Haileybury": "porcupine"
+  },
+  "stationIndex": [
+    {
+      "id": "TM1465",
+      "schematicId": "brousseau-pine",
+      "name": "Brousseau & Pine",
+      "lat": 48.48807,
+      "lon": -81.3285,
+      "lines": ["31"],
+      "platformIds": ["TM1465"],
+      "departureRouteIds": ["31", "902"]
+    },
+    {
+      "id": "cedar-meadows",
+      "schematicId": "cedar-meadows",
+      "name": "Cedar Meadows",
+      "lat": 48.4936,
+      "lon": -81.36139,
+      "lines": ["37", "38"],
+      "platformIds": ["TM1482", "TM1813"],
+      "departureRouteIds": ["37", "38"]
+    },
+    {
+      "id": "father-costello-aura-lake",
+      "schematicId": "father-costello-aura-lake",
+      "name": "Father Costello & Aura Lake",
+      "lat": 48.47584,
+      "lon": -81.29367,
+      "lines": ["16", "9"],
+      "platformIds": ["TM1530", "TM1532"],
+      "departureRouteIds": ["16", "9", "901"]
+    },
+    {
+      "id": "TM1602",
+      "schematicId": "grant-dwyer",
+      "name": "Grant & Dwyer",
+      "lat": 48.47526,
+      "lon": -81.29655,
+      "lines": ["9"],
+      "platformIds": ["TM1602"],
+      "departureRouteIds": ["9"]
+    },
+    {
+      "id": "TM1799",
+      "schematicId": "home-depot",
+      "name": "Home Depot",
+      "lat": 48.47193,
+      "lon": -81.40371,
+      "lines": ["37", "38"],
+      "platformIds": ["TM1799"],
+      "departureRouteIds": ["37", "38", "6", "901"]
+    },
+    {
+      "id": "TM1611",
+      "schematicId": "maclean-apartments",
+      "name": "Maclean Apartments",
+      "lat": 48.49018,
+      "lon": -81.33566,
+      "lines": ["5"],
+      "platformIds": ["TM1611"],
+      "departureRouteIds": ["5", "902"]
+    },
+    {
+      "id": "TM1612",
+      "schematicId": "melrose-apartments",
+      "name": "Melrose Apartments",
+      "lat": 48.48613,
+      "lon": -81.34315,
+      "lines": ["5"],
+      "platformIds": ["TM1612"],
+      "departureRouteIds": ["5", "901"]
+    },
+    {
+      "id": "northern-college",
+      "schematicId": "northern-college",
+      "name": "Northern College",
+      "lat": 48.48776,
+      "lon": -81.19996,
+      "lines": ["16", "222"],
+      "platformIds": ["TM1627", "TM1795"],
+      "departureRouteIds": ["16", "222", "901"]
+    },
+    {
+      "id": "TM1585",
+      "schematicId": "porcupine",
+      "name": "Porcupine",
+      "lat": 48.49405,
+      "lon": -81.17044,
+      "lines": ["16"],
+      "platformIds": ["TM1585"],
+      "departureRouteIds": ["16", "901"]
+    },
+    {
+      "id": "TM1469",
+      "schematicId": "schumacher",
+      "name": "Schumacher",
+      "lat": 48.47175,
+      "lon": -81.28186,
+      "lines": ["9"],
+      "platformIds": ["TM1469"],
+      "departureRouteIds": ["9"]
+    },
+    {
+      "id": "south-porcupine-terminal",
+      "schematicId": "south-porcupine-terminal",
+      "name": "South Porcupine Terminal",
+      "lat": 48.47885,
+      "lon": -81.21051,
+      "lines": ["16"],
+      "platformIds": ["TM1768", "TM1859"],
+      "departureRouteIds": ["16", "901"]
+    },
+    {
+      "id": "TM1695",
+      "schematicId": "southern-preston",
+      "name": "Southern & Preston",
+      "lat": 48.46752,
+      "lon": -81.33908,
+      "lines": ["32"],
+      "platformIds": ["TM1695"],
+      "departureRouteIds": ["32", "902"]
+    },
+    {
+      "id": "sportsplex-college-boreal",
+      "schematicId": "sportsplex-college-boreal",
+      "name": "Sportsplex / College Boreal",
+      "lat": 48.48427,
+      "lon": -81.34597,
+      "lines": ["37", "38"],
+      "platformIds": ["TM1739", "TM1740"],
+      "departureRouteIds": ["37", "38"]
+    },
+    {
+      "id": "TM1712",
+      "schematicId": "timmins-district-hospital",
+      "name": "Timmins District Hospital",
+      "lat": 48.48707,
+      "lon": -81.31414,
+      "lines": ["31"],
+      "platformIds": ["TM1712"],
+      "departureRouteIds": ["31", "902"]
+    },
+    {
+      "id": "timmins-square",
+      "schematicId": "timmins-square",
+      "name": "Timmins Square",
+      "lat": 48.47337,
+      "lon": -81.38411,
+      "lines": ["37", "38"],
+      "platformIds": ["TM1626", "TM1871"],
+      "departureRouteIds": ["37", "38", "6", "7", "7/6", "901"]
+    },
+    {
+      "id": "timmins-transit-terminal",
+      "schematicId": "timmins-transit-terminal",
+      "name": "Timmins Transit Terminal",
+      "lat": 48.47486,
+      "lon": -81.32656,
+      "lines": ["16", "222", "31", "32", "37", "38", "5", "9"],
+      "platformIds": [
+        "TM1803",
+        "TM1821",
+        "TM1834",
+        "TM1840",
+        "TM1841",
+        "TM1906",
+        "TM1977",
+        "TM1978",
+        "TM1988",
+        "TM1989",
+        "TM1990",
+        "TM1997",
+        "TM1998",
+        "TM1999",
+        "TM2002"
+      ],
+      "departureRouteIds": [
+        "16",
+        "222",
+        "31",
+        "32",
+        "37",
+        "38",
+        "5",
+        "6",
+        "7",
+        "7/6",
+        "9",
+        "901",
+        "902"
+      ]
+    }
+  ]
+}

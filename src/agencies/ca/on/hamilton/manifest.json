@@ -1,0 +1,137 @@
+{
+  "id": "hamilton",
+  "name": "Hamilton Street Railway",
+  "serviceArea": "Hamilton",
+  "shortName": "HSR",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 43.245,
+      "maxLat": 43.275,
+      "minLon": -79.89,
+      "maxLon": -79.84
+    },
+    {
+      "minLat": 43.2,
+      "maxLat": 43.29,
+      "minLon": -79.95,
+      "maxLon": -79.75
+    },
+    {
+      "minLat": 43.15,
+      "maxLat": 43.35,
+      "minLon": -80.15,
+      "maxLon": -79.63
+    }
+  ],
+  "modes": ["bus"],
+  "proximity": {
+    "radiusMeters": 1500,
+    "bucketMeters": 75
+  },
+  "attribution": {
+    "name": "City of Hamilton Open Data",
+    "url": "https://opendata.hamilton.ca/GTFS-Static/",
+    "license": "Contains public sector Data made available under the City of Hamilton’s Open Data Licence",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "stationService": {
+    "routeType": "bus"
+  },
+  "cityPresets": [
+    {
+      "name": "Hamilton GO Centre",
+      "lat": 43.252494,
+      "lon": -79.868582
+    },
+    {
+      "name": "Eastgate Square",
+      "lat": 43.2287392,
+      "lon": -79.7656178
+    },
+    {
+      "name": "Lime Ridge Mall",
+      "lat": 43.2178038,
+      "lon": -79.8633472
+    },
+    {
+      "name": "West Harbour GO Station",
+      "lat": 43.265595,
+      "lon": -79.865133
+    }
+  ],
+  "directionLiterals": {
+    "north": "Northbound",
+    "south": "Southbound",
+    "east": "Eastbound",
+    "west": "Westbound"
+  },
+  "popularSurfaceRoutes": ["01", "02", "05", "10", "20", "25", "26", "55"],
+  "alertInterpretation": {
+    "lineIds": ["01", "02", "05", "10", "20", "25", "26", "55"],
+    "routeLineMap": {
+      "5687": "01",
+      "5828": "01",
+      "5688": "02",
+      "5780": "02",
+      "5691": "05",
+      "5783": "05",
+      "5696": "10",
+      "5829": "10",
+      "5701": "20",
+      "5793": "20",
+      "5706": "25",
+      "5798": "25",
+      "5707": "26",
+      "5799": "26",
+      "5718": "55",
+      "5831": "55"
+    }
+  },
+  "staticTopology": {
+    "feeds": [
+      {
+        "name": "Hamilton Street Railway GTFS",
+        "url": "https://opendata.hamilton.ca/GTFS-Static/google_transit.zip",
+        "cacheFileName": "hamilton-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#0093DD",
+    "defaultTextColor": "#FFFFFF",
+    "source": "seed",
+    "routeIdField": "short_name"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://opendata.hamilton.ca/GTFS-RT/GTFS_VehiclePositions.pb",
+        "format": "protobuf",
+        "accept": "application/octet-stream",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://opendata.hamilton.ca/GTFS-RT/GTFS_TripUpdates.pb",
+        "format": "protobuf",
+        "accept": "application/octet-stream",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://opendata.hamilton.ca/GTFS-RT/GTFS_ServiceAlerts.pb",
+      "format": "protobuf",
+      "accept": "application/octet-stream"
+    }
+  ],
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  }
+}

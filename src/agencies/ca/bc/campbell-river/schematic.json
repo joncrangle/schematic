@@ -1,0 +1,320 @@
+{
+  "viewBoxWidth": 1250,
+  "viewBoxHeight": 920,
+  "lines": [
+    {
+      "id": "1-CAM",
+      "name": "Campbellton / Willow Point via Dogwood",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 340,
+          "y": 480
+        },
+        {
+          "x": 340,
+          "y": 380
+        },
+        {
+          "x": 500,
+          "y": 220
+        },
+        {
+          "x": 980,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "2-CAM",
+      "name": "Campbellton / Willow Point via Alder",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 340,
+          "y": 480
+        },
+        {
+          "x": 500,
+          "y": 320
+        },
+        {
+          "x": 880,
+          "y": 320
+        },
+        {
+          "x": 980,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "3-CAM",
+      "name": "Discovery Mall / Willow Point via Hwy 19A",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 340,
+          "y": 480
+        },
+        {
+          "x": 980,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "6-CAM",
+      "name": "Oyster River / Willow Point",
+      "color": "#FCAF17",
+      "points": [
+        {
+          "x": 160,
+          "y": 480
+        },
+        {
+          "x": 340,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "8-CAM",
+      "name": "Quinsam / North Island College",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 600,
+          "y": 220
+        },
+        {
+          "x": 680,
+          "y": 300
+        },
+        {
+          "x": 760,
+          "y": 300
+        },
+        {
+          "x": 860,
+          "y": 400
+        },
+        {
+          "x": 980,
+          "y": 400
+        },
+        {
+          "x": 980,
+          "y": 480
+        },
+        {
+          "x": 1060,
+          "y": 400
+        },
+        {
+          "x": 1060,
+          "y": 300
+        },
+        {
+          "x": 980,
+          "y": 220
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "oyster-river",
+      "name": "Oyster River",
+      "x": 160,
+      "y": 480,
+      "lines": ["6-CAM"],
+      "label": {
+        "x": 132,
+        "y": 485,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "erickson",
+      "name": "Erickson Exchange",
+      "x": 340,
+      "y": 480,
+      "lines": ["1-CAM", "2-CAM", "3-CAM", "6-CAM"],
+      "label": {
+        "x": 340,
+        "y": 512,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "college",
+      "name": "North Island College",
+      "x": 600,
+      "y": 220,
+      "lines": ["1-CAM", "8-CAM"],
+      "label": {
+        "x": 600,
+        "y": 190,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "campbellton",
+      "name": "16th & Willow",
+      "x": 980,
+      "y": 220,
+      "lines": ["1-CAM", "2-CAM", "8-CAM"],
+      "label": {
+        "x": 1008,
+        "y": 225,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "community",
+      "name": "Community Centre",
+      "x": 980,
+      "y": 480,
+      "lines": ["3-CAM", "8-CAM"],
+      "label": {
+        "x": 1008,
+        "y": 485,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-CAM",
+      "num": "1",
+      "x": 750,
+      "y": 188,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-CAM",
+      "num": "2",
+      "x": 750,
+      "y": 352,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-CAM",
+      "num": "3",
+      "x": 750,
+      "y": 512,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "6-CAM",
+      "num": "6",
+      "x": 250,
+      "y": 448,
+      "color": "#FCAF17",
+      "textColor": "#000000"
+    },
+    {
+      "line": "8-CAM",
+      "num": "8",
+      "x": 1092,
+      "y": 350,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1-CAM": ["erickson", "college", "campbellton"],
+    "2-CAM": ["erickson", "campbellton"],
+    "3-CAM": ["erickson", "community"],
+    "6-CAM": ["oyster-river", "erickson"],
+    "8-CAM": ["college", "community", "campbellton"]
+  },
+  "stationAliases": {
+    "code:134021": "oyster-river",
+    "code:112038": "erickson",
+    "code:112000": "college",
+    "code:112097": "campbellton",
+    "code:111001": "community",
+    "code:111003": "community"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1200,
+      "minY": 60,
+      "maxY": 850
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -125.27428,
+    "refLonEast": -125.12904,
+    "refXWest": 980,
+    "refXEast": 160,
+    "refLatNorth": 50.03076,
+    "refLatSouth": 49.86991,
+    "refYNorth": 220,
+    "refYSouth": 480
+  },
+  "stationIndex": [
+    {
+      "id": "112097",
+      "schematicId": "campbellton",
+      "name": "16th & Willow",
+      "lat": 50.03076,
+      "lon": -125.27428,
+      "lines": ["1-CAM", "2-CAM", "8-CAM"],
+      "platformIds": ["112097"],
+      "departureRouteIds": ["1-CAM", "2-CAM", "4-CAM", "7-CAM", "8-CAM"]
+    },
+    {
+      "id": "community",
+      "schematicId": "community",
+      "name": "Community Centre",
+      "lat": 50.0263,
+      "lon": -125.2459,
+      "lines": ["3-CAM", "8-CAM"],
+      "platformIds": ["111001", "111003"],
+      "departureRouteIds": ["2-CAM", "3-CAM", "8-CAM"]
+    },
+    {
+      "id": "112038",
+      "schematicId": "erickson",
+      "name": "Erickson Exchange",
+      "lat": 49.96647,
+      "lon": -125.20982,
+      "lines": ["1-CAM", "2-CAM", "3-CAM", "6-CAM"],
+      "platformIds": ["112038"],
+      "departureRouteIds": ["1-CAM", "2-CAM", "3-CAM", "6-CAM"]
+    },
+    {
+      "id": "112000",
+      "schematicId": "college",
+      "name": "North Island College",
+      "lat": 49.97846,
+      "lon": -125.24596,
+      "lines": ["1-CAM", "8-CAM"],
+      "platformIds": ["112000"],
+      "departureRouteIds": ["1-CAM", "15-CAM", "7-CAM", "8-CAM"]
+    },
+    {
+      "id": "134021",
+      "schematicId": "oyster-river",
+      "name": "Oyster River",
+      "lat": 49.86991,
+      "lon": -125.12904,
+      "lines": ["6-CAM"],
+      "platformIds": ["134021"],
+      "departureRouteIds": ["6-CAM"]
+    }
+  ]
+}

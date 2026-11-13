@@ -1,0 +1,141 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "AGENTS.md"
+      - "CODING_STANDARDS.md"
+      - "CONTRIBUTING.md"
+      - "docs/development.md"
+      - "docs/add-an-agency.md"
+      - "docs/agency-reference/**"
+      - "docs/agents/**"
+      - "docs/data-attribution.md"
+      - "services/alert-feed-daemon/**"
+      - "!services/alert-feed-daemon/**/*.md"
+      - "proto/**"
+      - "Cargo.*"
+      - "src/**"
+      - "public/**"
+      - "scripts/**"
+      - "tests/**"
+      - "package.json"
+      - "bun.lock"
+      - "tsconfig.json"
+      - "vite.config.ts"
+      - "vitest.config.ts"
+      - "vitest.integration.config.ts"
+      - "wrangler.jsonc"
+      - "wrangler.sample.jsonc"
+      - ".oxfmtrc.json"
+      - ".oxlintrc.json"
+      - "Dockerfile"
+      - "docker-entrypoint.sh"
+      - "compose.yaml"
+      - ".forgejo/workflows/ci.yml"
+      - ".github/workflows/ci.yml"
+      - ".github/workflows/alert-daemon-ci.yml"
+  pull_request:
+    paths:
+      - "AGENTS.md"
+      - "CODING_STANDARDS.md"
+      - "CONTRIBUTING.md"
+      - "docs/development.md"
+      - "docs/add-an-agency.md"
+      - "docs/agency-reference/**"
+      - "docs/agents/**"
+      - "docs/data-attribution.md"
+      - "services/alert-feed-daemon/**"
+      - "!services/alert-feed-daemon/**/*.md"
+      - "proto/**"
+      - "Cargo.*"
+      - "src/**"
+      - "public/**"
+      - "scripts/**"
+      - "tests/**"
+      - "package.json"
+      - "bun.lock"
+      - "tsconfig.json"
+      - "vite.config.ts"
+      - "vitest.config.ts"
+      - "vitest.integration.config.ts"
+      - "wrangler.jsonc"
+      - "wrangler.sample.jsonc"
+      - ".oxfmtrc.json"
+      - ".oxlintrc.json"
+      - "Dockerfile"
+      - "docker-entrypoint.sh"
+      - "compose.yaml"
+      - ".forgejo/workflows/ci.yml"
+      - ".github/workflows/ci.yml"
+      - ".github/workflows/alert-daemon-ci.yml"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Token scopes are managed by Forgejo instance settings, not GitHub permissions keys.
+enable-openid-connect: false
+
+jobs:
+  schematic:
+    name: Schematic (TypeScript)
+    runs-on: ${{ vars.TOPOLOGY_RUNNER_LABEL || 'ubuntu-latest' }}
+    container:
+      image: node:24-bookworm
+    steps:
+      - name: Check out repository
+        # Explicit URL avoids instance DEFAULT_ACTIONS_URL; SHA pins checkout v6.1.0.
+        uses: https://data.forgejo.org/actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Set up Bun
+        # Official setup-bun v2. Fetching this action does not run GitHub Actions.
+        uses: https://github.com/oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
+        with:
+          bun-version: "1.4.2"
+      - name: Install locked dependencies
+        run: bun install --frozen-lockfile
+      - name: Format check
+        run: bunx oxfmt --check src
+      - name: Check agent documentation links
+        run: bun run docs:check
+      - name: Check generated data attribution
+        run: bun run attribution:check
+      - name: Lint
+        run: bun run lint
+      - name: Typecheck
+        run: bun run typecheck
+      - name: Test
+        run: bun run test
+      - name: Check agency health
+        run: bun run agency:check
+      - name: Build
+        run: bun run build
+
+  alert-daemon:
+    name: Alert daemon (Rust)
+    runs-on: ${{ vars.TOPOLOGY_RUNNER_LABEL || 'ubuntu-latest' }}
+    container:
+      # Checkout is a JavaScript action and needs the same Node runtime as the TS job.
+      image: node:24-bookworm
+    steps:
+      - name: Check out repository
+        # Same portable action source and release pin as the TypeScript job.
+        uses: https://data.forgejo.org/actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Install Rust and Protoc
+        run: |
+          apt-get update && apt-get install -y protobuf-compiler curl ca-certificates
+          curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs -o /tmp/install-rust.sh
+          sh /tmp/install-rust.sh -y --profile minimal --default-toolchain stable
+          "$HOME/.cargo/bin/rustup" component add rustfmt clippy
+      - name: Check Rust formatting
+        run: '"$HOME/.cargo/bin/cargo" fmt --check'
+      - name: Test
+        run: '"$HOME/.cargo/bin/cargo" test -p alert-feed-daemon'
+      - name: Clippy
+        run: '"$HOME/.cargo/bin/cargo" clippy -p alert-feed-daemon --all-targets -- -D warnings'

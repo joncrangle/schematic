@@ -1,0 +1,427 @@
+{
+  "viewBoxWidth": 1180,
+  "viewBoxHeight": 820,
+  "lines": [
+    {
+      "id": "401",
+      "name": "Ordze - Downtown",
+      "color": "#F99D27",
+      "points": [
+        {
+          "x": 840,
+          "y": 615
+        },
+        {
+          "x": 415,
+          "y": 615
+        },
+        {
+          "x": 300,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "name": "Ordze - University of Alberta",
+      "color": "#FDB525",
+      "points": [
+        {
+          "x": 840,
+          "y": 625
+        },
+        {
+          "x": 498,
+          "y": 625
+        },
+        {
+          "x": 423,
+          "y": 700
+        },
+        {
+          "x": 180,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "name": "Bethel - Downtown",
+      "color": "#80FF80",
+      "points": [
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 300,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "414",
+      "name": "Bethel - University of Alberta",
+      "color": "#F16278",
+      "points": [
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 900,
+          "y": 710
+        },
+        {
+          "x": 180,
+          "y": 710
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "name": "Bethel - NAIT",
+      "color": "#0062AC",
+      "points": [
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 660,
+          "y": 260
+        },
+        {
+          "x": 300,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "420",
+      "name": "Bethel - Millennium Place",
+      "color": "#009886",
+      "points": [
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 900,
+          "y": 300
+        },
+        {
+          "x": 820,
+          "y": 300
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "bethel",
+      "name": "Bethel Transit Terminal",
+      "x": 900,
+      "y": 500,
+      "lines": ["411", "414", "415", "420"],
+      "label": {
+        "x": 933.0,
+        "y": 500,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "ordze",
+      "name": "Ordze Transit Centre",
+      "x": 840,
+      "y": 620,
+      "lines": ["401", "404"],
+      "label": {
+        "x": 869.0,
+        "y": 620,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown / MacEwan",
+      "x": 300,
+      "y": 500,
+      "lines": ["401", "411"],
+      "label": {
+        "x": 271.0,
+        "y": 500,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "university",
+      "name": "University",
+      "x": 180,
+      "y": 705,
+      "lines": ["404", "414"],
+      "label": {
+        "x": 180,
+        "y": 739.0,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "nait",
+      "name": "NAIT",
+      "x": 300,
+      "y": 260,
+      "lines": ["415"],
+      "label": {
+        "x": 275.0,
+        "y": 260,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "belvedere",
+      "name": "Belvedere",
+      "x": 660,
+      "y": 260,
+      "lines": ["415"],
+      "label": {
+        "x": 660,
+        "y": 230.0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "millennium-place",
+      "name": "Millennium Place",
+      "x": 900,
+      "y": 400,
+      "lines": ["420"],
+      "label": {
+        "x": 925.0,
+        "y": 400,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "streambank",
+      "name": "Streambank Avenue",
+      "x": 820,
+      "y": 300,
+      "lines": ["420"],
+      "label": {
+        "x": 795.0,
+        "y": 300,
+        "anchor": "end"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "411",
+      "num": "411",
+      "x": 600,
+      "y": 468,
+      "color": "#80FF80",
+      "textColor": "#000000"
+    },
+    {
+      "line": "401",
+      "num": "401",
+      "x": 640,
+      "y": 583,
+      "color": "#F99D27",
+      "textColor": "#000000"
+    },
+    {
+      "line": "404",
+      "num": "404",
+      "x": 330,
+      "y": 668,
+      "color": "#FDB525",
+      "textColor": "#000000"
+    },
+    {
+      "line": "414",
+      "num": "414",
+      "x": 600,
+      "y": 742,
+      "color": "#F16278",
+      "textColor": "#000000"
+    },
+    {
+      "line": "415",
+      "num": "415",
+      "x": 480,
+      "y": 228,
+      "color": "#0062AC",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "420",
+      "num": "420",
+      "x": 932,
+      "y": 340,
+      "color": "#009886",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 1170,
+      "minY": 200,
+      "maxY": 790
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -113.522833,
+    "refLonEast": -113.306164,
+    "refXWest": 180,
+    "refXEast": 900,
+    "refLatNorth": 53.570774,
+    "refLatSouth": 53.513487,
+    "refYNorth": 260,
+    "refYSouth": 620
+  },
+  "sequences": {
+    "401": ["ordze", "downtown"],
+    "404": ["ordze", "university"],
+    "411": ["bethel", "downtown"],
+    "414": ["bethel", "university"],
+    "415": ["nait", "belvedere", "bethel"],
+    "420": ["bethel", "millennium-place", "streambank"]
+  },
+  "stationAliases": {
+    "105 Street & 104 Avenue": "downtown",
+    "University Transit Centre": "university",
+    "106 Street & 118 Avenue Loop": "nait",
+    "Belvedere Transit Centre": "belvedere",
+    "Premier Wy & Millennium Place": "millennium-place",
+    "Streambank Av": "streambank",
+    "Bethel Transit Terminal": "bethel",
+    "Ordze Transit Centre": "ordze"
+  },
+  "stationIndex": [
+    {
+      "id": "Q1649",
+      "schematicId": "belvedere",
+      "name": "Belvedere",
+      "lat": 53.588203,
+      "lon": -113.435016,
+      "lines": ["415"],
+      "platformIds": ["7206"],
+      "departureRouteIds": ["415"]
+    },
+    {
+      "id": "bethel",
+      "schematicId": "bethel",
+      "name": "Bethel Transit Terminal",
+      "lat": 53.542768,
+      "lon": -113.307678,
+      "lines": ["411", "414", "415", "420"],
+      "platformIds": [
+        "S8200",
+        "S8201",
+        "S8202",
+        "S8205",
+        "S8206",
+        "S8207",
+        "S8208",
+        "S8210",
+        "S8211",
+        "S8212",
+        "S8213",
+        "S8214",
+        "S8216",
+        "S8217",
+        "S8218"
+      ],
+      "departureRouteIds": [
+        "411",
+        "413",
+        "414",
+        "415",
+        "420",
+        "430",
+        "430S",
+        "431",
+        "432",
+        "433",
+        "440",
+        "441",
+        "442",
+        "443",
+        "450",
+        "451"
+      ]
+    },
+    {
+      "id": "1679",
+      "schematicId": "downtown",
+      "name": "Downtown / MacEwan",
+      "lat": 53.546114,
+      "lon": -113.500398,
+      "lines": ["401", "411"],
+      "platformIds": ["1679"],
+      "departureRouteIds": ["401", "411"]
+    },
+    {
+      "id": "S8800",
+      "schematicId": "millennium-place",
+      "name": "Millennium Place",
+      "lat": 53.557508,
+      "lon": -113.313966,
+      "lines": ["420"],
+      "platformIds": ["S8800"],
+      "departureRouteIds": ["420"]
+    },
+    {
+      "id": "1532",
+      "schematicId": "nait",
+      "name": "NAIT",
+      "lat": 53.570774,
+      "lon": -113.503326,
+      "lines": ["415"],
+      "platformIds": ["1532"],
+      "departureRouteIds": ["415"]
+    },
+    {
+      "id": "ordze",
+      "schematicId": "ordze",
+      "name": "Ordze Transit Centre",
+      "lat": 53.51362,
+      "lon": -113.330802,
+      "lines": ["401", "404"],
+      "platformIds": ["S4200", "S4201", "S4202", "S4204", "S4205", "S4206"],
+      "departureRouteIds": ["401", "403", "404", "441", "443", "443S", "451", "451S"]
+    },
+    {
+      "id": "S8816",
+      "schematicId": "streambank",
+      "name": "Streambank Avenue",
+      "lat": 53.560426,
+      "lon": -113.32528,
+      "lines": ["420"],
+      "platformIds": ["S8816"],
+      "departureRouteIds": ["420"]
+    },
+    {
+      "id": "Q9039",
+      "schematicId": "university",
+      "name": "University",
+      "lat": 53.524833,
+      "lon": -113.521183,
+      "lines": ["404", "414"],
+      "platformIds": ["2003"],
+      "departureRouteIds": ["404", "414"]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "sarnia",
+  "name": "Sarnia Transit",
+  "serviceArea": "Sarnia",
+  "shortName": "Sarnia",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 42.935,
+      "maxLat": 43.04,
+      "minLon": -82.43,
+      "maxLon": -82.32
+    },
+    {
+      "minLat": 42.98,
+      "maxLat": 42.995,
+      "minLon": -82.321,
+      "maxLon": -82.305
+    },
+    {
+      "minLat": 42.995,
+      "maxLat": 43.04,
+      "minLon": -82.32,
+      "maxLon": -82.225
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Sarnia Transit / City of Sarnia; Consat Telematics AB",
+    "url": "https://www.sarnia.ca/living-here/getting-around/sarnia-transit/",
+    "license": "No explicit terms were found for the Sarnia Transit GTFS or AnyRide data.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Downtown Terminal",
+      "lat": 42.974234,
+      "lon": -82.404892
+    },
+    {
+      "name": "Northgate Terminal",
+      "lat": 42.986278,
+      "lon": -82.386572
+    },
+    {
+      "name": "Clearwater Terminal",
+      "lat": 42.97059,
+      "lon": -82.35633
+    },
+    {
+      "name": "Lambton College",
+      "lat": 42.97586,
+      "lon": -82.34638
+    }
+  ],
+  "popularSurfaceRoutes": ["45", "64", "39", "24", "26", "38", "60", "63"],
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeType": "express",
+        "routeIds": ["45", "64"]
+      }
+    ]
+  },
+  "alertInterpretation": {
+    "lineIds": ["45", "64", "39", "24", "26", "38", "60", "63"],
+    "routeLineMap": {
+      "2 DEVINE": "24",
+      "3 WELLINGTON": "25",
+      "4 MAXWELL": "26",
+      "7 CATHCART": "31",
+      "10 VIDAL": "34",
+      "12 POINT EDWARD": "36",
+      "14 CARDIFF": "37",
+      "15 BRIGHT'S GROVE": "38",
+      "1 CONFEDERATION": "39",
+      "66 LONDON ROAD EXPRESS": "45",
+      "16 INDIAN EAST": "49",
+      "COMMUNITY BUS": "52",
+      "19 RETAIL CONNECTOR": "57",
+      "9 1 EXMOUTH": "60",
+      "9 2 EXMOUTH": "61",
+      "20 MICHIGAN RAPIDS": "63",
+      "68 NORTH END EXPRESS AM": "64",
+      "93 EXMOUTH": "65"
+    },
+    "routeIdNormalization": {
+      "aliases": {
+        "2 DEVINE": "24",
+        "3 WELLINGTON": "25",
+        "4 MAXWELL": "26",
+        "7 CATHCART": "31",
+        "10 VIDAL": "34",
+        "12 POINT EDWARD": "36",
+        "14 CARDIFF": "37",
+        "15 BRIGHT'S GROVE": "38",
+        "1 CONFEDERATION": "39",
+        "66 LONDON ROAD EXPRESS": "45",
+        "16 INDIAN EAST": "49",
+        "COMMUNITY BUS": "52",
+        "19 RETAIL CONNECTOR": "57",
+        "9 1 EXMOUTH": "60",
+        "9 2 EXMOUTH": "61",
+        "20 MICHIGAN RAPIDS": "63",
+        "68 NORTH END EXPRESS AM": "64",
+        "93 EXMOUTH": "65"
+      }
+    },
+    "rules": [
+      {
+        "priority": 200,
+        "match": {
+          "sourceField": "isDisturbance",
+          "sourceValue": true
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "textIncludes": ["detour", "delays"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "tmix_anyride",
+        "url": "https://sarnia.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+        "format": "json",
+        "operatorPrefix": "20000",
+        "profile": {
+          "data": "metrolinx_sarnia",
+          "display": "sarnia"
+        },
+        "duplicateVehicleFixes": "collapse-by-fix"
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Sarnia Transit GTFS",
+        "url": "https://metrolinx.tmix.se/gtfs/gtfs-sarnia.zip",
+        "cacheFileName": "sarnia-gtfs.zip"
+      }
+    ],
+    "ignoreFeedRouteColors": true,
+    "defaultColor": "#332199",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "alerts": [
+    {
+      "type": "anyride-messages",
+      "url": "https://sarnia.tmix.se/Tmix.Cap.Ti.Process.AnyRide/api",
+      "operatorPrefix": "20000",
+      "profile": {
+        "data": "metrolinx_sarnia",
+        "display": "sarnia"
+      },
+      "stops": [
+        {
+          "stopId": "2100",
+          "routeIds": ["24", "25", "26", "34", "39", "45", "52", "60", "61"]
+        },
+        {
+          "stopId": "5200",
+          "routeIds": ["31", "36", "49", "60", "61", "64", "65"]
+        },
+        {
+          "stopId": "9999",
+          "routeIds": ["24", "25", "26", "37", "38", "39", "57", "60", "61", "63", "65"]
+        }
+      ]
+    },
+    {
+      "type": "web",
+      "url": "https://www.sarnia.ca/summer-service-changes/",
+      "parser": "heading-service-notices",
+      "routeNames": {
+        "39": ["Route 1", "Route 1/3"],
+        "25": ["Route 1/3"],
+        "24": ["Route 2"],
+        "31": ["Route 7"],
+        "63": ["Route 20"]
+      }
+    }
+  ],
+  "routeShortNames": {
+    "24": "2",
+    "25": "3",
+    "26": "4",
+    "31": "7",
+    "34": "10",
+    "36": "12",
+    "37": "14",
+    "38": "15",
+    "39": "1",
+    "45": "66",
+    "49": "16",
+    "52": "Community Bus",
+    "57": "19",
+    "60": "9 1",
+    "61": "9 2",
+    "63": "20",
+    "64": "68",
+    "65": "93"
+  }
+}

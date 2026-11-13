@@ -1,0 +1,2121 @@
+[
+  {
+    "name": "separate selectors and bilingual null effects",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "stop_id": "123",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "route only with north direction",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "B"
+            },
+            {
+              "direction_id": "N"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "B",
+                "direction_id": "north"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "recognized empty feed",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": []
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": []
+    }
+  },
+  {
+    "name": "unknown direction fails",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "sideways"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "invalid": true
+  },
+  {
+    "name": "missing board fails",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      }
+    },
+    "invalid": true
+  },
+  {
+    "name": "reversed period fails",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": 1600000000
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "invalid": true
+  },
+  {
+    "name": "empty selectors fail",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "invalid": true
+  },
+  {
+    "name": "missing period start",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "invalid": true
+  },
+  {
+    "name": "missing period end",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "invalid": true
+  },
+  {
+    "name": "null selector route_short_name",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": null
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "invalid": true
+  },
+  {
+    "name": "null selector direction_id",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A",
+              "direction_id": null
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "invalid": true
+  },
+  {
+    "name": "null selector stop_code",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A",
+              "stop_code": null
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "invalid": true
+  },
+  {
+    "name": "configured relocation exclusion preserves genuine cancellation",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        },
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "This stop is moved 50 metres after the regular stop."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "stop_id": "123",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "excludedDescriptionPrefixes": [
+      "This stop is moved",
+      "Cet arrêt est déplacé"
+    ]
+  },
+  {
+    "name": "retains unmatched cancellation summary",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "en",
+                  "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "redundantSummaryPrefixes": [
+      "Some stops are cancelled, moved or relocated."
+    ]
+  },
+  {
+    "name": "suppresses scope-covered cancellation summary",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        },
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "stop_id": "123",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "redundantSummaryPrefixes": [
+      "Some stops are cancelled, moved or relocated."
+    ]
+  },
+  {
+    "name": "retains extra disruption prose",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        },
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "Some stops are cancelled, moved or relocated.\n123 (Central)\nService suspended on the entire route."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "stop_id": "123",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        },
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "en",
+                  "text": "Some stops are cancelled, moved or relocated.\n123 (Central)\nService suspended on the entire route."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "redundantSummaryPrefixes": [
+      "Some stops are cancelled, moved or relocated."
+    ]
+  },
+  {
+    "name": "retains summary outside detailed route coverage",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "B"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        },
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "B",
+                "stop_id": "123",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        },
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "en",
+                  "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "redundantSummaryPrefixes": [
+      "Some stops are cancelled, moved or relocated."
+    ]
+  },
+  {
+    "name": "retains summary outside detailed direction coverage",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "North"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        },
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "stop_id": "123",
+                "direction_id": "north"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        },
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "en",
+                  "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "redundantSummaryPrefixes": [
+      "Some stops are cancelled, moved or relocated."
+    ]
+  },
+  {
+    "name": "retains summary outside detailed period coverage",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": 1700000050
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        },
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": 1700000050
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "stop_id": "123",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        },
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "en",
+                  "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "redundantSummaryPrefixes": [
+      "Some stops are cancelled, moved or relocated."
+    ]
+  },
+  {
+    "name": "retains stop-scoped unmatched cancellation summary",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "direction_id": "south",
+                "stop_id": "123"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "en",
+                  "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "redundantSummaryPrefixes": [
+      "Some stops are cancelled, moved or relocated."
+    ]
+  },
+  {
+    "name": "retains bilingual disruption when only one translation is redundant",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        },
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "Some stops are cancelled, moved or relocated.\n123 (Central)\nService suspended on the entire route."
+            },
+            {
+              "language": "fr",
+              "text": "Certains arrêts sont annulés, déplacés ou relocalisés.\n123 (Central)"
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "stop_id": "123",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        },
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "en",
+                  "text": "Some stops are cancelled, moved or relocated.\n123 (Central)\nService suspended on the entire route."
+                },
+                {
+                  "language": "fr",
+                  "text": "Certains arrêts sont annulés, déplacés ou relocalisés.\n123 (Central)"
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "redundantSummaryPrefixes": [
+      "Some stops are cancelled, moved or relocated.",
+      "Certains arrêts sont annulés, déplacés ou relocalisés."
+    ]
+  },
+  {
+    "name": "retains summary with an additional explicit stop selector",
+    "input": {
+      "header": {
+        "timestamp": 1700000100
+      },
+      "alerts": [
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "123"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "fr",
+              "text": "Arrêt annulé."
+            },
+            {
+              "language": "en",
+              "text": "This stop is cancelled."
+            }
+          ],
+          "cause": null,
+          "effect": null
+        },
+        {
+          "active_periods": {
+            "start": 1700000000,
+            "end": null
+          },
+          "informed_entities": [
+            {
+              "route_short_name": "A"
+            },
+            {
+              "direction_id": "South"
+            },
+            {
+              "stop_code": "999"
+            }
+          ],
+          "header_texts": [
+            {
+              "language": "fr",
+              "text": "Votre arrêt"
+            },
+            {
+              "language": "en",
+              "text": "Your stop"
+            }
+          ],
+          "description_texts": [
+            {
+              "language": "en",
+              "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+            }
+          ],
+          "cause": null,
+          "effect": null
+        }
+      ]
+    },
+    "expected": {
+      "header": {
+        "gtfs_realtime_version": "2.0",
+        "timestamp": 1700000100
+      },
+      "entity": [
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "stop_id": "123",
+                "direction_id": "south"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Arrêt annulé."
+                },
+                {
+                  "language": "en",
+                  "text": "This stop is cancelled."
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        },
+        {
+          "alert": {
+            "active_period": [
+              {
+                "start": 1700000000,
+                "end": null
+              }
+            ],
+            "informed_entity": [
+              {
+                "route_id": "A",
+                "direction_id": "south",
+                "stop_id": "999"
+              }
+            ],
+            "header_text": {
+              "translation": [
+                {
+                  "language": "fr",
+                  "text": "Votre arrêt"
+                },
+                {
+                  "language": "en",
+                  "text": "Your stop"
+                }
+              ]
+            },
+            "description_text": {
+              "translation": [
+                {
+                  "language": "en",
+                  "text": "Some stops are cancelled, moved or relocated.\n123 (Central)"
+                }
+              ]
+            },
+            "cause": null,
+            "effect": null
+          }
+        }
+      ]
+    },
+    "redundantSummaryPrefixes": [
+      "Some stops are cancelled, moved or relocated."
+    ]
+  }
+]

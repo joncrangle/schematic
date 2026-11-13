@@ -1,0 +1,553 @@
+{
+  "viewBoxWidth": 1250,
+  "viewBoxHeight": 1120,
+  "lines": [
+    {
+      "id": "1-COM",
+      "name": "Comox Mall / Anfield Centre via N.I.C.",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 920,
+          "y": 450
+        },
+        {
+          "x": 800,
+          "y": 330
+        },
+        {
+          "x": 440,
+          "y": 330
+        },
+        {
+          "x": 420,
+          "y": 350
+        },
+        {
+          "x": 420,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "2-COM",
+      "name": "Cumberland / Anfield Centre",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 180,
+          "y": 700
+        },
+        {
+          "x": 420,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "4-COM",
+      "name": "Driftwood Mall / Comox Mall via Comox Rd",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 420,
+          "y": 550
+        },
+        {
+          "x": 820,
+          "y": 550
+        },
+        {
+          "x": 920,
+          "y": 450
+        }
+      ]
+    },
+    {
+      "id": "8-COM",
+      "name": "Downtown / Anfield Centre",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 420,
+          "y": 350
+        },
+        {
+          "x": 340,
+          "y": 430
+        },
+        {
+          "x": 340,
+          "y": 470
+        },
+        {
+          "x": 420,
+          "y": 550
+        },
+        {
+          "x": 340,
+          "y": 630
+        },
+        {
+          "x": 340,
+          "y": 640
+        },
+        {
+          "x": 400,
+          "y": 700
+        },
+        {
+          "x": 420,
+          "y": 700
+        }
+      ]
+    },
+    {
+      "id": "10-COM",
+      "name": "Fanny Bay / Deep Bay / Downtown Courtenay",
+      "color": "#AC5C3B",
+      "points": [
+        {
+          "x": 420,
+          "y": 350
+        },
+        {
+          "x": 500,
+          "y": 430
+        },
+        {
+          "x": 500,
+          "y": 470
+        },
+        {
+          "x": 420,
+          "y": 550
+        },
+        {
+          "x": 500,
+          "y": 630
+        },
+        {
+          "x": 500,
+          "y": 640
+        },
+        {
+          "x": 440,
+          "y": 700
+        },
+        {
+          "x": 420,
+          "y": 700
+        },
+        {
+          "x": 580,
+          "y": 860
+        },
+        {
+          "x": 580,
+          "y": 990
+        }
+      ]
+    },
+    {
+      "id": "11-COM",
+      "name": "Airport via Powell R. Ferry / Downtown",
+      "color": "#91278F",
+      "points": [
+        {
+          "x": 420,
+          "y": 350
+        },
+        {
+          "x": 420,
+          "y": 290
+        },
+        {
+          "x": 540,
+          "y": 170
+        },
+        {
+          "x": 920,
+          "y": 170
+        }
+      ]
+    },
+    {
+      "id": "12-COM",
+      "name": "Oyster River / Downtown Courtenay",
+      "color": "#B3AA7E",
+      "points": [
+        {
+          "x": 420,
+          "y": 350
+        },
+        {
+          "x": 260,
+          "y": 190
+        },
+        {
+          "x": 260,
+          "y": 140
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "oyster-river",
+      "name": "Oyster River",
+      "x": 260,
+      "y": 140,
+      "lines": ["12-COM"],
+      "label": {
+        "x": 232,
+        "y": 145,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown Courtenay",
+      "x": 420,
+      "y": 350,
+      "lines": ["1-COM", "8-COM", "10-COM", "11-COM", "12-COM"],
+      "label": {
+        "x": 392,
+        "y": 355,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "driftwood",
+      "name": "Driftwood Mall",
+      "x": 420,
+      "y": 550,
+      "lines": ["1-COM", "4-COM", "8-COM", "10-COM"],
+      "label": {
+        "x": 392,
+        "y": 555,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "anfield",
+      "name": "Anfield Centre",
+      "x": 420,
+      "y": 700,
+      "lines": ["1-COM", "2-COM", "8-COM", "10-COM"],
+      "label": {
+        "x": 420,
+        "y": 732,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "cumberland",
+      "name": "Cumberland",
+      "x": 180,
+      "y": 700,
+      "lines": ["2-COM"],
+      "label": {
+        "x": 152,
+        "y": 705,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "comox",
+      "name": "Comox Mall",
+      "x": 920,
+      "y": 450,
+      "lines": ["1-COM", "4-COM"],
+      "label": {
+        "x": 948,
+        "y": 455,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "airport",
+      "name": "Comox Airport",
+      "x": 920,
+      "y": 170,
+      "lines": ["11-COM"],
+      "label": {
+        "x": 948,
+        "y": 175,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "little-river",
+      "name": "Little River Ferry",
+      "x": 740,
+      "y": 170,
+      "lines": ["11-COM"],
+      "label": {
+        "x": 740,
+        "y": 140,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "buckley-bay",
+      "name": "Buckley Bay",
+      "x": 580,
+      "y": 860,
+      "lines": ["10-COM"],
+      "label": {
+        "x": 608,
+        "y": 865,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fanny-bay",
+      "name": "Fanny Bay",
+      "x": 580,
+      "y": 990,
+      "lines": ["10-COM"],
+      "label": {
+        "x": 608,
+        "y": 995,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1-COM",
+      "num": "1",
+      "x": 650,
+      "y": 298,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-COM",
+      "num": "2",
+      "x": 300,
+      "y": 732,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-COM",
+      "num": "4",
+      "x": 730,
+      "y": 582,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "8-COM",
+      "num": "8",
+      "x": 308,
+      "y": 520,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "10-COM",
+      "num": "10",
+      "x": 612,
+      "y": 925,
+      "color": "#AC5C3B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "11-COM",
+      "num": "11",
+      "x": 630,
+      "y": 138,
+      "color": "#91278F",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12-COM",
+      "num": "12",
+      "x": 292,
+      "y": 205,
+      "color": "#B3AA7E",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1-COM": ["comox", "downtown", "driftwood", "anfield"],
+    "2-COM": ["cumberland", "anfield"],
+    "4-COM": ["driftwood", "comox"],
+    "8-COM": ["downtown", "driftwood", "anfield"],
+    "10-COM": ["downtown", "driftwood", "anfield", "buckley-bay", "fanny-bay"],
+    "11-COM": ["downtown", "little-river", "airport"],
+    "12-COM": ["downtown", "oyster-river"]
+  },
+  "stationAliases": {
+    "code:134021": "oyster-river",
+    "code:111486": "downtown",
+    "code:111278": "driftwood",
+    "code:134004": "driftwood",
+    "code:111275": "anfield",
+    "code:111290": "cumberland",
+    "code:111323": "comox",
+    "code:110531": "comox",
+    "code:111452": "airport",
+    "code:111449": "little-river",
+    "code:103864": "buckley-bay",
+    "code:110324": "buckley-bay",
+    "code:111438": "fanny-bay",
+    "code:111270": "downtown",
+    "code:110530": "downtown"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 1200,
+      "minY": 60,
+      "maxY": 1070
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -125.12904,
+    "refLonEast": -124.79517,
+    "refXWest": 260,
+    "refXEast": 580,
+    "refLatNorth": 49.86991,
+    "refLatSouth": 49.47266,
+    "refYNorth": 140,
+    "refYSouth": 990
+  },
+  "stationIndex": [
+    {
+      "id": "111275",
+      "schematicId": "anfield",
+      "name": "Anfield Centre",
+      "lat": 49.6683,
+      "lon": -124.97996,
+      "lines": ["1-COM", "10-COM", "2-COM", "8-COM"],
+      "platformIds": ["111275"],
+      "departureRouteIds": ["1-COM", "10-COM", "14-COM", "2-COM", "20-COM", "5-COM", "8-COM"]
+    },
+    {
+      "id": "buckley-bay",
+      "schematicId": "buckley-bay",
+      "name": "Buckley Bay",
+      "lat": 49.52559,
+      "lon": -124.85003,
+      "lines": ["10-COM"],
+      "platformIds": ["103864", "110324"],
+      "departureRouteIds": ["10-COM"]
+    },
+    {
+      "id": "111452",
+      "schematicId": "airport",
+      "name": "Comox Airport",
+      "lat": 49.70605,
+      "lon": -124.90676,
+      "lines": ["11-COM"],
+      "platformIds": ["111452"],
+      "departureRouteIds": ["11-COM"]
+    },
+    {
+      "id": "comox",
+      "schematicId": "comox",
+      "name": "Comox Mall",
+      "lat": 49.67367,
+      "lon": -124.92517,
+      "lines": ["1-COM", "4-COM"],
+      "platformIds": ["110531", "111323"],
+      "departureRouteIds": ["1-COM", "15-COM", "3-COM", "4-COM"]
+    },
+    {
+      "id": "111290",
+      "schematicId": "cumberland",
+      "name": "Cumberland",
+      "lat": 49.61922,
+      "lon": -125.02699,
+      "lines": ["2-COM"],
+      "platformIds": ["111290"],
+      "departureRouteIds": ["2-COM", "20-COM"]
+    },
+    {
+      "id": "111486",
+      "schematicId": "downtown",
+      "name": "Downtown Courtenay",
+      "lat": 49.69187,
+      "lon": -124.99855,
+      "lines": ["1-COM", "10-COM", "11-COM", "12-COM", "8-COM"],
+      "platformIds": ["110530", "111270", "111486"],
+      "departureRouteIds": [
+        "1-COM",
+        "10-COM",
+        "11-COM",
+        "12-COM",
+        "13-COM",
+        "14-COM",
+        "5-COM",
+        "6-COM",
+        "7-COM",
+        "8-COM",
+        "99-COM"
+      ]
+    },
+    {
+      "id": "driftwood",
+      "schematicId": "driftwood",
+      "name": "Driftwood Mall",
+      "lat": 49.67511,
+      "lon": -124.98472,
+      "lines": ["1-COM", "10-COM", "4-COM", "8-COM"],
+      "platformIds": ["111278", "134004"],
+      "departureRouteIds": [
+        "1-COM",
+        "10-COM",
+        "14-COM",
+        "2-COM",
+        "20-COM",
+        "4-COM",
+        "5-COM",
+        "7-COM",
+        "8-COM"
+      ]
+    },
+    {
+      "id": "111438",
+      "schematicId": "fanny-bay",
+      "name": "Fanny Bay",
+      "lat": 49.47266,
+      "lon": -124.79517,
+      "lines": ["10-COM"],
+      "platformIds": ["111438"],
+      "departureRouteIds": ["10-COM"]
+    },
+    {
+      "id": "111449",
+      "schematicId": "little-river",
+      "name": "Little River Ferry",
+      "lat": 49.74018,
+      "lon": -124.92512,
+      "lines": ["11-COM"],
+      "platformIds": ["111449"],
+      "departureRouteIds": ["11-COM"]
+    },
+    {
+      "id": "134021",
+      "schematicId": "oyster-river",
+      "name": "Oyster River",
+      "lat": 49.86991,
+      "lon": -125.12904,
+      "lines": ["12-COM"],
+      "platformIds": ["134021"],
+      "departureRouteIds": ["12-COM"]
+    }
+  ]
+}

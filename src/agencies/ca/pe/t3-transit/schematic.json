@@ -1,0 +1,581 @@
+{
+  "viewBoxWidth": 1800,
+  "viewBoxHeight": 1250,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 University Ave",
+      "color": "#32c5f4",
+      "points": [
+        {
+          "x": 1000,
+          "y": 1000
+        },
+        {
+          "x": 1000,
+          "y": 800
+        },
+        {
+          "x": 1000,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 West Royalty - North River Rd",
+      "color": "#ed1c24",
+      "points": [
+        {
+          "x": 1000,
+          "y": 1000
+        },
+        {
+          "x": 600,
+          "y": 1000
+        },
+        {
+          "x": 500,
+          "y": 900
+        },
+        {
+          "x": 500,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 300
+        },
+        {
+          "x": 700,
+          "y": 400
+        },
+        {
+          "x": 700,
+          "y": 500
+        },
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "3 Sherwood - St Peters Rd",
+      "color": "#61439a",
+      "points": [
+        {
+          "x": 1000,
+          "y": 600
+        },
+        {
+          "x": 1200,
+          "y": 600
+        },
+        {
+          "x": 1300,
+          "y": 700
+        },
+        {
+          "x": 1300,
+          "y": 800
+        },
+        {
+          "x": 1200,
+          "y": 900
+        },
+        {
+          "x": 1100,
+          "y": 900
+        },
+        {
+          "x": 1000,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "4 Downtown - QEH",
+      "color": "#24b99d",
+      "points": [
+        {
+          "x": 1000,
+          "y": 1000
+        },
+        {
+          "x": 1400,
+          "y": 1000
+        },
+        {
+          "x": 1500,
+          "y": 900
+        },
+        {
+          "x": 1500,
+          "y": 800
+        },
+        {
+          "x": 1400,
+          "y": 700
+        },
+        {
+          "x": 1400,
+          "y": 900
+        },
+        {
+          "x": 1300,
+          "y": 1000
+        },
+        {
+          "x": 1000,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "9 Cornwall",
+      "color": "#00008b",
+      "points": [
+        {
+          "x": 1000,
+          "y": 600
+        },
+        {
+          "x": 400,
+          "y": 600
+        },
+        {
+          "x": 200,
+          "y": 800
+        },
+        {
+          "x": 200,
+          "y": 1000
+        },
+        {
+          "x": 300,
+          "y": 1100
+        },
+        {
+          "x": 400,
+          "y": 1000
+        },
+        {
+          "x": 400,
+          "y": 900
+        },
+        {
+          "x": 300,
+          "y": 800
+        },
+        {
+          "x": 500,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "11 Brackley Point Rd - Airport",
+      "color": "#a52a2a",
+      "points": [
+        {
+          "x": 1000,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 400
+        },
+        {
+          "x": 1100,
+          "y": 300
+        },
+        {
+          "x": 1100,
+          "y": 200
+        },
+        {
+          "x": 1000,
+          "y": 100
+        },
+        {
+          "x": 900,
+          "y": 200
+        },
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 1000,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "12 Sleepy Hollow - Winsloe",
+      "color": "#e33293",
+      "points": [
+        {
+          "x": 1000,
+          "y": 600
+        },
+        {
+          "x": 800,
+          "y": 400
+        },
+        {
+          "x": 800,
+          "y": 200
+        },
+        {
+          "x": 700,
+          "y": 100
+        },
+        {
+          "x": 600,
+          "y": 200
+        },
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 800,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 600
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "royalty-crossing",
+      "name": "Royalty Crossing Mall Shelter Transfer Hub",
+      "x": 1000,
+      "y": 600,
+      "lines": ["1", "2", "3", "9", "11", "12"],
+      "label": {
+        "x": 1035,
+        "y": 585,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "confederation-centre",
+      "name": "Grafton St & Confederation Centre Bus Shelter",
+      "x": 1000,
+      "y": 1000,
+      "lines": ["1", "2", "3", "4"],
+      "label": {
+        "x": 1000,
+        "y": 1050,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "upei",
+      "name": "University Ave & UPEI Bus Shelter",
+      "x": 1000,
+      "y": 800,
+      "lines": ["1"],
+      "label": {
+        "x": 960,
+        "y": 800,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "west-royalty",
+      "name": "Upton & Parricus Mead",
+      "x": 500,
+      "y": 400,
+      "lines": ["2"],
+      "label": {
+        "x": 460,
+        "y": 400,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "sherwood",
+      "name": "Duncan Hts & Brackley Point",
+      "x": 1300,
+      "y": 700,
+      "lines": ["3"],
+      "label": {
+        "x": 1320,
+        "y": 670,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "qeh",
+      "name": "QEH",
+      "x": 1500,
+      "y": 800,
+      "lines": ["4"],
+      "label": {
+        "x": 1540,
+        "y": 800,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cornwall",
+      "name": "Cornwall Rd & Muttart",
+      "x": 300,
+      "y": 1100,
+      "lines": ["9"],
+      "label": {
+        "x": 300,
+        "y": 1135,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "airport",
+      "name": "Airport Crosswalk",
+      "x": 1100,
+      "y": 200,
+      "lines": ["11"],
+      "label": {
+        "x": 1140,
+        "y": 200,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "winsloe",
+      "name": "Stockman & Malpeque",
+      "x": 700,
+      "y": 100,
+      "lines": ["12"],
+      "label": {
+        "x": 700,
+        "y": 65,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "1": ["confederation-centre", "upei", "royalty-crossing"],
+    "2": ["confederation-centre", "west-royalty", "royalty-crossing"],
+    "3": ["royalty-crossing", "sherwood", "confederation-centre"],
+    "4": ["confederation-centre", "qeh"],
+    "9": ["royalty-crossing", "cornwall"],
+    "11": ["royalty-crossing", "airport"],
+    "12": ["royalty-crossing", "winsloe"]
+  },
+  "stationAliases": {
+    "Royalty Crossing Mall Shelter Transfer Hub": "royalty-crossing",
+    "Grafton St & Confederation Centre Bus Shelter": "confederation-centre",
+    "Grafton St & Holman Grand Hotel": "confederation-centre",
+    "University Ave & UPEI Bus Shelter": "upei",
+    "Upton & Parricus Mead": "west-royalty",
+    "Duncan Hts & Brackley Point": "sherwood",
+    "QEH": "qeh",
+    "Cornwall Rd & Muttart": "cornwall",
+    "Airport Crosswalk": "airport",
+    "Stockman & Malpeque": "winsloe"
+  },
+  "stationIndex": [
+    {
+      "id": "4247547",
+      "schematicId": "airport",
+      "name": "Airport Crosswalk",
+      "lat": 46.28625233058372,
+      "lon": -63.13248269110346,
+      "lines": ["11"],
+      "platformIds": ["4247547"],
+      "departureRouteIds": ["74353", "77844"]
+    },
+    {
+      "id": "4255547",
+      "schematicId": "cornwall",
+      "name": "Cornwall Rd & Muttart",
+      "lat": 46.22866580900339,
+      "lon": -63.21896333592663,
+      "lines": ["9"],
+      "platformIds": ["4255547"],
+      "departureRouteIds": ["74354"]
+    },
+    {
+      "id": "sherwood",
+      "schematicId": "sherwood",
+      "name": "Duncan Hts & Brackley Point",
+      "lat": 46.26255852094198,
+      "lon": -63.12187063489486,
+      "lines": ["3"],
+      "platformIds": ["4212984", "4212989"],
+      "departureRouteIds": ["76460"]
+    },
+    {
+      "id": "confederation-centre",
+      "schematicId": "confederation-centre",
+      "name": "Grafton St & Confederation Centre Bus Shelter",
+      "lat": 46.234909,
+      "lon": -63.127472,
+      "lines": ["1", "2", "3", "4"],
+      "platformIds": ["4147168", "4147275"],
+      "departureRouteIds": ["74357", "74358", "74361", "76424", "76459", "76460", "76730"]
+    },
+    {
+      "id": "4147475",
+      "schematicId": "qeh",
+      "name": "QEH",
+      "lat": 46.254351,
+      "lon": -63.101347,
+      "lines": ["4"],
+      "platformIds": ["4147475"],
+      "departureRouteIds": ["74357", "74358", "76424"]
+    },
+    {
+      "id": "4147316",
+      "schematicId": "royalty-crossing",
+      "name": "Royalty Crossing Mall Shelter Transfer Hub",
+      "lat": 46.26510654293284,
+      "lon": -63.1460005276726,
+      "lines": ["1", "11", "12", "2", "3", "9"],
+      "platformIds": ["4147316"],
+      "departureRouteIds": [
+        "74353",
+        "74354",
+        "74358",
+        "74361",
+        "76424",
+        "76459",
+        "76460",
+        "76462",
+        "76730",
+        "77844"
+      ]
+    },
+    {
+      "id": "4147250",
+      "schematicId": "winsloe",
+      "name": "Stockman & Malpeque",
+      "lat": 46.294496,
+      "lon": -63.178753,
+      "lines": ["12"],
+      "platformIds": ["4147250"],
+      "departureRouteIds": ["74353"]
+    },
+    {
+      "id": "4147399",
+      "schematicId": "upei",
+      "name": "University Ave & UPEI Bus Shelter",
+      "lat": 46.256676,
+      "lon": -63.14167,
+      "lines": ["1"],
+      "platformIds": ["4147399"],
+      "departureRouteIds": ["74361"]
+    },
+    {
+      "id": "4147201",
+      "schematicId": "west-royalty",
+      "name": "Upton & Parricus Mead",
+      "lat": 46.27829543767555,
+      "lon": -63.179999182395505,
+      "lines": ["2"],
+      "platformIds": ["4147201"],
+      "departureRouteIds": ["76459"]
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 1032,
+      "y": 760,
+      "color": "#32c5f4",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 468,
+      "y": 480,
+      "color": "#ed1c24",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 1268,
+      "y": 740,
+      "color": "#61439a",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 1436.77,
+      "y": 1008.49,
+      "color": "#24b99d",
+      "textColor": "#000000"
+    },
+    {
+      "line": "9",
+      "num": "9",
+      "x": 168,
+      "y": 920,
+      "color": "#00008b",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "11",
+      "num": "11",
+      "x": 932,
+      "y": 350,
+      "color": "#a52a2a",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12",
+      "num": "12",
+      "x": 757.37,
+      "y": 202.63,
+      "color": "#e33293",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1800,
+      "minY": 0,
+      "maxY": 1250
+    },
+    "minZoom": 0.03,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -63.22,
+    "refLonEast": -63.106,
+    "refXWest": 200,
+    "refXEast": 1500,
+    "refLatNorth": 46.31,
+    "refLatSouth": 46.235,
+    "refYNorth": 100,
+    "refYSouth": 1000
+  }
+}

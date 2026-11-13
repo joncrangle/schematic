@@ -1,0 +1,140 @@
+{
+  "id": "mid-pen",
+  "name": "Mid-Pen Transit",
+  "serviceArea": "Midland & Penetanguishene",
+  "serviceAreaTranslations": { "fr": "Midland et Penetanguishene" },
+  "shortName": "Mid-Pen",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    {
+      "minLat": 44.72,
+      "maxLat": 44.81,
+      "minLon": -79.96,
+      "maxLon": -79.85
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "attribution": {
+    "name": "Mid-Pen Transit / Town of Midland and Town of Penetanguishene; TransitFare",
+    "url": "https://www.midland.ca/getting-around/mid-pen-transit/",
+    "license": "No explicit reuse licence was found for the Mid-Pen GTFS and GTFS-RT data. The feed query token is publicly published in the Transitland atlas.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Downtown Midland",
+      "lat": 44.750437,
+      "lon": -79.883989
+    },
+    {
+      "name": "Huronia Mall",
+      "lat": 44.738261,
+      "lon": -79.909258
+    },
+    {
+      "name": "Penetanguishene Village Square",
+      "lat": 44.766594,
+      "lon": -79.932925
+    },
+    {
+      "name": "Waypoint",
+      "lat": 44.802775,
+      "lon": -79.930627
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "3"],
+  "alertInterpretation": {
+    "lineIds": ["1", "3"],
+    "routeNames": {
+      "1": [
+        "Midland route",
+        "Midland Mid-Pen Transit",
+        "Midland and Penetanguishene",
+        "no Mid-Pen Transit service"
+      ],
+      "3": ["Penetanguishene", "no Mid-Pen Transit service"]
+    },
+    "rules": [
+      {
+        "priority": 400,
+        "match": {
+          "textIncludes": ["no Mid-Pen Transit service"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 300,
+        "match": {
+          "textIncludes": ["cancelled", "cancellation"]
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 200,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ],
+    "titleDateTimezone": "America/Toronto",
+    "reconcilePublishedRestorations": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Mid-Pen Transit GTFS",
+        "url": "https://midland.usetransit.com/api/1/public/gtfs/2/gtfs.zip?token=64186b9ee7bea60d7638268206162c0c9c1a3f49e",
+        "cacheFileName": "mid-pen-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://midland.usetransit.com/api/1/public/gtfs/2/VehiclePositions.pb?token=64186b9ee7bea60d7638268206162c0c9c1a3f49e",
+        "format": "protobuf",
+        "pollIntervalSeconds": 60,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://midland.usetransit.com/api/1/public/gtfs/2/TripUpdates.pb?token=64186b9ee7bea60d7638268206162c0c9c1a3f49e",
+        "format": "protobuf",
+        "pollIntervalSeconds": 60,
+        "tripDirectionSource": "static"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "web",
+      "url": "https://www.midland.ca/TransitNotices",
+      "parser": "ghd-news-service-advisories",
+      "maxAgeMinutes": 1440,
+      "cloudflareMaxCrawlPages": 10
+    }
+  ]
+}

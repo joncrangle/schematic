@@ -1,0 +1,588 @@
+{
+  "viewBoxWidth": 1600,
+  "viewBoxHeight": 1100,
+  "lines": [
+    {
+      "id": "8X",
+      "name": "Lake Louise Express",
+      "color": "#007A53",
+      "points": [
+        {
+          "x": 100,
+          "y": 320
+        },
+        {
+          "x": 100,
+          "y": 160
+        },
+        {
+          "x": 360,
+          "y": 160
+        },
+        {
+          "x": 600,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Canmore/Banff Regional",
+      "color": "#EE2737",
+      "points": [
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 1100,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Sulphur Mountain",
+      "color": "#336611",
+      "points": [
+        {
+          "x": 600,
+          "y": 400
+        },
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 600,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Tunnel Mountain",
+      "color": "#00AFD7",
+      "points": [
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Fenlands/Banff Centre",
+      "color": "#F7ACBA",
+      "points": [
+        {
+          "x": 340,
+          "y": 500
+        },
+        {
+          "x": 440,
+          "y": 500
+        },
+        {
+          "x": 540,
+          "y": 600
+        },
+        {
+          "x": 600,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 900
+        }
+      ]
+    },
+    {
+      "id": "5C",
+      "name": "Cougar Creek",
+      "color": "#B288B9",
+      "points": [
+        {
+          "x": 1100,
+          "y": 400
+        },
+        {
+          "x": 1200,
+          "y": 400
+        },
+        {
+          "x": 1400,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "5T",
+      "name": "Three Sisters",
+      "color": "#4C12A1",
+      "points": [
+        {
+          "x": 1100,
+          "y": 500
+        },
+        {
+          "x": 1300,
+          "y": 500
+        },
+        {
+          "x": 1400,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Palliser",
+      "color": "#E87722",
+      "points": [
+        {
+          "x": 1100,
+          "y": 400
+        },
+        {
+          "x": 1000,
+          "y": 300
+        },
+        {
+          "x": 1000,
+          "y": 240
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "louise",
+      "name": "Lake Louise Lakeshore",
+      "x": 100,
+      "y": 320,
+      "lines": ["8X"],
+      "label": {
+        "x": 135,
+        "y": 320,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "village",
+      "name": "Lake Louise Village South",
+      "x": 100,
+      "y": 160,
+      "lines": ["8X"],
+      "label": {
+        "x": 100,
+        "y": 120,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "banff",
+      "name": "Banff High School Transit Hub",
+      "x": 600,
+      "y": 400,
+      "lines": ["8X", "3", "1"],
+      "label": {
+        "x": 565,
+        "y": 440,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "elk",
+      "name": "Elk Street Transit Hub",
+      "x": 600,
+      "y": 600,
+      "lines": ["1", "2", "7"],
+      "label": {
+        "x": 565,
+        "y": 640,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "gondola",
+      "name": "Banff Gondola",
+      "x": 600,
+      "y": 900,
+      "lines": ["1"],
+      "label": {
+        "x": 600,
+        "y": 940,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "tunnel",
+      "name": "Tunnel Mountain",
+      "x": 900,
+      "y": 600,
+      "lines": ["2"],
+      "label": {
+        "x": 940,
+        "y": 600,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fenlands",
+      "name": "Fenlands Recreation Centre",
+      "x": 340,
+      "y": 500,
+      "lines": ["7"],
+      "label": {
+        "x": 305,
+        "y": 500,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "centre",
+      "name": "Banff Centre",
+      "x": 900,
+      "y": 900,
+      "lines": ["7"],
+      "label": {
+        "x": 935,
+        "y": 900,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "canmore",
+      "name": "Canmore 9th Street",
+      "x": 1100,
+      "y": 400,
+      "lines": ["3", "5C", "12"],
+      "label": {
+        "x": 1125,
+        "y": 435,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cougar",
+      "name": "Glacier Drive South",
+      "x": 1400,
+      "y": 200,
+      "lines": ["5C"],
+      "label": {
+        "x": 1400,
+        "y": 160,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "three",
+      "name": "Dyrgas Gate - Market Bistro",
+      "x": 1400,
+      "y": 600,
+      "lines": ["5T"],
+      "label": {
+        "x": 1400,
+        "y": 640,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "palliser",
+      "name": "Palliser Lane",
+      "x": 1000,
+      "y": 240,
+      "lines": ["12"],
+      "label": {
+        "x": 1000,
+        "y": 200,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "eighth-avenue-west",
+      "name": "8th Avenue West",
+      "x": 1100,
+      "y": 500,
+      "lines": ["5T"],
+      "label": {
+        "x": 1065,
+        "y": 500,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hot-springs",
+      "name": "Banff Upper Hot Springs",
+      "x": 600,
+      "y": 780,
+      "lines": ["1"],
+      "label": {
+        "x": 575,
+        "y": 780,
+        "anchor": "end"
+      }
+    }
+  ],
+  "sequences": {
+    "8X": ["louise", "village", "banff"],
+    "3": ["banff", "canmore"],
+    "1": ["banff", "elk", "hot-springs", "gondola"],
+    "2": ["elk", "tunnel"],
+    "7": ["fenlands", "elk", "centre"],
+    "5C": ["canmore", "cougar"],
+    "5T": ["eighth-avenue-west", "three"],
+    "12": ["canmore", "palliser"]
+  },
+  "stationAliases": {
+    "Lake Louise Lakeshore": "louise",
+    "Lake Louise Village South": "village",
+    "Banff High School Transit Hub": "banff",
+    "Elk Street Transit Hub": "elk",
+    "Banff Gondola": "gondola",
+    "Tunnel Mountain Village 1": "tunnel",
+    "Fenlands Recreation Centre": "fenlands",
+    "Banff Centre": "centre",
+    "Canmore 9th Street": "canmore",
+    "Glacier Drive South": "cougar",
+    "Dyrgas Gate - Market Bistro": "three",
+    "8th Avenue West": "eighth-avenue-west",
+    "Palliser Lane": "palliser",
+    "Banff Upper Hot Springs": "hot-springs",
+    "Hidden Ridge Resort": "tunnel",
+    "Tunnel Mountain Village II Campground": "tunnel"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1600,
+      "minY": 0,
+      "maxY": 1100
+    },
+    "minZoom": 0.6,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -116.22,
+    "refLonEast": -115.31,
+    "refXWest": 100,
+    "refXEast": 1400,
+    "refLatNorth": 51.43,
+    "refLatSouth": 51.05,
+    "refYNorth": 160,
+    "refYSouth": 900
+  },
+  "stationIndex": [
+    {
+      "id": "2483589",
+      "schematicId": "centre",
+      "name": "Banff Centre",
+      "lat": 51.1708705201345,
+      "lon": -115.560949489933,
+      "lines": ["7"],
+      "platformIds": ["2483589"],
+      "departureRouteIds": ["7"]
+    },
+    {
+      "id": "2434984",
+      "schematicId": "gondola",
+      "name": "Banff Gondola",
+      "lat": 51.1480376690846,
+      "lon": -115.555997068994,
+      "lines": ["1"],
+      "platformIds": ["2434984"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "2428685",
+      "schematicId": "banff",
+      "name": "Banff High School Transit Hub",
+      "lat": 51.179578,
+      "lon": -115.569821,
+      "lines": ["1", "3", "8X"],
+      "platformIds": ["2428685"],
+      "departureRouteIds": ["1", "2", "3", "8X"]
+    },
+    {
+      "id": "2428659",
+      "schematicId": "canmore",
+      "name": "Canmore 9th Street",
+      "lat": 51.0899925,
+      "lon": -115.3615199,
+      "lines": ["12", "3", "5C"],
+      "platformIds": ["2428659"],
+      "departureRouteIds": ["12", "3", "5C"]
+    },
+    {
+      "id": "2428637",
+      "schematicId": "three",
+      "name": "Dyrgas Gate - Market Bistro",
+      "lat": 51.055235,
+      "lon": -115.322035,
+      "lines": ["5T"],
+      "platformIds": ["2428637"],
+      "departureRouteIds": ["5T"]
+    },
+    {
+      "id": "2483904",
+      "schematicId": "elk",
+      "name": "Elk Street Transit Hub",
+      "lat": 51.1791579096804,
+      "lon": -115.570637502334,
+      "lines": ["1", "2", "7"],
+      "platformIds": ["2483904"],
+      "departureRouteIds": ["1", "2", "7"]
+    },
+    {
+      "id": "37",
+      "schematicId": "fenlands",
+      "name": "Fenlands Recreation Centre",
+      "lat": 51.1825818788634,
+      "lon": -115.579098985681,
+      "lines": ["7"],
+      "platformIds": ["37"],
+      "departureRouteIds": ["7"]
+    },
+    {
+      "id": "2428655",
+      "schematicId": "cougar",
+      "name": "Glacier Drive South",
+      "lat": 51.0787562656738,
+      "lon": -115.321794542508,
+      "lines": ["5C"],
+      "platformIds": ["2428655"],
+      "departureRouteIds": ["5C"]
+    },
+    {
+      "id": "2483623",
+      "schematicId": "louise",
+      "name": "Lake Louise Lakeshore",
+      "lat": 51.4165642165313,
+      "lon": -116.214153600879,
+      "lines": ["8X"],
+      "platformIds": ["2483623"],
+      "departureRouteIds": ["8X"]
+    },
+    {
+      "id": "2512553",
+      "schematicId": "village",
+      "name": "Lake Louise Village South",
+      "lat": 51.4250912122285,
+      "lon": -116.177635153044,
+      "lines": ["8X"],
+      "platformIds": ["2512553"],
+      "departureRouteIds": ["8X"]
+    },
+    {
+      "id": "2435111",
+      "schematicId": "tunnel",
+      "name": "Tunnel Mountain",
+      "lat": 51.1877163052673,
+      "lon": -115.545560690949,
+      "lines": ["2"],
+      "platformIds": ["2428677", "2428678"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "26",
+      "schematicId": "eighth-avenue-west",
+      "name": "8th Avenue West",
+      "lat": 51.0901669463286,
+      "lon": -115.363492878599,
+      "lines": ["5T"],
+      "platformIds": ["26"],
+      "departureRouteIds": ["5T"]
+    },
+    {
+      "id": "3478356",
+      "schematicId": "palliser",
+      "name": "Palliser Lane",
+      "lat": 51.0980383918704,
+      "lon": -115.352910110798,
+      "lines": ["12"],
+      "platformIds": ["3478356"],
+      "departureRouteIds": ["12"]
+    },
+    {
+      "id": "2428692",
+      "schematicId": "hot-springs",
+      "name": "Banff Upper Hot Springs",
+      "lat": 51.1494248831425,
+      "lon": -115.559042940928,
+      "lines": ["1"],
+      "platformIds": ["2428692"],
+      "departureRouteIds": ["1"]
+    }
+  ],
+  "badges": [
+    {
+      "line": "8X",
+      "num": "8X",
+      "x": 412.37,
+      "y": 257.63,
+      "color": "#007A53",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 820,
+      "y": 432,
+      "color": "#EE2737",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1",
+      "num": "1",
+      "x": 632,
+      "y": 720,
+      "color": "#336611",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 760,
+      "y": 632,
+      "color": "#00AFD7",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7",
+      "num": "7",
+      "x": 777.63,
+      "y": 732.37,
+      "color": "#F7ACBA",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5C",
+      "num": "5C",
+      "x": 1257.37,
+      "y": 297.37,
+      "color": "#B288B9",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5T",
+      "num": "5T",
+      "x": 1270,
+      "y": 532,
+      "color": "#4C12A1",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "12",
+      "num": "12",
+      "x": 991.51,
+      "y": 336.77,
+      "color": "#E87722",
+      "textColor": "#000000"
+    }
+  ]
+}

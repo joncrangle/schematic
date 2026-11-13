@@ -1,0 +1,306 @@
+{
+  "id": "saskatoon-transit",
+  "name": "Saskatoon Transit",
+  "serviceArea": "Saskatoon",
+  "shortName": "Saskatoon",
+  "locale": "en-CA",
+  "timezone": "America/Regina",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "sk"
+  },
+  "bounds": [
+    {
+      "minLat": 52.074,
+      "maxLat": 52.207,
+      "minLon": -106.766,
+      "maxLon": -106.527
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Saskatoon Transit / City of Saskatoon open data",
+    "url": "https://www.saskatoon.ca/open-data",
+    "license": "No explicit licence name was found for the City of Saskatoon open data used here. Schedules and live data are attributed to the operator.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "City Centre",
+      "lat": 52.13003,
+      "lon": -106.6618
+    },
+    {
+      "name": "Place Riel",
+      "lat": 52.13059,
+      "lon": -106.636829
+    },
+    {
+      "name": "Centre Mall",
+      "lat": 52.11223,
+      "lon": -106.598778
+    },
+    {
+      "name": "Confederation",
+      "lat": 52.1339,
+      "lon": -106.7215
+    }
+  ],
+  "popularSurfaceRoutes": ["08", "19", "60", "30"],
+  "routeShortNames": {
+    "01": "1",
+    "02": "2",
+    "03": "3",
+    "04": "4",
+    "05": "5",
+    "06": "6",
+    "07": "7",
+    "08": "8",
+    "09": "9"
+  },
+  "staticTopology": {
+    "source": "seed",
+    "routeIdField": "short_name",
+    "feeds": [
+      {
+        "name": "Saskatoon Transit",
+        "url": "https://apps5.saskatoon.ca/data/gtfs/google_transit.zip",
+        "cacheFileName": "saskatoon-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#000080",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://saskprdtmgtfs.sasktrpcloud.com/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://saskprdtmgtfs.sasktrpcloud.com/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://saskprdtmgtfs.sasktrpcloud.com/TMGTFSRealTimeWebService/Alert/Alerts.pb",
+      "language": "en",
+      "accept": "*/*"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["08", "10", "19", "27", "30", "60"],
+    "routeLineMap": {
+      "14799": "01",
+      "14800": "02",
+      "14921": "03",
+      "14802": "04",
+      "14922": "05",
+      "14804": "06",
+      "14805": "07",
+      "14806": "08",
+      "14923": "09",
+      "14808": "10",
+      "14924": "11",
+      "14810": "12",
+      "14858": "1225",
+      "14811": "14",
+      "14925": "15",
+      "14813": "16",
+      "14814": "17",
+      "14815": "18",
+      "14816": "19",
+      "14817": "22",
+      "14818": "25",
+      "14819": "26",
+      "14820": "27",
+      "14821": "29",
+      "14926": "30",
+      "14823": "305",
+      "14825": "311",
+      "14826": "315",
+      "14827": "325",
+      "14828": "333",
+      "14829": "336",
+      "14830": "339",
+      "14831": "340",
+      "14832": "35",
+      "14833": "352",
+      "14834": "358",
+      "14835": "43",
+      "14836": "44",
+      "14837": "45",
+      "14838": "46",
+      "14839": "50",
+      "14840": "502",
+      "14841": "514",
+      "14842": "529",
+      "14843": "543",
+      "14844": "55",
+      "14845": "60",
+      "14846": "61",
+      "14847": "63",
+      "14927": "64",
+      "14849": "65",
+      "14850": "83",
+      "14851": "84",
+      "14852": "86",
+      "14853": "87"
+    },
+    "titleDateTimezone": "America/Regina",
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      },
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["detour", "detoured"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ],
+    "routeNames": {
+      "01": ["Route 01"],
+      "02": ["Route 02"],
+      "03": ["Route 03"],
+      "04": ["Route 04"],
+      "05": ["Route 05"],
+      "06": ["Route 06"],
+      "07": ["Route 07"],
+      "08": ["Route 08"],
+      "09": ["Route 09"],
+      "10": ["Route 10"],
+      "11": ["Route 11"],
+      "12": ["Route 12"],
+      "14": ["Route 14"],
+      "15": ["Route 15"],
+      "16": ["Route 16"],
+      "17": ["Route 17"],
+      "18": ["Route 18"],
+      "19": ["Route 19"],
+      "22": ["Route 22"],
+      "25": ["Route 25"],
+      "26": ["Route 26"],
+      "27": ["Route 27"],
+      "29": ["Route 29"],
+      "30": ["Route 30"],
+      "35": ["Route 35"],
+      "43": ["Route 43"],
+      "44": ["Route 44"],
+      "45": ["Route 45"],
+      "46": ["Route 46"],
+      "50": ["Route 50"],
+      "55": ["Route 55"],
+      "60": ["Route 60"],
+      "61": ["Route 61"],
+      "63": ["Route 63"],
+      "64": ["Route 64"],
+      "65": ["Route 65"],
+      "83": ["Route 83"],
+      "84": ["Route 84"],
+      "86": ["Route 86"],
+      "87": ["Route 87"],
+      "305": ["Route 305"],
+      "311": ["Route 311"],
+      "315": ["Route 315"],
+      "325": ["Route 325"],
+      "333": ["Route 333"],
+      "336": ["Route 336"],
+      "339": ["Route 339"],
+      "340": ["Route 340"],
+      "352": ["Route 352"],
+      "358": ["Route 358"],
+      "502": ["Route 502"],
+      "514": ["Route 514"],
+      "529": ["Route 529"],
+      "543": ["Route 543"],
+      "1225": ["Route 1225"]
+    },
+    "routeIdNormalization": {
+      "aliases": {
+        "14799": "01",
+        "14800": "02",
+        "14921": "03",
+        "14802": "04",
+        "14922": "05",
+        "14804": "06",
+        "14805": "07",
+        "14806": "08",
+        "14923": "09",
+        "14808": "10",
+        "14924": "11",
+        "14810": "12",
+        "14858": "1225",
+        "14811": "14",
+        "14925": "15",
+        "14813": "16",
+        "14814": "17",
+        "14815": "18",
+        "14816": "19",
+        "14817": "22",
+        "14818": "25",
+        "14819": "26",
+        "14820": "27",
+        "14821": "29",
+        "14926": "30",
+        "14823": "305",
+        "14825": "311",
+        "14826": "315",
+        "14827": "325",
+        "14828": "333",
+        "14829": "336",
+        "14830": "339",
+        "14831": "340",
+        "14832": "35",
+        "14833": "352",
+        "14834": "358",
+        "14835": "43",
+        "14836": "44",
+        "14837": "45",
+        "14838": "46",
+        "14839": "50",
+        "14840": "502",
+        "14841": "514",
+        "14842": "529",
+        "14843": "543",
+        "14844": "55",
+        "14845": "60",
+        "14846": "61",
+        "14847": "63",
+        "14927": "64",
+        "14849": "65",
+        "14850": "83",
+        "14851": "84",
+        "14852": "86",
+        "14853": "87"
+      }
+    }
+  }
+}

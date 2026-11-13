@@ -1,0 +1,641 @@
+{
+  "viewBoxWidth": 1750,
+  "viewBoxHeight": 1500,
+  "lines": [
+    {
+      "id": "1-KAM",
+      "name": "Tranquille",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 850,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 700
+        },
+        {
+          "x": 550,
+          "y": 600
+        },
+        {
+          "x": 550,
+          "y": 450
+        },
+        {
+          "x": 180,
+          "y": 450
+        },
+        {
+          "x": 180,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "2-KAM",
+      "name": "Parkcrest",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 850,
+          "y": 700
+        },
+        {
+          "x": 610,
+          "y": 700
+        },
+        {
+          "x": 450,
+          "y": 540
+        },
+        {
+          "x": 450,
+          "y": 250
+        },
+        {
+          "x": 230,
+          "y": 250
+        },
+        {
+          "x": 180,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "3-KAM",
+      "name": "Westsyde",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 850,
+          "y": 700
+        },
+        {
+          "x": 690,
+          "y": 700
+        },
+        {
+          "x": 550,
+          "y": 560
+        },
+        {
+          "x": 550,
+          "y": 450
+        },
+        {
+          "x": 550,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "4-KAM",
+      "name": "Pacific Way",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 550,
+          "y": 850
+        },
+        {
+          "x": 550,
+          "y": 1050
+        },
+        {
+          "x": 400,
+          "y": 1200
+        },
+        {
+          "x": 400,
+          "y": 1350
+        }
+      ]
+    },
+    {
+      "id": "5-KAM",
+      "name": "Pineview",
+      "color": "#FCAF17",
+      "points": [
+        {
+          "x": 550,
+          "y": 850
+        },
+        {
+          "x": 510,
+          "y": 890
+        },
+        {
+          "x": 510,
+          "y": 1010
+        },
+        {
+          "x": 550,
+          "y": 1050
+        },
+        {
+          "x": 350,
+          "y": 1050
+        },
+        {
+          "x": 220,
+          "y": 1180
+        }
+      ]
+    },
+    {
+      "id": "7-KAM",
+      "name": "Aberdeen",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 850,
+          "y": 700
+        },
+        {
+          "x": 700,
+          "y": 850
+        },
+        {
+          "x": 550,
+          "y": 850
+        },
+        {
+          "x": 570,
+          "y": 870
+        },
+        {
+          "x": 570,
+          "y": 1030
+        },
+        {
+          "x": 550,
+          "y": 1050
+        },
+        {
+          "x": 680,
+          "y": 1180
+        },
+        {
+          "x": 680,
+          "y": 1350
+        }
+      ]
+    },
+    {
+      "id": "10-KAM",
+      "name": "North Shore TRU Express",
+      "color": "#49176B",
+      "points": [
+        {
+          "x": 550,
+          "y": 450
+        },
+        {
+          "x": 550,
+          "y": 650
+        },
+        {
+          "x": 350,
+          "y": 850
+        },
+        {
+          "x": 550,
+          "y": 850
+        }
+      ]
+    },
+    {
+      "id": "17-KAM",
+      "name": "Dallas",
+      "color": "#E270AB",
+      "points": [
+        {
+          "x": 850,
+          "y": 700
+        },
+        {
+          "x": 1050,
+          "y": 700
+        },
+        {
+          "x": 1150,
+          "y": 800
+        },
+        {
+          "x": 1550,
+          "y": 800
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "lansdowne",
+      "name": "Lansdowne Exchange",
+      "x": 850,
+      "y": 700,
+      "lines": ["1-KAM", "2-KAM", "3-KAM", "7-KAM", "17-KAM"],
+      "label": {
+        "x": 885,
+        "y": 665,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "north-shore",
+      "name": "North Shore Exchange",
+      "x": 550,
+      "y": 450,
+      "lines": ["1-KAM", "3-KAM", "10-KAM"],
+      "label": {
+        "x": 580,
+        "y": 445,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "crestline-fleetwood",
+      "name": "Crestline at Fleetwood",
+      "x": 180,
+      "y": 300,
+      "lines": ["1-KAM", "2-KAM"],
+      "label": {
+        "x": 210,
+        "y": 290,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "westsyde",
+      "name": "Harrington at Overlander",
+      "x": 550,
+      "y": 150,
+      "lines": ["3-KAM"],
+      "label": {
+        "x": 575,
+        "y": 150,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tru",
+      "name": "TRU Exchange",
+      "x": 550,
+      "y": 850,
+      "lines": ["4-KAM", "5-KAM", "7-KAM", "10-KAM"],
+      "label": {
+        "x": 580,
+        "y": 890,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "aberdeen-mall",
+      "name": "Aberdeen Mall",
+      "x": 550,
+      "y": 1050,
+      "lines": ["4-KAM", "5-KAM", "7-KAM"],
+      "label": {
+        "x": 580,
+        "y": 1060,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "pineview",
+      "name": "Hugh Allan at Lodgepole",
+      "x": 220,
+      "y": 1180,
+      "lines": ["5-KAM"],
+      "label": {
+        "x": 185,
+        "y": 1215,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "pacific-aberdeen",
+      "name": "Pacific Way at Aberdeen",
+      "x": 400,
+      "y": 1350,
+      "lines": ["4-KAM"],
+      "label": {
+        "x": 375,
+        "y": 1385,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "laurier-aberdeen",
+      "name": "Laurier at Sifton",
+      "x": 680,
+      "y": 1350,
+      "lines": ["7-KAM"],
+      "label": {
+        "x": 705,
+        "y": 1355,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "valleyview-square",
+      "name": "Valleyview Square",
+      "x": 1050,
+      "y": 700,
+      "lines": ["17-KAM"],
+      "label": {
+        "x": 1075,
+        "y": 675,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "wildlife-park",
+      "name": "BC Wildlife Park",
+      "x": 1550,
+      "y": 800,
+      "lines": ["17-KAM"],
+      "label": {
+        "x": 1545,
+        "y": 835,
+        "anchor": "end"
+      },
+      "terminal": true
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 1700,
+      "minY": 60,
+      "maxY": 1480
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -120.42115,
+    "refLonEast": -120.07874,
+    "refXWest": 180,
+    "refXEast": 1550,
+    "refLatNorth": 50.77544,
+    "refLatSouth": 50.63784,
+    "refYNorth": 150,
+    "refYSouth": 1350
+  },
+  "sequences": {
+    "1-KAM": ["lansdowne", "north-shore", "crestline-fleetwood"],
+    "2-KAM": ["lansdowne", "crestline-fleetwood"],
+    "3-KAM": ["lansdowne", "north-shore", "westsyde"],
+    "4-KAM": ["tru", "aberdeen-mall", "pacific-aberdeen"],
+    "5-KAM": ["tru", "aberdeen-mall", "pineview"],
+    "7-KAM": ["lansdowne", "tru", "aberdeen-mall", "laurier-aberdeen"],
+    "10-KAM": ["north-shore", "tru"],
+    "17-KAM": ["lansdowne", "valleyview-square", "wildlife-park"]
+  },
+  "stationAliases": {
+    "code:104577": "lansdowne",
+    "code:104618": "north-shore",
+    "code:104318": "lansdowne",
+    "code:104654": "lansdowne",
+    "code:104614": "north-shore",
+    "code:104504": "lansdowne",
+    "code:104200": "lansdowne",
+    "code:104453": "tru",
+    "code:104405": "tru",
+    "code:104251": "north-shore",
+    "code:104265": "lansdowne",
+    "code:104479": "lansdowne",
+    "code:104381": "north-shore",
+    "code:104512": "tru",
+    "code:104610": "tru",
+    "code:104389": "lansdowne",
+    "code:104578": "tru",
+    "code:104210": "north-shore",
+    "code:104326": "north-shore",
+    "code:104432": "aberdeen-mall",
+    "code:104409": "aberdeen-mall",
+    "code:104437": "tru",
+    "code:104227": "crestline-fleetwood",
+    "code:104291": "crestline-fleetwood",
+    "code:104462": "pineview",
+    "code:104417": "pacific-aberdeen",
+    "code:151053": "pacific-aberdeen",
+    "code:104668": "valleyview-square",
+    "code:104693": "valleyview-square",
+    "code:104747": "wildlife-park",
+    "code:151054": "aberdeen-mall",
+    "code:104353": "westsyde",
+    "code:104534": "laurier-aberdeen"
+  },
+  "badges": [
+    {
+      "line": "1-KAM",
+      "num": "1",
+      "x": 320,
+      "y": 482,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-KAM",
+      "num": "2",
+      "x": 330,
+      "y": 218,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-KAM",
+      "num": "3",
+      "x": 518,
+      "y": 250,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-KAM",
+      "num": "4",
+      "x": 368,
+      "y": 1280,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5-KAM",
+      "num": "5",
+      "x": 370,
+      "y": 1018,
+      "color": "#FCAF17",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7-KAM",
+      "num": "7",
+      "x": 712,
+      "y": 1220,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "10-KAM",
+      "num": "10",
+      "x": 397.37,
+      "y": 757.37,
+      "color": "#49176B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "17-KAM",
+      "num": "17",
+      "x": 1350,
+      "y": 768,
+      "color": "#E270AB",
+      "textColor": "#000000"
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "aberdeen-mall",
+      "schematicId": "aberdeen-mall",
+      "name": "Aberdeen Mall",
+      "lat": 50.65534,
+      "lon": -120.37237,
+      "lines": ["4-KAM", "5-KAM", "7-KAM"],
+      "platformIds": ["104409", "104432", "151054"],
+      "departureRouteIds": ["4-KAM", "5-KAM", "7-KAM", "70-KAM", "73-KAM", "74-KAM", "77-KAM"]
+    },
+    {
+      "id": "104747",
+      "schematicId": "wildlife-park",
+      "name": "BC Wildlife Park",
+      "lat": 50.65461,
+      "lon": -120.07874,
+      "lines": ["17-KAM"],
+      "platformIds": ["104747"],
+      "departureRouteIds": ["17-KAM"]
+    },
+    {
+      "id": "crestline-fleetwood",
+      "schematicId": "crestline-fleetwood",
+      "name": "Crestline at Fleetwood",
+      "lat": 50.70585,
+      "lon": -120.42115,
+      "lines": ["1-KAM", "2-KAM"],
+      "platformIds": ["104227", "104291"],
+      "departureRouteIds": ["1-KAM", "2-KAM"]
+    },
+    {
+      "id": "104352",
+      "schematicId": "westsyde",
+      "name": "Harrington at Westsyde",
+      "lat": 50.77544,
+      "lon": -120.3328,
+      "lines": ["3-KAM"],
+      "platformIds": ["104353"],
+      "departureRouteIds": ["14-KAM", "3-KAM", "81-KAM"]
+    },
+    {
+      "id": "104462",
+      "schematicId": "pineview",
+      "name": "Hugh Allan at Lodgepole",
+      "lat": 50.65372,
+      "lon": -120.40195,
+      "lines": ["5-KAM"],
+      "platformIds": ["104462"],
+      "departureRouteIds": ["5-KAM"]
+    },
+    {
+      "id": "lansdowne",
+      "schematicId": "lansdowne",
+      "name": "Lansdowne Exchange",
+      "lat": 50.67676,
+      "lon": -120.3269,
+      "lines": ["1-KAM", "17-KAM", "2-KAM", "3-KAM", "7-KAM"],
+      "platformIds": [
+        "104200",
+        "104265",
+        "104318",
+        "104389",
+        "104479",
+        "104504",
+        "104577",
+        "104654"
+      ],
+      "departureRouteIds": [
+        "1-KAM",
+        "16-KAM",
+        "17-KAM",
+        "18-KAM",
+        "2-KAM",
+        "3-KAM",
+        "6-KAM",
+        "7-KAM",
+        "76-KAM",
+        "78-KAM",
+        "9-KAM"
+      ]
+    },
+    {
+      "id": "104535",
+      "schematicId": "laurier-aberdeen",
+      "name": "Laurier at Aberdeen",
+      "lat": 50.63784,
+      "lon": -120.34965,
+      "lines": ["7-KAM"],
+      "platformIds": ["104534"],
+      "departureRouteIds": ["7-KAM", "73-KAM", "79-KAM"]
+    },
+    {
+      "id": "north-shore",
+      "schematicId": "north-shore",
+      "name": "North Shore Exchange",
+      "lat": 50.69788,
+      "lon": -120.35954,
+      "lines": ["1-KAM", "10-KAM", "3-KAM"],
+      "platformIds": ["104210", "104251", "104326", "104381", "104614", "104618"],
+      "departureRouteIds": ["1-KAM", "10-KAM", "13-KAM", "14-KAM", "2-KAM", "3-KAM", "81-KAM"]
+    },
+    {
+      "id": "pacific-aberdeen",
+      "schematicId": "pacific-aberdeen",
+      "name": "Pacific Way at Aberdeen",
+      "lat": 50.63783,
+      "lon": -120.37045,
+      "lines": ["4-KAM"],
+      "platformIds": ["104417", "151053"],
+      "departureRouteIds": ["4-KAM", "70-KAM", "71-KAM", "72-KAM", "74-KAM", "77-KAM", "79-KAM"]
+    },
+    {
+      "id": "tru",
+      "schematicId": "tru",
+      "name": "TRU Exchange",
+      "lat": 50.67084,
+      "lon": -120.36846,
+      "lines": ["10-KAM", "4-KAM", "5-KAM", "7-KAM"],
+      "platformIds": ["104405", "104437", "104453", "104512", "104578", "104610"],
+      "departureRouteIds": ["10-KAM", "16-KAM", "4-KAM", "5-KAM", "7-KAM", "9-KAM"]
+    },
+    {
+      "id": "valleyview-square",
+      "schematicId": "valleyview-square",
+      "name": "Valleyview Square",
+      "lat": 50.67873,
+      "lon": -120.26183,
+      "lines": ["17-KAM"],
+      "platformIds": ["104668", "104693"],
+      "departureRouteIds": ["16-KAM", "17-KAM"]
+    }
+  ]
+}

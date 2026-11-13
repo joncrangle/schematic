@@ -1,0 +1,497 @@
+{
+  "viewBoxWidth": 1000,
+  "viewBoxHeight": 880,
+  "lines": [
+    {
+      "id": "5-PRG",
+      "name": "Victoria/5th",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 400,
+          "y": 560
+        },
+        {
+          "x": 600,
+          "y": 560
+        },
+        {
+          "x": 720,
+          "y": 440
+        },
+        {
+          "x": 720,
+          "y": 410
+        }
+      ]
+    },
+    {
+      "id": "10-PRG",
+      "name": "Downtown/Spruceland",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 720,
+          "y": 410
+        },
+        {
+          "x": 670,
+          "y": 360
+        },
+        {
+          "x": 400,
+          "y": 360
+        }
+      ]
+    },
+    {
+      "id": "15-PRG",
+      "name": "UNBC/Downtown",
+      "color": "#00AA47",
+      "points": [
+        {
+          "x": 200.0,
+          "y": 526.0
+        },
+        {
+          "x": 262.49,
+          "y": 526.0
+        },
+        {
+          "x": 322.49,
+          "y": 466.0
+        },
+        {
+          "x": 672.49,
+          "y": 466.0
+        },
+        {
+          "x": 724.24,
+          "y": 414.24
+        }
+      ]
+    },
+    {
+      "id": "88-PRG",
+      "name": "Westgate",
+      "color": "#0073AE",
+      "points": [
+        {
+          "x": 408.0,
+          "y": 100.0
+        },
+        {
+          "x": 408.0,
+          "y": 736.69
+        },
+        {
+          "x": 479.31,
+          "y": 808.0
+        },
+        {
+          "x": 340.0,
+          "y": 808.0
+        }
+      ]
+    },
+    {
+      "id": "89-PRG",
+      "name": "Hart",
+      "color": "#F49A5D",
+      "points": [
+        {
+          "x": 330.0,
+          "y": 800.0
+        },
+        {
+          "x": 330.0,
+          "y": 715.86
+        },
+        {
+          "x": 390.0,
+          "y": 655.86
+        },
+        {
+          "x": 390.0,
+          "y": 100.0
+        }
+      ]
+    },
+    {
+      "id": "161-PRG",
+      "name": "Prince George / Burns Lake",
+      "color": "#000000",
+      "points": [
+        {
+          "x": 718.59,
+          "y": 408.59
+        },
+        {
+          "x": 669.17,
+          "y": 458.0
+        },
+        {
+          "x": 398.0,
+          "y": 458.0
+        },
+        {
+          "x": 398.0,
+          "y": 659.17
+        },
+        {
+          "x": 338.0,
+          "y": 719.17
+        },
+        {
+          "x": 338.0,
+          "y": 798.0
+        },
+        {
+          "x": 60.0,
+          "y": 798.0
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "hart",
+      "name": "Hart Exchange",
+      "x": 400,
+      "y": 100,
+      "lines": ["88-PRG", "89-PRG"],
+      "label": {
+        "x": 431.0,
+        "y": 100,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "spruceland",
+      "name": "Spruceland Exchange",
+      "x": 400,
+      "y": 360,
+      "lines": ["10-PRG", "88-PRG", "89-PRG"],
+      "label": {
+        "x": 369.0,
+        "y": 360,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "nicholson",
+      "name": "Nicholson Exchange",
+      "x": 400,
+      "y": 460,
+      "lines": ["15-PRG", "88-PRG", "89-PRG", "161-PRG"],
+      "label": {
+        "x": 374.0,
+        "y": 428.0,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "pine-centre",
+      "name": "Pine Centre Exchange",
+      "x": 400,
+      "y": 560,
+      "lines": ["5-PRG", "88-PRG", "89-PRG", "161-PRG"],
+      "label": {
+        "x": 369.0,
+        "y": 560,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "westgate",
+      "name": "Westgate Exchange",
+      "x": 340,
+      "y": 800,
+      "lines": ["88-PRG", "89-PRG", "161-PRG"],
+      "label": {
+        "x": 340,
+        "y": 836.0,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "college-heights",
+      "name": "College Heights",
+      "x": 479.31,
+      "y": 808.0,
+      "lines": ["88-PRG"],
+      "label": {
+        "x": 504.31,
+        "y": 808.0,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "unbc",
+      "name": "UNBC Exchange",
+      "x": 200.0,
+      "y": 526.0,
+      "lines": ["15-PRG"],
+      "label": {
+        "x": 200.0,
+        "y": 496.0,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown Exchange",
+      "x": 720,
+      "y": 410,
+      "lines": ["5-PRG", "10-PRG", "15-PRG", "161-PRG"],
+      "label": {
+        "x": 751.0,
+        "y": 410,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "vanderhoof",
+      "name": "Vanderhoof",
+      "x": 200.0,
+      "y": 798.0,
+      "lines": ["161-PRG"],
+      "label": {
+        "x": 200.0,
+        "y": 828.0,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "burns-lake",
+      "name": "Burns Lake",
+      "x": 60.0,
+      "y": 798.0,
+      "lines": ["161-PRG"],
+      "label": {
+        "x": 60.0,
+        "y": 828.0,
+        "anchor": "middle"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "88-PRG",
+      "num": "88",
+      "x": 440,
+      "y": 230,
+      "color": "#0073AE",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "89-PRG",
+      "num": "89",
+      "x": 358,
+      "y": 230,
+      "color": "#F49A5D",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5-PRG",
+      "num": "5",
+      "x": 500,
+      "y": 592,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "10-PRG",
+      "num": "10",
+      "x": 540,
+      "y": 328,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "15-PRG",
+      "num": "15",
+      "x": 540,
+      "y": 498,
+      "color": "#00AA47",
+      "textColor": "#000000"
+    },
+    {
+      "line": "161-PRG",
+      "num": "161",
+      "x": 270,
+      "y": 766,
+      "color": "#000000",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 990,
+      "minY": 60,
+      "maxY": 860
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -122.81364,
+    "refLonEast": -122.74733,
+    "refXWest": 200,
+    "refXEast": 720,
+    "refLatNorth": 53.98886,
+    "refLatSouth": 53.86515,
+    "refYNorth": 100,
+    "refYSouth": 800
+  },
+  "sequences": {
+    "5-PRG": ["downtown", "pine-centre"],
+    "10-PRG": ["downtown", "spruceland"],
+    "15-PRG": ["unbc", "nicholson", "downtown"],
+    "88-PRG": ["hart", "spruceland", "nicholson", "pine-centre", "college-heights", "westgate"],
+    "89-PRG": ["westgate", "pine-centre", "nicholson", "spruceland", "hart"],
+    "161-PRG": ["downtown", "nicholson", "pine-centre", "westgate", "vanderhoof", "burns-lake"]
+  },
+  "stationAliases": {
+    "Downtown Exch Bay A": "downtown",
+    "Downtown Exch Bay B": "downtown",
+    "Downtown Exch Bay C": "downtown",
+    "Nicholson Exch Bay A": "nicholson",
+    "Nicholson Exch Bay B": "nicholson",
+    "Nicholson Exch Bay C": "nicholson",
+    "Nicholson Exch Bay D": "nicholson",
+    "Pine Centre Exch Bay A": "pine-centre",
+    "Pine Centre Exch Bay B": "pine-centre",
+    "Spruceland Exch Bay B": "spruceland",
+    "Spruceland Exch Bay C": "spruceland",
+    "Spruceland Exch Bay D": "spruceland",
+    "UNBC Exch Bay A": "unbc",
+    "Westgate Exch Bay A": "westgate",
+    "Westgate Exch Bay B": "westgate",
+    "Hart Exchange Bay A": "hart",
+    "Domano Blvd at College Heights Secondary": "college-heights",
+    "Burrard Vanderhoof Co-op": "vanderhoof",
+    "Government at Gilgan": "burns-lake"
+  },
+  "stationIndex": [
+    {
+      "id": "185025",
+      "schematicId": "burns-lake",
+      "name": "Burns Lake",
+      "lat": 54.22898,
+      "lon": -125.7635,
+      "lines": ["161-PRG"],
+      "platformIds": ["185016"],
+      "departureRouteIds": ["161-PRG"]
+    },
+    {
+      "id": "105379",
+      "schematicId": "college-heights",
+      "name": "College Heights",
+      "lat": 53.86221,
+      "lon": -122.76652,
+      "lines": ["88-PRG"],
+      "platformIds": ["105379"],
+      "departureRouteIds": ["16-PRG", "19-PRG", "88-PRG"]
+    },
+    {
+      "id": "downtown",
+      "schematicId": "downtown",
+      "name": "Downtown Exchange",
+      "lat": 53.91367,
+      "lon": -122.7474,
+      "lines": ["10-PRG", "15-PRG", "161-PRG", "5-PRG"],
+      "platformIds": ["105000", "105001", "105002"],
+      "departureRouteIds": ["10-PRG", "15-PRG", "161-PRG", "46-PRG", "47-PRG", "5-PRG", "55-PRG"]
+    },
+    {
+      "id": "105008",
+      "schematicId": "hart",
+      "name": "Hart Exchange",
+      "lat": 53.98888,
+      "lon": -122.78909,
+      "lines": ["88-PRG", "89-PRG"],
+      "platformIds": ["105008"],
+      "departureRouteIds": ["88-PRG", "89-PRG", "91-PRG", "97-PRG"]
+    },
+    {
+      "id": "nicholson",
+      "schematicId": "nicholson",
+      "name": "Nicholson Exchange",
+      "lat": 53.91047,
+      "lon": -122.78704,
+      "lines": ["15-PRG", "161-PRG", "88-PRG", "89-PRG"],
+      "platformIds": ["105003", "105004", "105005", "105026"],
+      "departureRouteIds": ["15-PRG", "161-PRG", "46-PRG", "47-PRG", "88-PRG", "89-PRG"]
+    },
+    {
+      "id": "pine-centre",
+      "schematicId": "pine-centre",
+      "name": "Pine Centre Exchange",
+      "lat": 53.89863,
+      "lon": -122.77985,
+      "lines": ["161-PRG", "5-PRG", "88-PRG", "89-PRG"],
+      "platformIds": ["105010", "105011"],
+      "departureRouteIds": ["161-PRG", "46-PRG", "47-PRG", "5-PRG", "55-PRG", "88-PRG", "89-PRG"]
+    },
+    {
+      "id": "spruceland",
+      "schematicId": "spruceland",
+      "name": "Spruceland Exchange",
+      "lat": 53.91828,
+      "lon": -122.78228,
+      "lines": ["10-PRG", "88-PRG", "89-PRG"],
+      "platformIds": ["105013", "105014", "105016"],
+      "departureRouteIds": [
+        "1-PRG",
+        "10-PRG",
+        "11-PRG",
+        "5-PRG",
+        "55-PRG",
+        "88-PRG",
+        "89-PRG",
+        "91-PRG",
+        "96-PRG",
+        "97-PRG"
+      ]
+    },
+    {
+      "id": "105017",
+      "schematicId": "unbc",
+      "name": "UNBC Exchange",
+      "lat": 53.89128,
+      "lon": -122.81364,
+      "lines": ["15-PRG"],
+      "platformIds": ["105017"],
+      "departureRouteIds": ["15-PRG", "16-PRG", "19-PRG"]
+    },
+    {
+      "id": "185001",
+      "schematicId": "vanderhoof",
+      "name": "Vanderhoof",
+      "lat": 54.01495,
+      "lon": -124.0089,
+      "lines": ["161-PRG"],
+      "platformIds": ["185001"],
+      "departureRouteIds": ["161-PRG"]
+    },
+    {
+      "id": "westgate",
+      "schematicId": "westgate",
+      "name": "Westgate Exchange",
+      "lat": 53.86516,
+      "lon": -122.78604,
+      "lines": ["161-PRG", "88-PRG", "89-PRG"],
+      "platformIds": ["105019", "180029"],
+      "departureRouteIds": ["12-PRG", "161-PRG", "19-PRG", "88-PRG", "89-PRG"]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "grt",
+  "name": "Grand River Transit",
+  "serviceArea": "Waterloo Region",
+  "serviceAreaTranslations": { "fr": "Région de Waterloo" },
+  "shortName": "GRT",
+  "brandColor": "#006BB7",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "bounds": [
+    { "minLat": 43.37, "maxLat": 43.51, "minLon": -80.6, "maxLon": -80.435 },
+    { "minLat": 43.33, "maxLat": 43.48, "minLon": -80.44, "maxLon": -80.27 },
+    { "minLat": 43.505, "maxLat": 43.61, "minLon": -80.6, "maxLon": -80.49 },
+    { "minLat": 43.365, "maxLat": 43.43, "minLon": -80.72, "maxLon": -80.6 }
+  ],
+  "modes": ["rail", "bus"],
+  "proximity": {
+    "radiusMeters": 1500,
+    "bucketMeters": 75
+  },
+  "stationService": [{ "routeType": "rail" }, { "routeType": "bus" }],
+  "attribution": {
+    "name": "Grand River Transit / The Regional Municipality of Waterloo open data",
+    "url": "https://www.grt.ca/about-grt/open-data",
+    "license": "Contains information provided by the Regional Municipality of Waterloo under licence",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "alertInterpretation": {
+    "lineIds": ["ion", "ion-bus", "51", "8", "201", "202"],
+    "routeLineMap": {
+      "301": "ion",
+      "302": "ion-bus"
+    },
+    "rules": [
+      {
+        "priority": 150,
+        "match": {
+          "textIncludes": ["emergency detour", "emergency"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  },
+  "cityPresets": [
+    {
+      "name": "Conestoga Station",
+      "lat": 43.498292,
+      "lon": -80.529516
+    },
+    {
+      "name": "Fairway Station",
+      "lat": 43.422341,
+      "lon": -80.44254
+    },
+    {
+      "name": "Ainslie Terminal",
+      "lat": 43.357464,
+      "lon": -80.313253
+    },
+    {
+      "name": "University of Waterloo Station",
+      "lat": 43.473404,
+      "lon": -80.541294
+    },
+    {
+      "name": "Cambridge Centre Station",
+      "lat": 43.392657,
+      "lon": -80.322665
+    }
+  ],
+  "popularSurfaceRoutes": ["302", "201", "202", "51", "8"],
+  "routeInterpretation": {
+    "routeTypeRules": [{ "routeType": "rail", "routeIds": ["301"] }]
+  },
+  "staticTopology": {
+    "feeds": [
+      {
+        "name": "GRT Bus",
+        "url": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/staticfeeds/1",
+        "cacheFileName": "grt-bus-gtfs.zip"
+      },
+      {
+        "name": "ION Light Rail",
+        "url": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/staticfeeds/2",
+        "cacheFileName": "grt-ion-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#006BB7",
+    "defaultTextColor": "#FFFFFF",
+    "source": "seed"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/vehiclepositions/1",
+        "format": "protobuf",
+        "unreliableVehicleFields": ["speed"],
+        "devProxyPrefix": "/__dev/upstream/grt",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/tripupdates/1",
+        "format": "protobuf",
+        "devProxyPrefix": "/__dev/upstream/grt",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/vehiclepositions/2",
+        "format": "protobuf",
+        "unreliableVehicleFields": ["speed"],
+        "devProxyPrefix": "/__dev/upstream/grt",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "station_trip_updates",
+        "url": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/tripupdates/1",
+        "format": "protobuf",
+        "devProxyPrefix": "/__dev/upstream/grt",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "station_trip_updates",
+        "url": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/tripupdates/2",
+        "format": "protobuf",
+        "devProxyPrefix": "/__dev/upstream/grt",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/alerts",
+      "devProxyPrefix": "/__dev/upstream/grt"
+    },
+    {
+      "type": "web",
+      "url": "https://www.grt.ca/alerts-and-detours/",
+      "parser": "ghd-news-service-advisories",
+      "maxAgeMinutes": 20160,
+      "runtimes": ["self-hosted"]
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://alerts.example.com/grt.pb",
+      "format": "protobuf",
+      "runtimes": ["cloudflare"],
+      "disabledReason": "Requires the alert-feed daemon and FEED_ALERT_PROXY_BASE_URL/FEED_ALERT_PROXY_TOKEN secrets (see docs/deployment/deployment-guide.html#proxy)",
+      "baseUrlSecretName": "FEED_ALERT_PROXY_BASE_URL",
+      "requiredForCompleteness": true,
+      "auth": {
+        "type": "header",
+        "headerName": "x-feed-token",
+        "secretName": "FEED_ALERT_PROXY_TOKEN"
+      }
+    }
+  ],
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  }
+}

@@ -1,0 +1,783 @@
+{
+  "viewBoxWidth": 1700,
+  "viewBoxHeight": 1300,
+  "lines": [
+    {
+      "id": "14-EKT",
+      "name": "14th Avenue",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 1000,
+          "y": 1140
+        },
+        {
+          "x": 1000,
+          "y": 1000
+        },
+        {
+          "x": 1220,
+          "y": 1000
+        },
+        {
+          "x": 1220,
+          "y": 700
+        },
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "1-EKT",
+      "name": "Tamarack",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 1100,
+          "y": 300
+        },
+        {
+          "x": 1100,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "id": "2-EKT",
+      "name": "Highlands",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 1360,
+          "y": 700
+        },
+        {
+          "x": 1440,
+          "y": 780
+        },
+        {
+          "x": 1440,
+          "y": 900
+        },
+        {
+          "x": 1220,
+          "y": 900
+        },
+        {
+          "x": 1220,
+          "y": 700
+        },
+        {
+          "x": 1000,
+          "y": 700
+        },
+        {
+          "x": 900,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "3-EKT",
+      "name": "Third Avenue",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 540,
+          "y": 600
+        },
+        {
+          "x": 380,
+          "y": 600
+        },
+        {
+          "x": 380,
+          "y": 700
+        },
+        {
+          "x": 540,
+          "y": 700
+        },
+        {
+          "x": 540,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "4-EKT",
+      "name": "Slaterville",
+      "color": "#00AA4F",
+      "points": [
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 500
+        },
+        {
+          "x": 760,
+          "y": 360
+        },
+        {
+          "x": 760,
+          "y": 140
+        },
+        {
+          "x": 1100,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "id": "5-EKT",
+      "name": "College",
+      "color": "#FCAF17",
+      "points": [
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 1040,
+          "y": 600
+        },
+        {
+          "x": 1180,
+          "y": 600
+        },
+        {
+          "x": 1280,
+          "y": 500
+        },
+        {
+          "x": 1180,
+          "y": 600
+        },
+        {
+          "x": 1040,
+          "y": 600
+        },
+        {
+          "x": 900,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "7-EKT",
+      "name": "7th - 11th Avenue",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 900,
+          "y": 600
+        },
+        {
+          "x": 740,
+          "y": 760
+        },
+        {
+          "x": 600,
+          "y": 760
+        },
+        {
+          "x": 600,
+          "y": 1060
+        },
+        {
+          "x": 740,
+          "y": 1060
+        },
+        {
+          "x": 740,
+          "y": 760
+        },
+        {
+          "x": 900,
+          "y": 600
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "exchange",
+      "name": "Cranbrook Exchange",
+      "x": 900,
+      "y": 600,
+      "lines": ["14-EKT", "1-EKT", "2-EKT", "3-EKT", "4-EKT", "5-EKT", "7-EKT"],
+      "label": {
+        "x": 875,
+        "y": 568,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tamarack",
+      "name": "Tamarack Centre",
+      "x": 1100,
+      "y": 300,
+      "lines": ["1-EKT"],
+      "label": {
+        "x": 1125,
+        "y": 300,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Cranbrook Walmart",
+      "x": 1100,
+      "y": 140,
+      "lines": ["1-EKT", "4-EKT"],
+      "label": {
+        "x": 1100,
+        "y": 110,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "briar-slater",
+      "name": "Briar Ave NW at Slater Rd NW",
+      "x": 760,
+      "y": 360,
+      "lines": ["4-EKT"],
+      "label": {
+        "x": 735,
+        "y": 360,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "mission-cres",
+      "name": "Industrial Rd 2 at Mission Cres S",
+      "x": 760,
+      "y": 240,
+      "lines": ["4-EKT"],
+      "label": {
+        "x": 735,
+        "y": 240,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "2nd-17th",
+      "name": "2nd St N at 17th Ave N",
+      "x": 1040,
+      "y": 600,
+      "lines": ["5-EKT"],
+      "label": {
+        "x": 1040,
+        "y": 570,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "E Kootenay Regional Hospital",
+      "x": 1180,
+      "y": 600,
+      "lines": ["5-EKT"],
+      "label": {
+        "x": 1180,
+        "y": 632,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "college",
+      "name": "College of the Rockies",
+      "x": 1280,
+      "y": 500,
+      "lines": ["5-EKT"],
+      "label": {
+        "x": 1305,
+        "y": 500,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "2nd-20th",
+      "name": "2nd St S at 20th Ave S",
+      "x": 1110,
+      "y": 700,
+      "lines": ["2-EKT"],
+      "label": {
+        "x": 1110,
+        "y": 732,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "2nd-victoria",
+      "name": "2nd St S at Victoria Ave S",
+      "x": 1220,
+      "y": 700,
+      "lines": ["14-EKT", "2-EKT"],
+      "label": {
+        "x": 1245,
+        "y": 670,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "30th-7th",
+      "name": "30th Ave S at 7th St S",
+      "x": 1440,
+      "y": 840,
+      "lines": ["2-EKT"],
+      "label": {
+        "x": 1465,
+        "y": 840,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "14th-7th",
+      "name": "14th Ave S at 7th St S",
+      "x": 1000,
+      "y": 860,
+      "lines": ["14-EKT"],
+      "label": {
+        "x": 1025,
+        "y": 860,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "14th-20a",
+      "name": "14th Ave S at 20A St S",
+      "x": 1000,
+      "y": 1140,
+      "lines": ["14-EKT"],
+      "label": {
+        "x": 1000,
+        "y": 1172,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "10th-20th",
+      "name": "10th St S at 20th Ave S",
+      "x": 1110,
+      "y": 1000,
+      "lines": ["14-EKT"],
+      "label": {
+        "x": 1110,
+        "y": 1032,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "7th-7th",
+      "name": "7th Ave S at 7th St S",
+      "x": 600,
+      "y": 880,
+      "lines": ["7-EKT"],
+      "label": {
+        "x": 575,
+        "y": 880,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "larch",
+      "name": "Larch Dr S at 16th St S",
+      "x": 670,
+      "y": 1060,
+      "lines": ["7-EKT"],
+      "label": {
+        "x": 670,
+        "y": 1092,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "11th-7th",
+      "name": "11th Ave S at 7th St S",
+      "x": 740,
+      "y": 900,
+      "lines": ["7-EKT"],
+      "label": {
+        "x": 765,
+        "y": 900,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "wattsville",
+      "name": "Wattsville Rd at Innes Ave S",
+      "x": 440,
+      "y": 600,
+      "lines": ["3-EKT"],
+      "label": {
+        "x": 440,
+        "y": 570,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "11th-2nd",
+      "name": "11th St S at 2nd Ave S",
+      "x": 440,
+      "y": 700,
+      "lines": ["3-EKT"],
+      "label": {
+        "x": 440,
+        "y": 732,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "1-EKT": ["exchange", "tamarack", "walmart"],
+    "2-EKT": ["exchange", "2nd-20th", "30th-7th", "2nd-victoria"],
+    "3-EKT": ["exchange", "wattsville", "11th-2nd"],
+    "4-EKT": ["exchange", "briar-slater", "mission-cres", "walmart"],
+    "5-EKT": ["exchange", "2nd-17th", "hospital", "college"],
+    "7-EKT": ["exchange", "7th-7th", "larch", "11th-7th"],
+    "14-EKT": ["exchange", "14th-7th", "14th-20a", "10th-20th", "2nd-victoria"]
+  },
+  "stationAliases": {
+    "12th Ave N at Baker St - Cranbrook Exch": "exchange"
+  },
+  "badges": [
+    {
+      "line": "1-EKT",
+      "num": "1",
+      "x": 1024,
+      "y": 424,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "2-EKT",
+      "num": "2",
+      "x": 1330,
+      "y": 932,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-EKT",
+      "num": "3",
+      "x": 680,
+      "y": 568,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-EKT",
+      "num": "4",
+      "x": 930,
+      "y": 172,
+      "color": "#00AA4F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5-EKT",
+      "num": "5",
+      "x": 1254,
+      "y": 574,
+      "color": "#FCAF17",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7-EKT",
+      "num": "7",
+      "x": 632,
+      "y": 980,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "14-EKT",
+      "num": "14",
+      "x": 968,
+      "y": 1080,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 200,
+      "maxX": 1650,
+      "minY": 60,
+      "maxY": 1240
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -115.7828,
+    "refLonEast": -115.73913,
+    "refXWest": 440,
+    "refXEast": 1440,
+    "refLatNorth": 49.53033,
+    "refLatSouth": 49.4896,
+    "refYNorth": 140,
+    "refYSouth": 1140
+  },
+  "cornerInsertions": [
+    {
+      "lineId": "14-EKT",
+      "stationId": "14th-20a",
+      "before": {
+        "x": 1000,
+        "y": 1000
+      },
+      "after": {
+        "x": 1000,
+        "y": 1000
+      }
+    },
+    {
+      "lineId": "5-EKT",
+      "stationId": "college",
+      "before": {
+        "x": 1180,
+        "y": 600
+      },
+      "after": {
+        "x": 1180,
+        "y": 600
+      }
+    }
+  ],
+  "stationIndex": [
+    {
+      "id": "170520",
+      "schematicId": "10th-20th",
+      "name": "10th St S at 20th Ave S",
+      "lat": 49.49983,
+      "lon": -115.75398,
+      "lines": ["14-EKT"],
+      "platformIds": ["170520"],
+      "departureRouteIds": ["14-EKT"]
+    },
+    {
+      "id": "170477",
+      "schematicId": "11th-7th",
+      "name": "11th Ave S at 7th St S",
+      "lat": 49.50232,
+      "lon": -115.76622,
+      "lines": ["7-EKT"],
+      "platformIds": ["170477"],
+      "departureRouteIds": ["7-EKT"]
+    },
+    {
+      "id": "170534",
+      "schematicId": "11th-2nd",
+      "name": "11th St S at 2nd Ave S",
+      "lat": 49.49786,
+      "lon": -115.77991,
+      "lines": ["3-EKT"],
+      "platformIds": ["170534"],
+      "departureRouteIds": ["3-EKT"]
+    },
+    {
+      "id": "170460",
+      "schematicId": "14th-20a",
+      "name": "14th Ave S at 20A St S",
+      "lat": 49.4896,
+      "lon": -115.7599,
+      "lines": ["14-EKT"],
+      "platformIds": ["170460"],
+      "departureRouteIds": ["14-EKT"]
+    },
+    {
+      "id": "170461",
+      "schematicId": "14th-7th",
+      "name": "14th Ave S at 7th St S",
+      "lat": 49.50101,
+      "lon": -115.76218,
+      "lines": ["14-EKT"],
+      "platformIds": ["170461"],
+      "departureRouteIds": ["14-EKT"]
+    },
+    {
+      "id": "170440",
+      "schematicId": "2nd-17th",
+      "name": "2nd St N at 17th Ave N",
+      "lat": 49.51384,
+      "lon": -115.75726,
+      "lines": ["5-EKT"],
+      "platformIds": ["170440"],
+      "departureRouteIds": ["5-EKT"]
+    },
+    {
+      "id": "170463",
+      "schematicId": "2nd-20th",
+      "name": "2nd St S at 20th Ave S",
+      "lat": 49.5084,
+      "lon": -115.75338,
+      "lines": ["2-EKT"],
+      "platformIds": ["170463"],
+      "departureRouteIds": ["2-EKT"]
+    },
+    {
+      "id": "2nd-victoria",
+      "schematicId": "2nd-victoria",
+      "name": "2nd St S at Victoria Ave S",
+      "lat": 49.50847,
+      "lon": -115.7525,
+      "lines": ["14-EKT", "2-EKT"],
+      "platformIds": ["170464", "170524"],
+      "departureRouteIds": ["14-EKT", "2-EKT"]
+    },
+    {
+      "id": "170474",
+      "schematicId": "30th-7th",
+      "name": "30th Ave S at 7th St S",
+      "lat": 49.50218,
+      "lon": -115.73913,
+      "lines": ["2-EKT"],
+      "platformIds": ["170474"],
+      "departureRouteIds": ["2-EKT"]
+    },
+    {
+      "id": "170483",
+      "schematicId": "7th-7th",
+      "name": "7th Ave S at 7th St S",
+      "lat": 49.50234,
+      "lon": -115.77188,
+      "lines": ["7-EKT"],
+      "platformIds": ["170483"],
+      "departureRouteIds": ["7-EKT"]
+    },
+    {
+      "id": "briar-slater",
+      "schematicId": "briar-slater",
+      "name": "Briar Ave NW at Slater Rd NW",
+      "lat": 49.51558,
+      "lon": -115.76978,
+      "lines": ["4-EKT"],
+      "platformIds": ["170194", "170195"],
+      "departureRouteIds": ["4-EKT"]
+    },
+    {
+      "id": "170190",
+      "schematicId": "college",
+      "name": "College of the Rockies",
+      "lat": 49.51706,
+      "lon": -115.74267,
+      "lines": ["5-EKT"],
+      "platformIds": ["170190"],
+      "departureRouteIds": ["22-EKT", "5-EKT"]
+    },
+    {
+      "id": "170545",
+      "schematicId": "exchange",
+      "name": "Cranbrook Exchange",
+      "lat": 49.51234,
+      "lon": -115.76486,
+      "lines": ["1-EKT", "14-EKT", "2-EKT", "3-EKT", "4-EKT", "5-EKT", "7-EKT"],
+      "platformIds": ["170545"],
+      "departureRouteIds": ["1-EKT", "14-EKT", "2-EKT", "3-EKT", "4-EKT", "5-EKT", "7-EKT"]
+    },
+    {
+      "id": "170409",
+      "schematicId": "walmart",
+      "name": "Cranbrook Walmart",
+      "lat": 49.53033,
+      "lon": -115.75085,
+      "lines": ["1-EKT", "4-EKT"],
+      "platformIds": ["170409"],
+      "departureRouteIds": ["1-EKT", "4-EKT"]
+    },
+    {
+      "id": "170191",
+      "schematicId": "hospital",
+      "name": "E Kootenay Regional Hospital",
+      "lat": 49.51194,
+      "lon": -115.74939,
+      "lines": ["5-EKT"],
+      "platformIds": ["170191"],
+      "departureRouteIds": ["22-EKT", "5-EKT"]
+    },
+    {
+      "id": "170209",
+      "schematicId": "mission-cres",
+      "name": "Industrial Rd 2 at Mission Cres S",
+      "lat": 49.53511,
+      "lon": -115.76603,
+      "lines": ["4-EKT"],
+      "platformIds": ["170209"],
+      "departureRouteIds": ["4-EKT"]
+    },
+    {
+      "id": "170497",
+      "schematicId": "larch",
+      "name": "Larch Dr S at 16th St S",
+      "lat": 49.49509,
+      "lon": -115.77509,
+      "lines": ["7-EKT"],
+      "platformIds": ["170497"],
+      "departureRouteIds": ["7-EKT"]
+    },
+    {
+      "id": "170429",
+      "schematicId": "tamarack",
+      "name": "Tamarack Centre",
+      "lat": 49.52432,
+      "lon": -115.74972,
+      "lines": ["1-EKT"],
+      "platformIds": ["170429"],
+      "departureRouteIds": ["1-EKT"]
+    },
+    {
+      "id": "170513",
+      "schematicId": "wattsville",
+      "name": "Wattsville Rd at Innes Ave S",
+      "lat": 49.50314,
+      "lon": -115.7828,
+      "lines": ["3-EKT"],
+      "platformIds": ["170513"],
+      "departureRouteIds": ["3-EKT"]
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "viewBoxWidth": 1320,
+  "viewBoxHeight": 1420,
+  "lines": [
+    {
+      "id": "Route 1",
+      "name": "Thickwood / Gregoire",
+      "color": "#009DDC",
+      "points": [
+        {
+          "x": 400,
+          "y": 540
+        },
+        {
+          "x": 480,
+          "y": 540
+        },
+        {
+          "x": 600,
+          "y": 660
+        },
+        {
+          "x": 820,
+          "y": 880
+        },
+        {
+          "x": 960,
+          "y": 880
+        },
+        {
+          "x": 1000,
+          "y": 920
+        },
+        {
+          "x": 1000,
+          "y": 1280
+        }
+      ]
+    },
+    {
+      "id": "Route 2",
+      "name": "Timberlea / Keyano",
+      "color": "#CF0A2C",
+      "points": [
+        {
+          "x": 400,
+          "y": 300
+        },
+        {
+          "x": 700,
+          "y": 300
+        },
+        {
+          "x": 780,
+          "y": 380
+        },
+        {
+          "x": 780,
+          "y": 700
+        },
+        {
+          "x": 960,
+          "y": 880
+        }
+      ]
+    },
+    {
+      "id": "Route 3",
+      "name": "MacDonald Island / Abasand",
+      "color": "#F47920",
+      "points": [
+        {
+          "x": 860,
+          "y": 540
+        },
+        {
+          "x": 860,
+          "y": 680
+        },
+        {
+          "x": 800,
+          "y": 740
+        },
+        {
+          "x": 800,
+          "y": 900
+        },
+        {
+          "x": 700,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "Route 6",
+      "name": "Thickwood / Timberlea",
+      "color": "#008D80",
+      "points": [
+        {
+          "x": 400,
+          "y": 300
+        },
+        {
+          "x": 240,
+          "y": 460
+        },
+        {
+          "x": 240,
+          "y": 540
+        },
+        {
+          "x": 400,
+          "y": 540
+        }
+      ]
+    },
+    {
+      "id": "Route 9",
+      "name": "Parsons Creek",
+      "color": "#2CBCAF",
+      "points": [
+        {
+          "x": 400,
+          "y": 300
+        },
+        {
+          "x": 240,
+          "y": 300
+        },
+        {
+          "x": 180,
+          "y": 240
+        },
+        {
+          "x": 180,
+          "y": 140
+        },
+        {
+          "x": 240,
+          "y": 80
+        },
+        {
+          "x": 400,
+          "y": 80
+        },
+        {
+          "x": 460,
+          "y": 140
+        },
+        {
+          "x": 460,
+          "y": 240
+        },
+        {
+          "x": 400,
+          "y": 300
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "thickwood-terminal",
+      "name": "Thickwood Terminal",
+      "x": 400,
+      "y": 540,
+      "lines": ["Route 1", "Route 6"],
+      "label": {
+        "x": 400,
+        "y": 575,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "timberlea-terminal",
+      "name": "Timberlea Terminal",
+      "x": 400,
+      "y": 300,
+      "lines": ["Route 2", "Route 6", "Route 9"],
+      "label": {
+        "x": 400,
+        "y": 335,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "keyano-college",
+      "name": "Keyano College",
+      "x": 960,
+      "y": 880,
+      "lines": ["Route 1", "Route 2"],
+      "label": {
+        "x": 988,
+        "y": 880,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "gregoire",
+      "name": "Gregoire / Arabian Drive",
+      "x": 1000,
+      "y": 1280,
+      "lines": ["Route 1"],
+      "label": {
+        "x": 1000,
+        "y": 1315,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "macdonald-island",
+      "name": "MacDonald Island",
+      "x": 860,
+      "y": 540,
+      "lines": ["Route 3"],
+      "label": {
+        "x": 888,
+        "y": 540,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "willow-square",
+      "name": "Willow Square",
+      "x": 800,
+      "y": 900,
+      "lines": ["Route 3"],
+      "label": {
+        "x": 772,
+        "y": 900,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "abasand",
+      "name": "Abasand",
+      "x": 700,
+      "y": 1000,
+      "lines": ["Route 3"],
+      "label": {
+        "x": 672,
+        "y": 1000,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "north-parsons",
+      "name": "North Parsons Walmart",
+      "x": 240,
+      "y": 80,
+      "lines": ["Route 9"],
+      "label": {
+        "x": 240,
+        "y": 48,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "Route 1",
+      "num": "1",
+      "x": 1032,
+      "y": 1160,
+      "color": "#009DDC",
+      "textColor": "#000000"
+    },
+    {
+      "line": "Route 2",
+      "num": "2",
+      "x": 812,
+      "y": 460,
+      "color": "#CF0A2C",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "Route 3",
+      "num": "3",
+      "x": 892,
+      "y": 620,
+      "color": "#F47920",
+      "textColor": "#000000"
+    },
+    {
+      "line": "Route 6",
+      "num": "6",
+      "x": 208,
+      "y": 500,
+      "color": "#008D80",
+      "textColor": "#000000"
+    },
+    {
+      "line": "Route 9",
+      "num": "9",
+      "x": 492,
+      "y": 180,
+      "color": "#2CBCAF",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 60,
+      "maxX": 1260,
+      "minY": 60,
+      "maxY": 1360
+    },
+    "minZoom": 0.6,
+    "maxZoom": 5
+  },
+  "geoProjection": {
+    "refLonWest": -111.454614,
+    "refLonEast": -111.351671,
+    "refXWest": 400,
+    "refXEast": 960,
+    "refLatNorth": 56.755948,
+    "refLatSouth": 56.65411738,
+    "refYNorth": 300,
+    "refYSouth": 1280
+  },
+  "sequences": {
+    "Route 1": ["thickwood-terminal", "keyano-college", "gregoire"],
+    "Route 2": ["timberlea-terminal", "keyano-college"],
+    "Route 3": ["macdonald-island", "willow-square", "abasand"],
+    "Route 6": ["thickwood-terminal", "timberlea-terminal"],
+    "Route 9": ["timberlea-terminal", "north-parsons"]
+  },
+  "stationAliases": {
+    "Timberlea Terminal": "timberlea-terminal",
+    "Thickwood Terminal": "thickwood-terminal",
+    "King Street At Keyano College": "keyano-college",
+    "King Street Across Keyano Colleg": "keyano-college",
+    "Arabian Drive after Musttang Roa": "gregoire",
+    "Macdonald Drive At Macdonald Isl": "macdonald-island",
+    "Hospital St at Willow Square": "willow-square",
+    "Athabasca Avenue At Playground": "abasand",
+    "North Parsons Walmart": "north-parsons"
+  },
+  "stationIndex": [
+    {
+      "id": "01008",
+      "schematicId": "abasand",
+      "name": "Abasand",
+      "lat": 56.72692975,
+      "lon": -111.3924408,
+      "lines": ["Route 3"],
+      "platformIds": ["01008"],
+      "departureRouteIds": ["400_FMAM", "400_FMPM", "500_CHAM", "500_CHPM", "Route 3"]
+    },
+    {
+      "id": "06041",
+      "schematicId": "gregoire",
+      "name": "Gregoire / Arabian Drive",
+      "lat": 56.65411738,
+      "lon": -111.3277796,
+      "lines": ["Route 1"],
+      "platformIds": ["06041"],
+      "departureRouteIds": ["400_FMAM", "Route 1"]
+    },
+    {
+      "id": "keyano-college",
+      "schematicId": "keyano-college",
+      "name": "Keyano College",
+      "lat": 56.713412,
+      "lon": -111.351671,
+      "lines": ["Route 1", "Route 2"],
+      "platformIds": ["10016", "10017"],
+      "departureRouteIds": ["500_CHAM", "500_CHPM", "Route 1", "Route 2"]
+    },
+    {
+      "id": "10002",
+      "schematicId": "macdonald-island",
+      "name": "MacDonald Island",
+      "lat": 56.737897,
+      "lon": -111.384775,
+      "lines": ["Route 3"],
+      "platformIds": ["10002"],
+      "departureRouteIds": ["Route 3", "Route 4"]
+    },
+    {
+      "id": "73010",
+      "schematicId": "north-parsons",
+      "name": "North Parsons Walmart",
+      "lat": 56.786603,
+      "lon": -111.462416,
+      "lines": ["Route 9"],
+      "platformIds": ["73010"],
+      "departureRouteIds": ["Route 9"]
+    },
+    {
+      "id": "102",
+      "schematicId": "thickwood-terminal",
+      "name": "Thickwood Terminal",
+      "lat": 56.731304,
+      "lon": -111.437949,
+      "lines": ["Route 1", "Route 6"],
+      "platformIds": ["102"],
+      "departureRouteIds": ["104_WWAM", "104_WWPM", "Route 1", "Route 6", "Route 7"]
+    },
+    {
+      "id": "101",
+      "schematicId": "timberlea-terminal",
+      "name": "Timberlea Terminal",
+      "lat": 56.755948,
+      "lon": -111.454614,
+      "lines": ["Route 2", "Route 6", "Route 9"],
+      "platformIds": ["101"],
+      "departureRouteIds": ["Route 2", "Route 5", "Route 6", "Route 8", "Route 9"]
+    },
+    {
+      "id": "10077",
+      "schematicId": "willow-square",
+      "name": "Willow Square",
+      "lat": 56.718972,
+      "lon": -111.360928,
+      "lines": ["Route 3"],
+      "platformIds": ["10077"],
+      "departureRouteIds": ["Route 3"]
+    }
+  ]
+}

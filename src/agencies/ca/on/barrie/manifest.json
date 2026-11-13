@@ -1,0 +1,151 @@
+{
+  "id": "barrie",
+  "name": "Barrie Transit",
+  "serviceArea": "Barrie",
+  "shortName": "BT",
+  "locale": "en-CA",
+  "timezone": "America/New_York",
+  "bounds": [
+    {
+      "minLat": 44.321,
+      "maxLat": 44.421,
+      "minLon": -79.737,
+      "maxLon": -79.61
+    }
+  ],
+  "modes": ["bus", "express"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Barrie Transit / City of Barrie",
+    "url": "https://www.barrie.ca/services-payments/transportation-parking/barrie-transit",
+    "license": "Proprietary Barrie Transit GTFS licence: non-exclusive, limited and revocable rights to use, reproduce and redistribute scheduled and real-time data. Data provided without warranty; Barrie Transit may alter or withdraw it. Barrie trademarks may not be used in association with the data.",
+    "licenseIsStatement": true
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "on"
+  },
+  "cityPresets": [
+    {
+      "name": "Downtown Hub",
+      "lat": 44.387588,
+      "lon": -79.690372
+    },
+    {
+      "name": "Barrie South GO Station",
+      "lat": 44.35185862,
+      "lon": -79.62838858
+    },
+    {
+      "name": "Park Place",
+      "lat": 44.34039063,
+      "lon": -79.68032625
+    },
+    {
+      "name": "Georgian College",
+      "lat": 44.41208657,
+      "lon": -79.66913206
+    },
+    {
+      "name": "Georgian Mall",
+      "lat": 44.41187453,
+      "lon": -79.70857627
+    },
+    {
+      "name": "RVH Main Entrance",
+      "lat": 44.41547898,
+      "lon": -79.66117575
+    },
+    {
+      "name": "Barrie Allandale Transit Terminal",
+      "lat": 44.374029,
+      "lon": -79.690216
+    }
+  ],
+  "popularSurfaceRoutes": ["8A", "8B", "12A", "12B", "400", "100", "101", "2A", "2B", "10", "11"],
+  "alertInterpretation": {
+    "lineIds": ["8", "12", "2", "400", "10", "11", "100", "101"],
+    "routeLineMap": {
+      "8A": "8",
+      "8B": "8",
+      "12A": "12",
+      "12B": "12",
+      "2A": "2",
+      "2B": "2"
+    }
+  },
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeIds": ["400", "100", "101"],
+        "routeType": "express"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://www.myridebarrie.ca/gtfs/GTFS_VehiclePositions.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://www.myridebarrie.ca/gtfs/GTFS_TripUpdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "accept": "*/*"
+      },
+      {
+        "kind": "station_departures",
+        "url": "https://www.myridebarrie.ca/Schedule/GetStopEstimates",
+        "format": "json",
+        "method": "POST",
+        "bodyTemplate": {
+          "stopCode": "{stopId}",
+          "date": "{date}"
+        },
+        "dateTimezone": "America/New_York",
+        "responseMapping": {
+          "routesPath": "routeStopSchedules",
+          "routeIdField": "routeNumber",
+          "departuresField": "stopTimes",
+          "timeField": "estimatedDepartTimeUtc",
+          "directionField": "directionName",
+          "headsignField": "routeName",
+          "tripIdField": "tripPointId",
+          "realtimeField": "isRealtime",
+          "cancelledField": "isCancelled",
+          "offRouteField": "isOffRoute",
+          "stopClosedField": "isClosedRegularStop",
+          "terminalField": "isLastPoint"
+        },
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Barrie Transit GTFS",
+        "url": "https://www.myridebarrie.ca/gtfs/google_transit.zip",
+        "cacheFileName": "barrie-gtfs.zip"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "url": "https://www.myridebarrie.ca/News/GetAllNews",
+      "parser": "generic-alert-feed",
+      "language": "en"
+    }
+  ]
+}

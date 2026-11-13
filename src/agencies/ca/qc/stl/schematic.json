@@ -1,0 +1,567 @@
+{
+  "viewBoxWidth": 800,
+  "viewBoxHeight": 566.667,
+  "lines": [
+    {
+      "id": "42",
+      "name": "Ligne 42",
+      "color": "#004B96",
+      "points": [
+        {
+          "x": 383.333,
+          "y": 250
+        },
+        {
+          "x": 500,
+          "y": 133.333
+        },
+        {
+          "x": 700,
+          "y": 133.333
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Ligne 26",
+      "color": "#004B96",
+      "points": [
+        {
+          "x": 83.333,
+          "y": 350
+        },
+        {
+          "x": 350,
+          "y": 350
+        },
+        {
+          "x": 383.333,
+          "y": 383.333
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Ligne 70",
+      "color": "#004B96",
+      "points": [
+        {
+          "x": 583.333,
+          "y": 450
+        },
+        {
+          "x": 450,
+          "y": 450
+        },
+        {
+          "x": 383.333,
+          "y": 383.333
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Ligne 65",
+      "color": "#004B96",
+      "points": [
+        {
+          "x": 383.333,
+          "y": 383.333
+        },
+        {
+          "x": 483.333,
+          "y": 283.333
+        },
+        {
+          "x": 483.333,
+          "y": 83.333
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "name": "Ligne 151",
+      "color": "#004B96",
+      "points": [
+        {
+          "x": 283.333,
+          "y": 500
+        },
+        {
+          "x": 283.333,
+          "y": 83.333
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Ligne 73",
+      "color": "#004B96",
+      "points": [
+        {
+          "x": 583.333,
+          "y": 450
+        },
+        {
+          "x": 583.333,
+          "y": 400
+        },
+        {
+          "x": 300,
+          "y": 116.667
+        },
+        {
+          "x": 116.667,
+          "y": 116.667
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Ligne 50",
+      "color": "#004B96",
+      "points": [
+        {
+          "x": 383.333,
+          "y": 250
+        },
+        {
+          "x": 616.667,
+          "y": 250
+        },
+        {
+          "x": 650,
+          "y": 283.333
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "sainte-dorothee",
+      "name": "Station Sainte-Dorothée",
+      "x": 83.333,
+      "y": 350,
+      "lines": ["26"],
+      "terminal": true,
+      "label": {
+        "x": 111.333,
+        "y": 338,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "montmorency",
+      "name": "Montmorency",
+      "x": 383.333,
+      "y": 383.333,
+      "lines": ["26", "70", "65"],
+      "terminal": true,
+      "label": {
+        "x": 411.333,
+        "y": 371.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cartier",
+      "name": "Cartier",
+      "x": 583.333,
+      "y": 450,
+      "lines": ["70", "73"],
+      "terminal": true,
+      "label": {
+        "x": 611.333,
+        "y": 438,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "carrefour",
+      "name": "Le Carrefour",
+      "x": 383.333,
+      "y": 250,
+      "lines": ["42", "50"],
+      "terminal": true,
+      "label": {
+        "x": 383.333,
+        "y": 275,
+        "anchor": "middle",
+        "rot": 0
+      }
+    },
+    {
+      "id": "saint-francois",
+      "name": "Saint-François",
+      "x": 700,
+      "y": 133.333,
+      "lines": ["42"],
+      "terminal": true,
+      "label": {
+        "x": 728,
+        "y": 121.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "paul-kane",
+      "name": "Paul-Kane",
+      "x": 650,
+      "y": 283.333,
+      "lines": ["50"],
+      "terminal": true,
+      "label": {
+        "x": 678,
+        "y": 271.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "sainte-rose",
+      "name": "Gare Sainte-Rose",
+      "x": 483.333,
+      "y": 83.333,
+      "lines": ["65"],
+      "terminal": true,
+      "label": {
+        "x": 511.333,
+        "y": 71.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "dufferin",
+      "name": "Dufferin / chemin de fer C.P.",
+      "x": 283.333,
+      "y": 83.333,
+      "lines": ["151"],
+      "terminal": true,
+      "label": {
+        "x": 311.333,
+        "y": 71.333,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "cote-vertu",
+      "name": "Côte-Vertu",
+      "x": 283.333,
+      "y": 500,
+      "lines": ["151"],
+      "terminal": true,
+      "label": {
+        "x": 311.333,
+        "y": 488,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "fabreville",
+      "name": "Fabreville / Séguin",
+      "x": 116.667,
+      "y": 116.667,
+      "lines": ["73"],
+      "terminal": true,
+      "label": {
+        "x": 144.667,
+        "y": 104.667,
+        "anchor": "start"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "42",
+      "num": "42",
+      "x": 640,
+      "y": 101.33,
+      "color": "#004B96",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "26",
+      "num": "26",
+      "x": 206.67,
+      "y": 382,
+      "color": "#004B96",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "70",
+      "num": "70",
+      "x": 503.33,
+      "y": 482,
+      "color": "#004B96",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "65",
+      "num": "65",
+      "x": 515.33,
+      "y": 173.33,
+      "color": "#004B96",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "151",
+      "num": "151",
+      "x": 251.33,
+      "y": 200,
+      "color": "#004B96",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "73",
+      "num": "73",
+      "x": 216.67,
+      "y": 148.67,
+      "color": "#004B96",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "50",
+      "num": "50",
+      "x": 580,
+      "y": 282,
+      "color": "#004B96",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "26": ["sainte-dorothee", "montmorency"],
+    "42": ["carrefour", "saint-francois"],
+    "50": ["carrefour", "paul-kane"],
+    "65": ["montmorency", "sainte-rose"],
+    "70": ["cartier", "montmorency"],
+    "73": ["cartier", "fabreville"],
+    "151": ["cote-vertu", "dufferin"]
+  },
+  "stationAliases": {
+    "Terminus Côte-Vertu Quai: 20": "cote-vertu",
+    "Terminus Côte-Vertu Quai: 19": "cote-vertu",
+    "Terminus Côte-Vertu Quai: 18": "cote-vertu",
+    "Station du REM Sainte-Dorothée Quai: 2": "sainte-dorothee",
+    "Station du REM Sainte-Dorothée Quai: 3": "sainte-dorothee",
+    "Chartrand / Déry": "saint-francois",
+    "Dufferin / chemin de fer C.P.": "dufferin",
+    "Gare Sainte-Rose": "sainte-rose",
+    "Terminus Le Carrefour": "carrefour",
+    "Terminus Le Carrefour Quai: 8": "carrefour",
+    "Terminus Le Carrefour Quai: 7": "carrefour",
+    "Terminus Le Carrefour Quai: 9": "carrefour",
+    "Terminus Le Carrefour Quai: 10": "carrefour",
+    "Terminus Le Carrefour Quai: 3": "carrefour",
+    "Terminus Le Carrefour Quai: 6": "carrefour",
+    "Terminus Le Carrefour Quai: 11": "carrefour",
+    "Terminus Le Carrefour Quai: 5": "carrefour",
+    "Terminus Le Carrefour Quai: 2": "carrefour",
+    "Station du REM Sainte-Dorothée Quai: 4": "sainte-dorothee",
+    "Séguin / Face à l'usine d'épuration": "fabreville",
+    "Terminus Paul-Kane": "paul-kane",
+    "Station du REM Sainte-Dorothée Quai: 1": "sainte-dorothee",
+    "Terminus Cartier Quai: 2": "cartier",
+    "Terminus Cartier Quai: 10": "cartier",
+    "Terminus Cartier Quai: 8": "cartier",
+    "Terminus Cartier Quai: 9": "cartier",
+    "Terminus Cartier Quai: 4": "cartier",
+    "Terminus Cartier Quai: 7": "cartier",
+    "Terminus Cartier Quai: 6": "cartier",
+    "Terminus Cartier Quai: 3": "cartier",
+    "Terminus Cartier": "cartier",
+    "Terminus Cartier Quai: 5": "cartier",
+    "Terminus Montmorency Quai: 6": "montmorency",
+    "Terminus Montmorency Quai: 8": "montmorency",
+    "Terminus Montmorency Quai: 3": "montmorency",
+    "Terminus Montmorency Quai: 2": "montmorency",
+    "Terminus Montmorency Quai: 9": "montmorency",
+    "Terminus Montmorency Quai: 7": "montmorency",
+    "Terminus Montmorency": "montmorency"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 33.333,
+      "maxX": 766.667,
+      "minY": 33.333,
+      "maxY": 533.333
+    },
+    "minZoom": 0.3,
+    "maxZoom": 15
+  },
+  "geoProjection": {
+    "refLonWest": -73.92,
+    "refLonEast": -73.53,
+    "refXWest": 66.667,
+    "refXEast": 733.333,
+    "refLatNorth": 45.7,
+    "refLatSouth": 45.51,
+    "refYNorth": 66.667,
+    "refYSouth": 500
+  },
+  "stationIndex": [
+    {
+      "id": "cartier",
+      "schematicId": "cartier",
+      "name": "Cartier",
+      "lat": 45.55993259,
+      "lon": -73.68250364,
+      "lines": ["70", "73"],
+      "platformIds": [
+        "CP47002",
+        "CP47012",
+        "CP47020",
+        "CP47022",
+        "CP47027",
+        "CP47033",
+        "CP47060",
+        "CP47073",
+        "CP47112",
+        "CP47131"
+      ],
+      "departureRouteIds": [
+        "12",
+        "17",
+        "2",
+        "20",
+        "22",
+        "222",
+        "24",
+        "27",
+        "31",
+        "322",
+        "33",
+        "345",
+        "37",
+        "43",
+        "48",
+        "58",
+        "60",
+        "63",
+        "70",
+        "73",
+        "74",
+        "901"
+      ]
+    },
+    {
+      "id": "cote-vertu",
+      "schematicId": "cote-vertu",
+      "name": "Côte-Vertu",
+      "lat": 45.51322784,
+      "lon": -73.68271081,
+      "lines": ["151"],
+      "platformIds": ["CP40144", "CP40151", "CP40802"],
+      "departureRouteIds": ["144", "151", "313", "713", "714"]
+    },
+    {
+      "id": "dufferin",
+      "schematicId": "dufferin",
+      "name": "Dufferin / chemin de fer C.P.",
+      "lat": 45.62858646,
+      "lon": -73.78283476,
+      "lines": ["151"],
+      "platformIds": ["CP41546", "CP49151"],
+      "departureRouteIds": ["151"]
+    },
+    {
+      "id": "fabreville",
+      "schematicId": "fabreville",
+      "name": "Fabreville / Séguin",
+      "lat": 45.575574,
+      "lon": -73.8354465,
+      "lines": ["73"],
+      "platformIds": ["CP46524", "CP46525"],
+      "departureRouteIds": ["73"]
+    },
+    {
+      "id": "sainte-rose",
+      "schematicId": "sainte-rose",
+      "name": "Gare Sainte-Rose",
+      "lat": 45.62629983,
+      "lon": -73.76613714,
+      "lines": ["65"],
+      "platformIds": ["CP42901", "CP42902", "CP46330", "CP46331", "CP49063", "CP49065"],
+      "departureRouteIds": ["63", "65", "73"]
+    },
+    {
+      "id": "carrefour",
+      "schematicId": "carrefour",
+      "name": "Le Carrefour",
+      "lat": 45.56891019,
+      "lon": -73.74840679,
+      "lines": ["42", "50"],
+      "platformIds": [
+        "CP44039",
+        "CP44042",
+        "CP44050",
+        "CP44056",
+        "CP44060",
+        "CP44061",
+        "CP44070",
+        "CP44142",
+        "CP44156",
+        "CP44161",
+        "CP44903"
+      ],
+      "departureRouteIds": ["39", "42", "50", "56", "60", "61", "63", "66", "70", "903"]
+    },
+    {
+      "id": "montmorency",
+      "schematicId": "montmorency",
+      "name": "Montmorency",
+      "lat": 45.55794547,
+      "lon": -73.72083023,
+      "lines": ["26", "65", "70"],
+      "platformIds": ["CP48002", "CP48033", "CP48036", "CP48039", "CP48040", "CP48046", "CP48102"],
+      "departureRouteIds": [
+        "16",
+        "2",
+        "226",
+        "26",
+        "33",
+        "345",
+        "36",
+        "39",
+        "40",
+        "45",
+        "46",
+        "50",
+        "56",
+        "61",
+        "65",
+        "70",
+        "76",
+        "903"
+      ]
+    },
+    {
+      "id": "CP46634",
+      "schematicId": "paul-kane",
+      "name": "Paul-Kane",
+      "lat": 45.63444782,
+      "lon": -73.65144187,
+      "lines": ["50"],
+      "platformIds": ["CP46634"],
+      "departureRouteIds": ["222", "50", "58"]
+    },
+    {
+      "id": "saint-francois",
+      "schematicId": "saint-francois",
+      "name": "Saint-François",
+      "lat": 45.66748107,
+      "lon": -73.57646643,
+      "lines": ["42"],
+      "platformIds": ["41272", "45013", "CP41272"],
+      "departureRouteIds": ["252", "42", "901", "925"]
+    },
+    {
+      "id": "sainte-dorothee",
+      "schematicId": "sainte-dorothee",
+      "name": "Station Sainte-Dorothée",
+      "lat": 45.52327801,
+      "lon": -73.86195874,
+      "lines": ["26"],
+      "platformIds": ["CP41196", "CP41198", "CP45003", "CP46662"],
+      "departureRouteIds": ["203", "26", "713", "76", "903"]
+    }
+  ]
+}

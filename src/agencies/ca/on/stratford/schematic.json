@@ -1,0 +1,675 @@
+{
+  "viewBoxWidth": 1750,
+  "viewBoxHeight": 1300,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Huron",
+      "color": "#FFAB4F",
+      "points": [
+        {
+          "x": 800,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 500
+        },
+        {
+          "x": 250,
+          "y": 500
+        },
+        {
+          "x": 170,
+          "y": 420
+        },
+        {
+          "x": 170,
+          "y": 300
+        },
+        {
+          "x": 330,
+          "y": 300
+        },
+        {
+          "x": 450,
+          "y": 420
+        },
+        {
+          "x": 570,
+          "y": 420
+        },
+        {
+          "x": 800,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "East End",
+      "color": "#FFFF66",
+      "points": [
+        {
+          "x": 800,
+          "y": 650
+        },
+        {
+          "x": 990,
+          "y": 650
+        },
+        {
+          "x": 1050,
+          "y": 710
+        },
+        {
+          "x": 1530,
+          "y": 710
+        },
+        {
+          "x": 1610,
+          "y": 630
+        },
+        {
+          "x": 1610,
+          "y": 550
+        },
+        {
+          "x": 1530,
+          "y": 470
+        },
+        {
+          "x": 1450,
+          "y": 390
+        },
+        {
+          "x": 1290,
+          "y": 390
+        },
+        {
+          "x": 1140,
+          "y": 540
+        },
+        {
+          "x": 910,
+          "y": 540
+        },
+        {
+          "x": 800,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "McCarthy",
+      "color": "#189AD3",
+      "points": [
+        {
+          "x": 800,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 500
+        },
+        {
+          "x": 650,
+          "y": 220
+        },
+        {
+          "x": 570,
+          "y": 140
+        },
+        {
+          "x": 410,
+          "y": 140
+        },
+        {
+          "x": 330,
+          "y": 220
+        },
+        {
+          "x": 330,
+          "y": 300
+        },
+        {
+          "x": 450,
+          "y": 420
+        },
+        {
+          "x": 570,
+          "y": 420
+        },
+        {
+          "x": 800,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Queensland",
+      "color": "#52ACA2",
+      "points": [
+        {
+          "x": 800,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 800
+        },
+        {
+          "x": 350,
+          "y": 800
+        },
+        {
+          "x": 250,
+          "y": 900
+        },
+        {
+          "x": 250,
+          "y": 1080
+        },
+        {
+          "x": 490,
+          "y": 1080
+        },
+        {
+          "x": 590,
+          "y": 980
+        },
+        {
+          "x": 590,
+          "y": 860
+        },
+        {
+          "x": 800,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Devon",
+      "color": "#990000",
+      "points": [
+        {
+          "x": 800,
+          "y": 650
+        },
+        {
+          "x": 990,
+          "y": 460
+        },
+        {
+          "x": 1110,
+          "y": 460
+        },
+        {
+          "x": 1230,
+          "y": 340
+        },
+        {
+          "x": 1230,
+          "y": 220
+        },
+        {
+          "x": 1150,
+          "y": 140
+        },
+        {
+          "x": 990,
+          "y": 140
+        },
+        {
+          "x": 910,
+          "y": 220
+        },
+        {
+          "x": 910,
+          "y": 540
+        },
+        {
+          "x": 800,
+          "y": 650
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Downie",
+      "color": "#F08080",
+      "points": [
+        {
+          "x": 800,
+          "y": 650
+        },
+        {
+          "x": 920,
+          "y": 770
+        },
+        {
+          "x": 1160,
+          "y": 770
+        },
+        {
+          "x": 1240,
+          "y": 850
+        },
+        {
+          "x": 1240,
+          "y": 1050
+        },
+        {
+          "x": 1160,
+          "y": 1130
+        },
+        {
+          "x": 1000,
+          "y": 1130
+        },
+        {
+          "x": 920,
+          "y": 1050
+        },
+        {
+          "x": 920,
+          "y": 890
+        },
+        {
+          "x": 800,
+          "y": 770
+        },
+        {
+          "x": 800,
+          "y": 650
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "transit-terminal",
+      "name": "Transit Terminal",
+      "x": 800,
+      "y": 650,
+      "lines": ["1", "2", "3", "4", "5", "6"],
+      "label": {
+        "x": 765,
+        "y": 660,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "st-mikes-secondary",
+      "name": "St. Mike's Secondary",
+      "x": 170,
+      "y": 300,
+      "lines": ["1"],
+      "label": {
+        "x": 130,
+        "y": 280,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "sobeys",
+      "name": "Sobeys",
+      "x": 250,
+      "y": 500,
+      "lines": ["1"],
+      "label": {
+        "x": 250,
+        "y": 535,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "rotary-complex",
+      "name": "Rotary Complex",
+      "x": 410,
+      "y": 140,
+      "lines": ["3"],
+      "label": {
+        "x": 410,
+        "y": 105,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "princess-mornington",
+      "name": "Princess & Mornington",
+      "x": 570,
+      "y": 420,
+      "lines": ["3"],
+      "label": {
+        "x": 570,
+        "y": 455,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "stratford-mall",
+      "name": "Stratford Mall",
+      "x": 1530,
+      "y": 470,
+      "lines": ["2"],
+      "label": {
+        "x": 1570,
+        "y": 470,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "x": 1450,
+      "y": 390,
+      "lines": ["2"],
+      "label": {
+        "x": 1450,
+        "y": 355,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Hospital",
+      "x": 350,
+      "y": 800,
+      "lines": ["4"],
+      "label": {
+        "x": 350,
+        "y": 765,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hamlet-estates",
+      "name": "Hamlet Estates",
+      "x": 250,
+      "y": 1080,
+      "lines": ["4"],
+      "label": {
+        "x": 225,
+        "y": 1105,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "fairfield-mccarthy",
+      "name": "Fairfield & McCarthy",
+      "x": 990,
+      "y": 140,
+      "lines": ["5"],
+      "label": {
+        "x": 990,
+        "y": 105,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "willow-devon",
+      "name": "Willow & Devon",
+      "x": 1230,
+      "y": 340,
+      "lines": ["5"],
+      "label": {
+        "x": 1255,
+        "y": 340,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "via-station",
+      "name": "Via Station",
+      "x": 920,
+      "y": 770,
+      "lines": ["6"],
+      "label": {
+        "x": 940,
+        "y": 740,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "maple-dufferin",
+      "name": "Maple & Dufferin",
+      "x": 1160,
+      "y": 1130,
+      "lines": ["6"],
+      "label": {
+        "x": 1160,
+        "y": 1165,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 227.63,
+      "y": 432.37,
+      "color": "#FFAB4F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 1450,
+      "y": 678,
+      "color": "#FFFF66",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3",
+      "num": "3",
+      "x": 682,
+      "y": 300,
+      "color": "#189AD3",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4",
+      "num": "4",
+      "x": 420,
+      "y": 1048,
+      "color": "#52ACA2",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5",
+      "num": "5",
+      "x": 1147.37,
+      "y": 377.37,
+      "color": "#990000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "6",
+      "num": "6",
+      "x": 1208,
+      "y": 970,
+      "color": "#F08080",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1": ["transit-terminal", "st-mikes-secondary", "sobeys"],
+    "2": ["transit-terminal", "stratford-mall", "walmart"],
+    "3": ["transit-terminal", "rotary-complex", "princess-mornington"],
+    "4": ["transit-terminal", "hospital", "hamlet-estates"],
+    "5": ["transit-terminal", "willow-devon", "fairfield-mccarthy"],
+    "6": ["transit-terminal", "via-station", "maple-dufferin"]
+  },
+  "stationAliases": {
+    "Transit Terminal": "transit-terminal",
+    "St. Mike's Secondary": "st-mikes-secondary",
+    "Sobeys": "sobeys",
+    "Rotary Complex": "rotary-complex",
+    "Princess @ Mornington": "princess-mornington",
+    "Stratford Mall": "stratford-mall",
+    "Walmart": "walmart",
+    "West Gore @ Hospital": "hospital",
+    "Hamlet Estates": "hamlet-estates",
+    "Fairfield @ McCarthy": "fairfield-mccarthy",
+    "Willow @ Devon": "willow-devon",
+    "Via Station": "via-station",
+    "Maple @ Dufferin": "maple-dufferin"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1750,
+      "minY": 0,
+      "maxY": 1300
+    },
+    "minZoom": 0.5,
+    "maxZoom": 4
+  },
+  "geoProjection": {
+    "refLonWest": -81.02,
+    "refLonEast": -80.94,
+    "refXWest": 170,
+    "refXEast": 1530,
+    "refLatNorth": 43.39,
+    "refLatSouth": 43.345,
+    "refYNorth": 140,
+    "refYSouth": 1130
+  },
+  "stationIndex": [
+    {
+      "id": "1223",
+      "schematicId": "fairfield-mccarthy",
+      "name": "Fairfield & McCarthy",
+      "lat": 43.384589,
+      "lon": -80.958617,
+      "lines": ["5"],
+      "platformIds": ["1223"],
+      "departureRouteIds": ["5", "8"]
+    },
+    {
+      "id": "1141",
+      "schematicId": "hamlet-estates",
+      "name": "Hamlet Estates",
+      "lat": 43.365863,
+      "lon": -81.003105,
+      "lines": ["4"],
+      "platformIds": ["1141"],
+      "departureRouteIds": ["10", "4"]
+    },
+    {
+      "id": "1123",
+      "schematicId": "hospital",
+      "name": "Hospital",
+      "lat": 43.36719,
+      "lon": -80.99676,
+      "lines": ["4"],
+      "platformIds": ["1123"],
+      "departureRouteIds": ["4"]
+    },
+    {
+      "id": "1186",
+      "schematicId": "maple-dufferin",
+      "name": "Maple & Dufferin",
+      "lat": 43.35547,
+      "lon": -80.98987,
+      "lines": ["6"],
+      "platformIds": ["1186"],
+      "departureRouteIds": ["10", "6"]
+    },
+    {
+      "id": "1110",
+      "schematicId": "princess-mornington",
+      "name": "Princess & Mornington",
+      "lat": 43.377616,
+      "lon": -80.978964,
+      "lines": ["3"],
+      "platformIds": ["1110"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "1090",
+      "schematicId": "rotary-complex",
+      "name": "Rotary Complex",
+      "lat": 43.386082,
+      "lon": -80.983385,
+      "lines": ["3"],
+      "platformIds": ["1090"],
+      "departureRouteIds": ["3"]
+    },
+    {
+      "id": "1061",
+      "schematicId": "sobeys",
+      "name": "Sobeys",
+      "lat": 43.37935,
+      "lon": -81.00563,
+      "lines": ["1"],
+      "platformIds": ["1061"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "1051",
+      "schematicId": "st-mikes-secondary",
+      "name": "St. Mike's Secondary",
+      "lat": 43.385489,
+      "lon": -80.99586,
+      "lines": ["1"],
+      "platformIds": ["1051"],
+      "departureRouteIds": ["1", "10", "8"]
+    },
+    {
+      "id": "1259",
+      "schematicId": "stratford-mall",
+      "name": "Stratford Mall",
+      "lat": 43.369501,
+      "lon": -80.948112,
+      "lines": ["2"],
+      "platformIds": ["1259"],
+      "departureRouteIds": ["2", "8"]
+    },
+    {
+      "id": "1001",
+      "schematicId": "transit-terminal",
+      "name": "Transit Terminal",
+      "lat": 43.365741,
+      "lon": -80.980051,
+      "lines": ["1", "2", "3", "4", "5", "6"],
+      "platformIds": ["1001"],
+      "departureRouteIds": ["1", "10", "11", "12", "2", "3", "4", "5", "6", "7", "8"]
+    },
+    {
+      "id": "1155",
+      "schematicId": "via-station",
+      "name": "Via Station",
+      "lat": 43.364724,
+      "lon": -80.975385,
+      "lines": ["6"],
+      "platformIds": ["1155"],
+      "departureRouteIds": ["10", "6"]
+    },
+    {
+      "id": "1270",
+      "schematicId": "walmart",
+      "name": "Walmart",
+      "lat": 43.370908,
+      "lon": -80.949766,
+      "lines": ["2"],
+      "platformIds": ["1270"],
+      "departureRouteIds": ["2"]
+    },
+    {
+      "id": "1209",
+      "schematicId": "willow-devon",
+      "name": "Willow & Devon",
+      "lat": 43.374761,
+      "lon": -80.948962,
+      "lines": ["5"],
+      "platformIds": ["1209"],
+      "departureRouteIds": ["5", "8"]
+    }
+  ]
+}

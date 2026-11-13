@@ -1,0 +1,276 @@
+{
+  "viewBoxWidth": 720,
+  "viewBoxHeight": 700,
+  "lines": [
+    {
+      "id": "BMT",
+      "name": "BUS Mont-Tremblant",
+      "color": "#005D7E",
+      "points": [
+        {
+          "x": 394,
+          "y": 100
+        },
+        {
+          "x": 406,
+          "y": 100
+        },
+        {
+          "x": 406,
+          "y": 440
+        },
+        {
+          "x": 520,
+          "y": 440
+        },
+        {
+          "x": 520,
+          "y": 600
+        },
+        {
+          "x": 320,
+          "y": 600
+        },
+        {
+          "x": 320,
+          "y": 440
+        },
+        {
+          "x": 394,
+          "y": 440
+        },
+        {
+          "x": 394,
+          "y": 100
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "centre-villegiature",
+      "name": "Centre de villégiature Tremblant",
+      "x": 400,
+      "y": 100,
+      "lines": ["BMT"],
+      "label": {
+        "x": 400,
+        "y": 70,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "village",
+      "name": "Village",
+      "x": 400,
+      "y": 200,
+      "lines": ["BMT"],
+      "label": {
+        "x": 425,
+        "y": 200,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "grand-lodge",
+      "name": "Grand Lodge",
+      "x": 400,
+      "y": 300,
+      "lines": ["BMT"],
+      "label": {
+        "x": 425,
+        "y": 300,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "saint-jovite",
+      "name": "Saint-Jovite",
+      "x": 480,
+      "y": 440,
+      "lines": ["BMT"],
+      "label": {
+        "x": 480,
+        "y": 410,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "hotel-de-ville",
+      "name": "Hôtel de ville",
+      "x": 520,
+      "y": 520,
+      "lines": ["BMT"],
+      "label": {
+        "x": 545,
+        "y": 520,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "campus-sante",
+      "name": "Campus santé Mont-Tremblant",
+      "x": 420,
+      "y": 600,
+      "lines": ["BMT"],
+      "label": {
+        "x": 420,
+        "y": 630,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "cegep",
+      "name": "Cégep",
+      "x": 320,
+      "y": 520,
+      "lines": ["BMT"],
+      "label": {
+        "x": 295,
+        "y": 520,
+        "anchor": "end"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "BMT",
+      "num": "BMT",
+      "x": 360,
+      "y": 250,
+      "color": "#005D7E",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 160,
+      "maxX": 700,
+      "minY": 40,
+      "maxY": 670
+    },
+    "minZoom": 0.4,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -74.62,
+    "refLonEast": -74.56,
+    "refXWest": 421.1,
+    "refXEast": 418.6,
+    "refLatNorth": 46.21,
+    "refLatSouth": 46.11,
+    "refYNorth": 119.5,
+    "refYSouth": 554.7
+  },
+  "sequences": {
+    "BMT": [
+      "centre-villegiature",
+      "village",
+      "grand-lodge",
+      "saint-jovite",
+      "hotel-de-ville",
+      "campus-sante",
+      "cegep"
+    ]
+  },
+  "stationAliases": {
+    "001 - Centre de villégiature Tremblant": "centre-villegiature",
+    "039 - Du Village & du Couvent (parc)": "village",
+    "085 - Labelle (stationnement Grand Lodge)": "grand-lodge",
+    "168 - De Saint-Jovite & des Pionniers": "saint-jovite",
+    "174 - De Saint-Jovite (Shell)": "saint-jovite",
+    "209 - De Saint-Jovite & Mercure (hôtel de ville)": "hotel-de-ville",
+    "280 - Campus santé Mont-Tremblant": "campus-sante",
+    "302 - De Saint-Jovite & Perreault": "saint-jovite",
+    "307 - De Saint-Jovite & des Pionniers": "saint-jovite",
+    "313 - Vaillancourt & boul. Dr-Gervais": "cegep",
+    "321 - boul. Dr-Gervais & Cadieux (cégep)": "cegep",
+    "412 - Labelle (Grand Lodge)": "grand-lodge",
+    "450 - Du Village & du Couvent": "village",
+    "457 - Du Village & du Couvent (parc)": "village"
+  },
+  "stationIndex": [
+    {
+      "id": "zenbus:StopPoint:SP:4803636860289024:LOC",
+      "schematicId": "campus-sante",
+      "name": "Campus santé Mont-Tremblant",
+      "lat": 46.109018,
+      "lon": -74.602376,
+      "lines": ["BMT"],
+      "platformIds": ["zenbus:StopPoint:SP:4803636860289024:LOC"],
+      "departureRouteIds": ["BMT"]
+    },
+    {
+      "id": "cegep",
+      "schematicId": "cegep",
+      "name": "Cégep",
+      "lat": 46.122169,
+      "lon": -74.573982,
+      "lines": ["BMT"],
+      "platformIds": ["zenbus:StopPoint:SP:516760002:LOC", "zenbus:StopPoint:SP:531360002:LOC"],
+      "departureRouteIds": ["BMT"]
+    },
+    {
+      "id": "zenbus:StopArea:SA:5953577529901056:LOC",
+      "schematicId": "centre-villegiature",
+      "name": "Centre de villégiature Tremblant",
+      "lat": 46.209503,
+      "lon": -74.588594,
+      "lines": ["BMT"],
+      "platformIds": ["zenbus:StopPoint:SP:4787527136313344:LOC"],
+      "departureRouteIds": ["BMT"]
+    },
+    {
+      "id": "grand-lodge",
+      "schematicId": "grand-lodge",
+      "name": "Grand Lodge",
+      "lat": 46.173196,
+      "lon": -74.59905,
+      "lines": ["BMT"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:4805043998949376:LOC",
+        "zenbus:StopPoint:SP:4826771930218496:LOC"
+      ],
+      "departureRouteIds": ["BMT"]
+    },
+    {
+      "id": "zenbus:StopPoint:SP:525400002:LOC",
+      "schematicId": "hotel-de-ville",
+      "name": "Hôtel de ville",
+      "lat": 46.118439,
+      "lon": -74.600632,
+      "lines": ["BMT"],
+      "platformIds": ["zenbus:StopPoint:SP:525400002:LOC"],
+      "departureRouteIds": ["BMT"]
+    },
+    {
+      "id": "saint-jovite",
+      "schematicId": "saint-jovite",
+      "name": "Saint-Jovite",
+      "lat": 46.118091,
+      "lon": -74.564783,
+      "lines": ["BMT"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:4922784026198016:LOC",
+        "zenbus:StopPoint:SP:514630005:LOC",
+        "zenbus:StopPoint:SP:538970005:LOC",
+        "zenbus:StopPoint:SP:5467079837745152:LOC"
+      ],
+      "departureRouteIds": ["BMT"]
+    },
+    {
+      "id": "village",
+      "schematicId": "village",
+      "name": "Village",
+      "lat": 46.195621,
+      "lon": -74.622466,
+      "lines": ["BMT"],
+      "platformIds": [
+        "zenbus:StopPoint:SP:514700001:LOC",
+        "zenbus:StopPoint:SP:521630002:LOC",
+        "zenbus:StopPoint:SP:544660002:LOC"
+      ],
+      "departureRouteIds": ["BMT"]
+    }
+  ]
+}

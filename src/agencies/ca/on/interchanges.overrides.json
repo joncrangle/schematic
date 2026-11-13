@@ -1,0 +1,2792 @@
+{
+  "hubs": [
+    {
+      "id": "ttc-yrt-vaughanmetropolitancentre",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": -50,
+          "dy": -58,
+          "layout": "vertical"
+        },
+        "brampton": {
+          "dx": -6,
+          "dy": -36,
+          "layout": "vertical"
+        },
+        "yrt": {
+          "dx": -50,
+          "dy": 14,
+          "layout": "vertical"
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "brampton",
+          "stationName": "Smart VMC Terminal",
+          "stationId": "smart-vmc-terminal"
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "Vaughan Metropolitan Centre",
+          "stationId": "vaughan-metropolitan-centre"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "Vaughan Metropolitan Centre",
+          "stationId": "vaughan-metropolitan-centre"
+        }
+      ]
+    },
+    {
+      "id": "go-ttc-downsviewpark",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": -45,
+          "dy": 0
+        },
+        "go": {
+          "dx": -48,
+          "dy": -24
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Downsview Park",
+          "stationId": "downsview-park"
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "Downsview Park",
+          "stationId": "downsview-park"
+        }
+      ]
+    },
+    {
+      "id": "ttc-yrt-sheppardwest",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": -45,
+          "dy": 0
+        },
+        "yrt": {
+          "dx": -35,
+          "dy": 0
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "ttc",
+          "stationName": "Sheppard West",
+          "stationId": "sheppard-west"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "Sheppard West"
+        }
+      ]
+    },
+    {
+      "id": "ttc-go-dundas-west-bloor",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": 95,
+          "dy": 45
+        },
+        "go": {
+          "dx": 10,
+          "dy": -30
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Bloor",
+          "stationId": "bloor",
+          "walkingMarkers": {
+            "ttc": {
+              "dx": 45,
+              "dy": 45,
+              "label": "Bloor GO"
+            }
+          }
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "Dundas West",
+          "stationId": "dundas-west"
+        }
+      ]
+    },
+    {
+      "id": "go-ttc-mainstreet",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": -50,
+          "dy": 45
+        },
+        "go": {
+          "dx": 20,
+          "dy": 20
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Danforth",
+          "stationId": "danforth",
+          "walkingMarkers": {
+            "ttc": {
+              "dx": 0,
+              "dy": 45,
+              "label": "Danforth GO"
+            }
+          }
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "Main Street",
+          "stationId": "main-street"
+        }
+      ]
+    },
+    {
+      "id": "go-ttc-kennedy",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": 0,
+          "dy": 24
+        },
+        "go": {
+          "dx": 48,
+          "dy": -24
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Kennedy",
+          "stationId": "kennedy"
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "Kennedy",
+          "stationId": "kennedy"
+        }
+      ]
+    },
+    {
+      "id": "ttc-go-leslie-oriole",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": -50,
+          "dy": 50
+        },
+        "go": {
+          "dx": -40,
+          "dy": -25
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "ttc",
+          "stationName": "Leslie",
+          "stationId": "leslie",
+          "walkingMarkers": {
+            "go": {
+              "dx": 60,
+              "dy": -25,
+              "label": "TTC Leslie"
+            }
+          }
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Oriole",
+          "stationId": "oriole",
+          "walkingMarkers": {
+            "ttc": {
+              "dx": 0,
+              "dy": 50,
+              "label": "Oriole GO"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ttc-yrt-donmills",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": 18,
+          "dy": 24
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "ttc",
+          "stationName": "Don Mills",
+          "stationId": "don-mills"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "Don Mills",
+          "stationId": "don-mills"
+        }
+      ]
+    },
+    {
+      "id": "go-ttc-yrt-finch",
+      "badgeOffsets": {
+        "go": {
+          "dx": 0,
+          "dy": -70
+        },
+        "ttc": {
+          "dx": 0,
+          "dy": -70
+        },
+        "yrt": {
+          "dx": 0,
+          "dy": 40
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Finch"
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "Finch",
+          "stationId": "finch"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "Finch",
+          "stationId": "finch"
+        }
+      ]
+    },
+    {
+      "id": "go-ttc-union",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": 0,
+          "dy": 46
+        },
+        "go": {
+          "dx": 0,
+          "dy": 123,
+          "layout": "vertical"
+        },
+        "via": {
+          "dx": 44,
+          "dy": 94,
+          "layout": "vertical"
+        },
+        "flixbus-ca": {
+          "dx": -8,
+          "dy": -68,
+          "layout": "vertical"
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationId": "union",
+          "stationName": "Union"
+        },
+        {
+          "agencyId": "ttc",
+          "stationId": "union",
+          "stationName": "Union"
+        },
+        {
+          "agencyId": "via",
+          "stationId": "toronto",
+          "stationName": "Toronto",
+          "badgeLabel": "VIA"
+        }
+      ]
+    },
+    {
+      "id": "go-yrt-rutherford",
+      "badgeOffsets": {
+        "go": {
+          "dx": -48,
+          "dy": -24
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Rutherford",
+          "stationId": "rutherford"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "Rutherford"
+        }
+      ]
+    },
+    {
+      "id": "go-yrt-maple",
+      "badgeOffsets": {
+        "go": {
+          "dx": -48,
+          "dy": -24
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Maple",
+          "stationId": "maple"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "Maple"
+        }
+      ]
+    },
+    {
+      "id": "go-yrt-eastgwillimbury",
+      "badgeOffsets": {
+        "go": {
+          "dx": -48,
+          "dy": -24
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "East Gwillimbury",
+          "stationId": "east-gwillimbury"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "East Gwillimbury"
+        }
+      ]
+    },
+    {
+      "id": "ttc-yrt-highway407",
+      "badgeOffsets": {
+        "yrt": {
+          "dx": -48,
+          "dy": -24
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "ttc",
+          "stationName": "Highway 407",
+          "stationId": "highway-407"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "Highway 407",
+          "stationId": "highway-407"
+        }
+      ]
+    },
+    {
+      "id": "ttc-yrt-pioneervillage",
+      "endpoints": [
+        {
+          "agencyId": "ttc",
+          "stationName": "Pioneer Village",
+          "stationId": "pioneer-village"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "Pioneer Village",
+          "stationId": "pioneer-village"
+        }
+      ]
+    },
+    {
+      "id": "go-yrt-unionville",
+      "badgeOffsets": {
+        "yrt": {
+          "dx": 0,
+          "dy": -24
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Unionville",
+          "stationId": "unionville"
+        },
+        {
+          "agencyId": "yrt",
+          "stationName": "Unionville",
+          "stationId": "unionville"
+        }
+      ]
+    },
+    {
+      "id": "brampton-go-miway-ttc-humbercollege",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": 0,
+          "dy": 38,
+          "layout": "vertical"
+        },
+        "miway": {
+          "dx": 0,
+          "dy": -58,
+          "layout": "vertical"
+        },
+        "brampton": {
+          "dx": 58,
+          "dy": 0,
+          "layout": "vertical"
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "brampton",
+          "stationName": "Humber College",
+          "stationId": "humber-college"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Humber College North Campus"
+        },
+        {
+          "agencyId": "miway",
+          "stationName": "Humber College North Campus",
+          "stationId": "humber-college-north-campus"
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "Humber College",
+          "stationId": "humber-college"
+        }
+      ]
+    },
+    {
+      "id": "brampton-miway-viscount",
+      "badgeOffsets": {
+        "miway": {
+          "dx": -46,
+          "dy": 0,
+          "layout": "vertical"
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "brampton",
+          "stationName": "Viscount Station",
+          "stationId": "viscount-station"
+        },
+        {
+          "agencyId": "miway",
+          "stationName": "Viscount Station",
+          "stationId": "viscount-station"
+        }
+      ]
+    },
+    {
+      "id": "go-miway-ttc-kipling",
+      "badgeOffsets": {
+        "ttc": {
+          "dx": 0,
+          "dy": 32,
+          "layout": "vertical"
+        },
+        "go": {
+          "dx": -50,
+          "dy": 40,
+          "layout": "vertical"
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Kipling",
+          "stationId": "kipling"
+        },
+        {
+          "agencyId": "miway",
+          "stationName": "Kipling Bus Terminal",
+          "stationId": "kipling-bus-terminal"
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "Kipling",
+          "stationId": "kipling"
+        }
+      ]
+    },
+    {
+      "id": "go-milton-milton",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationId": "milton",
+          "stationName": "Milton"
+        },
+        {
+          "agencyId": "milton",
+          "stationId": "milton-go",
+          "stationName": "Milton GO"
+        }
+      ],
+      "badgeOffsets": {
+        "milton": {
+          "dx": 0,
+          "dy": -46,
+          "layout": "vertical"
+        },
+        "go": {
+          "dx": 0,
+          "dy": -50
+        }
+      }
+    },
+    {
+      "id": "brampton-go-milton-miway-lisgar",
+      "badgeOffsets": {
+        "milton": {
+          "dx": 0,
+          "dy": 28
+        },
+        "brampton": {
+          "dx": 0,
+          "dy": 14
+        },
+        "go": {
+          "dx": 0,
+          "dy": 30
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "brampton",
+          "stationName": "Lisgar",
+          "stationId": "lisgar-go"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Lisgar",
+          "stationId": "lisgar"
+        },
+        {
+          "agencyId": "milton",
+          "stationName": "Lisgar",
+          "stationId": "lisgar-go"
+        },
+        {
+          "agencyId": "miway",
+          "stationName": "Lisgar"
+        }
+      ]
+    },
+    {
+      "id": "brampton-go-miway-bramalea",
+      "badgeOffsets": {
+        "go": {
+          "dx": 28,
+          "dy": -28
+        },
+        "brampton": {
+          "dx": 46,
+          "dy": -28
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "brampton",
+          "stationName": "Bramalea",
+          "stationId": "bramalea-go"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Bramalea",
+          "stationId": "bramalea"
+        },
+        {
+          "agencyId": "miway",
+          "stationName": "Bramalea"
+        }
+      ]
+    },
+    {
+      "id": "brampton-go-mountpleasant",
+      "badgeOffsets": {
+        "go": {
+          "dx": 48,
+          "dy": -88
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "brampton",
+          "stationName": "Mount Pleasant",
+          "stationId": "mount-pleasant-go"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Mount Pleasant",
+          "stationId": "mount-pleasant"
+        }
+      ]
+    },
+    {
+      "id": "go-drt-oshawa-go",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationId": "durham-college-oshawa",
+          "stationName": "Durham College Oshawa"
+        },
+        {
+          "agencyId": "drt",
+          "stationId": "oshawa-go",
+          "stationName": "Oshawa GO"
+        }
+      ],
+      "badgeOffsets": {
+        "go": {
+          "dx": 0,
+          "dy": 30
+        }
+      }
+    },
+    {
+      "id": "go-grt-kitchener",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationId": "kitchener",
+          "stationName": "Kitchener",
+          "walkingMarkers": {
+            "grt": {
+              "dx": 78,
+              "dy": -10,
+              "label": "Kitchener GO"
+            }
+          }
+        },
+        {
+          "agencyId": "grt",
+          "stationId": "central",
+          "stationName": "Central Station"
+        }
+      ],
+      "badgeOffsets": {
+        "go": {
+          "dx": -28,
+          "dy": -44
+        },
+        "grt": {
+          "dx": 128,
+          "dy": -10
+        }
+      }
+    },
+    {
+      "id": "go-grt-universityofwaterloo",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "University of Waterloo Station"
+        },
+        {
+          "agencyId": "grt",
+          "stationId": "university-waterloo",
+          "stationName": "University of Waterloo Station"
+        }
+      ],
+      "badgeOffsets": {
+        "go": {
+          "dx": 0,
+          "dy": -24
+        },
+        "grt": {
+          "dx": -42,
+          "dy": -28
+        }
+      }
+    },
+    {
+      "id": "go-oakville-oakville",
+      "badgeOffsets": {
+        "oakville": {
+          "dx": 0,
+          "dy": -52
+        },
+        "go": {
+          "dx": -20,
+          "dy": 70
+        },
+        "via": {
+          "dx": 50,
+          "dy": 40,
+          "layout": "vertical"
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Oakville",
+          "stationId": "oakville"
+        },
+        {
+          "agencyId": "oakville",
+          "stationName": "Oakville GO",
+          "stationId": "oakville-go"
+        },
+        {
+          "agencyId": "via",
+          "stationId": "oakville",
+          "stationName": "Oakville",
+          "badgeLabel": "VIA"
+        }
+      ]
+    },
+    {
+      "id": "go-oakville-bronte",
+      "badgeOffsets": {
+        "oakville": {
+          "dx": -42,
+          "dy": 40
+        },
+        "go": {
+          "dx": 0,
+          "dy": -60
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Bronte",
+          "stationId": "bronte"
+        },
+        {
+          "agencyId": "oakville",
+          "stationName": "Bronte GO",
+          "stationId": "bronte-go"
+        }
+      ]
+    },
+    {
+      "id": "go-hamilton-westharbour",
+      "badgeOffsets": {
+        "go": {
+          "dx": 20,
+          "dy": -40
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "West Harbour",
+          "stationId": "west-harbour"
+        },
+        {
+          "agencyId": "hamilton",
+          "stationName": "West Harbour GO Station",
+          "stationId": "west-harbour-go"
+        }
+      ]
+    },
+    {
+      "id": "burlington-hamilton-king-at-james",
+      "endpoints": [
+        {
+          "agencyId": "burlington",
+          "stationId": "hamilton-king-james",
+          "stationName": "Hamilton, King at James"
+        },
+        {
+          "agencyId": "hamilton",
+          "stationName": "King at James"
+        }
+      ]
+    },
+    {
+      "id": "go-hamilton-hamilton-go-centre",
+      "badgeOffsets": {
+        "go": {
+          "dx": 0,
+          "dy": -30
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Hamilton",
+          "stationId": "hamilton"
+        },
+        {
+          "agencyId": "hamilton",
+          "stationName": "Hamilton GO Centre",
+          "stationId": "hamilton-go-centre"
+        }
+      ]
+    },
+    {
+      "id": "burlington-go-burlington",
+      "badgeOffsets": {
+        "go": {
+          "dx": 20,
+          "dy": -70
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "burlington",
+          "stationName": "Burlington GO",
+          "stationId": "burlington-go"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Burlington",
+          "stationId": "burlington"
+        }
+      ]
+    },
+    {
+      "id": "burlington-go-aldershot",
+      "badgeOffsets": {
+        "go": {
+          "dx": -10,
+          "dy": -60
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "burlington",
+          "stationName": "Aldershot GO",
+          "stationId": "aldershot-go"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Aldershot",
+          "stationId": "aldershot"
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Aldershot",
+          "stationId": "aldershot"
+        }
+      ]
+    },
+    {
+      "id": "burlington-go-appleby",
+      "badgeOffsets": {
+        "go": {
+          "dx": 0,
+          "dy": 30
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "burlington",
+          "stationName": "Appleby GO",
+          "stationId": "appleby-go"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Appleby",
+          "stationId": "appleby"
+        },
+        {
+          "agencyId": "oakville",
+          "stationName": "Appleby GO",
+          "stationId": "appleby-go"
+        }
+      ]
+    },
+    {
+      "id": "go-miway-clarkson",
+      "badgeOffsets": {
+        "go": {
+          "dx": 0,
+          "dy": 30,
+          "layout": "vertical"
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Clarkson",
+          "stationId": "clarkson"
+        },
+        {
+          "agencyId": "miway",
+          "stationName": "Clarkson GO Station",
+          "stationId": "clarkson-go-station"
+        },
+        {
+          "agencyId": "oakville",
+          "stationName": "Clarkson GO",
+          "stationId": "clarkson-go"
+        }
+      ]
+    },
+    {
+      "id": "go-miway-portcredit",
+      "badgeOffsets": {
+        "go": {
+          "dx": 0,
+          "dy": -70
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Port Credit",
+          "stationId": "port-credit"
+        },
+        {
+          "agencyId": "miway",
+          "stationName": "Port Credit GO Station",
+          "stationId": "port-credit-go-station"
+        }
+      ]
+    },
+    {
+      "id": "drt-go-whitby",
+      "badgeOffsets": {
+        "go": {
+          "dx": 0,
+          "dy": -60
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "drt",
+          "stationName": "Whitby GO",
+          "stationId": "whitby-go"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Whitby",
+          "stationId": "whitby"
+        }
+      ]
+    },
+    {
+      "id": "drt-go-ajax",
+      "badgeOffsets": {
+        "go": {
+          "dx": 0,
+          "dy": 30
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "drt",
+          "stationName": "Ajax GO",
+          "stationId": "ajax-go"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Ajax",
+          "stationId": "ajax"
+        }
+      ]
+    },
+    {
+      "id": "go-ttc-mountdennis",
+      "badgeOffsets": {
+        "go": {
+          "dx": 45.5,
+          "dy": -38
+        }
+      },
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Mount Dennis",
+          "stationId": "mount-dennis"
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "Mount Dennis",
+          "stationId": "mount-dennis"
+        }
+      ]
+    },
+    {
+      "id": "brampton-go-via-downtown",
+      "endpoints": [
+        {
+          "agencyId": "brampton",
+          "stationName": "Downtown Terminal",
+          "stationId": "downtown-terminal"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Brampton Innovation District",
+          "stationId": "brampton-innovation-district",
+          "walkingMarkers": {
+            "brampton": {
+              "dx": -20,
+              "dy": -55,
+              "label": "Brampton GO"
+            }
+          }
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Brampton",
+          "stationId": "brampton"
+        }
+      ],
+      "badgeOffsets": {
+        "brampton": {
+          "dx": -62,
+          "dy": -50,
+          "layout": "vertical"
+        },
+        "go": {
+          "dx": -62,
+          "dy": -50,
+          "layout": "vertical"
+        }
+      }
+    },
+    {
+      "id": "go-grt-via-kitchener",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Kitchener",
+          "stationId": "kitchener"
+        },
+        {
+          "agencyId": "grt",
+          "stationName": "Victoria / Kitchener Train Station"
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Kitchener",
+          "stationId": "kitchener"
+        }
+      ],
+      "badgeOffsets": {
+        "go": {
+          "dx": -40,
+          "dy": 0
+        }
+      }
+    },
+    {
+      "id": "go-ttc-via-guildwood",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Guildwood",
+          "stationId": "guildwood"
+        },
+        {
+          "agencyId": "ttc",
+          "stationName": "130 Westlake Rd - Guildwood Station"
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Guildwood",
+          "stationId": "guildwood"
+        }
+      ]
+    },
+    {
+      "id": "go-via-guelphcentral",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Guelph Central",
+          "stationId": "guelph-central"
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Guelph",
+          "stationId": "guelph"
+        },
+        {
+          "agencyId": "guelph",
+          "stationName": "Guelph Central Station",
+          "stationId": "guelph-central"
+        }
+      ],
+      "badgeOffsets": {
+        "guelph": {
+          "dx": -64,
+          "dy": -48,
+          "layout": "vertical"
+        },
+        "go": {
+          "dx": 5,
+          "dy": 56,
+          "layout": "vertical"
+        },
+        "flixbus-ca": {
+          "dx": -28,
+          "dy": 48,
+          "layout": "vertical"
+        }
+      }
+    },
+    {
+      "id": "go-via-niagarafalls",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Niagara Falls",
+          "stationId": "niagara-falls"
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Niagara Falls, ON",
+          "stationId": "niagara-falls"
+        },
+        {
+          "agencyId": "nrt",
+          "stationId": "niagara-falls-terminal",
+          "stationName": "Niagara Falls GO / VIA / Bus",
+          "feedStopIds": ["3712", "4189", "4199"]
+        }
+      ],
+      "badgeOffsets": {
+        "nrt": {
+          "dx": -60,
+          "dy": -48,
+          "layout": "vertical"
+        },
+        "go": {
+          "dx": 48,
+          "dy": 48,
+          "layout": "vertical"
+        }
+      }
+    },
+    {
+      "id": "kingston-via-kingstonvia",
+      "endpoints": [
+        {
+          "agencyId": "kingston",
+          "stationName": "Kingston Station (VIA)",
+          "stationId": "kingston-station-via"
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Kingston",
+          "stationId": "kingston"
+        }
+      ]
+    },
+    {
+      "id": "ltc-via-london",
+      "endpoints": [
+        {
+          "agencyId": "ltc",
+          "stationId": "king-wellington",
+          "stationName": "King at Wellington"
+        },
+        {
+          "agencyId": "via",
+          "stationId": "london",
+          "stationName": "London",
+          "walkingMarkers": {
+            "ltc": {
+              "dx": -70,
+              "dy": 70,
+              "label": "VIA London"
+            }
+          }
+        }
+      ],
+      "badgeOffsets": {
+        "ltc": {
+          "dx": -140,
+          "dy": 70
+        }
+      }
+    },
+    {
+      "id": "barrie-go-barrieallandaletransit",
+      "endpoints": [
+        {
+          "agencyId": "barrie",
+          "stationId": "allandale-terminal",
+          "stationName": "Barrie Allandale Transit Terminal"
+        },
+        {
+          "agencyId": "go",
+          "stationId": "allandale-waterfront",
+          "stationName": "Allandale Waterfront"
+        },
+        {
+          "agencyId": "linx",
+          "stationId": "barrie-allandale",
+          "stationName": "Barrie Allandale Station"
+        }
+      ],
+      "badgeOffsets": {
+        "go": {
+          "dx": 120,
+          "dy": 0
+        },
+        "linx": {
+          "dx": 0,
+          "dy": -28
+        }
+      }
+    },
+    {
+      "id": "barrie-go-barriesouth",
+      "endpoints": [
+        {
+          "agencyId": "barrie",
+          "stationId": "barrie-south-go",
+          "stationName": "Barrie South GO"
+        },
+        {
+          "agencyId": "go",
+          "stationId": "barrie-south",
+          "stationName": "Barrie South"
+        }
+      ],
+      "badgeOffsets": {
+        "barrie": {
+          "dx": 56,
+          "dy": 0
+        },
+        "go": {
+          "dx": 38.1,
+          "dy": 0
+        }
+      }
+    },
+    {
+      "id": "go-nrt-via-stcatharines",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationId": "st-catharines",
+          "stationName": "St Catharines"
+        },
+        {
+          "agencyId": "nrt",
+          "stationId": "st-catharines-go",
+          "stationName": "St Catharines",
+          "feedStopIds": ["4253"]
+        },
+        {
+          "agencyId": "via",
+          "stationName": "St Catharines",
+          "feedStopIds": ["185"]
+        }
+      ],
+      "badgeOffsets": {
+        "nrt": {
+          "dx": 0,
+          "dy": -36
+        },
+        "go": {
+          "dx": 49.65,
+          "dy": -28
+        }
+      }
+    },
+    {
+      "id": "go-linx-bradford",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationId": "bradford",
+          "stationName": "Bradford",
+          "feedStopIds": ["BD", "02160"]
+        },
+        {
+          "agencyId": "linx",
+          "stationId": "bradford-go",
+          "stationName": "Bradford GO Station"
+        }
+      ],
+      "badgeOffsets": {
+        "go": {
+          "dx": -120,
+          "dy": 0
+        },
+        "linx": {
+          "dx": 45.8,
+          "dy": 0
+        }
+      }
+    },
+    {
+      "id": "transit-windsor-via-windsor",
+      "endpoints": [
+        {
+          "agencyId": "transit-windsor",
+          "stationId": "wyandotte-walker",
+          "stationName": "Wyandotte at Walker"
+        },
+        {
+          "agencyId": "via",
+          "stationId": "windsor",
+          "stationName": "Windsor",
+          "walkingMarkers": {
+            "transit-windsor": {
+              "dx": 0,
+              "dy": -80,
+              "label": "VIA Windsor"
+            }
+          }
+        }
+      ],
+      "badgeOffsets": {
+        "transit-windsor": {
+          "dx": 60,
+          "dy": -80
+        }
+      }
+    },
+    {
+      "id": "brantford-go-transit-terminal",
+      "endpoints": [
+        {
+          "agencyId": "brantford",
+          "stationId": "transit-terminal",
+          "stationName": "Brantford Transit Terminal"
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Brantford Bus Terminal",
+          "feedStopIds": ["02617"]
+        }
+      ],
+      "badgeOffsets": {
+        "brantford": {
+          "dx": -120,
+          "dy": 35
+        }
+      }
+    },
+    {
+      "id": "brantford-via-market-grey",
+      "endpoints": [
+        {
+          "agencyId": "brantford",
+          "stationId": "market-grey",
+          "stationName": "Market at Grey"
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Brantford",
+          "feedStopIds": ["162"]
+        }
+      ]
+    },
+    {
+      "id": "brantford-go-colborne-park",
+      "endpoints": [
+        {
+          "agencyId": "brantford",
+          "stationName": "Colborne St E at Park Ave",
+          "feedStopIds": ["84715"]
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Colborne St. E. @ Park Ave.",
+          "feedStopIds": ["02616"]
+        }
+      ]
+    },
+    {
+      "id": "brantford-go-dalhousie-park",
+      "endpoints": [
+        {
+          "agencyId": "brantford",
+          "stationName": "Dalhousie St at Park Ave",
+          "feedStopIds": ["84759"]
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Dalhousie St. @ Park Ave.",
+          "feedStopIds": ["02615"]
+        }
+      ]
+    },
+    {
+      "id": "brantford-go-colborne-puleston",
+      "endpoints": [
+        {
+          "agencyId": "brantford",
+          "stationName": "Colborne St East at Puleston St",
+          "feedStopIds": ["84718", "84756"]
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Colborne St. E. @ Puleston St.",
+          "feedStopIds": ["02613"]
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Colborne St E. @ Kiwanis Way",
+          "feedStopIds": ["02614"]
+        }
+      ]
+    },
+    {
+      "id": "brantford-go-wayne-gretzky-chatham",
+      "endpoints": [
+        {
+          "agencyId": "brantford",
+          "stationName": "Wayne Gretzky Pkwy at Chatham St",
+          "feedStopIds": ["84892"]
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Wayne Gretzky Pkwy. @ Chatham St.",
+          "feedStopIds": ["02611", "02612"]
+        }
+      ]
+    },
+    {
+      "id": "brantford-go-wayne-gretzky-elgin",
+      "endpoints": [
+        {
+          "agencyId": "brantford",
+          "stationName": "Wayne Gretzky Pkwy at Elgin St",
+          "feedStopIds": ["84734"]
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Wayne Gretzky Pkwy. @ Elgin St.",
+          "feedStopIds": ["02609", "02610"]
+        }
+      ]
+    },
+    {
+      "id": "brantford-go-wayne-gretzky-henry",
+      "endpoints": [
+        {
+          "agencyId": "brantford",
+          "stationName": "Wayne Gretzky Pkwy at Henry St",
+          "feedStopIds": ["84735"]
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Wayne Gretzky Pkwy. @ Henry St.",
+          "feedStopIds": ["02607", "02608"]
+        }
+      ]
+    },
+    {
+      "id": "belleville-via-belleville",
+      "endpoints": [
+        {
+          "agencyId": "belleville",
+          "stationId": "via-station",
+          "stationName": "VIA Station",
+          "feedStopIds": ["STN237", "STN250"]
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Belleville",
+          "feedStopIds": ["415"]
+        }
+      ],
+      "badgeOffsets": {
+        "belleville": {
+          "dx": 40,
+          "dy": 55
+        }
+      }
+    },
+    {
+      "id": "go-peterborough-terminal",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Peterborough Bus Terminal",
+          "feedStopIds": ["02502"]
+        },
+        {
+          "agencyId": "peterborough-transit",
+          "stationId": "terminal",
+          "stationName": "Peterborough Terminal",
+          "feedStopIds": ["52678", "52679"]
+        }
+      ]
+    },
+    {
+      "id": "go-peterborough-trent",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Trent University",
+          "feedStopIds": ["02501"]
+        },
+        {
+          "agencyId": "peterborough-transit",
+          "stationId": "trent-gzowski",
+          "stationName": "Trent U - Gzowski College",
+          "feedStopIds": ["53136"]
+        }
+      ]
+    },
+    {
+      "id": "go-peterborough-fisher",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Fisher Dr. Park & Ride",
+          "feedStopIds": ["02503"]
+        },
+        {
+          "agencyId": "peterborough-transit",
+          "stationName": "Fisher GO Park & Ride",
+          "feedStopIds": ["55545", "62062"],
+          "stationId": "fisher-go"
+        }
+      ]
+    },
+    {
+      "id": "go-stratford-via-stratford",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationId": "stratford",
+          "stationName": "Stratford"
+        },
+        {
+          "agencyId": "stratford",
+          "stationId": "via-station",
+          "stationName": "Via Station",
+          "feedStopIds": ["1155"]
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Stratford",
+          "feedStopIds": ["7"]
+        }
+      ],
+      "badgeOffsets": {
+        "stratford": {
+          "dx": 12,
+          "dy": 28
+        }
+      }
+    },
+    {
+      "id": "north-bay-ontario-northland-northgateshoppingcentre",
+      "endpoints": [
+        {
+          "agencyId": "north-bay",
+          "stationName": "The Station",
+          "feedStopIds": ["STOP1304"]
+        },
+        {
+          "agencyId": "ontario-northland",
+          "stationId": "north-bay",
+          "stationName": "North Bay"
+        }
+      ]
+    },
+    {
+      "id": "cornwall-via-pittemma",
+      "endpoints": [
+        {
+          "agencyId": "cornwall",
+          "stationId": "pitt-emma",
+          "stationName": "Pitt & Emma",
+          "feedStopIds": ["636"],
+          "walkingMarkers": {
+            "via": {
+              "dx": 0,
+              "dy": 72,
+              "label": "Pitt & Emma (walk)"
+            }
+          }
+        },
+        {
+          "agencyId": "via",
+          "stationId": "cornwall",
+          "stationName": "Cornwall"
+        }
+      ],
+      "badgeOffsets": {
+        "cornwall": {
+          "dx": 50,
+          "dy": 0
+        },
+        "via": {
+          "dx": 68.9,
+          "dy": 72
+        }
+      }
+    },
+    {
+      "id": "ontario-northland-orillia-downtownterminal",
+      "endpoints": [
+        {
+          "agencyId": "orillia",
+          "stationName": "Downtown Terminal",
+          "stationId": "terminal"
+        },
+        {
+          "agencyId": "ontario-northland",
+          "stationName": "ORILLIA TRANSIT",
+          "feedStopIds": ["301"]
+        }
+      ],
+      "badgeOffsets": {
+        "orillia": {
+          "dx": 100,
+          "dy": 30
+        }
+      }
+    },
+    {
+      "id": "go-orangeville-townlinemillstreet",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Townline @ Mill St. (Orangeville) Park & Ride",
+          "feedStopIds": ["00349"]
+        },
+        {
+          "agencyId": "orangeville",
+          "stationName": "Townline @ Mill Street",
+          "stationId": "townline-mill"
+        }
+      ],
+      "badgeOffsets": {
+        "orangeville": {
+          "dx": 20,
+          "dy": -65
+        }
+      }
+    },
+    {
+      "id": "go-orangeville-broadwaysecondstreet",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Broadway @ Wellington St.",
+          "feedStopIds": ["01177"]
+        },
+        {
+          "agencyId": "orangeville",
+          "stationName": "Broadway @ Second Street",
+          "stationId": "broadway-second"
+        }
+      ],
+      "badgeOffsets": {
+        "orangeville": {
+          "dx": 20,
+          "dy": -65
+        }
+      }
+    },
+    {
+      "id": "go-orangeville-broadwaydawsonroad",
+      "endpoints": [
+        {
+          "agencyId": "go",
+          "stationName": "Broadway @ Dawson Rd.",
+          "feedStopIds": ["01173"]
+        },
+        {
+          "agencyId": "orangeville",
+          "stationName": "Broadway @ Dawson Road",
+          "stationId": "broadway-dawson"
+        }
+      ]
+    },
+    {
+      "id": "ride-ck-via-chatham",
+      "endpoints": [
+        {
+          "agencyId": "ride-ck",
+          "stationId": "queen-entegrus",
+          "stationName": "Queen St at Entegrus",
+          "feedStopIds": ["5137"]
+        },
+        {
+          "agencyId": "via",
+          "stationName": "Chatham",
+          "feedStopIds": ["601"],
+          "walkingMarkers": {
+            "ride-ck": {
+              "dx": 10,
+              "dy": 110,
+              "label": "VIA Chatham (153 m walk)"
+            }
+          }
+        }
+      ],
+      "badgeOffsets": {
+        "ride-ck": {
+          "dx": 90,
+          "dy": 110
+        }
+      }
+    },
+    {
+      "id": "linx-mid-pen-huroniamall",
+      "endpoints": [
+        {
+          "agencyId": "linx",
+          "stationId": "huronia-mall",
+          "stationName": "Huronia Mall",
+          "feedStopIds": ["SCSTOP180"]
+        },
+        {
+          "agencyId": "mid-pen",
+          "stationId": "huronia-mall",
+          "stationName": "Huronia Mall",
+          "feedStopIds": ["2015"]
+        }
+      ],
+      "badgeOffsets": {
+        "mid-pen": {
+          "dx": 60,
+          "dy": 75
+        },
+        "linx": {
+          "dx": -80,
+          "dy": 50
+        }
+      }
+    },
+    {
+      "id": "linx-mid-pen-penetanguishenearena",
+      "endpoints": [
+        {
+          "agencyId": "linx",
+          "stationId": "penetanguishene-arena",
+          "stationName": "Penetanguishene Arena",
+          "feedStopIds": ["SCSTOP190"]
+        },
+        {
+          "agencyId": "mid-pen",
+          "stationId": "arena",
+          "stationName": "Thompsons /Maria",
+          "feedStopIds": ["3015"]
+        }
+      ],
+      "badgeOffsets": {
+        "mid-pen": {
+          "dx": 80,
+          "dy": -20
+        },
+        "linx": {
+          "dx": 60,
+          "dy": -40
+        }
+      }
+    },
+    {
+      "id": "linx-mid-pen-penetanguishenedowntown",
+      "endpoints": [
+        {
+          "agencyId": "linx",
+          "stationId": "penetanguishene-downtown",
+          "stationName": "Penetanguishene Downtown",
+          "feedStopIds": ["SCSTOP191"],
+          "walkingMarkers": {
+            "mid-pen": {
+              "dx": -60,
+              "dy": -50,
+              "label": "LINX Downtown"
+            }
+          }
+        },
+        {
+          "agencyId": "mid-pen",
+          "stationId": "village-square",
+          "stationName": "Village Sq Mall",
+          "feedStopIds": ["3001"]
+        }
+      ],
+      "badgeOffsets": {
+        "mid-pen": {
+          "dx": -120,
+          "dy": -50
+        },
+        "linx": {
+          "dx": -60,
+          "dy": 50
+        }
+      }
+    },
+    {
+      "id": "ontario-northland-temiskaming-hwy-65-wilson",
+      "endpoints": [
+        {
+          "agencyId": "ontario-northland",
+          "stationName": "NEW LISKEARD",
+          "stationId": "new-liskeard",
+          "feedStopIds": ["114"],
+          "walkingMarkers": {
+            "temiskaming": {
+              "dx": -65,
+              "dy": 35,
+              "label": "Ontario Northland New Liskeard"
+            }
+          }
+        },
+        {
+          "agencyId": "ontario-northland",
+          "stationName": "NEW LISKEARD",
+          "feedStopIds": ["114"],
+          "stationId": "new-liskeard",
+          "walkingMarkers": {
+            "temiskaming": {
+              "dx": -65,
+              "dy": 35,
+              "label": "Ontario Northland New Liskeard"
+            }
+          }
+        },
+        {
+          "agencyId": "temiskaming",
+          "stationId": "hwy-65-wilson",
+          "stationName": "Highway 65 & Wilson",
+          "walkingMarkers": {
+            "ontario-northland": {
+              "dx": -62,
+              "dy": -46,
+              "label": "Highway 65 & Wilson"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ontario-northland-temiskaming-georgina-little",
+      "endpoints": [
+        {
+          "agencyId": "ontario-northland",
+          "stationName": "HAILEYBURY",
+          "feedStopIds": ["168"]
+        },
+        {
+          "agencyId": "temiskaming",
+          "stationId": "georgina-little",
+          "stationName": "Georgina & Little"
+        }
+      ]
+    },
+    {
+      "id": "ontario-northland-temiskaming-hospital",
+      "endpoints": [
+        {
+          "agencyId": "ontario-northland",
+          "stationName": "TEMISKAMING HOSPITAL",
+          "feedStopIds": ["216"]
+        },
+        {
+          "agencyId": "temiskaming",
+          "stationId": "hospital",
+          "stationName": "Temiskaming Hospital"
+        }
+      ]
+    },
+    {
+      "id": "ontario-northland-temiskaming-cobalt-grandview",
+      "endpoints": [
+        {
+          "agencyId": "ontario-northland",
+          "stationName": "COBALT",
+          "feedStopIds": ["167"]
+        },
+        {
+          "agencyId": "temiskaming",
+          "stationId": "cobalt-grandview",
+          "stationName": "Cobalt – Grandview"
+        }
+      ]
+    },
+    {
+      "id": "brampton-go-miway-bramptongateway",
+      "endpoints": [
+        {
+          "agencyId": "brampton",
+          "stationName": "Brampton Gateway Terminal",
+          "stationId": "brampton-gateway-terminal",
+          "feedStopIds": [
+            "00009060",
+            "00009760",
+            "00009770",
+            "00022620",
+            "00030100",
+            "00030101",
+            "00030102",
+            "00030106",
+            "00030107",
+            "00030108",
+            "00030109",
+            "00030110",
+            "00030111",
+            "00030112",
+            "00030113",
+            "00030117",
+            "18090402"
+          ]
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Shopper's World",
+          "feedStopIds": ["00222", "00223"]
+        },
+        {
+          "agencyId": "miway",
+          "stationName": "Brampton Gateway Terminal",
+          "stationId": "brampton-gateway-terminal",
+          "feedStopIds": ["2616", "9021"]
+        }
+      ],
+      "badgeOffsets": {
+        "brampton": {
+          "dx": 25,
+          "dy": -45
+        }
+      }
+    },
+    {
+      "id": "burlington-go-hamilton-hamiltonkingatjames",
+      "endpoints": [
+        {
+          "agencyId": "burlington",
+          "stationName": "Hamilton, King at James",
+          "stationId": "hamilton-king-james",
+          "feedStopIds": ["1068", "1069", "679", "834"]
+        },
+        {
+          "agencyId": "go",
+          "stationName": "Hamilton",
+          "stationId": "hamilton",
+          "feedStopIds": ["HA"]
+        },
+        {
+          "agencyId": "hamilton",
+          "stationName": "King at John",
+          "stationId": "king-at-john",
+          "feedStopIds": [
+            "1739",
+            "1744",
+            "1768",
+            "1771",
+            "1790",
+            "1898",
+            "1914",
+            "1916",
+            "1917",
+            "1964",
+            "2088",
+            "2093",
+            "2541",
+            "355443",
+            "355762",
+            "356010",
+            "356191",
+            "356192",
+            "356193",
+            "356194",
+            "356195",
+            "356209",
+            "356219",
+            "356225",
+            "356226",
+            "356229"
+          ]
+        }
+      ],
+      "badgeOffsets": {
+        "hamilton": {
+          "dx": 0,
+          "dy": -55,
+          "layout": "vertical"
+        }
+      }
+    },
+    {
+      "id": "miway-oakville-lairdatridgeway",
+      "badgeOffsets": {
+        "miway": {
+          "dx": 8,
+          "dy": 64
+        },
+        "oakville": {
+          "dx": 64,
+          "dy": 64
+        }
+      }
+    },
+    {
+      "id": "ontario-northland-temiskaming-hwy-65-wilson",
+      "endpoints": [
+        {
+          "agencyId": "ontario-northland",
+          "stationName": "NEW LISKEARD",
+          "stationId": "new-liskeard",
+          "feedStopIds": ["114"],
+          "walkingMarkers": {
+            "temiskaming": {
+              "dx": -65,
+              "dy": 35,
+              "label": "Ontario Northland New Liskeard"
+            }
+          }
+        },
+        {
+          "agencyId": "temiskaming",
+          "stationName": "Highway 65 & Wilson",
+          "stationId": "hwy-65-wilson",
+          "feedStopIds": ["144", "223"],
+          "walkingMarkers": {
+            "ontario-northland": {
+              "dx": -62,
+              "dy": -46,
+              "label": "Highway 65 & Wilson"
+            }
+          }
+        }
+      ],
+      "badgeOffsets": {
+        "temiskaming": {
+          "dx": -103.5,
+          "dy": 0
+        },
+        "ontario-northland": {
+          "dx": 130.45,
+          "dy": -30
+        }
+      }
+    },
+    {
+      "id": "flixbus-ca-oc-transpo-ontario-northland-via-ottawavia",
+      "badgeOffsets": {
+        "via": {
+          "dx": -64,
+          "dy": -40,
+          "layout": "vertical"
+        }
+      }
+    }
+  ],
+  "exclusions": [
+    {
+      "left": {
+        "agencyId": "go",
+        "stationName": "Hamilton",
+        "stationId": "hamilton"
+      },
+      "right": {
+        "agencyId": "hamilton",
+        "stationName": "Frank A. Cooke Terminal",
+        "stationId": "frank-a-cooke-terminal"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "go",
+        "stationName": "Bramalea",
+        "stationId": "bramalea"
+      },
+      "right": {
+        "agencyId": "brampton",
+        "stationName": "Bramalea Transit Terminal",
+        "stationId": "bramalea-terminal"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "719 Notre Dame"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Azilda"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Young & Front"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Capreol"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Notre Dame",
+        "feedStopIds": ["3760", "3770"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Azilda"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "26 Main Street"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Chelmsford"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Brady"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Broadway"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Durham & Elgin"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Fire Hall"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Marion"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Marion & Edmund"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Memorial Park"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "O'Connor"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Ramsey Lake Foodmart"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Riverside",
+        "feedStopIds": ["4875"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Samaritan Centre"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Sudbury Arena"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Tom Davies Square"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "Worthington"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "gova",
+        "stationName": "YMCA"
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Sudbury",
+        "stationId": "sudbury"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationName": "Gallie Court at Quarry Ridge",
+        "feedStopIds": ["325", "326", "332"]
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "rvh",
+        "stationName": "RVH"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationName": "322 Georgian Drive",
+        "feedStopIds": ["325", "326"]
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "rvh",
+        "stationName": "RVH"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationName": "Georgian at Govenors",
+        "feedStopIds": ["329"]
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "georgian-college",
+        "stationName": "Georgian College"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationName": "Grizzlies Way at Duckworth",
+        "feedStopIds": ["327", "328"]
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "georgian-college",
+        "stationName": "Georgian College"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationName": "314 Georgian Drive",
+        "feedStopIds": ["325"]
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "rvh",
+        "stationName": "RVH"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationName": "RVH Main Entrance"
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "rvh",
+        "stationName": "RVH"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationName": "RVH (Atrium Entrance)"
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "rvh",
+        "stationName": "RVH"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationName": "RVH Atrium Entrance"
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "rvh",
+        "stationName": "RVH"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationName": "Georgian College",
+        "feedStopIds": ["330", "331", "335"]
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "georgian-college",
+        "stationName": "Georgian College"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationId": "georgian-college",
+        "stationName": "Georgian College"
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "georgian-college",
+        "stationName": "Georgian College"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "barrie",
+        "stationId": "royal-victoria-hospital",
+        "stationName": "Royal Victoria Hospital"
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationId": "rvh",
+        "stationName": "RVH"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "go",
+        "stationName": "Keele St. @ Station Rd. (King City GO)",
+        "feedStopIds": ["00027", "00030"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "yrt",
+        "stationName": "KEELE ST / STATION RD",
+        "feedStopIds": ["4531"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "COLDWATER",
+        "feedStopIds": ["147"]
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationName": "Coldwater Rd",
+        "stationId": "coldwater"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "ORILLIA MEMORIAL AVENUE",
+        "feedStopIds": ["300"]
+      },
+      "right": {
+        "agencyId": "linx",
+        "stationName": "Memorial Avenue at OPP",
+        "stationId": "memorial-opp"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "Sault Ste. Marie",
+        "stationId": "sault-ste-marie"
+      },
+      "right": {
+        "agencyId": "sault-ste-marie",
+        "stationName": "INDUSTRIAL PARK CRES @ INDUSTRIAL COURT A",
+        "feedStopIds": ["280"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "GOGAMA",
+        "feedStopIds": ["121"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Gogama",
+        "feedStopIds": ["74"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "Washago",
+        "feedStopIds": ["151"]
+      },
+      "right": {
+        "agencyId": "via",
+        "stationName": "Washago",
+        "stationId": "washago"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "go",
+        "stationName": "King City",
+        "stationId": "king-city"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "yrt",
+        "stationName": "KEELE ST / BURTON GRV",
+        "feedStopIds": ["4530", "4531", "4538", "7229"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "Sault Ste. Marie",
+        "stationId": "sault-ste-marie"
+      },
+      "right": {
+        "agencyId": "sault-ste-marie",
+        "stationName": "DRIVE IN ROAD @ INDUSTRIAL PARK CRES",
+        "feedStopIds": ["281"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "go",
+        "stationName": "Keele St. @ Station Rd. (King City GO)",
+        "feedStopIds": ["00027"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "go",
+        "stationName": "Keele St. @ Burton Grove (King City GO)",
+        "feedStopIds": ["00030"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "go",
+        "stationName": "King City GO",
+        "feedStopIds": ["KC"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "yrt",
+        "stationName": "KEELE ST / ELIZABETH GR",
+        "feedStopIds": ["4530"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "yrt",
+        "stationName": "KEELE ST / STATION RD",
+        "feedStopIds": ["4531"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "yrt",
+        "stationName": "KEELE ST / BURTON GRV",
+        "feedStopIds": ["4538"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationName": "King City",
+        "feedStopIds": ["229"]
+      },
+      "right": {
+        "agencyId": "yrt",
+        "stationName": "KEELE ST / SCULPTORS GT",
+        "feedStopIds": ["7229"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "orangeville",
+        "stationName": "Fourth Avenue",
+        "stationId": "fourth-avenue"
+      },
+      "right": {
+        "agencyId": "go",
+        "stationName": "Hwy. 10 @ 4th Ave.",
+        "feedStopIds": ["01279"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "orangeville",
+        "stationName": "Transit Hub (Center St)",
+        "stationId": "transit-hub"
+      },
+      "right": {
+        "agencyId": "go",
+        "stationName": "Broadway @ Centre St.",
+        "feedStopIds": ["01172"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "linx",
+        "stationId": "midland-georgian",
+        "stationName": "Midland Georgian College",
+        "feedStopIds": ["SCSTOP600", "SCSTOP604", "SCSTOP605"]
+      },
+      "right": {
+        "agencyId": "mid-pen",
+        "stationId": "walmart",
+        "stationName": "Wal-Mart",
+        "feedStopIds": ["1005"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "linx",
+        "stationId": "penetanguishene-arena",
+        "stationName": "Penetanguishene Arena"
+      },
+      "right": {
+        "agencyId": "mid-pen",
+        "stationId": "village-square",
+        "stationName": "Village Square Mall"
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationId": "winnipeg",
+        "stationName": "Winnipeg"
+      },
+      "right": {
+        "agencyId": "winnipeg",
+        "stationName": "Eastbound Logan at Lulu",
+        "feedStopIds": ["10335"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationId": "winnipeg",
+        "stationName": "Winnipeg"
+      },
+      "right": {
+        "agencyId": "winnipeg",
+        "stationName": "Westbound Logan at Lulu",
+        "feedStopIds": ["10336"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationId": "winnipeg",
+        "stationName": "Winnipeg"
+      },
+      "right": {
+        "agencyId": "winnipeg",
+        "stationName": "Westbound Logan at Chambers",
+        "feedStopIds": ["10337"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationId": "winnipeg",
+        "stationName": "Winnipeg"
+      },
+      "right": {
+        "agencyId": "winnipeg",
+        "stationName": "Eastbound Logan at Sherbrook",
+        "feedStopIds": ["10338"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationId": "winnipeg",
+        "stationName": "Winnipeg"
+      },
+      "right": {
+        "agencyId": "winnipeg",
+        "stationName": "Eastbound Logan at Gunnell",
+        "feedStopIds": ["10339"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationId": "winnipeg",
+        "stationName": "Winnipeg"
+      },
+      "right": {
+        "agencyId": "winnipeg",
+        "stationName": "Westbound Logan at Gunnell",
+        "feedStopIds": ["10340"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationId": "winnipeg",
+        "stationName": "Winnipeg"
+      },
+      "right": {
+        "agencyId": "winnipeg",
+        "stationName": "Eastbound William at Sherbrook",
+        "feedStopIds": ["11102"]
+      }
+    },
+    {
+      "left": {
+        "agencyId": "ontario-northland",
+        "stationId": "winnipeg",
+        "stationName": "Winnipeg"
+      },
+      "right": {
+        "agencyId": "winnipeg",
+        "stationName": "Westbound William at Sherbrook",
+        "feedStopIds": ["11103"]
+      }
+    }
+  ]
+}

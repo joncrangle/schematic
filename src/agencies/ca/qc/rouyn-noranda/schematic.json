@@ -1,0 +1,404 @@
+{
+  "viewBoxWidth": 1450,
+  "viewBoxHeight": 1500,
+  "lines": [
+    {
+      "id": "1",
+      "name": "Circuits 1 et 1+",
+      "color": "#33BE8C",
+      "points": [
+        {
+          "x": 650,
+          "y": 120
+        },
+        {
+          "x": 650,
+          "y": 350
+        },
+        {
+          "x": 750,
+          "y": 450
+        },
+        {
+          "x": 750,
+          "y": 550
+        },
+        {
+          "x": 650,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 850
+        },
+        {
+          "x": 850,
+          "y": 1050
+        },
+        {
+          "x": 850,
+          "y": 1200
+        },
+        {
+          "x": 650,
+          "y": 1400
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Circuits 2 et 2+",
+      "color": "#FF9900",
+      "points": [
+        {
+          "x": 150,
+          "y": 450
+        },
+        {
+          "x": 350,
+          "y": 450
+        },
+        {
+          "x": 450,
+          "y": 550
+        },
+        {
+          "x": 550,
+          "y": 550
+        },
+        {
+          "x": 650,
+          "y": 650
+        },
+        {
+          "x": 650,
+          "y": 850
+        },
+        {
+          "x": 850,
+          "y": 1050
+        },
+        {
+          "x": 950,
+          "y": 1050
+        },
+        {
+          "x": 1050,
+          "y": 950
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "centre-ville",
+      "name": "Centre-ville",
+      "x": 650,
+      "y": 650,
+      "lines": ["1", "2"],
+      "label": {
+        "x": 615,
+        "y": 685,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cegep-uqat",
+      "name": "Cégep / UQAT",
+      "x": 850,
+      "y": 1050,
+      "lines": ["1", "2"],
+      "label": {
+        "x": 875,
+        "y": 1020,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "lac-dufault",
+      "name": "Lac-Dufault",
+      "x": 650,
+      "y": 120,
+      "lines": ["1"],
+      "label": {
+        "x": 650,
+        "y": 85,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "vieux-noranda",
+      "name": "Vieux-Noranda",
+      "x": 650,
+      "y": 350,
+      "lines": ["1"],
+      "label": {
+        "x": 615,
+        "y": 350,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hopital",
+      "name": "Hôpital",
+      "x": 750,
+      "y": 550,
+      "lines": ["1"],
+      "label": {
+        "x": 785,
+        "y": 550,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "avenue-chausse",
+      "name": "Avenue Chaussé",
+      "x": 850,
+      "y": 1200,
+      "lines": ["1"],
+      "label": {
+        "x": 885,
+        "y": 1200,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "granada",
+      "name": "Granada",
+      "x": 650,
+      "y": 1400,
+      "lines": ["1"],
+      "label": {
+        "x": 650,
+        "y": 1435,
+        "anchor": "middle"
+      },
+      "terminal": true
+    },
+    {
+      "id": "evain",
+      "name": "Évain",
+      "x": 150,
+      "y": 450,
+      "lines": ["2"],
+      "label": {
+        "x": 115,
+        "y": 450,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "sacre-coeur",
+      "name": "Sacré-Cœur",
+      "x": 450,
+      "y": 550,
+      "lines": ["2"],
+      "label": {
+        "x": 450,
+        "y": 515,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "montee-du-sourire",
+      "name": "Montée du Sourire",
+      "x": 1050,
+      "y": 950,
+      "lines": ["2"],
+      "label": {
+        "x": 1085,
+        "y": 950,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "x": 683,
+      "y": 230,
+      "color": "#33BE8C",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1",
+      "num": "1+",
+      "x": 773,
+      "y": 1323,
+      "color": "#33BE8C",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "x": 1023,
+      "y": 1023,
+      "color": "#FF9900",
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2+",
+      "x": 250,
+      "y": 417,
+      "color": "#FF9900",
+      "textColor": "#000000"
+    }
+  ],
+  "sequences": {
+    "1": [
+      "lac-dufault",
+      "vieux-noranda",
+      "hopital",
+      "centre-ville",
+      "cegep-uqat",
+      "avenue-chausse",
+      "granada"
+    ],
+    "2": ["evain", "sacre-coeur", "centre-ville", "cegep-uqat", "montee-du-sourire"]
+  },
+  "stationAliases": {
+    "Av. Dallaire / Rue du Terminus Ouest": "centre-ville",
+    "Boul. de l'Université / Rue Gagné": "cegep-uqat",
+    "Rue Saguenay / Rue Morin": "lac-dufault",
+    "Rue Saguenay / Rue Poirier": "lac-dufault",
+    "Av. Murdoch / Av. Québec": "vieux-noranda",
+    "Hôpital": "hopital",
+    "Avenue Chaussé": "avenue-chausse",
+    "Mtée Laframboise / Av. Granada": "granada",
+    "Rue d'Évain / Av. Payeur": "evain",
+    "Av. Murdoch / 21e Rue": "sacre-coeur",
+    "Rue Perreault Est / Montée du Sourire": "montee-du-sourire"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1430,
+      "minY": 20,
+      "maxY": 1480
+    },
+    "minZoom": 0.3,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -79.128,
+    "refLonEast": -78.987,
+    "refXWest": 150,
+    "refXEast": 1050,
+    "refLatNorth": 48.294,
+    "refLatSouth": 48.195,
+    "refYNorth": 120,
+    "refYSouth": 1400
+  },
+  "stationIndex": [
+    {
+      "id": "4856884734459904",
+      "schematicId": "avenue-chausse",
+      "name": "Avenue Chaussé",
+      "lat": 48.225608825683594,
+      "lon": -79.00659942626953,
+      "lines": ["1"],
+      "platformIds": ["4856884734459904"],
+      "departureRouteIds": ["1"]
+    },
+    {
+      "id": "cegep-uqat",
+      "schematicId": "cegep-uqat",
+      "name": "Cégep / UQAT",
+      "lat": 48.22947692871094,
+      "lon": -79.0099105834961,
+      "lines": ["1", "2"],
+      "platformIds": ["4840321327300608", "6031809948155904"],
+      "departureRouteIds": ["1", "1+", "2", "2+"]
+    },
+    {
+      "id": "centre-ville",
+      "schematicId": "centre-ville",
+      "name": "Centre-ville",
+      "lat": 48.24148178100586,
+      "lon": -79.02251434326172,
+      "lines": ["1", "2"],
+      "platformIds": [
+        "4818673215733760",
+        "5443609613565952",
+        "5473828282040320",
+        "6586283129307136"
+      ],
+      "departureRouteIds": ["1", "1+", "2", "2+"]
+    },
+    {
+      "id": "5915093557575680",
+      "schematicId": "evain",
+      "name": "Évain",
+      "lat": 48.241371154785156,
+      "lon": -79.12776184082031,
+      "lines": ["2"],
+      "platformIds": ["5915093557575680"],
+      "departureRouteIds": ["2+"]
+    },
+    {
+      "id": "4865121760313344",
+      "schematicId": "granada",
+      "name": "Granada",
+      "lat": 48.194915771484375,
+      "lon": -79.04112243652344,
+      "lines": ["1"],
+      "platformIds": ["4865121760313344"],
+      "departureRouteIds": ["1+"]
+    },
+    {
+      "id": "hopital",
+      "schematicId": "hopital",
+      "name": "Hôpital",
+      "lat": 48.242835998535156,
+      "lon": -79.0208511352539,
+      "lines": ["1"],
+      "platformIds": ["4881467248214016", "6026658537537536"],
+      "departureRouteIds": ["1", "1+"]
+    },
+    {
+      "id": "lac-dufault",
+      "schematicId": "lac-dufault",
+      "name": "Lac-Dufault",
+      "lat": 48.294097900390625,
+      "lon": -79.03882598876953,
+      "lines": ["1"],
+      "platformIds": ["4899250044403712", "4902405163450368"],
+      "departureRouteIds": ["1", "1+"]
+    },
+    {
+      "id": "4925759119425536",
+      "schematicId": "montee-du-sourire",
+      "name": "Montée du Sourire",
+      "lat": 48.23794174194336,
+      "lon": -78.9875259399414,
+      "lines": ["2"],
+      "platformIds": ["4925759119425536"],
+      "departureRouteIds": ["2", "2+"]
+    },
+    {
+      "id": "sacre-coeur",
+      "schematicId": "sacre-coeur",
+      "name": "Sacré-Cœur",
+      "lat": 48.24665451049805,
+      "lon": -79.04497528076172,
+      "lines": ["2"],
+      "platformIds": ["6031182803238912", "6048514820800512"],
+      "departureRouteIds": ["2", "2+"]
+    },
+    {
+      "id": "vieux-noranda",
+      "schematicId": "vieux-noranda",
+      "name": "Vieux-Noranda",
+      "lat": 48.247371673583984,
+      "lon": -79.02355194091797,
+      "lines": ["1"],
+      "platformIds": ["4902944500613120", "4919544704401408"],
+      "departureRouteIds": ["1", "1+"]
+    }
+  ]
+}

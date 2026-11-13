@@ -1,0 +1,920 @@
+{
+  "viewBoxWidth": 2180,
+  "viewBoxHeight": 1440,
+  "lines": [
+    {
+      "id": "90",
+      "name": "90 Express White Oaks\u2013Masonville",
+      "color": "#F89D53",
+      "points": [
+        {
+          "x": 1050,
+          "y": 1280
+        },
+        {
+          "x": 1050,
+          "y": 770
+        },
+        {
+          "x": 960,
+          "y": 680
+        },
+        {
+          "x": 960,
+          "y": 520
+        },
+        {
+          "x": 900,
+          "y": 460
+        },
+        {
+          "x": 900,
+          "y": 200
+        },
+        {
+          "x": 850,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "name": "91 Express Oxford/Wonderland\u2013Argyle",
+      "color": "#F89D53",
+      "points": [
+        {
+          "x": 280,
+          "y": 460
+        },
+        {
+          "x": 1340,
+          "y": 460
+        },
+        {
+          "x": 1440,
+          "y": 360
+        },
+        {
+          "x": 1540,
+          "y": 360
+        },
+        {
+          "x": 1700,
+          "y": 520
+        },
+        {
+          "x": 1700,
+          "y": 680
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "92 Express Masonville\u2013Victoria Hospital (weekday peaks)",
+      "color": "#F89D53",
+      "points": [
+        {
+          "x": 1120,
+          "y": 950
+        },
+        {
+          "x": 1120,
+          "y": 260
+        },
+        {
+          "x": 1010,
+          "y": 150
+        },
+        {
+          "x": 850,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "93 White Oaks\u2013Masonville via Wharncliffe/Western",
+      "color": "#F89D53",
+      "points": [
+        {
+          "x": 1050,
+          "y": 1280
+        },
+        {
+          "x": 890,
+          "y": 1280
+        },
+        {
+          "x": 650,
+          "y": 1040
+        },
+        {
+          "x": 650,
+          "y": 230
+        },
+        {
+          "x": 730,
+          "y": 150
+        },
+        {
+          "x": 850,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "name": "94 Express Argyle\u2013Natural Science (weekday peaks)",
+      "color": "#F89D53",
+      "points": [
+        {
+          "x": 1700,
+          "y": 680
+        },
+        {
+          "x": 760,
+          "y": 680
+        },
+        {
+          "x": 650,
+          "y": 570
+        },
+        {
+          "x": 650,
+          "y": 460
+        },
+        {
+          "x": 790,
+          "y": 320
+        },
+        {
+          "x": 790,
+          "y": 280
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "95 Express White Oaks\u2013Fanshawe (weekday peaks)",
+      "color": "#F89D53",
+      "points": [
+        {
+          "x": 1050,
+          "y": 1280
+        },
+        {
+          "x": 1220,
+          "y": 1280
+        },
+        {
+          "x": 1340,
+          "y": 1160
+        },
+        {
+          "x": 1340,
+          "y": 460
+        },
+        {
+          "x": 1440,
+          "y": 360
+        },
+        {
+          "x": 1540,
+          "y": 360
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "17A Byron\u2013Argyle via Oxford",
+      "color": "#6BCFF6",
+      "points": [
+        {
+          "x": 180,
+          "y": 810
+        },
+        {
+          "x": 300,
+          "y": 690
+        },
+        {
+          "x": 300,
+          "y": 590
+        },
+        {
+          "x": 430,
+          "y": 460
+        },
+        {
+          "x": 454,
+          "y": 484
+        },
+        {
+          "x": 626,
+          "y": 484
+        },
+        {
+          "x": 650,
+          "y": 460
+        },
+        {
+          "x": 674,
+          "y": 484
+        },
+        {
+          "x": 876,
+          "y": 484
+        },
+        {
+          "x": 900,
+          "y": 460
+        },
+        {
+          "x": 924,
+          "y": 484
+        },
+        {
+          "x": 1096,
+          "y": 484
+        },
+        {
+          "x": 1120,
+          "y": 460
+        },
+        {
+          "x": 1144,
+          "y": 484
+        },
+        {
+          "x": 1316,
+          "y": 484
+        },
+        {
+          "x": 1340,
+          "y": 460
+        },
+        {
+          "x": 1540,
+          "y": 460
+        },
+        {
+          "x": 1540,
+          "y": 360
+        },
+        {
+          "x": 1800,
+          "y": 620
+        },
+        {
+          "x": 1800,
+          "y": 680
+        },
+        {
+          "x": 1700,
+          "y": 680
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "36/36A Fanshawe\u2013Airport (weekdays)",
+      "color": "#B6DA9B",
+      "points": [
+        {
+          "x": 1540,
+          "y": 360
+        },
+        {
+          "x": 1760,
+          "y": 360
+        },
+        {
+          "x": 1900,
+          "y": 220
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "masonville-place",
+      "name": "Masonville Place",
+      "x": 850,
+      "y": 150,
+      "lines": ["90", "92", "93"],
+      "terminal": true,
+      "label": {
+        "x": 850,
+        "y": 110,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "western-elgin",
+      "name": "Western at Elgin",
+      "x": 650,
+      "y": 280,
+      "lines": ["93"],
+      "terminal": false,
+      "label": {
+        "x": 610,
+        "y": 280,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "natural-science",
+      "name": "Natural Science",
+      "x": 790,
+      "y": 280,
+      "lines": ["94"],
+      "terminal": true,
+      "label": {
+        "x": 790,
+        "y": 240,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "oxford-wharncliffe",
+      "name": "Oxford at Wharncliffe",
+      "x": 650,
+      "y": 460,
+      "lines": ["91", "93", "94", "17"],
+      "terminal": false,
+      "label": {
+        "x": 610,
+        "y": 420,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "oxford-richmond",
+      "name": "Oxford at Richmond",
+      "x": 900,
+      "y": 460,
+      "lines": ["90", "91", "17"],
+      "terminal": false,
+      "label": {
+        "x": 890,
+        "y": 500,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "oxford-adelaide",
+      "name": "Oxford at Adelaide",
+      "x": 1120,
+      "y": 460,
+      "lines": ["91", "92", "17"],
+      "terminal": false,
+      "label": {
+        "x": 1150,
+        "y": 440,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "oxford-highbury",
+      "name": "Oxford at Highbury",
+      "x": 1340,
+      "y": 460,
+      "lines": ["91", "95", "17"],
+      "terminal": false,
+      "label": {
+        "x": 1355,
+        "y": 500,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "fanshawe-college",
+      "name": "Fanshawe College",
+      "x": 1540,
+      "y": 360,
+      "lines": ["91", "95", "17", "36"],
+      "terminal": true,
+      "label": {
+        "x": 1540,
+        "y": 310,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "argyle-mall",
+      "name": "Argyle Mall",
+      "x": 1700,
+      "y": 680,
+      "lines": ["91", "94", "17"],
+      "terminal": true,
+      "label": {
+        "x": 1700,
+        "y": 720,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "london-airport",
+      "name": "London Airport",
+      "x": 1900,
+      "y": 220,
+      "lines": ["36"],
+      "terminal": true,
+      "label": {
+        "x": 1935,
+        "y": 220,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "king-wellington",
+      "name": "King at Wellington",
+      "x": 960,
+      "y": 680,
+      "lines": ["90", "94"],
+      "terminal": false,
+      "label": {
+        "x": 930,
+        "y": 650,
+        "anchor": "end",
+        "rot": 0
+      },
+      "accessible": true
+    },
+    {
+      "id": "victoria-hospital",
+      "name": "Victoria Hospital, Zone A",
+      "x": 1120,
+      "y": 950,
+      "lines": ["92"],
+      "terminal": true,
+      "label": {
+        "x": 1160,
+        "y": 950,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "highview-wharncliffe",
+      "name": "Highview at Wharncliffe",
+      "x": 650,
+      "y": 1040,
+      "lines": ["93"],
+      "terminal": false,
+      "label": {
+        "x": 610,
+        "y": 1040,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "white-oaks-mall",
+      "name": "White Oaks Mall",
+      "x": 1050,
+      "y": 1280,
+      "lines": ["90", "93", "95"],
+      "terminal": true,
+      "label": {
+        "x": 1090,
+        "y": 1300,
+        "anchor": "start"
+      },
+      "accessible": true
+    },
+    {
+      "id": "oxford-wonderland",
+      "name": "Oxford at Wonderland",
+      "x": 430,
+      "y": 460,
+      "lines": ["91", "17"],
+      "terminal": false,
+      "label": {
+        "x": 500,
+        "y": 500,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "capulet-oxford",
+      "name": "Capulet at Oxford",
+      "x": 280,
+      "y": 460,
+      "lines": ["91"],
+      "terminal": true,
+      "label": {
+        "x": 240,
+        "y": 460,
+        "anchor": "end"
+      },
+      "accessible": true
+    },
+    {
+      "id": "byron-baseline-griffith",
+      "name": "Byron Baseline at Griffith",
+      "x": 180,
+      "y": 810,
+      "lines": ["17"],
+      "terminal": true,
+      "label": {
+        "x": 180,
+        "y": 845,
+        "anchor": "middle"
+      },
+      "accessible": true
+    },
+    {
+      "id": "boler-commissioners",
+      "name": "Boler at Commissioners",
+      "x": 300,
+      "y": 690,
+      "lines": ["17"],
+      "terminal": false,
+      "label": {
+        "x": 260,
+        "y": 690,
+        "anchor": "end"
+      },
+      "accessible": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "90",
+      "num": "90",
+      "x": 1018,
+      "y": 1050,
+      "color": "#F89D53",
+      "textColor": "#000000"
+    },
+    {
+      "line": "91",
+      "num": "91",
+      "x": 1480,
+      "y": 392,
+      "color": "#F89D53",
+      "textColor": "#000000"
+    },
+    {
+      "line": "92",
+      "num": "92",
+      "x": 1152,
+      "y": 760,
+      "color": "#F89D53",
+      "textColor": "#000000"
+    },
+    {
+      "line": "93",
+      "num": "93",
+      "x": 618,
+      "y": 850,
+      "color": "#F89D53",
+      "textColor": "#000000"
+    },
+    {
+      "line": "94",
+      "num": "94",
+      "x": 1470,
+      "y": 712,
+      "color": "#F89D53",
+      "textColor": "#000000"
+    },
+    {
+      "line": "95",
+      "num": "95",
+      "x": 1372,
+      "y": 920,
+      "color": "#F89D53",
+      "textColor": "#000000"
+    },
+    {
+      "line": "17",
+      "num": "17",
+      "x": 337.63,
+      "y": 597.63,
+      "color": "#6BCFF6",
+      "textColor": "#000000"
+    },
+    {
+      "line": "36",
+      "num": "36",
+      "x": 1680,
+      "y": 328,
+      "color": "#B6DA9B",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 2180,
+      "minY": 30,
+      "maxY": 1400
+    },
+    "minZoom": 0.25,
+    "maxZoom": 4
+  },
+  "geoProjection": {
+    "refLonWest": -81.339778,
+    "refLonEast": -81.148702,
+    "refXWest": 180,
+    "refXEast": 1900,
+    "refLatNorth": 43.025883,
+    "refLatSouth": 42.93208,
+    "refYNorth": 150,
+    "refYSouth": 1280
+  },
+  "sequences": {
+    "90": ["white-oaks-mall", "king-wellington", "oxford-richmond", "masonville-place"],
+    "91": [
+      "capulet-oxford",
+      "oxford-wonderland",
+      "oxford-wharncliffe",
+      "oxford-richmond",
+      "oxford-adelaide",
+      "oxford-highbury",
+      "fanshawe-college",
+      "argyle-mall"
+    ],
+    "92": ["victoria-hospital", "oxford-adelaide", "masonville-place"],
+    "93": [
+      "white-oaks-mall",
+      "highview-wharncliffe",
+      "oxford-wharncliffe",
+      "western-elgin",
+      "masonville-place"
+    ],
+    "94": ["argyle-mall", "king-wellington", "oxford-wharncliffe", "natural-science"],
+    "95": ["white-oaks-mall", "oxford-highbury", "fanshawe-college"],
+    "17": [
+      "byron-baseline-griffith",
+      "boler-commissioners",
+      "oxford-wonderland",
+      "oxford-wharncliffe",
+      "oxford-richmond",
+      "oxford-adelaide",
+      "oxford-highbury",
+      "fanshawe-college",
+      "argyle-mall"
+    ],
+    "36": ["fanshawe-college", "london-airport"]
+  },
+  "stationAliases": {
+    "code:1140": "masonville-place",
+    "code:1141": "masonville-place",
+    "code:1142": "masonville-place",
+    "code:1143": "masonville-place",
+    "code:1144": "masonville-place",
+    "code:1145": "masonville-place",
+    "code:1988": "western-elgin",
+    "code:2889": "western-elgin",
+    "code:1222": "natural-science",
+    "code:1358": "oxford-wharncliffe",
+    "code:1359": "oxford-wharncliffe",
+    "code:2046": "oxford-wharncliffe",
+    "code:2047": "oxford-wharncliffe",
+    "code:1333": "oxford-richmond",
+    "code:1334": "oxford-richmond",
+    "code:1494": "oxford-richmond",
+    "code:1495": "oxford-richmond",
+    "code:1260": "oxford-adelaide",
+    "code:1261": "oxford-adelaide",
+    "code:67": "oxford-adelaide",
+    "code:68": "oxford-adelaide",
+    "code:1308": "oxford-highbury",
+    "code:1309": "oxford-highbury",
+    "code:922": "oxford-highbury",
+    "code:2331": "fanshawe-college",
+    "code:2223": "fanshawe-college",
+    "code:2224": "fanshawe-college",
+    "code:2914": "fanshawe-college",
+    "code:166": "argyle-mall",
+    "code:167": "argyle-mall",
+    "code:2179": "london-airport",
+    "code:1939": "king-wellington",
+    "code:2916": "king-wellington",
+    "code:2284": "victoria-hospital",
+    "code:949": "highview-wharncliffe",
+    "code:951": "highview-wharncliffe",
+    "code:2061": "white-oaks-mall",
+    "code:2062": "white-oaks-mall",
+    "code:2060": "white-oaks-mall",
+    "code:2063": "white-oaks-mall",
+    "code:2295": "white-oaks-mall",
+    "code:2296": "white-oaks-mall",
+    "code:1363": "oxford-wonderland",
+    "code:1364": "oxford-wonderland",
+    "code:2390": "capulet-oxford",
+    "code:318": "byron-baseline-griffith",
+    "code:277": "boler-commissioners",
+    "code:843": "boler-commissioners"
+  },
+  "stationIndex": [
+    {
+      "id": "argyle-mall",
+      "schematicId": "argyle-mall",
+      "name": "Argyle Mall",
+      "lat": 43.00273,
+      "lon": -81.17363,
+      "lines": ["17", "91", "94"],
+      "platformIds": ["ARGYMAL1", "ARGYMAL2"],
+      "departureRouteIds": ["02", "03", "05", "07", "17", "35", "37", "38", "91", "94"]
+    },
+    {
+      "id": "boler-commissioners",
+      "schematicId": "boler-commissioners",
+      "name": "Boler at Commissioners",
+      "lat": 42.960072,
+      "lon": -81.332683,
+      "lines": ["17"],
+      "platformIds": ["BOLECOM3", "HALLCOMM"],
+      "departureRouteIds": ["17"]
+    },
+    {
+      "id": "BYBAGRIF",
+      "schematicId": "byron-baseline-griffith",
+      "name": "Byron Baseline at Griffith",
+      "lat": 42.952315,
+      "lon": -81.339778,
+      "lines": ["17"],
+      "platformIds": ["BYBAGRIF"],
+      "departureRouteIds": ["17"]
+    },
+    {
+      "id": "CAPUOXFO",
+      "schematicId": "capulet-oxford",
+      "name": "Capulet at Oxford",
+      "lat": 42.98373,
+      "lon": -81.2966,
+      "lines": ["91"],
+      "platformIds": ["CAPUOXFO"],
+      "departureRouteIds": ["27", "91"]
+    },
+    {
+      "id": "fanshawe-college",
+      "schematicId": "fanshawe-college",
+      "name": "Fanshawe College",
+      "lat": 43.011645,
+      "lon": -81.199162,
+      "lines": ["17", "36", "91", "95"],
+      "platformIds": ["FANCOLL1", "FANCOLL2", "FANCOLL3", "FANSCOLL"],
+      "departureRouteIds": ["04", "104", "17", "20", "25", "27", "36", "91", "95"]
+    },
+    {
+      "id": "highview-wharncliffe",
+      "schematicId": "highview-wharncliffe",
+      "name": "Highview at Wharncliffe",
+      "lat": 42.953793,
+      "lon": -81.259268,
+      "lines": ["93"],
+      "platformIds": ["HIGVWHA1", "HIGVWHA4"],
+      "departureRouteIds": ["93"]
+    },
+    {
+      "id": "king-wellington",
+      "schematicId": "king-wellington",
+      "name": "King at Wellington",
+      "lat": 42.983595,
+      "lon": -81.244957,
+      "lines": ["90", "94"],
+      "platformIds": ["KINGWEL2", "WELLDUN3"],
+      "departureRouteIds": [
+        "01",
+        "02",
+        "03",
+        "05",
+        "07",
+        "09",
+        "106",
+        "12",
+        "13",
+        "19",
+        "20",
+        "90",
+        "94"
+      ]
+    },
+    {
+      "id": "YXUTERM",
+      "schematicId": "london-airport",
+      "name": "London Airport",
+      "lat": 43.027719,
+      "lon": -81.148702,
+      "lines": ["36"],
+      "platformIds": ["YXUTERM"],
+      "departureRouteIds": ["36"]
+    },
+    {
+      "id": "masonville-place",
+      "schematicId": "masonville-place",
+      "name": "Masonville Place",
+      "lat": 43.025446,
+      "lon": -81.281591,
+      "lines": ["90", "92", "93"],
+      "platformIds": ["MASOSTO1", "MASOSTO2", "MASOSTO3", "MASOSTO4", "MASOSTO5", "MASOSTO6"],
+      "departureRouteIds": ["10", "13", "16", "25", "34", "90", "92", "93"]
+    },
+    {
+      "id": "NATSCI",
+      "schematicId": "natural-science",
+      "name": "Natural Science",
+      "lat": 43.010172,
+      "lon": -81.273174,
+      "lines": ["94"],
+      "platformIds": ["NATSCI"],
+      "departureRouteIds": ["02", "102", "106", "127", "27", "34", "94"]
+    },
+    {
+      "id": "oxford-adelaide",
+      "schematicId": "oxford-adelaide",
+      "name": "Oxford at Adelaide",
+      "lat": 43.00054,
+      "lon": -81.23728,
+      "lines": ["17", "91", "92"],
+      "platformIds": ["ADELOXF1", "ADELOXF2", "OXFOADE1", "OXFOADE2"],
+      "departureRouteIds": ["04", "104", "16", "17", "91", "92"]
+    },
+    {
+      "id": "oxford-highbury",
+      "schematicId": "oxford-highbury",
+      "name": "Oxford at Highbury",
+      "lat": 43.007636,
+      "lon": -81.20895,
+      "lines": ["17", "91", "95"],
+      "platformIds": ["HIGBOXF1", "OXFOHIG2", "OXFOHIG3"],
+      "departureRouteIds": ["04", "10", "104", "17", "20", "91", "95"]
+    },
+    {
+      "id": "oxford-richmond",
+      "schematicId": "oxford-richmond",
+      "name": "Oxford at Richmond",
+      "lat": 42.995586,
+      "lon": -81.252763,
+      "lines": ["17", "90", "91"],
+      "platformIds": ["OXFORIC1", "OXFORIC2", "RICHOXF1", "RICHOXF2"],
+      "departureRouteIds": ["04", "06", "102", "104", "106", "13", "15", "17", "90", "91"]
+    },
+    {
+      "id": "oxford-wharncliffe",
+      "schematicId": "oxford-wharncliffe",
+      "name": "Oxford at Wharncliffe",
+      "lat": 42.992073,
+      "lon": -81.264464,
+      "lines": ["17", "91", "93", "94"],
+      "platformIds": ["OXFOWHA1", "OXFOWHA2", "WHAROXF1", "WHAROXF2"],
+      "departureRouteIds": ["02", "102", "106", "17", "91", "93", "94"]
+    },
+    {
+      "id": "oxford-wonderland",
+      "schematicId": "oxford-wonderland",
+      "name": "Oxford at Wonderland",
+      "lat": 42.984173,
+      "lon": -81.29128,
+      "lines": ["17", "91"],
+      "platformIds": ["OXFOWON1", "OXFOWON2"],
+      "departureRouteIds": ["17", "33", "91"]
+    },
+    {
+      "id": "VICZONC",
+      "schematicId": "victoria-hospital",
+      "name": "Victoria Hospital, Zone A",
+      "lat": 42.959493,
+      "lon": -81.226954,
+      "lines": ["92"],
+      "platformIds": ["VICZONC"],
+      "departureRouteIds": ["06", "24", "92"]
+    },
+    {
+      "id": "western-elgin",
+      "schematicId": "western-elgin",
+      "name": "Western at Elgin",
+      "lat": 43.01092,
+      "lon": -81.27721,
+      "lines": ["93"],
+      "platformIds": ["WESTELG1", "WESTELG3"],
+      "departureRouteIds": ["102", "34", "93"]
+    },
+    {
+      "id": "white-oaks-mall",
+      "schematicId": "white-oaks-mall",
+      "name": "White Oaks Mall",
+      "lat": 42.93208,
+      "lon": -81.22315,
+      "lines": ["90", "93", "95"],
+      "platformIds": ["WHITOMA1", "WHITOMA2", "WHITOMA3", "WHITOMA4", "WHOKMANB", "WHOKMASB"],
+      "departureRouteIds": ["04", "10", "13", "28", "30", "90", "93", "95"]
+    }
+  ]
+}

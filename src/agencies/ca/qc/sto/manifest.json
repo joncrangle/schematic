@@ -1,0 +1,158 @@
+{
+  "id": "sto",
+  "name": "Société de transport de l'Outaouais",
+  "shortName": "STO",
+  "serviceArea": "Gatineau et centre-ville d’Ottawa",
+  "locale": "fr-CA",
+  "timezone": "America/Toronto",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Société de transport de l'Outaouais (STO)",
+    "url": "https://www.sto.ca/affaires/espace-developpeurs-donnees-ouvertes/conditions-dutilisation-donnees-ouvertes-et-cle-api-de-la-sto/",
+    "license": "Le présent service intègre les données ouvertes fournies par la Société de transport de l'Outaouais (STO). La STO n'est pas responsable de l'exactitude de l'information générée par cette application. Dernière mise à jour : 2026-11-10.",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "url": "https://contenu.sto.ca/GTFS/GTFS.zip",
+        "cacheFileName": "sto-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#0096AD",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "brandColor": "#0096AD",
+  "bounds": [
+    {
+      "minLat": 45.425,
+      "maxLat": 45.6,
+      "minLon": -75.895,
+      "maxLon": -75.385
+    },
+    {
+      "minLat": 45.425,
+      "maxLat": 45.48,
+      "minLon": -75.78,
+      "maxLon": -75.695
+    },
+    {
+      "minLat": 45.44,
+      "maxLat": 45.525,
+      "minLon": -75.73,
+      "maxLon": -75.58
+    },
+    {
+      "minLat": 45.378,
+      "maxLat": 45.45,
+      "minLon": -75.895,
+      "maxLon": -75.78
+    },
+    {
+      "minLat": 45.38,
+      "maxLat": 45.45,
+      "minLon": -75.9,
+      "maxLon": -75.385
+    }
+  ],
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "format": "protobuf",
+        "url": "https://gtfs.sto.ca/download.php?file=vehicule",
+        "auth": {
+          "type": "custom",
+          "scheme": "sha256-minute",
+          "keySecretName": "FEED_STO_API_KEY",
+          "secretName": "FEED_STO_API_SECRET",
+          "keyParameter": "key",
+          "signatureParameter": "hash"
+        },
+        "pollIntervalSeconds": 60
+      },
+      {
+        "kind": "trip_updates",
+        "format": "protobuf",
+        "url": "https://gtfs.sto.ca/download.php?file=trip&stream=standard",
+        "auth": {
+          "type": "custom",
+          "scheme": "sha256-minute",
+          "keySecretName": "FEED_STO_API_KEY",
+          "secretName": "FEED_STO_API_SECRET",
+          "keyParameter": "key",
+          "signatureParameter": "hash"
+        },
+        "pollIntervalSeconds": 60,
+        "emptyTripUpdates": "error"
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["100", "200", "400", "800", "20", "55"],
+  "cityPresets": [
+    {
+      "name": "Station de la CITÉ #1",
+      "lat": 45.481101,
+      "lon": -75.684227
+    },
+    {
+      "name": "TERMINUS FREEMAN",
+      "lat": 45.473557,
+      "lon": -75.740963
+    },
+    {
+      "name": "PARC-O-BUS ALLUMETTIÈRES",
+      "lat": 45.407032,
+      "lon": -75.866201
+    }
+  ],
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "format": "protobuf",
+      "url": "https://gtfs.sto.ca/download.php?file=alert",
+      "auth": {
+        "type": "custom",
+        "scheme": "sha256-minute",
+        "keySecretName": "FEED_STO_API_KEY",
+        "secretName": "FEED_STO_API_SECRET",
+        "keyParameter": "key",
+        "signatureParameter": "hash"
+      },
+      "pollIntervalSeconds": 60
+    },
+    {
+      "type": "web",
+      "parser": "heading-service-notices",
+      "url": "https://www.sto.ca/horaires-et-trajets/etat-du-reseau/",
+      "language": "fr",
+      "cloudflareMaxCrawlPages": 10
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["100", "200", "400", "800", "20", "55"],
+    "rules": [
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["detour", "détour", "arrêts non desservis", "arrêts du Plateau"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  }
+}

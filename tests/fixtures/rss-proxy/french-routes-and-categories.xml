@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel><title>Réseau fictif : mises à jour</title><link>https://transit.example.test/alerts/fr</link><description>Avis en vigueur</description>
+    <item><guid>detour-42</guid><title>Déviation : Circuits 42 et 43</title><description><![CDATA[<p>Utilisez l'arrêt temporaire &amp; le quai.</p>]]></description><pubDate>Sat, 10 Oct 2026 12:00:00 GMT</pubDate><category>Detours</category><category>affectedRoutes-42,43</category></item>
+    <item><guid>suspension-44</guid><title>Service interrompu : Circuit 44</title><content:encoded><![CDATA[<p>Aucun service entre Première et Deuxième.</p>]]></content:encoded><pubDate>Sat, 10 Oct 2026 13:00:00 GMT</pubDate><category>Service changes</category></item>
+  </channel>
+</rss>

@@ -1,0 +1,156 @@
+{
+  "id": "grande-prairie-transit",
+  "name": "Grande Prairie Transit",
+  "serviceArea": "Grande Prairie",
+  "shortName": "GP Transit",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "bounds": [
+    {
+      "minLat": 55.134,
+      "maxLat": 55.201,
+      "minLon": -118.862,
+      "maxLon": -118.756
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "attribution": {
+    "name": "City of Grande Prairie / Grande Prairie Transit / Strategic Mapping Inc.",
+    "url": "https://cityofgp.com/roads-transportation/public-transit",
+    "license": "No explicit terms were found for the Grande Prairie Transit vendor-hosted GTFS or realtime data.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Towne Centre Mall",
+      "lat": 55.16966565,
+      "lon": -118.7914868
+    },
+    {
+      "name": "Eastlink Centre",
+      "lat": 55.1447016,
+      "lon": -118.8142448
+    },
+    {
+      "name": "Prairie Mall",
+      "lat": 55.1872631,
+      "lon": -118.7898515
+    }
+  ],
+  "popularSurfaceRoutes": ["1636", "1637", "1638", "1639", "1640", "1641", "1642", "1643", "1764"],
+  "staticTopology": {
+    "source": "seed",
+    "ignoreFeedRouteColors": true,
+    "defaultColor": "#8C5A2E",
+    "defaultTextColor": "#FFFFFF",
+    "feeds": [
+      {
+        "name": "Grande Prairie Transit GTFS",
+        "url": "https://gpt.mapstrat.com/current/google_transit.zip",
+        "cacheFileName": "grande-prairie-transit.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://gpt.mapstrat.com/current/gtfrealtime_VehiclePositions.bin",
+        "format": "protobuf",
+        "accept": "application/octet-stream",
+        "pollIntervalSeconds": 15,
+        "tripDirectionSource": "static"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://gpt.mapstrat.com/current/gtfrealtime_TripUpdates.bin",
+        "format": "protobuf",
+        "accept": "application/octet-stream",
+        "pollIntervalSeconds": 15,
+        "tripDirectionSource": "static"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "parser": "mapstrat-broadcast",
+      "url": "https://gpt.mytransitride.com/api/Broadcast",
+      "language": "en"
+    },
+    {
+      "type": "web",
+      "parser": "heading-service-notices",
+      "url": "https://cityofgp.com/roads-transportation/public-transit",
+      "language": "en",
+      "routeNames": {
+        "1636": ["Route 1"],
+        "1637": ["Route 2"],
+        "1638": ["Route 3"],
+        "1639": ["Route 4"],
+        "1640": ["Route 5"],
+        "1641": ["Route 6"],
+        "1642": ["Route 7"],
+        "1643": ["Route 8"],
+        "1764": ["Route 9"]
+      }
+    }
+  ],
+  "routeShortNames": {
+    "1636": "1",
+    "1637": "2",
+    "1638": "3",
+    "1639": "4",
+    "1640": "5",
+    "1641": "6",
+    "1642": "7",
+    "1643": "8",
+    "1764": "9"
+  },
+  "alertInterpretation": {
+    "lineIds": ["1636", "1637", "1638", "1639", "1640", "1641", "1642", "1643", "1764"],
+    "routeIdNormalization": {
+      "aliases": {
+        "1": "1636",
+        "2": "1637",
+        "3": "1638",
+        "4": "1639",
+        "5": "1640",
+        "6": "1641",
+        "7": "1642",
+        "8": "1643",
+        "9": "1764",
+        "01": "1636",
+        "02": "1637",
+        "03": "1638",
+        "04": "1639",
+        "05": "1640",
+        "06": "1641",
+        "07": "1642",
+        "08": "1643",
+        "09": "1764"
+      }
+    },
+    "rules": [
+      {
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ]
+  }
+}

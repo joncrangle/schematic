@@ -1,0 +1,156 @@
+{
+  "id": "rtl",
+  "name": "Réseau de transport de Longueuil",
+  "serviceArea": "Longueuil",
+  "shortName": "RTL",
+  "locale": "fr-CA",
+  "timezone": "America/Montreal",
+  "bounds": [
+    {
+      "minLat": 45.4,
+      "maxLat": 45.56,
+      "minLon": -73.58,
+      "maxLon": -73.31
+    },
+    {
+      "minLat": 45.55,
+      "maxLat": 45.64,
+      "minLon": -73.5,
+      "maxLon": -73.31
+    },
+    {
+      "minLat": 45.56,
+      "maxLat": 45.6,
+      "minLon": -73.59,
+      "maxLon": -73.52
+    },
+    {
+      "minLat": 45.38,
+      "maxLat": 45.45,
+      "minLon": -73.56,
+      "maxLon": -73.5
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "qc"
+  },
+  "attribution": {
+    "name": "Réseau de transport de Longueuil (RTL)",
+    "url": "https://www.rtl-longueuil.qc.ca/donnees-ouvertes",
+    "license": "Données utilisées sans redevance ni exclusivité selon les conditions du RTL. Mention du RTL requise; marques et logos exclus.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Terminus Longueuil",
+      "lat": 45.52408,
+      "lon": -73.52141
+    },
+    {
+      "name": "Terminus Panama",
+      "lat": 45.4658919128232,
+      "lon": -73.4691798423217
+    },
+    {
+      "name": "Terminus Brossard",
+      "lat": 45.436900917515,
+      "lon": -73.4315403720757
+    },
+    {
+      "name": "Terminus Georges-Gagné",
+      "lat": 45.3850686351167,
+      "lon": -73.5478981538109
+    },
+    {
+      "name": "Terminus Montcalm-Candiac",
+      "lat": 45.3934462751008,
+      "lon": -73.5169767357203
+    },
+    {
+      "name": "Terminus Radisson",
+      "lat": 45.5897603319547,
+      "lon": -73.5381375802226
+    }
+  ],
+  "popularSurfaceRoutes": ["8", "73", "21", "61", "16", "901", "5", "4", "88", "71"],
+  "staticTopology": {
+    "source": "seed",
+    "additionalRouteTypes": [700],
+    "feeds": [
+      {
+        "name": "RTL jusqu’au 1 novembre 2026",
+        "url": "https://prod-rtl.xperience-sites.com/getContentAsset/e47f4eb0-747e-4b74-9101-476e19e349d9/5732c981-2af4-4485-ba0a-126fe885e64d/20261009.zip?language=fr",
+        "cacheFileName": "rtl-current.zip"
+      },
+      {
+        "name": "RTL à partir du 2 novembre 2026",
+        "url": "https://prod-rtl.xperience-sites.com/getContentAsset/ec009cc5-3e2a-41aa-b6ff-47c8bf41eabc/5732c981-2af4-4485-ba0a-126fe885e64d/20261102.zip?language=fr",
+        "cacheFileName": "rtl-next.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://rtl.chrono-saeiv.com/api/opendata/v1/RTL/vehicleposition",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "stopIdAliases": "static-code"
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://rtl.chrono-saeiv.com/api/opendata/v1/RTL/tripupdate",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "auth": {
+          "type": "header",
+          "headerName": "Ocp-Apim-Subscription-Key",
+          "secretName": "FEED_CHRONO_API_KEY"
+        },
+        "stopIdAliases": "static-code",
+        "predictionTimeSource": "static-with-delay"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://rtl.chrono-saeiv.com/api/opendata/v1/RTL/alert",
+      "auth": {
+        "type": "header",
+        "headerName": "Ocp-Apim-Subscription-Key",
+        "secretName": "FEED_CHRONO_API_KEY"
+      },
+      "stopIdAliases": "static-code"
+    }
+  ],
+  "lineIds": ["901", "8", "73", "21", "61", "4", "88"],
+  "alertInterpretation": {
+    "preserveFeedPeriods": true,
+    "rules": [
+      {
+        "priority": 10,
+        "match": {
+          "effects": ["UNKNOWN_EFFECT"]
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      }
+    ]
+  }
+}

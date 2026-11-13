@@ -1,0 +1,552 @@
+{
+  "viewBoxWidth": 1250,
+  "viewBoxHeight": 1150,
+  "lines": [
+    {
+      "id": "2-SSI",
+      "name": "Fulford Harbour",
+      "color": "#8CC63F",
+      "points": [
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 500,
+          "y": 860
+        },
+        {
+          "x": 660,
+          "y": 1020
+        }
+      ]
+    },
+    {
+      "id": "3-SSI",
+      "name": "Vesuvius",
+      "color": "#F37421",
+      "points": [
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 380,
+          "y": 380
+        },
+        {
+          "x": 300,
+          "y": 380
+        },
+        {
+          "x": 180,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "4-SSI",
+      "name": "Long Harbour",
+      "color": "#00AEEF",
+      "points": [
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 980,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "5-SSI",
+      "name": "Fernwood",
+      "color": "#ED1D8F",
+      "points": [
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 380,
+          "y": 380
+        },
+        {
+          "x": 380,
+          "y": 220
+        },
+        {
+          "x": 500,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "7-SSI",
+      "name": "Cusheon Lake",
+      "color": "#B16C08",
+      "points": [
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 660,
+          "y": 660
+        },
+        {
+          "x": 740,
+          "y": 660
+        },
+        {
+          "x": 780,
+          "y": 620
+        },
+        {
+          "x": 780,
+          "y": 580
+        },
+        {
+          "x": 700,
+          "y": 500
+        },
+        {
+          "x": 500,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "1-SSI",
+      "name": "Ganges Local",
+      "color": "#004B8D",
+      "points": [
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 340,
+          "y": 500
+        },
+        {
+          "x": 300,
+          "y": 460
+        },
+        {
+          "x": 300,
+          "y": 260
+        },
+        {
+          "x": 200,
+          "y": 160
+        },
+        {
+          "x": 100,
+          "y": 160
+        },
+        {
+          "x": 60,
+          "y": 160
+        },
+        {
+          "x": 60,
+          "y": 260
+        },
+        {
+          "x": 180,
+          "y": 380
+        },
+        {
+          "x": 180,
+          "y": 500
+        },
+        {
+          "x": 340,
+          "y": 660
+        },
+        {
+          "x": 460,
+          "y": 660
+        },
+        {
+          "x": 500,
+          "y": 620
+        },
+        {
+          "x": 500,
+          "y": 500
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "ganges",
+      "name": "Ganges Exchange",
+      "x": 500,
+      "y": 500,
+      "lines": ["2-SSI", "3-SSI", "4-SSI", "5-SSI", "7-SSI", "1-SSI"],
+      "label": {
+        "x": 528,
+        "y": 475,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "fulford",
+      "name": "Fulford Ferry",
+      "x": 660,
+      "y": 1020,
+      "lines": ["2-SSI"],
+      "label": {
+        "x": 688,
+        "y": 1025,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "burgoyne",
+      "name": "Burgoyne Bay Junction",
+      "x": 500,
+      "y": 860,
+      "lines": ["2-SSI"],
+      "label": {
+        "x": 472,
+        "y": 865,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "vesuvius",
+      "name": "Vesuvius Ferry",
+      "x": 180,
+      "y": 260,
+      "lines": ["3-SSI"],
+      "label": {
+        "x": 152,
+        "y": 265,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "central",
+      "name": "Central",
+      "x": 380,
+      "y": 380,
+      "lines": ["3-SSI", "5-SSI"],
+      "label": {
+        "x": 408,
+        "y": 355,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "long-harbour",
+      "name": "Long Harbour Ferry",
+      "x": 980,
+      "y": 500,
+      "lines": ["4-SSI"],
+      "label": {
+        "x": 1008,
+        "y": 505,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "fernwood",
+      "name": "Fernwood Dock",
+      "x": 500,
+      "y": 100,
+      "lines": ["5-SSI"],
+      "label": {
+        "x": 528,
+        "y": 105,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "cusheon",
+      "name": "Cusheon Lake Junction",
+      "x": 660,
+      "y": 660,
+      "lines": ["7-SSI"],
+      "label": {
+        "x": 632,
+        "y": 665,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "beddis",
+      "name": "Beddis & Rourke",
+      "x": 780,
+      "y": 620,
+      "lines": ["7-SSI"],
+      "label": {
+        "x": 808,
+        "y": 625,
+        "anchor": "start"
+      }
+    },
+    {
+      "id": "meadowbrook",
+      "name": "Meadowbrook",
+      "x": 300,
+      "y": 460,
+      "lines": ["1-SSI"],
+      "label": {
+        "x": 272,
+        "y": 465,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "Lady Minto Hospital",
+      "x": 300,
+      "y": 260,
+      "lines": ["1-SSI"],
+      "label": {
+        "x": 300,
+        "y": 230,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "brinkworthy",
+      "name": "Brinkworthy",
+      "x": 100,
+      "y": 160,
+      "lines": ["1-SSI"],
+      "label": {
+        "x": 100,
+        "y": 130,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "line": "2-SSI",
+      "num": "2",
+      "x": 468,
+      "y": 740,
+      "color": "#8CC63F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "3-SSI",
+      "num": "3",
+      "x": 218,
+      "y": 344,
+      "color": "#F37421",
+      "textColor": "#000000"
+    },
+    {
+      "line": "4-SSI",
+      "num": "4",
+      "x": 850,
+      "y": 468,
+      "color": "#00AEEF",
+      "textColor": "#000000"
+    },
+    {
+      "line": "5-SSI",
+      "num": "5",
+      "x": 463,
+      "y": 183,
+      "color": "#ED1D8F",
+      "textColor": "#000000"
+    },
+    {
+      "line": "7-SSI",
+      "num": "7",
+      "x": 732,
+      "y": 692,
+      "color": "#B16C08",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1-SSI",
+      "num": "1",
+      "x": 332,
+      "y": 280,
+      "color": "#004B8D",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "2-SSI": ["ganges", "burgoyne", "fulford"],
+    "3-SSI": ["ganges", "central", "vesuvius"],
+    "4-SSI": ["ganges", "long-harbour"],
+    "5-SSI": ["ganges", "central", "fernwood"],
+    "7-SSI": ["ganges", "cusheon", "beddis"],
+    "1-SSI": ["ganges", "meadowbrook", "hospital", "brinkworthy"]
+  },
+  "stationAliases": {
+    "code:117007": "ganges",
+    "code:117000": "fulford",
+    "code:117003": "burgoyne",
+    "code:117004": "burgoyne",
+    "code:117013": "vesuvius",
+    "code:117012": "central",
+    "code:117022": "central",
+    "code:117028": "central",
+    "code:117011": "long-harbour",
+    "code:117014": "fernwood",
+    "code:117037": "cusheon",
+    "code:117038": "beddis",
+    "code:117021": "meadowbrook",
+    "code:117039": "hospital",
+    "code:117018": "brinkworthy"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 0,
+      "maxX": 1220,
+      "minY": 30,
+      "maxY": 1100
+    },
+    "minZoom": 0.5,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -123.57247,
+    "refLonEast": -123.44576,
+    "refXWest": 180,
+    "refXEast": 980,
+    "refLatNorth": 48.91476,
+    "refLatSouth": 48.76902,
+    "refYNorth": 100,
+    "refYSouth": 1020
+  },
+  "stationIndex": [
+    {
+      "id": "117038",
+      "schematicId": "beddis",
+      "name": "Beddis & Rourke",
+      "lat": 48.82902,
+      "lon": -123.4691,
+      "lines": ["7-SSI"],
+      "platformIds": ["117038"],
+      "departureRouteIds": ["7-SSI"]
+    },
+    {
+      "id": "burgoyne",
+      "schematicId": "burgoyne",
+      "name": "Burgoyne Bay Junction",
+      "lat": 48.78725,
+      "lon": -123.50037,
+      "lines": ["2-SSI"],
+      "platformIds": ["117003", "117004"],
+      "departureRouteIds": ["2-SSI"]
+    },
+    {
+      "id": "central",
+      "schematicId": "central",
+      "name": "Central",
+      "lat": 48.87328,
+      "lon": -123.52917,
+      "lines": ["3-SSI", "5-SSI"],
+      "platformIds": ["117012", "117022", "117028"],
+      "departureRouteIds": ["3-SSI", "5-SSI", "6-SSI"]
+    },
+    {
+      "id": "117037",
+      "schematicId": "cusheon",
+      "name": "Cusheon Lake Junction",
+      "lat": 48.82333,
+      "lon": -123.47688,
+      "lines": ["7-SSI"],
+      "platformIds": ["117037"],
+      "departureRouteIds": ["7-SSI"]
+    },
+    {
+      "id": "117014",
+      "schematicId": "fernwood",
+      "name": "Fernwood Dock",
+      "lat": 48.91476,
+      "lon": -123.5335,
+      "lines": ["5-SSI"],
+      "platformIds": ["117014"],
+      "departureRouteIds": ["5-SSI", "6-SSI"]
+    },
+    {
+      "id": "117000",
+      "schematicId": "fulford",
+      "name": "Fulford Ferry",
+      "lat": 48.76902,
+      "lon": -123.4501,
+      "lines": ["2-SSI"],
+      "platformIds": ["117000"],
+      "departureRouteIds": ["2-SSI"]
+    },
+    {
+      "id": "117007",
+      "schematicId": "ganges",
+      "name": "Ganges Exchange",
+      "lat": 48.85333,
+      "lon": -123.49988,
+      "lines": ["1-SSI", "2-SSI", "3-SSI", "4-SSI", "5-SSI", "7-SSI"],
+      "platformIds": ["117007"],
+      "departureRouteIds": ["1-SSI", "2-SSI", "3-SSI", "4-SSI", "5-SSI", "6-SSI", "7-SSI"]
+    },
+    {
+      "id": "117011",
+      "schematicId": "long-harbour",
+      "name": "Long Harbour Ferry",
+      "lat": 48.85141,
+      "lon": -123.44576,
+      "lines": ["4-SSI"],
+      "platformIds": ["117011"],
+      "departureRouteIds": ["4-SSI"]
+    },
+    {
+      "id": "117013",
+      "schematicId": "vesuvius",
+      "name": "Vesuvius Ferry",
+      "lat": 48.88183,
+      "lon": -123.57247,
+      "lines": ["3-SSI"],
+      "platformIds": ["117013"],
+      "departureRouteIds": ["3-SSI", "6-SSI"]
+    },
+    {
+      "id": "117018",
+      "schematicId": "brinkworthy",
+      "name": "Brinkworthy",
+      "lat": 48.8652,
+      "lon": -123.51951,
+      "lines": ["1-SSI"],
+      "platformIds": ["117018"],
+      "departureRouteIds": ["1-SSI"]
+    },
+    {
+      "id": "117039",
+      "schematicId": "hospital",
+      "name": "Lady Minto Hospital",
+      "lat": 48.86149,
+      "lon": -123.50875,
+      "lines": ["1-SSI"],
+      "platformIds": ["117039"],
+      "departureRouteIds": ["1-SSI"]
+    },
+    {
+      "id": "117021",
+      "schematicId": "meadowbrook",
+      "name": "Meadowbrook",
+      "lat": 48.8602,
+      "lon": -123.51499,
+      "lines": ["1-SSI"],
+      "platformIds": ["117021"],
+      "departureRouteIds": ["1-SSI"]
+    }
+  ]
+}

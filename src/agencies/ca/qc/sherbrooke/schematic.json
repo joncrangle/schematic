@@ -1,0 +1,665 @@
+{
+  "viewBoxWidth": 1650,
+  "viewBoxHeight": 1160,
+  "lines": [
+    {
+      "id": "1",
+      "name": "1 Bowen – Talbot",
+      "color": "#A6D514",
+      "points": [
+        {
+          "x": 300,
+          "y": 350
+        },
+        {
+          "x": 580,
+          "y": 350
+        },
+        {
+          "x": 780,
+          "y": 550
+        },
+        {
+          "x": 800,
+          "y": 550
+        },
+        {
+          "x": 980,
+          "y": 370
+        },
+        {
+          "x": 980,
+          "y": 350
+        },
+        {
+          "x": 960,
+          "y": 350
+        },
+        {
+          "x": 760,
+          "y": 550
+        },
+        {
+          "x": 780,
+          "y": 550
+        },
+        {
+          "x": 1080,
+          "y": 550
+        },
+        {
+          "x": 1080,
+          "y": 780
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "2 Université Bishop's",
+      "color": "#90014C",
+      "points": [
+        {
+          "x": 980,
+          "y": 350
+        },
+        {
+          "x": 980,
+          "y": 330
+        },
+        {
+          "x": 760,
+          "y": 550
+        },
+        {
+          "x": 780,
+          "y": 550
+        },
+        {
+          "x": 820,
+          "y": 550
+        },
+        {
+          "x": 1120,
+          "y": 850
+        },
+        {
+          "x": 1120,
+          "y": 1000
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "8 CHUS – Fleurimont",
+      "color": "#00AC4F",
+      "points": [
+        {
+          "x": 600,
+          "y": 850
+        },
+        {
+          "x": 600,
+          "y": 730
+        },
+        {
+          "x": 780,
+          "y": 550
+        },
+        {
+          "x": 940,
+          "y": 550
+        },
+        {
+          "x": 1180,
+          "y": 310
+        },
+        {
+          "x": 1180,
+          "y": 130
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "12 Carrefour – Cégep",
+      "color": "#009D59",
+      "points": [
+        {
+          "x": 300,
+          "y": 350
+        },
+        {
+          "x": 300,
+          "y": 250
+        },
+        {
+          "x": 880,
+          "y": 250
+        },
+        {
+          "x": 980,
+          "y": 350
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "14 Université – Cégep",
+      "color": "#DA0081",
+      "points": [
+        {
+          "x": 600,
+          "y": 850
+        },
+        {
+          "x": 500,
+          "y": 750
+        },
+        {
+          "x": 500,
+          "y": 650
+        },
+        {
+          "x": 600,
+          "y": 550
+        },
+        {
+          "x": 760,
+          "y": 550
+        },
+        {
+          "x": 760,
+          "y": 530
+        },
+        {
+          "x": 940,
+          "y": 350
+        },
+        {
+          "x": 980,
+          "y": 350
+        }
+      ]
+    },
+    {
+      "id": "X800",
+      "name": "X800 King",
+      "color": "#004B5F",
+      "points": [
+        {
+          "x": 200,
+          "y": 800
+        },
+        {
+          "x": 300,
+          "y": 700
+        },
+        {
+          "x": 500,
+          "y": 700
+        },
+        {
+          "x": 650,
+          "y": 550
+        },
+        {
+          "x": 780,
+          "y": 550
+        },
+        {
+          "x": 980,
+          "y": 350
+        },
+        {
+          "x": 780,
+          "y": 550
+        },
+        {
+          "x": 1300,
+          "y": 550
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "carrefour-estrie",
+      "name": "Carrefour de l'Estrie",
+      "x": 300,
+      "y": 350,
+      "lines": ["1", "12"],
+      "label": {
+        "x": 270,
+        "y": 350,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "king-wellington",
+      "name": "King / Wellington",
+      "x": 780,
+      "y": 550,
+      "lines": ["1", "2", "8", "14", "X800"],
+      "label": {
+        "x": 750,
+        "y": 530,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "cegep",
+      "name": "Station du Cégep",
+      "x": 980,
+      "y": 350,
+      "lines": ["1", "2", "12", "14", "X800"],
+      "label": {
+        "x": 1010,
+        "y": 350,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "bowen-talbot",
+      "name": "Bowen / Talbot",
+      "x": 1080,
+      "y": 780,
+      "lines": ["1"],
+      "label": {
+        "x": 1110,
+        "y": 780,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "universite-sherbrooke",
+      "name": "Université de Sherbrooke",
+      "x": 600,
+      "y": 850,
+      "lines": ["8", "14"],
+      "label": {
+        "x": 570,
+        "y": 850,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "bishops",
+      "name": "Université Bishop's",
+      "x": 1120,
+      "y": 1000,
+      "lines": ["2"],
+      "label": {
+        "x": 1150,
+        "y": 1000,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "chus-fleurimont",
+      "name": "CHUS – Fleurimont",
+      "x": 1180,
+      "y": 130,
+      "lines": ["8"],
+      "label": {
+        "x": 1210,
+        "y": 130,
+        "anchor": "start"
+      },
+      "terminal": true
+    },
+    {
+      "id": "plaza-ouest",
+      "name": "Plaza de l'Ouest",
+      "x": 200,
+      "y": 800,
+      "lines": ["X800"],
+      "label": {
+        "x": 170,
+        "y": 800,
+        "anchor": "end"
+      },
+      "terminal": true
+    },
+    {
+      "id": "king-raby",
+      "name": "King Est / Raby",
+      "x": 1300,
+      "y": 550,
+      "lines": ["X800"],
+      "label": {
+        "x": 1330,
+        "y": 550,
+        "anchor": "start"
+      },
+      "terminal": true
+    }
+  ],
+  "badges": [
+    {
+      "line": "1",
+      "num": "1",
+      "color": "#A6D514",
+      "x": 430,
+      "y": 383,
+      "textColor": "#000000"
+    },
+    {
+      "line": "2",
+      "num": "2",
+      "color": "#90014C",
+      "x": 1153,
+      "y": 925,
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "8",
+      "num": "8",
+      "color": "#00AC4F",
+      "x": 1213,
+      "y": 230,
+      "textColor": "#000000"
+    },
+    {
+      "line": "12",
+      "num": "12",
+      "color": "#009D59",
+      "x": 550,
+      "y": 217,
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "14",
+      "num": "14",
+      "color": "#DA0081",
+      "x": 467,
+      "y": 660,
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "X800",
+      "num": "X800",
+      "color": "#004B5F",
+      "x": 390,
+      "y": 733,
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "sequences": {
+    "1": ["carrefour-estrie", "king-wellington", "cegep", "bowen-talbot"],
+    "2": ["cegep", "king-wellington", "bishops"],
+    "8": ["universite-sherbrooke", "king-wellington", "chus-fleurimont"],
+    "12": ["carrefour-estrie", "cegep"],
+    "14": ["universite-sherbrooke", "king-wellington", "cegep"],
+    "X800": ["plaza-ouest", "king-wellington", "cegep", "king-raby"]
+  },
+  "stationAliases": {
+    "code:8000": "carrefour-estrie",
+    "code:8001": "carrefour-estrie",
+    "code:8002": "carrefour-estrie",
+    "code:8003": "carrefour-estrie",
+    "code:5100": "king-wellington",
+    "code:5200": "king-wellington",
+    "code:6000": "cegep",
+    "code:6001": "cegep",
+    "code:6002": "cegep",
+    "code:6003": "cegep",
+    "code:6004": "cegep",
+    "code:6005": "cegep",
+    "code:6006": "cegep",
+    "code:6007": "cegep",
+    "code:6008": "cegep",
+    "code:6009": "cegep",
+    "code:6010": "cegep",
+    "code:6011": "cegep",
+    "code:6012": "cegep",
+    "code:1659": "bowen-talbot",
+    "code:7000": "universite-sherbrooke",
+    "code:7001": "universite-sherbrooke",
+    "code:7002": "universite-sherbrooke",
+    "code:7003": "universite-sherbrooke",
+    "code:7004": "universite-sherbrooke",
+    "code:7005": "universite-sherbrooke",
+    "code:7006": "universite-sherbrooke",
+    "code:93": "bishops",
+    "code:94": "bishops",
+    "code:234": "chus-fleurimont",
+    "code:2287": "chus-fleurimont",
+    "code:1631": "king-raby",
+    "code:2465": "king-raby",
+    "code:1220": "plaza-ouest"
+  },
+  "viewport": {
+    "bounds": {
+      "minX": 20,
+      "maxX": 1630,
+      "minY": 20,
+      "maxY": 1140
+    },
+    "minZoom": 0.3,
+    "maxZoom": 8
+  },
+  "geoProjection": {
+    "refLonWest": -71.99,
+    "refLonEast": -71.84,
+    "refXWest": 200,
+    "refXEast": 1300,
+    "refLatNorth": 45.447,
+    "refLatSouth": 45.366,
+    "refYNorth": 130,
+    "refYSouth": 1000
+  },
+  "stationIndex": [
+    {
+      "id": "bowen-talbot",
+      "schematicId": "bowen-talbot",
+      "name": "Bowen / Talbot",
+      "lat": 45.392958,
+      "lon": -71.875514,
+      "lines": ["1"],
+      "platformIds": ["1659"],
+      "departureRouteIds": ["1", "904"]
+    },
+    {
+      "id": "8100",
+      "schematicId": "carrefour-estrie",
+      "name": "Carrefour de l'Estrie",
+      "lat": 45.402364,
+      "lon": -71.952689,
+      "lines": ["1", "12"],
+      "platformIds": ["8000", "8001", "8002", "8003"],
+      "departureRouteIds": [
+        "1",
+        "11",
+        "12",
+        "17",
+        "26",
+        "3",
+        "36",
+        "4",
+        "411",
+        "453",
+        "50",
+        "55",
+        "57",
+        "603",
+        "903",
+        "907",
+        "912",
+        "917",
+        "918"
+      ]
+    },
+    {
+      "id": "chus-fleurimont",
+      "schematicId": "chus-fleurimont",
+      "name": "CHUS – Fleurimont",
+      "lat": 45.447769,
+      "lon": -71.870046,
+      "lines": ["8"],
+      "platformIds": ["2287", "234"],
+      "departureRouteIds": ["21", "22", "401", "453", "454", "604", "7", "8", "908"]
+    },
+    {
+      "id": "king-wellington",
+      "schematicId": "king-wellington",
+      "name": "King / Wellington",
+      "lat": 45.401701,
+      "lon": -71.889237,
+      "lines": ["1", "14", "2", "8", "X800"],
+      "platformIds": ["5100", "5200"],
+      "departureRouteIds": [
+        "1",
+        "12",
+        "14",
+        "19",
+        "2",
+        "29",
+        "3",
+        "55",
+        "57",
+        "7",
+        "8",
+        "903",
+        "912",
+        "913",
+        "919",
+        "X800"
+      ]
+    },
+    {
+      "id": "king-raby",
+      "schematicId": "king-raby",
+      "name": "King Est / Raby",
+      "lat": 45.411557,
+      "lon": -71.841149,
+      "lines": ["X800"],
+      "platformIds": ["1631", "2465"],
+      "departureRouteIds": ["51", "608", "9", "X800"]
+    },
+    {
+      "id": "6100",
+      "schematicId": "cegep",
+      "name": "Station du Cégep",
+      "lat": 45.411788,
+      "lon": -71.884191,
+      "lines": ["1", "12", "14", "2", "X800"],
+      "platformIds": [
+        "6000",
+        "6001",
+        "6002",
+        "6003",
+        "6004",
+        "6005",
+        "6006",
+        "6007",
+        "6008",
+        "6009",
+        "6010",
+        "6011",
+        "6012"
+      ],
+      "departureRouteIds": [
+        "1",
+        "12",
+        "14",
+        "17",
+        "19",
+        "2",
+        "20",
+        "3",
+        "4",
+        "5",
+        "51",
+        "55",
+        "602",
+        "7",
+        "9",
+        "903",
+        "904",
+        "908",
+        "912",
+        "913",
+        "917",
+        "919",
+        "X800"
+      ]
+    },
+    {
+      "id": "bishops",
+      "schematicId": "bishops",
+      "name": "Université Bishop's",
+      "lat": 45.366406,
+      "lon": -71.847997,
+      "lines": ["2"],
+      "platformIds": ["93", "94"],
+      "departureRouteIds": ["11", "2", "28", "606"]
+    },
+    {
+      "id": "7100",
+      "schematicId": "universite-sherbrooke",
+      "name": "Université de Sherbrooke",
+      "lat": 45.378733,
+      "lon": -71.929384,
+      "lines": ["14", "8"],
+      "platformIds": ["7000", "7001", "7002", "7003", "7004", "7005", "7006"],
+      "departureRouteIds": [
+        "11",
+        "13",
+        "14",
+        "15",
+        "16",
+        "18",
+        "24",
+        "27",
+        "29",
+        "453",
+        "6",
+        "601",
+        "8",
+        "9",
+        "918"
+      ]
+    },
+    {
+      "id": "1220",
+      "schematicId": "plaza-ouest",
+      "name": "Plaza de l'Ouest",
+      "lat": 45.371178,
+      "lon": -71.990936,
+      "lines": ["X800"],
+      "platformIds": ["1220"],
+      "departureRouteIds": ["18", "36", "401", "52", "607", "917", "918", "X800"]
+    }
+  ],
+  "cornerInsertions": [
+    {
+      "lineId": "1",
+      "stationId": "cegep",
+      "before": {
+        "x": 980,
+        "y": 370
+      },
+      "after": {
+        "x": 960,
+        "y": 350
+      }
+    },
+    {
+      "lineId": "X800",
+      "stationId": "cegep",
+      "before": {
+        "x": 950,
+        "y": 380
+      },
+      "after": {
+        "x": 950,
+        "y": 380
+      }
+    }
+  ]
+}

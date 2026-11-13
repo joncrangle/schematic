@@ -1,0 +1,97 @@
+{
+  "id": "medicine-hat-transit",
+  "name": "Medicine Hat Transit",
+  "serviceArea": "Medicine Hat",
+  "shortName": "MHT",
+  "locale": "en-CA",
+  "timezone": "America/Edmonton",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "ca",
+    "region": "ab"
+  },
+  "bounds": [
+    {
+      "minLat": 49.99,
+      "maxLat": 50.068,
+      "minLon": -110.735,
+      "maxLon": -110.62
+    }
+  ],
+  "modes": ["bus"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Medicine Hat Transit / City of Medicine Hat",
+    "url": "https://www.medicinehat.ca/roads-parking-transportation/transit/",
+    "license": "No explicit data reuse licence was found. Schedules and live data are attributed to the operator and its data publisher.",
+    "licenseIsStatement": true
+  },
+  "cityPresets": [
+    {
+      "name": "Transit Terminal",
+      "lat": 50.039346,
+      "lon": -110.674556
+    },
+    {
+      "name": "Medicine Hat Mall",
+      "lat": 50.005142,
+      "lon": -110.649215
+    }
+  ],
+  "popularSurfaceRoutes": ["30", "31", "10", "21"],
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Medicine Hat Transit",
+        "url": "https://medicinehat.tmix.se/Tmix.Cap.TdExport.WebApi/gtfs/",
+        "cacheFileName": "medicine-hat-gtfs.zip"
+      }
+    ],
+    "defaultColor": "#0080FF",
+    "defaultTextColor": "#FFFFFF"
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "vehicle_positions",
+        "url": "https://medicinehat.tmix.se/gtfs-realtime/vehicleupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://medicinehat.tmix.se/gtfs-realtime/tripupdates.pb",
+        "format": "protobuf",
+        "pollIntervalSeconds": 15
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://medicinehat.tmix.se/gtfs-realtime/alerts.pb",
+      "language": "en"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["10", "11", "20", "21", "22", "30", "31"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "effects": ["DETOUR"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded",
+          "serviceChange": "detour"
+        }
+      }
+    ],
+    "titleDateTimezone": "America/Edmonton"
+  }
+}
