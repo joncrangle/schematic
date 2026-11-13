@@ -1,7 +1,11 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
+import { Effect } from "effect";
 import { decodeGtfsRealtimeSync } from "~/infrastructure/realtime/gtfsRealtimeDecoder";
 import { decodeStationTripUpdates } from "~/infrastructure/realtime/stationTripDecoder";
+import { createGenericGtfsRealtimeSource } from "~/infrastructure/realtime/genericGtfsRealtimeSource";
+import { createGenericStationsSource } from "~/infrastructure/realtime/genericStationsSource";
+import { createRealtimeCacheLayer, NearbyRealtimeState } from "~/services/surface/NearbyTransit";
 import {
   concatBuffers,
   encodeFeed,
@@ -48,11 +52,6 @@ describe.each([
 it.each([undefined, "static"] as const)(
   "keeps ordinary vehicles in their tracking direction with tripDirectionSource=%s",
   async (tripDirectionSource) => {
-    const { Effect } = await import("effect");
-    const { createGenericGtfsRealtimeSource } =
-      await import("~/infrastructure/realtime/genericGtfsRealtimeSource");
-    const { createRealtimeCacheLayer, NearbyRealtimeState } =
-      await import("~/services/surface/NearbyTransit");
     const directions = [0, 17, 27, 28, 0];
     const staticDirections = [0, 1, 0, 1, 1];
     const vehicleFeed = encodeFeed(
@@ -139,9 +138,6 @@ it.each([undefined, "static"] as const)(
 );
 
 it("resolves modified trips for saved station departures", async () => {
-  const { Effect } = await import("effect");
-  const { createGenericStationsSource } =
-    await import("~/infrastructure/realtime/genericStationsSource");
   const source = createGenericStationsSource({
     agencyId: "sample",
     stations: [
