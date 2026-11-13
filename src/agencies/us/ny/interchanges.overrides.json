@@ -1,0 +1,5 @@
+{
+  "hubs": [],
+  "exclusions": [],
+  "boardingIdentityAgencyIds": ["mta-bus", "mta-subway"]
+}

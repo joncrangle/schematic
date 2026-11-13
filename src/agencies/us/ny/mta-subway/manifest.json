@@ -1,0 +1,556 @@
+{
+  "id": "mta-subway",
+  "name": "MTA Subway & Staten Island Railway",
+  "shortName": "MTA Subway",
+  "serviceArea": "New York City",
+  "brandColor": "#0039A6",
+  "locale": "en-US",
+  "timezone": "America/New_York",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "us",
+    "region": "ny"
+  },
+  "bounds": [
+    {
+      "minLat": 40.509764,
+      "maxLat": 40.519578,
+      "minLon": -74.254961,
+      "maxLon": -74.239096
+    },
+    {
+      "minLat": 40.516631,
+      "maxLat": 40.547601,
+      "minLon": -74.232141,
+      "maxLon": -74.16157
+    },
+    {
+      "minLat": 40.548231,
+      "maxLat": 40.5594,
+      "minLon": -74.154399,
+      "maxLon": -74.133907
+    },
+    {
+      "minLat": 40.56211,
+      "maxLat": 40.606117,
+      "minLon": -74.12932,
+      "maxLon": -74.081087
+    },
+    {
+      "minLat": 40.604954,
+      "maxLat": 40.639949,
+      "minLon": -74.078162,
+      "maxLon": -73.99761
+    },
+    {
+      "minLat": 40.573127,
+      "maxLat": 40.642967,
+      "minLon": -74.001864,
+      "maxLon": -73.944642
+    },
+    {
+      "minLat": 40.577903,
+      "maxLat": 40.611382,
+      "minLon": -73.838592,
+      "maxLon": -73.758353
+    },
+    {
+      "minLat": 40.600995,
+      "maxLat": 40.606995,
+      "minLon": -73.758405,
+      "maxLon": -73.752405
+    },
+    {
+      "minLat": 40.638362,
+      "maxLat": 40.722527,
+      "minLon": -74.076643,
+      "maxLon": -73.997193
+    },
+    {
+      "minLat": 40.637914,
+      "maxLat": 40.721611,
+      "minLon": -74.002892,
+      "maxLon": -73.917786
+    },
+    {
+      "minLat": 40.643654,
+      "maxLat": 40.714396,
+      "minLon": -73.922711,
+      "maxLon": -73.840853
+    },
+    {
+      "minLat": 40.657476,
+      "maxLat": 40.721331,
+      "minLon": -73.840683,
+      "maxLon": -73.780817
+    },
+    {
+      "minLat": 40.717824,
+      "maxLat": 40.758882,
+      "minLon": -74.009277,
+      "maxLon": -73.997201
+    },
+    {
+      "minLat": 40.71728,
+      "maxLat": 40.802446,
+      "minLon": -74.001041,
+      "maxLon": -73.91774
+    },
+    {
+      "minLat": 40.718691,
+      "maxLat": 40.778036,
+      "minLon": -73.921435,
+      "maxLon": -73.841521
+    },
+    {
+      "minLat": 40.7566,
+      "maxLat": 40.7626,
+      "minLon": -73.83303,
+      "maxLon": -73.82703
+    },
+    {
+      "minLat": 40.797603,
+      "maxLat": 40.868491,
+      "minLon": -73.969847,
+      "maxLon": -73.9184
+    },
+    {
+      "minLat": 40.802368,
+      "maxLat": 40.88275,
+      "minLon": -73.922899,
+      "maxLon": -73.839952
+    },
+    {
+      "minLat": 40.840863,
+      "maxLat": 40.881663,
+      "minLon": -73.841591,
+      "maxLon": -73.825121
+    },
+    {
+      "minLat": 40.880895,
+      "maxLat": 40.906125,
+      "minLon": -73.90387,
+      "maxLon": -73.84762
+    },
+    {
+      "minLat": 40.8853,
+      "maxLat": 40.8913,
+      "minLon": -73.833834,
+      "maxLon": -73.827834
+    }
+  ],
+  "focus": {
+    "lat": 40.75,
+    "lon": -73.99
+  },
+  "modes": ["subway", "rail"],
+  "stationService": [
+    {
+      "routeType": "subway"
+    },
+    {
+      "routeType": "rail"
+    }
+  ],
+  "attribution": {
+    "name": "Metropolitan Transportation Authority",
+    "url": "https://www.mta.info/developers",
+    "license": "MTA Developer Data Terms and Conditions",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "MTA Subway and SIR",
+        "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_subway.zip",
+        "cacheFileName": "mta-subway-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionExtension": {
+          "fieldNumber": 1001,
+          "directionFieldNumber": 3,
+          "values": {
+            "1": 0,
+            "3": 1
+          }
+        }
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-ace",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionExtension": {
+          "fieldNumber": 1001,
+          "directionFieldNumber": 3,
+          "values": {
+            "1": 0,
+            "3": 1
+          }
+        }
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-bdfm",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionExtension": {
+          "fieldNumber": 1001,
+          "directionFieldNumber": 3,
+          "values": {
+            "1": 0,
+            "3": 1
+          }
+        }
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-g",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionExtension": {
+          "fieldNumber": 1001,
+          "directionFieldNumber": 3,
+          "values": {
+            "1": 0,
+            "3": 1
+          }
+        }
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-jz",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionExtension": {
+          "fieldNumber": 1001,
+          "directionFieldNumber": 3,
+          "values": {
+            "1": 0,
+            "3": 1
+          }
+        }
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-l",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionExtension": {
+          "fieldNumber": 1001,
+          "directionFieldNumber": 3,
+          "values": {
+            "1": 0,
+            "3": 1
+          }
+        }
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-nqrw",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionExtension": {
+          "fieldNumber": 1001,
+          "directionFieldNumber": 3,
+          "values": {
+            "1": 0,
+            "3": 1
+          }
+        }
+      },
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-si",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "tripDirectionExtension": {
+          "fieldNumber": 1001,
+          "directionFieldNumber": 3,
+          "values": {
+            "1": 0,
+            "3": 1
+          }
+        }
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts.json",
+      "format": "json"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "4", "7", "A", "F", "L", "G", "SI"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Delays"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Expect Delays"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Part Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Part Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Reduced Service"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Boarding Change"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Express to Local"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Local to Express"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Stops Skipped"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Stops Skipped"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Reroute"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Extra Transfer"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Detour"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Detour"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Cancellations"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ],
+    "routeLineMap": {
+      "SS": "SI",
+      "7X": "7",
+      "FX": "F"
+    },
+    "routeIdNormalization": {
+      "aliases": {
+        "SS": "SI"
+      }
+    }
+  },
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeType": "rail",
+        "routeIds": ["SI", "SS"]
+      },
+      {
+        "routeType": "subway",
+        "routeIds": [
+          "A",
+          "C",
+          "E",
+          "B",
+          "D",
+          "F",
+          "FX",
+          "M",
+          "G",
+          "J",
+          "Z",
+          "L",
+          "N",
+          "Q",
+          "R",
+          "W",
+          "GS",
+          "FS",
+          "H",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "6X",
+          "7",
+          "7X"
+        ]
+      }
+    ]
+  },
+  "cityPresets": [
+    {
+      "name": "Grand Central-42 St",
+      "lat": 40.751776,
+      "lon": -73.976848
+    },
+    {
+      "name": "34 St-Penn Station",
+      "lat": 40.752287,
+      "lon": -73.993391
+    },
+    {
+      "name": "St George",
+      "lat": 40.643748,
+      "lon": -74.073643
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "4", "7", "A", "F", "L", "G", "SI"]
+}

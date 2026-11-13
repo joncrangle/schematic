@@ -62,6 +62,8 @@ This is an independent project, not affiliated with or endorsed by any transit a
 | Milton Transit | [Milton Transit / Town of Milton open data, adapted into this application](<https://discover-milton.hub.arcgis.com/pages/disclaimer-and-terms-of-use>) | Open Government Licence – Milton |
 | MiWay | [City of Mississauga / MiWay](<https://www.mississauga.ca/miway-transit/developer-download/>) | Use subject to the City of Mississauga Terms of Use (credit requested): http://www5.mississauga.ca/research\_catalogue/CityofMississauga\_TermsofUse.pdf |
 | BC Transit Mount Waddington | [BC Transit Mount Waddington](<https://www.bctransit.com/mount-waddington/>) | BC Transit Open Data Terms of Use |
+| MTA New York City Bus | [Metropolitan Transportation Authority](<https://www.mta.info/developers>) | MTA Developer Data Terms and Conditions |
+| MTA Subway &amp; Staten Island Railway | [Metropolitan Transportation Authority](<https://www.mta.info/developers>) | MTA Developer Data Terms and Conditions |
 | BC Transit Nanaimo | [BC Transit Nanaimo](<https://www.bctransit.com/nanaimo/>) | BC Transit Open Data Terms of Use |
 | North Bay Transit | [North Bay Transit / City of North Bay](<https://northbay.ca/services-payments/north-bay-transit/>) | No explicit data licence terms were found for the North Bay Transit GTFS and GTFS Realtime feeds. Attribution is best effort. |
 | BC Transit North Okanagan | [BC Transit North Okanagan](<https://www.bctransit.com/vernon/>) | BC Transit Open Data Terms of Use |

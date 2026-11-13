@@ -1,0 +1,538 @@
+{
+  "id": "mta-bus",
+  "name": "MTA New York City Bus",
+  "shortName": "MTA Bus",
+  "serviceArea": "New York City",
+  "brandColor": "#006CB7",
+  "locale": "en-US",
+  "timezone": "America/New_York",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "us",
+    "region": "ny"
+  },
+  "bounds": [
+    {
+      "minLat": 40.499981,
+      "maxLat": 40.560795,
+      "minLon": -74.255016,
+      "maxLon": -74.197158
+    },
+    {
+      "minLat": 40.515341,
+      "maxLat": 40.602975,
+      "minLon": -74.202989,
+      "maxLon": -74.097074
+    },
+    {
+      "minLat": 40.559271,
+      "maxLat": 40.602962,
+      "minLon": -74.102624,
+      "maxLon": -73.997051
+    },
+    {
+      "minLat": 40.569635,
+      "maxLat": 40.602976,
+      "minLon": -74.002701,
+      "maxLon": -73.89872
+    },
+    {
+      "minLat": 40.563123,
+      "maxLat": 40.594336,
+      "minLon": -73.901453,
+      "maxLon": -73.797735
+    },
+    {
+      "minLat": 40.587224,
+      "maxLat": 40.602682,
+      "minLon": -73.802898,
+      "maxLon": -73.741152
+    },
+    {
+      "minLat": 40.6397,
+      "maxLat": 40.646289,
+      "minLon": -74.213476,
+      "maxLon": -74.207164
+    },
+    {
+      "minLat": 40.597133,
+      "maxLat": 40.674472,
+      "minLon": -74.196975,
+      "maxLon": -74.097055
+    },
+    {
+      "minLat": 40.597138,
+      "maxLat": 40.69607,
+      "minLon": -74.102764,
+      "maxLon": -73.99723
+    },
+    {
+      "minLat": 40.59705,
+      "maxLat": 40.702922,
+      "minLon": -74.00295,
+      "maxLon": -73.89704
+    },
+    {
+      "minLat": 40.59806,
+      "maxLat": 40.702973,
+      "minLon": -73.902944,
+      "maxLon": -73.797118
+    },
+    {
+      "minLat": 40.597165,
+      "maxLat": 40.702935,
+      "minLon": -73.802958,
+      "maxLon": -73.701327
+    },
+    {
+      "minLat": 40.698556,
+      "maxLat": 40.765648,
+      "minLon": -74.021088,
+      "maxLon": -73.997018
+    },
+    {
+      "minLat": 40.697024,
+      "maxLat": 40.802754,
+      "minLon": -74.002946,
+      "maxLon": -73.897027
+    },
+    {
+      "minLat": 40.697092,
+      "maxLat": 40.797439,
+      "minLon": -73.902992,
+      "maxLon": -73.797126
+    },
+    {
+      "minLat": 40.697492,
+      "maxLat": 40.797233,
+      "minLon": -73.802975,
+      "maxLon": -73.698373
+    },
+    {
+      "minLat": 40.797172,
+      "maxLat": 40.90213,
+      "minLon": -73.974727,
+      "maxLon": -73.897009
+    },
+    {
+      "minLat": 40.800403,
+      "maxLat": 40.902847,
+      "minLon": -73.902947,
+      "maxLon": -73.797411
+    },
+    {
+      "minLat": 40.836053,
+      "maxLat": 40.857659,
+      "minLon": -73.794003,
+      "maxLon": -73.780252
+    },
+    {
+      "minLat": 40.898837,
+      "maxLat": 40.915377,
+      "minLon": -73.909096,
+      "maxLon": -73.899533
+    },
+    {
+      "minLat": 40.897042,
+      "maxLat": 40.936637,
+      "minLon": -73.902141,
+      "maxLon": -73.836901
+    }
+  ],
+  "focus": {
+    "lat": 40.75,
+    "lon": -73.99
+  },
+  "modes": ["bus", "express"],
+  "stationService": {
+    "routeType": "bus"
+  },
+  "attribution": {
+    "name": "Metropolitan Transportation Authority",
+    "url": "https://www.mta.info/developers",
+    "license": "MTA Developer Data Terms and Conditions",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "MTA b",
+        "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_b.zip",
+        "cacheFileName": "mta-bus-b-gtfs.zip"
+      },
+      {
+        "name": "MTA bx",
+        "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_bx.zip",
+        "cacheFileName": "mta-bus-bx-gtfs.zip"
+      },
+      {
+        "name": "MTA m",
+        "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_m.zip",
+        "cacheFileName": "mta-bus-m-gtfs.zip"
+      },
+      {
+        "name": "MTA q",
+        "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_q.zip",
+        "cacheFileName": "mta-bus-q-gtfs.zip"
+      },
+      {
+        "name": "MTA si",
+        "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_si.zip",
+        "cacheFileName": "mta-bus-si-gtfs.zip"
+      },
+      {
+        "name": "MTA busco",
+        "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_busco.zip",
+        "cacheFileName": "mta-bus-busco-gtfs.zip"
+      }
+    ]
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "trip_updates",
+        "url": "https://gtfsrt.prod.obanyc.com/tripUpdates",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://gtfsrt.prod.obanyc.com/vehiclePositions",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fbus-alerts.json",
+      "format": "json"
+    },
+    {
+      "type": "gtfs-rt",
+      "url": "https://gtfsrt.prod.obanyc.com/alerts"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": [
+      "B44+",
+      "B46+",
+      "B82+",
+      "BX12+",
+      "BX41+",
+      "BX6+",
+      "M14A+",
+      "M14D+",
+      "M15+",
+      "M23+",
+      "M34+",
+      "M34A+",
+      "M60+",
+      "M79+",
+      "M86+",
+      "Q44+",
+      "Q52+",
+      "Q53+",
+      "Q70+",
+      "S79+"
+    ],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Delays"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Expect Delays"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Part Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Part Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Reduced Service"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Boarding Change"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Express to Local"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Local to Express"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Stops Skipped"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Stops Skipped"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Reroute"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Extra Transfer"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Detour"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Detour"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Cancellations"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "popularSurfaceRoutes": ["M15+", "B46+", "Q44+", "BX12+", "S79+", "Q70+"],
+  "routeInterpretation": {
+    "routeTypeRules": [
+      {
+        "routeType": "express",
+        "routeIds": [
+          "BM1",
+          "BM2",
+          "BM3",
+          "BM4",
+          "BM5",
+          "BXM1",
+          "BXM10",
+          "BXM11",
+          "BXM18",
+          "BXM2",
+          "BXM3",
+          "BXM4",
+          "BXM6",
+          "BXM7",
+          "BXM8",
+          "BXM9",
+          "QM1",
+          "QM10",
+          "QM11",
+          "QM12",
+          "QM15",
+          "QM16",
+          "QM17",
+          "QM18",
+          "QM2",
+          "QM20",
+          "QM21",
+          "QM24",
+          "QM25",
+          "QM31",
+          "QM32",
+          "QM34",
+          "QM35",
+          "QM36",
+          "QM4",
+          "QM40",
+          "QM42",
+          "QM44",
+          "QM5",
+          "QM6",
+          "QM63",
+          "QM64",
+          "QM65",
+          "QM68",
+          "QM7",
+          "QM8",
+          "SIM1",
+          "SIM10",
+          "SIM11",
+          "SIM15",
+          "SIM1C",
+          "SIM2",
+          "SIM22",
+          "SIM23",
+          "SIM24",
+          "SIM25",
+          "SIM26",
+          "SIM3",
+          "SIM30",
+          "SIM31",
+          "SIM32",
+          "SIM33",
+          "SIM33C",
+          "SIM34",
+          "SIM35",
+          "SIM3C",
+          "SIM4",
+          "SIM4C",
+          "SIM4X",
+          "SIM5",
+          "SIM6",
+          "SIM7",
+          "SIM8",
+          "SIM8X",
+          "SIM9",
+          "X27",
+          "X28",
+          "X37",
+          "X38"
+        ]
+      }
+    ]
+  },
+  "cityPresets": [
+    {
+      "name": "South Ferry Term/South Ferry Term",
+      "lat": 40.702001,
+      "lon": -74.013524
+    },
+    {
+      "name": "E 126 St/2 Av",
+      "lat": 40.80315,
+      "lon": -73.932264
+    },
+    {
+      "name": "Merrick Blvd/Archer Av",
+      "lat": 40.704933,
+      "lon": -73.793318
+    }
+  ]
+}

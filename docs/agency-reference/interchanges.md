@@ -45,6 +45,15 @@ uses an empty set.
 }
 ```
 
+Regions can opt agencies into strict facility matching with
+`boardingIdentityAgencyIds` in their overrides. This preserves the selected
+facility's boarding identity. A drawn endpoint
+uses its canonical platforms; a name-only endpoint combines only stops with the
+same normalized name. Nearby kerbs with different names need their own reviewed
+identity rather than being relabelled as that facility. Without this opt-in,
+existing regions retain their legacy nearby-stop grouping; migrate their
+reviewed boarding lists before enabling strict matching.
+
 **Endpoints.** An endpoint needs `stationId` when that agency's schematic draws
 the location and the badge should navigate there. A connection outside the
 drawn network stays a name-only endpoint. Never borrow a nearby station's ID or

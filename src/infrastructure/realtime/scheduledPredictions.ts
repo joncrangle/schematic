@@ -12,6 +12,7 @@ import { walkFeedMessage } from "./feedMessageWalk";
 import { decodeTripDescriptor, decodeStopTimeEvent } from "./gtfsTripDescriptor";
 
 export interface PredictionIdentityOptions {
+  readonly tripDirectionExtension?: import("~/agencies/types").TripDirectionExtension;
   readonly idNamespace?: string;
   readonly stopAliases?: ReadonlyMap<string, string>;
   readonly scheduledStops?: ReadonlyMap<string, ScheduledStopTime>;
@@ -89,6 +90,7 @@ export function liveStopPrediction(
     : undefined;
 }
 export interface SchedulePreparationOptions {
+  readonly tripDirectionExtension?: import("~/agencies/types").TripDirectionExtension;
   readonly emptyTripUpdates?: "error";
   readonly tripRoutes?: ReadonlyMap<string, import("~/domain/surface/boarding").TripRoute>;
   readonly idNamespace?: string;
@@ -139,7 +141,11 @@ export function prepareScheduledPredictions(
           stopAliases.set(alias, candidates[0]);
       }
     }
-    const identity = { idNamespace: options.idNamespace, stopAliases };
+    const identity = {
+      idNamespace: options.idNamespace,
+      stopAliases,
+      tripDirectionExtension: options.tripDirectionExtension,
+    };
     if (options.predictionTimeSource !== "static-with-delay") return identity;
     if (!options.getScheduledStopTimes)
       return yield* Effect.fail(new Error("Static schedule resolver unavailable"));

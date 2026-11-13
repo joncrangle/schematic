@@ -144,6 +144,12 @@ pub async fn scrape(
 mod tests {
     use super::*;
     #[test]
+    fn preserves_named_extension_evidence_for_core_interpretation() {
+        let payload = br#"{"header":{"gtfs_realtime_version":"2.0"},"entity":[{"id":"notice-a","alert":{"header_text":{"translation":[{"text":"Work on the network"}]},"example.alert":{"category":"Suspension","priority":3,"published":true}}}]}"#;
+        assert!(validate(payload, true).is_ok());
+    }
+
+    #[test]
     fn validates_wire_envelopes_without_interpreting_alerts() {
         assert!(
             validate(
