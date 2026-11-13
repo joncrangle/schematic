@@ -129,3 +129,43 @@ it("reads bounded ZIP64 entry sizes and offsets through CSV decoding", async () 
   );
   expect(values).toEqual(["P"]);
 });
+
+it("reads a complete archive followed by a truncated duplicate end record", async () => {
+  const zip = gtfsZip({
+    "routes.txt": "route_id,route_type\nr,3\n",
+    "trips.txt": "trip_id\nt\n",
+    "stop_times.txt": "trip_id\nt\n",
+    "stops.txt": "stop_id\nP\n",
+  });
+  const duplicate = zip.slice(-22);
+  const view = new DataView(duplicate.buffer);
+  view.setUint32(16, view.getUint32(16, true) + 21, true);
+  const bytes = new Uint8Array(zip.length + 21);
+  bytes.set(zip);
+  bytes.set(duplicate.subarray(1), zip.length);
+  const values: string[] = [];
+  await processArchiveCsv(readGtfsArchive(bytes), "stops.txt", ["stop_id"], (get) =>
+    values.push(get("stop_id")),
+  );
+  expect(values).toEqual(["P"]);
+});
+
+it("ignores a trailing end signature that does not point to the central directory", () => {
+  const zip = gtfsZip({
+    "routes.txt": "route_id\nr\n",
+    "trips.txt": "trip_id\nt\n",
+    "stop_times.txt": "trip_id\nt\n",
+    "stops.txt": "stop_id\nP\n",
+  });
+  const bytes = new Uint8Array(zip.length + 22);
+  bytes.set(zip);
+  new DataView(bytes.buffer).setUint32(zip.length, 0x06054b50, true);
+  expect(readGtfsArchive(bytes).has("stops.txt")).toBe(true);
+});
+
+it("rejects a directory outside the bounded footer search", () => {
+  const zip = gtfsZip({});
+  const bytes = new Uint8Array(zip.length + 65536);
+  bytes.set(zip);
+  expect(() => readGtfsArchive(bytes)).toThrow("Invalid GTFS ZIP directory");
+});

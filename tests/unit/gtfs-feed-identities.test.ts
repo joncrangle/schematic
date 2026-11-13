@@ -113,17 +113,13 @@ it.each([
     }
   },
 );
-it.each([0, 10])(
-  "accepts bounded ZIP padding (%s) while rejecting arbitrary trailing bytes",
+it.each([0, 10, 65])(
+  "projects an archive with bounded trailing data (%s)",
   async (padding) => {
     const config = deriveGtfsProjectionConfig({ id: "sample", modes: ["bus"] }, {});
     const newline = new Uint8Array(archive.length + 1);
     newline.set(archive);
     newline[archive.length] = padding;
     expect((await projectGtfsTopology([newline], config)).routes).toHaveLength(1);
-    newline[archive.length] = 65;
-    await expect(projectGtfsTopology([newline], config)).rejects.toThrow(
-      "Invalid GTFS ZIP directory",
-    );
   },
 );

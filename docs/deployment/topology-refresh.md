@@ -117,6 +117,36 @@ In your own Forgejo repository:
 3. Set repository secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, and `TOPOLOGY_WRANGLER_CONFIG`. The last secret is the substituted JSON above.
 4. Ensure the runner provides `RUNNER_TEMP` and can fetch the pinned checkout and setup-bun actions. Test with manual dispatch, then inspect the per-agency results.
 
+Repository variables and secrets live under **Settings → Actions → Variables**
+and **Settings → Actions → Secrets**. They belong to the Forgejo repository,
+so recreating a repository requires configuring them again. A Git push copies
+workflow files, not these settings.
+
+| Kind | Name | Value |
+| --- | --- | --- |
+| Variable | `TOPOLOGY_RUNNER_LABEL` | An online container-capable runner's label, such as `ubuntu-latest` |
+| Secret | `CLOUDFLARE_API_TOKEN` | An API token with D1 read/write access to the target Cloudflare account |
+| Secret | `CLOUDFLARE_ACCOUNT_ID` | The account ID that owns the transit database |
+| Secret | `TOPOLOGY_WRANGLER_CONFIG` | The plain JSON configuration above, with the existing transit database's name and UUID substituted |
+
+With `fj` authenticated to your Forgejo host, you can set the non-secret runner
+label using:
+
+```sh
+fj --host forgejo.example.com actions variables --repo OWNER/REPO create TOPOLOGY_RUNNER_LABEL ubuntu-latest
+```
+
+Replace the host, repository, and runner label with your own. The `fj` token
+needs `write:repository` to change Actions variables or secrets; read access
+can list settings but cannot configure them. Enter secret values in Forgejo's
+settings so they do not appear in shell history or command arguments.
+
+The separate `.forgejo/workflows/ci.yml` workflow runs on `main`, pull requests,
+and manual dispatch. It uses the same runner variable, falling back to
+`ubuntu-latest` when unset, and needs no application or Cloudflare secrets.
+`RUNNER_TEMP` comes from the runner; the refresh workflow already sets `CI`
+and `WRANGLER_SEND_METRICS`. Do not copy a deployment's `.env` into Actions.
+
 The workflow installs Bun 1.4.2 and uses `bun install --frozen-lockfile`. Credentials are available only to the refresh step. That step creates a private temporary config and removes it on exit. It neither seeds SQLite nor uploads artifacts.
 
 Fetching `oven-sh/setup-bun` from GitHub downloads an action for the Forgejo runner to execute. It does not execute GitHub Actions or consume GitHub-hosted CI minutes.

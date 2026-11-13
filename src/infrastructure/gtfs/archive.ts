@@ -1,7 +1,16 @@
 import { createStaticFeedIdentity, type FeedIdentity } from "./feedIdentity";
+import * as Data from "effect/Data";
 export const GTFS_MAX_ARCHIVE_BYTES = 128 * 1024 * 1024;
 export const GTFS_MAX_EXPANDED_ENTRY_BYTES = 512 * 1024 * 1024;
 export const GTFS_MAX_CSV_RECORD_BYTES = 1024 * 1024;
+
+export class EmptyGtfsEntryError extends Data.TaggedError("EmptyGtfsEntryError")<{
+  readonly entryName: string;
+}> {
+  override get message(): string {
+    return `Required GTFS entry ${this.entryName} is empty`;
+  }
+}
 
 export function assertGtfsArchiveSize(size: number): void {
   if (!Number.isSafeInteger(size) || size < 0 || size > GTFS_MAX_ARCHIVE_BYTES)
@@ -75,10 +84,8 @@ export function readGtfsArchive(bytes: Uint8Array, identity?: FeedIdentity): Gtf
     if (
       view.getUint32(i, true) === 0x06054b50 &&
       i + 22 + view.getUint16(i + 20, true) <= bytes.length &&
-      bytes.length - (i + 22 + view.getUint16(i + 20, true)) <= 16 &&
-      bytes
-        .subarray(i + 22 + view.getUint16(i + 20, true))
-        .every((byte) => byte === 0 || byte === 9 || byte === 10 || byte === 13 || byte === 32)
+      // Accept publisher trailers only after a footer whose directory ends here.
+      view.getUint32(i + 16, true) + view.getUint32(i + 12, true) === i
     ) {
       end = i;
       break;
@@ -159,7 +166,9 @@ export function readGtfsArchive(bytes: Uint8Array, identity?: FeedIdentity): Gtf
     pos += 46 + nameLength + view.getUint16(pos + 30, true) + view.getUint16(pos + 32, true);
   }
   for (const name of ["routes.txt", "trips.txt", "stop_times.txt", "stops.txt"]) {
-    if (!entries.has(name)) throw new Error(`Missing GTFS entry ${name}`);
+    const entry = entries.get(name);
+    if (!entry) throw new Error(`Missing GTFS entry ${name}`);
+    if (entry.size === 0) throw new EmptyGtfsEntryError({ entryName: name });
   }
   return Object.assign(entries, { identity: createStaticFeedIdentity(identity) });
 }

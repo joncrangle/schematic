@@ -39,6 +39,8 @@ import {
   runSeeder,
 } from "../../scripts/seed";
 import { makeTestProvider } from "../helpers/agency-fixtures";
+import { gtfsZip, topologyArchive } from "../helpers/gtfsArchive";
+import { projectGtfsTopology } from "~/infrastructure/gtfs/staticTopology";
 
 const registeredSeedableIds = allProviders()
   .filter((provider) => provider.staticTopology?.feeds?.length)
@@ -602,6 +604,62 @@ describe("GTFS Seeder Core & Configurations", () => {
       dangerouslyRegisterProvider(provider);
       return deriveAgencySeedConfig(provider);
     }
+
+    it("skips an agency with an empty required GTFS file before seeding other agencies", async () => {
+      const incomplete = registerFictionalMultiFeedAgency();
+      const healthy = registerFictionalSingleFeedAgency();
+      const warnings = captureWarnings();
+      const emptyStopTimes = Buffer.from(
+        gtfsZip({
+          "routes.txt": "route_id,route_type\nr,3\n",
+          "trips.txt": "route_id,trip_id\nr,t\n",
+          "stops.txt": "stop_id,stop_name,stop_lat,stop_lon\nP,Main,43,-79\n",
+          "stop_times.txt": "",
+        }),
+      );
+      const complete = Buffer.from(topologyArchive());
+      const committed: string[] = [];
+      const compileInterchangesStep = vi.fn();
+      const result = await runSeeder({
+        agencies: [incomplete.id, healthy.id],
+        dbTarget: "sqlite",
+        fetchArchives: async (config) => ({
+          buffers: config.id === incomplete.id ? [complete, emptyStopTimes] : [complete],
+          failures: [],
+        }),
+        seedAgency: async (config, buffers) => {
+          await projectGtfsTopology(buffers, config);
+          committed.push(config.id);
+          return undefined;
+        },
+        compileInterchangesStep,
+      });
+      expect(result.skippedAgencyIds).toEqual([incomplete.id]);
+      expect(result.seededAgencyIds).toEqual([healthy.id]);
+      expect(committed).toEqual([healthy.id]);
+      expect(warnings.join("\n")).toContain("stop_times.txt is empty");
+      expect(compileInterchangesStep).toHaveBeenCalledWith(
+        new Map(),
+        [incomplete.id, healthy.id],
+        [healthy.id],
+      );
+    });
+
+    it("propagates seed failures other than incomplete feed input", async () => {
+      const config = registerFictionalSingleFeedAgency();
+      captureWarnings();
+      await expect(
+        runSeeder({
+          agencies: [config.id],
+          dbTarget: "sqlite",
+          fetchArchives: async () => ({ buffers: [Buffer.from(topologyArchive())], failures: [] }),
+          seedAgency: async () => {
+            throw new Error("database unavailable");
+          },
+          compileInterchangesStep: vi.fn(),
+        }),
+      ).rejects.toThrow("database unavailable");
+    });
 
     it("skips a fictional multi-feed agency when one feed returns FeedFetchError", async () => {
       const config = registerFictionalMultiFeedAgency();

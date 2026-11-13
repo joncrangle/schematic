@@ -74,7 +74,11 @@ import {
   terminalDisplayName,
 } from "~/infrastructure/gtfs/ferrySailingLegIndex";
 import { projectGtfsTopology, type GtfsTopology } from "~/infrastructure/gtfs/staticTopology";
-import { processArchiveCsv, readGtfsArchive } from "~/infrastructure/gtfs/archive";
+import {
+  EmptyGtfsEntryError,
+  processArchiveCsv,
+  readGtfsArchive,
+} from "~/infrastructure/gtfs/archive";
 import {
   promptMultiSelect,
   promptSingleSelect,
@@ -275,7 +279,17 @@ export async function runSeeder(options: {
     }
 
     // 2. Ingest into the requested databases
-    const sqlitePath = await seed(config, zipBuffers);
+    let sqlitePath: string | undefined;
+    try {
+      sqlitePath = await seed(config, zipBuffers);
+    } catch (error) {
+      if (!(error instanceof EmptyGtfsEntryError)) throw error;
+      console.warn(
+        `[seed:${config.id}] ${error.message} — skipping this agency; its topology and station-index artifacts are left untouched.`,
+      );
+      skippedAgencyIds.push(config.id);
+      continue;
+    }
     if (sqlitePath) seededDbPaths.set(config.id, sqlitePath);
     seededAgencyIds.push(config.id);
   }
