@@ -595,9 +595,13 @@ function compileStaticInterchanges(
   );
   const overrides: InterchangeOverrides = {
     hubs: completeRegions.flatMap((region) => region.overrides.hubs),
-    // Exclusions must apply across borders, even when an artifact is held.
-    exclusions: regions.flatMap((region) => region.overrides.exclusions),
-    isolated: regions.flatMap((region) => region.overrides.isolated ?? []),
+    // Keep cross-border exclusions when both sides have station data.
+    exclusions: regions.flatMap((region) => region.overrides.exclusions).filter(
+      ({ left, right }) => tablesByAgency.has(left.agencyId) && tablesByAgency.has(right.agencyId),
+    ),
+    isolated: regions.flatMap((region) => region.overrides.isolated ?? []).filter(
+      (endpoint) => tablesByAgency.has(endpoint.agencyId),
+    ),
   };
   let placementReport: InterchangeLayoutReport = {
     changes: [],

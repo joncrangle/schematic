@@ -49,6 +49,21 @@ it.each([false, true])(
       ) +
       "\n";
     writeFileSync(firstPath, previous);
+    if (missingDependencies) {
+      writeFileSync(
+        join(root, "src/agencies/ca/first/interchanges.overrides.json"),
+        JSON.stringify({
+          hubs: [],
+          exclusions: [
+            {
+              left: { agencyId: "alpha", stationName: "Central", feedStopIds: ["absent"] },
+              right: { agencyId: "beta", stationName: "Central" },
+            },
+          ],
+          isolated: [{ agencyId: "alpha", stationName: "Central", feedStopIds: ["absent"] }],
+        }),
+      );
+    }
     const db = join(root, "transit.db");
     writeFileSync(db, "fixture");
     vi.spyOn(process, "cwd").mockReturnValue(root);
