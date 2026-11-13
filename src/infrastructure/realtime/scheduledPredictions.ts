@@ -12,6 +12,12 @@ import { walkFeedMessage } from "./feedMessageWalk";
 import { decodeTripDescriptor, decodeStopTimeEvent } from "./gtfsTripDescriptor";
 
 export interface PredictionIdentityOptions {
+  readonly completeTripUpdates?: true;
+  readonly stopLocations?: ReadonlyMap<
+    string,
+    { readonly name: string; readonly lat: number; readonly lon: number }
+  >;
+  readonly routeInterpretation?: import("~/agencies/types").RouteInterpretationConfig;
   readonly tripDirectionExtension?: import("~/agencies/types").TripDirectionExtension;
   readonly idNamespace?: string;
   readonly stopAliases?: ReadonlyMap<string, string>;
@@ -89,7 +95,7 @@ export function liveStopPrediction(
       }
     : undefined;
 }
-export interface SchedulePreparationOptions {
+export interface SchedulePreparationOptions extends PredictionIdentityOptions {
   readonly tripDirectionExtension?: import("~/agencies/types").TripDirectionExtension;
   readonly emptyTripUpdates?: "error";
   readonly tripRoutes?: ReadonlyMap<string, import("~/domain/surface/boarding").TripRoute>;
@@ -142,6 +148,9 @@ export function prepareScheduledPredictions(
       }
     }
     const identity = {
+      completeTripUpdates: options.completeTripUpdates,
+      stopLocations: options.stopLocations,
+      routeInterpretation: options.routeInterpretation,
       idNamespace: options.idNamespace,
       stopAliases,
       tripDirectionExtension: options.tripDirectionExtension,

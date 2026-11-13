@@ -40,6 +40,19 @@ registering a kind.
 Each of these is opt-in. Declare one only after a live capture shows the
 problem, and record what you saw.
 
+**`completeTripUpdates: true`** for a verified feed whose ordered stop updates
+include the trip's final call, even when realtime trip IDs do not match static.
+Core uses seeded station coordinates to infer travel direction under the
+manifest's direction policy, names the actual destination, and excludes only
+the final call from boarding. Direction and destination are resolved before
+stop filtering. Do not enable this for truncated or rolling prediction windows.
+
+**`vehicleTripSource: "entity-trip-update"`** for a combined entity whose vehicle
+omits its route and uses a different trip identifier. Core joins it only to the
+single trip update in that entity, keeping the physical vehicle ID and timestamp.
+Explicit vehicle route identities remain unchanged. Verify the relationship
+against a live capture before enabling this.
+
 **`tripDirectionSource: "static"`** for feeds with unreliable trip directions.
 Core joins ordinary and modified trip IDs to seeded trips before tracking and
 arrival filtering. Known static directions win; unknown trips keep their

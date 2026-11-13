@@ -51,7 +51,7 @@ pub fn validate(bytes: &[u8], json: bool) -> Result<(), Failure> {
     let version = header
         .get_field_by_name("gtfs_realtime_version")
         .ok_or(Failure::Decode)?;
-    if !matches!(version.as_ref(), Value::String(version) if matches!(version.as_str(), "1.0" | "2.0"))
+    if !matches!(version.as_ref(), Value::String(version) if matches!(version.as_str(), "1" | "1.0" | "2.0"))
     {
         return Err(Failure::Decode);
     }
@@ -143,6 +143,44 @@ pub async fn scrape(
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[tokio::test]
+    async fn preserves_the_compound_entity_contract_for_core() {
+        use base64::Engine;
+        use tokio::io::{AsyncReadExt, AsyncWriteExt};
+        let fixture: serde_json::Value = serde_json::from_str(include_str!(
+            "../../../../tests/fixtures/complete-trip-updates.json"
+        ))
+        .unwrap();
+        let bytes = base64::engine::general_purpose::STANDARD
+            .decode(fixture["feedBase64"].as_str().unwrap())
+            .unwrap();
+        let listener = tokio::net::TcpListener::bind("127.0.0.1:0").await.unwrap();
+        let address = listener.local_addr().unwrap();
+        let response = bytes.clone();
+        let server = tokio::spawn(async move {
+            let (mut socket, _) = listener.accept().await.unwrap();
+            let mut request = [0; 4096];
+            assert!(socket.read(&mut request).await.unwrap() > 0);
+            socket
+                .write_all(
+                    format!(
+                        "HTTP/1.1 200 OK\r\nContent-Length: {}\r\nConnection: close\r\n\r\n",
+                        response.len()
+                    )
+                    .as_bytes(),
+                )
+                .await
+                .unwrap();
+            socket.write_all(&response).await.unwrap();
+        });
+        let outcome = scrape(&Client::new(), &format!("http://{address}/feed"), false)
+            .await
+            .unwrap();
+        assert_eq!(outcome.bytes, bytes);
+        assert!(!outcome.partial);
+        server.await.unwrap();
+    }
+
     #[test]
     fn preserves_named_extension_evidence_for_core_interpretation() {
         let payload = br#"{"header":{"gtfs_realtime_version":"2.0"},"entity":[{"id":"notice-a","alert":{"header_text":{"translation":[{"text":"Work on the network"}]},"example.alert":{"category":"Suspension","priority":3,"published":true}}}]}"#;

@@ -6,7 +6,14 @@
         {
           "agencyId": "lirr",
           "stationId": "grand-central-madison",
-          "stationName": "Grand Central Madison"
+          "stationName": "Grand Central Madison",
+          "walkingMarkers": {
+            "metro-north": {
+              "dx": -95,
+              "dy": -25,
+              "label": "Grand Central Madison"
+            }
+          }
         },
         {
           "agencyId": "mta-subway",
@@ -24,8 +31,20 @@
           "agencyId": "mta-bus",
           "stationName": "MADISON AV/E 47 ST",
           "feedStopIds": ["450180"]
+        },
+        {
+          "agencyId": "metro-north",
+          "stationId": "grand-central-terminal",
+          "stationName": "Grand Central Terminal"
         }
-      ]
+      ],
+      "badgeOffsets": {
+        "mta-subway": {
+          "dx": 80,
+          "dy": 40,
+          "layout": "vertical"
+        }
+      }
     },
     {
       "id": "lirr-mta-bus-mta-subway-nostrandavenue",
@@ -61,15 +80,79 @@
           "feedStopIds": ["L24N", "L24S"]
         }
       ]
+    },
+    {
+      "id": "metro-north-mta-bus-mta-subway-harlem125st",
+      "endpoints": [
+        {
+          "agencyId": "metro-north",
+          "stationId": "harlem-125-st",
+          "stationName": "Harlem-125 St"
+        },
+        {
+          "agencyId": "mta-subway",
+          "stationId": "lexington-125",
+          "stationName": "125 St / Lexington Av"
+        },
+        {
+          "agencyId": "mta-bus",
+          "stationName": "E 125 ST/PARK AV",
+          "feedStopIds": ["402504", "402662", "405473", "903375"]
+        }
+      ],
+      "badgeOffsets": {
+        "metro-north": {
+          "dx": -90,
+          "dy": 20,
+          "layout": "vertical"
+        }
+      }
+    },
+    {
+      "id": "metro-north-mta-bus-yankeese153st",
+      "endpoints": [
+        {
+          "agencyId": "metro-north",
+          "stationId": "yankees-e-153-st",
+          "stationName": "Yankees-E 153 St"
+        },
+        {
+          "agencyId": "mta-bus",
+          "stationName": "RIVER AV/E 157 ST",
+          "feedStopIds": ["802149"]
+        },
+        {
+          "agencyId": "mta-subway",
+          "stationId": "yankee-stadium",
+          "stationName": "161 St-Yankee Stadium",
+          "walkingMarkers": {
+            "metro-north": {
+              "dx": 55,
+              "dy": -45,
+              "label": "161 St-Yankee Stadium"
+            }
+          }
+        }
+      ]
     }
   ],
   "exclusions": [],
-  "boardingIdentityAgencyIds": ["mta-bus", "mta-subway", "lirr"],
+  "boardingIdentityAgencyIds": ["mta-bus", "mta-subway", "lirr", "metro-north"],
   "isolated": [
     {
       "agencyId": "lirr",
       "stationName": "Hillside Facility",
       "feedStopIds": ["86"]
+    },
+    {
+      "agencyId": "metro-north",
+      "stationName": "Highbridge Yard",
+      "feedStopIds": ["184"]
+    },
+    {
+      "agencyId": "metro-north",
+      "stationName": "Springdale MW Facility",
+      "feedStopIds": ["651"]
     }
   ]
 }

@@ -1,0 +1,626 @@
+{
+  "id": "metro-north",
+  "name": "Metro-North Railroad",
+  "shortName": "Metro-North",
+  "serviceArea": "New York City, Hudson Valley and southwestern Connecticut",
+  "brandColor": "#0039A6",
+  "locale": "en-US",
+  "timezone": "America/New_York",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "us",
+    "region": "ny",
+    "coverage": ["US-NY", "US-CT"]
+  },
+  "bounds": [
+    {
+      "minLat": 40.59,
+      "maxLat": 40.94,
+      "minLon": -74.02,
+      "maxLon": -73.7
+    },
+    {
+      "minLat": 40.946496,
+      "maxLat": 40.976705,
+      "minLon": -73.903062,
+      "maxLon": -73.885069
+    },
+    {
+      "minLat": 40.945393,
+      "maxLat": 40.962997,
+      "minLon": -73.834166,
+      "maxLon": -73.816564
+    },
+    {
+      "minLat": 40.950061,
+      "maxLat": 40.973432,
+      "minLon": -73.740125,
+      "maxLon": -73.708964
+    },
+    {
+      "minLat": 40.990109,
+      "maxLat": 41.043993,
+      "minLon": -73.888512,
+      "maxLon": -73.869083
+    },
+    {
+      "minLat": 40.985168,
+      "maxLat": 41.036589,
+      "minLon": -73.812634,
+      "maxLon": -73.771208
+    },
+    {
+      "minLat": 40.981922,
+      "maxLat": 40.989922,
+      "minLon": -73.686553,
+      "maxLon": -73.678553
+    },
+    {
+      "minLat": 40.996732,
+      "maxLat": 41.025277,
+      "minLon": -73.6687,
+      "maxLon": -73.620621
+    },
+    {
+      "minLat": 41.026171,
+      "maxLat": 41.037817,
+      "minLon": -73.602306,
+      "maxLon": -73.561859
+    },
+    {
+      "minLat": 41.072473,
+      "maxLat": 41.09892,
+      "minLon": -73.873755,
+      "maxLon": -73.860563
+    },
+    {
+      "minLat": 41.045806,
+      "maxLat": 41.099877,
+      "minLon": -73.797822,
+      "maxLon": -73.768599
+    },
+    {
+      "minLat": 41.042611,
+      "maxLat": 41.074547,
+      "minLon": -73.546846,
+      "maxLon": -73.516021
+    },
+    {
+      "minLat": 41.065041,
+      "maxLat": 41.09276,
+      "minLon": -73.523675,
+      "maxLon": -73.441527
+    },
+    {
+      "minLat": 41.09273,
+      "maxLat": 41.10073,
+      "minLon": -73.425132,
+      "maxLon": -73.417132
+    },
+    {
+      "minLat": 41.131763,
+      "maxLat": 41.161663,
+      "minLon": -73.873281,
+      "maxLon": -73.862163
+    },
+    {
+      "minLat": 41.104581,
+      "maxLat": 41.162015,
+      "minLon": -73.80025,
+      "maxLon": -73.770885
+    },
+    {
+      "minLat": 41.112012,
+      "maxLat": 41.150305,
+      "minLon": -73.502149,
+      "maxLon": -73.491626
+    },
+    {
+      "minLat": 41.099996,
+      "maxLat": 41.150618,
+      "minLon": -73.431859,
+      "maxLon": -73.367413
+    },
+    {
+      "minLat": 41.118265,
+      "maxLat": 41.138844,
+      "minLon": -73.319408,
+      "maxLon": -73.28497
+    },
+    {
+      "minLat": 41.139077,
+      "maxLat": 41.147077,
+      "minLon": -73.261742,
+      "maxLon": -73.253742
+    },
+    {
+      "minLat": 41.185903,
+      "maxLat": 41.193903,
+      "minLon": -73.886394,
+      "maxLon": -73.878394
+    },
+    {
+      "minLat": 41.204242,
+      "maxLat": 41.212242,
+      "minLon": -73.733778,
+      "maxLon": -73.725778
+    },
+    {
+      "minLat": 41.192202,
+      "maxLat": 41.22062,
+      "minLon": -73.436434,
+      "maxLon": -73.422703
+    },
+    {
+      "minLat": 41.157,
+      "maxLat": 41.165,
+      "minLon": -73.238336,
+      "maxLon": -73.230336
+    },
+    {
+      "minLat": 41.174677,
+      "maxLat": 41.198255,
+      "minLon": -73.191076,
+      "maxLon": -73.127532
+    },
+    {
+      "minLat": 41.242259,
+      "maxLat": 41.250259,
+      "minLon": -73.925884,
+      "maxLon": -73.917884
+    },
+    {
+      "minLat": 41.233316,
+      "maxLat": 41.263552,
+      "minLon": -73.703936,
+      "maxLon": -73.680155
+    },
+    {
+      "minLat": 41.26363,
+      "maxLat": 41.27163,
+      "minLon": -73.445421,
+      "maxLon": -73.437421
+    },
+    {
+      "minLat": 41.219231,
+      "maxLat": 41.227231,
+      "minLon": -73.061647,
+      "maxLon": -73.053647
+    },
+    {
+      "minLat": 41.26742,
+      "maxLat": 41.27542,
+      "minLon": -72.967488,
+      "maxLon": -72.959488
+    },
+    {
+      "minLat": 41.281962,
+      "maxLat": 41.336601,
+      "minLon": -73.974426,
+      "maxLon": -73.92642
+    },
+    {
+      "minLat": 41.290338,
+      "maxLat": 41.329775,
+      "minLon": -73.681655,
+      "maxLon": -73.655061
+    },
+    {
+      "minLat": 41.321684,
+      "maxLat": 41.329684,
+      "minLon": -73.4378,
+      "maxLon": -73.4298
+    },
+    {
+      "minLat": 41.315718,
+      "maxLat": 41.323718,
+      "minLon": -73.087548,
+      "maxLon": -73.079548
+    },
+    {
+      "minLat": 41.292501,
+      "maxLat": 41.308979,
+      "minLon": -72.93229,
+      "maxLon": -72.917747
+    },
+    {
+      "minLat": 41.37778,
+      "maxLat": 41.38578,
+      "minLon": -73.951202,
+      "maxLon": -73.943202
+    },
+    {
+      "minLat": 41.343722,
+      "maxLat": 41.39847,
+      "minLon": -73.666269,
+      "maxLon": -73.615802
+    },
+    {
+      "minLat": 41.392146,
+      "maxLat": 41.400146,
+      "minLon": -73.45279,
+      "maxLon": -73.44479
+    },
+    {
+      "minLat": 41.372225,
+      "maxLat": 41.380225,
+      "minLon": -73.422171,
+      "maxLon": -73.414171
+    },
+    {
+      "minLat": 41.340156,
+      "maxLat": 41.399139,
+      "minLon": -73.083892,
+      "maxLon": -73.068499
+    },
+    {
+      "minLat": 41.411283,
+      "maxLat": 41.454181,
+      "minLon": -73.986449,
+      "maxLon": -73.95409
+    },
+    {
+      "minLat": 41.409203,
+      "maxLat": 41.417203,
+      "minLon": -73.627787,
+      "maxLon": -73.619787
+    },
+    {
+      "minLat": 41.437752,
+      "maxLat": 41.445752,
+      "minLon": -73.06759,
+      "maxLon": -73.05959
+    },
+    {
+      "minLat": 41.500007,
+      "maxLat": 41.508007,
+      "minLon": -73.988528,
+      "maxLon": -73.980528
+    },
+    {
+      "minLat": 41.507827,
+      "maxLat": 41.515827,
+      "minLon": -73.608584,
+      "maxLon": -73.600584
+    },
+    {
+      "minLat": 41.490204,
+      "maxLat": 41.498204,
+      "minLon": -73.056655,
+      "maxLon": -73.048655
+    },
+    {
+      "minLat": 41.560205,
+      "maxLat": 41.568205,
+      "minLon": -73.604524,
+      "maxLon": -73.596524
+    },
+    {
+      "minLat": 41.548728,
+      "maxLat": 41.556728,
+      "minLon": -73.050126,
+      "maxLon": -73.042126
+    },
+    {
+      "minLat": 41.583448,
+      "maxLat": 41.591448,
+      "minLon": -73.951226,
+      "maxLon": -73.943226
+    },
+    {
+      "minLat": 41.588871,
+      "maxLat": 41.641525,
+      "minLon": -73.592032,
+      "maxLon": -73.56745
+    },
+    {
+      "minLat": 41.701839,
+      "maxLat": 41.709839,
+      "minLon": -73.941946,
+      "maxLon": -73.933946
+    },
+    {
+      "minLat": 41.736401,
+      "maxLat": 41.744401,
+      "minLon": -73.580502,
+      "maxLon": -73.572502
+    },
+    {
+      "minLat": 41.775938,
+      "maxLat": 41.818722,
+      "minLon": -73.566197,
+      "maxLon": -73.554204
+    }
+  ],
+  "focus": {
+    "lat": 41.05,
+    "lon": -73.75
+  },
+  "modes": ["rail"],
+  "stationService": {
+    "routeType": "rail"
+  },
+  "attribution": {
+    "name": "Metropolitan Transportation Authority",
+    "url": "https://www.mta.info/developers",
+    "license": "MTA Developer Data Terms and Conditions",
+    "licenseIsStatement": true
+  },
+  "staticTopology": {
+    "source": "seed",
+    "feeds": [
+      {
+        "name": "Metro-North Railroad",
+        "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfsmnr.zip",
+        "cacheFileName": "metro-north-gtfs.zip"
+      }
+    ]
+  },
+  "routeShortNames": {
+    "3": "New Haven",
+    "4": "New Canaan",
+    "5": "Danbury",
+    "6": "Waterbury",
+    "1": "Hudson",
+    "2": "Harlem"
+  },
+  "routeInterpretation": {
+    "directionInference": {
+      "default": "north-south"
+    }
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "trip_updates",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/mnr%2Fgtfs-mnr",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "completeTripUpdates": true,
+        "vehicleTripSource": "entity-trip-update"
+      },
+      {
+        "kind": "vehicle_positions",
+        "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/mnr%2Fgtfs-mnr",
+        "format": "protobuf",
+        "pollIntervalSeconds": 30,
+        "completeTripUpdates": true,
+        "vehicleTripSource": "entity-trip-update"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "gtfs-rt",
+      "url": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fmnr-alerts.json",
+      "format": "json"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["1", "2", "3", "4", "5", "6"],
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Delays"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Expect Delays"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Part Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Part Suspended"
+        },
+        "result": {
+          "kind": "suspension",
+          "severity": "severe"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Reduced Service"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Boarding Change"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Express to Local"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Local to Express"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Stops Skipped"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Stops Skipped"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Reroute"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Extra Transfer"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Detour"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Detour"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Cancellations"
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      },
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "transit_realtime.mercury_alert.alert_type",
+          "sourceValue": "Planned - Substitute Buses"
+        },
+        "result": {
+          "kind": "slow-service",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "cityPresets": [
+    {
+      "name": "Grand Central Terminal",
+      "lat": 40.752998,
+      "lon": -73.977056
+    },
+    {
+      "name": "Stamford",
+      "lat": 41.046611,
+      "lon": -73.542846
+    },
+    {
+      "name": "New Haven Union Station",
+      "lat": 41.296501,
+      "lon": -72.92829
+    },
+    {
+      "name": "Poughkeepsie",
+      "lat": 41.705839,
+      "lon": -73.937946
+    }
+  ],
+  "popularSurfaceRoutes": ["1", "2", "3", "4", "5", "6"]
+}

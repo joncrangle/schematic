@@ -197,6 +197,8 @@ export interface RouteStopAssociation {
  * Realtime GTFS-RT arrival prediction for a trip at a given stop.
  */
 export interface ArrivalPrediction {
+  /** The final call in a feed explicitly declared to publish complete trips. */
+  readonly isTerminalCall?: boolean;
   readonly tripId: string;
   readonly routeId: string;
   readonly directionId: number;

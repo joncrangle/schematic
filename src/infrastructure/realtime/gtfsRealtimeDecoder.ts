@@ -4,6 +4,7 @@ import {
   canonicalFeedStopId,
   type PredictionIdentityOptions,
 } from "./scheduledPredictions";
+import { completeTripPattern } from "./completeTripPattern";
 import { namespaceFeedId } from "../gtfs/feedIdentity";
 import { cancelledTripIds } from "./gtfsTripDescriptor";
 import type { TripRoute } from "~/domain/surface/boarding";
@@ -90,6 +91,7 @@ export function validateDecodedFeed(value: unknown): DecodedFeed {
 }
 
 export interface GtfsRealtimeDecodeOptions extends PredictionIdentityOptions {
+  readonly vehicleTripSource?: "entity-trip-update";
   readonly idNamespace?: string;
   readonly sourceAgencyScope?: import("~/domain/surface/boarding").SourceAgencyScope;
   /** Stable source identity used only when an upstream alert entity has no id. */
@@ -253,31 +255,32 @@ function decodeFeedEntity(
   scopeState: { incomplete: boolean },
 ): void {
   let entityId = "";
-
+  const updates: ProtobufReader[] = [],
+    positions: ProtobufReader[] = [],
+    notices: ProtobufReader[] = [];
   while (reader.hasMore()) {
     const tag = reader.readTag();
     if (!tag) break;
-    const [fieldNum, wireType] = tag;
-
-    if (fieldNum === 1 && wireType === 2) {
+    const [field, wire] = tag;
+    if (field === 1 && wire === 2)
       entityId = namespaceFeedId(reader.readString(), options.idNamespace);
-    } else if (fieldNum === 3 && wireType === 2) {
-      const sub = reader.readSubReader();
-      decodeTripUpdate(sub, entityId, tripUpdates, options);
-    } else if (fieldNum === 4 && wireType === 2) {
-      const sub = reader.readSubReader();
-      const pos = decodeVehiclePosition(sub, entityId, feedTimestamp, options);
-      if (pos) {
-        vehiclePositions.push(pos.vehicle);
-        decodedFixes.push(pos);
-      }
-    } else if (fieldNum === 5 && wireType === 2) {
-      const sub = reader.readSubReader();
-      const alert = decodeAlert(sub, entityId, feedTimestamp, options, scopeState);
-      if (alert) alerts.push(alert);
-    } else {
-      reader.skip(wireType);
+    else if (field === 3 && wire === 2) updates.push(reader.readSubReader());
+    else if (field === 4 && wire === 2) positions.push(reader.readSubReader());
+    else if (field === 5 && wire === 2) notices.push(reader.readSubReader());
+    else reader.skip(wire);
+  }
+  const trips = updates.map((update) => decodeTripUpdate(update, entityId, tripUpdates, options));
+  const entityTrip = options.vehicleTripSource && trips.length === 1 ? trips[0] : undefined;
+  for (const position of positions) {
+    const fix = decodeVehiclePosition(position, entityId, feedTimestamp, options, entityTrip);
+    if (fix) {
+      vehiclePositions.push(fix.vehicle);
+      decodedFixes.push(fix);
     }
+  }
+  for (const notice of notices) {
+    const alert = decodeAlert(notice, entityId, feedTimestamp, options, scopeState);
+    if (alert) alerts.push(alert);
   }
 }
 
@@ -286,7 +289,7 @@ function decodeTripUpdate(
   entityId: string,
   outArrivals: ArrivalPrediction[],
   options: GtfsRealtimeDecodeOptions,
-): void {
+): { tripId: string; routeId: string; directionId?: number } | undefined {
   if (
     options.routeIds &&
     !matchesRequestedRoute(
@@ -325,7 +328,12 @@ function decodeTripUpdate(
     } else if (fieldNum === 2 && wireType === 2) {
       const sub = reader.readSubReader();
       const stop = readLiveStopUpdate(sub, options);
-      if (!options.stopIds || !stop.stopId || options.stopIds.has(stop.stopId))
+      if (
+        options.completeTripUpdates ||
+        !options.stopIds ||
+        !stop.stopId ||
+        options.stopIds.has(stop.stopId)
+      )
         stopUpdates.push(stop);
     } else if (fieldNum === 3 && wireType === 2) {
       const sub = reader.readSubReader();
@@ -351,9 +359,10 @@ function decodeTripUpdate(
   // before the normalized feed crosses the Effect Schema boundary.
   if (canceled || !normalizedTripId || !normalizedRouteId) return;
 
-  const resolvedDirectionId = directionId ?? 0;
+  const complete = completeTripPattern(stopUpdates, normalizedRouteId, options);
+  const resolvedDirectionId = directionId ?? complete?.directionId ?? 0;
 
-  for (const su of stopUpdates) {
+  for (const [index, su] of stopUpdates.entries()) {
     const prediction = tripDescriptor && liveStopPrediction(su, tripDescriptor, options);
     if (
       prediction &&
@@ -364,16 +373,24 @@ function decodeTripUpdate(
         routeId: normalizedRouteId,
         directionId: resolvedDirectionId,
         vehicleId: normalizedVehicleId,
-        stopSequence: su.stopSequence,
+        stopSequence: su.stopSequence || (complete ? index + 1 : 0),
+        ...(complete ? { isTerminalCall: index === stopUpdates.length - 1 } : {}),
         ...prediction,
         scheduleRelationship: su.relationship ?? "SCHEDULED",
         isRealtime: true,
         rawEntityId: normalizedEntityId,
         ...(directionId === undefined ? { directionInferred: true } : {}),
-        ...(su.headsign === undefined ? {} : { headsign: su.headsign }),
+        ...((su.headsign ?? complete?.headsign) === undefined
+          ? {}
+          : { headsign: su.headsign ?? complete?.headsign }),
       });
     }
   }
+  return {
+    tripId: normalizedTripId,
+    routeId: normalizedRouteId,
+    directionId: directionId ?? complete?.directionId,
+  };
 }
 
 function decodeVehiclePosition(
@@ -381,11 +398,12 @@ function decodeVehiclePosition(
   entityId: string,
   feedTimestamp: number,
   options: GtfsRealtimeDecodeOptions,
+  entityTrip?: { tripId: string; routeId: string; directionId?: number },
 ): DecodedFix | null {
   if (
     options.routeIds &&
     !matchesRequestedRoute(
-      findRouteId(reader, options.tripRoutes, options.idNamespace),
+      findRouteId(reader, options.tripRoutes, options.idNamespace) ?? entityTrip?.routeId,
       options.routeIds,
     )
   ) {
@@ -468,6 +486,11 @@ function decodeVehiclePosition(
     }
   }
 
+  if (!routeId && entityTrip) {
+    routeId = entityTrip.routeId;
+    tripId = entityTrip.tripId;
+    directionId ??= entityTrip.directionId;
+  }
   if (latitude === 0 && longitude === 0) return null;
 
   const normalizedVehicleId = vehicleId.trim();

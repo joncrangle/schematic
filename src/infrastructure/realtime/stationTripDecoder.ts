@@ -3,6 +3,7 @@ import {
   liveStopPrediction,
   type PredictionIdentityOptions,
 } from "./scheduledPredictions";
+import { completeTripPattern } from "./completeTripPattern";
 import { namespaceFeedId } from "../gtfs/feedIdentity";
 import type { TripRoute } from "~/domain/surface/boarding";
 import { decodeTripDescriptor, cancelledTripIds } from "./gtfsTripDescriptor";
@@ -47,26 +48,18 @@ function decodeEntity(
   options: PredictionIdentityOptions = {},
 ): void {
   let entityId = "";
-
+  const updates: ProtobufReader[] = [];
   while (reader.hasMore()) {
     const tag = reader.readTag();
     if (!tag) break;
-    const [fieldNum, wireType] = tag;
-    if (fieldNum === 1 && wireType === 2) {
+    const [field, wire] = tag;
+    if (field === 1 && wire === 2)
       entityId = namespaceFeedId(reader.readString(), options.idNamespace);
-    } else if (fieldNum === 3 && wireType === 2) {
-      decodeTripUpdate(
-        reader.readSubReader(),
-        entityId,
-        arrivals,
-        relevantStopIds,
-        tripRoutes,
-        options,
-      );
-    } else {
-      reader.skip(wireType);
-    }
+    else if (field === 3 && wire === 2) updates.push(reader.readSubReader());
+    else reader.skip(wire);
   }
+  for (const update of updates)
+    decodeTripUpdate(update, entityId, arrivals, relevantStopIds, tripRoutes, options);
 }
 
 function decodeTripUpdate(
@@ -112,7 +105,8 @@ function decodeTripUpdate(
   const normalizedRouteId = routeId.trim();
   if (canceled || !normalizedTripId || !normalizedRouteId) return;
 
-  const resolvedDirectionId = (directionId === 0 || directionId === 1 ? directionId : 0) as 0 | 1;
+  const complete = completeTripPattern(stopUpdates, normalizedRouteId, options);
+  const resolvedDirectionId = directionId ?? complete?.directionId ?? 0;
   const rawDirection = entityId.split("|").at(-1)?.trim().toLowerCase();
   const hasEntityDirection =
     rawDirection === "north" ||
@@ -121,7 +115,7 @@ function decodeTripUpdate(
     rawDirection === "west";
   const directionInferred = directionId === undefined && !hasEntityDirection;
 
-  for (const stop of stopUpdates) {
+  for (const [index, stop] of stopUpdates.entries()) {
     const prediction = descriptor && liveStopPrediction(stop, descriptor, options);
     if (
       !prediction ||
@@ -132,13 +126,16 @@ function decodeTripUpdate(
       tripId: normalizedTripId,
       routeId: normalizedRouteId,
       directionId: resolvedDirectionId,
-      stopSequence: stop.stopSequence,
+      stopSequence: stop.stopSequence || (complete ? index + 1 : 0),
+      ...(complete ? { isTerminalCall: index === stopUpdates.length - 1 } : {}),
       ...prediction,
       scheduleRelationship: stop.relationship,
       isRealtime: true,
       rawEntityId: entityId.trim() || undefined,
       ...(directionInferred ? { directionInferred: true } : {}),
-      ...(stop.headsign === undefined ? {} : { headsign: stop.headsign }),
+      ...((stop.headsign ?? complete?.headsign) === undefined
+        ? {}
+        : { headsign: stop.headsign ?? complete?.headsign }),
     });
   }
 }

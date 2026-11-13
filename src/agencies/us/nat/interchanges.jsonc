@@ -762,6 +762,178 @@
     ]
   },
   {
+    "id": "amtrak-metro-north-bridgeportamtrak",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "Bridgeport Amtrak Station",
+        "feedStopIds": [
+          "BRP"
+        ]
+      },
+      {
+        "agencyId": "metro-north",
+        "stationName": "Bridgeport",
+        "stationId": "bridgeport"
+      }
+    ]
+  },
+  {
+    "id": "amtrak-metro-north-newhaven",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "New Haven",
+        "feedStopIds": [
+          "STS"
+        ]
+      },
+      {
+        "agencyId": "metro-north",
+        "stationName": "New Haven-State St",
+        "stationId": "new-haven-state-st"
+      }
+    ]
+  },
+  {
+    "id": "amtrak-metro-north-newhavenunion",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "New Haven Union Station",
+        "stationId": "new-haven"
+      },
+      {
+        "agencyId": "metro-north",
+        "stationName": "New Haven Union Station",
+        "stationId": "new-haven-union-station"
+      },
+      {
+        "agencyId": "flixbus-us",
+        "stationName": "New Haven Bus Stop",
+        "feedStopIds": [
+          "1b3a311b-3f9a-47da-900e-ea41472736d4"
+        ]
+      }
+    ],
+    "badgeOffsets": {
+      "amtrak": {
+        "dx": 80.45,
+        "dy": 28
+      },
+      "metro-north": {
+        "dx": -61.2,
+        "dy": -28
+      }
+    }
+  },
+  {
+    "id": "amtrak-metro-north-newrochelleamtrak",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "New Rochelle Amtrak Station",
+        "feedStopIds": [
+          "NRO"
+        ]
+      },
+      {
+        "agencyId": "metro-north",
+        "stationName": "New Rochelle",
+        "stationId": "new-rochelle"
+      }
+    ]
+  },
+  {
+    "id": "amtrak-metro-north-stamfordamtrak",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "Stamford Amtrak Station",
+        "feedStopIds": [
+          "STM"
+        ]
+      },
+      {
+        "agencyId": "metro-north",
+        "stationName": "Stamford",
+        "stationId": "stamford"
+      }
+    ]
+  },
+  {
+    "id": "amtrak-metro-north-via-crotonharmonamtrak",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "Croton-Harmon Amtrak Station",
+        "feedStopIds": [
+          "CRT"
+        ]
+      },
+      {
+        "agencyId": "metro-north",
+        "stationName": "Croton-Harmon",
+        "stationId": "croton-harmon"
+      },
+      {
+        "agencyId": "via",
+        "stationName": "Croton-Harmon",
+        "feedStopIds": [
+          "210"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amtrak-metro-north-via-poughkeepsieamtrak",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "Poughkeepsie Amtrak Station",
+        "feedStopIds": [
+          "POU"
+        ]
+      },
+      {
+        "agencyId": "metro-north",
+        "stationName": "Poughkeepsie",
+        "stationId": "poughkeepsie"
+      },
+      {
+        "agencyId": "via",
+        "stationName": "Poughkeepsie",
+        "feedStopIds": [
+          "240"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amtrak-metro-north-via-yonkersamtrak",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "Yonkers Amtrak Station",
+        "feedStopIds": [
+          "YNY"
+        ]
+      },
+      {
+        "agencyId": "metro-north",
+        "stationName": "Yonkers",
+        "stationId": "yonkers"
+      },
+      {
+        "agencyId": "via",
+        "stationName": "Yonkers",
+        "feedStopIds": [
+          "345"
+        ]
+      }
+    ]
+  },
+  {
     "id": "amtrak-mta-bus-mta-subway-via-newyork",
     "endpoints": [
       {
@@ -886,25 +1058,6 @@
     ]
   },
   {
-    "id": "amtrak-via-crotonharmonamtrak",
-    "endpoints": [
-      {
-        "agencyId": "amtrak",
-        "stationName": "Croton-Harmon Amtrak Station",
-        "feedStopIds": [
-          "CRT"
-        ]
-      },
-      {
-        "agencyId": "via",
-        "stationName": "Croton-Harmon",
-        "feedStopIds": [
-          "210"
-        ]
-      }
-    ]
-  },
-  {
     "id": "amtrak-via-hudsonamtrak",
     "endpoints": [
       {
@@ -936,25 +1089,6 @@
         "stationName": "Niagara Falls Station",
         "feedStopIds": [
           "403"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "amtrak-via-poughkeepsieamtrak",
-    "endpoints": [
-      {
-        "agencyId": "amtrak",
-        "stationName": "Poughkeepsie Amtrak Station",
-        "feedStopIds": [
-          "POU"
-        ]
-      },
-      {
-        "agencyId": "via",
-        "stationName": "Poughkeepsie",
-        "feedStopIds": [
-          "240"
         ]
       }
     ]
@@ -1070,21 +1204,20 @@
     ]
   },
   {
-    "id": "amtrak-via-yonkersamtrak",
+    "id": "flixbus-us-metro-north-whiteplains",
     "endpoints": [
       {
-        "agencyId": "amtrak",
-        "stationName": "Yonkers Amtrak Station",
+        "agencyId": "flixbus-us",
+        "stationName": "White Plains",
         "feedStopIds": [
-          "YNY"
+          "56cdf36b-3172-4e64-9334-12cb00176dc0",
+          "dbae4f78-c80e-47f9-b10e-b13c750fed8f"
         ]
       },
       {
-        "agencyId": "via",
-        "stationName": "Yonkers",
-        "feedStopIds": [
-          "345"
-        ]
+        "agencyId": "metro-north",
+        "stationName": "White Plains",
+        "stationId": "white-plains"
       }
     ]
   },
