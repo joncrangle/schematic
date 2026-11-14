@@ -33,7 +33,7 @@ export const REGION_KEYS: Readonly<Record<string, Readonly<Record<string, PlainT
       sk: "Saskatchewan",
       pe: "Prince Edward Island",
     },
-    us: { ny: "New York" },
+    us: { ny: "New York", nj: "New Jersey" },
   };
 
 interface CountryNamer {

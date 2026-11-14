@@ -776,3 +776,24 @@ ended; ordinary advisories elsewhere on the page remain in the snapshot.
 Active cards require a same-origin detail read. Full update pages retain their
 labelled start/end dates, prose and declared route/stop names. A missing or
 unreadable detail makes the crawl incomplete, rather than returning an all-clear.
+
+## Incident messages and component notices
+
+`everbridge-messages` reads timestamped incident arrays with `ebid`,
+`messageid`, `Subject`, `SentMessage`, `TemplateName` and `sentdate2`. It retains
+the latest update per incident, and the latest equipment status per facility
+template when outages and restorations receive different incident IDs. The
+publisher's `Closed` flag remains source evidence; it does not discard current
+travel advice or establish recovery by itself. Published route tokens remain
+route-scoped, and equipment template station codes remain stop-scoped.
+
+`component-service-notices` reads accordion service notes from a CMS page model's
+`:items` tree. Labels identify the affected facility; replacement stations in
+body copy do not become affected stops. Missing or empty recognized accordions
+fail the source. Recurring service instructions retain their published wording
+without invented publication dates or one-time expiry windows.
+
+`content-fragment-notices` reads a paginated CMS asset folder's `entities`,
+fragment names and title/description elements. An incomplete page stays stale;
+unpublished fragments are omitted. A recognized empty folder is a complete read.
+These parsers have matching Rust normalizers and shared vendor contract fixtures.

@@ -1732,6 +1732,196 @@
         ],
         "partial": false
       }
+    },
+    {
+      "name": "incident messages keep latest update and closed advisory copy",
+      "parser": "everbridge-messages",
+      "payload": [
+        {
+          "ebid": 1,
+          "messageid": 10,
+          "sentdate2": "/Date(1768046400000)/",
+          "Subject": "Service update",
+          "SentMessage": "AAA-BB delayed at CCC.",
+          "TemplateName": "Network issue",
+          "state": "Open"
+        },
+        {
+          "ebid": 1,
+          "messageid": 11,
+          "sentdate2": "/Date(1768046460000)/",
+          "Subject": "Final update",
+          "SentMessage": "AAA-BB resuming normal service.",
+          "TemplateName": "Network issue",
+          "state": "Closed"
+        },
+        {
+          "ebid": 2,
+          "messageid": 12,
+          "sentdate2": "/Date(1768046500000)/",
+          "Subject": "Service adjustment",
+          "SentMessage": "Expect delays on DDD-EE today.",
+          "TemplateName": "Service adjustment",
+          "state": "Closed"
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "11",
+            "title": "Final update",
+            "description": "AAA-BB resuming normal service.",
+            "posted_at": "2026-01-10T12:01:00.000Z",
+            "routes": [
+              "AAA-BB"
+            ],
+            "category": "Closed",
+            "effect": "UNKNOWN_EFFECT",
+            "reason": "restoration"
+          },
+          {
+            "id": "12",
+            "title": "Service adjustment",
+            "description": "Expect delays on DDD-EE today.",
+            "posted_at": "2026-01-10T12:01:40.000Z",
+            "routes": [
+              "DDD-EE"
+            ],
+            "category": "Closed",
+            "effect": "UNKNOWN_EFFECT"
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "empty incident board",
+      "parser": "everbridge-messages",
+      "payload": [],
+      "expected": {
+        "alerts": [],
+        "partial": false
+      }
+    },
+    {
+      "name": "CMS accordion notes preserve affected facility",
+      "parser": "component-service-notices",
+      "payload": {
+        ":items": {
+          "root": {
+            ":items": {
+              "notes": {
+                "title": "Station notes",
+                ":items": {
+                  "notice": {
+                    "id": "note-1",
+                    "accordionLabel": "<p>Central</p>",
+                    ":items": {
+                      "text": {
+                        "text": "<p>Central closes nightly for maintenance.</p><p>Use West.</p>"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "note-1",
+            "title": "Central closes nightly for maintenance.",
+            "description": "Central closes nightly for maintenance.\nUse West.",
+            "stopName": "Central",
+            "stopScoped": true,
+            "effect": "UNKNOWN_EFFECT"
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "published content fragments retain service copy",
+      "parser": "content-fragment-notices",
+      "payload": {
+        "entities": [
+          {
+            "properties": {
+              "name": "construction",
+              "elements": {
+                "title": {
+                  "value": "Bridge work"
+                },
+                "description": {
+                  "value": "<p>Allow extra travel time.</p>"
+                }
+              }
+            }
+          }
+        ],
+        "properties": {
+          "srn:paging": {
+            "total": 1,
+            "offset": 0
+          }
+        }
+      },
+      "expected": {
+        "alerts": [
+          {
+            "id": "construction",
+            "title": "Bridge work",
+            "description": "Allow extra travel time.",
+            "effect": "UNKNOWN_EFFECT"
+          }
+        ],
+        "partial": false
+      }
+    },
+    {
+      "name": "mixed incident status is separated by affected route",
+      "parser": "everbridge-messages",
+      "payload": [
+        {
+          "ebid": 1,
+          "messageid": 20,
+          "sentdate2": "/Date(1768046400000)/",
+          "Subject": "Network update",
+          "SentMessage": "AAA-BB resuming normal service. DDD-EE delays continue. Work at Junction.",
+          "TemplateName": "Network issue",
+          "state": "Open"
+        }
+      ],
+      "expected": {
+        "alerts": [
+          {
+            "id": "20:AAA-BB",
+            "title": "AAA-BB resuming normal service.",
+            "description": "AAA-BB resuming normal service. Work at Junction.",
+            "posted_at": "2026-01-10T12:00:00.000Z",
+            "routes": [
+              "AAA-BB"
+            ],
+            "category": "Open",
+            "effect": "UNKNOWN_EFFECT",
+            "reason": "restoration"
+          },
+          {
+            "id": "20:DDD-EE",
+            "title": "DDD-EE delays continue.",
+            "description": "DDD-EE delays continue. Work at Junction.",
+            "posted_at": "2026-01-10T12:00:00.000Z",
+            "routes": [
+              "DDD-EE"
+            ],
+            "category": "Open",
+            "effect": "UNKNOWN_EFFECT"
+          }
+        ],
+        "partial": false
+      }
     }
   ],
   "invalid": [
@@ -2360,6 +2550,92 @@
           "id": 1
         }
       ]
+    },
+    {
+      "name": "invalid incident message 30",
+      "parser": "everbridge-messages",
+      "payload": {}
+    },
+    {
+      "name": "invalid incident message 31",
+      "parser": "everbridge-messages",
+      "payload": [
+        {
+          "messageid": 1
+        }
+      ]
+    },
+    {
+      "name": "invalid incident message 32",
+      "parser": "everbridge-messages",
+      "payload": [
+        {
+          "ebid": 1,
+          "messageid": 10,
+          "sentdate2": "oops",
+          "Subject": "Service update",
+          "SentMessage": "AAA-BB delayed at CCC.",
+          "TemplateName": "Network issue",
+          "state": "Open"
+        }
+      ]
+    },
+    {
+      "name": "unrecognized empty CMS model",
+      "parser": "component-service-notices",
+      "payload": {
+        ":items": {}
+      }
+    },
+    {
+      "name": "fragment board missing pagination",
+      "parser": "content-fragment-notices",
+      "payload": {
+        "entities": []
+      }
+    },
+    {
+      "name": "empty incident template",
+      "parser": "everbridge-messages",
+      "payload": [
+        {
+          "ebid": 1,
+          "messageid": 10,
+          "sentdate2": "/Date(1768046400000)/",
+          "Subject": "Service update",
+          "SentMessage": "AAA-BB delayed at CCC.",
+          "TemplateName": "",
+          "state": "Open"
+        }
+      ]
+    },
+    {
+      "name": "unpublished fragment still validates blank text",
+      "parser": "content-fragment-notices",
+      "payload": {
+        "entities": [
+          {
+            "properties": {
+              "name": "construction",
+              "elements": {
+                "title": {
+                  "value": ""
+                },
+                "description": {
+                  "value": "<p>Allow extra travel time.</p>"
+                }
+              },
+              "publicationStatus": "unpublished"
+            }
+          }
+        ],
+        "properties": {
+          "srn:paging": {
+            "total": 1,
+            "offset": 0
+          }
+        }
+      }
     }
   ]
 }

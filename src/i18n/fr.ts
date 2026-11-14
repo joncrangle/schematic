@@ -280,6 +280,7 @@ export const fr: Record<TranslationKey, TranslationEntry> = {
   Alberta: "Alberta",
   Saskatchewan: "Saskatchewan",
   "New York": "New York",
+  "New Jersey": "New Jersey",
   "Service information": "Information sur le service",
   "Close service information": "Fermer l’information sur le service",
   "Transit networks": "Réseaux de transport",

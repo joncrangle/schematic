@@ -1003,6 +1003,48 @@
     }
   },
   {
+    "id": "amtrak-path-newark",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "Newark",
+        "feedStopIds": [
+          "NWK"
+        ]
+      },
+      {
+        "agencyId": "path",
+        "stationName": "Newark",
+        "stationId": "newark"
+      }
+    ]
+  },
+  {
+    "id": "amtrak-path-pennwalk",
+    "endpoints": [
+      {
+        "agencyId": "amtrak",
+        "stationName": "New York",
+        "stationId": "new-york"
+      },
+      {
+        "agencyId": "path",
+        "stationName": "33 Street",
+        "stationId": "33-street"
+      }
+    ],
+    "badgeOffsets": {
+      "amtrak": {
+        "dx": -59.5,
+        "dy": -28
+      },
+      "path": {
+        "dx": 55,
+        "dy": 40
+      }
+    }
+  },
+  {
     "id": "amtrak-via-amsterdamamtrak",
     "endpoints": [
       {

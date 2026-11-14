@@ -102,11 +102,42 @@ export function decodeMappedStationDepartures(
   lineIds: readonly string[] | undefined,
   now = Date.now(),
 ): readonly ArrivalPrediction[] {
+  if (mapping.networkStations) {
+    const network = mapping.networkStations;
+    const stations = mappedField(body, network.path);
+    const code = network.stopCodes[stopId];
+    if (!Array.isArray(stations) || !code) throw new Error("Unknown network station identity");
+    const matches = stations.filter((station) => mappedField(station, network.idField) === code);
+    if (matches.length !== 1) throw new Error("Missing or duplicate network station");
+    const groups = mappedField(matches[0], network.groupsField);
+    if (!Array.isArray(groups)) throw new Error("Invalid network station groups");
+    const rows = groups.flatMap((group) => {
+      const messages = mappedField(group, mapping.departuresField);
+      if (!Array.isArray(messages)) throw new Error("Invalid network station messages");
+      return messages.map((message) => {
+        if (typeof message !== "object" || !message) throw new Error("Invalid network departure");
+        return { ...group, ...message };
+      });
+    });
+    const { networkStations: _, ...fields } = mapping;
+    return decodeMappedStationDepartures(
+      rows,
+      stopId,
+      { ...fields, routesPath: "$", departuresField: "$" },
+      lineIds,
+      now,
+    ).map((arrival) => ({
+      ...arrival,
+      tripId: `board-${code}-${arrival.routeId}-${arrival.directionId}-${arrival.headsign ?? ""}-${arrival.predictedTime}`,
+      rawEntityId: undefined,
+    }));
+  }
   const routes = mappedField(body, mapping.routesPath);
   if (!Array.isArray(routes)) throw new Error("Station departures routes were not an array");
   const arrivals: ArrivalPrediction[] = [];
   for (const [routeIndex, route] of routes.entries()) {
-    const routeId = trimmedString(mappedField(route, mapping.routeIdField));
+    const rawRoute = trimmedString(mappedField(route, mapping.routeIdField));
+    const routeId = mapping.routeAliases && rawRoute ? mapping.routeAliases[rawRoute] : rawRoute;
     const departures =
       mapping.departuresField === "$" ? [route] : mappedField(route, mapping.departuresField);
     if (!routeId || !Array.isArray(departures)) throw new Error("Invalid station departures route");
@@ -136,14 +167,22 @@ export function decodeMappedStationDepartures(
       )
         continue;
       const departureDirection = mappedField(departure, mapping.directionField) ?? direction;
+      const aliasedDirection =
+        mapping.directionAliases?.[String(departureDirection)] ?? departureDirection;
       const capturedDirection = mapping.directionPattern
-        ? new RegExp(mapping.directionPattern, "u").exec(String(departureDirection))?.[1]
-        : departureDirection;
+        ? new RegExp(mapping.directionPattern, "u").exec(String(aliasedDirection))?.[1]
+        : aliasedDirection;
       if (mapping.directionPattern && capturedDirection !== "0" && capturedDirection !== "1")
         throw new Error("Invalid mapped departure direction");
       const { directionId, directionAuthoritative, rawDirection } =
         classifyMappedDirection(capturedDirection);
-      const time = mappedField(departure, mapping.timeField);
+      const rawTime = mappedField(departure, mapping.timeField);
+      const time =
+        mapping.timeFormat === "countdown-seconds" &&
+        typeof rawTime === "string" &&
+        /^\d+(?:\.\d+)?$/.test(rawTime)
+          ? Number(rawTime)
+          : rawTime;
       const updatedAt = mapping.updatedAtField
         ? departureTime(String(mappedField(departure, mapping.updatedAtField)), mapping.timeZone)
         : undefined;
@@ -156,7 +195,10 @@ export function decodeMappedStationDepartures(
         throw new Error("Stale station departure estimate");
       const predictedTime =
         mapping.timeFormat === "countdown-seconds"
-          ? typeof time === "number" && Number.isFinite(time) && updatedAt !== undefined
+          ? typeof time === "number" &&
+            Number.isFinite(time) &&
+            time >= 0 &&
+            updatedAt !== undefined
             ? updatedAt + time * 1000
             : NaN
           : typeof time === "string"
@@ -196,6 +238,7 @@ export function decodeMappedStationDepartures(
           : (predictedTime - scheduledTime) / 1000,
         scheduleRelationship: "SCHEDULED",
         isRealtime:
+          mapping.timeFormat === "countdown-seconds" ||
           mapping.realtimePresenceField !== undefined ||
           mappedFlag(mappedField(departure, mapping.realtimeField)),
         rawEntityId: `station-${stopId}-${routeIndex}-${index}|${rawDirection ?? directionId}`,
@@ -213,7 +256,7 @@ type Options = Pick<
 >;
 interface CachedRead {
   readonly expiresAt: number;
-  readonly value: Promise<readonly ArrivalPrediction[]>;
+  readonly value: Promise<unknown>;
 }
 const reads = new WeakMap<typeof fetch, Map<string, CachedRead>>();
 
@@ -239,7 +282,15 @@ export function fetchMappedStationDepartures(
     .replaceAll("-", "");
   const url = feed.url
     .replaceAll("{stopId}", encodeURIComponent(requestedId))
-    .replaceAll("{date}", date);
+    .replaceAll("{date}", date)
+    .replaceAll(
+      "{timestamp}",
+      String(
+        Math.floor(now / (Math.max(12, feed.pollIntervalSeconds ?? 12) * 1000)) *
+          Math.max(12, feed.pollIntervalSeconds ?? 12) *
+          1000,
+      ),
+    );
   const key = JSON.stringify([
     opts.agencyId,
     url,
@@ -259,7 +310,15 @@ export function fetchMappedStationDepartures(
     reads.set(opts.fetch, cache);
   }
   const cached = cache.get(key);
-  if (cached && cached.expiresAt > now) return cached.value;
+  const decode = async (value: Promise<unknown>) =>
+    decodeMappedStationDepartures(
+      await value,
+      stopId,
+      feed.responseMapping!,
+      feed.lineIds,
+      (opts.now ?? Date.now)(),
+    );
+  if (cached && cached.expiresAt > now) return decode(cached.value);
   if (cache.size >= 512) cache.delete(cache.keys().next().value!);
   const value = (async () => {
     const result = await Effect.runPromise(
@@ -277,13 +336,7 @@ export function fetchMappedStationDepartures(
                   const payload: unknown = JSON.parse(new TextDecoder().decode(bytes));
                   if (feed.emptyBoardIsError && Array.isArray(payload) && payload.length === 0)
                     throw new Error("Empty departure board cannot establish service");
-                  return decodeMappedStationDepartures(
-                    payload,
-                    stopId,
-                    feed.responseMapping!,
-                    feed.lineIds,
-                    (opts.now ?? Date.now)(),
-                  );
+                  return payload;
                 },
                 catch: (cause) => cause,
               }),
@@ -306,7 +359,7 @@ export function fetchMappedStationDepartures(
     value,
     expiresAt: now + Math.max(12000, (feed.pollIntervalSeconds ?? 12) * 1000),
   });
-  return value;
+  return decode(value);
 }
 
 /** Per-stop APIs only fetch requested nearby stops, never every stop on a route. */

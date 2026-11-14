@@ -1,3 +1,8 @@
+import {
+  normalizeContentFragments,
+  normalizeIncidentMessages,
+  normalizeComponentNotices,
+} from "./incidentMessageBoards";
 import { normalizeHubupAlerts } from "./hubup/hubupAlerts";
 import {
   normalizeBucketedTransitAlerts,
@@ -113,6 +118,9 @@ export function normalizeVendorJsonAlerts(
   alerts: unknown;
   partial: boolean;
 } {
+  if (parser === "content-fragment-notices") return normalizeContentFragments(payload);
+  if (parser === "everbridge-messages") return normalizeIncidentMessages(payload);
+  if (parser === "component-service-notices") return normalizeComponentNotices(payload);
   if (parser === "bucketed-transit-alerts") return normalizeBucketedTransitAlerts(payload);
   if (parser === "jsonapi-transit-notices") return normalizeJsonApiTransitNotices(payload);
   if (parser === "keyed-service-notices") {

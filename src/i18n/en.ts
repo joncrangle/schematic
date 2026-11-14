@@ -276,6 +276,7 @@ export const en = {
   Alberta: "Alberta",
   Saskatchewan: "Saskatchewan",
   "New York": "New York",
+  "New Jersey": "New Jersey",
   "Service information": "Service information",
   "Close service information": "Close service information",
   "Transit networks": "Transit networks",

@@ -1,0 +1,682 @@
+{
+  "viewBoxWidth": 2500,
+  "viewBoxHeight": 1100,
+  "lines": [
+    {
+      "id": "862",
+      "name": "Newark \u2013 World Trade Center",
+      "color": "#D93A30",
+      "points": [
+        {
+          "x": 160,
+          "y": 760
+        },
+        {
+          "x": 1580,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "860",
+      "name": "Hoboken \u2013 World Trade Center",
+      "color": "#65C100",
+      "points": [
+        {
+          "x": 860,
+          "y": 360
+        },
+        {
+          "x": 1248,
+          "y": 748
+        },
+        {
+          "x": 1580,
+          "y": 748
+        },
+        {
+          "x": 1580,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "859",
+      "name": "Hoboken \u2013 33rd Street",
+      "color": "#4D92FB",
+      "points": [
+        {
+          "x": 860,
+          "y": 360
+        },
+        {
+          "x": 872,
+          "y": 348
+        },
+        {
+          "x": 2180,
+          "y": 348
+        },
+        {
+          "x": 2192,
+          "y": 360
+        },
+        {
+          "x": 2240,
+          "y": 360
+        }
+      ]
+    },
+    {
+      "id": "861",
+      "name": "Journal Square \u2013 33rd Street",
+      "color": "#FF9900",
+      "points": [
+        {
+          "x": 620,
+          "y": 760
+        },
+        {
+          "x": 620,
+          "y": 772
+        },
+        {
+          "x": 848,
+          "y": 772
+        },
+        {
+          "x": 1248,
+          "y": 372
+        },
+        {
+          "x": 2180,
+          "y": 372
+        },
+        {
+          "x": 2192,
+          "y": 360
+        },
+        {
+          "x": 2240,
+          "y": 360
+        }
+      ]
+    },
+    {
+      "id": "1024",
+      "name": "Journal Square \u2013 33rd Street (Overnight via Hoboken)",
+      "color": "#FFFE56",
+      "points": [
+        {
+          "x": 620,
+          "y": 760
+        },
+        {
+          "x": 620,
+          "y": 784
+        },
+        {
+          "x": 848,
+          "y": 784
+        },
+        {
+          "x": 1040,
+          "y": 592
+        },
+        {
+          "x": 1040,
+          "y": 580
+        },
+        {
+          "x": 1060,
+          "y": 560
+        },
+        {
+          "x": 1040,
+          "y": 540
+        },
+        {
+          "x": 1040,
+          "y": 528
+        },
+        {
+          "x": 872,
+          "y": 360
+        },
+        {
+          "x": 860,
+          "y": 360
+        },
+        {
+          "x": 972,
+          "y": 248
+        },
+        {
+          "x": 2080,
+          "y": 248
+        },
+        {
+          "x": 2192,
+          "y": 360
+        },
+        {
+          "x": 2240,
+          "y": 360
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "newark",
+      "name": "Newark",
+      "x": 160,
+      "y": 760,
+      "lines": ["862"],
+      "terminal": true,
+      "accessible": true,
+      "label": {
+        "x": 160,
+        "y": 804,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "harrison",
+      "name": "Harrison",
+      "x": 380,
+      "y": 760,
+      "lines": ["862"],
+      "terminal": false,
+      "accessible": true,
+      "label": {
+        "x": 380,
+        "y": 804,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "journal-square",
+      "name": "Journal Square",
+      "x": 620,
+      "y": 760,
+      "lines": ["862", "861", "1024"],
+      "terminal": true,
+      "accessible": true,
+      "label": {
+        "x": 620,
+        "y": 804,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "grove-street",
+      "name": "Grove Street",
+      "x": 860,
+      "y": 760,
+      "lines": ["862", "861", "1024"],
+      "terminal": false,
+      "accessible": true,
+      "label": {
+        "x": 860,
+        "y": 804,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "newport",
+      "name": "Newport",
+      "x": 1060,
+      "y": 560,
+      "lines": ["861", "860", "1024"],
+      "terminal": false,
+      "accessible": true,
+      "label": {
+        "x": 1025,
+        "y": 560,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "hoboken",
+      "name": "Hoboken",
+      "x": 860,
+      "y": 360,
+      "lines": ["860", "859", "1024"],
+      "terminal": true,
+      "accessible": true,
+      "label": {
+        "x": 830,
+        "y": 360,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "exchange-place",
+      "name": "Exchange Place",
+      "x": 1260,
+      "y": 760,
+      "lines": ["862", "860"],
+      "terminal": false,
+      "accessible": true,
+      "label": {
+        "x": 1260,
+        "y": 804,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "world-trade-center",
+      "name": "World Trade Center",
+      "x": 1580,
+      "y": 760,
+      "lines": ["862", "860"],
+      "terminal": true,
+      "accessible": true,
+      "label": {
+        "x": 1580,
+        "y": 804,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "christopher-street",
+      "name": "Christopher Street",
+      "x": 1360,
+      "y": 360,
+      "lines": ["861", "859", "1024"],
+      "terminal": false,
+      "accessible": false,
+      "label": {
+        "x": 1360,
+        "y": 404,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "9-street",
+      "name": "9 Street",
+      "x": 1580,
+      "y": 360,
+      "lines": ["861", "859", "1024"],
+      "terminal": false,
+      "accessible": false,
+      "label": {
+        "x": 1580,
+        "y": 404,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "14-street",
+      "name": "14 Street",
+      "x": 1800,
+      "y": 360,
+      "lines": ["861", "859", "1024"],
+      "terminal": false,
+      "accessible": false,
+      "label": {
+        "x": 1800,
+        "y": 404,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "23-street",
+      "name": "23 Street",
+      "x": 2020,
+      "y": 360,
+      "lines": ["861", "859", "1024"],
+      "terminal": false,
+      "accessible": false,
+      "label": {
+        "x": 2020,
+        "y": 404,
+        "anchor": "middle"
+      }
+    },
+    {
+      "id": "33-street",
+      "name": "33 Street",
+      "x": 2240,
+      "y": 360,
+      "lines": ["861", "859", "1024"],
+      "terminal": true,
+      "accessible": true,
+      "label": {
+        "x": 2240,
+        "y": 330,
+        "anchor": "middle"
+      }
+    }
+  ],
+  "sequences": {
+    "862": [
+      "newark",
+      "harrison",
+      "journal-square",
+      "grove-street",
+      "exchange-place",
+      "world-trade-center"
+    ],
+    "861": [
+      "journal-square",
+      "grove-street",
+      "newport",
+      "christopher-street",
+      "9-street",
+      "14-street",
+      "23-street",
+      "33-street"
+    ],
+    "860": ["hoboken", "newport", "exchange-place", "world-trade-center"],
+    "859": ["hoboken", "christopher-street", "9-street", "14-street", "23-street", "33-street"],
+    "1024": [
+      "journal-square",
+      "grove-street",
+      "newport",
+      "hoboken",
+      "christopher-street",
+      "9-street",
+      "14-street",
+      "23-street",
+      "33-street"
+    ]
+  },
+  "stationAliases": {
+    "id:26722": "14-street",
+    "id:26723": "23-street",
+    "id:26724": "33-street",
+    "id:26725": "9-street",
+    "id:26726": "christopher-street",
+    "id:26727": "exchange-place",
+    "id:26728": "grove-street",
+    "id:26729": "harrison",
+    "id:26730": "hoboken",
+    "id:26731": "journal-square",
+    "id:26732": "newport",
+    "id:26733": "newark",
+    "id:26734": "world-trade-center",
+    "14S": "14-street",
+    "23S": "23-street",
+    "33S": "33-street",
+    "09S": "9-street",
+    "CHR": "christopher-street",
+    "EXP": "exchange-place",
+    "GRV": "grove-street",
+    "HAR": "harrison",
+    "HOB": "hoboken",
+    "JSQ": "journal-square",
+    "NEW": "newport",
+    "NWK": "newark",
+    "WTC": "world-trade-center",
+    "9 St.": "9-street",
+    "14 St.": "14-street",
+    "23 St.": "23-street",
+    "33 St.": "33-street",
+    "Christopher St.": "christopher-street",
+    "id:4249031": "journal-square",
+    "id:781715": "hoboken",
+    "id:781716": "hoboken",
+    "id:781717": "hoboken",
+    "id:781718": "newark",
+    "id:781719": "newark",
+    "id:781720": "harrison",
+    "id:781721": "harrison",
+    "id:781722": "journal-square",
+    "id:781723": "journal-square",
+    "id:781724": "journal-square",
+    "id:781725": "journal-square",
+    "id:781726": "grove-street",
+    "id:781727": "grove-street",
+    "id:781728": "newport",
+    "id:781729": "newport",
+    "id:781730": "exchange-place",
+    "id:781731": "exchange-place",
+    "id:781732": "christopher-street",
+    "id:781733": "christopher-street",
+    "id:781734": "9-street",
+    "id:781735": "9-street",
+    "id:781736": "14-street",
+    "id:781737": "14-street",
+    "id:781738": "23-street",
+    "id:781739": "23-street",
+    "id:781740": "33-street",
+    "id:781741": "33-street",
+    "id:781763": "world-trade-center",
+    "id:782490": "newark",
+    "id:782491": "newark",
+    "id:782492": "harrison",
+    "id:782493": "harrison",
+    "id:782494": "journal-square",
+    "id:782496": "grove-street",
+    "id:782497": "grove-street",
+    "id:782498": "newport",
+    "id:782499": "hoboken",
+    "id:782500": "hoboken",
+    "id:782501": "exchange-place",
+    "id:782503": "christopher-street",
+    "id:782504": "9-street",
+    "id:782505": "14-street",
+    "id:782506": "14-street",
+    "id:782507": "23-street",
+    "id:782508": "33-street",
+    "id:782509": "33-street",
+    "id:782510": "33-street",
+    "id:782511": "33-street",
+    "id:782512": "world-trade-center",
+    "id:794724": "world-trade-center",
+    "9th Street": "9-street",
+    "14th Street": "14-street",
+    "23rd Street": "23-street",
+    "33rd Street": "33-street"
+  },
+  "badges": [
+    {
+      "line": "862",
+      "num": "NWK",
+      "x": 450,
+      "y": 794,
+      "color": "#D93A30",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "line": "860",
+      "num": "WTC",
+      "x": 1430,
+      "y": 714,
+      "color": "#65C100",
+      "textColor": "#000000"
+    },
+    {
+      "line": "859",
+      "num": "HOB",
+      "x": 1900,
+      "y": 314,
+      "color": "#4D92FB",
+      "textColor": "#000000"
+    },
+    {
+      "line": "861",
+      "num": "JSQ",
+      "x": 1910,
+      "y": 406,
+      "color": "#FF9900",
+      "textColor": "#000000"
+    },
+    {
+      "line": "1024",
+      "num": "VIA",
+      "x": 1120,
+      "y": 214,
+      "color": "#FFFE56",
+      "textColor": "#000000"
+    }
+  ],
+  "viewport": {
+    "bounds": {
+      "minX": 40,
+      "maxX": 2450,
+      "minY": 180,
+      "maxY": 950
+    },
+    "minZoom": 0.25,
+    "maxZoom": 30
+  },
+  "geoProjection": {
+    "refLonWest": -74.16375,
+    "refLonEast": -73.98827,
+    "refXWest": 160,
+    "refXEast": 2240,
+    "refLatNorth": 40.74912,
+    "refLatSouth": 40.71271,
+    "refYNorth": 360,
+    "refYSouth": 760
+  },
+  "stationIndex": [
+    {
+      "id": "26722",
+      "schematicId": "14-street",
+      "name": "14 Street",
+      "lat": 40.73735,
+      "lon": -73.99684,
+      "lines": ["1024", "859", "861"],
+      "platformIds": ["781736", "781737"],
+      "departureRouteIds": ["1024", "859", "861"]
+    },
+    {
+      "id": "26723",
+      "schematicId": "23-street",
+      "name": "23 Street",
+      "lat": 40.7429,
+      "lon": -73.99278,
+      "lines": ["1024", "859", "861"],
+      "platformIds": ["781738", "781739"],
+      "departureRouteIds": ["1024", "859", "861"]
+    },
+    {
+      "id": "26724",
+      "schematicId": "33-street",
+      "name": "33 Street",
+      "lat": 40.74912,
+      "lon": -73.98827,
+      "lines": ["1024", "859", "861"],
+      "platformIds": ["781740", "781741"],
+      "departureRouteIds": ["1024", "859", "861"]
+    },
+    {
+      "id": "26725",
+      "schematicId": "9-street",
+      "name": "9 Street",
+      "lat": 40.73424,
+      "lon": -73.9991,
+      "lines": ["1024", "859", "861"],
+      "platformIds": ["781734", "781735"],
+      "departureRouteIds": ["1024", "859", "861"]
+    },
+    {
+      "id": "26726",
+      "schematicId": "christopher-street",
+      "name": "Christopher Street",
+      "lat": 40.73295,
+      "lon": -74.00707,
+      "lines": ["1024", "859", "861"],
+      "platformIds": ["781732", "781733"],
+      "departureRouteIds": ["1024", "859", "861"]
+    },
+    {
+      "id": "26727",
+      "schematicId": "exchange-place",
+      "name": "Exchange Place",
+      "lat": 40.71676,
+      "lon": -74.03238,
+      "lines": ["860", "862"],
+      "platformIds": ["781730", "781731"],
+      "departureRouteIds": ["860", "862"]
+    },
+    {
+      "id": "26728",
+      "schematicId": "grove-street",
+      "name": "Grove Street",
+      "lat": 40.71966,
+      "lon": -74.04245,
+      "lines": ["1024", "861", "862"],
+      "platformIds": ["781726", "781727"],
+      "departureRouteIds": ["1024", "861", "862"]
+    },
+    {
+      "id": "26729",
+      "schematicId": "harrison",
+      "name": "Harrison",
+      "lat": 40.73942,
+      "lon": -74.15587,
+      "lines": ["862"],
+      "platformIds": ["781720", "781721"],
+      "departureRouteIds": ["862"]
+    },
+    {
+      "id": "26730",
+      "schematicId": "hoboken",
+      "name": "Hoboken",
+      "lat": 40.73586,
+      "lon": -74.02922,
+      "lines": ["1024", "859", "860"],
+      "platformIds": ["781715", "781716", "781717"],
+      "departureRouteIds": ["1024", "859", "860"]
+    },
+    {
+      "id": "26731",
+      "schematicId": "journal-square",
+      "name": "Journal Square",
+      "lat": 40.73301,
+      "lon": -74.06289,
+      "lines": ["1024", "861", "862"],
+      "platformIds": ["781722", "781723", "781724", "781725"],
+      "departureRouteIds": ["1024", "861", "862"]
+    },
+    {
+      "id": "26733",
+      "schematicId": "newark",
+      "name": "Newark",
+      "lat": 40.73454,
+      "lon": -74.16375,
+      "lines": ["862"],
+      "platformIds": ["781718", "781719"],
+      "departureRouteIds": ["862"]
+    },
+    {
+      "id": "26732",
+      "schematicId": "newport",
+      "name": "Newport",
+      "lat": 40.72699,
+      "lon": -74.03383,
+      "lines": ["1024", "860", "861"],
+      "platformIds": ["781728", "781729"],
+      "departureRouteIds": ["1024", "860", "861"]
+    },
+    {
+      "id": "26734",
+      "schematicId": "world-trade-center",
+      "name": "World Trade Center",
+      "lat": 40.71271,
+      "lon": -74.01193,
+      "lines": ["860", "862"],
+      "platformIds": ["781763", "794724"],
+      "departureRouteIds": ["860", "862"]
+    }
+  ],
+  "cornerInsertions": [
+    {
+      "lineId": "1024",
+      "stationId": "hoboken",
+      "before": {
+        "x": 872,
+        "y": 360
+      },
+      "after": {
+        "x": 972,
+        "y": 248
+      }
+    }
+  ]
+}
