@@ -1,0 +1,270 @@
+{
+  "id": "path",
+  "name": "PATH",
+  "shortName": "PATH",
+  "serviceArea": "Newark, Harrison, Jersey City, Hoboken and Manhattan",
+  "brandColor": "#0078AE",
+  "locale": "en-US",
+  "timezone": "America/New_York",
+  "status": "experimental",
+  "scope": "regional",
+  "jurisdiction": {
+    "country": "us",
+    "region": "nj",
+    "coverage": ["US-NJ", "US-NY"]
+  },
+  "bounds": [
+    {
+      "minLat": 40.725,
+      "maxLat": 40.75,
+      "minLon": -74.18,
+      "maxLon": -74.145
+    },
+    {
+      "minLat": 40.705,
+      "maxLat": 40.747,
+      "minLon": -74.08,
+      "maxLon": -74.02
+    },
+    {
+      "minLat": 40.7,
+      "maxLat": 40.8,
+      "minLon": -74.02,
+      "maxLon": -73.92
+    }
+  ],
+  "focus": {
+    "lat": 40.73301,
+    "lon": -74.06289
+  },
+  "modes": ["rail"],
+  "stationService": {
+    "routeType": "rail"
+  },
+  "attribution": {
+    "name": "Port Authority of New York and New Jersey / PATH; Trillium",
+    "url": "https://www.panynj.gov/path/en/index.html",
+    "license": "No explicit data reuse licence was found for these public rider feeds. Predictions and advisories are attributed to the Port Authority; static topology is published by Trillium."
+  },
+  "staticTopology": {
+    "source": "seed",
+    "excludedRouteIds": ["74320", "77285"],
+    "feeds": [
+      {
+        "name": "PATH",
+        "url": "https://data.trilliumtransit.com/gtfs/path-nj-us/path-nj-us.zip",
+        "cacheFileName": "path-gtfs.zip"
+      }
+    ]
+  },
+  "routeShortNames": {
+    "862": "NWK-WTC",
+    "860": "HOB-WTC",
+    "859": "HOB-33",
+    "861": "JSQ-33",
+    "1024": "JSQ-33 via HOB"
+  },
+  "routeInterpretation": {
+    "directionInference": {
+      "default": "east-west"
+    }
+  },
+  "realtime": {
+    "feeds": [
+      {
+        "kind": "station_departures",
+        "url": "https://www.panynj.gov/bin/portauthority/ridepath.json?timeStamp={timestamp}",
+        "format": "json",
+        "pollIntervalSeconds": 30,
+        "responseMapping": {
+          "networkStations": {
+            "path": "results",
+            "idField": "consideredStation",
+            "groupsField": "destinations",
+            "stopCodes": {
+              "26722": "14S",
+              "26723": "23S",
+              "26724": "33S",
+              "26725": "09S",
+              "26726": "CHR",
+              "26727": "EXP",
+              "26728": "GRV",
+              "26729": "HAR",
+              "26730": "HOB",
+              "26731": "JSQ",
+              "26732": "NEW",
+              "26733": "NWK",
+              "26734": "WTC",
+              "4249031": "JSQ",
+              "781715": "HOB",
+              "781716": "HOB",
+              "781717": "HOB",
+              "781718": "NWK",
+              "781719": "NWK",
+              "781720": "HAR",
+              "781721": "HAR",
+              "781722": "JSQ",
+              "781723": "JSQ",
+              "781724": "JSQ",
+              "781725": "JSQ",
+              "781726": "GRV",
+              "781727": "GRV",
+              "781728": "NEW",
+              "781729": "NEW",
+              "781730": "EXP",
+              "781731": "EXP",
+              "781732": "CHR",
+              "781733": "CHR",
+              "781734": "09S",
+              "781735": "09S",
+              "781736": "14S",
+              "781737": "14S",
+              "781738": "23S",
+              "781739": "23S",
+              "781740": "33S",
+              "781741": "33S",
+              "781763": "WTC",
+              "782490": "NWK",
+              "782491": "NWK",
+              "782492": "HAR",
+              "782493": "HAR",
+              "782494": "JSQ",
+              "782496": "GRV",
+              "782497": "GRV",
+              "782498": "NEW",
+              "782499": "HOB",
+              "782500": "HOB",
+              "782501": "EXP",
+              "782503": "CHR",
+              "782504": "09S",
+              "782505": "14S",
+              "782506": "14S",
+              "782507": "23S",
+              "782508": "33S",
+              "782509": "33S",
+              "782510": "33S",
+              "782511": "33S",
+              "782512": "WTC",
+              "794724": "WTC"
+            }
+          },
+          "routesPath": "$",
+          "routeIdField": "lineColor",
+          "routeAliases": {
+            "D93A30": "862",
+            "65C100": "860",
+            "4D92FB": "859",
+            "FF9900": "861",
+            "FF9900,4D92FB": "1024",
+            "4D92FB,FF9900": "1024",
+            "d93a30": "862",
+            "65c100": "860",
+            "4d92fb": "859",
+            "ff9900": "861",
+            "ff9900,4d92fb": "1024",
+            "4d92fb,ff9900": "1024"
+          },
+          "departuresField": "messages",
+          "timeField": "secondsToArrival",
+          "timeFormat": "countdown-seconds",
+          "updatedAtField": "lastUpdated",
+          "maxAgeSeconds": 120,
+          "directionField": "label",
+          "directionAliases": {
+            "ToNY": 0,
+            "ToNJ": 1
+          },
+          "headsignField": "headSign"
+        }
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "type": "json",
+      "url": "https://www.panynj.gov/bin/portauthority/alerts?agency=PATH",
+      "parser": "everbridge-messages",
+      "language": "en"
+    },
+    {
+      "type": "json",
+      "url": "https://www.panynj.gov/path/en/planned-service-changes.model.json",
+      "parser": "component-service-notices",
+      "language": "en"
+    },
+    {
+      "type": "json",
+      "parser": "content-fragment-notices",
+      "url": "https://www.panynj.gov/api/assets/path/planned-services.json",
+      "language": "en"
+    }
+  ],
+  "alertInterpretation": {
+    "lineIds": ["862", "861", "860", "859", "1024"],
+    "routeIdNormalization": {
+      "aliases": {
+        "NWK-WTC": "862",
+        "HOB-WTC": "860",
+        "HOB-33": "859",
+        "JSQ-33": "861"
+      }
+    },
+    "routeNames": {
+      "862": ["NWK-WTC", "Newark - World Trade Center"],
+      "860": ["HOB-WTC"],
+      "859": ["HOB-33"],
+      "861": ["JSQ-33"],
+      "1024": ["JSQ-33 via HOB"]
+    },
+    "rules": [
+      {
+        "priority": 100,
+        "match": {
+          "sourceField": "reason",
+          "sourceValue": "restoration"
+        },
+        "result": {
+          "kind": "information",
+          "severity": "normal"
+        }
+      },
+      {
+        "priority": 50,
+        "match": {
+          "textIncludes": ["delayed", "delays continue", "expect some delays"]
+        },
+        "result": {
+          "kind": "delay",
+          "severity": "degraded"
+        }
+      }
+    ]
+  },
+  "cityPresets": [
+    {
+      "lat": 40.73454,
+      "lon": -74.16375,
+      "name": "Newark"
+    },
+    {
+      "lat": 40.73301,
+      "lon": -74.06289,
+      "name": "Journal Square"
+    },
+    {
+      "lat": 40.73586,
+      "lon": -74.02922,
+      "name": "Hoboken"
+    },
+    {
+      "lat": 40.71271,
+      "lon": -74.01193,
+      "name": "World Trade Center"
+    },
+    {
+      "lat": 40.74912,
+      "lon": -73.98827,
+      "name": "33rd Street"
+    }
+  ]
+}

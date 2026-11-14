@@ -34,3 +34,5 @@ pub mod zenbus_messages;
 pub mod municipal_news;
 
 pub mod hubup_alerts;
+
+pub mod incident_boards;

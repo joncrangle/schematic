@@ -1,50 +1,6 @@
 {
   "hubs": [
     {
-      "id": "amtrak-mta-bus-mta-subway-via-newyork",
-      "endpoints": [
-        {
-          "agencyId": "amtrak",
-          "stationId": "new-york",
-          "stationName": "New York"
-        },
-        {
-          "agencyId": "mta-subway",
-          "stationId": "penn-eighth",
-          "stationName": "34 St-Penn / 8 Av",
-          "feedStopIds": ["A28N", "A28S"]
-        },
-        {
-          "agencyId": "mta-subway",
-          "stationId": "penn-seventh",
-          "stationName": "34 St-Penn / 7 Av"
-        },
-        {
-          "agencyId": "mta-bus",
-          "stationId": "m34-sbs-w-34-st-7-av",
-          "stationName": "W 34 St / 7 Av",
-          "feedStopIds": ["401847", "404280"]
-        },
-        {
-          "agencyId": "via",
-          "stationId": "new-york",
-          "stationName": "New York"
-        },
-        {
-          "agencyId": "lirr",
-          "stationId": "penn-station",
-          "stationName": "Penn Station"
-        }
-      ],
-      "badgeOffsets": {
-        "mta-bus": {
-          "dx": 80,
-          "dy": -40,
-          "layout": "vertical"
-        }
-      }
-    },
-    {
       "id": "amtrak-metro-north-newhavenunion",
       "endpoints": [
         {
@@ -78,6 +34,126 @@
           "feedStopIds": ["9b6aaed4-3ecb-11ea-8017-02437075395e"]
         }
       ]
+    },
+    {
+      "id": "amtrak-path-newark",
+      "endpoints": [
+        {
+          "agencyId": "amtrak",
+          "stationName": "Newark",
+          "feedStopIds": ["NWK"]
+        },
+        {
+          "agencyId": "path",
+          "stationId": "newark",
+          "stationName": "Newark"
+        }
+      ]
+    },
+    {
+      "id": "amtrak-path-pennwalk",
+      "endpoints": [
+        {
+          "agencyId": "amtrak",
+          "stationId": "new-york",
+          "stationName": "New York"
+        },
+        {
+          "agencyId": "path",
+          "stationId": "33-street",
+          "stationName": "33 Street"
+        }
+      ],
+      "badgeOffsets": {
+        "path": {
+          "dx": 55,
+          "dy": 40
+        }
+      }
+    },
+    {
+      "id": "via-path-pennwalk",
+      "endpoints": [
+        {
+          "agencyId": "via",
+          "stationId": "new-york",
+          "stationName": "New York"
+        },
+        {
+          "agencyId": "path",
+          "stationId": "33-street",
+          "stationName": "33 Street"
+        }
+      ],
+      "badgeOffsets": {
+        "path": {
+          "dx": 45,
+          "dy": -55
+        }
+      }
+    },
+    {
+      "id": "amtrak-mta-bus-mta-subway-via-newyork",
+      "endpoints": [
+        {
+          "agencyId": "amtrak",
+          "stationName": "New York",
+          "stationId": "new-york"
+        },
+        {
+          "agencyId": "mta-subway",
+          "stationName": "34 St-Penn / 8 Av",
+          "stationId": "penn-eighth",
+          "feedStopIds": ["A28N", "A28S"]
+        },
+        {
+          "agencyId": "mta-subway",
+          "stationName": "34 St-Penn / 7 Av",
+          "stationId": "penn-seventh"
+        },
+        {
+          "agencyId": "mta-bus",
+          "stationName": "W 34 St / 7 Av",
+          "stationId": "m34-sbs-w-34-st-7-av",
+          "feedStopIds": ["401847", "404280"]
+        },
+        {
+          "agencyId": "via",
+          "stationName": "New York",
+          "stationId": "new-york"
+        },
+        {
+          "agencyId": "lirr",
+          "stationName": "Penn Station",
+          "stationId": "penn-station"
+        }
+      ],
+      "badgeOffsets": {
+        "mta-bus": {
+          "dx": 80,
+          "dy": -40,
+          "layout": "vertical"
+        },
+        "amtrak": {
+          "dx": 83,
+          "dy": 88,
+          "layout": "vertical"
+        },
+        "mta-subway": {
+          "dx": -61,
+          "dy": 28,
+          "layout": "vertical"
+        },
+        "via": {
+          "dx": 0,
+          "dy": 28
+        },
+        "lirr": {
+          "dx": 0,
+          "dy": 80,
+          "layout": "vertical"
+        }
+      }
     }
   ],
   "exclusions": [

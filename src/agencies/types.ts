@@ -340,6 +340,9 @@ export type HttpUrl = Schema.Schema.Type<typeof HttpUrlSchema>;
 
 export const JsonAlertParserSchema = Schema.Union([
   Schema.Literal("generic-alert-feed"),
+  Schema.Literal("everbridge-messages"),
+  Schema.Literal("component-service-notices"),
+  Schema.Literal("content-fragment-notices"),
   Schema.Literal("normalized-alert-feed"),
   Schema.Literal("tripspark-advisories"),
   Schema.Literal("i3-service-status"),
@@ -849,6 +852,16 @@ const ferrySailingBoardsFeedSchema = Schema.Struct({
 
 /** Field paths are dot-separated object keys; arrays are selected explicitly. */
 export const StationDeparturesResponseMappingSchema = Schema.Struct({
+  networkStations: Schema.optional(
+    Schema.Struct({
+      path: NonBlankStringSchema,
+      idField: NonBlankStringSchema,
+      groupsField: NonBlankStringSchema,
+      stopCodes: Schema.Record(NonBlankStringSchema, NonBlankStringSchema),
+    }),
+  ),
+  routeAliases: Schema.optional(Schema.Record(NonBlankStringSchema, NonBlankStringSchema)),
+  directionAliases: Schema.optional(Schema.Record(NonBlankStringSchema, Schema.Literals([0, 1]))),
   timeFormat: Schema.optional(Schema.Literals(["countdown-seconds", "local-time"])),
   updatedAtField: Schema.optional(NonBlankStringSchema),
   maxAgeSeconds: Schema.optional(PositiveFiniteNumberSchema),
@@ -901,6 +914,7 @@ const stationDeparturesFeedSchema = Schema.Struct({
       return { path: ["bodyTemplate"], issue: "requires POST" };
     }
     if (
+      !feed.responseMapping?.networkStations &&
       !feed.url.includes("{stopId}") &&
       !Object.values(feed.bodyTemplate ?? {}).some((value) => value.includes("{stopId}"))
     ) {

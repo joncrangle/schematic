@@ -717,6 +717,38 @@
     ]
   },
   {
+    "id": "lirr-path-pennwalk",
+    "endpoints": [
+      {
+        "agencyId": "lirr",
+        "stationName": "Penn Station",
+        "stationId": "penn-station",
+        "walkingMarkers": {
+          "path": {
+            "dx": -70,
+            "dy": 65,
+            "label": "Penn Station"
+          }
+        }
+      },
+      {
+        "agencyId": "path",
+        "stationName": "33 Street",
+        "stationId": "33-street"
+      }
+    ],
+    "badgeOffsets": {
+      "path": {
+        "dx": -130,
+        "dy": 65
+      },
+      "lirr": {
+        "dx": 0,
+        "dy": -36
+      }
+    }
+  },
+  {
     "id": "metro-north-mta-bus-botanicalgarden",
     "endpoints": [
       {
@@ -9790,6 +9822,191 @@
           "606N",
           "606S"
         ]
+      }
+    ]
+  },
+  {
+    "id": "mta-subway-path-14seventh",
+    "endpoints": [
+      {
+        "agencyId": "mta-subway",
+        "stationName": "14 St",
+        "feedStopIds": [
+          "132N",
+          "132S"
+        ]
+      },
+      {
+        "agencyId": "path",
+        "stationName": "14 Street",
+        "stationId": "14-street"
+      }
+    ]
+  },
+  {
+    "id": "mta-subway-path-14sixthavenue",
+    "endpoints": [
+      {
+        "agencyId": "mta-subway",
+        "stationName": "6 Av",
+        "feedStopIds": [
+          "L02N",
+          "L02S"
+        ]
+      },
+      {
+        "agencyId": "path",
+        "stationName": "14 Street",
+        "stationId": "14-street"
+      }
+    ]
+  },
+  {
+    "id": "mta-subway-path-23sixth",
+    "endpoints": [
+      {
+        "agencyId": "mta-subway",
+        "stationName": "23 St",
+        "feedStopIds": [
+          "D18N",
+          "D18S"
+        ]
+      },
+      {
+        "agencyId": "path",
+        "stationName": "23 Street",
+        "stationId": "23-street"
+      }
+    ]
+  },
+  {
+    "id": "mta-subway-path-cortlandt",
+    "endpoints": [
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Cortlandt St",
+        "feedStopIds": [
+          "R25N",
+          "R25S"
+        ]
+      },
+      {
+        "agencyId": "path",
+        "stationName": "World Trade Center",
+        "stationId": "world-trade-center"
+      }
+    ]
+  },
+  {
+    "id": "mta-subway-path-fulton",
+    "endpoints": [
+      {
+        "agencyId": "mta-subway",
+        "stationName": "Fulton St",
+        "stationId": "fulton-center",
+        "walkingMarkers": {
+          "path": {
+            "dx": 70,
+            "dy": -55,
+            "label": "Fulton Center"
+          }
+        }
+      },
+      {
+        "agencyId": "path",
+        "stationName": "World Trade Center",
+        "stationId": "world-trade-center"
+      }
+    ],
+    "badgeOffsets": {
+      "path": {
+        "dx": 148.6,
+        "dy": -55
+      },
+      "mta-subway": {
+        "dx": 0,
+        "dy": 36
+      }
+    }
+  },
+  {
+    "id": "mta-subway-path-heraldsquare",
+    "endpoints": [
+      {
+        "agencyId": "mta-subway",
+        "stationName": "34 St-Herald Sq",
+        "stationId": "herald-square"
+      },
+      {
+        "agencyId": "path",
+        "stationName": "33 Street",
+        "stationId": "33-street"
+      }
+    ],
+    "badgeOffsets": {
+      "mta-subway": {
+        "dx": 53.5,
+        "dy": 0
+      },
+      "path": {
+        "dx": 80,
+        "dy": 0
+      }
+    }
+  },
+  {
+    "id": "mta-subway-path-westfourth",
+    "endpoints": [
+      {
+        "agencyId": "mta-subway",
+        "stationName": "W 4 St-Wash Sq",
+        "feedStopIds": [
+          "A32N",
+          "A32S",
+          "D20N",
+          "D20S"
+        ]
+      },
+      {
+        "agencyId": "path",
+        "stationName": "9 Street",
+        "stationId": "9-street"
+      }
+    ]
+  },
+  {
+    "id": "mta-subway-path-worldtrade",
+    "endpoints": [
+      {
+        "agencyId": "mta-subway",
+        "stationName": "World Trade Center",
+        "feedStopIds": [
+          "E01N",
+          "E01S"
+        ]
+      },
+      {
+        "agencyId": "path",
+        "stationName": "World Trade Center",
+        "stationId": "world-trade-center"
+      }
+    ]
+  },
+  {
+    "id": "mta-subway-path-wtccortlandt",
+    "endpoints": [
+      {
+        "agencyId": "mta-subway",
+        "stationName": "WTC Cortlandt",
+        "feedStopIds": [
+          "138N",
+          "138S"
+        ]
+      },
+      {
+        "agencyId": "path",
+        "stationName": "World Trade Center",
+        "stationId": "world-trade-center"
       }
     ]
   }

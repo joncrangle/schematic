@@ -1,3 +1,5 @@
+import pathManifestRaw from "./us/nj/path/manifest.json";
+import pathSchematicRaw from "./us/nj/path/schematic.json";
 import metroNorthManifestRaw from "./us/ny/metro-north/manifest.json";
 import metroNorthSchematicRaw from "./us/ny/metro-north/schematic.json";
 import lirrManifestRaw from "./us/ny/lirr/manifest.json";
@@ -311,6 +313,7 @@ function decodeSchematic(raw: unknown): Schematic | undefined {
 }
 
 export const agencyCatalog: readonly AgencyDefinition[] = [
+  { manifest: decodeManifest(pathManifestRaw), schematic: decodeSchematic(pathSchematicRaw) },
   {
     manifest: decodeManifest(metroNorthManifestRaw),
     schematic: decodeSchematic(metroNorthSchematicRaw),

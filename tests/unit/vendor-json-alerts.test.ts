@@ -96,3 +96,38 @@ describe("vendor JSON advisory contracts", () => {
     expect(feed.alerts[0].endsAt).toBe(Date.parse("2026-10-18T15:00:00Z"));
   });
 });
+
+it("keeps an active route delay separate from another route's recovery", async () => {
+  const scenario = contract.valid.find(
+    (c) => c.name === "mixed incident status is separated by affected route",
+  )!;
+  const normalized = normalizeVendorJsonAlerts(scenario.payload, "everbridge-messages");
+  const feed = await Effect.runPromise(
+    decodeGenericJsonAlertFeed(normalized.alerts, Date.parse("2026-01-10T12:05:00Z")),
+  );
+  const snapshot = interpretSnapshot(feed, {
+    agencyId: "fictional",
+    now: Date.parse("2026-01-10T12:05:00Z"),
+    interpretation: {
+      lineIds: ["AAA-BB", "DDD-EE"],
+      rules: [
+        {
+          priority: 100,
+          match: { sourceField: "reason", sourceValue: "restoration" },
+          result: { kind: "information", severity: "normal" },
+        },
+        {
+          priority: 50,
+          match: { textIncludes: ["delays continue"] },
+          result: { kind: "delay", severity: "degraded" },
+        },
+      ],
+    },
+  });
+  expect(
+    snapshot.alerts.map((a) => ({ routes: a.affectedRouteIds, severity: a.severity })),
+  ).toEqual([
+    { routes: ["AAA-BB"], severity: "normal" },
+    { routes: ["DDD-EE"], severity: "degraded" },
+  ]);
+});

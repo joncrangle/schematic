@@ -310,6 +310,15 @@ pub fn normalize(payload: Value, parser: &str) -> Result<Value, io::Error> {
     if parser == "rendered-advisory-board" {
         return super::rendered_advisory_board::normalize(payload);
     }
+    if parser == "content-fragment-notices" {
+        return super::incident_boards::fragments(payload);
+    }
+    if parser == "everbridge-messages" {
+        return super::incident_boards::messages(payload);
+    }
+    if parser == "component-service-notices" {
+        return super::incident_boards::components(payload);
+    }
     if parser == "hubup-service-alerts" {
         return super::hubup_alerts::normalize(payload);
     }

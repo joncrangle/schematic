@@ -541,3 +541,21 @@ are assigned to the vehicle's most recently started observed route. A failed
 job preserves other successful jobs and marks the result partial; an entirely
 failed read throws. Complete empty boards remain valid empty results. With no
 public advisory channel, omit `alerts` so status remains unavailable.
+
+## Network station countdowns
+
+A GET `station_departures` feed can use `responseMapping.networkStations` for
+one network-wide board. Declare the station array `path`, native `idField`,
+`groupsField`, and a `stopCodes` map from seeded boarding IDs to native station
+codes. `departuresField` selects each group's message array; the ordinary field
+mapping then reads each message. `routeAliases` maps published service tokens
+such as colors to canonical routes; `directionAliases` maps group labels to 0/1.
+Unknown services or missing station records fail the read.
+
+Countdowns accept finite nonnegative numeric values or decimal strings and use
+the message's own `updatedAtField`. Cached reads retain the same absolute time
+and recheck source age. Network messages without train IDs use an observation
+identity scoped to station, route, direction, destination and prediction time,
+so array order cannot impersonate a persistent train. They supply no GPS fixes.
+A URL may use `{timestamp}` for an epoch-millisecond poll bucket when the
+operator's frontend requires a cache-busting query parameter.
