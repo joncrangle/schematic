@@ -11,9 +11,17 @@ import { logger } from "~/infrastructure/logging/logger";
 import { decodeGtfsRealtimeSync } from "~/infrastructure/realtime/gtfsRealtimeDecoder";
 import {
   AlertTripRoutesError,
+  cancelledTripIds,
   resolveAlertTripRoutes,
 } from "~/infrastructure/realtime/gtfsTripDescriptor";
-import { concatBuffers, encodeAlertEntity, encodeFeed } from "../helpers/gtfs-rt-binary";
+import {
+  concatBuffers,
+  encodeAlertEntity,
+  encodeFeed,
+  encodeMessage,
+  encodeString,
+  encodeVarintField,
+} from "../helpers/gtfs-rt-binary";
 
 const NOW = 1_800_000_000_000;
 const NOW_SEC = NOW / 1000;
@@ -133,5 +141,44 @@ describe("alert trip route lookup", () => {
     );
     expect(error).toBeInstanceOf(AlertTripRoutesError);
     expect(error.message).toBe("no database");
+  });
+});
+
+describe("feed-wide trip descriptor scans", () => {
+  const descriptor = (tripId: string, ...fields: Uint8Array[]) =>
+    concatBuffers(encodeString(1, tripId), ...fields);
+  const tripUpdate = (entityId: string, trip: Uint8Array) =>
+    encodeMessage(
+      2,
+      concatBuffers(encodeString(1, entityId), encodeMessage(3, encodeMessage(1, trip))),
+    );
+
+  it.each([
+    ["the only relationship is canceled", [3], true],
+    ["a later relationship replaces canceled", [3, 0], false],
+    ["a later relationship is canceled", [0, 3], true],
+  ])("reads cancellation when %s", (_name, relationships, cancelled) => {
+    const feed = encodeFeed(NOW_SEC, [
+      tripUpdate("e1", descriptor("t1", ...relationships.map((v) => encodeVarintField(4, v)))),
+    ]);
+
+    expect(cancelledTripIds(feed).has("t1")).toBe(cancelled);
+  });
+
+  it("drops a cancellation from an entity whose modified trip cannot be parsed", () => {
+    const brokenSelector = encodeMessage(7, new Uint8Array([0x12, 0x40]));
+    const entity = encodeMessage(
+      2,
+      concatBuffers(
+        encodeMessage(3, encodeMessage(1, descriptor("t1", encodeVarintField(4, 3)))),
+        encodeMessage(3, encodeMessage(1, descriptor("t2", brokenSelector))),
+      ),
+    );
+    const feed = encodeFeed(NOW_SEC, [
+      entity,
+      tripUpdate("e2", descriptor("t3", encodeVarintField(4, 3))),
+    ]);
+
+    expect([...cancelledTripIds(feed)]).toEqual(["t3"]);
   });
 });

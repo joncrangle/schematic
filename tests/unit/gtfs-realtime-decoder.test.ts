@@ -139,6 +139,34 @@ describe("gtfsRealtimeDecoder (Core, D1)", () => {
     expect(decoded.vehiclePositions.map((vehicle) => vehicle.routeId)).toEqual(["501"]);
   });
 
+  it("applies versioned route matching to every entity in a filtered decode", async () => {
+    const feed = encodeFeed(1700000000, [
+      ...["keep-1", "keep-2"].map((entityId) =>
+        encodeSurfaceVehiclePositionEntity({
+          entityId,
+          tripId: `trip-${entityId}`,
+          routeId: "2026-lw",
+          latitude: 43.65,
+          longitude: -79.38,
+        }),
+      ),
+      encodeSurfaceVehiclePositionEntity({
+        entityId: "drop",
+        tripId: "trip-drop",
+        routeId: "2026-504",
+        latitude: 43.65,
+        longitude: -79.38,
+      }),
+    ]);
+
+    const decoded = decodeGtfsRealtimeSync(feed, { routeIds: new Set(["LW"]) });
+
+    expect(decoded.vehiclePositions.map((vehicle) => vehicle.vehicleId)).toEqual([
+      expect.stringContaining("keep-1"),
+      expect.stringContaining("keep-2"),
+    ]);
+  });
+
   it("rejects a decoded vehicle with non-finite geographic data", async () => {
     const feed = encodeFeed(1700000000, [
       encodeSurfaceVehiclePositionEntity({
@@ -241,21 +269,49 @@ describe("gtfsRealtimeDecoder (Core, D1)", () => {
   });
 
   describe("ProtobufReader primitives", () => {
-    it("decodes varints of varying byte lengths", () => {
-      const buf = concatBuffers(
-        encodeVarint(0),
-        encodeVarint(127),
-        encodeVarint(128),
-        encodeVarint(300),
-        encodeVarint(16384),
-      );
-      const reader = new ProtobufReader(buf);
+    it.each<[string, readonly number[], number]>([
+      ...[0, 127, 128, 300, 16_384].map((value): [string, readonly number[], number] => [
+        `value ${value}`,
+        [...encodeVarint(value)],
+        value,
+      ]),
+      ["largest four-byte value", [0xff, 0xff, 0xff, 0x7f], 268_435_455],
+      ["smallest five-byte value", [0x80, 0x80, 0x80, 0x80, 0x01], 268_435_456],
+      ["value above 32 bits", [0x80, 0x80, 0x80, 0x80, 0x10], 4_294_967_296],
+      ["non-canonical zero", [0x80, 0x00], 0],
+      [
+        "unsigned 64-bit maximum",
+        [0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x01],
+        Number(2n ** 64n - 1n),
+      ],
+      [
+        "overlong bytes past the 64th bit",
+        [0x81, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x7f],
+        1,
+      ],
+    ])("reads a varint: %s", (_name, bytes, expected) => {
+      const reader = new ProtobufReader(Uint8Array.from(bytes));
 
-      expect(reader.readVarint()).toBe(0);
-      expect(reader.readVarint()).toBe(127);
-      expect(reader.readVarint()).toBe(128);
-      expect(reader.readVarint()).toBe(300);
-      expect(reader.readVarint()).toBe(16384);
+      expect(reader.readVarint()).toBe(expected);
+      expect(reader.getOffset()).toBe(bytes.length);
+    });
+
+    it.each([1, 3, 4, 5, 9])("rejects a varint truncated after %i bytes", (length) => {
+      const reader = new ProtobufReader(new Uint8Array(length).fill(0x80));
+
+      expect(() => reader.readVarint()).toThrow("overruns its enclosing message");
+    });
+
+    it("reads fixed-width values relative to a byte array view", () => {
+      const bytes = new Uint8Array([0xff, 0xff, 0x78, 0x56, 0x34, 0x12]).subarray(2);
+
+      expect(new ProtobufReader(bytes).readFixed32()).toBe(0x12345678);
+    });
+
+    it("does not read a varint past its enclosing message", () => {
+      const reader = new ProtobufReader(new Uint8Array([0x80, 0x01]), 0, 1);
+
+      expect(() => reader.readVarint()).toThrow("overruns its enclosing message");
     });
 
     it("decodes UTF-8 strings and 32-bit floats accurately", () => {

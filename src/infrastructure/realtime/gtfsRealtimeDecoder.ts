@@ -117,6 +117,10 @@ export interface GtfsRealtimeDecodeOptions extends PredictionIdentityOptions {
   readonly stopIds?: ReadonlySet<string>;
 }
 
+interface EntityDecodeOptions extends GtfsRealtimeDecodeOptions {
+  readonly matchesRequestedRoute?: (routeId: string | undefined) => boolean;
+}
+
 const OCCUPANCY_MAP: Record<number, OccupancyStatus> = {
   0: "EMPTY",
   1: "MANY_SEATS_AVAILABLE",
@@ -148,6 +152,10 @@ function decodeSync(buffer: Uint8Array, options: GtfsRealtimeDecodeOptions = {})
   const decodedFixes: DecodedFix[] = [];
   const alerts: GenericAlert[] = [];
   let sourceScopeIncomplete = false;
+  const entityOptions: EntityDecodeOptions = {
+    ...options,
+    matchesRequestedRoute: requestedRouteMatcher(options.routeIds),
+  };
 
   const { droppedEntities } = walkFeedMessage(buffer, {
     onHeader: (sub) => {
@@ -167,7 +175,7 @@ function decodeSync(buffer: Uint8Array, options: GtfsRealtimeDecodeOptions = {})
         entityTrips,
         entityVehicles,
         entityAlerts,
-        options,
+        entityOptions,
         entityFixes,
         scopeState,
       );
@@ -250,7 +258,7 @@ function decodeFeedEntity(
   tripUpdates: ArrivalPrediction[],
   vehiclePositions: LiveVehiclePosition[],
   alerts: GenericAlert[],
-  options: GtfsRealtimeDecodeOptions,
+  options: EntityDecodeOptions,
   decodedFixes: DecodedFix[],
   scopeState: { incomplete: boolean },
 ): void {
@@ -288,14 +296,11 @@ function decodeTripUpdate(
   reader: ProtobufReader,
   entityId: string,
   outArrivals: ArrivalPrediction[],
-  options: GtfsRealtimeDecodeOptions,
+  options: EntityDecodeOptions,
 ): { tripId: string; routeId: string; directionId?: number } | undefined {
   if (
-    options.routeIds &&
-    !matchesRequestedRoute(
-      findRouteId(reader, options.tripRoutes, options.idNamespace),
-      options.routeIds,
-    )
+    options.matchesRequestedRoute &&
+    !options.matchesRequestedRoute(findRouteId(reader, options.tripRoutes, options.idNamespace))
   )
     return;
 
@@ -397,14 +402,13 @@ function decodeVehiclePosition(
   reader: ProtobufReader,
   entityId: string,
   feedTimestamp: number,
-  options: GtfsRealtimeDecodeOptions,
+  options: EntityDecodeOptions,
   entityTrip?: { tripId: string; routeId: string; directionId?: number },
 ): DecodedFix | null {
   if (
-    options.routeIds &&
-    !matchesRequestedRoute(
+    options.matchesRequestedRoute &&
+    !options.matchesRequestedRoute(
       findRouteId(reader, options.tripRoutes, options.idNamespace) ?? entityTrip?.routeId,
-      options.routeIds,
     )
   ) {
     return null;
@@ -550,15 +554,27 @@ function findRouteId(
   return routeId;
 }
 
-function matchesRequestedRoute(
-  routeId: string | undefined,
-  requestedRouteIds: ReadonlySet<string>,
-): boolean {
-  if (!routeId) return false;
-  for (const requestedRouteId of requestedRouteIds) {
-    if (routeIdsMatch(routeId, requestedRouteId)) return true;
-  }
-  return false;
+/** Feeds repeat a small set of route IDs across thousands of entities. */
+function requestedRouteMatcher(
+  requestedRouteIds: ReadonlySet<string> | undefined,
+): EntityDecodeOptions["matchesRequestedRoute"] {
+  if (!requestedRouteIds) return undefined;
+  const matches = new Map<string, boolean>();
+  return (routeId) => {
+    if (!routeId) return false;
+    let matched = matches.get(routeId);
+    if (matched === undefined) {
+      matched = false;
+      for (const requestedRouteId of requestedRouteIds) {
+        if (routeIdsMatch(routeId, requestedRouteId)) {
+          matched = true;
+          break;
+        }
+      }
+      matches.set(routeId, matched);
+    }
+    return matched;
+  };
 }
 
 function decodeAlert(

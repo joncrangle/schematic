@@ -74,15 +74,36 @@ export class AlertTripRoutesError extends Data.TaggedError("AlertTripRoutesError
 
 type TripDescriptor = ReturnType<typeof decodeTripDescriptor>;
 
+/** Feed-wide scans can reject most descriptors without decoding their strings. */
+function scanTripDescriptor(reader: ProtobufReader) {
+  const start = reader.getOffset();
+  let canceled = false;
+  let modified = false;
+  while (reader.hasMore()) {
+    const tag = reader.readTag();
+    if (!tag) break;
+    const [field, wire] = tag;
+    if (field === 4 && wire === 0) canceled = reader.readVarint() === 3;
+    else {
+      if (field === 7 && wire === 2) modified = true;
+      reader.skip(wire);
+    }
+  }
+  reader.setOffset(start);
+  return { canceled, modified };
+}
+
 /**
  * Decodes every trip descriptor reached by the given field paths below a feed
  * entity, such as `[3, 1]` (TripUpdate.trip) or `[5, 5, 4]` (Alert
  * informed_entity.trip). One walk serves every consumer that needs trip ids.
+ * `mayMatch` must accept modified trips, whose selectors can still fail to parse.
  */
 function collectTripDescriptors(
   bytes: Uint8Array,
   paths: readonly (readonly number[])[],
   idNamespace?: string,
+  mayMatch?: (descriptor: ProtobufReader) => boolean,
 ): TripDescriptor[] {
   const descriptors: TripDescriptor[] = [];
   const walk = (
@@ -100,9 +121,10 @@ function collectTripDescriptors(
       }
       const sub = reader.readSubReader();
       const deeper = matching.map((path) => path.slice(1));
-      if (deeper.some((path) => path.length === 0))
-        found.push(decodeTripDescriptor(sub, undefined, idNamespace));
-      else walk(sub, deeper, found);
+      if (deeper.some((path) => path.length === 0)) {
+        if (!mayMatch || mayMatch(sub))
+          found.push(decodeTripDescriptor(sub, undefined, idNamespace));
+      } else walk(sub, deeper, found);
     }
   };
   // An entity that fails to parse contributes no descriptors. Decoding the
@@ -134,6 +156,9 @@ export function resolveTripRoutes(
         [4, 1],
       ],
       idNamespace,
+      tripDirectionSource === "static"
+        ? undefined
+        : (descriptor) => scanTripDescriptor(descriptor).modified,
     )) {
       if (
         descriptor.tripId &&
@@ -217,7 +242,10 @@ export function decodeStopTimeEvent(reader: ProtobufReader) {
 /** A cancellation wins across duplicate TripUpdate entities regardless of their order. */
 export function cancelledTripIds(bytes: Uint8Array, idNamespace?: string): ReadonlySet<string> {
   return new Set(
-    collectTripDescriptors(bytes, [[3, 1]], idNamespace)
+    collectTripDescriptors(bytes, [[3, 1]], idNamespace, (descriptor) => {
+      const { canceled, modified } = scanTripDescriptor(descriptor);
+      return canceled || modified;
+    })
       .filter((d) => d.canceled && d.tripId)
       .map((d) => d.tripId!),
   );

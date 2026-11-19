@@ -1,7 +1,8 @@
 import { readFileSync } from "node:fs";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { Effect } from "effect";
 import { decodeGtfsRealtimeSync } from "~/infrastructure/realtime/gtfsRealtimeDecoder";
+import { resolveTripRoutes } from "~/infrastructure/realtime/gtfsTripDescriptor";
 import { decodeStationTripUpdates } from "~/infrastructure/realtime/stationTripDecoder";
 import { createGenericGtfsRealtimeSource } from "~/infrastructure/realtime/genericGtfsRealtimeSource";
 import { createGenericStationsSource } from "~/infrastructure/realtime/genericStationsSource";
@@ -230,4 +231,28 @@ it("keeps a modified trip in filtered live arrivals after resolving its route fr
     ),
   );
   expect(snapshot.arrivals).toMatchObject([{ tripId: "trip-42", routeId: "R", directionId: 1 }]);
+});
+
+describe("trip route lookup", () => {
+  const tripUpdate = (entityId: string, trip: Uint8Array) =>
+    encodeMessage(
+      2,
+      concatBuffers(encodeString(1, entityId), encodeMessage(3, encodeMessage(1, trip))),
+    );
+  const feed = encodeFeed(1_800_000_000, [
+    tripUpdate("routed", concatBuffers(encodeString(1, "t1"), encodeString(5, "R"))),
+    tripUpdate("modified", encodeMessage(7, encodeString(2, "trip-modified"))),
+    tripUpdate("canceled", concatBuffers(encodeString(1, "t3"), encodeVarintField(4, 3))),
+  ]);
+
+  it.each([
+    ["modified trips without a route", undefined, ["trip-modified"]],
+    ["every running trip for static directions", "static" as const, ["t1", "trip-modified"]],
+  ])("asks for %s", async (_name, source, expected) => {
+    const lookup = vi.fn((_ids: readonly string[]) => Effect.succeed(new Map()));
+
+    await Effect.runPromise(resolveTripRoutes(feed, lookup, source));
+
+    expect(lookup.mock.calls).toEqual([[expected]]);
+  });
 });

@@ -7,7 +7,7 @@ const UTF8_DECODER = new TextDecoder();
 
 export class ProtobufReader {
   private readonly buffer: Uint8Array;
-  private readonly view: DataView;
+  private view: DataView | undefined;
   private offset: number;
   private readonly end: number;
 
@@ -17,9 +17,14 @@ export class ProtobufReader {
     } else {
       this.buffer = buffer;
     }
-    this.view = new DataView(this.buffer.buffer, this.buffer.byteOffset, this.buffer.byteLength);
     this.offset = offset;
     this.end = length !== undefined ? offset + length : this.buffer.byteLength;
+  }
+
+  /** Most nested messages never read a fixed-width field, so create this on demand. */
+  private dataView(): DataView {
+    this.view ??= new DataView(this.buffer.buffer, this.buffer.byteOffset, this.buffer.byteLength);
+    return this.view;
   }
 
   public hasMore(): boolean {
@@ -87,6 +92,16 @@ export class ProtobufReader {
    * Reads an unsigned varint (up to 64-bit safe in JS integers).
    */
   public readVarint(): number {
+    // Most tags and lengths fit in 28 bits, so they avoid BigInt allocation.
+    const start = this.offset;
+    let result = 0;
+    for (let shift = 0; shift < 28; shift += 7) {
+      this.ensure(1);
+      const byte = this.buffer[this.offset++]!;
+      result |= (byte & 0x7f) << shift;
+      if (byte < 0x80) return result;
+    }
+    this.offset = start;
     return Number(this.readVarintBig());
   }
 
@@ -157,7 +172,7 @@ export class ProtobufReader {
    */
   public readFloat(): number {
     this.ensure(4);
-    const val = this.view.getFloat32(this.offset, true); // little-endian
+    const val = this.dataView().getFloat32(this.offset, true); // little-endian
     this.offset += 4;
     return val;
   }
@@ -167,7 +182,7 @@ export class ProtobufReader {
    */
   public readDouble(): number {
     this.ensure(8);
-    const val = this.view.getFloat64(this.offset, true); // little-endian
+    const val = this.dataView().getFloat64(this.offset, true); // little-endian
     this.offset += 8;
     return val;
   }
@@ -177,7 +192,7 @@ export class ProtobufReader {
    */
   public readFixed32(): number {
     this.ensure(4);
-    const val = this.view.getUint32(this.offset, true);
+    const val = this.dataView().getUint32(this.offset, true);
     this.offset += 4;
     return val;
   }
