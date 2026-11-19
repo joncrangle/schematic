@@ -51,10 +51,10 @@ mod tests {
     fn test_parse_yrt_routes() {
         let text = "Routes affected: 1, 83A, 522, Viva Purple, and Viva Blue";
         let routes = parse_yrt_routes(text);
-        assert!(routes.contains(&"Viva Purple".to_string()));
-        assert!(routes.contains(&"Viva Blue".to_string()));
-        assert!(routes.contains(&"1".to_string()));
-        assert!(routes.contains(&"83A".to_string()));
-        assert!(routes.contains(&"522".to_string()));
+        assert!(routes.iter().any(|route| route == "Viva Purple"));
+        assert!(routes.iter().any(|route| route == "Viva Blue"));
+        assert!(routes.iter().any(|route| route == "1"));
+        assert!(routes.iter().any(|route| route == "83A"));
+        assert!(routes.iter().any(|route| route == "522"));
     }
 }
