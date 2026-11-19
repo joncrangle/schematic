@@ -245,6 +245,58 @@ describe("trip route lookup", () => {
     tripUpdate("canceled", concatBuffers(encodeString(1, "t3"), encodeVarintField(4, 3))),
   ]);
 
+  const routedTrip = (tripId: string, routeId: string) =>
+    tripUpdate(tripId, concatBuffers(encodeString(1, tripId), encodeString(5, routeId)));
+  const staticRoutes = (
+    entities: readonly Uint8Array[],
+    routes: Readonly<Record<string, string>>,
+  ) =>
+    Effect.runPromise(
+      resolveTripRoutes(
+        encodeFeed(1_800_000_000, [...entities]),
+        () =>
+          Effect.succeed(
+            new Map(
+              Object.entries(routes).map(([tripId, routeId]) => [
+                tripId,
+                { routeId, directionId: 1 },
+              ]),
+            ),
+          ),
+        "static",
+      ),
+    );
+
+  it("drops a static trip contradicted by its feed route", async () => {
+    const trips = await staticRoutes([routedTrip("same", "R"), routedTrip("reused", "R")], {
+      same: "R",
+      reused: "OLD",
+    });
+
+    expect([...(trips?.keys() ?? [])]).toEqual(["same"]);
+  });
+
+  it("keeps static trips when a feed uses its own route ids", async () => {
+    const trips = await staticRoutes(
+      [routedTrip("a", "raw-route-e"), routedTrip("b", "raw-route-e")],
+      {
+        a: "STATIC",
+        b: "STATIC",
+      },
+    );
+
+    expect([...(trips?.keys() ?? [])]).toEqual(["a", "b"]);
+  });
+
+  it("keeps a static trip when any of its feed routes agrees", async () => {
+    const trips = await staticRoutes(
+      [routedTrip("other", "A"), routedTrip("both", "A"), routedTrip("both", "B")],
+      { other: "A", both: "B" },
+    );
+
+    expect([...(trips?.keys() ?? [])]).toEqual(["other", "both"]);
+  });
+
   it.each([
     ["modified trips without a route", undefined, ["trip-modified"]],
     ["every running trip for static directions", "static" as const, ["t1", "trip-modified"]],

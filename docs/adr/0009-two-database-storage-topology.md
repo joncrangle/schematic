@@ -71,7 +71,10 @@ agency about weekly (ADR-0005), while the index changes only on a seed and
 deployment, so trips missing from the index (or every trip, when the index fails
 to load) resolve in D1, and the database is skipped for route and direction
 lookups when the index covers every trip. Trip terminals are not indexed and are
-always read from D1, memoized per isolate.
+always read from D1, memoized per isolate. Their rows carry each trip's direction
+group, which outranks the index because trip IDs can move between feed versions.
+Static route joins are likewise dropped when the realtime feed contradicts them
+and other trips on that feed route agree with static route IDs.
 
 Scope files contain only route and stop identities plus unambiguous cardinal
 directions. Trip indexes use 32 hash partitions per agency; a lookup reads only

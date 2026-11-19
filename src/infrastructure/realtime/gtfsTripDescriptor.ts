@@ -3,6 +3,7 @@ import { namespaceFeedId } from "../gtfs/feedIdentity";
 import * as Data from "effect/Data";
 import * as Effect from "effect/Effect";
 import type { TripRoute, TripRouteLookup } from "~/domain/surface/boarding";
+import { routeIdsMatch } from "~/domain/surface/routeIds";
 import { ProtobufReader } from "./ProtobufReader";
 import { walkFeedMessage } from "./feedMessageWalk";
 
@@ -139,6 +140,29 @@ function collectTripDescriptors(
   return descriptors;
 }
 
+/** Reused trip ids are dropped only where sibling trips prove the feed shares static route ids. */
+function withoutContradictedTrips(
+  routes: ReadonlyMap<string, TripRoute>,
+  descriptors: readonly TripDescriptor[],
+): ReadonlyMap<string, TripRoute> {
+  const agreeingFeedRoutes = new Set<string>();
+  const agreeingTrips = new Set<string>();
+  const contradicted: { readonly tripId: string; readonly feedRouteId: string }[] = [];
+  for (const { tripId, routeId: feedRouteId, canceled } of descriptors) {
+    const staticRoute = tripId ? routes.get(tripId) : undefined;
+    if (!tripId || !feedRouteId || canceled || !staticRoute) continue;
+    if (routeIdsMatch(feedRouteId, staticRoute.routeId)) {
+      agreeingFeedRoutes.add(feedRouteId);
+      agreeingTrips.add(tripId);
+    } else contradicted.push({ tripId, feedRouteId });
+  }
+  const kept = new Map(routes);
+  for (const { tripId, feedRouteId } of contradicted) {
+    if (agreeingFeedRoutes.has(feedRouteId) && !agreeingTrips.has(tripId)) kept.delete(tripId);
+  }
+  return kept;
+}
+
 /** Resolve missing modified routes and explicitly requested static trip directions. */
 export function resolveTripRoutes(
   bytes: Uint8Array,
@@ -148,8 +172,7 @@ export function resolveTripRoutes(
 ): Effect.Effect<ReadonlyMap<string, TripRoute> | undefined, unknown> {
   if (!lookup) return Effect.succeed(undefined);
   return Effect.try(() => {
-    const ids = new Set<string>();
-    for (const descriptor of collectTripDescriptors(
+    const descriptors = collectTripDescriptors(
       bytes,
       [
         [3, 1],
@@ -159,7 +182,9 @@ export function resolveTripRoutes(
       tripDirectionSource === "static"
         ? undefined
         : (descriptor) => scanTripDescriptor(descriptor).modified,
-    )) {
+    );
+    const ids = new Set<string>();
+    for (const descriptor of descriptors) {
       if (
         descriptor.tripId &&
         !descriptor.canceled &&
@@ -167,15 +192,18 @@ export function resolveTripRoutes(
       )
         ids.add(descriptor.tripId);
     }
-    return [...ids];
+    return { descriptors, ids: [...ids] };
   }).pipe(
-    Effect.flatMap((ids) =>
-      ids.length > 0
-        ? lookup(ids)
-        : Effect.succeed(
-            tripDirectionSource === "static" ? new Map<string, TripRoute>() : undefined,
-          ),
-    ),
+    Effect.flatMap(({ descriptors, ids }) => {
+      if (ids.length === 0) {
+        return Effect.succeed(
+          tripDirectionSource === "static" ? new Map<string, TripRoute>() : undefined,
+        );
+      }
+      return tripDirectionSource === "static"
+        ? lookup(ids).pipe(Effect.map((routes) => withoutContradictedTrips(routes, descriptors)))
+        : lookup(ids);
+    }),
   );
 }
 
