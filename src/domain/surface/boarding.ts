@@ -5,6 +5,8 @@ import type { ArrivalPrediction } from "./types";
 export interface TripTerminal {
   readonly stopId: string;
   readonly stopSequence: number;
+  /** The seeded direction group, read with the terminal at no extra query cost. */
+  readonly directionId?: number;
   /** The destination the trip's sign states in the static feed, when it states one. */
   readonly headsign?: string;
 }

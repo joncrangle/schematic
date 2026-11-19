@@ -1234,6 +1234,7 @@ export function createGenericStationsSource(opts: GenericStationsSourceOptions):
         yield* Effect.forEach(
           [...tripsByRoute],
           ([routeId, ids]) =>
+            // Sequential: direction lookups reuse the D1 rows terminals just loaded.
             Effect.all({
               terminals:
                 opts.getTripTerminals?.(routeId, [...ids]) ??

@@ -216,15 +216,26 @@ export function selectStationTripLookups(
   return {
     getTripFactsForRoutes,
     getRoutesForTrips: (tripIds) => resolveTrips(tripIds, (trip) => trip, databaseRoutes),
-    getDirectionsForTrips: (routeId, tripIds) =>
-      resolveTrips(
-        tripIds,
+    getDirectionsForTrips: (routeId, tripIds) => {
+      // Trip ids can move between feed versions, so loaded D1 terminals outrank the index.
+      const fromTerminals = new Map<string, number>();
+      const unresolved: string[] = [];
+      for (const tripId of tripIds) {
+        const directionId = terminalMemo.get(`${agencyId}\u0000${routeId}\u0000${tripId}`)?.value
+          ?.directionId;
+        if (directionId === undefined) unresolved.push(tripId);
+        else fromTerminals.set(tripId, directionId);
+      }
+      if (unresolved.length === 0) return Effect.succeed(fromTerminals);
+      return resolveTrips(
+        unresolved,
         (trip) => (trip.routeId === routeId ? trip.directionId : undefined),
         (ids) =>
           memoizedLookup(directionMemo, `${agencyId}\u0000${routeId}`, ids, (uncached) =>
             getStore.pipe(Effect.flatMap((db) => db.getDirectionsForTrips(routeId, uncached))),
           ),
-      ),
+      ).pipe(Effect.map((directions) => new Map([...directions, ...fromTerminals])));
+    },
     getTripTerminals: (routeId, tripIds) =>
       memoizedLookup(terminalMemo, `${agencyId}\u0000${routeId}`, tripIds, (uncached) =>
         getStore.pipe(Effect.flatMap((db) => db.getTripTerminals(routeId, uncached))),

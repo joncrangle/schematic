@@ -133,7 +133,7 @@ describe.skipIf(!DatabaseSync)(
           ).toEqual({ outcome: "unchanged", writes: 0 });
           expect(
             await Effect.runPromise(store.getTripTerminals("BR", ["through", "unknown"])),
-          ).toEqual(new Map([["through", { stopId: "W", stopSequence: 38 }]]));
+          ).toEqual(new Map([["through", { stopId: "W", stopSequence: 38, directionId: 0 }]]));
           const bytes = concatBuffers(
             encodeFeedHeader(Math.floor(now / 1000)),
             entity("short", 0, [["M", now + 60_000]]),
@@ -247,9 +247,12 @@ describe.skipIf(!DatabaseSync)("scheduled trip headsigns through SQLite", () => 
         await Effect.runPromise(store.getTripTerminals("BR", ["short", "through", "plain"])),
       ).toEqual(
         new Map([
-          ["short", { stopId: "M", stopSequence: 2, headsign: "Mid Line" }],
-          ["through", { stopId: "W", stopSequence: 3, headsign: "Branch Terminal" }],
-          ["plain", { stopId: "W", stopSequence: 3 }],
+          ["short", { stopId: "M", stopSequence: 2, directionId: 0, headsign: "Mid Line" }],
+          [
+            "through",
+            { stopId: "W", stopSequence: 3, directionId: 0, headsign: "Branch Terminal" },
+          ],
+          ["plain", { stopId: "W", stopSequence: 3, directionId: 0 }],
         ]),
       );
     } finally {

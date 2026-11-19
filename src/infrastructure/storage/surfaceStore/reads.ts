@@ -237,17 +237,20 @@ export function makeD1Reads(db: D1DatabaseBinding, opts?: D1ReadsOptions) {
       await ensureSurfaceSchema(db);
       const res = await db
         .prepare(`WITH wanted AS (SELECT value AS trip_id FROM json_each(?)),
-        ends AS (SELECT j.value AS trip_id, r.terminal_stop_id, r.terminal_stop_sequence
+        ends AS (SELECT j.value AS trip_id, r.direction_id, r.terminal_stop_id,
+            r.terminal_stop_sequence
           FROM route_trip_terminals r, json_each(r.trip_ids) j
           WHERE r.agency_id = ? AND r.route_id = ? AND j.value IN (SELECT trip_id FROM wanted)),
         signs AS (SELECT k.value AS trip_id, h.headsign
           FROM route_trip_headsigns h, json_each(h.trip_ids) k
           WHERE h.agency_id = ? AND h.route_id = ? AND k.value IN (SELECT trip_id FROM wanted))
-        SELECT ends.trip_id, ends.terminal_stop_id, ends.terminal_stop_sequence, signs.headsign
+        SELECT ends.trip_id, ends.direction_id, ends.terminal_stop_id,
+          ends.terminal_stop_sequence, signs.headsign
         FROM ends LEFT JOIN signs ON signs.trip_id = ends.trip_id`)
         .bind(JSON.stringify(tripIds), agencyId, routeId, agencyId, routeId)
         .all<{
           trip_id: string;
+          direction_id: number | string;
           terminal_stop_id: string;
           terminal_stop_sequence: number;
           headsign: string | null;
@@ -256,6 +259,7 @@ export function makeD1Reads(db: D1DatabaseBinding, opts?: D1ReadsOptions) {
         terminals.set(row.trip_id, {
           stopId: row.terminal_stop_id,
           stopSequence: Number(row.terminal_stop_sequence),
+          directionId: Number(row.direction_id),
           ...(row.headsign ? { headsign: row.headsign } : {}),
         });
       return terminals;
@@ -293,7 +297,8 @@ export function makeD1Reads(db: D1DatabaseBinding, opts?: D1ReadsOptions) {
         db
           .prepare(`WITH wanted AS (SELECT value AS trip_id FROM json_each(?)),
           wanted_routes AS (SELECT value AS route_id FROM json_each(?)),
-          ends AS (SELECT r.route_id, j.value AS trip_id, r.terminal_stop_id, r.terminal_stop_sequence
+          ends AS (SELECT r.route_id, j.value AS trip_id, r.direction_id, r.terminal_stop_id,
+              r.terminal_stop_sequence
             FROM route_trip_terminals r, json_each(r.trip_ids) j
             WHERE r.agency_id = ? AND r.route_id IN (SELECT route_id FROM wanted_routes)
               AND j.value IN (SELECT trip_id FROM wanted)),
@@ -301,14 +306,15 @@ export function makeD1Reads(db: D1DatabaseBinding, opts?: D1ReadsOptions) {
             FROM route_trip_headsigns h, json_each(h.trip_ids) k
             WHERE h.agency_id = ? AND h.route_id IN (SELECT route_id FROM wanted_routes)
               AND k.value IN (SELECT trip_id FROM wanted))
-          SELECT ends.route_id, ends.trip_id, ends.terminal_stop_id, ends.terminal_stop_sequence,
-            signs.headsign
+          SELECT ends.route_id, ends.trip_id, ends.direction_id, ends.terminal_stop_id,
+            ends.terminal_stop_sequence, signs.headsign
           FROM ends LEFT JOIN signs
             ON signs.route_id = ends.route_id AND signs.trip_id = ends.trip_id`)
           .bind(tripsJson, routesJson, agencyId, agencyId)
           .all<{
             route_id: string;
             trip_id: string;
+            direction_id: number | string;
             terminal_stop_id: string;
             terminal_stop_sequence: number;
             headsign: string | null;
@@ -324,6 +330,7 @@ export function makeD1Reads(db: D1DatabaseBinding, opts?: D1ReadsOptions) {
           facts.get(row.route_id)?.terminals.set(row.trip_id, {
             stopId: row.terminal_stop_id,
             stopSequence: Number(row.terminal_stop_sequence),
+            directionId: Number(row.direction_id),
             ...(row.headsign ? { headsign: row.headsign } : {}),
           });
         }

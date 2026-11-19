@@ -128,6 +128,47 @@ describe("trip directions", () => {
   });
 });
 
+describe("trip directions from terminal rows", () => {
+  const lookupsWithTerminal = (indexedTrip: ReturnType<typeof trip> | undefined) => {
+    const { store, staticRoutes } = fakes(true, indexedTrip ? { a: indexedTrip } : {});
+    store.getTripTerminals.mockImplementation((_routeId, ids) =>
+      Effect.succeed(
+        new Map(ids.map((id) => [id, { stopId: "end", stopSequence: 9, directionId: 0 }])),
+      ),
+    );
+    const lookups = selectStationTripLookups(
+      `agency-${++agencySeq}`,
+      { hasTripIdentities: true, getRoutesForTrips: staticRoutes },
+      Effect.succeed(store),
+    );
+    return { lookups, store, staticRoutes };
+  };
+
+  it.each([
+    ["another route", trip("other", 1)],
+    ["another direction", trip("r", 1)],
+    ["no entry", undefined],
+  ])("prefers the database when the index has %s", async (_name, indexedTrip) => {
+    const { lookups, store, staticRoutes } = lookupsWithTerminal(indexedTrip);
+
+    await Effect.runPromise(lookups.getTripTerminals("r", ["a"]));
+    const directions = await Effect.runPromise(lookups.getDirectionsForTrips("r", ["a"]));
+
+    expect(directions).toEqual(new Map([["a", 0]]));
+    expect(store.getDirectionsForTrips).not.toHaveBeenCalled();
+    expect(staticRoutes).not.toHaveBeenCalled();
+  });
+
+  it("does not query terminals on behalf of a direction lookup", async () => {
+    const { lookups, store } = lookupsWithTerminal(trip("r", 1));
+
+    const directions = await Effect.runPromise(lookups.getDirectionsForTrips("r", ["a"]));
+
+    expect(directions).toEqual(new Map([["a", 1]]));
+    expect(store.getTripTerminals).not.toHaveBeenCalled();
+  });
+});
+
 describe("trip terminals", () => {
   it("resolves terminals in the database and answers repeat polls from memory", async () => {
     const { lookups, store } = fakes(true, { a: trip("r") }, {}, { a: "end", b: "end" });
