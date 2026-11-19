@@ -25,9 +25,20 @@ import type {
  * (and ultimately the RPC layer) can distinguish "DB down" from a legitimate
  * empty result. Absent rows still resolve to Option.none / empty arrays.
  */
+export interface RouteTripFacts {
+  readonly terminals: ReadonlyMap<string, TripTerminal>;
+  readonly directions: ReadonlyMap<string, number>;
+}
+
 export interface SurfaceDataStoreService {
   /** Resolve static route and direction membership for realtime trip identities. */
   readonly getRoutesForTrips?: TripRouteLookup;
+  /** Warms per-route reads with set-based queries so requests stay within their budget. */
+  readonly preloadRoutes?: (routeIds: readonly string[]) => Effect.Effect<void, unknown>;
+  /** Set-based equivalent of `getTripTerminals` and `getDirectionsForTrips`. */
+  readonly getTripFactsForRoutes?: (
+    tripIdsByRoute: ReadonlyMap<string, readonly string[]>,
+  ) => Effect.Effect<ReadonlyMap<string, RouteTripFacts>, unknown>;
   readonly findNearbyStops: (
     lat: number,
     lon: number,

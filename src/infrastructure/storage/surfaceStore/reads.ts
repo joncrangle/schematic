@@ -38,6 +38,12 @@ import { ensureSurfaceSchema } from "./schema";
  * labeling so both directions resolve from the same facts.
  */
 
+export interface RouteTopologyBundle {
+  readonly route: Option.Option<SurfaceRoute>;
+  readonly directionIds: readonly number[];
+  readonly details: ReadonlyMap<number, Option.Option<RouteDetails>>;
+}
+
 export interface D1ReadsOptions {
   readonly agencyId?: string;
   readonly stationIndex?: readonly SchematicStationIndexEntry[];
@@ -255,6 +261,167 @@ export function makeD1Reads(db: D1DatabaseBinding, opts?: D1ReadsOptions) {
       return terminals;
     });
 
+  const readTripFactsForRoutes = (tripIdsByRoute: ReadonlyMap<string, readonly string[]>) =>
+    Effect.tryPromise(async () => {
+      const facts = new Map<
+        string,
+        { terminals: Map<string, TripTerminal>; directions: Map<string, number> }
+      >();
+      const wantedByRoute = new Map<string, ReadonlySet<string>>();
+      const allTripIds = new Set<string>();
+      for (const [routeId, tripIds] of tripIdsByRoute) {
+        if (tripIds.length === 0) continue;
+        wantedByRoute.set(routeId, new Set(tripIds));
+        facts.set(routeId, { terminals: new Map(), directions: new Map() });
+        for (const tripId of tripIds) allTripIds.add(tripId);
+      }
+      if (facts.size === 0) return facts;
+      await ensureSurfaceSchema(db);
+      const routesJson = JSON.stringify([...facts.keys()]);
+      const tripsJson = JSON.stringify([...allTripIds]);
+      const [directions, terminals] = await Promise.all([
+        db
+          .prepare(
+            `SELECT r.route_id, j.value AS trip_id, r.direction_id
+               FROM route_direction_trips r, json_each(r.trip_ids) j
+              WHERE r.agency_id = ? AND r.route_id IN (SELECT value FROM json_each(?))
+                AND j.value IN (SELECT value FROM json_each(?))
+              ORDER BY r.route_id, r.direction_id`,
+          )
+          .bind(agencyId, routesJson, tripsJson)
+          .all<{ route_id: string; trip_id: string; direction_id: number | string }>(),
+        db
+          .prepare(`WITH wanted AS (SELECT value AS trip_id FROM json_each(?)),
+          wanted_routes AS (SELECT value AS route_id FROM json_each(?)),
+          ends AS (SELECT r.route_id, j.value AS trip_id, r.terminal_stop_id, r.terminal_stop_sequence
+            FROM route_trip_terminals r, json_each(r.trip_ids) j
+            WHERE r.agency_id = ? AND r.route_id IN (SELECT route_id FROM wanted_routes)
+              AND j.value IN (SELECT trip_id FROM wanted)),
+          signs AS (SELECT h.route_id, k.value AS trip_id, h.headsign
+            FROM route_trip_headsigns h, json_each(h.trip_ids) k
+            WHERE h.agency_id = ? AND h.route_id IN (SELECT route_id FROM wanted_routes)
+              AND k.value IN (SELECT trip_id FROM wanted))
+          SELECT ends.route_id, ends.trip_id, ends.terminal_stop_id, ends.terminal_stop_sequence,
+            signs.headsign
+          FROM ends LEFT JOIN signs
+            ON signs.route_id = ends.route_id AND signs.trip_id = ends.trip_id`)
+          .bind(tripsJson, routesJson, agencyId, agencyId)
+          .all<{
+            route_id: string;
+            trip_id: string;
+            terminal_stop_id: string;
+            terminal_stop_sequence: number;
+            headsign: string | null;
+          }>(),
+      ]);
+      for (const row of directions.results ?? []) {
+        if (wantedByRoute.get(row.route_id)?.has(row.trip_id)) {
+          facts.get(row.route_id)?.directions.set(row.trip_id, Number(row.direction_id));
+        }
+      }
+      for (const row of terminals.results ?? []) {
+        if (wantedByRoute.get(row.route_id)?.has(row.trip_id)) {
+          facts.get(row.route_id)?.terminals.set(row.trip_id, {
+            stopId: row.terminal_stop_id,
+            stopSequence: Number(row.terminal_stop_sequence),
+            ...(row.headsign ? { headsign: row.headsign } : {}),
+          });
+        }
+      }
+      return facts;
+    });
+
+  const readRouteTopologies = (routeIds: readonly string[]) =>
+    Effect.tryPromise(async () => {
+      const bundles = new Map<string, RouteTopologyBundle>();
+      if (routeIds.length === 0) return bundles;
+      await ensureSurfaceSchema(db);
+      const routesJson = JSON.stringify(routeIds);
+      const [routeRows, shapeRows, stopRows] = await Promise.all([
+        db
+          .prepare(
+            `SELECT id, short_name, long_name, route_type, color, text_color
+               FROM routes
+              WHERE agency_id = ? AND id IN (SELECT value FROM json_each(?))`,
+          )
+          .bind(agencyId, routesJson)
+          .all<SqliteRouteRow>(),
+        db
+          .prepare(
+            `SELECT id, route_id, direction_id, headsign, polyline, min_lat, max_lat, min_lon,
+                    max_lon, point_count, direction_label
+               FROM (
+                 SELECT *, ROW_NUMBER() OVER (
+                   PARTITION BY route_id, direction_id
+                   ORDER BY CASE WHEN id = route_id || '_' || direction_id || '_canonical'
+                     THEN 0 ELSE 1 END, id ASC
+                 ) AS shape_rank
+                 FROM route_shapes
+                 WHERE agency_id = ? AND route_id IN (SELECT value FROM json_each(?))
+               )
+              WHERE shape_rank = 1
+              ORDER BY route_id, direction_id ASC`,
+          )
+          .bind(agencyId, routesJson)
+          .all<SqliteShapeRow>(),
+        db
+          .prepare(
+            `SELECT rs.route_id AS route_id, rs.direction_id AS direction_id, s.id, s.code, s.name,
+                    s.lat, s.lon, s.wheelchair, s.parent_station, s.routes_json
+               FROM route_stops rs
+               JOIN stops s ON rs.agency_id = s.agency_id AND rs.stop_id = s.id
+              WHERE rs.agency_id = ? AND rs.route_id IN (SELECT value FROM json_each(?))
+              ORDER BY rs.route_id, rs.direction_id, rs.stop_sequence ASC`,
+          )
+          .bind(agencyId, routesJson)
+          .all<SqliteStopRow & { route_id: string; direction_id: number | string }>(),
+      ]);
+
+      const routeRowById = new Map((routeRows.results ?? []).map((row) => [row.id, row]));
+      const stopsByDirection = new Map<string, SqliteStopRow[]>();
+      for (const row of stopRows.results ?? []) {
+        const key = JSON.stringify([row.route_id, Number(row.direction_id)]);
+        const rows = stopsByDirection.get(key);
+        if (rows) rows.push(row);
+        else stopsByDirection.set(key, [row]);
+      }
+      const shapesByRoute = new Map<string, SqliteShapeRow[]>();
+      for (const row of shapeRows.results ?? []) {
+        const rows = shapesByRoute.get(row.route_id);
+        if (rows) rows.push(row);
+        else shapesByRoute.set(row.route_id, [row]);
+      }
+
+      for (const routeId of routeIds) {
+        const routeRow = routeRowById.get(routeId);
+        const shapes = shapesByRoute.get(routeId) ?? [];
+        const details = new Map<number, Option.Option<RouteDetails>>();
+        for (const shape of shapes) {
+          const directionId = Number(shape.direction_id);
+          details.set(
+            directionId,
+            routeRow
+              ? Option.some(
+                  toRouteDetails(
+                    routeRow,
+                    shape,
+                    stopsByDirection.get(JSON.stringify([routeId, directionId])) ?? [],
+                    stationIndex,
+                    routeInterpretation,
+                  ),
+                )
+              : Option.none(),
+          );
+        }
+        bundles.set(routeId, {
+          route: routeRow ? Option.some(mapRowToRoute(routeRow)) : Option.none(),
+          directionIds: shapes.map((shape) => Number(shape.direction_id)),
+          details,
+        });
+      }
+      return bundles;
+    });
+
   const readCachedRouteDetails = (routeId: string, directionId: number) =>
     Effect.tryPromise(async () => {
       await ensureSurfaceSchema(db);
@@ -378,6 +545,8 @@ export function makeD1Reads(db: D1DatabaseBinding, opts?: D1ReadsOptions) {
     readTripTerminals,
     readDirectionsForTrips,
     readRoutesForTrips,
+    readTripFactsForRoutes,
+    readRouteTopologies,
     readCachedRouteDetails,
     readRouteRow,
     readAllRouteRows,

@@ -3,6 +3,7 @@ import * as Option from "effect/Option";
 import type { RouteDetails, SurfaceRoute, SurfaceStop } from "~/domain/surface/types";
 import { buildDirectionLabels } from "~/domain/surface/direction";
 import type { SurfaceStoreKernelCapabilities } from "./readPolicy";
+import type { RouteTopologyBundle } from "./reads";
 
 /**
  * Static topology is much slower-moving than arrivals. Keep the hot request
@@ -97,8 +98,16 @@ export type SurfaceTopologyReadCapabilities = Pick<
   | "readStopsByIds"
 >;
 
+export type SurfaceTopologyReadSource = SurfaceTopologyReadCapabilities & {
+  readonly readRouteTopologies?: (
+    routeIds: readonly string[],
+  ) => Effect.Effect<ReadonlyMap<string, RouteTopologyBundle>, unknown>;
+};
+
 export interface SurfaceTopologyReadCache {
   readonly readers: SurfaceTopologyReadCapabilities;
+  /** Loads uncached routes together so per-route reads become memory hits. */
+  readonly preloadRoutes: (routeIds: readonly string[]) => Effect.Effect<void, unknown>;
   /**
    * Manual hook: replace route entries after an explicit topology write has
    * landed. Not auto-invoked, explicit DB writes bypass the warm cache, so
@@ -115,12 +124,13 @@ export interface SurfaceTopologyReadCache {
 
 /** Adds a bounded in-memory layer around static topology readers. */
 export function createSurfaceTopologyReadCache(
-  source: SurfaceTopologyReadCapabilities,
+  source: SurfaceTopologyReadSource,
   now: () => number = Date.now,
 ): SurfaceTopologyReadCache {
   const nearbyCache = new Map<string, CacheEntry<readonly SurfaceStop[]>>();
   const routeDetailsCache = new Map<string, CacheEntry<Option.Option<RouteDetails>>>();
   const routeCache = new Map<string, CacheEntry<Option.Option<SurfaceRoute>>>();
+  const directionIdsCache = new Map<string, CacheEntry<readonly number[]>>();
   const allRoutesCache = new Map<string, CacheEntry<readonly SurfaceRoute[]>>();
   const stopsForRoutesCache = new Map<string, CacheEntry<readonly SurfaceStop[]>>();
   const stopsByIdsCache = new Map<string, CacheEntry<readonly SurfaceStop[]>>();
@@ -144,8 +154,65 @@ export function createSurfaceTopologyReadCache(
       MAX_ROUTE_CACHE_ENTRIES,
       at,
     );
+    directionIdsCache.delete(normalized.route.id);
     allRoutesCache.clear();
   };
+
+  const rememberDirectionIds = (routeId: string, directionIds: readonly number[]): void =>
+    writeCache(
+      directionIdsCache,
+      routeId,
+      directionIds,
+      ROUTE_TOPOLOGY_CACHE_TTL_MS,
+      MAX_ROUTE_CACHE_ENTRIES,
+      now(),
+    );
+
+  const preloadRoutes = (routeIds: readonly string[]): Effect.Effect<void, unknown> =>
+    Effect.suspend(() => {
+      const at = now();
+      const missing = [...new Set(routeIds)].filter((routeId) => {
+        const directionIds = readCache(directionIdsCache, routeId, at);
+        return (
+          directionIds === undefined ||
+          readCache(routeCache, routeId, at) === undefined ||
+          directionIds.some(
+            (directionId) =>
+              readCache(routeDetailsCache, `${routeId}:${directionId}`, at) === undefined,
+          )
+        );
+      });
+      if (missing.length === 0 || !source.readRouteTopologies) return Effect.void;
+      return source.readRouteTopologies(missing).pipe(
+        Effect.tap((bundles) =>
+          Effect.sync(() => {
+            const writtenAt = now();
+            for (const [routeId, bundle] of bundles) {
+              rememberDirectionIds(routeId, bundle.directionIds);
+              writeCache(
+                routeCache,
+                routeId,
+                bundle.route,
+                ROUTE_TOPOLOGY_CACHE_TTL_MS,
+                MAX_ROUTE_CACHE_ENTRIES,
+                writtenAt,
+              );
+              for (const [directionId, details] of bundle.details) {
+                writeCache(
+                  routeDetailsCache,
+                  `${routeId}:${directionId}`,
+                  details,
+                  ROUTE_TOPOLOGY_CACHE_TTL_MS,
+                  MAX_ROUTE_CACHE_ENTRIES,
+                  writtenAt,
+                );
+              }
+            }
+          }),
+        ),
+        Effect.asVoid,
+      );
+    });
 
   const invalidateStopTopology = (): void => {
     nearbyCache.clear();
@@ -176,7 +243,17 @@ export function createSurfaceTopologyReadCache(
         );
     },
 
-    readRouteDirectionIds: (routeId) => source.readRouteDirectionIds(routeId),
+    readRouteDirectionIds: (routeId) => {
+      const cached = readCache(directionIdsCache, routeId, now());
+      if (cached !== undefined) return Effect.succeed(cached);
+      return source
+        .readRouteDirectionIds(routeId)
+        .pipe(
+          Effect.tap((directionIds) =>
+            Effect.sync(() => rememberDirectionIds(routeId, directionIds)),
+          ),
+        );
+    },
     readTripTerminals: (routeId, tripIds) => source.readTripTerminals(routeId, tripIds),
     readDirectionsForTrips: (routeId, tripIds) => source.readDirectionsForTrips(routeId, tripIds),
 
@@ -283,5 +360,5 @@ export function createSurfaceTopologyReadCache(
     },
   };
 
-  return { readers, rememberRouteDetails, invalidateStopTopology };
+  return { readers, preloadRoutes, rememberRouteDetails, invalidateStopTopology };
 }

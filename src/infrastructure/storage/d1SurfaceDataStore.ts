@@ -11,7 +11,7 @@ import { makeD1Reads } from "./surfaceStore/reads";
 import { makeSurfaceStoreKernel } from "./surfaceStore/readPolicy";
 import {
   createSurfaceTopologyReadCache,
-  type SurfaceTopologyReadCapabilities,
+  type SurfaceTopologyReadSource,
 } from "./surfaceStore/topologyCache";
 import type { SchematicStationIndexEntry } from "~/agencies/types";
 import type { RouteInterpretationConfig } from "~/agencies/types";
@@ -60,7 +60,7 @@ export function makeD1SurfaceDataStoreService(
   // Keep the cache below the read-policy kernel. The kernel is a pure read
   // fan-out, so the static read itself is served from memory on a warm
   // Worker while the underlying store remains the source of truth.
-  const topologyReadSource: SurfaceTopologyReadCapabilities = {
+  const topologyReadSource: SurfaceTopologyReadSource = {
     readNearbyCandidates: reads.readNearbyCandidates,
     readRouteDirectionIds: reads.readRouteDirectionIds,
     readTripTerminals: reads.readTripTerminals,
@@ -70,6 +70,7 @@ export function makeD1SurfaceDataStoreService(
     readAllRouteRows: reads.readAllRouteRows,
     readStopsForRoutes: reads.readStopsForRoutes,
     readStopsByIds: reads.readStopsByIds,
+    readRouteTopologies: reads.readRouteTopologies,
   };
   const topologyCache = createSurfaceTopologyReadCache(topologyReadSource);
 
@@ -79,6 +80,8 @@ export function makeD1SurfaceDataStoreService(
 
   return SurfaceDataStore.of({
     getRoutesForTrips: reads.readRoutesForTrips,
+    preloadRoutes: topologyCache.preloadRoutes,
+    getTripFactsForRoutes: reads.readTripFactsForRoutes,
     findNearbyStops: kernel.findNearbyStops,
     getRouteDirectionIds: kernel.getRouteDirectionIds,
     getTripTerminals: kernel.getTripTerminals,

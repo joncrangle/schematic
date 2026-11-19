@@ -183,10 +183,26 @@ export function makeLiveSurfaceTransitLayer(
   );
 
   const storeLayer = opts?.storeLayer ?? makeSurfaceDataStoreLayer(manifest.id);
+  // Repeat polls answer trip facts from memory instead of rereading D1.
+  const nearbyStoreLayer = Layer.effect(
+    SurfaceDataStore,
+    Effect.gen(function* () {
+      const store = yield* SurfaceDataStore;
+      return SurfaceDataStore.of({
+        ...store,
+        getTripFactsForRoutes: selectStationTripLookups(
+          manifest.id,
+          getAlertIdentityLookups(manifest.id),
+          Effect.succeed(store),
+        ).getTripFactsForRoutes,
+      });
+    }),
+  ).pipe(Layer.provide(storeLayer));
   const transitLayer = NearbyTransitLive.pipe(
     Layer.provide(repositoryLayer),
     Layer.provide(snapshotSourceLayer),
     Layer.provide(agencyDefaultsLayer),
+    Layer.provide(nearbyStoreLayer),
   );
   // provideMerge feeds the same storeLayer instance to NearbyTransitLive and
   // retains it under SurfaceDataStore, so both tags resolve to one store

@@ -8,11 +8,14 @@ import type {
 } from "~/domain/surface/boarding";
 import type { AlertIdentityLookups } from "~/infrastructure/alerts/staticAlertIdentities";
 import { logger } from "~/infrastructure/logging/logger";
-import type { SurfaceDataStoreService } from "~/infrastructure/storage/SurfaceDataStore";
+import type {
+  RouteTripFacts,
+  SurfaceDataStoreService,
+} from "~/infrastructure/storage/SurfaceDataStore";
 
 type StationTripStore = Pick<
   SurfaceDataStoreService,
-  "getRoutesForTrips" | "getDirectionsForTrips" | "getTripTerminals"
+  "getRoutesForTrips" | "getDirectionsForTrips" | "getTripTerminals" | "getTripFactsForRoutes"
 >;
 
 const MEMO_TTL_MS = 60 * 60 * 1000;
@@ -102,6 +105,9 @@ export function selectStationTripLookups(
   readonly getRoutesForTrips: TripRouteLookup;
   readonly getDirectionsForTrips: TripDirectionLookup;
   readonly getTripTerminals: TripTerminalLookup;
+  readonly getTripFactsForRoutes: (
+    tripIdsByRoute: ReadonlyMap<string, readonly string[]>,
+  ) => Effect.Effect<ReadonlyMap<string, RouteTripFacts>, unknown>;
 } {
   const databaseRoutes = (ids: readonly string[]) =>
     memoizedLookup(routeMemo, agencyId, ids, (uncached) =>
@@ -148,7 +154,67 @@ export function selectStationTripLookups(
     );
   };
 
+  const databaseTripFacts = (
+    db: StationTripStore,
+    tripIdsByRoute: ReadonlyMap<string, readonly string[]>,
+  ): Effect.Effect<ReadonlyMap<string, RouteTripFacts>, unknown> =>
+    db.getTripFactsForRoutes
+      ? db.getTripFactsForRoutes(tripIdsByRoute)
+      : Effect.forEach(tripIdsByRoute, ([routeId, tripIds]) =>
+          Effect.all({
+            terminals: db.getTripTerminals(routeId, tripIds),
+            directions: db.getDirectionsForTrips(routeId, tripIds),
+          }).pipe(Effect.map((facts) => [routeId, facts] as const)),
+        ).pipe(Effect.map((entries) => new Map(entries)));
+
+  // Trip ids can be reused between feed versions, so these answers stay with D1.
+  const getTripFactsForRoutes = (tripIdsByRoute: ReadonlyMap<string, readonly string[]>) =>
+    Effect.gen(function* () {
+      const facts = new Map<
+        string,
+        { terminals: Map<string, TripTerminal>; directions: Map<string, number> }
+      >();
+      const uncachedByRoute = new Map<string, readonly string[]>();
+      for (const [routeId, tripIds] of tripIdsByRoute) {
+        const routeFacts = {
+          terminals: new Map<string, TripTerminal>(),
+          directions: new Map<string, number>(),
+        };
+        facts.set(routeId, routeFacts);
+        const keyPrefix = `${agencyId}\u0000${routeId}\u0000`;
+        const uncached = new Set<string>();
+        for (const tripId of tripIds) {
+          const direction = directionMemo.get(keyPrefix + tripId);
+          if (!direction) uncached.add(tripId);
+          else if (direction.value !== null) routeFacts.directions.set(tripId, direction.value);
+          const terminal = terminalMemo.get(keyPrefix + tripId);
+          if (!terminal) uncached.add(tripId);
+          else if (terminal.value !== null) routeFacts.terminals.set(tripId, terminal.value);
+        }
+        if (uncached.size > 0) uncachedByRoute.set(routeId, [...uncached]);
+      }
+      if (uncachedByRoute.size === 0) return facts;
+
+      const db = yield* getStore;
+      const found = yield* databaseTripFacts(db, uncachedByRoute);
+      for (const [routeId, tripIds] of uncachedByRoute) {
+        const routeFacts = facts.get(routeId)!;
+        const foundFacts = found.get(routeId);
+        const keyPrefix = `${agencyId}\u0000${routeId}\u0000`;
+        for (const tripId of tripIds) {
+          const terminal = foundFacts?.terminals.get(tripId);
+          terminalMemo.set(keyPrefix + tripId, terminal ?? null);
+          if (terminal !== undefined) routeFacts.terminals.set(tripId, terminal);
+          const direction = foundFacts?.directions.get(tripId);
+          directionMemo.set(keyPrefix + tripId, direction ?? null);
+          if (direction !== undefined) routeFacts.directions.set(tripId, direction);
+        }
+      }
+      return facts;
+    });
+
   return {
+    getTripFactsForRoutes,
     getRoutesForTrips: (tripIds) => resolveTrips(tripIds, (trip) => trip, databaseRoutes),
     getDirectionsForTrips: (routeId, tripIds) =>
       resolveTrips(

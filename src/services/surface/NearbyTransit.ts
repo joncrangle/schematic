@@ -21,7 +21,7 @@ import {
   inferRouteType,
 } from "~/domain/surface/types";
 import type { SurfaceStop } from "~/domain/surface/types";
-import { SurfaceDataStore } from "~/infrastructure/storage/SurfaceDataStore";
+import { SurfaceDataStore, type RouteTripFacts } from "~/infrastructure/storage/SurfaceDataStore";
 import { clampProximityRadius, WALKING_METERS_PER_MINUTE } from "~/domain/proximity";
 import { getAgencyById } from "~/agencies";
 import type { AgencySnapshot, RouteIdNormalization } from "~/agencies/types";
@@ -131,6 +131,19 @@ export const MAX_RESOLVED_REALTIME_SNAPSHOTS = 128;
 // requests share this resolved snapshot data so alert feed parsing is not
 // repeated for every 15-second panel refresh.
 export const AGENCY_SNAPSHOT_CACHE_TTL_MS = 30_000;
+
+/** Keeps a stop's attribution independent of trips loaded for its route's other stops. */
+function pickTripFacts<T>(
+  facts: ReadonlyMap<string, T> | undefined,
+  tripIds: readonly string[],
+): ReadonlyMap<string, T> {
+  const picked = new Map<string, T>();
+  for (const tripId of tripIds) {
+    const fact = facts?.get(tripId);
+    if (fact !== undefined) picked.set(tripId, fact);
+  }
+  return picked;
+}
 
 const fetchWithLastGood = <T extends RealtimeCacheItem>(
   getSnapshot: () => Effect.Effect<RealtimeSnapshot, RealtimeError>,
@@ -585,6 +598,20 @@ export const NearbyTransitLive = Layer.effect(
     const readDirectionsForTrips = (routeId: string, tripIds: readonly string[]) =>
       dataStore.getDirectionsForTrips(routeId, tripIds);
     const readRoute = (routeId: string) => dataStore.getRoute(routeId);
+    const readTripFactsForRoutes = (
+      tripIdsByRoute: ReadonlyMap<string, readonly string[]>,
+    ): Effect.Effect<ReadonlyMap<string, RouteTripFacts>, unknown> =>
+      dataStore.getTripFactsForRoutes
+        ? dataStore.getTripFactsForRoutes(tripIdsByRoute)
+        : Effect.forEach(
+            tripIdsByRoute,
+            ([routeId, tripIds]) =>
+              Effect.all({
+                terminals: dataStore.getTripTerminals(routeId, tripIds),
+                directions: readDirectionsForTrips(routeId, tripIds),
+              }).pipe(Effect.map((facts) => [routeId, facts] as const)),
+            { concurrency: ROUTE_QUERY_CONCURRENCY },
+          ).pipe(Effect.map((entries) => new Map(entries)));
 
     // ————————————————————————————————————————————
     // Private fuse: assembleRouteArrivals (coalesced from the former arrival-assembly service)
@@ -616,6 +643,8 @@ export const NearbyTransitLive = Layer.effect(
           }
         }
         const requestedRouteIds = new Set(routeToStops.keys());
+        // Realtime topology reads below share these cached routes.
+        if (dataStore.preloadRoutes) yield* dataStore.preloadRoutes([...requestedRouteIds]);
         const requestedStopIds = new Set(
           [...routeToStops.values()].flatMap((items) => items.map((item) => item.stop.id)),
         );
@@ -685,6 +714,47 @@ export const NearbyTransitLive = Layer.effect(
           realtimeSnapshotFailed ||
           realtimeSnapshotPartial;
 
+        const isBoardablePrediction = (prediction: ArrivalPrediction, routeId: string): boolean =>
+          routeIdsMatch(prediction.routeId, routeId) &&
+          prediction.predictedTime >= now - PREDICTION_FRESHNESS_WINDOW_MS &&
+          prediction.scheduleRelationship !== "SKIPPED";
+
+        // Fetched before the membership filter, because the filter has to be
+        // able to see whether a stop the topology omits has anything
+        // actually arriving for this route.
+        const predictionExitsByRoute = new Map(
+          yield* Effect.forEach(
+            routeToStops,
+            ([routeId, stopsForRoute]) =>
+              Effect.all(
+                stopsForRoute.map((item) =>
+                  Effect.exit(
+                    realtimeRepo.getStopArrivals({
+                      agencyId,
+                      stopId: item.stop.id,
+                      routeId,
+                      snapshot: sharedRealtimeSnapshot,
+                    }),
+                  ),
+                ),
+                { concurrency: STOP_ARRIVALS_CONCURRENCY },
+              ).pipe(Effect.map((exits) => [routeId, exits] as const)),
+            { concurrency: ROUTE_QUERY_CONCURRENCY },
+          ),
+        );
+        const tripIdsByRoute = new Map<string, readonly string[]>();
+        for (const [routeId, exits] of predictionExitsByRoute) {
+          const tripIds = new Set<string>();
+          for (const exit of exits) {
+            if (!Exit.isSuccess(exit)) continue;
+            for (const prediction of exit.value) {
+              if (isBoardablePrediction(prediction, routeId)) tripIds.add(prediction.tripId);
+            }
+          }
+          if (tripIds.size > 0) tripIdsByRoute.set(routeId, [...tripIds]);
+        }
+        const tripFactsByRoute = yield* readTripFactsForRoutes(tripIdsByRoute);
+
         const routeTasks = Array.from(routeToStops.entries()).map(([routeId, stopsForRoute]) =>
           Effect.gen(function* () {
             const provider = getAgencyById(agencyId);
@@ -746,22 +816,7 @@ export const NearbyTransitLive = Layer.effect(
             const directionMap = new Map<number, NearbyDirectionInfo>();
             const terminatingDirectionKeys = new Set<string>();
 
-            // Fetched before the membership filter, because the filter has to be
-            // able to see whether a stop the topology omits has anything
-            // actually arriving for this route.
-            const predictionExits = yield* Effect.all(
-              stopsForRoute.map((item) =>
-                Effect.exit(
-                  realtimeRepo.getStopArrivals({
-                    agencyId,
-                    stopId: item.stop.id,
-                    routeId,
-                    snapshot: sharedRealtimeSnapshot,
-                  }),
-                ),
-              ),
-              { concurrency: STOP_ARRIVALS_CONCURRENCY },
-            );
+            const predictionExits = predictionExitsByRoute.get(routeId) ?? [];
             const fetchedPerStop = predictionExits.map((exit) =>
               Exit.isSuccess(exit)
                 ? exit.value
@@ -908,12 +963,7 @@ export const NearbyTransitLive = Layer.effect(
               const predictions = predictionsPerStop[i] ?? [];
 
               const matchingPreds = predictions
-                .filter(
-                  (p) =>
-                    routeIdsMatch(p.routeId, routeId) &&
-                    p.predictedTime >= now - PREDICTION_FRESHNESS_WINDOW_MS &&
-                    p.scheduleRelationship !== "SKIPPED",
-                )
+                .filter((p) => isBoardablePrediction(p, routeId))
                 .sort((a, b) => a.predictedTime - b.predictedTime);
 
               // Build only directions this route actually has. Seeding from the
@@ -942,14 +992,10 @@ export const NearbyTransitLive = Layer.effect(
               // Attribution: bucket each prediction by the group its own trip
               // belongs to, joined on trip_id, which every operator's feed
               // carries and which maps exactly onto the seeded groups.
-              const tripTerminals = yield* dataStore.getTripTerminals(
-                routeId,
-                matchingPreds.map((p) => p.tripId),
-              );
-              const directionByTrip = yield* readDirectionsForTrips(
-                routeId,
-                matchingPreds.map((p) => p.tripId),
-              );
+              const stopTripIds = matchingPreds.map((p) => p.tripId);
+              const routeTripFacts = tripFactsByRoute.get(routeId);
+              const tripTerminals = pickTripFacts(routeTripFacts?.terminals, stopTripIds);
+              const directionByTrip = pickTripFacts(routeTripFacts?.directions, stopTripIds);
               // A live call proves its trip serves this stop, even when the
               // representative static trip omits this branch. Prefer the
               // static trip's direction to the decoder's inferred sentinel.

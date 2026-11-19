@@ -55,6 +55,19 @@ function fakes(
   return { lookups, staticRoutes, store };
 }
 
+const lookupFacts =
+  (store: ReturnType<typeof fakes>["store"]) =>
+  (tripIdsByRoute: ReadonlyMap<string, readonly string[]>) =>
+    Effect.forEach(tripIdsByRoute, ([routeId, tripIds]) =>
+      Effect.all({
+        terminals: store.getTripTerminals(routeId, tripIds),
+        directions: store.getDirectionsForTrips(routeId, tripIds),
+      }).pipe(Effect.map((facts) => [routeId, facts] as const)),
+    ).pipe(
+      Effect.map((entries) => new Map(entries)),
+      Effect.mapError((error): unknown => error),
+    );
+
 describe("trip routes", () => {
   it("skips the database when the index covers every trip", async () => {
     const { lookups, store } = fakes(true, { a: trip("r"), b: trip("r", 1) });
@@ -147,6 +160,69 @@ describe("trip terminals", () => {
     vi.advanceTimersByTime(60 * 60 * 1000 + 1);
     await Effect.runPromise(lookups.getTripTerminals("r", ["a"]));
     expect(store.getTripTerminals).toHaveBeenCalledTimes(2);
+  });
+});
+
+describe("batched route trip facts", () => {
+  const requested = new Map([
+    ["r", ["a", "missing"]],
+    ["s", ["b"]],
+  ]);
+
+  it("loads all routes together and answers repeat polls from memory", async () => {
+    const { store } = fakes(
+      false,
+      {},
+      { a: trip("r", 1), b: trip("s") },
+      { a: "end-a", b: "end-b" },
+    );
+    const getTripFactsForRoutes = vi.fn(lookupFacts(store));
+    const batched = selectStationTripLookups(
+      `agency-${++agencySeq}`,
+      { hasTripIdentities: false, getRoutesForTrips: () => Effect.succeed(new Map()) },
+      Effect.succeed({ ...store, getTripFactsForRoutes }),
+    );
+
+    const first = await Effect.runPromise(batched.getTripFactsForRoutes(requested));
+    const repeat = await Effect.runPromise(batched.getTripFactsForRoutes(requested));
+
+    expect(getTripFactsForRoutes).toHaveBeenCalledTimes(1);
+    expect(repeat).toEqual(first);
+    expect(first.get("r")?.directions).toEqual(new Map([["a", 1]]));
+    expect(first.get("s")?.terminals.get("b")?.stopId).toBe("end-b");
+  });
+
+  it("uses database facts instead of a static index entry from another feed version", async () => {
+    const { store, staticRoutes } = fakes(true, { a: trip("other", 1) }, { a: trip("r", 0) });
+    const batched = selectStationTripLookups(
+      `agency-${++agencySeq}`,
+      { hasTripIdentities: true, getRoutesForTrips: staticRoutes },
+      Effect.succeed(store),
+    );
+
+    const facts = await Effect.runPromise(batched.getTripFactsForRoutes(new Map([["r", ["a"]]])));
+
+    expect(facts.get("r")?.directions).toEqual(new Map([["a", 0]]));
+    expect(staticRoutes).not.toHaveBeenCalled();
+  });
+
+  it("does not remember a failed database read", async () => {
+    const { store } = fakes(false, {});
+    const getTripFactsForRoutes = vi
+      .fn(lookupFacts(store))
+      .mockImplementationOnce(() => Effect.fail(new Error("down")));
+    const batched = selectStationTripLookups(
+      `agency-${++agencySeq}`,
+      { hasTripIdentities: false, getRoutesForTrips: () => Effect.succeed(new Map()) },
+      Effect.succeed({ ...store, getTripFactsForRoutes }),
+    );
+
+    await expect(Effect.runPromise(batched.getTripFactsForRoutes(requested))).rejects.toThrow(
+      "down",
+    );
+    await Effect.runPromise(batched.getTripFactsForRoutes(requested));
+
+    expect(getTripFactsForRoutes).toHaveBeenCalledTimes(2);
   });
 });
 
