@@ -36,11 +36,17 @@ export async function handleFetchNearbyTransit(
   data: NearbyRpcInput,
   getContext: GetSurfaceTransitContext = getSurfaceTransitContext,
 ): Promise<readonly NearbyRouteArrival[]> {
-  return runRpc({ label: "fetchNearbyTransit", getContext: () => getContext(data.agencyId) }, () =>
-    Effect.gen(function* () {
-      const service = yield* NearbyTransit;
-      return yield* service.getNearbyTransit(data);
-    }),
+  return runRpc(
+    {
+      label: "fetchNearbyTransit",
+      agencyId: data.agencyId,
+      getContext: () => getContext(data.agencyId),
+    },
+    () =>
+      Effect.gen(function* () {
+        const service = yield* NearbyTransit;
+        return yield* service.getNearbyTransit(data);
+      }),
   );
 }
 
@@ -48,11 +54,17 @@ export async function handleFetchSavedTransit(
   data: ParsedSavedTransitInput,
   getContext: GetSurfaceTransitContext = getSurfaceTransitContext,
 ): Promise<readonly NearbyRouteArrival[]> {
-  return runRpc({ label: "fetchSavedTransit", getContext: () => getContext(data.agencyId) }, () =>
-    Effect.gen(function* () {
-      const service = yield* NearbyTransit;
-      return yield* service.getSavedTransit(data);
-    }),
+  return runRpc(
+    {
+      label: "fetchSavedTransit",
+      agencyId: data.agencyId,
+      getContext: () => getContext(data.agencyId),
+    },
+    () =>
+      Effect.gen(function* () {
+        const service = yield* NearbyTransit;
+        return yield* service.getSavedTransit(data);
+      }),
   );
 }
 
@@ -60,14 +72,20 @@ export async function handleFetchRouteTracking(
   data: ParsedRouteTrackingInput,
   getContext: GetSurfaceTransitContext = getSurfaceTransitContext,
 ): Promise<RouteTrackingData | null> {
-  return runRpc({ label: "fetchRouteTracking", getContext: () => getContext(data.agencyId) }, () =>
-    Effect.gen(function* () {
-      const service = yield* NearbyTransit;
-      const opt = yield* service.getRouteTracking(data);
-      // A resolved Option.none() (unknown route id) is a legitimate empty
-      // result, not a failure, it stays a null payload.
-      return Option.getOrNull(opt);
-    }),
+  return runRpc(
+    {
+      label: "fetchRouteTracking",
+      agencyId: data.agencyId,
+      getContext: () => getContext(data.agencyId),
+    },
+    () =>
+      Effect.gen(function* () {
+        const service = yield* NearbyTransit;
+        const opt = yield* service.getRouteTracking(data);
+        // A resolved Option.none() (unknown route id) is a legitimate empty
+        // result, not a failure, it stays a null payload.
+        return Option.getOrNull(opt);
+      }),
   );
 }
 
@@ -75,27 +93,33 @@ export async function handleFetchRoutesMetadata(
   data: ParsedRoutesMetadataInput,
   getContext: GetSurfaceTransitContext = getSurfaceTransitContext,
 ): Promise<readonly RouteMeta[]> {
-  return runRpc({ label: "fetchRoutesMetadata", getContext: () => getContext(data.agencyId) }, () =>
-    Effect.gen(function* () {
-      const store = yield* SurfaceDataStore;
-      const routes: RouteMeta[] = [];
-      for (const routeId of data.routeIds) {
-        // Route metadata is a read-only app request served from existing
-        // topology; the canonical read never fetches or persists,
-        // so this endpoint cannot turn into a live topology write.
-        // Topology repair belongs to the explicit crawl seam.
-        const opt = yield* store.getRoute(routeId);
-        if (Option.isSome(opt)) {
-          routes.push({
-            id: opt.value.id,
-            shortName: opt.value.shortName,
-            longName: opt.value.longName,
-            routeType: opt.value.routeType,
-          });
+  return runRpc(
+    {
+      label: "fetchRoutesMetadata",
+      agencyId: data.agencyId,
+      getContext: () => getContext(data.agencyId),
+    },
+    () =>
+      Effect.gen(function* () {
+        const store = yield* SurfaceDataStore;
+        const routes: RouteMeta[] = [];
+        for (const routeId of data.routeIds) {
+          // Route metadata is a read-only app request served from existing
+          // topology; the canonical read never fetches or persists,
+          // so this endpoint cannot turn into a live topology write.
+          // Topology repair belongs to the explicit crawl seam.
+          const opt = yield* store.getRoute(routeId);
+          if (Option.isSome(opt)) {
+            routes.push({
+              id: opt.value.id,
+              shortName: opt.value.shortName,
+              longName: opt.value.longName,
+              routeType: opt.value.routeType,
+            });
+          }
         }
-      }
-      return routes;
-    }),
+        return routes;
+      }),
   );
 }
 
@@ -104,7 +128,11 @@ export async function handleFetchAllRoutesCatalog(
   getContext: GetSurfaceTransitContext = getSurfaceTransitContext,
 ): Promise<readonly RouteMeta[]> {
   return runRpc(
-    { label: "fetchAllRoutesCatalog", getContext: () => getContext(data.agencyId) },
+    {
+      label: "fetchAllRoutesCatalog",
+      agencyId: data.agencyId,
+      getContext: () => getContext(data.agencyId),
+    },
     () =>
       Effect.gen(function* () {
         const store = yield* SurfaceDataStore;

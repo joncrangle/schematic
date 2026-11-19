@@ -25,6 +25,7 @@ import { NearbyTransit } from "~/services/surface/NearbyTransit";
 import { parseStationDeparturesInput } from "~/services/StationsClient";
 import {
   buildStationsSourceLayer,
+  handleFetchFeedStationDepartures,
   handleFetchNearbyStations,
   handleFetchSavedStations,
   handleFetchStationDepartures,
@@ -32,6 +33,7 @@ import {
 } from "~/services/StationsServer";
 import { parseNearbyRpcInput } from "~/services/nearby/rpcInput";
 import * as agencies from "~/agencies";
+import { logger } from "~/infrastructure/logging/logger";
 import { createSwrFeedCache } from "~/infrastructure/realtime/swrFeedCache";
 import { encodeFeed } from "../helpers/gtfs-rt-binary";
 
@@ -173,6 +175,27 @@ describe("StationsClient short-circuit logic", () => {
       lat: undefined,
       lon: undefined,
     });
+  });
+});
+
+describe("RPC failure diagnostics", () => {
+  it("names the agency when feed-station departures fail", async () => {
+    const errorSpy = vi.spyOn(logger, "error").mockImplementation(() => undefined);
+
+    await expect(
+      handleFetchFeedStationDepartures({
+        agencyId: "missing-agency",
+        stationId: "hub",
+        stationName: "Hub",
+        stopIds: ["stop"],
+      }),
+    ).rejects.toThrow('Unknown agency "missing-agency"');
+
+    expect(errorSpy).toHaveBeenCalledWith(
+      "fetchFeedStationDepartures: RPC failed",
+      expect.objectContaining({ agencyId: "missing-agency" }),
+    );
+    errorSpy.mockRestore();
   });
 });
 

@@ -16,7 +16,7 @@ import { StationsError } from "~/domain/surface/stationsSource";
 import { getActiveAgency, getAgencyById } from "~/agencies";
 import { resolveContentLocale, type UiLocale } from "~/domain/locale";
 import { memoizedLayerContext } from "~/services/memoizedLayerContext";
-import { runRpc } from "~/services/runRpc";
+import { logRpcFailure, runRpc } from "~/services/runRpc";
 import { getFeedSecret } from "~/infrastructure/env/ServerEnv";
 import { getDevRequestOrigin } from "~/services/devRequestOrigin";
 import { createServerAgencyRuntime } from "~/services/AgencyRuntimeServer";
@@ -129,7 +129,11 @@ export async function handleFetchNearbyStations(
   ) => Promise<Context.Context<StationsSource>> = getStationsSourceContext,
 ): Promise<readonly NearbyStationArrival[]> {
   return runRpc(
-    { label: "fetchNearbyStations", getContext: () => getContext(data.agencyId, data.locale) },
+    {
+      label: "fetchNearbyStations",
+      agencyId: data.agencyId,
+      getContext: () => getContext(data.agencyId, data.locale),
+    },
     () =>
       Effect.gen(function* () {
         const source = yield* StationsSource;
@@ -156,7 +160,11 @@ export async function handleFetchSavedStations(
   if (data.stationNames.length === 0) return [] as NearbyStationArrival[];
 
   return runRpc(
-    { label: "fetchSavedStations", getContext: () => getContext(data.agencyId, data.locale) },
+    {
+      label: "fetchSavedStations",
+      agencyId: data.agencyId,
+      getContext: () => getContext(data.agencyId, data.locale),
+    },
     () =>
       Effect.gen(function* () {
         const source = yield* StationsSource;
@@ -178,7 +186,11 @@ export async function handleFetchStationDepartures(
   ) => Promise<Context.Context<StationsSource>> = getStationsSourceContext,
 ): Promise<readonly NearbyStationArrival[]> {
   return runRpc(
-    { label: "fetchStationDepartures", getContext: () => getContext(data.agencyId, data.locale) },
+    {
+      label: "fetchStationDepartures",
+      agencyId: data.agencyId,
+      getContext: () => getContext(data.agencyId, data.locale),
+    },
     () =>
       Effect.gen(function* () {
         const source = yield* StationsSource;
@@ -195,21 +207,26 @@ export async function handleFetchStationDepartures(
 export async function handleFetchFeedStationDepartures(
   input: FeedStationDeparturesInput,
 ): Promise<readonly NearbyStationArrival[]> {
-  const provider = getAgencyById(input.agencyId);
-  if (!provider) throw new Error(`Unknown agency "${input.agencyId}"`);
-  const db = await resolveRuntimeBinding(TRANSIT_BINDING_NAME);
-  return Effect.runPromise(
-    fetchFeedStationDepartures(input, {
-      provider,
-      store: makeD1SurfaceDataStoreService(db, {
-        agencyId: input.agencyId,
-        routeInterpretation: provider.manifest.routeInterpretation,
+  try {
+    const provider = getAgencyById(input.agencyId);
+    if (!provider) throw new Error(`Unknown agency "${input.agencyId}"`);
+    const db = await resolveRuntimeBinding(TRANSIT_BINDING_NAME);
+    return await Effect.runPromise(
+      fetchFeedStationDepartures(input, {
+        provider,
+        store: makeD1SurfaceDataStoreService(db, {
+          agencyId: input.agencyId,
+          routeInterpretation: provider.manifest.routeInterpretation,
+        }),
+        identities: getAlertIdentityLookups(input.agencyId),
+        fetch: workerFetch,
+        now: () => Date.now(),
+        getSecret: getFeedSecret,
+        devProxyOrigin: getDevRequestOrigin(),
       }),
-      identities: getAlertIdentityLookups(input.agencyId),
-      fetch: workerFetch,
-      now: () => Date.now(),
-      getSecret: getFeedSecret,
-      devProxyOrigin: getDevRequestOrigin(),
-    }),
-  );
+    );
+  } catch (error) {
+    logRpcFailure("fetchFeedStationDepartures", input.agencyId, error);
+    throw error;
+  }
 }
